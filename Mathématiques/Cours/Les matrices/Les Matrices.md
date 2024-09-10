@@ -117,7 +117,14 @@ d_{1}&&0 \\
 \end{pmatrix}$$
 $$\forall i,j \in [\![1,n]\!], i \neq j \Rightarrow d_{i} \neq d_{j}$$
 Alors, 
-$$\forall M \in \mathcal{M}_{n}(\mathbb{K})$$
-$$AM = MA \Leftrightarrow M \text{ est diagonale}$$
+$$\forall M \in \mathcal{M}_{n}(\mathbb{K}), AM = MA \Leftrightarrow M \text{ est diagonale}$$
 
-Démonstration 
+
+Démonstration :
+D'après ci dessus, 
+$$\begin{array}{rl}
+AM = MA &\Leftrightarrow \forall i, j \in [\![1,n]\!], d_{i}m_{i, j} = m_{i,j}d_{j} \\
+& \Leftrightarrow \forall i, j \in [\![1,n]\!], (d_{i}-d_{j})m_{i, j} = 0 \\
+&\Leftrightarrow \forall i, j \in [\![1,n]\!], i \neq j \Rightarrow m_{i, j} = 0 & &(\text{car } d_{i} \neq d_{j}) \\
+&\Leftrightarrow M \text{ est diagonale}
+\end{array}$$
