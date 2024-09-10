@@ -93,3 +93,9 @@ On pose :
 
 On a bien : 
 - $\left| y\right|>0$ car $i < j$
+- $\left| x_{y}\right| = \left| u_{1}\dots u_{j}\right|\leq N$ car $j \leq N$
+- $\forall n \in \mathbb{N}, xy^{n}z\in L$
+
+Il existe un chemin d'étiquette $y^{n}$ de $q_{i}$ à $q_{j} = q_{i}$ pour tout $n \in \mathbb{N}$ ($n$ itérations du cycle parcouru par $y$), donc il existe une execution acceptante de $\mathcal{A}$ d'étiquette $xy^{n}z$
+
+#### Propriété 8 (Démonstration)
