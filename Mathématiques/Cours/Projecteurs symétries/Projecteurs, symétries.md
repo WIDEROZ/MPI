@@ -63,3 +63,19 @@ E \to E \\
 x \mapsto z
 \end{cases}$$
 est le projecteur sur $G$ // $F$.
+$$\forall x \in E, x = f(x)+g(x) \Leftrightarrow g = Id_{E} - f$$
+
+# Symétrie
+#### Définition
+On appelle symétrie de $E$ tout $f \in \mathcal{L}(E)$, $f \circ f = Id_{E}$,
+(ie $f \in GL(E)$ et $f^{-1} = f$)
+Dans ce cas, en notant 
+$$\begin{cases}
+F = \{ x \in E | f(x) = x \} = \mathrm{Ker}(f-Id_{E}) \\
+G = \{ x \in E | f(x) = -x \}= \mathrm{Ker}(f + Id_{E})
+\end{cases}$$
+En posant : 
+$$p = \frac{f + Id_{E}}{2}$$
+On a : 
+$$p \circ p = \frac{f + Id_{E}}{2} \circ \frac{f + Id_{E}}{2}=\frac{1}{4}(s \circ s + 2s \circ Id_{E} + Id_{E}^{2} )=p $$
+$$\mathrm{Ker}(p) = \mathrm{Ker}\left( \frac{s+Id_{E}}{2} \right) = \mathrm{Ker}(s + Id)$$
