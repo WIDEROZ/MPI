@@ -17,3 +17,6 @@ Q = \frac{1}{r}L\omega_{0}  = 10^{\frac{G_{db}}{20}} = 6.31 = \frac{1}{r}\sqrt{ 
 \end{cases}$$
 $$L = \frac{Qr}{\omega_{0}} = 2.47 mH$$
 $$C = \frac{1}{\omega_{0}^{2}L} = 0.14 \mu F$$
+# II. Filtrage d'une tension
+#### Question 6
+$$u_{\omega_{rés}} = 6.4 V$$
