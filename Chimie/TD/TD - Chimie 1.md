@@ -14,4 +14,14 @@ n_{eq}(O_{2}) = n_{1} - \xi_{f}
 \end{cases}$$
 $$\xi_{f} = n_{eq}(O_{2})-n_{eq}(SO_{2}) = 8.94 \text{ mol}$$
 $$n_{1} = n_{eq}(O_{2}) + \xi_{f} = 18.16 \text{ mol}$$
-$$n_{gaz} = n_{eq}(SO_{2}) + n_{eq}(O_{2}) + n_{eq}(SO_{3}) + n_{eq}(N_{2}) = $$
+$$n_{gaz} = n_{eq}(SO_{2}) + n_{eq}(O_{2}) + n_{eq}(SO_{3}) + n_{eq}(N_{2}) = 6n_{1}-\xi$$
+$$P(SO_{2}) = \frac{n_{eq}(SO_{2})}{n_{tot}}P = \frac{n_{1}-2\xi_{f}}{6n_{1}-\xi_{f}}P$$
+$$P(O_{2}) = \frac{n_{1}-\xi_{f}}{6n_{1}-\xi_{f}}P$$
+$$P(SO_{3}) = \frac{2\xi_{f}}{6n_{1}-\xi_{f}}P$$
+
+Comme le système chimique est à l'équilibre :
+$$K^{0} = Q_{2} = \frac{\left( \frac{P(SO_{3})}{P_{0}} \right)^{2}}{\left( \frac{P(SO_{2})}{P_{0}} \right)^{2}\left( \frac{P(O_{2})}{P_{0}} \right)^{1}}$$
+Alors, 
+$$K^{0} = \frac{(2\xi_{f})^{2}}{(n_{1}-2\xi_{f})^{2}(n_{1}-\xi_{f})} \frac{(6n_{1}-\xi_{f})}{P}P_{0} = 4.4 \cdot 10^{4}$$
+
+
