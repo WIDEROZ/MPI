@@ -20,3 +20,5 @@ $$C = \frac{1}{\omega_{0}^{2}L} = 0.14 \mu F$$
 # II. Filtrage d'une tension
 #### Question 6
 $$u_{\omega_{rés}} = 6.4 V$$
+D’après le théorème de monsieur le grand gabriel 
+le rang d'une application canoniquement associé à une matrice carré de taille n la matrice est inversible si la dimension de l'espace vectorielle est plus 
