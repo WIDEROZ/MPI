@@ -6,3 +6,6 @@ Le réactif limitant sera le $SO_{2}$ car on à besoin de faire plus de $SO_{2}$
 ### (b).
 Feuille
 
+## 2.
+### (a).
+$$Q_{r} = \frac{1^{1}}{}$$
