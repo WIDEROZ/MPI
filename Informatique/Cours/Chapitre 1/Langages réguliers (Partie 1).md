@@ -69,3 +69,16 @@ Pour tout $j \in [\![0, n]\!]$, tout état $q_{j}$ est à la fois accessible (pa
 Donc, $q_{0} \in I'$, $q_{n} \in F'$, et $(q_{i-1}, u_{i}, q_{i}) \in \delta'$ pour tout $i \in [\![1,n]\!]$
 Donc, $(q_{i})$ est une execution acceptante de $\mathcal{A}'$ : 
 $\mathcal{A}'$ reconnait $u$
+
+# 5. Lemme de l'étoile
+Démonstration :
+Soit $L$ un langage régulier. D'après le théorème de Kleene, il existe un automate $\mathcal{A}$ tel que $\mathcal{L}(A) = L$.
+Soit $N$ le nombre d'état de $\mathcal{A}$. 
+Soit $u \in L$ un mot de taille $\left| u\right| = k \geq N$. 
+Il existe une execution acceptante : $(q_{i})_{i = 0}^{k}$ d'étiquette $u$ : 
+$$\forall i \in [\![1, k]\!], (q_{i-1}, k, q_{i}) \in \delta$$
+$$\{ q_{i} ; i \in [\![0, k]\!] \} \subset Q$$
+or, 
+$$\left| Q\right| = N < \left| [\![0, k]\!]\right|$$
+Il n'existe donc pas de fonction injective de $[\![0, k]\!]$ dans $\{ q_{i} ; i \in [\![0, k]\!] \}$ (principe des tiroirs)
+En particulier, la fonction qui à $i \in [\![0, k]\!]$ associe $q_{i}$ n'est pas injective 
