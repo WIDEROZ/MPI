@@ -81,4 +81,15 @@ $$\{ q_{i} ; i \in [\![0, k]\!] \} \subset Q$$
 or, 
 $$\left| Q\right| = N < \left| [\![0, k]\!]\right|$$
 Il n'existe donc pas de fonction injective de $[\![0, k]\!]$ dans $\{ q_{i} ; i \in [\![0, k]\!] \}$ (principe des tiroirs)
-En particulier, la fonction qui à $i \in [\![0, k]\!]$ associe $q_{i}$ n'est pas injective 
+En particulier, la fonction qui à $i \in [\![0, k]\!]$ associe $q_{i}$ n'est pas injective : 
+$$\exists i, j \in [\![0, k]\!], i \neq j \text{ et } q_{i} = q_{j}$$
+Soit $j \in [\![0,k]\!]$ le plus petit entier tel qu'il existe $i < j$ tel que : $q_{i} = q_{j}$
+Soit $i < j$ l'entier tel que $q_{i} = q_{j}$, $j \leq N$ (sinon, ou moins $N+1$ états différents : absurde)
+
+On pose : 
+- $x = u_{1}\dots u_{i}$
+- $y = u_{i+1}\dots u_{j}$
+- $z = u_{j+1}\dots u_{k}$
+
+On a bien : 
+- $\left| y\right|>0$ car $i < j$
