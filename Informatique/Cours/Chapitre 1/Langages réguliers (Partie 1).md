@@ -99,3 +99,9 @@ On a bien :
 Il existe un chemin d'étiquette $y^{n}$ de $q_{i}$ à $q_{j} = q_{i}$ pour tout $n \in \mathbb{N}$ ($n$ itérations du cycle parcouru par $y$), donc il existe une execution acceptante de $\mathcal{A}$ d'étiquette $xy^{n}z$
 
 #### Propriété 8 (Démonstration)
+Supposons que $L$ soit régulier, d'après le Lemme de l'étoile il existe $N \geq 0$ tel que pour tout mot $\left| u\right|\geq N$, 
+$u$ s'écrit sous la forme $xyz$ avec $\left| xy\right| \leq N$, $\left| y\right|>0$ et $\mathcal{L}(xy^{n}z)\subset L$
+En particulier, $u = a^{N}b^{N} \in \mathcal{L}$ et $\left| u\right| = 2N\geq N$
+Soient $x, y, z \in \sum^{*}$ tels que $u = xyz$, $\left| xy\right|\leq N$ et $\left| y\right|> 0$
+$xy$ est de la forme $a^{l}$
+Comme $\left| y\right|>0$, il existe $k > 0$ tel que $y = a^{k}$ et 
