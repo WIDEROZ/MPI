@@ -62,7 +62,7 @@ $$L_{A} : \begin{cases}
 \mathcal{M}_{p,1} \to \mathcal{M}_{n, 1} \\
 X \mapsto AX
 \end{cases}$$
-
+n
 #### Propriété
 $$\mathcal{D}_{n}(\mathbb{K}) \text{ et } \mathcal{T}_{n}^{+}(\mathbb{K})$$
 Sont stables par multiplication
