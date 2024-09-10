@@ -104,4 +104,7 @@ $u$ s'écrit sous la forme $xyz$ avec $\left| xy\right| \leq N$, $\left| y\right
 En particulier, $u = a^{N}b^{N} \in \mathcal{L}$ et $\left| u\right| = 2N\geq N$
 Soient $x, y, z \in \sum^{*}$ tels que $u = xyz$, $\left| xy\right|\leq N$ et $\left| y\right|> 0$
 $xy$ est de la forme $a^{l}$
-Comme $\left| y\right|>0$, il existe $k > 0$ tel que $y = a^{k}$ et 
+Comme $\left| y\right|>0$, il existe $k > 0$ tel que $y = a^{k}$ et $x = a^{l-k}$
+En particulier, pour $n = 2$, $xy^{2}z = a^{N+k}b^{N} \in L$
+Absurde car $N +k \neq N$
+Donc $L$ n'est pas régulier.
