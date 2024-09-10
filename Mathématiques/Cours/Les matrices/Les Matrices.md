@@ -64,4 +64,60 @@ X \mapsto AX
 \end{cases}$$
 
 #### Propriété
-$$$$
+$$\mathcal{D}_{n}(\mathbb{K}) \text{ et } \mathcal{T}_{n}^{+}(\mathbb{K})$$
+Sont stables par multiplication
+
+$$\begin{array}{c}
+\forall \begin{pmatrix}
+a_{11} &&a_{i, j} \\
+& \diagdown\\
+0&&a_{n, n}
+\end{pmatrix},  \begin{pmatrix}
+b_{11} &&b_{i, j} \\
+& \diagdown\\
+0&&b_{n, n}
+\end{pmatrix} \in \mathcal{T}_{n}^{+}(\mathbb{K}),  \\
+AB = \begin{pmatrix}
+a_{11}b_{11}&&&* \\
+&a_{22}b_{22}&& \\
+&&\diagdown \\
+0&&& a_{n,n}b_{n, n}
+\end{pmatrix}
+\end{array}$$
+
+#### Propriété
+Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
+$$\begin{array}{l}
+L_{A} \text{ est un proj} \Leftrightarrow A^{2} = A \\
+L_{A} \text{ est une sym} \Leftrightarrow A^{2} = I_{n}
+\end{array}$$
+
+Ca provient du fait que : 
+$$\psi : \begin{cases}
+\mathcal{M}_{n}(\mathbb{K}) \to \mathcal{L}(\mathcal{M}_{n, 1}(\mathbb{K}), \mathcal{M}_{n, 1}(\mathbb{K})) \\
+A \mapsto L_{A}
+\end{cases}$$
+est un isomorphisme envoyant $\times$ sur $0$. 
+
+##### Propriété
+$$(\mathcal{M}_{n}(\mathbb{K}), +, \times) \text{ est un anneau}$$
+ni commutatif, ni intègre, (sauf si $n=1$)
+
+$$\begin{cases}
+E_{1, 2} E_{2,1} = E_{1, 1} \neq E_{2, 2} = E_{2,1}E_{1,2} \\
+E_{1, 2} \neq 0 \text{ mais } E_{1, 2}^{2} = 0
+\end{cases}$$
+
+#### Exercice
+Soit 
+$$A = \begin{pmatrix}
+d_{1}&&0 \\
+& \diagdown& \\
+0&&d_{n}
+\end{pmatrix}$$
+$$\forall i,j \in [\![1,n]\!], i \neq j \Rightarrow d_{i} \neq d_{j}$$
+Alors, 
+$$\forall M \in \mathcal{M}_{n}(\mathbb{K})$$
+$$AM = MA \Leftrightarrow M \text{ est diagonale}$$
+
+Démonstration 
