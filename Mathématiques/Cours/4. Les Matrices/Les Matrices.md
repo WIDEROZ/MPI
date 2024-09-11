@@ -185,3 +185,20 @@ $$GL_{n}(\mathbb{K})\text{ est un groupe}$$
 - $\begin{array}{rl} A \in GL_{n} &\Leftrightarrow \det A \neq 0  \\&\Leftrightarrow L_{A} \text{ est bijective} \\&\Leftrightarrow \mathrm{rg} \space A = n  \\&\Leftrightarrow \mathrm{Ker}(A) = \{ 0 \}\end{array}$
 
 #### Opérations élémentaires sur les matrices
+HAHA
+
+#### Définition
+Soit $A, B \in \mathcal{M}_{n, p}(\mathbb{K}) = E$, 
+$A$ et $B$ dont dites équivalentes lorsqu'il existe $P \in GL_{n}(\mathbb{K})$ et $Q \in GL_{p}(\mathbb{K})$ tel que :
+$$B = Q^{-1}AP$$
+
+C'est une relation d'équivalence sur $E$
+
+#### Propriété
+Si $A$ est équivalente à $B$ alors $\mathrm{rg} \space(A) = \mathrm{rg} \space(B)$
+
+En fait lorsqu'il existe $Q \in GL_{p}(\mathbb{K})$ et $P \in GL_{n}(\mathbb{K})$
+$$\begin{cases}
+\mathrm{Im}(AP) = \mathrm{Im}(A) \\
+\mathrm{Ker}(Q^{-1}A) = \mathrm{Ker}(A)
+\end{cases}$$
