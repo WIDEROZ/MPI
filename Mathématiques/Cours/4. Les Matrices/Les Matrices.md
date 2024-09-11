@@ -280,3 +280,50 @@ $$Mat_{\mathcal{E}, \mathcal{F}}(f)=\begin{pmatrix}
 1&b&b^{2} \\
 1&c&c^{2}
 \end{pmatrix} = V_{3}(a, b, c)^{\top}$$
+
+#### Propriété
+$$\begin{cases}
+\mathcal{L}(E, F) \to \mathcal{M}_{n, p}(\mathbb{K}) \\
+f \mapsto Mat_{\mathcal{E}, \mathcal{F}}(f)
+\end{cases}$$
+est un isomorphisme donc, 
+$$\dim \mathcal{L}(E, F) = \dim E \times \dim F$$
+Si $\mathcal{E}$ est la base canonique de $\mathcal{M}_{p,1}(\mathbb{K}) = E$
+Si $\mathcal{F}$ est la base canonique de $\mathcal{M}_{n,1}(\mathbb{K}) = F$
+Alors, 
+$$\forall f \in \mathcal{L}(E, F), L_{Mat_{\mathcal{E}, \mathcal{F}}(f)} = f$$
+$$\forall A \in \mathcal{M}_{n, p}, Mat_{\mathcal{E}, \mathcal{F}}(L_{A}) = A$$
+
+#### Propriétés
+Soit $\mathcal{E}$ (resp. $\mathcal{F}, \mathcal{G}$) des bases de $E$ (resp $F$, $G$)
+$$\begin{cases}
+\mathrm{rg} (Mat_{\mathcal{E}, \mathcal{F}}(f)) = \mathrm{rg} (f) \\
+\forall f \in \mathcal{L}(E, F), \forall g \in \mathcal{L}(F, G),  \\
+Mat_{\mathcal{E}, \mathcal{F}}(g \circ f) = Mat_{\mathcal{F}, \mathcal{G}}(g)\times Mat_{\mathcal{E}, \mathcal{F}}(f)
+\end{cases}$$
+
+#### Définition
+Soient $\mathcal{E} = (e_{i})_{i = 1}^{n}$ et $\mathcal{U} = (u_{i})_{i = 1}^{n}$ deux bases de $E$.
+On appelle matrice de passage à $\mathcal{E}$ à $\mathcal{U}$ la matrice :
+$$\mathcal{P}_{\mathcal{E}}^{\mathcal{U}} = (p_{i, j})_{1 \leq i, j \leq n} \in \mathcal{M}_{n}(\mathbb{K})$$
+$$\forall j \in [\![1,n]\!], u_{j} = \sum_{i = 1}^{n} p_{i,j}e_{i}$$
+Et 
+$$ \begin{array}{c}
+\begin{array}{c}
+ \\
+d
+\end{array} \\
+\mathcal{P}_{\mathcal{E}}^{\mathcal{U}} =\begin{pmatrix}
+m_{1,1}&&&&m_{1, p} \\
+ \\
+&&m_{i, j}&& \\
+ \\
+m_{n, 1}&&&&m_{n, p}
+\end{pmatrix}\begin{array}{l}
+u_{1} \\
+u_{2} \\
+ \\
+ \\
+u_{n}
+\end{array}
+\end{array}$$
