@@ -128,3 +128,28 @@ AM = MA &\Leftrightarrow \forall i, j \in [\![1,n]\!], d_{i}m_{i, j} = m_{i,j}d_
 &\Leftrightarrow \forall i, j \in [\![1,n]\!], i \neq j \Rightarrow m_{i, j} = 0 & &(\text{car } d_{i} \neq d_{j}) \\
 &\Leftrightarrow M \text{ est diagonale}
 \end{array}$$
+
+#### Définition
+Si $A \in \mathcal{M}_{n}(\mathbb{K})$, 
+$$\mathrm{Tr}(A) = \sum_{i = 1}^{n} a_{i,i} \in \mathbb{K}$$
+et $\mathrm{Tr} \in \mathcal{L}(\mathcal{M}_{{n}}(\mathbb{K}), \mathbb{K})$
+
+#### Propriété
+$$\forall A \in \mathcal{M}_{n,p}(\mathbb{K}), B \in \mathcal{M}_{p, n}(\mathbb{K})$$
+$$\mathrm{Tr}(AB) = \mathrm{Tr}({B}A)$$
+
+Démonstration : 
+$$\mathrm{Tr}(AB) = \sum_{i = 1}^{n}(AB)[i, i]= \sum_{i = 1}^{n} \sum_{k =1}^{p} A[i, k]B[k, i]$$
+$$= \sum_{k = 1}^{p} \sum_{i = 1}^{n}B[k, i]A[i, k] = \mathrm{Tr}(BA)$$
+
+et donc, $\forall A, B, C \in \mathcal{M}_{n}(\mathbb{K})$
+$$\mathrm{Tr}(ABC) = \mathrm{Tr}(CAB)=\mathrm{Tr}(BCA) $$
+Mais, $\mathrm{Tr}(ABC) \neq \mathrm{Tr}(ACB)$
+
+#### Proposition
+Pour $E = \mathcal{M}_{n}(\mathbb{K})$, 
+Soit $\varphi \in \mathcal{L}(E, \mathbb{K})$, il existe une unique $A \in E$, telle que : 
+$$\forall M \in E, \varphi(M) = \mathrm{Tr}(AM)$$
+Démonstration : 
+Existence :
+Soit $\varphi \in E^{}$
