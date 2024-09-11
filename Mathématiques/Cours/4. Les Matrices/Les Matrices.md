@@ -247,4 +247,36 @@ Donc,
 $$\exists m_{1, j}, \dots, m_{n, j} \in \mathbb{K}, f(e_{j}) = \sum_{i = 1}^{n}\sum_{i = 1}^{n}m_{i, j}u_{i}$$
 
 Pour $i \in [\![1,p]\!]$, on note les composantes dans $\mathcal{F}$ de $f(e_{i})$ en colonnes. 
-$$$$
+$$ \begin{array}{c}
+\begin{array}{c}
+&&&&&f(e_{1})&&&&&f(e_{p}) \\
+&&&&&\downarrow&&&&&\downarrow \\
+\end{array} \\
+Mat_{\mathcal{E}, \mathcal{F}}(f) =\begin{pmatrix}
+m_{1,1}&&&&m_{1, p} \\
+ \\
+&&m_{i, j}&& \\
+ \\
+m_{n, 1}&&&&m_{n, p}
+\end{pmatrix}\begin{array}{l}
+u_{1} \\
+u_{2} \\
+ \\
+ \\
+u_{n}
+\end{array}
+\end{array}$$
+
+#### Exercice
+Soit $a, b, c \in \mathbb{R}$, 
+$$f : \begin{cases}
+\mathbb{R}_{2}[X] = E \to \mathbb{R}^{3} = F \\
+P \mapsto (P(a), P(b), P(c))
+\end{cases}$$
+Prenons $\mathcal{E} = (1, X, X_{2})$ et $\mathcal{F} = ((1,0,0), (0,1,0), (0,0,1))$
+Alors, 
+$$Mat_{\mathcal{E}, \mathcal{F}}(f)=\begin{pmatrix}
+1&a&a^{2} \\
+1&b&b^{2} \\
+1&c&c^{2}
+\end{pmatrix} = V_{3}(a, b, c)^{\top}$$
