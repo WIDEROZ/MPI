@@ -152,4 +152,31 @@ Soit $\varphi \in \mathcal{L}(E, \mathbb{K})$, il existe une unique $A \in E$, t
 $$\forall M \in E, \varphi(M) = \mathrm{Tr}(AM)$$
 Démonstration : 
 Existence :
-Soit $\varphi \in E^{}$
+Soit $\varphi \in E^{*}$, 
+Notons : 
+pour tout $i, j \in [\![1,n]\!]$, $a_{ji} = \varphi(E_{i, j})$
+alors, 
+$$\forall M =(m_{i, j}) \in E, \varphi(M) = \varphi\left( \sum_{1 \leq i, j \leq n}m_{i,j}E_{i,j} \right)$$
+$$= \sum_{1 \leq i, j \leq n} m_{i, j}a_{j,i}= \sum_{i = 1}^{n}\sum_{j = 1}^{n} m_{i,j}a_{j,i} = \mathrm{Tr}(MA) = \mathrm{Tr}(AM)$$
+
+Unicité : 
+Si $A, B \in E$ vérifient : 
+$$\forall M \in E, \varphi(M) = \mathrm{Tr}(AM) = \mathrm{Tr}(BM) \Leftrightarrow \mathrm{Tr}((A-B)M) = 0$$
+On pose : $C = A-B$, 
+
+En particulier pour $M = C^{\top}$, 
+$$0 = \mathrm{Tr}(CC^{\top}) = \sum_{i = 1}^{n} (CC^{\top})[i, i] = \sum_{i = 1}^{n}\sum_{j = 1}^{n} (C[i, j])^{2}$$
+Comme les $(C[i, j])^{2}\geq 0$
+Donc, $$\forall i, j \in [\![1,n]\!], C[i, j] = 0$$
+ie $A = B$
+
+#### Définition
+Dans l'anneau : 
+$$E = (\mathcal{M}_{n}(\mathbb{K}), +, \times)$$
+On note $GL_{n}(\mathbb{K})$ l'ensemble des matrices inversibles, ie : 
+$$\{ A \in E | \exists B \in E, AB = BA = I_{n} \}$$
+On note alors $B =A^{-1}$
+
+#### Propriété
+$$GL_{n}(\mathbb{K})\text{ est un groupe}$$
+- $I_{n}$
