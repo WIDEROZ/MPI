@@ -190,10 +190,5 @@ $$Z_{s} = \frac{Rj\omega L}{R+j\omega L}$$
 EXCALIDRAW 1. 2.
 C'est l'impédance d'entrée du filtre avec une intensité nulle en sortie. 
 $$Z_{e} = R + j\omega L$$
-$\mathcal{Zemmour mon amour<3}$
-$\Leftrightarrow \mathcal{Zem^{4}o^{3}u^{2}r^{2}na}<3$
-$\Leftrightarrow - \mathcal{Zem^{4}o^{3}r^{4}}na<3$ d'après la loi d'Ohm et (tu vas comprendre le - pd)
-$\Leftrightarrow - \mathcal{Zm^{4}o^{3}r^{4}}aq<3$ dans le cas de protons
-$\Leftrightarrow - \mathcal{Ze}$
 
 
