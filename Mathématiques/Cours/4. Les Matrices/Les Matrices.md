@@ -310,20 +310,67 @@ $$\forall j \in [\![1,n]\!], u_{j} = \sum_{i = 1}^{n} p_{i,j}e_{i}$$
 Et 
 $$ \begin{array}{c}
 \begin{array}{c}
- \\
-d
+&&Mat_{\mathcal{E}}(u_{1})&&&Mat_{\mathcal{E}}(u_{n})&&&&&&& \\
+&&\downarrow&&&\downarrow
 \end{array} \\
 \mathcal{P}_{\mathcal{E}}^{\mathcal{U}} =\begin{pmatrix}
-m_{1,1}&&&&m_{1, p} \\
+p_{1,1}&&&&p_{1, n} \\
  \\
-&&m_{i, j}&& \\
+&&p_{i, j}&& \\
  \\
-m_{n, 1}&&&&m_{n, p}
+p_{n, 1}&&&&p_{n, n}
 \end{pmatrix}\begin{array}{l}
-u_{1} \\
-u_{2} \\
+e_{1} \\
+e_{2} \\
  \\
  \\
-u_{n}
-\end{array}
+e_{n}
+\end{array}= Mat_{\mathcal{U}, \mathcal{E}}(Id_{E}) 
 \end{array}$$
+
+#### Exemple
+Si : 
+$$\mathcal{E} = \begin{pmatrix}
+\begin{pmatrix}
+1 \\
+0 \\
+0
+\end{pmatrix}, \begin{pmatrix}
+0 \\
+1 \\
+0
+\end{pmatrix}, \begin{pmatrix}
+0 \\
+0 \\
+1
+\end{pmatrix}
+\end{pmatrix} \text{ et } \mathcal{U} = \begin{pmatrix}
+\begin{pmatrix}
+1 \\
+0 \\
+0
+\end{pmatrix}, \begin{pmatrix}
+1 \\
+1 \\
+0
+\end{pmatrix},  \begin{pmatrix}
+1 \\
+1 \\
+1
+\end{pmatrix}
+\end{pmatrix}$$
+$$\mathcal{P}_{\mathcal{E}}^{\mathcal{U}} = [Mat_{\mathcal{E}}(u_{1}), Mat_{\mathcal{E}}(u_{2}), Mat_{\mathcal{E}}(u_{3})] = \begin{pmatrix}
+1&1&1 \\
+0&1&1 \\
+0&0&1
+\end{pmatrix}$$
+$$\mathcal{P}_{\mathcal{U}}^{\mathcal{E}} = [Mat_{\mathcal{U}}(e_{1}), Mat_{\mathcal{U}}(e_{2}), Mat_{\mathcal{U}}(e_{3})] = \begin{pmatrix}
+1&-1&0 \\
+0&1&-1 \\
+0&0&1
+\end{pmatrix}$$
+
+#### Propriétés
+Soit $\beta_{1}, \beta_{2}, \beta_{3}$ des bases de $E$,
+$$\mathcal{P}_{\beta_{1}}^{\beta_{2}} \times \mathcal{P}_{\beta_{2}}^{\beta_{3}} = \mathcal{P}_{\beta_{1}}^{\beta_{3}}$$
+$$\mathcal{P}_{\beta_{1}}^{\beta_{2}} \in GL_{n}(\mathbb{K}) \text{ et } \mathcal{P}_{\beta_{1}}^{\beta_{2}} = (\mathcal{P}_{\beta_{2}}^{\beta_{1}})^{-1}$$
