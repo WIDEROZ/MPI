@@ -226,4 +226,25 @@ Si elles sont semblables alors
 On dit que la trace et le déterminant sont des invariants de similitudes. 
 
 #### Remarque
-$I_{2}$ et $\begin{pmatrix}1&1\\0&1\end{pmatrix}$ ont pour trace $2$ et pour déterminant $1$
+$I_{2}$ et $\begin{pmatrix}1&1\\0&1\end{pmatrix}$ ont pour trace $2$ et pour déterminant $1$.
+Pourtant, elles ne sont pas semblables car :
+$$\forall \alpha \in \mathbb{K}, \forall P \in GL_{n}(\mathbb{K}), P^{-1}\alpha I_{n}P = \alpha I_{n}$$
+
+#### Propriété
+$$\forall k \in \mathbb{N}, \forall A \in \mathcal{M}_{n}(\mathbb{K}), \forall P \in GL_{n}(\mathbb{K}), (P^{-1}AP)^{k} = P^{-1}A^{k}P$$
+ie 
+si $A$ est semblable à $B$ alors $A^{k}$ est semblable à $B^{k}$
+
+# II. Matrices d'application linéaires
+$$A \in \mathcal{M}_{n, p}(\mathbb{K}) \rightarrow L_{A} \in \mathcal{L}(\mathcal{M}_{p,1}, \mathcal{M}_{n,1})$$
+Soient $E$ un $\mathbb{K}$-ev de dim $p$
+$F$ un $\mathbb{K}$-ev de dim $n$, $f \in \mathcal{L}(E, F)$
+Soient : 
+$$\mathcal{E} = (e_{i})_{i=1}^{p} \text{ une base de }F$$
+$$\mathcal{F} = (u_{i})_{i = 1}^{n}\text{ une base de }F$$
+$$\forall j \in [\![1,p]\!], f(e_{j}) \in F$$
+Donc, 
+$$\exists m_{1, j}, \dots, m_{n, j} \in \mathbb{K}, f(e_{j}) = \sum_{i = 1}^{n}\sum_{i = 1}^{n}m_{i, j}u_{i}$$
+
+Pour $i \in [\![1,p]\!]$, on note les composantes dans $\mathcal{F}$ de $f(e_{i})$ en colonnes. 
+$$$$
