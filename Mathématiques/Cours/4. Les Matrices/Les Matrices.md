@@ -202,3 +202,28 @@ $$\begin{cases}
 \mathrm{Im}(AP) = \mathrm{Im}(A) \\
 \mathrm{Ker}(Q^{-1}A) = \mathrm{Ker}(A)
 \end{cases}$$
+
+Démonstration : $\mathrm{Im}(AP) = \mathrm{Im}(A)$
+$$\begin{array}{c}
+\forall Y \in \mathrm{Im}(AP), \exists X \in \mathcal{M}_{p,1}, Y = APX = A(PX) \Rightarrow Y \in \mathrm{Im}(A)
+\end{array}$$
+$$\forall Y \in \mathrm{Im}(APP^{-1}), \exists X \in \mathcal{M}_{p, 1}(\mathbb{K}), AP(P^{-1}X) \Rightarrow Y \in \mathrm{Im}(AP)$$
+
+#### Définition
+Soit $A, B \in \mathcal{M}_{n}(\mathbb{K}) = E$, 
+$A$ et $B$ dont dites semblables lorsqu'il existe $P \in GL_{n}(\mathbb{K})$ tel que :
+$$B = P^{-1}AP$$
+
+#### Propriétés
+Soit $A, B \in \mathcal{M}_{n}(\mathbb{K})$, 
+Si elles sont semblables alors
+- Elles sont équivalentes
+- $\mathrm{rg} (A) = \mathrm{rg} (B)$
+- $\mathrm{Tr}(A) = \mathrm{Tr}(B)$
+- $\det(A) = \det(B)$
+
+#### Définition
+On dit que la trace et le déterminant sont des invariants de similitudes. 
+
+#### Remarque
+$I_{2}$ et $\begin{pmatrix}1&1\\0&1\end{pmatrix}$ ont pour trace $2$ et pour déterminant $1$
