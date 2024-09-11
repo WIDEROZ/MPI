@@ -177,6 +177,11 @@ On note $GL_{n}(\mathbb{K})$ l'ensemble des matrices inversibles, ie :
 $$\{ A \in E | \exists B \in E, AB = BA = I_{n} \}$$
 On note alors $B =A^{-1}$
 
-#### Propriété
+#### Propriétés
 $$GL_{n}(\mathbb{K})\text{ est un groupe}$$
-- $I_{n}$
+- $I_{n} \in GL_{n}(\mathbb{K})$
+- $\forall A, B \in GL_{n}(\mathbb{K})$, $AB \in GL_{n}$ et $(AB)^{-1}= B^{-1}A^{-1}$ et $(A^{-1})^{-1} = A$, $A^{-1} \in GL_{n}(\mathbb{K})$
+- $\forall A \in T_{n}, A \in GL_{n}(\mathbb{K}) \Leftrightarrow \forall i \in [\![1,n]\!], a_{i, i} \neq 0$
+- $\begin{array}{rl} A \in GL_{n} &\Leftrightarrow \det A \neq 0  \\&\Leftrightarrow L_{A} \text{ est bijective} \\&\Leftrightarrow \mathrm{rg} \space A = n  \\&\Leftrightarrow \mathrm{Ker}(A) = \{ 0 \}\end{array}$
+
+#### Opérations élémentaires sur les matrices
