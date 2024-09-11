@@ -6,7 +6,7 @@ $$\mathrm{Ker}(f) \oplus \mathrm{Im}(f) = E$$
 De plus, 
 $$\forall x \in E, x \in \mathrm{Im}(f) \Leftrightarrow f(x) = x$$
 
-#### Prorpriété
+#### Propriété
 $f$ projette sur $\mathrm{Im}(f)$ // $\mathrm{Ker}(f)$
 
 Démonstration : 
