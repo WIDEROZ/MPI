@@ -9,6 +9,7 @@
 ## 1. Caractère intégrateur dans la bande atténuée
 Pour $e$ un signal sinusoïdal : 
 $$\underline{H}(j\omega) = \frac{\underline{s}}{\underline{e}} \approx \frac{\omega_{0}}{j\omega}$$
+(comme $\frac{1}{j\omega}$ intègre)
 $$s(t) \approx \omega_{0} \int e(t) \, dt $$
 C'est un comportment pseudo intégrateur
 
@@ -18,3 +19,5 @@ $$\begin{cases}
 \text{la droite de }G_{dB} \text{ est de pente }-20dB/\text{décade} \\
 \varphi \approx - \frac{\pi}{2}
 \end{cases}$$
+
+## 2. Action sur un signal périodique
