@@ -42,5 +42,13 @@ Mais l'amplitude de $s(t)$ est petite, on a une atténuation forte donc un compo
 
 Cela correspond à : 
 $$\begin{cases}
-G_{dB} \sim \text{droite de }
+G_{dB} \sim \text{droite de pente }+20dB/dec \\
+\varphi \sim + \frac{\pi}{2}
 \end{cases}$$
+
+## 2. Action sur un signal périodique
+### b. Signal créneau
+EXCAL 3.
+$$e(t) = E_{0} + \sum_{k \geq 1} E_{k} \cos(\omega_{k}t + \varphi_{e}(\omega_{k}))$$
+et
+$$s(t) = E_{0}G_{0} + \sum_{k \geq 1} E_{k}G_{k}$$
