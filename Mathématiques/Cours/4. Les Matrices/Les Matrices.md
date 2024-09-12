@@ -570,3 +570,36 @@ $$u_{1} = \begin{pmatrix}
 1 \\
 1
 \end{pmatrix} \text{ convient}$$
+De même : 
+$$f(u_{2}) = ju_{2} \Leftrightarrow Au_{2} = ju_{2} \Leftrightarrow X = \begin{pmatrix}
+j^{2}z \\
+jz \\
+z
+\end{pmatrix}$$
+Donc, $u_{2} = \begin{pmatrix}j^{2}\\j\\j\end{pmatrix}$ convient
+De même $u_{3} = \begin{pmatrix}j\\j^{2}\\1\end{pmatrix}$ convient.
+
+Il ne reste plus qu'a prouver que $(u_{1}, u_{2}, u_{3})$ est une base. 
+ie que :
+$$Mat_{\mathrm{can}}(u_{1}, u_{2}, u_{3}) = \begin{pmatrix}
+1&j^{2}&j \\
+1&j&j^{2} \\
+1&1&1
+\end{pmatrix}$$
+est inversible: 
+
+#### Propriété
+Si $f \in \mathcal{L}(E)$, et si $F \underset{sev}{\subset} E$, est stable par $f$, alors : pour toute base : $(e_{1}, \dots, e_{r})$ de $F$ complétée en une base : $\mathcal{E} = (e_{1}, \dots, e_{n})$ de $E$
+$Mat_{\mathcal{E}}(f)$ est de la forme : 
+$$\left(\begin{array}{c|c}
+A&B \\ \hline
+0&C
+\end{array}\right)$$
+avec $A \in \mathcal{M}_{r}(\mathbb{K})$, $B \in \mathcal{M}_{r, n-r}(\mathbb{K})$ et $C = \mathcal{M}_{m-r}(\mathbb{K})$
+car :
+$$f(e_{1}), f(e_{2}), \dots, f(e_{r}) \in F = Vect(e_{1}, \dots, e_{r})$$
+généralisons : 
+si $F_{1}, \dots, F_{p} \underset{sev}{\subset} E$ stables par $f$ tels que : 
+$$E = F_{1} \oplus \dots \oplus F_{p}$$
+On prend une base adaptée à cette décomposition de $E$
+(ie $\mathcal{E} = \mathcal{F}1 \sqcup \dots \sqcup \mathcal{F}_{p}$ ou $\forall k \leq p, $)
