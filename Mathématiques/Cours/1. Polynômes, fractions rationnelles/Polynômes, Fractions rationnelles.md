@@ -136,9 +136,17 @@ Si $\deg P = n$, $P$ admet au plus $n$ racines
 #### Exercice
 Soit $n \in \mathbb{N}^{*}$, $a_{0} \in \mathbb{R}_{+}^{*}$, $a_{1}, \dots, a_{n-1} \in \mathbb{R}_{+}$, 
 $$P(X) = X^{n}-a_{n-1}X^{n-1} \dots -a_{1}X-a_{0} = X^{n} - \sum_{k = 0}^{n-1}a_{k}X^{k}$$
-1. Montrer que $P$ admet une unique racine sur $\mathbb{R}_{+}$ que l'on note $\rho$
+1. Montrer que $P$ admet une unique racine sur $\mathbb{R}_{+}^{*}$ que l'on note $\rho$
 2. Montrer que $\forall z \in \mathbb{C}, P(z) = 0 \Rightarrow \left| z\right|\leq \rho$
 3. d
+
+$$\sum_{k = 0}^{n-1}\frac{a_{k}}{z^{n-k}} = 1$$
+Alors, 
+$$1 = \left| \sum_{k = 0}^{n} \frac{a_{k}}{z^{n-k}}\right| \leq \sum_{k = 0}^{n-1} \frac{a_{k}}{\left|z^{n-k}\right|} = $$
+
+
+
+
 ___
 1. On pose : 
    $$\varphi : x \mapsto \sum_{k = 0}^{n-1} \frac{a_{k}}{x^{n-k}}$$
