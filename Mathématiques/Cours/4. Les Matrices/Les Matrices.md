@@ -42,7 +42,7 @@ en notant $(e_{1}, \dots, e_{n})$ la base canonnique de $\mathcal{M}_{n, 1}(\mat
 $$\forall j \in [\![1, n]\!], Vect(e_{j}) \text{ est stable par }L_{A}$$
 
 Démonstration : 
-$$L_{A}(e_{j}) = A = \begin{pmatrix}
+$$L_{A}(e_{j}) = A \begin{pmatrix}
 0 \\
 \vdots \\
 0 \\
@@ -52,9 +52,47 @@ $$L_{A}(e_{j}) = A = \begin{pmatrix}
 0
 \end{pmatrix} = \begin{pmatrix}
 a_{1, 1} \\
-
+\vdots \\
+a_{j, j} \\
+\vdots \\
+a_{n, j}
 \end{pmatrix}$$
-ATTRAPER
+$$\begin{array}{rl}
+\text{Donc, } Vect(e_{j}) \text{ est stable par } L_{A} &\Leftrightarrow L_{A}(e_{j}) \in Vect(e_{j}) \\
+&\Leftrightarrow \exists \alpha_{j} \in \mathbb{K}, L_{A}(e_{j}) = \alpha e_{j} \\
+&\Leftrightarrow \exists \alpha_{j} \in \mathbb{K}, \begin{pmatrix}
+a_{1, j} \\
+\vdots \\
+a_{n, j} 
+\end{pmatrix} = \begin{pmatrix}
+0 \\
+\vdots \\
+0 \\
+\alpha_{j} \\
+0 \\
+\vdots \\
+0
+\end{pmatrix} \\
+&\Leftrightarrow \text{La j}^{\text{ieme}} \text{ colonne } \\
+&\text{est de la forme :} \\
+&\begin{pmatrix}
+0 \\
+\vdots \\
+0 \\
+\alpha_{j} \\
+0 \\
+\vdots \\
+0
+\end{pmatrix}
+\end{array}$$
+
+Ainsi, 
+$$\forall j \in [\![1,n]\!], Vect(e_{j} )\text{ est stable par }L_{A}$$
+$$\Leftrightarrow \exists \alpha_{1}, \dots, \alpha_{n} \in \mathbb{K}, A = \begin{pmatrix}
+\alpha_{1}& 0 & \dots& \dots & 0 \\
+0 & \alpha_{2} & 0 & \dots&\dots & 0 \\
+\vdots&0& \diagdot
+\end{pmatrix}$$
 
 #### Définition
 Si $A \in \mathcal{M}_{n, p}(\mathbb{K})$,
