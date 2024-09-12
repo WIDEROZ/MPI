@@ -602,4 +602,37 @@ généralisons :
 si $F_{1}, \dots, F_{p} \underset{sev}{\subset} E$ stables par $f$ tels que : 
 $$E = F_{1} \oplus \dots \oplus F_{p}$$
 On prend une base adaptée à cette décomposition de $E$
-(ie $\mathcal{E} = \mathcal{F}1 \sqcup \dots \sqcup \mathcal{F}_{p}$ ou $\forall k \leq p, $)
+(ie $\mathcal{E} = \mathcal{F}1 \sqcup \dots \sqcup \mathcal{F}_{p}$ ou $\forall k \leq p, \mathcal{F}_{k}$ est une base de $F_{k}$)
+
+la matrice de $f$ dans $\mathcal{E}$ est de la forme : 
+$$\begin{pmatrix}
+A_{1}&0&\dots&0 \\
+0&A_{2}&\ddots&\vdots \\
+\vdots&\ddots&\ddots&\vdots \\
+0&\dots&0&A_{p}
+\end{pmatrix}$$
+elle est diagonale par blocs. 
+ou $\forall k \in [\![1, p]\!]$, $A_{k} = Mat_{\mathcal{F}_{k}}(f_{|_{F_{k}}})$ 
+
+#### Définition / Propriété
+En dimension finie si $\dim E \neq + \infty$ et $f \in \mathcal{L}(E)$, on note : pour toute base $\beta$ de $E$
+$$\mathrm{Tr}(f) = \mathrm{Tr}(Mat_{\beta}(f))$$
+Cohérent car 2 matrices semblables ont la même trace
+
+#### Propriété
+Si $p \in \mathcal{L}(E)$ est un projecteur, il existe une base $\beta$ de $E$ telle que :
+$$Mat_{\beta}(p) = J_{r}$$
+et la réciproque est vraie !
+
+Démonstration : 
+$\Rightarrow$ : 
+On prend une base : 
+$(e_{1}, \dots, e_{r}, e_{r+1}, \dots, e_{n})$
+$(e_{1}, \dots, e_{r})$ une base de $\mathrm{Im}(p)$
+$(e_{r+1}, \dots, e_{n})$ une base de $\mathrm{Ker}(p)$
+
+C"est possible car : 
+$$E = \mathrm{Im}(p) \oplus \mathrm{Ker}(p)$$
+Alors, 
+$$\forall k \in [\![1, r]\!], p(e_{k}) = e_{k}$$
+$$\forall k \in [\![r+1, n]\!], p(e_{k}) = 0$$
