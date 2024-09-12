@@ -32,3 +32,15 @@ $$s(t) \approx G_{\max}e(t)$$
 
 ## c. Signal triangulaire
 EXCAL 2
+
+# III. Filtres passe-haut du premier d'ordre
+## 1. Caractère dérivateur dans la bande atténuée
+Pour $e$ un signal sinusoïdal : 
+Si $\omega \ll \omega_{0}$, 
+$$\underline{H}(j\omega) = \frac{\underline{s}}{\underline{e}} \approx \frac{j\omega}{\omega_{0}} \Rightarrow \underline{s} \approx \frac{1}{\omega_{0}} \frac{d(e(t))}{dt}$$
+Mais l'amplitude de $s(t)$ est petite, on a une atténuation forte donc un comportement pseudo dérivateur. 
+
+Cela correspond à : 
+$$\begin{cases}
+G_{dB} \sim \text{droite de }
+\end{cases}$$
