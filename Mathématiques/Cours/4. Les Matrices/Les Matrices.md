@@ -489,4 +489,84 @@ sont les bases cannoniques de $\mathcal{E}$ et $\mathcal{F}$
 D'après la formule de changement de base : 
 $$J_{r} = Q^{-1}MP$$
 ou : 
-$$Q = \mathcal{P}_{F}$$
+$$Q = \mathcal{P}_{\mathcal{F}}^{\mathcal{F}'}, P = \mathcal{P}_{\mathcal{E}}^{\mathcal{E}'}$$
+
+#### Propriété
+Deux matrices $A, B \in \mathcal{M}_{n}(\mathbb{K})$ sont semblables 
+ssi
+elles représentent le même endomorphisme dans deux bases
+ssi
+il existe une base $\beta$ de $\mathcal{M}_{n, 1}(\mathbb{K})$ telle que : 
+$$B = Mat_{\beta}(L_{A})$$
+
+#### Exemple
+Montrons que : 
+$$A = \begin{pmatrix}
+0&0&1 \\
+1&0&0 \\
+0&1&0
+\end{pmatrix} \text{ et } B = \begin{pmatrix}
+1&0&0 \\
+0&j&0 \\
+0&0&j^{2}
+\end{pmatrix} \in \mathcal{M}_{3}(\mathbb{C})$$
+sont semblables
+ie si on note :
+$$f:\begin{cases}
+E \to E \\
+X = \begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix} \mapsto AX = \begin{pmatrix}
+z \\
+x \\
+y
+\end{pmatrix}
+\end{cases}$$
+il faut et il suffit de trouver : 
+$$\beta = (u_{1}, u_{2}, u_{3})$$
+une base de $E$ et 
+$$B = Mat_{\beta}(f)$$
+$$\begin{array}{c}
+\begin{array}{c}
+Mat_{\beta}(f(u_{1}))&Mat_{\beta}(f(u_{2}))&Mat_{\beta}(f(u_{3})) \\
+\downarrow&\downarrow&\downarrow \\
+\end{array} \\
+\begin{pmatrix}
+1\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space&0&\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space0 \\
+0\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space&j&\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space 0 \\
+0\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space&0&\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space\space j^{2}
+\end{pmatrix}
+\end{array}$$
+ie 
+$$\begin{cases}
+f(u_{1}) = u_{1} \\
+f(u_{2}) = ju_{2} \\
+f(u_{3}) = u_{3}
+\end{cases}$$
+Notons : $X = (x, y, z)^{\top}$, 
+Or 
+$$\begin{array}{rl}
+f(u_{1}) = u_{1}&\Leftrightarrow Au_{1} = u_{1} \\
+&\Leftrightarrow \begin{pmatrix}
+z \\
+x \\
+y
+\end{pmatrix} = \begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix} \\
+&\Leftrightarrow X = \begin{pmatrix}
+x \\
+x \\
+x
+\end{pmatrix}
+\end{array}$$
+Ainsi : 
+$$u_{1} = \begin{pmatrix}
+1 \\
+1 \\
+1
+\end{pmatrix} \text{ convient}$$
