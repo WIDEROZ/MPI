@@ -53,7 +53,7 @@ on a bien sur : $A | Q \Leftrightarrow R =0$
 Quels sont les $P \in \mathbb{R}[X]$ divisibles par leur polynômes dérivés $P'$?
 
 Soit $n \in \mathbb{N}^{*}$, $\alpha \in \mathbb{R}$, 
-le polynome $P = (X-\alpha)^{n}$ est une solution car : 
+le polynôme $P = (X-\alpha)^{n}$ est une solution car : 
 $$(X-\alpha)^{n} = n(X-\alpha)^{n-1} \left( \frac{X-\alpha}{n} \right)$$
 
 Réciproquement : 
