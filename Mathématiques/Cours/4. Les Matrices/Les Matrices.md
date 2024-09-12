@@ -89,10 +89,13 @@ a_{n, j}
 Ainsi, 
 $$\forall j \in [\![1,n]\!], Vect(e_{j} )\text{ est stable par }L_{A}$$
 $$\Leftrightarrow \exists \alpha_{1}, \dots, \alpha_{n} \in \mathbb{K}, A = \begin{pmatrix}
-\alpha_{1}& 0 & \dots& \dots & 0 \\
-0 & \alpha_{2} & 0 & \dots&\dots & 0 \\
-\vdots&0& \diagdot
+\alpha_{1}& 0 & \dots & \dots&0 \\
+0 & \alpha_{2} & 0 & & \vdots \\
+\vdots&0& \ddots&\ddots&\vdots \\
+\vdots&&\ddots&\ddots &0\\
+0&\dots&\dots&0&\alpha_{n}
 \end{pmatrix}$$
+$$\Leftrightarrow A \in D_n(\mathbb{K})$$
 
 #### Définition
 Si $A \in \mathcal{M}_{n, p}(\mathbb{K})$,
