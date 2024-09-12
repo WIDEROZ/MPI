@@ -4,7 +4,7 @@ Les éléments de $\mathbb{K}[X]$ se notent :
 $$P(X) = \sum_{k = 0}^{n} a_{k}X^{k}$$ou $n \in \mathbb{N}$, $a_{0}, \dots , a_{n} \in \mathbb{K}$
 ou
 $$\sum_{k = 0}^{+ \infty} a_{k}X^{k}$$
-en supposant que, 
+en supposant que, 3
 $$\exists n \in \mathbb{N}, \forall k \in \mathbb{N}, (n \geq k \Rightarrow a_{k} = 0)$$
 (ie la suite $(a_{k})_{k \in \mathbb{N}}$ est nulle APDCR)
 $$\begin{cases}
