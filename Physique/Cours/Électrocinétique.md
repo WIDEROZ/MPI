@@ -60,5 +60,3 @@ $$s(t) = \sum_{k \geq 1} E_{k}G(\omega_{k})\cos(\omega_{k}t+\varphi_{s}(\omega_{
 ### c. Signal triangulaire (éventuelle composante continue)
 EXCAL 4.
 
-# III. Cas d'un filtre passe-bande du second ordre
-$$\mp \pm$$
