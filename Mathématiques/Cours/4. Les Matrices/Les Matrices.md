@@ -431,5 +431,31 @@ $$M = Mat_{\mathcal{E}, \mathcal{F}}(f) \text{ et } M' = Mat_{\mathcal{E}', \mat
 alors, 
 $$M' = Q^{-1}MP$$
 ___
+Soit $f \in \mathcal{L}(E)$, 
 Si on note : $P = \mathcal{P}_{\mathcal{E}}^{\mathcal{E}'}$ et $M = Mat_{\mathcal{E}}(f)$ et $M' = Mat_{\mathcal{E}'}(f)$ alors, 
 $$M' = P^{-1}MP$$
+
+#### Théorème Central de MPSI/MP2I
+$$\forall M , N \in \mathcal{M}_{n, p }(\mathbb{K}), M\text{ et }N \text{ sont équivalentes }\Leftrightarrow \mathrm{rg}(M) = \mathrm{rg}(N)$$
+De plus si on note : $r = \mathrm{rg}(M)$, 
+$$\exists Q \in GL_{n}(\mathbb{K}), P \in GL_{p}(\mathbb{K}), M= Q^{-1}\left(\begin{array}{c|c}
+I_{r}&0 \\ \hline
+0&0
+\end{array}\right)P$$
+$$\left(\begin{array}{c|c}
+I_{r}&0 \\ \hline
+0&0
+\end{array}\right) = J_{r}$$
+
+Démonstration : 
+$\Leftarrow$ : 
+Notons,
+$$f = L_{M} : \begin{cases}
+E \to F \\
+X \mapsto MX
+\end{cases}$$
+L'application linéaire canoniquement associée à $M$. 
+$$\text{Ici, } E = \mathcal{M}_{p, 1}(\mathbb{K}), F = \mathcal{M}_{n, 1}(\mathbb{K})$$
+Notons $r$ son rang
+Comme $\dim\mathrm{Im}(f) = r$,
+il existe une base $(u_{1}, \dots, u_{r})$ de $\mathrm{Im}(f)$ 
