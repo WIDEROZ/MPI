@@ -147,7 +147,7 @@ ___
    $$1 = \sum_{k = 0}^{n-1} \frac{a_{k}}{x^{n-k}}$$
    Comme $\varphi$ est continue et strictement monotone sur $\mathbb{R}_{+}$
    Par le TVI, 
-   $$\exists \rho \in \mathbb{R}_{+}, P(\rho) = 0$$
+   $$\exists \rho \in \mathbb{R}_{+}^{*}, P(\rho) = 0$$
 
 2. 
    $$1 = \left| \sum_{k = 0}^{n-1} \frac{a_{k}}{z^{n-k}}\right|\leq \sum_{k = 0}^{n-1} \left| \frac{a_{k}}{z^{n-k}}\right| = \varphi(\left| z\right|)$$
