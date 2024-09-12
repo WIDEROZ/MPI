@@ -21,3 +21,5 @@ $$\begin{cases}
 \end{cases}$$
 
 ## 2. Action sur un signal périodique
+### b. Signal créneau
+EXCAL 1
