@@ -415,3 +415,21 @@ $$\mathcal{P}_{\mathcal{U}}^{\mathcal{E}} = [Mat_{\mathcal{U}}(e_{1}), Mat_{\mat
 Soit $\beta_{1}, \beta_{2}, \beta_{3}$ des bases de $E$,
 $$\mathcal{P}_{\beta_{1}}^{\beta_{2}} \times \mathcal{P}_{\beta_{2}}^{\beta_{3}} = \mathcal{P}_{\beta_{1}}^{\beta_{3}}$$
 $$\mathcal{P}_{\beta_{1}}^{\beta_{2}} \in GL_{n}(\mathbb{K}) \text{ et } \mathcal{P}_{\beta_{1}}^{\beta_{2}} = (\mathcal{P}_{\beta_{2}}^{\beta_{1}})^{-1}$$
+#### Formules de changement de base : 
+Soit $\mathcal{E}, \mathcal{E}'$ deux bases de $E$, et $n = \dim E$
+Soit $x \in E$, si on note : 
+$$X = Mat_{\mathcal{E}}(x) \text{ et }X' = Mat_{\mathcal{E}'}(x)$$
+Alors, 
+$$X = PX'$$
+ou $P = \mathcal{P}_{\mathcal{E}}^{\mathcal{E}'}$, soit $f \in \mathcal{L}(E, F)$, 
+
+___
+Soit $\mathcal{F}$ et $\mathcal{F}'$ deux bases de $\mathcal{F}$
+si on note ; 
+$$P = \mathcal{P}_{\mathcal{E}}^{\mathcal{E}'} \text{ et }Q = \mathcal{P}_{\mathcal{F}}^{\mathcal{F}'}$$
+$$M = Mat_{\mathcal{E}, \mathcal{F}}(f) \text{ et } M' = Mat_{\mathcal{E}', \mathcal{F}'} (f)$$
+alors, 
+$$M' = Q^{-1}MP$$
+___
+Si on note : $P = \mathcal{P}_{\mathcal{E}}^{\mathcal{E}'}$ et $M = Mat_{\mathcal{E}}(f)$ et $M' = Mat_{\mathcal{E}'}(f)$ alors, 
+$$M' = P^{-1}MP$$
