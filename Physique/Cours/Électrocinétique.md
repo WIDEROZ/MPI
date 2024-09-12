@@ -21,7 +21,10 @@ $$\begin{cases}
 \end{cases}$$
 
 ## 2. Action sur un signal périodique
-### b. Signal créneau
+Composante continue : $E_{0}$ dans l'expression :
+$$e(t) = E_{0} + \sum_{k \geq 1}E_{k}\cos(\omega_{k}t + \varphi_{e}(\omega_{k}))$$
+
+### b. Signal créneau (éventuelle composante continue)
 EXCAL 1
 #### Pour un filtre passe bas :
 $$e(t) = \sum_{k \in \mathbb{N}}E(\omega _{k})\cos(\omega_{k} t + \varphi_{e}(\omega_{k}))$$
@@ -30,7 +33,7 @@ ou $\omega_{k} = k \omega_{f}$
 Alors, 
 $$s(t) \approx G_{\max}e(t)$$
 
-## c. Signal triangulaire
+## c. Signal triangulaire (éventuelle composante continue)
 EXCAL 2
 
 # III. Filtres passe-haut du premier d'ordre
@@ -47,8 +50,14 @@ G_{dB} \sim \text{droite de pente }+20dB/dec \\
 \end{cases}$$
 
 ## 2. Action sur un signal périodique
-### b. Signal créneau
+### b. Signal créneau (éventuelle composante continue)
 EXCAL 3.
 $$e(t) = E_{0} + \sum_{k \geq 1} E_{k} \cos(\omega_{k}t + \varphi_{e}(\omega_{k}))$$
 et
-$$s(t) = E_{0}G_{0} + \sum_{k \geq 1} E_{k}G_{k}$$
+$$s(t) = E_{0}G(0) + \sum_{k \geq 1} E_{k}G(\omega_{k})\cos(\omega_{k}t+\varphi_{s}(\omega_{k}))$$
+Alors comme $G(0) = 0$, 
+$$s(t) = \sum_{k \geq 1} E_{k}G(\omega_{k})\cos(\omega_{k}t+\varphi_{s}(\omega_{k}))$$
+### c. Signal triangulaire (éventuelle composante continue)
+EXCAL 4.
+
+# III. Cas d'un 
