@@ -636,3 +636,6 @@ $$E = \mathrm{Im}(p) \oplus \mathrm{Ker}(p)$$
 Alors, 
 $$\forall k \in [\![1, r]\!], p(e_{k}) = e_{k}$$
 $$\forall k \in [\![r+1, n]\!], p(e_{k}) = 0$$
+$\Leftarrow$ : 
+Comme $J_{r}$ est diagonale : 
+$$J_{r}^{2} = J_{r}$$
