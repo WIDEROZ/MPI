@@ -64,3 +64,6 @@ EXCAL 4.
 ## 1.c Action sur un signal périodique
 ### ii. Signal créneau
 EXCAL 5.
+
+### iii. Signal triangulaire
+EXCAL 6.
