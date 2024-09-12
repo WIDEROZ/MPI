@@ -22,10 +22,13 @@ $$\begin{cases}
 
 ## 2. Action sur un signal périodique
 ### b. Signal créneau
-
 EXCAL 1
 #### Pour un filtre passe bas :
-###### $\omega_{f}\ll \omega_{0}$
 $$e(t) = \sum_{k \in \mathbb{N}}E(\omega _{k})\cos(\omega_{k} t + \varphi_{e}(\omega_{k}))$$
 $$s(t) = \sum_{k \in \mathbb{N}}E(\omega _{k})G(\omega_{k})\cos(\omega_{k} t + \varphi_{s}(\omega_{k}))$$
 ou $\omega_{k} = k \omega_{f}$
+Alors, 
+$$s(t) \approx G_{\max}e(t)$$
+
+## c. Signal triangulaire
+EXCAL 2
