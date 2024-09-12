@@ -142,7 +142,7 @@ $$P(X) = X^{n}-a_{n-1}X^{n-1} \dots -a_{1}X-a_{0} = X^{n} - \sum_{k = 0}^{n-1}a_
 
 $$\sum_{k = 0}^{n-1}\frac{a_{k}}{z^{n-k}} = 1$$
 Alors, 
-$$1 = \left| \sum_{k = 0}^{n} \frac{a_{k}}{z^{n-k}}\right| \leq \sum_{k = 0}^{n-1} \frac{a_{k}}{\left|z^{n-k}\right|} = $$
+$$1 = \left| \sum_{k = 0}^{n} \frac{a_{k}}{z^{n-k}}\right| \leq \sum_{k = 0}^{n-1} \frac{a_{k}}{\left|z^{n-k}\right|} = \varphi(\left| z\right|) $$
 
 
 
@@ -160,7 +160,6 @@ ___
 2. 
    $$1 = \left| \sum_{k = 0}^{n-1} \frac{a_{k}}{z^{n-k}}\right|\leq \sum_{k = 0}^{n-1} \left| \frac{a_{k}}{z^{n-k}}\right| = \varphi(\left| z\right|)$$
    Ainsi, $\left| z\right| \leq \rho$
-
 3. Si $\rho > 1$, 
    $$1 = \sum_{k = 0}^{n-1} \frac{a_{k}}{\rho^{n-k}}\leq \sum_{k = 0}^{n-1} \frac{a^{k}}{\rho} \Leftrightarrow \rho \leq \sum_{k = 0}^{n-1} a_{k}$$
    Si $\rho \leq 1$, immédiat
