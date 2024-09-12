@@ -458,4 +458,35 @@ L'application linéaire canoniquement associée à $M$.
 $$\text{Ici, } E = \mathcal{M}_{p, 1}(\mathbb{K}), F = \mathcal{M}_{n, 1}(\mathbb{K})$$
 Notons $r$ son rang
 Comme $\dim\mathrm{Im}(f) = r$,
-il existe une base $(u_{1}, \dots, u_{r})$ de $\mathrm{Im}(f)$ 
+il existe une base $(u_{1}, \dots, u_{r})$ de $\mathrm{Im}(f)$. 
+Notons $(e_{1}, \dots, e_{r})$ la famille de $E$ tel que :
+$$\forall k \in [\![1, r]\!], f(e_{k}) = u_{k}$$
+Puisque $\dim \mathrm{Ker} f = \dim E - \mathrm{rg}(f) = p-r$, il existe une base de $\mathrm{Ker}(f)$ que l'on note : $(e_{r+1}, \dots, e_{p})$
+Notons : $\mathcal{E}' = (e_{1}, \dots, e_{r})$, 
+C'est une base de $E$ car elle possède $r$ vecteurs et : 
+$$\forall \lambda_{1}, \dots, \lambda_{r} \in \mathbb{K}, \sum_{k = 1}^{r} \lambda_{k}e_{k} = 0 (\star)$$
+En composant par $f$ : 
+$$\forall \lambda_{1}, \dots, \lambda_{r} \in \mathbb{K}, \sum_{k = 1}^{r} \lambda_{k}u_{k} = 0$$
+Donc, 
+$$\lambda_{1} = \dots = \lambda_{r} = 0$$
+(par un truc avant)
+Reportons dans $(\star)$ : 
+$$\forall \lambda_{1}, \dots, \lambda_{r} \in \mathbb{K}, \sum_{k = r+1}^{p} \lambda_{k}e_{k} = 0$$
+On a alors (par un truc précédent) : 
+$$\lambda_{r+1} = \dots = \lambda_{P}= 0$$
+Complétons par le $TBI$ la famille : 
+$$(u_{1}, \dots, u_{r}) \text{ libre}$$
+de $F$ en une base : 
+$$\mathcal{F}' = (u_{1}, \dots, u_{r})$$
+de $F$
+Alors, 
+$$Mat_{\mathcal{E}, \mathcal{F}'}(f) = J_{r}$$
+D'après : $f(e_{k}) = u_{k}$ et un au truc avant
+
+Par définition de $f = L_{M}$, 
+$$Mat_{\mathcal{E}, \mathcal{F}}(f) = M \text{ ou } \mathcal{E} \text{ et } \mathcal{F}$$
+sont les bases cannoniques de $\mathcal{E}$ et $\mathcal{F}$
+D'après la formule de changement de base : 
+$$J_{r} = Q^{-1}MP$$
+ou : 
+$$Q = \mathcal{P}_{F}$$
