@@ -60,3 +60,7 @@ $$s(t) = \sum_{k \geq 1} E_{k}G(\omega_{k})\cos(\omega_{k}t+\varphi_{s}(\omega_{
 ### c. Signal triangulaire (éventuelle composante continue)
 EXCAL 4.
 
+# IV. Filtres passe bande
+## 1.c Action sur un signal périodique
+### ii. Signal créneau
+EXCAL 5.
