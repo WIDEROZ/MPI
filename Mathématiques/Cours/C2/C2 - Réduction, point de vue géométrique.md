@@ -140,4 +140,13 @@ m_{1, 1}&& \\
 \vdots&\ddots&\ddots& \\
 0&\dots&0&m_{n, n}
 \end{pmatrix}$$
-$$\forall \alpha \in \mathbb{K}, \alpha \in S_{p}(M) \Leftrightarrow \mathrm{Ker}(M - \alpha I_{n}) $$
+$$\forall \alpha \in \mathbb{K}, \alpha \in S_{p}(M) \Leftrightarrow \mathrm{Ker}(M - \alpha I_{n}) \neq \{ 0 \}$$
+$$\Leftrightarrow (M-\alpha I_{n}) \text{ n'est pas inversible}$$
+$$\Leftrightarrow \det(M-\alpha I_{n}) = 0$$
+$$\Leftrightarrow \begin{array}{|c|}
+m_{1, 1}-\alpha \\
+0&m_{2, 2}-\alpha&m_{i, j} \\
+\vdots &\ddots &\ddots& \\
+0&\dots&0&m_{n, n}-\alpha
+\end{array} = 0$$
+$$\Leftrightarrow \prod_{i = 1}^{n}(m_{i, i}-\alpha) = 0\Leftrightarrow m_{i, i} \in \{ \alpha_{1}, \dots \}$$
