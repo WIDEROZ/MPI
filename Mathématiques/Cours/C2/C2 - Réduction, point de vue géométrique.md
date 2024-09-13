@@ -84,5 +84,33 @@ x \mapsto e^{ \alpha x }
 \end{cases} \in E$$
 et vérifie : 
 $$D(f_{1}) = f'_{\alpha} = \alpha f_{\alpha}$$
-Donc : $f_{\alpha}$ etant non nulle : 
-$$$$
+Donc : $f_{\alpha}$ étant non nulle et $\alpha \in Sp_{\mathbb{R}}(f)$
+$$Sp_{\mathbb{R}}(f) = \mathbb{R}$$
+De plus, 
+$$\forall \alpha \in \mathbb{R}, \forall f \in E,f \in E_{\alpha}(D) \Leftrightarrow D(f) = \alpha f \Leftrightarrow f' = \alpha f $$
+$$\Leftrightarrow f \in Vect(f_{\alpha})$$
+Ainsi, 
+$$E_{\alpha}(D) = Vect(f_{\alpha})$$
+
+#### Propriété
+Si $p \in \mathcal{L}(E)$ est un projecteur non trivial, alors, 
+$$Sp(p) = \{ 0, 1 \}$$
+et : 
+$$E_{0}(p) = \mathrm{Ker}(p) \text{ et } E_{1}(p) = \mathrm{Im}(p)$$
+
+Démonstration :
+Soit $\alpha \in Sp(p)$, 
+il existe alors $x \in E$ non nul tel que : 
+$$p(x) = \alpha x$$
+$$p(x) = p^{2}(x) = \alpha p(x) =\alpha^{2}x$$
+
+Si $p(x)$ non nul : $p(x) = \alpha p(x) \Rightarrow \alpha = 1$, 
+Si $p(x) = 0$,  $\alpha^{2}x = 0$ alors $\alpha = 0$
+
+Ainsi, $Sp(p) \subset \{ 0, 1 \}$
+Réciproquement : 
+Soit $x \in E$, 
+$x \in E_{0}(p) \Leftrightarrow x \in \mathrm{Ker}(p)$
+$x \in E_{1}(p) \Leftrightarrow x \in \mathrm{Ker}(p-Id) \Leftrightarrow x \in \mathrm{Im}(p)$
+
+En utilisant que $\forall s in$
