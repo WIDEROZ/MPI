@@ -67,3 +67,13 @@ EXCAL 5.
 
 ### iii. Signal triangulaire
 EXCAL 6.
+
+## 4. Filtres coupe bande
+### a. Exemple
+On prend un circuit RLC série avec tension aux bornes de $LC$ :
+$$\omega \underset{}{\longrightarrow} 0 : H = 1, G = 1$$
+$$\omega \underset{}{\longrightarrow} + \infty: H = 1, G = 1$$
+
+$$\underline{H}(\omega) = \frac{1-x^{2}}{1-x^{2}+j \frac{x}{Q}} \underset{x \to 1}{\longrightarrow} 0$$
+### b. Composante parasite sinusoïdale
+Figure $20$
