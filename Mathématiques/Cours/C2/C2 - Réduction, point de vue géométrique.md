@@ -113,4 +113,31 @@ Soit $x \in E$,
 $x \in E_{0}(p) \Leftrightarrow x \in \mathrm{Ker}(p)$
 $x \in E_{1}(p) \Leftrightarrow x \in \mathrm{Ker}(p-Id) \Leftrightarrow x \in \mathrm{Im}(p)$
 
-En utilisant que $\forall s in$
+En utilisant que $\forall s \in \mathcal{L}(E)$ 
+$$s \text{est une symétrie} \Leftrightarrow p = \frac{s+I_{d}}{2} \text{ est un proj}$$
+On obtiens de même : 
+Si $s \in \mathcal{L}(E)$, est une symétrie, autre que $Id_{E}$ et $-Id_{E}$, 
+$$Sp(s) = \{ 1, -1 \}$$
+
+#### Remarque
+$$0 \in Sp(f) \Leftrightarrow f \text{ n'est pas injective}$$
+car
+$$0 \in Sp(f) \Leftrightarrow \exists x \in E \setminus \{  0\}, f(x) = 0x = 0$$
+Dans ce cas $f$ est un sep. 
+
+#### Remarque
+$$\forall x_{0} \in E \setminus \{ 0 \}, x_{0} \text{ est un }\vec{v_{p}} \text{ de }f \Leftrightarrow Vect(x_{0}) \text{ est stable par }f$$
+
+#### Propriété
+Soit $M \in T_{n}(\mathbb{K}) \subset D_{n}(\mathbb{K})$, 
+le spectre de $M$ est l'ensemble des coefficients diagonaux, 
+
+Démonstration : 
+Norton : 
+$$M = \begin{pmatrix}
+m_{1, 1}&& \\
+0&\ddots&&m_{i, j} \\
+\vdots&\ddots&\ddots& \\
+0&\dots&0&m_{n, n}
+\end{pmatrix}$$
+$$\forall \alpha \in \mathbb{K}, \alpha \in S_{p}(M) \Leftrightarrow \mathrm{Ker}(M - \alpha I_{n}) $$
