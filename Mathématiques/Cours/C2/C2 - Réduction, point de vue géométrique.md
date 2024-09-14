@@ -204,4 +204,39 @@ $$A_{p} \Rightarrow A_{p+1}$$
 Démonstration 2 :
 $$\sum_{k = 1}^{p} \dim E_{\alpha_{k}}(f)= \dim  \bigoplus_{k= 1}^{p} E_{\alpha_{k}}(f) \leq \dim E$$
 
-Soit $
+Soit $p \in \mathbb{N}^{*}$, et $\alpha_{1}, \dots, \alpha_{p} \in \mathbb{K}$, des valeurs propres deux a deux différentes de $f$.
+Alors $\forall k \in [\![1, n]\!]$, $E_{\alpha_{k}}(f)$ contient au moins un vecteur non nul, ie $E_{\alpha_{k}}(f)\geq 1$, 
+Alors, 
+$$p \leq \sum_{k = 1}^{p+1} 1\leq \sum_{k =1}^{p}\dim {E_{\alpha_{k}}}(f) \leq \dim  E$$
+
+#### Exemple
+Soit $p \in \mathbb{N}^{*}$, 
+Notons : 
+$$f_{k} : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto \cos(kx)
+\end{cases}$$
+Alors, 
+$$(f_{0}, \dots, f_{p}) \text{ est une famille libre de }E = \mathcal{C}^{\infty} (\mathbb{R}, \mathbb{R})$$
+Notons ,
+$$\Delta : \begin{cases}
+E \to E \\
+f \mapsto f''
+\end{cases}$$
+Alors, 
+$$\forall k\in \mathbb{N}, \Delta f_{k} = f''_{k} = -k^{2}f(k)$$
+ie, 
+$$f_{k} \in E_{-k^{2}}(\Delta)$$
+Comme, 
+$-0, -1, -4, \dots, -p^{2}$ sont 2 a 2 disjoints ie : $(f_{0}, \dots, f_{p})$ est libre. 
+
+#### Remarque
+Si $\alpha \in Sp(f)$, 
+$$\begin{cases}
+E_{\alpha}(f) \to E_{\alpha}(f) \\
+x \mapsto f(x)
+\end{cases}$$
+induit par $f$ sur $E_{\alpha}(f)$ est l’homothétie $\alpha Id$ qui a pour matrice dans toute base de $E_{\alpha}(f)$ :
+$$\alpha I_{k}$$
+
+# II. Diagonalisation
