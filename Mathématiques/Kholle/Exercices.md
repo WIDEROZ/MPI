@@ -13,15 +13,23 @@ b. Avec une matrice
 Soit $P \in \mathrm{Ker}(f)$, 
 $$f(P) = P-P' = 0$$
 $$P = P'$$
-Alors, 
-$$\sum_{k = 0}^{n} \lambda_{k}X^{k} = \sum_{k = 0}^{n-1}\lambda_{k+1}(k+1)X^{k}$$
-$$\lambda_{n}X^{n} + \sum_{k = 0}^{n-1}(\lambda_{k}-\lambda_{k+1}(k+1))X^{k} = 0$$
+Alors, le seul polynôme solution est $0$
+comme c'est un endomorphisme $f$ est bijective
 
-Par unicité des coefs, $\forall k \in [\![1, n-1]\!],\lambda_{k}-\lambda_{k+1}(k+1) = 0$
-Alors
-Soit $k \in [\![1, n-1]\!]$, 
-$$\lambda_{k} = \lambda_{k+1}(k+1)$$
+#### b.
+$$A = Mat_{\mathrm{can}_{E}}(f) = \begin{pmatrix}
+1&-1&0 \\
+0&1& \\
+\vdots \\
+0
+\end{pmatrix}$$
+$\det A = 1$
 
 ## 2.
 Soit $Q \in E$, trouver $P$ tel que : $f(P) = Q$
 Indication : soit $P \in E$, que vaut $P^{(n+1)}$
+$$\begin{cases}
+P-P' = Q \\
+P'-P'' = Q' \\
+vdot
+\end{cases}$$
