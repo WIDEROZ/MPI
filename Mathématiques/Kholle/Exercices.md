@@ -66,3 +66,40 @@ z-3\alpha
 \end{pmatrix}$$
 Comme $a \in \mathcal{P}$, 
 $$(x-\alpha) +(y-2\alpha) + (z-3\alpha) =0$$
+ie 
+$$\alpha = \frac{x+y+z}{6}$$
+alors, 
+$$p(u) = a = \frac{1}{6}\begin{pmatrix}
+5x-y-z \\
+-2x+4y-2z \\
+-3x-3y+3z
+\end{pmatrix}$$
+Alors : 
+$$Mat_{\mathrm{can}}(p)= \frac{1}{6}\begin{pmatrix}
+5&-1&-1 \\
+-2&4&-2 \\
+-3&-3&3
+\end{pmatrix}$$
+## 3.
+On prend : 
+$$Mat_{\beta}(p) = \begin{pmatrix}
+1&0&0 \\
+0&1&0 \\
+0&0&0
+\end{pmatrix}$$
+Alors, 
+$$\beta = \begin{pmatrix}
+\begin{pmatrix}
+1 \\
+-1 \\
+0
+\end{pmatrix}
+, \begin{pmatrix}
+1 \\
+0 \\
+-1
+\end{pmatrix}, \begin{pmatrix}
+1 \\
+2 \\
+3
+\end{pmatrix}\end{pmatrix}$$
