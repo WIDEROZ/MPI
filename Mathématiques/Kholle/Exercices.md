@@ -50,6 +50,19 @@ y \\
 z
 \end{pmatrix} \in E\right| x = \frac{y}{2} = \frac{z}{3} \right\}
 \end{cases}$$
-## 1.
-Soit $P = \begin{pmatrix}x\\z\\y\end{pmatrix} \in \mathcal{P}$ et $D = \begin{pmatrix}a\\ b\\c\end{pmatrix} \in \mathcal{D}$, 
-$$$$
+## 2.
+$$\exists (a, b) \in (\mathcal{P}, \mathcal{D}), u = a + b$$
+#### Analyse
+$$\forall \alpha \in \mathbb{R}, b = \alpha \begin{pmatrix}
+1 \\
+2 \\
+3
+\end{pmatrix}$$
+alors, 
+$$a = u-b = \begin{pmatrix}
+x-\alpha \\
+y-2\alpha \\
+z-3\alpha
+\end{pmatrix}$$
+Comme $a \in \mathcal{P}$, 
+$$(x-\alpha) +(y-2\alpha) + (z-3\alpha) =0$$
