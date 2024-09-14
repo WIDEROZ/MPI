@@ -150,3 +150,6 @@ m_{1, 1}-\alpha \\
 0&\dots&0&m_{n, n}-\alpha
 \end{array} = 0$$
 $$\Leftrightarrow \prod_{i = 1}^{n}(m_{i, i}-\alpha) = 0\Leftrightarrow m_{i, i} \in \{ \alpha_{1}, \dots \}$$
+
+#### Proposition
+Soient $f, g \in \mathcal{L}(E)$, et $\lambda \in \mathbb{K}$ 
