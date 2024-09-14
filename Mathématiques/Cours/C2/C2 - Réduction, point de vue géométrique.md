@@ -240,3 +240,32 @@ induit par $f$ sur $E_{\alpha}(f)$ est l’homothétie $\alpha Id$ qui a pour ma
 $$\alpha I_{k}$$
 
 # II. Diagonalisation
+## 1. Endomorphismes $DZ$
+#### Définition
+Soit $f \in \mathcal{L}(E)$, $f$ est dite diagonalisable lorsqu'il existe une base $\beta$ de $E$ telle que $Mat_{\beta}(f)$ est diagonale
+
+Soit $M \in \mathcal{M}_{n}(\mathbb{K})$ : 
+$M$ est diagonalisable lorsque : $L_{M} \in \mathcal{L}(\mathcal{M}_{n,1}(\mathbb{K}))$ l'est.
+ie lorsque $M$ est semblable a une matrice diagonale; 
+$$\exists P \in GL_{n}(\mathbb{K}), \exists D \in D_{n}(\mathbb{K}), M = PDP^{-1}$$
+en effet pour $P = \mathcal{P}_{\mathrm{can}}^{\beta}$ ca marche pas mal.
+
+Ainsi, 
+$$f \text{ est DZ}\Leftrightarrow \text{toute base }\mathcal{E} \text{ de } E \text{ est DZ}$$
+
+#### Propriété
+Soit $f \in \mathcal{L}^{\mathcal{E}}(E)$, on a : équivalence entre : 
+$$\begin{array}{l}
+f\text{ est DZ} \\
+\text{il existe une base : }(e_{1}, \dots, e_{n}) \text{ de }E \\
+\underset{\alpha \in Sp(f)}{\bigoplus} E_{\alpha}(f) = E \\
+\underset{\alpha \in Sp(f)}{\sum}\dim E_{\alpha}(f) = n
+\end{array}$$
+
+Démonstration : 
+Supposons $f$ DZ, 
+il existe alors une base $\beta = (e_{1}, \dots, e_{n})$ base de $E$ telle que :
+$$Mat_{\beta}(f) = \begin{pmatrix}
+\alpha_{1}&0&\dots&\dots&0 \\
+
+\end{pmatrix}$$
