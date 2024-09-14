@@ -31,5 +31,25 @@ Indication : soit $P \in E$, que vaut $P^{(n+1)}$
 $$\begin{cases}
 P-P' = Q \\
 P'-P'' = Q' \\
-vdot
+\vdots \\
+P^{(n)} - P^{(n+1)}=Q^{(n)}
 \end{cases}$$
+Donc,(par une somme téléscopique)
+$$P = Q+Q'+ \dots + Q^{(n)}$$
+
+# Exercice 71
+$$\begin{cases}
+\mathcal{P} = \left.\left\{ \begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix} \in E\right| x+y+z  = 0 \right\} \\
+\mathcal{D} = \left.\left\{ \begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix} \in E\right| x = \frac{y}{2} = \frac{z}{3} \right\}
+\end{cases}$$
+## 1.
+Soit $P = \begin{pmatrix}x\\z\\y\end{pmatrix} \in \mathcal{P}$ et $D = \begin{pmatrix}a\\ b\\c\end{pmatrix} \in \mathcal{D}$, 
+$$$$
