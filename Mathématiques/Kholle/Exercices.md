@@ -103,3 +103,19 @@ $$\beta = \begin{pmatrix}
 2 \\
 3
 \end{pmatrix}\end{pmatrix}$$
+
+# Exercice 90
+## 1.
+$$\Phi : \begin{cases}
+\mathbb{C}_{2}[X] \to \mathbb{C}^{3} \\
+P \mapsto (P(a_{1}), P(a_{2}), P(a_{3}))
+\end{cases}$$
+$$Mat_{can}(\Phi) = \begin{pmatrix}
+1&a_{1}&a_{1}^{2} \\
+1&a_{2}&a_{2}^{2} \\
+1&a_{3}&a_{3}^{2}
+\end{pmatrix}$$
+Alors, 
+$$\det Mat_{\mathrm{can}}(\Phi) = \det Mat_{\mathrm{can}}(\Phi)^{\top} = V(a_{1}, a_{2}, a_{3}) $$
+$$= (a_{2}-a_{1})(a_{3}-a_{1})(a_{3}-a_{2})$$
+$$( =  = a_{2}a_{3}-a_{2}a_{1}-a_{1}a_{3}+a_{1}^{2})$$
