@@ -257,15 +257,66 @@ $$f \text{ est DZ}\Leftrightarrow \text{toute base }\mathcal{E} \text{ de } E \t
 Soit $f \in \mathcal{L}^{\mathcal{E}}(E)$, on a : équivalence entre : 
 $$\begin{array}{l}
 f\text{ est DZ} \\
-\text{il existe une base : }(e_{1}, \dots, e_{n}) \text{ de }E \\
+\text{il existe une base : }(e_{1}, \dots, e_{n}) \text{ de }E \text{ constitué de }\overrightarrow{v_{p}} \text{ de }f\\
 \underset{\alpha \in Sp(f)}{\bigoplus} E_{\alpha}(f) = E \\
 \underset{\alpha \in Sp(f)}{\sum}\dim E_{\alpha}(f) = n
 \end{array}$$
 
 Démonstration : 
+$\Rightarrow$ : 
 Supposons $f$ DZ, 
 il existe alors une base $\beta = (e_{1}, \dots, e_{n})$ base de $E$ telle que :
 $$Mat_{\beta}(f) = \begin{pmatrix}
-\alpha_{1}&0&\dots&\dots&0 \\
-
+\alpha_{1}\\
+&\ddots&&0 \\
+&&\alpha_{j} \\
+&0&&\ddots \\
+&&&&\alpha_{n}
 \end{pmatrix}$$
+ie 
+$$\forall j \in [\![1,n]\!], f(e_{j}) = \alpha_{j}e_{j}$$
+ie
+$$\forall j \in [\![1, n]\!], e_{j}\text{ est un vecteur propre de }f$$
+$\Rightarrow$ : 
+Soit $(e_{1}, \dots, e_{n}) \in E$ une vase de $\overrightarrow{v_{p}}$ de $f$, 
+$$\forall j \in [\![1, n]\!], e_{j} \in \bigoplus_{\alpha \in Sp(f)} E_{\alpha}(f)=F$$
+Alors,
+$$E = Vect(e_{1}, \dots, e_{n}) \subset F$$
+et $\supset$ est évident. 
+
+$\Rightarrow$ : 
+Clair car : 
+$$\dim \bigoplus_{\alpha} E_{\alpha} = \sum_\alpha \dim E_{\alpha}$$
+
+$\Rightarrow$ : 
+Si $\sum_{\alpha \in Sp} \dim E_{\alpha}(f) = n$, 
+$$\bigoplus_{\alpha \in Sp(f)}E_{\alpha}(f) = E$$
+et en prenant une base de $E$ adaptée à cette décomposition, cette base est constituée de $\overrightarrow{v_{p}}$ de $f$, donc $f$ est $DZ$.
+
+#### Exemple
+Les projecteurs et les symétries sont $DZ$ : 
+$$M = \begin{pmatrix}
+0&-1 \\
+1&0
+\end{pmatrix}$$
+n'est pas $DZ$ dans $\mathcal{M}_{2}(\mathbb{R})$ car elle n'admet aucun vecteur propre dans $\mathcal{M}_{2,1}(\mathbb{R})$. 
+En revanche elle l'est dans $\mathcal{M}_{2}(\mathbb{C})$, 
+On a en effet montré que : 
+$$\begin{cases}
+M\begin{pmatrix}
+1 \\
+i
+\end{pmatrix} = -i\begin{pmatrix}
+1 \\
+i
+\end{pmatrix} \\
+M\begin{pmatrix}
+1 \\
+-i
+\end{pmatrix} = i \begin{pmatrix}
+1 \\
+-i
+\end{pmatrix}
+\end{cases}$$
+Donc, 
+$$M = P$$
