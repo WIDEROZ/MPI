@@ -175,7 +175,33 @@ $f$ admet au plus $n$ valeurs propres deux a deux distinctes.
 Démonstration 1 :
 Par récurrence sur $p \geq 1$, 
 On pose : 
-$$A_{p} : \text{"} \begin{array}{c}
+$$A_{p} : \text{"} \begin{array}{l}
 \forall (x_{i})_{i= 1}^{n} \in \prod_{i= 1}^{p}E_{\alpha_{i}}(f),   \\
-\sum_{k = 1}^{p} x_{k} = 0 \Rightarrow \forall k \leq p,
+\sum_{k = 1}^{p} x_{k} = 0 \Rightarrow (\forall k \leq p, x_{k} = 0)
 \end{array} \text{"}$$
+
+Soit $p \in \mathbb{N}^{*}$, tel que $A_{p}$ est vrai,
+Soient $(x_{i})_{i=1}^{p+1} \in \prod_{k=1}^{p+1} E_{\alpha_{k}}$, 
+tels que : 
+$$\sum_{k = 1}^{p+1} x_{k} = 0$$
+Alors, 
+$$f\left( \sum_{k = 1}^{p+1} x_{k}  \right) = f(0) = 0$$
+Donc, 
+$$\sum_{k = 1}^{p+1} \alpha_{k}x_{k}  = 0$$
+$$\sum_{k = 1}^{p+1} (\alpha_{k}-\alpha_{p+1})x_{k} = 0  $$
+
+Or : 
+$$\forall k \in [\![1, p]\!], (\alpha_{k}-\alpha_{p+1})x_{k} \in E_{\alpha_{k}}(f)$$
+Donc par hyp. de rec.
+$$\forall k \in [\![1, p]\!], (\alpha_{k}-\alpha_{p+1})x_{k} = 0$$
+ie $\alpha_{k} = 0$ car $\alpha_{k} \neq \alpha_{p+1}$
+En reportant dans : 
+$$\sum_{k = 1}^{p+1} x_{k} = 0$$
+on a aussi $x_{p+1} =0$
+Ainsi, 
+$$A_{p} \Rightarrow A_{p+1}$$
+
+Démonstration 2 :
+$$\sum_{k = 1}^{p} \dim E_{\alpha_{k}}(f)= \dim  \bigoplus_{k= 1}^{p} E_{\alpha_{k}}(f) \leq \dim E$$
+
+Soit $
