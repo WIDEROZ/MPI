@@ -389,3 +389,79 @@ n-1 \\
 \vdots \\
 n-1
 \end{pmatrix}$$
+Alors, 
+$$A\begin{pmatrix}
+1 \\
+\vdots \\
+1
+\end{pmatrix} = (n-1)\begin{pmatrix}
+1 \\
+\vdots \\
+1
+\end{pmatrix}$$
+ie
+$$\begin{pmatrix}
+1 \\
+\vdots \\
+1
+\end{pmatrix} \in \mathrm{Ker}(A - (n-1)I_{n})$$
+est donc de dimension supérieur à $1$
+Ainsi, 
+$$\sum_{\alpha \in Sp(A)} \dim  E_{\alpha(A)} \geq \dim E_{-1}(A) + \dim E_{n-1}(A) \geq n-1+1 = n$$
+Donc, $A$ est $DZ$
+Ainsi, 
+$$Sp(A) = \{ -1, n-1 \}$$
+$$E_{n-1}(A) = Vect\begin{pmatrix}
+1 \\
+\vdots \\
+1
+\end{pmatrix}$$
+$$E_{-1}(A) = \mathrm{Ker}\begin{pmatrix}
+1&\dots&1 \\
+\vdots&&\vdots \\
+1&\dots&1
+\end{pmatrix} = Vect\begin{pmatrix}
+\begin{pmatrix}
+-1 \\
+1 \\
+0 \\
+\vdots \\
+0
+\end{pmatrix}
+, \begin{pmatrix}
+-1 \\
+0 \\
+1 \\
+0 \\
+\vdots \\
+0
+\end{pmatrix} \dots \begin{pmatrix}
+-1 \\
+0 \\
+\vdots \\
+0 \\
+1
+\end{pmatrix}\end{pmatrix}$$
+et donc : 
+$$\begin{pmatrix}
+0&1&\dots& 1\\
+1&\ddots&\ddots &\vdots\\
+\vdots&\ddots&\ddots&1\\
+1&\dots&1&0
+\end{pmatrix} = PDP^{-1}$$
+ou 
+$$D = \begin{pmatrix}
+n-1&&&0 \\
+&-1&& \\
+&&\ddots& \\
+0&&&-1
+\end{pmatrix} \in D_{n}(\mathbb{R})$$
+
+et 
+$$P = \begin{pmatrix}
+1&-1&-1&\dots&-1 \\
+\vdots&\ddots&0&\dots&0 \\
+\vdots&0&\ddots&\ddots&\vdots \\
+\vdots&\vdots&\ddots&\ddots&0 \\
+1&0&\dots&0&1
+\end{pmatrix} \in GL_{n}(\mathbb{R})$$
