@@ -118,4 +118,24 @@ $$Mat_{can}(\Phi) = \begin{pmatrix}
 Alors, 
 $$\det Mat_{\mathrm{can}}(\Phi) = \det Mat_{\mathrm{can}}(\Phi)^{\top} = V(a_{1}, a_{2}, a_{3}) $$
 $$= (a_{2}-a_{1})(a_{3}-a_{1})(a_{3}-a_{2})$$
-$$( =  = a_{2}a_{3}-a_{2}a_{1}-a_{1}a_{3}+a_{1}^{2})$$
+Donc, comme $a_{1}, a_{2}, a_{3}$ 2 a deux distincts $\det Mat_{\mathrm{can}}(\Phi) \neq 0$
+et comme $\dim \mathbb{C}_{2}[X] = \dim \mathbb{C}_{3} = 3$
+$\Phi$ est bij
+
+## 2.
+### a.
+C'est l'image d'une vase de $\mathbb{C}^{3}$ par un isomorphisme donc c'est une base de $\mathbb{C}_{2}[X]$
+
+## b.
+$$L_{1}(a_{2}) = L_{1}(a_{3}) = 0$$
+et $a_{1} \neq a_{3}$ donc $(X-a_{1})(X-a_{3}) | L_{1}$, comme de plus $\deg L_{1} \leq 2$, 
+$$\exists \alpha \in \mathbb{C}, L_{1}(X) = \alpha(X-a_{2})(X-a_{3})$$
+Enfin $L_{1}(a_{1}) = 1$
+Donc,
+$$\alpha(a_{1}-a_{2})(a_{1}-a_{3}) = 1$$
+ie
+$$L_{1}(X) = \frac{X-a_{2}}{a_{1}-a_{2}} \frac{X-a_{3}}{a_{1}-a_{3}}$$
+
+## 3.
+D'après 2.a.,
+$$\forall P \in \mathbb{C}_{2}[X], \exists ! (\alpha_{1}, \alpha_{2}, \alpha_{3}) \in \mathbb{C}^{3}, P = \alpha_{1}L_{1}+ \alpha_{2}L_{2}+\alpha_{3}L_{3}$$
