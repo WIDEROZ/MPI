@@ -319,4 +319,73 @@ M\begin{pmatrix}
 \end{pmatrix}
 \end{cases}$$
 Donc, 
-$$M = P$$
+$$M = P\begin{pmatrix}
+-i&0 \\
+0&i
+\end{pmatrix}P^{-1}$$
+ou $P = \begin{pmatrix}1&1 \\ i&-i\end{pmatrix}$, 
+
+#### Exemple
+$$\begin{pmatrix}
+0&1 \\
+0&0
+\end{pmatrix} \text{ n'est pas diagonalisable dans }\mathcal{M}_{2}(\mathbb{C})$$
+car si elle l'était, 
+$$\exists P \in GL_{2}(\mathbb{C}), \begin{pmatrix}
+0&1 \\
+0&0
+\end{pmatrix} = P\begin{pmatrix}
+\alpha&0 \\
+0&\beta
+\end{pmatrix}P^{-1}$$
+on aurait alors en prenant leur trace et leur déterminant : 
+$$\begin{cases}
+0 = \alpha+\beta \\
+0 = \alpha \times \beta
+\end{cases} \Rightarrow \begin{cases}
+\alpha = 0 \\
+\beta = 0
+\end{cases}$$
+Alors, 
+$$\begin{pmatrix}
+0&1 \\
+0&0
+\end{pmatrix} = \begin{pmatrix}
+0&0 \\
+0&0
+\end{pmatrix}$$
+C'est absurde. 
+
+#### Exemple
+$$A = \begin{pmatrix}
+0&1&\dots& 1\\
+1&\ddots&\ddots &\vdots\\
+\vdots&\ddots&\ddots&1\\
+1&\dots&1&0
+\end{pmatrix} \in \mathcal{M}_{n}(\mathbb{R})$$
+est $DZ$, 
+Notons déjà que : 
+$$\forall \alpha \in \mathbb{R}, \alpha \in Sp(A) \Leftrightarrow A-\alpha I_{n} = \begin{pmatrix}
+-\alpha&1&\dots& 1\\
+1&\ddots&\ddots &\vdots\\
+\vdots&\ddots&\ddots&1\\
+1&\dots&1&-\alpha
+\end{pmatrix}$$
+n'est pas inversible. 
+
+$$\dim E_{-1}(A) = \dim  \mathrm{Ker}(A + I_{n})$$
+$$= \dim \mathrm{Ker} \begin{pmatrix}
+1&\dots&1 \\
+\vdots&&\vdots \\
+1&\dots&1
+\end{pmatrix} = n - \mathrm{rg} \begin{pmatrix}
+1&\dots&1 \\
+\vdots&&\vdots \\
+1&\dots&1
+\end{pmatrix} = n-1$$
+De plus : 
+$$C_{1}+C_{2}+ \dots + C_{n} = \begin{pmatrix}
+n-1 \\
+\vdots \\
+n-1
+\end{pmatrix}$$
