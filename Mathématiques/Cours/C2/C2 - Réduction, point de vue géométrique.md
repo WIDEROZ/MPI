@@ -152,4 +152,30 @@ m_{1, 1}-\alpha \\
 $$\Leftrightarrow \prod_{i = 1}^{n}(m_{i, i}-\alpha) = 0\Leftrightarrow m_{i, i} \in \{ \alpha_{1}, \dots \}$$
 
 #### Proposition
-Soient $f, g \in \mathcal{L}(E)$, et $\lambda \in \mathbb{K}$ 
+Soient $f, g \in \mathcal{L}(E)$, et $\alpha \in \mathbb{K}$ une valeur propre de $f$, 
+Si $f \circ g = g \circ f$, l'image de $f$, le noyau de $f$ et $E_{\alpha}(f)$ sont stables par $g$
+
+Démonstration : 
+$$\forall x \in \mathrm{Im}(f), \exists y \in E, x = f(y) \text{ et alors }g(x) = g(f(y)) = f(g(y)))$$
+$$\in \mathrm{Im}(f)$$
+
+$$\forall x \in E_{\alpha}(f) = \mathrm{Ker}(f-\alpha Id), f(x) = \alpha x \text{ et }f(g(x)) = g(f(x)) $$
+$$= g(\alpha x) = \alpha g(x) $$
+ie $g(x) \in E_{\alpha}(f)$
+
+#### Proposition
+Soit $f \in \mathcal{L}(E)$, 
+Si $\alpha_{1}, \dots, \alpha_{p} \in \mathbb{K}$ sont des valeurs propres de $f$, deux a deux distinctes, $E_{\alpha_{1}}(f), \dots, E_{\alpha_{p}}(f)$ sont en sommes directe.
+En particulier, une famille de $p$ vecteurs propres de $E$ associés a des valeurs propres deux a deux différentes est libre. 
+
+Si $n = \dim E \neq + \infty$, 
+$$\sum_{k = 1}^{p} \dim E_{\alpha_{k}}(f) \leq \dim E$$
+$f$ admet au plus $n$ valeurs propres deux a deux distinctes. 
+
+Démonstration 1 :
+Par récurrence sur $p \geq 1$, 
+On pose : 
+$$A_{p} : \text{"} \begin{array}{c}
+\forall (x_{i})_{i= 1}^{n} \in \prod_{i= 1}^{p}E_{\alpha_{i}}(f),   \\
+\sum_{k = 1}^{p} x_{k} = 0 \Rightarrow \forall k \leq p,
+\end{array} \text{"}$$
