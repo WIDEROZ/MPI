@@ -58,10 +58,11 @@ $$\mathrm{rg}\left(M\begin{pmatrix}
 I_{r}&-A^{-1}B \\
 0&I_{n-r}
 \end{pmatrix}\right) = \mathrm{rg}(M)$$
-Donc, comme : 
-$$\mathrm{rg}\begin{pmatrix}
+
+
+Comme $A \in GL_{r}(\mathbb{R})$, $\mathrm{rg}(A) = r$.
+Comme : 
+\begin{pmatrix}
 A&0 \\
 C&D-CA^{-1}B
-\end{pmatrix}$$
-Comme $A \in GL_{r}(\mathbb{R})$, $\mathrm{rg}(A) = r$.
-Comme c'est une matrice triangulaire inférieur, 
+\end{pmatrix}est une matrice triangulaire inférieur, 
