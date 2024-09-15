@@ -27,3 +27,22 @@ $$X = \begin{rcases}
 \end{rcases} n \text{ fois}$$
 
 ### (b).
+Soit $M \in \mathcal{M}_{n}(\mathbb{R})$ et $X \in \mathcal{M}_{n, 1}(\mathbb{R})$, 
+$$\begin{array}{rll}
+\forall M \in \mathcal{M}_{n}(\mathbb{R}), \forall X \in \mathcal{M}_{n, 1}(\mathbb{R}), \\
+  X \in \mathrm{Ker}(M)&\Leftrightarrow MX = 0_{\mathcal{M}_{n, 1}(\mathbb{R})}\\
+& \Leftrightarrow (M^{\top}M)X = 0_{_{\mathcal{M}_{n, 1}(\mathbb{R})}} \\
+& \Leftrightarrow X \in \mathrm{Ker}(M^{\top}M)
+\end{array}$$
+
+Ainsi, 
+$$\mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$$
+
+## Question 2
+$$M\begin{pmatrix}
+I_{r}&-A^{-1}B \\
+0&I_{n-r}
+\end{pmatrix} = \begin{pmatrix}
+A&0 \\
+C&
+\end{pmatrix}$$
