@@ -139,3 +139,13 @@ $$L_{1}(X) = \frac{X-a_{2}}{a_{1}-a_{2}} \frac{X-a_{3}}{a_{1}-a_{3}}$$
 ## 3.
 D'après 2.a.,
 $$\forall P \in \mathbb{C}_{2}[X], \exists ! (\alpha_{1}, \alpha_{2}, \alpha_{3}) \in \mathbb{C}^{3}, P = \alpha_{1}L_{1}+ \alpha_{2}L_{2}+\alpha_{3}L_{3}$$
+En évaluant en $a_{1}$ : 
+$$\begin{cases}
+\alpha_{1} = P(a_{1}) \\
+\alpha_{2} = P(a_{2}) \\
+\alpha_{3} = P(a_{3})
+\end{cases}$$
+
+## 4.
+$$P(X) = 1\times\frac{(X-1)(X-2)}{(0-1)(0-2)} + 3\times \frac{X(X-1)}{1(1-2)} + 1 \times \frac{X(X-1)}{2(2-1)}$$
+Ainsi, 
