@@ -149,3 +149,6 @@ $$\begin{cases}
 ## 4.
 $$P(X) = 1\times\frac{(X-1)(X-2)}{(0-1)(0-2)} + 3\times \frac{X(X-1)}{1(1-2)} + 1 \times \frac{X(X-1)}{2(2-1)}$$
 Ainsi, 
+
+
+A cause de la mes-information, 
