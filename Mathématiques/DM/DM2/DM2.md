@@ -39,10 +39,29 @@ Ainsi,
 $$\mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$$
 
 ## Question 2
+### (a).
 $$M\begin{pmatrix}
 I_{r}&-A^{-1}B \\
 0&I_{n-r}
 \end{pmatrix} = \begin{pmatrix}
 A&0 \\
-C&
+C&D-CA^{-1}B
 \end{pmatrix}$$
+
+### (b).
+$$\begin{pmatrix}
+I_{r}&-A^{-1}B \\
+0&I_{n-r}
+\end{pmatrix}$$
+Comme c'est une matrice triangulaire à coefficients tous non nuls à la diagonale, alors cette matrice est inversible, donc, 
+$$\mathrm{rg}\left(M\begin{pmatrix}
+I_{r}&-A^{-1}B \\
+0&I_{n-r}
+\end{pmatrix}\right) = \mathrm{rg}(M)$$
+Donc, comme : 
+$$\mathrm{rg}\begin{pmatrix}
+A&0 \\
+C&D-CA^{-1}B
+\end{pmatrix}$$
+Comme $A \in GL_{r}(\mathbb{R})$, $\mathrm{rg}(A) = r$.
+Comme c'est une matrice triangulaire inférieur, 
