@@ -34,8 +34,7 @@ $$\begin{array}{rll}
 & \overset{(\star)}{\Leftrightarrow} (M^{\top}M)X = 0_{_{\mathcal{M}_{n, 1}(\mathbb{R})}} \\
 & \Leftrightarrow X \in \mathrm{Ker}(M^{\top}M)
 \end{array}$$
-$()$
-
+$(\star)$ : $\Leftarrow$ 
 Ainsi, 
 $$\mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$$
 
