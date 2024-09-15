@@ -31,9 +31,10 @@ Soit $M \in \mathcal{M}_{n}(\mathbb{R})$ et $X \in \mathcal{M}_{n, 1}(\mathbb{R}
 $$\begin{array}{rll}
 \forall M \in \mathcal{M}_{n}(\mathbb{R}), \forall X \in \mathcal{M}_{n, 1}(\mathbb{R}), \\
   X \in \mathrm{Ker}(M)&\Leftrightarrow MX = 0_{\mathcal{M}_{n, 1}(\mathbb{R})}\\
-& \Leftrightarrow (M^{\top}M)X = 0_{_{\mathcal{M}_{n, 1}(\mathbb{R})}} \\
+& \overset{(\star)}{\Leftrightarrow} (M^{\top}M)X = 0_{_{\mathcal{M}_{n, 1}(\mathbb{R})}} \\
 & \Leftrightarrow X \in \mathrm{Ker}(M^{\top}M)
 \end{array}$$
+$()$
 
 Ainsi, 
 $$\mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$$
@@ -62,7 +63,9 @@ I_{r}&-A^{-1}B \\
 
 Comme $A \in GL_{r}(\mathbb{R})$, $\mathrm{rg}(A) = r$.
 Comme : 
-\begin{pmatrix}
+$$G = \begin{pmatrix}
 A&0 \\
 C&D-CA^{-1}B
-\end{pmatrix}est une matrice triangulaire inférieur, 
+\end{pmatrix}$$
+est une matrice triangulaire inférieure, 
+$$\mathrm{rg}(G) \geq \dim \mathrm{Ker}(G)$$
