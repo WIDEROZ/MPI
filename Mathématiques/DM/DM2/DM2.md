@@ -38,13 +38,12 @@ $$\begin{array}{rll}
 $(\star)$, $\Leftarrow$ : 
 car : 
 $$\begin{array}{rl}
-\forall M \in \mathcal{M}_{n}(\mathbb{R}), \forall X \in \mathcal{M}_{n, 1}, \\
-\Rightarrow &(M^{\top}M)X = 0  \\
-\Rightarrow &X^{\top}M^{\top}MX = 0 \\
-\Rightarrow & (MX)^{\top}MX = 0 \\
-\overset{(\star)}{\Rightarrow} & MX = 0 
+\forall M \in \mathcal{M}_{n}(\mathbb{R}), \forall X \in \mathcal{M}_{n, 1},  &(M^{\top}M)X = 0  \\
+&\Rightarrow X^{\top}M^{\top}MX = 0 \\
+&\Rightarrow  (MX)^{\top}MX = 0 \\
+&\overset{(\star)}{\Rightarrow}  MX = 0 
 \end{array}$$
-$(\star)$ : Car $MX \in \mathcal{M}_{}$
+$(\star)$ : Car $MX \in \mathcal{M}_{n, 1}(\mathbb{R})$.
 
 
 
@@ -137,16 +136,7 @@ $$\mathrm{rg}(M)\geq r$$
 Donc, $\mathrm{rg}(M) = r$, 
 Alors, 
 encore d'après la question 2 : 
-$$A = 0$$
-Alors, 
-$$M = \begin{pmatrix}
-\lambda I_{r}&B \\
-B^{\top}&0
-\end{pmatrix}$$
-
-Comme : 
-$$\begin{pmatrix}
-0&B \\
-B^{\top}&A
-\end{pmatrix} \in V$$
-et $\mathrm{rg}(A) = r$ 
+$$A = B^{\top}I_{r}B =  0$$
+Ainsi,
+$$A = B^{\top}B= 0$$
+Comme $B^{\top}B = 0$ et que :
