@@ -53,7 +53,7 @@ typedef struct var{
 
     int *KEY_DOWN_STATUS;
     matrix *XY_CASE_MAT;
-    int *coordLivingCells;
+    matrix *coordLivingCells;
 
     SDL_Rect *camera;
     SDL_Rect *gridDestRect;

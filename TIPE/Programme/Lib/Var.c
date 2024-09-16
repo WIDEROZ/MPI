@@ -3,6 +3,7 @@
 void MALLOC_VAR(Var *var){
     var->KEY_DOWN_STATUS = malloc(sizeof(int*));
     var->XY_CASE_MAT = malloc(sizeof(matrix));
+    var->coordLivingCells = malloc(sizeof(matrix));
     var->camera = malloc(sizeof(SDL_Rect));
     var->gridDestRect = malloc(sizeof(SDL_Rect));
     var->toolbar = malloc(sizeof(Toolbar));
@@ -18,6 +19,7 @@ void DESTROY_VAR(Var *var){
     SDL_DestroyTexture(var->toolbar->toolbarTexture);
     free(var->KEY_DOWN_STATUS);
     DESTROY_MATRIX(*var->XY_CASE_MAT);
+    DESTROY_MATRIX(*var->coordLivingCells);
     free(var->camera);
     free(var->gridDestRect);
     free(var->toolbar);
