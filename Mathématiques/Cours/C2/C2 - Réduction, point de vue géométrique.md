@@ -669,4 +669,24 @@ XI_{n}-B&-C \\
 $$= \det(XI_{r}-B)\det(XI_{n-r}-D) = \chi_{g}(X)Q(X)$$
 
 ## 3. Multiplicité d'une valeur propre
-Soit $f \in \mathcal{L}(E)$, ,et $\alpha \in \mathbb{K}$, une valeur propre de $f$ ie une racine de $\chi_{f}$. On appelle multiplicité d'une valeur propre $\alpha$ sa multiplicité en tant que racine de $\chi_{f}$, ie l'unique $m \in [\![1,n]\!]$ vérifiant 
+Soit $f \in \mathcal{L}(E)$, ,et $\alpha \in \mathbb{K}$, une valeur propre de $f$ ie une racine de $\chi_{f}$. On appelle multiplicité d'une valeur propre $\alpha$ sa multiplicité en tant que racine de $\chi_{f}$, ie l'unique $m \in [\![1,n]\!]$ vérifiant : 
+$$\forall k \in [\![0, m-1]\!], \chi_{f}^{(k)}(\alpha) = 0 \text{ et }\chi_{f}^{(m)}(\alpha) \neq 0$$
+ou encore : 
+$$\begin{cases}
+(X-\alpha)^{m} | \chi_{f} \\
+(X-\alpha)^{m+1} \not\mid \chi_{f}
+\end{cases}$$
+
+#### Exemple
+On a montré que : 
+$$A = \begin{pmatrix}
+1&1&1&1 \\
+2&2&2&2 \\
+3&3&3&3 \\
+4&4&4&4
+\end{pmatrix}$$
+admet pour valeurs propres : $10$ de multiplicité $1$ et $0$ de multiplicité $3$, On a donc, 
+$$\sum_{\alpha \in Sp(f)} mult(\alpha) \leq n = \deg \chi_{f}$$
+on a égalité ssi $\chi_{f}$ est scindé dans $\mathbb{K}[X]$
+
+ 
