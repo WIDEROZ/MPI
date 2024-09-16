@@ -597,4 +597,33 @@ $$ \underset{L_{1} \leftarrow \underset{k = 1}{\overset{4}{\sum}}L_{k}}{=}  \lef
 $$\overset{\begin{array}{c}
 \forall i \geq 2,  \\
 C_{i} \leftarrow C_{i}-C_{1}
-\end{array}}{=} \left| 10&\right|$$
+\end{array}}{=} \left| \begin{array}{c}
+10-X&0&0&0 \\
+2&-X&0&0 \\
+3&0&-X&0 \\
+4&0&0&-X
+\end{array}\right|= (10-X)(-X)^{3} $$
+Ainsi, 
+$$\chi_{A} = (X-10)X^{3} \Rightarrow Sp(A) = \{ 0, 10 \}$$
+
+## 2. Propriétés de $\chi$
+#### Propriété
+Si $E$ est un $\mathbb{C}$-ev tout $f \in \mathcal{L}(E)$, admet au moins une valeur propre.
+Pour $M \in \mathcal{M}_{n}(\mathbb{C})$, $M$ admet au moins une valeur propre complexe.
+Pour $M \in \mathcal{M}_{2n+1}(\mathbb{R})$, $M$ admet au moins une valeur propre réelle. 
+
+Démonstration : 
+Les deux premières sont des conséquences du théorème de D'Alembert-Gauss car : 
+$$\forall \alpha \in \mathbb{C}, \alpha \in SP(f) \Leftrightarrow \alpha \text{ est une racine de }\chi_{f}(X) \in \mathbb{C}[X]$$
+et $\deg \chi_{f} = n \geq 1$ (cf plus loin)
+
+Le troisième point provient du fait que $\chi_{M} \in \mathbb{R}[X]$ est de degré $2n+1$ impair et qu'un tel polynôme admet au moins une racine. 
+
+#### Propriété
+$$\forall M \in \mathcal{M}_{n}(\mathbb{K}), \chi_{M} \text{ est un polynôme unitaire de degré }n$$
+de plus : 
+$$\chi_{M}(X) = X^{n} - (\mathrm{Tr}(M))X^{k-1}+ \dots + (-1)^{n}\det(M)$$
+
+Démonstration : 
+Son coefficient contant est : 
+$$\chi_{M}(0) = $$
