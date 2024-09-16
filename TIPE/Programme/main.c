@@ -7,6 +7,7 @@
 /* !!! ATTENTION !!! */
 /* --- Toutes les fichiers sont dépendants --- */
 /* --- Changer l'ordre mènerait à la perte de toute logique ---*/
+#include "Lib/linked-list/list.h"
 #include "Lib/Error.c"
 #include "Lib/Array.c"
 #include "Lib/Matrix.c"
