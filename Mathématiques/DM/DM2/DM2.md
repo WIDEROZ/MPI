@@ -139,4 +139,3 @@ encore d'après la question 2 :
 $$A = B^{\top}I_{r}B =  0$$
 Ainsi,
 $$A = B^{\top}B= 0$$
-Comme $B^{\top}B = 0$ et que :
