@@ -5,7 +5,7 @@
 int main(int argc, char const *argv[])
 {
     Node *cell = malloc(sizeof(Node));
-    Node newNode()
+    cell = newNode(cell);
 
 
     free(cell);
