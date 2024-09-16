@@ -100,3 +100,10 @@ Montrons que :
 $$A = B^{\top}B = 0$$
 
 $$\mathrm{rg}(M) \leq r$$
+Comme $\lambda I_{r} \in GL_{r}(\mathbb{R})$, $B \in \mathcal{M}_{r, n-r}(\mathbb{R})$ et $B^{\top} \in \mathcal{M}_{n-r, r}$ puis $A \in \mathcal{M}_{n-r}(\mathbb{R})$
+d'après la question $2$, 
+$$\mathrm{rg}(M)\geq r$$
+Donc, $\mathrm{rg}(M) = r$, 
+Alors, 
+encore d'après la question 2 : 
+$$A = 0$$
