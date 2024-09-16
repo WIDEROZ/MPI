@@ -144,3 +144,5 @@ A FINIR
 
 ### (b).
 $$V \underset{sev}{\subset} W_{r}$$
+
+### (c).
