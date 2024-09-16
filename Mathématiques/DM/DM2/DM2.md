@@ -96,10 +96,7 @@ $$M = \begin{pmatrix}
 B^{\top}&A
 \end{pmatrix}$$
 Soit $X \in \mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$, 
-$$MX = \begin{pmatrix}
-\lambda I_{r}&B^{\top} \\
-B&A
-\end{pmatrix}MX = \begin{pmatrix}
-\lambda^{2}I_{r}+(B^{2})^{\top}&\lambda B + B^{\top}A \\
-\lambda B+AB^{\top}&B^{2}+A^{2}
-\end{pmatrix}X = 0$$
+$$M^{2} = \begin{pmatrix}
+\lambda^{2}I_{r}+BB^{\top}&\lambda B+BA \\
+\lambda B^{\top}+
+\end{pmatrix}$$
