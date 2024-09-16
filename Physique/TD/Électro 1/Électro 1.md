@@ -33,4 +33,4 @@ $$s(t) = G(\omega_{f})E_{1}\cos(\omega_{f}t + \varphi(\omega_{f})) + G(3\omega_{
 $$ = \frac{E_{1}}{3} \cos(\omega_{f}t + \phi) + \frac{3}{\sqrt{ 145 }}E_{2}\cos\left( \omega_{f}t-\arctan\left( \frac{8}{9} \right) \right)$$
 
 ## (b).
-$$s(t) = \frac{8}{\pi^{2}}\sum_{p = 1}^{+\infty} \frac{G(p\omega_{})}{(2p+1)^{2}}$$
+$$s(t) = \frac{8}{\pi^{2}}\sum_{p = 1}^{+\infty} \frac{G((2p+1)\omega_{f})}{(2p+1)^{2}}\cos((2p+1)\omega_{f}t+\varphi((2p+1)\omega_{f}))$$
