@@ -93,7 +93,24 @@ $$\varphi : \begin{cases}
 B^{\top}&A
 \end{pmatrix}
 \end{cases}$$
-On montre que 7 (COMBIEN!?!?!?) application est bij. 
+On montre que cette application est bijective : 
+Soit $(X, Y) \in \mathrm{Ker}(\varphi)$, 
+$$\varphi(X, Y) = \begin{pmatrix}
+0&Y \\
+Y^{\top}&X
+\end{pmatrix} = \begin{pmatrix}
+0&0 \\
+0&0
+\end{pmatrix}$$
+Ainsi, $X=0$ et $Y = 0$, par unicité des blocs dans des matrices par blocs. 
+
+Soit $Y \in \mathrm{Im}(\varphi)$, 
+il existe alors, $(A, B) \in \mathcal{M}_{n-r}(\mathbb{R}) \times \mathcal{M}_{r, n-r}(\mathbb{R})$ tels que : 
+$$Y = \begin{pmatrix}
+0&B
+\end{pmatrix}$$
+
+Sonic the hedgedogydoggo HEHEHEHA
 
 
 
