@@ -34,3 +34,8 @@ Comme $Q \ll K^{0}$
 Alors la réaction va de la gauche vers la droite.
 ### (b).
 Lorsque $Q = K^{0}$ : 
+$$K^{0} = \frac{1\times \frac{[Fe^{3+}]}{c_{0}}}{\frac{[Ag^{+}]}{c_{0}}\times \frac{[Fe^{2+}]}{c_{0}}} = c_{0} \times \frac{[Fe^{3+}]}{[Ag^{+}]\times[Fe^{2+}]}$$
+$$= c_{0} \times \frac{\frac{n_{Fer_{3+}}+ \xi}{V_{tot}}}{\frac{n(Ag)-\xi}{V_{tot}}\times \frac{n(Fe^{2+})-\xi}{V_{tot}}} $$
+$$= n_{tot} \times \frac{n(Fe^{3+})+\xi}{(n(Ag^{+})-\xi)(n(Fe^{2+})-\xi)}$$
+Alors, 
+$$\frac{K^{0}n(Ag^{+})}{n_{tot}} = \frac{n(Fe^{3+})+\xi}{n(Fe^{2+})-\xi} + K^{}$$
