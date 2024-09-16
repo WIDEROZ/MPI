@@ -85,7 +85,20 @@ Ainsi,
 $$\det(G) = r$$
 
 ## Question 3
-$\mathcal{M}_{n}(\mathbb{PD})$
+On pose : 
+$$\varphi : \begin{cases}
+\mathcal{M}_{n-r}(\mathbb{R}) \times \mathcal{M}_{r, n-r}(\mathbb{R})\to W_{r} \\
+(A, B) \mapsto \begin{pmatrix}
+0&B \\
+B^{\top}&A
+\end{pmatrix}
+\end{cases}$$
+On montre que 7 (COMBIEN!?!?!?) application est bij. 
+
+
+
+
+
 
 
 
