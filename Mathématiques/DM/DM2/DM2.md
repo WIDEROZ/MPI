@@ -85,15 +85,3 @@ Ainsi,
 $$\det(G) = r$$
 
 ## Question 3
-Soit $(A, B) \in \mathcal{M}_{n-r}(\mathbb{R}) \times \mathcal{M}_{r, n-r}(\mathbb{R})$, 
-La famille : 
-$$\begin{pmatrix}
-\begin{pmatrix}
-0&B \\
-B^{\top}&0
-\end{pmatrix},\begin{pmatrix}
-0&0 \\
-0&A
-\end{pmatrix}
-\end{pmatrix}$$
-est une base de $W_{r}$, elle est trivialement 
