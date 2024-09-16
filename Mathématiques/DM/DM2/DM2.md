@@ -34,19 +34,19 @@ $$\begin{array}{rll}
 & \overset{(\star)}{\Leftrightarrow} (M^{\top}M)X = 0_{_{\mathcal{M}_{n, 1}(\mathbb{R})}} \\
 & \Leftrightarrow X \in \mathrm{Ker}(M^{\top}M)
 \end{array}$$
-$(\star)$ : $\Leftarrow$ 
 
-Soit $X \in \mathrm{Ker}(M^{\top}M)$, 
-$$(M^{\top}M)X = 0$$
-Si $M = 0$ alors $MX = 0$, 
-Si $M \neq 0$,
+$(\star)$, $\Leftarrow$ : 
+car : 
+$$\begin{array}{rl}
+\forall M \in \mathcal{M}_{n}(\mathbb{R}), \forall X \in \mathcal{M}_{n, 1}, \\
+\Rightarrow &(M^{\top}M)X = 0  \\
+\Rightarrow &X^{\top}M^{\top}MX = 0 \\
+\Rightarrow & (MX)^{\top}MX = 0 \\
+\overset{(\star)}{\Rightarrow} & MX = 0 
+\end{array}$$
+$(\star)$ : Car $MX \in \mathcal{M}_{}$
 
 
-
-
-
-Ainsi, 
-$$\mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$$
 
 ## Question 2
 ### (a).
