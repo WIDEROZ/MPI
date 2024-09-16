@@ -27,3 +27,10 @@ $$K^{0} = \frac{(2\xi_{f})^{2}}{(n_{1}-2\xi_{f})^{2}(n_{1}-\xi_{f})} \frac{(6n_{
 
 
 # Exercice 2
+## 1.
+### (a).
+$$Q = \frac{1\times \frac{[Fe^{3+}]}{c_{0}}}{\frac{[Ag^{+}]}{c_{0}}\times \frac{[Fe^{2+}]}{c_{0}}} = \frac{1}{4}$$
+Comme $Q \ll K^{0}$
+Alors la réaction va de la gauche vers la droite.
+### (b).
+Lorsque $Q = K^{0}$ : 
