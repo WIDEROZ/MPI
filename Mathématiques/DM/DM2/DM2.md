@@ -94,9 +94,9 @@ Posons :
 $$M = \begin{pmatrix}
 \lambda I_{r}&B \\
 B^{\top}&A
-\end{pmatrix}$$
-Soit $X \in \mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$, 
-$$M^{2} = \begin{pmatrix}
-\lambda^{2}I_{r}+BB^{\top}&\lambda B+BA \\
-\lambda B^{\top}+AB^{\top}&B^{\top}B+A^{2}
-\end{pmatrix} = $$
+\end{pmatrix}\in V$$
+car CL de deux éléments de $V$.
+Montrons que : 
+$$A = B^{\top}B = 0$$
+
+$$\mathrm{rg}(M) \leq r$$
