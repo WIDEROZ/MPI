@@ -100,6 +100,6 @@ $$MX = \begin{pmatrix}
 \lambda I_{r}&B^{\top} \\
 B&A
 \end{pmatrix}MX = \begin{pmatrix}
-\lambda^{2}I_{r}+(B^{\top})^{2}&\lambda B + B^{\top}A \\
+\lambda^{2}I_{r}+(B^{2})^{\top}&\lambda B + B^{\top}A \\
 \lambda B+AB^{\top}&B^{2}+A^{2}
 \end{pmatrix}X = 0$$
