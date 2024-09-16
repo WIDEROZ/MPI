@@ -85,3 +85,21 @@ Ainsi,
 $$\det(G) = r$$
 
 ## Question 3
+
+
+# B - Dimension maximale
+## Question 4
+### (a).
+Posons :
+$$M = \begin{pmatrix}
+\lambda I_{r}&B \\
+B^{\top}&A
+\end{pmatrix}$$
+Soit $X \in \mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$, 
+$$MX = \begin{pmatrix}
+\lambda I_{r}&B^{\top} \\
+B&A
+\end{pmatrix}MX = \begin{pmatrix}
+\lambda^{2}I_{r}+(B^{\top})^{2}&\lambda B + B^{\top}A \\
+\lambda B+AB^{\top}&B^{2}+A^{2}
+\end{pmatrix}X = 0$$
