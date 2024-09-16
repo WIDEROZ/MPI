@@ -42,6 +42,6 @@ $$(n(Ag^{+})-\xi)(n(Fe^{2+})-\xi) = \frac{n_{tot}}{K^{0}}(n(Fe^{3+})+\xi)$$
 Alors,
 $$\xi^{2}-\xi\left( n(Fe^{2+})+n(Ag^{+})+\frac{n_{tot}}{K^{0}} \right)+n(Fe^{2+})+n(Ag^{+}) - \frac{n_{tot}}{K^{0}}n(Fe^{3+}) = 0$$
 $$\Delta = \left( n(Fe^{2+})+n(Ag^{+})+\frac{n_{tot}}{K^{0}} \right)^{2} - 4(n(Fe^{2+})+n(Ag^{+}) - \frac{n_{tot}}{K^{0}}n(Fe^{3+}))$$
-$$\Delta = \begin{array}{c}
-n^{2}
-\end{array}$$
+
+## 2.
+### a.
