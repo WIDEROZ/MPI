@@ -77,4 +77,23 @@ A&0 \\
 C&D-CA^{-1}B
 \end{pmatrix}$$
 est une matrice triangulaire inférieure, 
-$$\mathrm{rg}(G) \geq \dim \mathrm{Ker}(G)$$
+$$\det(G) = \det(A) + \det(D-CA^{-1}B) = r + \det(D-CA^{-1}B)$$
+Ainsi, 
+$$\det(G) = \det(M) \geq r$$
+Si $D = CA^{-1}B = 0$ alors, $\det(D-CA^{-1}B) = 0$
+Ainsi,
+$$\det(G) = r$$
+
+## Question 3
+Soit $(A, B) \in \mathcal{M}_{n-r}(\mathbb{R}) \times \mathcal{M}_{r, n-r}(\mathbb{R})$, 
+La famille : 
+$$\begin{pmatrix}
+\begin{pmatrix}
+0&B \\
+B^{\top}&0
+\end{pmatrix},\begin{pmatrix}
+0&0 \\
+0&A
+\end{pmatrix}
+\end{pmatrix}$$
+est une base de $W_{r}$, elle est trivialement 
