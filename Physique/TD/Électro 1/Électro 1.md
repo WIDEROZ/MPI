@@ -27,3 +27,10 @@ $$z_{e} = z_{1} + z_{2}$$
 $$z_{s} = \frac{z_{1}\times z_{2}}{z_{1}+z_{2}}$$
 
 ## 2.
+### (a).
+$$e(t) = E_{1}\cos(\omega_{f}t + \phi) + E_{2}\cos(3\omega_{f}t + \phi)$$
+$$s(t) = G(\omega_{f})E_{1}\cos(\omega_{f}t + \varphi(\omega_{f})) + G(3\omega_{f})E_{2}\cos(3\omega_{f}t + \varphi(3\omega_{f}))$$
+$$ = \frac{E_{1}}{3} \cos(\omega_{f}t + \phi) + \frac{3}{\sqrt{ 145 }}E_{2}\cos\left( \omega_{f}t-\arctan\left( \frac{8}{9} \right) \right)$$
+
+## (b).
+$$s(t) = \frac{8}{\pi^{2}}\sum_{p = 1}^{+\infty} \frac{G(p\omega_{})}{(2p+1)^{2}}$$
