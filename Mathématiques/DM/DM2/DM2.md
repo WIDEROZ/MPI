@@ -143,6 +143,5 @@ $$A = B^{\top}B= 0$$
 A FINIR
 
 ### (b).
-$$V \underset{sev}{\subset} W_{r}$$
+$$W_{r} \underset{sev}{\subset} V$$
 
-### (c).
