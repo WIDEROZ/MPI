@@ -98,5 +98,5 @@ B^{\top}&A
 Soit $X \in \mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$, 
 $$M^{2} = \begin{pmatrix}
 \lambda^{2}I_{r}+BB^{\top}&\lambda B+BA \\
-\lambda B^{\top}+
-\end{pmatrix}$$
+\lambda B^{\top}+AB^{\top}&B^{\top}B+A^{2}
+\end{pmatrix} = $$
