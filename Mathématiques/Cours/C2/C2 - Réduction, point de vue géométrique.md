@@ -465,3 +465,30 @@ $$P = \begin{pmatrix}
 \vdots&\vdots&\ddots&\ddots&0 \\
 1&0&\dots&0&1
 \end{pmatrix} \in GL_{n}(\mathbb{R})$$
+
+## 2. Quelques conditions de DZ
+#### Propriété
+Si $\dim E = n$ et $f \in \mathcal{L}(E)$, 
+- Si $f$ admet une unique valeur propre $\alpha \in \mathbb{K}$, et si $f$ est DZ, alors $f = \alpha Id_{E}$
+- Si $f$ admet $n$ valeurs propres, il est DZ.
+
+Démonstration 1 : (Matricielle)
+Notons $M = Mat_{\beta}(f) \in \mathcal{M}_{n}(\mathbb{K})$ ou $\beta$ est une base de $E$, $M$m+ est diagonalisable, don,
+$$\exists P \in GL_{n}(\mathbb{K}), \exists (\alpha_{i})_{i = 1}^{n} \in \mathbb{K}^{n}, M = P DP^{-1}$$
+ou 
+$$D = \begin{pmatrix}
+\alpha_{1}&&&0 \\
+&\alpha_{2}\\
+&&\ddots \\
+0&&&\alpha_{n}
+\end{pmatrix}$$
+
+Alors, 
+$$\{ \alpha \} = Sp(f) = Sp(M)$$
+et comme ces deux matrices semblables ont le même spectre (cf + loin). 
+$$\{ \alpha \} = Sp(D) = \{ \alpha_{1}, \dots, \alpha_{n} \}$$
+$$M = P\alpha I_{n}P^{-1}=\alpha I_{n} = Mat_{\beta}(f)$$
+ie $f = \alpha Id_{E}$
+
+Démonstration 2 : 
+$$\sum_{\alpha \in Sp(f)}\dim (E_{\alpha}(f)) \geq \left| Sp(f)\right| = n = \dim  E$$
