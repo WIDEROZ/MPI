@@ -103,18 +103,16 @@ Y^{\top}&X
 0&0
 \end{pmatrix}$$
 Ainsi, $X=0$ et $Y = 0$, par unicité des blocs dans des matrices par blocs. 
-
-Soit $Y \in \mathrm{Im}(\varphi)$, 
-il existe alors, $(A, B) \in \mathcal{M}_{n-r}(\mathbb{R}) \times \mathcal{M}_{r, n-r}(\mathbb{R})$ tels que : 
+___
+Soit $Y \in W_{r}$, 
+il existe alors par définition de $W_{r}$, $(A, B) \in \mathcal{M}_{n-r}(\mathbb{R}) \times \mathcal{M}_{r, n-r}(\mathbb{R})$ tels que : 
 $$Y = \begin{pmatrix}
-0&B
-\end{pmatrix}$$
-
-Sonic the hedgedogydoggo HEHEHEHA
-
-
-
-
+0&B \\
+B^{\tau}&A
+\end{pmatrix} = \varphi(A, B)$$
+Donc, $W_{r} = \mathrm{Im}(\varphi)$, car $\varphi$ est bien définie. 
+___
+Ainsi, $\varphi$ est bijective donc 
 
 
 
