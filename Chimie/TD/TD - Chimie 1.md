@@ -43,5 +43,12 @@ Alors,
 $$\xi^{2}-\xi\left( n(Fe^{2+})+n(Ag^{+})+\frac{n_{tot}}{K^{0}} \right)+n(Fe^{2+})+n(Ag^{+}) - \frac{n_{tot}}{K^{0}}n(Fe^{3+}) = 0$$
 $$\Delta = \left( n(Fe^{2+})+n(Ag^{+})+\frac{n_{tot}}{K^{0}} \right)^{2} - 4(n(Fe^{2+})+n(Ag^{+}) - \frac{n_{tot}}{K^{0}}n(Fe^{3+}))$$
 
+$$\begin{cases}
+n(Fe^{2+}) = [Fe^{2+}]V =  \\
+n(Fe^{3+}) = [Fe^{3+}]V = 0.02 \\
+n(Ag^{+}) = [Ag^{+}]V = 0.05
+\end{cases}$$
+
+
 ## 2.
 ### a.
