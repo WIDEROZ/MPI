@@ -78,7 +78,18 @@ $$HClO_{4} + H_{2}O \rightleftharpoons ClO_{4}^{-} + H_{3}O^{+}$$
 ### 3.
 On a alors, EXCAL 1
 Ainsi, 
-$$\begin{cases}
-c_{ClO_{4}^{-}} = c_{H_{3}O^{+}} = \frac{n(HClO_{4})}{V_{tot}} = 0.16 mol.L^{-1}\\
+$$c_{ClO_{4}^{-}} = c_{H_{3}O^{+}} = \frac{n(HClO_{4})}{V_{tot}} = 0.016 mol.L^{-1}$$
 
-\end{cases}$$
+### 4.
+La formule du $pH$ pour un acide fort est : 
+$$pH = -\log\left( \frac{c_{HClO_{4}}}{c^{0}} \right) = 1.8 $$
+
+### 5.
+On veut que : $pH = 3 = -\log\left( \frac{c_{solM}}{c^{0}} \right)$, alors, 
+$$\ln(10^{3}) = -\ln\left( \frac{c_{solM}}{c^{0}} \right)$$
+Alors, 
+$$10^{3} = \frac{c^{0}}{c_{solM}} \Rightarrow c_{solM} = \frac{c^{0}}{10^{3}}$$
+Donc, le facteur de dilution est :
+$$\frac{c_{solM}}{c_{HClO_{4}}}= \frac{16 \times 10^{-3}}{10^{3}} = 16 \times 10^{-6}$$
+Puis : 
+$$V_{solM} = \frac{c_{HClO_{4}}}{c_{solM}} V_{HClO_{4}} = $$
