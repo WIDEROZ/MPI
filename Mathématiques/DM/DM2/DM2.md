@@ -35,6 +35,16 @@ $$\begin{array}{rll}
 & \Leftrightarrow X \in \mathrm{Ker}(M^{\top}M)
 \end{array}$$
 $(\star)$ : $\Leftarrow$ 
+
+Soit $X \in \mathrm{Ker}(M^{\top}M)$, 
+$$(M^{\top}M)X = 0$$
+Si $M = 0$ alors $MX = 0$, 
+Si $M \neq 0$,
+
+
+
+
+
 Ainsi, 
 $$\mathrm{Ker}(M) = \mathrm{Ker}(M^{\top}M)$$
 
