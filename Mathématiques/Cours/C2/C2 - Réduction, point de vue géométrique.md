@@ -639,4 +639,34 @@ $$g ; \begin{cases}
 F \to F \\
 x \mapsto f(x)
 \end{cases}$$
-est lendo induit par $f$ sur $F$, alors $\chi_{g} |$
+est l'endo induit par $f$ sur $F$, alors $\chi_{g} | \chi_{f}$
+
+Démonstration : 
+Soit $(e_{i})_{i= 1}^{r}$ une base de $F$ complété en une base $(e_{i})_{i = 1}^{n}$ de $E$.
+Alors si on note : 
+$$B = Mat_{(e_{i})_{i = 1}^{r}}(g)$$
+La matrice de $f$ dans $(e_{i})_{i = 1}^{n}$ est de la forme : 
+$$\begin{array}{cl}
+A = \left( \begin{array}{c|c}
+B&C  \\ \hline
+0&D
+\end{array} \right)\begin{array}{c}
+\begin{rcases}
+
+\end{rcases}  r\\
+\begin{rcases}
+
+\end{rcases}n-r
+\end{array} \\
+r\space\space n-r
+\end{array}$$
+et donc, 
+$$\chi_{f}(X) = \chi_{A}(X)$$
+$$ = \det(XI_{n} - A) = \left| \begin{array}{c}
+XI_{n}-B&-C \\
+0&XI_{n-r}-D
+\end{array}\right| $$
+$$= \det(XI_{r}-B)\det(XI_{n-r}-D) = \chi_{g}(X)Q(X)$$
+
+## 3. Multiplicité d'une valeur propre
+Soit $f \in \mathcal{L}(E)$, ,et $\alpha \in \mathbb{K}$, une valeur propre de $f$ ie une racine de $\chi_{f}$. On appelle multiplicité d'une valeur propre $\alpha$ sa multiplicité en tant que racine de $\chi_{f}$, ie l'unique $m \in [\![1,n]\!]$ vérifiant 
