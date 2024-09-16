@@ -626,4 +626,17 @@ $$\chi_{M}(X) = X^{n} - (\mathrm{Tr}(M))X^{k-1}+ \dots + (-1)^{n}\det(M)$$
 
 Démonstration : 
 Son coefficient contant est : 
-$$\chi_{M}(0) = $$
+$$\chi_{M}(0) = \det(0I_{n}-M) = (-1)^{n}\det(M)$$
+Pour les autres cf. poly.
+
+#### Remarque
+Si $A \in \mathcal{M}_{2}(\mathbb{K})$, 
+$$\chi_{A}(X) = X^{2} - \mathrm{Tr}(A)X + \det(A)$$
+
+#### Propriété : Factorisation de $\chi_{A}$
+Si $F \underset{sev}{\subset} E$, stable par $f$ et : 
+$$g ; \begin{cases}
+F \to F \\
+x \mapsto f(x)
+\end{cases}$$
+est lendo induit par $f$ sur $F$, alors $\chi_{g} |$
