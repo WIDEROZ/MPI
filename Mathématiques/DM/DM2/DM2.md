@@ -139,3 +139,8 @@ encore d'après la question 2 :
 $$A = B^{\top}I_{r}B =  0$$
 Ainsi,
 $$A = B^{\top}B= 0$$
+
+A FINIR
+
+### (b).
+$$V \underset{sev}{\subset} W_{r}$$
