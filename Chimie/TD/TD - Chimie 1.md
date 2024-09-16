@@ -73,4 +73,7 @@ $\Delta < 0$ : encore problème...
 Il y a une réaction totale avec l'eau. 
 
 ## 2.
-$$HClO_{4} + H_{2}O \rightleftharpoons $$
+$$HClO_{4} + H_{2}O \rightleftharpoons ClO_{4}^{-} + H_{3}O^{+}$$
+
+### 3.
+On a alors, $$
