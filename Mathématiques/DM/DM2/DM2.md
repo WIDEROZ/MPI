@@ -112,9 +112,10 @@ B^{\tau}&A
 \end{pmatrix} = \varphi(A, B)$$
 Donc, $W_{r} = \mathrm{Im}(\varphi)$, car $\varphi$ est bien définie. 
 ___
-Ainsi, $\varphi$ est bijective donc 
-
-
+Alors, $\varphi$ est bijective donc 
+$$\dim (\mathcal{M}_{n-r}(\mathbb{R}))+\dim (\mathcal{M}_{r, n-r}(\mathbb{R})) = \dim (W_{r})$$
+Ainsi, 
+$$\dim (W_{r}) = (n-r)^{2} +r(n-r) = (n-r)(n-r+r) = n(n-r)$$
 
 
 # B - Dimension maximale
@@ -137,3 +138,15 @@ Donc, $\mathrm{rg}(M) = r$,
 Alors, 
 encore d'après la question 2 : 
 $$A = 0$$
+Alors, 
+$$M = \begin{pmatrix}
+\lambda I_{r}&B \\
+B^{\top}&0
+\end{pmatrix}$$
+
+Comme : 
+$$\begin{pmatrix}
+0&B \\
+B^{\top}&A
+\end{pmatrix} \in V$$
+et $\mathrm{rg}(A) = r$ 
