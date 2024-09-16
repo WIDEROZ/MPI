@@ -492,3 +492,22 @@ ie $f = \alpha Id_{E}$
 
 Démonstration 2 : 
 $$\sum_{\alpha \in Sp(f)}\dim (E_{\alpha}(f)) \geq \left| Sp(f)\right| = n = \dim  E$$
+et on a vu que cette inégalité était équivalente à la DZ de $f$
+
+# III. Polynôme caractéristique
+## 1. Définition
+#### Définition
+Soient $M \in \mathcal{M}_{n}(\mathbb{K})$ et $f \in \mathcal{L}(E)$, ou $\dim E = n$, 
+On appelle polynôme caractéristique de $M$ et on note : $\chi_{M}$ le polynôme de 
+$$\chi_{M}(X) = \det(XI_{n} - M) \in \mathbb{K}[X]$$
+De même, on note pour toute base $\beta$ de $E$,
+$$\chi_{f}(X) = \det(XId_{E} - f) = \det(XI_n-Mat_{\beta}(f)) \space (\star)$$
+En posant $M' = XI_{n}-M$, 
+C'est bien un polynôme en vertu : 
+$$\chi_{M} = \sum_{\sigma \in S_{n}}\varepsilon(\sigma) \prod_{j = 1}^{n}M'[j, \sigma(j)]$$
+Alors, de plus : $\chi_{M} \in \mathbb{K}_{n}[X]$ car $\forall i, j \in [\![1, n]\!], M'[i, j] \in \mathbb{K}_{1}[X]$
+
+$(\star)$ : Ceci à bien un sens car : 
+
+#### Propriété
+$$\forall A, B \in \mathcal{M}_{n}(\mathbb{K}), A \text{ et } B \text{sont semblables }$$
