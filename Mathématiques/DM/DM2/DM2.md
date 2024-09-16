@@ -85,6 +85,8 @@ Ainsi,
 $$\det(G) = r$$
 
 ## Question 3
+$\mathcal{M}_{n}(\mathbb{PD})$
+
 
 
 # B - Dimension maximale
