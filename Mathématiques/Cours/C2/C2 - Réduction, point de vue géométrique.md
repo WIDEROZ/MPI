@@ -540,5 +540,61 @@ $$M = Mat_{\beta}(f) = \left(\begin{array}{ccc|cc}
 1&&0&0&&0 \\
 &\ddots \\
 0&&1 \\ \hline
-d_{0}
+0&&0&0&&0 \\
+ \\
+0&&0&0&&0
 \end{array}\right)$$
+Donc, 
+$$\chi_{f}(X) = \chi_{M} (X) = \left| \begin{array}{c}
+X-1&&&&&0 \\
+&\ddots \\
+&&X-1 \\
+&&&X \\
+&&&&\ddots \\
+0&&&&&X
+\end{array} \right|$$
+
+___
+Soit $t \in \mathbb{R}$ et 
+$$R_{t} = \begin{pmatrix}
+\cos t&-\sin t \\
+\sin t&\cos t
+\end{pmatrix}$$
+la matrice de la rotation de $E = \mathbb{R}^{2}$ dans la base canonique. 
+Alors, 
+$$\chi_{R_{t}}(X) = X^{2}-2\cos t X + 1$$
+Démonstration : 
+$$\chi_{R_{t}}(X) = \left| \begin{array}{c}
+X-\cos t&\sin t \\
+-\sin t & X - \cos t
+\end{array}\right| = X^{2}-\cos t X+1$$
+Ici, si $\sin t \neq 0$, $R_{t}$ n'admet aucune valeur propre réelle : 
+$$R_{\frac{\pi}{2}} = \begin{pmatrix}
+0&-1 \\
+1&0
+\end{pmatrix}$$
+___
+Calculons : $\chi_{A}$ ou : 
+$$A = \begin{pmatrix}
+1&1&1&1 \\
+2&2&2&2 \\
+3&3&3&3 \\
+4&4&4&4
+\end{pmatrix}$$
+$$\chi_{A} = \det(XI_{4} - A) = (-1)^{4}\det(A - XI_{4})$$
+$$= \left| \begin{array}{c}
+1-X&1&1&1 \\
+2&2-X&2&2 \\
+3&3&3-X&3 \\
+4&4&4&4-X
+\end{array}\right|$$
+$$ \underset{L_{1} \leftarrow \underset{k = 1}{\overset{4}{\sum}}L_{k}}{=}  \left| \begin{array}{c}
+10-X&10-X&10-X&10-X \\
+2&2-X&2&2 \\
+3&3&3-X&3 \\
+4&4&4&4-X
+\end{array}\right|$$
+$$\overset{\begin{array}{c}
+\forall i \geq 2,  \\
+C_{i} \leftarrow C_{i}-C_{1}
+\end{array}}{=} \left| 10&\right|$$
