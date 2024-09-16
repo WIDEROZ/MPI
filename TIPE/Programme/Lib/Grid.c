@@ -30,17 +30,17 @@ void CREATE_GRID_CASE(SDL_Renderer *renderer, const int caseX, const int caseY){
 }
 
 
-void GRID_DISPLAY_CREATION(SDL_Renderer *renderer, SDL_Texture * texture, SDL_Rect camera){
+void GRID_DISPLAY_CREATION(Var *var){
     
     // On met en cible du dessin la texture
-    VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "SetRenderTarget");
+    VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, var->texture), "SetRenderTarget");
     // On nétoie entièrement la texture du rendu
-    VERIF_SDL_COMMAND(SDL_RenderClear(renderer), "RenderClear");
+    VERIF_SDL_COMMAND(SDL_RenderClear(var->renderer), "RenderClear");
 
-    CREATE_GRID_CASE(renderer, CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
+    CREATE_GRID_CASE(var->renderer, CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
 
     // On remet la cible du rendu sur la fenètre en entier
-    VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, NULL), "SetRenderTarget");
+    VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, NULL), "SetRenderTarget");
 }
 
 
@@ -63,9 +63,9 @@ void CASE_CLICK_CASE(Var *var, const int CASE_X, const int CASE_Y){
     
 
     // Ajout de la case dans la matrice
-    if((0 <= CASE_X <= var->XY_CASE_MAT->width) && (0 <= CASE_Y <= var->XY_CASE_MAT->height)){
+    if((0 <= CASE_X <= (var->XY_CASE_MAT->width)) && (0 <= CASE_Y <= (var->XY_CASE_MAT->height))){
         int Case = var->XY_CASE_MAT -> mat[CASE_X][CASE_Y];
-        if(var->XY_CASE_MAT -> mat[CASE_X][CASE_Y] == 0){
+        if(Case == 0){
 
             var->XY_CASE_MAT -> mat[CASE_X][CASE_Y] = 1;
 
@@ -127,10 +127,10 @@ void CASE_CLICK_DISPLAY(Var *var , const int x, const int y){
     // On met en cible du dessin la texture
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, var->texture), "SetRenderTarget");
 
-    CASE_CLICK_COORDS(var, x+var->camera.x, y+var->camera.y);
+    CASE_CLICK_COORDS(var, x+(var->camera->x), y+(var->camera->y));
 
     // On remet la cible du rendu sur la fenètre en entier
-    VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, NULL), "SetRenderTarget");
+    VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, NULL), "SetRenderTarget");
     }
 }
 

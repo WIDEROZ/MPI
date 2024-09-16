@@ -19,7 +19,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
 
                     case SDLK_c:
                         var->KEY_DOWN_STATUS[SDLK_c] = 1;
-                        GRID_DISPLAY_CREATION(var->renderer, var->texture, *var->camera);
+                        GRID_DISPLAY_CREATION(var);
                         continue;
 
                     // ---------- Déplacement de la caméra ----------- //
@@ -143,7 +143,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     *isMouseButtonPressed = false;
                     if (!(*MOUSE_MOVING))
                     {
-                        CASE_CLICK_DISPLAY(var->window, var->renderer, var->texture, *var->camera, var->XY_CASE_MAT, event.motion.x, event.motion.y);
+                        CASE_CLICK_DISPLAY(var, event.motion.x, event.motion.y);
                     }
                     *MOUSE_MOVING = false;
                     
