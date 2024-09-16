@@ -510,4 +510,35 @@ Alors, de plus : $\chi_{M} \in \mathbb{K}_{n}[X]$ car $\forall i, j \in [\![1, n
 $(\star)$ : Ceci à bien un sens car : 
 
 #### Propriété
-$$\forall A, B \in \mathcal{M}_{n}(\mathbb{K}), A \text{ et } B \text{sont semblables }$$
+$$\forall A, B \in \mathcal{M}_{n}(\mathbb{K}), A \text{ et } B \text{ sont semblables} \Rightarrow \chi_{A} = \chi_{B}$$
+
+Démonstration : (en supp les hyp.)
+Soit $A, B \in \mathcal{M}_{n}(\mathbb{K})$, 
+il existe alors $P \in GL_{n}(\mathbb{K})$ tel que : 
+$$A = PBP^{-1}$$
+Alors, 
+$$\chi_{A}(X) = \det(XI_{n}-A) = \det(XPI_{n}P^{-1} - PBP^{-1}) $$
+$$= \det(P(XI_{n} - B)P^{-1}) = \det(XI_{n}-B)$$
+car $\det$ est un invariant de similitude. 
+
+#### Propriété
+Le spectre de $f$ est l'ensemble des racines de $\chi_{f}$
+
+Démonstration : 
+$$\forall \alpha \in \mathbb{K}, \chi_{f}(\alpha) = 0 \Leftrightarrow \det(\alpha Id_{E} - f)=0$$
+$$\Leftrightarrow \alpha Id_{E} -f \text{ n'est pas inj.} (\dim E \neq + \infty)$$
+$$\Leftrightarrow \exists x \in E \setminus \{ 0 \}, (\alpha Id_{E}-f)(x) = 0 \text{ i.e.}f(x) = \alpha x$$
+
+#### Exemple
+Si $f$ est l’homothétie de rapport $\alpha \in \mathbb{K}$, $f = \alpha Id_{E}$, 
+$$\chi_{f}(X) = (X-\alpha)^{n}$$
+$$\chi_{f}(X) = \det(XI_{n}-\alpha I_{n}) = (X-\alpha)^{n}\det(I_{n})$$
+
+Si $f \in \mathcal{L}(E)$ est un projecteur, $\chi_{f}(X) = (X-1)^{r}X^{n-r}$ ou $r = \mathrm{rg}(f)$
+car en prenant une base de $E$ adapté à la décomposition : $E = \\mathrm{Ker}(f) \oplus \mathrm{Im}(f)$
+$$M = Mat_{\beta}(f) = \left(\begin{array}{ccc|cc}
+1&&0&0&&0 \\
+&\ddots \\
+0&&1 \\ \hline
+d_{0}
+\end{array}\right)$$
