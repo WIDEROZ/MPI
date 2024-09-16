@@ -59,3 +59,18 @@ $$Q = \frac{1\times \frac{[Fe^{3+}]}{c_{0}}}{\frac{[Ag^{+}]}{c_{0}}\times \frac{
 Alors, l'équation se déroule de la droite vers la gauche. 
 
 ### b.
+De même que la question précédente :
+$$\Delta = \left( n(Fe^{2+})+n(Ag^{+})+\frac{n_{tot}}{K^{0}} \right)^{2} - 4(n(Fe^{2+})+n(Ag^{+}) - \frac{n_{tot}}{K^{0}}n(Fe^{3+}))$$
+$$\begin{cases}
+n(Fe^{2+}) = [Fe^{2+}]V = 0.02 mol\\
+n(Fe^{3+}) = [Fe^{3+}]V = 0.05 mol \\
+n(Ag^{+}) = [Ag^{+}]V = 0.025 mol
+\end{cases}$$
+$\Delta < 0$ : encore problème...
+
+# Exercice 3
+## 1.
+Il y a une réaction totale avec l'eau. 
+
+## 2.
+$$HClO_{4} + H_{2}O \rightleftharpoons $$
