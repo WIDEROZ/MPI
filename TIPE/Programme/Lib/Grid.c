@@ -68,6 +68,12 @@ void CASE_CLICK_CASE(Var *var, const int CASE_X, const int CASE_Y){
         if(Case == 0){
 
             var->XY_CASE_MAT -> mat[CASE_X][CASE_Y] = 1;
+            int i = 0;
+            while(var->coordLivingCells->mat[i][0] != NULL){
+                i ++;
+            }
+            var->coordLivingCells->mat[i][0] = CASE_X;
+            var->coordLivingCells->mat[i][1] = CASE_Y;
 
             // On change la couleur du rectangle en blanc
             VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(var->renderer, 255, 255, 255, SDL_ALPHA_OPAQUE), "SetRenderDrawColor"); // On peut mettre 255 a la place de SDL opaque
