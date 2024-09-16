@@ -76,4 +76,9 @@ Il y a une réaction totale avec l'eau.
 $$HClO_{4} + H_{2}O \rightleftharpoons ClO_{4}^{-} + H_{3}O^{+}$$
 
 ### 3.
-On a alors, $$
+On a alors, EXCAL 1
+Ainsi, 
+$$\begin{cases}
+c_{ClO_{4}^{-}} = c_{H_{3}O^{+}} = \frac{n(HClO_{4})}{V_{tot}} = 0.16 mol.L^{-1}\\
+
+\end{cases}$$
