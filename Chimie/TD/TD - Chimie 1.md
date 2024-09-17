@@ -57,10 +57,7 @@ n(Fe^{2+}) = [Fe^{2+}]V - \xi = 1.8 \times 10^{-2} mol\\
 n(Ag) = n(Ag) + \xi = 3.0 \times 10^{-3} mol\\
 n(Fe^{3+}) = [Fe^{3+}]V + \xi = 3.0 \times 10^{-3} mol
 \end{cases}$$
-
-
-## 2.
-### a.
+.2.### a.
 $$Q = \frac{1\times \frac{[Fe^{3+}]}{c_{0}}}{\frac{[Ag^{+}]}{c_{0}}\times \frac{[Fe^{2+}]}{c_{0}}} = 50 \gg K^{0}$$
 Alors, l'équation se déroule de la droite vers la gauche. 
 
@@ -78,8 +75,8 @@ Or la réaction va de droite à gauche alors : $\xi = \xi_{2}$ :
 $$\begin{cases}
 n(Ag^{+}) = [Ag^{+}]V - \xi = 3.9 \times 10^{-2} mol\\
 n(Fe^{2+}) = [Fe^{2+}]V - \xi = 3.4 \times 10^{-2} mol\\
-n(Ag) = n(Ag) + \xi =  \times 10^{-3} mol\\
-n(Fe^{3+}) = [Fe^{3+}]V + \xi = 3.0 \times 10^{-3} mol
+n(Ag) = n(Ag) + \xi = -4.0 \times 10^{-3} mol\\
+n(Fe^{3+}) = [Fe^{3+}]V + \xi = 3.6 \times 10^{-2} mol
 \end{cases}$$
 
 
