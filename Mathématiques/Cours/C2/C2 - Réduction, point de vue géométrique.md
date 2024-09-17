@@ -711,4 +711,41 @@ Ainsi,
 $$\chi_{g}(X) = (X-\lambda)^{p}$$
 ou $p = \dim E_{\lambda}(f)$
 
-Ainsi, $(X-\lambda)^{p}|\chi_{f}(X)$ 
+Ainsi, $(X-\lambda)^{p}|\chi_{f}(X)$ donc, $p \leq Mult(\lambda)\leq \deg(\chi_{f}) = \dim E$
+et $p \geq 1$ car $\lambda \in Sp(f)$
+
+Démonstration 3 : 
+Si $\chi_{f}$ est SRS, il admet $n$ racines (ou $n = \dim E$) donc $f$ admet $n$ valeurs propres, donc $f$ est DZ. 
+
+#### Remarque
+On peut avoir $\dim E_{\lambda} \neq Mult(\lambda)$
+Par exemple si 
+$$A = \begin{pmatrix}
+0&1 \\
+0&0
+\end{pmatrix}$$
+$$\chi_{A}(X) = \left| \begin{array}{c}
+X&-1 \\
+0&X
+\end{array}\right| = X^{2}$$
+Donc $0$ est une valeur propre de mult 2
+
+Mais 
+$$\dim E_{0}(A) = \dim \mathrm{Ker}(A) = \dim Vect\begin{pmatrix}
+1 \\
+0
+\end{pmatrix} = 1 \neq 2$$
+
+#### Théorème
+Soit $f \in \mathcal{L}(E)$, on à équivalence entre : 
+$$\begin{cases}
+f \text{ est DZ} \\
+\begin{cases}
+\chi_{f} \text{ est scindé dans }\mathbb{K}[X] \\
+\forall \lambda \in Sp(f), Mult(\lambda) = \dim E_{\lambda}(f)
+\end{cases}
+\end{cases}$$
+
+Démonstration : 
+$\Rightarrow$ : 
+Su
