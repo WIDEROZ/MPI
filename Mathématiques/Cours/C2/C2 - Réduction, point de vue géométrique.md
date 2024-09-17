@@ -635,7 +635,7 @@ $$\chi_{A}(X) = X^{2} - \mathrm{Tr}(A)X + \det(A)$$
 
 #### Propriété : Factorisation de $\chi_{A}$
 Si $F \underset{sev}{\subset} E$, stable par $f$ et : 
-$$g ; \begin{cases}
+$$g : \begin{cases}
 F \to F \\
 x \mapsto f(x)
 \end{cases}$$
@@ -748,4 +748,29 @@ f \text{ est DZ} \\
 
 Démonstration : 
 $\Rightarrow$ : 
-Su
+Supposons que $f$ soit DZ : 
+Il existe une base $\beta$ de $E$ telle que : 
+$$Mat_{\beta}(f) = \begin{pmatrix}
+\alpha_{1}&&0 \\
+&\ddots \\
+0&&\alpha_{n}
+\end{pmatrix} \in \mathcal{M}_{n}(\mathbb{K})$$
+et alors, 
+$$\chi_{f}(X) = \prod_{k = 1}^{n} (X-\alpha_{k})$$
+est scindé de plus, 
+$$\sum_{\lambda \in Sp(f)} \dim E_{\lambda}(f) = \dim E$$
+car $f$ est DZ
+et 
+$$\dim E=\deg(\chi_{f}) = \sum_{\lambda \in Sp(f)}Mult(\lambda)$$
+car $\chi_{f}$ est scindé.
+Donc, 
+$$\sum_{\lambda \in Sp(f)}(Mult(\lambda) - \dim E_{\lambda}(f)) = 0$$
+Ainsi, comme : 
+$$\forall \lambda \in Sp(f), Mult(\lambda) - \dim E_{\lambda}(f) \geq 0$$
+$$Mult(\lambda) = \dim E_{\lambda}(f)$$
+
+$\Leftarrow$ : 
+$$\sum_{\lambda \in Sp(f)} \dim E_{\lambda}(f) = \sum_{\lambda \in Sp(f)} Mult(\lambda) \overset{\text{car }\chi_{f}\text{ est scindé}}{=} \deg(\chi_{f}) = \dim E$$
+Ainsi, 
+$$f \text{ est DZ}$$
+
