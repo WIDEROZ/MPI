@@ -813,3 +813,60 @@ $$P = \begin{pmatrix}
 0&-2
 \end{pmatrix}$$
 Déterminons les $X \in \mathcal{M}_{2}(\mathbb{R})$ vérifiant $X^{2} = D$,
+$X^{2} = D$
+Alors, 
+$$XD = XX^{2} = X^{2}X = DX$$
+Alors, 
+$$X = \begin{pmatrix}
+a&b \\
+c&d
+\end{pmatrix}$$
+vérifie : 
+$$\begin{pmatrix}
+2a&-2b \\
+2c&-2d
+\end{pmatrix}=\begin{pmatrix}
+2a&2b \\
+-2c&-2d
+\end{pmatrix}$$
+ie $b = c = 0$, ie 
+$$X=  \begin{pmatrix}
+a&0 \\
+0&d
+\end{pmatrix}$$
+Alors, 
+$$X^{2} = D \Leftrightarrow \begin{pmatrix}
+a^{2}&0 \\
+0&d^{2}
+\end{pmatrix} = \begin{pmatrix}
+2&0 \\
+0&-2
+\end{pmatrix}$$
+Puisque $d \in \mathbb{R}$, $d^{2}\geq 0$ alors $d^{2} \neq -2$
+et donc $D$ n'as pas de racine carré dans $\mathcal{M}_{2}(\mathbb{R})$
+en revanche elle en à $4$ dans $\mathcal{M}_{2}(\mathbb{C})$, 
+$$\begin{pmatrix}
+\pm \sqrt{ 2 }&0 \\
+0&\pm i\sqrt{ 2 }
+\end{pmatrix}$$
+
+Calculons : 
+$$\begin{array}{rl}
+\forall A \in \mathcal{M}_{2}(\mathbb{K}),  \\
+A^{2} = B &\Leftrightarrow A^{2} = PDP^{-1} \\
+&\Leftrightarrow P^{-1}(A^{2})P = D \\
+&\Leftrightarrow (P^{-1}AP)^{2} = D
+\end{array}$$
+Ainsi, il n'existe pas de matrice $A \in \mathcal{M}_{2}(\mathbb{R})$ telle que : $A^{2} = B$
+mais il existe $4$ racines carrés de $B$ dans $\mathcal{M}_{2}(\mathbb{C})$ en vertu de :
+$$\begin{array}{rl}
+A^{2} = B &\Leftrightarrow P^{-1}AP = \begin{pmatrix}
+\pm \sqrt{ 2 }&0 \\
+0& \pm i \sqrt{ 2 }
+\end{pmatrix} \\
+&\Leftrightarrow A = P\begin{pmatrix}
+\pm \sqrt{ 2 }&0 \\
+0&\pm i \sqrt{ 2 }
+\end{pmatrix} P^{-1}
+\end{array}$$
+
