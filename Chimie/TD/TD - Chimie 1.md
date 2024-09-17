@@ -55,8 +55,16 @@ Autre manière :
 $$K^{0} = c_{0} \times \frac{\frac{n_{Fer_{3+}}+ \xi}{V_{tot}}}{\frac{n(Ag)-\xi}{V_{tot}}\times \frac{n(Fe^{2+})-\xi}{V_{tot}}} = c_{0}\frac{[Fe^{3+}]+ \frac{\xi}{V}}{\left( [Ag^{+}]-\frac{\xi}{V} \right) \left( [Fe^{2+}]-\frac{\xi}{V} \right)}$$
 Donc, 
 $$K_{0}\left( \frac{\xi^{2}}{V^{2}}+[Ag^{+}][Fe^{2+}] \right) = c_{0} [Fe^{3+}]+ \frac{\xi}{V}([Fe^{2+}]+[Ag^{+}]+ K^{0})$$
-$$\frac{K_{0}}{V_{2}}\xi^{2} - \frac{\xi}{V}([Fe^{2+}]+[Ag^{+}]+ K^{0}) + K^{0}[Ag^{+}][Fe^{2+}]-c_{0}[Fe^{3+}]$$
-$$\Delta = $$
+$$\frac{K_{0}}{V^{2}}\xi^{2} - \frac{\xi}{V}([Fe^{2+}]+[Ag^{+}]+ K^{0}) + K^{0}[Ag^{+}][Fe^{2+}]-c_{0}[Fe^{3+}]$$
+$$\Delta = 44.0 \space mol^{2}.L^{-2} > 0$$
+Alors, 
+$$\xi_{1, 2} = \frac{V}{2K_{0}}([Fe^{2+}]+[Ag^{+}]+ K^{0} \pm V\sqrt{ \Delta })$$
+Donc, 
+$$\begin{cases}
+\xi_{1} = 5.2 \times 10^{-1} \space mol\\
+\xi_{2} = 2.0 \times 10^{-3} \space mol
+\end{cases}$$
+Le système à deux points d'équilibre. 
 
 
 
