@@ -29,4 +29,11 @@ Alors,
 $$\omega_{c} = \omega_{0} = \frac{1}{\sqrt{ LC }}$$
 $$\frac{1}{\sqrt{ LC }} = 6\pi f_{0}$$
 $$L = \frac{1}{36\pi^{2}f_{0}^{2}C}$$
-$$$$
+$2 H$ et $15nF$
+
+# III. Transformation d'un signal triangulaire
+On fait alors un circuit $RL$ série, pour prendre le caractère dérivateur de ce circuit. 
+
+$$\omega_{0} = \omega_{c} = \frac{R}{L}$$
+Alors, 
+$$\omega_{i} = 2\pi f_{i}$$
