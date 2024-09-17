@@ -33,29 +33,11 @@ $$Q = \frac{1\times \frac{[Fe^{3+}]}{c_{0}}}{\frac{[Ag^{+}]}{c_{0}}\times \frac{
 Comme $Q \ll K^{0}$
 Alors la réaction va de la gauche vers la droite.
 ### (b).
-Lorsque $Q = K^{0}$ : 
-$$K^{0} = \frac{1\times \frac{[Fe^{3+}]}{c_{0}}}{\frac{[Ag^{+}]}{c_{0}}\times \frac{[Fe^{2+}]}{c_{0}}} = c_{0} \times \frac{[Fe^{3+}]}{[Ag^{+}]\times[Fe^{2+}]}$$
-$$= c_{0} \times \frac{\frac{n_{Fer_{3+}}+ \xi}{V_{tot}}}{\frac{n(Ag)-\xi}{V_{tot}}\times \frac{n(Fe^{2+})-\xi}{V_{tot}}} $$
-$$= n_{tot} \times \frac{n(Fe^{3+})+\xi}{(n(Ag^{+})-\xi)(n(Fe^{2+})-\xi)}$$
-Alors, 
-$$(n(Ag^{+})-\xi)(n(Fe^{2+})-\xi) = \frac{n_{tot}}{K^{0}}(n(Fe^{3+})+\xi)$$
-Alors,
-$$\xi^{2}-\xi\left( n(Fe^{2+})+n(Ag^{+})+\frac{n_{tot}}{K^{0}} \right)+n(Fe^{2+})+n(Ag^{+}) - \frac{n_{tot}}{K^{0}}n(Fe^{3+}) = 0$$
-$$\Delta = \left( n(Fe^{2+})+n(Ag^{+})+\frac{n_{tot}}{K^{0}} \right)^{2} - 4(n(Fe^{2+})+n(Ag^{+}) - \frac{n_{tot}}{K^{0}}n(Fe^{3+}))$$
-
-$$\begin{cases}
-n(Fe^{2+}) = [Fe^{2+}]V = 2.0 \times 10^{-2} mol\\
-n(Fe^{3+}) = [Fe^{3+}]V = 5.0 \times 10^{-4} mol \\
-n(Ag^{+}) = [Ag^{+}]V = 5.0 \times 10^{-2} mol
-\end{cases}$$
-
-$\Delta \leq 0$ : problème...
-___
-Autre manière : 
+Lorsque $Q = K^{0}$ :  
 $$K^{0} = c_{0} \times \frac{\frac{n_{Fer_{3+}}+ \xi}{V_{tot}}}{\frac{n(Ag)-\xi}{V_{tot}}\times \frac{n(Fe^{2+})-\xi}{V_{tot}}} = c_{0}\frac{[Fe^{3+}]+ \frac{\xi}{V}}{\left( [Ag^{+}]-\frac{\xi}{V} \right) \left( [Fe^{2+}]-\frac{\xi}{V} \right)}$$
 Donc, 
 $$K_{0}\left( \frac{\xi^{2}}{V^{2}}+[Ag^{+}][Fe^{2+}] \right) = c_{0} [Fe^{3+}]+ \frac{\xi}{V}([Fe^{2+}]+[Ag^{+}]+ K^{0})$$
-$$\frac{K_{0}}{V^{2}}\xi^{2} - \frac{\xi}{V}([Fe^{2+}]+[Ag^{+}]+ K^{0}) + K^{0}[Ag^{+}][Fe^{2+}]-c_{0}[Fe^{3+}]$$
+$$\frac{K_{0}}{V^{2}}\xi^{2} - \frac{\xi}{V}([Fe^{2+}]+[Ag^{+}]+ K^{0}) + K^{0}[Ag^{+}][Fe^{2+}]-c_{0}[Fe^{3+}] = 0$$
 $$\Delta = 44.0 \space mol^{2}.L^{-2} > 0$$
 Alors, 
 $$\xi_{1, 2} = \frac{V}{2K_{0}}([Fe^{2+}]+[Ag^{+}]+ K^{0} \pm V\sqrt{ \Delta })$$
@@ -66,21 +48,15 @@ $$\begin{cases}
 \end{cases}$$
 Le système à deux points d'équilibres : 
 Pour $\xi = \xi_{1}$ : 
+$$n(Ag^{+}) = [Ag^{+}]V - \xi = -9.8 \times 10^{-5}$$
+On a une quantité de matière négative c'est impossible Alors : 
+$\xi = \xi_{2}$ : 
 $$\begin{cases}
-n(Ag^{+}) = [Ag^{+}]V - \xi =  \\
-n(Fe^{2+}) = [Fe^{2+}]V - \xi = \\
-n(Ag) = n(Ag) + \xi = \\
-n(Fe^{3+}) = [Fe^{3+}]V + \xi = 
+n(Ag^{+}) = [Ag^{+}]V - \xi = 4.8 \times 10^{-2} mol\\
+n(Fe^{2+}) = [Fe^{2+}]V - \xi = 1.8 \times 10^{-2} mol\\
+n(Ag) = n(Ag) + \xi = 3.0 \times 10^{-3} mol\\
+n(Fe^{3+}) = [Fe^{3+}]V + \xi = 3.0 \times 10^{-3} mol
 \end{cases}$$
-
-Pour $\xi = \xi_{2}$ : 
-$$\begin{cases}
-n(Ag^{+}) = [Ag^{+}]V - \xi = \\
-n(Fe^{2+}) = [Fe^{2+}]V - \xi = \\
-n(Ag) = n(Ag) + \xi = \\
-n(Fe^{3+}) = [Fe^{3+}]V + \xi = 
-\end{cases}$$
-
 
 
 ## 2.
@@ -90,13 +66,26 @@ Alors, l'équation se déroule de la droite vers la gauche.
 
 ### b.
 De même que la question précédente :
-$$\Delta = \left( n(Fe^{2+})+n(Ag^{+})+\frac{n_{tot}}{K^{0}} \right)^{2} - 4(n(Fe^{2+})+n(Ag^{+}) - \frac{n_{tot}}{K^{0}}n(Fe^{3+}))$$
+$$\Delta =  \space mol^{2}.L^{-2} > 0$$
+Alors, 
+$$\xi_{1, 2} = \frac{V}{2K_{0}}([Fe^{2+}]+[Ag^{+}]+ K^{0} \pm V\sqrt{ \Delta })$$
+Donc, 
 $$\begin{cases}
-n(Fe^{2+}) = [Fe^{2+}]V = 0.02 mol\\
-n(Fe^{3+}) = [Fe^{3+}]V = 0.05 mol \\
-n(Ag^{+}) = [Ag^{+}]V = 0.025 mol
+\xi_{1} = 5.2 \times 10^{-1} \space mol\\
+\xi_{2} = 2.0 \times 10^{-3} \space mol
 \end{cases}$$
-$\Delta < 0$ : encore problème...
+Le système à deux points d'équilibres : 
+Pour $\xi = \xi_{1}$ : 
+$$n(Ag^{+}) = [Ag^{+}]V - \xi = -9.8 \times 10^{-5}$$
+On a une quantité de matière négative c'est impossible Alors : 
+$\xi = \xi_{2}$ : 
+$$\begin{cases}
+n(Ag^{+}) = [Ag^{+}]V - \xi = 4.8 \times 10^{-2} mol\\
+n(Fe^{2+}) = [Fe^{2+}]V - \xi = 1.8 \times 10^{-2} mol\\
+n(Ag) = n(Ag) + \xi = 3.0 \times 10^{-3} mol\\
+n(Fe^{3+}) = [Fe^{3+}]V + \xi = 3.0 \times 10^{-3} mol
+\end{cases}$$
+
 
 # Exercice 3
 ## 1.
