@@ -11,5 +11,8 @@ Donc,
 $$f_{0}\gg \frac{1}{2\pi RC}$$
 $$1400\pi \gg \frac{1}{RC}$$
 $$\begin{cases}
-
+R = 3 \times 10^{3} \Omega \\
+C = 70 \times 10^{-9} F
 \end{cases}$$
+Magnifique
+
