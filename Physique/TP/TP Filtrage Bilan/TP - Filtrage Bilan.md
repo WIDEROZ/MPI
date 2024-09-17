@@ -36,4 +36,9 @@ On fait alors un circuit $RL$ série, pour prendre le caractère dérivateur de 
 
 $$\omega_{0} = \omega_{c} = \frac{R}{L}$$
 Alors, 
-$$\omega_{i} = 2\pi f_{i}$$
+$$\omega_{i} = 2\pi f_{i} = 200\pi s^{-1}$$
+$$0.2\pi = \frac{R}{L}$$
+
+
+
+$$\frac{1}{1-j\frac{R}{\omega L}}$$
