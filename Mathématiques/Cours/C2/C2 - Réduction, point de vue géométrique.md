@@ -777,7 +777,39 @@ $$f \text{ est DZ}$$
 #### Applications à la recherche de racines carrés
 Déterminer les matrices $A \in \mathcal{M}_{2}(\mathbb{R})$
 vérifiant : 
-$$A^{2} = \begin{pmatrix}
-0&-4 \\
+$$\begin{array}{c}
+A^{2} =& \begin{pmatrix}
+0&4 \\
 1&0
+\end{pmatrix} \\
+&\underbrace{\space\space\space\space\space\space\space\space\space\space\space\space\space} \\
+&B
+\end{array}$$
+Remarquons que $B$ est diagonalisable : 
+$$\chi_{B} = X^{2} - \mathrm{Tr}(B)X + \det(B) = X^{2}-4 = (X-2)(X+1)$$
+est SRS dans $\mathbb{R}[X]$
+$$\mathrm{Ker}(B-2I_{2}) =\mathrm{Ker}\begin{pmatrix}
+-2&4 \\
+1&-2
+\end{pmatrix} = Vect\begin{pmatrix}
+2 \\
+1
 \end{pmatrix}$$
+$$\mathrm{Ker}(B+2I_{2}) = \mathrm{Ker}\begin{pmatrix}
+2&4 \\
+1&2
+\end{pmatrix} = Vect\begin{pmatrix}
+-2 \\
+1
+\end{pmatrix}$$
+Donc, 
+$$B = P^{-1}DP^{-1}$$
+Avec : 
+$$P = \begin{pmatrix}
+2&-2 \\
+1&1
+\end{pmatrix}\text{ et } D = \begin{pmatrix}
+2&0 \\
+0&-2
+\end{pmatrix}$$
+Déterminons les $X \in \mathcal{M}_{2}(\mathbb{R})$ vérifiant $X^{2} = D$,
