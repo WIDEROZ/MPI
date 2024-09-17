@@ -50,6 +50,12 @@ n(Ag^{+}) = [Ag^{+}]V = 5.0 \times 10^{-2} mol
 \end{cases}$$
 
 $\Delta \leq 0$ : problème...
+___
+Autre manière : 
+$$K^{0} = c_{0} \times \frac{\frac{n_{Fer_{3+}}+ \xi}{V_{tot}}}{\frac{n(Ag)-\xi}{V_{tot}}\times \frac{n(Fe^{2+})-\xi}{V_{tot}}} = c_{0}\frac{[Fe^{3+}]+ \frac{\xi}{V}}{\left( [Ag^{+}]-\frac{\xi}{V} \right) \left( [Fe^{2+}]-\frac{\xi}{V} \right)}$$
+Donc, 
+$$$$
+
 
 
 
