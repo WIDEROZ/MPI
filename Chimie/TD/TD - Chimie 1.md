@@ -115,4 +115,6 @@ Il faut prélever $4\times 10^{-6} L$ de solution mère pour que le $pH$ soit à
 $$HBr + H_{2}O \rightleftharpoons Br^{-} + H_{3}O^{+}$$
 
 ## 2.
-Il s'agit d'un acide fotr 
+Il s'agit d'un acide fort car il y a une réaction totale avec l'eau. 
+
+## 3.
