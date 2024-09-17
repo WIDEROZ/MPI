@@ -16,3 +16,9 @@ C = 70 \times 10^{-9} F
 \end{cases}$$
 Magnifique
 
+# II. Extraction d'une harmonique
+Pour extraire une fréquence spéciale il faut faire un filtre passe bande. 
+$$\underline{H}(\omega) = \frac{\frac{1}{jC\omega}}{R+jL\omega+\frac{1}{jC\omega}} = \frac{1}{jRC\omega-LC\omega^{2}+1} $$
+$$= \frac{1}{j \frac{\omega}{\omega_{0}}-LC\omega^{2}+1}$$
+$$Q = \frac{1}{R}\sqrt{ \frac{L}{C} }$$
+$$\omega_{0} = $$
