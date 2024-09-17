@@ -19,6 +19,11 @@ Magnifique
 # II. Extraction d'une harmonique
 Pour extraire une fréquence spéciale il faut faire un filtre passe bande. 
 $$\underline{H}(\omega) = \frac{\frac{1}{jC\omega}}{R+jL\omega+\frac{1}{jC\omega}} = \frac{1}{jRC\omega-LC\omega^{2}+1} $$
-$$= \frac{1}{j \frac{\omega}{\omega_{0}}-LC\omega^{2}+1}$$
+$$= \frac{1}{j Q\frac{\omega}{\omega_{0}}-\frac{\omega^{2}}{\omega_{0}^{2}}+1}$$
 $$Q = \frac{1}{R}\sqrt{ \frac{L}{C} }$$
-$$\omega_{0} = $$
+$$\omega_{0} = \frac{1}{\sqrt{ LC }}$$
+
+$$G(\omega_{c}) = \frac{1}{\sqrt{ 2 }} = \frac{1}{\sqrt{ R^{2}C^{2}\frac{\omega_{c}^{2}}{\omega_{0}^{2}} + \left( \frac{LC\omega_{c}^{2}}{\omega_{0}^{2}}+1 \right)^{2}}}$$
+
+Alors, 
+$$\left( \frac{RC}{\omega_{0}} \right)^{2} \omega_{c}^{2}+ \left( LC\frac{\omega_{c}^{^{2}}}{\omega_{0}^{2}} \right)^{2} + 1 +2LC \frac{\omega_{c}^{2}}{\omega_{0}^{2}}= \frac{1}{2}$$
