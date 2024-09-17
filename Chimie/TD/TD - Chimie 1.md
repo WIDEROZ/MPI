@@ -66,23 +66,19 @@ Alors, l'équation se déroule de la droite vers la gauche.
 
 ### b.
 De même que la question précédente :
-$$\Delta =  \space mol^{2}.L^{-2} > 0$$
+$$\Delta = 48 \space mol^{2}.L^{-2} > 0$$
 Alors, 
 $$\xi_{1, 2} = \frac{V}{2K_{0}}([Fe^{2+}]+[Ag^{+}]+ K^{0} \pm V\sqrt{ \Delta })$$
 Donc, 
 $$\begin{cases}
-\xi_{1} = 5.2 \times 10^{-1} \space mol\\
-\xi_{2} = 2.0 \times 10^{-3} \space mol
+\xi_{1} = 5.3 \times 10^{-1} \space mol\\
+\xi_{2} = -1.4 \times 10^{-2} \space mol
 \end{cases}$$
-Le système à deux points d'équilibres : 
-Pour $\xi = \xi_{1}$ : 
-$$n(Ag^{+}) = [Ag^{+}]V - \xi = -9.8 \times 10^{-5}$$
-On a une quantité de matière négative c'est impossible Alors : 
-$\xi = \xi_{2}$ : 
+Or la réaction va de droite à gauche alors : $\xi = \xi_{2}$ :
 $$\begin{cases}
-n(Ag^{+}) = [Ag^{+}]V - \xi = 4.8 \times 10^{-2} mol\\
-n(Fe^{2+}) = [Fe^{2+}]V - \xi = 1.8 \times 10^{-2} mol\\
-n(Ag) = n(Ag) + \xi = 3.0 \times 10^{-3} mol\\
+n(Ag^{+}) = [Ag^{+}]V - \xi = 3.9 \times 10^{-2} mol\\
+n(Fe^{2+}) = [Fe^{2+}]V - \xi = 3.4 \times 10^{-2} mol\\
+n(Ag) = n(Ag) + \xi =  \times 10^{-3} mol\\
 n(Fe^{3+}) = [Fe^{3+}]V + \xi = 3.0 \times 10^{-3} mol
 \end{cases}$$
 
