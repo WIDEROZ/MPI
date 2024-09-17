@@ -54,7 +54,10 @@ ___
 Autre manière : 
 $$K^{0} = c_{0} \times \frac{\frac{n_{Fer_{3+}}+ \xi}{V_{tot}}}{\frac{n(Ag)-\xi}{V_{tot}}\times \frac{n(Fe^{2+})-\xi}{V_{tot}}} = c_{0}\frac{[Fe^{3+}]+ \frac{\xi}{V}}{\left( [Ag^{+}]-\frac{\xi}{V} \right) \left( [Fe^{2+}]-\frac{\xi}{V} \right)}$$
 Donc, 
-$$$$
+$$K_{0}\left( \frac{\xi^{2}}{V^{2}}+[Ag^{+}][Fe^{2+}] \right) = c_{0} [Fe^{3+}]+ \frac{\xi}{V}([Fe^{2+}]+[Ag^{+}]+ K^{0})$$
+$$\frac{K_{0}}{V_{2}}\xi^{2} - \frac{\xi}{V}([Fe^{2+}]+[Ag^{+}]+ K^{0}) + K^{0}[Ag^{+}][Fe^{2+}]-c_{0}[Fe^{3+}]$$
+$$\Delta = $$
+
 
 
 
