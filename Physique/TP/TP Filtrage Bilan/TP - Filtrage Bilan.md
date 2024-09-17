@@ -26,4 +26,7 @@ $$\omega_{0} = \frac{1}{\sqrt{ LC }}$$
 $$G(\omega_{c}) = \frac{1}{\sqrt{ 2 }} = \frac{1}{\sqrt{ R^{2}C^{2}\frac{\omega_{c}^{2}}{\omega_{0}^{2}} + \left( \frac{LC\omega_{c}^{2}}{\omega_{0}^{2}}+1 \right)^{2}}}$$
 
 Alors, 
-$$\left( \frac{RC}{\omega_{0}} \right)^{2} \omega_{c}^{2}+ \left( LC\frac{\omega_{c}^{^{2}}}{\omega_{0}^{2}} \right)^{2} + 1 +2LC \frac{\omega_{c}^{2}}{\omega_{0}^{2}}= \frac{1}{2}$$
+$$\omega_{c} = \omega_{0} = \frac{1}{\sqrt{ LC }}$$
+$$\frac{1}{\sqrt{ LC }} = 6\pi f_{0}$$
+$$L = \frac{1}{36\pi^{2}f_{0}^{2}C}$$
+$$$$
