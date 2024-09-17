@@ -64,9 +64,22 @@ $$\begin{cases}
 \xi_{1} = 5.2 \times 10^{-1} \space mol\\
 \xi_{2} = 2.0 \times 10^{-3} \space mol
 \end{cases}$$
-Le système à deux points d'équilibre. 
+Le système à deux points d'équilibres : 
+Pour $\xi = \xi_{1}$ : 
+$$\begin{cases}
+n(Ag^{+}) = [Ag^{+}]V - \xi =  \\
+n(Fe^{2+}) = [Fe^{2+}]V - \xi = \\
+n(Ag) = n(Ag) + \xi = \\
+n(Fe^{3+}) = [Fe^{3+}]V + \xi = 
+\end{cases}$$
 
-
+Pour $\xi = \xi_{2}$ : 
+$$\begin{cases}
+n(Ag^{+}) = [Ag^{+}]V - \xi = \\
+n(Fe^{2+}) = [Fe^{2+}]V - \xi = \\
+n(Ag) = n(Ag) + \xi = \\
+n(Fe^{3+}) = [Fe^{3+}]V + \xi = 
+\end{cases}$$
 
 
 
