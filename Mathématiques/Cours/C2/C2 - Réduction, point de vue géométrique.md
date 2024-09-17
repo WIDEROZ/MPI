@@ -689,4 +689,26 @@ admet pour valeurs propres : $10$ de multiplicité $1$ et $0$ de multiplicité $
 $$\sum_{\alpha \in Sp(f)} mult(\alpha) \leq n = \deg \chi_{f}$$
 on a égalité ssi $\chi_{f}$ est scindé dans $\mathbb{K}[X]$
 
- 
+#### Propriété
+Soit $\lambda \in Sp(f)$,
+$$1 \leq \dim E_{\lambda}(f) \leq Mult(f) \leq \dim (E)$$
+
+Si $\lambda$ est une valeur propre simple (ie $Mult(\lambda) = 1$), $E_{\lambda}(f)$ est une droite. 
+
+Si $\chi_{f}$ est SRS dans $\mathbb{K}[X]$ alors $f$ est DZ.
+
+Démonstration 1 :
+Notons : 
+$$g = f_{|E_{\lambda}(f)}$$
+$$g : \begin{cases}
+E_{\lambda}(f)\to E_{\lambda}(f) \\
+x \mapsto f(x) = \lambda x
+\end{cases}$$
+Alors $\chi_{g} | \chi_{f}$
+Mais, 
+$$\chi_{g}(X) = \det(XId_{E_{\lambda}(f)}-g) = \det(XId_{E_{\lambda}(f)} -\lambda Id_{E_{\lambda}(f)})$$
+Ainsi, 
+$$\chi_{g}(X) = (X-\lambda)^{p}$$
+ou $p = \dim E_{\lambda}(f)$
+
+Ainsi, $(X-\lambda)^{p}|\chi_{f}(X)$ 
