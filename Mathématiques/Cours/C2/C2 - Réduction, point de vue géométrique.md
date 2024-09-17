@@ -774,3 +774,10 @@ $$\sum_{\lambda \in Sp(f)} \dim E_{\lambda}(f) = \sum_{\lambda \in Sp(f)} Mult(\
 Ainsi, 
 $$f \text{ est DZ}$$
 
+#### Applications à la recherche de racines carrés
+Déterminer les matrices $A \in \mathcal{M}_{2}(\mathbb{R})$
+vérifiant : 
+$$A^{2} = \begin{pmatrix}
+0&-4 \\
+1&0
+\end{pmatrix}$$
