@@ -148,8 +148,11 @@ B^{\top}&0
 
 
 ### (b).
+On a montré que :
 $$W_{r} \cap V = \{ 0 \}$$
-Soit $X \in \mathcal{M}_{n}(\mathbb{R})$, et $A \in \mathcal{M}_{n-r}(\mathbb{R})$ et $B \in \mathcal{M}_{r, n-r}(\mathbb{R})$
+
+### (c).
+Soit $X \in \mathcal{M}_{n}(\mathbb{R})$, et $A \in \mathcal{M}_{r}(\mathbb{R})$, $B \in \mathcal{M}_{r, n-r}(\mathbb{R})$, $C \in \mathcal{M}_{n-r, r}$, $D \in \mathcal{M}_{n-r}(\mathbb{R})$
 $$X = \begin{pmatrix}
 A&B \\
 C&D
@@ -157,9 +160,36 @@ C&D
 On pose : 
 $$G = \begin{pmatrix}
 0&B \\
-B^{\top}&A
-\end{pmatrix} \in W_{r}$$
+B^{\top}&D
+\end{pmatrix} \in W_{r} \text{ (Par définition)}$$
 et : 
 $$F = \begin{pmatrix}
+A&0 \\
+C-B^{\top}&0
+\end{pmatrix} \in V$$
+car : 
+$$\mathrm{rg}\begin{pmatrix}
+A \\
+C-B^{\top}
+\end{pmatrix} \leq r$$
+car le nombres de colonnes de de cette matrice est égale à $r$.
+alors, 
+$$\mathrm{rg}\begin{pmatrix}
+A&0 \\
+C-B^{\top}&0
+\end{pmatrix}\leq r$$
 
-\end{pmatrix}$$
+Ainsi, 
+$$X = F+G$$
+Donc, 
+$$\mathcal{M}_{n}(\mathbb{R}) = W_{r} + V$$
+Comme : 
+$$W_{r} \cap V = \{ 0 \}$$
+D'après la question précédente, 
+$$\mathcal{M}_{n}(\mathbb{R}) = W_{r} \oplus V$$
+Alors d'après la formule de Grassmann, 
+$$\dim \mathcal{M}_{n}(\mathbb{R}) = \dim W_{r} + \dim V$$
+Donc,
+$$\dim V = nr$$
+Ainsi, d'après le théorème du rang : 
+$$\dim \mathcal{M}_{n}()$$
