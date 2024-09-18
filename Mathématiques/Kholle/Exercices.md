@@ -37,7 +37,7 @@ P^{(n)} - P^{(n+1)}=Q^{(n)}
 Donc,(par une somme téléscopique)
 $$P = Q+Q'+ \dots + Q^{(n)}$$
 
-# Exercice 71
+# CCINP 71
 $$\begin{cases}
 \mathcal{P} = \left.\left\{ \begin{pmatrix}
 x \\
