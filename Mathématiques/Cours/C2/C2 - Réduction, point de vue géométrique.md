@@ -1007,6 +1007,28 @@ $$f^{n} = f^{d} \circ f^{n-d}=0$$
 
 $\Rightarrow$ : 
 D'après d'Alembert Gauss, 
-$$\exists (\alpha_{i})_{i = 1}^{n} \in C, \chi_{f}(X) = \prod_{k = 1}^{n}(X - \alpha_{k})$$
-alors, 
-$$\forall k \in [\![1, n]\!], $$
+$$\exists (\alpha_{i})_{i = 1}^{n} \in \mathbb{C}, \chi_{f}(X) = \prod_{k = 1}^{n}(X - \alpha_{k})$$
+or, 
+$$\forall k \in [\![1, n]\!], \alpha_{k} \in Sp(f)$$
+donc, il existe un $x_{k} \in E$ non nul tel que : 
+$$f(\alpha_{k}) = \alpha_{k}x_{k}$$
+Donc, 
+$$f^{2}(x_{k}) = f(f(x_{k})) = f(\alpha_{k}x_{k})=\alpha_{k}^{2}x_{k}$$
+On montre facilement que : 
+$$f^{n}(x_{k}) = \alpha^{n}x_{k}=0$$
+Donc, $\alpha_{k} = 0$ car $x_{k} \neq 0$
+Ainsi, 
+$$\chi_{f} = X^{n}$$
+
+$\Rightarrow$ : 
+Puisque
+$$\chi_{f}(X) = X^{n} = \prod_{k=1}^{n}(X-0)$$
+est scindé dans $\mathbb{K}[X]$, 
+donc, il existe une base $\beta$ de $E$ telle que :
+$$Mat_{\beta}(f) = \begin{pmatrix}
+t_{1}&&* \\
+&\ddots \\
+0&&t_{n}
+\end{pmatrix}=T$$
+Mais alors $\chi_{f}(X) = \chi_{T}(X)$ donc $X^{n} = \prod_{k=1}^{n}(X-t_{k})$
+par unicité de la décomposition de $X^{n}$ en produit d'irrecductibles de $\mathbb{C}[X]$, $\forall k \in [\![1, n]\!], t_{k} = 0$
