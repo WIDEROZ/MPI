@@ -1,5 +1,5 @@
-# 2.
-Soit $a\times d \in (P, D)$, tels que : $u = a+d$
-$$p(u) = p(a)$$
-Alors,
-$$p(u-d) = p(a)$$
+# Exercice 2
+$$\begin{pmatrix}
+0&0&1&1 \\
+0&0&0&3
+\end{pmatrix}$$
