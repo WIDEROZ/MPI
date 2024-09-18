@@ -149,4 +149,17 @@ B^{\top}&0
 
 ### (b).
 $$W_{r} \cap V = \{ 0 \}$$
+Soit $X \in \mathcal{M}_{n}(\mathbb{R})$, et $A \in \mathcal{M}_{n-r}(\mathbb{R})$ et $B \in \mathcal{M}_{r, n-r}(\mathbb{R})$
+$$X = \begin{pmatrix}
+A&B \\
+C&D
+\end{pmatrix}$$
+On pose : 
+$$G = \begin{pmatrix}
+0&B \\
+B^{\top}&A
+\end{pmatrix} \in W_{r}$$
+et : 
+$$F = \begin{pmatrix}
 
+\end{pmatrix}$$
