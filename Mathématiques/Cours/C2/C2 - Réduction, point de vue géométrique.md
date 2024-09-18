@@ -945,4 +945,34 @@ Il existe donc $\alpha \in \mathbb{K}$, racine de $\chi_{A}$ $\alpha \in Sp(A)$,
 $$Ae_{1} = \alpha e_{1}$$
 $(e_{1})$ est une famille libre de $E$ que l'on peut compléter en une base de $E$ : $\beta = (e_{1}, \dots, e_{n+1})$ 
 Notons : $\mathcal{P} = \mathcal{P}_{\mathrm{can}}^{\beta}$
-alors, si $f = L_{A}$, $A = Mat_{\mathrm{can}}(f)$ est donc semblable à $A' = Mat_{\beta}(f)$ $A' = \mathcal{P}^{-1}A$
+alors, si $f = L_{A}$, $A = Mat_{\mathrm{can}}(f)$ est donc semblable à $A' = Mat_{\beta}(f)$ $A' = \mathcal{P}^{-1}A\mathcal{P}$
+Or 
+$$A' = \left( \begin{array}{c|ccc}
+\alpha&&L& \\ \hline
+0& \\
+\vdots&&B&& \\
+0
+\end{array} \right)\in \mathcal{M}_{n+1}(\mathbb{K})$$
+ou $L \in \mathcal{M}_{1, n}(\mathbb{K})$ et $B \in \mathcal{M}_{n}(\mathbb{K})$
+Alors, 
+$$\chi_{A'}(X) = (X-\alpha)\chi_{B}(X)$$
+Comme $\chi_{B}|\chi_{A}$ dans $\mathbb{K}[X]$ et que $\chi_{A'} = \chi_{A}$ est scindé dans $\mathbb{K}[X]$, d'après l'hypothèse de récurrence : il existe $T \in T_{n}(\mathbb{K})$ tel que : $L_{T}$ soit trigonalisable. 
+
+...
+
+Alors, 
+$$\left( \begin{array}{c|ccc}
+1&0&\dots&0 \\ \hline
+0& \\
+\vdots&&Q \\
+0
+\end{array} \right)^{-1}A'\left( \begin{array}{c|ccc}
+1&0&\dots&0 \\ \hline
+0& \\
+\vdots&&Q \\
+0
+\end{array} \right) = \dots = \left( \begin{array}{c|ccc}
+\alpha&LQ \\
+0& \\
+\\dot{v}
+\end{array} \right)$$
