@@ -144,7 +144,8 @@ $$\begin{pmatrix}
 0&B \\
 B^{\top}&0
 \end{pmatrix} \in V$$
-
+Soit $B = (b_{i, j})_{i, j \in [\![1, r]\!] \times [\![1, n-r]\!]}$, 
+$$(B^{\top}B)[i, j] = \sum_{k = 1}^{n}B^{\top}[i, k]B[k, j] = \sum_{k = 1}^{n}B[k, i]B[k, j]$$
 
 
 ### (b).
@@ -152,7 +153,8 @@ On a montré que :
 $$W_{r} \cap V = \{ 0 \}$$
 
 ### (c).
-Soit $X \in \mathcal{M}_{n}(\mathbb{R})$, et $A \in \mathcal{M}_{r}(\mathbb{R})$, $B \in \mathcal{M}_{r, n-r}(\mathbb{R})$, $C \in \mathcal{M}_{n-r, r}$, $D \in \mathcal{M}_{n-r}(\mathbb{R})$
+Soit $X \in \mathcal{M}_{n}(\mathbb{R})$,
+Soit $A \in \mathcal{M}_{r}(\mathbb{R})$, $B \in \mathcal{M}_{r, n-r}(\mathbb{R})$, $C \in \mathcal{M}_{n-r, r}$ et $D \in \mathcal{M}_{n-r}(\mathbb{R})$
 $$X = \begin{pmatrix}
 A&B \\
 C&D
