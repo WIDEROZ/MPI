@@ -139,13 +139,6 @@ encore d'après la question 2 :
 $$A = B^{\top}I_{r}B =  0$$
 Ainsi,
 $$A = B^{\top}B= 0$$
-___
-$$\begin{pmatrix}
-0&B \\
-B^{\top}&0
-\end{pmatrix} \in V$$
-Soit $B = (b_{i, j})_{i, j \in [\![1, r]\!] \times [\![1, n-r]\!]}$, 
-$$(B^{\top}B)[i, j] = \sum_{k = 1}^{n}B^{\top}[i, k]B[k, j] = \sum_{k = 1}^{n}B[k, i]B[k, j]$$
 
 
 ### (b).
@@ -153,6 +146,19 @@ On a montré que :
 $$W_{r} \cap V = \{ 0 \}$$
 
 ### (c).
+On a alors par la formule de Grassmann : 
+$$\dim \mathcal{M}_{n}(\mathbb{R}) \geq \dim (W_{r} + F) = \dim (W_{r}) + \dim (V) $$
+Car $W_{r} \cap V = \{ 0 \}$ et la somme de deux matrices (en particulier de $W_{r}$ et $V$) de $\mathcal{M}_{n}(\mathbb{K})$ est toujours dans $\mathcal{M}_{n}(\mathbb{K})$. 
+
+Donc, 
+$$n^{2} \geq n^{2}-nr + \dim V \Leftrightarrow \boxed{\dim V\leq nr}$$
+
+## Question 5
+
+
+
+
+## Question 6
 Soit $X \in \mathcal{M}_{n}(\mathbb{R})$,
 Soit $A \in \mathcal{M}_{r}(\mathbb{R})$, $B \in \mathcal{M}_{r, n-r}(\mathbb{R})$, $C \in \mathcal{M}_{n-r, r}$ et $D \in \mathcal{M}_{n-r}(\mathbb{R})$
 $$X = \begin{pmatrix}
@@ -191,7 +197,5 @@ D'après la question précédente,
 $$\mathcal{M}_{n}(\mathbb{R}) = W_{r} \oplus V$$
 Alors d'après la formule de Grassmann, 
 $$\dim \mathcal{M}_{n}(\mathbb{R}) = \dim W_{r} + \dim V$$
-Donc,
-$$\dim V = nr$$
-Ainsi, d'après le théorème du rang : 
-$$\dim \mathcal{M}_{n}()$$
+Ainsi,
+$$\boxed{\dim V = nr}$$
