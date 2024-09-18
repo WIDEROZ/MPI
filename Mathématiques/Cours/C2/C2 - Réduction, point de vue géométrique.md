@@ -915,4 +915,34 @@ En particulier $f$ est TZ si $\mathbb{K} = \mathbb{C}$ et
 $$\forall A \in \mathcal{M}_{n}(\mathbb{C}), A \text{ est TZ dans }\mathcal{M}_{n}(\mathbb{C})$$
 
 Démonstration : 
-Soit 
+Soit $M \in \mathcal{M}_{n}(\mathbb{K})$, 
+Matricielle : 
+$\Rightarrow$ : 
+Si $M$ est TZ elle est semblable à une matrice :
+$$T = \begin{pmatrix}
+t_{1, 1}&&* \\
+&\ddots \\
+0&&t_{n, n}
+\end{pmatrix} \in \mathcal{M}_{n}(\mathbb{K})$$
+En particulier, 
+$$\chi_{M}(X) = \chi_{T}(X) = \det(XI_{n}-T) = \left| \begin{array}{c}
+X-t_{1,1}&&-* \\
+&\ddots \\
+0&&X-t_{n, n}
+\end{array}\right|$$
+alors, 
+$$\chi_{M} = \prod_{k = 1}^{n}(X-t_{k, k})$$
+est scindé dans $\mathbb{K}$
+
+$\Leftarrow$ : 
+Par récurrence sur $n$ : 
+###### Initialisation
+$n = 1$, $\mathcal{M}_{1}(\mathbb{K}) = T_{1}(\mathbb{K})$
+
+###### Hérédité
+Soit $n \in \mathbb{N}^{*}$, $A \in \mathcal{M}_{n+1}(\mathbb{K})$ telle que $\chi_{A}$ est scindé dans $\mathbb{K}[X]$
+Il existe donc $\alpha \in \mathbb{K}$, racine de $\chi_{A}$ $\alpha \in Sp(A)$, donc il existe $e_{1} \in \mathcal{M}_{n+1, 1}(\mathbb{K})$ non nul tel que :
+$$Ae_{1} = \alpha e_{1}$$
+$(e_{1})$ est une famille libre de $E$ que l'on peut compléter en une base de $E$ : $\beta = (e_{1}, \dots, e_{n+1})$ 
+Notons : $\mathcal{P} = \mathcal{P}_{\mathrm{can}}^{\beta}$
+alors, si $f = L_{A}$, $A = Mat_{\mathrm{can}}(f)$ est donc semblable à $A' = Mat_{\beta}(f)$ $A' = \mathcal{P}^{-1}A$
