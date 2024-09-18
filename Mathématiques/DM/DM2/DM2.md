@@ -140,17 +140,12 @@ $$A = B^{\top}I_{r}B =  0$$
 Ainsi,
 $$A = B^{\top}B= 0$$
 ___
-Soit $X \in \mathrm{Ker}(M)$, 
 $$\begin{pmatrix}
-\lambda I_{r}&B \\
+0&B \\
 B^{\top}&0
-\end{pmatrix}X = \begin{pmatrix}
-\lambda I_{r}&B^{\top} \\
-B&0
-\end{pmatrix}\begin{pmatrix}
-\lambda I_{r}&B \\
-B^{\top}&0
-\end{pmatrix}X = 0$$
+\end{pmatrix} \in V$$
+
+
 
 ### (b).
 $$W_{r} \underset{sev}{\subset} V$$
