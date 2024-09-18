@@ -147,8 +147,11 @@ $$W_{r} \cap V = \{ 0 \}$$
 
 ### (c).
 On a alors par la formule de Grassmann : 
-$$\dim \mathcal{M}_{n}(\mathbb{R}) \geq \dim (W_{r} + F) = \dim (W_{r}) + \dim (V) $$
-Car $W_{r} \cap V = \{ 0 \}$ et la somme de deux matrices (en particulier de $W_{r}$ et $V$) de $\mathcal{M}_{n}(\mathbb{K})$ est toujours dans $\mathcal{M}_{n}(\mathbb{K})$. 
+$$\dim (W_{r} + V) = \dim (W_{r}) + \dim (V)$$
+Car $W_{r} \cap V = \{ 0 \}$
+Et alors : 
+$$\dim \mathcal{M}_{n}(\mathbb{R}) \leq \dim (W_{r} + V) = \dim (W_{r}) + \dim (V)$$
+la somme de deux matrices (en particulier de $W_{r}$ et $V$) de $\mathcal{M}_{n}(\mathbb{K})$ est toujours dans $\mathcal{M}_{n}(\mathbb{K})$. 
 
 Donc, 
 $$n^{2} \geq n^{2}-nr + \dim V \Leftrightarrow \boxed{\dim V\leq nr}$$
