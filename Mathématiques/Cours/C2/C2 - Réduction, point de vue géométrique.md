@@ -1031,4 +1031,4 @@ t_{1}&&* \\
 0&&t_{n}
 \end{pmatrix}=T$$
 Mais alors $\chi_{f}(X) = \chi_{T}(X)$ donc $X^{n} = \prod_{k=1}^{n}(X-t_{k})$
-par unicité de la décomposition de $X^{n}$ en produit d'irrecductibles de $\mathbb{C}[X]$, $\forall k \in [\![1, n]\!], t_{k} = 0$
+par unicité de la décomposition de $X^{n}$ en produit d'irrécductibles de $\mathbb{C}[X]$, $\forall k \in [\![1, n]\!], t_{k} = 0$
