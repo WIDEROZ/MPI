@@ -972,7 +972,41 @@ $$\left( \begin{array}{c|ccc}
 \vdots&&Q \\
 0
 \end{array} \right) = \dots = \left( \begin{array}{c|ccc}
-\alpha&LQ \\
+\alpha&&LQ &\\ \hline
 0& \\
-\\dot{v}
+\vdots&&T \\
+0
 \end{array} \right)$$
+$$\in T_{n+1}(\mathbb{K})$$
+Ainsi, $A'$ est $TZ$ dans $T_{n+1}(\mathbb{K})$
+
+#### Remarque
+En particulier pour toute $M \in \mathcal{M}_{n}(\mathbb{R})$, 
+$$\exists P \in GL_{n}(\mathbb{C}), \exists T \in T_{n}(\mathbb{C}), M  = PTP^{-1}$$
+De plus, 
+$$\forall \alpha \in Sp_{\mathbb{C}}(M), \overline{\alpha} \in Sp_{\mathbb{C}}(M) \text{ et } Mult(\alpha) = Mult(\overline \alpha)$$
+car $\chi_{M} \in \mathbb{R}[X]$, 
+Evidemment le spectre complexe de $M$ est égal à l'ensemble des coefs diagonaux de $T$ 
+
+#### Théorème
+Soit $f \in \mathcal{L}(E)$, ou $\dim E = n$, 
+On a équivanlence entre : 
+$$\begin{array}{l}
+f \text{ est nilpotent} \\
+f^{n} = 0_{\mathcal{L}(E)} \\
+\chi_{f}(X) = X^{n} \\
+\text{Il existe une base de }E \text{ dans laquelle } \\
+\text{la matrice de }f \text{ est triangulaire à diagonale nulle}
+\end{array}$$
+
+Démonstration dans l'ordre : 
+$\Rightarrow$ : 
+On à déja montré que l'indice de nilpotence $d\leq n$, 
+ainsi, 
+$$f^{n} = f^{d} \circ f^{n-d}=0$$
+
+$\Rightarrow$ : 
+D'après d'Alembert Gauss, 
+$$\exists (\alpha_{i})_{i = 1}^{n} \in C, \chi_{f}(X) = \prod_{k = 1}^{n}(X - \alpha_{k})$$
+alors, 
+$$\forall k \in [\![1, n]\!], $$
