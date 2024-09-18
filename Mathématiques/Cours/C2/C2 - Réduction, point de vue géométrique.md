@@ -875,7 +875,7 @@ A^{2} = B &\Leftrightarrow P^{-1}AP = \begin{pmatrix}
 Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, dont on note le spectre complexe : 
 $$\{ \lambda_{1}, \dots, \lambda_{n} \} \subset\mathbb{C}$$
 et 
-$$\{ \lambda_{1}, \dots, \lambda_{n} \} = \{ \alpha_{1}, \dots, \alpha_{p} \text{2 a 2 distincts} \} = Sp_{\mathbb{C}}(A)$$
+$$\{ \lambda_{1}, \dots, \lambda_{n} \} = \{ \alpha_{1}, \dots, \alpha_{p} \text{ 2 a 2 distincts} \} = Sp_{\mathbb{C}}(A)$$
 on note : $\forall k \in [\![1, p]\!],m_{k} = Mult(\alpha_{k})$
 Alors, 
 $$\mathrm{Tr}(A) = \sum_{k = 1}^{n}\lambda_{k} = \sum_{k = 1}^{p} m_{k}\alpha_{k}$$
@@ -888,3 +888,31 @@ $$\chi_{A} = \prod_{k = 1}^{n}(X - \lambda_{k}) = \prod_{k =1}^{p}(X-\alpha_{k})
 $$= X^{n}-\mathrm{Tr}(A)X^{n-1}+\dots+(-1)^{n}\det(A)$$
 Si on évalue en $X = 0$ on obtiens : 
 $$\prod_{k = 1}^{n}(-\lambda_{k}) = \prod_{k = 1}^{p} (-\alpha_{k})^{m_{k}} = (-1)^{n}\det(A)$$
+De plus d'après les formules de Viete, le coefficient $X^{n-1}$ de $\chi_{A}$ est égal à : 
+$$-\frac{\lambda_{1} + \dots + \lambda_{n}}{1} = -\sigma_{1} = - \mathrm{Tr}(A)$$
+
+#### Définition
+Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, $A$ est dite trigonalisable (TZ) lorsqu'elle est semblable à une matrice triangulaire, ie lorsqu'il existe $P \in GL_{n}(\mathbb{K})$ et $T \in T_{n}^{+}(\mathbb{K})$ tels que 
+$$A = PTP^{-1}$$
+
+Soit $f \in \mathcal{L}(E)$ ou $E$ est un $\mathbb{K}$-ev de dim $n$, on dit que $f$ est $TZ$ L'orsqu'il existe $\beta$ une base de $E$ telle que : 
+$$Mat_{\beta}(f) \in T_{n}^{+}(\mathbb{K})$$
+
+#### Exercice
+Soit $f \in \mathcal{L}(E)$, montrons que 
+$$\begin{array}{r\ll}
+f \text{ est } TZ &\Leftrightarrow &\exists \beta = (e_{1}, \dots, e_{n}) \text{ une base de }E,  \\
+&&\forall k \in [\![1,n]\!], Vect(e_{1}, \dots, e_{n}) \text{est stable}
+\end{array}$$
+
+#### Théorème
+Soit $E$ un $\mathbb{K}$-ev de dim $n \in \mathbb{N}^{*}$ et $f \in \mathcal{L}(E)$ on a équivalence entre : 
+$$\begin{cases}
+f \text{ est trigonalisable} \\
+\chi_{f} \text{ est scindé dans } \mathbb{K}[X]
+\end{cases}$$
+En particulier $f$ est TZ si $\mathbb{K} = \mathbb{C}$ et 
+$$\forall A \in \mathcal{M}_{n}(\mathbb{C}), A \text{ est TZ dans }\mathcal{M}_{n}(\mathbb{C})$$
+
+Démonstration : 
+Soit 
