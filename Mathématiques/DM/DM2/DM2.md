@@ -128,7 +128,7 @@ B^{\top}&A
 car CL de deux éléments de $V$.
 Montrons que : 
 $$A = B^{\top}B = 0$$
-
+On a :
 $$\mathrm{rg}(M) \leq r$$
 Comme $\lambda I_{r} \in GL_{r}(\mathbb{R})$, $B \in \mathcal{M}_{r, n-r}(\mathbb{R})$ et $B^{\top} \in \mathcal{M}_{n-r, r}$ puis $A \in \mathcal{M}_{n-r}(\mathbb{R})$
 d'après la question $2$, 
@@ -139,8 +139,18 @@ encore d'après la question 2 :
 $$A = B^{\top}I_{r}B =  0$$
 Ainsi,
 $$A = B^{\top}B= 0$$
-
-
+___
+Soit $X \in \mathrm{Ker}(M)$, 
+$$\begin{pmatrix}
+\lambda I_{r}&B \\
+B^{\top}&0
+\end{pmatrix}X = \begin{pmatrix}
+\lambda I_{r}&B^{\top} \\
+B&0
+\end{pmatrix}\begin{pmatrix}
+\lambda I_{r}&B \\
+B^{\top}&0
+\end{pmatrix}X = 0$$
 
 ### (b).
 $$W_{r} \underset{sev}{\subset} V$$
