@@ -870,3 +870,21 @@ A^{2} = B &\Leftrightarrow P^{-1}AP = \begin{pmatrix}
 \end{pmatrix} P^{-1}
 \end{array}$$
 
+# III. Trigonalisation
+#### Proposition
+Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, dont on note le spectre complexe : 
+$$\{ \lambda_{1}, \dots, \lambda_{n} \} \subset\mathbb{C}$$
+et 
+$$\{ \lambda_{1}, \dots, \lambda_{n} \} = \{ \alpha_{1}, \dots, \alpha_{p} \text{2 a 2 distincts} \} = Sp_{\mathbb{C}}(A)$$
+on note : $\forall k \in [\![1, p]\!],m_{k} = Mult(\alpha_{k})$
+Alors, 
+$$\mathrm{Tr}(A) = \sum_{k = 1}^{n}\lambda_{k} = \sum_{k = 1}^{p} m_{k}\alpha_{k}$$
+et 
+$$\det(A) = \prod_{k =1}^{n} \lambda_{k} = \prod_{k = 1}^{p} \alpha_{k}^{m_{k}}$$
+
+Démonstration : 
+$\chi$ étant scindé dans $\mathbb{C}[X]$, 
+$$\chi_{A} = \prod_{k = 1}^{n}(X - \lambda_{k}) = \prod_{k =1}^{p}(X-\alpha_{k})^{m_{k}}$$
+$$= X^{n}-\mathrm{Tr}(A)X^{n-1}+\dots+(-1)^{n}\det(A)$$
+Si on évalue en $X = 0$ on obtiens : 
+$$\prod_{k = 1}^{n}(-\lambda_{k}) = \prod_{k = 1}^{p} (-\alpha_{k})^{m_{k}} = (-1)^{n}\det(A)$$
