@@ -148,5 +148,5 @@ B^{\top}&0
 
 
 ### (b).
-$$W_{r} \underset{sev}{\subset} V$$
+$$W_{r} \cap V = \{ 0 \}$$
 
