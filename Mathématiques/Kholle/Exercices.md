@@ -1,4 +1,4 @@
-# Exercice 59
+# CCINP 59
 $E = \mathbb{R}_{n}[X]$
 $$f : \begin{cases}
 E \to E \\
