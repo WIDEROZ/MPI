@@ -1,6 +1,6 @@
 Asylum seekers / refugees
 to strengthen / to give momentum
-ramsacked
+ramsacked (saccagé)
 thuggery (brutalité)
 To commit arson
 Heavy-Handed / Stringent
