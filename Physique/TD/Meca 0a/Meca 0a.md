@@ -58,8 +58,11 @@ $$z_{eq} = \frac{mg}{K}$$
 
 ## 5.
 <font color="blue">EXCAL 2</font>
-On fait un théorème de l'énergie mécanique entre $z_{\min}$ et $z_{\max}$ : 
-$$E_{m}(z_{\max}) - E_{m}(z_{\min}) $$
-$$= mgz_{\max} + \frac{1}{2}mv^{2}(z_{\max}) - mgz_{\min} + \frac{1}{2}Kz_{\min}^{2} + \frac{1}{2}mv^{2}(z_{\min})$$
+On fait un théorème de l'énergie mécanique entre $z_{\min}$ et $H = z_{\max}$ : 
+$$E_{m}(z_{\min}) - E_{m}(H) =0$$
+$$= mgH + \frac{1}{2}mv^{2}(H) - mgz_{\min} + \frac{1}{2}Kz_{\min}^{2} + \frac{1}{2}mv^{2}(z_{\min})$$
 or $v(z_{\max}) = v(z_{\min}) = 0$ car le gosse va repartir dans l'autre sens quand il rebondit
-$$$$
+$$\Delta E_{m} = mgH - mgz_{\min} + \frac{1}{2}Kz_{\min}^{2} = 0$$
+Alors, 
+$$z_{\min} = -\frac{mg}{K} - \frac{1}{2}\sqrt{ \frac{mg}{K}\left( \frac{mg}{K}+2H \right) } \leq 0$$
+
