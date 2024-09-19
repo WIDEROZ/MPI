@@ -169,6 +169,11 @@ $$\begin{cases}
 
 Démonstration : 
 La séparation et l'homogénéité sont triviales : 
-$$\begin{array}{c}
-\forall x \in [a, b], \left| ()\right|
+$$\begin{array}{rl}
+\forall x \in [a, b], \left| (f+g)(x)\right| &= \left| f(x) + g(x)\right| \\
+&\leq \left| f(x)\right| + \left| g(x)\right| \\
+&\leq \left|\left| f \right|\right| _{\infty} + \left|\left| g \right|\right| _{\infty}
 \end{array}$$
+Ainsi, 
+$$\left|\left| f+g \right|\right|_{\infty} \leq \left|\left| f \right|\right|_{\infty} + \left|\left| g \right|\right|_{\infty} $$
+___
