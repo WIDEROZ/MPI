@@ -34,7 +34,26 @@ Si $A$ n'est pas majoré, on note : $\sup A = + \infty$
 
 ### Propriétés de $\sup A$
 Si $A$ est une patrie non vide de $\mathbb{R}$, 
-$$\exists (a_{n})_{n \in\mathbb{N}} \in A^{\mathbb{N}}, a_{n} \underset{n \to +\infty}{\longrightarrow} \sup(A)$$
-
 Soit $\alpha \in \mathbb{R}$, 
-$$\forall x \in A$$
+___
+$$\exists (a_{n})_{n \in\mathbb{N}} \in A^{\mathbb{N}}, a_{n} \underset{n \to +\infty}{\longrightarrow} \sup(A)$$
+___
+$$(\forall x \in A, x \leq \alpha) \Rightarrow \sup(A) \leq \alpha$$
+$$\forall f\in \mathbb{R}^{X}, (\forall x \in X, f(x) \leq \alpha) \Rightarrow \sup f \leq \alpha$$
+___
+Pour $f, g : X \to \mathbb{R}$ et $\alpha \in \mathbb{R}_{+}^{*}$, 
+$$\sup(f+g) \leq \sup f + \sup g$$
+$$\sup(\alpha f) =  \alpha\sup f$$
+___
+Démonstration 1 : 
+Soit $n \in \mathbb{N}^{*}$, 
+Si $A$ est majorée, $\sup A \neq + \infty$, et donc $\sup(A) - \frac{1}{n}$
+ne majore pas $A$ donc, 
+$$\exists a_{n} \in A, \sup(A) - \frac{1}{n} \leq a_{n} \leq \sup(A)$$
+Par le théorème d'encadrement : 
+$$a_{n} \underset{n \to +\infty}{\longrightarrow} \sup(A)$$
+
+Démonstration 2 :
+$$\forall \varepsilon > 0 , \exists \alpha \in A, \sup(A) -\varepsilon \leq a \leq \varepsilon$$
+en faisant tendre $\varepsilon \underset{}{\longrightarrow}0^{+}$ on obtiens : 
+$$\sup(A) \leq \alpha$$
