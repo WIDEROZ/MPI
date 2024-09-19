@@ -31,5 +31,16 @@ Or :
 $$T(0^{+}) \underset{\omega \to 0^{+}}{\longrightarrow} 0 $$
 et 
 $$T(\omega_{0}) = 1$$
-Ainsi, 
-$$\frac{T_{\max}}{\sqrt{ 2 }} = G(\omega_{c}) = $$
+
+## 14
+$$\frac{T_{\max}}{\sqrt{ 2 }} = \frac{1}{\sqrt{ 2 }} = G(\omega_{c})$$
+Alors, 
+$$\frac{1}{2}= \frac{1}{1+Q\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega}\right)}\Leftrightarrow Q\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega} \right) = 1$$
+Alors, 
+$$\frac{Q}{\omega_{0}}\omega^{2} -\omega -Q\omega_{0}=0$$
+$$\omega^{2} - \frac{\omega_{0}}{Q} \omega -\omega_{0}^{2}$$
+Alors, 
+$$\begin{cases}
+\omega_{c_{1}} = \frac{\omega_{0}}{2Q}(1-\sqrt{ 1-4Q^{2} })\\
+\omega_{c_{2}} = \frac{\omega_{0}}{2Q}(1+\sqrt{ 1-4Q^{2} })
+\end{cases}$$
