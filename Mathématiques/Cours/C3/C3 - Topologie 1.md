@@ -112,9 +112,30 @@ Par Hypothèse de recurrence.
 $$\forall x, y \in E, \left|\, \left|\left| x \right|\right| -\left|\left|  y\right|\right| \,\right| \leq \left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
 
 Démonstration : 
-$$\left|\left| x \right|\right| $$
-
+Soit $x, y \in E$, 
+$$\left|\left| x \right|\right|  = \left|\left| x + y - y \right|\right| \leq \left|\left| x+y \right|\right| + \left|\left| -y \right|\right| =\left|\left| x+y \right|\right| + \left|\left| y \right|\right|  $$
+Par symétrie des roles et commutativité de $+$
+$$\left|\left| y \right|\right| - \left|\left| x \right|\right| \leq \left|\left| y+x \right|\right| = \left|\left| x + y \right|\right| $$
+Donc, 
+$$\left| \, \left|\left| x \right|\right| -\left|\left| y \right|\right|  \,\right| \leq \left|\left| x+y \right|\right| = \left|\left| y+x \right|\right| $$
+dONC, 
+$$\left| \, \left|\left| x \right|\right| -\left|\left| y \right|\right|  \, \right| = \max\{ \left|\left| x \right|\right| -\left|\left| y \right|\right| , \left|\left| y \right|\right| -\left|\left| x \right|\right|  \}\leq \left|\left| x+y \right|\right| $$
 
 #### Propriété élémentaire
 $$\frac{x}{\left|\left| x \right|\right| }\text{ est unitaire}$$
+Démonstration : 
+$$\left|\left| \frac{x}{\left|\left| x \right|\right| } \right|\right| = \left|\left| \frac{1}{\left|\left| x \right|\right| }x \right|\right| = \frac{1}{\left|\left| x \right|\right| }\left|\left| x \right|\right|  = 1$$
 
+#### Exemple
+Pour $\mathbb{K}^{n} = E$, 
+$$\forall X = (x_{i})_{i=1}^{n} \in E^{n}, \left|\left| X \right|\right| _{\infty} = \max_{1\leq k \leq n}\left| x_{k}\right|$$
+Démonstration : 
+$$\begin{array}{rl}
+\left|\left| X \right|\right| _{\infty} = 0 &\Leftrightarrow \forall k \in [\![1, n]\!], \left| x_{k}\right| = 0 \\
+&\Leftrightarrow \forall k, x_{k} = 0 \\
+&\Leftrightarrow X= 0
+\end{array}$$
+Ensuite :
+Soit $\alpha \in \mathbb{K}$, $X \in E$, 
+$$\left|\left| \alpha X \right|\right|_{\infty} = \max_{1 \leq k \leq n} \left| \alpha-x_{k}\right| = \left| \alpha\right| \max_{1\leq k \leq n}\left| x_{k}\right|=\left| \alpha\right|\left|\left| X \right|\right| _{\infty}$$
+$$\forall X, Y \in E, \forall k \in [\![1, n]\!], \left| x_{k} + y_{k}\right| \leq \left| x_{k}\right| + \left| \right|$$
