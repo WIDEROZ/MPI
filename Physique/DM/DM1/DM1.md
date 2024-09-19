@@ -13,3 +13,5 @@ $$x^{2} = \frac{1}{10^{\frac{1}{16.6\sqrt{ 2 }}}-1}$$
 $$\omega_{r} = \frac{2\pi f_{0}}{\sqrt{ 10^{\frac{1}{}} }}$$
 
 ### 7. 
+$$\underline{V_{A}} = \frac{\frac{\underline{E}}{R_{1}}+\frac{0}{R_{2}}+\underline{V_{B}}j\omega C_{1} + \underline{S}j \omega C_{1}}{\frac{1}{R_{1}} + \frac{1}{R_{2}} + 2j\omega C_{1}}$$
+$$\underline{V_{B}} = \frac{\underline{V_{A}}2j\omega C_{1}R_{1}+\underline{S}}{2j\omega C_{1}R_{1}+1}$$
