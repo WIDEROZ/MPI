@@ -54,6 +54,45 @@ Par le théorème d'encadrement :
 $$a_{n} \underset{n \to +\infty}{\longrightarrow} \sup(A)$$
 
 Démonstration 2 :
-$$\forall \varepsilon > 0 , \exists \alpha \in A, \sup(A) -\varepsilon \leq a \leq \varepsilon$$
+$$\forall \varepsilon > 0 , \exists a \in A, \sup(A) -\varepsilon \leq a \leq \varepsilon$$
 en faisant tendre $\varepsilon \underset{}{\longrightarrow}0^{+}$ on obtiens : 
 $$\sup(A) \leq \alpha$$
+
+Démonstration 3 :
+$$(f+g)(x) = f(x) + g(x) \leq \sup(f) + \sup(g)$$
+indépendant de $x$
+Donc, 
+$$\sup(f+g) \leq \sup(f) + \sup(g)$$
+D'après : 
+$$\forall x \in X, (\alpha f)(x) = \alpha xf(x)\leq \alpha \sup f$$
+Donc, 
+$$\sup(\alpha f) \leq \alpha \sup f$$
+de plus en remplaçant $f$ par $\alpha f$ et $\alpha$ par $\frac{1}{\alpha}$ 
+on a : 
+$$\sup(f) = \sup\left( \frac{1}{\alpha}(\alpha f) \right) \leq \frac{1}{\alpha} \sup(\alpha f)$$
+ie 
+$$\alpha \sup(f) \leq \sup(\alpha f)$$
+
+# II. Les normes 
+#### Définition
+Soit $E$ un $\mathbb{K}$-ev, 
+On appelle norme de $E$ sur toute fonction : 
+$$N : E \to \mathbb{R}$$
+qui vérifie : 
+$$\begin{cases}
+\text{Séparation :} \\
+\forall x \in E, N(x) = 0 \Leftrightarrow x =0 \\
+ \\
+\text{Homogénéité :} \\
+\forall x \in E, \forall \alpha \in \mathbb{K}, N(\alpha x) = \left| \alpha\right|N(x) \\
+ \\
+\text{Inégalité triangulaire :} \\
+\forall x, y \in E, N(x+y) \leq N(x) + N(y)
+\end{cases}$$
+
+#### Définition
+$$(E, N)$$
+est dit espace vectoriel normé on notera : $\left|\left| \cdot \right|\right| = N$ 
+
+#### Propriété élémentaire
+$$\forall n \in \mathbb{N}^{*}, \forall (x_{i})_{i=1}^{n}\in E^{n}, \forall (\alpha_{i})_{i=1}^{n} $$
