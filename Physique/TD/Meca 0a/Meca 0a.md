@@ -58,6 +58,8 @@ $$z_{eq} = \frac{mg}{K}$$
 
 ## 5.
 <font color="blue">EXCAL 2</font>
+$$z_{\max} = H$$
+car on lâche le morveux de $H$ il peut pas rebondir et aller plus haut. 
 On fait un théorème de l'énergie mécanique entre $z_{\min}$ et $H = z_{\max}$ : 
 $$E_{m}(z_{\min}) - E_{m}(H) =0$$
 $$= mgH + \frac{1}{2}mv^{2}(H) - mgz_{\min} + \frac{1}{2}Kz_{\min}^{2} + \frac{1}{2}mv^{2}(z_{\min})$$
@@ -66,3 +68,12 @@ $$\Delta E_{m} = mgH - mgz_{\min} + \frac{1}{2}Kz_{\min}^{2} = 0$$
 Alors, 
 $$z_{\min} = -\frac{mg}{K} - \frac{1}{2}\sqrt{ \frac{mg}{K}\left( \frac{mg}{K}+2H \right) } \leq 0$$
 
+## 6.
+En gros faut que le ptit ne touche jamais $z = -l_{0}$ : 
+$$z_{\min} > -l_{0}$$
+Alors, 
+$$mgH \leq \frac{1}{2}Kl_{0}^{2}$$
+
+## 7. 
+
+# Exercice 2
