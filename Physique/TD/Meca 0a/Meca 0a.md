@@ -36,9 +36,25 @@ Donc,
 $$v(t_{1}) = \sqrt{ 2Hg }$$
 
 ## 3.
+Lorsque $z>0$, 
+$$E_{p} = E_{pp} = mgz$$
 Lorsque $z <0$, 
-$$E_{p} = E_{pp} + E_{pr} = mgz + \frac{1}{2}K(l-l_{0})^{2} = -mgz + \frac{1}{2}Kz^{2}$$
+$$E_{p} = E_{pp} + E_{pr} = mgz + \frac{1}{2}K(l-l_{0})^{2} = mgz + \frac{1}{2}Kz^{2}$$
+Alors, les racines sont : 
+$$\begin{cases}
+z = 0 \\
+z = -\frac{2mg}{K}
+\end{cases}$$
+Ainsi : EXCAL 2
+
+## 4.
+<font color="red">EXCAL4</font> 
+Quand $z < 0$
+$$E_{p}'(z) = mg + Kz$$
+En position d'équilibre : 
+$$E_{p}(z) = 0$$
+Alors, 
+$$z_{\min} = \frac{mg}{K}$$
 
 
-
-EXCAL 2
+## 5.
