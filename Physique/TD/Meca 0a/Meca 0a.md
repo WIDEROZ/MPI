@@ -96,5 +96,8 @@ ma_{x} = K(l_{d}-l_{g})-T\sin(\theta)
 \end{cases}$$
 Alors, 
 comme : 
-$$\frac{d\vec{v}}{dt} = -\dot{\theta} r \vec{e}_{\theta} $$
-$$\vec{a} = $$
+$$\vec{v} = \dot{\theta} r \vec{e}_{\theta} $$
+$$\vec{a} = \ddot{\theta}r\vec{e}_{\theta} - \dot{\theta}^{2}r\vec{e}_{r}$$
+$$$$
+Alors, 
+$$$$
