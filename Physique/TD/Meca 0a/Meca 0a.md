@@ -48,13 +48,13 @@ z = -\frac{2mg}{K}
 Ainsi : EXCAL 2
 
 ## 4.
-<font color="red">EXCAL4</font> 
+<font color="red">EXCAL 2</font> 
 Quand $z < 0$
 $$E_{p}'(z) = mg + Kz$$
 En position d'équilibre : 
 $$E_{p}(z) = 0$$
 Alors, 
-$$z_{\min} = \frac{mg}{K}$$
-
+$$z_{eq} = \frac{mg}{K}$$
 
 ## 5.
+<font color="blue">EXCAL 2</font>
