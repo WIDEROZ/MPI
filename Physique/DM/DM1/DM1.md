@@ -14,9 +14,8 @@ $$\omega_{r} = \frac{2\pi f_{0}}{\sqrt{ 10^{\frac{1}{}} }}$$
 
 ### 7. 
 $$z_{-} = \frac{1}{j \omega C_{1}}+2R_{1}$$
-$$\frac{1}{z_{top}} = \frac{1}{Z_{-}} + j\omega C_{1} = \frac{1}{\frac{1}{j \omega C_{1}}+2R_{1}}+j  \omega C_{1} $$
-$$= j \omega C_{1}\left( \frac{1}{1+2jR_{1}C_{1}\omega}+1\right) = \frac{2j\omega C_{1}(1+jR_{1}C_{1}\omega)}{1+2jI_{1}C_{1}\omega}$$
 
-
-Alors, 
-$$z_{top} = \frac{1+ 2j}{} $$
+Loi des noeuds sur $A$ : 
+$$\frac{u_{r_{1}}}{R_{1}} + \frac{u_{r_{2}}}{R_{2}} = C_{1} \frac{du_{C_{1}}}{dt} +C_{1} \frac{du_{C_{1}}}{dt} $$
+Loi des noeuds sur $B$ : 
+$$C_{1}du$$
