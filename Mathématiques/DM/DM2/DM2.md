@@ -160,7 +160,7 @@ Ainsi,
 $$n^{2} \geq n^{2}-nr + \dim V \Leftrightarrow \boxed{\dim V\leq nr}$$
 
 ## Question 5 : Pas de conclusion
-D'après l'indication : $M$ est semblable à $J_{r'} = \begin{pmatrix}I_{r'}&0\\ 0&0\end{pmatrix}$ alors, comme $J_{r'} \in V$ car : $\mathrm{rg}(J_{r'}) =r'$, et $M$ est semblable à $J_{r'}$, on a : $\mathrm{rg}(M) = \mathrm{rg}(J_{r})$. 
+
 
 
 ## Question 6
@@ -197,7 +197,7 @@ Donc,
 $$\mathcal{M}_{n}(\mathbb{R}) = W_{r} + V$$
 Comme : 
 $$W_{r} \cap V = \{ 0 \}$$
-D'après la question précédente, 
+D'après la question 4.b., 
 $$\mathcal{M}_{n}(\mathbb{R}) = W_{r} \oplus V$$
 Alors d'après la formule de Grassmann, 
 $$\dim \mathcal{M}_{n}(\mathbb{R}) = \dim W_{r} + \dim V$$
