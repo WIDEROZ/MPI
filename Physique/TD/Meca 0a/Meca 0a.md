@@ -92,12 +92,7 @@ $$m\vec{a} = mg\vec{e}_{z}+K(l_{d}-l_{g})\vec{e}_{x} -T\vec{e}_{l}$$
 Donc, 
 $$\begin{cases}
 ma_{z} = mg -T\cos(\theta) \\
-ma_{x} = K(l_{d}-l_{g})-T\sin(\theta)
+ma_{x} = K(l_{d}-l_{g})-T\sin(\theta) \approx K(l_{d}-l_{g})-mg\theta
 \end{cases}$$
 Alors, 
-comme : 
-$$\vec{v} = \dot{\theta} r \vec{e}_{\theta} $$
-$$\vec{a} = \ddot{\theta}r\vec{e}_{\theta} - \dot{\theta}^{2}r\vec{e}_{r}$$
-$$$$
-Alors, 
-$$$$
+$$ml\ddot{\theta} = -mg\theta - 2kl\theta$$
