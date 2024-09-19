@@ -1,5 +1,6 @@
 # Exercice 1
 ## 1.
+Référentiel : sol, galiléen
 EXCAL1
 
 ## 2.
@@ -19,7 +20,7 @@ $$z(t) = 0$$
 Alors, 
 $$t_{1} =  \sqrt{ \frac{2H}{g} }$$
 Ainsi, 
-$$v(t_{1}) = -\sqrt{ 2gH }$$
+$$v(t_{1}) = \sqrt{ 2gH }$$
 
 #### Théorème de l'énergie mécanique
 On a que des énergies qui se conservent alors :
@@ -30,4 +31,14 @@ $$E_{m}(0) = E_{p} = mgz = mgH$$
 puis,
 $$E_{m}(t_{1}) = E_{c} = \frac{1}{2}mv^{2}(t_{1})$$
 Alors, 
-$$$$
+$$mgH = \frac{1}{2}mv^{2}(t_{1})$$
+Donc, 
+$$v(t_{1}) = \sqrt{ 2Hg }$$
+
+## 3.
+Lorsque $z <0$, 
+$$E_{p} = E_{pp} + E_{pr} = mgz + \frac{1}{2}K(l-l_{0})^{2} = -mgz + \frac{1}{2}Kz^{2}$$
+
+
+
+EXCAL 2
