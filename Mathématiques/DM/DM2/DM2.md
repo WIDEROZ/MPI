@@ -157,7 +157,8 @@ Ainsi,
 $$n^{2} \geq n^{2}-nr + \dim V \Leftrightarrow \boxed{\dim V\leq nr}$$
 
 ## Question 5
-D'après l'indication : $M$ est semblable à $J_{r'} = \begin{pmatrix}I_{r'}&0\\ 0&0\end{pmatrix}$ alors, comme $J_{r} \in V$ car : $\mathrm{rg}(J_{r'}) =r'$, et $M$ est semblable à **
+D'après l'indication : $M$ est semblable à $J_{r'} = \begin{pmatrix}I_{r'}&0\\ 0&0\end{pmatrix}$ alors, comme $J_{r'} \in V$ car : $\mathrm{rg}(J_{r'}) =r'$, et $M$ est semblable à $J_{r'}$, on a : $\mathrm{rg}(M) = \mathrm{rg}(J_{r})$. 
+
 
 
 ## Question 6
