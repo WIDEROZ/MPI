@@ -156,7 +156,7 @@ la somme de deux matrices (en particulier de $W_{r}$ et $V$) de $\mathcal{M}_{n}
 Ainsi, 
 $$n^{2} \geq n^{2}-nr + \dim V \Leftrightarrow \boxed{\dim V\leq nr}$$
 
-## Question 5
+## Question 5 : Pas de conclusion
 D'après l'indication : $M$ est semblable à $J_{r'} = \begin{pmatrix}I_{r'}&0\\ 0&0\end{pmatrix}$ alors, comme $J_{r'} \in V$ car : $\mathrm{rg}(J_{r'}) =r'$, et $M$ est semblable à $J_{r'}$, on a : $\mathrm{rg}(M) = \mathrm{rg}(J_{r})$. 
 
 
@@ -183,13 +183,12 @@ $$\mathrm{rg}\begin{pmatrix}
 A \\
 C-B^{\top}
 \end{pmatrix} \leq r$$
-car le nombres de colonnes de de cette matrice est égale à $r$.
+car le nombres de colonnes de de cette matrice est égale à $r$. (soit ces vecteurs forment une famille libre à $r$ vecteurs soit une famille liée, donc le nombre de vecteurs formant une base de $\mathrm{Im}(u)$ sera inférieur à $r$)
 alors, 
 $$\mathrm{rg}\begin{pmatrix}
 A&0 \\
 C-B^{\top}&0
 \end{pmatrix}\leq r$$
-
 Ainsi, 
 $$X = F+G$$
 Donc, 
