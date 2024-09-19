@@ -95,4 +95,26 @@ $$(E, N)$$
 est dit espace vectoriel normé on notera : $\left|\left| \cdot \right|\right| = N$ 
 
 #### Propriété élémentaire
-$$\forall n \in \mathbb{N}^{*}, \forall (x_{i})_{i=1}^{n}\in E^{n}, \forall (\alpha_{i})_{i=1}^{n} $$
+$$\forall n \in \mathbb{N}^{*}, \forall (x_{i})_{i=1}^{n}\in E^{n}, \forall (\alpha_{i})_{i=1}^{n} \in \mathbb{K}^{n}, $$
+$$\left|\left| \sum_{k = 1}^{n}\alpha_{k}x_{k} \right|\right|\leq \sum_{k=1}^{n}\left| \alpha_{k} \right| \left|\left| x_{k} \right|\right|$$
+
+Démonstration : 
+Par récurrence, 
+Supposons que la prop soit vraie pour $n - 1\geq 1$, 
+$$\forall (x_{i})_{i=1}^{n} \in E^{n}, \forall (\alpha_{i})_{i=1}^{n} \in \mathbb{K}^{n},$$
+$$\left|\left| \sum_{k = 1}^{n} \alpha_{k}x_{k} \right|\right| = \left|\left| \sum_{k = 1}^{n-1}\alpha_{k}x_{k}+\alpha_{n}x_{n} \right|\right| \leq \left|\left| \sum_{k = 1}^{n-1}\alpha_{k}x_{k} \right|\right| + \left| \alpha_{k}\right|\left|\left| x_{n} \right|\right|  $$
+Par l'homogénéité et l'inégalité triangulaire. 
+$$\leq \sum_{k = 1}^{n-1}\left| \alpha_{k}\right|\left|\left| x_{k} \right|\right| + \left| \alpha_{n}\right|\left|\left| x_{n} \right|\right|$$
+Par Hypothèse de recurrence. 
+
+
+#### Propriété élémentaire
+$$\forall x, y \in E, \left|\, \left|\left| x \right|\right| -\left|\left|  y\right|\right| \,\right| \leq \left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
+
+Démonstration : 
+$$\left|\left| x \right|\right| $$
+
+
+#### Propriété élémentaire
+$$\frac{x}{\left|\left| x \right|\right| }\text{ est unitaire}$$
+
