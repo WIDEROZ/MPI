@@ -153,12 +153,11 @@ Et alors :
 $$\dim \mathcal{M}_{n}(\mathbb{R}) \leq \dim (W_{r} + V) = \dim (W_{r}) + \dim (V)$$
 la somme de deux matrices (en particulier de $W_{r}$ et $V$) de $\mathcal{M}_{n}(\mathbb{K})$ est toujours dans $\mathcal{M}_{n}(\mathbb{K})$. 
 
-Donc, 
+Ainsi, 
 $$n^{2} \geq n^{2}-nr + \dim V \Leftrightarrow \boxed{\dim V\leq nr}$$
 
 ## Question 5
-
-
+D'après l'indication : $M$ est semblable à $J_{r'} = \begin{pmatrix}I_{r'}&0\\ 0&0\end{pmatrix}$ alors, comme $J_{r} \in V$ car : $\mathrm{rg}(J_{r'}) =r'$, et $M$ est semblable à **
 
 
 ## Question 6
