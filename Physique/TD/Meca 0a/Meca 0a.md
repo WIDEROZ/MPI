@@ -77,3 +77,15 @@ $$mgH \leq \frac{1}{2}Kl_{0}^{2}$$
 ## 7. 
 
 # Exercice 2
+## 1.
+Ref : galliléen, terrestre
+BDF : 
+$$\begin{cases}
+\vec{F}_{rg} = -K(l_{g}-l_{0})\vec{e}_{x} \\
+\vec{F}_{rd} = -K(l_{d}-l_{0})\vec{e}_{x} \\
+\vec{P} = mg\vec{e}_{z} \\
+\vec{T} = -T\vec{e}_{l} =-T(\cos(\theta)\vec{e}_{}) 
+\end{cases}$$
+
+On fait un PDF : 
+$$m\vec{a} = mg\vec{e}_{z}-K(l_{g}+l_{d}-2l_{0})\vec{e}_{x} -T\vec{e}_{l}$$
