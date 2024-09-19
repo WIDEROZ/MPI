@@ -138,4 +138,37 @@ $$\begin{array}{rl}
 Ensuite :
 Soit $\alpha \in \mathbb{K}$, $X \in E$, 
 $$\left|\left| \alpha X \right|\right|_{\infty} = \max_{1 \leq k \leq n} \left| \alpha-x_{k}\right| = \left| \alpha\right| \max_{1\leq k \leq n}\left| x_{k}\right|=\left| \alpha\right|\left|\left| X \right|\right| _{\infty}$$
-$$\forall X, Y \in E, \forall k \in [\![1, n]\!], \left| x_{k} + y_{k}\right| \leq \left| x_{k}\right| + \left| \right|$$
+$$\forall X, Y \in E, \forall k \in [\![1, n]\!], \left| x_{k} + y_{k}\right| \leq \left| x_{k}\right| + \left| y_{k}\right| \leq \left|\left| X \right|\right| _{\infty} + \left|\left| Y \right|\right| _{\infty}$$
+Indépendant de $k$, 
+Alors, 
+$$\left|\left| X+Y \right|\right|_{\infty} \leq \left|\left| X \right|\right|_{\infty} + \left|\left| Y \right|\right|_{\infty} $$
+
+#### Exemples
+$$\left|\left| X \right|\right| _{1} = \sum_{k = 1}^{n} \left| x_{k}\right|$$
+$$\left|\left| X \right|\right| _{2} = \sqrt{ \sum_{k = 1}^{n} \left| x_{k}\right|^{2} }$$
+
+On peut faire de même dans tout $\mathbb{K}$-ev de dimension $n$, dont ona fixé une base : $\beta = (e_{1}, \dots, e_{n})$, 
+Dans ce cas, tout $x \in E$, s'écrit : 
+$$x = \sum_{k = 1}^{n} x_{k}e_{k}$$
+et on pose : 
+$$\begin{cases}
+\left|\left| x \right|\right| _{\infty, \beta} = \max_{1 \leq k \leq n}\left| x_{k}\right| \\
+\left|\left| x \right|\right| _{1, \beta} = \sum_{k = 1}^{n} \left| x_{k}\right| \\
+\left| \left| x\right|\right|_{1, \beta} = \sqrt{\sum_{k = 1}^{n}\left| x_{k}\right|^{2}}
+\end{cases}$$
+
+#### Exemples
+Sur $E = \mathcal{C}^{\infty}([a, b], \mathbb{K})$, 
+Soit $f \in E$, 
+$$\begin{cases}
+\left|\left| f \right|\right| _{\infty} = \sup\left| f\right| = \sup\{ \left| f(x)\right| ; x \in [a, b] \} \neq \infty  \\
+\text{(car l'im d'une fonction }\mathbb{C}^{0} \text{ sur un segment est un segment)} \\
+\left|\left| f \right|\right| _{1} = \int _{a}^{b} \left| f\right|  \\
+\left|\left| f \right|\right| _{2} = \sqrt{ \int _{a}^{b} \left| f\right|^{2}  }
+\end{cases}$$
+
+Démonstration : 
+La séparation et l'homogénéité sont triviales : 
+$$\begin{array}{c}
+\forall x \in [a, b], \left| ()\right|
+\end{array}$$
