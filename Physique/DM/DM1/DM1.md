@@ -21,4 +21,15 @@ $$\underline{S} = \frac{}{}$$
 ### 13
 $$T(\omega) = \frac{1}{\sqrt{ 1+Q^{2}\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega} \right)^{2} }} = \left(  1+Q^{2}\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega} \right)^{2}  \right)^{-\frac{1}{2}}$$
 
-$$T'(\omega) = -\frac{1}{2} (Q^{2}) \left(  1+Q^{2}\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega} \right)^{2}  \right)^{- \frac{3}{2}}$$
+$$T'(\omega) = - Q^{2}\omega\left( \frac{1}{\omega_{0}^{2}}-\frac{\omega_{0}^{2}}{\omega^{4}} \right) \left(  1+Q^{2}\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega} \right)^{2}  \right)^{- \frac{3}{2}} = 0$$
+Alors, 
+$$\omega = \begin{cases}
+0^{+} \\
+\omega_{0}
+\end{cases}$$
+Or : 
+$$T(0^{+}) \underset{\omega \to 0^{+}}{\longrightarrow} 0 $$
+et 
+$$T(\omega_{0}) = 1$$
+Ainsi, 
+$$\frac{T_{\max}}{\sqrt{ 2 }} = G(\omega_{c}) = $$
