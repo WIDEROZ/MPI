@@ -11,3 +11,7 @@ $$G_{db} = 16.6\log\left( \frac{1}{x^{2}} +1 \right)$$
 $$10^{\frac{1}{16.6\sqrt{ 2 }}} = \frac{1}{x^{2}}+1$$
 $$x^{2} = \frac{1}{10^{\frac{1}{16.6\sqrt{ 2 }}}-1}$$
 $$\omega_{r} = \frac{2\pi f_{0}}{\sqrt{ 10^{\frac{1}{}} }}$$
+
+### 7. 
+$$z_{-} = \frac{1}{j \omega C_{1}}+2R_{1}$$
+$$z_{top} = $$
