@@ -8,4 +8,6 @@ $$G_{db}(\omega) = -10\log\left( 1+ \frac{1}{(\omega RC)^{2}} \right) = -10\log\
 
 ## 6.(a)
 $$G_{db} = 16.6\log\left( \frac{1}{x^{2}} +1 \right)$$
-$$\frac{1}{\sqrt{ 2 }} = $$
+$$10^{\frac{1}{16.6\sqrt{ 2 }}} = \frac{1}{x^{2}}+1$$
+$$x^{2} = \frac{1}{10^{\frac{1}{16.6\sqrt{ 2 }}}-1}$$
+$$\omega_{r} = \frac{2\pi f_{0}}{\sqrt{ 10^{\frac{1}{}} }}$$
