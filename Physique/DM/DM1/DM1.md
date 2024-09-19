@@ -16,3 +16,9 @@ $$\omega_{r} = \frac{2\pi f_{0}}{\sqrt{ 10^{\frac{1}{}} }}$$
 $$\underline{V_{A}} = \frac{\frac{\underline{E}}{R_{1}}+\frac{0}{R_{2}}+\underline{V_{B}}j\omega C_{1} + \underline{S}j \omega C_{1}}{\frac{1}{R_{1}} + \frac{1}{R_{2}} + 2j\omega C_{1}}$$
 $$\underline{V_{B}} = \frac{\underline{V_{A}}2j\omega C_{1}R_{1}+\underline{S}}{2j\omega C_{1}R_{1}+1}$$
 $$\underline{S} = \frac{}{}$$
+
+
+### 13
+$$T(\omega) = \frac{1}{\sqrt{ 1+Q^{2}\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega} \right)^{2} }} = \left(  1+Q^{2}\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega} \right)^{2}  \right)^{-\frac{1}{2}}$$
+
+$$T'(\omega) = -\frac{1}{2} (Q^{2}) \left(  1+Q^{2}\left( \frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega} \right)^{2}  \right)^{- \frac{3}{2}}$$
