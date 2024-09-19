@@ -41,21 +41,21 @@ $$\begin{array}{rl}
 \forall M \in \mathcal{M}_{n}(\mathbb{R}), \forall X \in \mathcal{M}_{n, 1},  &(M^{\top}M)X = 0  \\
 &\Rightarrow X^{\top}M^{\top}MX = 0 \\
 &\Rightarrow  (MX)^{\top}MX = 0 \\
-&\overset{(\star)}{\Rightarrow}  MX = 0 
+&\overset{(\star\star)}{\Rightarrow}  MX = 0 
 \end{array}$$
-$(\star)$ : Car $MX \in \mathcal{M}_{n, 1}(\mathbb{R})$.
+$(\star\star)$ : Car $MX \in \mathcal{M}_{n, 1}(\mathbb{R})$.
 
 
 
 ## Question 2
 ### (a).
-$$M\begin{pmatrix}
+$$\boxed{M\begin{pmatrix}
 I_{r}&-A^{-1}B \\
 0&I_{n-r}
 \end{pmatrix} = \begin{pmatrix}
 A&0 \\
 C&D-CA^{-1}B
-\end{pmatrix}$$
+\end{pmatrix}}$$
 
 ### (b).
 $$\begin{pmatrix}
@@ -81,7 +81,7 @@ Ainsi,
 $$\det(G) = \det(M) \geq r$$
 Si $D = CA^{-1}B = 0$ alors, $\det(D-CA^{-1}B) = 0$
 Ainsi,
-$$\det(G) = r$$
+$$\boxed{\det(G) = r}$$
 
 ## Question 3
 On pose : 
@@ -92,6 +92,7 @@ $$\varphi : \begin{cases}
 B^{\top}&A
 \end{pmatrix}
 \end{cases}$$
+$\varphi$ est bien définie par définition de $W_{r}$.
 On montre que cette application est bijective : 
 Soit $(X, Y) \in \mathrm{Ker}(\varphi)$, 
 $$\varphi(X, Y) = \begin{pmatrix}
@@ -109,13 +110,15 @@ $$Y = \begin{pmatrix}
 0&B \\
 B^{\tau}&A
 \end{pmatrix} = \varphi(A, B)$$
-Donc, $W_{r} = \mathrm{Im}(\varphi)$, car $\varphi$ est bien définie. 
+Alors, $W_{r} \subset \mathrm{Im}(u)$, et comme : $\mathrm{Im}(u) \subset W_{r}$, 
+Donc, $W_{r} = \mathrm{Im}(\varphi)$ 
 ___
 Alors, $\varphi$ est bijective donc 
 $$\dim (\mathcal{M}_{n-r}(\mathbb{R}))+\dim (\mathcal{M}_{r, n-r}(\mathbb{R})) = \dim (W_{r})$$
-Ainsi, 
+Donc, 
 $$\dim (W_{r}) = (n-r)^{2} +r(n-r) = (n-r)(n-r+r) = n(n-r)$$
-
+Ainsi, 
+$$\boxed{\dim (W_{r}) = n(n-r)}$$
 
 # B - Dimension maximale
 ## Question 4
@@ -138,12 +141,12 @@ Alors,
 encore d'après la question 2 : 
 $$A = B^{\top}I_{r}B =  0$$
 Ainsi,
-$$A = B^{\top}B= 0$$
+$$\boxed{A = B^{\top}B= 0}$$
 
 
 ### (b).
 On a montré que :
-$$W_{r} \cap V = \{ 0 \}$$
+$$\boxed{W_{r} \cap V = \{ 0 \}}$$
 
 ### (c).
 On a alors par la formule de Grassmann : 
@@ -158,7 +161,6 @@ $$n^{2} \geq n^{2}-nr + \dim V \Leftrightarrow \boxed{\dim V\leq nr}$$
 
 ## Question 5 : Pas de conclusion
 D'après l'indication : $M$ est semblable à $J_{r'} = \begin{pmatrix}I_{r'}&0\\ 0&0\end{pmatrix}$ alors, comme $J_{r'} \in V$ car : $\mathrm{rg}(J_{r'}) =r'$, et $M$ est semblable à $J_{r'}$, on a : $\mathrm{rg}(M) = \mathrm{rg}(J_{r})$. 
-
 
 
 ## Question 6
