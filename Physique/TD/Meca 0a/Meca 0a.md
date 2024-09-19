@@ -82,10 +82,19 @@ Ref : galliléen, terrestre
 BDF : 
 $$\begin{cases}
 \vec{F}_{rg} = -K(l_{g}-l_{0})\vec{e}_{x} \\
-\vec{F}_{rd} = -K(l_{d}-l_{0})\vec{e}_{x} \\
+\vec{F}_{rd} = +K(l_{d}-l_{0})\vec{e}_{x} \\
 \vec{P} = mg\vec{e}_{z} \\
-\vec{T} = -T\vec{e}_{l} =-T(\cos(\theta)\vec{e}_{}) 
+\vec{T} = -T\vec{e}_{l} =-T(\sin(\theta)\vec{e}_{x} + \cos(\theta)\vec{e}_{z}) 
 \end{cases}$$
 
-On fait un PDF : 
-$$m\vec{a} = mg\vec{e}_{z}-K(l_{g}+l_{d}-2l_{0})\vec{e}_{x} -T\vec{e}_{l}$$
+On applique le PDF au système : 
+$$m\vec{a} = mg\vec{e}_{z}+K(l_{d}-l_{g})\vec{e}_{x} -T\vec{e}_{l}$$
+Donc, 
+$$\begin{cases}
+ma_{z} = mg -T\cos(\theta) \\
+ma_{x} = K(l_{d}-l_{g})-T\sin(\theta)
+\end{cases}$$
+Alors, 
+comme : 
+$$\frac{d\vec{v}}{dt} = -\dot{\theta} r \vec{e}_{\theta} $$
+$$\vec{a} = $$
