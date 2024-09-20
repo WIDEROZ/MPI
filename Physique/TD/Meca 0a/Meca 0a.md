@@ -148,5 +148,14 @@ $$\begin{cases}
 \end{cases}$$
 Avec : 
 $$l = l_{eq} - x + x_{A}$$
+et
 $$d = \frac{\mu}{\mu_{eau}}$$
-$$ma_{x} = mg +k(l-l_{0}) + d\mu_{eau}\left( \frac{h}{2}-x \right)$$
+$$m\ddot{x} = mg +k(l_{eq}-l_{0}+x_{a}-x) + d\mu_{eau}\left( \frac{h}{2}-x \right)Sg - \alpha \dot{x}$$
+A l'équilibre : 
+$$0 = -mg + k (l_{eq} -0+0-l_{0}) + d\mu(eau)\left( \frac{h}{2}-0 \right)Sg-0$$
+Alors, 
+$$m\ddot{x} = 2mg + k(x_{a}-x)-du_{eau} \frac{h}{2}Sg + d\mu_{eau} \left( \frac{h}{2}-x \right)Sg - \alpha \dot{x} $$
+Donc, 
+$$m\ddot{x} = 2mg +k(x_{a}-x) -d\mu_{eau}Sg x -\alpha \dot{x} $$
+Ainsi, 
+$$\boxed{\ddot{x} + \frac{\alpha}{m} \dot{x} + \left( \frac{k}{m} + \frac{\mu Sg}{m} \right)x = \frac{k}{m}x_{a} = \frac{k}{m}a\cos(\omega t)}$$
