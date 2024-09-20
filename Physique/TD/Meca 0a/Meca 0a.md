@@ -139,4 +139,12 @@ C'est la même fréquence que le ressort.
 ## 2.
 Référentiel galiléen : 
 On fait un PFD sur le cylindre suivant l'axe $\vec{e}_{x}$ car le mouvement est rectiligne : 
-$$ma_{x} = mg - k(l-l_{0}) - \alpha v + \Pi_{A}$$
+BDF : 
+$$\begin{cases}
+\vec{P} = mg\vec{e}_{x} \\
+\vec{F}_{r} = +k(l-l_{0})\vec{e}_{x} \\
+\vec{\Pi}_{A} =+ mg() \\
+\vec{F}_{f} = 
+\end{cases}$$
+Avec : 
+$$l = l_{eq} - x + x_{A}$$
