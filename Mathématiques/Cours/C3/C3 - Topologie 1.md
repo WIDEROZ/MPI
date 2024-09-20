@@ -307,5 +307,51 @@ $$\begin{array}{rl}
 u_{n} \underset{n \to +\infty}{\longrightarrow} l &\Leftrightarrow   u_{n} \in \overline B (l, \varepsilon) \\
 &\Leftrightarrow u_{n} -l\underset{n \to +\infty}{\longrightarrow} 0 \\
 &\Leftrightarrow\left|\left| u_{n}-l \right|\right| \underset{n \to +\infty}{\longrightarrow} 0  \\
-&\Leftrightarrow\exists (\alpha_{n})_{n \in \mathbb{N}} \in \mathbb{R}_{+}^{\mathbb{N}}, \alpha_{n} \underset{n \to +\infty}{\longrightarrow} 0 \Rightarrow 
+&\Leftrightarrow\exists (\alpha_{n})_{n \in \mathbb{N}} \in \mathbb{R}_{+}^{\mathbb{N}}, &\alpha_{n} \underset{n \to +\infty}{\longrightarrow} 0 \Rightarrow  \\
+&&\text{APDCR} \left|\left| u_{n}-l \right|\right| \leq \alpha_{n}
 \end{array}$$
+
+#### Exemple
+Soit $(A_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$ ou $E = \mathcal{M}_{2}(\mathbb{R})$, 
+Alors, 
+$$\forall n \in \mathbb{N}, A_{n} = \begin{pmatrix}
+a_{n}&b_{n} \\
+c_{n}&d_{n}
+\end{pmatrix}$$
+Soit : 
+$$L = \begin{pmatrix}
+\alpha&\beta \\
+\gamma&\delta
+\end{pmatrix}$$
+Alors, dans $(E, \left|\left| \cdot \right|\right|_{\infty})$, 
+$$A_{n} \underset{n \to +\infty}{\longrightarrow} L \Leftrightarrow \begin{cases}
+a_{n} \underset{n \to +\infty}{\longrightarrow}  \alpha \\
+b_{n} \underset{n \to +\infty}{\longrightarrow}  \beta \\
+c_{n} \underset{n \to +\infty}{\longrightarrow}   \gamma \\
+d_{n} \underset{n \to +\infty}{\longrightarrow}  \delta
+\end{cases}$$
+Démonstration en exo,
+
+#### Propriété : Unicité de $l$
+Soit $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, l_{1} \text{ et } l_{2} \in E$, 
+$$\begin{rcases}
+u_{n} \underset{n \to +\infty}{\longrightarrow} l_{1} \\
+u_{n} \underset{n \to +\infty}{\longrightarrow} l_{2}
+\end{rcases} \Rightarrow l_{1} = l_{2}$$
+On appelle $l_{1}$ la limite de $(u_{n})_{n \in \mathbb{N}}$, 
+et on notera 
+$$\lim_{ n \to \infty } u_{n} = l_{1}$$
+
+Démonstration : 
+Soit $\varepsilon >0$, 
+$$\exists n_{1}, n_{2} \in \mathbb{N}, \forall n \in \mathbb{N}, \begin{cases}
+n \geq n_{1} \Rightarrow \left|\left| u_{n}-l_{1} \right|\right| \leq \varepsilon \\
+n \geq n_{2} \Rightarrow \left|\left| u_{n} - l_{1} \right|\right| \leq \varepsilon
+\end{cases}$$
+en notant $n_{3} = \max\{ n_{1}, n_{2} \}$, 
+$$\begin{array}{rl}
+0\leq d(l_{1}, l_{2}) &\leq d(l_{1}, u_{n_{3}}) +d(u_{n_{3}}, l_{2}) \\
+&\leq 2\varepsilon
+\end{array}$$
+en faisant tendre $\varepsilon \underset{n \to +\infty}{\longrightarrow}0$ on a : 
+$$$$
