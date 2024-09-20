@@ -189,7 +189,7 @@ On peut généraliser ceci à $\mathcal{B}(I, E)$ ou :
 $(E, N)$ est un $\mathbb{K}$-evn en remplaçant par $\sup(N(f))$
 
 
-# II. Quelques notions de base
+# III. Quelques notions de base
 #### Définition
 Soit $\Omega$ un ensemble non vide, 
 on appelle distance sur $X$ toute fonction : 
@@ -249,11 +249,47 @@ y
 \end{pmatrix} \in \mathbb{R}^{2}, \begin{pmatrix}
 x \\
 y
-\end{pmatrix} \in \overline{B}(\begin{pmatrix}
+\end{pmatrix} \in \overline{B}\left(\begin{pmatrix}
 0 \\
 0
-\end{pmatrix}, 1)$$
-
-
+\end{pmatrix}, 1\right) \Leftrightarrow \left|\left| \begin{pmatrix}
+x \\
+y
+\end{pmatrix} \right|\right| _{\infty} \leq 1 \Leftrightarrow \begin{cases}
+\left| x\right|\leq 1 \\
+\left| y\right|\leq 1
+\end{cases}$$
 Dans $\mathbb{R}^{2}$, avec $\left|\left| \cdot \right|\right|_{1}$, $\overline{B}\left(\begin{pmatrix}0\\0\end{pmatrix}, 1\right)$ EXCAL 3
 
+car :
+$$\overline{B}\begin{pmatrix}
+\begin{pmatrix}
+0 \\
+0
+\end{pmatrix}
+, 1\end{pmatrix} = \left.\left\{ \begin{pmatrix}
+x \\
+y 
+\end{pmatrix} \in \mathbb{R}^{2} \right| \left| x\right|+\left| y\right| \leq 1 \right\}$$
+
+#### Définition
+Une partie $\mathcal{C}$ d'un ev est dite convexe lorsque : 
+$$\forall x, y \in \mathcal{C}, \forall t \in [0, 1], (1-t)x + ty \in \mathcal{C}$$
+
+#### Propriété
+$$\forall x_{0} \in E, \forall r >0, \overline B(x_{0}, r) \text{ et } B(x_{0}, r) \text{ sont convexes}$$
+
+Démonstration : 
+Soit $x, y \in \overline B(x_{0}, r)$, 
+Soit $t \in [0, 1]$, 
+$$y_{t} = (1-t)x+ty \in \overline B(x_{0}, r)$$
+car :
+$$\begin{array}{rl}
+\left|\left| y_{t}-x_{0} \right|\right| &= \left|\left| (1-t)x +ty-x_{0}\right|\right|  \\
+&= \left|\left| (1-t)x + ty -((1-t)x_{0}+tx_{0}) \right|\right|  \\
+&= \left|\left| (1-t)(x-x_{0}) + t(y-x_{0}) \right|\right|  \\
+&\leq \left| 1-t\right|\left|\left| x-x_{0}\right|\right| +\left| t\right|\left|\left| y-x_{0} \right|\right|   \\
+&\leq (1-t)r+tr=r
+\end{array}
+$$
+# IV. 
