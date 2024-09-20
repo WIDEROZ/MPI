@@ -97,4 +97,9 @@ ma_{x} = K(l_{d}-l_{g})-T\sin(\theta) \approx K(l_{d}-l_{g})-mg\theta
 Alors, 
 $$ml\ddot{\theta} = -mg\theta - 2kl\theta$$
 
-## 3. 
+## 4. 
+$$\omega_{0} = \sqrt{ \frac{g}{l} + \frac{2k}{m} }$$
+Alors,
+$$\frac{\omega_{0}}{Q} = \frac{\alpha}{m}$$
+Alors, 
+$$Q =\frac{1}{\alpha}\sqrt{ m\left( \frac{gm}{l} + 2k  \right)}$$
