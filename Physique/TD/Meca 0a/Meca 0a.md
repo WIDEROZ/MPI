@@ -143,8 +143,10 @@ BDF :
 $$\begin{cases}
 \vec{P} = mg\vec{e}_{x} \\
 \vec{F}_{r} = +k(l-l_{0})\vec{e}_{x} \\
-\vec{\Pi}_{A} =+ mg() \\
-\vec{F}_{f} = 
+\vec{\Pi}_{A} =- \mu V\vec{g} = \mu Vg\vec{e}_{x} = \mu\left(  \frac{h}{2}-x  \right)Sg \vec{e}_{x} \\
+\vec{F}_{f} = -\alpha \vec{v} = -\alpha \dot{x}\vec{e}_{x}
 \end{cases}$$
 Avec : 
 $$l = l_{eq} - x + x_{A}$$
+$$d = \frac{\mu}{\mu_{eau}}$$
+$$ma_{x} = mg +k(l-l_{0}) + d\mu_{eau}\left( \frac{h}{2}-x \right)$$
