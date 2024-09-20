@@ -182,8 +182,48 @@ ___
 Soient $(E_{1}, \left|\left| \cdot \right|\right|), (E_{2}, N)$ deux $\mathbb{K}$-evn, on définit une norme sur l'ev : $E = E_{1} \times E_{2}$ en posant :
 $$\forall x = (x_{1}, x_{2}) \in E, \left|\left| x \right|\right| _{1} = \max\{ \left|\left| x_{1} \right|\right|, N(x_{2}) \}$$
 
-#### Propriété
+#### Définition
 Soit $I$ un ensemble non vide et $\mathcal{B}(I, \mathbb{K})$ l'espace des fonctions bornés de $I$ dans $\mathbb{K}$, On définit une norme sur $\mathcal{B}(I, \mathbb{K})$ en posant :
 $$\forall f \in \mathcal{B}(I, \mathbb{K}), \left|\left| f \right|\right| = \sup\left| f\right|$$
 On peut généraliser ceci à $\mathcal{B}(I, E)$ ou : 
 $(E, N)$ est un $\mathbb{K}$-evn en remplaçant par $\sup(N(f))$
+
+
+# II. Quelques notions de base
+#### Définition
+Soit $\Omega$ un ensemble non vide, 
+on appelle distance sur $X$ toute fonction : 
+$$d : \Omega \times \Omega \to \mathbb{R}_{+}$$
+vérifiant : 
+$$\begin{cases}
+\forall x,y \in \Omega, d(x, y) = 0 \Leftrightarrow x =y \\
+\forall x, y \in \Omega, d(x, y) = d(y, x) \\
+\forall x, y, z \in \Omega, d(x, z) \leq d(x, y) + d(y, z)
+\end{cases}$$
+Donc, 
+$$(\Omega, d) \text{ est appelé un espace métique}$$
+
+#### Exemple
+Soit $(E, \left|\left| \cdot \right|\right|)$ un $\mathbb{K}$-evn, 
+La fonction : 
+$$d : \begin{cases}
+E\times E\to \mathbb{R}_{+} \\
+(x, y) \mapsto \left|\left| x-y \right|\right| 
+\end{cases}$$
+est une distance. 
+
+Démonstration : 
+$$\begin{array}{rl}
+d(x, y) = 0 &\Leftrightarrow \left|\left| x-y \right|\right|  = 0  \\
+&\Leftrightarrow x-y = 0 \\
+&\Leftrightarrow x = y
+\end{array}$$
+et
+$$\begin{array}{rl}
+d(y, x) &= \left|\left| y - x \right|\right| \\
+&= \left|\left| -(x-y) \right|\right|  \\
+&= \left|\left| x-y \right|\right|  \\
+&= d(x, y) 
+\end{array}$$
+et
+$$d(x, z) =\left|\left| x-y+y-z \right|\right| \leq \left|\left| x-y \right|\right|+ \left|\left| y-z \right|\right| \leq d(x, y) + d(y, z) $$
