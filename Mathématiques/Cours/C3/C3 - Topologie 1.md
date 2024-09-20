@@ -292,4 +292,20 @@ $$\begin{array}{rl}
 &\leq (1-t)r+tr=r
 \end{array}
 $$
-# IV. 
+# IV. Suites d'un Espace vectoriel normé
+Soit $(E, \left|\left| \cdot \right|\right|)$, 
+## 1. Convergence
+#### Définition
+Soit $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, et $l \in E$, on dit que cette suite converge vers $l$ lorsque : 
+$$\forall \varepsilon >0, \exists N \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq N \Rightarrow \left|\left| u_{n}-l \right|\right| \leq \varepsilon$$
+On note ceci : 
+$$u_{n} \underset{n \to +\infty}{\longrightarrow} l$$
+$(u_{n})_{n \in \mathbb{N}}$ est alors dite convergente
+
+#### Propriété
+$$\begin{array}{rl} 
+u_{n} \underset{n \to +\infty}{\longrightarrow} l &\Leftrightarrow   u_{n} \in \overline B (l, \varepsilon) \\
+&\Leftrightarrow u_{n} -l\underset{n \to +\infty}{\longrightarrow} 0 \\
+&\Leftrightarrow\left|\left| u_{n}-l \right|\right| \underset{n \to +\infty}{\longrightarrow} 0  \\
+&\Leftrightarrow\exists (\alpha_{n})_{n \in \mathbb{N}} \in \mathbb{R}_{+}^{\mathbb{N}}, \alpha_{n} \underset{n \to +\infty}{\longrightarrow} 0 \Rightarrow 
+\end{array}$$
