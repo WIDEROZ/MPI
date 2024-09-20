@@ -114,8 +114,21 @@ Régime apériodique
 On a : 
 $$\theta(t) = Ae^{ -\frac{t}{\tau} } + Be^{ -\frac{t}{\tau} }$$
 avec
-$$\frac{1}{\tau_{1}} = \omega_{1} = -\frac{\omega_{0}}{Q}\left( 1+j\sqrt{ 1-\frac{(2Q)^{2}}{\omega_{0}^{2}}\left( \frac{g}{l}+\frac{2k}{m} \right) } \right)$$
-$$\frac{1}{\tau_{2}} = \omega_{2} = \frac{\omega_{0}}{Q}\left( \sqrt{ 1-\frac{(2Q)^{2}}{\omega_{0}^{2}}\left( \frac{g}{l}+\frac{2k}{m} \right) } -1\right)$$
+$$\frac{1}{\tau_{1}} = \omega_{1} = -\frac{\omega_{0}}{Q}\left( 1+j\sqrt{ \frac{(2Q)^{2}}{\omega_{0}^{2}}\left( \frac{g}{l}+\frac{2k}{m} \right)-1 } \right)$$
+$$\frac{1}{\tau_{2}} = \omega_{2} = \frac{\omega_{0}}{Q}\left( j\sqrt{ \frac{(2Q)^{2}}{\omega_{0}^{2}}\left( \frac{g}{l}+\frac{2k}{m} \right) -1} -1\right)$$
 
 CONDITIONS INITIALES
-$$$$
+$$\theta_{0} = A+B$$
+$$\dot{\theta}(t) = -\tau_{1}Ae^{ - \frac{t}{\tau_{1}} } - \tau_{2} Be^{ - \frac{t}{\tau_{2}} }$$
+$$0 = \tau_{1}A + \tau_{2}B$$
+Alors, 
+$$\begin{cases} 
+(\tau_{2}-\tau_{1})A = \theta_{0} \\
+(\tau_{1}-\tau_{2})B=\theta_{0}
+\end{cases}$$
+$$\begin{cases}
+A = \frac{\theta_{0}}{\tau_{2}-\tau_{1}} \\
+B = \frac{\theta_{0}}{\tau_{1}-\tau_{2}}
+\end{cases}$$
+
+# Exercice 3
