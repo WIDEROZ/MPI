@@ -178,3 +178,13 @@ Soit $\omega_{r} = \sqrt{\omega_{0}^{2}-\frac{\omega_{0}}{2Q}}$
 Si $Q > \frac{1}{\sqrt{ 2 }}$
 
 ## 4.
+On a : 
+$$\underline{V} = j\omega \underline{X}$$
+Alors, 
+$$V = \left| \underline{V}\right| = \omega \left| \underline{X}\right|$$
+Alors :
+$$V = \frac{\frac{ka}{m}}{\sqrt{ \left( \frac{\omega_{0}^{2}}{\omega}-\omega \right)^{2} + \left( \frac{\omega_{0}}{Q} \right)^{2}}}$$
+(faire les calculs), 
+Donc, 
+$V$ est maximale quand : 
+$$\omega = \omega_{0}$$

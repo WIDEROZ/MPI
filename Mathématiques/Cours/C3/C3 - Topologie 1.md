@@ -177,3 +177,13 @@ $$\begin{array}{rl}
 Ainsi, 
 $$\left|\left| f+g \right|\right|_{\infty} \leq \left|\left| f \right|\right|_{\infty} + \left|\left| g \right|\right|_{\infty} $$
 ___
+
+#### Produits d'espaces vectoriels normés
+Soient $(E_{1}, \left|\left| \cdot \right|\right|), (E_{2}, N)$ deux $\mathbb{K}$-evn, on définit une norme sur l'ev : $E = E_{1} \times E_{2}$ en posant :
+$$\forall x = (x_{1}, x_{2}) \in E, \left|\left| x \right|\right| _{1} = \max\{ \left|\left| x_{1} \right|\right|, N(x_{2}) \}$$
+
+#### Propriété
+Soit $I$ un ensemble non vide et $\mathcal{B}(I, \mathbb{K})$ l'espace des fonctions bornés de $I$ dans $\mathbb{K}$, On définit une norme sur $\mathcal{B}(I, \mathbb{K})$ en posant :
+$$\forall f \in \mathcal{B}(I, \mathbb{K}), \left|\left| f \right|\right| = \sup\left| f\right|$$
+On peut généraliser ceci à $\mathcal{B}(I, E)$ ou : 
+$(E, N)$ est un $\mathbb{K}$-evn en remplaçant par $\sup(N(f))$
