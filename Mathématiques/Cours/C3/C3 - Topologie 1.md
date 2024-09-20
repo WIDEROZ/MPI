@@ -354,4 +354,26 @@ $$\begin{array}{rl}
 &\leq 2\varepsilon
 \end{array}$$
 en faisant tendre $\varepsilon \underset{n \to +\infty}{\longrightarrow}0$ on a : 
-$$$$
+$$f(l_{1}, l_{2}) = 0$$
+Ainsi, $l_{1}=l_{2}$.
+
+#### Proposition : Linéarité de la limite
+Si $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$ CV elle est bornée
+
+Si $(u_{n})_{n \in \mathbb{N}} \underset{n \to +\infty}{\longrightarrow} a \in E$ et $(v_{n})_{n \in \mathbb{N}} \underset{n \to +\infty}{\longrightarrow}b \in E$
+$$\forall \alpha \in \mathbb{K}, \alpha u_{n} + v_{n} \underset{n \to +\infty}{\longrightarrow} \alpha a + b$$
+
+Démonstration 1 : 
+Notons, $l = \lim_{ n \to \infty }u_{n}$
+$$\exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow \left|\left| u_{n}-l \right|\right| \leq 1  $$
+Donc, 
+$$\left|\left| u_{n} \right|\right| \leq \left|\left| u_{n}-l \right|\right| + \left|\left| l \right|\right| \leq 1+\left|\left| l \right|\right| $$
+Comme : 
+$$\{ \left|\left| u_{0} \right|\right| , \left|\left| u_{1} \right|\right| , \dots, \left|\left| u_{n_{0}-1} \right|\right|  \}$$
+est fini, il est majoré par : un réel $M$.
+Finalement : 
+$$\forall n \in \mathbb{N}, \left|\left| u_{n} \right|\right| \leq \max\{ M, 1+\left|\left| l \right|\right|  \} $$
+
+Démonstration 2 :
+$$\forall n \in \mathbb{N}, 0 \leq \left|\left| \alpha u_{n}+v_{n}-(\alpha a+b) \right|\right| = \left|\left| \alpha(u_{n}-a) + (v_{n}-b) \right|\right| $$
+$$\leq \left| \alpha\right|\left|\left| u_{n}-a \right|\right|  + \left|\left| v_{n}-b \right|\right|  \underset{n \to +\infty}{\longrightarrow} \alpha0 + 0 = 0$$
