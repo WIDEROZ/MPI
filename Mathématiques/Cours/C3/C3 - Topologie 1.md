@@ -226,4 +226,12 @@ d(y, x) &= \left|\left| y - x \right|\right| \\
 &= d(x, y) 
 \end{array}$$
 et
-$$d(x, z) =\left|\left| x-y+y-z \right|\right| \leq \left|\left| x-y \right|\right|+ \left|\left| y-z \right|\right| \leq d(x, y) + d(y, z) $$
+$$d(x, z) =\left|\left| x-y+y-z \right|\right| \leq \left|\left| x-y \right|\right|+ \left|\left| y-z \right|\right| = d(x, y) + d(y, z) $$
+
+#### Définition
+Si $(E, \left|\left| \cdot \right|\right|)$ est un evn et $\Omega \subset E$ est non vide, on définit pour tout $x \in E$, la distance de $x$ à $\Omega$ par : 
+$$d(x, \Omega) = \inf\{ \left|\left| x-\omega \right|\right| ; \omega \in \Omega \}$$
+Si $x \in \Omega$, alors $d(x, \Omega) = 0$
+
+#### Définition
+Soit $(E, nor)$
