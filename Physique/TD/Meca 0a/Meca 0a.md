@@ -96,3 +96,5 @@ ma_{x} = K(l_{d}-l_{g})-T\sin(\theta) \approx K(l_{d}-l_{g})-mg\theta
 \end{cases}$$
 Alors, 
 $$ml\ddot{\theta} = -mg\theta - 2kl\theta$$
+
+## 3. 
