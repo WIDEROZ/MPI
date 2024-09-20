@@ -132,3 +132,11 @@ B = \frac{\theta_{0}}{\tau_{1}-\tau_{2}}
 \end{cases}$$
 
 # Exercice 3
+EXCAL 3
+## 1.
+C'est la même fréquence que le ressort. 
+
+## 2.
+Référentiel galiléen : 
+On fait un PFD sur le cylindre suivant l'axe $\vec{e}_{x}$ car le mouvement est rectiligne : 
+$$ma_{x} = mg - k(l-l_{0}) - \alpha v + \Pi_{A}$$
