@@ -159,3 +159,11 @@ Donc,
 $$m\ddot{x} = 2mg +k(x_{a}-x) -d\mu_{eau}Sg x -\alpha \dot{x} $$
 Ainsi, 
 $$\boxed{\ddot{x} + \frac{\alpha}{m} \dot{x} + \left( \frac{k}{m} + \frac{\mu Sg}{m} \right)x = \frac{k}{m}x_{a} = \frac{k}{m}a\cos(\omega t)}$$
+
+## 3.
+$$x = Xe^{ j(\omega t+\varphi) } = \underline{X} e^{ j\omega t }$$
+Alors, 
+$$-\omega^{2}\underline{X} + j\omega  \frac{\omega_{0}}{Q}\underline{X} + \omega_{0}^{2}\underline{X} = \frac{k}{m}a$$
+$$\underline{X} = \frac{\frac{ka}{m}}{\omega_{0}^{2}+j\omega\frac{\omega_{0}}{Q}-\omega^{2}}$$
+Alors, 
+$$X = \left| \underline{X}\right| = \frac{\frac{ka}{m}}{\sqrt{ (\omega_{0}^{2}-p) }}$$
