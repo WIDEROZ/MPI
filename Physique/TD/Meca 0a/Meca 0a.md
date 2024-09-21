@@ -188,3 +188,33 @@ $$V = \frac{\frac{ka}{m}}{\sqrt{ \left( \frac{\omega_{0}^{2}}{\omega}-\omega \ri
 Donc, 
 $V$ est maximale quand : 
 $$\omega = \omega_{0}$$
+
+
+# CCMP
+## 2.
+BDF
+$$\begin{cases}
+\vec{P} = -mg\vec{u}_{z} \\
+ 
+\end{cases}$$
+$$m\vec{a} = m\vec{g}$$
+on projette sur chaque axe : 
+$$\begin{cases}
+a_{y} = 0 \\
+a_{z} = -mg
+\end{cases}$$
+Alors, 
+$$\begin{cases}
+v_{y}(t) = v_{0}\cos(\theta_{0}) \\
+v_{z}(t) = - gt + v_{0}\sin(\theta_{0}) 
+\end{cases}$$
+Donc 
+$$\begin{cases}
+x(t) = v_{0}\cos(\theta_{0})t \\
+y(t) = -\frac{1}{2}gt^{2}+v_{0}\sin(\theta_{0})t
+\end{cases}$$
+
+On pose : 
+$$t = \frac{x}{v_{0}\cos(\theta_{0})}$$
+Alors, 
+$$y = x\tan(\theta_{0}) -\frac{gx^{2}}{2v^{2}_{0}\cos ^{2}(\theta_{0})}$$
