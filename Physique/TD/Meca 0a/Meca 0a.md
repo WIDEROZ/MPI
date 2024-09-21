@@ -218,3 +218,4 @@ On pose :
 $$t = \frac{x}{v_{0}\cos(\theta_{0})}$$
 Alors, 
 $$y = x\tan(\theta_{0}) -\frac{gx^{2}}{2v^{2}_{0}\cos ^{2}(\theta_{0})}$$
+C'est une parabole.
