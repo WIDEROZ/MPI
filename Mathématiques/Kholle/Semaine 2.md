@@ -74,4 +74,59 @@ $$P^{-1}(X') = \begin{pmatrix}
 0&2&0 \\
 1&0&-1 \\
 1&0&1
+\end{pmatrix}\begin{pmatrix}
+x' \\
+y' \\
+z'
+\end{pmatrix} = \begin{pmatrix}
+y' \\
+\frac{x'}{2}-\frac{z'}{2} \\
+
+\frac{x'}{2}+\frac{z'}{2}
+\end{pmatrix} = (P^{-1}(X'))'$$
+
+Ainsi, en notant : 
+$$Y  = P^{-1}X = \frac{1}{2}\begin{pmatrix}
+2y \\
+x-z \\
+x+z
+\end{pmatrix} = \begin{pmatrix}
+u(t) \\
+v(t) \\
+w(t)
 \end{pmatrix}$$
+...
+
+ie $X = PY$ 
+Soit : 
+$$\begin{cases}
+x(t) = ae^{ t }+b e^{ -t } \\
+y(t) = b e^{ -t } \\
+z(t) = -be^{ -t } + c e^{ 3t }
+\end{cases}$$
+
+# CCINP 72
+## 1.
+$$\mathrm{rg}(f) = \begin{cases}
+0 \text{ si }f \text{ est nulle} \\
+1 \text{ sinon}
+\end{cases}$$
+
+## 2.
+$$M = Mat_{\beta}(f) = \begin{pmatrix}
+c_{1}&c_{1}&\dots&c_{1} \\
+\vdots&\vdots&&\vdots \\
+c_{n}&c_{n}& \dots& c_{n}
+\end{pmatrix} \in \mathcal{M}_{n}(\mathbb{R})$$
+ou 
+$$v = \sum_{k = 1}^{n} c_{k}e_{k}$$
+$$\chi_{f}(X) = (-1)^{n} \left| \begin{array}{c}
+c_{1}-X&c_{1}&\dots&c_{1} \\
+c_{2}&c_{2}-X&\ddots&\vdots \\
+\vdots&\vdots&\ddots&c_{n-1}\\
+c_{n}&c_{n}&\dots&c_{n}-X
+\end{array}\right|$$
+$$= (-1)^{n} $$
+
+
+# Exercice 3.3
