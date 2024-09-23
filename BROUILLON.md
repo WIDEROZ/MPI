@@ -119,4 +119,51 @@ x+z \\
 2y \\
 z-x
 \end{pmatrix} $$
-$$$$
+$$= \frac{1}{2}\begin{pmatrix}
+-(x+z) \\
+2y \\
+3(z-x)
+\end{pmatrix}$$
+Alors,
+$$\begin{cases}
+(x+z)' = -(x+z) \\
+y' = y \\
+(z-x)' = z-x
+\end{cases}$$
+Donc, 
+$$\begin{cases}
+(x+z) = ae^{ -t } \\
+y = be^{ t } \\
+z-x = c e^{ 3t }
+\end{cases}$$
+Alors, 
+$$\begin{cases}
+x = \frac{1}{2}(ae^{ -t } - c e^{ 3t }) \\
+y = be^{ t } \\
+z = \frac{1}{2}(ae^{ -t }+ce^{ 3t })
+\end{cases}$$
+
+# CCINP 73
+$$\chi_{A}(X) = \left| \begin{array}{c}
+X-2&1 \\
+4&X+1
+\end{array}\right| = (X-2)(X+1) - 4 = X^{2} -X-6$$
+$$\chi_{A}(X) = (X-3)(X+2)$$
+
+$$\begin{cases}
+E_{-2}(A) = \mathrm{Ker}\begin{pmatrix}
+4&1 \\
+4&1
+\end{pmatrix} = Vect\begin{pmatrix}
+1 \\
+-4
+\end{pmatrix} \\
+E_{3}(A) = \mathrm{Ker}\begin{pmatrix}
+-1&1 \\
+4&-4
+\end{pmatrix} = Vect\begin{pmatrix}
+1 \\
+1
+\end{pmatrix}
+\end{cases}$$
+
