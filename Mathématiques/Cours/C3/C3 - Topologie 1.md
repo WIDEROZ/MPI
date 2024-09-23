@@ -428,5 +428,8 @@ $$u_{n} \underset{n \to +\infty}{\longrightarrow} -1 \text{ si }\varphi : n \in 
 
 
 
-#### Exercice
+#### Remarque
 Pour montrer que $(u_{n})_{n \in \mathbb{N}} \in \mathbb{E}^{\mathbb{N}}$ DV, il suffit de prouver qu'elle admet au moins deux valeurs d'adhérence distinctes. 
+
+# V. Equivalence de normes
+#### Dé
