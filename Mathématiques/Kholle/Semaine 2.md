@@ -78,15 +78,14 @@ $$P^{-1}(X') = \begin{pmatrix}
 x' \\
 y' \\
 z'
-\end{pmatrix} = \begin{pmatrix}
+\end{pmatrix} = 2\begin{pmatrix}
 y' \\
-\frac{x'}{2}-\frac{z'}{2} \\
-
+\frac{x'}{2}-\frac{z'}{2}  \\
 \frac{x'}{2}+\frac{z'}{2}
-\end{pmatrix} = (P^{-1}(X'))'$$
+\end{pmatrix} = (P^{-1}(X))'$$
 
 Ainsi, en notant : 
-$$Y  = P^{-1}X = \frac{1}{2}\begin{pmatrix}
+$$Y  = P^{-1}X = \begin{pmatrix}
 2y \\
 x-z \\
 x+z
@@ -95,11 +94,11 @@ u(t) \\
 v(t) \\
 w(t)
 \end{pmatrix}$$
-$$P^{-1}(X') = \frac{1}{2}\begin{pmatrix}
+$$P^{-1}(X') = \begin{pmatrix}
 2y' \\
 x'-z' \\
 x'+z'
-\end{pmatrix} = \frac{1}{2}\begin{pmatrix}
+\end{pmatrix} = \begin{pmatrix}
 2y \\
 z-x \\
 3x+z
@@ -107,7 +106,7 @@ z-x \\
 $$\begin{cases}
 y'=y \\
 z'=2x \\
-x' = 
+x' = x+z
 \end{cases}$$
 
 ie $X = PY$ 
@@ -141,6 +140,3 @@ c_{n}&c_{n}&\dots&c_{n}-X
 \end{array}\right|$$
 $$= (-1)^{n} $$
 
-
-# Exercice 3.3
-	
