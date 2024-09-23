@@ -452,4 +452,27 @@ On dit que $N$ et $\left|\left| \cdot \right|\right|$ sont équivalentes lorsque
 $$\exists \alpha, \beta >0, \forall x \in E, \alpha \left|\left| x \right|\right| \leq N(x) \leq \beta \left|\left| x \right|\right| $$
 
 #### Exemple
-Dans $\mathbb{R}^{n}$ $\left|\left| \cdot \right|\right|_{\infty}, \left|\left| \cdot \right|\right|_{1}, \left|\left| \cdot \right|\right|2$
+Dans $\mathbb{R}^{n}$ $\left|\left| \cdot \right|\right|_{\infty}, \left|\left| \cdot \right|\right|_{1}, \left|\left| \cdot \right|\right|_{2}$ sont équivalentes car : 
+Soit $X = \begin{pmatrix}x_{1}\\\vdots\\ x_{n}\end{pmatrix} \in \mathbb{R}^{n}$,
+$$\left|\left| X \right|\right| _{1} = \sum_{k = 1}^{n} \left| x_{k}\right|\leq n \left|\left| X \right|\right| _{\infty}$$
+car $\left| x_{k}\right| \leq \left|\left| X \right|\right|_{\infty}$
+De plus comme il existe $k_{0} \in [\![1, n]\!]$ tel que : 
+$$\left|\left| X \right|\right| _{\infty} = \left| x_{k_{0}}\right|$$
+donc, 
+$$\left|\left| X \right|\right| _{\infty}\leq \left|\left| X \right|\right| _{1} \leq n \left|\left| X \right|\right| _{\infty}$$
+De même, 
+$$\left|\left| X \right|\right| _{2} = \sqrt{ \sum_{k = 1}^{n} x_{k}^{2} } \leq \sqrt{ n\left|\left| X \right|\right| ^{2}_{\infty} }$$
+et 
+$$\left|\left| X \right|\right| _{1}\geq \sqrt{ \left|\left| X \right|\right| ^{2}_{\infty} }$$
+Donc, 
+$$\left|\left| X \right|\right| _{\infty} \leq \left|\left| X \right|\right| _{2} \leq \sqrt{ n }\left|\left| X \right|\right| _{\infty}$$
+D'où : 
+$$\frac{1}{\sqrt{ n }}\left|\left| X \right|\right| _{2} \leq \left|\left| X \right|\right| _{1} \leq n \left|\left| X \right|\right| _{2}$$
+
+#### Proposition
+###### (a).
+$N$ ne domine pas $\left|\left| \cdot \right|\right|$ 
+ssi 
+$$\exists (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \frac{\left|\left| x_{n} \right|\right|}{N(x_{n})} \underset{n \to +\infty}{\longrightarrow} + \infty$$
+Démonstration :
+$$
