@@ -414,7 +414,18 @@ $$u_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} l$$
 
 #### Définition
 Soit $(u_{n})_{n \in \mathbb{N}}\in E^{\mathbb{N}}$ et $l \in E$, on dit que $l$ est une valeur d'adhérence de $u$ lorsque $l$ est la limite d'une suite extraite de $u$. 
-Ainsi, si $u_{n} \underset{n \to +\infty}{\longrightarrow} l$, $l$ est la seile valeur d'adhérence de $(u_{n})_{n \in \mathbb{N}}$, 
+Ainsi, si $u_{n} \underset{n \to +\infty}{\longrightarrow} l$, $l$ est la seule valeur d'adhérence de $(u_{n})_{n \in \mathbb{N}}$, la réciproque est fausse car la suite :
+$$(u_{n})_{n\in \mathbb{N}} = (0, 1, 0, 2, 0, 3, \dots)$$
+DV et n'admet que $0$ comme valeur d'adhérence. 
+
+#### Exemple
+$$(u_{n})_{n \in \mathbb{N}} = ((-1)^{n})_{n \in \mathbb{N}}$$
+vérifie :
+$$u_{n} \underset{n \to +\infty}{\longrightarrow} 1 \text{ si }\varphi : n \in \mathbb{N} \mapsto 2n \in \mathbb{N}$$
+$$u_{n} \underset{n \to +\infty}{\longrightarrow} -1 \text{ si }\varphi : n \in \mathbb{N} \mapsto 2n+1 \in \mathbb{N}$$
+- $(n)_{n \in \mathbb{N}}$ n'admet aucune valeur d'adhérence
+- $(\cos n)_{n \in \mathbb{N}}$ admet une infinité de valeurs d'adhérence : $[-1, 1]$
+
 
 
 #### Exercice
