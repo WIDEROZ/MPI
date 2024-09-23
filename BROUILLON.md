@@ -50,8 +50,26 @@ $$P = \begin{pmatrix}
 0&0&3
 \end{pmatrix}$$
 $$P^{-1} = \frac{1}{2}\begin{pmatrix}
-1&
+1&0&1 \\
+0&2&0 \\
+-1&0&1
 \end{pmatrix}$$
+
+$$P^{-1}DP = \begin{pmatrix}
+-\frac{1}{2}&0&\frac{3}{2} \\
+0&1&0 \\
+-\frac{1}{2}&0& \frac{3}{2}
+\end{pmatrix}\begin{pmatrix}
+1&0&1 \\
+0&1&0 \\
+-1&0&1
+\end{pmatrix} = \begin{pmatrix}
+1&0&2 \\
+0&1&0 \\
+-2
+\end{pmatrix}$$
+
+
 
 
 ## 2.
