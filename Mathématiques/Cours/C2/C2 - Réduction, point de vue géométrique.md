@@ -786,7 +786,7 @@ A^{2} =& \begin{pmatrix}
 &B
 \end{array}$$
 Remarquons que $B$ est diagonalisable : 
-$$\chi_{B} = X^{2} - \mathrm{Tr}(B)X + \det(B) = X^{2}-4 = (X-2)(X+1)$$
+$$\chi_{B} = X^{2} - \mathrm{Tr}(B)X + \det(B) = X^{2}-4 = (X-2)(X+2)$$
 est SRS dans $\mathbb{R}[X]$
 $$\mathrm{Ker}(B-2I_{2}) =\mathrm{Ker}\begin{pmatrix}
 -2&4 \\
@@ -803,7 +803,7 @@ $$\mathrm{Ker}(B+2I_{2}) = \mathrm{Ker}\begin{pmatrix}
 1
 \end{pmatrix}$$
 Donc, 
-$$B = P^{-1}DP^{-1}$$
+$$B = PDP^{-1}$$
 Avec : 
 $$P = \begin{pmatrix}
 2&-2 \\
