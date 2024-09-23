@@ -95,7 +95,20 @@ u(t) \\
 v(t) \\
 w(t)
 \end{pmatrix}$$
-...
+$$P^{-1}(X') = \frac{1}{2}\begin{pmatrix}
+2y' \\
+x'-z' \\
+x'+z'
+\end{pmatrix} = \frac{1}{2}\begin{pmatrix}
+2y \\
+z-x \\
+3x+z
+\end{pmatrix}$$
+$$\begin{cases}
+y'=y \\
+z'=2x \\
+x' = 
+\end{cases}$$
 
 ie $X = PY$ 
 Soit : 
