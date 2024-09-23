@@ -432,4 +432,24 @@ $$u_{n} \underset{n \to +\infty}{\longrightarrow} -1 \text{ si }\varphi : n \in 
 Pour montrer que $(u_{n})_{n \in \mathbb{N}} \in \mathbb{E}^{\mathbb{N}}$ DV, il suffit de prouver qu'elle admet au moins deux valeurs d'adhérence distinctes. 
 
 # V. Equivalence de normes
-#### Dé
+#### Remarque
+Une suite peut être convergente ou divergente selon le choix de la norme. 
+
+#### Exemple
+$E = \mathcal{C}^{0}([0, 1], \mathbb{R})$, 
+Notons pour tout $n \in \mathbb{N}^{*}$, 
+$$f_{n} : [0, 1] \to \mathbb{R}$$
+EXCAL 4
+$(f_{n})_{n \in \mathbb{N}}$ DV dans $(E, \left|\left| \cdot \right|\right|_{\infty})$ car $\left|\left| f_{n} \right|\right|_{\infty} = n$
+$(f_{n})_{n \in \mathbb{N}}$ CV dans $(E, \left|\left| \cdot \right|\right|_{1})$ car $\left|\left| f_{n} \right|\right|_{1}= \int _{0}^{1}f_{n} \, dx = \frac{1}{2n} \underset{n \to +\infty}{\longrightarrow} 0$
+
+#### Définition
+Soient $\left|\left| \cdot \right|\right|$ et $N$, deux normes sur $E$,
+On dit que $N$ domine : $\left|\left| \cdot \right|\right|$ lorsque : 
+$$\exists \alpha > 0, \forall x \in E, \left|\left| x \right|\right| \leq \alpha N(x)$$
+
+On dit que $N$ et $\left|\left| \cdot \right|\right|$ sont équivalentes lorsque : $N$ domine $\left|\left| \cdot \right|\right|$ et $\left|\left| \cdot \right|\right|$ domine $N$ ie : 
+$$\exists \alpha, \beta >0, \forall x \in E, \alpha \left|\left| x \right|\right| \leq N(x) \leq \beta \left|\left| x \right|\right| $$
+
+#### Exemple
+Dans $\mathbb{R}^{n}$ $\left|\left| \cdot \right|\right|_{\infty}, \left|\left| \cdot \right|\right|_{1}, \left|\left| \cdot \right|\right|2$
