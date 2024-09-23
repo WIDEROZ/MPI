@@ -32,3 +32,18 @@ f\text{ est DZ} \\
 Si $\dim E = n$ et $f \in \mathcal{L}(E)$, 
 - Si $f$ admet une unique valeur propre $\alpha \in \mathbb{K}$, et si $f$ est DZ, alors $f = \alpha Id_{E}$
 - Si $f$ admet $n$ valeurs propres, il est DZ.
+
+#### Propriété
+Soit $\lambda \in Sp(f)$,
+$$1 \leq \dim E_{\lambda}(f) \leq Mult(f) \leq \dim (E)$$
+Si $\chi_{f}$ est SRS dans $\mathbb{K}[X]$ alors $f$ est DZ.
+
+#### Théorème
+Soit $f \in \mathcal{L}(E)$, on à équivalence entre : 
+$$\begin{cases}
+f \text{ est DZ} \\
+\begin{cases}
+\chi_{f} \text{ est scindé dans }\mathbb{K}[X] \\
+\forall \lambda \in Sp(f), Mult(\lambda) = \dim E_{\lambda}(f)
+\end{cases}
+\end{cases}$$
