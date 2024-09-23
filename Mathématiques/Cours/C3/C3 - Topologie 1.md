@@ -470,9 +470,37 @@ D'où :
 $$\frac{1}{\sqrt{ n }}\left|\left| X \right|\right| _{2} \leq \left|\left| X \right|\right| _{1} \leq n \left|\left| X \right|\right| _{2}$$
 
 #### Proposition
-###### (a).
 $N$ ne domine pas $\left|\left| \cdot \right|\right|$ 
 ssi 
 $$\exists (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \frac{\left|\left| x_{n} \right|\right|}{N(x_{n})} \underset{n \to +\infty}{\longrightarrow} + \infty$$
 Démonstration :
-$$
+Par hypothèse : 
+$$NON(\exists n \in \mathbb{R}, \forall x \in E, \left|\left| x \right|\right| \leq n N(x))$$
+ie : 
+$$\forall n \in \mathbb{R}, \exists x_{n} \in E, \left|\left| x \right|\right| > n N(x)$$
+$\Leftarrow$ : 
+Par contraposition : 
+Si $N$ domine $\left|\left| \cdot \right|\right|$, 
+$$\exists \alpha > 0, \forall x \in E \setminus \{ 0 \}, \frac{\left|\left| x \right|\right| }{N(x)} \leq \alpha$$
+Donc, 
+$$\forall (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \frac{\left|\left| x_{n} \right|\right| }{N(x_{n})} \leq \alpha$$
+
+#### Théorème
+$N$ et $\left|\left| \cdot \right|\right|$, sont équivalents ssi : 
+$$\forall (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \left|\left| x_{n} \right|\right| \underset{n \to +\infty}{\longrightarrow} 0\Leftrightarrow N(x_{n}) \underset{n \to +\infty}{\longrightarrow} 0$$
+
+Démonstration : 
+$\Rightarrow$ : 
+Si il existe $a, b >0$,
+Soit $x \in E$, 
+$$a \left|\left| x \right|\right|  \leq N(x) \leq b \left|\left| x \right|\right| $$
+Alors, 
+$$\forall(x_{n})_{n \in \mathbb{N}}\in E^{\mathbb{N}}, \left|\left| x_{n} \right|\right| \underset{n \to +\infty}{\longrightarrow} 0 \Rightarrow N(x_{n}) \underset{n \to +\infty}{\longrightarrow} 0$$
+Car : 
+$$0 \leq N(x_{n}) \leq b\left|\left| x_{n} \right|\right| $$
+Si $N(x_{n}) \underset{n \to +\infty}{\longrightarrow} 0$, $\left|\left| x_{n} \right|\right|\underset{n \to +\infty}{\longrightarrow} 0$
+car : $0 \leq \left|\left| x_{n} \right|\right| \leq \frac{1}{a} N(x_{n})$
+
+$\Leftarrow$ : Par contraposition
+Si $N$ et $\left|\left| \cdot \right|\right|$ sont non équivalentes alors, 
+$N$ ne domine pas $\left|\left| \cdot \right|\right|$ (o)
