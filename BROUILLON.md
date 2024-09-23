@@ -58,7 +58,7 @@ $$P^{-1} = \frac{1}{2}\begin{pmatrix}
 $$P^{-1}DP = \begin{pmatrix}
 -\frac{1}{2}&0&\frac{3}{2} \\
 0&1&0 \\
--\frac{1}{2}&0& \frac{3}{2}
+\frac{1}{2}&0& \frac{3}{2}
 \end{pmatrix}\begin{pmatrix}
 1&0&1 \\
 0&1&0 \\
@@ -66,7 +66,7 @@ $$P^{-1}DP = \begin{pmatrix}
 \end{pmatrix} = \begin{pmatrix}
 1&0&2 \\
 0&1&0 \\
--2
+&0&
 \end{pmatrix}$$
 
 
@@ -84,5 +84,39 @@ x(t) \\
 y(t) \\
 z(t)
 \end{pmatrix}$$
-$$X' = AX$$
-
+$$X' = AX = PDP^{-1}X$$
+Alors, 
+$$P^{-1}X' = DP^{-1}X$$
+On pose : 
+$$Y = P^{-1}X = \frac{1}{2}\begin{pmatrix}
+1&0&1 \\
+0&2&0 \\
+-1&0&1
+\end{pmatrix}\begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix} = \frac{1}{2} \begin{pmatrix}
+x+z \\
+2y \\
+z-x
+\end{pmatrix}$$
+$$Y' = P^{-1}X' = \frac{1}{2}\begin{pmatrix}
+x'+z' \\
+2y' \\
+z'-x'
+\end{pmatrix}$$
+$$Y' = DY =  \frac{1}{2}\begin{pmatrix}
+x'+z' \\
+2y' \\
+z'-x'
+\end{pmatrix} =  \begin{pmatrix}
+-1&0&0 \\
+0&1&0 \\
+0&0&3
+\end{pmatrix}\frac{1}{2}\begin{pmatrix}
+x+z \\
+2y \\
+z-x
+\end{pmatrix} $$
+$$$$
