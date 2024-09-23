@@ -990,7 +990,7 @@ Evidemment le spectre complexe de $M$ est égal à l'ensemble des coefs diagonau
 
 #### Théorème
 Soit $f \in \mathcal{L}(E)$, ou $\dim E = n$, 
-On a équivanlence entre : 
+On a équivalence entre : 
 $$\begin{array}{l}
 f \text{ est nilpotent} \\
 f^{n} = 0_{\mathcal{L}(E)} \\

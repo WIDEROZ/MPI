@@ -47,3 +47,24 @@ f \text{ est DZ} \\
 \forall \lambda \in Sp(f), Mult(\lambda) = \dim E_{\lambda}(f)
 \end{cases}
 \end{cases}$$
+
+#### Théorème
+Soit $E$ un $\mathbb{K}$-ev de dim $n \in \mathbb{N}^{*}$ et $f \in \mathcal{L}(E)$ on a équivalence entre : 
+$$\begin{cases}
+f \text{ est trigonalisable} \\
+\chi_{f} \text{ est scindé dans } \mathbb{K}[X]
+\end{cases}$$
+En particulier $f$ est TZ si $\mathbb{K} = \mathbb{C}$ et 
+$$\forall A \in \mathcal{M}_{n}(\mathbb{C}), A \text{ est TZ dans }\mathcal{M}_{n}(\mathbb{C})$$
+
+#### Théorème
+Soit $f \in \mathcal{L}(E)$, ou $\dim E = n$, 
+On a équivalence entre : 
+$$\begin{array}{l}
+f \text{ est nilpotent} \\
+f^{n} = 0_{\mathcal{L}(E)} \\
+\chi_{f}(X) = X^{n} \\
+\text{Il existe une base de }E \text{ dans laquelle } \\
+\text{la matrice de }f \text{ est triangulaire à diagonale nulle}
+\end{array}$$
+
