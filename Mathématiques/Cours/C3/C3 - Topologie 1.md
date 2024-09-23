@@ -377,3 +377,22 @@ $$\forall n \in \mathbb{N}, \left|\left| u_{n} \right|\right| \leq \max\{ M, 1+\
 Démonstration 2 :
 $$\forall n \in \mathbb{N}, 0 \leq \left|\left| \alpha u_{n}+v_{n}-(\alpha a+b) \right|\right| = \left|\left| \alpha(u_{n}-a) + (v_{n}-b) \right|\right| $$
 $$\leq \left| \alpha\right|\left|\left| u_{n}-a \right|\right|  + \left|\left| v_{n}-b \right|\right|  \underset{n \to +\infty}{\longrightarrow} \alpha0 + 0 = 0$$
+
+#### Définition
+$\varphi : \mathbb{N} \to \mathbb{N}$ est une extractrice si elle est strictement croissante. 
+
+#### Exemple
+$$\varphi : n \in \mathbb{N} \mapsto \left\lfloor e^{ n } \right\rfloor $$
+
+#### Exercice
+Si $\Omega$ est une partie non majorée de $\mathbb{N}$, il existe une unique extractrice $\varphi : \mathbb{N} \to \mathbb{N}$ vérifiant $\varphi(\mathbb{N}) = \Omega$ 
+Il suffit de poser : 
+$$\varphi(0) = \min \Omega \text{ et } \forall n \in \mathbb{N}, \varphi(n+1) = \min \Omega \setminus \{ \varphi(k) ; 0  \leq k \leq n \}$$
+
+#### Définition
+Soit $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, On appelle suite extraite de $u$ ou sous suite, toute suite de la forme : 
+$$(u_{\varphi(n)})_{n \in \mathbb{N}}$$
+ou $\varphi$ est une extractrice
+
+#### Théorème
+Si $()$
