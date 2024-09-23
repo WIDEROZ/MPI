@@ -94,20 +94,33 @@ u(t) \\
 v(t) \\
 w(t)
 \end{pmatrix}$$
-$$P^{-1}(X') = \begin{pmatrix}
+$$Y' = P^{-1}(X') = \begin{pmatrix}
 2y' \\
 x'-z' \\
 x'+z'
 \end{pmatrix} = \begin{pmatrix}
-2y \\
-z-x \\
-3x+z
+u'(t) \\
+v'(t) \\
+w'(t)
 \end{pmatrix}$$
+$$Y' = \begin{pmatrix}
+u'(t) \\
+v'(t) \\
+w'(t)
+\end{pmatrix} = DY = \begin{pmatrix}
+u(t) \\
+-v(t) \\
+3w(t)
+\end{pmatrix}$$
+Alors, 
 $$\begin{cases}
-y'=y \\
-z'=2x \\
-x' = x+z
+u = ae^{ t } \\
+v = be^{ -t } \\
+w = c e^{ 3t }
 \end{cases}$$
+Alors, 
+$$$$
+
 
 ie $X = PY$ 
 Soit : 
@@ -139,4 +152,5 @@ c_{2}&c_{2}-X&\ddots&\vdots \\
 c_{n}&c_{n}&\dots&c_{n}-X
 \end{array}\right|$$
 $$= (-1)^{n} $$
+
 
