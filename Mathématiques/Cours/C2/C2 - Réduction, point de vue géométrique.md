@@ -691,7 +691,7 @@ on a égalité ssi $\chi_{f}$ est scindé dans $\mathbb{K}[X]$
 
 #### Propriété
 Soit $\lambda \in Sp(f)$,
-$$1 \leq \dim E_{\lambda}(f) \leq Mult(f) \leq \dim (E)$$
+$$1 \leq \dim E_{\lambda}(f) \leq Mult(\lambda) \leq \dim (E)$$
 
 Si $\lambda$ est une valeur propre simple (ie $Mult(\lambda) = 1$), $E_{\lambda}(f)$ est une droite. 
 
