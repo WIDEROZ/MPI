@@ -395,4 +395,27 @@ $$(u_{\varphi(n)})_{n \in \mathbb{N}}$$
 ou $\varphi$ est une extractrice
 
 #### Théorème
-Si $()$
+Si $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, CV, toutes ses suites extraites CV vers $l = \lim_{ n \to \infty }u_{n}$
+
+Démonstration : 
+Basé sur : $\varphi(n) \geq n$, 
+En effet : $\varphi(0)\in \mathbb{N}$, donc, $\varphi(0) \geq 0$?
+et si il existe $n \in \mathbb{N}$, tel que : $\varphi(n) \geq n$ par stricte croissance de $\varphi$, $\varphi(n+1)> \varphi(n) \geq n$,
+Ainsi, 
+$$\varphi(n+1) \geq n+1$$
+
+$$\begin{array}{rll}
+\forall \varepsilon, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, &n \geq n_{0} a&\Rightarrow \left|\left| u_{n}-l \right|\right| \leq \varepsilon \\
+&&\Rightarrow \left|\left| u_{\varphi(n)} - l \right|\right| \leq \varepsilon
+\end{array}$$
+car $\varphi(n) \geq n \geq n_{0}$, 
+Ainsi,
+$$u_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} l$$
+
+#### Définition
+Soit $(u_{n})_{n \in \mathbb{N}}\in E^{\mathbb{N}}$ et $l \in E$, on dit que $l$ est une valeur d'adhérence de $u$ lorsque $l$ est la limite d'une suite extraite de $u$. 
+Ainsi, si $u_{n} \underset{n \to +\infty}{\longrightarrow} l$, $l$ est la seile valeur d'adhérence de $(u_{n})_{n \in \mathbb{N}}$, 
+
+
+#### Exercice
+Pour montrer que $(u_{n})_{n \in \mathbb{N}} \in \mathbb{E}^{\mathbb{N}}$ DV, il suffit de prouver qu'elle admet au moins deux valeurs d'adhérence distinctes. 
