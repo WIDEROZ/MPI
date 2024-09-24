@@ -204,7 +204,8 @@ $$D = \begin{pmatrix}
 1&1 \\
 1&-4
 \end{pmatrix} \text{ et }P^{-1} =-\frac{1}{5}\begin{pmatrix}
-
+-4&-1 \\
+-1&1
 \end{pmatrix}$$
 
 On pose : 
