@@ -99,12 +99,12 @@ La formule du $pH$ pour un acide fort est :
 $$pH = -\log\left( \frac{c_{HClO_{4}}}{c^{0}} \right) = 1.8 $$
 
 ### 5.
-On veut que : $pH = 3 = -\log\left( \frac{c_{solM}}{c^{0}} \right)$, alors, 
-$$\ln(10^{3}) = -\ln\left( \frac{c_{solM}}{c^{0}} \right)$$
+On veut que : $pH = 3 = -\log\left( \frac{c_{H_{3}O^{+}}}{c^{0}} \right)$, alors, 
+$$\ln(10^{3}) = -\ln\left( \frac{c_{H_{3}O^{+}}}{c^{0}} \right)$$
 Alors, 
-$$10^{3} = \frac{c^{0}}{c_{solM}} \Rightarrow c_{solM} = \frac{c^{0}}{10^{3}}$$
+$$10^{3} = \frac{c^{0}}{c_{H_{3}O^{+}}} \Rightarrow c_{H_{3}O^{+}} = c_{HClO_{4}} = \frac{c^{0}}{10^{3}}$$
 Donc, le facteur de dilution est :
-$$\frac{c_{solM}}{c_{HClO_{4}}}= \frac{16 \times 10^{-3}}{10^{-3}} = 16$$
+$$\frac{c_{H_{3}O^{+}}}{c_{HClO_{4}}}= \frac{16 \times 10^{-3}}{10^{-3}} = 16$$
 Puis : 
 $$V_{solM} = \frac{c_{HClO_{4}}}{c_{solM}} V_{HClO_{4}} = 4 L$$
 
