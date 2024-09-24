@@ -212,9 +212,28 @@ a \neq 0 \Rightarrow \mathrm{rg}(A) = 3
 \end{cases}$$
 
 $$\begin{pmatrix}
-0&a&0 \\
-a&0&1 \\
- a&1&-a
+a&0&0 \\
+0&a&1 \\
+1&a&-a
 \end{pmatrix}$$
 $C_{3} \leftarrow C_{3} - aC_{2}$
-$C_{2}\leftarrow C_{2} $
+$C_{1} \leftrightarrow C_{2}$
+$$\begin{pmatrix}
+a&0&0 \\
+0&a&0 \\
+1&a&-(a^{2}+a)
+\end{pmatrix}$$
+$C_{3} \leftarrow aC_{3}-C_{2}$
+$$\begin{cases}
+a = -1 \Rightarrow \mathrm{rg}(A) = 2 \\
+a = 0 \Rightarrow \mathrm{rg}(A) = 1 \\
+0\neq a \neq -1 \Rightarrow \mathrm{rg}(A) = 3
+\end{cases}$$
+
+## 2.
+Pour que $A$ soit diagonalisable il faut que : 
+$$\chi_{A}(X) = \left| \begin{array}{c}
+X&-a&-1 \\
+-a&X&-1 \\
+-a&-1&X
+\end{array}\right|$$
