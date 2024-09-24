@@ -309,4 +309,22 @@ $$D = \begin{pmatrix}
 \end{pmatrix}$$
 
 Soit $M \in \mathcal{M}_{2}(\mathbb{K})$, 
-$$AM = MA \Leftrightarrow $$
+$$AM = MA \Leftrightarrow PDP^{-1}M = MPDP^{-1} $$
+$$\Leftrightarrow DP^{-1}MP = P^{-1}MPD$$
+Alors, 
+$D$ commute avec $M' = P^{-1}MP$ 
+Or on a : 
+$$\forall N \in \mathcal{M}_{2}(\mathbb{K}), DN = ND \Leftrightarrow N \text{ est diag}$$
+Donc, 
+$$\exists a, b \in \mathbb{R}, M = P\begin{pmatrix}
+a&0 \\
+0&b
+\end{pmatrix}P^{-1}$$
+car $M'$ est diag. 
+Ainsi, 
+les matrices commutant avec $A$ sont de la forme : 
+$$P\begin{pmatrix}a&0\\0&b\end{pmatrix}P^{-1}$$
+leur espace est de dimension $2$, (a cause de $a$ et $b$)
+alors, on a : 
+$$I_{2} \in C(A) \text{ et } A \in C(A)$$
+ces matrices ne sont pas colinéaire alors $Vect(I_{2}, A)=C(A)$
