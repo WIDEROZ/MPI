@@ -12,3 +12,4 @@ Tant que $T_{1}$ non-trié :
 	$i_{2} \leftarrow \mathcal{U}([\![0, n-1]\!])$
 	echange$(T_{1}, i_{1}, i_{2})$
 Renvoyer $T_{1}$
+
