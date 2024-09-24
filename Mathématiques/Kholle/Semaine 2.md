@@ -223,10 +223,9 @@ $$M = \begin{pmatrix}
 a&0 \\
 0&d
 \end{pmatrix}$$
-Donc, 
-$$MD = MP^{-1}$$
+$$MA = AM \Leftrightarrow MPDP^{-1} = PDP^{-1}M \Leftrightarrow P^{-1}MPD = DP^{-1}MP$$
 
-
+$$\Leftrightarrow DP^{-1}MP$$
 
 
 
