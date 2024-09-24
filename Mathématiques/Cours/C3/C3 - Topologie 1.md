@@ -593,5 +593,15 @@ Comme $u_{n} \underset{n \to +\infty}{\longrightarrow} 0$,
 $$\left( 1+u_{n}+\frac{u_{n}^{2}}{2}+o(u_{n}^{2})-1 \right)^{\alpha} - u_{n}^{\alpha} =u_{n}^{\alpha} \left( \left( 1+\frac{u_{n}}{2} + o(u_{n}) \right)^{\alpha}-1 \right)$$
 Alors, 
 $$= u_{n}^{\alpha}\left( 1+\frac{\alpha u_{n}}{2}+ o(u_{n})-1 \right) = \frac{\alpha}{2}u_{n}^{\alpha+1} + o (u_{n}^{\alpha+1})$$
+Ainsi, pour $\alpha = -1$, 
+$$u_{n+1}^{\alpha}-u_{n}^{\alpha} = -\frac{1}{2}+ o(1)$$
 Ainsi, 
-$\alpha = -1$
+$$\frac{1}{u_{n+1}}-\frac1{u_{n}}\underset{n \to +\infty}{\longrightarrow} -\frac{1}{2}$$
+D'après le lemme de Cesàro : 
+$$\frac{1}{n+1} \sum_{k = 1}^{n} \frac{1}{u_{k+1}}-\frac1{u_{k}} \underset{n \to +\infty}{\longrightarrow} -\frac{1}{2}$$
+Alors, 
+$$\frac{1}{n+1} \sum_{k = 1}^{n} \frac{1}{u_{k+1}}-\frac1{u_{k}}  = \frac{1}{n+1} \left( \frac{1}{u_{n+1}}-\frac{1}{u_{0}} \right)$$
+Donc; 
+$$\frac{1}{(n+1)u_{n+1}} \underset{n \to +\infty}{\longrightarrow} -\frac{1}{2}$$
+Ainsi, 
+$$\frac{1}{nu_{n}} \sim -\frac{1}{2}$$
