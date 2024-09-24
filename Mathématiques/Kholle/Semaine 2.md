@@ -161,14 +161,17 @@ $$= (-1)^{n} ((c_{1}-X)\left| \begin{array}{c}
 c_{2}&X&0&\dots \\
 c_{3}&0&X&0
 \end{array}\right|)$$
-$$(-1)^{n}((-1)^{n}(c_{1}-X)X^{n}+ X(c_{2}\left| \begin{array}{c}
+$$(-1)^{n}((-1)^{n}(c_{1}-X)X^{n}- X(c_{2}\left| \begin{array}{c}
 0&X&0&\dots \\
 0&0&X&\dots
 \end{array}\right|- X\left| \begin{array}{c}
 c_{3}&X&0&\dots \\
 c_{4}&0&X
 \end{array}\right|))$$
-$$= (-1)^{n}((-1)^{n}(c_{1}-X)X^{n}-X)$$
+$$= (-1)^{n}((-1)^{n}(c_{1}-X)X^{n}+ (-1)^{n}X^{n})$$
+Alors, 
+$$\chi_{A}(X) = (c_{1}-X)X^{n}+X^{n} = X^{n}(c_{1}-X+1)$$
+
 
 # CCINP 73
 $$\chi_{A}(X) = \left| \begin{array}{c}
