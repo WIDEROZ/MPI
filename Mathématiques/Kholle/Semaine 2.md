@@ -270,3 +270,43 @@ $$r = -\frac{1}{2}$$
 Donc, comme $4 >0$ si $a > -\frac{1}{2}$, alors, $1+4(a^{2}+a) >0$
 Ainsi, 
 $$a > -\frac{1}{2} \Leftrightarrow M \text{ est DZ}$$
+
+# CCINP 73 n°2
+## 1.
+$$\chi_{A}(X) = \left| \begin{array}{c}
+X-2&-1 \\
+-4&X+1
+\end{array}\right| = (X-2)(X+1) - 4 = X^{2}-X-6$$
+Ainsi, 
+$$\chi_{A}(X) = (X+2)(X-3)$$
+
+$$\begin{cases}
+E_{-2}(A) = \mathrm{Ker}\begin{pmatrix}
+4&1 \\
+4&1
+\end{pmatrix}= Vect\begin{pmatrix}
+1 \\
+-4
+\end{pmatrix} \\
+E_{3}(A) = \mathrm{Ker}\begin{pmatrix}
+-1&1 \\
+4&-4
+\end{pmatrix}= Vect\begin{pmatrix}
+1 \\
+1
+\end{pmatrix}
+\end{cases}$$
+## 2.
+On a : 
+$$A = PDP^{-1}$$
+Avec : 
+$$D = \begin{pmatrix}
+-2&0 \\
+0&3
+\end{pmatrix} \text{ et } P = \begin{pmatrix}
+1&1 \\
+-4&1
+\end{pmatrix}$$
+
+Soit $M \in \mathcal{M}_{2}(\mathbb{K})$, 
+$$AM = MA \Leftrightarrow $$
