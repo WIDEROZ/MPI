@@ -135,3 +135,5 @@ C'est simple en faisant un tableau d'avancement
 
 ### 7.
 $$pKa = pH - \log\left( \frac{[F^{-}]}{[HF]} \right) = 3.19$$
+
+# Exercice 5
