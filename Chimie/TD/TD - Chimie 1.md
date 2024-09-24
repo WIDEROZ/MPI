@@ -104,9 +104,9 @@ $$\ln(10^{3}) = -\ln\left( \frac{c_{solM}}{c^{0}} \right)$$
 Alors, 
 $$10^{3} = \frac{c^{0}}{c_{solM}} \Rightarrow c_{solM} = \frac{c^{0}}{10^{3}}$$
 Donc, le facteur de dilution est :
-$$\frac{c_{solM}}{c_{HClO_{4}}}= \frac{16 \times 10^{-3}}{10^{3}} = 16 \times 10^{-6}$$
+$$\frac{c_{solM}}{c_{HClO_{4}}}= \frac{16 \times 10^{-3}}{10^{-3}} = 16$$
 Puis : 
-$$V_{solM} = \frac{c_{HClO_{4}}}{c_{solM}} V_{HClO_{4}} = 4 \times 10^{-6} L$$
+$$V_{solM} = \frac{c_{HClO_{4}}}{c_{solM}} V_{HClO_{4}} = 4 L$$
 
 Il faut prélever $4\times 10^{-6} L$ de solution mère pour que le $pH$ soit à $3$
 
