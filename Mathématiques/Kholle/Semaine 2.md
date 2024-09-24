@@ -147,8 +147,12 @@ c_{2}&c_{2}-X&\ddots&\vdots \\
 \vdots&\vdots&\ddots&c_{n-1}\\
 c_{n}&c_{n}&\dots&c_{n}-X
 \end{array}\right|$$
-$$= (-1)^{n} $$
-
+$$\forall i \in [\![1, n+1]\!], C_{i+1} \leftarrow C_{i+1} -C_{i}$$
+Alors,
+$$\chi_{f}(X) = (-1)^{n} \left| \begin{array}{c}
+c_{1}-X&X&0&\dots&0 \\
+c_{2}&X&
+\end{array}\right|$$
 
 # CCINP 73
 $$\chi_{A}(X) = \left| \begin{array}{c}
@@ -249,4 +253,7 @@ il faut alors que le polynôme : $X^{2}-X-(a^{2}+a)$ admette deux racines réell
 $$1+4(a^{2}+a)>0$$
 $$1+4a^{2}+4a$$
 ce polynome admet une racine double qui est : 
-$$r = -1$$
+$$r = -\frac{1}{2}$$
+Donc, comme $4 >0$ si $a > -\frac{1}{2}$, alors, $1+4(a^{2}+a) >0$
+Ainsi, 
+$$a > -\frac{1}{2} \Leftrightarrow M \text{ est DZ}$$
