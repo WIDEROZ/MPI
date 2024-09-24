@@ -118,3 +118,20 @@ $$HBr + H_{2}O \rightleftharpoons Br^{-} + H_{3}O^{+}$$
 Il s'agit d'un acide fort car il y a une réaction totale avec l'eau. 
 
 ## 3.
+$$m_{HBr} = M(HBr)n_{HBr} = M(HBr)C_{HBr}V_{HBr} $$
+___
+### 4.
+$$HF + H_{2}O \rightleftharpoons H_{3}O^{+} + F^{-}$$
+
+### 5.
+On a : 
+$$pH = 2.65 \Leftrightarrow [H_{3}O^{+}]= 2.2 \times 10^{-3}$$
+$$\eta = \frac{10^{-pH}}{C} = 0.22$$
+Taux d'avancement $\uparrow$, 
+Le taux d'avancement n'est pas égal à $1$ ainsi, la réaction est pas totale. 
+
+### 6.
+C'est simple en faisant un tableau d'avancement 
+
+### 7.
+$$pKa = pH - \log\left( \frac{[F^{-}]}{[HF]} \right) = 3.19$$
