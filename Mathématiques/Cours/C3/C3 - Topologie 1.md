@@ -555,10 +555,28 @@ u_{0} \in \mathbb{R} \\
 f : \begin{cases}
 \mathbb{R} \to \mathbb{R} \\
 x \mapsto f(x) = e^{ x }-1
+\end{cases} \\
+g : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto f(x) - x = e^{ x }-(1+x)
 \end{cases}
 \end{cases}$$
 EXCAL 5
 $f$ est positive et nulle en $0$ car $\exp$ est convexe alors ses tangente sont en dessous de $f$ : 
 $$e^{ x } \geq e^{ 0 }(x-0)+e^{ 0 } = x+1$$
 
-Montons que si $u_{0} >0$, $()$
+Montons que si $u_{0} >0$, $(u_{n})$ croit vers $+ \infty$,
+Puisque : 
+$$f(\mathbb{R}) = ]f(0), \lim_{ x \to \infty } f(x)[ = ]0, + \infty[ = \mathbb{R}^{*}_{+}$$
+et $u_{0} \in \mathbb{R}_{+}^{*}$, tous les $u_{n} \in \mathbb{R}_{+}^{*}$, 
+De $g\geq 0$, Donc, 
+$$\boxed{u_{n+1}- u_{n} = f(u_{n})-u_{n} = g(u_{n}) \geq 0}$$ ie : 
+$$(u_{n}) \uparrow$$
+D'après le théorème de la limite monotone, soit $(u_{n})$ CV, soit $u_{n} \underset{n \to +\infty}{\longrightarrow} + \infty$
+Or si elle CV vers un réel $l$, par croissance de $(u_{n})$ on aurait $l \geq u_{0} > 0$, Et on aurait en faisant tendre $n$ vers l'infini : 
+$$l = e^{ l }-1$$
+par continuité de $f$ ie $g(l) = 0$, ie $l= 0$, C'est absurde
+
+Si $u_{0} = 0$, $\forall n \in \mathbb{N}, u_{n} =0$ car $f(0) = 0$, 
+
+Si $u_{0} < 0$, d'après le truc encadré en 
