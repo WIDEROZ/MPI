@@ -200,5 +200,21 @@ $$M = \begin{pmatrix}
 a&0 \\
 0&d
 \end{pmatrix}$$
-On prend $M'$ semblable a $M$, 
-$$M' = Q^{-1}MQ$$
+
+
+
+
+# CCINP 69
+## 1.
+$$\begin{cases}
+a = 0 \Rightarrow \mathrm{rg}(A) = 2 \\
+a \neq 0 \Rightarrow \mathrm{rg}(A) = 3
+\end{cases}$$
+
+$$\begin{pmatrix}
+0&a&0 \\
+a&0&1 \\
+ a&1&-a
+\end{pmatrix}$$
+$C_{3} \leftarrow C_{3} - aC_{2}$
+$C_{2}\leftarrow C_{2} $
