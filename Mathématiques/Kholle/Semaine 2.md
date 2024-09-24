@@ -141,69 +141,6 @@ c_{n}&c_{n}& \dots& c_{n}
 \end{pmatrix} \in \mathcal{M}_{n}(\mathbb{R})$$
 où
 $$v = \sum_{k = 1}^{n} c_{k}e_{k}$$
-$$\chi_{f}(X) = (-1)^{n} \left| \begin{array}{c}
-c_{1}-X&c_{1}&\dots&c_{1} \\
-c_{2}&c_{2}-X&\ddots&\vdots \\
-\vdots&\vdots&\ddots&c_{n-1}\\
-c_{n}&c_{n}&\dots&c_{n}-X
-\end{array}\right|$$
-$$\forall i \in [\![1, n+1]\!], C_{i+1} \leftarrow C_{i+1} -C_{i}$$
-Alors,
-$$\chi_{f}(X) = (-1)^{n} \left| \begin{array}{c}
-c_{1}-X&X&0&\dots&0 \\
-c_{2}&-X&X&\ddots&\vdots \\
-c_{3}&0 & \ddots&\ddots&0 \\
-\vdots&\vdots&\ddots&\ddots&X \\
-c_{n}&0&\dots&0&-X
-\end{array}\right|$$
-$$= (-1)^{n}\left((c_{1}-X)\left| \begin{array}{c}
--X&X&0&\dots&\dots&0 \\
-0&-X&X&\ddots&&\vdots\\
-\vdots&\ddots&\ddots&\ddots&\ddots&\vdots \\
-\vdots&&\ddots&\ddots&\ddots&0 \\
-\vdots&&&\ddots&\ddots&X \\
-0&\dots&\dots&\dots&0&-X
-\end{array}\right| \right.$$
-$$\left.-X \left| \begin{array}{c}
-c_{2}&X&0&\dots&\dots&0 \\
-c_{3}&-X&X&\ddots&&\vdots\\
-\vdots&0&\ddots&\ddots&\ddots&\vdots \\
-\vdots&\vdots&\ddots&\ddots&\ddots&0 \\
-\vdots&\vdots&&\ddots&\ddots&X \\
-c_{n}&0&\dots&\dots&0&-X
-\end{array}\right|\right)$$
-$$= (-1)^{n}((-1)^{n-1}(c_{1}-X)X^{n-1}-XA)$$
-Avec : 
-$$A = c_{2}\left| \begin{array}{c}
--X&X&0&\dots&\dots&0 \\
-0&-X&X&\ddots&&\vdots\\
-\vdots&\ddots&\ddots&\ddots&\ddots&\vdots \\
-\vdots&&\ddots&\ddots&\ddots&0 \\
-\vdots&&&\ddots&\ddots&X \\
-0&\dots&\dots&\dots&0&-X
-\end{array}\right|$$
-$$ - X \left| \begin{array}{c}
-c_{3}&X&0&\dots&\dots&0 \\
-c_{4}&-X&X&\ddots&&\vdots\\
-\vdots&0&\ddots&\ddots&\ddots&\vdots \\
-\vdots&\vdots&\ddots&\ddots&\ddots&0 \\
-\vdots&\vdots&&\ddots&\ddots&X \\
-c_{n}&0&\dots&\dots&0&-X
-\end{array}\right|$$
-On remarque alors que : 
-$$ \begin{array}{rl}
-\forall k \in [\![2, n-1]\!],&A_{k} = \left| \begin{array}{c}
-c_{k}&X&0&\dots&\dots&0 \\
-c_{k+1}&-X&X&\ddots&&\vdots\\
-\vdots&0&\ddots&\ddots&\ddots&\vdots \\
-\vdots&\vdots&\ddots&\ddots&\ddots&0 \\
-\vdots&\vdots&&\ddots&\ddots&X \\
-c_{n}&0&\dots&\dots&0&-X
-\end{array}\right| \\
-&=c_{k} (-X)^{n-k}-XA_{k+1}
-\end{array}$$
-Ainsi, 
-$$A_{k} = c_{k}(-X)^{n-k} - X(c_{k+1}(-x)^{n-(k+1)}-X())$$
 
 
 
