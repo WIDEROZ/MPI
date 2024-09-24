@@ -41,4 +41,27 @@ ie $a\in B(x_{0}, r) \cap I$
 car $\forall x \in I, \forall r > 0$, $x \in B(x, r) \cap I$,
 
 #### Exemple
-Dans $(\mathbb{R}, \left|\left| \cdot \right|\right|)$, $\overline{[[}$
+Dans $(\mathbb{R}, \left|\left| \cdot \right|\right|)$, $[0,1[ \subset\overline{[0, 1[}$
+$1 \in \overline{[0, 1[}$ car : 
+$$(x_{n})_{n \in \mathbb{N}^{*}} = \left( 1-\frac{1}{n} \right)_{n \in \mathbb{N}^{*}}$$
+tend vers $1$ et $\forall n \in \mathbb{N}^{*}, x_{n} \in [0, 1[$
+Ainsi, 
+$$[0, 1] \subset \overline{[0, 1[}$$
+Réciproquement si : 
+$$x \in \overline{[0, 1[}$$
+$$\exists (a_{n})_{n\in \mathbb{N}} \in [0, 1[^{\mathbb{N}}, a_{n} \underset{n \to +\infty}{\longrightarrow} x$$
+$$\forall n \in \mathbb{N}, 0 \leq a_{n} < 1$$
+En faisant tendre $n$ vers l'infini, $0 \leq x \leq 1$
+ie $x \in [0, 1]$, 
+
+#### Exemple
+Dans $(\mathbb{R}, \left| \cdot\right|)$, 
+$$\overline{\mathbb{Q}} =\mathbb{R}$$
+$\subset$ : clair
+$\supset$ : Soit $x \in \mathbb{R}$, 
+$$x = \lim_{ n \to \infty } \frac{\left\lfloor 10^{n}x \right\rfloor}{10^{n}}$$
+
+En effet, $10^{n}x-1 \leq \left\lfloor 10^{n}x \right\rfloor\leq 10^{n}x$
+Donc, 
+$$x -10^{-n}\leq  \frac{\left\lfloor 10^{n}x \right\rfloor}{10^{n}} \leq x$$
+Avec th d'encadrement. 
