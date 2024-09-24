@@ -139,7 +139,7 @@ c_{1}&c_{1}&\dots&c_{1} \\
 \vdots&\vdots&&\vdots \\
 c_{n}&c_{n}& \dots& c_{n}
 \end{pmatrix} \in \mathcal{M}_{n}(\mathbb{R})$$
-ou 
+où
 $$v = \sum_{k = 1}^{n} c_{k}e_{k}$$
 $$\chi_{f}(X) = (-1)^{n} \left| \begin{array}{c}
 c_{1}-X&c_{1}&\dots&c_{1} \\
@@ -161,7 +161,7 @@ $$= (-1)^{n} ((c_{1}-X)\left| \begin{array}{c}
 c_{2}&X&0&\dots \\
 c_{3}&0&X&0
 \end{array}\right|)$$
-$$(-1)^{n}((-1)^{n}(c_{1}-X)X^{n}- X(c_{2}\left| \begin{array}{c}
+$$(-1)^{n}((-1)^{n-1}(c_{1}-X)X^{n-1}- X(c_{2}\left| \begin{array}{c}
 0&X&0&\dots \\
 0&0&X&\dots
 \end{array}\right|- X\left| \begin{array}{c}
