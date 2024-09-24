@@ -524,3 +524,24 @@ a_{n} \underset{n \to +\infty}{\longrightarrow} l_{1} \\
 b_{n} \underset{n \to +\infty}{\longrightarrow}  l_{2} \\
 c_{n} \underset{n \to +\infty}{\longrightarrow} l_{3}
 \end{cases}$$
+
+# VI. Lemme de Cesàro
+Soit $(u_{n})_{n \in \mathbb{N}} \in \mathbb{R}^{\mathbb{N}}$, 
+Si $u_{n}\underset{n \to +\infty}{\longrightarrow} l \in \mathbb{R} \cup \{ + \infty, - \infty \}$
+Alors, 
+$$\frac{1}{n+1}\sum_{k=0}^{n}u_{k} \underset{n \to +\infty}{\longrightarrow} l$$
+Si $l =0$, 
+Soit $\varepsilon >0$, il existe un certain rang $n_{0} \in \mathbb{N}$, tel que : 
+$$\forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow \left| u_{n} - l\right| \leq \varepsilon$$
+Donc, 
+$$\left| \sum_{k =n_{0}+1}^{n}u_{k}\right| \leq (n-n_{0}) \varepsilon$$
+Donc
+$$\left| S_{n} \right|\leq \left| S_{n} - S_{n_{0}}\right| + \left| S_{n_{0}}\right| \leq (n-n_{0})\varepsilon + \left| S_{n_{0}}\right|$$
+ie : 
+$$\left| \frac{S_{n}}{n+1}\right| \leq \frac{n-n_{0}}{n+1}\varepsilon + \left| \frac{S_{n_{0}}}{n+1} \right|\leq \varepsilon + \frac{\left| S_{n_{0}}\right|}{n+1}$$
+
+Soit $n_{1} \in \mathbb{N}$, $\frac{\left| S_{n_{0}}\right|}{n+1} \leq \varepsilon$
+Alors, si $n\geq \max\{ n_{0}, n_{1} \}$, 
+$$\left| \frac{S_{n}}{n+1}\right| \underset{n \to +\infty}{\longrightarrow} 0 =l$$
+Si $l \in \mathbb{R}$, 
+$$\left| \frac{S_{n}}{n+1} - l\right| = \frac{1}{n+1}\left| \sum_{k = 0}^{n}(u_{k}-l)\right|$$
