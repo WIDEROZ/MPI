@@ -223,6 +223,11 @@ $$M = \begin{pmatrix}
 a&0 \\
 0&d
 \end{pmatrix}$$
+Donc, 
+$$MD = MP^{-1}$$
+
+
+
 
 
 
