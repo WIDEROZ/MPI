@@ -540,8 +540,25 @@ $$\left| S_{n} \right|\leq \left| S_{n} - S_{n_{0}}\right| + \left| S_{n_{0}}\ri
 ie : 
 $$\left| \frac{S_{n}}{n+1}\right| \leq \frac{n-n_{0}}{n+1}\varepsilon + \left| \frac{S_{n_{0}}}{n+1} \right|\leq \varepsilon + \frac{\left| S_{n_{0}}\right|}{n+1}$$
 
-Soit $n_{1} \in \mathbb{N}$, $\frac{\left| S_{n_{0}}\right|}{n+1} \leq \varepsilon$
+Soit $n_{1} \in \mathbb{N}$, $\frac{\left| S_{n_{0}}\right|}{n_{1}+1} \leq \varepsilon$
 Alors, si $n\geq \max\{ n_{0}, n_{1} \}$, 
 $$\left| \frac{S_{n}}{n+1}\right| \underset{n \to +\infty}{\longrightarrow} 0 =l$$
 Si $l \in \mathbb{R}$, 
-$$\left| \frac{S_{n}}{n+1} - l\right| = \frac{1}{n+1}\left| \sum_{k = 0}^{n}(u_{k}-l)\right|$$
+$$\left| \frac{S_{n}}{n+1} - l\right| = \frac{1}{n+1}\left| \sum_{k = 0}^{n}(u_{k}-l)\right| \underset{n \to +\infty}{\longrightarrow} 0$$
+D'après le premier cas. 
+
+#### Exercice
+Une suite récurrente à étudier : 
+$$\begin{cases}
+u_{0} \in \mathbb{R} \\
+\forall n \in \mathbb{N}, u_{n+1} = f(u_{nn}) \\
+f : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto f(x) = e^{ x }-1
+\end{cases}
+\end{cases}$$
+EXCAL 5
+$f$ est positive et nulle en $0$ car $\exp$ est convexe alors ses tangente sont en dessous de $f$ : 
+$$e^{ x } \geq e^{ 0 }(x-0)+e^{ 0 } = x+1$$
+
+Montons que si $u_{0} >0$, $()$
