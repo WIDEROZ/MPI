@@ -564,7 +564,7 @@ x \mapsto f(x) - x = e^{ x }-(1+x)
 EXCAL 5
 $f$ est positive et nulle en $0$ car $\exp$ est convexe alors ses tangente sont en dessous de $f$ : 
 $$e^{ x } \geq e^{ 0 }(x-0)+e^{ 0 } = x+1$$
-
+___
 Montons que si $u_{0} >0$, $(u_{n})$ croit vers $+ \infty$,
 Puisque : 
 $$f(\mathbb{R}) = ]f(0), \lim_{ x \to \infty } f(x)[ = ]0, + \infty[ = \mathbb{R}^{*}_{+}$$
@@ -576,7 +576,22 @@ D'après le théorème de la limite monotone, soit $(u_{n})$ CV, soit $u_{n} \un
 Or si elle CV vers un réel $l$, par croissance de $(u_{n})$ on aurait $l \geq u_{0} > 0$, Et on aurait en faisant tendre $n$ vers l'infini : 
 $$l = e^{ l }-1$$
 par continuité de $f$ ie $g(l) = 0$, ie $l= 0$, C'est absurde
-
+___
 Si $u_{0} = 0$, $\forall n \in \mathbb{N}, u_{n} =0$ car $f(0) = 0$, 
+___
+Si $u_{0} < 0$, d'après le truc encadré en haut $(u_{n})$ croit, 
+Comme : 
+$$f(\mathbb{R}_{-}^{*}) = ]\lim_{ x \to- \infty }f(x), f(0) [ = ]-1, 0[ \subset \mathbb{R}_{-}^{*}$$
+$\mathbb{R}_{-}^{*}$ est stable par $f$, comme $u_{0}\in \mathbb{R}_{-}^{*}$, $\forall n \in \mathbb{N}, u_{n} \in \mathbb{R}_{-}^{*}$, et $(u_{n})$ est majorée par $0$ 
+Ainsi elle CV par le théorème de la limite monotone vers un réel $l\leq 0$, ce réel est un point fixe de $f$ et comme $0$ est son seul point fixe : 
+$$u_{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+___
+Déterminons un équivalent de $(u_{n})$ pour cela : déterminons $\alpha \in \mathbb{R}$ tel que $(u_{n+1}^{\alpha}-u_{n}^{\alpha})_{n \in \mathbb{N}}$ CV vers un réel
 
-Si $u_{0} < 0$, d'après le truc encadré en 
+$$u_{n+1}^{\alpha}-u_{n}^{\alpha} = f(u_{n})^{\alpha} - u_{n}^{\alpha}  = (e^{ u_{n} }-1)^{\alpha} - u_{n}^{\alpha}$$
+Comme $u_{n} \underset{n \to +\infty}{\longrightarrow} 0$, 
+$$\left( 1+u_{n}+\frac{u_{n}^{2}}{2}+o(u_{n}^{2})-1 \right)^{\alpha} - u_{n}^{\alpha} =u_{n}^{\alpha} \left( \left( 1+\frac{u_{n}}{2} + o(u_{n}) \right)^{\alpha}-1 \right)$$
+Alors, 
+$$= u_{n}^{\alpha}\left( 1+\frac{\alpha u_{n}}{2}+ o(u_{n})-1 \right) = \frac{\alpha}{2}u_{n}^{\alpha+1} + o (u_{n}^{\alpha+1})$$
+Ainsi, 
+$\alpha = -1$
