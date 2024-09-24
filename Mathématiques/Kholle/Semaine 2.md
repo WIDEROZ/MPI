@@ -82,7 +82,7 @@ z'
 y' \\
 \frac{x'}{2}-\frac{z'}{2}  \\
 \frac{x'}{2}+\frac{z'}{2}
-\end{pmatrix} = (P^{-1}(X))'$$
+\end{pmatrix}$$
 
 Ainsi, en notant : 
 $$Y  = P^{-1}X = \begin{pmatrix}
@@ -94,6 +94,7 @@ u(t) \\
 v(t) \\
 w(t)
 \end{pmatrix}$$
+et 
 $$Y' = P^{-1}(X') = \begin{pmatrix}
 2y' \\
 x'-z' \\
@@ -134,6 +135,8 @@ $$\mathrm{rg}(f) = \begin{cases}
 \end{cases}$$
 
 ## 2.
+Si $v=0$, tout endo nul est déja diagonal, 
+Si $v \neq 0$, 
 $$M = Mat_{\beta}(f) = \begin{pmatrix}
 c_{1}&c_{1}&\dots&c_{1} \\
 \vdots&\vdots&&\vdots \\
@@ -141,9 +144,17 @@ c_{n}&c_{n}& \dots& c_{n}
 \end{pmatrix} \in \mathcal{M}_{n}(\mathbb{R})$$
 où
 $$v = \sum_{k = 1}^{n} c_{k}e_{k}$$
-
-
-
+Comme $\mathrm{rg}(f) = 1$, $\dim \mathrm{Ker}(f) = n-1$, Alors $0$ est valeur propre de $f$ et $E_{0}(f) = \mathrm{Ker}(f)$, donc, $\dim E_{0}(f) = n-1$, 
+Alors, il existe un $\lambda \in E$ tel que :
+$$\chi_{f}(X) = X^{n-1}(X-\lambda)$$
+Donc, $\lambda = \mathrm{Tr}(f)$, 
+Alors, comme $\mathrm{Tr}(f) = c_{1}+c_{2}+\dots+c_{n}$
+Si $\lambda = 0$ alors, $f$ n'est pas diagonalisable car
+$$\dim E_{0}(f) = n-1 \neq \dim E=n$$
+Si $\lambda \neq 0$, 
+$$\dim E_{\lambda}(f) + \dim E_{0}(f) = n$$
+car $\dim E_{\lambda}(f) = 1$, 
+Ainsi, $f$ est diagonalisable par un th du cours.
 
 
 
@@ -181,7 +192,7 @@ $$D = \begin{pmatrix}
 -4&-1 \\
 -1&1
 \end{pmatrix}$$
-
+___
 On pose : 
 $$M = \begin{pmatrix}
 a&b \\
