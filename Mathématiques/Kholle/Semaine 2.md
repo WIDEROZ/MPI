@@ -163,13 +163,44 @@ $$= (-1)^{n}\left((c_{1}-X)\left| \begin{array}{c}
 \vdots&&\ddots&\ddots&\ddots&0 \\
 \vdots&&&\ddots&\ddots&X \\
 0&\dots&\dots&\dots&0&-X
-\end{array}\right| -X \left| \begin{array}{c}
-
+\end{array}\right| \right.$$
+$$\left.-X \left| \begin{array}{c}
+c_{2}&X&0&\dots&\dots&0 \\
+c_{3}&-X&X&\ddots&&\vdots\\
+\vdots&0&\ddots&\ddots&\ddots&\vdots \\
+\vdots&\vdots&\ddots&\ddots&\ddots&0 \\
+\vdots&\vdots&&\ddots&\ddots&X \\
+c_{n}&0&\dots&\dots&0&-X
 \end{array}\right|\right)$$
-
-
-
-
+$$= (-1)^{n}((-1)^{n-1}(c_{1}-X)X^{n-1}-XA)$$
+Avec : 
+$$A = c_{2}\left| \begin{array}{c}
+-X&X&0&\dots&\dots&0 \\
+0&-X&X&\ddots&&\vdots\\
+\vdots&\ddots&\ddots&\ddots&\ddots&\vdots \\
+\vdots&&\ddots&\ddots&\ddots&0 \\
+\vdots&&&\ddots&\ddots&X \\
+0&\dots&\dots&\dots&0&-X
+\end{array}\right|$$
+$$ - X \left| \begin{array}{c}
+c_{3}&X&0&\dots&\dots&0 \\
+c_{4}&-X&X&\ddots&&\vdots\\
+\vdots&0&\ddots&\ddots&\ddots&\vdots \\
+\vdots&\vdots&\ddots&\ddots&\ddots&0 \\
+\vdots&\vdots&&\ddots&\ddots&X \\
+c_{n}&0&\dots&\dots&0&-X
+\end{array}\right|$$
+On remarque alors que : 
+$$\forall k \in [\![2, n-1]\!], \begin{array}{c}
+\left| \begin{array}{c}
+c_{k}&X&0&\dots&\dots&0 \\
+c_{k+1}&-X&X&\ddots&&\vdots\\
+\vdots&0&\ddots&\ddots&\ddots&\vdots \\
+\vdots&\vdots&\ddots&\ddots&\ddots&0 \\
+\vdots&\vdots&&\ddots&\ddots&X \\
+c_{n}&0&\dots&\dots&0&-X
+\end{array}\right|
+\end{array}$$
 
 
 # CCINP 73
