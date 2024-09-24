@@ -196,3 +196,9 @@ $$MD = \begin{pmatrix}
 \end{pmatrix}$$
 Alors, $b = c = 0$, 
 Alors, 
+$$M = \begin{pmatrix}
+a&0 \\
+0&d
+\end{pmatrix}$$
+On prend $M'$ semblable a $M$, 
+$$M' = Q^{-1}MQ$$
