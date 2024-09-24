@@ -154,7 +154,9 @@ c_{1}-X&X&0&\dots&0 \\
 c_{2}&-X&X&0&\dots \\
 c_{3}&0 & \ddots
 \end{array}\right|$$
-	
+
+
+
 # CCINP 73
 $$\chi_{A}(X) = \left| \begin{array}{c}
 X-2&1 \\
