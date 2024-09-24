@@ -231,9 +231,22 @@ a = 0 \Rightarrow \mathrm{rg}(A) = 1 \\
 \end{cases}$$
 
 ## 2.
-Pour que $A$ soit diagonalisable il faut que : 
-$$\chi_{A}(X) = \left| \begin{array}{c}
-X&-a&-1 \\
--a&X&-1 \\
--a&-1&X
+Pour que $A$ soit diagonalisable il faut que $\chi_{A}$ soit SRS
+$$\chi_{A}(X) = -\left| \begin{array}{c}
+-X&a&1 \\
+a&-X&1 \\
+a&1&-X
+\end{array}\right| = - \left| \begin{array}{c}
+-X&a&1 \\
+a&-X&1 \\
+0&1+X&-(1+X)
 \end{array}\right|$$
+$$\chi_{A}(X) = X(X(1+X) -(1+X)) + a(-a(1+X)-(1+X))$$
+$$\chi_{A}(X) = X(X-1)(X+1)-a(X+1)(a+1)$$
+$$ = (X+1)(X(X-1)-a(a+1))=(X+1)(X^{2}-X-a^{2}-a)$$
+
+il faut alors que le polynôme : $X^{2}-X-(a^{2}+a)$ admette deux racines réelles : 
+$$1+4(a^{2}+a)>0$$
+$$1+4a^{2}+4a$$
+ce polynome admet une racine double qui est : 
+$$r = -1$$
