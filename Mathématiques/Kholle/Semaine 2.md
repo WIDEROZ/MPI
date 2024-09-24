@@ -191,16 +191,23 @@ c_{4}&-X&X&\ddots&&\vdots\\
 c_{n}&0&\dots&\dots&0&-X
 \end{array}\right|$$
 On remarque alors que : 
-$$\forall k \in [\![2, n-1]\!], \begin{array}{c}
-\left| \begin{array}{c}
+$$ \begin{array}{rl}
+\forall k \in [\![2, n-1]\!],&A_{k} = \left| \begin{array}{c}
 c_{k}&X&0&\dots&\dots&0 \\
 c_{k+1}&-X&X&\ddots&&\vdots\\
 \vdots&0&\ddots&\ddots&\ddots&\vdots \\
 \vdots&\vdots&\ddots&\ddots&\ddots&0 \\
 \vdots&\vdots&&\ddots&\ddots&X \\
 c_{n}&0&\dots&\dots&0&-X
-\end{array}\right|
+\end{array}\right| \\
+&=c_{k} (-X)^{n-k}-XA_{k+1}
 \end{array}$$
+Ainsi, 
+$$A_{k} = c_{k}(-X)^{n-k} - X(c_{k+1}(-x)^{n-(k+1)}-X())$$
+
+
+
+
 
 
 # CCINP 73
