@@ -154,23 +154,18 @@ c_{1}-X&X&0&\dots&0 \\
 c_{2}&-X&X&0&\dots \\
 c_{3}&0 & \ddots
 \end{array}\right|$$
-$$= (-1)^{n} ((c_{1}-X)\left| \begin{array}{c}
+$$=(-1)^{n} ((c_{1}-X)\left| \begin{array}{c}
 -X&X&0&\dots \\
 0&-X&X&\dots
-\end{array}\right|- X\left|  \begin{array}{c}
-c_{2}&X&0&\dots \\
-c_{3}&0&X&0
+\end{array}\right| - c_{2}\left| \begin{array}{c}
+X&0&\dots&0\\
+-X&X&0&\vdots \\
+0&\ddots&\ddots&0 \\
+0&\dots&-X&X
+\end{array}\right|$$
+$$+c_{3}\left| \begin{array}{c}
+
 \end{array}\right|)$$
-$$(-1)^{n}((-1)^{n-1}(c_{1}-X)X^{n-1}- X(c_{2}\left| \begin{array}{c}
-0&X&0&\dots \\
-0&0&X&\dots
-\end{array}\right|- X\left| \begin{array}{c}
-c_{3}&X&0&\dots \\
-c_{4}&0&X
-\end{array}\right|))$$
-$$= (-1)^{n}((-1)^{n}(c_{1}-X)X^{n}+ (-1)^{n}X^{n})$$
-Alors, 
-$$\chi_{A}(X) = (c_{1}-X)X^{n}+X^{n} = X^{n}(c_{1}-X+1)$$
 
 
 # CCINP 73
