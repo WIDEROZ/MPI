@@ -328,3 +328,4 @@ leur espace est de dimension $2$, (a cause de $a$ et $b$)
 alors, on a : 
 $$I_{2} \in C(A) \text{ et } A \in C(A)$$
 ces matrices ne sont pas colinéaire alors $Vect(I_{2}, A)=C(A)$
+car $2=2$.
