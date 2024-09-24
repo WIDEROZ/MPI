@@ -203,6 +203,8 @@ $$D = \begin{pmatrix}
 \end{pmatrix} \text{ et }P = \begin{pmatrix}
 1&1 \\
 1&-4
+\end{pmatrix} \text{ et }P^{-1} =-\frac{1}{5}\begin{pmatrix}
+
 \end{pmatrix}$$
 
 On pose : 
@@ -225,7 +227,9 @@ a&0 \\
 \end{pmatrix}$$
 $$MA = AM \Leftrightarrow MPDP^{-1} = PDP^{-1}M \Leftrightarrow P^{-1}MPD = DP^{-1}MP$$
 
-$$\Leftrightarrow DP^{-1}MP$$
+$$\Leftrightarrow DP^{-1}MP = \begin{pmatrix}
+
+\end{pmatrix}MP$$
 
 
 
