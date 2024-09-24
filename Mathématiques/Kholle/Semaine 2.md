@@ -62,7 +62,7 @@ $$D = \begin{pmatrix}
 
 
 ## 2.
-Notons $X : t \in \mathbb{R}\mapsto \begin{pmatrix}x(t)\\ y(t)\\ z(t)\end{pmatrix}\mathcal{M}_{3, 1}(\mathbb{R})$, 
+Notons $X : t \in \mathbb{R}\mapsto \begin{pmatrix}x(t)\\ y(t)\\ z(t)\end{pmatrix}\in\mathcal{M}_{3, 1}(\mathbb{R})$, 
 Ainsi, 
 $$\begin{array}{rl}
 \left( \sum \right) &\Leftrightarrow X' = AX \\
@@ -118,10 +118,6 @@ u = ae^{ t } \\
 v = be^{ -t } \\
 w = c e^{ 3t }
 \end{cases}$$
-Alors, 
-$$$$
-
-
 ie $X = PY$ 
 Soit : 
 $$\begin{cases}
@@ -154,4 +150,49 @@ c_{n}&c_{n}&\dots&c_{n}-X
 $$= (-1)^{n} $$
 
 
-	
+# CCINP 73
+$$\chi_{A}(X) = \left| \begin{array}{c}
+X-2&1 \\
+4&X+1
+\end{array}\right| = (X-2)(X+1) - 4 = X^{2} -X-6$$
+$$\chi_{A}(X) = (X-3)(X+2)$$
+
+$$\begin{cases}
+E_{-2}(A) = \mathrm{Ker}\begin{pmatrix}
+4&1 \\
+4&1
+\end{pmatrix} = Vect\begin{pmatrix}
+1 \\
+-4
+\end{pmatrix} \\
+E_{3}(A) = \mathrm{Ker}\begin{pmatrix}
+-1&1 \\
+4&-4
+\end{pmatrix} = Vect\begin{pmatrix}
+1 \\
+1
+\end{pmatrix}
+\end{cases}$$
+On pose : 
+$$D = \begin{pmatrix}
+3&0 \\
+0&-2
+\end{pmatrix} \text{ et }P = \begin{pmatrix}
+1&1 \\
+1&-4
+\end{pmatrix}$$
+
+On pose : 
+$$M = \begin{pmatrix}
+a&b \\
+c&d
+\end{pmatrix}$$
+$$MD = \begin{pmatrix}
+3a&-2b \\
+3c&-2d
+\end{pmatrix} = DM = \begin{pmatrix}
+3a&3b \\
+-2c&-2d
+\end{pmatrix}$$
+Alors, $b = c = 0$, 
+Alors, 
