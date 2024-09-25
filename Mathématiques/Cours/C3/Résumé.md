@@ -35,8 +35,13 @@ Pour $f, g : X \to \mathbb{R}$ et $\alpha \in \mathbb{R}_{+}^{*}$,
 $$\sup(f+g) \leq \sup f + \sup g$$
 $$\sup(\alpha f) =  \alpha\sup f$$
 
-# Les normes
-
 #### Définition de la convexité
 Une partie $\mathcal{C}$ d'un ev est dite convexe lorsque : 
 $$\forall x, y \in \mathcal{C}, \forall t \in [0, 1], (1-t)x + ty \in \mathcal{C}$$
+$$\forall x, y \in \mathcal{C}, \forall t \in [0, 1], x + t(y-x) \in \mathcal{C}$$
+
+#### Définition des valeurs d'adhérence
+Soit $(u_{n})_{n \in \mathbb{N}}\in E^{\mathbb{N}}$ et $l \in E$, on dit que $l$ est une valeur d'adhérence de $u$ lorsque $l$ est la limite d'une suite extraite de $u$. 
+Ainsi, si $u_{n} \underset{n \to +\infty}{\longrightarrow} l$, $l$ est la seule valeur d'adhérence de $(u_{n})_{n \in \mathbb{N}}$, la réciproque est fausse car la suite :
+$$(u_{n})_{n\in \mathbb{N}} = (0, 1, 0, 2, 0, 3, \dots)$$
+DV et n'admet que $0$ comme valeur d'adhérence. 
