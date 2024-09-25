@@ -237,6 +237,11 @@ Ainsi,
 $$E_{m}(M_{2}) = mgz + \frac{1}{2}m\dot{z}^{2}$$
 Donc,
 $$E_{m} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}^{2}) +mgz + \frac{1}2 m\dot{z}^{2} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}+2gz + \dot{z}^{2})$$
-Or, $l = r-z$, et $r\sin(\theta)$ alors, 
+Or, $l = r-z$, et $r\sin(\theta) = z\Leftrightarrow \theta = \arcsin\left( \frac{z}{r} \right) = \arcsin\left( \frac{1}{\frac{l}{z}+1} \right)$ alors,
+$$\dot{\theta} = -\frac{1-\frac{l}{z^{2}}}{\left( \frac{l}{z}+1 \right)^{2}}\frac{1}{\sqrt{ 1- \frac{1}{\left( \frac{l}{z}+1 \right)^{2}} }} = \frac{\frac{l}{z^{2}}-1}{\frac{l}{z}+1}\left( \frac{1}{\sqrt{ \left( \frac{l}{z}+1 \right)^{2}-1 }} \right)$$
+
+
+
+
 $$E_{m} = \frac{1}{2}m(\dot{z}^{2}+\dot{z}^{2}+(l+z)^{2}\dot{\theta}+2gz) $$
 $$= \frac{1}{2}m(2\dot{z}^{2} + \dot{\theta}(l^{2} + 2lz+z^{2})+2gz)$$
