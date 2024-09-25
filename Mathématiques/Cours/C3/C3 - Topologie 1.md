@@ -1,7 +1,7 @@
 # I. Rappels sur la borne supérieure
 Soit $A$ une partie non vide de $\mathbb{R}$
 
-#### Définition
+#### Définitions
 $$A \text{ est majorée} \Leftrightarrow \exists M \in \mathbb{R}, \forall a \in A, a \leq M$$
 $M$ est un majorant de $A$
 
@@ -32,7 +32,7 @@ Si $X$ est un ensemble non vide et $f:X \to \mathbb{R}$ on dit que $f$ est major
 $$\sup(f) = \sup \{ f(x) ; x \in R \}$$
 Si $A$ n'est pas majoré, on note : $\sup A = + \infty$
 
-### Propriétés de $\sup A$
+#### Propriétés de $\sup A$
 Si $A$ est une patrie non vide de $\mathbb{R}$, 
 Soit $\alpha \in \mathbb{R}$, 
 ___
@@ -64,7 +64,7 @@ indépendant de $x$
 Donc, 
 $$\sup(f+g) \leq \sup(f) + \sup(g)$$
 D'après : 
-$$\forall x \in X, (\alpha f)(x) = \alpha xf(x)\leq \alpha \sup f$$
+$$\forall x \in X, (\alpha f)(x) = \alpha f(x)\leq \alpha \sup f$$
 Donc, 
 $$\sup(\alpha f) \leq \alpha \sup f$$
 de plus en remplaçant $f$ par $\alpha f$ et $\alpha$ par $\frac{1}{\alpha}$ 
