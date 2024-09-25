@@ -219,3 +219,12 @@ $$t = \frac{x}{v_{0}\cos(\theta_{0})}$$
 Alors, 
 $$y = x\tan(\theta_{0}) -\frac{gx^{2}}{2v^{2}_{0}\cos ^{2}(\theta_{0})}$$
 C'est une parabole.
+
+# Exercice 4
+## 1.
+On prend les coordonnées sphériques
+
+## 2.
+$z = 0$ pour le plan. 
+$$E_{m}(M_{1}) = \frac{1}{2}mv_{M_{1}}^{2}$$
+or $v_{M_{1}} = $
