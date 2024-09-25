@@ -235,9 +235,9 @@ Si $x \in \Omega$, alors $d(x, \Omega) = 0$
 
 #### Définition
 Soit $(E, \left|\left| \cdot \right|\right|)$, un $\mathbb{K}$-evn, $x_{0} \in E$, et $r \in \mathbb{R}_{+}$, on note : 
-$$\overline B(x_{0}, r) = \{ x \in E ; \left|\left| x-x_{0} \right|\right|\leq R  \}$$
-$$ B(x_{0}, r) = \{ x \in E ; \left|\left| x-x_{0} \right|\right|< R  \}$$
-$$S =\{ x \in E ; \left|\left| x-x_{0} \right|\right|= R  \}$$
+$$\overline B(x_{0}, r) = \{ x \in E ; \left|\left| x-x_{0} \right|\right|\leq r \}$$
+$$ B(x_{0}, r) = \{ x \in E ; \left|\left| x-x_{0} \right|\right|< r \}$$
+$$S(x_{0}, r) =\{ x \in E ; \left|\left| x-x_{0} \right|\right|= r \}$$
 
 #### Exemple
 Dans $\mathbb{R}^{2}$, avec $\left|\left| \cdot \right|\right|_{2}$, $\overline{B}\left(\begin{pmatrix}0\\0\end{pmatrix}, 1\right)$ EXCAL 1

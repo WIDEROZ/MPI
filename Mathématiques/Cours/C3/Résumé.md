@@ -36,3 +36,7 @@ $$\sup(f+g) \leq \sup f + \sup g$$
 $$\sup(\alpha f) =  \alpha\sup f$$
 
 # Les normes
+
+#### Définition de la convexité
+Une partie $\mathcal{C}$ d'un ev est dite convexe lorsque : 
+$$\forall x, y \in \mathcal{C}, \forall t \in [0, 1], (1-t)x + ty \in \mathcal{C}$$
