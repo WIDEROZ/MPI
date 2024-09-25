@@ -190,3 +190,9 @@ et
 $$f(y_{n}) = -1 \underset{n \to +\infty}{\longrightarrow} -1 \neq 1$$
 
 #### Propriété
+Si $(u_{1}, \dots, u_{n})$ est une base de $F$ et : 
+$$f : \begin{cases}
+I \to F \\
+x \mapsto f(x) = \sum_{k = 0}^{n}f_{k}(x).u_{k}
+\end{cases}$$
+$$\forall a \in I, \forall l = \sum_{k = 0}^{n}l_{k}u_{k} \in F, f(x) \underset{x \to a}{\longrightarrow} l \Leftrightarrow \forall k \in [\![1, n]\!], f_{k}(x) \underset{x \to a}{\longrightarrow} l_{k}$$
