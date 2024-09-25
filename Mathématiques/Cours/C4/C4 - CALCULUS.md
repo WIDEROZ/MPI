@@ -65,3 +65,8 @@ En effet, $10^{n}x-1 \leq \left\lfloor 10^{n}x \right\rfloor\leq 10^{n}x$
 Donc, 
 $$x -10^{-n}\leq  \frac{\left\lfloor 10^{n}x \right\rfloor}{10^{n}} \leq x$$
 Avec th d'encadrement. 
+
+## 2. Limite d'une fonction
+#### Définition
+Soit $a \in E$, et $V\subset F$. On dit que $V$ est un voisinage de $a$ lorsque : 
+$$\exists r > 0, $$
