@@ -227,4 +227,13 @@ On prend les coordonnées sphériques
 ## 2.
 $z = 0$ pour le plan. 
 $$E_{m}(M_{1}) = \frac{1}{2}mv_{M_{1}}^{2}$$
-or $v_{M_{1}} = $
+or $\vec{v}_{M_{1}} = \dot{r}\vec{e}_{r} + r\dot{\theta}\vec{e}_{\theta}$
+Alors, 
+$$E_{m}(M_{1}) = \frac{1}{2}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2})$$
+puis : 
+$$E_{m}(M_{2}) = mgz + \frac{1}{2}mv_{M_{2}}^{2}$$
+avec : $\vec{v}_{M_{1}} = \dot{z}\vec{e}_{z}$, 
+Ainsi, 
+$$E_{m}(M_{2}) = mgz + \frac{1}{2}mg\dot{z}^{2}$$
+Or $l = r-z$, alors, 
+$$E_{m} = \frac{1}{2}m(\dot{r}+r^{2}\dot{\theta}^{2}) +mgz + \frac{1}2 mg\dot{z}^{2} = $$
