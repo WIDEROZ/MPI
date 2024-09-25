@@ -166,4 +166,27 @@ $$f(u_{n}) \underset{n \to +\infty}{\longrightarrow} l$$
 
 $\Leftarrow$ : 
 $$\exists \varepsilon >0, \forall \alpha >0, \exists x \in I, \left|\left| x-a \right|\right| \leq \alpha \text{ et }\left|\left| f(x)- l \right|\right| > \varepsilon$$
-Soit $n \in \mathbb{N}^{*}$, On pose : $\alpha = \frac{1}{n}$
+Soit $n \in \mathbb{N}^{*}$, On pose : $\alpha = \frac{1}{n}$, 
+$$\exists u_{n} \in I, \left|\left| u_{n} -a \right|\right| < \frac{1}{n} \text{ et } \left|\left| f(u_{n})+l \right|\right| > \varepsilon$$
+Ainsi, 
+$$\exists (u_{n})_{n \in \mathbb{N}} \in I^{\mathbb{N}}, u_{n} \underset{n \to +\infty}{\longrightarrow}  a \text{ et }f(u_{n}) \underset{n \to +\infty}{\not\longrightarrow} l$$
+
+#### Exemple
+$$f : \begin{cases}
+\mathbb{R}_{+}^{+} \to \mathbb{R} \\
+x \mapsto \sin\left( \frac{1}{x} \right)
+\end{cases}$$
+est n'admet aucune limite en $0^{+}$ car : 
+Posons : 
+$$x_{n} = \frac{1}{\frac{\pi}{2} + 2n\pi} \underset{n \to +\infty}{\longrightarrow} 0$$
+Alors, 
+$$f(x_{n})= 1 \underset{n \to +\infty}{\longrightarrow} 1$$
+De même : 
+Posons : 
+$$y_{n} = \frac{1}{-\frac{\pi}{2} +2n\pi}$$
+Alors, 
+$$y_{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+et 
+$$f(y_{n}) = -1 \underset{n \to +\infty}{\longrightarrow} -1 \neq 1$$
+
+#### Propriété
