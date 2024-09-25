@@ -474,6 +474,7 @@ $N$ ne domine pas $\left|\left| \cdot \right|\right|$
 ssi 
 $$\exists (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \frac{\left|\left| x_{n} \right|\right|}{N(x_{n})} \underset{n \to +\infty}{\longrightarrow} + \infty$$
 Démonstration :
+$\Rightarrow$ :
 Par hypothèse : 
 $$NON(\exists n \in \mathbb{R}, \forall x \in E, \left|\left| x \right|\right| \leq n N(x))$$
 ie : 

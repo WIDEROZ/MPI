@@ -45,3 +45,29 @@ Soit $(u_{n})_{n \in \mathbb{N}}\in E^{\mathbb{N}}$ et $l \in E$, on dit que $l$
 Ainsi, si $u_{n} \underset{n \to +\infty}{\longrightarrow} l$, $l$ est la seule valeur d'adhérence de $(u_{n})_{n \in \mathbb{N}}$, la réciproque est fausse car la suite :
 $$(u_{n})_{n\in \mathbb{N}} = (0, 1, 0, 2, 0, 3, \dots)$$
 DV et n'admet que $0$ comme valeur d'adhérence. 
+
+# Les normes
+#### Définition
+Soient $\left|\left| \cdot \right|\right|$ et $N$, deux normes sur $E$,
+On dit que $N$ domine : $\left|\left| \cdot \right|\right|$ lorsque : 
+$$\exists \alpha > 0, \forall x \in E, \left|\left| x \right|\right| \leq \alpha N(x)$$
+On dit que $N$ et $\left|\left| \cdot \right|\right|$ sont équivalentes lorsque : $N$ domine $\left|\left| \cdot \right|\right|$ et $\left|\left| \cdot \right|\right|$ domine $N$ ie : 
+$$\exists \alpha, \beta >0, \forall x \in E, \alpha \left|\left| x \right|\right| \leq N(x) \leq \beta \left|\left| x \right|\right| $$
+
+#### Proposition
+$N$ ne domine pas $\left|\left| \cdot \right|\right|$ 
+ssi 
+$$\exists (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \frac{\left|\left| x_{n} \right|\right|}{N(x_{n})} \underset{n \to +\infty}{\longrightarrow} + \infty$$
+
+#### Théorème
+$N$ et $\left|\left| \cdot \right|\right|$, sont équivalents ssi : 
+$$\forall (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \left|\left| x_{n} \right|\right| \underset{n \to +\infty}{\longrightarrow} 0\Leftrightarrow N(x_{n}) \underset{n \to +\infty}{\longrightarrow} 0$$
+
+#### Théorème
+Si $E$ est un espace vectoriel de dimension finie et $\left|\left| \cdot \right|\right|$ et $N$ sont deux normes de $E$ alors elles sont équivalentes. 
+
+#### Lemme de Cesàro
+Soit $(u_{n})_{n \in \mathbb{N}} \in \mathbb{R}^{\mathbb{N}}$, 
+Si $u_{n}\underset{n \to +\infty}{\longrightarrow} l \in \mathbb{R} \cup \{ + \infty, - \infty \}$
+Alors, 
+$$\frac{1}{n+1}\sum_{k=0}^{n}u_{k} \underset{n \to +\infty}{\longrightarrow} l$$
