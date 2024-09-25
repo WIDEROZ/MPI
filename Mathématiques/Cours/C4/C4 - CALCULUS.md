@@ -85,3 +85,22 @@ mais pas de $\begin{pmatrix}1\\0\end{pmatrix}$
 #### Définition
 Soit $I\subset E$, et $f : I\to F$, soit $a \in \bar{I}$, et $l \in F$. On dit que $f$ tend vers $l$ en $a$ et on note : $f(x)\underset{x \to a}{\longrightarrow}l$ lorsque : 
 $$\forall \varepsilon >0, \exists \alpha>0, \forall x \in I, \left|\left| x-a \right|\right| \leq \alpha\Rightarrow \left|\left| f(x)-l \right|\right| \leq \varepsilon$$
+
+#### Remarque
+$$\forall \varepsilon > 0, \exists \alpha > 0, \forall x \in I, \left|\left| x \right|\right| < \alpha \Rightarrow \left|\left| f(x)-l \right|\right| \leq \varepsilon$$
+
+#### Propriété : unicité
+$$\forall l_{1}, l_{2} \in F, \begin{rcases}
+f(x) \underset{x \to a}{\longrightarrow} l_{1} \\
+f(x) \underset{x \to a}{\longrightarrow} l_{2}
+\end{rcases} \Rightarrow l_{1} = l_{2}$$
+
+Démonstration : 
+Raisonnons par l'absurde : 
+Si $l_{1} \neq l_{2}$, 
+Alors, 
+$$\left|\left| l_{1} - l_{2} \right|\right| >$$
+#### Propriété
+Si $f$ admet une limite finie, alors $f$ est bornée au voisinage de $a$ ie : 
+$$\exists M \in \mathbb{R}, \exists r > 0, \forall x \in I, \left|\left| x-a \right|\right| \leq r \Rightarrow\left|\left| f(x) \right|\right| \leq M$$
+
