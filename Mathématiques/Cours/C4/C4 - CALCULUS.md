@@ -67,6 +67,21 @@ $$x -10^{-n}\leq  \frac{\left\lfloor 10^{n}x \right\rfloor}{10^{n}} \leq x$$
 Avec th d'encadrement. 
 
 ## 2. Limite d'une fonction
+Soient : $(E, \left|\left| \cdot \right|\right|)$, $(F, \left|\left| \cdot \right|\right|)$, 
 #### Définition
 Soit $a \in E$, et $V\subset F$. On dit que $V$ est un voisinage de $a$ lorsque : 
-$$\exists r > 0, $$
+$$\exists r > 0, B(a, r) \subset V$$
+
+
+#### Exemple
+Dans $(\mathbb{R}^{2}, \left|\left| \cdot \right|\right|_{2})$,
+$$\bar{B} = \left.\left\{  \begin{pmatrix}
+x \\
+y
+\end{pmatrix} \in \mathbb{R}^{2}  \right| x^{2}+y^{2} \leq 1 \right\}$$
+est un voisinage de $\begin{pmatrix} \frac{1}{2}\\ \frac{1}{2}\end{pmatrix}$
+mais pas de $\begin{pmatrix}1\\0\end{pmatrix}$
+
+#### Définition
+Soit $I\subset E$, et $f : I\to F$, soit $a \in \bar{I}$, et $l \in F$. On dit que $f$ tend vers $l$ en $a$ et on note : $f(x)\underset{x \to a}{\longrightarrow}l$ lorsque : 
+$$\forall \varepsilon >0, \exists \alpha>0, \forall x \in I, \left|\left| x-a \right|\right| \leq \alpha\Rightarrow \left|\left| f(x)-l \right|\right| \leq \varepsilon$$
