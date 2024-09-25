@@ -99,8 +99,40 @@ Démonstration :
 Raisonnons par l'absurde : 
 Si $l_{1} \neq l_{2}$, 
 Alors, 
-$$\left|\left| l_{1} - l_{2} \right|\right| >$$
+$$\left|\left| l_{1} - l_{2} \right|\right| > 0$$
+Alors, 
+$$\exists \alpha_{1} > 0, \forall x \in I, \left|\left| x-a \right|\right| \leq \alpha_{1} \Rightarrow \left|\left| f(x)-l_{1} \right|\right| \leq \varepsilon$$
+$$\exists \alpha_{2} > 0, \forall x \in I, \left|\left| x-a \right|\right| \leq \alpha_{2} \Rightarrow \left|\left| f(x)-l_{2} \right|\right| \leq \varepsilon$$
+Soit $x_{0} \in I$, tel que $\left|\left| x_{0}-a \right|\right|\leq \min\{ \alpha_{1}, \alpha_{2} \}$
+Alors, 
+$$\begin{cases}
+\left|\left| f(x_{0})-l_{1} \right|\right| \leq \varepsilon \\
+\left|\left| f(x_{0})-l_{2} \right|\right| \leq \varepsilon
+\end{cases}$$
+Donc, 
+$$0< \left|\left| l_{1}-l_{2} \right|\right| \leq \left|\left| l_{1}-f(x_{0}) \right|\right| + \left|\left| l_{2}-f(x_{0}) \right|\right| \leq 2 \varepsilon = \frac{\left|\left| l_{1}-l_{2} \right|\right|}{2}$$
+
+ABSURDE
+
+
 #### Propriété
 Si $f$ admet une limite finie, alors $f$ est bornée au voisinage de $a$ ie : 
 $$\exists M \in \mathbb{R}, \exists r > 0, \forall x \in I, \left|\left| x-a \right|\right| \leq r \Rightarrow\left|\left| f(x) \right|\right| \leq M$$
 
+Démonstration : 
+Posons $\varepsilon = 1$, 
+$$\exists x > 0, \forall x\in I, \left|\left| x-a \right|\right| < \alpha \Rightarrow \left|\left| f(x) -l\right|\right|\leq 1 $$
+Donc, 
+$$\left|\left| f(x) \right|\right| \leq \left|\left| l \right|\right| + \left|\left| f(x)-l \right|\right| \leq \left|\left| l \right|\right| +1 = M$$
+en posant $M = \left|\left| l \right|\right|+1$
+
+#### Exemple
+Soient $f, g \in \mathbb{R}$, 
+Si 
+$$\begin{cases}
+f >0 \text{ sur un voisinage de }0 \\
+f(x) \underset{x \to 0}{\sim}g(x)
+\end{cases}$$
+Alors, $g >0$ sur un voisinage de $0$
+Posons $\varepsilon = \frac{1}{2}$, il existe un $\alpha >0$, tel que : 
+soit $x \in ][$
