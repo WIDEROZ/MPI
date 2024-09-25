@@ -232,8 +232,11 @@ Alors,
 $$E_{m}(M_{1}) = \frac{1}{2}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2})$$
 puis : 
 $$E_{m}(M_{2}) = mgz + \frac{1}{2}mv_{M_{2}}^{2}$$
-avec : $\vec{v}_{M_{1}} = \dot{z}\vec{e}_{z}$, 
+avec : $\vec{v}_{M_{1}} = -\dot{z}\vec{e}_{z}$, 
 Ainsi, 
-$$E_{m}(M_{2}) = mgz + \frac{1}{2}mg\dot{z}^{2}$$
-Or $l = r-z$, alors, 
-$$E_{m} = \frac{1}{2}m(\dot{r}+r^{2}\dot{\theta}^{2}) +mgz + \frac{1}2 mg\dot{z}^{2} = $$
+$$E_{m}(M_{2}) = mgz + \frac{1}{2}m\dot{z}^{2}$$
+Donc,
+$$E_{m} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}^{2}) +mgz + \frac{1}2 m\dot{z}^{2} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}+2gz + \dot{z}^{2})$$
+Or, $l = r-z$, et $r\sin(\theta)$ alors, 
+$$E_{m} = \frac{1}{2}m(\dot{z}^{2}+\dot{z}^{2}+(l+z)^{2}\dot{\theta}+2gz) $$
+$$= \frac{1}{2}m(2\dot{z}^{2} + \dot{\theta}(l^{2} + 2lz+z^{2})+2gz)$$
