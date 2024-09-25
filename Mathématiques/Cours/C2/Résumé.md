@@ -35,7 +35,9 @@ Si $\dim E = n$ et $f \in \mathcal{L}(E)$,
 
 #### Propriété
 Soit $\lambda \in Sp(f)$,
-$$1 \leq \dim E_{\lambda}(f) \leq Mult(f) \leq \dim (E)$$
+$$1 \leq \dim E_{\lambda}(f) \leq Mult(\lambda) \leq \dim (E)$$
+
+#### Propriété
 Si $\chi_{f}$ est SRS dans $\mathbb{K}[X]$ alors $f$ est DZ.
 
 #### Théorème
