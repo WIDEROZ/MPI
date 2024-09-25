@@ -134,5 +134,36 @@ f >0 \text{ sur un voisinage de }0 \\
 f(x) \underset{x \to 0}{\sim}g(x)
 \end{cases}$$
 Alors, $g >0$ sur un voisinage de $0$
+
+dÉMONSTRATIOBN : 
 Posons $\varepsilon = \frac{1}{2}$, il existe un $\alpha >0$, tel que : 
-soit $x \in ][$
+soit $x \in ]-\alpha, \alpha[$, 
+$$f(x)>0 \text{ et } \left| \frac{g(x)}{f(x)}-1\right|< \frac{1}{2}$$
+ie 
+$$1-\frac{1}{2}< \frac{g(x)}{f(x)} < 1+\frac{1}{2}$$
+Donc, 
+$$\frac{g(x)}{f(x)}>0$$
+Donc, 
+$$g(x) = \frac{g(x)}{f(x)}f(x) >0$$
+
+#### Proposition : Caractérisation séquentielle
+Soit $I \subset E$, $f: I\to F$, $a \in \bar{I}$ et $l \in F$, 
+Ces propositions sont équivalentes : 
+$$\begin{array}{l}
+f(x) \underset{x \to a}{\longrightarrow} l \\
+\forall (u_{n})_{n \in \mathbb{N}} \in I^{\mathbb{N}}, u_{n} \underset{n \to +\infty}{\longrightarrow} a\Rightarrow f(u_{n}) \underset{n \to +\infty}{\longrightarrow} l
+\end{array}$$
+
+Démonstration : 
+$\Rightarrow$ : 
+Soit $(u_{n})_{n \in \mathbb{N}} \in I^{\mathbb{N}}$ tedant vers $a$.
+Soit $\varepsilon >0$, puisque ; $f(x) \underset{x \to a}{\longrightarrow}l$
+$$\exists \alpha >0, \forall x \in I, \left|\left| x-a \right|\right|\leq \alpha \Rightarrow \left|\left| f(x)-l \right|\right| \leq \varepsilon $$
+Comme $u_{n} \underset{n \to +\infty}{\longrightarrow} a$, 
+$$\exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow \left|\left| u_{n} - a \right|\right|\leq \alpha \Rightarrow \left|\left| f(u_{n})-l \right|\right| \leq \varepsilon $$
+ie 
+$$f(u_{n}) \underset{n \to +\infty}{\longrightarrow} l$$
+
+$\Leftarrow$ : 
+$$\exists \varepsilon >0, \forall \alpha >0, \exists x \in I, \left|\left| x-a \right|\right| \leq \alpha \text{ et }\left|\left| f(x)- l \right|\right| > \varepsilon$$
+Soit $n \in \mathbb{N}^{*}$, On pose : $\alpha = \frac{1}{n}$
