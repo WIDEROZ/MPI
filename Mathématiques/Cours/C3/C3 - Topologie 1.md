@@ -8,7 +8,7 @@ $M$ est un majorant de $A$
 Soit $m \in \mathbb{R}$, 
 On dit que $m$ est le maximum de $A$ lorsque : 
 $$\begin{cases}
-a \in A \\
+m \in A \\
 m \text{ est un majorant de }A
 \end{cases}$$
 Certaines parties majorées de $\mathbb{R}$ n'admettent pas de maximum par exemple $]0, 1[$
