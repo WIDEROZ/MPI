@@ -269,5 +269,25 @@ $$f(a) = l$$
 
 #### Propriété
 Si $f$ est continue en $a \in I$, elle est bornée sur un voisinage de $a$
-Si $f, g : I\to F$ sont continues en $a$ (resp sur $I$), $\forall \alpha \in \mathbb{K}$, $\alpha f + g$ l'est aussi ie :
-$$\mathcal{C}^{0}(I, F) \underset{sev}{\subset}\mathcal{F}()$$
+
+Si $f, g : I\to F$ sont continues en $a$ (resp sur $I$),
+$\forall \alpha \in \mathbb{K}$, $\alpha f + g$ l'est aussi ie :
+$$\mathcal{C}^{0}(I, F) \underset{sev}{\subset}\mathcal{F}(I, F)$$
+
+Si $f: I \to \mathbb{C}$ est continue en $a$ et $f(a) \neq 0$, alors $f$ ne s'annule pas sur un voisinage de $0$ et $\frac{1}{f}$ est continue en $a$.
+
+Si $f : I \to F$ et $\lambda : I \to \mathbb{K}$ est continue en $a$ alors, $\lambda f : I \to F$ l'est aussi 
+
+Soit $I \subset E$, $J \subset F$, $G$, $a \in I$, $f : I \to J$, $g : J \to G$
+Si $f$ est continue en $a$ et $g$ est continue en $f(a)$ alors $g \circ f$ est continue en $a$
+
+Caractérisation séquentielle de la continuité : 
+$f : I \to F$ est continue en $a \in I$ 
+ssi
+$$x_{n} \underset{n \to +\infty}{\longrightarrow} a \Rightarrow f(x_{n}) \underset{n \to +\infty}{\longrightarrow} f(a)$$
+
+#### Définition
+$f : I \to F$, est dite Lipschitzienne lorsqu'il existe $M>0$ tel que : 
+$$\forall x, y \in I, \left|\left| f(x)-f(y) \right|\right| \leq M \left|\left| x-y \right|\right| $$
+(on la dit $M$ Lipschitzienne)
+
