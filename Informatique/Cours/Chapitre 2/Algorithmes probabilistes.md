@@ -13,3 +13,10 @@ Tant que $T_{1}$ non-trié :
 	echange$(T_{1}, i_{1}, i_{2})$
 Renvoyer $T_{1}$
 
+#### Exemple 5
+Soit $T$ le nombre d'itération de boucle
+On note : $p=\frac{1}{n}$, alors 
+$$\mathcal{P}(T = k) = (1-p)^{k-1}\times p = \left( 1-\frac{1}{n} \right)^{k-1}\times \frac{1}{n}$$
+
+#### Définition 7
+Soit $X$ une variable aléatoire d
