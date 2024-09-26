@@ -245,3 +245,29 @@ $$\begin{cases}
 \exists \beta >0, \forall x \in I, \left|\left| x-a \right|\right| \leq \beta \Rightarrow\left|\left| f(x)-b \right|\right| \leq \alpha
 \end{cases} $$
 $$\Rightarrow \left|\left| g(f(x))-c \right|\right| \leq \varepsilon$$
+
+## 3. Continuité
+#### Définition
+Soit $I \subset E$, et $f : I \to F$
+Pour tout $a \in I$, on dit que $f$ est continue en $a$ lorsque : 
+$$f(x) \underset{x \to a}{\longrightarrow} f(a)$$
+$f$ est dite continue sur $I$ lorsque : 
+$$\forall a \in I, f \text{ est continue en }a$$
+On note $\mathcal{C}^{0}(I, F)$ l'ensemble des fonctions continues sur $I$
+
+#### Remarque
+$$f \text{ est continue en }a \Leftrightarrow f \text{ admet une limite finie en }a$$
+
+Démonstration : $\Rightarrow$ : ez
+$\Leftarrow$ : 
+Soit $\varepsilon >0$,
+$$\exists \alpha >0, \forall x \in I, \left|\left| x-a \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-l \right|\right| <\varepsilon$$
+Comme $\left|\left| a-a \right|\right|\leq \alpha$, 
+$$\left|\left| f(a)-l \right|\right| < \varepsilon$$
+Donc, 
+$$f(a) = l$$
+
+#### Propriété
+Si $f$ est continue en $a \in I$, elle est bornée sur un voisinage de $a$
+Si $f, g : I\to F$ sont continues en $a$ (resp sur $I$), $\forall \alpha \in \mathbb{K}$, $\alpha f + g$ l'est aussi ie :
+$$\mathcal{C}^{0}(I, F) \underset{sev}{\subset}\mathcal{F}()$$
