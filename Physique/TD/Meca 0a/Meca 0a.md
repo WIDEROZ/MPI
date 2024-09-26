@@ -238,8 +238,8 @@ $$E_{m}(M_{2}) = mgz + \frac{1}{2}m\dot{z}^{2}$$
 Donc,
 $$E_{m} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}^{2}) +mgz + \frac{1}2 m\dot{z}^{2} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}+2gz + \dot{z}^{2})$$
 Or, $l = r-z$, et $r\sin(\theta) = z\Leftrightarrow \theta = \arcsin\left( \frac{z}{r} \right) = \arcsin\left( 1-\frac{l}{r}\right)$ alors,
-$$\dot{\theta} = \dot{r}\frac{l}{r^{2}}\frac{1}{\sqrt{ 1- \left( 1-\frac{l}{r} \right)^{2} }} = \frac{\dot{r}}{r}\frac{1}{\sqrt{ r^{2} - (r-l)^{2} }} = \frac{\dot{r}}{z} \frac{1}{\sqrt{ l^{2}-2rl }}$$
+$$\dot{\theta} = \dot{r}\frac{l}{r^{2}}\frac{1}{\sqrt{ 1- \left( 1-\frac{l}{r} \right)^{2} }} = \frac{\dot{r}}{r}\frac{1}{\sqrt{ r^{2} - (r-l)^{2} }} = \frac{\dot{r}}{r} \frac{1}{\sqrt{ l^{2}-2rl }}$$
 
 
-$$E_{m} = \frac{1}{2}m(\dot{z}^{2}+\dot{z}^{2}+(l+z)^{2}\dot{\theta}+2gz) $$
-$$= \frac{1}{2}m(2\dot{z}^{2} + \dot{\theta}(l^{2} + 2lz+z^{2})+2gz)$$
+$$E_{m} = \frac{1}{2}m(\dot{r}^{2}+\dot{r}^{2}+r^{2}\dot{\theta}+2g(r-l)) $$
+$$= m\left( \dot{r}^{2} + \frac{\dot{r}r}{2\sqrt{ l^{2}-2lr }}+g(r-l) \right)$$
