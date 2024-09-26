@@ -307,3 +307,13 @@ x \mapsto d(x, I) = \inf\{ \left|\left| x-a \right|\right| ; a \in I \}
 est $1$-Lipschitzienne 
 
 Démonstration : 
+Soit $x, y \in E$, 
+$$\forall a \in I, d(x, I) \leq \left|\left| x-a \right|\right| \leq \left|\left| x-y \right|\right| +\left|\left| y-a \right|\right| $$
+ie la borne inférieur d'un ensemble est l'un de ses minorants (avec en épice un peu d'inégalité triangulaire)
+Donc, 
+$$\forall a \in I, f(x) - \left|\left| x-y \right|\right|\leq \left|\left| y-a \right|\right| $$
+
+comme $\inf$ est le plus grand de tous les minorants, 
+$$f(x)-\left|\left| x-y \right|\right| \leq \inf\{ \left|\left| y-a \right|\right| ; a \in I \}= f(y)$$
+Donc, 
+$$f(x)-f(y) \leq \left|\left| x-y \right|\right| = \left|\left|  \right|\right|  $$
