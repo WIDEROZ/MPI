@@ -291,3 +291,8 @@ $f : I \to F$, est dite Lipschitzienne lorsqu'il existe $M>0$ tel que :
 $$\forall x, y \in I, \left|\left| f(x)-f(y) \right|\right| \leq M \left|\left| x-y \right|\right| $$
 (on la dit $M$ Lipschitzienne)
 
+#### Propriété
+Si $f$ est Lipschitzienne, elle est continue
+
+Démonstration : 
+Soient $x, y \in I$, supposons qu'il existe $M >0$ tel que 
