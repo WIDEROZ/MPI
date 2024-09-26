@@ -247,6 +247,7 @@ Ainsi,
 $$E_{m}(M_{2}) = mgz + \frac{1}{2}m\dot{z}^{2}-Tdz$$
 Donc, comme $dr = dz$ car $dl = 0$, 
 $$E_{m} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}^{2}) +mgz + \frac{1}2 m\dot{z}^{2} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}+2gz + \dot{z}^{2})$$
+Oula c chaud la suite je te conseille pas de lire :
 Or, $l = r-z$, et $r\sin(\theta) = z\Leftrightarrow \theta = \arcsin\left( \frac{z}{r} \right) = \arcsin\left( 1-\frac{l}{r}\right)$ alors,
 $$\dot{\theta} = \dot{r}\frac{l}{r^{2}}\frac{1}{\sqrt{ 1- \left( 1-\frac{l}{r} \right)^{2} }} = \frac{\dot{r}l}{r}\frac{1}{\sqrt{ r^{2} - (r-l)^{2} }} = \frac{\dot{r}l}{r} \frac{1}{\sqrt{ l^{2}-2rl }}$$
 
@@ -267,4 +268,5 @@ $$\overrightarrow{L_{1, 0}} = O\overrightarrow{M_{1}} \wedge m_{1} \vec{v_{1}}=m
 Donc, 
 $$r^{2}\dot{\theta} = Cte = \frac{L_{1, O}}{m_{1}}$$
 Ainsi, 
-$$E_{m} = \frac{1}{2}(m_{1}+m_{2})\dot{r}^{2} + \frac{1}{2} \frac{L_{1, O}}{m_{1}r^{2}} + m_{2}g(r-l)$$
+$$E_{m} = \frac{1}{2}(m_{1}+m_{2})\dot{r}^{2} + \frac{1}{2} \frac{L_{1, O}^{2}}{m_{1}r^{2}} + m_{2}g(r-l)$$
+EXCAL 4.
