@@ -273,6 +273,10 @@ EXCAL 4.
 
 # Exercice 5
 ## 1.
-$x_{0} <0$, 
-$$E_{m}(x_{0}) = \frac{1}{2}mv_{0}^{2} + \frac{GmM}{r_{0}}$$
-Avec $r_{0} = $
+$x_{0} \ll0$, 
+$$E_{m}(x_{0}) = \frac{1}{2}mv_{0}^{2} + \frac{GmM}{r_{0}} \approx \frac{1}{2}mv_{0}^{2}$$
+car le météore est loin de la terre.
+Puis, 
+$$E_{m}(d) = \frac{1}{2}mv_{1}^{2} + \frac{GmM}{d}$$
+
+$$\overrightarrow{v_{1}} = \dot{d} \vec{e}_{r} + \dot{\theta}d$$
