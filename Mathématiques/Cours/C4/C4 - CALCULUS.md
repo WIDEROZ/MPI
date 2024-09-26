@@ -206,5 +206,24 @@ $$\begin{cases}
 \end{cases}$$
 Alors, 
 $$\varphi(x)\psi(x) \underset{x \to a}{\longrightarrow} 0$$
+
+Démonstration :
 Soit $r >0$ et $M > 0$, 
-$$\forall $$
+$$\forall x \in A, \left|\left| x-a \right|\right| \leq r \Rightarrow \left| \varphi(x)\right|\leq M$$
+De plus : 
+$$\forall \varepsilon >0, \exists \alpha >0, \forall x \in A, \left|\left| x-a \right|\right| \leq \alpha \Rightarrow \left| \psi (x)\right|\leq \varepsilon$$
+Donc, 
+$$\left|\left| x-a \right|\right| \leq \min\{ a, r \}\Rightarrow \left| \varphi(x)\psi(x)\right|\leq M\varepsilon$$
+
+#### Propriété
+Soit $I \subset E$, 
+Soit $f:I \to F$, $a \in \bar{I}$, 
+Soit $\alpha : I \to \mathbb{R}$ vérifiant : $\alpha(x) \underset{x \to a}{\longrightarrow} \mu \in \mathbb{R}$, alors, 
+$$\alpha(x)f(x) \underset{x \to a}{\longrightarrow} \mu l_{1}$$
+
+Démonstration : 
+$$\left|\left| \alpha(x)f(x) - \mu l_{1} \right|\right| = \left|\left| \alpha(x)f(x) - \mu f(x)+\mu f(x)-\mu l_{1} \right|\right| $$
+$$\leq \left| \alpha(x) - \mu \right|\left|\left| f(x) \right|\right| +\left| \mu\right|\left|\left| f(x)-l_{1} \right|\right| $$
+comme $\left| \alpha(x)-\mu\right|\underset{x \to a}{\longrightarrow}0$ et $\left|\left| f(x)-l_{1} \right|\right|\underset{x \to +a}{\longrightarrow}0$
+$$\left| \alpha(x) - \mu \right|\left|\left| f(x) \right|\right| +\left| \mu\right|\left|\left| f(x)-l_{1} \right|\right| \underset{x \to a}{\longrightarrow} 0$$
+par le lemme. 
