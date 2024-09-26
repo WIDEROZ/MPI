@@ -236,7 +236,7 @@ $$M_{2} : \begin{cases}
 \end{cases}$$
 
 $z = 0$ pour le plan. 
-$$E_{m}(M_{1}) = \frac{1}{2}mv_{M_{1}}^{2}- \delta W_{T_{1}}$$
+$$E_{m}(M_{1}) = \frac{1}{2}mv_{M_{1}}^{2}- \delta W_{\overrightarrow{T_{1}}}-\delta W_{\overrightarrow{R_{1}}}$$
 or $\vec{v}_{M_{1}} = \dot{r}\vec{e}_{r} + r\dot{\theta}\vec{e}_{\theta}$
 Alors, 
 $$E_{m}(M_{1}) = \frac{1}{2}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2}) + Tdr$$
@@ -256,3 +256,11 @@ $$= m\left( \dot{r}^{2} + \frac{\dot{r}r}{2\sqrt{ l^{2}-2lr }}+g(r-l) \right)$$
 
 
 ## 2. Correction
+PDF : 
+$$\frac{d(m_{1}\vec{v}_{1})}{dt} = \overrightarrow{P_{1}} + \overrightarrow{R_{1}} + \overrightarrow{T_{1}}$$
+On projette sur $z$ : 
+$$R_{1} = mg$$
+Alors, 
+$$\frac{d \overrightarrow{L_{1, O}}}{dt} = \overrightarrow{OM_{1}}\wedge \overrightarrow{T_{1}} = \overrightarrow{0}$$
+Donc, 
+$$$$
