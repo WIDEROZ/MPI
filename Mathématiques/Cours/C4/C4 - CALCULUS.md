@@ -224,6 +224,24 @@ $$\alpha(x)f(x) \underset{x \to a}{\longrightarrow} \mu l_{1}$$
 Démonstration : 
 $$\left|\left| \alpha(x)f(x) - \mu l_{1} \right|\right| = \left|\left| \alpha(x)f(x) - \mu f(x)+\mu f(x)-\mu l_{1} \right|\right| $$
 $$\leq \left| \alpha(x) - \mu \right|\left|\left| f(x) \right|\right| +\left| \mu\right|\left|\left| f(x)-l_{1} \right|\right| $$
-comme $\left| \alpha(x)-\mu\right|\underset{x \to a}{\longrightarrow}0$ et $\left|\left| f(x)-l_{1} \right|\right|\underset{x \to +a}{\longrightarrow}0$
+comme $\left| \alpha(x)-\mu\right|\underset{x \to a}{\longrightarrow}0$ et $\left|\left| f(x)-l_{1} \right|\right|\underset{x \to +a}{\longrightarrow}0$ et $f(x)$ tend vers une limite finie (donc bornée sur un voisinage de $a$)
 $$\left| \alpha(x) - \mu \right|\left|\left| f(x) \right|\right| +\left| \mu\right|\left|\left| f(x)-l_{1} \right|\right| \underset{x \to a}{\longrightarrow} 0$$
 par le lemme. 
+
+#### Propriété
+Soient $E, F, G$ trois $\mathbb{K}$-evn,
+Soient $I \subset E$, $J\subset F$
+Soient, $f : I \to J$ et $g : J \to G$,
+Soient $a \in \bar{I}, b \in \bar{J}, c \in G$, 
+$$\begin{cases}
+f(x) \underset{x \to a}{\longrightarrow} b \\
+g(y) \underset{y \to b}{\longrightarrow} c
+\end{cases} \Rightarrow g(f(x)) \underset{x \to a}{\longrightarrow} c$$
+
+Démonstration : 
+Soit $\varepsilon>0$, 
+$$\begin{cases}
+\exists \alpha >0, \forall y \in J, \left|\left| y-b \right|\right| \leq \alpha \Rightarrow \left|\left| g(y) - c  \right|\right|\leq \varepsilon  \\
+\exists \beta >0, \forall x \in I, \left|\left| x-a \right|\right| \leq \beta \Rightarrow\left|\left| f(x)-b \right|\right| \leq \alpha
+\end{cases} $$
+$$\Rightarrow \left|\left| g(f(x))-c \right|\right| \leq \varepsilon$$
