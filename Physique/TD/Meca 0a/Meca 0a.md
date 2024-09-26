@@ -225,17 +225,27 @@ C'est une parabole.
 On prend les coordonnées sphériques
 
 ## 2.
+BDF : 
+$$M_{1} : \begin{cases}
+\vec{P} \\
+\vec{R} \\
+\vec{T}
+\end{cases}$$
+$$M_{2} : \begin{cases}
+\vec{P}
+\end{cases}$$
+
 $z = 0$ pour le plan. 
-$$E_{m}(M_{1}) = \frac{1}{2}mv_{M_{1}}^{2}$$
+$$E_{m}(M_{1}) = \frac{1}{2}mv_{M_{1}}^{2}- \delta W_{T_{1}}$$
 or $\vec{v}_{M_{1}} = \dot{r}\vec{e}_{r} + r\dot{\theta}\vec{e}_{\theta}$
 Alors, 
-$$E_{m}(M_{1}) = \frac{1}{2}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2})$$
+$$E_{m}(M_{1}) = \frac{1}{2}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2}) + Tdr$$
 puis : 
-$$E_{m}(M_{2}) = mgz + \frac{1}{2}mv_{M_{2}}^{2}$$
+$$E_{m}(M_{2}) = mgz + \frac{1}{2}mv_{M_{2}}^{2} - Tdz$$
 avec : $\vec{v}_{M_{2}} = -\dot{z}\vec{e}_{z}$, 
 Ainsi, 
-$$E_{m}(M_{2}) = mgz + \frac{1}{2}m\dot{z}^{2}$$
-Donc,
+$$E_{m}(M_{2}) = mgz + \frac{1}{2}m\dot{z}^{2}-Tdz$$
+Donc, comme $dr = dz$ car $dl = 0$, 
 $$E_{m} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}^{2}) +mgz + \frac{1}2 m\dot{z}^{2} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}+2gz + \dot{z}^{2})$$
 Or, $l = r-z$, et $r\sin(\theta) = z\Leftrightarrow \theta = \arcsin\left( \frac{z}{r} \right) = \arcsin\left( 1-\frac{l}{r}\right)$ alors,
 $$\dot{\theta} = \dot{r}\frac{l}{r^{2}}\frac{1}{\sqrt{ 1- \left( 1-\frac{l}{r} \right)^{2} }} = \frac{\dot{r}}{r}\frac{1}{\sqrt{ r^{2} - (r-l)^{2} }} = \frac{\dot{r}}{r} \frac{1}{\sqrt{ l^{2}-2rl }}$$
