@@ -232,7 +232,7 @@ Alors,
 $$E_{m}(M_{1}) = \frac{1}{2}m(\dot{r}^{2} + r^{2}\dot{\theta}^{2})$$
 puis : 
 $$E_{m}(M_{2}) = mgz + \frac{1}{2}mv_{M_{2}}^{2}$$
-avec : $\vec{v}_{M_{1}} = -\dot{z}\vec{e}_{z}$, 
+avec : $\vec{v}_{M_{2}} = -\dot{z}\vec{e}_{z}$, 
 Ainsi, 
 $$E_{m}(M_{2}) = mgz + \frac{1}{2}m\dot{z}^{2}$$
 Donc,
@@ -243,3 +243,6 @@ $$\dot{\theta} = \dot{r}\frac{l}{r^{2}}\frac{1}{\sqrt{ 1- \left( 1-\frac{l}{r} \
 
 $$E_{m} = \frac{1}{2}m(\dot{r}^{2}+\dot{r}^{2}+r^{2}\dot{\theta}+2g(r-l)) $$
 $$= m\left( \dot{r}^{2} + \frac{\dot{r}r}{2\sqrt{ l^{2}-2lr }}+g(r-l) \right)$$
+
+
+## 2. Correction
