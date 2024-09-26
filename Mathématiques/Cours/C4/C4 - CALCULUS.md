@@ -196,3 +196,15 @@ I \to F \\
 x \mapsto f(x) = \sum_{k = 0}^{n}f_{k}(x).u_{k}
 \end{cases}$$
 $$\forall a \in I, \forall l = \sum_{k = 0}^{n}l_{k}u_{k} \in F, f(x) \underset{x \to a}{\longrightarrow} l \Leftrightarrow \forall k \in [\![1, n]\!], f_{k}(x) \underset{x \to a}{\longrightarrow} l_{k}$$
+
+#### Lemme
+Soit $A \subset E$, $\varphi, \psi : A \to \mathbb{E}$ et $a \in \overset{\bot}{A}$, 
+Si 
+$$\begin{cases}
+\varphi \text{ est bornée au voisinage de }a \\
+\psi(x) \underset{x \to a}{\longrightarrow} 0
+\end{cases}$$
+Alors, 
+$$\varphi(x)\psi(x) \underset{x \to a}{\longrightarrow} 0$$
+Soit $r >0$ et $M > 0$, 
+$$\forall $$

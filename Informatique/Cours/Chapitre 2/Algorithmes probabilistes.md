@@ -28,4 +28,18 @@ $$\mathbb{E}[X] = \sum_{k = -\infty}^{+ \infty} k \times \mathbb{P}(X = k)$$
 Soit $\mathcal{P}$ un problème, 
 Un algorithme $\mathcal{A}$ est un algorithme de Monte-Carlo si pour toute instance $i$ du problème $\mathcal{P}$ pour laquelle une sortie $s$ est attendue : 
 + La sortie obtenue par $\mathcal{A}$ est différente de $s$ avec une certaine probabilité. 
-+ Pour toute execution de l'algorithme sur $i$, le temps d'exécution de l'algorithme inférieur à une born
++ Pour toute execution de l'algorithme sur $i$, le temps d'exécution de l'algorithme est inférieur à une borne donnée indépendant des choix aléatoires. 
+
+#### Exercice
+Pour toute exécution de l'algorithme sur l'instance $n \in \mathbb{N}$, l'estimation $E$ prend une valeur de la forme $4 \times \frac{k}{n}$ avec $k \in [\![0,n]\!]$
+$$\forall k \in [\![0, n]\!], 4 \times \frac{k}{n} \in \mathbb{Q}$$
+d'où $4\times \frac{k}{n} \neq \pi$
+$$\mathbb{P}(E \neq \pi) = 1$$
+
+## 2.2.2) Algorithmes de Las Vegas
+#### Définition
+Soit $\mathcal{P}$ un problème, 
+Un algorithme $\mathcal{A}$ est un algorithme de Monte-Carlo si pour toute instance $i$ du problème $\mathcal{P}$ pour laquelle une sortie $s$ est attendue : 
+- La sortie obtenue par $\mathcal{A}$ est toujours égale à $s$ quand l'algorithme se termine. 
+- Le cout de l'algorithme pour une instance $i$ est une variable aléatoire. 
+
