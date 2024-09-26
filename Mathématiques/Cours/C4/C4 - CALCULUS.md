@@ -1,6 +1,6 @@
 # I. Continuité
 ## 1. Adhérence 
-#### Définitionc
+#### Définition
 Soit $I$ une partie non vide de $E$ et $x_{0} \in E$, On dit que $x_{0}$ est adhérent à $I$ lorsque : 
 $$\forall r >0, B(x_{0}, r) \cap I \neq \varnothing$$
 ie 
