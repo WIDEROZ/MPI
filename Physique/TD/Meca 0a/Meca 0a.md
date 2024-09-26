@@ -248,11 +248,11 @@ $$E_{m}(M_{2}) = mgz + \frac{1}{2}m\dot{z}^{2}-Tdz$$
 Donc, comme $dr = dz$ car $dl = 0$, 
 $$E_{m} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}^{2}) +mgz + \frac{1}2 m\dot{z}^{2} = \frac{1}{2}m(\dot{r}^{2}+r^{2}\dot{\theta}+2gz + \dot{z}^{2})$$
 Or, $l = r-z$, et $r\sin(\theta) = z\Leftrightarrow \theta = \arcsin\left( \frac{z}{r} \right) = \arcsin\left( 1-\frac{l}{r}\right)$ alors,
-$$\dot{\theta} = \dot{r}\frac{l}{r^{2}}\frac{1}{\sqrt{ 1- \left( 1-\frac{l}{r} \right)^{2} }} = \frac{\dot{r}}{r}\frac{1}{\sqrt{ r^{2} - (r-l)^{2} }} = \frac{\dot{r}}{r} \frac{1}{\sqrt{ l^{2}-2rl }}$$
+$$\dot{\theta} = \dot{r}\frac{l}{r^{2}}\frac{1}{\sqrt{ 1- \left( 1-\frac{l}{r} \right)^{2} }} = \frac{\dot{r}l}{r}\frac{1}{\sqrt{ r^{2} - (r-l)^{2} }} = \frac{\dot{r}l}{r} \frac{1}{\sqrt{ l^{2}-2rl }}$$
 
 
 $$E_{m} = \frac{1}{2}m(\dot{r}^{2}+\dot{r}^{2}+r^{2}\dot{\theta}+2g(r-l)) $$
-$$= m\left( \dot{r}^{2} + \frac{\dot{r}r}{2\sqrt{ l^{2}-2lr }}+g(r-l) \right)$$
+$$= m\left( \dot{r}^{2} + \frac{\dot{r}rl}{2\sqrt{ l^{2}-2lr }}+g(r-l) \right)$$
 
 
 ## 2. Correction
@@ -263,4 +263,8 @@ $$R_{1} = mg$$
 Alors, 
 $$\frac{d \overrightarrow{L_{1, O}}}{dt} = \overrightarrow{OM_{1}}\wedge \overrightarrow{T_{1}} = \overrightarrow{0}$$
 Donc, 
-$$$$
+$$\overrightarrow{L_{1, 0}} = O\overrightarrow{M_{1}} \wedge m_{1} \vec{v_{1}}=mr^{2}\dot{\theta}\vec{e}_{z}$$
+Donc, 
+$$r^{2}\dot{\theta} = Cte = \frac{L_{1, O}}{m_{1}}$$
+Ainsi, 
+$$E_{m} = \frac{1}{2}(m_{1}+m_{2})\dot{r}^{2} + \frac{1}{2} \frac{L_{1, O}}{m_{1}r^{2}} + m_{2}g(r-l)$$
