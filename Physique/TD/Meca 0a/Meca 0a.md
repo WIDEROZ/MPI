@@ -282,4 +282,4 @@ $$E_{m}(d) = \frac{1}{2}mv_{1}^{2} + \frac{GmM}{d}$$
 Alors, comme on a deux inconnues on applique le TMC
 $$\frac{dL_{0}}{dt} = 0 \Leftrightarrow \vec{L}_{O} = \overrightarrow{cte} $$
 Alors, 
-$$$$
+$$\overrightarrow{L_{O}} = O \overrightarrow{M_{0}} \wedge m\vec{v}_{0} = O \overrightarrow{M_{1}} \wedge m\vec{v}_{1}$$
