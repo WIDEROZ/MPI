@@ -296,3 +296,14 @@ Si $f$ est Lipschitzienne, elle est continue
 
 Démonstration : 
 Soient $x, y \in I$, supposons qu'il existe $M >0$ tel que 
+$$\left| f(x)-f(y) \right| \leq M\left|\left| x-y \right|\right| $$
+
+
+#### Exercice
+$$\forall I \subset E, f : \begin{cases}
+E \to \mathbb{R} \\
+x \mapsto d(x, I) = \inf\{ \left|\left| x-a \right|\right| ; a \in I \}
+\end{cases}$$
+est $1$-Lipschitzienne 
+
+Démonstration : 
