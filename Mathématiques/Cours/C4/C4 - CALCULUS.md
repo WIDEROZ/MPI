@@ -1,6 +1,6 @@
 # I. Continuité
 ## 1. Adhérence 
-#### Définition
+#### Définitionc
 Soit $I$ une partie non vide de $E$ et $x_{0} \in E$, On dit que $x_{0}$ est adhérent à $I$ lorsque : 
 $$\forall r >0, B(x_{0}, r) \cap I \neq \varnothing$$
 ie 
@@ -316,4 +316,13 @@ $$\forall a \in I, f(x) - \left|\left| x-y \right|\right|\leq \left|\left| y-a \
 comme $\inf$ est le plus grand de tous les minorants, 
 $$f(x)-\left|\left| x-y \right|\right| \leq \inf\{ \left|\left| y-a \right|\right| ; a \in I \}= f(y)$$
 Donc, 
-$$f(x)-f(y) \leq \left|\left| x-y \right|\right| = \left|\left|  \right|\right|  $$
+$$\begin{cases}
+f(x)-f(y) \leq \left|\left| x-y \right|\right| = \left|\left| y-x \right|\right| \\
+f(y)-f(x) \leq \left|\left| y-x  \right|\right| = \left|\left| x-y \right|\right|  
+\end{cases}$$
+Ainsi, 
+$$\left| f(x) - f(y)\right|\leq \left|\left| y-x \right|\right| $$
+
+#### Propriété
+Si $I$ et $J$ sont des intervalles de $\mathbb{R}$, et $f: I \to J$ est continue et bijective alors, $f^{-1} : J \to I$ est continue. 
+
