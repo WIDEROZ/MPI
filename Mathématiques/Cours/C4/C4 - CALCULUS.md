@@ -464,4 +464,12 @@ Ainsi, comme : $\lim_{ x \to 0^{+} } f'(x) =-\frac{1}{2}$, (car $\sin(\sqrt{ x }
 $$f \in \mathcal{C}^{1}(\mathbb{R}_{+})$$
 
 #### Théorème
-Soit $I$ et $J$ de
+Soit $I$ et $J$ deux intervalles, $f : I \to J \text{ bijective}$, $x_{0} \in I,$ puis : $y_{0} = f(x_{0})$
+
+$$\begin{rcases}
+f \text{ est dérivable en }x_{0} \\
+f'(x_{0}) \neq 0
+\end{rcases} \Rightarrow\begin{cases}
+f^{-1} \text{ est dérivable en }y_{0} \\
+(f^{-1})'(y_{0}) = \frac{1}{f' \circ f^{-1}(y_{0})}
+\end{cases}$$
