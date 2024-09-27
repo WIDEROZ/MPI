@@ -425,4 +425,25 @@ $$\forall k \in [\![1, n]\!]f_{k} : I \to K \text{ est }D^{1} \text{ en }t_{0}$$
 Dans ce cas : 
 $$f'(t_{0}) = \sum_{k = 1}^{n} f'_{k}(t_{0}).e_{k}$$
 
-#### Égalité des Accroissments finis
+#### Égalité des Accroissements finis
+Soit $a, b \subset \mathbb{R}$, tel que $a < b$, 
+Soit $f : [a, b] \to \mathbb{R}$, 
+$$\boxed{\begin{rcases}
+f \in \mathcal{C}^{0}_{\mathbb{R}}([a, b]) \\
+f \in D^{1}(]a, b[, \mathbb{R})
+\end{rcases} \Rightarrow \exists c \in ]a, b[, f(c) = \frac{f(b)-f(a)}{b-a}}$$
+
+#### Inégalité des Accroissements finis
+$$\left.\begin{array}{r}
+f \in \mathcal{C}^{0}_{\mathbb{R}}([a, b]) \\
+f \in D^{1}(]a, b[, \mathbb{R}) \\
+\exists M >0, \forall t \in ]a, b[, \left| f'(t)\right| \leq M
+\end{array}\right\} \Rightarrow \left| f(b)-f(a)\right|\leq M \left| b-a\right|$$
+ie. 
+$$f \text{ est }M \text{ Lipschitzienne} \Leftrightarrow \left|\left| f' \right|\right| _{\infty} \leq M$$
+
+#### Théorème de la limite de la dérivée
+Soit $f: [a, b] \to F$, 
+$$\left. \begin{array}{r}
+f \in \mathcal{C}^{0}
+\end{array}\right\}$$
