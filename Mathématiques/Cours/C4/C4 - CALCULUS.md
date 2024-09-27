@@ -403,5 +403,26 @@ $$\forall x \in I, (g \circ f)'(x) = g' \circ f(x) \cdot f'(x)$$
 #### Propriété
 Si $B : F_{1} \times F_{2} \to G$, est bilinéaire, ou $F_{1}, F_{2}, G$ sont des ev de dim finie, et :
 $$\begin{cases}
-f_{1} : I \to F_{1} 
-\end{cases}\Rightarrow x\mapsto B(f_{1}(x), f_{1}(x))$$
+f_{1} : I \to F_{1}  \\
+f_{2} : I \to F_{2}
+\end{cases}\Rightarrow x\mapsto B(f_{1}(x), f_{1}(x)) \in G \text{ est dérivable}$$
+et puis,
+$$\forall x \in I, \frac{d}{dx}(B(f_{1}(x), f_{2}(x))) = B(f_{1}'(x), f_{2}(x)) + B(f_{1}(x), f_{2}'(x))$$
+
+#### Exemple
+Ainsi, si $\left< \cdot, \cdot \right>$ est un produit scalaire sur $G$, 
+$$\left< f_{1}, f_{2} \right>' = \left< f_{1}', f_{2} \right> + \left< f_{1}, f_{2}' \right> $$
+
+#### Propriété
+Soit $(e_{1}, \dots, e_{n})$ une base de $F$ et : 
+$$f : \begin{cases}
+ I \to F \\
+t \mapsto f(t) = \sum_{k = 1}^{n}f_{k}(t).e_{k}
+\end{cases}$$
+Alors, $f$ est dérivable en $t_{0} \in I$ 
+ssi
+$$\forall k \in [\![1, n]\!]f_{k} : I \to K \text{ est }D^{1} \text{ en }t_{0}$$
+Dans ce cas : 
+$$f'(t_{0}) = \sum_{k = 1}^{n} f'_{k}(t_{0}).e_{k}$$
+
+#### Égalité des Accroissments finis
