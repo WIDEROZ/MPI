@@ -311,7 +311,12 @@ $$-bv_{0} = r^{2}\dot{\theta} = r^{2} \frac{d\theta}{dt}$$
 ### (c).
 PDF au météore : 
 $$m \frac{d\vec{v}}{dt} = -G \frac{Mm}{r^{2}}\vec{e}_{r}$$
+On projette sur : $\vec{e}_{y}$ : 
+$$\frac{dv_{y}}{dt} = \frac{GM}{r^{2}}\sin(\theta) $$
 Alors, comme $r^{2} = -\frac{bv_{0}}{\dot{\theta}}$,
-On projette sur : $\vec{e}_{x}$ : 
-d
-$$dv_{f} = \frac{GM}{bv_{0}}\sin (\theta )d\theta$$
+$$dv_{y} = \frac{GM}{bv_{0}}\sin (\theta )d\theta$$
+
+### (d).
+On projette $v_{f}$ sur $\vec{e}_{y}$ : 
+$$\vec{v}_{f, y} = v_{f}\sin(\varphi) \vec{e}_{y}$$
+et $v_{0, y} = 0$, 
