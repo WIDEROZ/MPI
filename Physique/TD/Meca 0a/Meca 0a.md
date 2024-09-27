@@ -292,5 +292,7 @@ $$ d = -\frac{GM}{v_{0}^{2}}\left( 1\pm \sqrt{ 1+ \left( \frac{bv_{0}^{2}}{GM} \
 ## 2.
 $$d>R$$
 Alors, 
-$$\pm \sqrt{ 1+\left( \frac{bv_{0}^{2}}{GM} \right)^{2} } <-\frac{v_{0}^{2}R}{GM}-1$$
-$$\left( \frac{bv_{0}^{2}}{GM} \right)^{2}< \left( \frac{v_{0}^{2}R}{GM} \right)^{2} + 2\frac{v_{0}^{2}R}{GM}$$
+$$- \sqrt{ 1+\left( \frac{bv_{0}^{2}}{GM} \right)^{2} } <-\frac{v_{0}^{2}R}{GM}-1$$
+$$\left( \frac{bv_{0}^{2}}{GM} \right)^{2}> \left( \frac{v_{0}^{2}R}{GM} \right)^{2} + 2\frac{v_{0}^{2}R}{GM}$$
+Alors, 
+$$b >\sqrt{ \frac{RGM}{v_{0}^{2}}\left( \frac{v_{0}^{2}R}{GM}+2 \right) }$$
