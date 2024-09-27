@@ -296,3 +296,22 @@ $$- \sqrt{ 1+\left( \frac{bv_{0}^{2}}{GM} \right)^{2} } <-\frac{v_{0}^{2}R}{GM}-
 $$\left( \frac{bv_{0}^{2}}{GM} \right)^{2}> \left( \frac{v_{0}^{2}R}{GM} \right)^{2} + 2\frac{v_{0}^{2}R}{GM}$$
 Alors, 
 $$b >\sqrt{ \frac{RGM}{v_{0}^{2}}\left( \frac{v_{0}^{2}R}{GM}+2 \right) }$$
+
+## 3.
+### (a). 
+TEM : 
+$$\frac{1}{2}mv_{0}^{2} = \frac{1}{2}mv_{1}^{2} - \frac{GMm}{d} = \frac{1}{2}mv_{f}^{2}$$
+car le météore est suffisement loin.
+Ainisi, 
+$$v_{0} = v_{f}$$
+
+### (b).
+TMC : 
+$$-bv_{0} = r^{2}\dot{\theta} = r^{2} \frac{d\theta}{dt}$$
+### (c).
+PDF au météore : 
+$$m \frac{d\vec{v}}{dt} = -G \frac{Mm}{r^{2}}\vec{e}_{r}$$
+Alors, comme $r^{2} = -\frac{bv_{0}}{\dot{\theta}}$,
+On projette sur : $\vec{e}_{x}$ : 
+d
+$$dv_{f} = \frac{GM}{bv_{0}}\sin (\theta )d\theta$$
