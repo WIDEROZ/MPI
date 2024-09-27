@@ -378,4 +378,30 @@ est $D^{1}$ sur $\mathbb{R} \setminus \frac{1}{2}\mathbb{Z}$, et continue en tou
 EXCAL 2.
 
 #### Propriété
-sOIT $F$
+Soit $F : I\to F$, elle 
+$$\text{f est dérivable en }x_{0} \Leftrightarrow \exists l \in F f(x) = f(x_{0}) + (x-x_{0})l + o(x-x_{0})$$
+quand $x \to x_{0}$, 
+
+Démonstration : 
+$\Rightarrow$ : 
+$$f(x) - f(x_{0}) = (x-x_{0})T_{x_{0}}(x)$$
+et on passe a la limite
+
+$\Leftarrow$ : 
+$$f(x) = f(x_{0}) + (x-x_{0})l+ o(x-x_{0})$$
+alors, 
+$$T_{x_{0}}(x) = l + o(1) \text{ ie } T_{x_{0}}(x) \underset{x \to x_{0}}{\longrightarrow} l$$
+
+#### Propriété
+$$D^{1}(I, F) \text{ est un espace vectoriel}$$
+
+#### Propriété
+Soit $f \in D^{1}(I, \mathbb{R})$, $g \in D^{1}(J, F)$ ou $I$ et $J$ sont des intervalles de $\mathbb{R}$ et $f(I) \subset J$ alors, 
+$$g \circ f \in D^{1}(I, F)$$
+$$\forall x \in I, (g \circ f)'(x) = g' \circ f(x) \cdot f'(x)$$
+
+#### Propriété
+Si $B : F_{1} \times F_{2} \to G$, est bilinéaire, ou $F_{1}, F_{2}, G$ sont des ev de dim finie, et :
+$$\begin{cases}
+f_{1} : I \to F_{1} 
+\end{cases}\Rightarrow x\mapsto B(f_{1}(x), f_{1}(x))$$
