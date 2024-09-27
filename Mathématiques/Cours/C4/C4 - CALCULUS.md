@@ -358,4 +358,24 @@ $$\forall (x_{n})_{n \in \mathbb{N}}, (y_{n})_{n \in\mathbb{N}} \in I^{\mathbb{N
 
 # II. Dérivation
 Dans la suite du ours, toutes les fonctions sont définies sur une partie $I$ de $\mathbb{R}$, à valeurs dans un evn : $(F, \left|\left| \cdot \right|\right|)$
+Soit $f : I \to F$, 
+#### Définition
+Soit $x_{0} \in I$, on dit que $f$ est dérivable en $x_{0}$ lorsque : 
+$$T_{x_{0}} : \begin{cases}
+I \setminus \{ x_{0} \} \to F \\
+x\mapsto \frac{f(x)-f(x_{0})}{x-x_{0}}
+\end{cases}$$
+admet une limite finie en $x_{0}$ que l'on note : $f'(x_{0})$
+si $f$ est dérivable en tout $x_{0} \in I$, on dispose une fonction dérivée $f' : I \to F$, 
+On note : $D^{1}(I, F)$ l'ensemble de ces fonctions. 
 
+#### Remarque
+$$\begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto d(x, \mathbb{Z})
+\end{cases}$$
+est $D^{1}$ sur $\mathbb{R} \setminus \frac{1}{2}\mathbb{Z}$, et continue en tout point
+EXCAL 2.
+
+#### Propriété
+sOIT $F$
