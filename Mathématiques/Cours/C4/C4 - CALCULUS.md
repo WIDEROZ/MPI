@@ -326,3 +326,17 @@ $$\left| f(x) - f(y)\right|\leq \left|\left| y-x \right|\right| $$
 #### Propriété
 Si $I$ et $J$ sont des intervalles de $\mathbb{R}$, et $f: I \to J$ est continue et bijective alors, $f^{-1} : J \to I$ est continue. 
 
+## 4. Continuité uniforme
+#### Définition
+$f : I \subset E \to F$ est dite uniformément continue lorsque : 
+$$\forall \varepsilon >0, \exists \alpha>0, \forall x, y \in I, \left|\left| x-y \right|\right| < \alpha \Rightarrow \left|\left| f(x)-f(y) \right|\right| < \varepsilon$$
+
+#### Propriété 
+Si $f$ est Lipschitzienne elle est uniformément continue
+Si $f$ est uniformément continue, elle est continue
+
+Démonstration : 
+Notons $M>0$ vérifiant $\forall x, y \in I, \left|\left| f(x)-f(y) \right|\right|\leq M\left|\left| x-y \right|\right|$
+Soit $\varepsilon >0$ et $\alpha = \frac{\varepsilon}{M}>0$,
+Alors, 
+$$\left|\left| x-y \right|\right| <\alpha \Rightarrow \left|\left| f(x)-f(y) \right|\right| \leq M\alpha = \varepsilon$$
