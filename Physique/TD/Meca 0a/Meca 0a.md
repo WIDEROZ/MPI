@@ -319,4 +319,4 @@ $$dv_{y} = \frac{GM}{bv_{0}}\sin (\theta )d\theta$$
 ### (d).
 On projette $v_{f}$ sur $\vec{e}_{y}$ : 
 $$\vec{v}_{f, y} = v_{f}\sin(\varphi) \vec{e}_{y}$$
-et $v_{0, y} = 0$, 
+et $v_{0, y} = 0$, on intègre : $v_{f, y}-v_{0, y}$, 
