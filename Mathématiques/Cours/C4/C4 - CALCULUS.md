@@ -340,3 +340,22 @@ Notons $M>0$ vérifiant $\forall x, y \in I, \left|\left| f(x)-f(y) \right|\righ
 Soit $\varepsilon >0$ et $\alpha = \frac{\varepsilon}{M}>0$,
 Alors, 
 $$\left|\left| x-y \right|\right| <\alpha \Rightarrow \left|\left| f(x)-f(y) \right|\right| \leq M\alpha = \varepsilon$$
+___
+Evident car : $\exists \alpha>0, \forall x \in I, \mathcal{P} \Rightarrow \forall x \in I, \exists \alpha>0, \mathcal{P}$
+
+#### Remarque
+On a vu que si $f : [a, b]\to \mathbb{R}$, est continue elle est uniformément continue. 
+$$\begin{cases}
+[0, 1] \to \mathbb{R} \\
+x \mapsto \sqrt{ x }
+\end{cases}$$
+est uniformément continue et non Lipschitzienne
+
+#### Propriété
+$f : I \subset E \to F$ est uniformément continue 
+ssi 
+$$\forall (x_{n})_{n \in \mathbb{N}}, (y_{n})_{n \in\mathbb{N}} \in I^{\mathbb{N}}, x_{n}-y_{n} \underset{n \to +\infty}{\longrightarrow} 0 \Rightarrow f(x_{n})-f(y_{n}) \underset{n \to +\infty}{\longrightarrow} 0$$
+
+# II. Dérivation
+Dans la suite du ours, toutes les fonctions sont définies sur une partie $I$ de $\mathbb{R}$, à valeurs dans un evn : $(F, \left|\left| \cdot \right|\right|)$
+
