@@ -445,5 +445,23 @@ $$f \text{ est }M \text{ Lipschitzienne} \Leftrightarrow \left|\left| f' \right|
 #### Théorème de la limite de la dérivée
 Soit $f: [a, b] \to F$, 
 $$\left. \begin{array}{r}
-f \in \mathcal{C}^{0}
-\end{array}\right\}$$
+f \in \mathcal{C}^{0}_{F}([a, b]) \\
+f \in \mathcal{C}^{1}_{F}(]a, b]) \\
+f' \text{admet une limite finie en }a
+\end{array}\right\} \Rightarrow f \in \mathcal{C}^{1}([a, b])$$
+
+Démonstration : CCINP n°?
+
+#### Exercice
+$$f : \begin{cases}
+\mathbb{R}_{+} \to \mathbb{R} \\
+x \mapsto \cos\sqrt{ x }
+\end{cases} \in \mathcal{C}^{1}(\mathbb{R}_{+})$$
+alors comme : $f \in \mathcal{C}^{0}(\mathbb{R}_{+})$, $f \in \mathcal{C}^{1}(\mathbb{R}_{+}^{*})$
+car : 
+$$\forall x \in \mathbb{R}_{+}^{*},f'(x) = -\frac{\sin(\sqrt{ x })}{2\sqrt{ x }}$$
+Ainsi, comme : $\lim_{ x \to 0^{+} } f'(x) =-\frac{1}{2}$, (car $\sin(\sqrt{ x }) \underset{x \to 0^{+}}{\sim} \sqrt{ x }$)
+$$f \in \mathcal{C}^{1}(\mathbb{R}_{+})$$
+
+#### Théorème
+Soit $I$ et $J$ de
