@@ -20,4 +20,7 @@ $$\vec{v}(M / \mathcal{R}) = \vec{v}(M / \mathcal{R}') + \vec{v}(O' / \mathcal{R
 $$\vec{v}(M / \mathcal{R}') = \vec{v}(M / \mathcal{R}) + \vec{v}(O / \mathcal{R}') + \omega(\mathcal{R} / \mathcal{R}') \wedge \overrightarrow{OM}$$
 
 $$\vec{a}(M / \mathcal{R}) = d\left( \frac{\vec{v}(M / \mathcal{R})}{dt} \right)  $$
-$$= \vec{a}(M / \mathcal{R}') + \vec{a}(O' / \mathcal{R}) + \frac{d\omega(\mathcal{R}' / \mathcal{R})}{dt} \wedge \overrightarrow{O'M} + \omega(\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(\mathcal{R} / )$$
+$$= \vec{a}(M / \mathcal{R}') + \vec{a}(O' / \mathcal{R}) + \frac{d\omega(\mathcal{R}' / \mathcal{R})}{dt} \wedge \overrightarrow{O'M} + \omega(\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(M / \mathcal{R}')$$
+$$= \vec{a}(M / \mathcal{R}') + \vec{a}(O' / \mathcal{R}) + \overrightarrow{\dot{\omega}}_{\mathcal{R}}\wedge \vec{r'} + \vec{A}$$
+avec : 
+$$\vec{A} = \omega(\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(M / \mathcal{R}) + \vec{v}() +\omega(\mathcal{R}' / \mathcal{R}) \wedge (\wedge\omega(\mathcal{R} / \mathcal{R'}) \wedge \vec{r} )$$
