@@ -16,4 +16,8 @@ $$\boxed{\begin{cases}
 
 $$\overrightarrow{O'M} = \overrightarrow{O'O} +\overrightarrow{OM}$$
 Donc,  
-$$\vec{a}(M / \mathcal{R}) = a(M / \mathcal{R}') +  + 2 \omega \wedge v(M / \mathcal{R}') $$
+$$\vec{v}(M / \mathcal{R}) = \vec{v}(M / \mathcal{R}') + \vec{v}(O' / \mathcal{R}) + \omega(\mathcal{R}' / \mathcal{R}) \wedge \overrightarrow{O'M}$$
+$$\vec{v}(M / \mathcal{R}') = \vec{v}(M / \mathcal{R}) + \vec{v}(O / \mathcal{R}') + \omega(\mathcal{R} / \mathcal{R}') \wedge \overrightarrow{OM}$$
+
+$$\vec{a}(M / \mathcal{R}) = d\left( \frac{\vec{v}(M / \mathcal{R})}{dt} \right)  $$
+$$= \vec{a}(M / \mathcal{R}') + \vec{a}(O' / \mathcal{R}) + \frac{d\omega(\mathcal{R}' / \mathcal{R})}{dt} \wedge \overrightarrow{O'M} + \omega(\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(\mathcal{R} / )$$
