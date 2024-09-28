@@ -13,3 +13,7 @@ $$\boxed{\begin{cases}
 \vec{f}_{i, e} = +m\omega^{2} \overrightarrow{HM} \text{ : force d'inertie centrifuge} \\
 \vec{f}_{i, C} = -2m \vec{\omega} \wedge \vec{v}(M/\mathcal{R}')
 \end{cases}}$$
+
+$$\overrightarrow{O'M} = \overrightarrow{O'O} +\overrightarrow{OM}$$
+Donc,  
+$$\vec{a}(M / \mathcal{R}) = a(M / \mathcal{R}') +  + 2 \omega \wedge v(M / \mathcal{R}') $$
