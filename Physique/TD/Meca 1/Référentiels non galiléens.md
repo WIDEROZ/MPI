@@ -25,4 +25,8 @@ $$= \vec{a}(M / \mathcal{R}') + \vec{a}(O' / \mathcal{R}) + \overrightarrow{\dot
 avec : 
 $$\vec{A} = \omega(\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(M / \mathcal{R}) + \omega(\mathcal{R}' / \mathcal{R})  \wedge \vec{v}(O / \mathcal{R}') +\omega(\mathcal{R}' / \mathcal{R}) \wedge (\omega(\mathcal{R} / \mathcal{R'}) \wedge \vec{r} )$$
 Or : 
-$$ \omega(\mathcal{R}' / \mathcal{R}) \wedge \left(  \frac{d(OM)}{dt}_{\mathcal{R}} + \frac{d(O'O)}{dt}_{\mathcal{R}'} \right) = \omega(\mathcal{R}'/ \mathcal{R})\wedge $$
+$$ \omega(\mathcal{R}' / \mathcal{R}) \wedge \left(  \frac{d(OM)}{dt}_{\mathcal{R}} + \frac{d(O'O)}{dt}_{\mathcal{R}'} \right) = \omega(\mathcal{R}'/ \mathcal{R})\wedge \frac{dO'M}{dt}_{\mathcal{R}'}$$
+Alors, 
+$$\vec{A} = \omega(\mathcal{R}' / \mathcal{R}) \wedge v(M / \mathcal{R}') +\omega(\mathcal{R}' / \mathcal{R}) \wedge (\omega(\mathcal{R} / \mathcal{R}')\wedge \vec{r})$$
+Ainsi, 
+$$\vec{a}(M / \mathcal{R}') = \vec{a}(M / \mathcal{R}) + \vec{a}(O' / \mathcal{R}) + \frac{d\omega}{dt}_{\mathcal{R}}\wedge \vec{r'} + $$
