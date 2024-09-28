@@ -14,19 +14,7 @@ $$\boxed{\begin{cases}
 \vec{f}_{i, C} = -2m \vec{\omega} \wedge \vec{v}(M/\mathcal{R}')
 \end{cases}}$$
 
-$$\overrightarrow{O'M} = \overrightarrow{O'O} +\overrightarrow{OM}$$
-Donc,  
-$$\vec{v}(M / \mathcal{R}) = \vec{v}(M / \mathcal{R}') + \vec{v}(O' / \mathcal{R}) + \omega(\mathcal{R}' / \mathcal{R}) \wedge \overrightarrow{O'M}$$
-$$\vec{v}(M / \mathcal{R}') = \vec{v}(M / \mathcal{R}) + \vec{v}(O / \mathcal{R}') + \omega(\mathcal{R} / \mathcal{R}') \wedge \overrightarrow{OM}$$
 
-$$\vec{a}(M / \mathcal{R}) = d\left( \frac{\vec{v}(M / \mathcal{R})}{dt} \right)  $$
-$$= \vec{a}(M / \mathcal{R}') + \vec{a}(O' / \mathcal{R}) + \frac{d\omega(\mathcal{R}' / \mathcal{R})}{dt} \wedge \overrightarrow{O'M} + \omega(\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(M / \mathcal{R}')$$
-$$= \vec{a}(M / \mathcal{R}') + \vec{a}(O' / \mathcal{R}) + \overrightarrow{\dot{\omega}}_{\mathcal{R}}\wedge \vec{r'} + \vec{A}$$
-avec : 
-$$\vec{A} = \omega(\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(M / \mathcal{R}) + \omega(\mathcal{R}' / \mathcal{R})  \wedge \vec{v}(O / \mathcal{R}') +\omega(\mathcal{R}' / \mathcal{R}) \wedge (\omega(\mathcal{R} / \mathcal{R'}) \wedge \vec{r} )$$
-Or : 
-$$ \omega(\mathcal{R}' / \mathcal{R}) \wedge \left(  \frac{d(OM)}{dt}_{\mathcal{R}} + \frac{d(O'O)}{dt}_{\mathcal{R}'} \right) = \omega(\mathcal{R}'/ \mathcal{R})\wedge \frac{dO'M}{dt}_{\mathcal{R}'}$$
-Alors, 
-$$\vec{A} = \omega(\mathcal{R}' / \mathcal{R}) \wedge v(M / \mathcal{R}') +\omega(\mathcal{R}' / \mathcal{R}) \wedge (\omega(\mathcal{R} / \mathcal{R}')\wedge \vec{r})$$
-Ainsi, 
-$$\vec{a}(M / \mathcal{R}') = \vec{a}(M / \mathcal{R}) + \vec{a}(O' / \mathcal{R}) + \frac{d\omega}{dt}_{\mathcal{R}}\wedge \vec{r'} + $$
+#### Démonstration de l'expression de $\vec{a}$
+$$\vec{a}(M / \mathcal{R}) = \frac{d\vec{v}(M / \mathcal{R})}{dt}_{\mathcal{R}}$$
+$$\frac{d\vec{v}(M / \mathcal{R})}{dt}_{\mathcal{R}} = \frac{d\vec{v}(M / \mathcal{R}')}{dt}_{\mathcal{R}} + \frac{dOO'}{dt}_{\mathcal{R}} + \omega(\mathcal{R}' / \mathcal{R}) \wedge \vec{r'}$$
