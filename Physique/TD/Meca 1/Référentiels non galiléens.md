@@ -24,4 +24,5 @@ $$\frac{d\vec{v}(M / \mathcal{R}')}{dt}_{\mathcal{R}} = \frac{d\vec{v}(M / \math
 et 
 $$\frac{dr'}{dt}_{\mathcal{R}} = \frac{dr'}{dt}_{\mathcal{R}'} + \omega(\mathcal{R}' / \mathcal{R}) \wedge r'_{}$$
 Donc, 
-$$\vec{a} = \vec{a}(M / \mathcal{R}) + \vec{a}(O' / \mathcal{R}) + 2\omega (\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(M / \mathcal{R}) $$
+$$\vec{a} = \vec{a}(M / \mathcal{R}) + \vec{a}(O' / \mathcal{R}) + 2\omega (\mathcal{R}' / \mathcal{R}) \wedge \vec{v}(M / \mathcal{R}') + \omega \wedge (\omega \wedge \overrightarrow{r'})$$
+$$+ \dot{\omega}$$
