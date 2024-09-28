@@ -12,25 +12,43 @@ $$\vec{a}(\mathcal{M} / \mathcal{R}) =\vec{a}(M / \mathcal{R}') + \vec{a}(O' / \
 
 
 # Exercice 1
+### (a).
+PFD
 $$m \overrightarrow{a'} = m\overrightarrow{g}$$
 $$\vec{a'} = \vec{g}$$
 en projettant sur l'axe $y'$ : 
 $$a_{y'} = -g \text{ et } \begin{cases}
-v_{x'} = v_{0} \\
+v_{x'} = 0 \\
 v_{y'} = -gt
 \end{cases} \text{ enfin } \begin{cases}
-x' = v_{0}t \\
+x' = 0 \\
 y' = - \frac{1}{2}gt^{2} 
 \end{cases}$$
 Donc, 
-$$t = \frac{x'}{v_{0}} \text{ puis } y' = -\frac{\frac{1}{2}gx'^{2}}{v_{0}^{2}}$$
+$$y' = -\frac{1}{2}gt^{2}$$
 Ainsi, 
-$$v_{0}^{2}y' + \frac{1}{2}gx'^{2} =0$$
+C'est une trajectoire rectiligne. 
 
-C'est une trajectoire 
+### (b).
+Dans $\mathcal{R}$, 
+en projettant sur l'axe $y'$ : 
+$$a_{y} = -g \text{ et } \begin{cases}
+v_{x} = v_{0} \\
+v_{y} = -gt
+\end{cases} \text{ enfin } \begin{cases}
+x = v_{0}t \\
+y = - \frac{1}{2}gt^{2} 
+\end{cases}$$
+$$y = -\frac{1}{2} \frac{g}{v_{0}^{2}} x^{2}$$
+Ainsi, 
+c'est une trajectoire parabolique
 
+#### (c).
+Elles sont inversées
 
-
-
-alors, 
-$$\vec{v'} = $$
+## 2.
+On a alors : $\vec{a}_{x} = a_{x}\vec{e}_{x}$
+$$m\vec{a'} = m\vec{g}$$
+Alors, 
+$$\overrightarrow{a'} = \vec{g}$$
+comme $\vec{a'} = $
