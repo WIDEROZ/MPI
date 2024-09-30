@@ -22,24 +22,24 @@ v_{x'} = 0 \\
 v_{y'} = -gt
 \end{cases} \text{ enfin } \begin{cases}
 x' = 0 \\
-y' = - \frac{1}{2}gt^{2} 
+y' = h- \frac{1}{2}gt^{2} 
 \end{cases}$$
 Donc, 
-$$y' = -\frac{1}{2}gt^{2}$$
+$$y' = h -\frac{1}{2}g t^{2}$$
 Ainsi, 
 C'est une trajectoire rectiligne. 
 
 ### (b).
 Dans $\mathcal{R}$, 
-en projettant sur l'axe $y'$ : 
+en projetant sur l'axe $y'$ : 
 $$a_{y} = -g \text{ et } \begin{cases}
 v_{x} = v_{0} \\
 v_{y} = -gt
 \end{cases} \text{ enfin } \begin{cases}
 x = v_{0}t \\
-y = - \frac{1}{2}gt^{2} 
+y = h- \frac{1}{2}gt^{2} 
 \end{cases}$$
-$$y = -\frac{1}{2} \frac{g}{v_{0}^{2}} x^{2}$$
+$$y = h-\frac{1}{2} \frac{g}{v_{0}^{2}} x^{2}$$
 Ainsi, 
 c'est une trajectoire parabolique
 
