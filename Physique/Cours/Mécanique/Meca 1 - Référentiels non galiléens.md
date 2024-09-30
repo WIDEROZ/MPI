@@ -24,5 +24,11 @@ $$\begin{cases}
 \end{cases} $$
 car $v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
 Ainsi, 
+Dans $\mathcal{R}'$, 
 On fait un PFD sur $M$ par rapport à $\mathcal{R}'$,
-$$m\vec{a'} = \vec{P} + \vec{T} + m\omega^{2} \overrightarrow{HM}$$
+$$m\vec{a'} = \overrightarrow{0} =  \vec{P} + \vec{T} + m\omega^{2} \overrightarrow{HM}$$
+EXCAL 1
+
+Dans $\mathcal{R}$, 
+$$m\vec{a} = \vec{P} + \vec{T}$$
+$v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
