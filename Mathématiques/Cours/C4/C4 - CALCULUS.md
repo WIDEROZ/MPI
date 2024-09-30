@@ -5,7 +5,7 @@ Soit $I$ une partie non vide de $E$ et $x_{0} \in E$, On dit que $x_{0}$ est adh
 $$\forall r >0, B(x_{0}, r) \cap I \neq \varnothing$$
 ie 
 $$\forall r >0 , \exists a \in I, \left|\left| a-x_{0} \right|\right| < r$$
-excal 1, On note : $\bar{I}$ l'ensemble des points adhérent à $I$. 
+excal 1, On notBe : $\bar{I}$ l'ensemble des points adhérent à $I$. 
 $\bar{I}$ est l'adhérence de $I$
 
 #### Propriété
@@ -532,3 +532,18 @@ $$\Rightarrow \int _{a}^{b} f = \int _{a}^{b} g$$
 
 #### Théorème : Somme de Riemann
 $$\forall f \in \mathcal{C}_{m}^{0}([a, b], E), \frac{b-a}{n} \sum_{k = 1}^{n} f\left( a + k \frac{b-a}{n} \right) \underset{n \to +\infty}{\longrightarrow} \int _{a}^{b} f(t) \, dt  $$
+
+#### Exercice POLYTECHNIQUE (et pas nice)
+Donner une équivalent de : 
+$$\frac{b-a}{n} \sum_{k = 1}^{n} f\left( a + k \frac{b-a}{n} \right) - \int _{a}^{b} f  $$
+lorsque $f$ est $\mathcal{C}^{2}$. En fait montrer que : 
+$$S_{n}(f) = \int _{a}^{b} f + \frac{f(b)-f(a)}{2n} + O\left( \frac{1}{n^{2}} \right) $$
+
+#### Exercice
+Déterminer la limite de :
+$$S_{n} = \frac{1}{n^{2}}\sum_{k = 0}^{n-1} \sqrt{ k(n-k) } = \frac{1}{n}\sum_{k = 0}^{n-1} \sqrt{ \frac{k}{n}\left( 1- \frac{k}{n} \right) }$$
+on pose : $f : x \mapsto \sqrt{ x(1-x) }$
+Ainsi, 
+$$\int _{0}^{1} \sqrt{ t(1-t) }dt $$
+$$\int_{0}^{1}  \, dx $$
+On pose : $x = $
