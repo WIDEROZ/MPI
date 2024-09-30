@@ -568,4 +568,8 @@ $$\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
 #### Exercice
 Soit $r \in ]0, 1[ \cup ]1, + \infty[$, 
 $$I(r) = \int _{0}^{2\pi} \ln(1-2r\cos(t)+r^{2}) \, dt $$
-$$fora$$
+On pose : $f(t) = \ln(1-2r\cos(t)+r^{2})$ qui est $\mathcal{C}^{0}$ sur $[0, 2\pi]$
+
+On pose : 
+$$S_{n} = \frac{2\pi}{n} \sum_{k = 0}^{n-1}f\left( \frac{2\pi k}{n} \right) = \frac{2\pi}{n} \sum_{k = 0}^{n-1} \ln\left( r^{2}-2r\cos\left( \frac{2\pi k}{n} \right)+1 \right)$$
+$$= \frac{2\pi}{n} \ln\left( \prod_{k = 0}^{n-1}\left( r-e^{  \frac{2ik\pi}{n} } \right)(r- e^{ 2ik\pi }) \right)$$
