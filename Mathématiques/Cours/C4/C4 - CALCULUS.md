@@ -552,8 +552,20 @@ dt = 2\cos(x)\sin(x)dx
 \end{cases}$$
 Ainsi, 
 $$\int _{0}^{\frac{\pi}{2}}2 \sqrt{ \sin ^{2}(x)\cos ^{2}(x) } \, \cos(x)\sin(x)dx =2 \int _{0}^{\frac{\pi}{2}} \cos ^{2}(x)\sin ^{2}(x) \, dt $$
-$$= \int _{0}^{\frac{\pi}{2}} \sin ^{2}(x) \, dx - \int _{0}^{\frac{\pi}{2}} \sin ^{4}(x) \, dx $$
+car $\sin \cos >0$ sur $[0, 2\pi]$
+$$= \int _{0}^{\frac{\pi}{2}} \sin(x)\cos(x) \sin(2t)\, dx = \frac{1}{2} \int _{0}^{\frac{\pi}{2}} \sin(2t)^{2} \, dx  $$
+$$= \frac{1}{4}\int_{0}^{\frac{\pi}{2}} 1-\cos(4t) \, dt = \frac{1}{4}\left[ t-\frac{\sin(4t)}{4} \right]_{0} ^{\frac{\pi}{2}} = \frac{\pi}{8}$$
+Ainsi, 
+$$S_{n} \underset{n \to +\infty}{\longrightarrow}  \frac{\pi}{8}$$
+
 
 #### Théorème de changement de variable
 Si $f : I \to \mathbb{K}$ est continue et $\varphi : [\alpha, \beta]\to I$ est $\mathcal{C}^{1}$, 
 $$\int _{\varphi(a)}^{\varphi(b)} f = \int _{a}^{b} (f \circ \varphi) \varphi' $$
+
+$$\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
+\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}$$
+#### Exercice
+Soit $r \in ]0, 1[ \cup ]1, + \infty[$, 
+$$I(r) = \int _{0}^{2\pi} \ln(1-2r\cos(t)+r^{2}) \, dt $$
+$$fora$$
