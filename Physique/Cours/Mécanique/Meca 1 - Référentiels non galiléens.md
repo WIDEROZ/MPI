@@ -17,8 +17,12 @@ $$\boxed{\begin{cases}
 #### Exercice a : Manège
 $$\vec{a}(M / \mathcal{R}) = \vec{a}(M / \mathcal{R}') + \frac{d^{2} \overrightarrow{OO'}}{dt^{2}}_{\mathcal{R}} + \frac{d\vec{\omega}(\mathcal{R}' / \mathcal{R})}{dt}\wedge \overrightarrow{r'} + \vec{\omega} \wedge( \vec{\omega} \wedge \overrightarrow{r'})+ 2 \vec{\omega} \wedge \vec{v'}$$
 On prend $\mathcal{R}$ le ref galiléen du sol et $\mathcal{R}'$ le ref du manège, avec $\vec{\omega} = \overrightarrow{\text{cte}}$, 
-Alors, 
+Alors, en se plaçant en coordonnées polaires : 
 $$\begin{cases}
-\vec{f}_{i, e} = -m\omega^{2} \overrightarrow{O'M} \\
-\overrightarrow{f}_{i, C} = -m 2 \vec{\omega} \wedge \overrightarrow{v'}
+\vec{f}_{i, e} = m\omega^{2} r \vec{e}_{r} \\
+\overrightarrow{f}_{i, C} = -m 2 \omega v' \vec{e}_{r}
 \end{cases}$$
+Ainsi, 
+On fait un PFD sur $M$ par rapport à $\mathcal{R}'$,
+$$m\vec{a'} = m\omega^{2}r\vec{e}_{r}$$
+Ainsi, comme $v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
