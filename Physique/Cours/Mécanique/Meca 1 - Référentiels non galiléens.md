@@ -14,3 +14,4 @@ $$\boxed{\begin{cases}
 \vec{f}_{i, C} = -2m \vec{\omega} \wedge \vec{v}(M/\mathcal{R}')
 \end{cases}}$$
 
+$$\vec{a}(M / \mathcal{R}) = \vec{a}(M / \mathcal{R}') + \frac{d^{2} \overrightarrow{OO'}}{dt^{2}}_{\mathcal{R}} + \frac{d\vec{\omega}(\mathcal{R}' / \mathcal{R})}{dt}\wedge \overrightarrow{r'} + \vec{\omega} \wedge( \vec{\omega} \wedge \overrightarrow{r'})+ 2 \vec{\omega} \wedge \vec{v'}$$
