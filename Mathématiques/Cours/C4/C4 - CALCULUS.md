@@ -476,4 +476,30 @@ f^{-1} \text{ est dérivable en }y_{0} \\
 
 # III. Intégration sur les espaces vectoriels normés
 On a vu qu'il existait une forme linéaire sur le $\mathbb{R}$-ev : 
-$$E = \mathcal{C}r$$
+$$E = \mathcal{C}^{0}_{m}([a, b], \mathbb{R})$$
+$$f : \begin{cases}
+E \to \mathbb{R} \\
+f \mapsto \int _{a}^{b} f  
+\end{cases}$$
+Vérifiant
+si $f\geq 0$, $\int _{a}^{b} f \geq 0$
+si $f : x \mapsto \alpha \in \mathbb{K}$,, $\int _{a}^{b} \alpha(b-a) \, dx$
+En posant : $\int _{a}^{b} f = - \int _{b}^{a} f$,
+$$\forall u, v, w \in [a, b], \int _{u}^{v} f  +\int _{v}^{w} f = \int _{u}^{w} f   $$
+On monstre alors, 
+$$\forall f, g \in E, f \geq g \Rightarrow \int _{a}^{b} f\geq \int _{a}^{b} g  $$
+$$\forall f \in E,  \left| \int _{a}^{b} f \right|\leq \int _{a}^{b}\left| f\right| $$
+
+On pose alors, 
+$$\forall f : [a, b] \to \mathbb{C} \text{ cont. par morceaux}$$
+$$\int_{a}^{b} f = \int _{a}^{b} \mathrm{Re}(f)+ i \int _{a}^{b} \mathrm{Im}(f)   $$
+Rappelons que : $f : [a, b] \to \mathbb{C}$, est dite continue par morceaux lorsqu'il existe $n \in \mathbb{N}^{*}$,
+$$a_{0}=a < a_{1} < a_{2} < \dots < a_{n} = b$$
+tels que : 
+$$\forall k \in [\![0, n-1]\!], \begin{cases}
+]a_{k}, a_{k+1}[\to \mathbb{C} \\
+x \mapsto f(x)
+\end{cases}$$
+est continue, 
+$f$ admet une limite finie a gauche (sauf en $a_{0}$) et a droite (sauf en $a_{n}$) de $a_{k}$. 
+
