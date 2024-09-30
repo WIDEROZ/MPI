@@ -405,7 +405,7 @@ Si $B : F_{1} \times F_{2} \to G$, est bilinéaire, ou $F_{1}, F_{2}, G$ sont de
 $$\begin{cases}
 f_{1} : I \to F_{1}  \\
 f_{2} : I \to F_{2}
-\end{cases}\Rightarrow x\mapsto B(f_{1}(x), f_{1}(x)) \in G \text{ est dérivable}$$
+\end{cases}\Rightarrow x\mapsto B(f_{1}(x), f_{2}(x)) \in G \text{ est dérivable}$$
 et puis,
 $$\forall x \in I, \frac{d}{dx}(B(f_{1}(x), f_{2}(x))) = B(f_{1}'(x), f_{2}(x)) + B(f_{1}(x), f_{2}'(x))$$
 
