@@ -47,8 +47,13 @@ c'est une trajectoire parabolique
 Elles sont inversées
 
 ## 2.
+### (a).
 On a alors : $\vec{a}_{x} = a_{x}\vec{e}_{x}$
 $$m\vec{a'} = m\vec{g}$$
 Alors, 
 $$\overrightarrow{a'} = \vec{g}$$
-comme $\vec{a'} = $
+comme $\vec{a'} _{camion}= \overrightarrow{0}+a_{x'}\vec{e}_{x'}$
+Alors, 
+$$\overrightarrow{a'} = a_{x'}\vec{e}_{x'} -g \vec{e}_{y'}$$
+Donc, 
+$$\vec{v'} = $$
