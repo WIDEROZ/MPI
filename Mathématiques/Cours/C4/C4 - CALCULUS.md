@@ -502,4 +502,25 @@ x \mapsto f(x)
 \end{cases}$$
 est continue, 
 $f$ admet une limite finie a gauche (sauf en $a_{0}$) et a droite (sauf en $a_{n}$) de $a_{k}$. 
+___
+Ici, $E$ est un $\mathbb{K}$-evn de dim finie
 
+#### Définition
+Soit $\beta = (e_{1}, \dots, e_{n})$ une base de $E$, et
+$$f : \begin{cases}
+[a, b] \to E \\
+x \mapsto f(x)
+\end{cases}$$
+Alors, 
+$$\exists f_{1}, \dots, f_{n} \in \mathbb{K}^{[a, b]}, \forall x \in [a, b], f(x) = \sum_{k  =1}^{n} f_{k}(x).e_{k}$$
+
+$f$ est dite continue par morceaux sur $[a, b]$ lorsque : 
+$$\forall k \in [\![1, n]\!], f_{k} \in \mathcal{C}^{0}_{m}([a, b], \mathbb{K})$$
+Dans ce cas on définit : 
+$$\int _{a}^{b} f(t) \, dt = \sum_{k = 1}^{n }\int _{a}^{b} f_{k}(t) \, dt . e_{k}  $$
+ces deux définition sont indépendantes du choix de $\beta$.
+
+#### Propriété
+Soit $F$ un env de dim finie, 
+$$\forall f, g \in \mathcal{C}^{0}_{m}([a, b], E), \forall \alpha \in \mathbb{K}, \int_{a}^{b} \alpha f + g  = \alpha\int _{a}^{b} f+\int _{a}^{b}g  $$
+$$\forall \psi \in \mathcal{L}(E, F), \forall f \in \mathcal{C}_{m}^{0}()$$
