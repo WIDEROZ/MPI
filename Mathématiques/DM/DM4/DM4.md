@@ -11,3 +11,5 @@ Alors,
 $$\left| f(x) \right| - \left| f(0)\right|\leq \left| \int _{0}^{x} f' \right| = \left| f(x) - f(0) \right|\leq \int _{0}^{x} \left| f' \right| \leq Mx$$
 Donc, 
 $$\left| f(x)\right|\leq Mx + \left| f(0)\right| \leq M \frac{\pi}{2} + \left| f(0)\right|$$
+Ainsi, $f$ est bien bornée.
+
