@@ -19,10 +19,10 @@ $$\vec{a}(M / \mathcal{R}) = \vec{a}(M / \mathcal{R}') + \frac{d^{2} \overrighta
 On prend $\mathcal{R}$ le ref galiléen du sol et $\mathcal{R}'$ le ref du manège, avec $\vec{\omega} = \overrightarrow{\text{cte}}$, 
 Alors, en se plaçant en coordonnées polaires : 
 $$\begin{cases}
-\vec{f}_{i, e} = m\omega^{2} r \vec{e}_{r} \\
-\overrightarrow{f}_{i, C} = -m 2 \omega v' \vec{e}_{r}
-\end{cases}$$
+\vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} \\
+\overrightarrow{f}_{i, C} = -m 2 \omega \wedge v' = \overrightarrow{0}
+\end{cases} $$
+car $v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
 Ainsi, 
 On fait un PFD sur $M$ par rapport à $\mathcal{R}'$,
-$$m\vec{a'} = m\omega^{2}r\vec{e}_{r}$$
-Ainsi, comme $v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
+$$m\vec{a'} = \vec{P} + \vec{T} + m\omega^{2} \overrightarrow{HM}$$
