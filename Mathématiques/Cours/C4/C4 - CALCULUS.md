@@ -532,4 +532,3 @@ $$\Rightarrow \int _{a}^{b} f = \int _{a}^{b} g$$
 
 #### Théorème : Somme de Riemann
 $$\forall f \in \mathcal{C}_{m}^{0}([a, b], E), \frac{b-a}{n} \sum_{k = 1}^{n} f\left( a + k \frac{b-a}{n} \right) \underset{n \to +\infty}{\longrightarrow} \int _{a}^{b} f(t) \, dt  $$
-$\perpp$
