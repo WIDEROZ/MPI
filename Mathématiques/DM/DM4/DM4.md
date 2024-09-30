@@ -8,4 +8,6 @@ $$\int_{0}^{x} f' = f(x) - f(0)$$
 alors, comme $f'$ est bornée, il existe $M \in \mathbb{R}$ tel que :
 $$\forall y \in I, \left| f'(y) \right|\leq M$$
 Alors, 
-$$ \left| \int _{0}^{x} f' \right| = \left| f(x) - f(0) \right|\leq \int _{0}^{x} \left| f' \right| \leq M $$
+$$\left| f(x) \right| - \left| f(0)\right|\leq \left| \int _{0}^{x} f' \right| = \left| f(x) - f(0) \right|\leq \int _{0}^{x} \left| f' \right| \leq Mx$$
+Donc, 
+$$\left| f(x)\right|\leq Mx + \left| f(0)\right| \leq M \frac{\pi}{2} + \left| f(0)\right|$$
