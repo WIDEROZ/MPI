@@ -473,3 +473,7 @@ f'(x_{0}) \neq 0
 f^{-1} \text{ est dérivable en }y_{0} \\
 (f^{-1})'(y_{0}) = \frac{1}{f' \circ f^{-1}(y_{0})}
 \end{cases}$$
+
+# III. Intégration sur les espaces vectoriels normés
+On a vu qu'il existait une forme linéaire sur le $\mathbb{R}$-ev : 
+$$E = \mathcal{C}r$$

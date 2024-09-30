@@ -52,8 +52,8 @@ On a alors : $\vec{a}_{x} = a_{x}\vec{e}_{x}$
 $$m\vec{a'} = m\vec{g}$$
 Alors, 
 $$\overrightarrow{a'} = \vec{g}$$
-comme $\vec{a'} _{camion}= \overrightarrow{0}+a_{x'}\vec{e}_{x'}$
+comme $\vec{a'} _{e}= \overrightarrow{0}+a_{x'}\vec{e}_{x'}$, $\vec{a'}_{c} = \overrightarrow{0}$ 
 Alors, 
-$$\overrightarrow{a'} = a_{x'}\vec{e}_{x'} -g \vec{e}_{y'}$$
+$$\overrightarrow{a'}_{rel} = -a_{x'}\vec{e}_{x'} -g \vec{e}_{y'}$$
 Donc, 
 $$\vec{v'} = $$
