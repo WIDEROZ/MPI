@@ -2,7 +2,7 @@
 ## 1.a. Référentiels et repères considérés
 # II. 
 ## 2. PFD dans $\mathcal{R}'$ non galiléen
-### Cas de $\mathcal{R}'$ en translation
+### Cas de $\mathcal{R}'$ en translation par rapport à $\mathcal{R}$
 $$\boxed{\begin{cases}
 \vec{f}_{i, e} = -m\left( \frac{d^{2}\overrightarrow{OO'}}{dt^{2}} \right)_{\mathcal{R}} \\
 \vec{f}_{i, c} = \overrightarrow{0}
