@@ -572,4 +572,10 @@ On pose : $f(t) = \ln(1-2r\cos(t)+r^{2})$ qui est $\mathcal{C}^{0}$ sur $[0, 2\p
 
 On pose : 
 $$S_{n} = \frac{2\pi}{n} \sum_{k = 0}^{n-1}f\left( \frac{2\pi k}{n} \right) = \frac{2\pi}{n} \sum_{k = 0}^{n-1} \ln\left( r^{2}-2r\cos\left( \frac{2\pi k}{n} \right)+1 \right)$$
-$$= \frac{2\pi}{n} \ln\left( \prod_{k = 0}^{n-1}\left( r-e^{  \frac{2ik\pi}{n} } \right)(r- e^{ 2ik\pi }) \right)$$
+$$= \frac{2\pi}{n} \ln\left( \prod_{k = 0}^{n-1}\left( r-e^{  \frac{2ik\pi}{n} } \right)\left( r- e^{ -\frac{2ik\pi}{n} } \right) \right) = \frac{2\pi}{n} \ln((r^{n}-1)(r^{n}-1))$$
+Ainsi, 
+$$S_{n} = \frac{4\pi}{n}\ln \left| r^{n}-1\right|$$
+Si $r \in ]0, 1[$ : 
+$$S_{n} = \frac{4\pi}{n}\ln(1-r^{n}) \underset{n \to +\infty}{\longrightarrow} 0$$
+Si $r \in ]1, + \infty[$,
+$$S_{n} = 4 \frac{\pi}{n}\ln(r^{n}-1) \underset{n \to +\infty}{\longrightarrow} 4\pi \ln(r)$$
