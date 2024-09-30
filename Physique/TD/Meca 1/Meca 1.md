@@ -51,9 +51,16 @@ Elles sont inversées
 On a alors : $\vec{a}_{x} = a_{x}\vec{e}_{x}$
 $$m\vec{a'} = m\vec{g}$$
 Alors, 
-$$\overrightarrow{a'} = \vec{g}$$
+$$\overrightarrow{a'} = \vec{g} - \vec{a}_{e}$$
 comme $\vec{a'} _{e}= \overrightarrow{0}+a_{x'}\vec{e}_{x'}$, $\vec{a'}_{c} = \overrightarrow{0}$ 
 Alors, 
-$$\overrightarrow{a'}_{rel} = -a_{x'}\vec{e}_{x'} -g \vec{e}_{y'}$$
+$$\overrightarrow{a'} = -\frac{a_{x'}}{m}\vec{e}_{x'} -g \vec{e}_{y'}$$
 Donc, 
-$$\vec{v'} = $$
+$$\vec{v'} = \begin{cases}
+-\frac{a_{x'}}{m}t \\
+-gt 
+\end{cases}$$
+$$\overrightarrow{r'} = \begin{cases}
+-\frac{a_{x'}}{2m}t^{2} \\
+-\frac{g}{2}t^{2} + h
+\end{cases}$$
