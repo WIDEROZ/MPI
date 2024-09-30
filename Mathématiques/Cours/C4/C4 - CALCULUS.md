@@ -523,4 +523,13 @@ ces deux définition sont indépendantes du choix de $\beta$.
 #### Propriété
 Soit $F$ un env de dim finie, 
 $$\forall f, g \in \mathcal{C}^{0}_{m}([a, b], E), \forall \alpha \in \mathbb{K}, \int_{a}^{b} \alpha f + g  = \alpha\int _{a}^{b} f+\int _{a}^{b}g  $$
-$$\forall \psi \in \mathcal{L}(E, F), \forall f \in \mathcal{C}_{m}^{0}()$$
+$$\forall \psi \in \mathcal{L}(E, F), \forall f \in \mathcal{C}_{m}^{0}([a, b], E), \psi \circ f \in \mathcal{C}_{m}^{0}([a, b], F) $$
+puis 
+$$\int _{a}^{b} \psi \circ f = \psi\left( \int _{a}^{b} f  \right) $$
+$$\forall u, v, w \in [a, b], \forall f \in \mathcal{C}_{m}^{0}, \int _{u}^{w} f = \int _{u}^{v}f + \int _{v}^{w} f   $$
+$$\forall f, g \in \mathcal{C}_{m}^{0}([a, b], E), f = g \text{ sauf en un nombre fini de points} $$
+$$\Rightarrow \int _{a}^{b} f = \int _{a}^{b} g$$
+
+#### Théorème : Somme de Riemann
+$$\forall f \in \mathcal{C}_{m}^{0}([a, b], E), \frac{b-a}{n} \sum_{k = 1}^{n} f\left( a + k \frac{b-a}{n} \right) \underset{n \to +\infty}{\longrightarrow} \int _{a}^{b} f(t) \, dt  $$
+$\perpp$
