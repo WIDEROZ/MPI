@@ -544,6 +544,16 @@ Déterminer la limite de :
 $$S_{n} = \frac{1}{n^{2}}\sum_{k = 0}^{n-1} \sqrt{ k(n-k) } = \frac{1}{n}\sum_{k = 0}^{n-1} \sqrt{ \frac{k}{n}\left( 1- \frac{k}{n} \right) }$$
 on pose : $f : x \mapsto \sqrt{ x(1-x) }$
 Ainsi, 
-$$\int _{0}^{1} \sqrt{ t(1-t) }dt $$
-$$\int_{0}^{1}  \, dx $$
-On pose : $x = $
+$$S_{n} \underset{n \to +\infty}{\longrightarrow}  \int _{0}^{1} \sqrt{ t(1-t) }dt $$
+On pose :
+$$\begin{cases}
+t = \sin^{2}(x) \\
+dt = 2\cos(x)\sin(x)dx
+\end{cases}$$
+Ainsi, 
+$$\int _{0}^{\frac{\pi}{2}}2 \sqrt{ \sin ^{2}(x)\cos ^{2}(x) } \, \cos(x)\sin(x)dx =2 \int _{0}^{\frac{\pi}{2}} \cos ^{2}(x)\sin ^{2}(x) \, dt $$
+$$= \int _{0}^{\frac{\pi}{2}} \sin ^{2}(x) \, dx - \int _{0}^{\frac{\pi}{2}} \sin ^{4}(x) \, dx $$
+
+#### Théorème de changement de variable
+Si $f : I \to \mathbb{K}$ est continue et $\varphi : [\alpha, \beta]\to I$ est $\mathcal{C}^{1}$, 
+$$\int _{\varphi(a)}^{\varphi(b)} f = \int _{a}^{b} (f \circ \varphi) \varphi' $$
