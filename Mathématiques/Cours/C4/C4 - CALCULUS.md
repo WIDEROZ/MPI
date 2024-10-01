@@ -579,3 +579,24 @@ Si $r \in ]0, 1[$ :
 $$S_{n} = \frac{4\pi}{n}\ln(1-r^{n}) \underset{n \to +\infty}{\longrightarrow} 0$$
 Si $r \in ]1, + \infty[$,
 $$S_{n} = 4 \frac{\pi}{n}\ln(r^{n}-1) \underset{n \to +\infty}{\longrightarrow} 4\pi \ln(r)$$
+
+#### Inégalité de la moyenne
+Soit $f:[a, b] \to E$, qui est $\mathcal{C}^{0}$
+$$\left|\left| \int _{a}^{b} f  \right|\right| \leq \int _{a}^{b} \left|\left| f(t) \right|\right|  \, dt \leq(b-a)\left|\left| f \right|\right| _{\infty} $$
+
+Démonstration : 
+Notons pour tout $n \in \mathbb{N}^{*}$, 
+$$S_{n}(f) = \frac{b-a}{n} \sum_{k = 0}^{n-1} f\left( a+ k \frac{b-a}{n} \right) \in E$$
+et 
+$$S_{n}(\left|\left| f \right|\right| ) = \dots \left|\left| f(a+\dots) \right|\right| \in \mathbb{R}$$
+
+D'après l'inégalité triangulaire : 
+$$\left|\left| S_{n}(f) \right|\right| \leq S_{n}(\left|\left| f \right|\right| )\leq \frac{b-a}{n} \sum_{k = 0}^{n-1} \left|\left| f \right|\right| _{\infty} = (b-a)\left|\left| f \right|\right| _{\infty}$$
+Or, 
+$\left|\left| f \right|\right| \in \mathcal{C}^{0}([a, b])$ car $f$ est continue et $\left|\left| \cdot \right|\right|$ est continue. 
+Alors, d'après le théorème sur les sommes de Riemann, 
+$$S_{n}(\left|\left| f \right|\right| ) \underset{n \to +\infty}{\longrightarrow}  \int _{a}^{b} \left|\left| f \right|\right|  $$
+
+De même, $S_{n}(f) \underset{n \to +\infty}{\longrightarrow} \int _{a}^{b} f$, et la continuité de $\left|\left| \cdot \right|\right|$ nous donne : 
+$$\left|\left| S_{n}(f) \right|\right| \underset{n \to +\infty}{\longrightarrow} \left|\left| \int _{a}^{b} f  \right|\right| $$
+Ainsi, en passant à la limite dans les inégalités 
