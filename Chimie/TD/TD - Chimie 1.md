@@ -144,7 +144,11 @@ C'est un acide et une base (c'est un espèce amphotère)
 $$HCO_{3}^{-} + HAsc \rightleftharpoons H_{2}O + CO_{2} + Asc^{-}$$
 $$Q = \frac{ [CO_{2}]\times [Asc^{-}]}{[HCO_{3}^{-}] \times [HAsc]} = K$$
 Alors, 
-$$K = \frac{[CO_{2}][H_{3}O^{+}]}{[HCO_{3}^{-}]} \times \frac{[Asc^{-}]}{[H_{3}O^{+}][HAsc]}$$
+$$K = \frac{[CO_{2}][H_{3}O^{+}]}{[HCO_{3}^{-}]} \times \frac{[Asc^{-}]}{[H_{3}O^{+}][HAsc]} = 10^{-(pK_{a_{2}}-pK_{a_{1}})} \approx 2.10^{2}$$
 ## 3. 
 $$HCO_{3}^{-} + HCit \rightleftharpoons H_{2}O + CO_{2}+Cit^{-}$$
-$$Q = \frac{[HCO_{3}^{-}] \times [HCit]}{[H_{2}O]\times [CO_{2}]\times [Cit^{-}]} = K $$
+$$Q = \frac{[HCO_{3}^{-}] \times [HCit]}{\times [CO_{2}]\times [Cit^{-}]} = K $$
+
+
+### 4.
+$$V_{CO_{2}} = \frac{V_{m}}{n_{CO_{2}}} = $$
