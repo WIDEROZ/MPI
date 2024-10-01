@@ -727,3 +727,24 @@ $$H(x) \underset{x \to 1^{+}}{\longrightarrow} \ln(2)$$
 en $1^{-}$ ca marche aussi.
 
 EXCAL 5
+
+$H$ est prolongeable par continuité en $x =1$ en posant : $H(1) = \ln(2)$ 
+
+En $1$, 
+$$H'(1+t)= \frac{t}{\ln(1+t)} \underset{t \to 0}{\sim} \frac{t}{t} = 1$$
+ie 
+$$H'(x) \underset{x \to 1}{\longrightarrow} 1$$
+Comme $H$ est $\mathcal{C}^{1}$ sur $\mathbb{R}_{+}^{*} \setminus \{ 1 \}$, d'après le théorème de la limite de la dérivée, $H$ est $\mathcal{C}^{1}$ sur $\mathbb{R}_{+}^{*}$ et : 
+$$H'(1) = 1$$
+
+En $+ \infty$ : 
+$$\forall x > 1, H(x) \geq \int _{x}^{x^{2}} \frac{dt}{\ln(x^{2})} \, dt $$
+par décroissance de $f$
+$$\forall x > 1, \int _{x}^{x^{2}} \frac{dt}{\ln(x^{2})} \, dt \geq \frac{x^{2}-x}{\ln(x^{2})} \underset{x \to + \infty}{\sim} \frac{x^{2}}{2\ln(x)} \underset{n \to +\infty}{\longrightarrow} + \infty$$
+Donc, 
+$$H(x) \underset{x \to +\infty}{\longrightarrow} +\infty$$
+
+En $0^{+}$, 
+$$\forall x \in ]0, 1[, \forall t \in [x^{2}, x], \frac{1}{\ln(x)}\leq \frac{1}{\ln(t)} \leq \frac{1}{\ln(x^{2})}$$
+Donc, en intégrant : 
+$$\frac{x-x^{2}}{\ln(x)} \leq - H(x) \leq \frac{x-x^{2}}{2\ln(x)}$$
