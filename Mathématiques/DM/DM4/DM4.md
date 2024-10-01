@@ -23,4 +23,7 @@ et :
 $$\left| I_{f}(x) \right| = \left| \int _{0}^{\frac{\pi}{2}} f(t)e^{ ixt } \, dt \right|\leq \left|\left| f \right|\right| _{\infty} \left| \int _{0}^{\frac{\pi}{2}} e^{ ixt } \, dt \right| $$
 $$ = \left|\left| f \right|\right| _{\infty} \frac{1}{\left| x\right|} \left| e^{ i x\frac{\pi}{2} } - 1\right| \leq \left|\left| f \right|\right| _{\infty} \frac{2}{\left| x \right|}$$
 Par l'inégalité triangulaire.
-Donc, en faisant le produit des deux inégalités positives : 
+Donc, en faisant le produit des deux inégalités positives et en composant par $\sqrt{ \cdot }$
+$$\left| I_{f}(x)\right| \leq \frac{\sqrt{ \left|\left| f \right|\right| _{ \infty} \left|\left| f' \right|\right| _{\infty} }}{\left| x\right|} \sqrt{ \pi }$$
+Ainsi, 
+$$A = \sqrt{ \left|\left| f \right|\right| _{ \infty} \left|\left| f' \right|\right| _{\infty} }\sqrt{ \pi }$$
