@@ -631,3 +631,22 @@ $$I(x) = \frac{f(0) - f(2\pi)\cos(2\pi x)}{x} + \frac{1}{x}\int _{0}^{2\pi} f'(t
 Ainsi, 
 $$\left| I(x)\right|\leq \frac{\left| f(0)\right| + \left| f(2\pi) \cos(2\pi x)\right|}{x} + \frac{1}{x} \int _{0}^{2\pi} \left| f'(t)\right|\left| \cos(xt)\right| \, dt$$
 $$\leq \frac{\left| f(0)\right|+ \left| f(2\pi)\right|}{x} + \frac{1}{x}\int _{0}^{2\pi} \left| f'(t)\right| \, dt $$
+Finalement
+$$\left| I(x) \right|\leq \frac{2\left|\left| f \right|\right| _{\infty}+ \left|\left| f' \right|\right| _{1}}{x}$$
+
+#### Exercice
+Calculer la valeur de la série : 
+$$\sum_{k = 1}^{+ \infty} \frac{(-1)^{k+1}}{k}$$
+Soit $n \in \mathbb{N}$, 
+On pose :
+$$u_{n} =\sum_{k = 1}^{n} (-1)^{k+1} \int _{0}^{1} t^{k-1} \, dt = \int _{0}^{1}\sum_{k = 1}^{n} (-t)^{k-1} \, dt = \int _{0}^{1} \frac{1-(-t)^{n}}{1+t} \, dt  $$
+Donc, 
+$$u_{n} = \int _{0}^{1} \frac{1}{1+t} \, dt + R_{n}= \ln(2) + R_{n}$$
+Avec 
+$$R_{n} = (-1)^{n+1}\int _{0}^{1} \frac{t^{n}}{1+t} \, dt $$
+Enfin : 
+$$R_{n} \underset{n \to +\infty}{\longrightarrow}  0$$
+car : 
+$$\left| R_{n}\right| = \int _{0}^{1} t^{n}\times \frac{1}{1+t} \, dt \leq \int _{0}^{1} t^{n} \, dt = \frac{1}{n+1} \underset{n \to +\infty}{\longrightarrow} 0$$
+
+# IV. Théorème fondamental de l'analyse
