@@ -616,4 +616,18 @@ b. Lemme de Riemann Lebesgue :
 Montrons que : $I(x) \underset{x \to +\infty}{\longrightarrow}0$ lorsque $f$ est $\mathcal{C}^{1}$
 
 a. 
-$$\int_{0}^{2\pi} f(t)(\sin(yt) - \sin(xt)) \, dt $$
+$$\left| \int_{0}^{2\pi} f(t)(\sin(yt) - \sin(xt)) \, dt \right| \leq \int _{0}^{2\pi} \left| f(t)(\sin(yt) - \sin(xt))\right| \, dt $$
+comme $\sin$ est 1-lipschitzienne, 
+$$\int _{0}^{2\pi} \left| f(t)(\sin(yt) - \sin(xt))\right| \, dt \leq  \int _{0}^{2\pi}\left| f(t)(yt-xt)\right| \, dt \leq M \left| y-x\right|$$
+Ou 
+$$M = \int _{0}^{2\pi} \left| tf(t)\right| \, dt $$
+Ainsi, $I$ est lipschitzienne. 
+
+b. 
+Soit $x > 0$, 
+$$I(x) = \left[ f(t)-\frac{\cos(xt)}{x} \right]_{0}^{2\pi} - \int _{0}^{2\pi}f'(t) - \frac{\cos(xt)}{x} \, dt $$
+Alors, 
+$$I(x) = \frac{f(0) - f(2\pi)\cos(2\pi x)}{x} + \frac{1}{x}\int _{0}^{2\pi} f'(t) \cos(xt) \, dt $$
+Ainsi, 
+$$\left| I(x)\right|\leq \frac{\left| f(0)\right| + \left| f(2\pi) \cos(2\pi x)\right|}{x} + \frac{1}{x} \int _{0}^{2\pi} \left| f'(t)\right|\left| \cos(xt)\right| \, dt$$
+$$\leq \frac{\left| f(0)\right|+ \left| f(2\pi)\right|}{x} + \frac{1}{x}\int _{0}^{2\pi} \left| f'(t)\right| \, dt $$
