@@ -748,3 +748,5 @@ En $0^{+}$,
 $$\forall x \in ]0, 1[, \forall t \in [x^{2}, x], \frac{1}{\ln(x)}\leq \frac{1}{\ln(t)} \leq \frac{1}{\ln(x^{2})}$$
 Donc, en intégrant : 
 $$\frac{x-x^{2}}{\ln(x)} \leq - H(x) \leq \frac{x-x^{2}}{2\ln(x)}$$
+Ainsi, en passant à la limite par le théorème des gendarmes : 
+$$H(x) \underset{x \to 0^{+}}{\longrightarrow} 0$$
