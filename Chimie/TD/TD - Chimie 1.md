@@ -147,8 +147,12 @@ Alors,
 $$K = \frac{[CO_{2}][H_{3}O^{+}]}{[HCO_{3}^{-}]} \times \frac{[Asc^{-}]}{[H_{3}O^{+}][HAsc]} = 10^{-(pK_{a_{2}}-pK_{a_{1}})} \approx 2.10^{2}$$
 ## 3. 
 $$HCO_{3}^{-} + HCit \rightleftharpoons H_{2}O + CO_{2}+Cit^{-}$$
-$$Q = \frac{[HCO_{3}^{-}] \times [HCit]}{\times [CO_{2}]\times [Cit^{-}]} = K $$
+$$Q = \frac{[HCO_{3}^{-}] \times [HCit]}{[CO_{2}]\times [Cit^{-}]} = K $$
 
 
 ### 4.
-$$V_{CO_{2}} = \frac{V_{m}}{n_{CO_{2}}} = $$
+$$V_{CO_{2}} = V_{m}n_{CO_{2}} = $$
+
+# Exercice 6
+## 1.
+Un acide fort réagit totalement avec l'eau tandis que l'acide faible non. 
