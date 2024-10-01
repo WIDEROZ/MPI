@@ -151,7 +151,7 @@ $$Q = \frac{[HCO_{3}^{-}] \times [HCit]}{[CO_{2}]\times [Cit^{-}]} = K $$
 
 
 ### 4.
-$$V_{CO_{2}} = V_{m}n_{CO_{2}} = $$
+$$V_{CO_{2}} = V_{m}n_{CO_{2}} = 3.5 \times 10^{-5} \times 22.4 = 7.8 \times 10^{-4} \text{ L}$$
 
 # Exercice 6
 ## 1.
