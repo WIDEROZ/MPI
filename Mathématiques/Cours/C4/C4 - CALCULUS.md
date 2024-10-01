@@ -709,4 +709,21 @@ $f$ étant $\mathcal{C}^{0}$, d'après le TFA,
 $$H(x) = F(x^{2}) - F(x)$$
 $F$ est donc, $\mathcal{C}^{1}$ car $F' = f$, comme $x \mapsto x^{2}$ l'est aussi, $H$ est de classe $\mathcal{C}^{1}$ sur $I$, et : 
 $$\forall x \in I, H'(x) = 2x F'(x^{2}) - F'(x) = \frac{x-1}{\ln(x)}$$
-Ainsi, $\forall x > 1$, 
+Ainsi,
+$$\boxed{\begin{array}{c}
+\forall x >1, H'(x) > 0 \\
+\forall x \in ]0,1[ H'(x) < 0
+\end{array}}$$
+Limite de $H$ : 
+On a : 
+$$\forall x >1, \forall t \in [x, x^{2}], \frac{x}{t\ln t} \leq \frac{t}{t\ln t} \leq \frac{x^{2}}{t\ln t}$$
+Par croissance de l'intégrale : 
+$$x(\ln(\ln(x^{2})))=\int _{x}^{x^{2}} \frac{x}{t\ln t} \, dt \leq H(x) \leq \int _{x}^{x^{2}} \frac{x^{2}}{t\ln t} \, dt$$
+$$ = x^{2}(\ln(\ln(x^{2}))-\ln(\ln(x))) $$
+Ainsi, 
+$$x\ln(2) \leq H(x) \leq x^{2}\ln(2)$$
+Par le théorème d'encadrement : 
+$$H(x) \underset{x \to 1^{+}}{\longrightarrow} \ln(2)$$
+en $1^{-}$ ca marche aussi.
+
+EXCAL 5
