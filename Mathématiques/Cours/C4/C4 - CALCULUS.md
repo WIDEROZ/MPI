@@ -705,3 +705,8 @@ Donc, $H(x)$ est bien définie,
 De même, si $x \in ]0, 1[$, $[x, x^{2}] \subset ]0, 1[$ et $H(x)$ est aussi définie. 
 
 EXCAL 4
+$f$ étant $\mathcal{C}^{0}$, d'après le TFA, 
+$$H(x) = F(x^{2}) - F(x)$$
+$F$ est donc, $\mathcal{C}^{1}$ car $F' = f$, comme $x \mapsto x^{2}$ l'est aussi, $H$ est de classe $\mathcal{C}^{1}$ sur $I$, et : 
+$$\forall x \in I, H'(x) = 2x F'(x^{2}) - F'(x) = \frac{x-1}{\ln(x)}$$
+Ainsi, $\forall x > 1$, 
