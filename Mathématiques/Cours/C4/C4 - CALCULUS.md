@@ -676,4 +676,32 @@ $$ = \frac{1}{\left| x-x_{0}\right|}\left| \int _{x_{0}}^{x} f - (x-x_{0})f(x_{0
 $$ = \frac{1}{\left| x-x_{0}\right|}\left| \int _{x_{0}}^{x}f(t) - f(x_{0}) \, dt  \right|\leq \frac{1}{\left| x-x_{0}\right|}\int _{x_{0}}^{x} \left| f(t)-f(x_{0})\right| \, dt $$
 si $x > 0$,
 Comme $f$ est continue en $x_{0}$, 
-$$\forall \varepsilon>0, \exists \alpha>0, \forall x \in \mathbb{1}$$
+$$\forall \varepsilon>0, \exists \alpha>0, \forall x \in I, \left| x-x_{0}\right|\leq \alpha \Rightarrow \left| f(x) - f(x_{0})\right|\leq \varepsilon$$
+Alors, 
+$$\forall t \in [x, x_{0}], \left| t-x_{0}\right|\leq \left| x-x_{0}\right|\leq \alpha$$
+$$\left| f(t) - f(x_{0})\right|\leq \varepsilon$$
+Intégrons : 
+$$\int _{0}^{x} \left| f(t) - f(x_{0})\right| \, dt \leq \int _{x_{0}}^{x}  \varepsilon \, dt = \varepsilon(x-x_{0}) \leq \varepsilon$$
+ainsi, 
+$$\forall x \in I, \left| \frac{F(x)-F(x_{0})}{x-x_{0}} -f(x_{0})\right|\leq \varepsilon$$
+ie, 
+$$\frac{F(x)-F(x_{0})}{x-x_{0}} \underset{x \to x_{0}}{\longrightarrow} f(x_{0})$$
+Ainsi, $F$ est dérivable de dérivé $f$. Evidemment, $F(a) = 0$.
+
+#### Exercice
+Etudier : 
+$$H : \begin{cases}
+\mathbb{R}_{+}^{*} \setminus \{ 1 \}\to \mathbb{R} \\
+x \mapsto \int _{x}^{x^{2}}  \frac{dt}{\ln(t)} 
+\end{cases}$$
+On pose : 
+$$f : \begin{cases}
+\mathbb{R}^{*}_{+}\setminus \{ 1 \} \to \mathbb{R} \\
+t\mapsto \frac{1}{\ln(t)}
+\end{cases} \in \mathcal{C}^{0}(\mathbb{R}_{+}^{*}\setminus \{ 1 \})$$
+Donc, 
+$$\forall x > 1,  [x, x^{2}] \subset ]1, + \infty[$$
+Donc, $H(x)$ est bien définie, 
+De même, si $x \in ]0, 1[$, $[x, x^{2}] \subset ]0, 1[$ et $H(x)$ est aussi définie. 
+
+EXCAL 4
