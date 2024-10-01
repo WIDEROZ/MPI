@@ -141,8 +141,8 @@ $$pKa = pH - \log\left( \frac{[F^{-}]}{[HF]} \right) = 3.19$$
 C'est un acide et une base (c'est un espèce amphotère)
 
 ## 2.
-$$HCO_{3}^{-} + Hasc \rightleftharpoons H_{2}O + CO_{2}$$
-$$Q = \frac{[HCO_{3}^{-}] \times [H_{asc}]}{[H_{2}O]\times [CO_{2}]} $$
-
-
+$$HCO_{3}^{-} + HAsc \rightleftharpoons H_{2}O + CO_{2} + Asc^{-}$$
+$$Q = \frac{[HCO_{3}^{-}] \times [HAsc]}{[H_{2}O]\times [CO_{2}]\times [Asc^{-}]} $$
 ## 3. 
+$$HCO_{3}^{-} + HCit \rightleftharpoons H_{2}O + CO_{2}+Cit^{-}$$
+$$Q = \frac{[HCO_{3}^{-}] \times [HCit]}{[H_{2}O]\times [CO_{2}]\times [Cit^{-}]} $$
