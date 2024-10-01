@@ -14,8 +14,4 @@ $$\left| f(x)\right|\leq Mx + \left| f(0)\right| \leq M \frac{\pi}{2} + \left| f
 Ainsi, $f$ est bien bornée. 
 
 ### b.
-$$\left| I_{f}(x) \right|\leq \int _{0}^{\frac{\pi}{2}} \left| f(t)e^{ ixt }\right|  \, dt \leq\left|\left| f \right|\right| _{\infty} \int _{0}^{\frac{\pi}{2}}  \left| e^{ ixt }\right| \, dt  $$
-Comme :
-$$\int_{0}^{\frac{\pi}{2}} e^{ ixt } \, dt =-i \frac{1}{x}\left( e^{ ix \frac{\pi}{2} }-1 \right)$$
-Alors,
-$$\left| \int_{0}^{\frac{\pi}{2}} e^{ ixt } \, dt\right| = \left| -i \frac{1}{x}\left( e^{ ix \frac{\pi}{2} }-1 \right)\right| \leq \int _{0}^{\frac{\pi}{2}} \left| e^{ ixt }\right| \, dt \leq \frac{\pi}{2}$$
+$$I_{f}(x) = []_{0}^{\frac{\pi}{2}} + i \frac{1}{x}\int _{0}^{\frac{\pi}{2}} f'(t)e^{ ixt } \, dt $$
