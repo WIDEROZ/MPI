@@ -138,7 +138,11 @@ $$pKa = pH - \log\left( \frac{[F^{-}]}{[HF]} \right) = 3.19$$
 
 # Exercice 5
 ## 1.
-C'est un acide et une base (c'est un acide amphotère)
+C'est un acide et une base (c'est un espèce amphotère)
 
 ## 2.
 $$HCO_{3}^{-} + Hasc \rightleftharpoons H_{2}O + CO_{2}$$
+$$Q = \frac{[HCO_{3}^{-}] \times [H_{asc}]}{[H_{2}O]\times [CO_{2}]} $$
+
+
+## 3. 
