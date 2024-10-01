@@ -650,3 +650,30 @@ car :
 $$\left| R_{n}\right| = \int _{0}^{1} t^{n}\times \frac{1}{1+t} \, dt \leq \int _{0}^{1} t^{n} \, dt = \frac{1}{n+1} \underset{n \to +\infty}{\longrightarrow} 0$$
 
 # IV. Théorème fondamental de l'analyse
+Soit $I$ un intervalle de $\mathbb{R}$, $f : I \to E$ et $a \in I$, 
+## Théorème : Version 1
+Si $f$ est continue, alors, 
+$$F : \begin{cases}
+I \to E \\
+x \mapsto \int _{a}^{x} f 
+\end{cases}$$
+est de dérivé $F' = f$ et $F(a) = 0$
+
+## Théorème : Version 2
+Si $f$ est continue, alors, 
+Pour toute primitive $H : I \to E$ de $f$, 
+$$\forall a, b \in I, \int _{a}^{b} f = H(b)-H(a) $$
+
+## Théorème : Version 3
+Si $f$ est de classe $\mathcal{C}^{1}$, 
+$$\forall a, b \in I, f(b) = f(a) + \int _{a}^{b} f' $$
+En particulier toute fonction continue de $I$ dans $E$ admet au moins une primitive. 
+
+#### Démonstration : Version 1
+Soit $x_{0} \in I$, 
+$$\forall x \in I, \left| \frac{F(x)-F(x_{0})}{x-x_{0}} -f(x_{0})\right|$$
+$$ = \frac{1}{\left| x-x_{0}\right|}\left| \int _{x_{0}}^{x} f - (x-x_{0})f(x_{0})   \right|$$
+$$ = \frac{1}{\left| x-x_{0}\right|}\left| \int _{x_{0}}^{x}f(t) - f(x_{0}) \, dt  \right|\leq \frac{1}{\left| x-x_{0}\right|}\int _{x_{0}}^{x} \left| f(t)-f(x_{0})\right| \, dt $$
+si $x > 0$,
+Comme $f$ est continue en $x_{0}$, 
+$$\forall \varepsilon>0, \exists \alpha>0, \forall x \in \mathbb{1}$$
