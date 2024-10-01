@@ -599,4 +599,21 @@ $$S_{n}(\left|\left| f \right|\right| ) \underset{n \to +\infty}{\longrightarrow
 
 De même, $S_{n}(f) \underset{n \to +\infty}{\longrightarrow} \int _{a}^{b} f$, et la continuité de $\left|\left| \cdot \right|\right|$ nous donne : 
 $$\left|\left| S_{n}(f) \right|\right| \underset{n \to +\infty}{\longrightarrow} \left|\left| \int _{a}^{b} f  \right|\right| $$
-Ainsi, en passant à la limite dans les inégalités 
+Ainsi, en passant à la limite dans les inégalités larges : 
+$$\left|\left| \int _{a}^{b} f  \right|\right| \leq \int _{a}^{b} \left|\left| f(t) \right|\right|  \, dt \leq(b-a)\left|\left| f \right|\right| _{\infty} $$
+
+#### Exercice
+Soit $f:[0, 2\pi] \to \mathbb{C} \in \mathcal{C}^{0}([0, 2\pi])$
+Notons : 
+$$I : \begin{cases}
+\mathbb{R} \to \mathbb{C} \\
+x \mapsto \int _{0}^{2\pi} f(t) \sin(xt) \, dt
+\end{cases}$$
+EXCAL 3.
+
+a. Montrons que $I$ est Lipschitzienne
+b. Lemme de Riemann Lebesgue : 
+Montrons que : $I(x) \underset{x \to +\infty}{\longrightarrow}0$ lorsque $f$ est $\mathcal{C}^{1}$
+
+a. 
+$$\int_{0}^{2\pi} f(t)(\sin(yt) - \sin(xt)) \, dt $$
