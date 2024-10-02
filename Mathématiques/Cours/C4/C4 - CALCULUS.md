@@ -755,9 +755,16 @@ $$H(x) \underset{x \to 0^{+}}{\longrightarrow} 0$$
 On veut comparer $f$ à un polynôme $T$ : 
 $$T : x \mapsto \sum_{k = 0}^{n} \frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k}$$
 Soit $n \in \mathbb{N}$, $f:I \to E$, de classe $\mathcal{C}^{n+1}$ et $x_{0} \in I$, 
-$$\forall x \in I, f(x) = \sum_{k = 0}^{n} \frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k} + \int _{x_{0}}^{x} \frac{(t-x_{0})^{n}}{n!}f^{(n+1)}(t) \, dt $$
+$$\forall x \in I, f(x) = \sum_{k = 0}^{n} \frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k} + \int _{x_{0}}^{x} \frac{(x_{0}-t)^{n}}{n!}f^{(n+1)}(t) \, dt $$
 
 Démonstration : Par récurrence
 Pour $n=0$ c'est le TFA
 Soit $n \in \mathbb{N}$ tel que : $f(x) = \dots$, 
-$$f(x) = T_{n}(x) + $$
+$$f(x) = T_{n}(x) + \int_{x_{0}}^{x} \frac{(x-t)^{n}}{n!}f^{(n+1)}(x) \, dx $$
+$$= T_{n}(x) + \left[ -\frac{(x-t)^{n+1}}{n!}f^{(n+1)}(t) \right]_{x_{0}}^{x} - \int _{x_{0}}^{x} -\frac{(x-t)^{n+1}}{(n+1)!}f^{(n+2)} \, dt $$
+$$= T_{n} + \frac{f^{(n+1)}(x_{0})}{(n+1)!}(x-x_{0})^{n+1} +R_{n+1} = T_{n+1} + R_{n+1}$$
+
+#### Exemple
+$$x-\frac{x^{3}}{6} \leq \sin(x) \leq x - \frac{x^{3}}{6}+\frac{x^{5}}{120}$$
+![[Pasted image 20241002081831.png]]
+$$\sin'w$$
