@@ -119,4 +119,4 @@ $$(v\circ u)(v(x))=v(u(v(x))) = v(\lambda x) = \lambda v(x)$$
 Soit $P \in E$, 
 $$\int_{1}^{X} P' =0 $$
 Par le TFA, $P'$ est constant.
-Ains
+Ainsi, $$\mathrm{Ker}(u \circ v)= Vect(1, X)$$
