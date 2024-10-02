@@ -109,3 +109,8 @@ x(t) =  (\mu + 2\lambda) e^{ t } - 2\mu t e^{ t }
 \end{cases}$$
 
 # CCINP 83
+## 1.
+Supposons qu'il existe $x \in E$, tel que
+$$(u\circ v)(\lambda) = \lambda x$$
+Alors, 
+$$(v \circ u)(v(\lambda)) = (v \circ u)(v(1_{}))$$
