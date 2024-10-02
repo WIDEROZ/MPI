@@ -80,4 +80,16 @@ Démonstration :
 $$\forall n \in \mathbb{N}, u_{n} = S_{n+1}-S_{n} \underset{n \to +\infty}{\longrightarrow}  S-S = 0$$
 
 #### Vocabulaire
-Si $u_{n} \underset{n \to +\infty}{\not\longrightarrow}$
+Si $u_{n} \underset{n \to +\infty}{\not\longrightarrow} 0$ $u_{n}$ DVG (diverge grossièrement)
+
+#### Exercice
+Discuter de la nature de : 
+$$\sum_{n \geq 1} \left( \cos\left( \frac{1}{n} \right) \right)^{n^{\alpha}}$$
+pour $\alpha \leq 2$, 
+On fait un DL de $\cos\left( \frac{1}{n} \right)$ ensuite de $n^{\alpha}\ln\left( \cos\left( \frac{1}{n} \right) \right)$ Puis on trouve un équivalent de $n^{\alpha}\ln\left( \cos\left( \frac{1}{n} \right) \right)$
+et on le met à l'exp puis on ses rend compte que la série DVG.
+
+## 4. Convergence absolue
+#### Définition
+Si $E \in \{ \mathbb{R}, \mathbb{C} \}$, 
+$$\forall (u_{n})_{n \in \mathbb{N}} \in \mathbb{K}^{\mathbb{N}}, \sum u_{n} \text{ CVA} \Leftrightarrow \sum \left| u_{n}\right| \text{ CV}$$
