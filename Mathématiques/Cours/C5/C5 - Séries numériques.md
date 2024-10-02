@@ -94,10 +94,26 @@ et on le met à l'exp puis on ses rend compte que la série DVG.
 Si $E \in \{ \mathbb{R}, \mathbb{C} \}$, 
 $$\forall (u_{n})_{n \in \mathbb{N}} \in \mathbb{K}^{\mathbb{N}}, \sum u_{n} \text{ CVA} \Leftrightarrow \sum \left| u_{n}\right| \text{ CV}$$
 
-#### A savoir
+#### A savoir (mais hors programme)
 On pose : 
 $$H_{n} = \sum_{k = 1}^{n} \frac{1}{k}$$Quand $n \underset{}{\longrightarrow} + \infty$ : 
 $$\begin{cases}
 H_{n} \sim \ln(n) \\
 \exists \lambda \in \mathbb{R}, h_{n} = \ln(n) + \lambda + o(n)
 \end{cases}$$
+
+Démonstration : 
+On pose : $u_{n} = H_{n}-\ln(n)$ et $a_{n} = u_{n} -\frac{1}{n}$, 
+$$u_{n+1}-u_{n} = \frac{1}{n+1} + \ln\left( 1-\frac{1}{n+1} \right) \leq 0$$
+Donc, $(u_{n}) \downarrow$ de même $(a_{n}) \uparrow$
+De plus, 
+$$u_{n} - a_{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+Alors, comme ces deux suites sont adjacentes, 
+$$\exists \lambda \in \mathbb{R}, u_{n} \underset{n \to +\infty}{\longrightarrow} \lambda$$
+ie 
+$$H_{n} - \ln(n) \underset{n \to +\infty}{\longrightarrow} \lambda$$
+ie 
+$$H_{n} -\ln(n) = \lambda + o(1)$$
+Ainsi, 
+$$H_{n} \sim \ln(n)$$
+
