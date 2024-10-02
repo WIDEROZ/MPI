@@ -113,4 +113,4 @@ x(t) =  (\mu + 2\lambda) e^{ t } - 2\mu t e^{ t }
 Supposons qu'il existe $x \in E$, tel que
 $$(u\circ v)(x) = \lambda x$$
 Alors, en composant par $v$, 
-$$(v \circ u)(v(x)) = (v \circ u)(\lambda x) = \lambda(v \circ u)(x)$$
+$$(v\circ (u\circ v))(x) = v(\lambda x) = \lambda v(x)$$
