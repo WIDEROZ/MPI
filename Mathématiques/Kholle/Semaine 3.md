@@ -58,8 +58,19 @@ $$X = \begin{pmatrix}
 x \\
 y
 \end{pmatrix} \text{ et } X' = AX = PTP^{-1}X $$
-On pose : 
-$$Y = P^{-1}X' = TP^{-1}(X) = \begin{pmatrix}
--1&-3 \\
-1&2
-\end{pmatrix}X$$
+On a : 
+$$P^{-1}(X') = TP^{-1}(X)$$
+Alors, 
+on pose : 
+$$Y = \begin{pmatrix}
+a \\
+b
+\end{pmatrix} = P^{-1}(X)$$
+Alors, $a = -y$ et $b = x+2y$, 
+Donc, 
+$$TY = \begin{pmatrix}
+a-b \\
+b
+\end{pmatrix}$$
+Ainsi, 
+$$$$
