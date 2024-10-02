@@ -63,4 +63,21 @@ Il suffit de prouver que la suite : $(S_{n})_{n \in \mathbb{N}^{*}}$, est major�
 Or, 
 $$\forall n \geq 2, \int_{n-1}^{n} \frac{dt}{t^{\alpha}} \geq \int_{n-1}^{n}  \frac{dt}{n^{\alpha}} = \frac{1}{n^{\alpha}} $$
 car $t \mapsto \frac{1}{t^{\alpha}}$ décroit du fait que $\alpha > 0$, 
-Aindi, 
+Ainsi, 
+$$\sum_{n = 1}^{N} \frac{1}{n^{\alpha}} = 1 + \sum_{n = 2}^{N} \frac{1}{n^{\alpha}} \leq 1+ \sum_{n = 2}^{N} \int_{n-1}^{n} \frac{dt}{t^{\alpha}} = 1+ \int_{1}^{N} \frac{dt}{t^{\alpha}}  $$
+$$= 1+ \frac{1-N^{1-\alpha}}{\alpha-1} \leq 1+ \frac{1}{\alpha -1}$$
+indépandant de $N$
+Ainsi $(S_{n+1}-S_{n})$ croit et est majorée donc elle CV. 
+
+## 3. Structure
+#### Remarque
+Si on casse une série CV les deux séries ne sont pas FORCEMENT CV. 
+
+#### Propriété
+$$S = \sum_{n \in \mathbb{N}} u_{n} \text{ CV} \Rightarrow u_{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+
+Démonstration : 
+$$\forall n \in \mathbb{N}, u_{n} = S_{n+1}-S_{n} \underset{n \to +\infty}{\longrightarrow}  S-S = 0$$
+
+#### Vocabulaire
+Si $u_{n} \underset{n \to +\infty}{\not\longrightarrow}$
