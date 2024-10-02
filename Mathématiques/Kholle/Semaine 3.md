@@ -97,3 +97,47 @@ b(x) = x+2y
 y(t) = Bte^{ x }-Ae^{ x } \\
 x(t) = (2A+B)e^{ x }-2Bte^{ x }
 \end{cases}$$
+
+
+## 3.
+On pose : 
+$$X = \begin{pmatrix}
+x \\
+y
+\end{pmatrix} \text{ et } X' = \begin{pmatrix}
+x' \\
+y'
+\end{pmatrix}$$
+On a alors, 
+$$X' = AX$$
+Comme $A = PTP^{-1}$, 
+$$P^{-1}(X') = TP^{-1}(X)$$
+On pose alors, pour $a, b \in \mathcal{C}^{1}(\mathbb{R})$, 
+$$Y = P^{-1}(X) = \begin{pmatrix}
+a \\
+b
+\end{pmatrix} \text{ et } Y' = P^{-1}(X') = \begin{pmatrix}
+a' \\
+b'
+\end{pmatrix}$$
+Alors, 
+$$Y' = TY \Leftrightarrow \begin{cases}
+a' = a-b \\
+b' = b
+\end{cases} $$
+Donc, il existe $\lambda, \mu \in \mathbb{R}$ tels que : 
+$$\begin{cases}
+a_{H}(x) = \lambda e^{ x } \\
+b(x) = \mu e^{ x }
+\end{cases}$$
+puis on calcule la sol. de :
+$$a'(x) = a(x) - b(x)$$
+par la méthode de la variation de la constante, 
+Soit $K \in \mathcal{C}^{1}$, 
+$$a(x) = K(x)e^{ x }$$
+Alors, 
+$$K'(x)e^{ x } + K(x)e^{ x } = K(x)e^{ x } -\mu e^{ x }$$
+Ainsi, 
+$$K(x) = -\mu x$$
+Donc, 
+$$a(x) = -\mu xe^{ x }$$
