@@ -52,3 +52,15 @@ Si $\alpha \leq 1$,
 $$\forall n \in \mathbb{N}^{*}, n^{\alpha} \leq n \Leftrightarrow \frac{1}{n^{\alpha}}\geq \frac{1}{n}$$
 Alors, 
 $$\frac{1}{n^{\alpha}}\geq \ln\left( 1+\frac{1}{n} \right)$$
+car $\forall x \in ]-1, + \infty], \ln(1+x) \leq x$
+Ainsi, 
+$$\sum_{k = 1}^{n} \frac{1}{k^{\alpha}} \geq \sum_{k =1}^{n} \ln\left( 1+\frac{1}{k} \right)=\ln(n+1)$$
+
+$$\sum_{k = 1}^{n} \frac{1}{k^{\alpha}} \underset{n \to +\infty}{\longrightarrow} + \infty$$
+Si $\alpha > 1$, 
+$$S_{n+1}-S_{n} = \frac{1}{(n+1)^{\alpha}}\geq 0 \text{ donc }(S_{n}) \uparrow$$
+Il suffit de prouver que la suite : $(S_{n})_{n \in \mathbb{N}^{*}}$, est majorée, 
+Or, 
+$$\forall n \geq 2, \int_{n-1}^{n} \frac{dt}{t^{\alpha}} \geq \int_{n-1}^{n}  \frac{dt}{n^{\alpha}} = \frac{1}{n^{\alpha}} $$
+car $t \mapsto \frac{1}{t^{\alpha}}$ décroit du fait que $\alpha > 0$, 
+Aindi, 
