@@ -789,9 +789,20 @@ Soit $r \in ]-1, 1[$
 Calculer
 $$I = \int_{0}^{\pi} \frac{d\theta}{r^{2}-2r\cos(\theta)+1} \, d\theta $$
 Soit $\varepsilon \in ]0, \pi[$, 
-$$\int_{0}^{\pi-\varepsilon} \frac{d\theta}{r^{2}-2r\cos(\theta)+1} \, d\theta $$
+$$I_{\varepsilon} = \int_{0}^{\pi-\varepsilon} \frac{d\theta}{r^{2}-2r\cos(\theta)+1} \, d\theta $$
 On fait un ch de var : 
 $$\begin{cases}
 t = \tan\left( \frac{\theta}{2} \right) \\
 dt = \frac{1}{2}(1+t^{2})d\theta
 \end{cases}$$
+$$I_{\varepsilon} = \int _{0}^{\tan\left( \frac{\pi-\varepsilon}{2} \right)} \frac{2}{(1+t^{2})\left( r^{2}-2r\frac{1-t^{2}}{1+t^{2}}+1 \right)} \, dt $$
+$$= 2\int_{0}^{\tan\left( \frac{\pi-\varepsilon}{2}  \right)} \frac{dt}{t^{2}(r+1)^{2}+(r-1)^{2}}  $$
+$$= \frac{2}{(r-1)^{2}} \int _{0}^{\tan\left(  \frac{\pi-\varepsilon}{2} \right)} \frac{dt}{\left( \frac{r+1}{r-1} \right)^{2}t^{2} + 1} $$
+$$= \frac{2}{(r-1)(r+1)} \int_{0}^{ \frac{1-r}{1+r} \tan\left( \frac{\pi-\varepsilon}{2} \right)}  \frac{dy}{1+y^{2}} $$
+$$ = \frac{2}{r^{2} -1}\arctan\left( \frac{1+r}{1-r}\tan\frac{\pi-\varepsilon}{2} \right)$$
+Ainsi,
+$$I_{\varepsilon} \underset{\varepsilon \to 0^{+}}{\longrightarrow}  \frac{\pi}{1-r^{2}}$$
+Comme 
+$$I = \lim_{ \varepsilon \to 0^{+} } I_{\varepsilon} $$
+alors, 
+$$I = \frac{\pi}{1-r^{2}}$$
