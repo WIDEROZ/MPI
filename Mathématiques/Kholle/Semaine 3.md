@@ -34,12 +34,32 @@ $$E_{1}(A) = Vect\begin{pmatrix}
 $\chi_{A}$ est scindé donc, $A$ est trigonalisable
 En posant : 
 $$T = \begin{pmatrix}
-1&1 \\
+1&-1 \\
 0&1
 \end{pmatrix} \text{ et } P = \begin{pmatrix}
 2&1 \\
 -1&0
 \end{pmatrix} \text{ alors }P^{-1} = \begin{pmatrix}
-0&1 \\
--1&2
+0&-1 \\
+1&2
 \end{pmatrix}$$
+Donc, 
+$$P^{-1}AP = \begin{pmatrix}
+-1&-3 \\
+1&2
+\end{pmatrix}P = \begin{pmatrix}
+1&-1 \\
+0&1
+\end{pmatrix}$$
+
+## 3.
+On pose :
+$$X = \begin{pmatrix}
+x \\
+y
+\end{pmatrix} \text{ et } X' = AX = PTP^{-1}X $$
+On pose : 
+$$Y = P^{-1}X' = TP^{-1}(X) = \begin{pmatrix}
+-1&-3 \\
+1&2
+\end{pmatrix}X$$
