@@ -25,3 +25,21 @@ $$\dim \mathrm{Ker}\begin{pmatrix}
 -2&-4 \\
 1&2
 \end{pmatrix} = 1$$
+
+## 2.
+$$E_{1}(A) = Vect\begin{pmatrix}
+2 \\
+-1
+\end{pmatrix}$$
+$\chi_{A}$ est scindé donc, $A$ est trigonalisable
+En posant : 
+$$T = \begin{pmatrix}
+1&1 \\
+0&1
+\end{pmatrix} \text{ et } P = \begin{pmatrix}
+2&1 \\
+-1&0
+\end{pmatrix} \text{ alors }P^{-1} = \begin{pmatrix}
+0&1 \\
+-1&2
+\end{pmatrix}$$
