@@ -93,3 +93,11 @@ et on le met à l'exp puis on ses rend compte que la série DVG.
 #### Définition
 Si $E \in \{ \mathbb{R}, \mathbb{C} \}$, 
 $$\forall (u_{n})_{n \in \mathbb{N}} \in \mathbb{K}^{\mathbb{N}}, \sum u_{n} \text{ CVA} \Leftrightarrow \sum \left| u_{n}\right| \text{ CV}$$
+
+#### A savoir
+On pose : 
+$$H_{n} = \sum_{k = 1}^{n} \frac{1}{k}$$Quand $n \underset{}{\longrightarrow} + \infty$ : 
+$$\begin{cases}
+H_{n} \sim \ln(n) \\
+\exists \lambda \in \mathbb{R}, h_{n} = \ln(n) + \lambda + o(n)
+\end{cases}$$
