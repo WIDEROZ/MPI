@@ -65,12 +65,26 @@ on pose :
 $$Y = \begin{pmatrix}
 a \\
 b
-\end{pmatrix} = P^{-1}(X)$$
-Alors, $a = -y$ et $b = x+2y$, 
+\end{pmatrix} = P^{-1}(X) \text{ et } Y' = \begin{pmatrix}
+a' \\
+b'
+\end{pmatrix} = P^{-1}(X')$$
+Alors, 
 Donc, 
 $$TY = \begin{pmatrix}
 a-b \\
 b
+\end{pmatrix} = \begin{pmatrix}
+a' \\
+b'
 \end{pmatrix}$$
-Ainsi, 
-$$$$
+Alors, 
+il existe $B \in \mathbb{R}$ tel que : 
+$$b(x) = Be^{ x }$$
+et 
+$$a'(x) = a(x) -Be^{ x }$$
+Alors, il existe un $A \in \mathbb{R}$ tel que la solution homogène de $a$ est : 
+$$a_{H}(x) = Ae^{ x }$$
+Par la méthode de variation de la constante on obtiens : 
+$$A' =  - B$$
+$A' = -B$
