@@ -110,6 +110,7 @@ x(t) =  (\mu + 2\lambda) e^{ t } - 2\mu t e^{ t }
 
 # CCINP 83
 ## 1.
+Soit $\lambda \in \mathbb{R}\setminus \{ 0 \}$, 
 Supposons qu'il existe $x \in E$, tel que
 $$(u\circ v)(x) = \lambda x$$
 Alors, en composant par $v$, 
@@ -126,3 +127,13 @@ Alors,
 $$\int _{1}^{X} P \text{ est constant}$$
 Alors, $P = 0$, 
 Ainsi, 
+$$\mathrm{Ker}(v \circ u) = \{ 0 \}$$
+
+
+
+
+
+## 3.
+Supposons qu'il existe $x \in E$, tel que
+$$(u\circ v)(x) = 0x$$
+ie $x \in \mathrm{Ker}(u \circ v)$, 
