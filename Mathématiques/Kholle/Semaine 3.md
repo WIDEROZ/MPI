@@ -57,11 +57,11 @@ On pose :
 $$X = \begin{pmatrix}
 x \\
 y
-\end{pmatrix} \text{ et } X' = AX = PTP^{-1}X $$
-On a : 
-$$P^{-1}(X') = TP^{-1}(X)$$
-Alors, 
-on pose : 
+\end{pmatrix} \text{ et } X' = \begin{pmatrix}
+x' \\
+y'
+\end{pmatrix} = AX = PTP^{-1}X $$
+et
 $$Y = \begin{pmatrix}
 a \\
 b
@@ -70,7 +70,6 @@ a' \\
 b'
 \end{pmatrix} = P^{-1}(X')$$
 Alors, 
-Donc, 
 $$TY = \begin{pmatrix}
 a-b \\
 b
@@ -87,4 +86,14 @@ Alors, il existe un $A \in \mathbb{R}$ tel que la solution homogène de $a$ est 
 $$a_{H}(x) = Ae^{ x }$$
 Par la méthode de variation de la constante on obtiens : 
 $$A' =  - B$$
-$A' = -B$
+Alors une sol part de cette équa diff est : $a_{p}(x) = -Bte^{ x }$
+Donc, 
+$$a(x) = Ae^{ x } -Bte^{ x }$$
+Ainsi, comme : 
+$$\begin{cases}
+a(x) = -y \\
+b(x) = x+2y
+\end{cases} \text{ alors }\begin{cases}
+y(t) = Bte^{ x }-Ae^{ x } \\
+x(t) = (2A+B)e^{ x }-2Bte^{ x }
+\end{cases}$$
