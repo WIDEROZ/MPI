@@ -798,11 +798,12 @@ dt = \frac{1}{2}(1+t^{2})d\theta
 $$I_{\varepsilon} = \int _{0}^{\tan\left( \frac{\pi-\varepsilon}{2} \right)} \frac{2}{(1+t^{2})\left( r^{2}-2r\frac{1-t^{2}}{1+t^{2}}+1 \right)} \, dt $$
 $$= 2\int_{0}^{\tan\left( \frac{\pi-\varepsilon}{2}  \right)} \frac{dt}{t^{2}(r+1)^{2}+(r-1)^{2}}  $$
 $$= \frac{2}{(r-1)^{2}} \int _{0}^{\tan\left(  \frac{\pi-\varepsilon}{2} \right)} \frac{dt}{\left( \frac{r+1}{r-1} \right)^{2}t^{2} + 1} $$
-$$= \frac{2}{(r-1)(r+1)} \int_{0}^{ \frac{1-r}{1+r} \tan\left( \frac{\pi-\varepsilon}{2} \right)}  \frac{dy}{1+y^{2}} $$
-$$ = \frac{2}{r^{2} -1}\arctan\left( \frac{1+r}{1-r}\tan\frac{\pi-\varepsilon}{2} \right)$$
+en posant : $y = \frac{r+1}{r-1}t$ alors, $dy = \frac{r+1}{r-1}dt$
+$$= \frac{2}{(1+r)^{2}} \int_{0}^{ \frac{1-r}{1+r} \tan\left( \frac{\pi-\varepsilon}{2} \right)}  \frac{dy}{1+y^{2}} $$
+$$ = \frac{2}{(1+r)^{2}}\arctan\left( \frac{1+r}{1-r}\tan\frac{\pi-\varepsilon}{2} \right)$$
 Ainsi,
-$$I_{\varepsilon} \underset{\varepsilon \to 0^{+}}{\longrightarrow}  \frac{\pi}{1-r^{2}}$$
+$$I_{\varepsilon} \underset{\varepsilon \to 0^{+}}{\longrightarrow}  \frac{\pi}{(1+r)^{2}}$$
 Comme 
 $$I = \lim_{ \varepsilon \to 0^{+} } I_{\varepsilon} $$
 alors, 
-$$I = \frac{\pi}{1-r^{2}}$$
+$$I = \frac{\pi}{(1+r)^{2}}$$
