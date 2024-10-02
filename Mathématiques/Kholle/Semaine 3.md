@@ -12,12 +12,16 @@ On pose $\lambda = ab+bc-ac$,
 cas $\lambda > 0$ alors, le poly est scindé a racines simples donc DZ, 
 Si $\lambda <0$, le poly n'est pas scindé 
 Si $\lambda = 0$, 
-Alors, la matrice est triangulaire a diag nulle donc, 
-$$\begin{cases}
-a=c=0 \\
-a=b=0
-\end{cases}$$
-Dans les deux cas, $a = 0$, alors, $bc = 0$, 
-si $b = 0$ : 
-$$1\leq \dim \mathrm{Ker}(M) = 3-\mathrm{rg}(M) = 2 \leq 3$$
-Comme $0$ est la seuble 
+$$M = 0 \Leftrightarrow M \text{ est diag}$$
+$\Rightarrow$ : ez
+$\Leftarrow$ : 
+$\dim \mathrm{Ker}(M) = 3$ car $0$ est la seule vp de $M$ et elle est diag.
+
+# CCINP 75
+## 1.
+$$\chi_{A}(X) = (X+1)(X-3)+4 = X^{2}-2X+1 = (X-1)^{2}$$
+Alors, 
+$$\dim \mathrm{Ker}\begin{pmatrix}
+-2&-4 \\
+1&2
+\end{pmatrix} = 1$$
