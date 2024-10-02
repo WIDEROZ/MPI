@@ -53,53 +53,6 @@ $$P^{-1}AP = \begin{pmatrix}
 \end{pmatrix}$$
 
 ## 3.
-On pose :
-$$X = \begin{pmatrix}
-x \\
-y
-\end{pmatrix} \text{ et } X' = \begin{pmatrix}
-x' \\
-y'
-\end{pmatrix} = AX = PTP^{-1}X $$
-et
-$$Y = \begin{pmatrix}
-a \\
-b
-\end{pmatrix} = P^{-1}(X) \text{ et } Y' = \begin{pmatrix}
-a' \\
-b'
-\end{pmatrix} = P^{-1}(X')$$
-Alors, 
-$$TY = \begin{pmatrix}
-a-b \\
-b
-\end{pmatrix} = \begin{pmatrix}
-a' \\
-b'
-\end{pmatrix}$$
-Alors, 
-il existe $B \in \mathbb{R}$ tel que : 
-$$b(x) = Be^{ x }$$
-et 
-$$a'(x) = a(x) -Be^{ x }$$
-Alors, il existe un $A \in \mathbb{R}$ tel que la solution homogène de $a$ est : 
-$$a_{H}(x) = Ae^{ x }$$
-Par la méthode de variation de la constante on obtiens : 
-$$A' =  - B$$
-Alors une sol part de cette équa diff est : $a_{p}(x) = -Bte^{ x }$
-Donc, 
-$$a(x) = Ae^{ x } -Bte^{ x }$$
-Ainsi, comme : 
-$$\begin{cases}
-a(x) = -y \\
-b(x) = x+2y
-\end{cases} \text{ alors }\begin{cases}
-y(t) = Bte^{ x }-Ae^{ x } \\
-x(t) = (2A+B)e^{ x }-2Bte^{ x }
-\end{cases}$$
-
-
-## 3.
 On pose : 
 $$X = \begin{pmatrix}
 x \\
@@ -127,17 +80,32 @@ b' = b
 \end{cases} $$
 Donc, il existe $\lambda, \mu \in \mathbb{R}$ tels que : 
 $$\begin{cases}
-a_{H}(x) = \lambda e^{ x } \\
-b(x) = \mu e^{ x }
+a_{H}(t) = \lambda e^{ t } \\
+b(t) = \mu e^{ t }
 \end{cases}$$
 puis on calcule la sol. de :
-$$a'(x) = a(x) - b(x)$$
+$$a'(t) = a(t) - b(t)$$
 par la méthode de la variation de la constante, 
-Soit $K \in \mathcal{C}^{1}$, 
-$$a(x) = K(x)e^{ x }$$
+Soit $K \in \mathcal{C}^{1}(\mathbb{R})$, 
+Soit $t \in \mathbb{R}$, 
+$$a(t) = K(t)e^{ t }$$
 Alors, 
-$$K'(x)e^{ x } + K(x)e^{ x } = K(x)e^{ x } -\mu e^{ x }$$
-Ainsi, 
-$$K(x) = -\mu x$$
+$$K'(t)e^{ t } + K(t)e^{ t } = K(t)e^{ t } -\mu e^{ t }$$
+enfin, 
+$$K(t) = -\mu t$$
 Donc, 
-$$a(x) = -\mu xe^{ x }$$
+$$a_{p}(t) = -\mu te^{ t }$$
+Ainsi, 
+$$a(t) = \lambda e^{ t } - \mu te^{ t }$$
+Puis comme : 
+$$\begin{cases}
+a(t) = -y(t) \\
+b(t) = x(t) +2y(t)
+\end{cases}$$
+Ainsi, 
+$$\begin{cases}
+y(t) = \mu te^{ t }-\lambda e^{ t } \\
+x(t) =  (\mu + 2\lambda) e^{ t } - 2\mu t e^{ t }
+\end{cases}$$
+
+# CCINP 83
