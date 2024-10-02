@@ -116,7 +116,13 @@ Alors, en composant par $v$,
 $$(v\circ u)(v(x))=v(u(v(x))) = v(\lambda x) = \lambda v(x)$$
 
 ## 2.
-Soit $P \in E$, 
+Soit $P \in \mathrm{Ker}(u \circ v)$, 
 $$\int_{1}^{X} P' =0 $$
-Par le TFA, $P'$ est constant.
-Ainsi, $$\mathrm{Ker}(u \circ v)= Vect(1, X)$$
+Par le TFA, $P$ est constant.
+Ainsi, $$\mathrm{Ker}(u \circ v)= Vect(1)$$
+Soit $P \in \mathrm{Ker}(v \circ u)$,
+$$\left( \int _{1}^{X} P  \right)' = 0$$
+Alors, 
+$$\int _{1}^{X} P \text{ est constant}$$
+Alors, $P = 0$, 
+Ainsi, 
