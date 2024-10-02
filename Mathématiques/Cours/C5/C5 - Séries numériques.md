@@ -31,4 +31,24 @@ car :
 $$\frac{1}{n(n+1)} = \frac{1}{n} -\frac{1}{n+1}$$
 et $\left( \frac{1}{n} \right)_{n \in \mathbb{N}^{*}}$ CV
 De plus, 
-$$\sum_{n =1}^{+ \infty} \frac{1}{n} -\frac{1}{}$$
+$$\sum_{n = 1}^{+ \infty} \frac{1}{n(n+1)} = \sum_{n =1}^{+ \infty} \frac{1}{n} -\frac{1}{n+1} $$
+$$= \lim_{ n \to +\infty } \sum_{k = 0}^{n} \left( \frac{1}{k}- \frac{1}{k+1} \right) = \lim_{ n \to +\infty } \left( 1-\frac{1}{n+1} \right) = 1$$
+___
+$$\sum_{n \geq 1} \ln\left( 1+ \frac{1}{n} \right) \text{ DV}$$
+car : 
+$$\ln(n+1) - \ln(n) = \ln\left( 1+\frac{1}{n} \right)$$
+
+#### Séries géométriques
+Soit $r \in \mathbb{C}$, 
+$$\sum_{n \in \mathbb{N}}r^{n} \text{ CV} \Leftrightarrow \left| r\right|< 1$$
+i.e. 
+$$\sum_{n = 0}^{+ \infty} r^{n}= \frac{1}{1-r}$$
+
+#### Série de Riemann
+$$\forall \alpha \in \mathbb{R}, \sum_{n \geq 1} \frac{1}{n^{\alpha}} \text{ CV} \Leftrightarrow \alpha > 1$$
+
+Démonstration : 
+Si $\alpha \leq 1$, 
+$$\forall n \in \mathbb{N}^{*}, n^{\alpha} \leq n \Leftrightarrow \frac{1}{n^{\alpha}}\geq \frac{1}{n}$$
+Alors, 
+$$\frac{1}{n^{\alpha}}\geq \ln\left( 1+\frac{1}{n} \right)$$
