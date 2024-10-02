@@ -782,4 +782,16 @@ $$= M_{n+1} \frac{(x-x_{0})^{n+1}}{(n+1)!}$$
 #### Inégalité de Taylor-Young
 Elle nous donne des infos que sur un voisinage de $x_{0}$ dont on ne sait rien. (on  la dit locale)
 Si $f$ est $\mathcal{C}^{n}$ sur $I$, 
-$$\forall x_{0} \in I, f(x) = \sum_{k = 0}^{n} f^{(k)} \frac{(x-x_{0})^{t}}{}$$
+$$\forall x_{0} \in I, f(x) = \sum_{k = 0}^{n} f^{(k)} \frac{(x-x_{0})^{k}}{k!} + o((x-x_{0})^{n})$$
+
+#### Exercice
+Soit $r \in ]-1, 1[$
+Calculer
+$$I = \int_{0}^{\pi} \frac{d\theta}{r^{2}-2r\cos(\theta)+1} \, d\theta $$
+Soit $\varepsilon \in ]0, \pi[$, 
+$$\int_{0}^{\pi-\varepsilon} \frac{d\theta}{r^{2}-2r\cos(\theta)+1} \, d\theta $$
+On fait un ch de var : 
+$$\begin{cases}
+t = \tan\left( \frac{\theta}{2} \right) \\
+dt = \frac{1}{2}(1+t^{2})d\theta
+\end{cases}$$
