@@ -113,4 +113,10 @@ x(t) =  (\mu + 2\lambda) e^{ t } - 2\mu t e^{ t }
 Supposons qu'il existe $x \in E$, tel que
 $$(u\circ v)(x) = \lambda x$$
 Alors, en composant par $v$, 
-$$(v\circ (u\circ v))(x) = v(\lambda x) = \lambda v(x)$$
+$$(v\circ u)(v(x))=v(u(v(x))) = v(\lambda x) = \lambda v(x)$$
+
+## 2.
+Soit $P \in E$, 
+$$\int_{1}^{X} P' =0 $$
+Par le TFA, $P'$ est constant.
+Ains
