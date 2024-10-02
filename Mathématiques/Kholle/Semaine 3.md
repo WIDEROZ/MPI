@@ -120,7 +120,7 @@ $$(v\circ u)(v(x))=v(u(v(x))) = v(\lambda x) = \lambda v(x)$$
 Soit $P \in \mathrm{Ker}(u \circ v)$, 
 $$\int_{1}^{X} P' =0 $$
 Par le TFA, $P$ est constant.
-Ainsi, $$\mathrm{Ker}(u \circ v)= Vect(1)$$
+Ainsi, $$\mathrm{Ker}(u \circ v)= \mathbb{R}_{0}[X]$$
 Soit $P \in \mathrm{Ker}(v \circ u)$,
 $$\left( \int _{1}^{X} P  \right)' = 0$$
 Alors, 
