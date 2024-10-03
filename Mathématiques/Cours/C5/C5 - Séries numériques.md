@@ -217,5 +217,29 @@ $$\begin{rcases}
 \sum a_{n} \text{ CV}
 \end{rcases} \Rightarrow \sum u_{n} \text{ CV}$$
 $$\begin{rcases}
-u_{n} 
-\end{rcases}$$
+u_{n} = O(a_{n}) \text{ ou }u_{n} = o(a_{n}) \\
+\sum a_{n} \text{ CV}
+\end{rcases}\Rightarrow \sum u_{n} \text{ CV}$$
+$$u_{n} \sim a_{n} \Rightarrow \left( \sum_{n \in \mathbb{N}} u_{n} \text{ CV} \Leftrightarrow \sum_{n \in \mathbb{N}} a_{n} \text{ CV} \right)$$
+Démonstration 1. : 
+Maâloul
+Notons, 
+$$A = \sum_{n = 0}^{ + \infty} a_{n} \in \mathbb{R}$$
+Comme $\forall n \in \mathbb{N}, a_{n}\geq 0$, 
+$$\sum_{k =0}^{n}a_{k} \leq A$$
+Ainsi, 
+$$\sum_{k=0}^{n}u_{k} \leq A$$
+Et comme $\sum_{k \in \mathbb{N}}u_{k}$ est une SATP dont la suite des sommes partielles est majorée, elle converge. 
+
+Démonstration 2. : 
+Ici $u_{n}$ et $a_{n}$ sont positifs, alors, 
+$$\forall n \in \mathbb{N}, 0\leq u_{n} \leq M a_{n}$$
+Comme : 
+$$\sum_{n \in \mathbb{N}} Ma_{n} \text{ CV}$$
+on conclut avec le $1.$
+
+Démonstration 3. : 
+ez
+
+#### Corollaire
+Soient $(u_{n})_{n \in \mathbb{N}}$ et $(a_{n})_{n i}$
