@@ -158,6 +158,16 @@ $$\begin{cases}
 \end{cases}$$
 En faisant un PDF à $M$ par rapport à $\mathcal{R}'$, 
 $$\vec{a'} = \left( 2a\sin(\theta)-\frac{T}{m}-g\cos(\theta) \right)\vec{e}_{r} + (2a\cos(\theta)+g\sin(\theta))\vec{e}_{\theta}$$
-$$\left| \begin{array}{c}
-
-\end{array}\right|$$
+$$\left| \begin{array}{l}
+-l\dot{\theta}^{2} \\
+l\ddot{\theta}
+\end{array}\right. = \left| \begin{array}{l}
+2a\sin (\theta) - \frac{T}{m} - g\cos(\theta) \\
+2a\cos(\theta)+g\sin(\theta)
+\end{array}\right.$$
+On veut que le pendule soit à l'équilibre donc $\theta = \text{cte}$, 
+Alors, 
+$$2a\cos(\theta) + g\sin(\theta) = 0$$
+Mais continuons a intégrer :
+$$ l\frac{d\dot{\theta^{2}}}{dt} = 2l\dot{\theta} \ddot{\theta} = 4a\dot{\theta}\cos(\theta) + 2g\dot{\theta}\sin(\theta)$$
+$$l\dot{\theta}^{2} = 4a\sin(\theta) - 2 g \cos(\theta)$$
