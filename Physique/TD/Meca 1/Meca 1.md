@@ -151,10 +151,13 @@ Le train est en translation rectiligne alors,
 pour $h = cte$ la hauteur du train, 
 BDF
 $$\begin{cases}
-\vec{f}_{i, e} = -m\frac{d^{2} \overrightarrow{OO'}}{dt^{2}} = -m\frac{d^{2}(y\vec{e}_{y}+h\vec{e}_{z})}{dt} = 2am\vec{e}_{y}\\
+\vec{f}_{i, e} = -m\frac{d^{2} \overrightarrow{OO'}}{dt^{2}} = -m\frac{d^{2}(y\vec{e}_{y}+h\vec{e}_{z})}{dt} = 2am\vec{e}_{y} = 2am(\sin(\theta)\vec{e}_{r} + \cos(\theta)\vec{e}_{\theta})\\
 \vec{f}_{i, c} = 0 \\
 \vec{T} = -T\vec{e}_{r} \\
-\vec{P} = -mg\vec{e}_{z} = -mg()
+\vec{P} = -mg\vec{e}_{z} = -mg(\cos(\theta)\vec{e}_{r} -\sin(\theta)\vec{e}_{\theta})
 \end{cases}$$
 En faisant un PDF à $M$ par rapport à $\mathcal{R}'$, 
-$$m\vec{a'} = -mg$$
+$$\vec{a'} = \left( 2a\sin(\theta)-\frac{T}{m}-g\cos(\theta) \right)\vec{e}_{r} + (2a\cos(\theta)+g\sin(\theta))\vec{e}_{\theta}$$
+$$\left| \begin{array}{c}
+
+\end{array}\right|$$
