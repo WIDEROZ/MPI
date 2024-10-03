@@ -136,4 +136,7 @@ $$\mathrm{Ker}(v \circ u) = \{ 0 \}$$
 ## 3.
 Supposons qu'il existe $x \in E$, tel que
 $$(u\circ v)(x) = 0x$$
-ie $x \in \mathrm{Ker}(u \circ v)$, 
+ie $x \in \mathrm{Ker}(u \circ v)$. 
+
+___
+# CCINP
