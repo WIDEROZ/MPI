@@ -93,9 +93,20 @@ BDF
 $$\begin{cases}
 \vec{P} = -mg\vec{e}_{y'} \\
 \vec{F}_{r} = -k(l-l_{0})\vec{e}_{x'} = -k(x'-l_{0})\vec{e}_{x'} \\
-\vec{f}_{c} = -2m(\vec{\Omega} \wedge \vec{v'}) = -2m \Omega v (\vec{e}_{z} \wedge \vec{e}_{y'}) = 2m\Omega v\vec{e}_{x'}\\
+\vec{f}_{c} = -2m(\vec{\Omega} \wedge \vec{v'}) = -2m\Omega v'\vec{e}_{y'} = -2m\Omega \dot{x'} \vec{e}_{y'}\\
 \vec{f}_{e} = m\Omega^{2} \overrightarrow{HM} = m\Omega^{2}\overrightarrow{x'} = m\Omega^{2} x' \vec{e}_{x'}
 \end{cases}$$
-avec $H$ le projeté de $M$ sur l'axe $\Omega$ alors, $H = O' = O$, 
+avec $H$ le projeté de $M$ sur l'axe $\Omega$ alors, $H = O' = O$,
+et $v'$ algébrique
 Donc, 
-$$m\vec{a} = (-mg)$$
+$$m\vec{a'} = (m\Omega^{2} x'-k(x'-l_{0}))\vec{e}_{x'}-m(g+2\Omega \dot{x'})\vec{e}_{y'}$$
+Alors, 
+$$\vec{a'} \left| \begin{array}{l}
+\Omega^{2}x'-\frac{k}{m}(x'-l_{0}) = \frac{kl_{0}}{m} - \left( \Omega^{2} + \frac{k}{m} \right)x' \\
+-g-2\Omega \dot{x'}
+\end{array}\right.$$
+Donc, 
+$$\vec{v'} \left| \begin{array}{l}
+\frac{kl_{0}}{m}t -  \\
+-gt-2\Omega x'
+\end{array}\right.$$
