@@ -84,3 +84,13 @@ $$\vec{a} \left| \begin{array}{l}
 -\frac{g}{2}t^{2}+h
 \end{array}\right.$$
 $$y = -\frac{g}{2}t^{2} + h$$
+Comme $x = 0$, la trajectoire est rectiligne par rapport à $\vec{e}_{y}$.
+
+
+# Exercice 2
+## 1.
+BDF
+$$\begin{cases}
+\vec{P} = -mg\vec{e}_{y'} \\
+\vec{F}_{r} = -k(l-l_{0})\vec{e}_{x'}
+\end{cases}$$
