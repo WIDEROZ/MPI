@@ -93,8 +93,9 @@ BDF
 $$\begin{cases}
 \vec{P} = -mg\vec{e}_{y'} \\
 \vec{F}_{r} = -k(l-l_{0})\vec{e}_{x'} = -k(x'-l_{0})\vec{e}_{x'} \\
-\vec{f}_{c} = -m 2(\vec{\Omega} \wedge \vec{v'}) \\
-\vec{f}_{e} = m\omega^{2} \overrightarrow{HM} = m\omega^{2}\overrightarrow{x'}
+\vec{f}_{c} = -2m(\vec{\Omega} \wedge \vec{v'}) = -2m \Omega v (\vec{e}_{z} \wedge \vec{e}_{y'}) = 2m\Omega v\vec{e}_{x'}\\
+\vec{f}_{e} = m\Omega^{2} \overrightarrow{HM} = m\Omega^{2}\overrightarrow{x'} = m\Omega^{2} x' \vec{e}_{x'}
 \end{cases}$$
 avec $H$ le projeté de $M$ sur l'axe $\Omega$ alors, $H = O' = O$, 
 Donc, 
+$$m\vec{a} = (-mg)$$
