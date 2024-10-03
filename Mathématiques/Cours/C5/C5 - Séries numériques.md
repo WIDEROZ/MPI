@@ -175,4 +175,22 @@ $$\begin{cases}
 \text{Soit }S_{n} \underset{n \to +\infty}{\longrightarrow} + \infty
 \end{cases}$$
 et donc,
-$$\sum_{n \in \mathbb{N}}u_{n} \text{ CV}\Leftrightarrow \exists M \in \mathbb{R}, \forall n \in \mathbb{N},  $$
+$$\sum_{n \in \mathbb{N}}u_{n} \text{ CV}\Leftrightarrow \exists M \in \mathbb{R}, \forall n \in \mathbb{N}, S_{n}\leq M $$
+
+#### Exercice
+La série 
+$$S = \sum_{ n\geq 1} \frac{\left\lfloor \sqrt{ n } \right\rfloor-\left\lfloor \sqrt{ n-1 } \right\rfloor }{n}$$
+On a bien : $u_{n} \geq 0$, 
+$S$ est bien une SATP, 
+De plus si $n$ est un carré parfait, il existe $p \in \mathbb{N}^{*}, n = p^{2}$, 
+alors, 
+$$\left\lfloor \sqrt{ n } \right\rfloor = \left\lfloor p \right\rfloor = p $$
+et 
+$$\left\lfloor \sqrt{ n-1 } \right\rfloor = \left\lfloor \sqrt{ p^{2}-1 } \right\rfloor = p-1$$
+Car : 
+$$\begin{array}{l}
+&(p-1)^{2} = p^{2}-1+(2-2p) \leq p^{2}-1 \\
+\text{Donc}&(p-1)^{2} \leq p^{2}-1\leq p^{2} \\
+\text{Donc}&p-1\leq \sqrt{ p^{2}-1 }<p \\
+\text{Donc}&p-1
+\end{array}$$
