@@ -139,4 +139,6 @@ $$(u\circ v)(x) = 0x$$
 ie $x \in \mathrm{Ker}(u \circ v)$. 
 
 ___
-# CCINP
+# CCINP 
+
+$$\left| S\right| \leq \sum_{k = 1}^{n} \left| a_{k}\sin(kx)\right| $$
