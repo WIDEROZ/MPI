@@ -43,4 +43,4 @@ $$$$
 Supposons qu'il existe $t_{0} \in \mathbb{R}^{*}$ tel que : 
 $$|\varphi(t_{0})|=1$$
 Alors, 
-$$$$
+$$\left| \varphi t_{0}\right|\left| e^{ it(x_{1}-r) }\right|\left| \sum_{k = 1}^{n} p_{k} e^{ itkr }\right| = \left| \sum_{k = 1}^{n}p_{k}e^{ itkr }\right|$$
