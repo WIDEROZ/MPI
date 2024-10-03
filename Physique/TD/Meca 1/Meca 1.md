@@ -99,14 +99,14 @@ $$\begin{cases}
 avec $H$ le projeté de $M$ sur l'axe $\Omega$ alors, $H = O' = O$,
 et $v'$ algébrique
 Donc, 
-$$m\vec{a'} = (m\Omega^{2} x'-k(x'-l_{0}))\vec{e}_{x'}-m(g+2\Omega \dot{x'})\vec{e}_{y'}$$
+$$m\vec{a'} = m \overrightarrow{\ddot{x'}} = (m\Omega^{2} x'-k(x'-l_{0}))\vec{e}_{x'}-m(g+2\Omega \dot{x'})\vec{e}_{y'}$$
 Alors, 
-$$\vec{a'} \left| \begin{array}{l}
-\Omega^{2}x'-\frac{k}{m}(x'-l_{0}) = \frac{kl_{0}}{m} - \left( \Omega^{2} + \frac{k}{m} \right)x' \\
--g-2\Omega \dot{x'}
-\end{array}\right.$$
-Donc, 
-$$\vec{v'} \left| \begin{array}{l}
-\frac{kl_{0}}{m}t -  \\
--gt-2\Omega x'
-\end{array}\right.$$
+$$\ddot{x'} + \left( \frac{k}{m}-\Omega^{2} \right)x' = \frac{kl_{0}}{m}$$
+Ainsi, 
+en posant : 
+$$\omega_{0} = \sqrt{ \frac{k}{m} - \Omega^{2} }$$
+$$x'(t) = Ae^{ -\omega_{0}^{2}t } + Be^{ \omega_{0}^{2}t }$$
+A $t = 0$, 
+$$\ddot{x'} = 0 \text{ et } x' = x_{0}$$
+Alors, 
+$$$$
