@@ -71,4 +71,16 @@ $$y = \frac{g}{a_{x'}}x+h$$
 On fait un PFD dans le référentiel $\mathcal{R}$, 
 $$m\vec{a} = m\vec{g}$$
 avec 
-$$\vec{a} = a_{x} \vec{e}_{x} + 0 \vec{e}_{}$$
+$$\vec{a} = a_{x} \vec{e}_{x} + 0 \vec{e}_{y}$$
+Donc, 
+$$\vec{a} \left| \begin{array}{l}
+0 \\
+-g
+\end{array}\right. \Rightarrow \vec{v} \left| \begin{array}{l}
+0 \\
+-gt
+\end{array}\right. \Rightarrow \vec{r} \left| \begin{array}{l}
+0 \\
+-\frac{g}{2}t^{2}+h
+\end{array}\right.$$
+$$y = -\frac{g}{2}t^{2} + h$$
