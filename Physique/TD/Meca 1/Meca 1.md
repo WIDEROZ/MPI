@@ -143,3 +143,14 @@ Si :
 $$x_{0} = \frac{kl_{0}}{m\omega_{0}^{2}}$$
 
 ### 4.
+$$\frac{dL}{dt} = \mathcal{M}_{\vec{R}/Oz}$$
+
+# Exercice 3
+## 1.
+Le train est en translation rectiligne alors, 
+$$\begin{cases}
+\vec{f}_{i, e} = \frac{d^{2} \overrightarrow{O'O}}{dt^{2}} = d^{2}ye\\
+\vec{f}_{i, c} = 0
+\end{cases}$$
+
+## 2.
