@@ -148,9 +148,13 @@ $$\frac{dL}{dt} = \mathcal{M}_{\vec{R}/Oz}$$
 # Exercice 3
 ## 1.
 Le train est en translation rectiligne alors, 
+pour $h = cte$ la hauteur du train, 
+BDF
 $$\begin{cases}
-\vec{f}_{i, e} = \frac{d^{2} \overrightarrow{O'O}}{dt^{2}} = d^{2}ye\\
-\vec{f}_{i, c} = 0
+\vec{f}_{i, e} = -m\frac{d^{2} \overrightarrow{OO'}}{dt^{2}} = -m\frac{d^{2}(y\vec{e}_{y}+h\vec{e}_{z})}{dt} = 2am\vec{e}_{y}\\
+\vec{f}_{i, c} = 0 \\
+\vec{T} = -T\vec{e}_{r} \\
+\vec{P} = -mg\vec{e}_{z} = -mg()
 \end{cases}$$
-
-## 2.
+En faisant un PDF à $M$ par rapport à $\mathcal{R}'$, 
+$$m\vec{a'} = -mg$$
