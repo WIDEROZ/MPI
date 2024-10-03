@@ -92,5 +92,9 @@ Comme $x = 0$, la trajectoire est rectiligne par rapport à $\vec{e}_{y}$.
 BDF
 $$\begin{cases}
 \vec{P} = -mg\vec{e}_{y'} \\
-\vec{F}_{r} = -k(l-l_{0})\vec{e}_{x'}
+\vec{F}_{r} = -k(l-l_{0})\vec{e}_{x'} = -k(x'-l_{0})\vec{e}_{x'} \\
+\vec{f}_{c} = -m 2(\vec{\Omega} \wedge \vec{v'}) \\
+\vec{f}_{e} = m\omega^{2} \overrightarrow{HM} = m\omega^{2}\overrightarrow{x'}
 \end{cases}$$
+avec $H$ le projeté de $M$ sur l'axe $\Omega$ alors, $H = O' = O$, 
+Donc, 
