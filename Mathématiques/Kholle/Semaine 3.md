@@ -162,3 +162,5 @@ $$Q' = 0$$
 Donc, comme : car $P(1)$ est une constante
 $$Q' = P = 0$$
 $$\mathrm{Ker}(v \circ u) = \{ 0 \}$$
+
+## 3.

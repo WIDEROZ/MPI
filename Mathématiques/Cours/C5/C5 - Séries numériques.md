@@ -117,3 +117,14 @@ $$H_{n} -\ln(n) = \lambda + o(1)$$
 Ainsi, 
 $$H_{n} \sim \ln(n)$$
 
+#### Théorème
+$$\sum_{n \in \mathbb{N}} u_{n} \text{ CVA} \Rightarrow \sum_{n \in \mathbb{N}}u_{n} \text{ CV}$$
+
+Démonstration : 
+Soit $n \in \mathbb{N}$, cas ou $u_{n} \in \mathbb{R}$, 
+Notons, 
+
+
+#### Remarque
+La réciproque est fausse.
+Les séries qui $CV$ mais qui ne sont pas ACV, sont dites semi-$CV$
