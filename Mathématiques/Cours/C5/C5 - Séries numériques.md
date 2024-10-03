@@ -242,4 +242,28 @@ Démonstration 3. :
 ez
 
 #### Corollaire
-Soient $(u_{n})_{n \in \mathbb{N}}$ et $(a_{n})_{n i}$
+Soient $(u_{n})_{n \in \mathbb{N}}, (a_{n})_{n \in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}$, 
+Si, 
+$$\begin{cases}
+u_{n} = O(a_{n}) \\
+\sum a_{n} \text{ CVA}
+\end{cases} \Rightarrow \sum u_{n} \text{ CVA}$$
+Démonstration : 
+Deux lignes.
+
+#### Exemple
+$$\sum_{n \in \mathbb{N}} \frac{n}{n^{2}+1} \text{ DV}$$
+ car 
+ $$\frac{n}{n^{2}+1} \sim \frac{1}{n}\geq 0$$
+et $\sum \frac{1}{n} \text{ CV}$, 
+
+#### Exemple
+$$\forall \alpha >2, \sum_{n \in \mathbb{N}} \left( \cos\left( \frac{1}{n} \right) \right)^{n^{\alpha}} $$
+car : 
+$$\ln u_{n} = n^{\alpha}\left( -\frac{1}{2n^{2}}+o\left( \frac{1}{n^{2}} \right) \right) \sim -\frac{1}{2n^{2-\alpha}} = -\frac{n^{\alpha-2}}{2}$$
+A REVENIR DESSUS
+
+#### Règle d'Alembert
+Soit $(u_{n})_{n \in \mathbb{N}}$, $\forall n \in \mathbb{N}, u_{n} >0$ telle que : 
+$$\frac{u_{n+1}}{u_{n}} \underset{n \to +\infty}{\longrightarrow} l \in \mathbb{R}_{+} \cup \{ + \infty \}$$
+Si $l < 1$, $\sum u_{n} \text{ CV}$
