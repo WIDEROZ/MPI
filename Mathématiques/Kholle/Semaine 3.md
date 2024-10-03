@@ -141,4 +141,6 @@ ie $x \in \mathrm{Ker}(u \circ v)$.
 ___
 # CCINP 
 
-$$\left| S\right| \leq \sum_{k = 1}^{n} \left| a_{k}\sin(kx)\right| $$
+$$\left| S\right| \leq \sum_{k = 1}^{n} \left| a_{k}\sin(kx)\right| \leq \left| x\right|\sum_{k = 1}^{n} \left| a_{k} k\right| \leq \left| x\right| \frac{n(n+1)}{2} \sum_{k = 1}^{n}\left| a_{k}\right|$$
+$$\left| f(x)\right|\leq \left| \arctan(x)\right|\leq \frac{\pi}{2}$$
+$$\left| \right|$$
