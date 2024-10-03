@@ -139,8 +139,11 @@ $$(u\circ v)(x) = 0x$$
 ie $x \in \mathrm{Ker}(u \circ v)$. 
 
 ___
-# CCINP 
+# CCINP 83
+## 1.
+Supposons qu'il existe $x \in E$ tel que :
+$$(u \circ v)(x) = \lambda x$$
+alors en composant par $v$ : 
+$$(v\circ u)(v(x)) = v((u \circ v)(x)) = v(\lambda x) = \lambda v(x)$$
 
-$$\left| S\right| \leq \sum_{k = 1}^{n} \left| a_{k}\sin(kx)\right| \leq \left| x\right|\sum_{k = 1}^{n} \left| a_{k} k\right| \leq \left| x\right| \frac{n(n+1)}{2} \sum_{k = 1}^{n}\left| a_{k}\right|$$
-$$\left| f(x)\right|\leq \left| \arctan(x)\right|\leq \frac{\pi}{2}$$
-$$\left| \right|$$
+## 2.
