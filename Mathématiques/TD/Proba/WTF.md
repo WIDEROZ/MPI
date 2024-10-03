@@ -34,5 +34,21 @@ Ainsi, pour $t_{0} = \pi$, ca marche bien car $k, r \in \mathbb{N}$,
 ### 5.
 Soit $t \in \mathbb{R}$, 
 Supposons qu'il existe $t_{0} \in \mathbb{R}^{*}$ tel que :
-$$\left| \varphi(t_{0})\right| = \left| \underset{k = 1}{\overset{n}{\sum}} p_{k}e^{ itx_{k} }\right| = 1$$
+$$\left| \varphi(t_{0})\right| = \left| \underset{k = 1}{\overset{n}{\sum}} p_{k}e^{ it_{0}x_{k} }\right| = 1$$
 Alors, Montrons que $(x_{n})_{n \in \mathbb{N}}$ est une suite arithmétique. 
+Comme $p_{k} >0$ et que $\sum_{k = 1}^{n} p_{k} = 1$, 
+$$\left| \varphi(t_{0})\right| = 1 \Leftrightarrow e^{ it_{0}x_{k} } = \begin{cases}
+1 \\
+-1
+\end{cases}$$
+ie, 
+$$t_{0}x_{k} \equiv 0 [\pi]$$
+il existe alors un $q \in \mathbb{Z}$, tel que : $t_{0}x_{k} = \pi q$
+Alors,
+Soit $x_{k} = \pi a$, 
+On distingue deux cas :
+$a \in \mathbb{R}\setminus \mathbb{Z}$ : 
+$$\exists $$
+
+
+Soit $t_{0} = \pi b$ avec $b \in \mathbb{R}$, 
