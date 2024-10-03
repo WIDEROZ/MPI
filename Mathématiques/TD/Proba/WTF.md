@@ -48,7 +48,7 @@ Alors,
 Soit $x_{k} = \pi a$, 
 On distingue deux cas :
 $a \in \mathbb{R}\setminus \mathbb{Z}$ : 
-$$\exists $$
+$$\exists u \in \mathbb{Z}, b = \frac{u}{a}$$
 
 
 Soit $t_{0} = \pi b$ avec $b \in \mathbb{R}$, 
