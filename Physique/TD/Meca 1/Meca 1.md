@@ -108,15 +108,18 @@ $$\omega_{0} = \sqrt{ \frac{k}{m} - \Omega^{2} } \text{ ou }\omega_{0} = \sqrt{ 
 et on a alors : 
 $$\Delta = -4\omega_{0}^{2}\leq 0$$
 Donc, 
-$$x'(t) = Ae^{ -2\omega_{0}^{2}it } + Be^{ 2\omega_{0}^{2}it }$$
+$$x'(t) = A\cos(\omega_{0}t) + B\sin(\omega_{0}t) + \frac{kl_{0}}{m\omega_{0}^{2}}$$
 A $t = 0$, 
 $$\ddot{x'} = 0 \text{ et } x' = x_{0}$$
 Alors, 
-$$x_{0} = A+B$$
+$$x_{0}- \frac{kl_{0}}{m\omega_{0}^{2}} = A$$
 Puis, 
 $$\begin{cases}
-\dot{x'}(t) = -2A \omega_{0}^{2}i e^{ -2\omega_{0}^{2}it } + 2\omega_{0}^{2}iB e^{ 2\omega_{0}^{2}it } \\
-\ddot{x'}(t) = -4A \omega_{0}^{4} e^{ -2\omega_{0}^{2}it }-4 B\omega_{0}^{4}e^{ 2\omega_{0}^{2}it }
+\dot{x'}(t) = B\omega_{0}\cos(\omega_{0}t) - A \omega_{0}\sin(\omega_{0}t) \\
+\ddot{x'}(t) = -(B\omega_{0}^{2}\sin(\omega_{0}t)+A \omega_{0}^{2}\cos(\omega_{0}t))
 \end{cases}$$
 Ainsi, 
-$$0 = -\omega_{0}^{4}(4A+4B) = A+B$$
+$$0 = -A \omega_{0}^{2}$$
+Alors, $A = 0$
+Ainsi, 
+$$x'(t) = \frac{kl_{0}}{m\omega_{0}^{2}}\left( 1+\left( \frac{x_{0}m\omega^{2}}{kl_{0}} -1\right)\sin(\omega_{0}t) \right)$$
