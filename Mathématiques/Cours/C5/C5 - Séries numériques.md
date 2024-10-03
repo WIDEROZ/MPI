@@ -267,3 +267,19 @@ A REVENIR DESSUS
 Soit $(u_{n})_{n \in \mathbb{N}}$, $\forall n \in \mathbb{N}, u_{n} >0$ telle que : 
 $$\frac{u_{n+1}}{u_{n}} \underset{n \to +\infty}{\longrightarrow} l \in \mathbb{R}_{+} \cup \{ + \infty \}$$
 Si $l < 1$, $\sum u_{n} \text{ CV}$
+Si $l = 1$, tout peut arriver
+Si $l >1$ $\sum u_{n}$ DVG
+
+Démonstration : 
+Si $l<1$, 
+Soit $\varepsilon >0$, tel que : 
+$$l+\varepsilon < 1$$
+$$\exists n_{0} \in \mathbb{N}, \forall n \geq n_{0}, \left| \frac{u_{n+1}}{u_{n}} -l\right|\leq \varepsilon$$
+donc, 
+$$\frac{u_{n+1}}{u_{n}} \leq l+\varepsilon$$
+Donc, 
+$$\frac{u_{n}}{u_{n_{0}}} = \prod_{k = n_{0}}^{n-1} \frac{u_{k-1}}{u_{k}} \leq (l+\varepsilon)^{n-n_{0}}$$
+ie, 
+$$u_{n} \leq K(l+\varepsilon)^{n} \text{ ou }K = \frac{u_{n_{0}}}{(l+\varepsilon)^{n_{0}}}$$
+Ainsi, 
+$$u_{n} = O((l+\varepsilon)^{n}) \text{ CV}$$
