@@ -13,3 +13,13 @@ t \mapsto  \underset{k = 1}{\overset{n}{\sum}} p_{k}e^{ itx_{k} } = E(e^{ itX })
 
 
 ## 1.
+C'est une combinaison linéaire d'exponentielles donc, $\varphi$ est $\mathcal{C}^{\infty}$
+
+## 2.
+Soit $t \in \mathbb{R}$, 
+$$\left| \varphi(t)\right|\leq \sum_{k = 1}^{n} \left| p_{k} e^{ itx_{k} }\right| = 1$$
+
+### 3.
+On note :
+$$X = \sum_{k =1}^{n}$$
+$$\varphi(t) \underset{x \to 0}{=} \sum_{k = 1}^{n} p_{k} \left( 1+itx_{k} - \frac{t^{2}x^{2}_{k}}{2} \right) + o(t^{2})$$
