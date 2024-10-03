@@ -143,14 +143,20 @@ $$S_{n} = \sum_{k = 0}^{n} \left| u_{k}\right|-T_{n}$$
 $$(S_{n})_{n \in \mathbb{N}} \text{ CV}$$
 
 Démonstration pour $\mathbb{K} = \mathbb{C}$ : 
-Soit $n \in\mathbb{N}$, 
 On note : 
-$$\begin{cases}
+$$\forall n \in \mathbb{N}, \begin{cases}
 x_{n} = \mathrm{Re}(u_{n}) \\
-y_{n} 
+y_{n} = \mathrm{Im}(u_{n})
 \end{cases}$$
-
-
+On sait que : 
+$$\forall k \in [\![1, n]\!], \left| x_{k}\right|= \left| \mathrm{Re}(u_{k})\right|\leq \left| u_{k}\right|$$
+Alors, 
+$$\forall n \in \mathbb{N}, \sum_{k = 0}^{n} \left| x_{k}\right|\leq \sum_{k  =0}^{n} \left| u_{k} \right| \leq \sum_{k =0}^{+\infty} \left| u_{k}\right| = N \in \mathbb{R}_{+}$$
+par hypothèse.
+Ainsi, comme $\left( \sum_{k = 0}^{q} \left| x_{k}\right| \right)_{q \in \mathbb{N}}$ est croissante et majorée elle CV,
+On peut faire la même pour $\left( \sum_{k = 0}^{q} \left| y_{k}\right| \right)_{q \in \mathbb{N}}$
+Comme une série réelle CVA, CV, on a donc, 
+$$\sum_{n \in \mathbb{N}}{u_{n}} = \sum_{n \in \mathbb{N}} x_{k} + i\sum_{n \in \mathbb{N}}y_{n}$$
 
 
 #### Remarque
@@ -158,3 +164,15 @@ La réciproque est fausse.
 Les séries qui $CV$ mais qui ne sont pas ACV, sont dites semi-$CV$
 
 
+# II. Séries à termes positifs
+#### Propriété
+Soit $(u_{n})_{n \in \mathbb{N}} \in \mathbb{R}^{\mathbb{N}}$, ou $\forall n \in \mathbb{N}, u_{n}\geq 0$, 
+Alors, 
+$$S = (S_{n})_{n \in \mathbb{N}} = \left( \sum_{k = 0}^{n} u_{k} \right)_{n \in \mathbb{N}} \text{ croît}$$
+Si bien que : 
+$$\begin{cases}
+\text{Soit }\sum_{n \in \mathbb{N}}{u_{n}} \text{ CV} \\
+\text{Soit }S_{n} \underset{n \to +\infty}{\longrightarrow} + \infty
+\end{cases}$$
+et donc,
+$$\sum_{n \in \mathbb{N}}u_{n} \text{ CV}\Leftrightarrow \exists M \in \mathbb{R}, \forall n \in \mathbb{N},  $$
