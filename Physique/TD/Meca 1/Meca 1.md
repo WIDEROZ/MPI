@@ -64,3 +64,5 @@ $$\overrightarrow{r'} = \begin{cases}
 -\frac{a_{x'}}{2m}t^{2} \\
 -\frac{g}{2}t^{2} + h
 \end{cases}$$
+$$y = \frac{g}{2} \times \frac{2m}{a_{x'}}x +h$$
+$$y = \frac{mg}{a_{x'}}x+h$$
