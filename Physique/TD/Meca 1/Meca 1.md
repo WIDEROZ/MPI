@@ -54,15 +54,21 @@ Alors,
 $$\overrightarrow{a'} = \vec{g} - \vec{a}_{e}$$
 comme $\vec{a'} _{e}= \overrightarrow{0}+a_{x'}\vec{e}_{x'}$, $\vec{a'}_{c} = \overrightarrow{0}$ 
 Alors, 
-$$\overrightarrow{a'} = -\frac{a_{x'}}{m}\vec{e}_{x'} -g \vec{e}_{y'}$$
+$$\overrightarrow{a'} = -a_{x'}\vec{e}_{x'} -g \vec{e}_{y'}$$
 Donc, 
 $$\vec{v'} = \begin{cases}
--\frac{a_{x'}}{m}t \\
+-a_{x'}t \\
 -gt 
 \end{cases}$$
 $$\overrightarrow{r'} = \begin{cases}
--\frac{a_{x'}}{2m}t^{2} \\
+-\frac{a_{x'}}{2}t^{2} \\
 -\frac{g}{2}t^{2} + h
 \end{cases}$$
-$$y = \frac{g}{2} \times \frac{2m}{a_{x'}}x +h$$
-$$y = \frac{mg}{a_{x'}}x+h$$
+$$y = \frac{g}{2} \times \frac{2}{a_{x'}}x +h$$
+$$y = \frac{g}{a_{x'}}x+h$$
+
+### (b).
+On fait un PFD dans le référentiel $\mathcal{R}$, 
+$$m\vec{a} = m\vec{g}$$
+avec 
+$$\vec{a} = a_{x} \vec{e}_{x} + 0 \vec{e}_{}$$
