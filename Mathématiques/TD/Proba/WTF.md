@@ -26,8 +26,20 @@ $$\varphi(t) \underset{x \to 0}{=} \sum_{k = 1}^{n} p_{k} \left( 1+itx_{k} - \fr
 Si $(x_{k})_{k = 1}^{n}$ est une suite arithmétique alors, il existe $r \in \mathbb{Z}^{*}$, tel que : 
 $$\forall k \in [\![1, n]\!], x_{k} = (k-1)r + x_{1}$$
 Alors, 
-$$\forall t \in \mathbb{R}, \varphi(t) = \sum_{k =1}^{n} p_{k}e^{ it ((k-1)r + x_{1}) }$$
+$$\forall t \in \mathbb{R}, \varphi(t) = \sum_{k =1}^{n} p_{k}e^{ it ((k-1)r + x_{1}) } = \sum_{k = 1}^{n} p_{k}e^{ itkr }e^{ it(x_{1}-r) }$$
+On note alors que 
+$$X = (Y-1)r + x_{1} = Yr+x_{1}-r$$
+Donc, 
+$$E(e^{ it(Yr+x_{1}-r) }) = e^{ x_{1}-r }E(e^{ itYr })$$
+
+
+
+
+
+
 
 #### Analyse
 Supposons qu'il existe $t_{0} \in \mathbb{R}$ tel que : 
 $$|\varphi(t_{0})|=1$$
+Alors, 
+$$$$
