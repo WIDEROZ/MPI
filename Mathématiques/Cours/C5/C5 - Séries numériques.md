@@ -282,4 +282,20 @@ $$\frac{u_{n}}{u_{n_{0}}} = \prod_{k = n_{0}}^{n-1} \frac{u_{k-1}}{u_{k}} \leq (
 ie, 
 $$u_{n} \leq K(l+\varepsilon)^{n} \text{ ou }K = \frac{u_{n_{0}}}{(l+\varepsilon)^{n_{0}}}$$
 Ainsi, 
-$$u_{n} = O((l+\varepsilon)^{n}) \text{ CV}$$
+$$u_{n} = O((l+\varepsilon)^{n})$$
+et 
+$$\sum u_{n} \text{ CV}$$
+Si $l > 1$, on pose : 
+$$\forall n \in \mathbb{N}, x_{n} = \frac{1}{u_{n}}$$
+Donc, 
+$$\frac{x_{n+1}}{x_{n}} = \frac{1}{\frac{u_{n+1}}{u_{n}}} \underset{n \to +\infty}{\longrightarrow} \frac{1}{l} <1$$
+Donc, 
+$$x_{n} \underset{n \to +\infty}{\longrightarrow}  0$$
+donc, 
+$$u_{n} \underset{n \to +\infty}{\longrightarrow} + \infty$$
+donc, 
+$$\sum u_{n} \text{ DVG}$$
+
+#### Exercice 
+Calculer la nature de : 
+$$\sum_{n \geq 1} \frac{n!}{n^{n}}$$
