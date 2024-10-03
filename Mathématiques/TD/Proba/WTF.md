@@ -27,20 +27,12 @@ Si $(x_{k})_{k = 1}^{n}$ est une suite arithmétique alors, il existe $r \in \ma
 $$\forall k \in [\![1, n]\!], x_{k} = (k-1)r + x_{1}$$
 Alors, 
 $$\forall t \in \mathbb{R}, \varphi(t) = \sum_{k =1}^{n} p_{k}e^{ it ((k-1)r + x_{1}) } = \sum_{k = 1}^{n} p_{k}e^{ itkr }e^{ it(x_{1}-r) }$$
-On note alors que 
-$$X = (Y-1)r + x_{1} = Yr+x_{1}-r$$
 Donc, 
-$$E(e^{ it(Yr+x_{1}-r) }) = e^{ it(x_{1}-r) }E(e^{ itYr })$$
-Ainsi, 
-$$$$
+$$\left| \varphi (t_{0})\right| = \left| e^{ it_{0}(x_{1}-r) }\right|\left| \sum_{k = 1}^{n} p_{k} e^{ it_{0}kr }\right| = \left| \sum_{k = 1}^{n}p_{k}e^{ it_{0}kr }\right|$$
+Ainsi, pour $t_{0} = \pi$, ca marche bien car $k, r \in \mathbb{N}$, 
 
-
-
-
-
-
-#### Analyse
-Supposons qu'il existe $t_{0} \in \mathbb{R}^{*}$ tel que : 
-$$|\varphi(t_{0})|=1$$
-Alors, 
-$$\left| \varphi t_{0}\right|\left| e^{ it(x_{1}-r) }\right|\left| \sum_{k = 1}^{n} p_{k} e^{ itkr }\right| = \left| \sum_{k = 1}^{n}p_{k}e^{ itkr }\right|$$
+### 5.
+Soit $t \in \mathbb{R}$, 
+Supposons qu'il existe $t_{0} \in \mathbb{R}^{*}$ tel que :
+$$\left| \varphi(t_{0})\right| = \left| \underset{k = 1}{\overset{n}{\sum}} p_{k}e^{ itx_{k} }\right| = 1$$
+Alors, Montrons que $(x_{n})_{n \in \mathbb{N}}$ est une suite arithmétique. 
