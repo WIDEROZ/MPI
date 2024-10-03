@@ -147,3 +147,18 @@ alors en composant par $v$ :
 $$(v\circ u)(v(x)) = v((u \circ v)(x)) = v(\lambda x) = \lambda v(x)$$
 
 ## 2.
+Soit $P \in \mathrm{Ker}(u \circ v)$, 
+$$\int_{1}^{X} P' = 0$$
+Alors, par le tfa : 
+$$P(X) = P(1)$$
+Donc, $P$ est constant, 
+$$\mathrm{Ker}(u \circ v) = \mathbb{R}[X]$$
+
+Soit $P \in \mathrm{Ker}(v \circ u)$, 
+On pose : 
+$$Q = \int_{1}^{X} P $$
+Alors, 
+$$Q' = 0$$
+Donc, comme : car $P(1)$ est une constante
+$$Q' = P = 0$$
+$$\mathrm{Ker}(v \circ u) = \{ 0 \}$$
