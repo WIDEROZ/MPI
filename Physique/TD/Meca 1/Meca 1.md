@@ -104,7 +104,7 @@ Alors,
 $$\ddot{x'} + \left( \frac{k}{m}-\Omega^{2} \right)x' = \frac{kl_{0}}{m}$$
 Ainsi, 
 en posant : 
-$$\omega_{0} = \sqrt{ \frac{k}{m} - \Omega^{2} } \text{ ou }\omega_{0} = \sqrt{ \Omega^{2} - \frac{k}{m} }$$
+$$\omega_{0} = \sqrt{ \frac{k}{m} - \Omega^{2} }$$
 et on a alors : 
 $$\Delta = -4\omega_{0}^{2}\leq 0$$
 Donc, 
@@ -122,4 +122,20 @@ Ainsi,
 $$0 = -A \omega_{0}^{2}$$
 Alors, $A = 0$
 Ainsi, 
-$$x'(t) = \frac{kl_{0}}{m\omega_{0}^{2}}\left( 1+\left( \frac{x_{0}m\omega^{2}}{kl_{0}} -1\right)\sin(\omega_{0}t) \right)$$
+$$\boxed{x'(t) = \frac{kl_{0}}{m\omega_{0}^{2}}\left( 1+\left( \frac{x_{0}m\omega_{0}^{2}}{kl_{0}} -1\right)\sin(\omega_{0}t) \right)}$$
+
+## 2.
+### (a).
+Si $\frac{k}{m}>\Omega^{2}$, $\uparrow$
+### (b).
+Si $\frac{k}{m}< \Omega^{2}$, 
+$$\omega_{0} = \sqrt{ \Omega^{2} - \frac{k}{m} }$$
+$$\ddot{x'} -\omega_{0}^{2}= \frac{kl_{0}}{m}$$
+résoudre cte merde.
+
+### (c).
+$\omega_{0} = 0$,
+Ainsi, 
+$$x' = \frac{kl_{0}}{2m}t^{2}+x_{0}'$$
+
+### 3.
