@@ -192,5 +192,30 @@ $$\begin{array}{l}
 &(p-1)^{2} = p^{2}-1+(2-2p) \leq p^{2}-1 \\
 \text{Donc}&(p-1)^{2} \leq p^{2}-1\leq p^{2} \\
 \text{Donc}&p-1\leq \sqrt{ p^{2}-1 }<p \\
-\text{Donc}&p-1
+\text{Donc}&p-1 = \left\lfloor \sqrt{ p^{2}-1 } \right\rfloor 
 \end{array}$$
+Ainsi, 
+$$u_{p^{2}} = \frac{1}{p^{2}}$$
+Si maintenant $n$ n'est pas un carré parfait, on pose : 
+$$p = \left| \sqrt{ n }\right|$$
+$$p \leq \sqrt{ n }\leq p+1$$
+et comme $n$ n'est pas un carré parfait, on a même : 
+$$p < \sqrt{ n }< p+1 \text{ et } p< \sqrt{ n-1  } < p+1$$
+si bien que : 
+$$p = \left\lfloor \sqrt{ n } \right\rfloor = \left\lfloor \sqrt{ n-1 } \right\rfloor $$
+Donc,
+$$u_{n} = 0$$
+Ainsi, 
+$$\forall n \in \mathbb{N}, S_{n} = \sum_{k = 1}^{n} u_k = \sum_{p = 1}^{\left\lfloor \sqrt{ n } \right\rfloor } u_{p^{2}} = \sum_{p = 1}^{\left\lfloor \sqrt{ n } \right\rfloor } \frac{1}{p^{2}} \leq \sum_{p=1}^{+ \infty} \frac{1}{p} = \frac{\pi^{2}}{6}$$
+Ainsi, comme $S_{n}$ est majorée et est une SATP, $S$ CV
+
+#### Théorème de comparaison des SATP
+Soient $(u_{n})_{n \in \mathbb{N}}$ et $(a_{n})_{n \in \mathbb{N}}$ deux SATP, 
+
+$$\begin{rcases}
+\forall n \in \mathbb{N},\exists n_{0} \in \mathbb{N},  n_{0}\leq n \Rightarrow u_{n} \leq a_{n} \\
+\sum a_{n} \text{ CV}
+\end{rcases} \Rightarrow \sum u_{n} \text{ CV}$$
+$$\begin{rcases}
+u_{n} 
+\end{rcases}$$
