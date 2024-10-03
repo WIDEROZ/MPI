@@ -120,11 +120,41 @@ $$H_{n} \sim \ln(n)$$
 #### Théorème
 $$\sum_{n \in \mathbb{N}} u_{n} \text{ CVA} \Rightarrow \sum_{n \in \mathbb{N}}u_{n} \text{ CV}$$
 
-Démonstration : 
+Démonstration pour $\mathbb{K} = \mathbb{R}$ : 
 Soit $n \in \mathbb{N}$, cas ou $u_{n} \in \mathbb{R}$, 
 Notons, 
+$$S_{n} = \sum_{k = 0}^{n}u_{k} \text{ et }T_{n} = \sum_{k = 0}^{n} (\left| u_{k}\right|-u_{k})$$
+Par hypothèse, 
+$$S_{n} + T_{n} \text{ CV}$$
+Notons, 
+$$M = \sum_{q=0}^{+ \infty} \left| u_{q}\right| \in \mathbb{R}_{+}$$
+Alors, 
+$$T_{n+1}-T_{n} = \left| u_{n+1}\right| - u_{n+1}\geq 0 $$
+Donc, 
+$$(T_{n})_{n \in \mathbb{N}} \text{ croit}$$
+de plus elle est majorée car : 
+$$\forall k \in \mathbb{N}, -u_{k} \leq \left| u_{k}\right| \text{ donc } \left| u_{k}\right|-u_{k}\leq 2 \left| u_{k}\right|$$
+et ainsi, 
+$$T_{n} \leq \sum_{k = 0}^{n} 2 \left| u_{k}\right|\leq 2\left( M-\sum_{k = n+1}^{+ \infty}\left| u_{k}\right| \right) \leq 2M$$
+Ainsi, $(T_{n})$ est une suite CV.
+Comme $\left( \sum_{k = 0}^{n}\left| u_{k}\right| \right)_{n \in \mathbb{N}}$ l'est aussi et que : 
+$$S_{n} = \sum_{k = 0}^{n} \left| u_{k}\right|-T_{n}$$
+
+$$(S_{n})_{n \in \mathbb{N}} \text{ CV}$$
+
+Démonstration pour $\mathbb{K} = \mathbb{C}$ : 
+Soit $n \in\mathbb{N}$, 
+On note : 
+$$\begin{cases}
+x_{n} = \mathrm{Re}(u_{n}) \\
+y_{n} 
+\end{cases}$$
+
+
 
 
 #### Remarque
 La réciproque est fausse.
 Les séries qui $CV$ mais qui ne sont pas ACV, sont dites semi-$CV$
+
+
