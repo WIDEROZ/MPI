@@ -257,11 +257,7 @@ $$\sum_{n \in \mathbb{N}} \frac{n}{n^{2}+1} \text{ DV}$$
  $$\frac{n}{n^{2}+1} \sim \frac{1}{n}\geq 0$$
 et $\sum \frac{1}{n} \text{ CV}$, 
 
-#### Exemple
-$$\forall \alpha >2, \sum_{n \in \mathbb{N}} \left( \cos\left( \frac{1}{n} \right) \right)^{n^{\alpha}} $$
-car : 
-$$\ln u_{n} = n^{\alpha}\left( -\frac{1}{2n^{2}}+o\left( \frac{1}{n^{2}} \right) \right) \sim -\frac{1}{2n^{2-\alpha}} = -\frac{n^{\alpha-2}}{2}$$
-A REVENIR DESSUS
+
 
 #### Règle d'Alembert
 Soit $(u_{n})_{n \in \mathbb{N}}$, $\forall n \in \mathbb{N}, u_{n} >0$ telle que : 
@@ -307,8 +303,33 @@ alors,
 $$\sum_{n \in \mathbb{N}} u_{n} \text{ CVA}$$
 
 Démonstration : 
-$$$$
+$$n^{\alpha}u_{n} \underset{n \to +\infty}{\longrightarrow} 0 \Leftrightarrow n^{\alpha} u_{n} = o(1)\Leftrightarrow u_{n} = o\left( \frac{1}{n^{\alpha}} \right)$$
 Comme
 $$\sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\alpha}} \text{ est une SATP}$$
-de Riemann, si bien que 
+de Riemann CV, si bien que 
 $$\sum_{n \in \mathbb{N}} \left| u_{n}\right| \text{ CV}$$
+
+#### Exemple
+$$\sum_{n \in \mathbb{N}} e^{ -\sqrt{ n } } \text{ CV}$$
+car
+$$\ln(n^{2}e^{ -\sqrt{ n } })=2\ln(n) -\sqrt{ n } \sim -\sqrt{ n } \underset{n \to +\infty}{\longrightarrow} - \infty$$
+Donc,
+$$n^{2}e^{ -\sqrt{ n } } \underset{n \to +\infty}{\longrightarrow} 0$$
+
+#### Exemple
+$$\forall \alpha >2, \sum_{n \in \mathbb{N}} \left( \cos\left( \frac{1}{n} \right) \right)^{n^{\alpha}} \text{CV} $$
+car : 
+$$\ln u_{n} = n^{\alpha}\left( -\frac{1}{2n^{2}}+o\left( \frac{1}{n^{2}} \right) \right) \sim -\frac{1}{2n^{2-\alpha}} = -\frac{n^{\alpha-2}}{2}$$
+Ainsi, 
+$$\ln(n^{2}u_{n}) \underset{n \to +\infty}{\longrightarrow} - \infty$$
+et 
+$$n^{2}u_{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+
+#### Exercice
+Soient $a, b >0$, 
+Quelle est la nature de : 
+$$\sum_{n \in \mathbb{N}} \frac{a^{n}2^{\sqrt{ n }}}{2^{\sqrt{ n }}+b^{n}}$$
+Si $b\leq1$, 
+$$u_{n} \sim a^{n}$$
+Alors, 
+$$\sum_{}$$
