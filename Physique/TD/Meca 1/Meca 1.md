@@ -157,10 +157,11 @@ $$\begin{cases}
 On projette sur $\vec{e}_{r}$ : 
 $$\ddot{r} +\omega_{0}^{2}r = \frac{kl_{0}}{m}$$
 $$\begin{cases}
-0 = R_y' - 2m\omega \dot{x'} \\
+0 = R_{y'} - 2m\omega \dot{x'} \\
 0 = -mg + R_{z'}
 \end{cases}$$
 Ainsi,
+$$\vec{R} = $$
 
 
 # Exercice 3
@@ -170,11 +171,11 @@ pour $h = cte$ la hauteur du train,
 BDF
 $$\begin{cases}
 \vec{f}_{i, e} = -m\frac{d^{2} \overrightarrow{OO'}}{dt^{2}} = -m\frac{d^{2}(y\vec{e}_{y}+h\vec{e}_{z})}{dt} = 2am\vec{e}_{y} = 2am(\sin(\theta)\vec{e}_{r} + \cos(\theta)\vec{e}_{\theta})\\
-\vec{f}_{i, c} = 0 \\
+\vec{f}_{i, c} = \overrightarrow{0} \\
 \vec{T} = -T\vec{e}_{r} \\
 \vec{P} = -mg\vec{e}_{z} = -mg(\cos(\theta)\vec{e}_{r} -\sin(\theta)\vec{e}_{\theta})
 \end{cases}$$
-En faisant un PDF à $M$ par rapport à $\mathcal{R}'$, 
+En faisant un PDF à $M$ dans $\mathcal{R}'$ : le wagon, 
 $$\vec{a'} = \left( 2a\sin(\theta)-\frac{T}{m}-g\cos(\theta) \right)\vec{e}_{r} + (2a\cos(\theta)+g\sin(\theta))\vec{e}_{\theta}$$
 $$\left| \begin{array}{l}
 -l\dot{\theta}^{2} \\
