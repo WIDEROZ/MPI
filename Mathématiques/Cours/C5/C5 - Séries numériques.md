@@ -332,4 +332,17 @@ $$\sum_{n \in \mathbb{N}} \frac{a^{n}2^{\sqrt{ n }}}{2^{\sqrt{ n }}+b^{n}}$$
 Si $b\leq1$, 
 $$u_{n} \sim a^{n}$$
 Alors, 
-$$\sum_{}$$
+$$\sum_{n \in \mathbb{N}}u_{n} \text{ CV} \Leftrightarrow a \in ]0, 1[$$
+
+Si $b \geq 1$,
+$$\frac{2^{\sqrt{ n }}}{b^{n}} \underset{n \to +\infty}{\longrightarrow} 0$$
+car : 
+$$\ln\left( \frac{2^{\sqrt{ n }}}{b^{n}} \right) = \sqrt{ n }\ln(2) - n \ln(b) \sim -n\ln(b)\underset{n \to +\infty}{\longrightarrow} - \infty$$
+car $b>1$
+Ainsi, comme : 
+$$2^{\sqrt{ n }} = o(b_{n})$$
+$$2^{\sqrt{ n }}+b^{n} \sim b^{n}$$
+Donc, 
+$$\left( \frac{a}{b} \right)^{n}2^{\sqrt{ n }}$$
+On essaye la règle d'Alembert : 
+$$\frac{\left( \frac{a}{b} \right)^{n+1}2^{\sqrt{ n+1 }}}{\left( \frac{a}{b} \right)^{n+1} 2^{\sqrt{ n }}}=\frac{a}{b}2^{\sqrt{ n+1 }-\sqrt{ n }}=\frac{a}{b}2^{\frac{1}{\sqrt{ n+1 }+\sqrt{ n }}} \underset{n \to +\infty}{\longrightarrow} \frac{a}{b}$$
