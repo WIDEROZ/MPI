@@ -359,4 +359,7 @@ revient à prouver la cv de :
 $$\sum_{n \in \mathbb{N}^{*}} (b_{n+1}-b_{n})$$
 
 $$b_{n+1}-b_{n} = \frac{\ln(n+1)}{n+1} - \frac{\ln(n+1)^{2}-\ln(n)^{2}}{2}$$
-$$= $$
+$$= \frac{\ln\left( \frac{n+1}{n} \right)\times (\ln(n+1)+\ln(n)) }{2} $$
+$$= \frac{\ln(n+1)}{n+1} - \frac{\left( \frac{1}{n}+ O\left( \frac{1}{n^{2}} \right)\right)\left(2\ln(n)+\ln\left( 1+\frac{1}{n} \right) \right)}{2}$$
+$$= \frac{\ln(n+1)}{n+1}- \frac{2 \frac{\ln(n)}{n}+\frac{1}{n^{2}}+O\left( \frac{\ln(n)}{n} \right)+O\left( \frac{1}{n^{2}} \right)+O\left( \frac{1}{n^{3}} \right)}{2}$$
+$$= \left( \frac{\ln(n+1)}{n+1}-\frac{\ln(n)}{n} \right)-\frac{1}{2n^{2}}+O\left( \frac{\ln(n)}{n^{2}} \right)+O\left( \frac{1}{n^{2}} \right)$$
