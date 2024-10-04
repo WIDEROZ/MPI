@@ -21,8 +21,10 @@ $$\left| \varphi(t)\right|\leq \sum_{k = 1}^{n} \left| p_{k} e^{ itx_{k} }\right
 
 ### 3.
 $$\varphi(t) \underset{t \to 0}{=} \sum_{k = 1}^{n} p_{k} \left( 1+itx_{k} - \frac{t^{2}x^{2}_{k}}{2} \right) + o(t^{2}) $$
-$$\varphi^{2}(t) \underset{t \to 0}{=}\sum_{k = 1}^{n}$$
+$$= 1 + it E(X) - \frac{t^{2}}{2}E(X^{2})+ o(t^{2})$$
 
+$$|\varphi(t)|^{2} \underset{t \to 0}{=} 1+\left(- \frac{E(X^{2})}{2}+(E(X))^{2} - \frac{E(X^{2})}{2} \right)t^{2} + o(t^{2})$$
+$$= 1- V(X)t^{2} + o(t^{2})$$
 
 
 
