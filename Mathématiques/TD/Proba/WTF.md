@@ -20,7 +20,11 @@ Soit $t \in \mathbb{R}$,
 $$\left| \varphi(t)\right|\leq \sum_{k = 1}^{n} \left| p_{k} e^{ itx_{k} }\right| = 1$$
 
 ### 3.
-$$\varphi(t) \underset{x \to 0}{=} \sum_{k = 1}^{n} p_{k} \left( 1+itx_{k} - \frac{t^{2}x^{2}_{k}}{2} \right) + o(t^{2}) $$
+$$\varphi(t) \underset{t \to 0}{=} \sum_{k = 1}^{n} p_{k} \left( 1+itx_{k} - \frac{t^{2}x^{2}_{k}}{2} \right) + o(t^{2}) $$
+$$\varphi^{2}(t) \underset{t \to 0}{=}\sum_{k = 1}^{n}$$
+
+
+
 
 ### 4.
 Si $(x_{k})_{k = 1}^{n}$ est une suite arithmétique alors, il existe $r \in \mathbb{Z}^{*}$, tel que : 
