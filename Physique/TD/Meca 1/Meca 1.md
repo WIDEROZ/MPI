@@ -170,4 +170,8 @@ Alors,
 $$2a\cos(\theta) + g\sin(\theta) = 0$$
 Mais continuons a intégrer :
 $$ l\frac{d\dot{\theta^{2}}}{dt} = 2l\dot{\theta} \ddot{\theta} = 4a\dot{\theta}\cos(\theta) + 2g\dot{\theta}\sin(\theta)$$
-$$l\dot{\theta}^{2} = 4a\sin(\theta) - 2 g \cos(\theta)$$
+$$l\dot{\theta}^{2} = 4a\sin(\theta) - 2 g \cos(\theta) = \frac{2T}{m}$$
+Alors, 
+$$\dot{\theta} = \sqrt{ \frac{2T}{ml} }$$
+Donc,
+$$\theta = t\sqrt{ \frac{2T}{ml} } + 0$$
