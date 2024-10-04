@@ -299,3 +299,16 @@ $$\sum u_{n} \text{ DVG}$$
 #### Exercice 
 Calculer la nature de : 
 $$\sum_{n \geq 1} \frac{n!}{n^{n}}$$
+
+#### Règle du $n^{\alpha}u_{n}$
+Soit $(u_{n})_{n \in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}$, Si il existe $\alpha > 1$ tel que : 
+$$n^{\alpha}u_{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+alors, 
+$$\sum_{n \in \mathbb{N}} u_{n} \text{ CVA}$$
+
+Démonstration : 
+$$$$
+Comme
+$$\sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\alpha}} \text{ est une SATP}$$
+de Riemann, si bien que 
+$$\sum_{n \in \mathbb{N}} \left| u_{n}\right| \text{ CV}$$
