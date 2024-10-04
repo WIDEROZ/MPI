@@ -130,7 +130,7 @@ Si $\frac{k}{m}>\Omega^{2}$, $\uparrow$
 ### (b).
 Si $\frac{k}{m}< \Omega^{2}$, 
 $$\omega_{0} = \sqrt{ \Omega^{2} - \frac{k}{m} }$$
-$$\ddot{x'} -\omega_{0}^{2}= \frac{kl_{0}}{m}$$
+$$\ddot{x'} -\omega_{0}^{2}x= \frac{kl_{0}}{m}$$
 résoudre cte merde.
 
 ### (c).
@@ -155,8 +155,12 @@ $$\begin{cases}
 \end{cases}$$
 
 On projette sur $\vec{e}_{r}$ : 
-
-
+$$\ddot{r} +\omega_{0}^{2}r = \frac{kl_{0}}{m}$$
+$$\begin{cases}
+0 = R_y' - 2m\omega \dot{x'} \\
+0 = -mg + R_{z'}
+\end{cases}$$
+Ainsi,
 
 
 # Exercice 3
