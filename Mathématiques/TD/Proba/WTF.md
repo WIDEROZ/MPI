@@ -29,7 +29,7 @@ $$= 1- V(X)t^{2} + o(t^{2})$$
 
 
 ### 4.
-Si $(x_{k})_{k = 1}^{n}$ est une suite arithmétique alors, il existe $r \in \mathbb{Z}^{*}$, tel que : 
+Si $(x_{k})_{k = 1}^{n}$ est une suite arithmétique alors, il existe $r \in \mathbb{R}_{+}^{*}$, tel que : 
 $$\forall k \in [\![1, n]\!], x_{k} = (k-1)r + x_{1}$$
 Alors, 
 $$\forall t \in \mathbb{R}, \varphi(t) = \sum_{k =1}^{n} p_{k}e^{ it ((k-1)r + x_{1}) } = \sum_{k = 1}^{n} p_{k}e^{ itkr }e^{ it(x_{1}-r) }$$

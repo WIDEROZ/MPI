@@ -807,3 +807,6 @@ Comme
 $$I = \lim_{ \varepsilon \to 0^{+} } I_{\varepsilon} $$
 alors, 
 $$I = \frac{\pi}{(1+r)^{2}}$$
+
+#### Définition : Dense
+Soit $E$ est un evn et $A \subset E$, 
