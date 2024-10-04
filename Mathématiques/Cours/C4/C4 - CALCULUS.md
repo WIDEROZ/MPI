@@ -810,3 +810,12 @@ $$I = \frac{\pi}{(1+r)^{2}}$$
 
 #### Définition : Dense
 Soit $E$ est un evn et $A \subset E$, 
+On dit que $A$ est dense dans $E$ lorsque : 
+$$\begin{array}{l}
+&\forall x_{0} \in E, \forall r >0, \exists a \in A \cap B (x_{0}, r)  \\
+\Leftrightarrow&  \forall x_{0} \in E, \exists(a_{n})_{n \in \mathbb{N}}\in A^{\mathbb{N}}, a_{n} \underset{n \to +\infty}{\longrightarrow} x_{0}
+\end{array}$$
+
+#### Exercice
+CCINP 35
+exercice 2
