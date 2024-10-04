@@ -351,3 +351,12 @@ $$\sum_{n \in \mathbb{N}} u_{n} \text{ CV} \Leftrightarrow \sum_{n \in \mathbb{N
 ie si
 $$a < b$$
 sinon elle DV, 
+
+#### Exercice 14
+Prouver la convergence de : 
+$$(b_{n})_{n \in \mathbb{N}^{*}} = \left( \sum_{k = 1}^{n}\frac{\ln(k)}{k}- \frac{\ln(n)^{2}}{2} \right)_{n \in \mathbb{N}^{*}}$$
+revient à prouver la cv de : 
+$$\sum_{n \in \mathbb{N}^{*}} (b_{n+1}-b_{n})$$
+
+$$b_{n+1}-b_{n} = \frac{\ln(n+1)}{n+1} - \frac{\ln(n+1)^{2}-\ln(n)^{2}}{2}$$
+$$= $$
