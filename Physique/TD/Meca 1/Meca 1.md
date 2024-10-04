@@ -173,24 +173,23 @@ $$\begin{cases}
 \vec{f}_{i, e} = -m\frac{d^{2} \overrightarrow{OO'}}{dt^{2}} = -m\frac{d^{2}(y\vec{e}_{y}+h\vec{e}_{z})}{dt} = 2am\vec{e}_{y} = 2am(\sin(\theta)\vec{e}_{r} + \cos(\theta)\vec{e}_{\theta})\\
 \vec{f}_{i, c} = \overrightarrow{0} \\
 \vec{T} = -T\vec{e}_{r} \\
-\vec{P} = -mg\vec{e}_{z} = -mg(\cos(\theta)\vec{e}_{r} -\sin(\theta)\vec{e}_{\theta})
+\vec{P} = -mg\vec{e}_{z} = mg(\cos(\theta)\vec{e}_{r} -\sin(\theta)\vec{e}_{\theta})
 \end{cases}$$
 En faisant un PDF à $M$ dans $\mathcal{R}'$ : le wagon, 
-$$\vec{a'} = \left( 2a\sin(\theta)-\frac{T}{m}-g\cos(\theta) \right)\vec{e}_{r} + (2a\cos(\theta)+g\sin(\theta))\vec{e}_{\theta}$$
+$$\vec{a'} = \left( 2a\sin(\theta)-\frac{T}{m}+g\cos(\theta) \right)\vec{e}_{r} +(2a\cos(\theta)-g\sin(\theta))\vec{e}_{\theta}$$
 $$\left| \begin{array}{l}
--l\dot{\theta}^{2} \\
+-l\dot{\theta} \\
 l\ddot{\theta}
 \end{array}\right. = \left| \begin{array}{l}
-2a\sin (\theta) - \frac{T}{m} - g\cos(\theta) \\
-2a\cos(\theta)+g\sin(\theta)
+2a\sin (\theta) - \frac{T}{m} + g\cos(\theta) \\
+2a\cos(\theta)-g\sin(\theta)
 \end{array}\right.$$
 On veut que le pendule soit à l'équilibre donc $\theta = \text{cte}$, 
 Alors, 
-$$2a\cos(\theta) + g\sin(\theta) = 0$$
-Mais continuons a intégrer :
-$$ l\frac{d\dot{\theta^{2}}}{dt} = 2l\dot{\theta} \ddot{\theta} = 4a\dot{\theta}\cos(\theta) + 2g\dot{\theta}\sin(\theta)$$
-$$l\dot{\theta}^{2} = 4a\sin(\theta) - 2 g \cos(\theta) = \frac{2T}{m}$$
-Alors, 
-$$\dot{\theta} = \sqrt{ \frac{2T}{ml} }$$
-Donc,
-$$\theta = t\sqrt{ \frac{2T}{ml} } + 0$$
+$$2a\cos(\theta) - g\sin(\theta) = 0$$
+Donc, 
+$$\frac{\sin(\theta)}{\cos(\theta)} =\tan(\theta) = \frac{2a}{g}$$
+Ainsi, 
+$$\theta = \arctan\left( \frac{2a}{g} \right)$$
+
+## 2.
