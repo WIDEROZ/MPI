@@ -363,3 +363,9 @@ $$= \frac{\ln\left( \frac{n+1}{n} \right)\times (\ln(n+1)+\ln(n)) }{2} $$
 $$= \frac{\ln(n+1)}{n+1} - \frac{\left( \frac{1}{n}+ O\left( \frac{1}{n^{2}} \right)\right)\left(2\ln(n)+\ln\left( 1+\frac{1}{n} \right) \right)}{2}$$
 $$= \frac{\ln(n+1)}{n+1}- \frac{2 \frac{\ln(n)}{n}+\frac{1}{n^{2}}+O\left( \frac{\ln(n)}{n} \right)+O\left( \frac{1}{n^{2}} \right)+O\left( \frac{1}{n^{3}} \right)}{2}$$
 $$= \left( \frac{\ln(n+1)}{n+1}-\frac{\ln(n)}{n} \right)-\frac{1}{2n^{2}}+O\left( \frac{\ln(n)}{n^{2}} \right)+O\left( \frac{1}{n^{2}} \right)$$
+C'est la somme de séries convergentes. donc $b_{n}$ CV
+On note : 
+$$S_{n} = \sum_{k = 1}^{n}(-1)^{k} \frac{\ln(k)}{k}$$
+Alors, 
+$$S_{2n} = \sum_{k = 1}^{n} \frac{\ln(2k)}{2k} - \sum_{k = 1}^{n} \frac{\ln(2k-1)}{2k-1
+}$$
