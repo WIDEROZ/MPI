@@ -193,3 +193,16 @@ Ainsi,
 $$\theta = \arctan\left( \frac{2a}{g} \right)$$
 
 ## 2.
+Dans le cas de petites ocillations : $\theta=\theta_{e}+\varepsilon$, 
+$$\begin{cases}
+\cos(\theta) = \cos(\theta_{e})- \varepsilon \sin(\theta_{e}) \\
+\sin(\theta) = \sin(\theta_{e})+\varepsilon \cos(\theta_{e}) \\
+\ddot{\theta} = \ddot{\varepsilon}
+\end{cases}$$
+Alors, 
+$$\ddot{\varepsilon} + \frac{g}{l}\left( \cos(\theta_{e})+\frac{2a}{g} \sin(\theta_{e}) \right)\varepsilon = -\frac{g}{l}\sin(\theta_{e}) +\frac{2a}{g} \cos(\theta_{e})$$
+$$\omega_{0}^{2} = \frac{g}{l}\cos(\theta_{e})\left( 1+\left( \frac{2a}{g} \right)^{2} \right) = \frac{g}{l}\sqrt{ 1+\left( \frac{2a}{g} \right)^{2} }$$
+car : 
+$$\cos(\theta_{e}) = \frac{1}{\sqrt{ 1+\tan ^{2}(\theta_{e}) }}$$
+Ainsi, 
+$$T = \frac{2\pi}{\omega_{0}} = $$
