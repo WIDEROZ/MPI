@@ -143,7 +143,21 @@ Si :
 $$x_{0} = \frac{kl_{0}}{m\omega_{0}^{2}}$$
 
 ### 4.
-$$\frac{dL}{dt} = \mathcal{M}_{\vec{R}/Oz}$$
+$$m\vec{a'} = \vec{F}_{r} + \vec{P} + \vec{R} + \vec{f}_{i, e} + \vec{f}_{i, c}$$
+avec : 
+$$\begin{cases}
+\vec{a'} = \ddot{r} \vec{e}_{r} \\
+\vec{F}_{r} = -k(r-l_{0})\vec{e}_{r} \\
+\vec{P} = -mg \\
+\vec{R} = R_{y'}\vec{e}_{y'} + R_{z}\vec{e}_{z} \\
+\vec{f}_{i, e} =  m\omega^{2}r \vec{e}_{r} \\
+\vec{f}_{i, c} = -2m\omega \dot{x'}\vec{e}_{y'}
+\end{cases}$$
+
+On projette sur $\vec{e}_{r}$ : 
+
+
+
 
 # Exercice 3
 ## 1.
