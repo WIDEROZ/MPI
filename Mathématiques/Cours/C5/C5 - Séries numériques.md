@@ -346,3 +346,8 @@ Donc,
 $$\left( \frac{a}{b} \right)^{n}2^{\sqrt{ n }}$$
 On essaye la règle d'Alembert : 
 $$\frac{\left( \frac{a}{b} \right)^{n+1}2^{\sqrt{ n+1 }}}{\left( \frac{a}{b} \right)^{n+1} 2^{\sqrt{ n }}}=\frac{a}{b}2^{\sqrt{ n+1 }-\sqrt{ n }}=\frac{a}{b}2^{\frac{1}{\sqrt{ n+1 }+\sqrt{ n }}} \underset{n \to +\infty}{\longrightarrow} \frac{a}{b}$$
+Comme toutes ces suites sont positives, 
+$$\sum_{n \in \mathbb{N}} u_{n} \text{ CV} \Leftrightarrow \sum_{n \in \mathbb{N}} \left( \frac{a}{b} \right)^{n} 2^{\sqrt{ n }} \text{ CV}$$
+ie si
+$$a < b$$
+sinon elle DV, 
