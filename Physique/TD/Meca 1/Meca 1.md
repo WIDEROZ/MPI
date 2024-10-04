@@ -207,3 +207,13 @@ $$\cos(\theta_{e}) = \frac{1}{\sqrt{ 1+\tan ^{2}(\theta_{e}) }}$$
 Ainsi, 
 $$T = \frac{2\pi}{\omega_{0}}$$
 
+# Exercice 4
+On se place dans le ref $\mathcal{R}'$ du manège, 
+on fait un bilan des forces : 
+$$\begin{cases}
+\vec{P} = -mg\vec{e}_{y'} \\
+\vec{T} = -T\vec{e}_{r} \\
+\vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} \\
+\vec{f}_{i, c}=-2m\vec{\omega} \wedge \vec{v} = \overrightarrow{0}
+\end{cases}$$
+car $\vec{v}(M / \mathcal{R}') = \overrightarrow{0}$, 
