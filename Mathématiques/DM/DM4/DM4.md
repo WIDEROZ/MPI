@@ -48,4 +48,15 @@ Donc par définition de la limite, en posant : $\varepsilon = \frac{A}{\left| x\
 $$\lim_{ x \to +\infty } I_{f}(x) = 0$$
 Alors, 
 $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -i\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
-comme $f(x) \in \mathbb{C}$, il existe $x, t \in \mathcal{C}^{1}(I, \mathbb{R})$ telles que : 
+___
+Comme $f(x) \in \mathbb{C}$, il existe $x, t \in \mathcal{C}^{1}(I, \mathbb{R})$ telles que : 
+$$f(x) = x(t) + iy(t)$$
+Donc, 
+$$\begin{array}{rl}
+I_{f}(x) &= \int _{0}^{ \frac{\pi}{2}} (x(t)\cos(xt)-y(t)\sin(xt)) \, dt  \\
+&+ i \int _{0}^{\frac{\pi}{2}} (x(t)\sin(xt)+y(t)\cos(xt)) \, dt
+\end{array}$$
+Alors, 
+$$\lim_{ x \to +\infty }\int _{0}^{ \frac{\pi}{2}} (x(t)\cos(xt)-y(t)\sin(xt)) \, dt = 0  $$
+et
+$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} (x(t)\sin(xt)+y(t)\cos(xt)) \, dt =0$$
