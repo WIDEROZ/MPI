@@ -37,17 +37,16 @@ $$\boxed{A = \frac{\pi}{4}\left( M' + \frac{\pi}{2}M
 
 ### c.
 Soit $x \in I \setminus \{ 0 \}$, 
-On a : 
-$$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
-
-On distingue deux cas : 
-###### Si $\left|\left| f \right|\right|_{\infty} \neq 0$ et $\left|\left| f' \right|\right|_{\infty} \neq 0$
+On pose : 
+$$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt = R(x) + iI(x)$$
 Si $x >0$, on a montré que : 
-$$\left| I_{f}(x)\right| \leq \frac{A}{\left| x\right|}$$
-Donc par définition de la limite, en posant : $\varepsilon = \frac{A}{\left| x\right|}>0$ :
-$$\lim_{ x \to +\infty } I_{f}(x) = 0$$
-Alors, 
-$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -i\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
-$$= \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t) \frac{e^{ -ixt }-e^{ ixt }}{2} \, dt =\frac{1}{2} \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}}f(t)e^{ -ixt } \, dt  $$
-$$= \frac{1}{2} \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}}f(t)(\cos(xt)-i\sin(xt)) \, dt $$
-Alors, 
+$$\sqrt{ R^{2}(x) + I^{2}(x) } = \left| I_{f}(x)\right| \leq \frac{A}{\left| x\right|}$$
+alors, 
+$$0\leq R^{2}(x) + I^{2}(x) \leq \frac{A^{2}}{x^{2}}$$
+Par le théorème de convergence par encadrement,
+$$\lim_{ x \to +\infty } R^{2}(x) + I^{2}(x) = 0$$
+ie, 
+$$\begin{cases}
+\underset{ x \to +\infty }\lim R(x) = 0 \\
+\underset{ x \to +\infty }\lim I(x) = 0
+\end{cases}$$
