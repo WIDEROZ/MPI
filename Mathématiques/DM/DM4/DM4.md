@@ -108,3 +108,17 @@ $$= 2\int _{0}^{\pi/2} \cos((n-1)t) \, dt$$
 $$= \frac{2}{n-1} [\sin((n-1)t)]_{0}^{\pi/2} = \frac{2}{n-1}\sin\left( \frac{\pi}{2}(n-1) \right)$$
 Ainsi, 
 $$\boxed{J_{n}- J_{n-2} = \frac{2}{n-1}\sin\left( \frac{\pi}{2}(n-1) \right)}$$
+
+### c.
+$$\forall N \in \mathbb{N}^{*},J_{2N+1} - J_{2N-1} = \frac{1}{N}\sin(\pi N) = 0$$
+Alors, 
+$$\forall N \in \mathbb{N}^{*}, J_{2N+1} = J_{2N-1}$$
+Donc tous les termes impairs de $(J_{n})_{n \in \mathbb{N}}$, sont égaux
+Donc, en prenant $N = 1$, 
+$$J_{2N-1} = J_{1} = \frac{\pi}{2}$$
+Ainsi, 
+$$\forall N \in \mathbb{N}^{*}, J_{2N+1} = \frac{\pi}{2}$$
+(fonctionne aussi pour $N \in \mathbb{N}$)
+
+### d.
+$$\forall N \in \mathbb{N}^{*}, $$
