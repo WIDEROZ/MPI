@@ -50,3 +50,4 @@ Alors,
 $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -i\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
 $$= \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t) \frac{e^{ -ixt }-e^{ ixt }}{2} \, dt =\frac{1}{2} \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}}f(t)e^{ -ixt } \, dt  $$
 $$= \frac{1}{2} \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}}f(t)(\cos(xt)-i\sin(xt)) \, dt $$
+Alors, 
