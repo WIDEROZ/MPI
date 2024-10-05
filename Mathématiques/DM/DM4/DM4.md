@@ -65,4 +65,9 @@ $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\cos(xt) \, 
 $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\cos(xt) \, dt = -\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\sin(xt) \, dt$$
 ___
 $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -\left( \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} (\mathrm{Im}(f(t))+i\mathrm{Re}(f(t)))\sin(xt) \, dt \right)$$
-$$\lim_{ x \to +\infty } I_{f}(x) = -\lim_{ x \to +\infty } \left( \int _{0}^{\frac{\pi}{2}} (i(f(t)))\sin(xt) \, dt  \right)$$
+$$\lim_{ x \to +\infty } I_{f}(x) = \lim_{ x \to +\infty } \left( \int _{0}^{\frac{\pi}{2}} (i(f(t) - \mathrm{Re}(f(t)))-\mathrm{Im}(ft))\sin(xt) \, dt  \right)$$
+$$= \lim_{ x \to +\infty }\left( \int_{0} ^{\frac{\pi}{2}} -2\mathrm{Im}(f(t))\sin(xt) \, dx  \right) =0$$
+Alors, 
+$$\lim_{ x \to +\infty } \int_{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\sin(xt) \, dt = \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\cos(xt) \, dt = 0$$
+Donc, 
+$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\cos(xt) \, dt = -i\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\sin(xt) \, dt$$
