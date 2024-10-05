@@ -65,4 +65,4 @@ $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\cos(xt) \, 
 $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\cos(xt) \, dt = -\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\sin(xt) \, dt$$
 ___
 $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -\left( \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} (\mathrm{Im}(f(t))+i\mathrm{Re}(f(t)))\sin(xt) \, dt \right)$$
-$$\lim_{ x \to +\infty } I_{f}(x) = -\lim_{ x \to +\infty } \left( \int _{0}^{\frac{\pi}{2}}  \, dt  \right)$$
+$$\lim_{ x \to +\infty } I_{f}(x) = -\lim_{ x \to +\infty } \left( \int _{0}^{\frac{\pi}{2}} (i(f(t)))\sin(xt) \, dt  \right)$$
