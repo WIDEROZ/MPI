@@ -136,16 +136,7 @@ $$\boxed{J_{2N} = 2\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}}$$
 ### a.
 Soit $N \in \mathbb{N}^{*}$, 
 $$J_{n} - J_{n-1} = \int _{0}^{\pi/2} \frac{\sin(nt)-\sin((n-1)t)}{\sin(t)} \, dt$$
-$$= 2\int _{0}^{\pi/2} \frac{\sin\left( \frac{t}{2} \right)\cos\left( \left( n-\frac{1}{2} \right) \frac{t}{2} \right)}{\sin(t)} \, dt $$
-$$= 4\int_{0}^{\pi/4} \frac{\sin(t)\cos\left( \left( n-\frac{1}{2} \right)t \right)}{\sin(2t)} \, dt $$
-$$= \int _{0}^{\pi/4} \psi(t)\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt $$
-ou : 
-$$\psi : \begin{cases}
-\left[ 0, \frac{\pi}{2} \right] \to \mathbb{C} \\
-t \mapsto \frac{4\sin(t)}{\sin(2t)}
-\end{cases}$$
-qui est bien définie car : 
-$$4 \frac{\sin(t)}{\sin(2t)} \underset{t \to \frac{\pi}{2}}{\sim}  4\frac{1}{-2t} \underset{t \to \frac{\pi}{2}}{\sim} - \frac{2}{t}$$
+$$= 2\int _{0}^{\pi/2} \frac{\sin\left( \frac{t}{2} \right)\cos\left( \left( n-\frac{1}{2} \right) 2t \right)}{\sin(t)} \, dt $$
+$$=  \int _{0}^{\pi}  \, dt $$
 
-$$\frac{\sin(2t)}{-2t} \underset{t \to \frac{\pi}{2}}{\longrightarrow} $$
-$$\frac{2\cos(2t)}{-2}= -\cos(2t) \underset{n \to +\infty}{\longrightarrow} 1$$
+$t = \frac{T}{2}$
