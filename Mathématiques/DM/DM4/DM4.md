@@ -57,9 +57,30 @@ $$\boxed{\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = \
 Soit $n \in \mathbb{N}$, 
 ## Question 2
 ### a.
-$$t \mapsto \frac{\sin(nt)}{\sin(t)}$$
-est continue sur $]0, \frac{\pi}{2}]$,
+$$h : \begin{cases}
+]0, \frac{\pi}{2}] \to \mathbb{R} \\
+t \mapsto \frac{\sin(nt)}{\sin(t)}
+\end{cases}$$
+est continue, 
 puis, 
 $$\frac{\sin(nt)}{\sin(t)} \underset{t \to 0}{\sim} \frac{nt}{t} = n$$
 Donc, 
-$$\lim_{ t \to 0 } \frac{\sin(nt)}{\sin}$$
+$$\lim_{ t \to 0 } \frac{\sin(nt)}{\sin(t)} = n$$
+Ainsi, en prolongeant par continuité $h$, on obtiens : 
+$$f : \begin{cases}
+\left[ 0, \frac{\pi}{2} \right]\to \mathbb{R} \\
+t \mapsto \begin{cases}
+n &\text{ si } t = 0 \\
+\frac{\sin(nt)}{\sin(t)}&\text{ sinon}
+\end{cases}
+\end{cases}$$
+qui est continue sur $\left[ 0, \frac{\pi}{2} \right]$, 
+
+$$\boxed{\text{Ainsi, }f \in \mathcal{C}^{0}\left( \left[ 0, \frac{\pi}{2} \right], \mathbb{R} \right) \text{ donc, } J_{n} \text{ existe bien}}$$
+
+### b.
+$$\begin{cases}
+J_{0} = 0 \\
+J_{1} = \frac{\pi}{2} \\
+J_{2} = 2\int_{0}^{\frac{\pi}{2}} \cos(t) \, dt=-2 
+\end{cases}$$
