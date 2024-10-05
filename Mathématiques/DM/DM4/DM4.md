@@ -91,8 +91,8 @@ On pose : $p = a+b$ et $q = a-b$,
 alors $a = \frac{p+q}{2}$ et $b= \frac{p-q}{2}$,
 
 $$\begin{array}{rl}
-\sin a - \sin b &= \cos\left( \frac{p}{2} \right)\sin\left( \frac{q}{2} \right)+\cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right)  \\
-&+\sin\left( \frac{p}{2} \right)\cos\left( \frac{q}{2} \right)-\sin\left( \frac{q}{2} \right)\cos\left( \frac{p}{2} \right) \\
+\sin a - \sin b &= \cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right) + \cos\left( \frac{p}{2} \right)\sin\left( \frac{q}{2} \right) \\
+&-\sin\left( \frac{p}{2} \right)\cos\left( \frac{q}{2} \right)+\sin\left( \frac{q}{2} \right)\cos\left( \frac{p}{2} \right) \\
 &= 2\cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right)  \\
 &= 2\sin\left( \frac{a+b}{2} \right)\cos\left( \frac{a-b}{2} \right)
 \end{array}$$
@@ -102,5 +102,9 @@ $$\boxed{\sin a - \sin b = 2 \sin\left( \frac{a+b}{2} \right)\cos\left( \frac{a-
 
 ### b.
 Soit $n \in \mathbb{N}^{*}\setminus \{ 1 \}$,
-$$J_{n} - J_{n-2} = -\int _{0}^{\frac{\pi}{2}} \frac{ \sin(nt-2t)- \sin(nt)}{\sin(t)}$$
-$$= \int _{0}^{\frac{\pi}{2}} \frac{}{\sin(t)} \, dt $$
+$$J_{n} - J_{n-2} = \int _{0}^{\frac{\pi}{2}} \frac{\sin(nt) - \sin(nt-2t)}{\sin(t)}$$
+$$= 2\int _{0}^{\frac{\pi}{2}} \frac{\sin((n-1)t)\cos(t)}{\sin(t)} \, dt  $$
+$$= 2\int _{0}^{\pi/2} \frac{\sin(nt)\cos(t) - \sin(t)\cos(nt)}{\sin(t)}\cos(t) \, dt$$
+$$= 2 \int _{0}^{\frac{\pi}{2}}  \, dt $$
+
+$2nt = p$, $q = 2t$, $a = t+nt$, $b = nt-t$, 
