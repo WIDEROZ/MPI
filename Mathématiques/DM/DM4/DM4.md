@@ -87,8 +87,20 @@ J_{2} = \int _{0}^{\frac{\pi}{2}} \frac{2\sin(t)\cos(t)}{\sin(t)} \, dx  = 2\int
 
 ## Question 3
 ### a.
-$a = \frac{p+q}{2}$ et $b= \frac{p-q}{2}$, 
+On pose : $p = a+b$ et $q = a-b$, 
+alors $a = \frac{p+q}{2}$ et $b= \frac{p-q}{2}$,
 
-$$\sin a - \sin b = \cos\left( \frac{p}{2} \right)\sin\left( \frac{q}{2} \right)+\cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right)$$
-$$+\sin\left( \frac{p}{2} \right)\cos\left( \frac{q}{2} \right)-\sin\left( \frac{q}{2} \right)\cos\left( \frac{p}{2} \right)$$
-$$= 2\cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right) = \sin()$$
+$$\begin{array}{rl}
+\sin a - \sin b &= \cos\left( \frac{p}{2} \right)\sin\left( \frac{q}{2} \right)+\cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right)  \\
+&+\sin\left( \frac{p}{2} \right)\cos\left( \frac{q}{2} \right)-\sin\left( \frac{q}{2} \right)\cos\left( \frac{p}{2} \right) \\
+&= 2\cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right)  \\
+&= 2\sin\left( \frac{a+b}{2} \right)\cos\left( \frac{a-b}{2} \right)
+\end{array}$$
+
+Ainsi, 
+$$\boxed{\sin a - \sin b = 2 \sin\left( \frac{a+b}{2} \right)\cos\left( \frac{a-b}{2} \right)}$$
+
+### b.
+Soit $n \in \mathbb{N}^{*}\setminus \{ 1 \}$,
+$$J_{n} - J_{n-2} = -\int _{0}^{\frac{\pi}{2}} \frac{ \sin(nt-2t)- \sin(nt)}{\sin(t)}$$
+$$= \int _{0}^{\frac{\pi}{2}} \frac{}{\sin(t)} \, dt $$
