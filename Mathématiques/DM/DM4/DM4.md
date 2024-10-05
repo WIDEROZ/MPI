@@ -60,3 +60,8 @@ Alors,
 $$\lim_{ x \to +\infty }\int _{0}^{ \frac{\pi}{2}} (x(t)\cos(xt)-y(t)\sin(xt)) \, dt = 0  $$
 et
 $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} (x(t)\sin(xt)+y(t)\cos(xt)) \, dt =0$$
+___
+$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\cos(xt) \, dt = -\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\sin(xt) \, dt$$
+$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\cos(xt) \, dt = -\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\sin(xt) \, dt$$
+___
+$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -i\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
