@@ -2,13 +2,14 @@
 ## Question 1
 ### a.
 Comme $f'$ est continue sur $I$ alors par le théorème des valeurs intermédiaires $f'(I)$ est un segment ainsi $f'$ est bornée. 
+
 Soit $x \in I$,
 D'après le théorème fondamental de l'analyse, comme $f'$ est continue, $f'$ est intégrable et on a une primitive de $f'$ qui est $f$, 
 $$\int_{0}^{x} f' = f(x) - f(0)$$
 alors, comme $f'$ est bornée,
 $$\left|\left| f' \right|\right| _{\infty} \in \mathbb{R}$$
-Alors, par les inégalités intégrales et l'inégalité triangulaire :
-$$\left| f(x) \right| - \left| f(0)\right|\leq \left| \int _{0}^{x} f' \right| = \left| f(x) - f(0) \right|\leq \int _{0}^{x} \left| f' \right| \leq \left|\left| f' \right|\right| x$$
+Alors, par l'inégalité de la moyenne et les inégalités triangulaires :
+$$\left| f(x) \right| - \left| f(0)\right|\leq \left| \int _{0}^{x} f' \right| = \left| f(x) - f(0) \right|\leq \int _{0}^{x} \left| f' \right| \leq \left|\left| f' \right|\right|_{\infty} x$$
 Donc, 
 $$\left| f(x)\right|\leq Mx + \left| f(0)\right| \leq M \frac{\pi}{2} + \left| f(0)\right|$$
 Ainsi, $f$ est bien bornée. 
