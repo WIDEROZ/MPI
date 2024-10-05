@@ -135,4 +135,6 @@ $$\boxed{J_{2N} = 2\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}}$$
 ## Question 4
 ### a.
 Soit $N \in \mathbb{N}^{*}$, 
-$$J_{2N-1} - J_{2N} = \int _{0}^{\pi/2}  \, dt $$
+$$J_{n} - J_{n-1} = \int _{0}^{\pi/2} \frac{\sin(nt)-\sin((n-1)t)}{\sin(t)} \, dt$$
+$$= 2\int _{0}^{\pi/2} \frac{\sin\left( \frac{t}{2} \right)\cos\left( \left( n-\frac{1}{2} \right) \frac{t}{2} \right)}{\sin(t)} \, dt $$
+$$=$$
