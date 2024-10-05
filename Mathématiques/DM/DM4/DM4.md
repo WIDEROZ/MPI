@@ -113,7 +113,7 @@ $$\boxed{J_{n}- J_{n-2} = \frac{2}{n-1}\sin\left( \frac{\pi}{2}(n-1) \right)}$$
 $$\forall N \in \mathbb{N}^{*},J_{2N+1} - J_{2N-1} = \frac{1}{N}\sin(\pi N) = 0$$
 Alors, 
 $$\forall N \in \mathbb{N}^{*}, J_{2N+1} = J_{2N-1}$$
-Donc tous les termes impairs de $(J_{n})_{n \in \mathbb{N}}$, sont égaux
+i.e. tous les termes impairs de $(J_{n})_{n \in \mathbb{N}^{*}}$, sont égaux
 Donc, en prenant $N = 1$, 
 $$J_{2N-1} = J_{1} = \frac{\pi}{2}$$
 Ainsi, 
@@ -121,4 +121,9 @@ $$\forall N \in \mathbb{N}^{*}, J_{2N+1} = \frac{\pi}{2}$$
 (fonctionne aussi pour $N \in \mathbb{N}$)
 
 ### d.
-$$\forall N \in \mathbb{N}^{*}, $$
+Soit $N \in \mathbb{N}^{*}$, 
+$$J_{2N} - J_{2(N-1)} = \frac{2}{2N-1}\sin\left( \frac{\pi}{2}(2N-1) \right)$$
+$$=\frac{2}{2N-1}\left( \sin(\pi N)\cos\left( \frac{\pi}{2} \right)-\sin\left( \frac{\pi}{2} \right)\cos(\pi N) \right)$$
+$$= (-1)^{N-1}\frac{2}{2N-1} $$
+calculons : 
+$$J_{2(N-1)} = \int _{0}^{\pi/2} \frac{\sin(2(N-1)t)}{\sin(t)} \, dt = \int _{0}^{\pi/2}  \, dt $$
