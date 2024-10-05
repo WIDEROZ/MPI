@@ -561,7 +561,7 @@ $$S_{n} \underset{n \to +\infty}{\longrightarrow}  \frac{\pi}{8}$$
 
 #### Théorème de changement de variable
 Si $f : I \to \mathbb{K}$ est continue et $\varphi : [\alpha, \beta]\to I$ est $\mathcal{C}^{1}$, 
-$$\int _{\varphi(a)}^{\varphi(b)} f = \int _{a}^{b} (f \circ \varphi) \varphi' $$
+$$\int _{\varphi(a)}^{\varphi(b)} f(t) \,  dt = \int _{a}^{b} (f \circ \varphi)(t) \varphi'(t) \, dt $$
 
 $$\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
 \def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}$$

@@ -137,4 +137,8 @@ $$\boxed{J_{2N} = 2\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}}$$
 Soit $N \in \mathbb{N}^{*}$, 
 $$J_{n} - J_{n-1} = \int _{0}^{\pi/2} \frac{\sin(nt)-\sin((n-1)t)}{\sin(t)} \, dt$$
 $$= 2\int _{0}^{\pi/2} \frac{\sin\left( \frac{t}{2} \right)\cos\left( \left( n-\frac{1}{2} \right) \frac{t}{2} \right)}{\sin(t)} \, dt $$
-$$=$$
+$$= 4\int_{0}^{\pi} \frac{\sin(t)\cos\left( \left( n-\frac{1}{2} \right)t \right)}{\sin(2t)} \, dt $$
+
+$$\varphi(a) = 0 \text{ et } \varphi(b) = \frac{\pi}{2}$$
+puis, 
+$$$$
