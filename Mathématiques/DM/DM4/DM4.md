@@ -24,13 +24,19 @@ Comme $\left| f(0) - f\left( \frac{\pi}{2} \right)e^{ ix \frac{\pi}{2} }\right| 
 $$\left| \int _{0}^{\frac{\pi}{2}} f'(t)e^{ ixt } \, dt + f(0) - f\left( \frac{\pi}{2} \right)e^{ ix \frac{\pi}{2} }\right|\leq \left| \int _{0}^{\frac{\pi}{2}} f'(t)e^{ ixt } \, dt \right|$$
 Alors, par les inégalités de la moyenne : 
 $$\left| I_{f}(x)\right| \leq \frac{1}{\left| x\right|} \left| \int _{0}^{\frac{\pi}{2}} f'(t)e^{ ixt } \, dt \right| \leq \frac{1}{\left| x\right|} \int_{0}^{\frac{\pi}{2}} \left| f'(t)e^{ ixt } \right|dt \leq \frac{\left|\left| f' \right|\right| _{\infty}}{\left| x\right|} \frac{\pi}{2}$$
-et : 
+De plus, on a par les inégalités de la moyenne :
 $$\left| I_{f}(x) \right| = \left| \int _{0}^{\frac{\pi}{2}} f(t)e^{ ixt } \, dt \right| \leq \left|\left| f \right|\right| _{\infty} \frac{\pi}{2}$$
 Alors, en sommant les deux inégalités : 
-$$\left| I_{f}(x)\right| \leq \frac{\pi}{4}(\left|\left| f' \right|\right|/)$$
-$$ = \left|\left| f \right|\right| _{\infty} \frac{1}{\left| x\right|} \left| e^{ i x\frac{\pi}{2} } - 1\right| \leq \left|\left| f \right|\right| _{\infty} \frac{2}{\left| x \right|}$$
-Par l'inégalité triangulaire.
-Donc, en faisant le produit des deux inégalités positives et en composant par $\sqrt{ \cdot }$
-$$\left| I_{f}(x)\right| \leq \frac{\sqrt{ \left|\left| f \right|\right| _{ \infty} \left|\left| f' \right|\right| _{\infty} }}{\left| x\right|} \sqrt{ \pi }$$
+$$\left| I_{f}(x)\right| \leq \frac{\pi}{4}\left( \frac{\left|\left| f' \right|\right|_{\infty}}{\left| x\right|} + \left|\left| f \right|\right| _{\infty}\right) = \frac{\pi}{4 \left| x\right|}(\left|\left| f' \right|\right| _{\infty} + \left|\left| f \right|\right|_{\infty} \left| x\right|)$$
 Ainsi, 
-$$A = \sqrt{ \left|\left| f \right|\right| _{ \infty} \left|\left| f' \right|\right| _{\infty} }\sqrt{ \pi }$$
+$$\left| I_{f}(x)\right|\leq \frac{1}{\left| x\right|} \times \frac{\pi}{4} \left( \left|\left| f' \right|\right| _{\infty} + \frac{\pi}{2}\left|\left| f \right|\right|_\infty \right)=\frac{A}{\left| x\right|}$$
+Avec 
+$$\boxed{A = \frac{\pi}{4}\left( M' + \frac{\pi}{2}M
+\right)}$$
+
+### c.
+Soit $x \in I$, 
+On a : 
+$$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
+Alors, 
+$$$$
