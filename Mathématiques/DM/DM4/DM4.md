@@ -39,6 +39,13 @@ $$\boxed{A = \frac{\pi}{4}\left( M' + \frac{\pi}{2}M
 Soit $x \in I \setminus \{ 0 \}$, 
 On a : 
 $$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
-Alors, en posant : $\varepsilon = \frac{A}{\left| x\right|}\geq0$ :
-$$\forall \varepsilon > 0, \exists \alpha \in \mathbb{R}, \forall x \in I, \left| x\right|> \alpha \Rightarrow \left| I_{f}(x)\right|\leq \varepsilon$$
-$$0\leq \left| I_{f}(x)\right| \leq \frac{A}{\left| x\right|}$$
+
+On distingue deux cas : 
+###### Si $\left|\left| f \right|\right|_{\infty} \neq 0$ et $\left|\left| f' \right|\right|_{\infty} \neq 0$
+Si $x >0$, on a montré que : 
+$$\left| I_{f}(x)\right| \leq \frac{A}{\left| x\right|}$$
+Donc par définition de la limite, en posant : $\varepsilon = \frac{A}{\left| x\right|}>0$ :
+$$\lim_{ x \to +\infty } I_{f}(x) = 0$$
+Alors, 
+$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -i\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
+comme $f(x) \in \mathbb{C}$, il existe $x, t \in \mathcal{C}^{1}(I, \mathbb{R})$ telles que : 
