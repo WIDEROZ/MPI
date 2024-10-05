@@ -137,6 +137,7 @@ $$\boxed{J_{2N} = 2\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}}$$
 Soit $N \in \mathbb{N}^{*}$, 
 $$J_{n} - J_{n-1} = \int _{0}^{\pi/2} \frac{\sin(nt)-\sin((n-1)t)}{\sin(t)} \, dt$$
 $$= 2\int _{0}^{\pi/2} \frac{\sin\left( \frac{t}{2} \right)\cos\left( \left( n-\frac{1}{2} \right) 2t \right)}{\sin(t)} \, dt $$
-$$=  \int _{0}^{\pi}  \, dt $$
+$$=  \int _{0}^{\pi} \frac{\sin\left( \frac{t}{4} \right)}{\sin\left( \frac{t}{2} \right)} \cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt $$
+$$= \int_{0}^{\pi/2} \frac{1}{2\cos\left( \frac{t}{4} \right)}\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt + \int _{\pi/2}^{\pi} \frac{\cos\left( \left( n-\frac{1}{2} \right)t \right)}{2\cos\left( \frac{t}{4} \right)} \, dt $$
 
-$t = \frac{T}{2}$
+$$= I + \int_{\pi}^{\pi/2}  \, dt $$
