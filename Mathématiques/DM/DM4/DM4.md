@@ -45,8 +45,21 @@ alors,
 $$0\leq R^{2}(x) + I^{2}(x) \leq \frac{A^{2}}{x^{2}}$$
 Par le théorème de convergence par encadrement,
 $$\lim_{ x \to +\infty } R^{2}(x) + I^{2}(x) = 0$$
-ie, 
+Donc, 
 $$\begin{cases}
 \underset{ x \to +\infty }\lim R(x) = 0 \\
 \underset{ x \to +\infty }\lim I(x) = 0
 \end{cases}$$
+Ainsi, 
+$$\boxed{\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt = 0 }$$
+
+# Calcul de l'intégrale de Dirichlet
+Soit $n \in \mathbb{N}$, 
+## Question 2
+### a.
+$$t \mapsto \frac{\sin(nt)}{\sin(t)}$$
+est continue sur $]0, \frac{\pi}{2}]$,
+puis, 
+$$\frac{\sin(nt)}{\sin(t)} \underset{t \to 0}{\sim} \frac{nt}{t} = n$$
+Donc, 
+$$\lim_{ t \to 0 } \frac{\sin(nt)}{\sin}$$
