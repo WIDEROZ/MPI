@@ -145,4 +145,7 @@ $$\psi : \begin{cases}
 t \mapsto \frac{4\sin(t)}{\sin(2t)}
 \end{cases}$$
 qui est bien définie car : 
-$$4 \frac{\sin(t)}{\sin(2t)} \underset{t \to \frac{\pi}{2}}{\sim}  4\frac{1}{-2t} \underset{t \to \frac{\pi}{2}}{\sim} -\frac{2}{t}$$
+$$4 \frac{\sin(t)}{\sin(2t)} \underset{t \to \frac{\pi}{2}}{\sim}  4\frac{1}{-2t} \underset{t \to \frac{\pi}{2}}{\sim} - \frac{2}{t}$$
+
+$$\frac{\sin(2t)}{-2t} \underset{t \to \frac{\pi}{2}}{\longrightarrow} $$
+$$\frac{2\cos(2t)}{-2}= -\cos(2t) \underset{n \to +\infty}{\longrightarrow} 1$$
