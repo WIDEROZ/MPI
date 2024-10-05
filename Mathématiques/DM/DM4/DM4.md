@@ -122,8 +122,17 @@ $$\forall N \in \mathbb{N}^{*}, J_{2N+1} = \frac{\pi}{2}$$
 
 ### d.
 Soit $N \in \mathbb{N}^{*}$, 
-$$J_{2N} - J_{2(N-1)} = \frac{2}{2N-1}\sin\left( \frac{\pi}{2}(2N-1) \right)$$
-$$=\frac{2}{2N-1}\left( \sin(\pi N)\cos\left( \frac{\pi}{2} \right)-\sin\left( \frac{\pi}{2} \right)\cos(\pi N) \right)$$
-$$= (-1)^{N-1}\frac{2}{2N-1} $$
-calculons : 
-$$J_{2(N-1)} = \int _{0}^{\pi/2} \frac{\sin(2(N-1)t)}{\sin(t)} \, dt = \int _{0}^{\pi/2}  \, dt $$
+$$\begin{array}{rl}
+J_{2N} - J_{2(N-1)} &= \frac{2}{2N-1}\sin\left( \frac{\pi}{2}(2N-1) \right)  \\
+&=\frac{2}{2N-1}\left( \sin(\pi N)\cos\left( \frac{\pi}{2} \right)-\sin\left( \frac{\pi}{2} \right)\cos(\pi N) \right)  \\
+&= (-1)^{N-1}\frac{2}{2N-1} 
+\end{array}$$
+On somme tous ces termes : 
+$$J_{2N} = J_{2N} -J_{0} = \sum_{n = 1}^{N} (J_{2n} - J_{2(n-1)}) = 2\sum_{n = 1}^{N} \frac{(-1)^{n-1}}{2n-1}$$
+Ainsi, 
+$$\boxed{J_{2N} = 2\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}}$$
+
+## Question 4
+### a.
+Soit $N \in \mathbb{N}^{*}$, 
+$$J_{2N-1} - J_{2N} = \int _{0}^{\pi/2}  \, dt $$
