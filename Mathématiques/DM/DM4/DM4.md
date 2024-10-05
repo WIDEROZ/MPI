@@ -25,7 +25,9 @@ $$\left| \int _{0}^{\frac{\pi}{2}} f'(t)e^{ ixt } \, dt + f(0) - f\left( \frac{\
 Alors, par les inégalités de la moyenne : 
 $$\left| I_{f}(x)\right| \leq \frac{1}{\left| x\right|} \left| \int _{0}^{\frac{\pi}{2}} f'(t)e^{ ixt } \, dt \right| \leq \frac{1}{\left| x\right|} \int_{0}^{\frac{\pi}{2}} \left| f'(t)e^{ ixt } \right|dt \leq \frac{\left|\left| f' \right|\right| _{\infty}}{\left| x\right|} \frac{\pi}{2}$$
 et : 
-$$\left| I_{f}(x) \right| = \left| \int _{0}^{\frac{\pi}{2}} f(t)e^{ ixt } \, dt \right|\leq \left|\left| f \right|\right| _{\infty} \left| \int _{0}^{\frac{\pi}{2}} e^{ ixt } \, dt \right| $$
+$$\left| I_{f}(x) \right| = \left| \int _{0}^{\frac{\pi}{2}} f(t)e^{ ixt } \, dt \right| \leq \left|\left| f \right|\right| _{\infty} \frac{\pi}{2}$$
+Alors, en sommant les deux inégalités : 
+$$\left| I_{f}(x)\right| \leq \frac{\pi}{4}(\left|\left| f' \right|\right|/)$$
 $$ = \left|\left| f \right|\right| _{\infty} \frac{1}{\left| x\right|} \left| e^{ i x\frac{\pi}{2} } - 1\right| \leq \left|\left| f \right|\right| _{\infty} \frac{2}{\left| x \right|}$$
 Par l'inégalité triangulaire.
 Donc, en faisant le produit des deux inégalités positives et en composant par $\sqrt{ \cdot }$
