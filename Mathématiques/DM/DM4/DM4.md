@@ -17,6 +17,7 @@ $$\left| f(x)\right|\leq \left|\left| f' \right|\right| _{\infty}x + \left| f(0)
 $$\boxed{\text{Ainsi, }f \text{ est bien bornée.}}$$
 
 ### b.
+Soit $x \in I \setminus \{ 0 \}$, 
 $$I_{f}(x) = -\frac{i}{x}[f(t)e^{ ixt }]_{0}^{\frac{\pi}{2}} + i \frac{1}{x}\int _{0}^{\frac{\pi}{2}} f'(t)e^{ ixt } \, dt $$
 $$= i\frac{1}{x}\left( \int _{0}^{\frac{\pi}{2}} f'(t)e^{ ixt } \, dt + f(0)- f\left( \frac{\pi}{2}\right)e^{ ix \frac{\pi}{2}  }  \right)$$
 
@@ -35,8 +36,12 @@ $$\boxed{A = \frac{\pi}{4}\left( M' + \frac{\pi}{2}M
 \right)}$$
 
 ### c.
-Soit $x \in I$, 
+Soit $x \in I \setminus \{ 0 \}$, 
 On a : 
 $$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
-Alors, 
-$$$$
+Alors, en posant : $\varepsilon = \frac{A}{\left| x\right|}\geq0$ :
+$$\forall \varepsilon > 0, \exists \alpha >0, \forall x \in I, $$
+$$0\leq \left| I_{f}(x)\right| \leq \frac{A}{\left| x\right|}$$
+Par le théorème de convergence par encadrement : 
+$$\lim_{ x \to +\infty } \left| I_{f}(x)\right| = 0$$
+Puis comme : 
