@@ -40,8 +40,5 @@ Soit $x \in I \setminus \{ 0 \}$,
 On a : 
 $$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
 Alors, en posant : $\varepsilon = \frac{A}{\left| x\right|}\geq0$ :
-$$\forall \varepsilon > 0, \exists \alpha >0, \forall x \in I, $$
+$$\forall \varepsilon > 0, \exists \alpha \in \mathbb{R}, \forall x \in I, \left| x\right|> \alpha \Rightarrow \left| I_{f}(x)\right|\leq \varepsilon$$
 $$0\leq \left| I_{f}(x)\right| \leq \frac{A}{\left| x\right|}$$
-Par le théorème de convergence par encadrement : 
-$$\lim_{ x \to +\infty } \left| I_{f}(x)\right| = 0$$
-Puis comme : 
