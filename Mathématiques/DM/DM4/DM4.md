@@ -144,10 +144,13 @@ $$\psi : \begin{cases}
 I \to \mathbb{C} \\
 t \mapsto \frac{1}{2\cos\left( \frac{t}{4} \right)}
 \end{cases}$$
-$\psi$ est bien continue car en notant $h : t\mapsto \frac{t}{4}$, $h(I) = \left[ 0, \frac{\pi}{8} \right]$
-donc, $t\mapsto \cos\left( \frac{t}{} \right)$
-
+$\psi$ est bien continue car : 
+en notant $h : t\mapsto \frac{t}{4}$, $h(I) = \left[ 0, \frac{\pi}{8} \right]$
+alors, $t\mapsto \cos\left( \frac{t}{4} \right)$ ne s'annule pas et est positive sur $I$.
+Donc $t\mapsto \frac{1}{\cos\left( \frac{t}{4} \right)}$ est continue sur $I$. 
 
 Ainsi, 
 $$\boxed{J_{n}-J_{n-1} = \int_{0}^{\pi} \psi(t)\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt }$$
 
+### b.
+$$\cos\left( nt-\frac{t}{2} \right) = \cos(nt)\cos \left( \frac{t}{2} \right) + \sin(nt)\sin\left( \frac{t}{2} \right)$$
