@@ -48,26 +48,5 @@ Donc par définition de la limite, en posant : $\varepsilon = \frac{A}{\left| x\
 $$\lim_{ x \to +\infty } I_{f}(x) = 0$$
 Alors, 
 $$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -i\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
-___
-Comme $f(x) \in \mathbb{C}$, il existe $x, t \in \mathcal{C}^{1}(I, \mathbb{R})$ telles que : 
-$$f(x) = x(t) + iy(t)$$
-Donc, 
-$$\begin{array}{rl}
-I_{f}(x) &= \int _{0}^{ \frac{\pi}{2}} (x(t)\cos(xt)-y(t)\sin(xt)) \, dt  \\
-&+ i \int _{0}^{\frac{\pi}{2}} (x(t)\sin(xt)+y(t)\cos(xt)) \, dt
-\end{array}$$
-Alors, 
-$$\lim_{ x \to +\infty }\int _{0}^{ \frac{\pi}{2}} (x(t)\cos(xt)-y(t)\sin(xt)) \, dt = 0  $$
-et
-$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} (x(t)\sin(xt)+y(t)\cos(xt)) \, dt =0$$
-___
-$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\cos(xt) \, dt = -\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\sin(xt) \, dt$$
-$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\cos(xt) \, dt = -\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\sin(xt) \, dt$$
-___
-$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = -\left( \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} (\mathrm{Im}(f(t))+i\mathrm{Re}(f(t)))\sin(xt) \, dt \right)$$
-$$\lim_{ x \to +\infty } I_{f}(x) = \lim_{ x \to +\infty } \left( \int _{0}^{\frac{\pi}{2}} (i(f(t) - \mathrm{Re}(f(t)))-\mathrm{Im}(ft))\sin(xt) \, dt  \right)$$
-$$= \lim_{ x \to +\infty }\left( \int_{0} ^{\frac{\pi}{2}} -2\mathrm{Im}(f(t))\sin(xt) \, dx  \right) =0$$
-Alors, 
-$$\lim_{ x \to +\infty } \int_{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\sin(xt) \, dt = \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\cos(xt) \, dt = 0$$
-Donc, 
-$$\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Im}(f(t))\cos(xt) \, dt = -i\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} \mathrm{Re}(f(t))\sin(xt) \, dt$$
+$$= \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t) \frac{e^{ -ixt }-e^{ ixt }}{2} \, dt =\frac{1}{2} \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}}f(t)e^{ -ixt } \, dt  $$
+$$= \frac{1}{2} \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}}f(t)(\cos(xt)-i\sin(xt)) \, dt $$
