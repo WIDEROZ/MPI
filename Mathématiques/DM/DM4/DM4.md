@@ -82,5 +82,13 @@ $$\boxed{\text{Ainsi, }f \in \mathcal{C}^{0}\left( \left[ 0, \frac{\pi}{2} \righ
 $$\begin{cases}
 J_{0} = 0 \\
 J_{1} = \frac{\pi}{2} \\
-J_{2} = 2\int_{0}^{\frac{\pi}{2}} \cos(t) \, dt=-2 
+J_{2} = \int _{0}^{\frac{\pi}{2}} \frac{2\sin(t)\cos(t)}{\sin(t)} \, dx  = 2\int_{0}^{\frac{\pi}{2}} \cos(t) \, dt=1 
 \end{cases}$$
+
+## Question 3
+### a.
+$a = \frac{p+q}{2}$ et $b= \frac{p-q}{2}$, 
+
+$$\sin a - \sin b = \cos\left( \frac{p}{2} \right)\sin\left( \frac{q}{2} \right)+\cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right)$$
+$$+\sin\left( \frac{p}{2} \right)\cos\left( \frac{q}{2} \right)-\sin\left( \frac{q}{2} \right)\cos\left( \frac{p}{2} \right)$$
+$$= 2\cos\left( \frac{q}{2} \right)\sin\left( \frac{p}{2} \right) = \sin()$$
