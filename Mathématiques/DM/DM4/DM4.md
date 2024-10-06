@@ -158,6 +158,7 @@ On pose :
 $$W_{n} = \int _{0}^{\pi/2} \psi(t)e^{ i\left( n- \frac{1}{2} \right)t } \, dt $$
 Alors, 
 $$\mathrm{Re}(W_{n}) = \int _{0}^{\pi/2}\psi(t) \cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt $$
+(car $\psi(I) \subset \mathbb{R}$)
 comme $\psi \in \mathcal{C}^{1}(I)$, d'après le lemme d'Abel, 
 $$\boxed{\lim_{ n \to +\infty } \mathrm{Re}(W_{n}) = 0}$$
 
@@ -203,8 +204,11 @@ On a : $g\in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$, et
 $$\forall t \in  \left]0, \frac{\pi}{2}\right], g'(t) = \frac{1}{t^{2}}-\frac{\cos t}{\sin ^{2} t} = \frac{\sin ^{2}t-t^{2}\cos t}{t^{2}\sin ^{2}t}$$
 Alors, comme :
 
-$$\sin ^{2}(t) - t^{2}\cos (t) = \left( t-\frac{t^{3}}{6} + o(t^{4})\right)^{2} -t^{2}\left( 1-\frac{t^{2}}{2} + o (t^{2})\right)$$
-$$= t^{2} - \frac{t^{4}}{3} -t^{2}+\frac{t^{4}}{2} +o(t^{4}) = \frac{t^{4}}{6} + o(t^{4})$$
+$$\begin{array}{rl}
+\sin ^{2}(t) - t^{2}\cos (t) &\underset{t \to0}{=} \left( t-\frac{t^{3}}{6} + o(t^{4})\right)^{2} -t^{2}\left( 1-\frac{t^{2}}{2} + o (t^{2})\right) \\
+& \underset{t \to0}{=} t^{2} - \frac{t^{4}}{3} -t^{2}+\frac{t^{4}}{2} +o(t^{4})  \\
+&\underset{t \to0}{=} \frac{t^{4}}{6} + o(t^{4})
+\end{array}$$
 Alors, 
 $$\sin ^{2}(t) - t^{2}\cos (t) \underset{t \to 0}{\sim} \frac{t^{4}}{6}$$
 et puis : 
@@ -218,7 +222,24 @@ $$g' \in \mathcal{C}^{1}\left( \left[ 0, \frac{\pi}{2} \right] \right)$$
 
 ## Question 7
 ### a.
+Soit $n \in\mathbb{N}$, 
 On pose :
 $$W_{n} = \int_{0}^{\pi/2} g(t)e^{ int }\, dt$$
 Alors, 
 $$\mathrm{Im}(W_{n}) = \int _{0}^{\pi/2} g(t)\sin(nt) \, dt $$
+(car $g(I) \subset \mathbb{R}$)
+Donc, comme $g \in \mathcal{C}^{1}(I)$, par le lemme d'Abel,
+$$\lim_{ n \to +\infty } \mathrm{Im}(W_{n}) = 0$$
+
+### b. 
+Soit $n \in\mathbb{N}^{*}$, 
+$$\lim_{ n \to +\infty } \int _{0}^{\pi/2}\frac{\sin(nt)}{t} \, dt = \lim_{ n \to +\infty } \int _{0}^{\pi/2} \frac{\sin(nt)}{\sin t} \, dt = \frac{\pi}{2} $$
+
+### c. 
+Soit $n \in \mathbb{N}^{*}$, 
+On fait un changement de variable : 
+$$\gamma : T \mapsto \frac{T}{n}$$
+Alors, 
+$$\int_{0}^{\pi/2} \frac{\sin(nt)}{t} \, dt = \int _{0}^{n\pi/2} \frac{\sin(t)}{nt} \,n dt = \int _{0}^{n\pi/2} \frac{\sin t}{t} \, dt  $$
+Ainsi, 
+$$\lim_{ n \to +\infty } \int_{0}^{n\pi/} \, dx $$
