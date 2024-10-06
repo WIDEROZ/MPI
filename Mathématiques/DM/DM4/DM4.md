@@ -153,3 +153,4 @@ Ainsi,
 $$\boxed{J_{n}-J_{n-1} = \int_{0}^{\pi} \psi(t)\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt }$$
 
 ### b.
+$$\cos\left( \left( n-\frac{1}{2} \right)t \right) = \cos(nt)\cos\left( \frac{1}{2}t \right)+\sin(nt)\sin\left( \frac{1}{2}t \right)$$
