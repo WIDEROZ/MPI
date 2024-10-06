@@ -227,3 +227,13 @@ $$\frac{2\pi}{T} = \omega = \sqrt{\frac{g\tan(\theta)}{R}}$$
 Déterminons $\theta$, 
 à $\theta = 0$, 
 $$T = mg$$
+
+# Exercice 5
+On suppose que Jonny tire depuis ses poteaux,
+on note :
+- $L =100m$ la longueur du terrain de rugby
+- $H = 6.4m$ la hauteur des poteaux
+- $h^{-} = 3m$ la hauteur jusqu'a la barre du poteau
+- $h^{+} = 3.4m$ la hauteur à partir de la barre du poteau.
+- $m = 435g \pm 25g$, la masse du ballon de rugby
+- 
