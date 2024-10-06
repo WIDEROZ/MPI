@@ -238,6 +238,9 @@ on note :
 - $m = 435g \pm 25g$, la masse du ballon de rugby
 - $p_{b}= 60 cm \pm 2 cm$, le périmètre court du ballon de rugby. 
 - $h_{b} = 29 cm \pm 1 cm$ la hauteur haute du ballon de rugby.
-- $V_{b} = \frac{4}{3}\pi\left( \frac{\frac{p_{b}}{2}}{\pi} \right)^{2}$
+- $V_{b} = \frac{4}{3}\pi\left( \frac{\frac{p_{b}}{2}}{\pi} \right)^{2}\times \frac{h_{b}}{2} = 5.5 \times 10^{3} cm^{3} \pm 5 cm^{3}$
 
-EXCAL
+EXCAL 1 
+
+On fait un bilan des forces, 
+$$$$
