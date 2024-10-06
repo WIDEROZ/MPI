@@ -252,3 +252,10 @@ $$\begin{cases}
 \vec{f}_{i, c} = -m2\vec{\omega} \wedge \vec{v'} \\
 \vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} = m\omega^{2} HM \vec{e}_{y}
 \end{cases}$$
+alors, 
+avec : 
+$$\vec{v'} = v_{0}(\sin(\theta)\vec{e}_{z} + \cos(\theta)\vec{e}_{x})$$
+alors, 
+$$\vec{f}_{i, c} = -2m\omega v_{0}\cos(\theta)\vec{e}_{y}$$
+Donc, en appliquant le PFD : 
+$$\vec{a'} = (m\omega^{2}HM-2\omega v_{0}\cos(\theta)-g)\vec{e}_{y}$$
