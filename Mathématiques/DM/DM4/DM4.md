@@ -202,8 +202,23 @@ Puis, comme :
 On a : $g\in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$, et 
 $$\forall t \in  \left]0, \frac{\pi}{2}\right], g'(t) = \frac{1}{t^{2}}-\frac{\cos t}{\sin ^{2} t} = \frac{\sin ^{2}t-t^{2}\cos t}{t^{2}\sin ^{2}t}$$
 Alors, comme :
+
+$$\sin ^{2}(t) - t^{2}\cos (t) = \left( t-\frac{t^{3}}{6} + o(t^{4})\right)^{2} -t^{2}\left( 1-\frac{t^{2}}{2} + o (t^{2})\right)$$
+$$= t^{2} - \frac{t^{4}}{3} -t^{2}+\frac{t^{4}}{2} +o(t^{4}) = \frac{t^{4}}{6} + o(t^{4})$$
+Alors, 
+$$\sin ^{2}(t) - t^{2}\cos (t) \underset{t \to 0}{\sim} \frac{t^{4}}{6}$$
+et puis : 
 $$t^{2}\sin ^{2}(t) \underset{t \to 0}{\sim} t^{4}$$
-et 
-$$\sin ^{2}(t) - t^{2}\cos (t) $$
-$$= \left( t-\frac{t^{3}}{6} + \frac{t^{5}}{120} + o(t^{6})\right)^{2} -t^{2}\left( 1-\frac{t^{2}}{2} + \frac{t^{4}}{24} + o (t^{4})\right)$$
-$$= t^{2} - \frac{t^{4}}{6} +\frac{t^{6}}{120}-t^{2}+\frac{t^{4}}{2} - \frac{t^{6}}{24}+o(t^{6})$$
+Donc, 
+$$\frac{\sin ^{2}t-t^{2}\cos t}{t^{2}\sin ^{2}t} \underset{t \to 0}{\sim} \frac{1}{6}$$
+Ainsi, 
+$$\lim_{ t \to 0 } g'(t) = \frac{1}{6} \in \mathbb{R}$$
+En appliquant le théorème de la limite de la dérivée,
+$$g' \in \mathcal{C}^{1}\left( \left[ 0, \frac{\pi}{2} \right] \right)$$
+
+## Question 7
+### a.
+On pose :
+$$W_{n} = \int_{0}^{\pi/2} g(t)e^{ int }\, dt$$
+Alors, 
+$$\mathrm{Im}(W_{n}) = \int _{0}^{\pi/2} g(t)\sin(nt) \, dt $$
