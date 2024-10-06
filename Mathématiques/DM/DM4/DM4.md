@@ -134,7 +134,7 @@ $$\boxed{J_{2N} = 2\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}}$$
 
 ## Question 4
 ### a.
-Soit $N \in \mathbb{N}^{*}$, 
+Soit $n \in \mathbb{N}^{*}$, 
 $$J_{n} - J_{n-1} = \int _{0}^{\pi/2} \frac{\sin(nt)-\sin((n-1)t)}{\sin(t)} \, dt$$
 $$= 2\int _{0}^{\pi/2} \frac{\sin\left( \frac{t}{2} \right)\cos\left( \left( n-\frac{1}{2} \right) t \right)}{\sin(t)} \, dt $$
 $$= \int_{0}^{\pi/2} \frac{\cos\left( \left( n-\frac{1}{2} \right)t \right)}{\cos\left( \frac{t}{4} \right)} \, dt $$
@@ -153,6 +153,7 @@ Ainsi,
 $$\boxed{J_{n}-J_{n-1} = \int_{0}^{\pi/2} \psi(t)\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt }$$
 
 ### b.
+Soit $n \in \mathbb{N}^{*}$, 
 On pose : 
 $$W_{n} = \int _{0}^{\pi/2} \psi(t)e^{ i\left( n- \frac{1}{2} \right)t } \, dt $$
 Alors, 
@@ -161,7 +162,16 @@ comme $\psi \in \mathcal{C}^{1}(I)$, d'après le lemme d'Abel,
 $$\boxed{\lim_{ n \to +\infty } \mathrm{Re}(W_{n}) = 0}$$
 
 ### c.
-Donc, 
+Comme : 
 $$J_{n} \underset{n \to + \infty}{\sim} J_{n-1}$$
-Ainsi, 
-comme $J$
+Donc, comme pour $n \in \mathbb{N}^{*}$, $J_{n} = \frac{\pi}{2}$ si $n$ est impair ou $J_{n-1} = \frac{\pi}{2}$ si $n$ est pair, 
+$J_{n}$ et $J_{n-1}$ ont la même limite, et ainsi
+$$\boxed{\lim_{ n \to +\infty } J_{n} = \frac{\pi}{2}}$$
+
+## Question 5
+On a : 
+$$\lim_{ n \to +\infty } J_{n}-J_{n-1} = \lim_{ n \to +\infty }J_{n-1}-J_{n} = 0 $$
+alors, si $n \in \mathbb{N}^{*}$ est pair, 
+$$\lim_{ n \to +\infty } \left( 2\sum_{n=0}^{N-1} \frac{(-1)^{n}}{2n+1} - \frac{\pi}{2} \right) = 0$$
+Donc, 
+$$\pi = \lim_{ n \to +\infty } 4\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}$$
