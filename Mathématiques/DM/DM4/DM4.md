@@ -169,9 +169,21 @@ $J_{n}$ et $J_{n-1}$ ont la même limite, et ainsi
 $$\boxed{\lim_{ n \to +\infty } J_{n} = \frac{\pi}{2}}$$
 
 ## Question 5
-On a : 
-$$\lim_{ n \to +\infty } J_{n}-J_{n-1} = \lim_{ n \to +\infty }J_{n-1}-J_{n} = 0 $$
-alors, si $n \in \mathbb{N}^{*}$ est pair, 
-$$\lim_{ n \to +\infty } \left( 2\sum_{n=0}^{N-1} \frac{(-1)^{n}}{2n+1} - \frac{\pi}{2} \right) = 0$$
+On distingue deux cas, 
+Si $n = 2N$ avec $N \in \mathbb{N}^{*}$, 
+$$\lim_{ n \to +\infty } (J_{n}-J_{n-1})=\lim_{ N \to +\infty } \left( 2\sum_{n=0}^{N-1} \frac{(-1)^{n}}{2n+1} - \frac{\pi}{2} \right) = 0$$
 Donc, 
-$$\pi = \lim_{ n \to +\infty } 4\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}$$
+$$\pi = \lim_{ N \to +\infty } 4\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}$$
+et comme : 
+$$- \frac{1}{2N+1} \leq \frac{(-1)^{N}}{2N+1} \leq \frac{1}{2N+1}$$
+par le théorème de convergence par encadrement : 
+$$\lim_{ N \to +\infty } \frac{(-1)^{N}}{2N+1}=0$$
+Ainsi, par linéarité de la limite, 
+$$\pi = \lim_{ N \to +\infty } 4 \sum_{n=0}^{N} \frac{(-1)^{n}}{2n+1}$$
+Si $n = 2N -1$ avec $N \in \mathbb{N}^{*}$, comme on a : 
+$$\begin{array}{rl}
+\underset{ n \to +\infty }{\lim} (J_{n}-J_{n-1}) &= \underset{ n \to +\infty } \lim (J_{n-1}-J_{n})  \\
+&= \underset{ N \to +\infty }(J_{2(N-1)}-J_{2N-1})  \\
+&= 0
+\end{array}$$
+C'est le même raisonnement que celui exposé au dessus.
