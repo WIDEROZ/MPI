@@ -147,13 +147,21 @@ $\psi$ est bien $\mathcal{C}^{1}$ car :
 en notant $h : t\mapsto \frac{t}{4}$, $h(I) = \left[ 0, \frac{\pi}{8} \right]$
 alors, $t\mapsto \cos\left( \frac{t}{4} \right)$ ne s'annule pas et est positive sur $I$.
 Donc $\psi$ est continue sur $I$. (car $x\mapsto \frac{1}{x}$ l'est sur $I$)
-Alors elle est intégrable : 
-$$\int \frac{1}{\cos\left( \frac{t}{4} \right)} \, dt = -
-\frac{\ln\left( \cos\left( \frac{t}{4} \right) \right)}{\sin\left( \frac{t}{4} \right)} +C$$
-
+Puis comme $t\mapsto \cos\left( \frac{t}{4} \right)$ est dérivable sur $I$, et sa dérivée ne s'annule pas sur $I$, $\psi \in \mathcal{C}^{1}(I)$, 
 
 Ainsi, 
 $$\boxed{J_{n}-J_{n-1} = \int_{0}^{\pi/2} \psi(t)\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt }$$
 
 ### b.
-Comme $\psi$ est continue sur $I$, 
+On pose : 
+$$W_{n} = \int _{0}^{\pi/2} \psi(t)e^{ i\left( n- \frac{1}{2} \right)t } \, dt $$
+Alors, 
+$$\mathrm{Re}(W_{n}) = \int _{0}^{\pi/2}\psi(t) \cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt $$
+comme $\psi \in \mathcal{C}^{1}(I)$, d'après le lemme d'Abel, 
+$$\boxed{\lim_{ n \to +\infty } \mathrm{Re}(W_{n}) = 0}$$
+
+### c.
+Donc, 
+$$J_{n} \underset{n \to + \infty}{\sim} J_{n-1}$$
+Ainsi, 
+comme $J$
