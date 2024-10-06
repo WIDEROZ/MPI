@@ -248,9 +248,9 @@ EXCAL 1
 
 On fait un bilan des forces, 
 $$\begin{cases}
-\vec{P} = -mg\vec{e}_{y} \\
+\vec{P} = -mg\vec{e}_{z} \\
 \vec{f}_{i, c} = -m2\vec{\omega} \wedge \vec{v'} \\
-\vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} = m\omega^{2} HM \vec{e}_{y}
+\vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} = m\omega^{2} HM (\cos(\varphi)\vec{e}_{z} + \sin)
 \end{cases}$$
 alors, 
 avec : 
