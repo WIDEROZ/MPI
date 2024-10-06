@@ -136,26 +136,24 @@ $$\boxed{J_{2N} = 2\sum_{n = 0}^{N-1} \frac{(-1)^{n}}{2n+1}}$$
 ### a.
 Soit $N \in \mathbb{N}^{*}$, 
 $$J_{n} - J_{n-1} = \int _{0}^{\pi/2} \frac{\sin(nt)-\sin((n-1)t)}{\sin(t)} \, dt$$
-$$= 2\int _{0}^{\pi/2} \frac{\sin\left( \frac{t}{2} \right)\cos\left( \left( n-\frac{1}{2} \right) 2t \right)}{\sin(t)} \, dt $$
-$$=  \int _{0}^{\pi} \frac{\sin\left( \frac{t}{4} \right)}{\sin\left( \frac{t}{2} \right)} \cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt $$
-$$= \int_{0}^{\pi} \frac{\cos\left( \left( n-\frac{1}{2} \right)t \right)}{2\cos\left( \frac{t}{4} \right)} \, dt $$
+$$= 2\int _{0}^{\pi/2} \frac{\sin\left( \frac{t}{2} \right)\cos\left( \left( n-\frac{1}{2} \right) t \right)}{\sin(t)} \, dt $$
+$$= \int_{0}^{\pi/2} \frac{\cos\left( \left( n-\frac{1}{2} \right)t \right)}{\cos\left( \frac{t}{4} \right)} \, dt $$
 alors, on pose : 
 $$\psi : \begin{cases}
 I \to \mathbb{C} \\
-t \mapsto \frac{1}{2\cos\left( \frac{t}{4} \right)}
+t \mapsto \frac{1}{\cos\left( \frac{t}{4} \right)}
 \end{cases}$$
-$\psi$ est bien continue car : 
+$\psi$ est bien $\mathcal{C}^{1}$ car : 
 en notant $h : t\mapsto \frac{t}{4}$, $h(I) = \left[ 0, \frac{\pi}{8} \right]$
 alors, $t\mapsto \cos\left( \frac{t}{4} \right)$ ne s'annule pas et est positive sur $I$.
-Donc $t\mapsto \frac{1}{\cos\left( \frac{t}{4} \right)}$ est continue sur $I$. 
+Donc $\psi$ est continue sur $I$. (car $x\mapsto \frac{1}{x}$ l'est sur $I$)
+Alors elle est intégrable : 
+$$\int \frac{1}{\cos\left( \frac{t}{4} \right)} \, dt = -
+\frac{\ln\left( \cos\left( \frac{t}{4} \right) \right)}{\sin\left( \frac{t}{4} \right)} +C$$
+
 
 Ainsi, 
-$$\boxed{J_{n}-J_{n-1} = \int_{0}^{\pi} \psi(t)\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt }$$
+$$\boxed{J_{n}-J_{n-1} = \int_{0}^{\pi/2} \psi(t)\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt }$$
 
 ### b.
-$$-1 \leq \cos\left( \left( n-\frac{1}{2} \right)t \right)\leq 1$$
-$$-\frac{1}{2}\leq \frac{\cos\left( \left( n-\frac{1}{2} \right) t\right)}{2\cos\left( \frac{t}{4} \right)} \leq \frac{1}{2}$$
-$$-\frac{\pi}{2}=-\int _{0}^{\pi} \frac{1}{2} \, dt \leq \int _{0}^{\pi} \frac{\cos\left( \left( n-\frac{1}{2} \right)t \right)}{2\cos\left( \frac{t}{4} \right)} \, dt  \leq \int _{0}^{\pi} \frac{1}{2} \, dt = \frac{\pi}{2}$$
-Alors, 
-$$\left| J_{n}-J_{n-1}\right|\leq \frac{\pi}{2} \Rightarrow \left| J_{n}-J_{n-1}\right|-\frac{\pi}{2} \leq \left| (J_{n} - J_{n-1}) - \frac{\pi}{2}\right| \leq 0$$
-
+Comme $\psi$ est continue sur $I$, 
