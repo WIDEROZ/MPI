@@ -223,4 +223,7 @@ g\cos(\theta)+ \omega R\sin(\theta) - \frac{T}{m} \\
 \omega^{2}R\cos(\theta)-g\sin(\theta)
 \end{array}\right.$$
 Alors, 
-$$$$
+$$\frac{2\pi}{T} = \omega = \sqrt{\frac{g\tan(\theta)}{R}}$$
+Déterminons $\theta$, 
+à $\theta = 0$, 
+$$T = mg$$
