@@ -55,8 +55,9 @@ $$\begin{cases}
 \end{cases}$$
 (car $t \mapsto t^{2}$ est positive)
 Alors, 
-$$\lim_{ x \to +\infty } \int _{0}^{\pi/2} w(t)\cos(xt)+i \int_{0}^{\pi/2} y(t)\cos(xt) \, dt  \, dt$$
-$$= \lim_{ x \to +\infty } \int _{0}^{\pi/2} y(t)\sin(xt) \, dt - i$$
+
+
+
 
 # Calcul de l'intégrale de Dirichlet
 Soit $n \in \mathbb{N}$, 
