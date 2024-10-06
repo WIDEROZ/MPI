@@ -153,10 +153,9 @@ Ainsi,
 $$\boxed{J_{n}-J_{n-1} = \int_{0}^{\pi} \psi(t)\cos\left( \left( n-\frac{1}{2} \right)t \right) \, dt }$$
 
 ### b.
-$$\cos\left( \left( n-\frac{1}{2} \right)t \right) = \cos(nt)\cos\left( \frac{1}{2}t \right) + \sin(nt)\sin\left( \frac{1}{2}t \right)$$
-
 $$-1 \leq \cos\left( \left( n-\frac{1}{2} \right)t \right)\leq 1$$
 $$-\frac{1}{2}\leq \frac{\cos\left( \left( n-\frac{1}{2} \right) t\right)}{2\cos\left( \frac{t}{4} \right)} \leq \frac{1}{2}$$
 $$-\frac{\pi}{2}=-\int _{0}^{\pi} \frac{1}{2} \, dt \leq \int _{0}^{\pi} \frac{\cos\left( \left( n-\frac{1}{2} \right)t \right)}{2\cos\left( \frac{t}{4} \right)} \, dt  \leq \int _{0}^{\pi} \frac{1}{2} \, dt = \frac{\pi}{2}$$
 Alors, 
-$$\left| J_{n}-J_{n-1}\right|\leq \frac{\pi}{2}$$
+$$\left| J_{n}-J_{n-1}\right|\leq \frac{\pi}{2} \Rightarrow \left| J_{n}-J_{n-1}\right|-\frac{\pi}{2} \leq \left| (J_{n} - J_{n-1}) - \frac{\pi}{2}\right| \leq 0$$
+
