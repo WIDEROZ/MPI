@@ -245,10 +245,3 @@ Ainsi,
 $$\boxed{\lim_{ n \to +\infty } \int_{0}^{n\pi/2} \frac{\sin(t)}{t} \, dt = \frac{\pi}{2}}$$
 
 ## Question 8
-### a.
-Soit $x \in \mathbb{R}_{+}^{*}$, 
-On pose :
-$$I = \int_{0}^{x} \frac{\sin t}{t}\, dt $$
-Alors, 
-$$I = \int _{0}^{x} () \, dt $$
-
