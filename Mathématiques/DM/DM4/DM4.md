@@ -37,18 +37,20 @@ $$\boxed{A = \frac{\pi}{4}\left( M' + \frac{\pi}{2}M
 
 ### c.
 Soit $x \in I \setminus \{ 0 \}$, 
-On pose : 
-$$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt = R(x) + iI(x)$$
-Si $x >0$, on a montré que : 
-$$\sqrt{ R^{2}(x) + I^{2}(x) } = \left| I_{f}(x)\right| \leq \frac{A}{\left| x\right|}$$
+On a : 
+$$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
+on pose : $\forall t \in I, f(t) = w(t) + iy(t)$, alors,
+$$I_{f}(x) = \int _{0}^{\pi/2} (w(t)\cos(xt) - y(t)\sin(xt)) \, dt + i \int_{0}^{\pi/2} (y(t)\cos(xt) + w(t)\sin(xt)) \, dt  $$
+Donc, 
+$$\sqrt{ \mathrm{Re}(I_{f}(x))^{2} + \mathrm{Im}(I_{f}(x))^{2} } = \left| I_{f}(x)\right| \leq \frac{A}{\left| x\right|}$$
 alors, 
-$$0\leq R^{2}(x) + I^{2}(x) \leq \frac{A^{2}}{x^{2}}$$
+$$0\leq \mathrm{Re}(I_{f}(x))^{2} + \mathrm{Im}(I_{f}(x))^{2} \leq \frac{A^{2}}{x^{2}}$$
 Par le théorème de convergence par encadrement,
-$$\lim_{ x \to +\infty } R^{2}(x) + I^{2}(x) = 0$$
+$$\lim_{ x \to +\infty } (\mathrm{Re}(I_{f}(x))^{2} + \mathrm{Im}(I_{f}(x))^{2}) = 0$$
 Donc, 
 $$\begin{cases}
-\underset{ x \to +\infty }\lim R(x) = 0 \\
-\underset{ x \to +\infty }\lim I(x) = 0
+\underset{ x \to +\infty }\lim \mathrm{Re}(I_{f}(x))^{2} = 0 \\
+\underset{ x \to +\infty }\lim \mathrm{Im}(I_{f}(x))^{2} = 0
 \end{cases}$$
 Ainsi, 
 $$\boxed{\lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\cos(xt) \, dt = \lim_{ x \to +\infty } \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt = 0 }$$
