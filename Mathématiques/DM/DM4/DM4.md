@@ -218,7 +218,7 @@ $$\frac{\sin ^{2}t-t^{2}\cos t}{t^{2}\sin ^{2}t} \underset{t \to 0}{\sim} \frac{
 Ainsi, 
 $$\lim_{ t \to 0 } g'(t) = \frac{1}{6} \in \mathbb{R}$$
 En appliquant le théorème de la limite de la dérivée,
-$$g' \in \mathcal{C}^{1}\left( \left[ 0, \frac{\pi}{2} \right] \right)$$
+$$\boxed{g' \in \mathcal{C}^{1}\left( \left[ 0, \frac{\pi}{2} \right] \right)}$$
 
 ## Question 7
 ### a.
@@ -229,11 +229,11 @@ Alors,
 $$\mathrm{Im}(W_{n}) = \int _{0}^{\pi/2} g(t)\sin(nt) \, dt $$
 (car $g(I) \subset \mathbb{R}$)
 Donc, comme $g \in \mathcal{C}^{1}(I)$, par le lemme d'Abel,
-$$\lim_{ n \to +\infty } \mathrm{Im}(W_{n}) = 0$$
+$$\boxed{\lim_{ n \to +\infty } \mathrm{Im}(W_{n}) = 0}$$
 
 ### b. 
 Soit $n \in\mathbb{N}^{*}$, 
-$$\lim_{ n \to +\infty } \int _{0}^{\pi/2}\frac{\sin(nt)}{t} \, dt = \lim_{ n \to +\infty } \int _{0}^{\pi/2} \frac{\sin(nt)}{\sin t} \, dt = \frac{\pi}{2} $$
+$$\boxed{\lim_{ n \to +\infty } \int _{0}^{\pi/2}\frac{\sin(nt)}{t} \, dt = \lim_{ n \to +\infty } \int _{0}^{\pi/2} \frac{\sin(nt)}{\sin t} \, dt = \frac{\pi}{2} }$$
 
 ### c. 
 Soit $n \in \mathbb{N}^{*}$, 
@@ -242,4 +242,4 @@ $$\gamma : T \mapsto \frac{T}{n}$$
 Alors, 
 $$\int_{0}^{\pi/2} \frac{\sin(nt)}{t} \, dt = \int _{0}^{n\pi/2} \frac{\sin(t)}{nt} \,n dt = \int _{0}^{n\pi/2} \frac{\sin t}{t} \, dt  $$
 Ainsi, 
-$$\lim_{ n \to +\infty } \int_{0}^{n\pi/} \, dx $$
+$$\boxed{\lim_{ n \to +\infty } \int_{0}^{n\pi/2} \frac{\sin(t)}{t} \, dt = \frac{\pi}{2}}$$
