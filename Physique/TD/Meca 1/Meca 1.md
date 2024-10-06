@@ -229,8 +229,8 @@ Déterminons $\theta$,
 $$T = mg$$
 
 # Exercice 5
-On suppose que Jonny tire depuis ses poteaux,
-on note :
+On suppose que Jonny tire depuis ses poteaux, et depuis l'hémisphère nord, 
+On note :
 - $L =100m$ la longueur du terrain de rugby
 - $H = 6.4m$ la hauteur des poteaux
 - $h^{-} = 3m$ la hauteur jusqu'a la barre du poteau
@@ -239,8 +239,16 @@ on note :
 - $p_{b}= 60 cm \pm 2 cm$, le périmètre court du ballon de rugby. 
 - $h_{b} = 29 cm \pm 1 cm$ la hauteur haute du ballon de rugby.
 - $V_{b} = \frac{4}{3}\pi\left( \frac{\frac{p_{b}}{2}}{\pi} \right)^{2}\times \frac{h_{b}}{2} = 5.5 \times 10^{3} cm^{3} \pm 5 cm^{3}$
+- $\omega = 7.292 115 \times 10^{-5} \text{rad}.\text{s}^{-1}$ la vitesse de rotation de la terre
+- $\vec{v'}$ : la vitesse du ballon de rugby. 
+- $\overrightarrow{HM}$ : le vecteur distance du ballon de rugby par rapport au centre de la terre. 
+  ($HM = 6,378\times 10^{3} km \pm 10km$)
 
 EXCAL 1 
 
 On fait un bilan des forces, 
-$$$$
+$$\begin{cases}
+\vec{P} = -mg\vec{e}_{y} \\
+\vec{f}_{i, c} = -m2\vec{\omega} \wedge \vec{v'} \\
+\vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} = m\omega^{2} HM \vec{e}_{y}
+\end{cases}$$
