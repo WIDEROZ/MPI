@@ -183,7 +183,23 @@ $$\pi = \lim_{ N \to +\infty } 4 \sum_{n=0}^{N} \frac{(-1)^{n}}{2n+1}$$
 Si $n = 2N -1$ avec $N \in \mathbb{N}^{*}$, comme on a : 
 $$\begin{array}{rl}
 \underset{ n \to +\infty }{\lim} (J_{n}-J_{n-1}) &= \underset{ n \to +\infty } \lim (J_{n-1}-J_{n})  \\
-&= \underset{ N \to +\infty }(J_{2(N-1)}-J_{2N-1})  \\
+&= \underset{ N \to +\infty }\lim(J_{2(N-1)}-J_{2N-1})  \\
 &= 0
 \end{array}$$
 C'est le même raisonnement que celui exposé au dessus.
+
+Ainsi, dans tous les cas on a bien : 
+$$\boxed{\pi = \lim_{ N \to +\infty } 4 \sum_{n=0}^{N} \frac{(-1)^{n}}{2n+1}}$$
+
+## Question 6
+On a $g \in \mathcal{C}^{0}\left( \left[ 0, \frac{\pi}{2} \right] \right)$, car : 
+$$\lim_{ t \to 0 } \left( \frac{1}{\sin t} -\frac{1}{t} \right) = \lim_{ t \to 0 } \frac{1}{t} - \lim_{ t \to 0 } \frac{1}{t} = 0$$
+car $\sin(t) \underset{t \to 0}{\sim} t$, 
+Puis, comme :
+- $t \mapsto\frac{1}{\sin t} \in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$,
+- $t \mapsto \frac{1}{t} \in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$
+
+On a : $g\in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$, et 
+$$\forall t \in  \left]0, \frac{\pi}{2}\right], g'(t) = \frac{1}{t^{2}}-\frac{\cos t}{\sin ^{2} t}=$$
+alors, 
+$$\lim_{ t \to 0 } \left( \frac{1}{\tan t\sin t} \right) = \lim_{ t \to 0 } \frac{\cos(t)}{t^{2}} = $$
