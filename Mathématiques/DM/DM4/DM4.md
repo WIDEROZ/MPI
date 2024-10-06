@@ -200,6 +200,9 @@ Puis, comme :
 - $t \mapsto \frac{1}{t} \in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$
 
 On a : $g\in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$, et 
-$$\forall t \in  \left]0, \frac{\pi}{2}\right], g'(t) = \frac{1}{t^{2}}-\frac{\cos t}{\sin ^{2} t}=$$
+$$\forall t \in  \left]0, \frac{\pi}{2}\right], g'(t) = c$$
 alors, 
-$$\lim_{ t \to 0 } \left( \frac{1}{\tan t\sin t} \right) = \lim_{ t \to 0 } \frac{\cos(t)}{t^{2}} = $$
+comme : 
+$$\frac{\sin ^{2}t-t^{2}\cos ^{2}t}{t^{2}\sin ^{2}} \underset{t \to 0}{\sim} \frac{\sin ^{2}t}{t^{4}} - \frac{\cos ^{2}t}{t^{2}}$$
+Alors, 
+$$\lim_{ t \to 0 } $$
