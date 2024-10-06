@@ -201,8 +201,8 @@ Puis, comme :
 
 On a : $g\in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$, et 
 $$\forall t \in  \left]0, \frac{\pi}{2}\right], g'(t) = \frac{1}{t^{2}}-\frac{\cos t}{\sin ^{2} t} = \frac{\sin ^{2}t-t^{2}\cos t}{t^{2}\sin ^{2}t}$$
-alors, 
-comme : 
-$$\frac{\left( t-\frac{t^{3}}{6} + o(t^{4})\right)^{2}-t^{2}\left( 1-\frac{t^{2}}{2}+ \frac{t^{4}}{24}+o(t^{4}) \right)}{t^{2}\left( t-\frac{t^{4}}{6} + o(t^{3})\right)^{2}}$$
-$$= \frac{1}{t^{2}} - \frac{\left( 1-\frac{t^{2}}{2}+ \frac{t^{4}}{24}+o(t^{4}) \right)}{t^{2} + o(t^{4})}$$
-$$\frac{1}{t^{2}} -\frac{t^{2}}{t^{2}+o(t^{4})} +$$
+Alors, comme :
+$$t^{2}\sin ^{2}(t) \underset{t \to 0}{\sim} t^{4}$$
+et 
+$$\sin ^{2}(t) - t^{2}\cos (t) = \left( t-\frac{t^{3}}{6} + o(t^{4})\right)^{2} -t^{2}\left( 1-\frac{t^{2}}{2} + o (t^{3})\right)$$
+$$= t^{2} - \frac{t^{4}}{6} -t^{2} +\frac{t^{4}}{2}+ o(t^{4}) = $$
