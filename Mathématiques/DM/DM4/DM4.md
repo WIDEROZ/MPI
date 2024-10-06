@@ -246,15 +246,9 @@ $$\boxed{\lim_{ n \to +\infty } \int_{0}^{n\pi/2} \frac{\sin(t)}{t} \, dt = \fra
 
 ## Question 8
 ### a.
-On pose par intégration par parties : 
-$$\begin{cases}
-u = \frac{1}{t} \\
-du = -\frac{1}{t^{2}}dt
-\end{cases} \text{ et } \begin{cases}
-v = -\cos(t)\\
-dv = \sin(t)dt
-\end{cases}$$
-$$\int _{0}^{x} \frac{\sin t }{t}  \, dt = \left[ -\frac{\cos t}{t} \right]_{0}^{x} - \int _{0}^{x} \frac{\cos(t)}{t^{2}} \, dt $$
-$$\begin{cases}
+Soit $x \in \mathbb{R}_{+}^{*}$, 
+On pose :
+$$I = \int_{0}^{x} \frac{\sin t}{t}\, dt $$
+Alors, 
+$$I = \int _{0}^{x} () \, dt $$
 
-\end{cases}$$
