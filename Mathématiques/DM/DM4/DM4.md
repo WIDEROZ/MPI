@@ -204,5 +204,6 @@ $$\forall t \in  \left]0, \frac{\pi}{2}\right], g'(t) = \frac{1}{t^{2}}-\frac{\
 Alors, comme :
 $$t^{2}\sin ^{2}(t) \underset{t \to 0}{\sim} t^{4}$$
 et 
-$$\sin ^{2}(t) - t^{2}\cos (t) = \left( t-\frac{t^{3}}{6} + o(t^{4})\right)^{2} -t^{2}\left( 1-\frac{t^{2}}{2} + o (t^{3})\right)$$
-$$= t^{2} - \frac{t^{4}}{6} -t^{2} +\frac{t^{4}}{2}+ o(t^{4}) = $$
+$$\sin ^{2}(t) - t^{2}\cos (t) $$
+$$= \left( t-\frac{t^{3}}{6} + \frac{t^{5}}{120} + o(t^{6})\right)^{2} -t^{2}\left( 1-\frac{t^{2}}{2} + \frac{t^{4}}{24} + o (t^{4})\right)$$
+$$= t^{2} - \frac{t^{4}}{6} +\frac{t^{6}}{120}-t^{2}+\frac{t^{4}}{2} - \frac{t^{6}}{24}+o(t^{6})$$
