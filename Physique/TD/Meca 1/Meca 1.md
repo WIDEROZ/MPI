@@ -211,11 +211,16 @@ $$T = \frac{2\pi}{\omega_{0}}$$
 On se place dans le ref $\mathcal{R}'$ du manège, 
 on fait un bilan des forces : 
 $$\begin{cases}
-\vec{P} = -mg\vec{e}_{y'} \\
+\vec{P} = -mg\vec{e}_{y'} = mg(\cos(\theta)\vec{e}_{r}-\sin(\theta)\vec{e}_{\theta}) \\
 \vec{T} = -T\vec{e}_{r}  \\
-\vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} = m \omega^{2}R \vec{e}_{x'} = m\omega^{2}R()\\
+\vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} = m \omega^{2}R \vec{e}_{x'} = m\omega^{2}R(\sin(\theta)\vec{e}_{r} + \cos(\theta)\vec{e}_{\theta})\\
 \vec{f}_{i, c}=-2m\vec{\omega} \wedge \vec{v'} = \overrightarrow{0}
 \end{cases}$$
 car $\vec{v'} = \vec{v}(M / \mathcal{R}') = \overrightarrow{0}$, 
+Alors, 
+$$\vec{a'} = \overrightarrow{0} = \left| \begin{array}{l}
+g\cos(\theta)+ \omega R\sin(\theta) - \frac{T}{m} \\
+\omega^{2}R\cos(\theta)-g\sin(\theta)
+\end{array}\right.$$
 Alors, 
 $$$$
