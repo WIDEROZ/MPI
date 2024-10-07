@@ -38,10 +38,28 @@ $$\vec{f}_{i, c} = -2m \vec{\omega}_{T} \wedge \vec{v'} = 2m \omega_{T}v'\sin(\l
 
 #### Exercice c
 $$\begin{cases}
-\vec{P} = -mg \vec{e}_{z} \\
+\vec{P} = -m\vec{G} \vec{e}_{z} + m \omega_{T}^{2} \overrightarrow{HM} = -mg \vec{e}_{z'}\\
 \vec{f}_{i, c} = 2m\vec{\omega}_{T} \wedge \vec{v'} = -2m \begin{pmatrix}
 \omega_{T}\sin(\lambda)\dot{y}' \\
 \omega_{T}\cos(\lambda) \dot{z}'+\omega_{T}\sin(\lambda)\dot{x}' \\
-\omega_{T}\cos(\lambda)
+\omega_{T}\cos(\lambda)\dot{y}'
 \end{pmatrix}
+\end{cases}$$
+On fait un PFD : 
+$$\vec{a'} = - g\vec{e}_{z'} -2\omega_{T}\begin{pmatrix}
+\sin(\lambda)\dot{y}' \\
+\cos(\lambda) \dot{z}'+\sin(\lambda)\dot{x}' \\
+\cos(\lambda)\dot{y}'
+\end{pmatrix}$$
+Donc, 
+$$\begin{cases}
+\ddot{x}' = -2\omega_{T}\sin(\lambda)\dot{y}' \\
+\ddot{y}' = -2\omega_{T}(\cos(\lambda)\dot{z}' + \sin(\lambda)\dot{x}') \\
+\ddot{z}' = -g-2\omega_{T}\cos(\lambda)\dot{y}'
+\end{cases}$$
+Alors, comme on néglige les perturbations : 
+$$\begin{cases}
+\ddot{x}' = -2\omega_{T}\sin(\lambda)\dot{y}' \\
+\ddot{y}' = -2\omega_{T}(\cos(\lambda)\dot{z}' + \sin(\lambda)\dot{x}') \\
+\ddot{z}' = -g-2\omega_{T}\cos(\lambda)\dot{y}'
 \end{cases}$$
