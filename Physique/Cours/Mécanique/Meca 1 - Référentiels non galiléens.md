@@ -34,6 +34,14 @@ $$m\vec{a} = \vec{P} + \vec{T}$$
 $v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
 
 #### Exercice b.
+$$\vec{f}_{i, c} = -2m \vec{\omega}_{T} \wedge \vec{v'} = 2m \omega_{T}v'\sin(\lambda) \vec{e}_{west}$$
+
+#### Exercice c
 $$\begin{cases}
-\vec{f}_{i, c} = -2m \vec{\omega}_{T} \wedge \vec{v'} = 2m \omega_{T}v'\sin(\lambda) \vec{e}_{}
+\vec{P} = -mg \vec{e}_{z} \\
+\vec{f}_{i, c} = 2m\vec{\omega}_{T} \wedge \vec{v'} = -2m \begin{pmatrix}
+\omega_{T}\sin(\lambda)\dot{y}' \\
+\omega_{T}\cos(\lambda) \dot{z}'+\omega_{T}\sin(\lambda)\dot{x}' \\
+\omega_{T}\cos(\lambda)
+\end{pmatrix}
 \end{cases}$$
