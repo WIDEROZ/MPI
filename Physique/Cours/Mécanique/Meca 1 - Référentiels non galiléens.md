@@ -34,3 +34,6 @@ $$m\vec{a} = \vec{P} + \vec{T}$$
 $v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
 
 #### Exercice b.
+$$\begin{cases}
+\vec{f}_{i, c} = -2m \vec{\omega}_{T} \wedge \vec{v'} = 2m \omega_{T}v'\sin(\lambda) \vec{e}_{}
+\end{cases}$$
