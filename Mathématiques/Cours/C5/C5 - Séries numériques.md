@@ -381,7 +381,7 @@ $$\forall n \in \mathbb{N}, u_{n} = (-1)^{n}a_{n}$$
 $$\sum_{n \geq 1} \ln\left( 1+ \frac{(-1)^{n}}{\sqrt{n}} \right)$$
 en est une.
 
-#### Critère de Leibniz PRIME GOATESQUE <3<3<3<3<3 Triple UwU AAAAAAAAAAAAHHHHHHHHHHHHH
+#### Critère de Leibniz PRIME GOATESQUE <3<3<3<3<3 AAAAAAAAAAAHHHHHHHHH
 Soit $\sum_{n \in \mathbb{N}}(-1)^{n}a_{n}$ une série numérique telle que $(a_{n})_{n \in \mathbb{N}}$ <u>positive soit décroissante</u>, alors : 
 $$\begin{cases}
 \underset{n \in \mathbb{N}}\sum (-1)^{n}a_{n} \text{ CV} \\
@@ -391,3 +391,22 @@ $$\begin{cases}
 R_{n} \text{ est du signe de }(-1)^{n+1}
 \end{cases}
 \end{cases}$$
+
+Démonstration : 
+La suite $(S_{2n+1})_{n \in \mathbb{N}}$ croit car $\forall n \in \mathbb{N}^{*}$ : 
+$$S_{2n+1}-S_{2n-1} = (-1)^{2n+1}(u_{2n+1})+(-1)^{2n}u_{2n} = u_{2n}-u_{2n+1}\geq 0$$
+car $u$ décroit. 
+La suite $(S_{2n})_{n \in \mathbb{N}}$ décroit car $\forall n \in \mathbb{N}^{*}$ : 
+$$S_{2n+2}-S_{2n} = (-1)^{2n+2}(u_{2n+2})+(-1)^{2n+1}u_{2n+1} = u_{2n+2}-u_{2n+1}\leq 0$$
+car $u$ décroit. 
+puis
+$$S_{2n+1}-S_{2n} = (-1)^{2n+1}u_{2n+1} = -u_{2n+1} \underset{n \to +\infty}{\longrightarrow} 0$$
+Ainsi, les deux suites sont adjacentes donc elles tendent vers une limite commune $S$, ainsi, 
+$$S_{n} \underset{n \to +\infty}{\longrightarrow} S$$
+De plus, 
+$$\forall n \in \mathbb{N}, S_{2n}\geq S \text{ et }S_{2n+1} \leq S$$
+ie
+$$0\geq R_{2n} \text{ et } 0 \leq R_{2n+1}$$
+Enfin, 
+$$\left| R_{2n} \right| = \left| S-S_{2n}\right|= S_{2n}-S \leq  S_{2n}-S_{2n+1} = u_{2n+1}$$
+$$\left| R_{2n+1} \right| = \left| S-S_{2n+1}\right|= S-S_{2n+1} \leq  S_{2n}-S_{2n-1} = u_{2n}$$
