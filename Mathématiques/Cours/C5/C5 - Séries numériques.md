@@ -371,7 +371,7 @@ $$S_{2n} = \sum_{k = 1}^{n} \frac{\ln(2k)}{2k} - \sum_{k = 1}^{n} \frac{\ln(2k-1
 }$$
 
 # III.Séries complexes
-## 1. 
+## 1. Critère de Leibniz
 #### Définition
 Une série à termes réels $\sum_{n \in \mathbb{N}}u_{n}$ est dite alternée lorsque :
 $$((-1)^{n}u_{n})_{n\in \mathbb{N}}$$
@@ -463,4 +463,23 @@ $$\begin{cases}
 \end{cases}$$
 Démonstration : DEMAIN
 
-#### Application
+#### Application définition de l'exponentielle complexe
+Notons : 
+$$E : \begin{cases}
+\mathbb{C} \to \mathbb{C} \\
+z \mapsto \sum_{n = 0}^{+ \infty} \frac{z^{n}}{n!}
+\end{cases}$$
+
+##### Théorème
+1. $E$ est bien définie sur $\mathbb{C}$ , et continue. 
+2. $$\forall z, w \in \mathbb{C}, E(z+w) = E(z)E(w)$$
+3. $$x \mapsto E(x)\text{ est dérivable et égale à sé dérivée, donc }\mathcal{C}^{\infty}$$
+
+Démonstration 1. : 
+$$\sum_{n \in \mathbb{N}} \frac{z^{n}}{n!} \text{ CVA}$$
+car d'après d'Alembert : 
+$$\forall n \in \mathbb{N}, \frac{\left| \frac{z^{n+1}}{(n+1)!}\right|}{\left| \frac{z^{n}}{n!}\right|} = \frac{ \left|z\right|}{n+1} \underset{n \to +\infty}{\longrightarrow} 0 < 1$$
+Elle est continue en $0$ car : 
+$$\forall z \in \mathbb{C}, \left| z\right|\leq 1 \Rightarrow \left| E(z) - E(0)\right| = \left| E(z) -1 \right| = \left| \sum_{n = 1}^{+ \infty} \frac{z^{n}}{n!}\right|$$
+$$= \left| \lim_{ N \to +\infty } \sum_{n = 1}^{N} \frac{z^{n}}{n!} \right| = \lim_{ N \to +\infty } \left| \sum_{n = 1}^{N} \frac{z^{n}}{n!}\right|$$
+car $\left| \cdot\right|$ est continue
