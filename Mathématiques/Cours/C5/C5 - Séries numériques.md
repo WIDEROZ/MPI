@@ -410,3 +410,16 @@ $$0\geq R_{2n} \text{ et } 0 \leq R_{2n+1}$$
 Enfin, 
 $$\left| R_{2n} \right| = \left| S-S_{2n}\right|= S_{2n}-S \leq  S_{2n}-S_{2n+1} = u_{2n+1}$$
 $$\left| R_{2n+1} \right| = \left| S-S_{2n+1}\right|= S-S_{2n+1} \leq  S_{2n}-S_{2n-1} = u_{2n}$$
+
+#### Exemple
+On a montré que : 
+$$\sum_{k = 1}^{n} \frac{(-1)^{k+1}}{k} \underset{n \to +\infty}{\longrightarrow} \ln(2)$$
+Comme $\left( \frac{1}{k} \right)_{n \in \mathbb{N}^{*}}$, décroit vers $0$ et cette série est alternée puis vérifie le critère de Leibniz.
+Ainsi, 
+$$R_{1} = S-S_{1} = \sum_{k = 2}^{+ \infty} \frac{(-1)^{k+1}}{k} \text{ est de signe }-$$
+$$R_{2} = S-S_{2} = \sum_{k = 3}^{+ \infty} \frac{(-1)^{k+1}}{k} \text{ est de signe }+$$
+ie 
+$$S_{2} \leq S \leq S_{1} \Leftrightarrow \frac{1}{2} \leq S \leq 1$$
+et de même : 
+$$\frac{7}{12} = 1-\frac{1}{2}+\frac{1}{3}-\frac{1}{4} \leq \ln(2) \leq  1-\frac{1}{2}+\frac{1}{3} = \frac{5}{6}$$
+
