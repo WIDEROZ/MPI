@@ -369,3 +369,25 @@ $$S_{n} = \sum_{k = 1}^{n}(-1)^{k} \frac{\ln(k)}{k}$$
 Alors, 
 $$S_{2n} = \sum_{k = 1}^{n} \frac{\ln(2k)}{2k} - \sum_{k = 1}^{n} \frac{\ln(2k-1)}{2k-1
 }$$
+
+# III.Séries complexes
+#### Définition
+Une série à termes réels $\sum_{n \in \mathbb{N}}u_{n}$ est dite alternée lorsque :
+$$((-1)^{n}u_{n})_{n\in \mathbb{N}}$$
+est de signe constant, ie quitte a considérer son opposé, lorsqu'il existe $(a_{n})_{n \in \mathbb{N}}$, suite positive telle que : 
+$$\forall n \in \mathbb{N}, u_{n} = (-1)^{n}a_{n}$$
+
+#### Exemple
+$$\sum_{n \geq 1} \ln\left( 1+ \frac{(-1)^{n}}{\sqrt{n}} \right)$$
+en est une.
+
+#### Critère de Leibniz PRIME GOATESQUE <3<3<3<3<3 Triple UwU AAAAAAAAAAAAHHHHHHHHHHHHH
+Soit $\sum_{n \in \mathbb{N}}(-1)^{n}a_{n}$ une série numérique telle que $(a_{n})_{n \in \mathbb{N}}$ <u>positive soit décroissante</u>, alors : 
+$$\begin{cases}
+\underset{n \in \mathbb{N}}\sum (-1)^{n}a_{n} \text{ CV} \\
+\forall n \in \mathbb{N}, R_{n} = \sum_{k = n+1}^{+ \infty} (-1)^{k}a_{k} \text{ vérifie : } \\
+\begin{cases}
+\left| R_{n}\right|\leq a_{n+1} \\
+R_{n} \text{ est du signe de }(-1)^{n+1}
+\end{cases}
+\end{cases}$$
