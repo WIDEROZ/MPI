@@ -505,4 +505,25 @@ Démonstration 3. :
 Soit $x \in \mathbb{R}^{*}$, 
 $$\frac{E(x) - E(0)}{x-0} = \sum_{n = 1}^{+ \infty} \frac{x^{n-1}}{n!} = 1+ x \sum_{n = 2}^{+ \infty} \frac{x^{n-2}}{n!}$$
 Or : 
-$$\left| x \sum_{n =2}^{+ \infty} \frac{x^{n-2}}{n!} \right| \leq x \sum_{n = }$$
+$$\left| x \sum_{n =2}^{+ \infty} \frac{x^{n-2}}{n!} \right| \leq x \sum_{n = 2}^{+\infty} \frac{1}{n!} \text{ si }\left| x\right|\leq 1$$
+$$=x(e-2) \underset{x \to 0}{\longrightarrow} 0$$
+Donc, 
+$$\frac{E(x)-E(0)}{x-0} \underset{x \to 0}{\longrightarrow} 1$$
+Ainsi, $E$ est dérivable en $x = 0$ et $E'(0)=1$
+$$\forall x_{0} \in \mathbb{R}, E(x_{0} +h) = E(x_{0})E(h) = E(x_{0})(1+h + o(h))$$
+$$= E(x_{0}) + hE(x_{0}) + o(h)$$
+Ainsi, 
+$E$ est dérivable en $x_{0}$ car elle admet un $DL_{1}(x_{0})$ et $E'(x_{0}) = E(x_{0})$
+Enfin, 
+$$\forall z \in \mathbb{C}, E(\bar{z}) = \overline{E(z)}$$
+(à démontrer)
+Alors, 
+$$\left| E(ix)\right|^{2} = 1$$
+ie $E(ix) \in S^{1}$ on note : $e^{ z }=E(z)$
+On pose alors, 
+$$\begin{cases}
+\cos(x)= \mathrm{Re}(e^{ ix }) = \frac{e^{ ix }+e^{ -ix }}{2} \\
+\sin(x)= \mathrm{Im}(e^{ ix }) = \frac{e^{ ix }-e^{ -ix }}{2i}
+\end{cases}$$
+Alors, 
+$$\cos ^{2} + \sin ^{2} = x\mapsto1$$
