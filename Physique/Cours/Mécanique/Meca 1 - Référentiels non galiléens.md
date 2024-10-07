@@ -63,6 +63,3 @@ $$\begin{cases}
 \ddot{y}' = -2\omega_{T}\cos(\lambda)\dot{z}'  \\
 \ddot{z}' = -g
 \end{cases}$$
-![[Pasted image 20241007112213.png]]
-
-v
