@@ -60,6 +60,7 @@ $$\begin{cases}
 Alors, comme on néglige les perturbations : 
 $$\begin{cases}
 \ddot{x}' = -2\omega_{T}\sin(\lambda)\dot{y}' \\
-\ddot{y}' = -2\omega_{T}(\cos(\lambda)\dot{z}' + \sin(\lambda)\dot{x}') \\
-\ddot{z}' = -g-2\omega_{T}\cos(\lambda)\dot{y}'
+\ddot{y}' = -2\omega_{T}\cos(\lambda)\dot{z}'  \\
+\ddot{z}' = -g
 \end{cases}$$
+0
