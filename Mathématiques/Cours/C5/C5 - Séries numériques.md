@@ -371,6 +371,7 @@ $$S_{2n} = \sum_{k = 1}^{n} \frac{\ln(2k)}{2k} - \sum_{k = 1}^{n} \frac{\ln(2k-1
 }$$
 
 # III.Séries complexes
+## 1. 
 #### Définition
 Une série à termes réels $\sum_{n \in \mathbb{N}}u_{n}$ est dite alternée lorsque :
 $$((-1)^{n}u_{n})_{n\in \mathbb{N}}$$
@@ -437,4 +438,29 @@ On pose :
 $$\forall n \in \mathbb{N}^{*}, \alpha_{n} = \frac{1}{n} + \frac{1}{n^{2}}$$
 $$\sqrt{n^{2}+n+1} = n\left( 1+\frac{1}{n}+\frac{1}{n^{2}} \right)^{1/2} $$
 $$= n\left( 1+\frac{\alpha_{n}}{2} + \frac{\frac{1}{2}\left( \frac{1}{2}-1 \right)}{2}\alpha_{n}^{2} + O(\alpha_{n}^{3})\right) $$
-$$= $$
+$$= n+\frac{1}{2} + \frac{3}{8n} + O\left( \frac{1}{n^{2}} \right)$$
+Ainsi, 
+$$u_{n} = \cos\left( \pi n + \frac{\pi}{2} + \frac{3\pi}{8n} + O\left( \frac{1}{n^{2}} \right)  \right) $$
+$$= (-1)^{n}\cos\left( \frac{\pi}{2}+\frac{3\pi}{8n}+O\left( \frac{1}{n^{2}} \right) \right)$$
+$$= (-1)^{n+1}\sin\left( \frac{3\pi}{8n} + O\left( \frac{1}{n^{2}} \right) \right) =(-1)^{n+1} \frac{3\pi}{8n} + O \left( \frac{1}{n^{2}} \right)$$
+Ainsi, comme : 
+$$u_{n} = (-1)^{n+1} \frac{3\pi}{8n} + O\left( \frac{1}{n^{2}} \right)$$
+Donc, $\sum u_{n}$ CV
+
+## 2. Produit de Cauchy
+#### Définition
+Soient $(a_{n})_{n \in \mathbb{N}}$ et $(b_{n})_{n \in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}$, 
+On appelle produit de Cauchy des séries :
+$$\sum_{n \in \mathbb{N}}a_{n} \text{ et }\sum_{n \in \mathbb{N}}b_{n}$$
+la série : 
+$$\sum_{n \in \mathbb{N}}c_{n} \text{ ou }\forall n \in \mathbb{N}, c_{n} = \sum_{k = 0}^{n}a_{k}b_{n-k}$$
+
+#### Théorème
+Si $\sum_{n \in \mathbb{N}} a_{n}$ et $\sum_{n \in \mathbb{N}b_{n}}$ CV, alors, 
+$$\begin{cases}
+\sum c_{n} \text{ CVA} \\
+\sum_{n = 0}^{+ \infty} = \left( \sum_{n = 0}^{+\infty}a_{n} \right)\left( \sum_{n = 0}^{+\infty}b_{n} \right)
+\end{cases}$$
+Démonstration : DEMAIN
+
+#### Application
