@@ -35,7 +35,7 @@ Avec
 $$\boxed{A = \frac{\pi}{4}\left( M' + \frac{\pi}{2}M
 \right)}$$
 
-### c.
+### c. Pas de finalité
 Soit $x \in I \setminus \{ 0 \}$, 
 On a : 
 $$I_{f}(x) = \int _{0}^{ \frac{\pi}{2}} f(t)\cos(xt) \, dt + i \int _{0}^{\frac{\pi}{2}} f(t)\sin(xt) \, dt$$
@@ -200,6 +200,7 @@ $$\boxed{\pi = \lim_{ N \to +\infty } 4 \sum_{n=0}^{N} \frac{(-1)^{n}}{2n+1}}$$
 
 ## Question 6
 On a $g \in \mathcal{C}^{0}\left( \left[ 0, \frac{\pi}{2} \right] \right)$, car : 
+
 $$\lim_{ t \to 0 } \left( \frac{1}{\sin t} -\frac{1}{t} \right) = \lim_{ t \to 0 } \frac{1}{t} - \lim_{ t \to 0 } \frac{1}{t} = 0$$
 car $\sin(t) \underset{t \to 0}{\sim} t$, 
 Puis, comme :
@@ -207,7 +208,7 @@ Puis, comme :
 - $t \mapsto \frac{1}{t} \in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$
 
 On a : $g\in \mathcal{C}^{1}\left( ]0, \frac{\pi}{2}] \right)$, et 
-$$\forall t \in  \left]0, \frac{\pi}{2}\right], g'(t) = \frac{1}{t^{2}}-\frac{\cos t}{\sin ^{2} t} = \frac{\sin ^{2}t-t^{2}\cos t}{t^{2}\sin ^{2}t}$$
+$$\forall t \in \left]0, \frac{\pi}{2}\right], g'(t) = \frac{1}{t^{2}}-\frac{\cos t}{\sin ^{2} t} = \frac{\sin ^{2}t-t^{2}\cos t}{t^{2}\sin ^{2}t}$$
 Alors, comme :
 
 $$\begin{array}{rl}

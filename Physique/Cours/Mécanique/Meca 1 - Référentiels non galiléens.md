@@ -33,3 +33,4 @@ Dans $\mathcal{R}$,
 $$m\vec{a} = \vec{P} + \vec{T}$$
 $v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
 
+#### Exercice b.
