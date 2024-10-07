@@ -45,7 +45,7 @@ $$\begin{cases}
 \omega_{T}\cos(\lambda)\dot{y}'
 \end{pmatrix}
 \end{cases}$$
-On fait un PFD :  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+On fait un PFD : 
 $$\vec{a'} = - g\vec{e}_{z'} -2\omega_{T}\begin{pmatrix}
 \sin(\lambda)\dot{y}' \\
 \cos(\lambda) \dot{z}'+\sin(\lambda)\dot{x}' \\
