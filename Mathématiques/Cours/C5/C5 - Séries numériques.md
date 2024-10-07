@@ -483,3 +483,26 @@ Elle est continue en $0$ car :
 $$\forall z \in \mathbb{C}, \left| z\right|\leq 1 \Rightarrow \left| E(z) - E(0)\right| = \left| E(z) -1 \right| = \left| \sum_{n = 1}^{+ \infty} \frac{z^{n}}{n!}\right|$$
 $$= \left| \lim_{ N \to +\infty } \sum_{n = 1}^{N} \frac{z^{n}}{n!} \right| = \lim_{ N \to +\infty } \left| \sum_{n = 1}^{N} \frac{z^{n}}{n!}\right|$$
 car $\left| \cdot\right|$ est continue
+$$\leq \left| z\right|\lim_{ N \to +\infty } \sum_{n = 1}^{N} \frac{\left| z^{n-1}\right|}{n!}$$
+comme $\left| z\right|\leq 1$
+$$\leq \left| z\right|\sum_{n = 1}^{+ \infty} \frac{1}{n!}$$
+Ainsi, 
+$$\left| E(z) - E(0) \right| \leq (e-1)\left| z\right|$$
+Donc, 
+$$E(z) \underset{z \to 0}{\longrightarrow} E(0) = 1 $$
+
+D'après le $2.$, pour $z_{0} \in \mathbb{C}$, 
+$$E(z_{0} + z) = E(z_{0})E(z) \underset{n \to +\infty}{\longrightarrow} E(z_{0})E(0) = E(z_{0})$$
+Donc, $E$ est $\mathcal{C}^{0}$ en $z_{0}$, 
+
+Démonstration 2. : 
+Puisque les deux séries
+$$\sum_{n \in \mathbb{N}} \frac{z^{n}}{n!} \text{ et }\sum_{n \in \mathbb{N}} \frac{w^{n}}{n!} \text{ CVA}$$
+leur série produit est : 
+$$E(z)E(w) = \sum_{n = 0}^{+ \infty} \sum_{k = 0}^{n} \frac{z^{k}}{k!} \frac{w^{n-k}}{(n-k)!}= \sum_{n = 0}^{+\infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} z^{k}w^{n-k} = E(z+w)$$
+
+Démonstration 3. : 
+Soit $x \in \mathbb{R}^{*}$, 
+$$\frac{E(x) - E(0)}{x-0} = \sum_{n = 1}^{+ \infty} \frac{x^{n-1}}{n!} = 1+ x \sum_{n = 2}^{+ \infty} \frac{x^{n-2}}{n!}$$
+Or : 
+$$\left| x \sum_{n =2}^{+ \infty} \frac{x^{n-2}}{n!} \right| \leq x \sum_{n = }$$
