@@ -423,3 +423,18 @@ $$S_{2} \leq S \leq S_{1} \Leftrightarrow \frac{1}{2} \leq S \leq 1$$
 et de même : 
 $$\frac{7}{12} = 1-\frac{1}{2}+\frac{1}{3}-\frac{1}{4} \leq \ln(2) \leq  1-\frac{1}{2}+\frac{1}{3} = \frac{5}{6}$$
 
+#### Remarque
+Avec les notations du théorème
+$$\begin{cases}
+a_{n} \sim v_{n} \\
+\sum v_{n} \\
+\forall n \in \mathbb{N}, v_{n} >0
+\end{cases} \Rightarrow \sum a_{n} \text{ CV}$$
+
+
+#### CCINP 46
+On pose : 
+$$\forall n \in \mathbb{N}^{*}, \alpha_{n} = \frac{1}{n} + \frac{1}{n^{2}}$$
+$$\sqrt{n^{2}+n+1} = n\left( 1+\frac{1}{n}+\frac{1}{n^{2}} \right)^{1/2} $$
+$$= n\left( 1+\frac{\alpha_{n}}{2} + \frac{\frac{1}{2}\left( \frac{1}{2}-1 \right)}{2}\alpha_{n}^{2} + O(\alpha_{n}^{3})\right) $$
+$$= $$
