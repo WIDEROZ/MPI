@@ -158,3 +158,5 @@ $$V_{CO_{2}} = V_{m}n_{CO_{2}} = 3.5 \times 10^{-5} \times 22.4 = 7.8 \times 10^
 Un acide fort réagit totalement avec l'eau tandis que l'acide faible non. 
 
 ## 2.
+### a.
+$$AH_{2} + 2H_{2}O \rightleftharpoons A^{2-}+2H_{3}O^{+}$$
