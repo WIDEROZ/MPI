@@ -633,6 +633,18 @@ $$\sum_{k = 1}^{n} \frac{1}{\sqrt{k}}\sim \sum_{k = 1}^{n} (2\sqrt{k}-2\sqrt{k-1
 #### Remarque
 On peut montrer que : 
 $$\forall \alpha <1, \sum_{k = 1}^{n} \frac{1}{k^{\alpha}} \sim \frac{n^{1-\alpha}}{1-\alpha}$$
-avec la même méthode. 
-On à l'existence d'un $c \in ]k, k+1[$ tel que : 
-$$(k+1)^{1-\alpha}-k^{1-\alpha}=$$
+avec la même méthode. En effet en appliquant l'égalité des accroissements finis, à $f : x \mapsto x^{1-\alpha}$
+On à l'existence d'un $c_{k} \in ]k, k+1[$ tel que : 
+$$(k+1)^{1-\alpha}-k^{1-\alpha}=f'(c_{k}) = (1-\alpha)c_{k}^{-\alpha}$$
+et comme : 
+si $\alpha \geq 0$, 
+$$k^{-\alpha} \leq c_{k}^{-\alpha} \leq  (k+1)^{-\alpha}$$
+si $\alpha <0$, 
+$$k^{-\alpha} \geq c_{k}^{-\alpha} \geq  (k+1)^{-\alpha}$$
+Dans le premier cas : 
+$$\frac{1-\alpha}{(k+1)^{\alpha}} \leq (k+1)^{1-\alpha} - k^{1-\alpha} \leq \frac{1-\alpha}{k^{\alpha}}$$
+Donc, 
+$$(1-\alpha)\left( \frac{k}{k+1} \right)^{\alpha} \leq \frac{(k+1)^{1-\alpha} - k^{1-\alpha}}{\frac{1}{k^{\alpha}}} \leq 1-\alpha$$
+Alors par le th des poulets : 
+$$\frac{(k+1)^{1-\alpha} - k^{1-\alpha}}{\frac{1}{k^{\alpha}}} \underset{k \to +\infty}{\longrightarrow} 1-\alpha$$
+
