@@ -69,6 +69,12 @@ int main(int argc, char const *argv[])
     {
         t_sol[i] = 0;
     }
+
+    while (k< N)
+    {
+        int *T1 = indicatrice_positions();
+    }
+    
     
 
     return 0;
