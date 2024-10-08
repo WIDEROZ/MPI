@@ -470,14 +470,27 @@ $$\forall n \in \mathbb{N}, C_{n} = \{ (i, j) \text{ ou } 0\leq i \leq n \text{ 
 et 
 $$T_{n} = \{ (i, j) \in C_{n} | i+j \leq n \}$$
 
+EXCAL 1
 
-
-
-
-
-
-
-
+Donc, 
+$$\sum_{i, j \in T_{n}}a_{i} b_{j} \leq \sum_{i, j \in C_{n}}a_{i} b_{j} \leq \sum_{i, j \in T_{2n}}a_{i} b_{j}$$
+car $\forall i, j \in \mathbb{N}, a_{i}b_{j}\geq 0$, 
+Or,
+$$\sum_{(i, j) \in C_{n}} a_{i}b_{j} = \sum_{i = 0}^{n} a_{i} \sum_{j = 0}^{n}b_{j}$$
+et 
+$$\sum_{(i, j) \in T_{n}} a_{i}b_{j} = \sum_{s = 0}^{n} \sum_{(i, j) \in T_{n}}a_{i}b_{j} = \sum_{s = 0}^{n} \sum_{i = 0}^{s} a_{i}b_{s-i} = \sum_{s=0}^{n}c_{s}$$
+$(s=i+j)$
+Donc, 
+$$\forall n \in \mathbb{N}, \sum_{s = 0}^{n}c_{s} \leq A_{n}B_{n} \leq \sum_{s =0}^{2n} c_{s} $$
+Donc, 
+$$\forall n \in \mathbb{N}, A_{n}B_{n} \leq \sum_{s =0}^{2n} c_{s} \leq A_{2n}B_{2n}$$
+Comme : 
+$$A_{n}B_{n} \underset{n \to +\infty}{\longrightarrow} AB$$
+$$A_{2n}B_{2n} \underset{n \to +\infty}{\longrightarrow} AB$$
+D'après le théorème d'encadrement 
+$$\sum_{s=0}^{2n} c_{s} \underset{n \to +\infty}{\longrightarrow}  AB$$
+De même pour : 
+d
 
 
 #### Application définition de l'exponentielle complexe
