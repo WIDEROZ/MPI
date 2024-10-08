@@ -86,7 +86,7 @@ Il n'existe donc pas de fonction injective de $[\![0, k]\!]$ dans $\{ q_{i} ; i 
 En particulier, la fonction qui à $i \in [\![0, k]\!]$ associe $q_{i}$ n'est pas injective : 
 $$\exists i, j \in [\![0, k]\!], i \neq j \text{ et } q_{i} = q_{j}$$
 Soit $j \in [\![0,k]\!]$ le plus petit entier tel qu'il existe $i < j$ tel que : $q_{i} = q_{j}$
-Soit $i < j$ l'entier tel que $q_{i} = q_{j}$, $j \leq N$ (sinon, ou moins $N+1$ états différents : absurde)
+Soit $i < j$ l'entier tel que $q_{i} = q_{j}$, $j \leq N$ (sinon, on a au moins $N+1$ états différents : absurde)
 
 On pose : 
 - $x = u_{1}\dots u_{i}$
@@ -95,7 +95,7 @@ On pose :
 
 On a bien : 
 - $\left| y\right|>0$ car $i < j$
-- $\left| x_{y}\right| = \left| u_{1}\dots u_{j}\right|\leq N$ car $j \leq N$
+- $\left| x{y}\right| = \left| u_{1}\dots u_{j}\right|\leq N$ car $j \leq N$
 - $\forall n \in \mathbb{N}, xy^{n}z\in L$
 
 Il existe un chemin d'étiquette $y^{n}$ de $q_{i}$ à $q_{j} = q_{i}$ pour tout $n \in \mathbb{N}$ ($n$ itérations du cycle parcouru par $y$), donc il existe une execution acceptante de $\mathcal{A}$ d'étiquette $xy^{n}z$
@@ -141,10 +141,16 @@ Soit $u \in \sum^{*}$, tel que : $\left| u\right| = k \geq N$, il existe alors u
 On pose : 
 $$P = \{ q_{i} ; i \in [\![0, k]\!]\}\subset Q$$
 or, 
-$$N \leq \left| P\right|\leq \left| [\![0, k]\!]\right|$$
+$$\left| P\right|\leq N \leq k < k+1 = \left| [\![0, k]\!]\right|$$
 Alors, il n'existe pas de fonction injective de $[\![0, k]\!]\to P$, en particulier : 
 $$\begin{cases}
 [\![0, k]\!]\to P \\
 i \mapsto q_{i}
 \end{cases}$$
 n'est pas injective, alors, il existe deux indices $i, j \in [\![0, k]\!]$ différents tels que $q_{i} = q_{j}$, 
+On prend le plus petit des deux qu'on suppose d'être $i$ par symétrie des roles, alors, On pose : 
+$$\begin{cases}
+x = u_{0}\dots u_{i} \\
+y = u_{i+1}\dots u_{j} \\
+z = u_{j+1} \dots u_{k}
+\end{cases}$$
