@@ -129,3 +129,22 @@ i \mapsto q_{i}
 \end{cases}$$
 on a : 
 $$\exists i, j \in P$$
+
+
+
+
+Soit $L$ un lang reg de $\sum$,
+d'après le th de Kleene, il existe une automate $A$ tel que : 
+$$\mathcal{L}(A) = L$$
+alors, on note : $N = \left| Q\right|$, 
+Soit $u \in \sum^{*}$, tel que : $\left| u\right| = k \geq N$, il existe alors une execution acceptante $(q_{i})_{i =0}^{k}$ d'étiquette $u$. 
+On pose : 
+$$P = \{ q_{i} ; i \in [\![0, k]\!]\}\subset Q$$
+or, 
+$$N \leq \left| P\right|\leq \left| [\![0, k]\!]\right|$$
+Alors, il n'existe pas de fonction injective de $[\![0, k]\!]\to P$, en particulier : 
+$$\begin{cases}
+[\![0, k]\!]\to P \\
+i \mapsto q_{i}
+\end{cases}$$
+n'est pas injective, alors, il existe deux indices $i, j \in [\![0, k]\!]$ différents tels que $q_{i} = q_{j}$, 
