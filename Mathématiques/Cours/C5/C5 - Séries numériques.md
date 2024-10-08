@@ -579,3 +579,27 @@ $$= \frac{1}{2}\sum_{k = 1}^{+ \infty}\left( \frac{1}{2k-1} -\frac{1}{2k}\right)
 $$\forall n \in \mathbb{N}, a_{n} \geq 0 \text{ et } b_{n} \geq 0$$
 On suppose que
 $$\sum_{n \in \mathbb{N}} b_{n} \text{ DV}$$
+Si $a_{n} = O(b_{n})$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = 0}^{n}a_{n} = O\left( \sum_{k = 0}^{n} b_{k} \right) $$
+Si $a_{n} = o(b_{n})$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = 0}^{n}a_{n} = o\left( \sum_{k = 0}^{n} b_{k} \right) $$
+Si $a_{n} \sim b_{n}$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = 0}^{n}a_{n} \sim  \sum_{k = 0}^{n} b_{k} $$
+
+Démonstration : 
+Par hypothèse il existe un $K \in \mathbb{R}$ tel que : 
+$$\left| \frac{a_{n}}{b_{n}}\right| \leq K \Leftrightarrow a_{n} \leq Kb_{n}$$
+car $a_{n}$ et $b_{n}$ positifs, 
+$$0 \leq \sum_{k = 0}^{n} a_{n} \leq K\sum_{k = 0}^{n} b_{k}$$
+___
+$$\forall \varepsilon >0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow a_{n}\leq \varepsilon b_{n}$$
+car $a_{n}$ et $b_{n}$ positifs, 
+Alors, 
+$$\forall \varepsilon >0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow \sum_{n_{0} +1}^{n} a_{n}\leq \varepsilon \sum_{n_{0}+1}^{n}b_{n}$$
+Donc, 
+$$0 \leq A_{n}-A_{n_{0}} \leq \varepsilon(B_{n}-B_{n_{0}})$$
+Ainsi, 
+$$0 \leq \frac{A_{n}}{B_{n}} \leq \varepsilon - \frac{\varepsilon B_{n_{0}}}{B_{n}} + A_{n_{0}}$$
