@@ -602,4 +602,13 @@ $$\forall \varepsilon >0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}
 Donc, 
 $$0 \leq A_{n}-A_{n_{0}} \leq \varepsilon(B_{n}-B_{n_{0}})$$
 Ainsi, 
-$$0 \leq \frac{A_{n}}{B_{n}} \leq \varepsilon - \frac{\varepsilon B_{n_{0}}}{B_{n}} + A_{n_{0}}$$
+$$0 \leq \frac{A_{n}}{B_{n}} \leq \varepsilon - \frac{\varepsilon B_{n_{0}}}{B_{n}} + \frac{A_{n_{0}}}{B_{n}} \underset{n \to +\infty}{\longrightarrow}  \varepsilon$$
+Alors,
+$$\exists n_{1} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{1}\Rightarrow \varepsilon - \frac{\varepsilon B_{n_{0}}}{B_{n}} + \frac{A_{n_{0}}}{B_{n}} \leq 2\varepsilon $$
+Ainsi, comme : 
+$$ \frac{A_{n}}{B_{n}} \leq \varepsilon - \frac{\varepsilon B_{n_{0}}}{B_{n}} + \frac{A_{n_{0}}}{B_{n}}$$
+$$\frac{A_{n}}{B_{n}} \underset{n \to +\infty}{\longrightarrow} 0$$
+___
+Notons : $u_{n} = a_{n}-b_{n}$, 
+$$a_{n} \sim b_{n} \Rightarrow u_{n} = o(b_{n})$$
+ie, $\left| u_{n} \right| = o(b_{n})$, 
