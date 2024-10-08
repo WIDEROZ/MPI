@@ -490,7 +490,10 @@ $$A_{2n}B_{2n} \underset{n \to +\infty}{\longrightarrow} AB$$
 D'après le théorème d'encadrement 
 $$\sum_{s=0}^{2n} c_{s} \underset{n \to +\infty}{\longrightarrow}  AB$$
 De même pour : 
-d
+$$\sum_{s=0}^{2n+1}c_{s}$$
+
+Démonstration pour $(c_{n})_{n \in \mathbb{N}}$ non positive
+
 
 
 #### Application définition de l'exponentielle complexe
@@ -557,3 +560,22 @@ $$\begin{cases}
 \end{cases}$$
 Alors, 
 $$\cos ^{2} + \sin ^{2} = x\mapsto1$$
+
+#### Remarque
+Attention du fait que : 
+$$\sum_{k = 0}^{+ \infty}a_{n}$$
+n'est pas commutative.
+
+En effet : 
+$$\sum_{k \in \mathbb{N}^{*}} \frac{(-1)^{k+1}}{k}= \sum_{k = 1}^{+ \infty} \frac{(-1)^{k+1}}{k} = \ln(2)$$
+On a :
+$$\mathbb{N}^{*} = \bigsqcup_{k \in \mathbb{N}^{*}} \{ 2k-1, 4k-2, 4k \}$$
+Alors, 
+$$\sum_{k \in \mathbb{N}^{*}} \left( \frac{1}{2k-1}-\frac{1}{4k-2}-\frac{1}{4k} \right) = \sum_{k \in \mathbb{N}^{*}}\left( \frac{1}{4k-2} -\frac{1}{4k}\right) $$
+$$= \frac{1}{2}\sum_{k = 1}^{+ \infty}\left( \frac{1}{2k-1} -\frac{1}{2k}\right) = \frac{1}{2} \sum_{p=  1}^{+ \infty} \frac{(-1)^{p+1}}{p} = \frac{\ln(2)}{2}$$
+
+# IV. Sommation des relations d'équivalence
+#### Théorème : Cas de divergence
+$$\forall n \in \mathbb{N}, a_{n} \geq 0 \text{ et } b_{n} \geq 0$$
+On suppose que
+$$\sum_{n \in \mathbb{N}} b_{n} \text{ DV}$$
