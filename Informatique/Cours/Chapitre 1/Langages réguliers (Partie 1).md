@@ -77,9 +77,11 @@ Soit $N$ le nombre d'état de $\mathcal{A}$.
 Soit $u \in L$ un mot de taille $\left| u\right| = k \geq N$. 
 Il existe une execution acceptante : $(q_{i})_{i = 0}^{k}$ d'étiquette $u$ : 
 $$\forall i \in [\![1, k]\!], (q_{i-1}, k, q_{i}) \in \delta$$
-$$\{ q_{i} ; i \in [\![0, k]\!] \} \subset Q$$
+$$P = \{ q_{i} ; i \in [\![0, k]\!] \} \subset Q$$
 or, 
 $$\left| Q\right| = N < \left| [\![0, k]\!]\right|$$
+alors, 
+$$\left| P \right| \leq \left| Q\right|< \left| [\![0, k]\!]\right|$$
 Il n'existe donc pas de fonction injective de $[\![0, k]\!]$ dans $\{ q_{i} ; i \in [\![0, k]\!] \}$ (principe des tiroirs)
 En particulier, la fonction qui à $i \in [\![0, k]\!]$ associe $q_{i}$ n'est pas injective : 
 $$\exists i, j \in [\![0, k]\!], i \neq j \text{ et } q_{i} = q_{j}$$
@@ -122,8 +124,8 @@ il n'existe pas de fonction injective de $Q \to [\![0, k]\!]$
 d'après le lemme des moutons.
 Alors, en prenant : 
 $$f : \begin{cases}
-Q \to [\![0, k]\!] \\
+[\![0, k]\!] \to\\
 i \mapsto q_{i}
 \end{cases}$$
 on a : 
-$$\forall i \in f(i)$$
+$$\exists i, j \in P$$
