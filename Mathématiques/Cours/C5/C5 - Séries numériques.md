@@ -648,3 +648,4 @@ $$(1-\alpha)\left( \frac{k}{k+1} \right)^{\alpha} \leq \frac{(k+1)^{1-\alpha} - 
 Alors par le th des poulets : 
 $$\frac{(k+1)^{1-\alpha} - k^{1-\alpha}}{\frac{1}{k^{\alpha}}} \underset{k \to +\infty}{\longrightarrow} 1-\alpha$$
 
+ATTRAPPER
