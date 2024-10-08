@@ -110,3 +110,7 @@ Absurde car $N +k \neq N$
 Donc $L$ n'est pas régulier.
 
 
+#### Lemme
+Soit, $L$ un lang reg. sur $\sum$
+Soit, $N \in \mathbb{N}^{*}$ tel que, $\forall u \in \sum^{*}, \left| u\right| = k\geq N$, 
+D'après le Lemme de Kleene, $Rec\left( \sum \right) = Reg\left( \sum \right)$, alors, il existe un automate $A$ tel que : $L = \mathcal{L}(A)$, il existe une execution $(q_{i})_{i \in [\![1, k]\!]}$ acceptante d'étiquette $u$ telle que :
