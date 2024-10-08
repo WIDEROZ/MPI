@@ -456,12 +456,29 @@ la série :
 $$\sum_{n \in \mathbb{N}}c_{n} \text{ ou }\forall n \in \mathbb{N}, c_{n} = \sum_{k = 0}^{n}a_{k}b_{n-k}$$
 
 #### Théorème
-Si $\sum_{n \in \mathbb{N}} a_{n}$ et $\sum_{n \in \mathbb{N}b_{n}}$ CV, alors, 
+Si $\sum_{n \in \mathbb{N}} a_{n}$ et $\sum_{n \in \mathbb{N}}b_{n}$ CV, alors, 
 $$\begin{cases}
 \sum c_{n} \text{ CVA} \\
-\sum_{n = 0}^{+ \infty} = \left( \sum_{n = 0}^{+\infty}a_{n} \right)\left( \sum_{n = 0}^{+\infty}b_{n} \right)
+\sum_{n = 0}^{+ \infty}c_{n} = \left( \sum_{n = 0}^{+\infty}a_{n} \right)\left( \sum_{n = 0}^{+\infty}b_{n} \right)
 \end{cases}$$
-Démonstration : DEMAIN
+Démonstration : 
+Supposons $\sum_{n \in \mathbb{N}} a_{n}$ et $\sum_{n \in \mathbb{N}}b_{n}$ CV,
+Si $(c_{n})_{n \in \mathbb{N}}$ est une suite positive, 
+$$\forall J \subset I, \sum_{i \in J}c_{i} \leq \sum_{i \in I}c_{i}$$
+Notons : 
+$$\forall n \in \mathbb{N}, C_{n} = \{ (i, j) \text{ ou } 0\leq i \leq n \text{ et } 0\leq i \leq n \} = [\![0, n]\!]^{2}$$
+et 
+$$T_{n} = \{ (i, j) \in C_{n} | i+j \leq n \}$$
+
+
+
+
+
+
+
+
+
+
 
 #### Application définition de l'exponentielle complexe
 Notons : 
