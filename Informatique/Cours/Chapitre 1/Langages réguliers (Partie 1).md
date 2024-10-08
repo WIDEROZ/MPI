@@ -108,3 +108,5 @@ Comme $\left| y\right|>0$, il existe $k > 0$ tel que $y = a^{k}$ et $x = a^{l-k}
 En particulier, pour $n = 2$, $xy^{2}z = a^{N+k}b^{N} \in L$
 Absurde car $N +k \neq N$
 Donc $L$ n'est pas régulier.
+
+
