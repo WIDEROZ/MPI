@@ -160,3 +160,5 @@ Un acide fort réagit totalement avec l'eau tandis que l'acide faible non.
 ## 2.
 ### a.
 $$AH_{2} + 2H_{2}O \rightleftharpoons A^{2-}+2H_{3}O^{+}$$
+
+### b.
