@@ -112,5 +112,18 @@ Donc $L$ n'est pas régulier.
 
 #### Lemme
 Soit, $L$ un lang reg. sur $\sum$
-Soit, $N \in \mathbb{N}^{*}$ tel que, $\forall u \in \sum^{*}, \left| u\right| = k\geq N$, 
-D'après le Lemme de Kleene, $Rec\left( \sum \right) = Reg\left( \sum \right)$, alors, il existe un automate $A$ tel que : $L = \mathcal{L}(A)$, il existe une execution $(q_{i})_{i \in [\![1, k]\!]}$ acceptante d'étiquette $u$ telle que :
+$$\forall u \in \sum^{*}, \left| u\right| = k\geq N$$ 
+D'après le Lemme de Kleene, $Rec\left( \sum \right) = Reg\left( \sum \right)$, alors, il existe un automate $A$ tel que : $L = \mathcal{L}(A)$,
+Soit $N = \left| Q\right|$, il existe une execution $(q_{i})_{i \in [\![1, k]\!]}$ acceptante d'étiquette $u$. 
+on note : 
+$$P = \{ q_{i} ; i \in [\![0, k]\!] \} \subset Q$$
+Comme $k+1 = \left| [\![0, k]\!]\right| > k \geq  N$,
+il n'existe pas de fonction injective de $Q \to [\![0, k]\!]$
+d'après le lemme des moutons.
+Alors, en prenant : 
+$$f : \begin{cases}
+Q \to [\![0, k]\!] \\
+i \mapsto q_{i}
+\end{cases}$$
+on a : 
+$$\forall i \in f(i)$$
