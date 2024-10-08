@@ -612,3 +612,27 @@ ___
 Notons : $u_{n} = a_{n}-b_{n}$, 
 $$a_{n} \sim b_{n} \Rightarrow u_{n} = o(b_{n})$$
 ie, $\left| u_{n} \right| = o(b_{n})$, 
+Alors, on a : d'après le 2. : 
+$$\left| A_{n} - B_{n}\right|\leq\sum_{k = 0}^{n} \left| u_{k}\right| = o(B_{n})$$
+Ainsi, 
+$$\left| A_{n}-B_{n}\right| = o(B_{n})$$
+Soit 
+$$A_{n} \sim B_{n}$$
+
+#### Exemple
+$$\sum_{k = 1}^{n} \frac{1}{\sqrt{k}} \sim ?$$
+on a : 
+$$\sqrt{k}-\sqrt{k-1} = \frac{1}{\sqrt{k}+\sqrt{k-1}}\sim \frac{1}{2\sqrt{k}}$$
+Donc, 
+$$\frac{1}{\sqrt{k}}\sim 2\sqrt{k}-2\sqrt{k-1}$$
+de plus, 
+$$\sum_{k \geq 1} \frac{1}{\sqrt{k}} \text{ DV}$$
+Ainsi, 
+$$\sum_{k = 1}^{n} \frac{1}{\sqrt{k}}\sim \sum_{k = 1}^{n} (2\sqrt{k}-2\sqrt{k-1}) \sim 2\sqrt{n}$$
+
+#### Remarque
+On peut montrer que : 
+$$\forall \alpha <1, \sum_{k = 1}^{n} \frac{1}{k^{\alpha}} \sim \frac{n^{1-\alpha}}{1-\alpha}$$
+avec la même méthode. 
+On à l'existence d'un $c \in ]k, k+1[$ tel que : 
+$$(k+1)^{1-\alpha}-k^{1-\alpha}=$$
