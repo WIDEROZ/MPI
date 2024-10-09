@@ -28,7 +28,7 @@ $$\begin{cases}
 Par le principe fondamental de la dynamique : 
 $$\overrightarrow{0} = m\vec{a'} = -R \vec{u}_{z'} + m \Omega^{2} \frac{D}{2} \vec{u}_{r} $$
 Alors, 
-$$R = m \Omega^{2} \frac{D}{2} = -m a_{e}$$
+$$R = m \Omega^{2} \frac{D}{2} = m a_{e}$$
 
 ## 6.
 ...
@@ -38,4 +38,15 @@ Il faut que l'astronaute soit le plus loin du centre dans le tore pour qu'il ait
 
 ## 8.
 Ici on veut que $\vec{P} = m\vec{g} = -mg \vec{u}_{z'} = -\vec{R}$, alors, 
-$$R = mg = - m\Omega^{2} \frac{D}{2} \Rightarrow \Omega^{2} = -\frac{2g}{D}$$
+$$R = mg = m\Omega^{2} \frac{D}{2} \Rightarrow \Omega^{2} = \frac{2g}{D} \Rightarrow \Omega = \sqrt{\frac{2g}{D}}$$
+$$\Omega_{10} = 1.41 \text{ s}^{-1}, \Omega_{100} = 0.447\text{ s}^{-1}, \Omega_{1000} = 0.1414\text{ s}^{-1}$$
+
+## 9.
+On effectue un bilan des forces dans $\mathcal{R}'$, 
+$$\begin{cases}
+\vec{R} = -R\vec{u}_{r} \\
+\vec{f}_{i, e} = m\Omega^{2} \overrightarrow{HM} = m \Omega^{2} \frac{D}{2} \vec{u}_{r} \\
+\vec{f}_{i, c} = -2m \vec{\Omega} \wedge \vec{v'} = 2m\Omega v'(\vec{u}_{z'} \wedge \vec{u}_{\theta}) = -2m\Omega v'\vec{u}_{r}
+\end{cases}$$
+Donc, 
+$$$$
