@@ -575,7 +575,7 @@ $$\sum_{k \in \mathbb{N}^{*}} \left( \frac{1}{2k-1}-\frac{1}{4k-2}-\frac{1}{4k} 
 $$= \frac{1}{2}\sum_{k = 1}^{+ \infty}\left( \frac{1}{2k-1} -\frac{1}{2k}\right) = \frac{1}{2} \sum_{p=  1}^{+ \infty} \frac{(-1)^{p+1}}{p} = \frac{\ln(2)}{2}$$
 
 # IV. Sommation des relations d'équivalence
-#### Théorème : Cas de divergence
+#### Théorème : Cas de divergence (Sommes partielles)
 $$\forall n \in \mathbb{N}, a_{n} \geq 0 \text{ et } b_{n} \geq 0$$
 On suppose que
 $$\sum_{n \in \mathbb{N}} b_{n} \text{ DV}$$
@@ -650,7 +650,7 @@ $$\frac{(k+1)^{1-\alpha} - k^{1-\alpha}}{\frac{1}{k^{\alpha}}} \underset{k \to +
 
 ATTRAPPER SUR LE VECTEUR $\overrightarrow{ON}$, 
 
-#### Théorème
+#### Théorème : cas de convergence (reste)
 Soient $(a_{n})_{n \in \mathbb{N}}$ et $(u_{n})_{n \in \mathbb{N}}$, des suites réelles positives.
 On suppose que la série : $\sum u_{n}$ CV
 
@@ -660,3 +660,10 @@ lorsque $n\to + \infty$,
 de même pour $o$ et $\sim$
 
 Démonstration : la même
+
+
+#### Application
+Déterminer un développement asymptotique de 
+$$\sum_{k = 1}^{n} \frac{1}{k+\sqrt{k}}$$
+Alors,
+$$\sum_{k = 1}^{n} \frac{1}{k+\sqrt{k}} \sim \sum_{}$$
