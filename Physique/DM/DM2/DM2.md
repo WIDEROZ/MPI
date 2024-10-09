@@ -50,8 +50,17 @@ $$\begin{cases}
 \end{cases}$$
 
 ## 10.
-On fait un PFD en supposant que $\vec{v'}$ soit uniforme, 
+$\vec{f}_{i, c}$ est dans le sens inverse de $\vec{f}_{i, e}$
+
+### 11.
+On fait un PFD dans $\mathcal{R}'$ non galiléen, 
+$$\vec{R} + m\vec{g'} = m\vec{a'} = -R \vec{u}_{r} + m \Omega^{2} \frac{D}{2} \vec{u}_{r} -2m\Omega v'\vec{u}_{r}$$
 Alors, 
-$$\overrightarrow{0} = m\vec{a'} = -R \vec{u}_{r} + m \Omega^{2} \frac{D}{2} \vec{u}_{r} -2m\Omega v'\vec{u}_{r}$$
-Donc, comme $R = mg$, 
-$$\Omega^{2} \frac{D}{2} -2\Omega v'-g = 0$$
+$$\vec{g'} = \left( \Omega^{2} \frac{D}{2}-2\Omega v' \right)\vec{u}_{r}$$
+
+### 12.
+D'après la question 8 et la question 11 : 
+$$g = \frac{\Omega^{2}D}{2} \text{ et } g' = \Omega^{2} \frac{D}{2}-2\Omega v'$$
+$$\Delta g = 2\Omega v' = 2v'\sqrt{\frac{2g}{D}}$$
+Puis, 
+$$\frac{\Delta g}{g} = $$
