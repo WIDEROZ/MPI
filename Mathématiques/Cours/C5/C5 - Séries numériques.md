@@ -689,6 +689,25 @@ $$\sum_{k = n+1}^{+ \infty}(v_{k-1} - v_{k}) = v_{n} - \alpha$$
 Or,
 $$v_{k-1}-v_{k} \sim \frac{1}{k^{1.5}}>0$$
 Comme la série, 
-$$\sum_{k = n+1}^{+ \infty} \frac{1}{k^{1.5}} \text{ CV}$$
+$$\sum \frac{1}{k^{1.5}} \text{ CV}$$
 on en déduit : 
-$$\sum_{k = n+1}^{+ \infty}(v_{k} - v_{k-1}) \sim \sum_{k = n+1}^{+ \infty} \frac{1}{k^{1.5}}$$
+$$\sum_{k = n}^{+ \infty}(v_{k} - v_{k-1}) \sim \sum_{k = n}^{+ \infty} \frac{1}{k^{1.5}}$$
+Or : 
+$$\frac{1}{k^{1.5}} \sim -\frac{2}{\sqrt{k+1}} + \frac{2}{\sqrt{k}}>0$$
+Donc, 
+$$\sum_{k = n}^{+ \infty} \frac{1}{k^{1.5}} \sim \sum_{k = n}^{+ \infty} \left( \frac{2}{\sqrt{k}}-\frac{2}{\sqrt{k+1}} \right) = \frac{2}{\sqrt{n}}-0$$
+Ainsi, 
+$$v_{n} = \alpha + v_{n} - \alpha = \alpha + \sum_{k = n+1}^{+ \infty} (v_{k-1}-v_{n}) = \alpha + \frac{2}{\sqrt{n}} + o\left( \frac{1}{\sqrt{n}} \right)$$
+
+#### Propriété
+On pose : 
+$$l^{1} = \left\{  (u_{n})_{n \in \mathbb{N}} \in \mathbb{R}^{\mathbb{N}} \left| \sum u_{n} \text{ CV}  \right\}\right|$$
+Donc, 
+$$\left|\left| \cdot \right|\right|_{1} : \begin{cases}
+l^{1} \to \mathbb{R} \\
+u = (u_{n}) \mapsto \sum_{n = 0}^{+ \infty} \left| u_{n}\right|
+\end{cases}$$
+est un norme
+de plus, 
+$$\left| \sum_{n = 0}^{+\infty} u_{n}\right|\leq \sum_{n = 0}^{+ \infty} \left| u_{n}\right| = \left|\left| u \right|\right| _{1}$$
+Démonstration : 
