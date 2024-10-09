@@ -52,15 +52,30 @@ $$\begin{cases}
 ## 10.
 $\vec{f}_{i, c}$ est dans le sens inverse de $\vec{f}_{i, e}$
 
-### 11.
+## 11.
 On fait un PFD dans $\mathcal{R}'$ non galiléen, 
 $$\vec{R} + m\vec{g'} = m\vec{a'} = -R \vec{u}_{r} + m \Omega^{2} \frac{D}{2} \vec{u}_{r} -2m\Omega v'\vec{u}_{r}$$
 Alors, 
 $$\vec{g'} = \left( \Omega^{2} \frac{D}{2}-2\Omega v' \right)\vec{u}_{r}$$
 
-### 12.
+## 12.
 D'après la question 8 et la question 11 : 
 $$g = \frac{\Omega^{2}D}{2} \text{ et } g' = \Omega^{2} \frac{D}{2}-2\Omega v'$$
 $$\Delta g = 2\Omega v' = 2v'\sqrt{\frac{2g}{D}}$$
 Puis, 
-$$\frac{\Delta g}{g} = $$
+$$\frac{\Delta g}{g} = 2v'\sqrt{\frac{2}{Dg}}$$
+
+## 13.
+Il suffit de résoudre : 
+$$2v'\sqrt{\frac{2}{Dg}} \leq \frac{1}{10} \Rightarrow v'_{\max} = \frac{1}{20}\sqrt{\frac{Dg}{2}}$$
+
+## 14.
+En traduisant : 
+$$\vec{v'} = v' \vec{u}_{\theta}$$
+Alors, par analogie au cas ou $\vec{v'} = -v' \vec{u}_{\theta}$, 
+$$\Delta g = -2v'\sqrt{\frac{2g}{D}}$$
+Puis, 
+$$\frac{\Delta g}{g} = -2v'\sqrt{\frac{2}{Dg}}$$
+L'astronaute doit marcher à une vitesse minimum de : 
+$$\frac{1}{20}\sqrt{\frac{Dg}{2}}$$
+pour ne pas ressentir l'augmentation de la gravité artificielle. 
