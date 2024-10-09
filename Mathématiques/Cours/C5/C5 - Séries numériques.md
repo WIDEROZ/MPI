@@ -648,4 +648,15 @@ $$(1-\alpha)\left( \frac{k}{k+1} \right)^{\alpha} \leq \frac{(k+1)^{1-\alpha} - 
 Alors par le th des poulets : 
 $$\frac{(k+1)^{1-\alpha} - k^{1-\alpha}}{\frac{1}{k^{\alpha}}} \underset{k \to +\infty}{\longrightarrow} 1-\alpha$$
 
-ATTRAPPER
+ATTRAPPER SUR LE VECTEUR $\overrightarrow{ON}$, 
+
+#### Théorème
+Soient $(a_{n})_{n \in \mathbb{N}}$ et $(u_{n})_{n \in \mathbb{N}}$, des suites réelles positives.
+On suppose que la série : $\sum u_{n}$ CV
+
+Si $a_{n} = O(u_{n})$, 
+$$\sum_{k = n}^{+ \infty} = O \left( \sum_{k = n}^{+ \infty} u_{k}  \right)$$
+lorsque $n\to + \infty$, 
+de même pour $o$ et $\sim$
+
+Démonstration : la même
