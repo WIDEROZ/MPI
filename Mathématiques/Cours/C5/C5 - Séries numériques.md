@@ -711,3 +711,5 @@ est un norme
 de plus, 
 $$\left| \sum_{n = 0}^{+\infty} u_{n}\right|\leq \sum_{n = 0}^{+ \infty} \left| u_{n}\right| = \left|\left| u \right|\right| _{1}$$
 Démonstration : 
+ATTRAPPER
+
