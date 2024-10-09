@@ -676,8 +676,19 @@ $$= \frac{1}{n}\left( 1+\frac{1}{\sqrt{n}} \right)^{-1}+\left( -\frac{1}{n}-\fra
 $$= \frac{1}{n}\left( 1-\frac{1}{\sqrt{n}}+\frac{1}{n} \right)-\frac{1}{n}-\frac{1}{2n^{2}}+o\left( \frac{1}{n^{2}} \right)$$
 $$= \frac{1}{n^{1.5}} + o\left( \frac{1}{n^{1.5}} \right)$$
 Comme c'est une SATP CV la série : 
-$$\sum(v_{n+1}-v_{n}) \text{ CV}$$
+$$\sum(v_{n-1}-v_{n}) \text{ CV}$$
 Donc, la suite $(v_{n})_{n \in \mathbb{N}}$ $CV$ (la série est télescopique)
 
 A ce stade on sait qu'il existe un réel $\alpha$ tel que $S_{n}-\ln (n)\underset{n \to +\infty}{\longrightarrow}\alpha$ ie
 $$S_{n} = \ln(n)+\alpha+o(1)$$
+Alors, 
+$$\sum_{k = n+1}^{n+N}(v_{k}-v_{k-1})=v_{n+N} - v_{n}$$
+En faisant tendre $N \to + \infty$, on a : 
+$$\sum_{k = n+1}^{+ \infty}(v_{k} - v_{k-1}) = \alpha - v_{n}$$
+$$\sum_{k = n+1}^{+ \infty}(v_{k-1} - v_{k}) = v_{n} - \alpha$$
+Or,
+$$v_{k-1}-v_{k} \sim \frac{1}{k^{1.5}}>0$$
+Comme la série, 
+$$\sum_{k = n+1}^{+ \infty} \frac{1}{k^{1.5}} \text{ CV}$$
+on en déduit : 
+$$\sum_{k = n+1}^{+ \infty}(v_{k} - v_{k-1}) \sim \sum_{k = n+1}^{+ \infty} \frac{1}{k^{1.5}}$$
