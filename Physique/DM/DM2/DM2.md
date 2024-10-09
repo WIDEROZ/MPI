@@ -29,3 +29,5 @@ Par le principe fondamental de la dynamique :
 $$\overrightarrow{0} = m\vec{a'} = R \vec{u}_{z'} + m \omega^{2} \frac{D}{2} \vec{u}_{r} $$
 Alors, 
 $$R = 0$$
+
+$$  $$
