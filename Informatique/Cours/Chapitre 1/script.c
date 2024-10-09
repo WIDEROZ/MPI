@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <random.h>
+#include <stdlib.h>
 #include <time.h>
 
 int main(int argc, char const *argv[])
@@ -17,10 +17,10 @@ int main(int argc, char const *argv[])
         if(z <= 1){
             count++;
         }
-        pi = (double)count / n*4
+        pi = (double)count / n*4;
         
     }
-    
+    printf("%f", pi);
 
     return 0;
 }
