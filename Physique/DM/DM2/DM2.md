@@ -26,7 +26,7 @@ $$\begin{cases}
 
 ## 5.
 Par le principe fondamental de la dynamique : 
-$$\overrightarrow{0} = m\vec{a'} = -R \vec{u}_{z'} + m \Omega^{2} \frac{D}{2} \vec{u}_{r} $$
+$$\overrightarrow{0} = m\vec{a'} = -R \vec{u}_{r} + m \Omega^{2} \frac{D}{2} \vec{u}_{r} $$
 Alors, 
 $$R = m \Omega^{2} \frac{D}{2} = m a_{e}$$
 
@@ -48,5 +48,10 @@ $$\begin{cases}
 \vec{f}_{i, e} = m\Omega^{2} \overrightarrow{HM} = m \Omega^{2} \frac{D}{2} \vec{u}_{r} \\
 \vec{f}_{i, c} = -2m \vec{\Omega} \wedge \vec{v'} = 2m\Omega v'(\vec{u}_{z'} \wedge \vec{u}_{\theta}) = -2m\Omega v'\vec{u}_{r}
 \end{cases}$$
-Donc, 
-$$$$
+
+## 10.
+On fait un PFD en supposant que $\vec{v'}$ soit uniforme, 
+Alors, 
+$$\overrightarrow{0} = m\vec{a'} = -R \vec{u}_{r} + m \Omega^{2} \frac{D}{2} \vec{u}_{r} -2m\Omega v'\vec{u}_{r}$$
+Donc, comme $R = mg$, 
+$$\Omega^{2} \frac{D}{2} -2\Omega v'-g = 0$$
