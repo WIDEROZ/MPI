@@ -664,6 +664,20 @@ Démonstration : la même
 
 #### Application
 Déterminer un développement asymptotique de 
-$$\sum_{k = 1}^{n} \frac{1}{k+\sqrt{k}}$$
+$$\left( \sum_{k = 1}^{n} \frac{1}{k+\sqrt{k}} \right)_{n \in \mathbb{N}^{*}}$$
 Alors,
-$$\sum_{k = 1}^{n} \frac{1}{k+\sqrt{k}} \sim \sum_{}$$
+$$\sum_{k = 1}^{n} \frac{1}{k+\sqrt{k}} \sim \sum_{k=1}^{n} \frac{1}{k} \sim \ln(n)$$
+$$\left(\sum_{k = 1}^{n} \frac{1}{k+\sqrt{k}}-\ln(n)\right)_{n \in \mathbb{N}}$$
+Raffinons en déterminant un équivalent de : 
+$$(S_{n}-\ln(n))_{n \in \mathbb{N}^{*}}$$
+$$v_{n}-v_{n-1} = S_{n}-S_{n-1}-(\ln(n)\ln(n-1))$$
+$$=\frac{1}{n+\sqrt{n}}+\ln\left( 1-\frac{1}{n} \right)$$
+$$= \frac{1}{n}\left( 1+\frac{1}{\sqrt{n}} \right)^{-1}+\left( -\frac{1}{n}-\frac{1}{2n^{2}}+o\left( \frac{1}{n^{2}} \right) \right)$$
+$$= \frac{1}{n}\left( 1-\frac{1}{\sqrt{n}}+\frac{1}{n} \right)-\frac{1}{n}-\frac{1}{2n^{2}}+o\left( \frac{1}{n^{2}} \right)$$
+$$= \frac{1}{n^{1.5}} + o\left( \frac{1}{n^{1.5}} \right)$$
+Comme c'est une SATP CV la série : 
+$$\sum(v_{n+1}-v_{n}) \text{ CV}$$
+Donc, la suite $(v_{n})_{n \in \mathbb{N}}$ $CV$ (la série est télescopique)
+
+A ce stade on sait qu'il existe un réel $\alpha$ tel que $S_{n}-\ln (n)\underset{n \to +\infty}{\longrightarrow}\alpha$ ie
+$$S_{n} = \ln(n)+\alpha+o(1)$$
