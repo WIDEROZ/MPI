@@ -55,3 +55,6 @@ $$\begin{cases}
 \omega = 0\\
 \omega = \sqrt{C\left( \frac{1}{J_{1}}+\frac{1}{J_{2}} \right)}
 \end{cases}$$
+
+# Exercice 3
+## 1.
