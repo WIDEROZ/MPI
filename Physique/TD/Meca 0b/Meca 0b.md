@@ -35,9 +35,23 @@ $$\theta_{1} = \frac{J_{2}}{J_{1}}(\theta_{2}-\theta_{1,0})$$
 ca marche bien.
 
 ## 3.
-$$\underline{\ddot{\theta_{1}}} + \frac{C}{J_{1}} \underline{\theta_{1}} = \frac{C}{J_{2}} \underline{\theta_{2}}$$
+$$\begin{cases}
+\underline{\ddot{\theta_{1}}} + \frac{C}{J_{1}} \underline{\theta_{1}} = \frac{C}{J_{1}} \underline{\theta_{2}} \\
+\underline{\ddot{\theta_{2}}} + \frac{C}{J_{2}} \underline{\theta_{2}} = \frac{C}{J_2} \underline{\theta_{1}}
+\end{cases}$$
 Alors,
 $$\begin{cases}
--\omega^{2}A_{1} + \frac{C}{J_{1}}A_{1} = \frac{C}{J_{2}}A_{2} \\
--\omega^{2}A_{2} + \frac{C}{J_{2}}A_{2} = 
+-\omega^{2}A_{1} + \frac{C}{J_{1}}A_{1} = \frac{C}{J_{1}}A_{2} \\
+-\omega^{2}A_{2} + \frac{C}{J_{2}}A_{2} = \frac{C}{J_{2}}A_{1}
+\end{cases} \Rightarrow \begin{cases}
+\left( \frac{C}{J_{1}}-\omega^{2} \right)A_{1} -\frac{C}{J_{1}}A_{2}=0 \\
+-\frac{C}{J_{2}}A_{1} +\left( \frac{C}{J_{2}}-\omega^{2} \right)A_{2}=0
+\end{cases}$$
+Donc, il existe des solutions différentes de $(0, 0)$ si le déterminant $=0$, 
+Alors, 
+$$\omega^{2}\left( -C\left( \frac{1}{J_{1}}+\frac{1}{J_{2}} \right)+\omega^{2} \right) = 0$$
+ie : 
+$$\begin{cases}
+\omega = 0\\
+\omega = \sqrt{C\left( \frac{1}{J_{1}}+\frac{1}{J_{2}} \right)}
 \end{cases}$$
