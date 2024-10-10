@@ -1,0 +1,29 @@
+Arise of latinos and asian americans
+
+maj. of 10+ points
+latinos voting age -> faster 
+maj. loose -> gen z is in age of vote
+10 % voters latinos and asian in east state
+
+georgia and NC : winable for democrats
+
+potential consequences
+
+black migration 1/3 voters georgia
+
+
+shift michgan / pens. 
+
+
+states wached 2020 tight
+montana reporter
+
+
+Demog. 
+less white non college voters lease likely to vote
+way of life is under threat : trump voters
+
+
+# Main demographic changes
+Decline of white voters without college degree
+Arise of latino and Asian population
