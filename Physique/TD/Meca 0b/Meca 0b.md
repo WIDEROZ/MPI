@@ -59,4 +59,13 @@ $$\begin{cases}
 # Exercice 3
 ## 1.
 ### a.
-$$\frac{dL_{Oz}}{dt} = \mathcal{M}_{Oz}(\text{pivot}) + \mathcal{M}_{Oz}(\text{poids}\to \text{disque})+ \mathcal{M}_{Oz}(\text{})$$
+$$\frac{dL_{Oz}}{dt} = \mathcal{M}_{Oz}(\text{pivot}) + \mathcal{M}_{Oz}(\vec{P}\to \text{disque})+ \mathcal{M}_{Oz}(\vec{P}\to \text{araignée})$$
+$$= 0$$
+### b.
+$$L_{Oz}(t = 0^{-}) = L_{Oz}(t = 0^{+})$$
+$$J_{Oz}\omega_{0} + 0 = J_{Oz}\omega_{0}'+ ma^{2}\omega_{0}'$$
+Alors, 
+$$\omega_{0}' = \omega_{0} \frac{1}{1+\frac{ma^{2}}{J_{Oz}}}$$
+### c.
+On fait un théorème de l'énergie mécanique au disque et à l'araignée dans un ref galiléen : 
+$$dE_{m} = dE_{c} + dE_{p} = E_{c}(t = 0^{+}) - E_{c}(t = 0^{-}) = \frac{1}{2}$$
