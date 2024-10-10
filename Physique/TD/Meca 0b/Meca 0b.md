@@ -19,6 +19,4 @@ $$\begin{cases}
 \end{cases}$$
 $$\theta_{1} = \frac{J_{2}}{C} \ddot{\theta_{2}} + \theta_{2}$$
 Alors, 
-$$\begin{cases}
-
-\end{cases}$$
+$$\frac{J_{2}}{C}\ddddot \theta_{2} + \ddot{\theta_{2}} + \frac{C}{J_{1}} \left( \frac{J_{2}}{C} \ddot{\theta_{2}}+\theta_{2} \right) = \frac{C}{J_{1}}\theta_{2} $$
