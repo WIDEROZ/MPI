@@ -13,10 +13,4 @@ On applique le TMC au disque 2 par rapport à l'axe $Oz$,
 $$J_{2}\ddot{\theta_{2}} = -C(\theta_{2}-\theta_{1}) \Rightarrow \ddot{\theta_{2}} +\frac{C}{J_{2}}\theta_{2} = \frac{C}{J_{2}}\theta_{1}$$
 
 ## 2.
-$$\begin{cases}
-\ddot{\theta_{1}} +\frac{C}{J_{1}}\theta_{1} = \frac{C}{J_{1}}\theta_{2} \\
-\ddot{\theta_{2}} +\frac{C}{J_{2}}\theta_{2} = \frac{C}{J_{2}}\theta_{1}
-\end{cases}$$
-$$\theta_{1} = \frac{J_{2}}{C} \ddot{\theta_{2}} + \theta_{2}$$
-Alors, 
-$$\frac{J_{2}}{C}\ddddot \theta_{2} + \ddot{\theta_{2}} + \frac{C}{J_{1}} \left( \frac{J_{2}}{C} \ddot{\theta_{2}}+\theta_{2} \right) = \frac{C}{J_{1}}\theta_{2} $$
+$$J_{1}\ddot{\theta_{1}} + J_{2}\theta$$
