@@ -32,3 +32,12 @@ Ainsi, en faisant les conditions initiales :
 $$\theta_{1}(t) = \theta_{1, 0}\left( 1- \frac{C\omega_{0}^{2}}{J_{2}} \right)\cos(\omega t) + \frac{C\omega_{0}^{2}}{J_{2}}\theta_{1, 0}$$
 Puis comme : 
 $$\theta_{1} = \frac{J_{2}}{J_{1}}(\theta_{2}-\theta_{1,0})$$
+ca marche bien.
+
+## 3.
+$$\underline{\ddot{\theta_{1}}} + \frac{C}{J_{1}} \underline{\theta_{1}} = \frac{C}{J_{2}} \underline{\theta_{2}}$$
+Alors,
+$$\begin{cases}
+-\omega^{2}A_{1} + \frac{C}{J_{1}}A_{1} = \frac{C}{J_{2}}A_{2} \\
+-\omega^{2}A_{2} + \frac{C}{J_{2}}A_{2} = 
+\end{cases}$$
