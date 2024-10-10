@@ -58,3 +58,5 @@ $$\begin{cases}
 
 # Exercice 3
 ## 1.
+### a.
+$$\frac{dL_{Oz}}{dt} = \mathcal{M}_{Oz}(\text{pivot}) + \mathcal{M}_{Oz}(\text{poids}\to \text{disque})+ \mathcal{M}_{Oz}(\text{})$$
