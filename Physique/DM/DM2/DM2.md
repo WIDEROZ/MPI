@@ -78,4 +78,5 @@ Puis,
 $$\frac{\Delta g}{g} = -2v'\sqrt{\frac{2}{Dg}}$$
 L'astronaute doit marcher à une vitesse minimum de : 
 $$\frac{1}{20}\sqrt{\frac{Dg}{2}}$$
-pour ne pas ressentir l'augmentation de la gravité artificielle. 
+pour ne pas ressentir la diminution (ou l'augmentation flemme de réfléchir) de la gravité artificielle. 
+
