@@ -1,2 +1,3 @@
 # Physique
-$$E_{p} = E_{p, boules} + E_{p, barre} = 2mgz $$
+$$\vec{f}_{i, e} = -m\vec{\gamma}_{e}$$
+$$\vec{P} = mg + \vec{f}_{i, e}$$
