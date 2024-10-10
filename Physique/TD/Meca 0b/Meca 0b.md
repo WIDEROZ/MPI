@@ -68,4 +68,8 @@ Alors,
 $$\omega_{0}' = \omega_{0} \frac{1}{1+\frac{ma^{2}}{J_{Oz}}}$$
 ### c.
 On fait un théorème de l'énergie mécanique au disque et à l'araignée dans un ref galiléen : 
-$$dE_{m} = dE_{c} + dE_{p} = E_{c}(t = 0^{+}) - E_{c}(t = 0^{-}) = \frac{1}{2}$$
+$$dE_{m} = dE_{c} + dE_{p} = E_{c}(t = 0^{+}) - E_{c}(t = 0^{-}) $$
+$$= \left( \frac{1}{2} J_{Oz} \omega_{0}^{2} + \frac{1}{2} m(a\omega_{0}')^{2} \right) - \left( \frac{1}{2}J_{Oz}\omega_{0}^{2} + \frac{1}{2}m(0)^{2} \right)=\dots$$
+
+## 2.
+### a.
