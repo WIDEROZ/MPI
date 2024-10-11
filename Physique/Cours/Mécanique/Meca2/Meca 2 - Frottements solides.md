@@ -20,5 +20,12 @@ Donc,
 $${\alpha = \arctan\left( \frac{T}{N} \right)}$$
 ie l'angle limite à l'équilibre est : 
 $$\arctan\left( \frac{T}{N} \right)$$
-Donc, pour que le solide ne glisse pas, $N \gg  T$ donc, 
-$$\boxed{\alpha \ll \arctan\left( \frac{T}{N} \right)}$$
+Donc, pour que le solide ne glisse pas, $f_{s}N >  T$ donc, 
+$$\boxed{f \sin(\alpha)<f_{s}F\cos(\alpha) \Leftrightarrow \alpha < \arctan(f_{s})}$$
+
+### Exercice b.
+En gros plus on incline le plan plus la boite glisse.
+
+$$\begin{cases}
+\vec{P} = mg()
+\end{cases}$$
