@@ -27,5 +27,22 @@ $$\boxed{f \sin(\alpha)<f_{s}F\cos(\alpha) \Leftrightarrow \alpha < \arctan(f_{s
 En gros plus on incline le plan plus la boite glisse.
 
 $$\begin{cases}
-\vec{P} = mg()
+\vec{P} = mg(\sin(\alpha)\vec{e}_{x} - \cos(\alpha)\vec{e}_{y}) \\
+\vec{R} = -T\vec{e}_{x}+N\vec{e}_{y}
 \end{cases}$$
+Pour $\alpha = \alpha_{1}$, en faisant le PFD
+$$\begin{cases}
+T = mg\sin(\alpha) \\
+N = mg\cos(\alpha)
+\end{cases}$$
+
+PFD : 
+$\vec{v}_{g} = \vec{v} = \dot{x} \vec{e}_{x}$
+$$m \ddot{x}\vec{e}_{x} = m \frac{d\vec{v}}{dt} = \begin{cases}
+mg\sin(\alpha)-T \\
+N-mg\cos(\alpha)
+\end{cases}$$
+$$\begin{cases}
+m\ddot{x} = mg\sin(\alpha) -T \\
+N = mg\cos(\alpha)
+\end{cases} \Rightarrow $$
