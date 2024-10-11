@@ -73,3 +73,17 @@ $$= \left( \frac{1}{2} J_{Oz} \omega_{0}^{2} + \frac{1}{2} m(a\omega_{0}')^{2} \
 
 ## 2.
 ### a.
+
+# Exercice 4
+On construit un système fermé : 
+$$m(t + dt) = m(t) - \delta m$$
+$$\frac{dm}{dt} = -\frac{\delta m}{dt}$$
+$$D_{m} = \frac{\delta m}{dt} = - \frac{dm}{dt}$$
+Alors, 
+$$m(t) = -D_{m}t + m_{0}$$
+on considère le système de la fusée et de sa masse éjectée, qui est fermé.
+
+On applique le PFD : 
+$$\frac{d\vec{p}}{dt}=m\vec{g}$$
+il n'y a pas la force de pousée car on considère que la masse éjectée appartient au système. 
+$$\vec{p} = m(t+dt)v(t)+m(t)v(t+dt)$$
