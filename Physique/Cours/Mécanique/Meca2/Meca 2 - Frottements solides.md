@@ -34,7 +34,7 @@ Si ca glisse pas, en faisant le PFD :
 $$\begin{cases}
 T = mg\sin(\alpha) \\
 N = mg\cos(\alpha)
-\end{cases} \Leftrightarrow \left| T\right|< f_{s}\left| N\right| \Leftrightarrow \alpha < \arctan(f_{s}) = \alpha_{1}$$
+\end{cases} \Leftrightarrow \left| T\right|< f_{s}\left| N\right| \Leftrightarrow \boxed{\alpha < \arctan(f_{s}) = \alpha_{\lim}}$$
 
 si ca glisse, PFD : 
 $\vec{v}_{g} = \vec{v} = \dot{x} \vec{e}_{x}$
@@ -47,9 +47,10 @@ m\ddot{x} = mg\sin(\alpha) -T \\
 N = mg\cos(\alpha)
 \end{cases} \Rightarrow 
 \dot{x} = \left( g\sin(\alpha) -\frac{T}{m} \right)t$$
+Comme $T = f_{d} N$ et $v_{g} >0$, 
 Ainsi, 
 $${v_{g} = (g\sin(\alpha) - f_{d}g\cos(\alpha))t}>0$$
 Donc, la vitesse de glissement est linéaire. 
 Puis, 
 Donc, 
-$$\alpha > \arctan (f_{d}) = \alpha_{1}$$
+$$\boxed{\alpha > \arctan (f_{d}) = \alpha_{\lim}}$$
