@@ -86,4 +86,4 @@ on considère le système de la fusée et de sa masse éjectée, qui est fermé.
 On applique le PFD : 
 $$\frac{d\vec{p}}{dt}=m\vec{g}$$
 il n'y a pas la force de pousée car on considère que la masse éjectée appartient au système. 
-$$\vec{p} = m(t+dt)v(t)+m(t)v(t+dt)$$
+$$d\vec{p} = \vec{p}(t+dt) - \vec{p}(t) = m(t+dt)\vec{v}(t+dt)+\delta m(\vec{v}(t) + \vec{u})  - m(t)\vec{v}(t)$$
