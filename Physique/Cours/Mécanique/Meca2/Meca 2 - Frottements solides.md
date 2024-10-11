@@ -30,13 +30,13 @@ $$\begin{cases}
 \vec{P} = mg(\sin(\alpha)\vec{e}_{x} - \cos(\alpha)\vec{e}_{y}) \\
 \vec{R} = -T\vec{e}_{x}+N\vec{e}_{y}
 \end{cases}$$
-Pour $\alpha = \alpha_{1}$, en faisant le PFD
+Si ca glisse pas, en faisant le PFD :
 $$\begin{cases}
 T = mg\sin(\alpha) \\
 N = mg\cos(\alpha)
-\end{cases}$$
+\end{cases} \Leftrightarrow \left| T\right|< f_{s}\left| N\right| \Leftrightarrow \alpha < \arctan(f_{s}) = \alpha_{1}$$
 
-PFD : 
+si ca glisse, PFD : 
 $\vec{v}_{g} = \vec{v} = \dot{x} \vec{e}_{x}$
 $$m \ddot{x}\vec{e}_{x} = m \frac{d\vec{v}}{dt} = \begin{cases}
 mg\sin(\alpha)-T \\
@@ -45,4 +45,11 @@ N-mg\cos(\alpha)
 $$\begin{cases}
 m\ddot{x} = mg\sin(\alpha) -T \\
 N = mg\cos(\alpha)
-\end{cases} \Rightarrow $$
+\end{cases} \Rightarrow 
+\dot{x} = \left( g\sin(\alpha) -\frac{T}{m} \right)t$$
+Ainsi, 
+$${v_{g} = (g\sin(\alpha) - f_{d}g\cos(\alpha))t}>0$$
+Donc, la vitesse de glissement est linéaire. 
+Puis, 
+Donc, 
+$$\alpha > \arctan (f_{d}) = \alpha_{1}$$
