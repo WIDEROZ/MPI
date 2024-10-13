@@ -11,6 +11,5 @@ $$\sum_{k = 3}^{n}f(k ) \geq  \sum_{k = 3}^{n} \int _{k}^{k+1} f = \int _{3}^{n+
 par la relation de Chasles
 $$\sum_{k = 3}^{+ \infty}f(k) \geq \int _{3}^{+\infty}f(x) \, dx\geq \sum_{k = 2}^{+\infty} f(k)$$
 
-$$\int _{3}^{+ \infty} \frac{1}{x\ln(x)^{\alpha}} \, dx = \int _{\ln(3)}^{+ \infty} \frac{1}{e^{ t }t^{\alpha}}e^{ t }dt = \int_{\ln(3)}^{+ \infty} \frac{dx}{x^{\alpha}}$$
-
+$$\int _{3}^{+ \infty} \frac{1}{x\ln(x)^{\alpha}} \, dx = \int _{\ln(3)}^{+ \infty} \frac{1}{e^{ t }t^{\alpha}}e^{ t }dt = \int_{\ln(3)}^{+ \infty} \frac{dx}{x^{\alpha}} = []^{+ \infty}_{\ln(3)}$$
 en posant : $t=\ln(x)$
