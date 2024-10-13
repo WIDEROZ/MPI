@@ -23,5 +23,13 @@ $$\vec{v} = -\dot{x} \vec{u}_{x}$$
 ## 2.
 BDF : 
 $$\begin{cases}
-\vec{P} = -mg(\sin(\alpha)\vec{u}_{x}+ \cos(\alpha)\vec{u}_{y})
+\vec{P} = -mg\sin(\alpha)(\vec{u}_{x}+ \vec{u}_{y}) \\
+\vec{f} = \beta v\vec{v} \\
+\vec{R} = N\vec{u}_{y} + T \vec{u}_{x}
 \end{cases}$$
+avec $T\geq0$ et $N \geq 0$, 
+Donc, en appliquant le PFD on a : 
+$$m\vec{a} = m \frac{d\vec{v}}{dt} = - m \frac{d^{2}\dot{x}}{dt}\vec{u}_{x}$$
+$$ -\left( mg \sin(\alpha) + \beta \left( \frac{ d\dot{x}}{dt} \right)^{2} - T\right) \vec{u}_{x} + (N - mg\sin(\alpha))$$
+Alors, 
+$$m \frac{dv}{dt} +\beta  v^{2} = mg\sin \alpha$$
