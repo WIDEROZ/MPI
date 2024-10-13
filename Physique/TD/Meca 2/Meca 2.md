@@ -17,4 +17,11 @@ $$T\leq fN $$
 $$\tan(\alpha) = \frac{60}{100} \Leftrightarrow \alpha \approx \frac{\pi}{6}$$
 $$\vec{f} = \beta v\vec{v}$$
 alors,
-$$[\beta] = ML^{-1}$$
+$$[\beta] = ML^{-1} = kg.m^{-1}$$
+$$\vec{v} = -\dot{x} \vec{u}_{x}$$
+
+## 2.
+BDF : 
+$$\begin{cases}
+\vec{P} = -mg(\sin(\alpha)\vec{u}_{x}+ \cos(\alpha)\vec{u}_{y})
+\end{cases}$$
