@@ -30,6 +30,17 @@ $$\begin{cases}
 avec $T\geq0$ et $N \geq 0$, 
 Donc, en appliquant le PFD on a : 
 $$m\vec{a} = m \frac{d\vec{v}}{dt} = - m \frac{d^{2}\dot{x}}{dt}\vec{u}_{x}$$
-$$ -\left( mg \sin(\alpha) + \beta \left( \frac{ d\dot{x}}{dt} \right)^{2} - T\right) \vec{u}_{x} + (N - mg\sin(\alpha))$$
-Alors, 
-$$m \frac{dv}{dt} +\beta  v^{2} = mg\sin \alpha$$
+$$ -\left( mg \sin(\alpha) + \beta \left( \frac{ d\dot{x}}{dt} \right)^{2} - T\right) \vec{u}_{x} + (N - mg\sin(\alpha))\vec{u}_{y}$$
+Ainsi, 
+$$\boxed{\dot{v} +\frac{\beta}{m}  v^{2} = \frac{T}{m}-g\sin \alpha}$$
+
+## 3.
+Comme le skieur n'est pas immobile (il glisse) on a que : 
+$$T = k_{d}N$$
+par les lois d'Amontons-Coulomb 
+Donc, 
+$$\dot{v} +\frac{\beta}{m}  v^{2} = k_{d}\frac{N}{m}-g\sin \alpha$$
+Or on sait que : 
+$$N = mg\sin(\alpha)$$
+Ainsi, 
+$$\dot{v} + \frac{\beta}{m}v^{2} = (k_{d} -1)g\sin(\alpha) = (k_{d}-1) \frac{g}{2}$$
