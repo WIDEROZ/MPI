@@ -13,3 +13,5 @@ $$\sum_{k = 3}^{+ \infty}f(k) \geq \int _{3}^{+\infty}f(x) \, dx\geq \sum_{k = 2
 
 $$\int _{3}^{+ \infty} \frac{1}{x\ln(x)^{\alpha}} \, dx = \int _{\ln(3)}^{+ \infty} \frac{1}{e^{ t }t^{\alpha}}e^{ t }dt = \int_{\ln(3)}^{+ \infty} \frac{dx}{x^{\alpha}} = []^{+ \infty}_{\ln(3)}$$
 en posant : $t=\ln(x)$
+
+$$\forall \alpha \in \mathbb{R}^{+}, \int _{1}^{2} \frac{1}{x^{\alpha}} \, dx =  $$
