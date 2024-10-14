@@ -56,5 +56,21 @@ $$\begin{cases}
 PDF sur la pierre de curling : 
 $$m\vec{a} = m \frac{dv}{dt} \vec{e}_{x} = \vec{P} + \vec{R} = (-mg\vec{e}_{y} + N\vec{e}_{y}) - T\vec{e}_{x}$$
 Ainsi, 
-$$\frac{dv}{dt} = \frac{T}{m}$$
-Comme la p
+$$\frac{dv}{dt} = -\frac{T}{m}$$
+Comme la pierre n'est pas immobile (elle glisse) on a que : 
+$$T = k_{d}N$$
+par les lois d'Amontons-Coulomb
+Alors, 
+$$\frac{dv}{dt} = \frac{k_{d}N}{m} = -k_{d}g$$
+Ainsi, 
+$$v(t) = -k_{d}gt + v_{0}$$
+Alors, 
+$$x(t) = -\frac{kg}{2}t^{2} + v_{0}t + 0$$
+Ainsi, 
+$$v(\tau) = 0 = -k_{d}g\tau + v_{0} \Leftrightarrow \tau = \frac{v_{0}}{k_{d}g}$$
+Donc, 
+$$\boxed{x(\tau) = -\frac{v_{0}^{2}}{2k_{d}g} + \frac{v_{0}^{2}}{k_{d}g} = \frac{v_{0}^{2}}{2k_{d}g}}$$
+
+## 3.
+$$\overrightarrow{F_{f}} = -T\vec{e}_{x} = -k_{d}mg \vec{e}_{x}$$
+$$\delta W_{\overrightarrow{F_{f}}} = \overrightarrow{F_{f}}.d\vec{X} = $$
