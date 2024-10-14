@@ -91,6 +91,18 @@ $$\int _{a}^{+ \infty} f(t) \, dt \text{ CV} $$
 
 #### Exercice 1.4
 $$\int _{1}^{+ \infty} \frac{\ln(t)}{t^{2}+1} \, dx  $$
-$$= \frac{\ln(t)}{t^{2}+1} \sim \frac{\ln(t)}{t^{2}} \sim \frac{\ln(t)}{t^{2}}$$
-
-$$\ln\left( 1+\frac{1}{t} \right)$$
+$$\frac{\ln(t)}{t^{2}+1} \sim \frac{\ln(t)}{t^{2}}$$
+On a :
+$$t^{\alpha} \frac{\ln(t)}{t^{2}} \underset{n \to +\infty}{\longrightarrow} \begin{cases}
+0 \text{ si }\alpha < 2 \\
++ \infty \text{ si }\alpha \geq 2
+\end{cases}$$
+Alors, 
+$$\frac{\ln(t)}{t^{2}} = O\left( \frac{1}{t^{\alpha}} \right)$$
+si $\alpha < 2$, 
+On prend $\alpha = \frac{3}{2}>1$, Donc, 
+$$\int _{1}^{+ \infty} \frac{\ln(t)}{t^{2}+1} \, dt  \text{ CV}$$
+#### Exercice
+$$\int _{0}^{+ \infty} \frac{t^{3}+t^{4}}{1+t^{5}+t^{7}}\ln\left( 1+\frac{1}{t} \right) \, dt $$
+$$\sim \frac{1}{t^{4}}\geq 0$$
+Or $4 > 1$, donc l'intégrale $CV$
