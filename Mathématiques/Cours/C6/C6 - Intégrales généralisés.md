@@ -67,3 +67,30 @@ Pour $\alpha \neq 1$,
 $$\int_{1}^{x} \frac{1}{t^{2}} \, dt = \frac{1}{\alpha-1}(1-x^{-\alpha+1}) $$
 Si $1-\alpha>0$, 
 $$\lim_{ x \to +\infty } \lim_{ x \to +\infty } F(x) = + \infty $$
+Sinon $1-\alpha <0$, 
+$$\lim_{ x \to +\infty } F(x) = \frac{1}{\alpha-1}$$
+
+Pour $\alpha = 1$ trivial
+
+## 3. Cas de fonctions positives
+#### Propositions
+$0 \leq f$ et $0 \leq f$, 
+Si : 
+$$f \leq g \text{ et }\int_{a}^{+\infty} g(t) \, dt \text{ CV}$$
+alors, 
+$$\int _{a}^{+ \infty} f(t) \, dt \text{ CV} $$
+
+Si : 
+$$f =_{+ \infty} O(g) \text{ et }\int_{a}^{+\infty} g(t) \, dt \text{ CV}$$
+alors, 
+$$\int _{a}^{+ \infty} f(t) \, dt \text{ CV} $$
+Si :
+$$f \sim_{+\infty} g \text{ et }\int_{a}^{+\infty} g(t) \, dt \text{ CV}$$
+alors, 
+$$\int _{a}^{+ \infty} f(t) \, dt \text{ CV} $$
+
+#### Exercice 1.4
+$$\int _{1}^{+ \infty} \frac{\ln(t)}{t^{2}+1} \, dx  $$
+$$= \frac{\ln(t)}{t^{2}+1} \sim \frac{\ln(t)}{t^{2}} \sim \frac{\ln(t)}{t^{2}}$$
+
+$$\ln\left( 1+\frac{1}{t} \right)$$
