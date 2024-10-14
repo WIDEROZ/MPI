@@ -104,7 +104,6 @@ On prend $\alpha = \frac{3}{2}>1$, Donc,
 $$\int _{1}^{+ \infty} \frac{\ln(t)}{t^{2}+1} \, dt  \text{ CV}$$
 #### Exercice
 $$\int _{0}^{+ \infty} \frac{t^{3}+t^{4}}{1+t^{5}+t^{7}}\ln\left( 1+\frac{1}{t} \right) \, dt $$
-$$\sim \frac{1}{t^{4}}\geq 0$$
+$$\frac{t^{3}+t^{4}}{1+t^{5}+t^{7}}\ln\left( 1+\frac{1}{t} \right)\sim \frac{1}{t^{4}}\geq 0$$
 Or $4 > 1$, donc l'intégrale $CV$
 
-$$$$
