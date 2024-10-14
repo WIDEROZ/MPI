@@ -44,7 +44,7 @@ $$v_{\lim}^{2} = \frac{mg}{\beta}(k_{d}-1) \Leftrightarrow \boxed{v_{\lim} = \sq
 Car d'après les lois d'Amontons-Coulomb : $v > 0$, 
 Le skieur aurait triché.
 
-# Exercice 4
+# Exercice 3
 ## 1.
 Créer une pellicule d'eau...
 
@@ -73,4 +73,6 @@ $$\boxed{x(\tau) = -\frac{v_{0}^{2}}{2k_{d}g} + \frac{v_{0}^{2}}{k_{d}g} = \frac
 
 ## 3.
 $$\overrightarrow{F_{f}} = -T\vec{e}_{x} = -k_{d}mg \vec{e}_{x}$$
-$$\delta W_{\overrightarrow{F_{f}}} = \overrightarrow{F_{f}}.d\vec{X} = $$
+$$\delta W_{\overrightarrow{F_{f}}} = \overrightarrow{F_{f}}.d\vec{X} = -\frac{m}{2}v_{0}^{2}$$
+$$E_{c, i} = \frac{m}{2}v_{0}^{2} = - \delta W_{\overrightarrow{F_{f}}}$$
+
