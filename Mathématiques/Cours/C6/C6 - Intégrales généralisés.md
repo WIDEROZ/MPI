@@ -48,4 +48,22 @@ $$ \sum_{k = 1}^{n} \frac{1}{k} -\ln(n) \underset{n \to +\infty}{\longrightarrow
 
 #### Remarque
 Ce n'est pas parce que : 
-$$\lim_{ \underset{n \in \mathbb{N}}{n \to +\infty }} $$
+$$\lim_{ \underset{n \in \mathbb{N}}{n \to +\infty }} \int _{1}^{n} f(t) \, dt \text{ existe}$$
+que : 
+$$\lim_{ \underset{x \in \mathbb{R}}{x \to + \infty}} \int_{1}^{x}f(t) \, dt \text{ existe} $$
+#### Remarque de OZGAY
+$$F(x) = \int _{1}^{x} \frac{t-\left\lfloor t \right\rfloor }{t^{2}} \, dt $$
+Comme $F$ est croissante : 
+$$0 \leq \frac{t- \left\lfloor t \right\rfloor }{t^{2}}\leq \frac{1}{t^{2}}$$
+Donc, 
+$$F(x) \leq \int _{1}^{x} \frac{1}{t^{2}} \, dx = 1-\frac{1}{x}$$
+Ainsi, 
+$$F(x) \leq 1$$
+
+## 2. Intégrales de références
+$$\forall \alpha \in \mathbb{R}, \int_{1}^{+ \infty} \frac{1}{t^{\alpha}}  \, dt \Leftrightarrow \alpha >1$$
+Démonstration : 
+Pour $\alpha \neq 1$, 
+$$\int_{1}^{x} \frac{1}{t^{2}} \, dt = \frac{1}{\alpha-1}(1-x^{-\alpha+1}) $$
+Si $1-\alpha>0$, 
+$$\lim_{ x \to +\infty } \lim_{ x \to +\infty } F(x) = + \infty $$
