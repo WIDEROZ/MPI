@@ -38,4 +38,14 @@ $$\underset{x \to +\infty}{\longrightarrow} 2$$
 
 ## 4.
 Soit $t \in [k, k+1[$, 
-$$\int _{1}^{+ \infty} \frac{t-\left\lfloor t \right\rfloor }{t^{2}} \, dt = \sum_{k = 1}^{n-1} \int _{k}^{k+1} \frac{t-k}{t^{2}} \, dt =\sum_{k=1}^{n} $$
+$$\int _{1}^{+ \infty} \frac{t-\left\lfloor t \right\rfloor }{t^{2}} \, dt = \sum_{k = 1}^{n-1} \int _{k}^{k+1} \frac{t-k}{t^{2}} \, dt  $$
+$$=\sum_{k=1}^{n-1} \left( \ln(k+1)-\ln(k) + k\left( \frac{1}{k+1}-\frac{1}{k} \right) \right)$$
+$$= \ln(n) - \sum_{k =1}^{n-1} \frac{1}{k+1} = \ln(n) - \sum_{k = 1}^{n} \frac{1}{k} +1$$
+Ici, 
+$$\boxed{\int _{1}^{n} \frac{t-\left\lfloor t \right\rfloor }{t^{2}} \, dt \underset{n \to +\infty}{\longrightarrow} 1-\gamma }$$
+car : 
+$$ \sum_{k = 1}^{n} \frac{1}{k} -\ln(n) \underset{n \to +\infty}{\longrightarrow} \gamma$$
+
+#### Remarque
+Ce n'est pas parce que : 
+$$\lim_{ \underset{n \in \mathbb{N}}{n \to +\infty }} $$
