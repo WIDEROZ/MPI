@@ -73,8 +73,11 @@ $$\boxed{x(\tau) = -\frac{v_{0}^{2}}{2k_{d}g} + \frac{v_{0}^{2}}{k_{d}g} = \frac
 
 ## 3.
 $$\overrightarrow{F_{f}} = -T\vec{e}_{x} = -k_{d}mg \vec{e}_{x}$$
-$$\delta W_{\overrightarrow{F_{f}}} = \overrightarrow{F_{f}}.d\vec{X} = -\frac{m}{2}v_{0}^{2}dddddd$$
-$$E_{c, i} = \frac{m}{2}v_{0}^{2} = - \delta W_{\overrightarrow{F_{f}}} = E_{p, i}$$
+$$\delta W_{\overrightarrow{F_{f}}} = \overrightarrow{F_{f}}.d\vec{X} = -\frac{mgk_{d}}{2}v_{0}^{2}dx$$
+Ainsi, 
+$$W(\overrightarrow{F_{f}}) = \int _{0}^{x(\tau)} \delta W_{\overrightarrow{F_{f}}} = -\frac{m}{2}v_{0}^{2}$$
+
+$$\Delta E_{c} = \frac{m}{2}v_{0}^{2} = -W({\overrightarrow{F_{f}}})$$
 
 ## 4.
 Application numérique
