@@ -73,7 +73,7 @@ $$\boxed{x(\tau) = -\frac{v_{0}^{2}}{2k_{d}g} + \frac{v_{0}^{2}}{k_{d}g} = \frac
 
 ## 3.
 $$\overrightarrow{F_{f}} = -T\vec{e}_{x} = -k_{d}mg \vec{e}_{x}$$
-$$\delta W_{\overrightarrow{F_{f}}} = \overrightarrow{F_{f}}.d\vec{X} = -\frac{m}{2}v_{0}^{2}$$
+$$\delta W_{\overrightarrow{F_{f}}} = \overrightarrow{F_{f}}.d\vec{X} = -\frac{m}{2}v_{0}^{2}dddddd$$
 $$E_{c, i} = \frac{m}{2}v_{0}^{2} = - \delta W_{\overrightarrow{F_{f}}} = E_{p, i}$$
 
 ## 4.
