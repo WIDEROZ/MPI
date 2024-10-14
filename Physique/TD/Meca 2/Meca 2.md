@@ -35,7 +35,7 @@ Comme le skieur n'est pas immobile (il glisse) on a que :
 $$T = k_{d}N$$
 par les lois d'Amontons-Coulomb 
 puis, $N = mg\sin(\alpha)=\frac{mg}{2}$. 
-Ainsi, 
+Ainsi, b
 $$\boxed{\dot{v} +\frac{\beta}{m}  v^{2} = \frac{T}{m}+g\sin \alpha =(k_{d}+1) \frac{g}{2}}$$
 
 ## 3.
@@ -80,6 +80,6 @@ $$E_{c, i} = \frac{m}{2}v_{0}^{2} = - \delta W_{\overrightarrow{F_{f}}} = E_{p, 
 Application numérique
 
 # Exercice 4
-Feur
+
 
 # Exercice 5
