@@ -8,4 +8,10 @@ on regarde si ce $F$ à des limites finies en $a$ $\boxed{\text{et}}$ en $b$
 Pou faire ceci, il faut au minimum que $f$ soit continue par morceaux sur chaque segment de $a, b$
 
 #### Exemple
-On pose : $I = [0, + \infty[$ et $\forall t \in I, f(t) = t - \left\lfloor t \right\rfloor$
+On pose : $I = [0, + \infty[$ et
+$$\forall t \in I, f(t) = t - \left\lfloor t \right\rfloor$$
+
+#### Exemple
+On pose : $I = ]0, 1]$; 
+$$\forall x \in I, f(x) = \left\lfloor \frac{1}{x} \right\rfloor $$
+
