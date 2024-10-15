@@ -13,8 +13,11 @@ $$\begin{cases}
 TMC sur la poulie : 
 le nombre total de masses dans le vide $M$, 
 La masse de l'objet tiré : $m$ : 
-$$L = -Mv \overrightarrow{OM} \wedge \vec{e}_{x} = - Mg l  $$
-
+$$L = l(t) \vec{e}_{y}\wedge Mv\vec{e}_{x} = - Mvl(t)\vec{e}_{z}$$
+$$\begin{cases}
+\mathcal{M}_{\vec{P}} = -Mg \\
+\mathcal{M}_{\vec{F}} = r(t)\vec{e}_{x}\wedge \vec{F} = 0
+\end{cases}$$
 
 
 #### Question 4
