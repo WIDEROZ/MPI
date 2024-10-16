@@ -655,7 +655,7 @@ Soient $(a_{n})_{n \in \mathbb{N}}$ et $(u_{n})_{n \in \mathbb{N}}$, des suites 
 On suppose que la série : $\sum u_{n}$ CV
 
 Si $a_{n} = O(u_{n})$, 
-$$\sum_{k = n}^{+ \infty} = O \left( \sum_{k = n}^{+ \infty} u_{k}  \right)$$
+$$\sum_{k = n}^{+ \infty} a_{n}= O \left( \sum_{k = n}^{+ \infty} u_{k}  \right)$$
 lorsque $n\to + \infty$, 
 de même pour $o$ et $\sim$
 

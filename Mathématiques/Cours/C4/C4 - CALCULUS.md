@@ -757,6 +757,7 @@ $$T : x \mapsto \sum_{k = 0}^{n} \frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k}$$
 Soit $n \in \mathbb{N}$, $f:I \to E$, de classe $\mathcal{C}^{n+1}$ et $x_{0} \in I$, 
 $$\forall x \in I, f(x) = \sum_{k = 0}^{n} \frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k} + \int _{x_{0}}^{x} \frac{(x_{0}-t)^{n}}{n!}f^{(n+1)}(t) \, dt $$
 
+
 Démonstration : Par récurrence
 Pour $n=0$ c'est le TFA
 Soit $n \in \mathbb{N}$ tel que : $f(x) = \dots$, 
