@@ -62,4 +62,6 @@ car : $q= \frac{1}{n}$
 $$\frac{\left| \sin(q)\right|}{q} \underset{q \to0}{\longrightarrow} 1$$
 
 Ainsi, 
-$$\frac{\sqrt{2}\ln(n)}{n\sqrt{n}}$$
+$$v_{n} = \frac{\sqrt{2}\ln(n)}{n\sqrt{n}} = \frac{\sqrt{2}\ln(n)}{n^{1/4}n^{5/4}}$$
+$$v_{n}n^{5/4}=\frac{\sqrt{2}\ln(n)}{n^{1/4}} \underset{n \to +\infty}{\longrightarrow} 0$$
+par les croissances comparés.
