@@ -19,7 +19,10 @@ Si $\alpha = 1$, l'intégrale DV Donc la série DV
 
 #### CCINP 6
 #### 1.
-$$\forall \varepsilon > 0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n_{0}\leq n \Rightarrow \left| \frac{u_{n+1}}{u_{n}}\right| \leq l$$
+$$\forall \varepsilon > 0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n_{0}\leq n \Rightarrow \left| \frac{u_{n+1}}{u_{n}}-l\right| \leq \varepsilon$$
 Alors, 
-$$u_{n+1} \leq lu_{n} < u_{n} $$
-Alors, $u_{n}$ est décroissante, 
+$$\frac{u_{n+1}}{u_{n}}\leq l+\varepsilon \Rightarrow u_{n+1} \leq (l+\varepsilon)u_{n} $$
+$u$ est positive.
+On prend $\varepsilon = 1$,
+$$u_{n+1}\leq (l+1)u_{n}$$
+	
