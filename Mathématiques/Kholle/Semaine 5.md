@@ -23,6 +23,13 @@ $$\forall \varepsilon > 0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N
 Alors, 
 $$\frac{u_{n+1}}{u_{n}}\leq l+\varepsilon \Rightarrow u_{n+1} \leq (l+\varepsilon)u_{n} $$
 $u$ est positive.
-On prend $\varepsilon = 1$,
-$$u_{n} = u_{n_{0}+k} \leq (l+1)^{k}u_{n_{0}}$$
-car $l+1 \in $
+On prend $\varepsilon = \frac{1-l}{2}$,
+$$u_{n} = u_{n_{0}+k} \leq (l+\varepsilon)^{k}u_{n_{0}}$$
+car, $\frac{l+1}{2} \in ]0, 1[$, 
+$$u_{n} \leq \left( \frac{l+1}{2} \right)^{n-n_{0}} u_{n_{0}}$$
+
+$$\sum q^{n-n_{0}} u_{n_{0}} = u_{n_{0}}q^{-n_{0}} \sum q^{n}$$
+CV car $q \in ]0, 1[$, 
+
+## 2.
+$$\frac{\frac{(n+1)!}{(n+1)^{n+1}}}{\frac{n!}{n^{n}}}=\frac{n^{n}}{(n+1)^{n}} = \frac{1}{\left( 1+\frac{1}{n} \right)^{n}}  \underset{n \to +\infty}{\longrightarrow} \frac{1}{e}$$
