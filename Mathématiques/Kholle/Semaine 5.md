@@ -32,4 +32,19 @@ $$\sum q^{n-n_{0}} u_{n_{0}} = u_{n_{0}}q^{-n_{0}} \sum q^{n}$$
 CV car $q \in ]0, 1[$, 
 
 ## 2.
-$$\frac{\frac{(n+1)!}{(n+1)^{n+1}}}{\frac{n!}{n^{n}}}=\frac{n^{n}}{(n+1)^{n}} = \frac{1}{\left( 1+\frac{1}{n} \right)^{n}}  \underset{n \to +\infty}{\longrightarrow} \frac{1}{e}$$
+$$\frac{\frac{(n+1)!}{(n+1)^{n+1}}}{\frac{n!}{n^{n}}}=\frac{n^{n}}{(n+1)^{n}} = \frac{1}{\left( 1+\frac{1}{n} \right)^{n}}  \underset{n \to +\infty}{\longrightarrow} \frac{1}{e} \in ]0, 1[$$
+car $e \geq 1$, 
+Ainsi, la série CV
+
+# CCINP 7
+## 1.
+On suppose que : 
+$$\exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow u_{n_{0}} \neq 0$$
+$$\exists n_{1} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{1} \Rightarrow v_{n_{1}} \neq 0$$
+on pose : $N_{0} = \max(n_{0}, n_{1})$, 
+puis, 
+$$\lim_{ n \to \infty } \frac{u_{n}}{v_{n}} = 1$$
+Alors, 
+$$\forall \varepsilon > 0, \exists N \in \mathbb{N}, \forall n \in \mathbb{N}, \left(N \geq N_{0}\text{ et } \left( n \geq N \Rightarrow \left| \frac{u_{n}}{v_{n}} -1 \right| \leq \varepsilon \right) \right)$$
+ie, 
+$$-\frac{1}{2} \leq \frac{u_{n}}{v_{n}} = $$
