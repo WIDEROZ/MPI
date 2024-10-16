@@ -54,13 +54,12 @@ en fonction de la DV de $v_{n}$ et par symétrie de $\sim$
 
 ## 2.
 $$\sum_{n\geq 2} \frac{((-1)^{n} +i)\ln(n) \sin\left( \frac{1}{n} \right)}{(\sqrt{n+3}-1)}$$
-$$\sqrt{n+3}-1 \sim \sqrt{n}$$
+Donc, 
 $$\frac{\left| (-1)^{n} + i\right|\ln(n)\left| \sin\left( \frac{1}{n} \right)\right|}{\left| \sqrt{n+3}-1\right|} \sim \frac{\sqrt{2}\ln(n)\left| \sin\left( \frac{1}{n} \right)\right|}{\sqrt{n}}$$
 or, 
 $$n\left| \sin\left( \frac{1}{n} \right)\right| \underset{n \to +\infty}{\longrightarrow} 1$$
 car : $q= \frac{1}{n}$
-$$\frac{\left| \sin(q)\right| - \left| \sin(0)\right|}{q-0} \underset{q \to0}{\longrightarrow} 1$$
-$$|\sin|' = \begin{cases}
--\cos \text{ si }\sin > 0 \\
+$$\frac{\left| \sin(q)\right|}{q} \underset{q \to0}{\longrightarrow} 1$$
 
-\end{cases}$$
+Ainsi, 
+$$\frac{\sqrt{2}\ln(n)}{n\sqrt{n}}$$
