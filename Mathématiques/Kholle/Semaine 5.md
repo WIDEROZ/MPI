@@ -24,5 +24,5 @@ Alors,
 $$\frac{u_{n+1}}{u_{n}}\leq l+\varepsilon \Rightarrow u_{n+1} \leq (l+\varepsilon)u_{n} $$
 $u$ est positive.
 On prend $\varepsilon = 1$,
-$$u_{n+1}\leq (l+1)u_{n}$$
-	
+$$u_{n} = u_{n_{0}+k} \leq (l+1)^{k}u_{n_{0}}$$
+car $l+1 \in $
