@@ -17,8 +17,9 @@ $\in \mathbb{R}$, alors, comme l'intégrale CV, la série CV
 
 Si $\alpha = 1$, l'intégrale DV Donc la série DV
 
-## 2.
-$$\sum_{n \geq 2} \frac{\left( e-\left( 1+\frac{1}{n} \right)^{n} \right)e^{1/n}}{(\ln(n^{2}+n))^{2}}$$
-$$(\ln(n^{2}+n))^{2}\sim 4\frac{\ln(n)^{2}}{n^{2}}$$
-
-$$$$
+#### CCINP 6
+#### 1.
+$$\forall \varepsilon > 0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n_{0}\leq n \Rightarrow \left| \frac{u_{n+1}}{u_{n}}\right| \leq l$$
+Alors, 
+$$u_{n+1} \leq lu_{n} < u_{n} $$
+Alors, $u_{n}$ est décroissante, 
