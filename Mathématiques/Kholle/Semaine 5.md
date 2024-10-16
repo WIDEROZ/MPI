@@ -1,6 +1,6 @@
 # CCINP 5
 ## 1.
-### (a.
+### (a).
 On a: 
 $$\forall n \in \mathbb{N}, n(\ln(n))^{\alpha}\leq n(n+1)^{\alpha} \leq n$$
 ### (b). 
@@ -11,7 +11,14 @@ Alors,
 $$\sum_{k = 2}^{n-1} f(k)= \sum_{k = 3}^{n} f(k-1) \leq \sum_{k=3}^{n}\int _{k-1}^{k} f(x) \, dx  \leq \sum_{k = 3}^{n}f(k)$$
 Alors, comme $f$ est positive, 
 $$\sum_{k = 2}^{\infty}f(k) \leq \int _{2}^{\infty} f(x) \, dx \leq \sum_{k = 3}^{\infty}f(k)$$
+Si $\alpha \neq 1$, 
+$$\int _{2}^{\infty} \frac{1}{x \ln(x)^{\alpha}} \, dx = \int_{\ln(2)}^{\infty} \frac{1}{t^{\alpha}} \, dt = \frac{1}{1-\alpha}\left[ \frac{1}{t^{\alpha+1}} \right]_{\ln(2)}^{\infty} = \frac{1}{(\alpha-1)\ln(2)^{\alpha+1}}$$
+$\in \mathbb{R}$, alors, comme l'intégrale CV, la série CV
 
-$$\int _{2}^{\infty} \frac{1}{x \ln(x)^{\alpha}} \, dx = \int_{\ln(2)}^{\infty} \frac{1}{t^{\alpha}} \, dt = \frac{1}{\alpha+1}[]$$
-Alors,
+Si $\alpha = 1$, l'intégrale DV Donc la série DV
+
+## 2.
+$$\sum_{n \geq 2} \frac{\left( e-\left( 1+\frac{1}{n} \right)^{n} \right)e^{1/n}}{(\ln(n^{2}+n))^{2}}$$
+$$(\ln(n^{2}+n))^{2}\sim 4\frac{\ln(n)^{2}}{n^{2}}$$
+
 $$$$
