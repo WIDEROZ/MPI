@@ -73,3 +73,8 @@ $$\forall \varepsilon >0, \exists N_{0} > N, \forall n \in \mathbb{N}, n > N_{0}
 Pour $\varepsilon = \frac{1}{2}$, 
 $$\frac{1}{2}v_{n} \leq u_{n} \leq \frac{3}{2}v_{n}$$
 faire en fonction de la CV ou non de $v_{n}$, 
+
+# CCINP 6
+$$u_{n+1} \leq (\varepsilon+l)u_{n}$$
+On pose : $\varepsilon = \frac{1-l}{2}$ et $q = \frac{l+1}{2}$, 
+$$u_{n_{0}+k}\leq qu_{n}$$
