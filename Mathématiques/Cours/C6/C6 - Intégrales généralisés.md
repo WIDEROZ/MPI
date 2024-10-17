@@ -229,4 +229,4 @@ les deux trucs $CV$
 
 $$\sum \frac{\ln(n)}{n^{\alpha}}$$
 $\alpha > 1$, 
-$$$$
+
