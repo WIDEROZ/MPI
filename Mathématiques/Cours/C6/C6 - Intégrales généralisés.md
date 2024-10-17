@@ -213,4 +213,15 @@ $$ \left| \frac{i\alpha e^{ ix }}{x^{\alpha+1}}\right| = \frac{\alpha}{x^{\alpha
 puis,
 
 #### Exercice
-$$1\sqrt{1+ \frac{\cos(x)}{x}}$$
+$$\sqrt{x}\left( \sqrt{1+ \frac{\cos(x)}{x}} -1 \right) \underset{+\infty} = \sqrt{x}\left( \frac{\cos(x)}{2x} + O\left( \frac{1}{x^{2}} \right) \right) \underset{+\infty}= \frac{\cos(x)}{2\sqrt{x}}+o\left( \frac{1}{x^{3/2}} \right)$$
+sur $[1, + \infty[$, $O\left( \frac{1}{x^{3/2}} \right)$ est intégrable.
+
+
+
+#### Exercice
+$$\int _{1}^{+ \infty} \frac{\sin\left( x+\frac{1}{x} \right)}{x} \, dx $$
+$$\left| \sin a - \sin b\right|\leq \left| b-a\right|$$
+
+$$\frac{\sin(x)}{x} + \frac{1}{x}\left( \sin\left( x+\frac{1}{x} \right)-\sin(x) \right) \leq \frac{\sin(x)}{x} + \frac{1}{x^{2}}$$
+Ainsi, 
+$$$$
