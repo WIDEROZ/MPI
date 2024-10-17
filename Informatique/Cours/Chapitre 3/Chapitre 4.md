@@ -8,4 +8,5 @@ $$h(u)\leq p(u, v) + h(v)$$
 Une fonction d'heuristique monotone est admissible
 
 Démonstration : 
-Soit $G = (V, E)$, 
+Soit $G = (V, E)$, soit $w \in V$, soit $h$ une heuristique monotone de la distance à $w$ pour tout $v \in V$. 
+Soit 
