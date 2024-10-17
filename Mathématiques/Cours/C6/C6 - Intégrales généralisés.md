@@ -207,6 +207,10 @@ $$\int_{2}^{3} \frac{1}{\sqrt{x-2}} \, dx = \int _{0}^{1} \frac{1}{\sqrt{x}} \, 
 #### Exercice
 $$\int _{1}^{+ \infty} \frac{e^{ ix }}{x^{\alpha}} \, dx $$
 pour $\alpha >0$, 
-$$\int_{1}^{T} \frac{e^{ ix }}{x^{\alpha}} \, dx = -i\left[ \frac{e^{ ix }}{x^{\alpha}} \right]_{1}^{T}-\frac{1}{1-\alpha} \int _{1}^{T} \frac{e^{ ix }}{x^{\alpha-1}}  \, dx $$
-$$= -i\left( \frac{e^{ iT }}{T^{\alpha}} \right)-\frac{1}{1-\alpha} \int _{1}^{T} \frac{e^{ ix }}{x^{\alpha-1}} \, dx $$
-$$\int _{1}^{T} \frac{e^{ ix }}{x^{\alpha-1}} \, dt $$
+$$\int_{1}^{T} \frac{e^{ ix }}{x^{\alpha}} \, dx = -i\left[ \frac{e^{ ix }}{x^{\alpha}} \right]_{1}^{T}-\alpha i \int _{1}^{T} \frac{e^{ ix }}{x^{\alpha+1}} \, dx$$
+$$= -i\left( \frac{e^{ iT }}{T^{\alpha}} -e^{ i }\right)-\alpha i \int _{1}^{T} \frac{e^{ ix }}{x^{\alpha+1}} \, dx $$
+$$ \left| \frac{i\alpha e^{ ix }}{x^{\alpha+1}}\right| = \frac{\alpha}{x^{\alpha+1}}  $$
+puis,
+
+#### Exercice
+$$1\sqrt{1+ \frac{\cos(x)}{x}}$$
