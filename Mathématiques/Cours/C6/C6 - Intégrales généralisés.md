@@ -159,4 +159,26 @@ $$\int _{\pi}^ \infty \left| \frac{\sin t}{t}\right| \, dt \text{ DV}$$
 ![[Pasted image 20241017143910.png]]
 On pose : 
 $$u_{k} = \int _{k\pi}^{(k+1)\pi} \frac{\left| \sin(t)\right|}{t} \, dt $$
-$$\sum_{k = 1}^{n-1}u_{k} = \int _{\pi}^{n\pi} \left| \sin(t)\right| \, dx $$
+$$\sum_{k = 1}^{n-1}u_{k} = \int _{\pi}^{n\pi} \frac{\left| \sin(t)\right|}{t} \, dt$$
+et 
+$$u_{k} \geq \int _{k\pi}^{(k+1)\pi} \frac{\left| \sin(t)\right|}{(k+1)\pi} \, dt $$
+car, 
+or, 
+$$\int _{k\pi}^{n\pi}\left| \sin(t)\right| \, dt = \int_{0}^{\pi} \sin(t) \, dt = 2$$
+car $\left| \sin\right|$ est $\pi$ périodique.
+
+#### Exercice
+$$\int_{0}^{+ \infty} \frac{\ln(t)}{t^{2}+1} \, dt$$
+
+$$\int_{a}^{1} \frac{\ln(t)}{t^{2}+1} \, dx $$
+$$\int_{1}^{b} \frac{\ln(t)}{t^{2}+1} \, dt $$
+Lorsque $t \to 0$, 
+$$\frac{\ln(t)}{t^{2}+1} \sim \ln(t)$$
+
+
+
+
+Lorsque $t \to + \infty$, 
+$$\ln(t) = o(t^{2}+1)$$
+ie 
+$$\frac{\ln(n)}{o(t^{2}+1)} = o(1)$$
