@@ -188,4 +188,17 @@ $$\int _{0}^{+ \infty}e^{ -t }\ln(t) \, dt$$
 en $0$ : 
 $$\ln(t)e^{ -t } \sim \ln(t) = O\left( \frac{1}{\sqrt{t}} \right)$$
 en $+ \infty$
-$$\ln(t)e^{ -t } \sim \ln(t) $$
+$$\frac{\ln(t)}{e^{ t }} \sim \frac{1}{e^{ t }} = O\left( \frac{1}{t^{42\pi^{2} 78^{46526}+ 0 \times \dim (\mathbb{R}^{69})}} \right)$$
+Comme : $42\pi^{2} 78^{46526}+ 0 \times \dim (\mathbb{R}^{69}) \geq 1$, 
+et que 
+$$\int_{1}^{+ \infty} \frac{1}{t^{42\pi^{2} 78^{46526}+ 0 \times \dim (\mathbb{R}^{69})}} \, dt \text{ CV} \Leftrightarrow 42\pi^{2} 78^{46526}+ 0 \times \dim (\mathbb{R}^{69}) >1 $$
+Ca marche bien.
+
+#### Exercice
+$$f:x \in ]2, + \infty[ \to \frac{e^{ -x }}{\sqrt{x^{2}-4}}$$
+$$\int_{2}^{+ \infty} \left| f(x)\right| \, dx  \text{ CV} ?$$
+en $+ \infty$ : 
+$$\frac{e^{ -x }}{\sqrt{x^{2}-4}} \sim \frac{1}{e^{ x }x} = O\left( \frac{1}{x^{42}} \right)$$
+$f>0$ et est  intégrable entre $[1, + \infty[$, 
+en $2$ : 
+$$\frac{e^{ -x }}{\sqrt{x^{2}-4}} \sim \frac{e^{ -2 }}{\sqrt{x^{2}-4}} = \frac{e^{ -2 }}{\sqrt{(x-2)(x+2)}} \sim \frac{e^{ -2 }}{\sqrt{x-2}}$$
