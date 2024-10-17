@@ -108,5 +108,30 @@ $$\frac{t^{3}+t^{4}}{1+t^{5}+t^{7}}\ln\left( 1+\frac{1}{t} \right)\sim \frac{1}{
 Or $4 > 1$, donc l'intégrale $CV$
 
 ## 4. Intégrabilité
+#### Définition
+On dit que $f$ est intégrable sur $[a, + \infty[$, si : 
+$$\int_{a}^{+ \infty} \left| f(t)\right| \, dt \text{ CV}$$
+
 #### Théorème
-Si $f$ est inégrable sur $[a, + i[$
+Si $f$ est intégrable sur $[a, + \infty[$ alors, 
+$$\int_{a}^{+ \infty} f(t) \, dt \text{ CV} $$
+
+#### Remarque
+La réciproque est fausse
+
+#### Proposition
+Si $f \underset{+\infty}= O(g)$ et si $g$ est intégrable sur $[a, + \infty[$ alors, $f$ aussi
+Si $f \underset{+\infty}\sim O(g)$ et si $g$ est intégrable sur $[a, + \infty[$ alors, $f$ aussi
+
+# II. Intégrales généralisé sur un intervalle quelconque
+Soit $a, b \in \mathbb{R}$ tels que $a<b$, 
+#### Définition
+Pour $I_{1} = [a, b[$, 
+$$\int_{I_{1}} f(t)\, dt  = \lim_{ \underset{x < b}{x \to b} } \int _{a}^{x} f(t)  \, dt $$
+
+Pour $I_{2} = ]a, b]$, 
+$$\int_{I_{2}} f(t)\, dt  = \lim_{ \underset{x > a}{x \to a} } \int _{x}^{b} f(t)  \, dt $$
+Pour $I_{3} = ]a, b[$, avec ici $-\infty \leq a< b \leq + \infty$, 
+$$\int _{I_{3}} f(t) \, dt \text{ CV} $$
+si pour un certain $c \in I_{3}$, 
+$$\int _{a}^{c} f(t) \, dt \text{ CV} \text{ } \boxed{\text{et}}\text{ } \int _{c}^{b} f(t) \, dt \text{ CV}$$
