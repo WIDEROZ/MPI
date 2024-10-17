@@ -27,8 +27,12 @@ Un arbre couvrant de poids minimum est un arbre couvrant qui minimise la somme d
 
 #### Théorème 3
 Soit $G = (V, E, p)$ un graphe pondéré 
-L'algorithme de Kruskkal construit un arbre courant de poids minimum. 
+L'algorithme de Kruskal construit un arbre couvrant de poids minimum. 
 
 
 Démonstration : 
-Soit $A$ le sous-graphe de $G$ contenant les sommets $V$ et 
+Soit $A$ le sous-graphe de $G$ contenant les sommets $V$ et l'ensemble d’arrêtes obtenu par l'algo de Kurskal.
+On identifie $A$ à son ensemble d'arêtes. 
+- $A$ est acyclique : on ajoute une arête si et seulement si cela conserve l'acyclicité à chaque étape
+- $A$ est connexe : supposons que $A$ n'est pas connexe, alors il existe deux composantes connexes $C_{1}, C_{2}$ dans $A$ et un chemin de $C_{1}$ vers $C_{2}$
+- 
