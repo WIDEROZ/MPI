@@ -76,5 +76,8 @@ faire en fonction de la CV ou non de $v_{n}$,
 
 # CCINP 6
 $$u_{n+1} \leq (\varepsilon+l)u_{n}$$
-On pose : $\varepsilon = \frac{1-l}{2}$ et $q = \frac{l+1}{2}$, 
-$$u_{n_{0}+k}\leq qu_{n}$$
+On pose : $\varepsilon = \frac{1-l}{2}$ et $q = \frac{l+1}{2}$, $n = n_{0} + k$
+$$u_{n}\leq q^{2}u_{n_{0}+(k-1)} \leq \dots \leq q^{k}u_{n_{0}} = q^{n-n_{0}}u_{n_{0}}$$
+ainsi, 
+$$\sum\dots$$
+ca cv. 
