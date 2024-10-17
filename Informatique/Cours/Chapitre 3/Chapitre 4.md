@@ -34,5 +34,4 @@ Démonstration :
 Soit $A$ le sous-graphe de $G$ contenant les sommets $V$ et l'ensemble d’arrêtes obtenu par l'algo de Kurskal.
 On identifie $A$ à son ensemble d'arêtes. 
 - $A$ est acyclique : on ajoute une arête si et seulement si cela conserve l'acyclicité à chaque étape
-- $A$ est connexe : supposons que $A$ n'est pas connexe, alors il existe deux composantes connexes $C_{1}, C_{2}$ dans $A$ et un chemin de $C_{1}$ vers $C_{2}$
-- 
+- $A$ est connexe : supposons que $A$ n'est pas connexe, alors il existe deux composantes connexes $C_{1}, C_{2}$ dans $A$ et un chemin de $C_{1}$ vers $C_{2}$ sans sommet intermédiaire dans $A$ : absurde car l'algo aurait sélectionné les arêtes sans perte d'acyclique
