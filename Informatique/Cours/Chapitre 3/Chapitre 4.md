@@ -49,4 +49,8 @@ On identifie $A$ à son ensemble d'arêtes.
     - Si $a_{i+1} \not\in A_{i+1}$, alors $A_{i} \cup \{ a_{i+1} \}$ n'est pas acyclique supposons que $a_{i+1} \in T_{i}$ comme $A_{i}\subset T_{i}$, $T_{i}$ n'est pas acyclique : ce qui est absurde. $a_{i+1} \not\in T_{i}$.
       Donc, $T_{i+1} = T_{i}$ vérifie la propriété pour $A_{i+1}$ et $B_{i+1}$
     - Si $a_{i+1} \in A_{i+1}$ : 
-      -> 
+      -> Soit $a_{i+1} \in T_{i}$, donc $T_{i+1} = T_{i}$ convient
+      -> Sinon, $T_{i} \cup \{ a_{i+1} \}$ contient un cycle (graphe de taille $n>n+1$) Il existe un $C$ contenant $a_{i+1}$ dans $T_{i} \cup \{ a_{i+1} \}$
+
+
+A FINIR VOIR LE MESSAGE DE AYPIE

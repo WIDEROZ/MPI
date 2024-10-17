@@ -107,3 +107,6 @@ $$\int _{0}^{+ \infty} \frac{t^{3}+t^{4}}{1+t^{5}+t^{7}}\ln\left( 1+\frac{1}{t} 
 $$\frac{t^{3}+t^{4}}{1+t^{5}+t^{7}}\ln\left( 1+\frac{1}{t} \right)\sim \frac{1}{t^{4}}\geq 0$$
 Or $4 > 1$, donc l'intégrale $CV$
 
+## 4. Intégrabilité
+#### Théorème
+Si $f$ est inégrable sur $[a, + i[$
