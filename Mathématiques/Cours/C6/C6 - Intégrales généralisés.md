@@ -224,4 +224,9 @@ $$\left| \sin a - \sin b\right|\leq \left| b-a\right|$$
 
 $$\frac{\sin(x)}{x} + \frac{1}{x}\left( \sin\left( x+\frac{1}{x} \right)-\sin(x) \right) \leq \frac{\sin(x)}{x} + \frac{1}{x^{2}}$$
 Ainsi, 
+les deux trucs $CV$ 
+
+
+$$\sum \frac{\ln(n)}{n^{\alpha}}$$
+$\alpha > 1$, 
 $$$$
