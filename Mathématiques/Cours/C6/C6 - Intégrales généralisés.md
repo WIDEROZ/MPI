@@ -135,3 +135,11 @@ Pour $I_{3} = ]a, b[$, avec ici $-\infty \leq a< b \leq + \infty$,
 $$\int _{I_{3}} f(t) \, dt \text{ CV} $$
 si pour un certain $c \in I_{3}$, 
 $$\int _{a}^{c} f(t) \, dt \text{ CV} \text{ } \boxed{\text{et}}\text{ } \int _{c}^{b} f(t) \, dt \text{ CV}$$
+
+#### Définition
+On dit que $f$ est intégrable sur $I$ un intervalle quelconque si : 
+$$\int_{I} \left| f(t)\right| \, dt \text{ CV}$$
+
+#### Théorème
+Si $f$ est intégrable sur $I$ alors, 
+$$\int_{I} f(t) \, dt \text{ CV} $$
