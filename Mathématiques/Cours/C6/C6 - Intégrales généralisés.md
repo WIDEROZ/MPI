@@ -173,12 +173,19 @@ $$\int_{0}^{+ \infty} \frac{\ln(t)}{t^{2}+1} \, dt$$
 $$\int_{a}^{1} \frac{\ln(t)}{t^{2}+1} \, dx $$
 $$\int_{1}^{b} \frac{\ln(t)}{t^{2}+1} \, dt $$
 Lorsque $t \to 0$, 
-$$\frac{\ln(t)}{t^{2}+1} \sim \ln(t)$$
-
-
-
+$$\frac{\ln(t)}{t^{2}+1} \sim \ln(t) = O\left( \frac{1}{\sqrt{t}} \right)$$
+Comme $\frac{1}{2} < 1$, $f$ est intégrable au voisinage de $0$
 
 Lorsque $t \to + \infty$, 
-$$\ln(t) = o(t^{2}+1)$$
+$$$$
 ie 
-$$\frac{\ln(n)}{o(t^{2}+1)} = o(1)$$
+$$\frac{\ln(t)}{t^{2}+1} \sim \frac{\ln(t)}{t^{2}} = O\left( \frac{1}{t^{3/2}} \right)$$
+Comme $\frac{3}{2} > 1$, $f$ est intégrable au voisinage de $+\infty$.
+
+Ainsi, l'intégrale CV
+
+$$\int _{0}^{+ \infty}e^{ -t }\ln(t) \, dt$$
+en $0$ : 
+$$\ln(t)e^{ -t } \sim \ln(t) = O\left( \frac{1}{\sqrt{t}} \right)$$
+en $+ \infty$
+$$\ln(t)e^{ -t } \sim \ln(t) $$
