@@ -152,3 +152,11 @@ Montrer que
 $$\int _{\pi}^{+ \infty} \frac{\sin(t)}{t} \, dt \text{ CV}$$
 
 $$\forall x \in [\pi,+ \infty[\int _{\pi}^{x} \frac{\sin(t)}{t} \, dt= \left[ \frac{\cos(t)}{t} \right]_{\pi}^{x} - \int _{\pi}^{x} \frac{\cos(t)}{t^{2}} \, dt $$
+$$= -\frac{\cos(x)}{x} - \frac{1}{\pi} - \int _{\pi}^{x} \frac{\cos(t)}{t^{2}} \, dt =  -\frac{\cos(x)}{x} - \frac{1}{\pi} - \int _{\pi}^{x} O\left( \frac{1}{t^{2}} \right) \, dt $$
+
+Montrer que : 
+$$\int _{\pi}^ \infty \left| \frac{\sin t}{t}\right| \, dt \text{ DV}$$
+![[Pasted image 20241017143910.png]]
+On pose : 
+$$u_{k} = \int _{k\pi}^{(k+1)\pi} \frac{\left| \sin(t)\right|}{t} \, dt $$
+$$\sum_{k = 1}^{n-1}u_{k} = \int _{\pi}^{n\pi} \left| \sin(t)\right| \, dx $$
