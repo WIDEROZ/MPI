@@ -201,4 +201,12 @@ en $+ \infty$ :
 $$\frac{e^{ -x }}{\sqrt{x^{2}-4}} \sim \frac{1}{e^{ x }x} = O\left( \frac{1}{x^{42}} \right)$$
 $f>0$ et est  intégrable entre $[1, + \infty[$, 
 en $2$ : 
-$$\frac{e^{ -x }}{\sqrt{x^{2}-4}} \sim \frac{e^{ -2 }}{\sqrt{x^{2}-4}} = \frac{e^{ -2 }}{\sqrt{(x-2)(x+2)}} \sim \frac{e^{ -2 }}{\sqrt{x-2}}$$
+$$\frac{e^{ -x }}{\sqrt{x^{2}-4}} \sim \frac{e^{ -2 }}{\sqrt{x^{2}-4}} = \frac{e^{ -2 }}{\sqrt{(x-2)(x+2)}} \sim \frac{e^{ -2 }}{2\sqrt{x-2}} $$
+$$\int_{2}^{3} \frac{1}{\sqrt{x-2}} \, dx = \int _{0}^{1} \frac{1}{\sqrt{x}} \, dx \text{ CV car } \frac{1}{2}<1 $$
+
+#### Exercice
+$$\int _{1}^{+ \infty} \frac{e^{ ix }}{x^{\alpha}} \, dx $$
+pour $\alpha >0$, 
+$$\int_{1}^{T} \frac{e^{ ix }}{x^{\alpha}} \, dx = -i\left[ \frac{e^{ ix }}{x^{\alpha}} \right]_{1}^{T}-\frac{1}{1-\alpha} \int _{1}^{T} \frac{e^{ ix }}{x^{\alpha-1}}  \, dx $$
+$$= -i\left( \frac{e^{ iT }}{T^{\alpha}} \right)-\frac{1}{1-\alpha} \int _{1}^{T} \frac{e^{ ix }}{x^{\alpha-1}} \, dx $$
+$$\int _{1}^{T} \frac{e^{ ix }}{x^{\alpha-1}} \, dt $$
