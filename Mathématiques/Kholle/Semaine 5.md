@@ -81,3 +81,6 @@ $$u_{n}\leq q^{2}u_{n_{0}+(k-1)} \leq \dots \leq q^{k}u_{n_{0}} = q^{n-n_{0}}u_{
 ainsi, 
 $$\sum\dots$$
 ca cv. 
+
+$$0\leq \left| \int_{1}^{n} \ln(x) \, dx\right| \leq \ln(n)(n-1)  $$
+$$2\ln(n) \leq n\ln(n) \leq \ln(n)(n+1)$$
