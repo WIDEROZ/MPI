@@ -20,4 +20,15 @@ Ainsi, $h$ est admissible
 ## 4) Arbres couvrants
 #### Définition 5
 Soit $G = (V, E, p)$ un graphe pondéré connexe non-orienté
-un arbre courant de $G$ est un sous graphe de $G
+
+Un arbre couvrant de $G$ est un sous graphe de $G$ correspondant à un arbre (graphe connexe acyclique) dont l'ensemble des sommets est $V$. 
+
+Un arbre couvrant de poids minimum est un arbre couvrant qui minimise la somme des poids des arrêtes. 
+
+#### Théorème 3
+Soit $G = (V, E, p)$ un graphe pondéré 
+L'algorithme de Kruskkal construit un arbre courant de poids minimum. 
+
+
+Démonstration : 
+Soit $A$ le sous-graphe de $G$ contenant les sommets $V$ et 
