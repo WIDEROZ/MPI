@@ -37,4 +37,13 @@ On identifie $A$ à son ensemble d'arêtes.
 - $A$ est connexe : supposons que $A$ n'est pas connexe, alors il existe deux composantes connexes $C_{1}, C_{2}$ dans $A$ et un chemin de $C_{1}$ vers $C_{2}$ sans sommet intermédiaire dans $A$ : absurde car l'algo aurait sélectionné les arêtes sans perte d'acyclicité 
 - $A$ est couvrant : Soit $v \in V$, soit $a \in E$, la première arête d’extrémité $v$ dans la file $a$ peut être sélectionnée sans perte d'acyclicité
 - $A$ est un arbre couvrant de poids minimum : 
-  Soit $G = (V, E, p)$ un graphe pondéré connece sur lequel on applique l'algorithme. On considère les ensembles suivantr
+  Soit $G = (V, E, p)$ un graphe pondéré connece sur lequel on applique l'algorithme. On considère les ensembles suivants : 
+  + $E_{i}$ l'ensemble des $i$ premières arêtes dans l'ensemble des arêtes de $G$ triées par poids triés par poids croissant. 
+  + $A_{i}\subset E_{i}$ : l'ensemble des arêtes dans $E_{i}$ sélectionnées par l'algorithme
+  + $B_{i} = E_{i} \setminus A_{i}$
+  
+  Soit $t$ le nombre d'arêtes. Pour tout $i \in [\![0, t]\!]$, on prouve la propriété suivante : 
+  $$P(i) : \begin{array}{c}
+\text{"Il existe un arbre couvrant de }G \text{ de poids minimum }T_{i} \\
+\text{ tel que toute arête de }A_{i} \text{ est dans }T_{i} \text{ et toute arête de }B_{i} \text{ n'est pas dans }T_{i}\text{"}
+\end{array}$$
