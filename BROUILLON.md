@@ -15,5 +15,3 @@ comme il existe $\lambda_{i}, \alpha_{i}, \mu_{i}, \gamma_{i}$ tels que :
 $$x_{i}= \lambda_{i}ab\mu_{i} \text{ et } x_{i+1}= \lambda_{i} ba \mu_{i}$$
 puis
 $$y_{i} = \alpha_{i}ab\gamma_{i} \text{ et } y_{i+1} = \alpha_{i}ba\gamma_{i}$$
-On a alors, 
-$$z_{i} = \lambda_{i}ab\gamma_{i}$$
