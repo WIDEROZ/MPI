@@ -143,3 +143,12 @@ $$\int_{I} \left| f(t)\right| \, dt \text{ CV}$$
 #### Théorème
 Si $f$ est intégrable sur $I$ alors, 
 $$\int_{I} f(t) \, dt \text{ CV} $$
+
+#### Exemple CAPITAL !!!!!!
+$$f : t \mapsto \frac{\sin(t)}{t}$$
+sur $[\pi, + \infty[$, 
+
+Montrer que 
+$$\int _{\pi}^{+ \infty} \frac{\sin(t)}{t} \, dt \text{ CV}$$
+
+$$\forall x \in [\pi,+ \infty[\int _{\pi}^{x} \frac{\sin(t)}{t} \, dt= \left[ \frac{\cos(t)}{t} \right]_{\pi}^{x} - \int _{\pi}^{x} \frac{\cos(t)}{t^{2}} \, dt $$
