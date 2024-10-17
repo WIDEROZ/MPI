@@ -68,3 +68,8 @@ par les croissances comparés.
 
 # CCINP 46
 $$\exists N \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq N \Rightarrow u_{n} \neq 0 \text{ et }v_{n} \neq 0$$
+Alors, 
+$$\forall \varepsilon >0, \exists N_{0} > N, \forall n \in \mathbb{N}, n > N_{0} \Rightarrow 1-\varepsilon \leq\frac{u_{n}}{v_{n}} \leq 1+ \varepsilon$$
+Pour $\varepsilon = \frac{1}{2}$, 
+$$\frac{1}{2}v_{n} \leq u_{n} \leq \frac{3}{2}v_{n}$$
+faire en fonction de la CV ou non de $v_{n}$, 
