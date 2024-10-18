@@ -8,4 +8,4 @@ $$= \frac{4}{3}R^{3}\pi$$
 #### Surface
 Surface sphère 
 $$\iint dS = \iint rd\theta \times r \sin(\theta)d\varphi = R^{2} \int_{0}^{\pi} \, \sin(\theta)d\theta \int_{0}^{2\pi}  \, d\varphi = 4\pi R^{2}$$
-
+	
