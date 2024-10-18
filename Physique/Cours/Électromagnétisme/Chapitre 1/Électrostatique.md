@@ -12,3 +12,5 @@ $$\iint dS = \iint rd\theta \times r \sin(\theta)d\varphi = R^{2} \int_{0}^{\pi}
 # III.5. Exemple d'application 
 #### Exercice a
 $$\lambda =\frac{dq}{dl}$$
+
+
