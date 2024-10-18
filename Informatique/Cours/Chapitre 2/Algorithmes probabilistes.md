@@ -3,7 +3,7 @@ Un algorithme est déterministe si la séquence d'états de la machine sur une i
 Un algorithme est probabiliste si la séquence d'états de la machine sur une instance $i$ est une variable aléatoire, et une execution donne une réalisation de cette variable aléatoire. 
 
 #### Exemple 2 
-###### Algorithme 1 : Bogssart
+###### Algorithme 1 : Bogosort
 Entrée : un tableau $T$ d'entiers
 Sortie : Une version triée de $T$
 $T_{1} \leftarrow$ copie de $T$
