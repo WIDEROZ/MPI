@@ -39,7 +39,7 @@ $$\mathbb{P}(E \neq \pi) = 1$$
 ## 2.2.2) Algorithmes de Las Vegas
 #### Définition
 Soit $\mathcal{P}$ un problème, 
-Un algorithme $\mathcal{A}$ est un algorithme de Monte-Carlo si pour toute instance $i$ du problème $\mathcal{P}$ pour laquelle une sortie $s$ est attendue : 
+Un algorithme $\mathcal{A}$ est un algorithme de Las-Vegas si pour toute instance $i$ du problème $\mathcal{P}$ pour laquelle une sortie $s$ est attendue : 
 - La sortie obtenue par $\mathcal{A}$ est toujours égale à $s$ quand l'algorithme se termine. 
 - Le cout de l'algorithme pour une instance $i$ est une variable aléatoire. 
 
