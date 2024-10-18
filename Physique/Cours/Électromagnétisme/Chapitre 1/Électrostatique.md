@@ -10,7 +10,8 @@ Surface sphère
 $$\iint dS = \iint rd\theta \times r \sin(\theta)d\varphi = R^{2} \int_{0}^{\pi} \, \sin(\theta)d\theta \int_{0}^{2\pi}  \, d\varphi = 4\pi R^{2}$$
 
 # III.5. Exemple d'application 
-#### Exercice a
+#### Exercice a. 
 $$\lambda =\frac{dq}{dl}$$
 
-
+# IV.3. Champ créé par un fil fini
+#### Exercice b.
