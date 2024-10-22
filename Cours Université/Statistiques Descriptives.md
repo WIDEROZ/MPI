@@ -23,4 +23,3 @@ $$\sum_{k = 0}^{100} \left( b_{k}h + \frac{(B_{k}-b_{k})h}{2} \right) = \frac{h}
 $$\boxed{I_{g} = 5000 - \frac{h}{2} \sum_{k = 0}^{100}(b_{k}+B_{k})}$$
 
 #### Exercice
-,bb
