@@ -47,4 +47,12 @@ $$\left( \frac{3Mgd}{2D} - Mg\right)\sin(\theta) -R_{v}= S_{v}$$
 Alors, 
 $$S_{v} = \left( \frac{3Mgd}{2D} + \frac{Mg}{4} - Mg \right)\sin(\theta) = 3Mg\frac{2d-D}{4D}\sin(\theta)$$
 Ainsi, 
-$$S_{v} = \frac{3}{4}Mg \frac{2d-D}{D}\sin(\theta)$$
+$$\boxed{S_{v} = \frac{3}{4}Mg \frac{2d-D}{D}\sin(\theta)}$$
+
+## 5.
+$$S_{v} = \frac{3Mg\sin(\theta)}{2}  \frac{d}{D}- \frac{3Mg\sin(\theta)}{4}$$
+EXCAL 1
+
+## 6.
+$$\overrightarrow{\mathcal{M}}(\vec{S}) = \overrightarrow{OP} \wedge \vec{S} = d (\vec{u} \wedge \vec{S}).\vec{e}_{z} = dS_{v}\vec{e}_{z} + dC\vec{v}$$
+$$\mathcal{M}(\vec{S})$$
