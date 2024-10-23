@@ -31,4 +31,13 @@ Ainsi,
 $$\boxed{R_{u} = \frac{5}{2}Mg\cos(\theta)-\frac{3}{2}Mg}$$
 
 #### 3.
-$$M \frac{d\vec{v}}{dt} + (Mg + )$$
+$$M \vec{a} +\left(  \frac{3}{2}Mg - \frac{3}{2}Mg \cos(\theta)\right)\vec{u} - \frac{3}{4}Mg \sin(\theta) \vec{v} = 0$$
+Alors, 
+$$
+\frac{MD}{2} \ddot{\theta} - \frac{3}{4}Mg\sin(\theta) = 0
+$$
+Donc, 
+$$\ddot{\theta} -\frac{3}{2} \frac{g}{D}\sin(\theta) = 0$$
+Lorsque $\theta = \frac{\pi}{2} + \varepsilon$, 
+$$\cos\left( \frac{\pi}{2}-\varepsilon \right) = \sin(\varepsilon)$$
+$$\sin\left( \frac{\pi}{2} - \varepsilon \right) = \cos(\varepsilon) \approx 1 - \frac{\varepsilon^{2}}{2}$$
