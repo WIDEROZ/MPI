@@ -54,7 +54,7 @@ $$\boxed{S_{v} = \frac{3MgD(2d-D)}{4(D^{2}-3d^{2})}\sin(\theta)}$$
 
 #### 5.
 $$S_{v} = \frac{3Mg}{4}\sin(\theta)\left( \frac{2dD}{D^{2}-3d^{2}} - \frac{D^{2}}{D^{2}-3d^{2}}\right)$$
-
+$$= \dots \left( \frac{2}{\frac{D}{d}-\frac{3d}{D}}-\frac{1}{1-3\left( \frac{d}{D} \right)^{2}} \right)$$
 
 
 
