@@ -44,13 +44,20 @@ $$\vec{a} = d (\ddot{\theta} \vec{v} -\dot{\theta}^{2}\vec{u})$$
 En projetant sur $\vec{v}$ : 
 $$Md\ddot{\theta} = Mg\sin(\theta) + S_{v} + R_{v}$$
 Alors, 
-$$Md$$
+$$\frac{3Mdg}{2D}\sin(\theta) + \frac{3d^{2}}{D^{2}} S_{v} = Mg\sin(\theta) + S_{v} - \frac{Mg}{4}\sin(\theta)$$
+Alors, 
+$$\frac{D^{2}-3d^{2}}{D^{2}} S_{v} = \left( \frac{6Mdg+MgD-4MgD}{4D} \right)\sin(\theta)= \frac{3Mg}{4D}(2d-D)\sin(\theta)$$
+Donc, 
+$$\boxed{S_{v} = \frac{3MgD(2d-D)}{4(D^{2}-3d^{2})}\sin(\theta)}$$
 
 
 
 #### 5.
-$$S_{v} = \frac{3Mg\sin(\theta)}{2}  \frac{d}{D}- \frac{3Mg\sin(\theta)}{4}$$
-EXCAL 1
+$$S_{v} = \frac{3Mg}{4}\sin(\theta)\left( \frac{2dD}{D^{2}-3d^{2}} - \frac{D^{2}}{D^{2}-3d^{2}}\right)$$
+
+
+
+
 
 ## 6.
 $$\overrightarrow{\mathcal{M}}(\vec{S}) = \overrightarrow{OP} \wedge \vec{S} = d (\vec{u} \wedge \vec{S}).\vec{e}_{z} = dS_{v}\vec{e}_{z} + dC\vec{v}$$
