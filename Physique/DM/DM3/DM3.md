@@ -21,11 +21,14 @@ $$\frac{3g}{2D}\sin(\theta) = \frac{2g}{D}\sin(\theta) + \frac{2R_{v}}{MD} \Righ
 Puis : 
 $$R_{u} = Mg\cos(\theta) - \frac{MD}{2}\dot{\theta}^{2}$$
 comme : 
-$$2\dot{\theta}\ddot{\theta} = \frac{3g}{D}\dot{\theta}\sin(\theta) \Leftrightarrow \dot{\theta}^{2} = -\frac{3g}{D}\cos(\theta)$$
+$$2\dot{\theta}\ddot{\theta} = \frac{3g}{D}\dot{\theta}\sin(\theta) \Leftrightarrow \dot{\theta}^{2} = -\frac{3g}{D}\cos(\theta)+C$$
+($C \in \mathbb{R}$)
 On a : 
-$$R_{u} = $$
-
-
+$$R_{u} = Mg\cos(\theta)+ \frac{3Mg}{2}\cos(\theta) = \frac{5}{2}Mg\cos(\theta) - \frac{MD}{2}C$$
+Comme $R_{u}\left( 0 \right) = -Mg$,
+$$\frac{7}{2}Mg = \frac{MD}{2}C \Leftrightarrow C = \frac{7g}{D}$$
+Ainsi, 
+$$\boxed{R_{u} = \frac{5}{2}Mg\cos(\theta)-\frac{7}{2}Mg}$$
 
 
 
