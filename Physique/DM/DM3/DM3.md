@@ -33,20 +33,22 @@ $$\boxed{R_{u} = \frac{5}{2}Mg\cos(\theta)-\frac{3}{2}Mg}$$
 #### 3.
 $$R_{u} = 0 \Leftrightarrow \cos(\theta) = \frac{3}{5} \Leftrightarrow \theta \approx \frac{2\pi}{7} (= 53°)$$
 
-## 4.
-On applique le TRC sur la longueur $d$ : 
+#### 4.
+On applique un TMC du point $O$ projeté sur $\vec{e}_{z}$ : 
+$$J_{O} \ddot{\theta} = \frac{MgD}{2}\sin(\theta) + dS_{v}$$
+$$\ddot{\theta} = \frac{3g}{2D}\sin(\theta) + \frac{3d}{MD^{2}}S_{v}$$
+Ensuite, on applique le TRC sur la longueur $d$ : 
 $$M\vec{a} = -Mg(\cos(\theta)\vec{u} -\sin(\theta)\vec{v}) + \vec{S} + \vec{R}$$
 Comme : 
 $$\vec{a} = d (\ddot{\theta} \vec{v} -\dot{\theta}^{2}\vec{u})$$
 En projetant sur $\vec{v}$ : 
 $$Md\ddot{\theta} = Mg\sin(\theta) + S_{v} + R_{v}$$
-comme : 
-$$\ddot{\theta} = \frac{3g}{2D}\sin(\theta)$$
+Alors, 
+$$Md$$
 
 
 
-
-## 5.
+#### 5.
 $$S_{v} = \frac{3Mg\sin(\theta)}{2}  \frac{d}{D}- \frac{3Mg\sin(\theta)}{4}$$
 EXCAL 1
 
