@@ -18,6 +18,8 @@ $$\begin{cases}
 \end{cases}$$
 Donc, 
 $$\frac{3g}{2D}\sin(\theta) = \frac{2g}{D}\sin(\theta) + \frac{2R_{v}}{MD} \Rightarrow R_{v} = -\frac{Mg}{4}\sin(\theta)$$
-Puis,
-$$-\frac{D}{2} \dot{\theta} \ddot{\theta} = g\dot{\theta}\sin(\theta) + \dot{\theta}\frac{R_{u}}{M}$$
-$$-\frac{D}{4} \ddot{\theta} = -g\cos(\theta) + \frac{\theta R_{u}}{M}$$
+Puis en dérivant la deuxième expression : 
+$$-D\dot{\theta} \ddot{\theta} = -g\dot{\theta}\sin(\theta) + \frac{\frac{dR_{u}}{dt}}{M}$$
+$$-\frac{3g}{2D}\sin(\theta) = -\frac{2Dg}{2D}\sin(\theta) + \frac{\frac{dR_{u}}{dt}}{M\dot{\theta}} \Rightarrow \frac{dR_{u}}{dt} = -Mg \frac{(3+2D)}{2D}\dot{\theta}\sin(\theta)$$
+En intégrant : 
+$$R_{u} = \cos(\theta)$$
