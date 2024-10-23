@@ -18,14 +18,18 @@ $$\begin{cases}
 \end{cases}$$
 Donc, 
 $$\frac{3g}{2D}\sin(\theta) = \frac{2g}{D}\sin(\theta) + \frac{2R_{v}}{MD} \Rightarrow \boxed{R_{v} = -\frac{Mg}{4}\sin(\theta)}$$
-Puis en dérivant la deuxième expression : 
-$$-D\dot{\theta} \ddot{\theta} = -g\dot{\theta}\sin(\theta) + \frac{\frac{dR_{u}}{dt}}{M}$$
-Puis, 
-$$-\frac{3g}{2}\sin(\theta) = -g\sin(\theta) + \frac{\frac{dR_{u}}{dt}}{M\dot{\theta}} \Rightarrow \frac{dR_{u}}{dt} = -\frac{Mg}{2}\dot{\theta}\sin(\theta)$$
-En intégrant : 
-$$R_{u}(\theta) = \frac{Mg}{2}\cos(\theta)+C$$
-Conditions initiales : $R_{u}\left( \frac{\pi}{2} \right) = 0$ Alors, 
-$$\boxed{R_{u} = \frac{Mg}{2}\cos(\theta)}$$
+Puis : 
+$$R_{u} = Mg\cos(\theta) - \frac{MD}{2}\dot{\theta}^{2}$$
+comme : 
+$$2\dot{\theta}\ddot{\theta} = \frac{3g}{D}\dot{\theta}\sin(\theta) \Leftrightarrow \dot{\theta}^{2} = -\frac{3g}{D}\cos(\theta)$$
+On a : 
+$$R_{u} = $$
+
+
+
+
+
+
 
 ## 3.
 Lorsque $\left| \vec{R}\right| = 0$ la cheminé décolle du sol ie lorsque : 
