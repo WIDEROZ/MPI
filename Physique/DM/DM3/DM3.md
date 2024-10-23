@@ -28,3 +28,8 @@ Conditions initiales : $R_{u}\left( \frac{\pi}{2} \right) = 0$ Alors,
 $$\boxed{R_{u} = \frac{Mg}{2}\cos(\theta)}$$
 
 ## 3.
+Lorsque $\left| \vec{R}\right| = 0$ la cheminé décolle du sol ie lorsque : 
+$$\begin{cases}
+R_{u} = \frac{Mg}{2}\cos(\theta) = 0 \\
+R_{v} = -\frac{Mg}{4}\sin(\theta) = 0
+\end{cases}$$
