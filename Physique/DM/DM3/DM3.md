@@ -47,6 +47,16 @@ $$M_{d} \frac{d}{2}\ddot{\theta} = M_{d}g\sin(\theta) + S_{v} + R_{v}$$
 Alors,
 
 ___
+On applique un TMC du point $G$ projeté sur $\vec{e}_{z}$ : 
+$$J_{O_{G}} \ddot{\theta} = -\frac{MgD}{8}\sin(\theta) + \left( d-\frac{D}{2} \right)S_{v}$$
+$$\ddot{\theta} = \frac{3g}{2D}\sin(\theta)+\frac{6}{MD}\left( \frac{2d}{D}-1 \right)S_{v}$$
+Alors, 
+$$\frac{3Md^{2}g}{4D^{2}}\sin(\theta) + \frac{6d^{2}}{2D^{2}}\left( \frac{2d}{D}-1 \right)S_{v}-S_{v} = \frac{Mdg}{D} -\frac{Mg}{4}\sin(\theta)$$
+
+$$$$
+
+
+
 
 
 #### 5.
