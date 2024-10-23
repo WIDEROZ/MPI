@@ -35,8 +35,8 @@ $$R_{u} = 0 \Leftrightarrow \cos(\theta) = \frac{3}{5} \Leftrightarrow \theta \a
 
 #### 4.
 On applique un TMC du point $O$ projeté sur $\vec{e}_{z}$ : 
-$$J_{O} \ddot{\theta} = \frac{MgD}{2}\sin(\theta) + dS_{v}$$
-$$\ddot{\theta} = \frac{3g}{2D}\sin(\theta) + \frac{3d}{MD^{2}}S_{v}$$
+$$J_{O} \ddot{\theta} = \frac{Mgd}{2}\sin(\theta) + dS_{v}$$
+$$\ddot{\theta} = \frac{3gd}{2D^{2}}\sin(\theta) + \frac{3d}{MD^{2}}S_{v}$$
 La masse linéique est égale en tout point de la cheminée : $\frac{M_{d}}{d} = \frac{M}{D} \Leftrightarrow M_{d} = M \frac{d}{D}$ 
 Ensuite, on applique le TRC sur la longueur $d$ : 
 $$M_{d}\vec{a} = -M_{d}g(\cos(\theta)\vec{u} -\sin(\theta)\vec{v}) + \vec{S} + \vec{R}$$
@@ -44,13 +44,9 @@ Comme :
 $$\vec{a} = \frac{d}{2} (\ddot{\theta} \vec{v} -\dot{\theta}^{2}\vec{u})$$
 En projetant sur $\vec{v}$ : 
 $$M_{d} \frac{d}{2}\ddot{\theta} = M_{d}g\sin(\theta) + S_{v} + R_{v}$$
-Alors, 
-$$\frac{3Mgd^{2}}{4D^{2}}\sin(\theta) + \frac{3d^{3}}{D^{3}}S_{v} = \frac{Md^{2}g}{2D}\sin(\theta) + S_{v} - \frac{Mg}{4}\sin(\theta)$$
+Alors,
 
-
-
-
-
+___
 
 
 #### 5.
