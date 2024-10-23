@@ -17,19 +17,7 @@ $$\begin{cases}
 -\frac{D}{2}\dot{\theta}^{2} = -g \cos(\theta) + \frac{R_{u}}{M}
 \end{cases}$$
 Donc, 
-$$\frac{3g}{2D}\sin(\theta) = \frac{2g}{D}\sin(\theta) + \frac{R_{v}}{M}$$
-
-
-
-$$\vec{R} = R \vec{e}_{x} = R_{u}\vec{u} + R_{v}\vec{v} = R\cos(\theta)\vec{u} - R\sin(\theta)\vec{v}$$
-Ainsi, 
-$$\boxed{\begin{cases}
-R_{u} = R\cos(\theta) \\
-R_{v} = -R\sin(\theta)
-\end{cases}}$$
-
-#### 3.
-Lorsque $R_{v} > 0$ et $R_{u} =$
-
-
-
+$$\frac{3g}{2D}\sin(\theta) = \frac{2g}{D}\sin(\theta) + \frac{2R_{v}}{MD} \Rightarrow R_{v} = -\frac{Mg}{4}\sin(\theta)$$
+Puis,
+$$-\frac{D}{2} \dot{\theta} \ddot{\theta} = g\dot{\theta}\sin(\theta) + \dot{\theta}\frac{R_{u}}{M}$$
+$$-\frac{D}{4} \ddot{\theta} = -g\cos(\theta) + \frac{\theta R_{u}}{M}$$
