@@ -37,10 +37,11 @@ $$R_{u} = 0 \Leftrightarrow \cos(\theta) = \frac{3}{5} \Leftrightarrow \theta \a
 On applique un TMC du point $O$ projeté sur $\vec{e}_{z}$ : 
 $$J_{O} \ddot{\theta} = \frac{MgD}{2}\sin(\theta) + dS_{v}$$
 $$\ddot{\theta} = \frac{3g}{2D}\sin(\theta) + \frac{3d}{MD^{2}}S_{v}$$
+La masse linéique est égale en tout point de la cheminée : $\frac{M_{p}}{d} = \frac{M}{D} \Leftrightarrow M_{p} = M \frac{d}{D}$ 
 Ensuite, on applique le TRC sur la longueur $d$ : 
-$$M\vec{a} = -Mg(\cos(\theta)\vec{u} -\sin(\theta)\vec{v}) + \vec{S} + \vec{R}$$
+$$M_{p}\vec{a} = -M_{p}g(\cos(\theta)\vec{u} -\sin(\theta)\vec{v}) + \vec{S} + \vec{R}$$
 Comme : 
-$$\vec{a} = d (\ddot{\theta} \vec{v} -\dot{\theta}^{2}\vec{u})$$
+$$\vec{a} = \frac{d}{2} (\ddot{\theta} \vec{v} -\dot{\theta}^{2}\vec{u})$$
 En projetant sur $\vec{v}$ : 
 $$Md\ddot{\theta} = Mg\sin(\theta) + S_{v} + R_{v}$$
 Alors, 
