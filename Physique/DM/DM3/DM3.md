@@ -25,18 +25,10 @@ $$2\dot{\theta}\ddot{\theta} = \frac{3g}{D}\dot{\theta}\sin(\theta) \Leftrightar
 ($C \in \mathbb{R}$)
 On a : 
 $$R_{u} = Mg\cos(\theta)+ \frac{3Mg}{2}\cos(\theta) = \frac{5}{2}Mg\cos(\theta) - \frac{MD}{2}C$$
-Comme $R_{u}\left( 0 \right) = -Mg$,
-$$\frac{7}{2}Mg = \frac{MD}{2}C \Leftrightarrow C = \frac{7g}{D}$$
+Comme $R_{u}\left( 0 \right) = Mg$,
+$$\frac{3}{2}Mg = \frac{MD}{2}C \Leftrightarrow C = \frac{3g}{D}$$
 Ainsi, 
-$$\boxed{R_{u} = \frac{5}{2}Mg\cos(\theta)-\frac{7}{2}Mg}$$
+$$\boxed{R_{u} = \frac{5}{2}Mg\cos(\theta)-\frac{3}{2}Mg}$$
 
-
-
-
-
-## 3.
-Lorsque $\left| \vec{R}\right| = 0$ la cheminé décolle du sol ie lorsque : 
-$$\begin{cases}
-R_{u} = \frac{Mg}{2}\cos(\theta) = 0 \\
-R_{v} = -\frac{Mg}{4}\sin(\theta) = 0
-\end{cases}$$
+#### 3.
+$$M \frac{d\vec{v}}{dt} + (Mg + )$$
