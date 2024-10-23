@@ -42,12 +42,9 @@ En projetant sur $\vec{v}$ :
 $$Md\ddot{\theta} = Mg\sin(\theta) + S_{v} + R_{v}$$
 comme : 
 $$\ddot{\theta} = \frac{3g}{2D}\sin(\theta)$$
-On a : 
-$$\left( \frac{3Mgd}{2D} - Mg\right)\sin(\theta) -R_{v}= S_{v}$$
-Alors, 
-$$S_{v} = \left( \frac{3Mgd}{2D} + \frac{Mg}{4} - Mg \right)\sin(\theta) = 3Mg\frac{2d-D}{4D}\sin(\theta)$$
-Ainsi, 
-$$\boxed{S_{v} = \frac{3}{4}Mg \frac{2d-D}{D}\sin(\theta)}$$
+
+
+
 
 ## 5.
 $$S_{v} = \frac{3Mg\sin(\theta)}{2}  \frac{d}{D}- \frac{3Mg\sin(\theta)}{4}$$
@@ -55,4 +52,7 @@ EXCAL 1
 
 ## 6.
 $$\overrightarrow{\mathcal{M}}(\vec{S}) = \overrightarrow{OP} \wedge \vec{S} = d (\vec{u} \wedge \vec{S}).\vec{e}_{z} = dS_{v}\vec{e}_{z} + dC\vec{v}$$
-$$\mathcal{M}(\vec{S})$$
+$$\overrightarrow{\mathcal{M}}(\vec{P}) = \frac{MgD}{2}\sin(\theta) $$
+$$\overrightarrow{\mathcal{M}}(\overrightarrow{O}) = \overrightarrow{0}$$
+Alors, 
+$$\frac{1}{3}MD^{2} \ddot{\theta} = \left( \frac{MgD}{2} + dS_{v}\right) \vec{e}_{z} + dC \vec{v}$$
