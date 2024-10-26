@@ -42,9 +42,20 @@ $$\vec{a} = \frac{d}{2} \ddot{\theta} \vec{e}_{v} - \frac{d}{2}\dot{\theta}^{2}\
 On projette sur $\vec{v}$ :
 $$\frac{Md^{2}}{2D}\ddot{\theta} = \frac{Md}{D}g\sin(\theta) + R_{v} + S_{v}= \frac{Md}{D}g\sin(\theta) - \frac{Mg}{4}\sin(\theta) + S_{v}$$
 $$\ddot{\theta} = \frac{2g}{d}\sin(\theta) - \frac{D}{2d^{2}}\sin(\theta) + S_{v}$$
+$$S_{v} = \left( \frac{D}{2d^{2}} -\frac{2g}{d}\right)\sin(\theta) + \ddot{\theta}$$
 On applique maintenant le TMC en $P$ par rapport à $Oz$, 
 Les moments qui s'appliquent sont : 
 $$\begin{cases}
 \mathcal{M}(\vec{S}) = dS_{v} \\
-\mathcal{M}(\vec{P}) = -d \vec{e}_{u}\wedge mg\vec{e}_{x}.\vec{e}_{z} = -dmg 
+\mathcal{M}(\vec{P}) = -d \vec{e}_{u}\wedge \frac{Md}{D}g\vec{e}_{x}.\vec{e}_{z} = \frac{Md^{2}}{D}g\sin(\theta) \\
+\mathcal{M}(\vec{R}) = 0 \\
+\mathcal{M}(\overrightarrow{O}) = 0
 \end{cases}$$
+Comme,
+$$J_{Oz} = \frac{1}{3}\frac{Md}{D}D^{2}$$
+Alors, 
+$$\frac{1}{3}MdD \ddot{\theta} = dS_{v} + \frac{Md^{2}}{D}g\sin(\theta)$$
+Donc, 
+$$\ddot{\theta} =  \frac{3}{MD}S_{v} + \frac{3d}{D^{2}}g\sin(\theta)$$
+Puis en injectant dans le TRC : 
+$$S_{v}\left( 1-\frac{3}{MD} \right) = \left( \frac{D}{2d^{2}}-\frac{2g}{} \right)$$
