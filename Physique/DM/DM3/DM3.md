@@ -41,4 +41,10 @@ Comme :
 $$\vec{a} = \frac{d}{2} \ddot{\theta} \vec{e}_{v} - \frac{d}{2}\dot{\theta}^{2}\vec{e}_{u}$$
 On projette sur $\vec{v}$ :
 $$\frac{Md^{2}}{2D}\ddot{\theta} = \frac{Md}{D}g\sin(\theta) + R_{v} + S_{v}= \frac{Md}{D}g\sin(\theta) - \frac{Mg}{4}\sin(\theta) + S_{v}$$
-$$\ddot{\theta} = \frac{2g}{d}\sin(\theta)$$
+$$\ddot{\theta} = \frac{2g}{d}\sin(\theta) - \frac{D}{2d^{2}}\sin(\theta) + S_{v}$$
+On applique maintenant le TMC en $P$ par rapport à $Oz$, 
+Les moments qui s'appliquent sont : 
+$$\begin{cases}
+\mathcal{M}(\vec{S}) = dS_{v} \\
+\mathcal{M}(\vec{P}) = -d \vec{e}_{u}\wedge mg\vec{e}_{x}.\vec{e}_{z} = -dmg 
+\end{cases}$$
