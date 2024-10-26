@@ -34,4 +34,11 @@ $$\boxed{R_{u} = \frac{5}{2}Mg\cos(\theta)-\frac{3}{2}Mg}$$
 $$R_{u} = 0 \Leftrightarrow \cos(\theta) = \frac{3}{5} \Leftrightarrow \theta \approx \frac{2\pi}{7} (= 53°)$$
 
 #### 4.
-On fait un TRC sur la chemib
+On fait un TRC sur la portion $d$ de la cheminée : 
+Comme la masse linéique est la même sur toute la cheminée alors, $M_{P} = \frac{dM}{D}$, 
+$$\left( M \frac{d}{D} \right)\vec{a} = -M \frac{d}{D}g \vec{e}_{x} + \vec{R} + \vec{S}$$
+Comme : 
+$$\vec{a} = \frac{d}{2} \ddot{\theta} \vec{e}_{v} - \frac{d}{2}\dot{\theta}^{2}\vec{e}_{u}$$
+On projette sur $\vec{v}$ :
+$$\frac{Md^{2}}{2D}\ddot{\theta} = \frac{Md}{D}g\sin(\theta) + R_{v} + S_{v}= \frac{Md}{D}g\sin(\theta) - \frac{Mg}{4}\sin(\theta) + S_{v}$$
+$$\ddot{\theta} = \frac{2g}{d}\sin(\theta)$$
