@@ -41,8 +41,7 @@ Comme :
 $$\vec{a} = \frac{d}{2} \ddot{\theta} \vec{e}_{v} - \frac{d}{2}\dot{\theta}^{2}\vec{e}_{u}$$
 On projette sur $\vec{v}$ :
 $$\frac{Md^{2}}{2D}\ddot{\theta} = \frac{Md}{D}g\sin(\theta) + R_{v} + S_{v}= \frac{Md}{D}g\sin(\theta) - \frac{Mg}{4}\sin(\theta) + S_{v}$$
-$$\ddot{\theta} = \frac{2g}{d}\sin(\theta) - \frac{D}{2d^{2}}\sin(\theta) + S_{v}$$
-$$S_{v} = \left( \frac{D}{2d^{2}} -\frac{2g}{d}\right)\sin(\theta) + \ddot{\theta}$$
+$$S_{v} = \frac{Md^{2}}{2D}\ddot{\theta}+\left( \frac{1}{4} - \frac{d}{D} \right)Mg\sin(\theta)$$
 On applique maintenant le TMC en $P$ par rapport à $Oz$, 
 Les moments qui s'appliquent sont : 
 $$\begin{cases}
@@ -52,21 +51,6 @@ $$\begin{cases}
 \mathcal{M}(\overrightarrow{O}) = 0
 \end{cases}$$
 Comme,
-$$J_{Oz} = \frac{1}{3}\frac{Md}{D}D^{2}$$
-Alors, 
-$$\frac{1}{3}MdD \ddot{\theta} = dS_{v} + \frac{Md^{2}}{D}g\sin(\theta)$$
+$$J_{Oz} = \frac{1}{3}\frac{Md}{D}D^{2} = \frac{1}{3}MdD$$
 Donc, 
-$$\ddot{\theta} =  \frac{3}{MD}S_{v} + \frac{3d}{D^{2}}g\sin(\theta)$$
-Puis en injectant dans le TRC : 
-$$S_{v}\left( 1-\frac{3}{MD} \right) = \left( \frac{D}{2d^{2}}+ \frac{3d}{D^{2}}g-\frac{2g}{d} \right)\sin(\theta)$$
-$$S_{v}(MD - 3) = \left( \frac{MD^{2}}{2d^{2}} + \frac{3Md}{D} - \frac{2MgD}{d} \right)\sin(\theta)$$
-___
-
-$$J_{Oz} = \frac{1}{3}MD^{2}$$
-Alors, 
-$$\frac{1}{3}MD^{2} \ddot{\theta} = dS_{v} + \frac{Md^{2}}{D}g\sin(\theta)$$
-Donc, 
-$$\ddot{\theta} =  \frac{3d}{MD^{2}}S_{v} + \frac{3d^{2}}{D^{3}}g\sin(\theta)$$
-Puis en injectant dans le TRC : 
-$$S_{v}\left( 1-\frac{3d}{MD^{2}} \right) = \left( \frac{D}{2d^{2}}+ \frac{3d^{2}}{D^{3}}g-\frac{2g}{d} \right)\sin(\theta)$$
-$$S_{v}(MD - 3) = \left( \frac{MD^{2}}{2d^{2}} + \frac{3Md}{D} - \frac{2MgD}{d} \right)\sin(\theta)$$
+$$\ddot{\theta} = \frac{3}{MD}S_{v} + \frac{3d}{D^{2}}g\sin(\theta)$$
