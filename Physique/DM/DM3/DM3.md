@@ -34,41 +34,4 @@ $$\boxed{R_{u} = \frac{5}{2}Mg\cos(\theta)-\frac{3}{2}Mg}$$
 $$R_{u} = 0 \Leftrightarrow \cos(\theta) = \frac{3}{5} \Leftrightarrow \theta \approx \frac{2\pi}{7} (= 53°)$$
 
 #### 4.
-On applique un TMC du point $O$ projeté sur $\vec{e}_{z}$ : 
-$$J_{O} \ddot{\theta} = \frac{Mgd}{2}\sin(\theta) + dS_{v}$$
-$$\ddot{\theta} = \frac{3gd}{2D^{2}}\sin(\theta) + \frac{3d}{MD^{2}}S_{v}$$
-La masse linéique est égale en tout point de la cheminée : $\frac{M_{d}}{d} = \frac{M}{D} \Leftrightarrow M_{d} = M \frac{d}{D}$ 
-Ensuite, on applique le TRC sur la longueur $d$ : 
-$$M_{d}\vec{a} = -M_{d}g(\cos(\theta)\vec{u} -\sin(\theta)\vec{v}) + \vec{S} + \vec{R}$$
-Comme : 
-$$\vec{a} = \frac{d}{2} (\ddot{\theta} \vec{v} -\dot{\theta}^{2}\vec{u})$$
-En projetant sur $\vec{v}$ : 
-$$M_{d} \frac{d}{2}\ddot{\theta} = M_{d}g\sin(\theta) + S_{v} + R_{v}$$
-Alors,
-
-___
-On applique un TMC du point $G$ projeté sur $\vec{e}_{z}$ : 
-$$J_{O_{G}} \ddot{\theta} = -\frac{MgD}{8}\sin(\theta) + \left( d-\frac{D}{2} \right)S_{v}$$
-$$\ddot{\theta} = \frac{3g}{2D}\sin(\theta)+\frac{6}{MD}\left( \frac{2d}{D}-1 \right)S_{v}$$
-Alors, 
-$$\frac{3Md^{2}g}{4D^{2}}\sin(\theta) + \frac{6d^{2}}{2D^{2}}\left( \frac{2d}{D}-1 \right)S_{v}-S_{v} = \frac{Mdg}{D} -\frac{Mg}{4}\sin(\theta)$$
-
-$$$$
-
-
-
-
-
-#### 5.
-$$S_{v} = \frac{3Mg}{4}\sin(\theta)\left( \frac{2dD}{D^{2}-3d^{2}} - \frac{D^{2}}{D^{2}-3d^{2}}\right)$$
-$$= \dots \left( \frac{2}{\frac{D}{d}-\frac{3d}{D}}-\frac{1}{1-3\left( \frac{d}{D} \right)^{2}} \right)$$
-
-
-
-
-## 6.
-$$\overrightarrow{\mathcal{M}}(\vec{S}) = \overrightarrow{OP} \wedge \vec{S} = d (\vec{u} \wedge \vec{S}).\vec{e}_{z} = dS_{v}\vec{e}_{z} + dC\vec{v}$$
-$$\overrightarrow{\mathcal{M}}(\vec{P}) = \frac{MgD}{2}\sin(\theta) $$
-$$\overrightarrow{\mathcal{M}}(\overrightarrow{O}) = \overrightarrow{0}$$
-Alors, 
-$$\frac{1}{3}MD^{2} \ddot{\theta} = \left( \frac{MgD}{2} + dS_{v}\right) \vec{e}_{z} + dC \vec{v}$$
+On fait un TRC sur la chemib
