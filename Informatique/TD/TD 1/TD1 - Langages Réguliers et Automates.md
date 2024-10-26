@@ -1,10 +1,7 @@
 # Exercice 2
 ## 2.
-Soit $u \in (A \cup B)^{*}$, 
-alors, il existe pour $n \in \mathbb{N}^{*}$ $x_{1}, \dots, x_{n}\in A \cup B$, tels que : 
-$$u = x_{1}\dots x_{n}$$
-Si, $\forall i \in [\![1, n]\!], x_{i} \in A$, (analogue pour $B$)
-$$u \in A^{*}\subset (A^{*} \cdot B^{*})^{*}$$
-en prenant le mot vide pour $B^{*}$, et comme $A^{*} = (A^{*})^{*}$,
-Sinon,
-$$\exists p \in \mathbb{N}^{*}, \exists(y_{i})_{i = 1}^{p}\in A^{p}, \exists (z_{i})_{i = 1}^{n-p} \in B^{n-p}, \exists \sigma \in S_{n}$$
+Soit $u \in (A^{*}\cdot B^{*})^{*}$,
+il existe, $u_{1}, \dots, u_{n} \in A^{*}\cdot B^{*}$, tels que il existe, $a_{1},\dots, a_{n} \in A^{*}$ et $b_{1}, \dots, b_{n} \in B^{*}$ tels que $\forall i \in [\![1, n]\!], u_{i}=a_{i}b_{i}$ 
+alors, 
+$$u = a_{1}b_{1}\dots a_{n}b_{n}$$
+Donc, comme $\forall i \in [\![1, n]\!], a_{i}, b_{i} \in (A \cup B)^{*}$ 
