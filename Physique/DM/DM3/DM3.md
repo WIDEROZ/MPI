@@ -54,3 +54,5 @@ Comme,
 $$J_{Oz} = \frac{1}{3}\frac{Md}{D}D^{2} = \frac{1}{3}MdD$$
 Donc, 
 $$\ddot{\theta} = \frac{3}{MD}S_{v} + \frac{3d}{D^{2}}g\sin(\theta)$$
+Alors, 
+$$S_{v}\left( 1-\frac{3d^{2}}{2D^{2}} \right) = \left( \frac{1}{4} + \frac{3d^{3}}{2D^{3}} - \frac{d}{D} \right)Mg\sin(\theta)$$
