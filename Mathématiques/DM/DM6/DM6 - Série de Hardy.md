@@ -83,6 +83,12 @@ $$\boxed{K = \frac{\pi}{2}-\alpha}$$
 qui est strictement positif car : $\frac{1}{2} < \alpha \leq 1 < \frac{\pi}{2}$,
 
 #### g.
+Soit $n \in \mathbb{N}^{*}$, 
+Soit $t \in [1, + \infty[$, 
 On a montré dans la question précédente que :
-$$\forall t \in [1, + \infty[, \left| \varphi'(t)\right| \leq \frac{K}{t^{\alpha+1/2}}$$
-$$\left| \varphi(n)\right|=\left| \int_{n}^{n+1} \varphi'(t) \, dt \right| $$
+$$\left| \varphi'(t)\right| \leq \frac{K}{t^{\alpha+1/2}}$$
+Donc par croissance de l'intégrale et inégalité de la moyenne et précédente : 
+$$\left| \varphi(t) - \varphi(n)\right|=\left| \int_{n}^{t} \varphi'(\xi) \, d\xi \right| \leq K\int_{n}^{t} \frac{1}{\xi^{\alpha+1/2}} \, d\xi $$
+Alors : 
+$$\int_{n}^{t} \frac{1}{\xi^{\alpha+1/2}} \, d\xi =- \frac{1}{\alpha-\frac{1}{2}} \left( \frac{1}{t^{\alpha-1/2}} - \frac{1}{n^{\alpha-1/2}}\right)$$
+On a : 
