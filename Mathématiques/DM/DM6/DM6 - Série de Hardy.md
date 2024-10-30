@@ -68,3 +68,15 @@ $$\int _{n}^{n+1} \frac{\sin(\pi \sqrt{n})}{n^{\alpha}} \, dt = \frac{\sin(\pi \
 Alors, 
 $$\left| a_{n} - b_{n}\right| = \left| \int _{n}^{n+1} \left( \frac{\sin(\pi \sqrt{t})}{t^{\alpha}}-\frac{\sin(\pi \sqrt{n})}{n^{\alpha}} \right) \, dt\right| $$
 car $\left| \cdot\right|$ est paire. 
+Donc, par l'inégalité de la moyenne intégrale : 
+$$\boxed{\left| a_{n} - b_{n}\right| \leq \int _{n}^{n+1} \left| \varphi(t) - \varphi(n)\right| \, dt }$$
+
+#### f.
+$\varphi$ est bien dérivable sur $[1, + \infty[$ car c'est un quotient de fonctions dérivables sur $[1, + \infty[$. 
+
+$$ \begin{array}{rl}
+\forall t \in [1, + \infty[, &\varphi'(t) &=  \pi\frac{\cos(\pi \sqrt{t})}{2t^{\alpha+ 1/2}} -\alpha \frac{\sin(\pi \sqrt{t})}{t^{\alpha+1}}  \\
+&&= \frac{1}{t^{\alpha+1/2}}\left( \frac{\pi}{2}\cos(\pi \sqrt{t})-\frac{\alpha \sin(\pi \sqrt{t})}{\sqrt{t}} \right)
+\end{array}$$
+Puis, 
+$$\forall t \in [1, + \infty[, \left| \varphi'(t)\right|\leq \frac{1}{t^{\alpha+1/2}}()$$
