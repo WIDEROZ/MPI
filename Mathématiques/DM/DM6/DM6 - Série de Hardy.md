@@ -102,8 +102,8 @@ Ainsi,
 $$\sqrt{n+1} = \frac{1}{2\sqrt{n}}+ O\left( \frac{1}{n^{3/2}} \right)$$
 
 ###### (2)
-$$e^{ i\pi \sqrt{1+ \frac{1}{n}} } = e^{ i\pi\left( 1+ \frac{1}{2n} + O(n^{2}) \right) }=e^{ i\pi }e^{ \frac{1}{2n}+O\left( \frac{1}{n^{2}} \right) }$$
-$$=e^{ i\pi } \left( 1+\frac{1}{2n}+O\left( \frac{1}{n^{2}} \right)+O\left( \frac{1}{n^{2}} \right) \right)$$
-$$= e^{ i\pi }\left( 1+\frac{1}{2n} \right)+O\left( \frac{1}{n^{2}} \right)$$
+$$e^{ i\pi \sqrt{1+ n} } = e^{ i\pi \sqrt{n}\left( 1+ \frac{1}{2n} + O(n^{2}) \right) }=e^{ i\pi \sqrt{n} }e^{ i\pi\left( \frac{1}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}} \right) \right) }$$
+$$=e^{ i\pi \sqrt{n} } \left( 1+\frac{i\pi}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}}\right)+\left( i\pi\left( \frac{1}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}} \right) \right) \right)+O\left( \frac{1}{n^{2}} \right) \right)$$
+$$e^{ i\pi \sqrt{n} }\left( 1+\frac{i\pi}{2\sqrt{n}}-\frac{\pi^{2}}{2\sqrt{n}}+\frac{i\pi}{2\sqrt{n}}O\left( \frac{1}{n^{3/2}} \right)+O\left( \frac{1}{n^{3}} \right) \right)$$
+$$= e^{ i\pi \sqrt{n}}\left( 1+\frac{1}{2\sqrt{n}} \right)+O\left( \frac{1}{n^{3/2}} \right)$$
 Alors, 
-$$e^{ n }e^{ i\pi \frac{1}{\sqrt{n}} } = e^{ n }(1+i\pi)$$
