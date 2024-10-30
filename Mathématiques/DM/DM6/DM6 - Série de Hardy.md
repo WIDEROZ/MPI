@@ -17,5 +17,16 @@ $$\int _{1}^{x} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt = 2\int _{1}^\sqrt{x
 
 #### b.
 On effectue une integration par parties : 
-On pose par integration par part
-$$$$
+On pose par integration par parties : 
+$$\begin{cases} 
+v = \frac{1}{u^{2\alpha-1}} \\
+dv = -\frac{2\alpha-1}{u^{2\alpha}} du
+\end{cases} \text{ et }\begin{cases}
+w = -\frac{1}{\pi} \cos(\pi u) \\
+dw = \sin(\pi u)du
+\end{cases}$$
+Alors, 
+$$\boxed{I_{x} = \frac{2}{\pi}\left[ -\frac{\cos(\pi u)}{u^{2\alpha-1}} \right]_{1}^{\sqrt{x}} - \frac{2(2\alpha-1)}{\pi} \int_{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, dx }$$
+
+#### c.
+$$I_{x} = \frac{2}{\pi}\left( \frac{1}{}-\sqrt{x}\frac{\cos(\sqrt{x})}{x^{\alpha}} \right) $$
