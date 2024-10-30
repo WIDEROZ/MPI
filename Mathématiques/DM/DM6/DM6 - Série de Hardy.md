@@ -90,6 +90,8 @@ $$\left| \varphi'(t)\right| \leq \frac{K}{t^{\alpha+1/2}}$$
 Donc par croissance de l'intégrale et inégalité de la moyenne et précédente : 
 $$\left| \varphi(t) - \varphi(n)\right|=\left| \int_{n}^{t} \varphi'(\xi) \, d\xi \right| \leq K\int_{n}^{t} \frac{1}{\xi^{\alpha+1/2}} \, d\xi $$
 Alors : 
-$$\int_{n}^{t} \frac{1}{\xi^{\alpha+1/2}} \, d\xi =- \frac{1}{\alpha-\frac{1}{2}} \left( \frac{1}{t^{\alpha-1/2}} - \frac{1}{n^{\alpha-1/2}}\right)$$
-Donc il suffit de calculer : 
-$$\int _{n}^{n+1} \frac{1}{t^{\alpha-1/2}} \, dt = -\frac{1}{\alpha-\frac{3}{2}}\left( \frac{1}{(n+1)^{\alpha-3/2}}- \frac{1}{n^{\alpha-3/2}} \right)$$
+$$\int_{n}^{t} \frac{1}{\xi^{\alpha+1/2}} \, d\xi =- \frac{1}{\alpha-\frac{1}{2}} \left( \frac{1}{t^{\alpha-1/2}} - \frac{1}{n^{\alpha-1/2}}\right) $$
+Si $t\geq n$, 
+$$\left| \varphi(t) - \varphi(n)\right| \leq \frac{K}{n^{\alpha+1/2}}$$
+Si $t \leq n$, 
+$$\left| \varphi(t) - \varphi(n)\right| \leq \frac{K}{t^{\alpha+1/2}}$$
