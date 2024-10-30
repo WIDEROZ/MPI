@@ -79,4 +79,9 @@ $$ \begin{array}{rl}
 &&= \frac{1}{t^{\alpha+1/2}}\left( \frac{\pi}{2}\cos(\pi \sqrt{t})-\frac{\alpha \sin(\pi \sqrt{t})}{\sqrt{t}} \right)
 \end{array}$$
 Puis, 
-$$\forall t \in [1, + \infty[, \left| \varphi'(t)\right|\leq \frac{1}{t^{\alpha+1/2}}()$$
+$$\boxed{\forall t \in [1, + \infty[, \left| \varphi'(t)\right|\leq \frac{1}{t^{\alpha+1/2}}\left( \frac{\pi}{2} - \frac{\alpha}{\sqrt{t}} \right)\leq \frac{\frac{\pi}{2}-\alpha}{t^{\alpha+1/2}}}$$
+Ainsi, 
+$$\boxed{K = \frac{\pi}{2}-\alpha}$$
+
+#### g.
+$$\left| \varphi'(t) - \varphi'(n)\right|\geq \left| \varphi'(t)\right|$$
