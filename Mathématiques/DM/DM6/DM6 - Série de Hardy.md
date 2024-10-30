@@ -104,9 +104,16 @@ $$\sqrt{n+1} = \frac{1}{2\sqrt{n}}+ O\left( \frac{1}{n^{3/2}} \right)$$
 ###### (2)
 $$e^{ i\pi \sqrt{1+ n} } = e^{ i\pi \sqrt{n}\left( 1+ \frac{1}{2n} + O(n^{2}) \right) }=e^{ i\pi \sqrt{n} }e^{ i\pi\left( \frac{1}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}} \right) \right) }$$
 $$=e^{ i\pi \sqrt{n} } \left( 1+\frac{i\pi}{2\sqrt{n}}+\frac{\left( i\pi\left( \frac{1}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}} \right) \right) \right)^{2}}{2}+O\left( \frac{1}{n^{2}} \right) \right)$$
-$$= e^{ i\pi \sqrt{n} }\left( 1+\frac{i\pi}{2\sqrt{n}}-\frac{\pi^{2}}{2n}+O\left( \frac{1}{n^{3}} \right) \right)$$
-$$= e^{ i\pi \sqrt{n}}\left( 1+\frac{1}{2\sqrt{n}} \right)+O\left( \frac{1}{n^{3/2}} \right)$$
+$$= e^{ i\pi \sqrt{n} }\left( 1+\frac{i\pi}{2\sqrt{n}}-\frac{\pi^{2}}{8n}+O\left( \frac{1}{n^{3/2}} \right) \right)$$
 Alors, 
-$$O\left( \frac{1}{n^{2}} \right)O\left( \frac{1}{n^{2}} \right) = O\left( \frac{1}{n^{4}} \right)$$
-$$O\left( \frac{1}{n^{2}} \right)O\left( \frac{1}{n^{2}} \right)n^{4} \leq M$$
-$$$$
+$$e^{ i\pi \sqrt{n+1} }-e^{ i\pi \sqrt{n} } = \frac{i\pi e^{ i\pi \sqrt{n} }}{2\sqrt{n}}-\frac{\pi^{2}e^{ i\pi \sqrt{n} }}{8n}+ O\left( \frac{1}{n^{3/2}} \right)$$
+
+###### (3)
+Il suffit de prendre la partie réelle du calcul précédent (qui fonctionne bien grace à la linéarité de la partie réelle)
+Comme : 
+$$\mathrm{Re}(e^{ i\pi \sqrt{n+1} } - e^{ i\pi \sqrt{n+1} }) = \cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n})$$
+On a : 
+$$\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqrt{n}}-\frac{\pi^{2}\cos(\pi \sqrt{n})}{8n} + O\left( \frac{1}{n^{3/2}} \right)$$
+
+#### b.
+$$\sum_{k = 0}^{n}(\cos(\pi \sqrt{k+1})-\cos(\pi \sqrt{k})) = \cos(\pi \sqrt{n+1})-1$$
