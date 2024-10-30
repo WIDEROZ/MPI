@@ -60,6 +60,11 @@ $$\boxed{\sum_{k = 1}^{+ \infty}b_{n} \text{ Converge}}$$
 
 #### e.
 Soit $n \in \mathbb{N}^{*}$, 
-$$\int _{n}^{n+1} \left| \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} - \frac{\sin(\pi \sqrt{n})}{n^{\alpha}}\right| \, dt \geq \int _{n}^{n+1}\left| \frac{\sin(\pi \sqrt{t})}{t^{\alpha}}\right| \, dt - \left| a_{n}\right| $$
+$$ \left| a_{n} - b_{n}\right|\geq \left| a_{n}\right|-\left| b_{n}\right|$$
 
-$$$$
+$$\left| a_{n} - b_{n}\right| =\left| \frac{\sin(\pi \sqrt{n})}{n^{\alpha}} - \int _{n}^{n+1} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt \right|$$
+Or, 
+$$\int _{n}^{n+1} \frac{\sin(\pi \sqrt{n})}{n^{\alpha}} \, dt = \frac{\sin(\pi \sqrt{n})}{n^{\alpha}}$$
+Alors, 
+$$\left| a_{n} - b_{n}\right| = \left| \int _{n}^{n+1} \left( \frac{\sin(\pi \sqrt{t})}{t^{\alpha}}-\frac{\sin(\pi \sqrt{n})}{n^{\alpha}} \right) \, dt\right| $$
+car $\left| \cdot\right|$ est paire. 
