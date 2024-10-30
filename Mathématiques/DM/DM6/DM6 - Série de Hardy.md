@@ -13,7 +13,8 @@ $$\boxed{\sum_{n \in \mathbb{N}}a_{n} \text{ Converge pour }\alpha >1}$$
 On pose : 
 $$I_{x} = \int _{0}^{x} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt $$
 #### a.
-$$\int _{1}^{x} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt = 2\int _{1}^\sqrt{x} \frac{\sin(\pi u)}{u^{2\alpha-1}} \, du $$
+$$\boxed{\int _{1}^{x} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt = 2\int _{1}^\sqrt{x} \frac{\sin(\pi u)}{u^{2\alpha-1}} \, du }$$
+car $x>1>0$, et $\sqrt{t}>0$.
 
 #### b.
 On effectue une integration par parties : 
@@ -26,7 +27,20 @@ w = -\frac{1}{\pi} \cos(\pi u) \\
 dw = \sin(\pi u)du
 \end{cases}$$
 Alors, 
-$$\boxed{I_{x} = \frac{2}{\pi}\left[ -\frac{\cos(\pi u)}{u^{2\alpha-1}} \right]_{1}^{\sqrt{x}} - \frac{2(2\alpha-1)}{\pi} \int_{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, dx }$$
+$$\boxed{I_{x} = \frac{2}{\pi}\left[ -\frac{\cos(\pi u)}{u^{2\alpha-1}} \right]_{1}^{\sqrt{x}} - \frac{2(2\alpha-1)}{\pi} \int_{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du}$$
 
 #### c.
-$$I_{x} = \frac{2}{\pi}\left( \frac{1}{}-\sqrt{x}\frac{\cos(\sqrt{x})}{x^{\alpha}} \right) $$
+$$I_{x} = \frac{2}{\pi}\left( 1-\sqrt{x}\frac{\cos(\sqrt{x})}{x^{\alpha}} - (2\alpha-1)\int _{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du \right) $$
+
+On pose par IPP : 
+$$\begin{cases} 
+v = \cos(\pi u) \\
+dv = -\pi \sin(\pi u) du
+\end{cases} \text{ et }\begin{cases}
+w = \frac{1}{1-2\alpha} \times \frac{1}{u^{2\alpha-1}} \\
+dw = \frac{1}{u^{2\alpha}} du
+\end{cases}$$
+Alors, 
+$$\int _{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du = \frac{1}{1-2\alpha} \left( \left[ \frac{\cos(\pi u)}{u^{2\alpha-1}} \right]_{1}^{\sqrt{x}} + \pi\int _{1}^{\sqrt{x}} \frac{\sin(\pi u)}{u^{2\alpha-1}}\, du \right) $$
+Donc, 
+$$I_{x} = \frac{2}{\pi}\left( 1-\sqrt{x}\frac{\cos(\sqrt{x})}{x^{\alpha}} + \sqrt{x}\left( \frac{\cos(\pi \sqrt{x})}{x^{\alpha}} \right)-1+\pi I_{x} \right)$$
