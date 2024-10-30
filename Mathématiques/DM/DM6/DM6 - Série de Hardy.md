@@ -30,8 +30,6 @@ Alors,
 $$\boxed{I_{x} = \frac{2}{\pi}\left[ -\frac{\cos(\pi u)}{u^{2\alpha-1}} \right]_{1}^{\sqrt{x}} - \frac{2(2\alpha-1)}{\pi} \int_{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du}$$
 
 #### c.
-$$I_{x} = \frac{2}{\pi}\left( 1-\sqrt{x}\frac{\cos(\pi\sqrt{x})}{x^{\alpha}} - (2\alpha-1)\int _{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du \right) $$
-
 On pose par IPP : 
 $$\begin{cases} 
 v = \frac{1}{u^{2\alpha}} \\
@@ -40,15 +38,16 @@ dv = -\frac{2\alpha}{u^{2\alpha+1}} du
 w = \frac{1}{\pi} \sin(\pi u) \\
 dw = \cos(\pi u)du
 \end{cases}$$
-$$\begin{cases} 
-v = -\frac{2\alpha-1}{u^{2\alpha-1}} \\
-dv = \frac{1}{u^{2\alpha}} du
-\end{cases} \text{ et }\begin{cases}
-w = \frac{1}{\pi} \sin(\pi u) \\
-dw = \cos(\pi u)du
-\end{cases}$$
-
-
-
 Alors, 
 $$\int _{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du = \frac{1}{\pi}\left(\left[ \frac{\cos(\pi u)}{u^{2\alpha}} \right]_{1}^{\sqrt{x}} - \int _{1}^{\sqrt{x}}  \, du  \right) $$
+Puis, 
+$$\begin{cases} 
+v = -\frac{1}{2\alpha-1} \times \frac{1}{u^{2\alpha-1}} \\
+dv = \frac{1}{u^{2\alpha}} du
+\end{cases} \text{ et }\begin{cases}
+w =\cos(\pi u) \\
+dw = -\pi\sin(\pi u)du
+\end{cases}$$
+Donc, 
+$$\int _{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du = \frac{1}{2\alpha-1}\left( -\left[ \frac{\cos(\pi u)}{u^{2\alpha-1}} \right]_{1}^{\sqrt{x}} - \pi\int _{1}^{x} \frac{\sin(\pi u)}{u^{2\alpha-1}} \, du \right)$$
+$$I_{x} = I_{x}$$
