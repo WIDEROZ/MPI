@@ -95,7 +95,15 @@ $$\left| \varphi(t)-\varphi(n)\right|=\left| \int_{n}^{t} \varphi'(x) \, dx \rig
 # Question 3
 #### a.
 ###### (1)
-$$\sqrt{n}\left( \sqrt{1+\frac{1}{n}}-\sqrt{\frac{1}{n}} \right) = \sqrt{n}\left(\left( 1+\frac{1}{n}-\frac{1}{2}+O\left( \frac{1}{n} \right) \right) -\frac{1}{\sqrt{n}} \right)$$
+$$\sqrt{1+\frac{1}{n}} = 1+\frac{1}{2n} + O\left( \frac{1}{n^{2}} \right)$$
+Alors, 
+$$\sqrt{n+1} = \sqrt{n}+\frac{1}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}} \right)$$
+Ainsi, 
+$$\sqrt{n+1} = \frac{1}{2\sqrt{n}}+ O\left( \frac{1}{n^{3/2}} \right)$$
 
-
-$$(1+x)^{\alpha} = \sum_{k = 0}^{n} \frac{x^{k}}{k!}$$
+###### (2)
+$$e^{ i\pi \sqrt{1+ \frac{1}{n}} } = e^{ i\pi\left( 1+ \frac{1}{2n} + O(n^{2}) \right) }=e^{ i\pi }e^{ \frac{1}{2n}+O\left( \frac{1}{n^{2}} \right) }$$
+$$=e^{ i\pi } \left( 1+\frac{1}{2n}+O\left( \frac{1}{n^{2}} \right)+O\left( \frac{1}{n^{2}} \right) \right)$$
+$$= e^{ i\pi }\left( 1+\frac{1}{2n} \right)+O\left( \frac{1}{n^{2}} \right)$$
+Alors, 
+$$e^{ n }e^{ i\pi \frac{1}{\sqrt{n}} } = e^{ n }(1+i\pi)$$
