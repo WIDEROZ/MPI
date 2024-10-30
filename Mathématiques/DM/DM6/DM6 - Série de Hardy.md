@@ -56,4 +56,10 @@ Par la relation de Chasles.
 Alors, Comme
 $$\sum_{k=1}^{+ \infty} b_{n} = \lim_{ n \to +\infty } I_{n} $$
 Et que $I_{n}$ converge, 
-$$\sum_{k = 1}^{+ \infty}b_{n} \text{ Conveqr}$$
+$$\boxed{\sum_{k = 1}^{+ \infty}b_{n} \text{ Converge}}$$
+
+#### e.
+Soit $n \in \mathbb{N}^{*}$, 
+$$\int _{n}^{n+1} \left| \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} - \frac{\sin(\pi \sqrt{n})}{n^{\alpha}}\right| \, dt \geq \int _{n}^{n+1}\left| \frac{\sin(\pi \sqrt{t})}{t^{\alpha}}\right| \, dt - \left| a_{n}\right| $$
+
+$$$$
