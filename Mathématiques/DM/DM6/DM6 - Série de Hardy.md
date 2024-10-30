@@ -88,4 +88,14 @@ Soit $t \in [1, + \infty[$,
 On a montré dans la question précédente que :
 $$\left| \varphi'(t)\right| \leq \frac{K}{t^{\alpha+1/2}}$$
 Donc par croissance de l'intégrale et inégalité de la moyenne et précédente.
-$$$$
+$$\left| \varphi(t)-\varphi(n)\right|=\left| \int_{n}^{t} \varphi'(x) \, dx \right| \leq \int _{n}^{t} \left| \varphi(x) \right| \, dx \leq K\int_{n}^{t} \frac{1}{x^{\alpha+1/2}} \, dx $$
+
+.....
+
+# Question 3
+#### a.
+###### (1)
+$$\sqrt{n}\left( \sqrt{1+\frac{1}{n}}-\sqrt{\frac{1}{n}} \right) = \sqrt{n}\left(\left( 1+\frac{1}{n}-\frac{1}{2}+O\left( \frac{1}{n} \right) \right) -\frac{1}{\sqrt{n}} \right)$$
+
+
+$$(1+x)^{\alpha} = \sum_{k = 0}^{n} \frac{x^{k}}{k!}$$
