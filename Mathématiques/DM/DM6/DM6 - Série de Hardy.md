@@ -60,8 +60,6 @@ $$\boxed{\sum_{k = 1}^{+ \infty}b_{n} \text{ Converge}}$$
 
 #### e.
 Soit $n \in \mathbb{N}^{*}$, 
-$$ \left| a_{n} - b_{n}\right|\geq \left| a_{n}\right|-\left| b_{n}\right|$$
-
 $$\left| a_{n} - b_{n}\right| =\left| \frac{\sin(\pi \sqrt{n})}{n^{\alpha}} - \int _{n}^{n+1} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt \right|$$
 Or, 
 $$\int _{n}^{n+1} \frac{\sin(\pi \sqrt{n})}{n^{\alpha}} \, dt = \frac{\sin(\pi \sqrt{n})}{n^{\alpha}}$$
@@ -82,6 +80,7 @@ Puis,
 $$\boxed{\forall t \in [1, + \infty[, \left| \varphi'(t)\right|\leq \frac{1}{t^{\alpha+1/2}}\left( \frac{\pi}{2} - \frac{\alpha}{\sqrt{t}} \right)\leq \frac{\frac{\pi}{2}-\alpha}{t^{\alpha+1/2}}}$$
 Ainsi, 
 $$\boxed{K = \frac{\pi}{2}-\alpha}$$
+qui est strictement positif car : $\frac{1}{2} < \alpha \leq 1 < \frac{\pi}{2}$,
 
 #### g.
-$$\left| \varphi'(t) - \varphi'(n)\right|\geq \left| \varphi'(t)\right|$$
+$$\left| a_{n} - b_{n}\right| =\left| \frac{\sin(\pi \sqrt{n})}{n^{\alpha}} - \int _{n}^{n+1} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt \right|$$
