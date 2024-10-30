@@ -11,7 +11,7 @@ $$\boxed{\sum_{n \in \mathbb{N}}a_{n} \text{ Converge pour }\alpha >1}$$
 
 # Question 2
 On pose : 
-$$I_{x} = \int _{0}^{x} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt $$
+$$I_{x} = \int _{1}^{x} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt $$
 #### a.
 $$\boxed{\int _{1}^{x} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt = 2\int _{1}^\sqrt{x} \frac{\sin(\pi u)}{u^{2\alpha-1}} \, du }$$
 car $x>1>0$, et $\sqrt{t}>0$.
@@ -38,4 +38,22 @@ $$\forall u \in [1, + \infty[, \left| \frac{\cos(\pi u)}{u^{2\alpha}}\right|>0$$
 On a : 
 $$\int _{1}^{+ \infty} \frac{1}{u^{2\alpha}} \, du \text{ qui converge} $$
 Ainsi : 
-$$\int _{1}^{+ \infty} \frac{\cos(\pi u)}{u^{2\alpha}} \, du \text{ Converge ablsolument, donc converge} $$
+$$\int _{1}^{+ \infty} \frac{\cos(\pi u)}{u^{2\alpha}} \, du \text{ est intégrable, donc converge} $$
+Ainsi, 
+comme : 
+$$I_{x} = \frac{2}{\pi}\left( 1-\sqrt{x}\frac{\cos(\pi \sqrt{x})}{x^{\alpha}}-(2\alpha-1)\int_{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du  \right)$$
+et que : 
+$$0 = \lim_{ x \to +\infty } -\frac{1}{x^{\alpha-1/2}}\leq \lim_{ x \to +\infty } \frac{\cos(\pi \sqrt{x})}{x^{\alpha-1/2}} \leq \lim_{ x \to +\infty }\frac{1}{x^{\alpha-1/2}} = 0 $$
+car $\alpha \in ] \frac{1}{2}, 1]$, 
+$$\lim_{ x \to +\infty } I_{x} = \frac{2}{\pi}\left( 1-(2\alpha-1)\lim_{ x \to +\infty }\int _{1}^{\sqrt{x}} \frac{\cos(\pi u)}{u^{2\alpha}} \, du  \right)$$
+Ainsi, 
+$$\boxed{I_{x} \text{ Converge}}$$
+
+#### d.
+Soit $n \in \mathbb{N}^{*}$, 
+$$\sum_{k = 1}^{n-1} b_{n} = I_{n}$$
+Par la relation de Chasles. 
+Alors, Comme
+$$\sum_{k=1}^{+ \infty} b_{n} = \lim_{ n \to +\infty } I_{n} $$
+Et que $I_{n}$ converge, 
+$$\sum_{k = 1}^{+ \infty}b_{n} \text{ Conveqr}$$
