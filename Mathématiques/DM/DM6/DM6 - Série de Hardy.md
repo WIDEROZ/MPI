@@ -83,4 +83,6 @@ $$\boxed{K = \frac{\pi}{2}-\alpha}$$
 qui est strictement positif car : $\frac{1}{2} < \alpha \leq 1 < \frac{\pi}{2}$,
 
 #### g.
-$$\left| a_{n} - b_{n}\right| =\left| \frac{\sin(\pi \sqrt{n})}{n^{\alpha}} - \int _{n}^{n+1} \frac{\sin(\pi \sqrt{t})}{t^{\alpha}} \, dt \right|$$
+On a montré dans la question précédente que :
+$$\forall t \in [1, + \infty[, \left| \varphi'(t)\right| \leq \frac{K}{t^{\alpha+1/2}}$$
+$$\left| \varphi(n)\right|=\left| \int_{n}^{n+1} \varphi'(t) \, dt \right| $$
