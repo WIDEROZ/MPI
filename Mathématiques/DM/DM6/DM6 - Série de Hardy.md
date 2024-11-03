@@ -113,8 +113,10 @@ $$\boxed{e^{ i\pi \sqrt{n+1} }-e^{ i\pi \sqrt{n} } = \frac{i\pi e^{ i\pi \sqrt{n
 Il suffit de prendre la partie réelle du calcul précédent (qui fonctionne bien grace à la $\mathbb{R}$-linéarité de la partie réelle)
 Comme : 
 $$\mathrm{Re}(e^{ i\pi \sqrt{n+1} } - e^{ i\pi \sqrt{n+1} }) = \cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n})$$
-On a : 
-$$\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqrt{n}}-\frac{\pi^{2}\cos(\pi \sqrt{n})}{8n} + O\left( \frac{1}{n^{3/2}} \right)$$
+On a ainsi: 
+$$\boxed{\begin{array}{c}
+\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqrt{n}}-\frac{\pi^{2}\cos(\pi \sqrt{n})}{8n} + O\left( \frac{1}{n^{3/2}} \right)
+\end{array}}$$
 
 #### b.
 On pose : 
@@ -138,13 +140,17 @@ $$\boxed{(\cos(\pi \sqrt{p}))_{p \in \mathbb{N}} \text{ Diverge}}$$
 
 #### c.
 On a prouvé que : 
-$$\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqrt{n}}-\frac{\pi^{2}\cos(\pi \sqrt{n})}{8n} + O\left( \frac{1}{n^{3/2}} \right)$$
+$$\begin{array}{c}
+\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqrt{n}}-\frac{\pi^{2}\cos(\pi \sqrt{n})}{8n} + O\left( \frac{1}{n^{3/2}} \right)
+\end{array}$$
 Puis comme : 
 $$\sum_{k = 1}^{n-1} (\cos(\pi \sqrt{k+1})-\cos(\pi \sqrt{k})) = \cos(\pi \sqrt{n})+1$$
 Alors, 
 $$\cos(\pi \sqrt{n})+1 = -\frac{\pi}{2}\left( \sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}}+\frac{\pi}{4} \sum_{k =1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k} \right) + O\left( \frac{1}{n^{3/2}} \right)$$
 Donc,
-$$\sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}} = O\left( \frac{1}{n^{3/2}} \right)-\frac{\pi}{4}\sum_{k = 1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k}-\frac{2}{\pi}- \frac{2}{\pi}\cos(\pi \sqrt{n})$$
+$$\begin{array}{c}
+\underset{}{o} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}} = O\left( \frac{1}{n^{3/2}} \right)-\frac{\pi}{4}\sum_{k = 1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k}-\frac{2}{\pi}- \frac{2}{\pi}\cos(\pi \sqrt{n})
+\end{array}$$
 En faisant tendre $n$ vers l'infini, comme : 
 $$\left( O\left( \frac{1}{p^{3/2}} \right)-\frac{\pi}{4}\sum_{k = 1}^{p-1} \frac{\cos(\pi \sqrt{k})}{k}-\frac{2}{\pi} \right)_{p \in \mathbb{N}} \text{ Converge}$$
 (D'après l'hypothèse de l'énoncé puis $\frac{1}{p^{3/2}}\underset{p \to +\infty}{\longrightarrow} 0$)
