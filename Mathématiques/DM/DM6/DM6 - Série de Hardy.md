@@ -164,5 +164,8 @@ $$\boxed{\sum_{n \in \mathbb{N}^{*}} a_{n}  \text{ Converge pour }\alpha = \frac
 # Question 4
 Soit $n \in \mathbb{N}^{*}$, 
 #### a.
-$$\frac{A_{n}}{n^{1/2-\alpha}} + \sum_{k =1}^{n-1}A_{k}\left( \frac{1}{k^{1/2-\alpha}}-\frac{1}{(k+1)^{1/2-\alpha}} \right) $$
-$$$$
+$$\frac{A_{n}}{n^{1/2-\alpha}} + \sum_{k =1}^{n-1}\left( \frac{A_{k}}{k^{1/2-\alpha}}-\frac{A_{k+1}}{(k+1)^{1/2-\alpha}} \right)+ \sum_{k = 1}^{n-1} \frac{a_{k+1}}{(k+1)^{1/2-\alpha}} $$
+$$= \frac{A_{n}}{n^{1/2-\alpha}} -\frac{A_{n}}{n^{1/2-\alpha}} +\sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k+1})}{\sqrt{k+1}} = \sum_{k = 1}^{n} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}}$$
+Par télescopage, changement de variable et ajout d'un terme nul à la somme. 
+
+#### b.
