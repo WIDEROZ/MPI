@@ -117,5 +117,22 @@ $$\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqr
 
 #### b.
 On pose : 
-$$p = \{ x \in \mathbb{N} | \exists k \in \mathbb{N}, \sqrt{x} = 2k \}$$
-$$I = \{ x \in \mathbb{N} | \exists k \in \mathbb{N}, \sqrt{x} = 2k+1 \}$$
+$$\varphi : \begin{cases}
+\mathbb{N}\to \mathbb{N}  \\
+n \mapsto (2n)^{2}
+\end{cases}$$
+$$\psi : \begin{cases}
+\mathbb{N} \to \mathbb{N} \\
+n \mapsto (2n+1)^{2}
+\end{cases}$$
+Qui sont bien définies et strictement croissantes. Ce sont alors des extractrices.
+Donc, 
+$$\begin{cases}
+(\cos(\pi \sqrt{\varphi(n)}))_{n \in \mathbb{N}} = (1)_{n \in \mathbb{N}} \\
+(\cos(\pi \sqrt{\psi(n)}))_{n \in \mathbb{N}} = (-1)_{n \in \mathbb{N}}
+\end{cases}$$
+qui sont des suites extraites constantes
+Ainsi, leurs deux limites diffèrent donc la suite : 
+$$\boxed{(\cos(\pi \sqrt{n}))_{n \in \mathbb{N}} \text{ Diverge}}$$
+
+#### c.
