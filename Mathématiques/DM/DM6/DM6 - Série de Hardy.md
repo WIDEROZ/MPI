@@ -93,6 +93,7 @@ $$\left| \varphi(t)-\varphi(n)\right|=\left| \int_{n}^{t} \varphi'(x) \, dx \rig
 .....
 
 # Question 3
+Soit $n \in \mathbb{N}$, 
 #### a.
 ###### (1)
 $$\sqrt{1+\frac{1}{n}} = 1+\frac{1}{2n} + O\left( \frac{1}{n^{2}} \right)$$
@@ -119,20 +120,28 @@ $$\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqr
 On pose : 
 $$\varphi : \begin{cases}
 \mathbb{N}\to \mathbb{N}  \\
-n \mapsto (2n)^{2}
+p \mapsto (2p)^{2}
 \end{cases}$$
 $$\psi : \begin{cases}
 \mathbb{N} \to \mathbb{N} \\
-n \mapsto (2n+1)^{2}
+p \mapsto (2p+1)^{2}
 \end{cases}$$
 Qui sont bien définies et strictement croissantes. Ce sont alors des extractrices.
 Donc, 
 $$\begin{cases}
-(\cos(\pi \sqrt{\varphi(n)}))_{n \in \mathbb{N}} = (1)_{n \in \mathbb{N}} \\
-(\cos(\pi \sqrt{\psi(n)}))_{n \in \mathbb{N}} = (-1)_{n \in \mathbb{N}}
+(\cos(\pi \sqrt{\varphi(p)}))_{p \in \mathbb{N}} = (1)_{p \in \mathbb{N}} \\
+(\cos(\pi \sqrt{\psi(p)}))_{p \in \mathbb{N}} = (-1)_{p \in \mathbb{N}}
 \end{cases}$$
 qui sont des suites extraites constantes
 Ainsi, leurs deux limites diffèrent donc la suite : 
-$$\boxed{(\cos(\pi \sqrt{n}))_{n \in \mathbb{N}} \text{ Diverge}}$$
+$$\boxed{(\cos(\pi \sqrt{p}))_{p \in \mathbb{N}} \text{ Diverge}}$$
 
 #### c.
+On a prouvé que : 
+$$\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqrt{n}}-\frac{\pi^{2}\cos(\pi \sqrt{n})}{8n} + O\left( \frac{1}{n^{3/2}} \right)$$
+Puis comme : 
+$$\sum_{k = 1}^{n-1} (\cos(\pi \sqrt{k+1})-\cos(\pi \sqrt{k})) = \cos(\pi \sqrt{n})+1$$
+Alors, 
+$$\cos(\pi \sqrt{n})+1 = -\frac{\pi}{2}\left( \sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}}+\frac{\pi}{4} \sum_{k =1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k} \right) + O\left( \frac{1}{n^{3/2}} \right)$$
+Donc,
+$$\sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}} = O\left( \frac{1}{n^{3/2}} \right)-\sum_{k = 1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k} - \cos(\pi \sqrt{n})$$
