@@ -100,14 +100,14 @@ $$\sqrt{1+\frac{1}{n}} = 1+\frac{1}{2n} + O\left( \frac{1}{n^{2}} \right)$$
 Alors, 
 $$\sqrt{n+1} = \sqrt{n}+\frac{1}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}} \right)$$
 Ainsi, 
-$$\sqrt{n+1} = \frac{1}{2\sqrt{n}}+ O\left( \frac{1}{n^{3/2}} \right)$$
+$$\boxed{\sqrt{n+1}-\sqrt{n} = \frac{1}{2\sqrt{n}}+ O\left( \frac{1}{n^{3/2}} \right)}$$
 
 ###### (2)
 $$e^{ i\pi \sqrt{1+ n} } = e^{ i\pi \sqrt{n}\left( 1+ \frac{1}{2n} + O(n^{2}) \right) }=e^{ i\pi \sqrt{n} }e^{ i\pi\left( \frac{1}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}} \right) \right) }$$
 $$=e^{ i\pi \sqrt{n} } \left( 1+\frac{i\pi}{2\sqrt{n}}+\frac{\left( i\pi\left( \frac{1}{2\sqrt{n}}+O\left( \frac{1}{n^{3/2}} \right) \right) \right)^{2}}{2}+O\left( \frac{1}{n^{2}} \right) \right)$$
 $$= e^{ i\pi \sqrt{n} }\left( 1+\frac{i\pi}{2\sqrt{n}}-\frac{\pi^{2}}{8n}+O\left( \frac{1}{n^{3/2}} \right) \right)$$
 Alors, 
-$$e^{ i\pi \sqrt{n+1} }-e^{ i\pi \sqrt{n} } = \frac{i\pi e^{ i\pi \sqrt{n} }}{2\sqrt{n}}-\frac{\pi^{2}e^{ i\pi \sqrt{n} }}{8n}+ O\left( \frac{1}{n^{3/2}} \right)$$
+$$\boxed{e^{ i\pi \sqrt{n+1} }-e^{ i\pi \sqrt{n} } = \frac{i\pi e^{ i\pi \sqrt{n} }}{2\sqrt{n}}-\frac{\pi^{2}e^{ i\pi \sqrt{n} }}{8n}+ O\left( \frac{1}{n^{3/2}} \right)}$$
 
 ###### (3)
 Il suffit de prendre la partie réelle du calcul précédent (qui fonctionne bien grace à la $\mathbb{R}$-linéarité de la partie réelle)
@@ -144,4 +144,13 @@ $$\sum_{k = 1}^{n-1} (\cos(\pi \sqrt{k+1})-\cos(\pi \sqrt{k})) = \cos(\pi \sqrt{
 Alors, 
 $$\cos(\pi \sqrt{n})+1 = -\frac{\pi}{2}\left( \sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}}+\frac{\pi}{4} \sum_{k =1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k} \right) + O\left( \frac{1}{n^{3/2}} \right)$$
 Donc,
-$$\sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}} = O\left( \frac{1}{n^{3/2}} \right)-\sum_{k = 1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k} - \cos(\pi \sqrt{n})$$
+$$\sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}} = O\left( \frac{1}{n^{3/2}} \right)-\frac{\pi}{4}\sum_{k = 1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k}-\frac{2}{\pi}- \frac{2}{\pi}\cos(\pi \sqrt{n})$$
+En faisant tendre $n$ vers l'infini, comme : 
+$$\left( O\left( \frac{1}{p^{3/2}} \right)-\frac{\pi}{4}\sum_{k = 1}^{p-1} \frac{\cos(\pi \sqrt{k})}{k}-\frac{2}{\pi} \right)_{p \in \mathbb{N}} \text{ Converge}$$
+(D'après l'hypothèse de l'énoncé puis $\frac{1}{p^{3/2}}\underset{p \to +\infty}{\longrightarrow} 0$)
+et que : 
+$$\left( -\frac{2}{\pi}\cos(\pi \sqrt{p}) \right)_{p \in \mathbb{N}} \text{ Diverge}$$
+On a ainsi, 
+$$\boxed{\sum_{n \in \mathbb{N}^{*}} a_{n}  \text{ Converge pour }\alpha = \frac{1}{2}}$$
+
+# Question 4
