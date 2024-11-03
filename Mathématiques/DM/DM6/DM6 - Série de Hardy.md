@@ -116,8 +116,8 @@ On a :
 $$\cos(\pi \sqrt{n+1})-\cos(\pi \sqrt{n}) = -\frac{\pi \sin(\pi \sqrt{n})}{2\sqrt{n}}-\frac{\pi^{2}\cos(\pi \sqrt{n})}{8n} + O\left( \frac{1}{n^{3/2}} \right)$$
 
 #### b.
-$$\sum_{k = 0}^{n-1}(\cos(\pi \sqrt{k+1})-\cos(\pi \sqrt{k})) = \cos(\pi \sqrt{n})-1$$
-$$=-\sum_{k = 1}^{n-1} \frac{\pi \sin(\pi \sqrt{k})}{2\sqrt{k}} -\sum_{k = 1}^{n-1} \frac{\pi^{2}\cos(\pi \sqrt{k})}{8k}+ O\left( \frac{1}{(n-1)^{3/2}} \right)$$
+$$\sum_{k = 1}^{n-1}(\cos(\pi \sqrt{k+1})-\cos(\pi \sqrt{k})) = \cos(\pi \sqrt{n})+1$$
+$$=-\frac{\pi}{2}\sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}} -\frac{\pi^{2}}{8}\sum_{k = 1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k}+ O\left( \frac{1}{(n-1)^{3/2}} \right)$$
 Alors, 
-comme la première somme
-$$2\sin\left( \frac{\pi+\sqrt{k}}{2} \right)\cos\left( \frac{\pi-\sqrt{k}}{2} \right)$$
+$$\sum_{k = 1}^{n-1} e^{ i\pi \sqrt{k+1} }-e^{ i\pi \sqrt{k} } = \sum_{k= 1}^{n-1}\frac{i\pi e^{ i\pi \sqrt{k} }}{2\sqrt{k}}-\sum_{k = 1}^{n-1}\frac{\pi^{2}e^{ i\pi \sqrt{k} }}{8k}+ O\left( \frac{1}{(n-1)^{3/2}} \right)$$
+$$=e^{ i\pi \sqrt{n} }+1$$
