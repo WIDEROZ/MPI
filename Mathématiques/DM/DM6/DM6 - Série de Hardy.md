@@ -146,10 +146,12 @@ $$\begin{array}{c}
 Puis comme : 
 $$\sum_{k = 1}^{n-1} (\cos(\pi \sqrt{k+1})-\cos(\pi \sqrt{k})) = \cos(\pi \sqrt{n})+1$$
 Alors, 
-$$\cos(\pi \sqrt{n})+1 = -\frac{\pi}{2}\left( \sum_{k = 1}^{n-1} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}}+\frac{\pi}{4} \sum_{k =1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k} \right) + O\left( \frac{1}{n^{3/2}} \right)$$
+$$\begin{array}{c}
+\cos(\pi \sqrt{n})+1 = -\frac{\pi}{2}\left( \underset{k = 1}{\overset{n-1}{\sum}} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}}+\frac{\pi}{4} \underset{k = 1}{\overset{n-1}{\sum}}\frac{\cos(\pi \sqrt{k})}{k} \right) + O\left( \frac{1}{n^{3/2}} \right)
+\end{array}$$
 Donc,
 $$\begin{array}{c}
-\underset{}{o} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}} = O\left( \frac{1}{n^{3/2}} \right)-\frac{\pi}{4}\sum_{k = 1}^{n-1} \frac{\cos(\pi \sqrt{k})}{k}-\frac{2}{\pi}- \frac{2}{\pi}\cos(\pi \sqrt{n})
+\underset{k = 1}{\overset{n-1}{\sum}} \frac{\sin(\pi \sqrt{k})}{\sqrt{k}} = O\left( \frac{1}{n^{3/2}} \right)-\frac{\pi}{4}\underset{k = 1}{\overset{n-1}{\sum}}\frac{\cos(\pi \sqrt{k})}{k}-\frac{2}{\pi}- \frac{2}{\pi}\cos(\pi \sqrt{n})
 \end{array}$$
 En faisant tendre $n$ vers l'infini, comme : 
 $$\left( O\left( \frac{1}{p^{3/2}} \right)-\frac{\pi}{4}\sum_{k = 1}^{p-1} \frac{\cos(\pi \sqrt{k})}{k}-\frac{2}{\pi} \right)_{p \in \mathbb{N}} \text{ Converge}$$
@@ -160,3 +162,7 @@ On a ainsi,
 $$\boxed{\sum_{n \in \mathbb{N}^{*}} a_{n}  \text{ Converge pour }\alpha = \frac{1}{2}}$$
 
 # Question 4
+Soit $n \in \mathbb{N}^{*}$, 
+#### a.
+$$\frac{A_{n}}{n^{1/2-\alpha}} + \sum_{k =1}^{n-1}A_{k}\left( \frac{1}{k^{1/2-\alpha}}-\frac{1}{(k+1)^{1/2-\alpha}} \right) $$
+$$$$
