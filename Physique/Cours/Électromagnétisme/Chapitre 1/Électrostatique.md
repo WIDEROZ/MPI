@@ -23,5 +23,9 @@ l'est aussi alors comme $M \in (M, \vec{e}_{r}, \vec{e}_{z}) \cap (M, \vec{e}_{r
 $$\vec{E} = E_{r}(r) \vec{e}_{r}$$
 
 Pour calculer le champ on utilise le théorème de gauss : 
-$$\int \vec{E}_{r}(r)dS (\vec{e}_{r}.\vec{e}_{r}) = \frac{Q_{int}}{\varepsilon_{0}} $$
-$$\int \int  \, dl  \, dl $$
+$$\int\vec{E}.d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}} $$
+Alors, 
+$$\int \vec{E}.d\vec{S}_{1} + \int \vec{E}.d\vec{S}_{lat} + \int \vec{E}.d\vec{S}_{3} = \frac{Q_{int}}{\varepsilon_{0}}$$
+Alors, 
+$$\int \vec{E}.d\vec{S}_{lat} = \int E_{r}(r)dl = \frac{Q_{int}}{\varepsilon_{0}} = \int\frac{ \lambda dl}{\varepsilon_{0}}$$
+$$E_{r} = \frac{\lambda}{}$$
