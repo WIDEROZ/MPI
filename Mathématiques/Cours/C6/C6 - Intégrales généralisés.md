@@ -233,3 +233,10 @@ $\alpha > 1$,
 # IV. Intégration des relations de comparaison
 $$f, g \geq 0 \text{ sur } [a, b[ \text{ ou }]b, a]$$
 EXCAL 1
+
+#### Exercice IV.1
+Soit $x\geq2$, 
+$$F(x) = \int _{2}^{x} \, \frac{dt}{(t+1)\ln(t)} $$
+$$\frac{1}{(t+1)\ln(t)}\sim \frac{1}{t\ln(t)}\geq 0$$
+
+$$\int _{2}^{x} \frac{1}{t\ln(t)} \, dt  = \ln(\ln(x))-\ln(\ln(2)) \underset{x \to +\infty}{\longrightarrow}  +\infty$$
