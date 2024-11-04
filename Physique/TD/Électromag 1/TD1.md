@@ -1,7 +1,7 @@
 # Exercice 1
 ## 3.
 ### b.
-$$E_{y,A} \times 2\pi h = \frac{\lambda}{\varepsilon_{0}} \int dl \, dx $$
+$$E_{y,A} \times 2\pi h = \frac{\lambda}{\varepsilon_{0}} \int dl $$
 
 
 
