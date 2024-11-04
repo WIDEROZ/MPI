@@ -32,8 +32,3 @@ $$E_{r}2\pi rh = \frac{\lambda h}{\varepsilon_{0}}$$
 Ainsi, 
 $$\boxed{\vec{E} = \frac{\lambda}{2\pi \varepsilon_{0}r} \vec{e}_{r}}$$
 
-# Exercice 2
-## 1.
-$$\int \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} \int d\tau $$
-
-$$\vec{E} = \sum_{q \in D_{q}} E_{i} = $$
