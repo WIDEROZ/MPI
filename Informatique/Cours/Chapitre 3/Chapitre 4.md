@@ -79,11 +79,15 @@ Démonstration :
 Supposons $C$ non maximum, 
 Soit $C'$ un couplage maximum dans $G$ 
 
-On considère $C\Delta C'$ la différence symétrique de $C$ et $C'$. On confon
-
+On considère $C\Delta C'$ la différence symétrique de $C$ et $C'$. On confond $C\Delta C'$ avec le graphe contenant les arêtes et les sommets couverts. 
 
 Dans une composante connexe de $C \Delta C'$, tout sommet est de degré au plus $2$. Une composante connexe est dont soit un chemin, soit un cycle. 
 
 De plus, deux arêtes consécutives n’appartiennent pas à un même couplage (par définition) : on a une alternance entre les arêtes de $C$ et de $C'$.
 
-Si une composante connexe est un cycle 
+Si une composante connexe est un cycle alors elle contient autant d'arêtes dans $C$ que dans $C'$.
+
+Si toutes les composants connexes correspondant à des chemins ont au moins autant d'arêtes dans $C$ que dans $C'$, alors $C\Delta D'$ contient au moins autant d'éléments que $C$ ou d'éléments que $C'$, d'ou $\left| C\right| \geq \left| C'\right|$ : 
+Impossible car $C'$ est maximum et pas $C$
+
+Donc, il existe une composante connexe $C_{1}$ de $C\Delta C'$ correspondant à un chemin contenant strictement plus d'arêtes dans $C'$ que dans $C$ : $C_{1}$ est un chemin augmentant. 
