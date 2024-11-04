@@ -27,5 +27,13 @@ $$\int\vec{E}.d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}} $$
 Alors, 
 $$\int \vec{E}.d\vec{S}_{1} + \int \vec{E}.d\vec{S}_{lat} + \int \vec{E}.d\vec{S}_{3} = \frac{Q_{int}}{\varepsilon_{0}}$$
 Alors, 
-$$\int \vec{E}.d\vec{S}_{lat} = \int E_{r}(r)dl = \frac{Q_{int}}{\varepsilon_{0}} = \int\frac{ \lambda dl}{\varepsilon_{0}}$$
-$$E_{r} = \frac{\lambda}{}$$
+$$\int \vec{E}.d\vec{S}_{lat} = E_{r}(r)\int d\vec{S}_{lat} = \frac{Q_{int}}{\varepsilon_{0}} = \frac{ \lambda}{\varepsilon_{0}}\int dl$$
+$$E_{r}2\pi rh = \frac{\lambda h}{\varepsilon_{0}}$$
+Ainsi, 
+$$\boxed{\vec{E} = \frac{\lambda}{2\pi \varepsilon_{0}r} \vec{e}_{r}}$$
+
+# Exercice 2
+## 1.
+$$\int \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} \int d\tau $$
+
+$$\vec{E} = \sum_{q \in D_{q}} E_{i} = $$
