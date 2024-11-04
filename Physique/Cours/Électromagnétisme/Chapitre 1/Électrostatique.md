@@ -15,3 +15,4 @@ $$\lambda =\frac{dq}{dl}$$
 
 # IV.3. Champ créé par un fil fini
 #### Exercice b.
+$$\int \vec{E}.dS = -\frac{}{\varepsilon_{0}} $$
