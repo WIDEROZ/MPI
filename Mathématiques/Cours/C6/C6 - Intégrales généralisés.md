@@ -239,4 +239,15 @@ Soit $x\geq2$,
 $$F(x) = \int _{2}^{x} \, \frac{dt}{(t+1)\ln(t)} $$
 $$\frac{1}{(t+1)\ln(t)}\sim \frac{1}{t\ln(t)}\geq 0$$
 
-$$\int _{2}^{x} \frac{1}{t\ln(t)} \, dt  = \ln(\ln(x))-\ln(\ln(2)) \underset{x \to +\infty}{\longrightarrow}  +\infty$$
+$$\int _{2}^{x} \frac{1}{t\ln(t)} \, dt  = \ln(\ln(x))-\ln(\ln(2)) \underset{x \to +\infty}{\longrightarrow}  +\infty $$
+$\uparrow$ DV
+Alors,
+$$F(x) \sim \int _{2}^{x} \frac{1}{t\ln(t)} \, dt $$
+Ainsi, 
+$$F(x) \sim_{+ \infty} \ln(\ln(x))$$
+___
+Montrons que : 
+$$\exists \alpha \in \mathbb{R}, F(x) - \ln(\ln(x)) =_{+\infty} \alpha + o(1)$$
+
+$$F(x)-\ln(\ln(x)) =- \int _{2}^{+ \infty} \frac{1}{\ln(t)(t+1)t} \, dt + \ln(\ln(2)) $$
+
