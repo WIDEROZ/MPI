@@ -62,4 +62,12 @@ Un couplage est maximal s'il est maximal au sens de l'inclusion.
 Un couplage est maximum s'il est de cardinal maximum sur l'ensemble des couplages de $G$.
 Soit $v \in V$, s'il existe $a \in C$ tel que $v$ est une extrémité de $a$, on dit que $v$ est couvert par $C$ 
 
-#### Exercice 13
+#### Définition 8
+Soit $G = (V, E)$ un graphe biparti, soit $C$ un couplage à $n$ arêtes dans $G$. 
+Un chemin augmentant de $C$ dans $G$ est un chemin : $(u_{0}, \dots, u_{2k+1})$ de $2k+2$ sommets distincts tels que : 
+- $u_{0}$ et $u_{2k+1}$ ne sont pas couverts par $C$
+- $\forall i \in [\![0, k]\!], (u_{2i}, u_{2i+1}) \not\in C$
+- $\forall i \in [\![0, k-1]\!], (u_{2i+1}, u_{2i+2}) \in C$
+
+
+
