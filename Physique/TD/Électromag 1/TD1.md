@@ -1,3 +1,11 @@
+# Exercice 1
+## 3.
+### b.
+$$E_{y,A} \times 2\pi h = \frac{\lambda}{\varepsilon_{0}} \int dl \, dx $$
+
+
+
+
 # Exercice 2
 ## 1.
 Pour un point à l'extérieur
@@ -8,5 +16,6 @@ Pour un point à l'intérieur :
 $$E_{r} \times 2\pi rh = \rho \pi r^{2}h$$
 Ainsi, 
 $$\boxed{\vec{E}_{int} = \frac{\rho r}{2\varepsilon_{0}}\vec{e}_{r}}$$
+
 
 
