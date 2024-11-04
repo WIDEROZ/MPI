@@ -70,4 +70,20 @@ Un chemin augmentant de $C$ dans $G$ est un chemin : $(u_{0}, \dots, u_{2k+1})$ 
 - $\forall i \in [\![0, k-1]\!], (u_{2i+1}, u_{2i+2}) \in C$
 
 
+#### Théorème 4
+Soit $G = (V, E)$, un graphe, soit $C$ un couplage dans $G$, 
+Si $C$ n'est pas un couplage maximum,
+alors il existe au moins un chemin augmentant pour $C$. 
 
+Démonstration : 
+Supposons $C$ non maximum, 
+Soit $C'$ un couplage maximum dans $G$ 
+
+On considère $C\Delta C'$ la différence symétrique de $C$ et $C'$. On confon
+
+
+Dans une composante connexe de $C \Delta C'$, tout sommet est de degré au plus $2$. Une composante connexe est dont soit un chemin, soit un cycle. 
+
+De plus, deux arêtes consécutives n’appartiennent pas à un même couplage (par définition) : on a une alternance entre les arêtes de $C$ et de $C'$.
+
+Si une composante connexe est un cycle 
