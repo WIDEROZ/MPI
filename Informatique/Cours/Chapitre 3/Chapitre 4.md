@@ -59,3 +59,7 @@ A FINIR VOIR LE MESSAGE DE AYPIE
 Soit $G = (V, E)$ un graphe biparti.
 Un couplage est un sous ensemble $C$ de $E$ tel que pour tout $v \in V$, il existe au plus une arête $a$ dans $C$ telle que $v$ est une extrémité de $a$.
 Un couplage est maximal s'il est maximal au sens de l'inclusion. 
+Un couplage est maximum s'il est de cardinal maximum sur l'ensemble des couplages de $G$.
+Soit $v \in V$, s'il existe $a \in C$ tel que $v$ est une extrémité de $a$, on dit que $v$ est couvert par $C$ 
+
+#### Exercice 13
