@@ -10,4 +10,4 @@ pour le groupe. Il est donc dégradé.
 - Spinoza
   + Chapitre $XVI$ : un pacte est raisonnable que s'il est utile alors, mais la raison délaisse facilement les passions. 
   + Chapitre $XVII$, « on tient pour crimes les opinions qui sont du droit de l’individu auquel personne ne peut renoncer ; et même, dans un État de cette sorte, c’est la furieuse passion populaire qui commande habituellement. » p. 307
-- Eschyle : Il rejette 
+- Eschyle : Il rejette son propre <i>genos</i>, en se lançant dans une guerre avec Polynice son frère. 
