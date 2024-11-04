@@ -9,3 +9,4 @@ $$E_{r} \times 2\pi rh = \rho \pi r^{2}h$$
 Ainsi, 
 $$\boxed{\vec{E}_{int} = \frac{\rho r}{2\varepsilon_{0}}\vec{e}_{r}}$$
 
+
