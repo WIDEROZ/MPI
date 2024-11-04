@@ -230,3 +230,6 @@ les deux trucs $CV$
 $$\sum \frac{\ln(n)}{n^{\alpha}}$$
 $\alpha > 1$, 
 
+# IV. Intégration des relations de comparaison
+$$f, g \geq 0 \text{ sur } [a, b[ \text{ ou }]b, a]$$
+EXCAL 1
