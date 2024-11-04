@@ -234,7 +234,8 @@ $\alpha > 1$,
 $$f, g \geq 0 \text{ sur } [a, b[ \text{ ou }]b, a]$$
 EXCAL 1
 
-#### Exercice IV.1
+## Exercice IV.1
+#### 1.a
 Soit $x\geq2$, 
 $$F(x) = \int _{2}^{x} \, \frac{dt}{(t+1)\ln(t)} $$
 $$\frac{1}{(t+1)\ln(t)}\sim \frac{1}{t\ln(t)}\geq 0$$
@@ -245,9 +246,17 @@ Alors,
 $$F(x) \sim \int _{2}^{x} \frac{1}{t\ln(t)} \, dt $$
 Ainsi, 
 $$F(x) \sim_{+ \infty} \ln(\ln(x))$$
-___
+
+#### 1.b
 Montrons que : 
 $$\exists \alpha \in \mathbb{R}, F(x) - \ln(\ln(x)) =_{+\infty} \alpha + o(1)$$
 
 $$F(x)-\ln(\ln(x)) =- \int _{2}^{+ \infty} \frac{1}{\ln(t)(t+1)t} \, dt + \ln(\ln(2)) $$
 
+$$\frac{1}{\ln(t)(t+1)t} =_{+\infty} o\left( \frac{1}{t^{2}} \right)$$
+Ainsi, comme $2 >1$, l'intégrale CV
+
+#### 2.
+$$\int_{x}^{1} \frac{e^{ t }}{t} \, dt \sim_{0} \int _{x}^{1} \frac{1}{t} \, dt = -\ln(x) $$
+Alors, 
+$$\exists \beta \in \mathbb{R}, \int _{x}^{1} e^{  } \, dx $$
