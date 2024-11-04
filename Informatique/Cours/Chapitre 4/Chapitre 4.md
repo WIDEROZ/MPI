@@ -55,7 +55,8 @@ On identifie $A$ à son ensemble d'arêtes.
 
 A FINIR VOIR LE MESSAGE DE AYPIE
 
-##### Définition 7
+## 5. Couplage Maximum dans un Graphe Biparti
+#### Définition 7
 Soit $G = (V, E)$ un graphe biparti.
 Un couplage est un sous ensemble $C$ de $E$ tel que pour tout $v \in V$, il existe au plus une arête $a$ dans $C$ telle que $v$ est une extrémité de $a$.
 Un couplage est maximal s'il est maximal au sens de l'inclusion. (ie si il n'existe pas de couplage tel qu'il soit inclus dans un autre couplage)
