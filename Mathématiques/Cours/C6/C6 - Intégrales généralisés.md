@@ -258,5 +258,14 @@ Ainsi, comme $2 >1$, l'intégrale CV
 
 #### 2.
 $$\int_{x}^{1} \frac{e^{ t }}{t} \, dt \sim_{0} \int _{x}^{1} \frac{1}{t} \, dt = -\ln(x) $$
-Alors, 
-$$\exists \beta \in \mathbb{R}, \int _{x}^{1} e^{  } \, dx $$
+Alors, on prouve que 
+$$\int _{x}^{1} \frac{e^{ t }}{t} \, dt +\ln(x) = \int _{x}^{1} \frac{e^{ t }-1}{t} \, dt  $$
+possède une limite finie
+$$\frac{e^{ t }-1}{t} =_{0} 1 + o(t)$$
+or $\int _{x}^{1} \, dt$ CV.
+
+___
+$$I = \int _{x}^{+ \infty} \frac{1}{\sqrt{t^{2}+1}}\ln\left( 1+\frac{1}{t} \right) \, dt $$
+$$\frac{1}{\sqrt{t^{2}+1}}\ln\left( 1+ \frac{1}{t} \right) \sim \frac{1}{t^{2}}\geq 0$$
+Ainsi $I$ converge car $2>1$,
+
