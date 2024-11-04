@@ -15,4 +15,13 @@ $$\lambda =\frac{dq}{dl}$$
 
 # IV.3. Champ créé par un fil fini
 #### Exercice b.
-$$\int \vec{E}.dS = -\frac{}{\varepsilon_{0}} $$
+Détermination de la direction de $\vec{E}$ : 
+$$(M, \vec{e}_{r}, \vec{e}_{z})$$
+est un plan de symétrie
+$$(M, \vec{e}_{r}, \vec{e}_{\theta})$$
+l'est aussi alors comme $M \in (M, \vec{e}_{r}, \vec{e}_{z}) \cap (M, \vec{e}_{r}, \vec{e}_{\theta})$,
+$$\vec{E} = E_{r}(r) \vec{e}_{r}$$
+
+Pour calculer le champ on utilise le théorème de gauss : 
+$$\int \vec{E}_{r}(r)dS (\vec{e}_{r}.\vec{e}_{r}) = \frac{Q_{int}}{\varepsilon_{0}} $$
+$$\int \int  \, dl  \, dl $$
