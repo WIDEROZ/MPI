@@ -8,9 +8,19 @@ Le regroupement communautaire est-il nécessairement motivé par la quête de pr
 Motif premier : évincer les individus perçus comme des adversaires sérieux.
 Motif second : Le point commun.
 
+«  »
 ### a. La finalité occulte de la communauté, l'apanage de prérogatives
 Apanage : ce qui est le privilège de quelqu'un. 
 La communauté aurait pour première motivation : l'appropriation des chances sociales et économiques
 
 #### Exemples
-- Wharton : Haute société New-Yorkaise comparé à la 
+- Wharton : A la fin de=u $XIX^{e}$ siècle la Haute société New-Yorkaise comparé à une « communauté commerciale ».
+- Eschyle : La communauté politique fédère par le regroupement des Thébains derrière Eteocle. 
+- Spinoza : Chapitre $XVII$ : L'accès à la propriété Terrestre par les individus de l'Etat Hébreu. 
+
+### b. Pratiques de fermeture
+Verrouillage des conditions d'accès à des communautés
+
+#### Exemple
+- Eschyle : Les sept portes de Thèbes, la violence des cris extérieurs. 
+- Wharton : Happy few, l'endogamie

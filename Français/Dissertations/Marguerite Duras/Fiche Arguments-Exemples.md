@@ -14,16 +14,17 @@ En effet, elle est très souvent analogue à un étau qui freine et oppresse, à
 #### b. Conformité et honte sociale
 
 ##### Exemples
-- **Spinoza** : Il décrit comment les esprits libres sont souvent exclus et ridiculisés, poussés à renoncer à leur singularité par peur de la sanction sociale.
 - **Eschyle** : Les Danaïdes, vues comme étrangères à Argos, sont exclues pour leur refus de se plier aux coutumes, leur marginalité intensifiant leur honte.
 - **Wharton** : Ellen subit la honte de ses choix anticonformistes, tandis que Newland ressent un malaise face à l’humiliation publique d’autrui.
+- **Spinoza** : Il décrit comment les esprits libres sont souvent exclus et ridiculisés, poussés à renoncer à leur singularité par peur de la sanction sociale.
 
 #### c. Culpabilité et misère de ceux qui ont à vivre la belle vie
 
 ##### Exemples
+- **Wharton** : Newland Archer voit Ellen se déclasser progressivement, sentant la pitié et la honte de la voir sacrifiée par les codes rigides de la société.
 - **Spinoza** : Il exprime la pitié pour les « flatteurs », faibles et corrompus, contraints d’accepter des vies misérables sous le joug de la société.
 - **Eschyle** : Pélasgos ressent la culpabilité de voir les Danaïdes prêtes au suicide par désespoir.
-- **Wharton** : Newland Archer voit Ellen se déclasser progressivement, sentant la pitié et la honte de la voir sacrifiée par les codes rigides de la société.
+
 
 ## II. Néanmoins, le constat fait par l’adolescente qu’est Marguerite, spectatrice avec ses frères du déclin de sa mère, demeure subjectif.
 Il ne faudrait pas occulter les raisons pour lesquelles «\[toute\] communauté» s’est construite : loin d’être «haïssable», elle fait en sorte que chaque individu qui la compose existe par et pour lui-même.
@@ -40,8 +41,8 @@ Marguerite généralise en percevant la communauté comme écrasante pour l’in
 Lorsque l’individu assume pleinement sa place au sein de la communauté, il ne se limite plus à « avoir à vivre la vie », mais devient acteur de celle-ci, influencé par ses désirs, ses espoirs et ses objectifs.
 
 ##### Exemples
-- **Spinoza** : Au début du chapitre XVI, il déclare que chaque être agit en fonction de son « Droit Naturel », guidé par le désir et la puissance qui le poussent à vivre selon sa propre volonté. L’individu peut user de son droit naturel pour affirmer sa liberté d’action, se dirigeant même contre les conventions si nécessaire pour préserver son autonomie.
 - **Eschyle** : Dans _Les Suppliantes_, les suivantes finissent par revendiquer une nouvelle place, suggérant qu’elles deviennent actrices de leur existence et choisissent, contrairement aux autres femmes du chœur, d’accepter la perspective du mariage.
+- **Spinoza** : Au début du chapitre XVI, il déclare que chaque être agit en fonction de son « Droit Naturel », guidé par le désir et la puissance qui le poussent à vivre selon sa propre volonté. L’individu peut user de son droit naturel pour affirmer sa liberté d’action, se dirigeant même contre les conventions si nécessaire pour préserver son autonomie.
 - **Wharton** : Medora Manson illustre la volonté de conserver son libre arbitre, en déclarant que « la monotonie, c’est la mort » (p. 203). Elle et la comtesse Olenska refusent de se soumettre aux attentes de leur entourage, gardant leur liberté et agissant selon leurs propres désirs.
 
 #### c. L’Individu et l’Émancipation du Regard d’Autrui
