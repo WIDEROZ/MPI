@@ -44,10 +44,12 @@ Mise en évidence d'une distinction entre une fermeture qui exclut, rejette et �
 - Spinoza : Chapitre $XVI$ : Les limites de l'état : « Je dirais que l'ennemi est celui qui vit hors de la cité et ne reconnaît, ni en qualité de confédéré, ni en qualité de sujet, le gouvernement qu'elle a institué »
 
 ### b. La communauté une fédération de membres vulnérables
+#### Exemples
 - Spinoza : État de nature : nuire a son semblable pour survivre. « S'ils ne s'entraident pas, ils vivent misérablement et s'ils ne cultivent pas la raison, ils restent asservis aux nécessités de la vie »
 - Wharton :  « Isolément, ceux-ci trahissent leur médiocrité intellectuelle, mais en bloc, ils représentaient New York » Archer p.25
 - Eschyle : Le rituel de la « supplication », le fait qu'elles constituent une cible
 
 ### c. Fermer, dans ces conditions, est donc moins se réserver l'exclusivité qu'anticiper la puissance des uns et des autres et leur capacité de nuire, et optimiser ses chances de s'en prémunir. 
 #### Exemples
-- Spinoza : 
+- Spinoza : Le conatus (le désir de persévérer dans notre être) est susceptible de créer des tensions => recherche de pairs capables de réduire le caractère offensif des autres. 
+- Eschyle : L'Homme civilisé est fédéré contrairement au Barbare qui à fait le choix de développer une stratégie raisonnable contrairement à la na
