@@ -23,4 +23,11 @@ Verrouillage des conditions d'accès à des communautés
 
 #### Exemple
 - Eschyle : Les sept portes de Thèbes, la violence des cris extérieurs. 
-- Wharton : Happy few, l'endogamie
+- Wharton : Happy few, l'endogamie (limitation des choix d'alliance conjugale), les personnages qui ont le monopole économique.
+- Spinoza : Exclusion des non-croyants par la communauté juive, exclusivité de leur relation à dieu.
+
+### c. Naissance d'antagonismes
+La communauté des exclus à intérêt à se fédérer pour agresser cette forteresse si bien gardée. 
+
+#### Exemples
+- Eschyle : 
