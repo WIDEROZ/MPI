@@ -52,4 +52,13 @@ Mise en évidence d'une distinction entre une fermeture qui exclut, rejette et �
 ### c. Fermer, dans ces conditions, est donc moins se réserver l'exclusivité qu'anticiper la puissance des uns et des autres et leur capacité de nuire, et optimiser ses chances de s'en prémunir. 
 #### Exemples
 - Spinoza : Le conatus (le désir de persévérer dans notre être) est susceptible de créer des tensions => recherche de pairs capables de réduire le caractère offensif des autres. 
-- Eschyle : L'Homme civilisé est fédéré contrairement au Barbare qui à fait le choix de développer une stratégie raisonnable contrairement à la na
+- Eschyle : L'Homme civilisé est fédéré contrairement au Barbare qui à fait le choix de développer une stratégie raisonnable contrairement à la nature. 
+- Wharton : Les personnes constituant la Haute société New-Yorkaise redoutent les écarts de conduite de ses propres membres : « éviter que les secrets de la jeune femme ne fusent exposés devant d'autres » p.109 (en parlant de Mme Olenski)
+
+## III. Néanmoins ne peut on réfléchir aux moyens de ménager des communautés plus ouvertes?
+Ne peut on pas assouplir le rapport entre pour réduire les antagonismes sociaux sur le plan interne, et politiques sur le plan extérieur?
+
+### a. Il faut remettre en cause, discuter, revoir, vérifier que la frontière est juste
+#### Exemples
+- Wharton : Archer qui perçoit que Ellen est le bouc émissaire d'une société qui ne laisse pas pas aux femmes la possibilité d'être indépendante même si il lui a proposé une solution discutable : le conformisme.
+- Eschyle : Les suppliantes 
