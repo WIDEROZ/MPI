@@ -22,5 +22,21 @@ Ainsi, $no(N) = +2$
 
 # Exercice 2
 ## 1.
+#### a.
 $$Cr_{2}O_{7}^{2-} + 14H^{+} + 6e^{-} \Leftrightarrow 2Cr^{3+} + 7H_{2}O$$
-$$CH_{3}OH + H_{2}O  \Leftrightarrow HCOOH + 4H^{+}$$
+$$CH_{3}OH + H_{2}O  \Leftrightarrow HCOOH + 4H^{+} + 4e^{-}$$
+Alors, 
+$$2Cr_{2}O_{7}^{2-} + 16H^{+}+ 3 CH_{3}OH $$
+$$\Leftrightarrow 3HCOOH +4Cr^{3+} + 11H_{2}O$$
+#### b.
+Dans $Cr_{2}O_{7}^{2-}$ : 
+$$no(Cr_{2}O_{7}^{2-}) = 2no(Cr) + 7no(O) = -2$$
+Alors, 
+$$no(Cr) = +6$$
+
+Dans $Cr^{3+}$ : $no(Cr) = +3$
+Ainsi, 
+$$\boxed{\Delta (Cr) = 3 - 6 = -2 \leq 0} \text{ C'est une réduction, alors }Cr \text{ oxydant}$$
+
+Dans $CH_{3}OH$ : 
+$$$$
