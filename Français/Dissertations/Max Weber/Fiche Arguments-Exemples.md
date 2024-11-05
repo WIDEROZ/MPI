@@ -35,4 +35,10 @@ La communauté des exclus à intérêt à se fédérer pour agresser cette forte
 - Spinoza : « A l'égard de l'étranger couvert d'opprobre, dut naître dans leur âmes une haine l'emportant ce qu'il y a de plus fort, de plus en plus irreducible » p.128, ce qui engendre des réactions d'animosité pour ceux visé par ces propos
 
 ## II. La frontière-protection
-Mise en évidence d'une distinction entre une fermeture qui 
+Mise en évidence d'une distinction entre une fermeture qui exclut, rejette et élimine et une fermeture qui sauvegarde et protège. 
+
+### a. Que serait une communauté sans « frontière » identifiée
+#### Exemples
+- Eschyle : Accommodation de la communauté à des femmes qui ne veulent pas le mariage, puis elles exposent la cité à une guerre. n'est-ce pas un risque pour la communauté d'ouvrir ces frontières a ce point? 
+- Wharton : Métaphore du potager : Les « mauvaises herbes » investissent pour Mrs Archer. 
+- Spinoza : Chapitre $XVI$ : Les limites de l'état 
