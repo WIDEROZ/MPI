@@ -41,4 +41,8 @@ Mise en évidence d'une distinction entre une fermeture qui exclut, rejette et �
 #### Exemples
 - Eschyle : Accommodation de la communauté à des femmes qui ne veulent pas le mariage, puis elles exposent la cité à une guerre. n'est-ce pas un risque pour la communauté d'ouvrir ces frontières a ce point? 
 - Wharton : Métaphore du potager : Les « mauvaises herbes » investissent pour Mrs Archer. 
-- Spinoza : Chapitre $XVI$ : Les limites de l'état 
+- Spinoza : Chapitre $XVI$ : Les limites de l'état : « Je dirais que l'ennemi est celui qui vit hors de la cité et ne reconnaît, ni en qualité de confédéré, ni en qualité de sujet, le gouvernement qu'elle a institué »
+
+### b. La communauté une fédération de membres vulnérables
+- Spinoza : État de nature : nuire a son semblable pour survivre. « S'ils ne s'entraident pas, ils vivent misérablement et s'ils ne cultivent pas la raison, ils restent asservis aux nécessités de la vie »
+- Wharton :  « Isolément, ceux-ci trahissent leur médiocrité intellectuelle, mais en bloc, ils représentaient New York » Archer Newland p.25
