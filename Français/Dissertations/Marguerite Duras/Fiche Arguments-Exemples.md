@@ -1,3 +1,9 @@
+# Sujet
+Marguerite Duras écrit, dans L’Amant (éditions de Minuit), en 1984 : « Toute communauté, qu'elle soit familiale ou autre, nous est haïssable, dégradante. Nous sommes ensemble dans une honte de principe d'avoir à vivre la vie. » (page 69)
+
+# Problématique
+Marguerite ne la considère que comme un fardeau « haïssable » et « \[dégradant\] » certes, mais n’est-elle aussi, et même avant tout, un moyen de cultiver notre humanité en développant des liens inédits avec les autres ?
+
 ## I. Il est vrai que « \[toute\] communauté » est insupportable voire dangereuse pour l’individu.
 En effet, elle est très souvent analogue à un étau qui freine et oppresse, à tel que celui qui la subit
 éprouvera de la honte à devoir vivre sa vie.

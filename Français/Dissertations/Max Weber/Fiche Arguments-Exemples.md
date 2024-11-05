@@ -68,4 +68,5 @@ Ne peut on pas assouplir le rapport entre pour réduire les antagonismes sociaux
 #### Exemples
 - Spinoza : Il montre que la démocratie est la meilleure des communautés car elle permet une régulation des appétits des individus. 
 - Wharton : Unification des USA lors de la fin du roman ==> relativisation des différences des classes sociales. 
-- Eschyle : La communauté des Dieux 
+- Eschyle : La communauté des Dieux régule les antagonismes : Polynice et Eteocle trouvent la mort.
+
