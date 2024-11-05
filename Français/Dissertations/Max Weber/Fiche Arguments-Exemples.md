@@ -61,4 +61,5 @@ Ne peut on pas assouplir le rapport entre pour réduire les antagonismes sociaux
 ### a. Il faut remettre en cause, discuter, revoir, vérifier que la frontière est juste
 #### Exemples
 - Wharton : Archer qui perçoit que Ellen est le bouc émissaire d'une société qui ne laisse pas pas aux femmes la possibilité d'être indépendante même si il lui a proposé une solution discutable : le conformisme.
-- Eschyle : Les suppliantes 
+- Eschyle : Lorsque les Danaïdes rejoignent Argos, Pelasgos est obligé de changer l'origine identitaire de la communauté. 
+- Spinoza : Le don de son pouvoir à un souverain a des conséquences sur les libertés d'agir mais non de penser
