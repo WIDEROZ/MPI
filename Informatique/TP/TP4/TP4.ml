@@ -11,5 +11,18 @@ let parcours_largeur (g : graphe_oriente) (source : int) : int * int array =
   let parcours = Array.make n 0 in 
   let t = ref 0 in
   Queue.push source q;
-  while 
-  ;;
+  while (not (Queue.is_empty q)) do 
+    begin
+      t := Queue.pop q;
+      if (not (visite.(!t))) then (
+        visite.(!t) <- true;
+      List.iter (fun (x:int) -> Queue.push x q) (g.(!t));
+      parcours.(!na) <- !t;
+      incr na;
+      )
+    end
+  done;
+  (!na, parcours);;
+
+
+  let a = parcours_largeur [|[1, 2, 3], []|]
