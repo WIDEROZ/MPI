@@ -3,8 +3,6 @@ En effet, elle est très souvent analogue à un étau qui freine et oppresse, à
 éprouvera de la honte à devoir vivre sa vie.
 
 #### a. Partons du constat que la communauté oppresse l’individu et l’écrase que ce soit par ses règles, ses codes ou ses conventions.
-L’individu ne peut pas jouir comme il le souhaite de sa liberté tant il est contraint d’obéir aux lois édictées par et
-pour le groupe. Il est donc dégradé.
 
 ##### Exemples
 - **Spinoza**
@@ -14,7 +12,6 @@ pour le groupe. Il est donc dégradé.
 - **Wharton** : Dans _Le Temps de l’innocence_, les personnages, tels qu’Archer et Ellen, vivent l’oppression des conventions sociales qui les obligent à renoncer à leurs désirs profonds et à se sacrifier au nom de la respectabilité.
 
 #### b. Conformité et honte sociale
-La communauté impose des jugements, marginalisant ceux qui s’écartent des normes. L’individu ressent alors honte et culpabilité, réduit à l’impuissance et au conformisme.
 
 ##### Exemples
 - **Spinoza** : Il décrit comment les esprits libres sont souvent exclus et ridiculisés, poussés à renoncer à leur singularité par peur de la sanction sociale.
@@ -22,7 +19,6 @@ La communauté impose des jugements, marginalisant ceux qui s’écartent des no
 - **Wharton** : Ellen subit la honte de ses choix anticonformistes, tandis que Newland ressent un malaise face à l’humiliation publique d’autrui.
 
 #### c. Culpabilité et misère de ceux qui ont à vivre la belle vie
-L’individu se sent coupable de voir d’autres souffrir dans un monde où les plus faibles sont forcés de « vivre leur vie » sans espoir de résistance.
 
 ##### Exemples
 - **Spinoza** : Il exprime la pitié pour les « flatteurs », faibles et corrompus, contraints d’accepter des vies misérables sous le joug de la société.
