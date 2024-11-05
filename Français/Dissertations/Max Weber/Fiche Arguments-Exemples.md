@@ -45,4 +45,9 @@ Mise en évidence d'une distinction entre une fermeture qui exclut, rejette et �
 
 ### b. La communauté une fédération de membres vulnérables
 - Spinoza : État de nature : nuire a son semblable pour survivre. « S'ils ne s'entraident pas, ils vivent misérablement et s'ils ne cultivent pas la raison, ils restent asservis aux nécessités de la vie »
-- Wharton :  « Isolément, ceux-ci trahissent leur médiocrité intellectuelle, mais en bloc, ils représentaient New York » Archer Newland p.25
+- Wharton :  « Isolément, ceux-ci trahissent leur médiocrité intellectuelle, mais en bloc, ils représentaient New York » Archer p.25
+- Eschyle : Le rituel de la « supplication », le fait qu'elles constituent une cible
+
+### c. Fermer, dans ces conditions, est donc moins se réserver l'exclusivité qu'anticiper la puissance des uns et des autres et leur capacité de nuire, et optimiser ses chances de s'en prémunir. 
+#### Exemples
+- Spinoza : 
