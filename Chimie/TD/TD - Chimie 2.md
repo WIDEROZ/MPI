@@ -39,4 +39,12 @@ Ainsi,
 $$\boxed{\Delta (Cr) = 3 - 6 = -2 \leq 0} \text{ C'est une réduction, alors }Cr \text{ oxydant}$$
 
 Dans $CH_{3}OH$ : 
-$$$$
+$$no(CH_{3}OH) = no(C) + 4no(H) + no(O) = 0$$
+Alors, 
+$$no(C) = -2$$
+
+Dans $HCOOH$ : 
+$$no(C) = 2$$
+Ainsi, 
+$$\Delta no(C) = +4$$
+C'est une oxidation alors, $CH_{3}OH$ est un réducteur.
