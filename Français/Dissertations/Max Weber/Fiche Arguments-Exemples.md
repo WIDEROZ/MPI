@@ -30,4 +30,9 @@ Verrouillage des conditions d'accès à des communautés
 La communauté des exclus à intérêt à se fédérer pour agresser cette forteresse si bien gardée. 
 
 #### Exemples
-- Eschyle : 
+- Eschyle : La colère des fils d'Egyptos lorsqu'ils ont appris la migration des Danaïdes. 
+- Wharton : « Vous n'êtes qu'une pauvre petite minorité » Winset
+- Spinoza : « A l'égard de l'étranger couvert d'opprobre, dut naître dans leur âmes une haine l'emportant ce qu'il y a de plus fort, de plus en plus irreducible » p.128, ce qui engendre des réactions d'animosité pour ceux visé par ces propos
+
+## II. La frontière-protection
+Mise en évidence d'une distinction entre une fermeture qui 
