@@ -65,7 +65,11 @@ let parcours_profondeur_rec (g : graphe_oriente) (source : int) : bool array =
 let tri_topo (g : graphe_oriente) : int list = 
   let n = ordre g in
   let liste = ref [] in
-  for i = 0 to n do
-    if (List.find (fun (x : int)))
-
+  let visite = Array.make n false in 
+  let rec parcours s = 
+    if (not visite.(s)) then (
+      
+    )
   done;
+
+
