@@ -84,3 +84,4 @@ Une communauté doit garantir un espace de développement pour chaque individu. 
 - **Spinoza** : La communauté n’est possible que si les individus placent le bien commun au-dessus de leurs désirs personnels.
 - **Eschyle** : Dans _Les Suppliantes_, le chœur illustre la solidarité et l’unité du groupe face aux épreuves, fondées sur des sentiments partagés.
 - **Wharton** : La société new-yorkaise, marquée par le déclin et l’absence d’échange sincère, illustre les dangers d’une communauté qui ne cultive pas le "vivre ensemble".
+
