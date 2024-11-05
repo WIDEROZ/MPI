@@ -48,14 +48,24 @@ let parcours_largeur (g : graphe_oriente) (source : int) : int * int array =
 
 
 
-let parcours_profondeur (g : graphe_oriente) (source : int) : bool array = 
+let parcours_profondeur_rec (g : graphe_oriente) (source : int) : bool array = 
   let n = ordre g in
   let visite = Array.make n false in
   let rec parcours s = 
     if (not visite.(s)) then (
       visite.(s) <- true;
-      
-    )
+      List.iter (fun (x:int) -> parcours x) (g.(s));
+    ) in
+    parcours source;
+    visite
+;;
 
 
 
+let tri_topo (g : graphe_oriente) : int list = 
+  let n = ordre g in
+  let liste = ref [] in
+  for i = 0 to n do
+    if (List.find (fun (x : int)))
+
+  done;
