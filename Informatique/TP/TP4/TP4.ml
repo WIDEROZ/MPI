@@ -48,5 +48,6 @@ let parcours_largeur (g : graphe_oriente) (source : int) : int * int array =
 
 
 
-let parcours largeur distance (g : graphe_oriente) (source : int) : int array = 
-  
+let rec parcours_profondeur (g : graphe_oriente) (source : int) : bool array = 
+  let 
+
