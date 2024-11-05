@@ -62,4 +62,10 @@ Ne peut on pas assouplir le rapport entre pour réduire les antagonismes sociaux
 #### Exemples
 - Wharton : Archer qui perçoit que Ellen est le bouc émissaire d'une société qui ne laisse pas pas aux femmes la possibilité d'être indépendante même si il lui a proposé une solution discutable : le conformisme.
 - Eschyle : Lorsque les Danaïdes rejoignent Argos, Pelasgos est obligé de changer l'origine identitaire de la communauté. 
-- Spinoza : Le don de son pouvoir à un souverain a des conséquences sur les libertés d'agir mais non de penser
+- Spinoza : Le don de son pouvoir à un souverain a des conséquences sur les libertés d'agir mais non de penser or si on prive le citoyen de parole il ne pourra pas exposer son avis au souverain. 
+
+### b. Ainsi, il faut qu'une autorité supra-communautaire, une communauté, communauté « raisonnable », régule toutes les autres pour limiter l'octroi des monopoles. 
+#### Exemples
+- Spinoza : Il montre que la démocratie est la meilleure des communautés car elle permet une régulation des appétits des individus. 
+- Wharton : Unification des USA lors de la fin du roman ==> relativisation des différences des classes sociales. 
+- Eschyle : La communauté des Dieux 
