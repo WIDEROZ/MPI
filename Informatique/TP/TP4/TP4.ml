@@ -48,6 +48,14 @@ let parcours_largeur (g : graphe_oriente) (source : int) : int * int array =
 
 
 
-let rec parcours_profondeur (g : graphe_oriente) (source : int) : bool array = 
-  let 
+let parcours_profondeur (g : graphe_oriente) (source : int) : bool array = 
+  let n = ordre g in
+  let visite = Array.make n false in
+  let rec parcours s = 
+    if (not visite.(s)) then (
+      visite.(s) <- true;
+      
+    )
+
+
 
