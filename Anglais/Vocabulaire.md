@@ -12,3 +12,5 @@ Malgré : in spite / despite
 cost (figuré) $\neq$ price (concret)
 for want of = a défaut de
 tribes = factions
+well-being = bien être
+following safety measures = gestes barrières
