@@ -10,3 +10,5 @@ neck and neck (very close)
 To mourn : Feel or show sorrow for someone
 Malgré : in spite / despite
 cost (figuré) $\neq$ price (concret)
+for want of = a défaut de
+tribes = factions
