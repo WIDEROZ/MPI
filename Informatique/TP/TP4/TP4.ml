@@ -80,22 +80,22 @@ let tri_topo (g : graphe_oriente) : int list =
   
   ;;
 
-(*On suppose ici que le graphe est non orienté*)
 let compo_connexes (g : graphe_oriente) : int * int array = 
   let n = ordre g in
   let visite = Array.make n false in
   let composantes = Array.make n 0 in
-  let nbre_compo = ref 1 in
+  let nbre_compo = ref 0 in
   let rec parcours s =
     if (not visite.(s)) then (
       visite.(s) <- true;
       List.iter (fun (x:int) -> parcours x) (g.(s));
-      composantes.(s) <- !nbre_compo
+      composantes.(s) <- !nbre_compo;
     ) in
     for i = 0 to (n-1) do 
       begin
+        if (not visite.(i)) then(
         parcours i;
-        incr nbre_compo;
+        incr nbre_compo;)
       end
     done;
     (!nbre_compo, composantes);;
@@ -106,6 +106,7 @@ let (g2 :graphe_oriente) = [| [2;4];
                               [0; 4];
                               [1];
                               [0; 2];
-                              [6; 5]|];;
+                              [6];
+                              [5]|];;
 
 compo_connexes g2;;
