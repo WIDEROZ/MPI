@@ -269,3 +269,6 @@ $$I = \int _{x}^{+ \infty} \frac{1}{\sqrt{t^{2}+1}}\ln\left( 1+\frac{1}{t} \righ
 $$\frac{1}{\sqrt{t^{2}+1}}\ln\left( 1+ \frac{1}{t} \right) \sim \frac{1}{t^{2}}\geq 0$$
 Ainsi $I$ converge car $2>1$,
 
+# V. Comparaison série intégrale
+## Principe
+Soit $f \in \mathbb{R}^{}$
