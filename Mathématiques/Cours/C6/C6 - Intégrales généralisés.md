@@ -324,5 +324,13 @@ $$\boxed{R_{n} \sim \frac{1}{(\alpha-1)n^{\alpha-1}}}$$
 
 #### Exercice
 $$\sum_{k = 1}^{+ \infty} \frac{1}{k^{s}} = \sum_{k = 1}^{n} \frac{1}{k^{s}} + \sum_{k = n}^{+ \infty} \frac{1}{k^{s}}$$
-Alors, 
-$$\int _{1}^{n} \frac{1}{t^{s}}\, dt \leq  $$
+On a : 
+$$\int _{2}^{+ \infty} \frac{1}{t^{s}}\, dt \leq \sum_{k = 2}^{+ \infty} \frac{1}{t^{s}} \leq \int _{1}^{+ \infty} \frac{1}{t^{s}} \, dt  $$
+Puis, 
+$$\int _{2}^{+ \infty} \frac{1}{t^{s}} \, dt =  \frac{2^{1-s}}{s-1} $$
+et 
+$$\int _{2}^{+ \infty} \frac{1}{t^{s}} \, dt  = \frac{1}{s-1}$$
+Ainsi, 
+$$2^{1-s}+s-1 \leq (s-1)\sum_{k = 1}^{+ \infty} \frac{1}{t^{s}} \leq s$$
+Donc lorsque $s \to 1$, 
+$$\boxed{\sum_{k = 1}^{+ \infty} \frac{1}{t^{s}} \underset{s \to 1^{+}}{\sim}\frac{1}{s-1}}$$
