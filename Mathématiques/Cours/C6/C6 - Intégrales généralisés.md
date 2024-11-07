@@ -321,3 +321,8 @@ et
 $$\int _{n-1}^{+ \infty} \frac{1}{t^{\alpha}} \, dt  = \frac{1}{\alpha-1} \frac{1}{(n-1)^{\alpha-1}}$$
 Ainsi, 
 $$\boxed{R_{n} \sim \frac{1}{(\alpha-1)n^{\alpha-1}}}$$
+
+#### Exercice
+$$\sum_{k = 1}^{+ \infty} \frac{1}{k^{s}} = \sum_{k = 1}^{n} \frac{1}{k^{s}} + \sum_{k = n}^{+ \infty} \frac{1}{k^{s}}$$
+Alors, 
+$$\int _{1}^{n} \frac{1}{t^{s}}\, dt \leq  $$
