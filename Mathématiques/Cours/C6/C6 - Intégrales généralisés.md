@@ -271,4 +271,12 @@ Ainsi $I$ converge car $2>1$,
 
 # V. Comparaison série intégrale
 ## Principe
-Soit $f \in \mathbb{R}^{}$
+Soit $f \in \mathbb{R}^{[1, + \infty[}$ monotone, 
+Dans le cas ou $f$ est décroissante : 
+$$\forall k \in \mathbb{N}^{*}, \forall t \in [k, k+1], f(k+1)\leq f(t) \leq f(k)$$
+Alors, 
+$$\forall k \in \mathbb{N}^{*}, f(k+1)\leq \int _{k}^{k+1} f(t) \, dt \leq f(k)$$
+ou
+$$\forall k \in \mathbb{N}^{*} \setminus \{ 1 \}, \int _{k}^{k+1} f(t) \, dt \leq f(k) \leq \int _{k-1}^{k} f(t) \, dt$$
+Ainsi, 
+$$\boxed{\forall n \in \mathbb{N}^{*} \setminus \{ 1 \}, \int _{2}^{n+1} f(t) \, dt \leq \sum_{k = 2}^{n} f(k) \leq \int _{1}^{n} \, dx }$$
