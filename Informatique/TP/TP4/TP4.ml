@@ -93,4 +93,11 @@ let compo_connexes (g : graphe_oriente) : int * int array =
       composantes.(s) <- !nbre_compo
     ) in
     for i = 0 to n do 
-      
+      begin
+        parcours g.(i);
+        incr nbre_compo;
+      end
+    done;
+    (!nbre_compo, composantes);;
+
+
