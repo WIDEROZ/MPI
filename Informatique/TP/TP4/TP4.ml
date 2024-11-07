@@ -107,10 +107,11 @@ let transposition (g : graphe_oriente) : graphe_oriente =
   let rec trans t s =
     match t with
     | [] -> []
-    | h::q -> gT.(s) <- h::gT.(s); h::(trans q s)
+    | h::q -> (gT.(h) <- s::gT.(h)); ; (h::(trans q s))
   in
-  List.iter (fun (x:int) -> trans g.(x) x) (n-1);
-
+  for i = 0 to (n-1) do
+    g.(i) <- trans g.(i) i
+  done;
   gT
 ;;
 
