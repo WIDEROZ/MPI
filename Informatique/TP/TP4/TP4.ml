@@ -72,7 +72,7 @@ let tri_topo (g : graphe_oriente) : int list =
       List.iter (fun (x:int) -> parcours x) (g.(s));
       liste := s::!liste;
     ) in
-    for i = 0 to n do
+    for i = 0 to (n-1) do
       if (not visite.(i)) then
         (parcours i)
       done;
@@ -92,12 +92,20 @@ let compo_connexes (g : graphe_oriente) : int * int array =
       List.iter (fun (x:int) -> parcours x) (g.(s));
       composantes.(s) <- !nbre_compo
     ) in
-    for i = 0 to n do 
+    for i = 0 to (n-1) do 
       begin
-        parcours g.(i);
+        parcours i;
         incr nbre_compo;
       end
     done;
     (!nbre_compo, composantes);;
 
 
+let (g2 :graphe_oriente) = [| [2;4];
+                              [3];
+                              [0; 4];
+                              [1];
+                              [0; 2];
+                              [6; 5]|];;
+
+compo_connexes g2;;
