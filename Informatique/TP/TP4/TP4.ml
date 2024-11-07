@@ -106,11 +106,11 @@ let transposition (g : graphe_oriente) : graphe_oriente =
   let gT = Array.make n [] in
   let rec trans t s =
     match t with
-    | [] -> []
-    | h::q -> (gT.(h) <- s::gT.(h)); ; (h::(trans q s))
+    | [] -> ()
+    | h::q -> (gT.(h) <- s::gT.(h)); (trans q s)
   in
   for i = 0 to (n-1) do
-    g.(i) <- trans g.(i) i
+    trans g.(i) i
   done;
   gT
 ;;
