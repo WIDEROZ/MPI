@@ -110,3 +110,11 @@ let (g2 :graphe_oriente) = [| [2;4];
                               [5]|];;
 
 compo_connexes g2;;
+
+let transposition (g : graphe_oriente) : graphe_oriente =
+  let n = ordre g in
+  let gT = Array.make n [] in
+  let rec trans t s =
+    match t with
+    | [] -> []
+    | t::s -> (gT.(s) <- gT.(s))
