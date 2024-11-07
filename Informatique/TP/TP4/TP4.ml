@@ -101,6 +101,20 @@ let compo_connexes (g : graphe_oriente) : int * int array =
     (!nbre_compo, composantes);;
 
 
+let transposition (g : graphe_oriente) : graphe_oriente =
+  let n = ordre g in
+  let gT = Array.make n [] in
+  let rec trans t s =
+    match t with
+    | [] -> []
+    | h::q -> h::(trans q s)
+  in
+  for i = 0 to (n-1) do
+    gT.(i) <- trans g.(i) i
+  done;
+  gT
+;;
+
 let (g2 :graphe_oriente) = [| [2;4];
                               [3];
                               [0; 4];
@@ -109,12 +123,4 @@ let (g2 :graphe_oriente) = [| [2;4];
                               [6];
                               [5]|];;
 
-compo_connexes g2;;
-
-let transposition (g : graphe_oriente) : graphe_oriente =
-  let n = ordre g in
-  let gT = Array.make n [] in
-  let rec trans t s =
-    match t with
-    | [] -> []
-    | t::s -> (gT.(s) <- gT.(s))
+transposition g2;;
