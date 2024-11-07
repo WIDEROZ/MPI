@@ -309,3 +309,15 @@ $$n\ln(n)-n-1 \leq \sum_{k = 2}^{n}\ln(k) \leq (n+1)\ln (n+1) -(n+1)- 2\ln(2)-2$
 
 $$n\ln(n)-n-1\sim (n+1)\ln(n+1) - (n+1) -2\ln(2)+2 \sim n\ln(n) $$
 à gauche et à droite. 
+
+#### Exercice
+Soit $\alpha>1$, 
+Trouver un équivalent de : 
+$$\forall n \in \mathbb{N}^{*}, R_{n} = \sum_{k =n}^{+\infty} \frac{1}{k^{\alpha}}$$
+On a : 
+$$\int _{n}^{+ \infty} \frac{1}{t^{\alpha}}\, dt \leq \sum_{k = n}^{+ \infty} \frac{1}{k^{\alpha}}\leq \int _{n-1}^{+ \infty} \frac{1}{t^{\alpha}} \, dt $$
+$$\int _{n}^{+ \infty} \frac{1}{t^{\alpha}} \, dt = \frac{1}{\alpha-1} \frac{1}{n^{\alpha-1}} $$
+et 
+$$\int _{n-1}^{+ \infty} \frac{1}{t^{\alpha}} \, dt  = \frac{1}{\alpha-1} \frac{1}{(n-1)^{\alpha-1}}$$
+Ainsi, 
+$$\boxed{R_{n} \sim \frac{1}{(\alpha-1)n^{\alpha-1}}}$$
