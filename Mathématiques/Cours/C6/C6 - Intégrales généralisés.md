@@ -298,4 +298,14 @@ Ainsi, $(x_{n})$ et $(y_{n})$ sont toutes les deux équivalentes à :
 $$\frac{\ln(n)^{2}}{2}$$
 $$1 \leq \frac{S_{n}}{x_{n}} \leq \frac{y_{n}}{x_{n}} \text{ car }x_{n} > 0$$
 Donc, 
-$$$$
+$$\frac{S_{n}}{x_{n}} \underset{n \to +\infty}{\longrightarrow} 1$$
+Ainsi : 
+$$S_{n}\sim x_{n} \sim \frac{\ln(n)^{2}}{2}$$
+
+
+#### Exercice
+$$\forall n \in \mathbb{N}^{*}, \int_{1}^{n} \ln(t)\, dt \leq \sum_{k = 2}^{n} \ln(k) \leq \int_{2}^{n+1}\ln(t) \, dt$$
+$$n\ln(n)-n-1 \leq \sum_{k = 2}^{n}\ln(k) \leq (n+1)\ln (n+1) -(n+1)- 2\ln(2)-2$$
+
+$$n\ln(n)-n-1\sim (n+1)\ln(n+1) - (n+1) -2\ln(2)+2 \sim n\ln(n) $$
+à gauche et à droite. 
