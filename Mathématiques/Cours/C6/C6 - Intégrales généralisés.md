@@ -280,3 +280,22 @@ ou
 $$\forall k \in \mathbb{N}^{*} \setminus \{ 1 \}, \int _{k}^{k+1} f(t) \, dt \leq f(k) \leq \int _{k-1}^{k} f(t) \, dt$$
 Ainsi, 
 $$\boxed{\forall n \in \mathbb{N}^{*} \setminus \{ 1 \}, \int _{2}^{n+1} f(t) \, dt \leq \sum_{k = 2}^{n} f(k) \leq \int _{1}^{n} \, dx }$$
+
+#### Exemple
+Trouver un équivalent de : 
+$$\forall n \in \mathbb{N}^{*} \setminus \{ 1 \}, \sum_{k = 2}^{n} \frac{\ln(k)}{k} = S_{n}$$
+
+$$f(t) = \frac{\ln(t)}{t} \text{ alors}, f'(t)= \frac{1-\ln(t)}{t^{2}} \leq 0 \text{ si }t\geq e$$
+puis, 
+$$\forall n \geq 3, \int _{4}^{n+1} \frac{\ln(t)}{t} \, dt \leq\sum_{k =4}^{n}  \frac{\ln(k)}{k} \leq \int _{3}^{n} \frac{\ln(t)}{t} \, dt$$
+Alors, 
+$$u_{n}\leq S_{n} \leq x_{n}$$
+ou : 
+$$u_{n} = \frac{\ln(n+1)^{2}}{2} - \frac{\ln(4)^{2}}{2} + \frac{\ln (2)}{2} + \frac{\ln(3)}{2}$$
+et 
+$$x_{n} = \frac{\ln(n)^{2}}{2} -\frac{\ln(3)^{2}}{2}+\frac{\ln(2)}{2}+\frac{\ln(3)}{3}$$
+Ainsi, $(x_{n})$ et $(y_{n})$ sont toutes les deux équivalentes à : 
+$$\frac{\ln(n)^{2}}{2}$$
+$$1 \leq \frac{S_{n}}{x_{n}} \leq \frac{y_{n}}{x_{n}} \text{ car }x_{n} > 0$$
+Donc, 
+$$$$
