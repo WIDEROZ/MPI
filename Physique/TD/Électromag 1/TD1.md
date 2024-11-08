@@ -49,4 +49,18 @@ Ainsi,
 $$Q_{int} = 0$$
 
 ## 3.
-$$\vec{E} = - \overrightarrow{grad} (V)=$$
+$$\vec{E} = - \overrightarrow{grad} (V)=-\frac{\delta V}{\delta r}\vec{e}_{r} +  \dots = -\frac{\delta V}{\delta r}\vec{e}_{r}$$
+Alors, 
+$$\frac{dV}{dr} = -\frac{G_{1}R_{1}}{\varepsilon_{0}r} \Rightarrow V(r) = -\frac{G_{1}R_{1}}{\varepsilon_{0}}\ln(r) + \text{cte}$$
+Donc, 
+$$V_{2}-V_{1} = -\frac{G_{1}R_{1}}{\varepsilon_{0}}\ln\left( \frac{R_{2}}{R_{1}} \right) = -\frac{Q_{1}}{2\pi \varepsilon_{0}l}\ln\left( \frac{R_{2}}{R_{1}} \right) $$
+Or $C(V_{1}-V_{2}) = Q_{1}$
+Ainsi, 
+$$\boxed{C = \frac{2\pi \varepsilon_{0}l}{\ln\left( \frac{R_{2}}{R_{1}} \right)}}$$
+Condensateur plan : $C = \frac{\varepsilon_{0}S}{e}$ or, 
+$$C = \frac{2\pi \varepsilon_{0}l}{\ln\left( \frac{R_{1}+e}{R_{1}} \right)} = \frac{2\pi \varepsilon_{0}l}{\ln\left( 1+\frac{\varepsilon}{R_{1}} \right)} \approx \frac{2\pi \varepsilon_{0}lR_{1}}{e} =  \frac{\varepsilon_{0}S}{e}$$
+car $\varepsilon \ll R_{1}$, 
+
+## 4.
+###### Équation de Poisson
+$$\Delta V = -\frac{\rho}{\varepsilon_{0}} = -\frac{1}{\varepsilon_{0}}\frac{dq}{d\tau}=0$$
