@@ -34,3 +34,9 @@ $$\boxed{\vec{E} = \frac{\lambda}{2\pi \varepsilon_{0}r} \vec{e}_{r}}$$
 
 # IV.6.b Électrostatique : Champ créé par une sphère
 #### Exercice c
+EXCAL
+$$Q_{tot} = \rho \times \frac{4}{3}\pi R^{3}$$
+$\vec{E}$ est dirigé selon $\vec{e}_{r}$ (justifier)
+Par le théorème de Gauss, en prenant une sphère de rayon $r$ et de de centre $O$, 
+$$\iint \vec{E}.d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}} = E_{r}(r) \iint dS = E_{r}(r)\times 4 \pi r^{2}$$
+Si $r $
