@@ -64,3 +64,17 @@ car $\varepsilon \ll R_{1}$,
 ## 4.
 ###### Équation de Poisson
 $$\Delta V = -\frac{\rho}{\varepsilon_{0}} = -\frac{1}{\varepsilon_{0}}\frac{dq}{d\tau}=0$$
+Alors, 
+$$\frac{1}{r} \frac{d}{dr}\left( r \frac{dV}{dr} \right) = 0$$
+Donc, 
+$$\frac{dV}{dr} = \frac{K_{1}}{r} ,K_{1} \text{ une constante}$$
+Puis, 
+$$V(r) = K_{1}\ln(r) + K_{2}$$
+$$CI : \begin{cases}
+V(R_{1}) = V_{1} \\
+V(R_{2}) = V_{2}
+\end{cases}$$
+Ainsi, 
+$$\boxed{V(r) = \frac{V_{2}-V_{1}}{\ln\left( \frac{R_{2}}{R_{1}} \right)}\ln\left( \frac{r}{R_{1}} \right) + V_{1}}$$
+
+# Exercice 5
