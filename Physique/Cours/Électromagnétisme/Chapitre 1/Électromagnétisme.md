@@ -32,3 +32,5 @@ $$E_{r}2\pi rh = \frac{\lambda h}{\varepsilon_{0}}$$
 Ainsi, 
 $$\boxed{\vec{E} = \frac{\lambda}{2\pi \varepsilon_{0}r} \vec{e}_{r}}$$
 
+# IV.6.b Électrostatique : Champ créé par une sphère
+#### Exercice c
