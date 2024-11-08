@@ -19,3 +19,5 @@ $$\boxed{\vec{E}_{int} = \frac{\rho r}{2\varepsilon_{0}}\vec{e}_{r}}$$
 
 
 
+# Exercice 3
+## 1.
