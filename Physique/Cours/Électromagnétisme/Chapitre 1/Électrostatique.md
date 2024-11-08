@@ -39,4 +39,8 @@ $$Q_{tot} = \rho \times \frac{4}{3}\pi R^{3}$$
 $\vec{E}$ est dirigé selon $\vec{e}_{r}$ (justifier)
 Par le théorème de Gauss, en prenant une sphère de rayon $r$ et de de centre $O$, 
 $$\iint \vec{E}.d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}} = E_{r}(r) \iint dS = E_{r}(r)\times 4 \pi r^{2}$$
-Si $r $
+Si $r \leq R$,
+$$Q_{int} = \rho\frac{4}{3}\pi r^{3} \Rightarrow \vec{E} = \frac{\rho r}{3\varepsilon_{0}} \vec{e}_{r}$$
+Sinon $r\geq R$, 
+$$Q_{int} = \rho\frac{4}{3}\pi R^{3} \Rightarrow \vec{E} = \frac{\rho R^{3}}{3\varepsilon_{0}r^{2}} \vec{e}_{r} = \frac{Q_{tot}}{4\pi \varepsilon_{0}r^{2}}\vec{e}_{r}$$
+
