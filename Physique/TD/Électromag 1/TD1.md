@@ -27,7 +27,26 @@ comme le cylindre est considéré de longueur infinie :
 $(M, \vec{e}_{r}, \vec{e}_{z})$ et $(M, \vec{e}_{r}, \vec{e}_{\theta})$ sont des plans de symétries. 
 Alors, $\vec{E}$ est dirigé selon $\vec{e}_{r}$
 
+## 2.
 ###### Théorème de Gauss
 On choisit un cylindre de rayon $r$, 
 $$\iint \vec{E}_{r}(r)dS = \frac{Q_{int}}{\varepsilon}\Rightarrow E_{r}(r)2\pi rh = \frac{Q_{int}}{\varepsilon_{0}}$$
-Si $r$
+###### Si $r< R_{1}$,
+$$Q_{int} = 0 \Rightarrow \vec{E} = \overrightarrow{0}$$
+
+###### Si $R_{1} < r < R_{2}$
+$$Q_{int} = \sigma_{1} 2\pi R_{1}h \Rightarrow \vec{E} = \frac{\sigma_{1}R_{1}}{\varepsilon_{0}r} \vec{e}_{r}$$
+
+###### Si $r > R_{2}$
+$$Q_{int} = \sigma_{1}2\pi R_{1}h + \sigma_{2}2\pi R_{2}h = 2\pi h(\sigma_{1}R_{1}+\sigma_{2}R_{2})$$
+or es charges portés par les plaques d'un condensateur sont opposés : 
+$$\begin{rcases}
+Q_{1} = \sigma_{1}2\pi R_{1}h \\
+Q_{2} = \sigma_{2}2\pi R_{2}h \\
+Q_{1} = -Q_{2}
+\end{rcases} \Rightarrow \sigma_{1}R_{1} = -\sigma_{2}R_{2}$$
+Ainsi, 
+$$Q_{int} = 0$$
+
+## 3.
+$$\vec{E} = - \overrightarrow{grad} (V)=$$
