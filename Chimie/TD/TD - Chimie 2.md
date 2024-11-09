@@ -78,10 +78,12 @@ $$AgNO_{3} \Leftrightarrow Ag^{+} + NO_{3}^{-}$$
 Alors, 
 $$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Ag^{+})}{a(AgNO_{3})} \right)$$
 $$
-\begin{array}{rclll}
+\begin{array}{ccclc}
 AgNO_{3} &\Leftrightarrow &Ag^{+} &+& NO_{3}^{-} \\ \hline
-\begin{array}{r|clll}
-
-\end{array}
+c&&0&&0 \\
+c-\xi&&\xi&&\xi
 \end{array}
 $$
+Donc, $\xi = c$, lorsque la réaction est totale. 
+À l'équilibre : 
+$$Q = K^{0} = \frac{a(Ag^{+})a(NO_{3}^{-})}{a(AgNO_{3})}=\frac{\xi^{2}}{c-\xi}$$
