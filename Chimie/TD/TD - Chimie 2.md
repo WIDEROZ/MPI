@@ -61,8 +61,18 @@ Pour $MnO^{-}_{4}$ : C'est un oxydant car il subit une reduction. ($MnO_{4}^{2-}
 Pour $I^{-}$ : C'est un réducteur car il va subir une oxydation ($IO_{3}^{-}$ est un oxydant car il va subir une réduction)
 
 ### b.
-$$no(MnO_{4}^{-}) = no(Mn) + 4 no(O) = -1 \Leftrightarrow n(Mn) =7$$
-$$no(MnO_{4}^{2-}) = no(Mn) + 4no(O) = -2 \Leftrightarrow no(Mn) = 6$$
+$$no(MnO_{4}^{-}) = no(Mn) + 4 no(O) = -1 \Rightarrow n(Mn) =7$$
+$$no(MnO_{4}^{2-}) = no(Mn) + 4no(O) = -2 \Rightarrow no(Mn) = 6$$
 Ainsi, 
 $$\Delta no(Mn) = -1$$
-C'est une 
+C'est une reduction alors, $MnO_{4}^{-}$ va capter un ou des electrons, donc $MnO_{4}^{-}$ est un oxydant.
+
+$$no(I^{-}) = -1 \Rightarrow no(I) = -1$$
+$$no(IO_{3}^{-}) = no(I) +3no(O) = -1 \Rightarrow no(I) = 5$$
+$$\Delta no(I) = 6$$
+C'est une oxydation, alors, $I^{-}$ va perdre des electrons, donc $I^{-}$ est un réducteur. 
+
+# Exercice 3
+## 1.
+$$AgNO_{3} \Leftrightarrow Ag^{+} + NO_{3}^{-}$$
+Alors, 
