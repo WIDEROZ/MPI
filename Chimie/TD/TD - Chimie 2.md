@@ -96,4 +96,6 @@ $$Pt + FeSO_{4} + FeCl_{3}$$
 
 $$FeSO_{4} \Leftrightarrow Fe^{2+} + 2e^{-} + SO_{4}$$
 $$FeCl_{3} \Leftrightarrow Fe^{3+} + 3e^{-} + Cl_{3}$$
-$$Pt + 3FeSO_{4} + 2FeCl_{3} \Leftrightarrow Pt + $$
+$$Pt + 2FeCl_{3} + 3Fe^{2+} +SO_{4} \Leftrightarrow Pt + 3FeSO_{4} + 2 Fe^{3+} + Cl_{3}$$
+Alors, 
+$$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Pt)a^{3}(FeSO_{4})a^{2}(Fe^{3+})a(Cl_{3})}{a(Pt)} \right)$$
