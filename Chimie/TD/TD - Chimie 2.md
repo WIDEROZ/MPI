@@ -80,7 +80,7 @@ $$2Ag^{+} + H_{2} \Leftrightarrow  2Ag + 2H^{+}$$
 
 Alors, 
 $$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a^{2}(Ag^{+})}{a^{2}(Ag)} \right)$$
-Comme $Ag$ est un solide : $a(Ag) = 1$ ainsi, 
+Comme $Ag$ est un solide : $a(Ag) = 1$ ainsi, $n=1$
 $$E = 0.682 V$$
 
 ## 2.
@@ -88,5 +88,12 @@ $$Fe \Leftrightarrow Fe^{2+} + 2e^{-}$$
 $$H_{2} \Leftrightarrow 2H^{+} + 2e^{-}$$
 $$Fe + 2H^{+} \Leftrightarrow Fe^{2+} + H_{2}$$
 $$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Fe^{2+})}{a(Fe)} \right)$$
-Comme $Fe$ est un solide $a(Fe) = 1$, ainsi :
-$$E = -0.558 V$$
+Comme $Fe$ est un solide $a(Fe) = 1$, ainsi : $n=2$
+$$E = -0.499 V$$
+
+## 3.
+$$Pt + FeSO_{4} + FeCl_{3}$$
+
+$$FeSO_{4} \Leftrightarrow Fe^{2+} + 2e^{-} + SO_{4}$$
+$$FeCl_{3} \Leftrightarrow Fe^{3+} + 3e^{-} + Cl_{3}$$
+$$Pt + 3FeSO_{4} + 2FeCl_{3} \Leftrightarrow Pt + $$
