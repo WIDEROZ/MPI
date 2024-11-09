@@ -56,4 +56,13 @@ $$I^{-} + 3H_{2}O \Leftrightarrow IO^{-}_{3} + 6H^{+} + 6e^{-}$$
 Ainsi, 
 $$\boxed{6MnO_{4}^{-} + I^{-} + 3H_{2}O \Leftrightarrow 6MnO_{4}^{2-} + IO_{3}^{-} + 6H^{+}}$$
 
-Pour $MnO^{-}_{4}$ : C'est un réducteur car il perd un électron 
+Pour $MnO^{-}_{4}$ : C'est un oxydant car il subit une reduction. ($MnO_{4}^{2-}$ est alors un réducteur car il subit une oxydation)
+
+Pour $I^{-}$ : C'est un réducteur car il va subir une oxydation ($IO_{3}^{-}$ est un oxydant car il va subir une réduction)
+
+### b.
+$$no(MnO_{4}^{-}) = no(Mn) + 4 no(O) = -1 \Leftrightarrow n(Mn) =7$$
+$$no(MnO_{4}^{2-}) = no(Mn) + 4no(O) = -2 \Leftrightarrow no(Mn) = 6$$
+Ainsi, 
+$$\Delta no(Mn) = -1$$
+C'est une 
