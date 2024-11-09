@@ -48,3 +48,12 @@ $$no(C) = 2$$
 Ainsi, 
 $$\Delta no(C) = +4$$
 C'est une oxidation alors, $CH_{3}OH$ est un réducteur.
+
+## 2. 
+### a.
+$$MnO^{-}_{4} + e^{-}\Leftrightarrow MnO_{4}^{2-}$$
+$$I^{-} + 3H_{2}O \Leftrightarrow IO^{-}_{3} + 6H^{+} + 6e^{-}$$
+Ainsi, 
+$$\boxed{6MnO_{4}^{-} + I^{-} + 3H_{2}O \Leftrightarrow 6MnO_{4}^{2-} + IO_{3}^{-} + 6H^{+}}$$
+
+Pour $MnO^{-}_{4}$ : C'est un réducteur car il perd un électron 
