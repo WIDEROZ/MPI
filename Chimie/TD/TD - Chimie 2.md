@@ -102,4 +102,9 @@ $$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Pt)a^{3}(F
 $$E=  E^{0}(Fe^{3+} / Fe^{2+ }) + \frac{RT}{n\mathcal{F}}\ln\left( \frac{a^{2}\left( Fe^{3+} \right)}{a^{3}(Fe^{2+})} \right) = 0.91 $$
 
 ## 4.
-$$K_{2}Cr_{2}O_{7} + Cr_{2}(SO_{4})_{3}$$
+$$Cr_{2}O_{7}^{2-} +14H^{+} + 6e^{-} \Leftrightarrow 2Cr^{3+} + 7H_{2}O $$
+$$Fe^{2+} \Leftrightarrow Fe^{3+} + e^{-}$$
+Alors, 
+$$Cr_{2}O_{7}^{2-} + 14H^{+} + 6Fe^{2+} \Leftrightarrow 2Cr^{3+} + 7H_{2}O + 6Fe^{3+}$$
+Donc, 
+$$E = $$
