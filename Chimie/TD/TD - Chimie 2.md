@@ -99,4 +99,7 @@ $$FeCl_{3} \Leftrightarrow Fe^{3+} + 3e^{-} + Cl_{3}$$
 $$Pt + 2FeCl_{3} + 3Fe^{2+} +SO_{4} \Leftrightarrow Pt + 3FeSO_{4} + 2 Fe^{3+} + Cl_{3}$$
 Alors, 
 $$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Pt)a^{3}(FeSO_{4})a^{2}(Fe^{3+})a(Cl_{3})}{a(Pt)a^{2}(FeCl_{3})a^{3}(Fe^{2+})+a(SO_{4})} \right)$$
-$$E=  E^{0}(Fe^{3+} / Fe^{2+ }) + \frac{RT}{n\mathcal{F}}\ln\left( \frac{a^{2}\left( Fe^{3+} \right)}{a^{3}(Fe^{2+})} \right) =  $$
+$$E=  E^{0}(Fe^{3+} / Fe^{2+ }) + \frac{RT}{n\mathcal{F}}\ln\left( \frac{a^{2}\left( Fe^{3+} \right)}{a^{3}(Fe^{2+})} \right) = 0.91 $$
+
+## 4.
+$$K_{2}Cr_{2}O_{7} + Cr_{2}(SO_{4})_{3}$$
