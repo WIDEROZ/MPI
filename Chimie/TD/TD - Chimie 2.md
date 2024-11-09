@@ -102,7 +102,7 @@ $$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Pt)a^{3}(F
 $$E=  E^{0}(Fe^{3+} / Fe^{2+ }) + \frac{RT}{n\mathcal{F}}\ln\left( \frac{a^{2}\left( Fe^{3+} \right)}{a^{3}(Fe^{2+})} \right) = 0.91 $$
 ??K???? pas sur
 ## 4.
-$$Cr_{2}O_{7}^{2-} +14H^{+} + 6e^{-} \Leftrightarrow 2Cr^{3+} + 7H_{2}O $$
+$$KCr_{2}O_{7}^{2-} +14H^{+} + 6e^{-} \Leftrightarrow 2Cr^{3+} + 7H_{2}O $$
 $$Fe \Leftrightarrow Fe^{3+} + 3e^{-}$$
 Alors, 
 $$Cr_{2}O_{7}^{2-} + 14H^{+} + 6Fe^{2+} \Leftrightarrow 2Cr^{3+} + 7H_{2}O + 6Fe^{3+}$$
@@ -111,5 +111,3 @@ $$E(Cr_{2}O_{7}^{2-} / Cr^{3+}) = E^{0}(Cr_{2}O_{7}^{2-} / Cr^{3+}) + \frac{RT}{
 $a(Cr_{2}O_{7}^{2-}) = 1$ car c'est un solide puis, $a(H_{2}O) = 1$ par convention.
 Ainsi 
 $$E(Cr_{2}O_{7}^{2-} / Cr^{3+}) = 1.27 V$$
-$$E(Fe^{3+}/Fe^{2+}) = E^{0}(Fe^{3+}/Fe^{2+}) + \frac{RT}{n\mathcal{F}}\log\left( \frac{a(Fe^{3+})}{a(Fe)} \right)$$
-$$E(Fe^{3+}/Fe) = $$
