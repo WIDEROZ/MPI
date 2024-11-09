@@ -74,7 +74,11 @@ C'est une oxydation, alors, $I^{-}$ va perdre des electrons, donc $I^{-}$ est un
 
 # Exercice 3
 ## 1.
-$$AgNO_{3} \Leftrightarrow Ag^{+} + NO_{3}^{-}$$
+$$H_{2} \Leftrightarrow 2H^{+} + 2e^{-}$$
+$$Ag \Leftrightarrow Ag^{+} +e^{-}$$
+$$2Ag + H_{2} \Leftrightarrow $$
+
+
 Alors, 
 $$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Ag^{+})}{a(AgNO_{3})} \right)$$
 $$
@@ -84,11 +88,7 @@ n_{AgNO_{3}}c&&0&&0 \\
 (n_{AgNO_{3}}c-\xi)&&\xi&&\xi
 \end{array}
 $$
-À l'équilibre : 
-$$Q = K^{0} = \frac{a(Ag^{+})a(NO_{3}^{-})}{a(AgNO_{3})}=\frac{\xi^{2}}{c-\xi}$$
-
-Alors, la réaction est quasi totale donc, 
-$$\xi^{2} + K^{0}\xi - cK^{0} = 0$$
-$$\xi = \frac{-K^{0}\pm \sqrt{(K^{0})^{2}+4c}}{2}$$
-Ainsi, 
-$$a(Ag^{+}) =\xi = -\frac{K^{0}}{2}\pm \sqrt{\left( \frac{K^{0}}{2} \right)^{2}+c}$$
+On a :
+$$K^{0} = 10^{\frac{E^{0}(Ag^{+}/Ag)-E^{0}(H^{+}/H_{2})}{0.059}} = 3.63\times 10^{13}\gg 1$$
+Alors, la réaction est quasi totale donc, $n_{AgNO_{3}}c = \xi$ à l'équilibre et :
+$$Q = K^{0} = \frac{a(Ag^{+})a(NO_{3}^{-})}{a(AgNO_{3})} = \frac{c^{2}}{}$$
