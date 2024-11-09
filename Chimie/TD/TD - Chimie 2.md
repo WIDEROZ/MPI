@@ -113,3 +113,12 @@ Ainsi
 $$E(Cr_{2}O_{7}^{2-} / Cr^{3+}) = 1.27 V$$
 
 ## 5.
+$$HCl \Leftrightarrow Cl^{-} + H^{+}$$
+$$Cl_{2} + 2e^{-}\Leftrightarrow 2Cl^{-}$$
+Alors, 
+$$2Cl^{-} + 2H^{+}\Leftrightarrow 2HCl + Cl_{2}(g) + 2e^{ - } $$
+
+$$\begin{array}{c}
+HCl &\Leftrightarrow& Cl^{-} &+& H^{+} \\ \hline
+
+\end{array}$$
