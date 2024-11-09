@@ -80,10 +80,15 @@ $$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Ag^{+})}{a(
 $$
 \begin{array}{ccclc}
 AgNO_{3} &\Leftrightarrow &Ag^{+} &+& NO_{3}^{-} \\ \hline
-c&&0&&0 \\
-c-\xi&&\xi&&\xi
+n_{AgNO_{3}}c&&0&&0 \\
+(n_{AgNO_{3}}c-\xi)&&\xi&&\xi
 \end{array}
 $$
-Donc, $\xi = c$, lorsque la réaction est totale. 
 À l'équilibre : 
 $$Q = K^{0} = \frac{a(Ag^{+})a(NO_{3}^{-})}{a(AgNO_{3})}=\frac{\xi^{2}}{c-\xi}$$
+
+Alors, la réaction est quasi totale donc, 
+$$\xi^{2} + K^{0}\xi - cK^{0} = 0$$
+$$\xi = \frac{-K^{0}\pm \sqrt{(K^{0})^{2}+4c}}{2}$$
+Ainsi, 
+$$a(Ag^{+}) =\xi = -\frac{K^{0}}{2}\pm \sqrt{\left( \frac{K^{0}}{2} \right)^{2}+c}$$
