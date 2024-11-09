@@ -76,11 +76,10 @@ C'est une oxydation, alors, $I^{-}$ va perdre des electrons, donc $I^{-}$ est un
 ## 1.
 $$H_{2} \Leftrightarrow 2H^{+} + 2e^{-}$$
 $$Ag \Leftrightarrow Ag^{+} +e^{-}$$
-$$2Ag + H_{2} \Leftrightarrow $$
-
+$$2Ag^{+} + H_{2} \Leftrightarrow  2Ag + 2H^{+}$$
 
 Alors, 
-$$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Ag^{+})}{a(AgNO_{3})} \right)$$
+$$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a^{2}(Ag^{+})}{a^{2}(Ag)} \right)$$
 $$
 \begin{array}{ccclc}
 AgNO_{3} &\Leftrightarrow &Ag^{+} &+& NO_{3}^{-} \\ \hline
