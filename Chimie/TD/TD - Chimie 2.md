@@ -80,14 +80,13 @@ $$2Ag^{+} + H_{2} \Leftrightarrow  2Ag + 2H^{+}$$
 
 Alors, 
 $$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a^{2}(Ag^{+})}{a^{2}(Ag)} \right)$$
-$$
-\begin{array}{ccclc}
-AgNO_{3} &\Leftrightarrow &Ag^{+} &+& NO_{3}^{-} \\ \hline
-n_{AgNO_{3}}c&&0&&0 \\
-(n_{AgNO_{3}}c-\xi)&&\xi&&\xi
-\end{array}
-$$
-On a :
-$$K^{0} = 10^{\frac{E^{0}(Ag^{+}/Ag)-E^{0}(H^{+}/H_{2})}{0.059}} = 3.63\times 10^{13}\gg 1$$
-Alors, la réaction est quasi totale donc, $n_{AgNO_{3}}c = \xi$ à l'équilibre et :
-$$Q = K^{0} = \frac{a(Ag^{+})a(NO_{3}^{-})}{a(AgNO_{3})} = \frac{c^{2}}{}$$
+Comme $Ag$ est un solide : $a(Ag) = 1$ ainsi, 
+$$E = 0.682 V$$
+
+## 2.
+$$Fe \Leftrightarrow Fe^{2+} + 2e^{-}$$
+$$H_{2} \Leftrightarrow 2H^{+} + 2e^{-}$$
+$$Fe + 2H^{+} \Leftrightarrow Fe^{2+} + H_{2}$$
+$$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Fe^{2+})}{a(Fe)} \right)$$
+Comme $Fe$ est un solide $a(Fe) = 1$, ainsi :
+$$E = -0.558 V$$
