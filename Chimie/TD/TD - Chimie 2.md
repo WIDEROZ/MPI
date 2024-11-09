@@ -100,11 +100,14 @@ $$Pt + 2FeCl_{3} + 3Fe^{2+} +SO_{4} \Leftrightarrow Pt + 3FeSO_{4} + 2 Fe^{3+} +
 Alors, 
 $$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Pt)a^{3}(FeSO_{4})a^{2}(Fe^{3+})a(Cl_{3})}{a(Pt)a^{2}(FeCl_{3})a^{3}(Fe^{2+})+a(SO_{4})} \right)$$
 $$E=  E^{0}(Fe^{3+} / Fe^{2+ }) + \frac{RT}{n\mathcal{F}}\ln\left( \frac{a^{2}\left( Fe^{3+} \right)}{a^{3}(Fe^{2+})} \right) = 0.91 $$
-
+??K???? pas sur
 ## 4.
 $$Cr_{2}O_{7}^{2-} +14H^{+} + 6e^{-} \Leftrightarrow 2Cr^{3+} + 7H_{2}O $$
 $$Fe^{2+} \Leftrightarrow Fe^{3+} + e^{-}$$
 Alors, 
 $$Cr_{2}O_{7}^{2-} + 14H^{+} + 6Fe^{2+} \Leftrightarrow 2Cr^{3+} + 7H_{2}O + 6Fe^{3+}$$
 Donc, 
-$$E = $$
+$$E(Cr_{2}O_{7}^{2-} / Cr^{3+}) = E^{0}(Cr_{2}O_{7}^{2-} / Cr^{3+}) + \frac{RT}{n\mathcal{F}}\ln\left( \frac{a^{2}(Cr^{+})}{a^{14}(H^{+})} \right)$$
+$a(Cr_{2}O_{7}^{2-}) = 1$ car c'est un solide puis, $a(H_{2}O) = 1$ par convention.
+Ainsi 
+$$E(Cr_{2}O_{7}^{2-} / Cr^{3+}) = 1.27 V$$
