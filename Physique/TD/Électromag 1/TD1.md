@@ -78,3 +78,12 @@ Ainsi,
 $$\boxed{V(r) = \frac{V_{2}-V_{1}}{\ln\left( \frac{R_{2}}{R_{1}} \right)}\ln\left( \frac{r}{R_{1}} \right) + V_{1}}$$
 
 # Exercice 5
+On assimile la galaxie à un fromage (plus physiquement un cylindre)
+On prend deux plans de symétries de la galaxie et on remarque que : 
+$$\vec{E} \text{ est dirigé vers le centre de la galaxie } \vec{e}_{r}
+$$
+
+En prenant un cylindre comme surface de Gauss : 
+$$\iint \vec{E}.d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}} $$
+$$E \iint \vec{e}_{r}.dS_{lat} = \frac{\rho \tau}{\varepsilon_{0}}$$
+Or $dS_{lat} = dr $
