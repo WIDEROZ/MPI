@@ -93,4 +93,7 @@ Mais encore :
 $$\vec{E} \iint \vec{e}_{r}d\vec{S}_{2} = ES_{2}$$
 Or $S_{1} = S_{2}$ car c'est un cylindre. 
 Ainsi, par le théorème de superposition : 
-$$2ES_{1} = \frac{Q_{int}}{\varepsilon_{0}}\Rightarrow E= \frac{\rho V}{}$$
+$$2ES_{1} = \frac{Q_{int}}{\varepsilon_{0}}\Rightarrow E= \frac{\rho \times S_{1} \times h }{2\varepsilon_{0}S_{1}} = \frac{\rho h}{2\varepsilon_{0}}$$
+$h$ le diamètre du système solaire : 
+$$\omega_{0} = 
+$$
