@@ -83,7 +83,14 @@ On prend deux plans de symétries de la galaxie et on remarque que :
 $$\vec{E} \text{ est dirigé vers le centre de la galaxie } \vec{e}_{r}
 $$
 
-En prenant un cylindre comme surface de Gauss : 
+En prenant un cylindre couché sur l'axe $\vec{e}_{r}$ comme surface de Gauss : 
 $$\iint \vec{E}.d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}} $$
-$$E \iint \vec{e}_{r}.dS_{lat} = \frac{\rho \tau}{\varepsilon_{0}}$$
-Or $dS_{lat} = dr $
+On a : 
+$$\vec{E} \iint \vec{e}_{r}.d\vec{S}_{lat}  = 0$$
+Puis, 
+$$\vec{E} \iint \vec{e}_{r}.d\vec{S}_{1} = {E}S_{1}$$
+Mais encore : 
+$$\vec{E} \iint \vec{e}_{r}d\vec{S}_{2} = ES_{2}$$
+Or $S_{1} = S_{2}$ car c'est un cylindre. 
+Ainsi, par le théorème de superposition : 
+$$2ES_{1} = \frac{Q_{int}}{\varepsilon_{0}}\Rightarrow E= \frac{\rho V}{}$$
