@@ -46,3 +46,5 @@ $$\boxed{F_{1}(x) \sim \frac{1}{3}x^{3}}$$
 ## a.
 Comme : $g \in \mathcal{C}^{1}([1, + \infty[)$, on a : $g' \in \mathcal{C}^{0}([1, + \infty[)$ alors, 
 $$\int _{1}^{+ \infty} \left| g'(t)\right| \, dt \text{ existe}$$
+Comme $g$ est décroissante et tend vers $0$ elle est positive, or $g'\leq 0$ car $g$ est décroissante alors, 
+$$\forall x \in \int _{1}^{x} (-g'(t)) \, dx = g(x)$$
