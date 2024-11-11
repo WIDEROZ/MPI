@@ -64,4 +64,8 @@ $$\boxed{\forall b > 1, \int_{1}^{b} \sin(t)g(t)  \, dt = \cos(1)g(1) - \cos(b)g
 
 
 ## c.
-$$\int _{1}^{b} \cos(t)g'(t) \, dt \leq \int _{1}^{b} g'(t)\, dt \in \mathbb{R} $$
+$$\int _{1}^{+ \infty} \cos(t)g'(t) \, dt \geq \int _{1}^{+ \infty} g'(t)\, dt \in \mathbb{R}$$
+par linéarité de l'intégrale et car $g'\leq 0$ est intégrable (donc $\int _{1}^{+ \infty} g'$ converge)
+
+Comme $\lim_{ x \to +\infty }g(x) = 0$, $\lim_{ x \to +\infty }g'(x) = 0$ ainsi, 
+$$\int _{1}^{+ \infty} \, dx $$
