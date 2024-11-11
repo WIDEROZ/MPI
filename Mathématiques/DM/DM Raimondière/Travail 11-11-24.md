@@ -62,3 +62,6 @@ $$\forall b > 1, \int_{1}^{b} \sin(t)g(t) \, dx = [-\cos(t)g(t)]_{1}^{b} + \int 
 Ainsi, 
 $$\boxed{\forall b > 1, \int_{1}^{b} \sin(t)g(t)  \, dt = \cos(1)g(1) - \cos(b)g(b) + \int _{1}^{b} \cos(t)g'(t) \, dt }$$
 
+
+## c.
+$$\int _{1}^{b} \cos(t)g'(t) \, dt \leq \int _{1}^{b} g'(t)\, dt \in \mathbb{R} $$
