@@ -47,4 +47,17 @@ $$\boxed{F_{1}(x) \sim \frac{1}{3}x^{3}}$$
 Comme : $g \in \mathcal{C}^{1}([1, + \infty[)$, on a : $g' \in \mathcal{C}^{0}([1, + \infty[)$ alors, 
 $$\int _{1}^{+ \infty} \left| g'(t)\right| \, dt \text{ existe}$$
 Comme $g$ est décroissante et tend vers $0$ elle est positive, or $g'\leq 0$ car $g$ est décroissante alors, 
-$$\forall x \in \int _{1}^{x} (-g'(t)) \, dx = g(x)$$
+$$\forall x \in [1, + \infty[, -\int _{1}^{x} g'(t) \, dx = -(g(x)-g(1))$$
+donc, 
+$$\int_{1}^{+ \infty} \left| g'(t) \right| \, dt = g(1) \in \mathbb{R}_{+}$$
+car $\lim_{ x \to +\infty } g(x) = 0$, 
+
+Ainsi, 
+$$\boxed{g' \text{ est une fonction intégrable sur } [1, + \infty[}$$
+
+
+## b.
+On effectue une intégration par parties : 
+$$\forall b > 1, \int_{1}^{b} \sin(t)g(t) \, dx = [-\cos(t)g(t)]_{1}^{b} + \int _{1}^{b} \cos(t)g'(t) \, dt$$
+Ainsi, 
+$$\boxed{\forall b > 1, \int_{1}^{b} \sin(t)g(t)  \, dt = \cos(1)g(1) - \cos(b)g(b) + \int _{1}^{b} \cos(t)g'(t) \, dt }$$
