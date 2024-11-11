@@ -11,9 +11,9 @@ $$\boxed{\sum_{k = 1}^{n} \frac{1}{k} \sim \ln(n)}$$
 
 # Exercice 2
 ## a.
-$$\forall t \in \mathbb{R}_{+}, f(t) \underset{t \to + \infty}{\sim} t^{2}$$
+$$\forall t \in \mathbb{R}_{+}, f(t) \underset{t \to + \infty}{\sim} t^{2}\geq 0$$
 car $\ln(t+1) \sim \ln(t) \underset{t \to + \infty}{=}O(t)$, 
-Ainsi, comme $-2 \leq 1$, par le critère des intégrales de Riemann : 
+Ainsi, comme $-2 < 1$, par le critère des intégrales de Riemann : 
 $$\forall x \in \mathbb{R}^{*}_{+}, F_{2}(x) \text{ diverge}$$
 
-$$\forall t \in \mathbb{R}_{+}, f(t) \underset{t \to 0^{+}}{\sim}$$
+Comme $f(t) \underset{t \to 0^{+}}{\longrightarrow}0$, Ainsi
