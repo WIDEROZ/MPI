@@ -37,7 +37,12 @@ $$\int _{x}^{+\infty} g(x) \, dt \underset{x \to + \infty}{\sim} \int _{x}^{+ \i
 Ainsi, 
 $$\boxed{G_{2}(x) \underset{x \to + \infty}{\sim} e^{ -x }}$$
 Donc, 
-comme $F_{2}(x) \underset{t \to + \infty}{\sim} t^{2}$ et que $F_{2}(x)$ diverge : 
-$$F_{2}(x) \sim \int_{0}^{x} t^{2} \, dt = \frac{1}{3}x^{3}$$
+comme $f(t) \underset{t \to + \infty}{\sim} t^{2}$ et que $F_{2}(x)$ diverge : 
+$$F_{1}(x) \sim \int_{0}^{x} t^{2} \, dt = \frac{1}{3}x^{3}$$
 Ainsi, 
-$$F_{2}(x)$$
+$$\boxed{F_{1}(x) \sim \frac{1}{3}x^{3}}$$
+
+# Exercice 3
+## a.
+Comme : $g \in \mathcal{C}^{1}([1, + \infty[)$, on a : $g' \in \mathcal{C}^{0}([1, + \infty[)$ alors, 
+$$\int _{1}^{+ \infty} \left| g'(t)\right| \, dt \text{ existe}$$
