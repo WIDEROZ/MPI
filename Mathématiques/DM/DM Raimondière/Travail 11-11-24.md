@@ -16,4 +16,6 @@ car $\ln(t+1) \sim \ln(t) \underset{t \to + \infty}{=}O(t)$,
 Ainsi, comme $-2 < 1$, par le critère des intégrales de Riemann : 
 $$\forall x \in \mathbb{R}^{*}_{+}, F_{2}(x) \text{ diverge}$$
 
-Comme $f(t) \underset{t \to 0^{+}}{\longrightarrow}0$, Ainsi
+Pour $x \in \mathbb{R}_{+}^{*}$, 
+Comme $\lim_{ t \to 0 } f(t) =0$ et $\lim_{ t \to x } f(t) \in \mathbb{R}$ Ainsi
+$$ F_{1}(x)\text{ converge}$$
