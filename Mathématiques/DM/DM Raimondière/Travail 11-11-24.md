@@ -30,4 +30,6 @@ Comme $\lim_{ t \to 0 } g(t) = 0$ et $\lim_{ t \to x } g(t) \in \mathbb{R}$ Ains
 $$\boxed{ G_{1}(x)\text{ converge}}$$
 
 ## b.
-$$G_{1}(x) + G_{2}(x) = \lim_{ x \to +\infty } G_{1}(x) $$
+$$g(t) \sim e^{ -t }$$
+Alors, 
+$$\int _{0}^{x} g(t) \, dt \sim \int _{0}^{x}e^{ {-t} } \, dt = 1-e^{ -x }$$
