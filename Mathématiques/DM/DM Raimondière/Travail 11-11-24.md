@@ -61,3 +61,4 @@ On effectue une intégration par parties :
 $$\forall b > 1, \int_{1}^{b} \sin(t)g(t) \, dx = [-\cos(t)g(t)]_{1}^{b} + \int _{1}^{b} \cos(t)g'(t) \, dt$$
 Ainsi, 
 $$\boxed{\forall b > 1, \int_{1}^{b} \sin(t)g(t)  \, dt = \cos(1)g(1) - \cos(b)g(b) + \int _{1}^{b} \cos(t)g'(t) \, dt }$$
+
