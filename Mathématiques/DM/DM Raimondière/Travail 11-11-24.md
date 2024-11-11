@@ -14,8 +14,19 @@ $$\boxed{\sum_{k = 1}^{n} \frac{1}{k} \sim \ln(n)}$$
 $$\forall t \in \mathbb{R}_{+}, f(t) \underset{t \to + \infty}{\sim} t^{2}\geq 0$$
 car $\ln(t+1) \sim \ln(t) \underset{t \to + \infty}{=}O(t)$, 
 Ainsi, comme $-2 < 1$, par le critère des intégrales de Riemann : 
-$$\forall x \in \mathbb{R}^{*}_{+}, F_{2}(x) \text{ diverge}$$
+$$\forall x \in \mathbb{R}^{*}_{+}, \boxed{F_{2}(x) \text{ diverge}}$$
 
 Pour $x \in \mathbb{R}_{+}^{*}$, 
 Comme $\lim_{ t \to 0 } f(t) =0$ et $\lim_{ t \to x } f(t) \in \mathbb{R}$ Ainsi
-$$ F_{1}(x)\text{ converge}$$
+$$\boxed{ F_{1}(x)\text{ converge}}$$
+
+On a :
+$$\forall t \in \mathbb{R}_{+}, g(t) \underset{t \to + \infty}{\sim} e^{ -t } = O\left( \frac{1}{t^{2}} \right)$$
+comme $2>1$ par le critère des intégrales de Riemann : 
+$$\forall x \in \mathbb{R}_{+}^{*}, \boxed{G_{2}(x) \text{ converge}}$$
+
+Pour $x \in \mathbb{R}_{+}^{*}$, 
+Comme $\lim_{ t \to 0 } g(t) = 0$ et $\lim_{ t \to x } g(t) \in \mathbb{R}$ Ainsi
+$$\boxed{ G_{1}(x)\text{ converge}}$$
+
+## b.
