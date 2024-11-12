@@ -18,3 +18,13 @@ $$\frac{d^{k}}{dt^{k}}(e^{ -t }t^{n}) = e^{ -t }\sum_{i = 0}^{k} (-1)^{k-i} \bin
 et $\deg P_{n, k}(t) = n$ et $\mathrm{Cd}(P_{n, k}) = (-1)^{k}$ 
 puis
 $$P_{n, k}(0) = 0$$
+
+## c.
+$$\begin{cases}
+Q_{0} = 1 \\
+Q_{1} = 1-t \\
+Q_{2} =  1-2t+\frac{t^{2}}{2}
+\end{cases}$$
+
+## d.
+$$\left< Q_{n}, P \right>  $$
