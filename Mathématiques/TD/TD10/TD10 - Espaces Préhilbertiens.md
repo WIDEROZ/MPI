@@ -1,4 +1,9 @@
 # Exercice 8
 ## a.
-$$\int _{0}^{+ \infty} \left( \sum_{k = 0}^{\infty}\frac{t^{k}}{k!} \right)\left( \sum_{k = 0}^{\infty} p_{k}t^{k} \right)\left( \sum_{k = 0}^{\infty} q_{k}t^{k} \right) \, dt$$
-$$\int _{0}^{+ \infty}  \,dt $$
+L'intégrale est bien intégrable,
+
+$$\left< P, P \right> = \int _{0}^{+ \infty} e^{ -t }P^{2} \, dt \geq 0$$
+car $e^{ -t }P^{2}\geq 0$, 
+Supposons, 
+$$\int _{0}^{+ \infty} e^{ -t }P(t)Q(t) \, dt = 0  $$
+alors, 
