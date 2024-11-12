@@ -10,17 +10,21 @@ Défini positif :
 Soit $x \in E$, 
 $$\varphi(x, x) = \left< x,x \right> + k \left< x, a \right>^{2} > \left< x, x \right> -\left< x, a \right> ^{2}$$
 or comme : 
-$$\left< x, a \right> \leq \left|\left| x \right|\right| \left|\left| a \right|\right| = \sqrt{\left< x, x \right>}$$
+$$|\left< x, a \right>| \leq \left|\left| x \right|\right| \left|\left| a \right|\right| = \sqrt{\left< x, x \right>}$$
 par l'inégalité de Cauchy-Schwarz 
 Ainsi, 
-$$\varphi(x, x) \geq \left< x, a \right> (1+k\left< x, a \right> )$$
-
-
+$$\varphi(x, x) > 0$$
+De plus
+Si $x = 0$, $\varphi(x, x) = 0$,
+Ainsi, $\varphi(x, x) \geq 0$.
 Supposons que 
 $$\varphi(x, x) = \left< x, x \right> + k\left< x, a \right>^{2} = 0$$
 Alors, 
-$$\left< x, x \right> +k\left< x, a \right> ^{2} > \left< x, x \right> -\left< x, a \right> ^{2} $$
-$k > -1$
+$$\left< x, x \right> +k\left< x, a \right> ^{2} \leq $$
+car $k > -1$ et par l'inégalité de Cauchy-Schwarz. 
+Ainsi, comme 
+
+
 # Exercice 8
 ## a.
 L'intégrale est bien intégrable,
