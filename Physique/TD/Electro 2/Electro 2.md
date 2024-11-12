@@ -32,6 +32,11 @@ En réalité le filtre va distordre le signal voir diagramme de bode (en gros il
 ## 3.
 ### a.
 Pour une seconde de concert un signal en mono vaut : 
-$$16f_{e} = 70.56 \text{ Mbit.s}$$
+$$16f_{e} = 70.56 \text{ Mbit.s}^{-1}$$
 Donc en stéréo : 
-$$2\times 16f_{e} = 141.12 \text{ Mbit.s}$$
+$$2\times 16f_{e} = 141.12 \text{ Mbit.s} = 17.64 Mo.s^{-1}$$
+
+## b.
+$$\frac{P}{\Delta t} = 17.64 \text{Mo.s}^{-1}$$
+Ainsi, 
+$$\Delta t = \frac{P}{17.64} \text{ s}$$
