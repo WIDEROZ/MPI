@@ -13,6 +13,8 @@ et que l'on intègre entre $0$ et $+ \infty$,
 $$e^{ -t }P^{2}(t) = 0 \Rightarrow P(t) = 0$$
 
 ## b.
-$$\frac{d}{dt}(e^{ t }t^{n}) = e^{ t }t^{n} +ne^{ t }t^{n-1}$$
-Puis, 
-$$\frac{d^{2}}{dt^{2}}(e^{ t }t^{n}) = \frac{d}{dt}(e^{ t }t^n) + n(n-1)e^{ t }t^{n-2} + ne^{ t }t^{n-1}$$
+On a :
+$$\frac{d^{k}}{dt^{k}}(e^{ -t }t^{n}) = e^{ -t }\sum_{i = 0}^{k} (-1)^{k-i} \binom{k}{i} \frac{d^{i}}{dt^{i}}t^{n} = e^{ -t }P_{n,k}(t)$$
+et $\deg P_{n, k}(t) = n$ et $\mathrm{Cd}(P_{n, k}) = (-1)^{k}$ 
+puis
+$$P_{n, k}(0) = 0$$
