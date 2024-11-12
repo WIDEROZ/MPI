@@ -1,3 +1,13 @@
+# Exercice 5
+Supposons que $\varphi$ soit un produit scalaire, alors, 
+Soit $x, y \in E$, 
+$$|\varphi(x, y)| \leq \sqrt{\varphi(x, x)\varphi(y, y)}$$
+$$= \sqrt{(\left< x, x \right> + k\left< x, a \right> ^{2})(\left< y, y \right> + k\left< y, a \right> ^{2})}$$
+$$(\left< x, x \right> + k\left< x, a \right> ^{2})(\left< y, y \right> + k\left< y, a \right> ^{2})\geq 0$$
+alors, 
+
+
+
 # Exercice 8
 ## a.
 L'intégrale est bien intégrable,
