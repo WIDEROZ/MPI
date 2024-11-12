@@ -28,3 +28,22 @@ y
 x' \\
 y'
 \end{pmatrix} \right> = xx' + yy'$$
+Sur $\mathbb{R}^{n}$, 
+$$\forall X = \begin{pmatrix}
+x_{1} \\
+\vdots \\
+x_{n}
+\end{pmatrix}, Y = \begin{pmatrix}
+y_{1} \\
+\vdots \\
+y_{n}
+\end{pmatrix} \in \mathbb{R}^{n}, \sum_{k = 1}^{n}x_{k}y_{k} = \left< X, Y \right>  $$
+Démonstration : 
+$$\left< X, Y \right> = \left< Y, X \right> $$
+Soit $\alpha \in \mathbb{R}$, 
+$$\left< \alpha X+Y, Z \right> =\sum_{k = 1}^{n}(\alpha x_{k}+y_{k})z_{k} = \alpha\sum_{k = 1}^{n}x_{k}z_{k} + \sum_{k = 1}^{n}y_{k}z_{k}  $$
+$$= \alpha\left< X, Z \right> + \left< Y, Z \right> $$
+Ainsi, 
+$$\left< X, X \right> = \sum_{k =1}^{n} x_{k}^{2} = \left|\left| X \right|\right| ^{2}_{2} \geq 0$$
+puis, 
+$$\forall X, Y \in \mathbb{R}^{n}$$
