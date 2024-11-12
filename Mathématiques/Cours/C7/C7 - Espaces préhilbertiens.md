@@ -45,5 +45,31 @@ $$\left< \alpha X+Y, Z \right> =\sum_{k = 1}^{n}(\alpha x_{k}+y_{k})z_{k} = \alp
 $$= \alpha\left< X, Z \right> + \left< Y, Z \right> $$
 Ainsi, 
 $$\left< X, X \right> = \sum_{k =1}^{n} x_{k}^{2} = \left|\left| X \right|\right| ^{2}_{2} \geq 0$$
-puis, 
-$$\forall X, Y \in \mathbb{R}^{n}$$
+puis, nul ssi $X = 0$, 
+$$X^{T}Y = (\left< X, Y \right> )$$
+On peut l'étendre à $\mathcal{M}_{n, p}(\mathbb{R}) = E$, 
+$$\forall A = (a_{i, j})_{\underset{1 \leq j \leq p}{1\leq i \leq n}}, B = (b_{i, j})_{\underset{1 \leq j \leq p}{1\leq i \leq n}} \in E$$
+On pose : 
+$$\left< A, B \right> =\sum_{i = 1}^{n}\sum_{j = 1}^{p} a_{i, j}b_{i, j}$$
+C'est un prod scalaire sur $E$, 
+$$\left< A, B \right> = \mathrm{Tr}(A^{\top}B) $$
+En effet : 
+$$\mathrm{Tr}(A^{T}B) = \sum_{j = 1}^{p} (A^{\top}B)_{j, j} = \sum_{j = 1}^{p} \sum_{i = 1}^{n}a_{i, j}b_{i, j} $$
+
+#### Exercice
+Montrer que : 
+$$\forall A \in \mathcal{A}_{n}(\mathbb{R}), \forall B \in \mathcal{S}_{n}(\mathbb{R}), \left< A, B \right> =0$$
+$$A = \begin{pmatrix}
+0&a \\
+-a&0
+\end{pmatrix} \text{ et } B = \begin{pmatrix}
+b&c \\
+c&d
+\end{pmatrix}$$
+$$A^{\top}B = \begin{pmatrix}
+0
+\end{pmatrix} = \begin{pmatrix}
+\left< A, B \right> 
+\end{pmatrix}$$
+Pour $n \in \mathbb{N}^{*}$, 
+$$\left< A, B \right> = \mathrm{Tr}(A^{\top}B) = -\mathrm{Tr}(AB) = \mathrm{Tr}(AB^{\top}) = \mathrm{Tr}(B^{\top}A) = \left< B,  \right> $$
