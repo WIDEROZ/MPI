@@ -41,4 +41,4 @@ Ainsi, on a bien $A(k+1)$
 
 
 ## e.
-$$\left< Q_{n}, Q_{n} \right> = \int _{0}^{+ \infty}  \, dt $$
+$$\left< Q_{n}, Q_{n} \right> = \frac{1}{(n!)^{2}} \int _{0}^{+ \infty} e^{ -t }P_{n, n}(t) P_{n, n}(t) \, dt = \frac{1}{(n!)^{2}} \left< P_{n, n}, P_{n, n} \right> $$
