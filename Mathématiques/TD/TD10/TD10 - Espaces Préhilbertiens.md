@@ -20,10 +20,10 @@ Ainsi, $\varphi(x, x) \geq 0$.
 Supposons que 
 $$\varphi(x, x) = \left< x, x \right> + k\left< x, a \right>^{2} = 0$$
 Alors, 
-$$\left< x, x \right> +k\left< x, a \right> ^{2} \leq $$
-car $k > -1$ et par l'inégalité de Cauchy-Schwarz. 
-Ainsi, comme 
-
+$$0=\varphi(x, x)=\left< x, x \right> +k\left< x, a \right> ^{2} \geq (k+1)\left< x, a \right>^{2} $$
+par l'inégalité de Cauchy-Schwarz. 
+alors comme $k \neq -1$ et $\left< x, a \right>^{2}\geq 0$ puis $a \neq 0$ (car unitaire) : 
+$$0\geq(k+1)\left< x, a \right>^{2}\geq 0 \Rightarrow\left< x, a \right> = 0 \Rightarrow \boxed{x = 0} $$
 
 # Exercice 8
 ## a.
