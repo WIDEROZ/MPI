@@ -86,5 +86,12 @@ Puis,
 $$\int _{a}^{b}f^{2}(t) \, dt = \left|\left| f \right|\right|_{2}^{2} =0 \Leftrightarrow f = 0_{E}$$
 
 #### Exemple intégrale impropre
-Notons : $L^{2}(\mathbb{R}) = \{ f \in \mathcal{C}^{0}(\mathbb{R}, \mathbb{R}) | f^{2} \text{ est intégrable sur }\mathbb{R} \}$
-On pourait remplacer $\mathbb{R}$ 
+Notons : $E = \mathcal{L}^{2}(\mathbb{R}) = \{ f \in \mathcal{C}^{0}(\mathbb{R}, \mathbb{R}) | f^{2} \text{ est intégrable sur }\mathbb{R} \}$
+On pourrait remplacer le premier $\mathbb{R}$ par un intervalle : 
+des fonctions dans $E$ : 
+$$x \mapsto e^{ -x^{2} }, x\mapsto \frac{1}{1+\left| x\right|}$$
+mais pas $x \mapsto 1, \cos$
+$$\forall f, g \in E, \left| fg\right| \leq \frac{1}{2}f^{2} + \frac{1}{2}g^{2}$$
+$$(f-g)^{2} \geq 0 \Leftrightarrow f^{2}+g^{2} -2\left| fg\right|\geq 0\Leftrightarrow \left| fg\right| \leq \frac{1}{2}f^{2}+\frac{1}{2}g^{2}$$
+
+Comme : $$
