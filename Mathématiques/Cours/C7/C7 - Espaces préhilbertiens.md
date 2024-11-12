@@ -94,4 +94,19 @@ mais pas $x \mapsto 1, \cos$
 $$\forall f, g \in E, \left| fg\right| \leq \frac{1}{2}f^{2} + \frac{1}{2}g^{2}$$
 $$(f-g)^{2} \geq 0 \Leftrightarrow f^{2}+g^{2} -2\left| fg\right|\geq 0\Leftrightarrow \left| fg\right| \leq \frac{1}{2}f^{2}+\frac{1}{2}g^{2}$$
 
-Comme : $$
+Comme : $f^{2}$ et $g^{2}$ sont intégrables sur $\mathbb{R}$, $\frac{1}{2}f^{2}+\frac{1}{2}g^{2}$ l'est aussi et d'après l'inégalité précédente : $fg$ est intégrable
+Ainsi, on peut définir : 
+$$\left< f, g \right> = \int _{-\infty}^{+ \infty}f(t)g(t) \, dt $$
+
+## 2. Inégalités et égalités fondamentales
+Soit $(E, \left< \cdot, \cdot \right>)$ un espace préhilbertien
+#### Définition
+$$\forall x \in E, \left|\left| x \right|\right| = \sqrt{\left< x, x \right> }$$
+C'est la norme préhilbertienne de $x$ associé au produit scalaire $\left< x, x \right>$
+
+#### Formule d'Al-Kashi
+$$\forall x, y \in E, \left|\left| x+y \right|\right| ^{2} = \left|\left| x \right|\right| ^{2}+\left|\left| y \right|\right| ^{2} + 2\left< x, y \right> $$
+
+Démonstration : Exceptionnelle
+
+$$\forall (x_{i})_{i = 1}^{n} \in E^{n}, \left|\left| \sum_{k = 1}^{n} x_{i} \right|\right| ^{2} = \sum_{k = 1}^{n}\left|\left| x_{i} \right|\right| ^{2} + 2\sum_{1 \leq i < j \leq n} \left< x_{i}, x_{j} \right> $$
