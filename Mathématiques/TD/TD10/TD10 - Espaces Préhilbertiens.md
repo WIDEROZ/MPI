@@ -15,6 +15,8 @@ $$e^{ -t }P^{2}(t) = 0 \Rightarrow P(t) = 0$$
 ## b.
 On a :
 $$\frac{d^{k}}{dt^{k}}(e^{ -t }t^{n}) = e^{ -t }\sum_{i = 0}^{k} (-1)^{k-i} \binom{k}{i} \frac{d^{i}}{dt^{i}}t^{n} = e^{ -t }P_{n,k}(t)$$
+$$\frac{d^{i}}{dt^{i}} t^{n} = \frac{n!}{(n-i)!}t^{n-i}$$
+$$P_{n, k}(t) = \sum_{i = 0}^{k} (-1)^{k-i} \binom{k}{i} \frac{n!}{(n-i)!}t^{n-i}$$
 et $\deg P_{n, k}(t) = n$ et $\mathrm{Cd}(P_{n, k}) = (-1)^{k}$ 
 puis
 $$P_{n, k}(0) = 0$$
@@ -27,4 +29,5 @@ Q_{2} =  1-2t+\frac{t^{2}}{2}
 \end{cases}$$
 
 ## d.
-$$\left< Q_{n}, P \right>  $$
+Soit $n \in \mathbb{N}^{*}$, 
+$$A(k) : \left( \forall P \in E, \left< Q_{n}, P \right> = \frac{(-1)^{k}}{n!} \int_{0}^{+ \infty} e^{ -t }P_{}(t) \, dt \right)$$
