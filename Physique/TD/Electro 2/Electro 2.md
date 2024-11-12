@@ -1,7 +1,3 @@
-# Exercice 1
+# Exercice 2
 ## 1.
-$$nf_{e} = \frac{n}{T_{e}}$$
-
-Instantané : $\alpha = 0$
-
-## 2.
+Le signal analysé est probablement celui celui avec les plus grandes amplitudes, 
