@@ -74,31 +74,25 @@ C'est une oxydation, alors, $I^{-}$ va perdre des electrons, donc $I^{-}$ est un
 
 # Exercice 3
 ## 1.
-$$H_{2} \Leftrightarrow 2H^{+} + 2e^{-}$$
 $$Ag \Leftrightarrow Ag^{+} +e^{-}$$
-$$2Ag^{+} + H_{2} \Leftrightarrow  2Ag + 2H^{+}$$
 
 Alors, 
-$$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a^{2}(Ag^{+})}{a^{2}(Ag)} \right)$$
+$$E = E^{0}(Ag^{+} / Ag) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Ag^{+})}{a(Ag)} \right)$$
 Comme $Ag$ est un solide : $a(Ag) = 1$ ainsi, $n=1$
-$$E = 0.682 V$$
+$$E = 0.859 V$$
 
 ## 2.
 $$Fe \Leftrightarrow Fe^{2+} + 2e^{-}$$
-$$H_{2} \Leftrightarrow 2H^{+} + 2e^{-}$$
-$$Fe + 2H^{+} \Leftrightarrow Fe^{2+} + H_{2}$$
 $$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Fe^{2+})}{a(Fe)} \right)$$
 Comme $Fe$ est un solide $a(Fe) = 1$, ainsi : $n=2$
 $$E = -0.499 V$$
 
 ## 3.
-$$Pt + FeSO_{4} + FeCl_{3}$$
-
 $$FeSO_{4} \Leftrightarrow Fe^{2+} + 2e^{-} + SO_{4}$$
 $$FeCl_{3} \Leftrightarrow Fe^{3+} + 3e^{-} + Cl_{3}$$
 $$Pt + 2FeCl_{3} + 3Fe^{2+} +SO_{4} \Leftrightarrow Pt + 3FeSO_{4} + 2 Fe^{3+} + Cl_{3}$$
 Alors, 
-$$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Pt)a^{3}(FeSO_{4})a^{2}(Fe^{3+})a(Cl_{3})}{a(Pt)a^{2}(FeCl_{3})a^{3}(Fe^{2+})+a(SO_{4})} \right)$$
+$$E = E^{0}(Fe^{2+} / Fe) + \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Pt)a^{3}(FeSO_{4})a^{2}(Fe^{3+})a(Cl_{3})}{a(Pt)a^{2}(FeCl_{3})a^{3}(Fe^{2+})a(SO_{4})} \right)$$
 $$E=  E^{0}(Fe^{3+} / Fe^{2+ }) + \frac{RT}{n\mathcal{F}}\ln\left( \frac{a^{2}\left( Fe^{3+} \right)}{a^{3}(Fe^{2+})} \right) = 0.91 $$
 
 ## 4.
@@ -126,7 +120,10 @@ c-\xi &|&\xi&|&\xi
 $$E(Cl_{2}(g) / Cl^{-}) =  E^{0}(Cl_{2}(g) / Cl^{-})+ \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Cl_{2}(g))}{a^{2}(Cl^{-})} \right)$$
 $$E(Cl_{2}/Cl^{-}) = 1.45 V$$
 
+# Correction
+
+
 
 # Exercice 4
 ## 1.
-$$H_{3}AsO_{4} \Leftrightarrow HAsO_{2}$$
+$$H_{3}AsO_{4} + 2H^{+} + 2e^{-} \Leftrightarrow HAsO_{2} + 2H_{2}O$$
