@@ -43,5 +43,14 @@ Ainsi, on a bien $A(k+1)$
 ## e.
 $$\left< Q_{n}, Q_{n} \right> = \frac{1}{(n!)^{2}} \int _{0}^{+ \infty} e^{ -t }P_{n, n}(t) P_{n, n}(t) \, dt  $$
 
-### g.
-$$-e^{ x }(e^{ -x }P' -xe^{ -x }P' + xe^{ -x }P'') = xP''-xP'-P' = x$$
+### i.
+$$\int _0^{+ \infty} -e^{ x }(xe^{ -x }P')'(x)Q(x) \, dx $$
+$$\int _{0}^{+ \infty}-e^{ x }(xe^{ -x }Q')'(x) P(x) \, dx $$
+
+
+$$\begin{pmatrix}
+0&-1&0 \\
+0&1&-4 \\
+0&2 \\
+0&
+\end{pmatrix}$$
