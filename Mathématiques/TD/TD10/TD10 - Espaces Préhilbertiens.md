@@ -36,4 +36,9 @@ $A(0)$ est vraie,
 Soit $k \in \mathbb{N}$ tel que $A(k)$, 
 $$\left< Q_{n}, P \right> = \frac{(-1)^{k}}{n!} \int_{0}^{+ \infty} (e^{ -t }t^{n})^{(n-k)} P^{(k)}(t) \, dt $$
 $$= \frac{(-1)^{k}}{n!} \left( [(e^{ -t }t^{n})^{(n-(k+1))}P^{(k)}(t)]_{0}^{+ \infty} - \int _{0}^{+ \infty} (e^{ -t }t^{n})^{(n-k-1)}P^{(k+1)} \, dt \right)$$
-$$= \frac{(-1)^{k+1}}{n!}\int _{0}^{+ \infty}(e^{ -t }t^{n})^{(n-(k+1))}P^{(k+1)} \, dt =  $$
+$$= \frac{(-1)^{k+1}}{n!}\int _{0}^{+ \infty}(e^{ -t }t^{n})^{(n-(k+1))}P^{(k+1)} \, dt $$
+Ainsi, on a bien $A(k+1)$
+
+
+## e.
+$$\left< Q_{n}, Q_{n} \right> = \int _{0}^{+ \infty}  \, dt $$
