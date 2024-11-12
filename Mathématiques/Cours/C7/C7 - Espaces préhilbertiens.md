@@ -72,4 +72,19 @@ $$A^{\top}B = \begin{pmatrix}
 \left< A, B \right> 
 \end{pmatrix}$$
 Pour $n \in \mathbb{N}^{*}$, 
-$$\left< A, B \right> = \mathrm{Tr}(A^{\top}B) = -\mathrm{Tr}(AB) = \mathrm{Tr}(AB^{\top}) = \mathrm{Tr}(B^{\top}A) = \left< B,  \right> $$
+$$\left< A, B \right> = \mathrm{Tr}(A^{\top}B) = -\mathrm{Tr}(AB) = -\mathrm{Tr}(AB^{\top}) = -\mathrm{Tr}(B^{\top}A) = -\left< B, A \right> $$
+Par symétrie du produit scalaire : $\left< A, B \right>=0$
+
+Sur $\mathcal{C}^{0}([a, b], \mathbb{R})$, 
+$$\forall f, g \in E, \left< f, g \right> = \int_{a}^{b} f(t)g(t) \, dt $$
+Démonstration : 
+$$\forall f, g, h \in E,\forall \alpha \in \mathbb{R}, \left< \alpha f+g, h \right> = \alpha \left< f, h \right> + \left< g, h \right>   $$
+par linéarité de l'intégrale. 
+$$\forall f \in E, \left< f, f \right>  = \int _{a}^{b} f^{2}(t) \, dt \geq 0$$
+car l'intégrale d'une fonction positive est positive. 
+Puis, 
+$$\int _{a}^{b}f^{2}(t) \, dt = \left|\left| f \right|\right|_{2}^{2} =0 \Leftrightarrow f = 0_{E}$$
+
+#### Exemple intégrale impropre
+Notons : $L^{2}(\mathbb{R}) = \{ f \in \mathcal{C}^{0}(\mathbb{R}, \mathbb{R}) | f^{2} \text{ est intégrable sur }\mathbb{R} \}$
+On pourait remplacer $\mathbb{R}$ 
