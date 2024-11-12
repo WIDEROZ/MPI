@@ -107,20 +107,15 @@ Ainsi
 $$E(Cr_{2}O_{7}^{2-} / Cr^{3+}) = 1.27 V$$
 
 ## 5.
-$$HCl \Leftrightarrow Cl^{-} + H^{+}$$
 $$Cl_{2} + 2e^{-}\Leftrightarrow 2Cl^{-}$$
-Alors, 
-$$2Cl^{-} + 2H^{+}\Leftrightarrow 2HCl + Cl_{2}(g) + 2e^{ - } $$
-
-$$\begin{array}{c}
-HCl &\Leftrightarrow& Cl^{-} &+& H^{+} \\ \hline
-c-\xi &|&\xi&|&\xi
-\end{array}$$
 
 $$E(Cl_{2}(g) / Cl^{-}) =  E^{0}(Cl_{2}(g) / Cl^{-})+ \frac{RT}{n\mathcal{F}} \ln\left( \frac{a(Cl_{2}(g))}{a^{2}(Cl^{-})} \right)$$
 $$E(Cl_{2}/Cl^{-}) = 1.45 V$$
 
 # Correction
+#### 4.
+$$Cr_{2}O_{7}^{2-}+ \dots$$
+$$E = E_{0}()+ 0.0\dots \log([])$$
 
 
 
