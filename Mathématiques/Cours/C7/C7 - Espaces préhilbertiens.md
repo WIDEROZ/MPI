@@ -110,3 +110,23 @@ $$\forall x, y \in E, \left|\left| x+y \right|\right| ^{2} = \left|\left| x \rig
 Démonstration : Exceptionnelle
 
 $$\forall (x_{i})_{i = 1}^{n} \in E^{n}, \left|\left| \sum_{k = 1}^{n} x_{i} \right|\right| ^{2} = \sum_{k = 1}^{n}\left|\left| x_{i} \right|\right| ^{2} + 2\sum_{1 \leq i < j \leq n} \left< x_{i}, x_{j} \right> $$
+
+#### Formule de polarisation
+$$\forall x, y \in E, \left< x, y \right> = \frac{1}{4}(\left|\left| x+y \right|\right| ^{2}-\left|\left| x-y \right|\right| ^{2})= \frac{1}{2}(\left|\left| x \right|\right| ^{2}+\left|\left| y \right|\right| ^{2} - \left|\left| x+y \right|\right| ^{2})$$
+
+#### Inégalité de Cauchy-Swarz
+$$\forall x, y \in E, \left| \left< x, y \right>\right|\leq \left|\left| x \right|\right| \left|\left| y \right|\right|  $$
+De plus on a égalité ssi : 
+$$\exists \alpha \in \mathbb{R}_{+}, x = \alpha y \text{ ou } y = \alpha x$$
+
+Démonstration :
+Supposons $\left|\left| x \right|\right|\neq 0$, 
+Soit : 
+$$P : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+t \mapsto \left|\left| tx+y \right|\right| ^{2}
+\end{cases}$$
+$P$ est un polynôme positif de degré $2$ : 
+$$\forall t \in \mathbb{R}, P(t) = \left|\left| x \right|\right| ^{2}t^{2} + 2\left< x, y \right>t + \left|\left| y \right|\right| ^{2} $$
+$$\Delta = 4\left< x, y \right>^{2} - 4\left|\left| x \right|\right|^{2}\left|\left| y \right|\right| ^{2} $$
+Comme $\left|\left| x \right|\right| \neq 0$, son 
