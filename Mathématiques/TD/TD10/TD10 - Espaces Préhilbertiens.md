@@ -1,10 +1,17 @@
 # Exercice 5
 Supposons que $\varphi$ soit un produit scalaire, alors, 
-Soit $x, y \in E$, 
-$$\varphi(x+y, z) = \left< x, z \right> $$
+$$\varphi(a, a) = \left< a, a \right> + k\left< a, a \right> ^{2}=1+k > 0$$
+Ainsi, $k > -1$ car $a \neq 0$ est un vecteur unitaire. 
+Supposons $k > -1$, 
+- Symétrie : C'est bon
+- Linéarité : C'est bon
 
-
-
+Défini positif : 
+Soit $x \in E$, 
+Supposons que 
+$$\varphi(x, x) = \left< x, x \right> + k\left< x, a \right>^{2} = 0$$
+Alors, 
+$$$$
 
 # Exercice 8
 ## a.
