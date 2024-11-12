@@ -64,11 +64,14 @@ $$\boxed{\forall b > 1, \int_{1}^{b} \sin(t)g(t)  \, dt = \cos(1)g(1) - \cos(b)g
 
 
 ## c.
+Soit $b >1$, 
+on a :
 $$\int _{1}^{b} \cos(t)g'(t) \, dt \leq -\int _{1}^{b} g'(t)\, dt \in \mathbb{R}$$
-par linéarité de l'intégrale et car $g'\leq 0$ est intégrable (donc $\int _{1}^{+ \infty} g'$ converge)
+par linéarité de l'intégrale et car $g'\leq 0$ est intégrable sur $[1, + \infty[$ (donc $\int _{1}^{+ \infty} g'$ converge) alors, 
 $$\int _{1}^{b} \sin(t)g(t) \, dt \leq g(1)\cos(1)-g(b)\cos(b) -\int _{1}^{b}g'(t) \, dt  $$
-en faisant tendre $b$ vers $+ \infty$, 
+puis en faisant tendre $b$ vers $+ \infty$, on a :
 $$\int _{1}^{+ \infty} \sin(t)g(t) \, dt \leq g(1)\cos(1)- \int _{1}^{b} g'(t) \, dt \in \mathbb{R}  $$
 Ainsi, 
 $$\boxed{\int _{1}^{+ \infty} \sin(t)g(t) \, dt \text{ converge}}$$Comme $t \mapsto \frac{1}{t^{\alpha}}$ est décroissante car $\alpha >0$,
 $$\boxed{\int _{1}^{+ \infty} \frac{\sin(t)}{t^{\alpha}} \, dt \text{ converge}}$$
+
