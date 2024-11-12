@@ -10,4 +10,5 @@ f_{0} \approx 115Hz \\
 7f_{0} = 805Hz
 \end{cases}$$
 Ainsi, 
-On observe que la 7eme fréquence est décalé alors le phénomène de repliement est actif. 
+On observe que la 7eme fréquence est décalé alors le phénomène de repliement est actif ainsi, 
+$$f_{e} = f'_{\min} + f_{\max} = 5f_{0}+7f_{0} = 1380Hz$$
