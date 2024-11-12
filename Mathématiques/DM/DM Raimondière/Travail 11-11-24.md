@@ -64,8 +64,11 @@ $$\boxed{\forall b > 1, \int_{1}^{b} \sin(t)g(t)  \, dt = \cos(1)g(1) - \cos(b)g
 
 
 ## c.
-$$\int _{1}^{+ \infty} \cos(t)g'(t) \, dt \geq \int _{1}^{+ \infty} g'(t)\, dt \in \mathbb{R}$$
+$$\int _{1}^{b} \cos(t)g'(t) \, dt \leq -\int _{1}^{b} g'(t)\, dt \in \mathbb{R}$$
 par linéarité de l'intégrale et car $g'\leq 0$ est intégrable (donc $\int _{1}^{+ \infty} g'$ converge)
-
-Comme $\lim_{ x \to +\infty }g(x) = 0$, $\lim_{ x \to +\infty }g'(x) = 0$ ainsi, 
-$$\int _{1}^{+ \infty} \, dx $$
+$$\int _{1}^{b} \sin(t)g(t) \, dt \leq g(1)\cos(1)-g(b)\cos(b) -\int _{1}^{b}g'(t) \, dt  $$
+en faisant tendre $b$ vers $+ \infty$, 
+$$\int _{1}^{+ \infty} \sin(t)g(t) \, dt \leq g(1)\cos(1)- \int _{1}^{b} g'(t) \, dt \in \mathbb{R}  $$
+Ainsi, 
+$$\boxed{\int _{1}^{+ \infty} \sin(t)g(t) \, dt \text{ converge}}$$Comme $t \mapsto \frac{1}{t^{\alpha}}$ est décroissante car $\alpha >0$,
+$$\boxed{\int _{1}^{+ \infty} \frac{\sin(t)}{t^{\alpha}} \, dt \text{ converge}}$$
