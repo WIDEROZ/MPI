@@ -24,6 +24,14 @@ Oui c'est compatible
 Le son est pas audible, après échantillonnage, un phénomène de repliement va se produire ainsi, un signal de : $f_{e}-f = 1kHz$ va être produit et pourra être audible
 
 ### b.
-Le filtre passe bas va atténuer le son parasite et ainsi, après échantillonnage le son parasite ne sera pas entendu
+Le filtre passe bas avec une fréquence de coupure à $20kHz$ va atténuer le son parasite et ainsi, après échantillonnage le son parasite ne sera pas entendu
 
 ### c.
+En réalité le filtre va distordre le signal voir diagramme de bode (en gros il va atténuer des fréquences audibles ce qu'on ne veut pas) pour pallier a ce problème il faut alors augmenter la fréquence de coupure du filtre ie augmenter la fréquence d'échantillonnage. 
+
+## 3.
+### a.
+Pour une seconde de concert un signal en mono vaut : 
+$$16f_{e} = 70.56 \text{ Mbit.s}$$
+Donc en stéréo : 
+$$2\times 16f_{e} = 141.12 \text{ Mbit.s}$$
