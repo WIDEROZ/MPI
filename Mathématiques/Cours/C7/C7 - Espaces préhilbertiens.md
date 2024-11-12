@@ -114,7 +114,7 @@ $$\forall (x_{i})_{i = 1}^{n} \in E^{n}, \left|\left| \sum_{k = 1}^{n} x_{i} \ri
 #### Formule de polarisation
 $$\forall x, y \in E, \left< x, y \right> = \frac{1}{4}(\left|\left| x+y \right|\right| ^{2}-\left|\left| x-y \right|\right| ^{2})= \frac{1}{2}(\left|\left| x \right|\right| ^{2}+\left|\left| y \right|\right| ^{2} - \left|\left| x+y \right|\right| ^{2})$$
 
-#### Inégalité de Cauchy-Swarz
+#### Inégalité de Cauchy-Schwarz
 $$\forall x, y \in E, \left| \left< x, y \right>\right|\leq \left|\left| x \right|\right| \left|\left| y \right|\right|  $$
 De plus on a égalité ssi : 
 $$\exists \alpha \in \mathbb{R}_{+}, x = \alpha y \text{ ou } y = \alpha x$$
@@ -129,4 +129,12 @@ t \mapsto \left|\left| tx+y \right|\right| ^{2}
 $P$ est un polynôme positif de degré $2$ : 
 $$\forall t \in \mathbb{R}, P(t) = \left|\left| x \right|\right| ^{2}t^{2} + 2\left< x, y \right>t + \left|\left| y \right|\right| ^{2} $$
 $$\Delta = 4\left< x, y \right>^{2} - 4\left|\left| x \right|\right|^{2}\left|\left| y \right|\right| ^{2} $$
-Comme $\left|\left| x \right|\right| \neq 0$, son 
+Comme $\left|\left| x \right|\right| \neq 0$, son discriminant est négatif ou nul, 
+Ainsi, 
+$$\left| \left< x, y \right> \right|\leq \left|\left| x \right|\right| \left|\left| y \right|\right| $$
+L'égalité se montre facilement voir le cours de l’année dernière. 
+
+#### Cauchy-Schwarz dans $\mathbb{R}^{n} \sim \mathcal{M}_{n}(\mathbb{R})$
+$$\forall (x_{i})_{i = 1}^{n}, (y_{i})_{i = 1}^{n} \in \mathbb{R}^{n}, \left( \sum_{k = 1}^{n} x_{k}y_{k} \right)^{2} \leq \left( \sum_{k = 1}^{n} x_{k}^{2} \right)\left( \sum_{k = 1}^{n}y_{k}^{2} \right)$$
+$$\forall A, B \in \mathcal{M}_{n}(\mathbb{R}), (\mathrm{Tr}(A^{\top}B))^{2} \leq \mathrm{Tr}(A^{\top}A) \mathrm{Tr}(B^{\top}B)$$
+
