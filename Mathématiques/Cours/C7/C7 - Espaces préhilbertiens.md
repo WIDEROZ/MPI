@@ -134,7 +134,8 @@ Ainsi,
 $$\left| \left< x, y \right> \right|\leq \left|\left| x \right|\right| \left|\left| y \right|\right| $$
 L'égalité se montre facilement voir le cours de l’année dernière. 
 
-#### Cauchy-Schwarz dans $\mathbb{R}^{n} \sim \mathcal{M}_{n}(\mathbb{R})$
+#### Cauchy-Schwarz dans $\mathbb{R}^{n} \sim \mathcal{M}_{n, 1}(\mathbb{R})$
 $$\forall (x_{i})_{i = 1}^{n}, (y_{i})_{i = 1}^{n} \in \mathbb{R}^{n}, \left( \sum_{k = 1}^{n} x_{k}y_{k} \right)^{2} \leq \left( \sum_{k = 1}^{n} x_{k}^{2} \right)\left( \sum_{k = 1}^{n}y_{k}^{2} \right)$$
-$$\forall A, B \in \mathcal{M}_{n}(\mathbb{R}), (\mathrm{Tr}(A^{\top}B))^{2} \leq \mathrm{Tr}(A^{\top}A) \mathrm{Tr}(B^{\top}B)$$
+$$\forall A, B \in \mathcal{M}_{n, 1}(\mathbb{R}), (\mathrm{Tr}(A^{\top}B))^{2} \leq \mathrm{Tr}(A^{\top}A) \mathrm{Tr}(B^{\top}B)$$
+
 
