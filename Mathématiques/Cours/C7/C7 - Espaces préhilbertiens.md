@@ -191,6 +191,7 @@ Une famille de vecteurs : $(e_{i})_{i \in [\![1,n]\!]}$ de vecteurs de $E$ est d
 $$\forall i, j \in [\![1, n]\!], i \neq j \Rightarrow \left< e_{i}, e_{j} \right>=0 $$
 
 #### Propriétés
+$$\forall A, B \subset E$$
 $$A^{\bot} = (Vect(A))^{\bot}$$
 $$A^{\bot} \underset{sev}{\subset}E$$
 $$A \subset B \Rightarrow B^{\bot} \subset A^{\bot}$$
@@ -203,3 +204,25 @@ alors,
 $$\left< x, a \right> =0$$
 Ainsi, 
 $$x \in A^{\top}$$
+
+1.
+Comme $A \subset Vect(A)$, on a : 
+$$(Vect(A))^{\bot} \subset A^{\bot} \text{ d'après le 3.}$$
+
+Soit $x \in A^{\bot}$
+$$\forall y \in Vect(A), \exists p \in \mathbb{N}^{*}, \exists(a_{i})_{i = 1}^{p} \in A^{p}, \exists(\alpha_{i})_{i = 1}^{p} \in \mathbb{R}, y = \sum_{k = 1}^{p} \alpha_{k}a_{k}$$
+Alors, 
+$$\left< x, y \right> = \sum_{k = 1}^{ p}\alpha_{k}\left< x, a_{k} \right> =0$$
+Donc, 
+$$x \in (Vect(A))^{\bot}$$
+
+2.
+Voir poly
+
+
+#### Théorème de Pythagore
+Si $(e_{i})_{i = 1}^{n}$ est une famille orthogonale de vecteurs de $E$,
+$$\left| \left| \sum_{k = 1}^{n} e_{k}\right|\right|^{2} = \sum_{k = 1}^{n} \left| \left| e_{k}\right|\right|^{2}$$
+
+Démonstration par récurrence : 
+$$\sum_{k = }$$
