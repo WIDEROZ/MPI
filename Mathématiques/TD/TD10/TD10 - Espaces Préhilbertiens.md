@@ -125,3 +125,14 @@ Soit $f \in F$ et $g \in G$,
 $$\left< f, g \right> = \int _{0}^{1} f(t)g(t) \, dt + \int _{0}^{1}f'(t)g'(t) \, dt$$
 $$\int _{0}^{1} f'(t)g'(t) \, dt = [f(t)g'(t)]_{0}^{1} - \int _{0}^{1} f(t)g''(t) \, dt $$
 $$= -\int _{0}^{1}f(t)g(t) \, dt $$
+Donc, 
+$$\left< f, g \right> = 0$$
+Ainsi, 
+$$F \subset G^{\bot}$$
+
+## c.
+Soit $h \in G^{\bot}$, $g \in G$, 
+$$\left< h, g \right> = 0 $$
+$$\int _{0}^{1} hg'' + \int _{0}^{1} h'g' = 0 \Rightarrow \int _{0}^{1}(hg')' = h(1)g'(1)-h(0)g'(0) $$
+Alors, 
+$$h(1)g'(1) = h(0)g'(0)$$
