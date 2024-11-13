@@ -43,6 +43,7 @@ Oui
 #### 7.
 On effectue un PFD : 
 $$m \frac{dv}{dt} = qE$$
-On intègre cette relation : 
-$$v(t) = \frac{q}{m}\int _{0}^{t} E(t) dt \Rightarrow v(x) = \frac{q}{m}V$$
-car $v(0) = 0$ et $$
+Alors, 
+$$m \frac{dv}{dt} = -q \frac{dV}{dx}$$
+Donc, 
+$$m -\frac{\frac{2q}{m} \frac{dV}{dx}}{2\sqrt{-\frac{2q}{m}V(x)}} dx =mdv = -q \frac{dV}{v(x)} = dV\sqrt{-\frac{mq}{2V(x)}}$$
