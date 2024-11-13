@@ -224,5 +224,9 @@ Voir poly
 Si $(e_{i})_{i = 1}^{n}$ est une famille orthogonale de vecteurs de $E$,
 $$\left| \left| \sum_{k = 1}^{n} e_{k}\right|\right|^{2} = \sum_{k = 1}^{n} \left| \left| e_{k}\right|\right|^{2}$$
 
-Démonstration par récurrence : 
-$$\sum_{k = }$$
+Démonstration par récurrence.
+
+# III. Les bases orthonormales
+#### Définition
+Une base orthonormale (BON) de $E$ : $(e_{i})_{i = 1}^{n} \in E^{n}$ est une base qui vérifie :
+$$\forall i, j\in [\![1, n]\!],  \left< e_{i}, e_{j} \right> = \delta _{i, j}$$
