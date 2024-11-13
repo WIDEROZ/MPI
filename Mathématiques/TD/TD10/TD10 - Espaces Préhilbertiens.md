@@ -74,4 +74,5 @@ $$\left< Q_{n}, Q_{n} \right> = \frac{1}{(n!)^{2}} \int _{0}^{+ \infty} e^{ -t }
 $$\int _0^{+ \infty} -e^{ x }(xe^{ -x }P')'(x)Q(x) \, dx $$
 $$\int _{0}^{+ \infty}-e^{ x }(xe^{ -x }Q')'(x) P(x) \, dx $$
 
-$$\int _{0}^{+ \infty}e^{ x }(Q(x)(xe^{ -x }P')'(x)) \, dx $$
+$$Q(x)(xe^{ -x }P')'(x)-P(x)(xe^{ -x }Q')'(x)$$
+$$= Q(x)(x-1)P'(x)-xP''(x)Q(x) - P(x)(x-1)Q'(x) +xQ''(x)P(x)$$
