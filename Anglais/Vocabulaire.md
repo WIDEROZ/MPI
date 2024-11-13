@@ -2,7 +2,6 @@ Asylum seekers / refugees
 to strengthen / to give momentum
 ramsacked (saccagé)
 thuggery (brutalité)
-To commit arson
 Heavy-Handed / Stringent
 Hijacking (terrorist take the control of a plane)
 op-ed : opinion editorial
@@ -14,3 +13,7 @@ for want of = a défaut de
 tribes = factions
 well-being = bien être
 following safety measures = gestes barrières
+loath = répugner
+tinpot = de pacotille
+slight = affront
+shredded = bafouer
