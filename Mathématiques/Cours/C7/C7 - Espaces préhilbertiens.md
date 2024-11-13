@@ -284,4 +284,31 @@ $$x = \sum_{k = 1}^{n} \left< x, e_{k} \right>e_{k}  \text{ ie } X = \begin{pmat
 \left< x, e_{n} \right>  
 \end{pmatrix}$$
 2.
-$$$$
+On note : 
+$$\forall x, y \in E, x = \sum_{k = 1}^{n} x_{k}e_{k} \text{ et }y = \sum_{k = 1}^{n} y_{k} e_{k}$$
+avec $x_{k}, y_{k} \in \mathbb{R}$, 
+$$\left< x, y \right> = \sum_{k = 1}^{n} x_{k}y_{k}$$
+
+3.
+On note : 
+$$\forall f \in \mathcal{L}(E), Mat_{\beta}(f)=(m_{i, j})_{1 \leq i, j \leq n} \in \mathcal{M}_{n}(\mathbb{R})$$
+alors
+$$\forall i, j \in [\![1, n]\!], m_{i,j} = \left< f(e_{j}), e_{i} \right>$$
+
+Démonstration : 
+1.
+On note : $X = \begin{pmatrix}x_{1}\\ \vdots \\ x_{n}\end{pmatrix}$, ie 
+$$x = \sum_{k = 1}^{n} x_{k}e_{k} $$
+alors, 
+$$\forall j \in [\![1, n]\!], \left< x, e_{j} \right> = \sum_{k = 1}^{n} x_{k}\left< e_{k},e_{j} \right> = x_{i}$$
+
+2.
+$$\left< x, y \right> = \sum_{k = 1}^{n} \sum_{j=1}^{n} x_{i}y_{i}\left< e_{i}, e_{j} \right> $$
+par bilinéarité du produit scalaire
+$$\left< x, y \right> = \sum_{i = 1}^{n} x_{i}y_{i} \left|\left| e_{i} \right|\right| ^{2}$$
+
+3.
+On sait que $m_{i, j}$ est la $i^{eme}$ composante de $f(e_{j})$ dans la base $\beta$. C'est donc une conséquence du $1.$
+
+
+

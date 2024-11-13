@@ -12,7 +12,9 @@ Puis, comme $\dim E \neq + \infty$, POUR TOUT SEV DE $E$,
 $$(F^{\bot})^{\bot} = F$$
 Ainsi, 
 $$Vect(e_{1}, \dots, e_{p}) = (Vect(e_{1}, \dots, e_{p})^{\bot})^{\bot} = E$$
+$$\begin{array}{c}
 
+\end{array}$$
 
 
 # Exercice 5
