@@ -174,5 +174,32 @@ Alors, comme : $\alpha \left< x, x \right> = \left| \alpha\right|\left|\left| x 
 Ainsi, $\alpha \geq 0$
 Réciproquement, si'il existe $\alpha \in \mathbb{R}_{+}, y = \alpha x$, 
 $$\begin{array}{rl}
-y = \alpha x
+\left|\left| x+y \right|\right| &= \left|\left| (1+x)\alpha \right|\right|  \\
+&= \left| 1+\alpha\right|\left|\left| x \right|\right|  \\
+&= \left|\left| x \right|\right|  + \alpha \left|\left| x \right|\right|  \\
+&= \left|\left| x \right|\right| + \left|\left| \alpha x \right|\right|  \\
+&= \left|\left| x \right|\right| + \left|\left| y \right|\right| 
 \end{array}$$
+
+# II. Orthogonalité
+#### Définition
+Si $A \subset E$, on note son orthogonal : 
+$$A^{\bot} = \{ u \in E | \forall x \in A,  \left< x, u \right> =0 \} $$
+Si $A = \{ x_{0} \}$ alors, on note : $\{ x_{0} \}^{\bot} = x_{0}^{\bot}$
+
+Une famille de vecteurs : $(e_{i})_{i \in [\![1,n]\!]}$ de vecteurs de $E$ est dite orthogonale lorsque : 
+$$\forall i, j \in [\![1, n]\!], i \neq j \Rightarrow \left< e_{i}, e_{j} \right>=0 $$
+
+#### Propriétés
+$$A^{\bot} = (Vect(A))^{\bot}$$
+$$A^{\bot} \underset{sev}{\subset}E$$
+$$A \subset B \Rightarrow B^{\bot} \subset A^{\bot}$$
+
+Démonstration : 
+3.
+Soit $x \in B^{\bot}$, 
+$$\forall a \in A, a \in B \text{ par hypothèse}$$
+alors, 
+$$\left< x, a \right> =0$$
+Ainsi, 
+$$x \in A^{\top}$$
