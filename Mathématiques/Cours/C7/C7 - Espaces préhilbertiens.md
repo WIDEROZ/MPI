@@ -228,5 +228,8 @@ Démonstration par récurrence.
 
 # III. Les bases orthonormales
 #### Définition
-Une base orthonormale (BON) de $E$ : $(e_{i})_{i = 1}^{n} \in E^{n}$ est une base qui vérifie :
+Une famille orthonormale de $E$ est une famille : $(e_{i})_{i = 1}^{n} \in E^{n}$ qui vérifie :
 $$\forall i, j\in [\![1, n]\!],  \left< e_{i}, e_{j} \right> = \delta _{i, j}$$
+
+#### Propriété
+Toute famille orthogonale de vecteurs non nuls de $E$ (en particulier toute )

@@ -1,6 +1,18 @@
 # Exercice 2
 ## a.
-$$\left< x, x \right> = \left< x, \sum_{k = 1}^{p} \right> $$
+Soit $x \in E$, 
+Si $x \in Vect(e_{1}, \dots, e_{p})^{\bot}$, 
+$$\forall k \in [\![1, k]\!], \left< x, e_{k} \right> = 0$$
+Alors, 
+$$\left< x, x \right> =0$$
+donc $x = 0$, 
+Ainsi, 
+$$Vect(e_{1}, \dots, e_{p})^{\bot} = \{ 0 \}$$
+Puis, comme $\dim E \neq + \infty$, POUR TOUT SEV DE $E$, 
+$$(F^{\bot})^{\bot} = F$$
+Ainsi, 
+$$Vect(e_{1}, \dots, e_{p}) = (Vect(e_{1}, \dots, e_{p})^{\bot})^{\bot} = E$$
+
 
 
 # Exercice 5
