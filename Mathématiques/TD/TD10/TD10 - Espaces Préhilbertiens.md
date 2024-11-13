@@ -12,9 +12,11 @@ Puis, comme $\dim E \neq + \infty$, POUR TOUT SEV DE $E$,
 $$(F^{\bot})^{\bot} = F$$
 Ainsi, 
 $$Vect(e_{1}, \dots, e_{p}) = (Vect(e_{1}, \dots, e_{p})^{\bot})^{\bot} = E$$
-$$\begin{array}{c}
 
-\end{array}$$
+## b.
+Soit $i \in [\![1, p]\!]$, 
+$$\left|\left| e_{i} \right|\right|^{2} = \sum_{k = 1}^{p} \left< x, e_{k} \right>^{2}  \leq \sum_{k = 1}^{p} \left|\left| e_{i} \right|\right|^{2}\left|\left| e_{k} \right|\right|^{2} = \left< e_{i}, e_{i} \right> \sum_{k = 1}^{p}\left< e_{k}, e_{k} \right>  $$
+
 
 
 # Exercice 5
