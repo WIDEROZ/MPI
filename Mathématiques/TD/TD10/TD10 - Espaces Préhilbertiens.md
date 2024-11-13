@@ -27,8 +27,12 @@ Ainsi, en récurant sur $n$, et en considérant a chaque fois un vecteur orthogo
 $$\forall i \in [\![1, n]\!], \left|\left| e_{i} \right|\right|\geq 1$$
 
 ## d.
-Ainsi, $\left|\left|  \right|\right|$
-
+Ainsi, $\forall i \in [\![1, n]\!], \left|\left| e_{i} \right|\right|=1$, et il suffit de monter que la famille est orthonormée : 
+$$\forall i \in [\![1, n]\!], \left|\left| e_{i} \right|\right| = 1 = \sum_{k = 1}^{n}\left< e_{i}, e_{k} \right> ^{2} = \left< e_{i}, e_{i} \right> $$
+Ainsi, comme
+$$\forall i \in [\![1, n]\!], \forall k \in [\![1, n]\!]\setminus i, \left< e_{i}, e_{k} \right> = 0$$
+car $\left< e_{i}, e_{k} \right>^{2} \geq 0$ et $\left< e_{i}, e_{i} \right>=1$
+la famille $(e_{i})_{i = 1}^{n}$ est une BON.
 
 
 # Exercice 5
@@ -109,3 +113,9 @@ $$\int _{0}^{+ \infty}-e^{ x }(xe^{ -x }Q')'(x) P(x) \, dx $$
 
 $$Q(x)(xe^{ -x }P')'(x)-P(x)(xe^{ -x }Q')'(x)$$
 $$= Q(x)(x-1)P'(x)-xP''(x)Q(x) - P(x)(x-1)Q'(x) +xQ''(x)P(x)$$
+
+# Exercice 12
+## a.
+$$\left< f, g \right> = \int _{0}^{1} f(t)g(t) \, dt + \int _{0}^{1}f'(t)g'(t) \, dt  $$
+
+Comme $f''$ est continue sur un segment, alors son image est un segment de plus, 
