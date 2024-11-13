@@ -15,7 +15,19 @@ $$Vect(e_{1}, \dots, e_{p}) = (Vect(e_{1}, \dots, e_{p})^{\bot})^{\bot} = E$$
 
 ## b.
 Soit $i \in [\![1, p]\!]$, 
-$$\left|\left| e_{i} \right|\right|^{2} = \sum_{k = 1}^{p} \left< x, e_{k} \right>^{2}  \leq \sum_{k = 1}^{p} \left|\left| e_{i} \right|\right|^{2}\left|\left| e_{k} \right|\right|^{2} = \left< e_{i}, e_{i} \right> \sum_{k = 1}^{p}\left< e_{k}, e_{k} \right>  $$
+$$\left|\left| e_{i} \right|\right|^{2} = \sum_{k = 1}^{p} \left< e_{i}, e_{k} \right>^{2}  \leq \sum_{\underset{i\neq k}{k = 1}}^{p} \left< e_{i}, e_{k} \right>^{2} + \left|\left| e_{i} \right|\right| ^{4} \leq \left|\left| e_{i} \right|\right| ^{4}$$
+Ainsi, $\left|\left| e_{i} \right|\right|\leq 1$
+
+## c.
+Soit $u \in Vect(e_{2}, \dots, e_{n})^{\bot}$, 
+$$\left|\left| u \right|\right|^{2} = 1 = \sum_{k= 1}^{n}\left< u, e_{k} \right> ^{2} = \left< u, e_{1} \right>^{2} $$
+ie : $\left< u,e_{1} \right> = \pm1\leq 1$ 
+$$|\left< u, e_{1} \right>| = 1 \leq \left|\left| u \right|\right| \left|\left| e_{1} \right|\right| $$
+Ainsi, en récurant sur $n$, et en considérant a chaque fois un vecteur orthogonal à $\forall i_{0} \in [\![1, n]\!], Vect(e_{i})_{i \in [\![1, n]\!]\setminus i_{0}}$
+$$\forall i \in [\![1, n]\!], \left|\left| e_{i} \right|\right|\geq 1$$
+
+## d.
+Ainsi, $\left|\left|  \right|\right|$
 
 
 
