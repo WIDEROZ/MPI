@@ -9,7 +9,7 @@ $$2ES_{1} = \frac{\rho V}{\varepsilon_{0}} $$
 $$S_{1} = \pi R^{2} \text{ et } V = \pi R^{2}d$$
 Alors,
 $${E(x) = \frac{\rho(x) d}{2\varepsilon_{0}}}$$
-Ainsi comme $E$ ne dépend que de $x$ il suffit d'intégrer $E$ car $E = \overrightarrow{grad}(V)$ :
+Ainsi comme $E$ ne dépend que de $x$ il suffit d'intégrer $E$ car $E = -\overrightarrow{grad}(V)$ :
 $$\int_{0}^{d} E \, dx = \boxed{V(x) = \frac{d}{2\varepsilon_{0}}\int_{0}^{d} \rho(x)\, dx} $$
 
 #### 2.
@@ -25,5 +25,16 @@ $$\boxed{E_{p, el} = qV}$$
 
 #### 4.
 $$\Delta_{0 \to x} E_{c} = \frac{1}{2}mv^{2}(x) - 0$$
-$$\Delta E_{m} = 0$$
-car il n'y a que $\vec{E}$ 
+$$\Delta _{0 \to x}E_{m} = 0$$
+car il n'y a que $q\vec{E}$ une force conservative qui s'exerce sur l'électron. 
+$$\frac{1}{2}mv^{2}(x) + qV(x) - \left( \frac{1}{2}mv^{2}(0) + qV(0) \right) =0$$
+Ainsi, d'après l'énoncé puis comme $-q>0$ :
+$$\boxed{v(x) = \sqrt{-\frac{2q}{m}V(x)} = \sqrt{-\frac{qd}{m_{e}\varepsilon_{0}}\int_{0}^{d} \rho(x) \, dx }}$$
+
+#### 5.
+$$I(x) = \frac{dq}{dt} = \rho(x)\frac{d\tau}{dt} = \rho(x)S \frac{dx}{dt}$$
+car l'intensité est selon $Ox$.
+Ainsi, 
+$$\boxed{I(x) = S\rho(x)v(x)}$$
+
+#### 6.
