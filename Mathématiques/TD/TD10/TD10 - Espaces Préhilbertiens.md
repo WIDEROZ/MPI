@@ -114,6 +114,14 @@ $$\int _{0}^{+ \infty}-e^{ x }(xe^{ -x }Q')'(x) P(x) \, dx $$
 $$Q(x)(xe^{ -x }P')'(x)-P(x)(xe^{ -x }Q')'(x)$$
 $$= Q(x)(x-1)P'(x)-xP''(x)Q(x) - P(x)(x-1)Q'(x) +xQ''(x)P(x)$$
 
+
+# Exercice 9
+## a.
+Supposons que $p \in \mathcal{L}(E)$ soit un projecteur orthogonal
+Soit $x \in E$ $\exists ! (y, z) \in \mathrm{Im}(p) \times \mathrm{Ker}(p), x = $
+
+
+
 # Exercice 12
 ## a.
 $$\left< f, g \right> = \int _{0}^{1} f(t)g(t) \, dt + \int _{0}^{1}f'(t)g'(t) \, dt  $$
@@ -136,3 +144,25 @@ $$\left< h, g \right> = 0 $$
 $$\int _{0}^{1} hg'' + \int _{0}^{1} h'g' = 0 \Rightarrow \int _{0}^{1}(hg')' = h(1)g'(1)-h(0)g'(0) $$
 Alors, 
 $$h(1)g'(1) = h(0)g'(0)$$
+donc, pour $g = \exp$ et $g = x\mapsto e^{ -x }$ 
+$$\begin{cases}
+-h(0) + h(1)e = 0 \\
+h(0) -h(1)e^{ -1 } = 0
+\end{cases}$$
+Alors, 
+$$A \begin{pmatrix}
+h(0) \\
+h(1)
+\end{pmatrix}=\begin{pmatrix}
+-1&e \\
+1&-e^{ -1 }
+\end{pmatrix} \begin{pmatrix}
+h(0) \\
+h(1)
+\end{pmatrix}=\begin{pmatrix}
+0 \\
+0
+\end{pmatrix}$$
+$$\det A = \frac{1}{e}-e \neq 0$$
+Donc, $h(0)=h(1)=0$
+Ainsi, $h \in F$. 
