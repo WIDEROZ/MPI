@@ -150,5 +150,29 @@ Soit $(E, \left< \cdot, \cdot \right>)$ un espace préhilbertien et $\left|\left
 $$\forall x \in E, \left|\left| x \right|\right| = \sqrt{\left< x, x \right>}$$
 C'est une norme ie : 
 $$\forall x, y \in E, \forall \alpha \in \mathbb{R}, \begin{cases}
-\left|\left| \alpha x \right|\right| = \left| \alpha \right|\left|\left| x \right|\right| 
+\left|\left| \alpha x \right|\right| = \left| \alpha \right|\left|\left| x \right|\right|  \\
+\left|\left| x \right|\right| = 0 \Leftrightarrow x =0 \\
+\left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| + \left|\left| y \right|\right| 
 \end{cases}$$
+inégalité de Minkowski.
+
+De plus, SI la norme est euclidienne
+$$\left|\left| x+y \right|\right| =\left|\left| x \right|\right| + \left|\left| y \right|\right| $$
+ssi $x, y$ sont positivement colinéaires. 
+
+
+Demonstration : Trivial
+(iii)
+$$\left|\left| x+y \right|\right| ^{2} = \left|\left| x \right|\right| ^{2}  + \left|\left| y \right|\right| ^{2} + 2\left< x, y \right> \leq (\left|\left| x \right|\right|  + \left|\left| y \right|\right|)^{2}$$
+Par Al-Kachi et C.-S.
+
+De plus, 
+Si
+$$\left|\left| x+y \right|\right| =\left|\left| x \right|\right| + \left|\left| y \right|\right| $$
+alors d'après le calcul d'avant ou l'on utilise C.-S. on sait qu'il existe $\alpha \in \mathbb{R}$ tel que : $\alpha x = y$ si $x \neq 0$
+Alors, comme : $\alpha \left< x, x \right> = \left| \alpha\right|\left|\left| x \right|\right|^{2}$ donc $\alpha = \left| \alpha\right|$ car $\left|\left| x \right|\right| \neq 0$ 
+Ainsi, $\alpha \geq 0$
+Réciproquement, si'il existe $\alpha \in \mathbb{R}_{+}, y = \alpha x$, 
+$$\begin{array}{rl}
+y = \alpha x
+\end{array}$$
