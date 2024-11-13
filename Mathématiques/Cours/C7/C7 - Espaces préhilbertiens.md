@@ -247,8 +247,8 @@ $$\alpha_{j} \left|\left| e_{j} \right|\right| ^{2} = 0$$
 Donc, $\alpha_{j} = 0$ car $e_{j} \neq 0$.
 
 $$\int _{0}^{2\pi} \sin(kx)\sin(jx) \, dx = -\frac{1}{4}\int _{0}^{2\pi} (e^{ ikx }-e^{ -ikx })(e^{ ijx }-e^{ -ijx }) \, dx $$
-$$\frac{1}{4}\int _{0}^{2\pi}(e^{ i(k+j)x }+e^{ -i(j+k)x }- e^{ i(j-k)x }-e^{ -i(j-k)x }) \, dx  $$
-$$= \frac{1}{2}\int _{0}^{2\pi}\cos((j+k)x)-\cos((j-k)x) \, dx = 0$$
+$$= -\frac{1}{4}\int _{0}^{2\pi}(e^{ i(k+j)x }+e^{ -i(j+k)x }- e^{ i(j-k)x }-e^{ -i(j-k)x }) \, dx  $$
+$$= -\frac{1}{2}\int _{0}^{2\pi}\cos((j+k)x)-\cos((j-k)x) \, dx = 0$$
 
 #### Théorème
 Tout espace euclidien possède au moins une base orthonormale. 
@@ -265,3 +265,23 @@ $$\varphi : \begin{cases}
 E \to \mathbb{R} \\
 x \mapsto \left< x, e_{n+1} \right> 
 \end{cases}$$
+Alors, comme : $\left< e_{n+1}, e_{n+1} \right>=1$, $\varphi$ est une forme linéaire non nulle.
+Donc, $\mathrm{Ker}(\varphi)$ est un hyperplan, ie un espace euclidien de dimension : $\dim(E)-1 = n$
+Alors d'après l'hypothèse de récurrence il existe une BON : $(e_{i})_{i = 1}^{n} \in \mathrm{Ker}(\varphi)$, donc, $(e_{i})_{i = 1}^{n+1}$ est une famille de $n+1$ vecteurs unitaires et deux à deux orthogonaux car : $\forall i<j \in [\![1, n+1]\!]$, 
+$$\begin{cases}
+\text{si } j<n+1, e_{i} \perp e_{j} \\
+\text{si } j = n+1 e_{i} \perp e_{n+1} \text{ car } e_{i} \in H=e_{n+1}^{\bot}
+\end{cases}$$
+Donc, $(e_{i})_{i = 1}^{n+1}$ est libre ainsi c'est bien une BON de $E$.
+
+#### Proposition
+Soit $\beta = (e_{i})_{i = 1}^{n}$ une BON de $E$, on note :
+$$\forall x \in E, X = Mat_{\beta}(x) \in \mathcal{M}_{n, 1}(\mathbb{R})$$
+1.
+$$x = \sum_{k = 1}^{n} \left< x, e_{k} \right>e_{k}  \text{ ie } X = \begin{pmatrix}
+\left< x, e_{1} \right> \\
+\vdots \\
+\left< x, e_{n} \right>  
+\end{pmatrix}$$
+2.
+$$$$
