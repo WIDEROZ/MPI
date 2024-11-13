@@ -39,3 +39,5 @@ Alors,
 $$m \frac{dv}{dt} = -q \frac{dV}{dx}$$
 Donc, 
 
+#### 8.
+$$\frac{d^{2}V}{dx^{2}} \frac{dV}{dx}\sqrt{V} = $$
