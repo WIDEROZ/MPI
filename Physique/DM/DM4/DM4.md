@@ -9,8 +9,8 @@ $$2ES_{1} = \frac{\rho V}{\varepsilon_{0}} $$
 $$S_{1} = \pi R^{2} \text{ et } V = \pi R^{2}d$$
 Alors,
 $${E(x) = \frac{\rho(x) d}{2\varepsilon_{0}}}$$
-Ainsi comme $E$ ne dépend que de $x$ il suffit d'intégrer $E$ car $E = -\overrightarrow{grad}(V)$ :
-$$\int_{0}^{d} E \, dx = \boxed{V(x) = \frac{d}{2\varepsilon_{0}}\int_{0}^{d} \rho(x)\, dx} $$
+Ainsi comme $E$ ne dépend que de $x$ il suffit d'intégrer $E$ sur le chemin que l'election a suivi car $E = -\overrightarrow{grad}(V)$ :
+$$\int_{0}^{x} E(l) \, dl = \boxed{V(x) = \frac{d}{2\varepsilon_{0}}\int_{0}^{x} \rho(l)\, dl} $$
 
 #### 2.
 $$P = mg \sim 10^{-29}\text{ et } E = \frac{q}{4\pi \varepsilon_{0}d^{2}} \geq 10^{7}$$
@@ -29,7 +29,7 @@ $$\Delta _{0 \to x}E_{m} = 0$$
 car il n'y a que $q\vec{E}$ une force conservative qui s'exerce sur l'électron. 
 $$\frac{1}{2}mv^{2}(x) + qV(x) - \left( \frac{1}{2}mv^{2}(0) + qV(0) \right) =0$$
 Ainsi, d'après l'énoncé puis comme $-q>0$ :
-$$\boxed{v(x) = \sqrt{-\frac{2q}{m}V(x)} = \sqrt{-\frac{qd}{m_{e}\varepsilon_{0}}\int_{0}^{d} \rho(x) \, dx }}$$
+$$\boxed{v(x) = \sqrt{-\frac{2q}{m}V(x)} = \sqrt{-\frac{qd}{m\varepsilon_{0}}\int_{0}^{x} \rho(l) \, dl }}$$
 
 #### 5.
 $$I(x) = \frac{dq}{dt} = \rho(x)\frac{d\tau}{dt} = \rho(x)S \frac{dx}{dt}$$
@@ -38,3 +38,11 @@ Ainsi,
 $$\boxed{I(x) = S\rho(x)v(x)}$$
 
 #### 6.
+Oui
+
+#### 7.
+On effectue un PFD : 
+$$m \frac{dv}{dt} = qE$$
+On intègre cette relation : 
+$$v(t) = \frac{q}{m}\int _{0}^{t} E(t) dt \Rightarrow v(x) = \frac{q}{m}V$$
+car $v(0) = 0$ et $$
