@@ -1,16 +1,8 @@
 # A propos des diodes
 ## I. Diode à vide
 #### 1.
-Comme les lignes de courant sont perpendiculaires aux plaques le champ l'est aussi, ie il est dirigé par l'axe $Ox$.
-En appliquant le théorème de gauss et de superposition, à un cylindre de hauteur $d$ et de rayon $R$ orienté par l'axe $Ox$ : 
-$$\int EdS_{1} (\hat{u}_{x}.\hat{u}_{x}) + \int (-E)\times(dS_{2}) (\hat{u}_{x}.(-\hat{u}_{x})) = \frac{Q_{int}}{\varepsilon_{0}} $$
-Alors, 
-$$2ES_{1} = \frac{\rho V}{\varepsilon_{0}} $$
-$$S_{1} = \pi R^{2} \text{ et } V = \pi R^{2}d$$
-Alors,
-$${E(x) = \frac{\rho(x) d}{2\varepsilon_{0}}}$$
-Ainsi comme $E$ ne dépend que de $x$ il suffit d'intégrer $E$ sur le chemin que l'election a suivi car $E = -\overrightarrow{grad}(V)$ :
-$$\int_{0}^{x} E(l) \, dl = \boxed{V(x) = \frac{d}{2\varepsilon_{0}}\int_{0}^{x} \rho(l)\, dl} $$
+Equation de poisson
+$$\boxed{\frac{d^{2}V}{dx^{2}} = - \frac{\rho}{\varepsilon_{0}}}$$
 
 #### 2.
 $$P = mg \sim 10^{-29}\text{ et } E = \frac{q}{4\pi \varepsilon_{0}d^{2}} \geq 10^{7}$$
@@ -46,4 +38,4 @@ $$m \frac{dv}{dt} = qE$$
 Alors, 
 $$m \frac{dv}{dt} = -q \frac{dV}{dx}$$
 Donc, 
-$$m -\frac{\frac{2q}{m} \frac{dV}{dx}}{2\sqrt{-\frac{2q}{m}V(x)}} dx =mdv = -q \frac{dV}{v(x)} = dV\sqrt{-\frac{mq}{2V(x)}}$$
+
