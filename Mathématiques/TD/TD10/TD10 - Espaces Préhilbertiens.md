@@ -118,9 +118,19 @@ $$= Q(x)(x-1)P'(x)-xP''(x)Q(x) - P(x)(x-1)Q'(x) +xQ''(x)P(x)$$
 # Exercice 9
 ## a.
 Supposons que $p \in \mathcal{L}(E)$ soit un projecteur orthogonal
-Soit $x \in E$ $\exists ! (y, z) \in \mathrm{Im}(p) \times \mathrm{Ker}(p), x = $
+Soit $x \in E$ $\exists ! (y, z) \in \mathrm{Im}(p) \times \mathrm{Ker}(p), x = y+z$
+$\left< y, z \right> = 0$ alors, 
+$$\left|\left| x \right|\right| ^{2} = \left|\left| p(x) \right|\right| ^{2} + \left|\left| z \right|\right| ^{2}$$
+par le théorème de Pythagore.
+Ainsi, 
+$$\left|\left| p(x) \right|\right|  \leq \left|\left| x \right|\right| $$
 
-
+## b.
+Soit $t \in \mathbb{R}$, 
+$$\left|\left| p(x) \right|\right|^{2} =\left|\left| y \right|\right|^{2} \leq t^{2}\left|\left| x \right|\right|^{2} + \left|\left| y \right|\right|^{2} +2t\left< x, y \right>  $$
+Donc, 
+$$t^{2}\left|\left| x \right|\right| ^{2} + 2 t\left< x, y \right> \geq 0$$
+donc $\Delta \leq 0$, ainsi, $\Delta = 4\left< x, y \right>^{2}=0$ ainsi $\left< x, y \right> = 0$
 
 # Exercice 12
 ## a.
