@@ -232,4 +232,19 @@ Une famille orthonormale de $E$ est une famille : $(e_{i})_{i = 1}^{n} \in E^{n}
 $$\forall i, j\in [\![1, n]\!],  \left< e_{i}, e_{j} \right> = \delta _{i, j}$$
 
 #### Propriété
-Toute famille orthogonale de vecteurs non nuls de $E$ (en particulier toute )
+Toute famille orthogonale de vecteurs non nuls de $E$ (en particulier toute famille ON) est libre
+
+Démonstration : 
+Soit $(e_{1}, \dots, e_{p})$ orthogonale telle que : $\forall k \in [\![1, p]\!], e_{k} \neq 0$, 
+Soient $(\alpha_{i})_{i = 1}^{p} \in \mathbb{R}^{p}$, telle que 
+$$\sum_{k = 1}^{p} \alpha_{k}e_{k} = 0$$
+alors, 
+$$\forall j \in [\![1, p]\!], \left< e_{j}, \sum_{k= 1}^{p} \alpha_{k}e_{k} \right> = \left< e_{j}, 0 \right> = 0$$
+Donc, 
+$$\sum_{k = 1}^{p}\alpha_{k} \left< e_{j}, e_{k} \right> =0$$
+comme $\left< e_{j}, e_{k} \right> = 0$ pour $k \neq j$, 
+$$\alpha_{j} \left|\left| e_{j} \right|\right| ^{2} = 0$$
+Donc, $\alpha_{j} = 0$ car $e_{j} \neq 0$.
+
+$$\int _{0}^{2\pi} \sin(kx)\sin(jx) \, dx = \frac{1}{4}\int _{0}^{2\pi} (e^{ ikx }-e^{ -ikx })(e^{ ijx }-e^{ -ijx }) \, dx $$
+$$\frac{1}{4}\int _{0}^{2\pi}(e^{ i(k+j)x }+e^{ -i(j+k) }) \, dx $$
