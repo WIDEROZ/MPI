@@ -117,5 +117,11 @@ $$= Q(x)(x-1)P'(x)-xP''(x)Q(x) - P(x)(x-1)Q'(x) +xQ''(x)P(x)$$
 # Exercice 12
 ## a.
 $$\left< f, g \right> = \int _{0}^{1} f(t)g(t) \, dt + \int _{0}^{1}f'(t)g'(t) \, dt  $$
+$$\left< f,f \right> = \left|\left| f \right|\right|^{2}_{2} + \left|\left| f' \right|\right| ^{2}_{2} \geq 0$$
+$\left< f, f \right> = 0$ ssi $f = 0$
 
-Comme $f''$ est continue sur un segment, alors son image est un segment de plus, 
+## b.
+Soit $f \in F$ et $g \in G$, 
+$$\left< f, g \right> = \int _{0}^{1} f(t)g(t) \, dt + \int _{0}^{1}f'(t)g'(t) \, dt$$
+$$\int _{0}^{1} f'(t)g'(t) \, dt = [f(t)g'(t)]_{0}^{1} - \int _{0}^{1} f(t)g''(t) \, dt $$
+$$= -\int _{0}^{1}f(t)g(t) \, dt $$
