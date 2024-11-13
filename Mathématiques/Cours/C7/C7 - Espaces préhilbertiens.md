@@ -246,5 +246,22 @@ comme $\left< e_{j}, e_{k} \right> = 0$ pour $k \neq j$,
 $$\alpha_{j} \left|\left| e_{j} \right|\right| ^{2} = 0$$
 Donc, $\alpha_{j} = 0$ car $e_{j} \neq 0$.
 
-$$\int _{0}^{2\pi} \sin(kx)\sin(jx) \, dx = \frac{1}{4}\int _{0}^{2\pi} (e^{ ikx }-e^{ -ikx })(e^{ ijx }-e^{ -ijx }) \, dx $$
-$$\frac{1}{4}\int _{0}^{2\pi}(e^{ i(k+j)x }+e^{ -i(j+k) }) \, dx $$
+$$\int _{0}^{2\pi} \sin(kx)\sin(jx) \, dx = -\frac{1}{4}\int _{0}^{2\pi} (e^{ ikx }-e^{ -ikx })(e^{ ijx }-e^{ -ijx }) \, dx $$
+$$\frac{1}{4}\int _{0}^{2\pi}(e^{ i(k+j)x }+e^{ -i(j+k)x }- e^{ i(j-k)x }-e^{ -i(j-k)x }) \, dx  $$
+$$= \frac{1}{2}\int _{0}^{2\pi}\cos((j+k)x)-\cos((j-k)x) \, dx = 0$$
+
+#### Théorème
+Tout espace euclidien possède au moins une base orthonormale. 
+
+Démonstration :
+Par recurrence sur $n = \dim E$, 
+
+Initialisation : $n=1$, il existe dans $E$ un vecteur unitaire $e_{1}$ ainsi, $(e_{1})$ est une base orthonormale de $E$
+
+Hérédité : 
+Soit $n \in \mathbb{N}$, tel que $\dim E = n+1$, $E$ admet une un vecteur unitaire : $e_{n+1}$.
+Notons $H = e_{n+1}^{\bot}$,
+$$\varphi : \begin{cases}
+E \to \mathbb{R} \\
+x \mapsto \left< x, e_{n+1} \right> 
+\end{cases}$$
