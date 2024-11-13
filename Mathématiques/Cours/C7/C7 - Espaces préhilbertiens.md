@@ -137,3 +137,18 @@ L'égalité se montre facilement voir le cours de l’année dernière.
 #### Cauchy-Schwarz dans $\mathbb{R}^{n}$ et $\mathcal{M}_{n}(\mathbb{R})$
 $$\forall (x_{i})_{i = 1}^{n}, (y_{i})_{i = 1}^{n} \in \mathbb{R}^{n}, \left( \sum_{k = 1}^{n} x_{k}y_{k} \right)^{2} \leq \left( \sum_{k = 1}^{n} x_{k}^{2} \right)\left( \sum_{k = 1}^{n}y_{k}^{2} \right)$$
 $$\forall A, B \in \mathcal{M}_{n}(\mathbb{R}), (\mathrm{Tr}(A^{\top}B))^{2} \leq \mathrm{Tr}(A^{\top}A) \mathrm{Tr}(B^{\top}B)$$
+
+#### Exercice
+Soient $A, B \in \mathcal{M}_{n}(\mathbb{R})$, par C.-S.
+$$\forall i, j \in [\![1, n]\!], \left( \sum_{k = 1}^{n}a_{i, k}b_{i, k} \right)^{2} \leq \left( \sum_{k = 0}^{n}a_{i, k}^{2} \right)\left( \sum_{k = 0}^{n} b_{k,j}^{2} \right)$$
+Alors, en sommant des deux cotés et en réorganisant : 
+$$\left|\left| AB \right|\right| ^{2} \leq \left|\left| A \right|\right| ^{2} \left|\left| B \right|\right| ^{2}$$
+
+
+#### Proposition
+Soit $(E, \left< \cdot, \cdot \right>)$ un espace préhilbertien et $\left|\left| \cdot \right|\right|$ définie par : 
+$$\forall x \in E, \left|\left| x \right|\right| = \sqrt{\left< x, x \right>}$$
+C'est une norme ie : 
+$$\forall x, y \in E, \forall \alpha \in \mathbb{R}, \begin{cases}
+\left|\left| \alpha x \right|\right| = \left| \alpha \right|\left|\left| x \right|\right| 
+\end{cases}$$
