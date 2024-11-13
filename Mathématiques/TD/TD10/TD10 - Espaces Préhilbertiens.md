@@ -1,3 +1,8 @@
+# Exercice 2
+## a.
+$$\left< x, x \right> = \left< x, \sum_{k = 1}^{p} \right> $$
+
+
 # Exercice 5
 Supposons que $\varphi$ soit un produit scalaire, alors, 
 $$\varphi(a, a) = \left< a, a \right> + k\left< a, a \right> ^{2}=1+k > 0$$
@@ -22,7 +27,7 @@ $$\varphi(x, x) = \left< x, x \right> + k\left< x, a \right>^{2} = 0$$
 Alors, 
 $$0=\varphi(x, x)=\left< x, x \right> +k\left< x, a \right> ^{2} \geq (k+1)\left< x, a \right>^{2} $$
 par l'inégalité de Cauchy-Schwarz. 
-alors comme $k \neq -1$ et $\left< x, a \right>^{2}\geq 0$ puis $a \neq 0$ (car unitaire) : 
+alors comme $k > -1$ et $\left< x, a \right>^{2}\geq 0$ puis $a \neq 0$ (car unitaire) : 
 $$0\geq(k+1)\left< x, a \right>^{2}\geq 0 \Rightarrow\left< x, a \right> = 0 \Rightarrow \boxed{x = 0} $$
 
 # Exercice 8
