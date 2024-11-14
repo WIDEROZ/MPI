@@ -39,4 +39,4 @@ $$s(t) = \frac{8}{\pi^{2}}\sum_{p = 1}^{+\infty} \frac{G((2p+1)\omega_{f})}{(2p+
 $$\Delta V = -\frac{\rho}{\varepsilon_{0}}$$
 
 ## 2.
-$$\int \vec{E}_{port}.dS = \frac{Q_{int}}{\varepsilon_{0}}$$
+$$$$
