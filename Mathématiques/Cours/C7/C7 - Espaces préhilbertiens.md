@@ -346,4 +346,26 @@ $$p \circ p = p \text{ et }\mathrm{Im}(p) = F \text{ et } \mathrm{Ker}(p) = F^{\
 Soit $F\underset{sev}{\subset} E$ tel que : $\dim F = m$, et $p \in \mathcal{L}(E)$ le projecteur orthogonal sur $F$, alors :
 Soit $(e_{i})_{i = 1}^{m}\in F$ une BON de $F$, 
 $$\forall x \in E, p(x) = \sum_{k = 1}^{m}\left< x, e_{k} \right> e_{k}$$
-$$\forall x \in E, \forall y \in F, \left|\left| x-y \right|\right| \geq$$
+$$\forall x \in E, \forall y \in F, \left|\left| x-y \right|\right| \geq \left|\left| x-p(x) \right|\right| $$
+
+Démonstration de l'inégalité : 
+$$p(x)-y \in F, x-p(x) \in F^{\top}$$
+Alors par le théorème de Pythagore : 
+$$\left|\left| x-y \right|\right| ^{2} = \left|\left| (x-p(x))+(p(x)-y) \right|\right| ^{2} = \left|\left| x-p(x) \right|\right| ^{2}+\left|\left| p(x)-y \right|\right| $$
+Ainsi, 
+$$\left|\left| x-y \right|\right| ^{2} \geq \left|\left| x-p(x) \right|\right|^{2}$$
+
+#### Corollaire
+Si $E$ est un espace euclidien. Notons $n= \dim E \in\mathbb{N}^{*}$ 
+Soient $F, G \underset{sev}{\subset} E$, 
+$$\begin{cases}
+F\oplus F^{\bot} = E \\
+\dim F^{\bot} = n - \dim F \\
+(F^{\bot})^{\bot} = F \\
+(F\cap G)^{\bot} = F^{\bot} + G^{\bot} \\
+(F + G)^{\bot} = F^{\bot} \cap G^{\bot}
+\end{cases}$$
+Démonstration : 
+1.
+2.
+3.
