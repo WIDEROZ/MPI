@@ -1,5 +1,6 @@
 # Exercice 1
 ## a.
+#### Remarque
 $$\mathcal{P} = \begin{pmatrix}
 1 \\
 1 \\
@@ -23,11 +24,27 @@ $$\mathcal{P} = \begin{pmatrix}
 -1
 \end{pmatrix}
 \end{pmatrix}^{\bot}$$
-Alors, 
-$$f : \begin{cases}
-\mathbb{R}^{4}
-\end{cases}$$
+On pose : 
+$$e_{1} = \begin{pmatrix}
+1 \\
+0 \\
+-1 \\
+0
+\end{pmatrix}\in \mathcal{P} \text{ et } e_{2} = \begin{pmatrix}
+0 \\
+1 \\
+0 \\
+-1
+\end{pmatrix} \in \mathcal{P}$$
+Alors, $(u_{1}, u_{2}) = \left( \frac{1}{\sqrt{2}}e_{1}, \frac{1}{\sqrt{2}}e_{2} \right)$ est une BON de $\mathcal{P}$, 
 
+$$\forall X \in \mathbb{R}^{4}, f(x) = \left< X, u_{1} \right> u_{1} + \left< X, u_{2} \right> u_{2}$$
+Ainsi, 
+$$Mat_{(u_{1}, u_{2})}(f) = \begin{pmatrix}
+1&0&0&0 \\
+0&1&0&0 \\
+0&0&0&0
+\end{pmatrix}$$
 
 
 
