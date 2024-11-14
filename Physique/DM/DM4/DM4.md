@@ -34,8 +34,7 @@ Oui
 
 #### 7.
 
-## II.
-En prenant un cube en surface de gauss de $x$ à $-x$ : 
-$$2\int E(x) dS  = \frac{\rho(x)xS}{\varepsilon}$$
-Alors, 
-$$E(x)=\frac{\rho(x)x}{2\varepsilon}$$
+## III.
+## 20.
+$k_{B}T$ : effet joule (energie dissipé par la chaleur)
+La courble 
