@@ -24,10 +24,10 @@ Ainsi, d'après l'énoncé puis comme $-q>0$ :
 $$\boxed{v(x) = \sqrt{-\frac{2q}{m}V(x)} = \sqrt{-\frac{qd}{m\varepsilon_{0}}\int_{0}^{x} \rho(l) \, dl }}$$
 
 #### 5.
-$$I(x) = \frac{dq}{dt} = \rho(x)\frac{d\tau}{dt} = \rho(x)S \frac{dx}{dt}$$
+$$I(x) = -\frac{dq}{dt} = -\rho(x)\frac{d\tau}{dt} = -\rho(x)S \frac{dx}{dt}$$
 car l'intensité est selon $Ox$.
 Ainsi, 
-$$\boxed{I(x) = S\rho(x)v(x)}$$
+$$\boxed{I(x) = -S\rho(x)v(x)}$$
 
 #### 6.
 Oui
