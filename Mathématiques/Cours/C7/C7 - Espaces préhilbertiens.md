@@ -383,3 +383,31 @@ $$\forall x \in F^{\bot}\cap G^{\bot}, \forall y \in F + G, \exists f \in F , \e
 alors, 
 $$\left< x, y \right> = \left< x, f \right> +\left< x, g \right> = 0 + 0 = 0$$
 donc, $x \in (F + G)^{\bot}$
+Ainsi, $F^{\bot}\cap G^{\bot} \subset (F+G)^{\bot}$
+Finalement : 
+$$F^{\bot}\cap G^{\bot}=(F+G)^{\bot}$$
+Comme c'est vrai pour tout couple $(F, G)$ ça l'est pour $(F^{\bot}, G^{\bot})$ 
+Ainsi, 
+$$(F^{\bot}+G^{\bot}) = (F^{\bot})^{\bot} \cap (G^{\bot})^{\bot} = F \cap G$$
+
+#### Propriété
+$$\forall p \in \mathcal{L}(E), p \text{ est un proj. ortho.} \Leftrightarrow \mathrm{Ker}(p) = (\mathrm{Im}(p))^{\bot}$$
+
+#### CCINP 82
+Calculer : 
+$$d = Dist(\begin{pmatrix}
+1&0 \\
+-1&2
+\end{pmatrix}, T_{2}^{+}(\mathbb{R}))$$
+$$d = \left|\left| \begin{pmatrix}
+1&0 \\
+-1&2
+\end{pmatrix} - p\begin{pmatrix}
+\begin{pmatrix}
+1&0 \\
+-1&2
+\end{pmatrix}
+\end{pmatrix} \right|\right|$$
+Ou $p \in \mathcal{L}(\mathcal{M}_{2}(\mathbb{R}))$ est le projecteur orthogonal sur $T_{2}(\mathbb{R})$.
+Or,
+$$T_{2} = $$
