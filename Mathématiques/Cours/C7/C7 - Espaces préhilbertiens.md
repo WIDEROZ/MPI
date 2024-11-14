@@ -369,3 +369,17 @@ Démonstration :
 1.
 2.
 3.
+Soit $x \in F$, 
+$$\forall y \in F^{\bot}, \left< x, y \right> =0$$
+Donc, $x \in (F^{\bot})^{\bot}$, 
+De plus $\dim(F^{\bot})^{\bot} = n - \dim(F^{\bot}) = \dim(F)$
+Ainsi, $F = (F^{\bot})^{\bot}$.
+4.
+- $F \subset F+G$ donc $(F+G)^{\bot}\subset F^{\bot}$
+- De même pour $G$ ainsi, $(F+G)^{\bot} \subset F^{\bot} \cap G^{\bot}$
+
+Réciproquement : 
+$$\forall x \in F^{\bot}\cap G^{\bot}, \forall y \in F + G, \exists f \in F , \exists g \in G, y = f+g$$
+alors, 
+$$\left< x, y \right> = \left< x, f \right> +\left< x, g \right> = 0 + 0 = 0$$
+donc, $x \in (F + G)^{\bot}$
