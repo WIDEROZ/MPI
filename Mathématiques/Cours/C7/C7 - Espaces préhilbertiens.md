@@ -410,4 +410,27 @@ $$d = \left|\left| \begin{pmatrix}
 \end{pmatrix} \right|\right|$$
 Ou $p \in \mathcal{L}(\mathcal{M}_{2}(\mathbb{R}))$ est le projecteur orthogonal sur $T_{2}(\mathbb{R})$.
 Or,
-$$T_{2} = $$
+$$T_{2} = Vect\begin{pmatrix}
+\begin{pmatrix}
+1&0 \\
+0&0
+\end{pmatrix}, \begin{pmatrix}
+0&0 \\
+0&1
+\end{pmatrix}, \begin{pmatrix}
+0&1 \\
+0&0
+\end{pmatrix}
+\end{pmatrix}$$
+Donc, 
+$$p(M) = \left< M, E_{1, 1} \right> E_{1, 1} + \left< M, E_{2, 2} \right>E_{2, 2} +\left< M, E_{1, 2} \right> E_{1, 2} = \begin{pmatrix}
+1&0 \\
+0&2
+\end{pmatrix}$$
+Ainsi, 
+$$d = 1$$
+
+#### Exercice
+$$ m = \inf_{(a, b) \in \mathbb{R}^{2}}\int _{0}^{1}(x^{2}-ax-b)^{2} \, dx = \inf_{Q \in \mathbb{R}_{1}[X]} \left|\left| X^{2}-Q \right|\right|^{2}$$
+alors, 
+$$m = dist(X^{2} ,\mathbb{R}_{1}[X])^{{2}} = dist(X^{2}, \mathbb{R}_{1}[X])$$
