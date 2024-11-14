@@ -49,7 +49,7 @@ z-x \\
 t-y
 \end{pmatrix}$$
 Ainsi, 
-$$Mat_{(u_{1}, u_{2})}(f) = \frac{1}{2}\begin{pmatrix}
+$$Mat_{\mathrm{can}}(f) = \frac{1}{2}\begin{pmatrix}
 1&0&-1&0 \\
 0&1&0&-1 \\
 -1&0&1&0 \\
@@ -57,11 +57,23 @@ $$Mat_{(u_{1}, u_{2})}(f) = \frac{1}{2}\begin{pmatrix}
 \end{pmatrix}$$
 
 ## b.
-$$\left|\left| a - p(a) \right|\right| =\frac{1}{2} \left|\left| \begin{pmatrix}
+$$\left|\left| a - f(a) \right|\right| = \left|\left| \begin{pmatrix}
+1 \\
+1 \\
+3 \\
+4
+\end{pmatrix}-\frac{1}{2}\begin{pmatrix}
 -2 \\
-
-\end{pmatrix} \right|\right| $$
-
+-3 \\
+2 \\
+3
+\end{pmatrix} \right|\right| = \frac{1}{2}\left|\left| \begin{pmatrix}
+4 \\
+5 \\
+4 \\
+5
+\end{pmatrix} \right|\right| =\sqrt{\frac{41}{2}}$$
+ 
 
 # Exercice 2
 ## a.
