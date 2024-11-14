@@ -335,3 +335,15 @@ $$= \left< x, e_{j} \right> - \left< x, e_{j} \right> =0$$
 Ainsi, 
 $$x-y\in F^{\bot}$$
 2.
+Ainsi, $x = y +(x-y)$, donc $E = F + F^{\bot}$ et comme : $F \cap F^{\bot} = \{ 0 \}$, on a bien : $E = F \oplus F^{\bot}$
+
+
+#### Définition
+Si $F\underset{sev}{\subset} E$, on appelle projecteur orthogonal sur $F$ parallèlement à $F^{\bot}$ l'unique application $p \in \mathcal{L}(E)$ qui vérifie : 
+$$p \circ p = p \text{ et }\mathrm{Im}(p) = F \text{ et } \mathrm{Ker}(p) = F^{\bot}$$
+
+#### Théorème de la projection orthogonale
+Soit $F\underset{sev}{\subset} E$ tel que : $\dim F = m$, et $p \in \mathcal{L}(E)$ le projecteur orthogonal sur $F$, alors :
+Soit $(e_{i})_{i = 1}^{m}\in F$ une BON de $F$, 
+$$\forall x \in E, p(x) = \sum_{k = 1}^{m}\left< x, e_{k} \right> e_{k}$$
+$$\forall x \in E, \forall y \in F, \left|\left| x-y \right|\right| \geq$$
