@@ -314,4 +314,24 @@ On sait que $m_{i, j}$ est la $i^{eme}$ composante de $f(e_{j})$ dans la base $\
 # IV. Supplémentaires orthogonaux
 Soit $(E, \left< \cdot, \cdot \right>)$ un préhilbertien, $F \underset{sev}{\subset} E$, 
 $$F^{\bot} = \{ u \in E | \forall f \in F, \left< u, f \right> =0 \}$$
-est un sev de $E$ qui vérifie : $F \cap F^{\bot}$
+est un sev de $E$ qui vérifie : $F \cap F^{\bot} = \{ 0_{E} \}$ car :
+$$\forall x \in F \cap F^{\top}, \left< x, x \right> = 0$$
+on verra en dimension infinie que l'on a pas toujours : $F + F^{\bot} = E$
+
+#### Proposition
+Si $\dim F \in \mathbb{R}$, eh bah ça marche, 
+1.
+Pour : $(e_{i})_{i = 1}^{p}$ une BON de $F$, 
+$$\forall x \in E, y = \sum_{k = 1}^{p} \left< x, e_{k} \right> e_{k} \in F \text{ et } x-y \in F^{\bot}$$
+2.
+$$F \oplus F^{\bot} = E$$
+$F^{\bot}$ est appelé LE supplémentaire orthogonal de $F$. 
+
+Démonstration : 
+1.
+Le fait que $y \in F$ est clair car : $\forall k \in [\![1, p]\!], e_{k} \in F$, de plus, 
+$$\forall j \in [\![1, p]\!], \left< x-y, e_{j} \right> = \left< x, e_{j} \right> -\sum_{k = 1}^{p} \left< x, e_{k} \right> \left< e_{k}, e_{j} \right> $$
+$$= \left< x, e_{j} \right> - \left< x, e_{j} \right> =0$$
+Ainsi, 
+$$x-y\in F^{\bot}$$
+2.
