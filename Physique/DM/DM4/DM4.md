@@ -47,3 +47,6 @@ Quand elle est bloquée, les trous positifs se sont faits remplir par les élect
 Par le théorème de Gauss : 
 $$\int_{S} E(x \in [x_{A}, 0]) dS=\frac{Q_{A}}{\varepsilon}$$
 $$Q_{A} = $$
+
+
+quai 9, 3 ~~quart~~ cursed
