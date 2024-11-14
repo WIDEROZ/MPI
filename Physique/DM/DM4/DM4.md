@@ -35,4 +35,7 @@ Oui
 #### 7.
 
 ## II.
-$$\int E(x) \, dx $$
+En prenant un cube en surface de gauss : 
+$$2\int E(x) dS  = \frac{\rho_{1}x_{A}S+\rho_{2}x_{D}S}{\varepsilon}$$
+Alors, 
+$$E(x) = \frac{\rho_{1}x_{A} + \rho_{2}x_{D}}{2\varepsilon}$$
