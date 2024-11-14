@@ -1,3 +1,36 @@
+# Exercice 1
+## a.
+$$\mathcal{P} = \begin{pmatrix}
+1 \\
+1 \\
+1 \\
+1
+\end{pmatrix}^{\bot} \cap \begin{pmatrix}
+1 \\
+-1 \\
+1 \\
+-1
+\end{pmatrix}^{\bot} = Vect\begin{pmatrix}
+\begin{pmatrix}
+1 \\
+1 \\
+1 \\
+1
+\end{pmatrix}, \begin{pmatrix}
+1 \\
+-1 \\
+1 \\
+-1
+\end{pmatrix}
+\end{pmatrix}^{\bot}$$
+Alors, 
+$$f : \begin{cases}
+\mathbb{R}^{4}
+\end{cases}$$
+
+
+
+
 # Exercice 2
 ## a.
 Soit $x \in E$, 

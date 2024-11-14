@@ -443,5 +443,9 @@ alors, comme $\left|\left| X-\frac{1}{2} \right|\right|^{2} = \frac{1}{12}$
 $$P_{2} = \sqrt{12}\left( X-\frac{1}{2} \right)$$
 Convient
 $$\begin{cases}
-\left< X^{2}, P_{1} \right> P_{1} = 
+\left< X^{2}, P_{1} \right> P_{1} = \frac{X^{0}}{3} \\
+\left< X^{2}, P_{2} \right> P_{2} = X-\frac{1}{2}
 \end{cases}$$
+Ainsi, 
+$$m = \frac{1}{5}+\frac{1}{3}+\frac{1}{36}-\frac{1}{2}+\frac{1}{9}-\frac{1}{6}$$
+
