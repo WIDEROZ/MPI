@@ -33,3 +33,5 @@ $$\boxed{I(x) = -S\rho(x)v(x)}$$
 Oui
 
 #### 7.
+
+## II.
