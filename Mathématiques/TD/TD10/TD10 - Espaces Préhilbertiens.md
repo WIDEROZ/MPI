@@ -37,15 +37,30 @@ $$e_{1} = \begin{pmatrix}
 -1
 \end{pmatrix} \in \mathcal{P}$$
 Alors, $(u_{1}, u_{2}) = \left( \frac{1}{\sqrt{2}}e_{1}, \frac{1}{\sqrt{2}}e_{2} \right)$ est une BON de $\mathcal{P}$, 
-
-$$\forall X \in \mathbb{R}^{4}, f(x) = \left< X, u_{1} \right> u_{1} + \left< X, u_{2} \right> u_{2}$$
+$$\forall X = \begin{pmatrix}
+x \\
+y \\
+z \\
+t
+\end{pmatrix} \in \mathbb{R}^{4}, f(x) = \left< X, u_{1} \right> u_{1} + \left< X, u_{2} \right> u_{2} =\frac{1}{2} \begin{pmatrix}
+x-z \\
+y-t \\
+z-x \\
+t-y
+\end{pmatrix}$$
 Ainsi, 
-$$Mat_{(u_{1}, u_{2})}(f) = \begin{pmatrix}
-1&0&0&0 \\
-0&1&0&0 \\
-0&0&0&0
+$$Mat_{(u_{1}, u_{2})}(f) = \frac{1}{2}\begin{pmatrix}
+1&0&-1&0 \\
+0&1&0&-1 \\
+-1&0&1&0 \\
+0&-1&0&1
 \end{pmatrix}$$
 
+## b.
+$$\left|\left| a - p(a) \right|\right| =\frac{1}{2} \left|\left| \begin{pmatrix}
+-2 \\
+
+\end{pmatrix} \right|\right| $$
 
 
 # Exercice 2
