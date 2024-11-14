@@ -433,4 +433,15 @@ $$d = 1$$
 #### Exercice
 $$ m = \inf_{(a, b) \in \mathbb{R}^{2}}\int _{0}^{1}(x^{2}-ax-b)^{2} \, dx = \inf_{Q \in \mathbb{R}_{1}[X]} \left|\left| X^{2}-Q \right|\right|^{2}$$
 alors, 
-$$m = dist(X^{2} ,\mathbb{R}_{1}[X])^{{2}} = dist(X^{2}, \mathbb{R}_{1}[X])$$
+$$m = dist(X^{2} ,\mathbb{R}_{1}[X])^{{2}} = \left|\left| X^{2}-p(X^{2}) \right|\right|^{2} $$
+avec $p \in \mathcal{L}(\mathbb{R}_{2}[X])$ la projection orthogonale sur $\mathbb{R}_{1}[X]$
+$$m = \left|\left| X^{2}-\left< X^{2}, P_{1} \right> P_{1}- \left< X^{2}, P_{2} \right>P_{2}  \right|\right| ^{2}$$
+Pour toute BON $(P_{1}, P_{2})$ de $\mathbb{R}_{1}[X]$
+On prend $P_{1}(X) = 1$ puis on cherche $\beta \in \mathbb{R}$ tel que 
+$$\left< P_{1}, X+\beta \right> =0 \Leftrightarrow \beta = -\frac{1}{2}$$
+alors, comme $\left|\left| X-\frac{1}{2} \right|\right|^{2} = \frac{1}{12}$
+$$P_{2} = \sqrt{12}\left( X-\frac{1}{2} \right)$$
+Convient
+$$\begin{cases}
+\left< X^{2}, P_{1} \right> P_{1} = 
+\end{cases}$$
