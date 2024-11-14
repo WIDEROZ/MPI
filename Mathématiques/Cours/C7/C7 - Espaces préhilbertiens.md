@@ -311,4 +311,7 @@ $$\left< x, y \right> = \sum_{i = 1}^{n} x_{i}y_{i} \left|\left| e_{i} \right|\r
 On sait que $m_{i, j}$ est la $i^{eme}$ composante de $f(e_{j})$ dans la base $\beta$. C'est donc une conséquence du $1.$
 
 
-
+# IV. Supplémentaires orthogonaux
+Soit $(E, \left< \cdot, \cdot \right>)$ un préhilbertien, $F \underset{sev}{\subset} E$, 
+$$F^{\bot} = \{ u \in E | \forall f \in F, \left< u, f \right> =0 \}$$
+est un sev de $E$ qui vérifie : $F \cap F^{\bot}$
