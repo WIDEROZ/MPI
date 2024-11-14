@@ -1,2 +1,1 @@
-$$\frac{e^{ -x }}{\sqrt{x^{2}-4}} = O\left( \frac{1}{x^{2}} \right)$$
-en $+ \infty$
+$$\frac{\ln(x)}{\sqrt{x^{2\alpha} +1}} \sim \frac{\ln(x)}{x^{a}}$$
