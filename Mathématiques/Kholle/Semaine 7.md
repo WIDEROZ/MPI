@@ -1,2 +1,1 @@
-en 0 :
-$$\frac{e^{ -2 }}{2\sqrt{}}$$
+$$\Gamma(x+1) = \int _{0}^{+ \infty}  \, dx $$
