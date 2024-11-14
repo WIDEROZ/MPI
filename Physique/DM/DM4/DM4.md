@@ -44,4 +44,6 @@ Quand la diode est passante, les trous positifs se déplacent de la portion $N$ 
 Quand elle est bloquée, les trous positifs se sont faits remplir par les électrons et donc, l'atome de silicium ne peut plus accueillir d'électrons. 
 
 ## 22.
-$$Q_{A} = -\int_{0}^{V_{x_{a}}} N_{A}e d\tau = - N_{A}eS\int _{0}^{x_{a}} \, dx $$
+Par le théorème de Gauss : 
+$$\int_{S} E(x \in [x_{A}, 0]) dS=\frac{Q_{A}}{\varepsilon}$$
+$$Q_{A} = $$
