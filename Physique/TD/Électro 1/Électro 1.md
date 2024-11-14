@@ -34,3 +34,8 @@ $$ = \frac{E_{1}}{3} \cos(\omega_{f}t + \phi) + \frac{3}{\sqrt{ 145 }}E_{2}\cos\
 
 ## (b).
 $$s(t) = \frac{8}{\pi^{2}}\sum_{p = 1}^{+\infty} \frac{G((2p+1)\omega_{f})}{(2p+1)^{2}}\cos((2p+1)\omega_{f}t+\varphi((2p+1)\omega_{f}))$$
+
+
+$$\Delta V = -\frac{\rho}{\varepsilon_{0}}$$
+
+$$\Delta V = -\left( \frac{q 4\pi \varepsilon_{0}}{4\pi \varepsilon_{0}r^{2}} + \frac{q}{4\pi \varepsilon_{0}ra}\right)e^{ -r/a } = \left( \frac{2q\pi^{2}\varepsilon_{0}^{2} }{\pi \varepsilon_{0}r^{3}} -\frac{q}{4\pi \varepsilon_{0}r^{2}a}\right)$$

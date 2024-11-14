@@ -33,11 +33,3 @@ $$\boxed{I(x) = S\rho(x)v(x)}$$
 Oui
 
 #### 7.
-On effectue un PFD : 
-$$m \frac{dv}{dt} = qE$$
-Alors, 
-$$m \frac{dv}{dt} = -q \frac{dV}{dx}$$
-Donc, 
-
-#### 8.
-
