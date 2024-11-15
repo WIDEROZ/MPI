@@ -111,6 +111,20 @@ $$\forall i \in [\![1, n]\!], \forall k \in [\![1, n]\!]\setminus i, \left< e_{i
 car $\left< e_{i}, e_{k} \right>^{2} \geq 0$ et $\left< e_{i}, e_{i} \right>=1$
 la famille $(e_{i})_{i = 1}^{n}$ est une BON.
 
+# Exercice 3
+## a.
+On note: 
+$$g_{1} : \begin{cases}
+E \to E \\
+x \mapsto x-2\left< u_{1}, x \right> u_{1}
+\end{cases}$$
+il suffit de montrer que $g_{1}$ et $s_{1}$ ont la même image : 
+comme : $H_{1} \oplus Vect(u_{1}) = E$, 
+$$\forall x \in E, \exists h \in H_{1}, \exists \lambda \in \mathbb{R},  x = h + \lambda u_{1}$$
+Alors, 
+$$g_{1}(x) = x -2\lambda u_{1}$$
+
+
 
 # Exercice 5
 Supposons que $\varphi$ soit un produit scalaire, alors, 
