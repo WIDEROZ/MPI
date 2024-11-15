@@ -39,3 +39,4 @@ $$\boxed{\iint_{S \text{ fermée}} \vec{j}.d\vec{S} = 0}$$
 #### Propriété
 Que l'on soit dans l'ARQS ou pas :
 $$\boxed{\iint_{S \text{ fermée}} \vec{B}.d\vec{S}_{ext} = 0 }$$
+($\oint\oint$)
