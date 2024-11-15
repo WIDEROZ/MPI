@@ -55,3 +55,13 @@ Ou la surface : $S_{C_{A}}$ s'appuie sur $C_{A}$ et orienté dans le sens de $d\
 
 ## 3. Champ créé par un fil rectiligne infini
 On prend un repère cylindrique
+EXCAL2
+###### Etude des symétries
+Soit $M$, $(M, \vec{e}_{r}, \vec{e}_{z})$ est un plan de symétrie pour la distribution de courant donc d'antisymétrie pour $\vec{B}$ ie $\vec{B} \parallel \vec{e}_{\theta}$
+###### Etude des invariances
+La distribution de courant est invariante par rotation et translation parallèlement à $Oz$ donc $B_{\theta}(r, \theta, z) = B_{\theta}(r)$
+
+Ainsi, $\vec{B} = B_{\theta}(r)\vec{e}_{\theta}$
+On prend $C_{A}$ le cercle passant par $M$ centré sur le fil et on l'oriente en sens direct pour $\vec{e}_{z}$
+
+###### Thé
