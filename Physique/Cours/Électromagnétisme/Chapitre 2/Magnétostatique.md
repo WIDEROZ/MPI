@@ -40,3 +40,11 @@ $$\boxed{\iint_{S \text{ fermée}} \vec{j}.d\vec{S} = 0}$$
 Que l'on soit dans l'ARQS ou pas :
 $$\boxed{\iint_{S \text{ fermée}} \vec{B}.d\vec{S}_{ext} = 0 }$$
 ($\oint\oint$)
+
+# III. Théorème d'Ampère
+Pour une distribution de courant quelconque : 
+$$\boxed{\oint_{C_{A}} \vec{B}.d\vec{l} = \mu_{0}I_{enl} }$$
+La circulation de $\vec{B}$ créé par $\mathcal{D}_{I}$ quelconque sur un contour fermé $C_{A}$ (contour d'ampère)
+$$I_{enl} = \iint_{S_{C_{A}}}  \vec{j}.d\vec{S}$$
+Ou la surface : $S_{C_{A}}$ s'appuie sur $C_{A}$ et orienté dans le sens de $d\vec{S}$ avec l'orientation de $C_{A}$
+
