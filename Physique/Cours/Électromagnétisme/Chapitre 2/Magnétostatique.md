@@ -64,4 +64,8 @@ La distribution de courant est invariante par rotation et translation parallèle
 Ainsi, $\vec{B} = B_{\theta}(r)\vec{e}_{\theta}$
 On prend $C_{A}$ le cercle passant par $M$ centré sur le fil et on l'oriente en sens direct pour $\vec{e}_{z}$
 
-###### Thé
+###### Théorème d'Ampère
+$$\oint_{C_{A}} \vec{B}_{\theta}(r)\vec{e}_{\theta}  . r d\theta \vec{e}_{\theta} = B_{\theta}r\int _{0}^{2\pi}  \, d\theta = B_{\theta} \times2\pi r $$
+$I_{enl} = +I$ 
+Alors, 
+$$\vec{B} = \frac{\mu_{0}I}{2\pi r} \vec{e}_{\theta}$$

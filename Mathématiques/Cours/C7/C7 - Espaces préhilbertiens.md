@@ -312,6 +312,7 @@ On sait que $m_{i, j}$ est la $i^{eme}$ composante de $f(e_{j})$ dans la base $\
 
 
 # IV. Supplémentaires orthogonaux
+## 1. Projecteurs orthogonaux
 Soit $(E, \left< \cdot, \cdot \right>)$ un préhilbertien, $F \underset{sev}{\subset} E$, 
 $$F^{\bot} = \{ u \in E | \forall f \in F, \left< u, f \right> =0 \}$$
 est un sev de $E$ qui vérifie : $F \cap F^{\bot} = \{ 0_{E} \}$ car :
@@ -449,3 +450,15 @@ $$\begin{cases}
 Ainsi, 
 $$m = \frac{1}{5}+\frac{1}{3}+\frac{1}{36}-\frac{1}{2}+\frac{1}{9}-\frac{1}{6}$$
 
+## 3. Symétries orthogonales
+#### Définition
+$s \in \mathcal{L}(E)$ est une symétrie si elle vérifie : 
+$$s \circ s = Id_{E}$$
+$M \in \mathcal{M}_{n}(\mathbb{R})$ est la matrice d'une symétrie si : 
+$$M^{2} = I_{n}$$
+#### Propriété
+Pour $s \in \mathcal{L}(E)$, si on pose : 
+$$s = 2p-Id_{E}$$
+alors $p \in \mathcal{L}(E)$
+$s$ est diagonalisable et :
+$$Sp(s) = \{ -1,1 \}$$
