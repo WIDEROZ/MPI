@@ -22,7 +22,13 @@ $$\boxed{\vec{j} = \sum_{i \in \mathcal{P}} \rho_{m, i}\vec{v}_{i}}$$
 
 ## 2. Intensité $I$ du courant traversant une surface $S$
 Soir $S$ une surface orienté, $d\vec{S} = dS \vec{n}$
+EXCAL 1
 La charge traversant $dS$ pendant $dt$ est : 
 $$d^{2}q = \rho_{m}V_{cyl} = \rho_{m} \vec{v}dt.d\vec{S} = \vec{j}\,  dt.d\vec{S}$$
+Ainsi, 
+$$\boxed{I = \iint_{S} \vec{j} .d\vec{S}}$$
+$I$ est le flux de $\vec{j}$ à travers $S$.
 
-EXCAL 1
+#### Propriété
+Dans l'ARQS : 
+$$\boxed{\iint \vec{j}.d\vec{S} = 0}$$
