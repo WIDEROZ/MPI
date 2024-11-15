@@ -457,8 +457,33 @@ $$s \circ s = Id_{E}$$
 $M \in \mathcal{M}_{n}(\mathbb{R})$ est la matrice d'une symétrie si : 
 $$M^{2} = I_{n}$$
 #### Propriété
-Pour $s \in \mathcal{L}(E)$, si on pose : 
+Pour $s \in \mathcal{L}(E)$, une symétrie si on pose : 
 $$s = 2p-Id_{E}$$
 alors $p \in \mathcal{L}(E)$
 $s$ est diagonalisable et :
 $$Sp(s) = \{ -1,1 \}$$
+puis, 
+$$E = E_{1}(s) \oplus E_{2}(s)$$
+Si $\beta$ est une base de $E$ adapté à cette décomposition, 
+$$Mat_{\beta}(s)=\begin{pmatrix}
+1& \\
+&\ddots&&&0 \\
+&&1 \\
+&&&-1 \\
+&0&&&\ddots \\
+&&&&&-1
+\end{pmatrix}$$
+
+#### Définition
+$s \in \mathcal{L}(E)$, est une symétrie orthogonale ssi : 
+$$E_{1}(s) = E_{-1}(s)^{\bot} \Leftrightarrow p = \frac{s+Id}{2} \text{ est un projecteur orthogonal}$$
+
+#### Exercice
+Soit $s \in \mathcal{L}(E)$ une symétrie, 
+Montrons que $s$ est une symétrie orthogonale ssi 
+$$\forall x \in E, \left|\left| s(x) \right|\right|= \left|\left| x \right|\right|$$
+
+Démonstration : 
+$\Rightarrow$ : 
+Soit $x \in E$, 
+$$\left|\left| s(x) \right|\right| = \mathrm{Tr}(Mat_{\beta}(s)) = $$
