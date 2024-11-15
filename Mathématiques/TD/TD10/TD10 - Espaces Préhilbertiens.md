@@ -122,8 +122,16 @@ il suffit de montrer que $g_{1}$ et $s_{1}$ ont la même image :
 comme : $H_{1} \oplus Vect(u_{1}) = E$, 
 $$\forall x \in E, \exists h \in H_{1}, \exists \lambda \in \mathbb{R},  x = h + \lambda u_{1}$$
 Alors, 
-$$g_{1}(x) = x -2\lambda u_{1}$$
+$$g_{1}(x) = h-\lambda u_{1}$$
+Ainsi, comme $h \in H_{1}$ et $\lambda u_{1} \in Vect(u_{1})$, $g_{1}$ est une réflexion car $s_{1}(x) = h-\lambda u_{1}$ puisque c'est une symétrie.
 
+## b.
+$\Rightarrow$ : 
+Supposons que $s_{1} \circ s_{2} = s_{2} \circ s_{1}$, 
+Soit $x \in E$, 
+$$s_{1}(s_{2}(x)) = s_{2}(x)-2\left< u_{1}, s_{2}(x) \right> u_{1}$$
+$$s_{1}(s_{2}(x)) = s_{2}(x) - 2(\left< u_{1}, x \right> - 2\left< u_{2}, x \right> \left< u_{1}, u_{2} \right> )u_{1}$$
+$$s_{2}(s_{1}(x)) = $$
 
 
 # Exercice 5
