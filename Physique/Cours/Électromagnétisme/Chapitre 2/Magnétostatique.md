@@ -35,7 +35,7 @@ $$\boxed{\iint_{S \text{ fermée}} \vec{j}.d\vec{S} = 0}$$
 ($\oint\oint$)
 
 # II. Propriétés du champ magnétostatique
-## II.1. Flux du champ magnétique
+## 1. Flux du champ magnétique
 #### Propriété
 Que l'on soit dans l'ARQS ou pas :
 $$\boxed{\iint_{S \text{ fermée}} \vec{B}.d\vec{S}_{ext} = 0 }$$
@@ -48,3 +48,10 @@ La circulation de $\vec{B}$ créé par $\mathcal{D}_{I}$ quelconque sur un conto
 $$I_{enl} = \iint_{S_{C_{A}}}  \vec{j}.d\vec{S}$$
 Ou la surface : $S_{C_{A}}$ s'appuie sur $C_{A}$ et orienté dans le sens de $d\vec{S}$ avec l'orientation de $C_{A}$
 
+## 2. Méthode d'utilisation
+- L'étude des symétrie et invariances de $\mathcal{D}_I$ nous donne des information sur $\vec{B}$
+- Choix de $C_A$
+- Calcul de $\oint_{C_{A}} \vec{B}.d\vec{l}$ et $\mu_{0}I_{enl}$ pour obtenir $\vec{B}$
+
+## 3. Champ créé par un fil rectiligne infini
+On prend un repère cylindrique
