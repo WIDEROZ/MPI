@@ -131,7 +131,13 @@ Supposons que $s_{1} \circ s_{2} = s_{2} \circ s_{1}$,
 Soit $x \in E$, 
 $$s_{1}(s_{2}(x)) = s_{2}(x)-2\left< u_{1}, s_{2}(x) \right> u_{1}$$
 $$s_{1}(s_{2}(x)) = s_{2}(x) - 2(\left< u_{1}, x \right> - 2\left< u_{2}, x \right> \left< u_{1}, u_{2} \right> )u_{1}$$
-$$s_{2}(s_{1}(x)) = $$
+$$s_{2}(s_{1}(x)) = s_{1}(x)-2(\left< u_{2}, x \right> - 2\left< u_{1}, x \right> \left< u_{1}, u_{2} \right> )u_{2}$$
+
+On fait la différence de $s_{1} \circ s_{2}$ par $s_{2}\circ s_{1}$,
+$$\left< u_{1}, x \right> u_{1}-\left< u_{2}, x \right> u_{2} + \left< u_{1}, x \right>u_{1}-2\left< u_{2}, x \right>\left< u_{1}, u_{2} \right>u_{1} $$
+$$-\left< u_{2}, x \right>u_{2} + 2 \left< u_{1}, x \right> \left< u_{1}, u_{2} \right> u_{2} = 0$$
+$$(\left< u_{1}, x \right> -\left< u_{2}, x \right> \left< u_{1}, u_{2} \right>)u_{1} - ( \left< u_{2}, x \right> -\left< u_{1}, x \right> \left< u_{1}, u_{2} \right> )u_{2} =0$$
+
 
 
 # Exercice 5
