@@ -505,4 +505,19 @@ et comme $\dim E_{1}(s) = \dim E - \dim E_{-1}(s) = \dim E_{-1}(s)^{\bot}$
 $$E_{1}(s) = E_{-1}(s)$$
 
 #### Définition 
-On appelle réflexion de $E$ toute symétrie 
+On appelle réflexion de $E$ toute symétrie orthogonale $s$ de $E$ par rapport à un hyperplan ie tout $s \in \mathcal{L}(E)$ vérifiant : 
+$$\begin{cases}
+s \circ s = Id_{E} \\
+E_{1}(s) = E_{-1}(s)^{\bot} \\
+\dim E_{1}(s) = \dim E-1
+\end{cases}$$
+
+# V. Orthonormalisation
+Soit $\mathcal{E} = (e_{i})_{i = 1}^{n}$ une famille libre de vecteurs de $E$
+il existe $\mathcal{U} =(u_{i})_{i=1}^{n}$ une famille orthonormale de $E$ telle que : $Vect(u_{1}) = Vect(e_{1})$, $Vect(u_{1}, u_{2}) = Vect(e_{1}, e_{2})$ etc...
+Cette famille est unique si l'on impose de plus que : 
+$$\forall k \in [\![1, n]\!], \left< x, e_{k} \right> \in \mathbb{R}_{+}$$
+$\mathcal{U}$ est l'orthonormalisée de Gramm-Schmitt
+____
+Existence de $\mathcal{U}$, 
+on pose : $u_{1} = \frac{e_{1}}{\left|\left| e_{1} \right|\right|}$
