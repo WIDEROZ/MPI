@@ -485,5 +485,24 @@ $$\forall x \in E, \left|\left| s(x) \right|\right|= \left|\left| x \right|\righ
 
 Démonstration : 
 $\Rightarrow$ : 
-Soit $x \in E$, 
-$$\left|\left| s(x) \right|\right| = \mathrm{Tr}(Mat_{\beta}(s)) = $$
+Soit $x \in E$, il existe $y \in E_{1}(s)$, $z \in E(s)$, $x = y+z$, alors $s(x)=y-z$
+oz comme $E_{1}(s) = E_{-1}(s)^{\perp}$, 
+$$\left< y, z \right>=0 $$
+et donc, 
+$$\left|\left| x \right|\right| ^{2} = \left|\left| y+z \right|\right| ^{2} = \left|\left| y \right|\right| ^{2} + \left|\left| -z \right|\right| ^{2} = \left|\left| y-z \right|\right| ^{2} = \left|\left| s(x) \right|\right| ^{2}$$
+par Al-Kachi 
+
+$\Leftarrow$ : 
+Soit $s \in \mathcal{L}(E)$ une symétrie, 
+Soit $x \in E$, tel que : $\left|\left| s(x) \right|\right| = \left|\left| x \right|\right|$ 
+Soient $y \in E_{1}(s)$ et $z \in E_{-1}(s)$
+$$\left|\left| s(y+z) \right|\right| ^{2} = \left|\left| y+z \right|\right| ^{2}$$
+Alors, par Al-Kachi
+$$\left< y, z \right> =0$$
+alors, 
+$$E_{1}(s) \subset E_{-1}(s)^{\bot}$$
+et comme $\dim E_{1}(s) = \dim E - \dim E_{-1}(s) = \dim E_{-1}(s)^{\bot}$
+$$E_{1}(s) = E_{-1}(s)$$
+
+#### Définition 
+On appelle réflexion de $E$ toute symétrie 
