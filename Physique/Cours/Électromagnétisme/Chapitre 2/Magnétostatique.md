@@ -30,5 +30,6 @@ $$\boxed{I = \iint_{S} \vec{j} .d\vec{S}}$$
 $I$ est le flux de $\vec{j}$ à travers $S$.
 
 #### Propriété
-Dans l'ARQS : 
-$$\boxed{\iint \vec{j}.d\vec{S} = 0}$$
+Dans l'ARQS en régime stationnaire : 
+$$\boxed{\iint_{S \text{ fermée}} \vec{j}.d\vec{S} = 0}$$
+($\oint\oint$)
