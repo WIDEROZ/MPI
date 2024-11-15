@@ -520,4 +520,13 @@ $$\forall k \in [\![1, n]\!], \left< x, e_{k} \right> \in \mathbb{R}_{+}$$
 $\mathcal{U}$ est l'orthonormalisée de Gramm-Schmitt
 ____
 Existence de $\mathcal{U}$, 
-on pose : $u_{1} = \frac{e_{1}}{\left|\left| e_{1} \right|\right|}$
+on pose :
+$$u_{1} = \frac{e_{1}}{\left|\left| e_{1} \right|\right|}$$
+$$\forall k \in \mathbb{N}^{*}, p_{k} \in \mathcal{L}(E) \text{ la proj. orthogonale sur }F_{k} = Vect(e_{i})_{i = 1}^{k}$$
+Puis, finalement, on pose :
+$$\forall k \in \mathbb{N}^{*} \setminus \{ 1 \}, u'_{k} = e_{k}-p_{k-1}(e_{k})$$
+alors, 
+$$u'_{k} = (I_{d}-p_{k-1})(e_{k}) \in \mathrm{Im}(Id-p_{k-1}) = \mathrm{Ker}(p_{k-1}) = \mathrm{Im}(p_{k-1})^{\bot}$$
+car $p_{k-1}$ est un projecteur orthogonal. 
+de plus puisque : 
+$$p_{k-1}(e_{k}) \in $$
