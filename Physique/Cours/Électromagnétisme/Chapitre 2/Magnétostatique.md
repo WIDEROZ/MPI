@@ -33,3 +33,9 @@ $I$ est le flux de $\vec{j}$ à travers $S$.
 Dans l'ARQS en régime stationnaire : 
 $$\boxed{\iint_{S \text{ fermée}} \vec{j}.d\vec{S} = 0}$$
 ($\oint\oint$)
+
+# II. Propriétés du champ magnétostatique
+## II.1. Flux du champ magnétique
+#### Propriété
+Que l'on soit dans l'ARQS ou pas :
+$$\boxed{\iint_{S \text{ fermée}} \vec{B}.d\vec{S}_{ext} = 0 }$$
