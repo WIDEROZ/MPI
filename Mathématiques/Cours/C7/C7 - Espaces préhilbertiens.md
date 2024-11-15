@@ -546,4 +546,17 @@ Enfin,
 $$\left< u_{k}, e_{k} \right> = \lambda \left< u'_{k}, e_{k} \right> = \lambda(\left|\left| e_{k} \right|\right| ^{2}-\left|\left| p_{k-1}(e_{k}) \right|\right| ^{2})\geq 0$$
 
 #### Exemple
-CCINP 81-82-80
+
+#### Remarque
+La matrice de passage de $\mathcal{E}$ vers $\mathcal{U}$ est : 
+$$P^{-1} = P_{\mathcal{U}}^{\mathcal{E}} = \begin{pmatrix}
+\left< e_{1}, u_{1} \right>& \\
+0&\left< e_{2}, u_{2} \right> & &\dots\\
+0&0 &\dots
+\end{pmatrix}$$
+
+
+
+#### Théorème
+Soit $(e_{i})_{i =1}^{p}$ une famille ON de $E$, tq $\dim E = n$, 
+$$\exists $$
