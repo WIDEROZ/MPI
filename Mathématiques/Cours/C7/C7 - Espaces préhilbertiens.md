@@ -529,4 +529,21 @@ alors,
 $$u'_{k} = (I_{d}-p_{k-1})(e_{k}) \in \mathrm{Im}(Id-p_{k-1}) = \mathrm{Ker}(p_{k-1}) = \mathrm{Im}(p_{k-1})^{\bot}$$
 car $p_{k-1}$ est un projecteur orthogonal. 
 de plus puisque : 
-$$p_{k-1}(e_{k}) \in $$
+$$p_{k-1}(e_{k}) \in F_{k-1} \subset F_{k}$$
+$\forall k \in \mathbb{N}^{*}\setminus \{ 1 \}, u'_{k} \in F_{k}$
+Ainsi, 
+$$\forall 1 \leq i < j \leq n, \begin{cases}
+u'_{j} \in F_{j-1}^{\bot} \\
+u'_{i} \in F_{i} \subset F_{j-1}
+\end{cases} \Rightarrow u'_{j} \perp u'_{i}$$
+Ainsi, 
+$$\mathcal{U} = \left( \frac{u_{i}'}{\left|\left| u_{i}' \right|\right| } \right)_{i =1}^{n}$$
+est une famille orthonormale
+$$\forall k \in \mathbb{N}^{*}, Vect(u_{i})_{i = 1}^{k} \subset F_{k}$$
+puis, $dim F_{k} = k$ ainsi 
+$$\forall k \in \mathbb{N}^{*}, Vect(u_{i})_{i = 1}^{k} = Vect(e_{i})_{i = 1}^{k} $$
+Enfin, 
+$$\left< u_{k}, e_{k} \right> = \lambda \left< u'_{k}, e_{k} \right> = \lambda(\left|\left| e_{k} \right|\right| ^{2}-\left|\left| p_{k-1}(e_{k}) \right|\right| ^{2})\geq 0$$
+
+#### Exemple
+CCINP 81-82-80
