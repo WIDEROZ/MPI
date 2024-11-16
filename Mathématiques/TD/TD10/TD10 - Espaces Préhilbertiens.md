@@ -138,6 +138,11 @@ $$\left< u_{1}, x \right> u_{1}-\left< u_{2}, x \right> u_{2} + \left< u_{1}, x 
 $$-\left< u_{2}, x \right>u_{2} + 2 \left< u_{1}, x \right> \left< u_{1}, u_{2} \right> u_{2} = 0$$
 $$(\left< u_{1}, x \right> -\left< u_{2}, x \right> \left< u_{1}, u_{2} \right>)u_{1} - ( \left< u_{2}, x \right> -\left< u_{1}, x \right> \left< u_{1}, u_{2} \right> )u_{2} =0$$
 
+$\Leftarrow$ :
+Si $u_{1}$ et $u_{2}$ sont colinéaires :
+$u_{1} = \varepsilon u_{2}$ avec $\varepsilon = \pm1$ car $\left|\left| u_{1} \right|\right| = \left|\left| u_{2} \right|\right|$
+ainsi, $s_{1} = s_{2}$
+Assez facile pour $u_{1} \perp u_{2}$
 
 
 # Exercice 5
