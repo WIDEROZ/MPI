@@ -127,4 +127,12 @@ transposition g2;;
 
 
 let profondeur g s = 
-  
+  let s_visite = Array.make (ordre g) false in
+  let file = Queue.create() in
+  let rec prof q =
+    match g.(q) with
+    | [] -> if (not s_visite.(q)) then Queue.push q file
+    | t::s -> 
+ 
+
+      
