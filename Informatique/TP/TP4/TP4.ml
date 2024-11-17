@@ -124,3 +124,10 @@ let (g2 :graphe_oriente) = [| [2;4];
                               [5]|];;
 
 transposition g2;;
+
+
+let parcours_prof g r = 
+  let n = ordre g in
+  let visite = Array.make n false in
+  let pile = Stack.create() in
+  Stack.push r pile;
