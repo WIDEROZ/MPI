@@ -124,3 +124,7 @@ let (g2 :graphe_oriente) = [| [2;4];
                               [5]|];;
 
 transposition g2;;
+
+
+let profondeur g s = 
+  

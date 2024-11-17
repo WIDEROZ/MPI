@@ -1,4 +1,0 @@
-ABDEFC
-
-A, DEB, F, C
-
