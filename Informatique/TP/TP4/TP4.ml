@@ -130,4 +130,20 @@ let parcours_prof g r =
   let n = ordre g in
   let visite = Array.make n false in
   let pile = Stack.create() in
+  let parcours = ref [] in 
   Stack.push r pile;
+  let rec prof p = 
+    if not (Stack.is_empty p) then
+      let t = Stack.pop p in 
+      visite.(t) <- true;
+      List.iter (fun (x:int) -> Stack.push x p) (g.(t));
+      parcours := t::!parcours;
+      prof p
+    in
+    prof pile;
+    !parcours
+  ;;
+      
+
+parcours_profondeur g2 0;;
+parcours_prof g2 0;;
