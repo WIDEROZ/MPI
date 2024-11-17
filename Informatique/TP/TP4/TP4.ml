@@ -129,10 +129,7 @@ transposition g2;;
 let profondeur g s = 
   let s_visite = Array.make (ordre g) false in
   let file = Queue.create() in
-  let rec prof q =
-    match g.(q) with
-    | [] -> if (not s_visite.(q)) then Queue.push q file
-    | t::s -> 
- 
-
-      
+  let rec prof somm vois =
+    match vois with
+    | [] -> if (not s_visite.(somm)) then (s_visite.(somm) <- true; Queue.push somm file)
+    | t::s -> if (s_visite.(t)) then (prof somm s) else (s_visite.(somm) <- true; prof t g.(t); Queue.push t file)
