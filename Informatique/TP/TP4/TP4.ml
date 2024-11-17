@@ -135,15 +135,18 @@ let parcours_prof g r =
   let rec prof p = 
     if not (Stack.is_empty p) then
       let t = Stack.pop p in 
-      visite.(t) <- true;
-      List.iter (fun (x:int) -> Stack.push x p) (g.(t));
-      parcours := t::!parcours;
+      if not visite.(t) then
+        begin
+          visite.(t) <- true;
+          List.iter (fun (x:int) -> Stack.push x p) (g.(t));
+          parcours := t::!parcours;
+        end;
       prof p
     in
     prof pile;
     !parcours
   ;;
-      
 
-parcours_profondeur g2 0;;
-parcours_prof g2 0;;
+
+parcours_profondeur g2 5;;
+parcours_prof g2 5;;
