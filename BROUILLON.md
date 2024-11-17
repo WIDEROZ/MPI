@@ -1,0 +1,1 @@
+$$\cos(kf_{e}-f) + \cos(kf_{e}+f) = \cos(kf_{e})\cos()+\sin(a)\sin(b) $$
