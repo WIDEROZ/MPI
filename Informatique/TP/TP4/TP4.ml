@@ -124,12 +124,3 @@ let (g2 :graphe_oriente) = [| [2;4];
                               [5]|];;
 
 transposition g2;;
-
-
-let profondeur g s = 
-  let s_visite = Array.make (ordre g) false in
-  let file = Queue.create() in
-  let rec prof somm vois =
-    match vois with
-    | [] -> if (not s_visite.(somm)) then (s_visite.(somm) <- true; Queue.push somm file)
-    | t::s -> if (s_visite.(t)) then (prof somm s) else (s_visite.(somm) <- true; prof t g.(t); Queue.push t file)
