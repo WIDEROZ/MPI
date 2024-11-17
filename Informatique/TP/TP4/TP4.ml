@@ -139,9 +139,9 @@ let parcours_prof g r =
         begin
           visite.(t) <- true;
           List.iter (fun (x:int) -> Stack.push x p) (g.(t));
+          prof p;
           parcours := t::!parcours;
         end;
-      prof p
     in
     prof pile;
     !parcours
