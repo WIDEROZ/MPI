@@ -1,0 +1,3 @@
+#### Proposition 1
+Démonstration : 
+On note : $P_{1}, D_{1}, F_{1}, N_{1}$, $P_{2}, D_{2}, F_{2}, N_{2}$ les ensembles : $P(L_{1})$ etc...
