@@ -147,8 +147,9 @@ Assez facile pour $u_{1} \perp u_{2}$
 # Exercice 4 (a faire pour demain)
 Soient $i, j \in [\![1, p]\!]$ tels que : $i \neq j$
 $$\left< e_{i}, e_{j} \right> < 0$$
-Comme $f$ projette tout vecteur de
-
+Soit $n \in \mathbb{N}$, $(u_{i})_{i = 1}^{n}$ une BON de $Vect(e_{1})^{\bot}$, 
+$$f(e_{i}) = \sum_{k = 1}^{n}\left< e_{i}, u_{k} \right>u_{k}$$
+$$\left< f(e_{i}), f(e_{j}) \right> = \sum_{k = 1}^{n}\left< e_{i}, u_{k} \right> u_{k}$$
 
 # Exercice 5
 Supposons que $\varphi$ soit un produit scalaire, alors, 
