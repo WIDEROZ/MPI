@@ -145,6 +145,8 @@ ainsi, $s_{1} = s_{2}$
 Assez facile pour $u_{1} \perp u_{2}$
 
 # Exercice 4 (a faire pour demain)
+Soient $i, j \in [\![1, n]\!]$
+
 
 
 
