@@ -144,6 +144,9 @@ $u_{1} = \varepsilon u_{2}$ avec $\varepsilon = \pm1$ car $\left|\left| u_{1} \r
 ainsi, $s_{1} = s_{2}$
 Assez facile pour $u_{1} \perp u_{2}$
 
+# Exercice 4 (a faire pour demain)
+
+
 
 # Exercice 5
 Supposons que $\varphi$ soit un produit scalaire, alors, 
@@ -241,6 +244,13 @@ $$\left|\left| p(x) \right|\right|^{2} =\left|\left| y \right|\right|^{2} \leq t
 Donc, 
 $$t^{2}\left|\left| x \right|\right| ^{2} + 2 t\left< x, y \right> \geq 0$$
 donc $\Delta \leq 0$, ainsi, $\Delta = 4\left< x, y \right>^{2}=0$ ainsi $\left< x, y \right> = 0$
+ 
+# Exercice 11
+## b.
+
+
+
+
 
 # Exercice 12
 ## a.
@@ -286,3 +296,4 @@ h(1)
 $$\det A = \frac{1}{e}-e \neq 0$$
 Donc, $h(0)=h(1)=0$
 Ainsi, $h \in F$. 
+
