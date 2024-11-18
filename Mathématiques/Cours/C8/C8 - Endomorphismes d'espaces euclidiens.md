@@ -19,4 +19,17 @@ $$\left< x, \alpha x_{0} + x_{1} \right> = \alpha \left< x, x_{0} \right> + \lef
 Ainsi, 
 $$\psi(\alpha x_{0} + x_{1}) = \alpha \psi(x_{0}) + \psi(x_{1})$$
 
-$\psi$ est 
+$\psi$ est bijective : 
+Soit $x_{0} \in \mathrm{Ker}(\psi)$, 
+alors, 
+$$\varphi_{x_{0}} = x \mapsto \left< x_{0}, x \right>  = 0_{E^{*}}$$
+Ainsi, $x_{0} = 0$,
+Donc; 
+$$\mathrm{Ker}(\psi) = \{ 0 \}$$
+Puis, 
+$$\dim E = \dim E^{*} = \dim E$$
+donc elle est surjective. 
+
+#### Définition
+Soit $f \in \mathcal{L}(E)$, il existe un unique endomorphisme $f^{*} \in \mathcal{L}(E)$ vérifiant : 
+$$$$
