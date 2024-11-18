@@ -560,3 +560,4 @@ $$P^{-1} = P_{\mathcal{U}}^{\mathcal{E}} = \begin{pmatrix}
 #### Théorème
 Soit $(e_{i})_{i =1}^{p}$ une famille ON de $E$, tq $\dim E = n$, 
 $$\exists e_{p+1}, \dots, e_{n} \in E, (e_{i})_{i = 1}^{n} \text{ soit une BON de }E$$
+
