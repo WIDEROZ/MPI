@@ -58,3 +58,15 @@ $$\forall i \in [\![1, n_{k}-1]\!], e_{i}e_{i+1} \in F(L_{2})$$
 Par localité de $L_{1}$, $v_{k} \in L_{1}$ d'ou $u = v_{1}\dots v_{m+1} \in L_{1}^{m+1} \subset L$
 Ainsi, 
 $$L \text{ est local}$$
+
+
+#### Théorème 3
+Démonstration :
+Soit $e$ une exp. reg. lin. 
+Si $e = \varepsilon$ ou $\varnothing$, le langage $L$ dénoté par $e$ est local
+Si $e = a \in \Sigma$, $P = \{ a \}$, $D = \{ a \}$, $F = \varnothing$, donc, 
+$$L \setminus \{ \varepsilon \} = (P\Sigma^{*} \cap \Sigma D)\setminus(\Sigma^{*}N\Sigma^{*})$$
+Ainsi, $L$ est local
+Si $e = e_{1}|e_{2}$  tq $e_{1}, e_{2}$ sont des expr. reg. lin. tq $L_{1}$ et $L_{2}$ sont locaux alors $L = L_{1} | L_{2}$ est un lang. local.
+Si $e = e_{1}\cdot e_{2}$ de même
+Si $e = (e_{1})^{*}$ de même
