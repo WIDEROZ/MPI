@@ -49,5 +49,25 @@ Soit $y_{1}, y_{2} \in E$ et $\alpha \in \mathbb{R}$,
 Soit $x \in E$, 
 $$\left< f(x), \alpha y_{1} + y_{2} \right> =\left< x, f^{*}(\alpha y_{1} + y_{2}) \right> $$
 $$\alpha \left< f(x), y_{1} \right> + \left< f(x), y_{2} \right> =\alpha \left< x, f^{*}(y_{1}) \right> + \left< x, f^{*}(y_{2}) \right>  $$
-Ainsi, 
+alors, 
 $$\alpha \left< x, f^{*}(y_{1}) \right> + \left< x, f^{*}(y_{2}) \right> = \left< x, f^{*}(\alpha y_{1} + y_{2}) \right> $$
+donc, 
+$$\psi(\alpha f^{*}(y_{1}) + f^{*}(y_{2})) = \psi(f^{*}(\alpha y_{1}+y_{2}))$$
+et comme $\psi$ est bijective d'après le théorème précédent : 
+$$\alpha f^{*}(y_{1}) + f^{*}(y_{2})=f^{*}(\alpha y_{1}+y_{2})$$
+
+#### Propriétés de l'adjoint
+Soit $\beta$ une BON de $E$
+Soient $f, g \in \mathcal{L}(E)$
+$$\boxed{Mat_{\beta}(f^{*}) = Mat_{\beta}(f)^{\top}}$$
+$$f \in \mathcal{L}(E) \mapsto f^{*} \in \mathcal{L}(E) \in \mathcal{L}(\mathcal{L}(E))$$
+$$(f^{*})^{*} = f$$
+$$(f\circ g)^{*} = g^{*} \circ f^{*}$$
+$$\mathrm{Im}(f^{*}) = \mathrm{Ker}(f)^{\bot}$$
+$$\mathrm{Ker}(f^{*}) = \mathrm{Im}(f)^{\bot}$$
+$$\mathrm{rg}(f^{*})=\mathrm{rg}(f)$$
+$$\chi_{f^{*}} = \chi_{f}$$
+
+Démonstration : 
+On a montré que si on note : 
+$$Mat_{\beta}(f) = (m_{i, j})_{(i, j) \in [\![1, n]\!]^{2}}$$
