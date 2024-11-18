@@ -14,3 +14,4 @@ $$\boxed{\vec{B} = \frac{jr\mu_{0}}{2}\vec{e}_{\theta} = \frac{\mu_{0}I}{2R^{2}}
 Si $r>R$, 
 $$\vec{B} = \frac{\mu_{0}I}{2r}\vec{e}_{\theta}$$
 
+	
