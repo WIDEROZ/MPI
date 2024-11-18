@@ -57,7 +57,7 @@ et comme $\psi$ est bijective d'après le théorème précédent :
 $$\alpha f^{*}(y_{1}) + f^{*}(y_{2})=f^{*}(\alpha y_{1}+y_{2})$$
 
 #### Propriétés de l'adjoint
-Soit $\beta$ une BON de $E$
+Soit $\beta = (e_{i})_{i = 1}^{n}$ une BON de $E$
 Soient $f, g \in \mathcal{L}(E)$
 $$\boxed{Mat_{\beta}(f^{*}) = Mat_{\beta}(f)^{\top}}$$
 $$f \in \mathcal{L}(E) \mapsto f^{*} \in \mathcal{L}(E) \in \mathcal{L}(\mathcal{L}(E))$$
@@ -69,5 +69,19 @@ $$\mathrm{rg}(f^{*})=\mathrm{rg}(f)$$
 $$\chi_{f^{*}} = \chi_{f}$$
 
 Démonstration : 
+1.
 On a montré que si on note : 
 $$Mat_{\beta}(f) = (m_{i, j})_{(i, j) \in [\![1, n]\!]^{2}}$$
+$$\forall i, j \in [\![1, n]\!], m_{i, j} = \left< f(e_{j}), e_{i} \right> $$
+car $\beta$ est orthogonale. 
+De plus, il existe une unique $f^{*} \in \mathcal{L}(E)$ adjoint de $f$ et on note : 
+$$Mat_{\beta}(f^{*}) = (m^{*}_{i, j})_{(i, j) \in [\![1, n]\!]^{2}}$$
+puis, 
+$$\forall i, j \in [\![1, n]\!], m_{i, j} = \left< f(e_{j}), e_{i} \right> = \left< e_{j}, f^{*}(e_{i}) \right> = \left< f^{*}(e_{i}), e_{j} \right> = m_{j, i}^{*}$$
+ie
+$$Mat(f^{*}) = Mat(f)^{\top}$$
+5.
+Soit $x \in \mathrm{Ker}(f^{*})$
+$$\forall y\in \mathrm{Im}(f), \exists z \in E, y = f(z)$$
+Alors, 
+$$\left< x \right> $$
