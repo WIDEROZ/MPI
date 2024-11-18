@@ -133,3 +133,6 @@ $$f\circ f^{*} = f^{*} \circ f \Rightarrow \begin{cases}
 
 Démonstration : 
 supposons que : $f\circ f^{*} = f^{*} \circ f$
+Soit $x \in E$, 
+$$\left|\left| f(x) \right|\right| ^{2} = \left< f(x), f(x) \right> = \left< x, f^{*}(f(x)) \right> = \left< x, f(f^{*}(x)) \right> = \left|\left| f^{*}(x) \right|\right|^{2} $$
+Noyaux image ez.
