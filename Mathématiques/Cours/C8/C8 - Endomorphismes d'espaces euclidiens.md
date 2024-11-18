@@ -111,4 +111,25 @@ qui est linéaire par bilinéarité du PS
 Méthode 2 : 
 Soit $\beta = (e_{i})_{i = 1}^{n}$ une BON de $E$,
 On note : 
-$$X_{1} = Mat$$
+$$\forall x \in E, X_{1} = Mat_{\beta}(x_{0}), X_{2} = Mat_{\beta}(x_{2}), X= Mat_{\beta}(x)$$
+alors,
+$$Mat_{\beta}(f(x)) = \left< x_{0}, x \right> Mat_{\beta}(x_{1})=X_{0}^{\top}XX_{1} =X_{1}X_{0}^{\top}X$$
+$$= Mat_{\beta}(f) \times Mat_{\beta}(x)$$
+Alors, 
+$$Mat_{\beta}(f) = X_{1}X_{0}^{\top}$$
+Ainsi, 
+$$Mat_{\beta}(f^{*}) = X_{0}X_{1}^{\top}$$
+On en déduis que : 
+$$f^{*} : x \in E \mapsto \left< x_{1}, x \right> x_{0}$$
+
+#### Exercice
+Soit $f \in \mathcal{L}(E)$, 
+Montrer que 
+$$f\circ f^{*} = f^{*} \circ f \Rightarrow \begin{cases}
+\forall x \in E, \left|\left| f(x) \right|\right| =\left|\left| f^{*}(x) \right|\right|  \\
+\mathrm{Ker}(f) = \mathrm{Ker}(f^{*})  \\
+\mathrm{Im}(f)= \mathrm{Im}(f^{*})
+\end{cases}$$
+
+Démonstration : 
+supposons que : $f\circ f^{*} = f^{*} \circ f$
