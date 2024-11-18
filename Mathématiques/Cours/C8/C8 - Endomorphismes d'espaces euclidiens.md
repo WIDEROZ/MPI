@@ -136,3 +136,4 @@ supposons que : $f\circ f^{*} = f^{*} \circ f$
 Soit $x \in E$, 
 $$\left|\left| f(x) \right|\right| ^{2} = \left< f(x), f(x) \right> = \left< x, f^{*}(f(x)) \right> = \left< x, f(f^{*}(x)) \right> = \left|\left| f^{*}(x) \right|\right|^{2} $$
 Noyaux image ez.
+saddam hussein benito mussolini joseph staline mao zedong adolf hitler tito hirohito franco khadaffi salazar kim il-song adebayo akinfenwa
