@@ -84,4 +84,31 @@ $$Mat(f^{*}) = Mat(f)^{\top}$$
 Soit $x \in \mathrm{Ker}(f^{*})$
 $$\forall y\in \mathrm{Im}(f), \exists z \in E, y = f(z)$$
 Alors, 
-$$\left< x \right> $$
+$$\left< x, y \right> = \left< x, f(z) \right> = \left< f^{*}(x), z \right> = \left< 0, z \right> = 0$$
+alors, 
+$$x \in (\mathrm{Im}(f))^{\bot}$$
+Ainsi, $\mathrm{Ker}(f^{*}) \subset (\mathrm{Im}(f))^{\bot}$
+de plus, 
+$$\dim \mathrm{Ker}(f^{*}) = \dim \mathrm{Ker}(f) = n-\mathrm{rg}(f) = \dim(\mathrm{Im}(f))^{\bot}$$
+Ainsi, 
+$$\mathrm{Ker}(f^{*}) = (\mathrm{Im}(f))^{\bot}$$
+
+#### Exemple
+Soit $x_{0}, x_{1} \in E$ et :
+$$f : \begin{cases}
+E \to E \\
+x \mapsto \left< x_{0}, x \right> x_{1}
+\end{cases}$$
+Calculons l'adjoint de $f$
+Méthode 1 :
+$$\forall x, y \in E, \left< f(x), y \right> = \left< x_{0}, x \right> \left< x_{1}, y \right> = \left< x_{0}\left< x_{1}, y \right> , x \right> = \left< f^{*}(y), x \right> $$
+avec 
+$$f^{*} : \begin{cases}
+E \to E \\
+y \mapsto \left< x_{1}, y \right> x_{0}
+\end{cases}$$
+qui est linéaire par bilinéarité du PS
+Méthode 2 : 
+Soit $\beta = (e_{i})_{i = 1}^{n}$ une BON de $E$,
+On note : 
+$$X_{1} = Mat$$
