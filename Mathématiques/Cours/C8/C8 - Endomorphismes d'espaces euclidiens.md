@@ -30,6 +30,24 @@ Puis,
 $$\dim E = \dim E^{*} = \dim E$$
 donc elle est surjective. 
 
-#### Définition
+#### Définition - Propriété
 Soit $f \in \mathcal{L}(E)$, il existe un unique endomorphisme $f^{*} \in \mathcal{L}(E)$ vérifiant : 
-$$$$
+$$\forall x, y \in E, \left< f(x), y \right> = \left< x, f^{*}(y) \right> $$
+et $f^{*}$ s'appelle l'adjoint de $f$.
+
+Démonstration : 
+Soit $y \in E$, 
+L'application
+$$\varphi : \begin{cases}
+E \to \mathbb{R} \\
+x \mapsto \left< f(x), y \right> 
+\end{cases} \in E^{*}$$
+alors, d'après le théorème de Riesz il existe un unique vecteur $x_{0}$ tel que : 
+$$\forall x \in E, \left< f(x), y \right> = \left< x, x_{0} \right> $$
+Notons $x_{0} = f^{*}(y)$, montrons qu'elle est linéaire : 
+Soit $y_{1}, y_{2} \in E$ et $\alpha \in \mathbb{R}$, 
+Soit $x \in E$, 
+$$\left< f(x), \alpha y_{1} + y_{2} \right> =\left< x, f^{*}(\alpha y_{1} + y_{2}) \right> $$
+$$\alpha \left< f(x), y_{1} \right> + \left< f(x), y_{2} \right> =\alpha \left< x, f^{*}(y_{1}) \right> + \left< x, f^{*}(y_{2}) \right>  $$
+Ainsi, 
+$$\alpha \left< x, f^{*}(y_{1}) \right> + \left< x, f^{*}(y_{2}) \right> = \left< x, f^{*}(\alpha y_{1} + y_{2}) \right> $$
