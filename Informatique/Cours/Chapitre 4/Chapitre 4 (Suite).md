@@ -51,4 +51,10 @@ $$\forall k \in [\![1, m]\!], u_{i_{k}}u_{i_{k}+1} \in D_{1} \times P_{1}$$
 On a : 
 $$u = u_{1}\dots u_{i_{1}}u_{i_{1}+1}\dots u_{i_{2}}\dots u_{i_{m}}u_{i_{m}+1}\dots u_{n}$$
 En notant $u_{1} = u_{i_{1}+1}$, et $u_{n} = u_{i_{m+1}}$ 
-on a : $u = v_{1}\dots v_{m+1}$ ou $v_{k} = u_{i_{k}+1}\dots i_{k+1}$
+on a : $u = v_{1}\dots v_{m+1}$ ou $v_{k} = u_{i_{k}+1}\dots u_{i_{k+1}}$
+Pour tout $v_{k} = e_{1}\dots e_{n_{k}}$ on a : $e_{1} \in P_{1}$ et $e_{n_{k}} \in D_{1}$
+et 
+$$\forall i \in [\![1, n_{k}-1]\!], e_{i}e_{i+1} \in F(L_{2})$$
+Par localité de $L_{1}$, $v_{k} \in L_{1}$ d'ou $u = v_{1}\dots v_{m+1} \in L_{1}^{m+1} \subset L$
+Ainsi, 
+$$L \text{ est local}$$
