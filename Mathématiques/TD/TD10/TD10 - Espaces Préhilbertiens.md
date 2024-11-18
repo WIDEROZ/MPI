@@ -247,8 +247,16 @@ donc $\Delta \leq 0$, ainsi, $\Delta = 4\left< x, y \right>^{2}=0$ ainsi $\left<
  
 # Exercice 11
 ## b.
+En prenant : $E = \mathbb{R}_{3}[X]$ qui est fini
+$x_{0} = A_{3}$, $\left< P, A_{3} \right> = \int _{0}^{1} PA_{3}$ 
+$$\varphi : \begin{cases}
+E \to \mathbb{R} \\
+P \mapsto P(0)
+\end{cases}$$
+ca marche
 
-
+## c.
+$$0 = \int _{0}^{1} tA_{3}(t) \, dt$$
 
 
 
