@@ -40,3 +40,6 @@ $$2\times 16f_{e} = 141.12 \text{ Mbit.s} = 17.64 Mo.s^{-1}$$
 $$\frac{P}{\Delta t} = 17.64 \text{Mo.s}^{-1}$$
 Ainsi, 
 $$\Delta t = \frac{P}{17.64} \text{ s}$$
+
+# Exercice 4
+## 
