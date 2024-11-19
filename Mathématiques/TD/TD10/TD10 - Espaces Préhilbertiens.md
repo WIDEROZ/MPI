@@ -145,6 +145,7 @@ ainsi, $s_{1} = s_{2}$
 Assez facile pour $u_{1} \perp u_{2}$
 
 # Exercice 4 (a faire pour demain)
+## a.
 Soient $i, j \in [\![1, p]\!]$ tels que : $i \neq j$ et 
 $$\left< e_{i}, e_{j} \right> < 0$$
 On pose : $n = \dim Vect(e_{1})^{\bot}$, $(u_{i})_{i = 1}^{n}$ une BON de $Vect(e_{1})^{\bot}$, 
@@ -154,7 +155,14 @@ f(e_{j}) = e_{j} - \left< e_{j}, e_{1} \right> e_{1}
 \end{cases}$$
 alors, 
 $$\left< f(e_{j}), f(e_{i}) \right> =\left< e_{i} - \left< e_{i}, e_{1} \right> e_{1} , e_{j} - \left< e_{j}, e_{1} \right> e_{1} \right>  $$
-$$= \left< e_{i}, e_{j}-\left< e_{j}, e_{1} \right> e_{1} \right>-\left<  \right>  $$
+$$= \left< e_{i}, e_{j}-\left< e_{j}, e_{1} \right> e_{1} \right>-\left< e_{i}, e_{1} \right> \left< e_{1},  e_{j}-\left< e_{j}, e_{1} \right> e_{1} \right>  $$
+$$= \left< e_{i}, e_{j} \right> - \left< e_{j}, e_{1} \right>\left< e_{i}, e_{1} \right> - \left< e_{i}, e_{1} \right> \left< e_{1}, e_{j} \right>+\left< e_{i}, e_{1} \right>\left< e_{j}, e_{1} \right>  \left< e_{1}, e_{1} \right>  $$
+$$= \left< e_{i}, e_{j} \right> - 2\left< e_{i}, e_{1} \right> \left< e_{j}, e_{1} \right> < 0$$
+
+## b.
+
+
+
 
 
 # Exercice 5
