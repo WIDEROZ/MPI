@@ -122,3 +122,9 @@ $$E = E_{0}()+ 0.0\dots \log([])$$
 # Exercice 4
 ## 1.
 $$H_{3}AsO_{4} + 2H^{+} + 2e^{-} \Leftrightarrow HAsO_{2} + 2H_{2}O$$
+$$2I^{-} \Leftrightarrow I_{2} + 2e^{-}$$
+alors, 
+$$H_{3}AsO_{4} + 2H^{+} + 2I^{-} \Leftrightarrow HAsO_{2} + 2H_{2}O + I_{2}$$
+
+## 2.
+Comme $K^{0} = $
