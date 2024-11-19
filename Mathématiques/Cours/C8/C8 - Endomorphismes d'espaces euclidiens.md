@@ -283,4 +283,11 @@ $4. \Rightarrow 5.$ :
 Comme il existe une vase de $E$ dont l'image par $f$ est une base de $E$, $f$ est bijective, alors,
 $$\forall x = \sum_{k = 1}^{n} x_{k}e_{k}, \forall y = \sum_{k = 1}^{n} y_{k}e_{k}$$
 ou $(e_{i})_{i = 1}^{n}$ est la BON dont l'image par $f$ est ON, 
-$$\left<  \right> $$
+$$\left< f(x), f(y) \right> = \sum_{i = 1}^{n} \sum_{j=1}^{n} x_{i}y_{i}\left< f(e_{i}), f(e_{j}) \right> = \sum_{i = 1}^{n} x_{i}y_{i} = \left< x, y \right> $$
+Comme $f$ est bij. 
+Ainsi, 
+$$\left< f(x), y \right> = \left< f(x), f(f^{-1}(x)) \right> =\left< x, f^{-1}(y) \right> $$
+Ainsi, $f^{*} = f^{-1}$
+
+$5. \Rightarrow 1$ : 
+$$\left|\left| f(x) \right|\right| ^{2} = \left< x, f^{*}(f(x)) \right> = \left< x, x \right> = \left|\left| x \right|\right| ^{2}$$
