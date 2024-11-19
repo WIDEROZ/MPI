@@ -160,11 +160,12 @@ $$= \left< e_{i}, e_{j} \right> - \left< e_{j}, e_{1} \right>\left< e_{i}, e_{1}
 $$= \left< e_{i}, e_{j} \right> - 2\left< e_{i}, e_{1} \right> \left< e_{j}, e_{1} \right> < 0$$
 
 ## b.
-Lorsque $n=0$ ou $n= 1$ c'est trivial. 
 Soit $p \geq n+2$, 
 Supposons qu'il existe une famille : $(e_{i})_{i = 1}^{p}$ obtusangle, alors, pour $f \in \mathcal{L}(E)$ le projecteur orthogonal sur $Vect(e_{1})^{\bot}$, par la question précédente la famille : $(f(e_{i}))_{i = 2}^{p}$ est obtusangle de cardinal $p-1\geq n+1$ alors $(f(e_{i}))_{i = 2}^{p}$ est liée.
-Donc en prenant par exemple : $f(e_{2}) = f(e_{3})-f(e_{4})$
-
+ie il existe $(\lambda_{i})_{i = 2}^{p} \in \mathbb{R}^{p-1}$ non tous nuls tels que : 
+$$\sum_{i = 2}^{p} \lambda_{i}f(e_{i}) = 0$$
+Soit $i \in [\![2, p]\!]$, 
+$$\left<  \right> $$
 
 
 # Exercice 5
