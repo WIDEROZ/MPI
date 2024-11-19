@@ -206,3 +206,11 @@ $$\forall \beta \text{ base de }E, \begin{cases}
 \beta \text{ est indirecte si : } \det \mathcal{P}_{\beta_{0}}^{\beta} < 0 \\
 \end{cases}$$
 On dit que $\beta_{0}$ donne une orientation à $E$. 
+
+
+#### Proposition
+Soit $E$ un espace euclidien orienté et $\mathcal{E}, \mathcal{E}'$ deux bases orthonormales directes de $E$. Alors :
+$$\det_{\mathcal{E}} = \det_{\mathcal{E}'}$$
+
+Démonstration : 
+Soit $\mathcal{U} = e$
