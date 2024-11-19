@@ -264,5 +264,23 @@ $$\begin{cases}
 f \in O(E), \text{ ie } \forall x \in E, \left|\left| f(x) \right|\right| =\left|\left| x \right|\right|  \\
 \forall x, y \in E, \left< f(x), f(y) \right> = \left< x, y \right>  \\
 \forall \beta \text{ BON de }E, f(\beta) \text{ est une BON de }E \\
-\exists \beta \text{ BON de }E tex
+\exists \beta \text{ BON de }E \text{ telle que }f(\beta) \text{ est une BON de }E \\
+f \text{ est inversible et } f^{*} = f^{-1}
 \end{cases}$$
+
+Démonstration : 
+$1. \Leftrightarrow 2.$ : 
+Pour $\Leftarrow$ : poser $y = x$
+Pour $\Rightarrow$ : on utilise deux fois l'identité de polarisation : 
+$$\forall x, y \in E, 4\left< f(x), f(y) \right> = \left|\left| x-y \right|\right| ^{2} - \left|\left| x-y \right|\right| ^{2} = 4 \left< x, y \right> $$
+
+$2. \Rightarrow 3.$ : 
+Soit $\beta = (e_{1}, \dots, e_{n})$, alors, 
+$$\forall i, j \in [\![1, n]\!], \left< f(e_{i}), f(e_{j}) \right> = \left< e_{i}, e_{j} \right> $$
+donc, $(f(e_{i}))_{i = 1}^{n}$ est une BON.
+$3. \Rightarrow 4.$ : RAS
+$4. \Rightarrow 5.$ : 
+Comme il existe une vase de $E$ dont l'image par $f$ est une base de $E$, $f$ est bijective, alors,
+$$\forall x = \sum_{k = 1}^{n} x_{k}e_{k}, \forall y = \sum_{k = 1}^{n} y_{k}e_{k}$$
+ou $(e_{i})_{i = 1}^{n}$ est la BON dont l'image par $f$ est ON, 
+$$\left<  \right> $$
