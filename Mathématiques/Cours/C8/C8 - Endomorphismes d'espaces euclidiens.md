@@ -197,6 +197,14 @@ $$\Leftrightarrow (C_{1},\dots, C_{n}) \text{ est ON}$$
 
 $1. \Leftrightarrow 4.$ : les mêmes arguments
 
+#### Propriété
+$$\forall M = (m_{i, j})_{i, j} \in O(n), \begin{cases}
+\det M = \pm 1 \\
+\forall i, j \in [\![1,n]\!], -1 \leq m_{i, j} \leq 1
+\end{cases}$$
+
+
+
 ## 2. Orientation d'un espace vectoriel
 Soit $E$ un ev réel de dim finie muni d'une base fixée $\beta_{0}$.
 
@@ -213,4 +221,22 @@ Soit $E$ un espace euclidien orienté et $\mathcal{E}, \mathcal{E}'$ deux bases 
 $$\det_{\mathcal{E}} = \det_{\mathcal{E}'}$$
 
 Démonstration : 
-Soit $\mathcal{U} = e$
+Soit $\mathcal{U} = (u_{1}, \dots, u_{n}) \in E^{n}$, 
+Si $\mathcal{U}$ est liée, $\det_{\mathcal{E}}(\mathcal{U}) = 0 = \det_{\mathcal{E}'}(\mathcal{U})$
+Si $\mathcal{U}$ est libre, c'est une base de $E$ et 
+$$\det_{\mathcal{E}}(\mathcal{U}) = \det \mathcal{P}_{\mathcal{E}}^{\mathcal{U}}= \det(\mathcal{P}_{\mathcal{E}}^{\mathcal{E}'}P_{\mathcal{E}'}^{\mathcal{U}}) = \det_{\mathcal{E}'}(\mathcal{U}) \times \det \mathcal{P}_{\mathcal{E}}^{\mathcal{E}'} = \det \mathcal{P}_{\mathcal{E}'}(\mathcal{U})$$
+car : 
+$$\det \mathcal{P}_{\mathcal{E}}^{\mathcal{E}'} = \det \mathcal{P}_{\mathcal{E}}^{\beta_{0}} \mathcal{P}_{\beta_{0}}^{\mathcal{E}'} = (\det(P_{\beta_{0}}^\mathcal{E}))^{-1}(\det \mathcal{P}_{\beta_{0}}^{\mathcal{E}'}) \in \mathbb{R}_{+}^{*}$$
+car $\mathcal{E}, \mathcal{E}'$ sont directes +
+$$\det \mathcal{P}_{\mathcal{E}}^{\mathcal{E}'} = \pm1$$
+en tant que déterminant d'une matrice orthogonale
+
+## 3. Isométries
+#### Définition
+Soit $f \in \mathcal{L}(E)$, 
+On dit que $f$ est une isométrie vectorielle (ou endomorphisme orthogonal) lorsque : 
+$$\forall x \in E, \left|\left| f(x) \right|\right| = \left|\left| x \right|\right| $$
+On note : $O(E)$ l'ensemble de ces endomorphismes. 
+
+#### Exemple
+Toute symétrie orthogonale est une isométrie vectorielle. 
