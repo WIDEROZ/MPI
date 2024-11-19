@@ -42,4 +42,9 @@ Ainsi,
 $$\Delta t = \frac{P}{17.64} \text{ s}$$
 
 # Exercice 4
-## 
+## 1.
+Les interupteurs font office de transistor
+
+## 2.
+$$i = \frac{E}{R}\sum_{i = 0}^{3} K_{i} 2^{i}$$
+par la loi des nœuds.
