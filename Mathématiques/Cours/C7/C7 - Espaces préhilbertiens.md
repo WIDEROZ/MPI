@@ -393,7 +393,7 @@ $$(F^{\bot}+G^{\bot}) = (F^{\bot})^{\bot} \cap (G^{\bot})^{\bot} = F \cap G$$
 
 #### Propriété
 $$\forall p \in \mathcal{L}(E), p \text{ est un proj. ortho.} \Leftrightarrow \mathrm{Ker}(p) = (\mathrm{Im}(p))^{\bot}$$
-
+	
 #### CCINP 82
 Calculer : 
 $$d = Dist(\begin{pmatrix}
