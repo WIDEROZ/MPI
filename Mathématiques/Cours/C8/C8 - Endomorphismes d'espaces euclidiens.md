@@ -202,8 +202,24 @@ $$\forall M = (m_{i, j})_{i, j} \in O(n), \begin{cases}
 \det M = \pm 1 \\
 \forall i, j \in [\![1,n]\!], -1 \leq m_{i, j} \leq 1
 \end{cases}$$
+Si $\beta$ et $\beta_{2}$ sont deux BON, $\mathcal{P}_{\beta_{1}}^{\beta_{2}}$ est une matrice orthogonale
 
+Démonstration : 
+1.
+$$\det(M)^{2} = 1$$
+Puisque la $j^{eme}$ colonne de $M$ est unitaire, 
+$$\sum_{k = 1}^{n} m_{k, j}^{2} = 1$$
+Donc,
+$$m_{i, j}^{2} = 1- \sum_{\underset{k \neq i}{k = 1}}^{n} m_{k, j}^{2} \leq 1$$
+donc $\left| m_{i, j}\right|\leq 1$
 
+2.
+Notons : $\beta_{1} = (e_{1}, \dots, e_{n})$ et $\beta_{2} = (u_{1}, \dots, u_{n})$
+Alors, 
+$$\forall j \in [\![1, n]\!], u_{j} = \sum_{i = 1}^{n} p_{i, j}e_{i}, \text{ ou }\mathcal{P}_{\beta_{1}}^{\beta_{2}} = (p_{i, j})$$
+comme $(e_{1}, \dots, e_{n})$ est ON
+$$\forall j, k \in [\![1, k]\!], \sum_{i = 1}^{n} p_{i, k}p_{j, k}=\left< u_{k}, u_{j} \right> $$
+Ainsi, la famille des colonnes de $P$ est ON ie $P \in O(n)$
 
 ## 2. Orientation d'un espace vectoriel
 Soit $E$ un ev réel de dim finie muni d'une base fixée $\beta_{0}$.
@@ -240,3 +256,13 @@ On note : $O(E)$ l'ensemble de ces endomorphismes.
 
 #### Exemple
 Toute symétrie orthogonale est une isométrie vectorielle. 
+
+#### Propriété
+Soit $f \in \mathcal{L}(E)$, 
+on a équivalence entre : 
+$$\begin{cases}
+f \in O(E), \text{ ie } \forall x \in E, \left|\left| f(x) \right|\right| =\left|\left| x \right|\right|  \\
+\forall x, y \in E, \left< f(x), f(y) \right> = \left< x, y \right>  \\
+\forall \beta \text{ BON de }E, f(\beta) \text{ est une BON de }E \\
+\exists \beta \text{ BON de }E tex
+\end{cases}$$
