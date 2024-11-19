@@ -152,8 +152,8 @@ $$f(e_{i}) = \sum_{k = 1}^{n}\left< e_{i}, u_{k} \right>u_{k}$$
 $$\left< f(e_{i}), f(e_{j}) \right> = \sum_{k= 1}^{n} \sum_{l = 1}^{n} \left< \left< e_{i}, u_{k} \right> u_{k}, \left< e_{j}, u_{l} \right> u_{l} \right>$$
 $$= \sum_{k = 1}^{n}\sum_{l=1}^{n} \left< e_{i}, u_{k} \right> \left< e_{j}, u_{l} \right> \delta_{k, l} = \sum_{k = 1}^{n} \left< e_{i}, u_{k} \right>\left< e_{j}, u_{k} \right> $$
 car $(u_{i})_{i = 1}^{n}$ est ON
-$$\left< f(e_{i}), f(e_{j}) \right> = \left< e_{j}, f(e_{i}) \right> = \left< e_{i}, f(e_{j}) \right> < 0$$
-
+$$\left< f(e_{i}), f(e_{j}) \right> = \left< e_{j}, f(e_{i}) \right> = \left< e_{i}, f(e_{j}) \right>$$
+$$\left< f(e_{i})+e_{i}, f(e_{j}) \right> $$
 
 
 
