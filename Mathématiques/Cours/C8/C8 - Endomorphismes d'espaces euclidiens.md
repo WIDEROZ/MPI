@@ -189,4 +189,20 @@ On note : $C_{1}, \dots, C_{n}$ les colonnes de $M$, alors
 $$\forall i, j \in [\![1, n]\!], (M^{\top}M)_{i, j} = \sum_{k = 1}^{n} (M^{\top})_{i, k}(M)_{k, j} = \sum_{k = 1}^{n} (M)_{k, i}(M)_{k, j}$$
 $$= \left< C_{i}, C_{j} \right> $$
 Ainsi, 
-$$MM^{\top} = I_{n} \Leftrightarrow \forall i, j \in [\![1,n]\!], \left< C_{i}, C_{j} \right> $$
+$$MM^{\top} = I_{n} \Leftrightarrow \forall i, j \in [\![1,n]\!], \left< C_{i}, C_{j} \right> = \begin{cases}
+1 \text{ si } i =j \\
+0 \text{ si } i\neq j
+\end{cases} $$
+$$\Leftrightarrow (C_{1},\dots, C_{n}) \text{ est ON}$$
+
+$1. \Leftrightarrow 4.$ : les mêmes arguments
+
+## 2. Orientation d'un espace vectoriel
+Soit $E$ un ev réel de dim finie muni d'une base fixée $\beta_{0}$.
+
+#### Définition
+$$\forall \beta \text{ base de }E, \begin{cases}
+\beta \text{ est directe si : } \det \mathcal{P}_{\beta_{0}}^{\beta} > 0 \\
+\beta \text{ est indirecte si : } \det \mathcal{P}_{\beta_{0}}^{\beta} < 0 \\
+\end{cases}$$
+On dit que $\beta_{0}$ donne une orientation à $E$. 
