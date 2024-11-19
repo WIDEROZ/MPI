@@ -165,10 +165,12 @@ Supposons qu'il existe une famille : $(e_{i})_{i = 1}^{p}$ obtusangle, alors, po
 ie il existe $(\lambda_{i})_{i = 2}^{p} \in \mathbb{R}^{p-1}$ non tous nuls tels que : 
 $$\sum_{i = 2}^{p} \lambda_{i}f(e_{i}) = 0$$
 puis, 
+Soit $j \in [\![2, p]\!]$, 
 $$\sum_{i = 2}^{p}\lambda_{i}\left< f(e_{i}), f(e_{j}) \right> = 0$$
 donc
-$$\exists I \subset [\![2, p]\!], (\forall i \in I, \lambda_{i} \neq 0) \text{ et } \sum_{i \in I}\lambda_{i}\left< f(e_{i}),  \right> $$
-
+$$\exists I \subset [\![2, p]\!], (\forall i \in I, \lambda_{i} \neq 0) \text{ et } \sum_{i \in I}\lambda_{i}\left< f(e_{i}), f(e_{j}) \right> = 0$$
+Ainsi,
+$$\exists i_{0} \in I, \left< f(e_{i_{0}}), f(e_{j}) \right> \geq 0$$
 
 
 
