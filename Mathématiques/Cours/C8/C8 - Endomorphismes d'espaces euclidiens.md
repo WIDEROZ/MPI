@@ -137,3 +137,15 @@ Soit $x \in E$,
 $$\left|\left| f(x) \right|\right| ^{2} = \left< f(x), f(x) \right> = \left< x, f^{*}(f(x)) \right> = \left< x, f(f^{*}(x)) \right> = \left|\left| f^{*}(x) \right|\right|^{2} $$
 Noyaux image ez.
 saddam hussein benito mussolini joseph staline mao zedong adolf hitler tito hirohito franco khadaffi salazar kim il-song adebayo akinfenwa
+
+# II. Le groupe $O(n)$
+## 1. Matrice orthogonale
+Ici, $\mathcal{M}_{n, 1}(\mathbb{R})$ et $\mathcal{M}_{n}(\mathbb{R})$ sont munis de leur produits scalaires canoniques. 
+
+#### Définition
+Soit $M \in \mathcal{M}_{n}(\mathbb{R})$, 
+On dit que $M$ est une matrice orthogonale lorsque : 
+$$MM^{\top} = I_{n}$$
+
+On note : $O(n) = O_{n}(\mathbb{R})$ l'ensemble de ces matrices, et $SO_{n}(\mathbb{R}) = SO(n)$ l'ensemble
+$$O(n) \cap \{ M \in \mathcal{M}_{n}(\mathbb{R}) | \det M = 1 \}$$

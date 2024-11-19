@@ -171,7 +171,7 @@ donc
 $$\exists I \subset [\![2, p]\!], (\forall i \in I, \lambda_{i} \neq 0) \text{ et } \sum_{i \in I}\lambda_{i}\left< f(e_{i}), f(e_{j}) \right> = 0$$
 Ainsi,
 $$\exists i_{0} \in I, \left< f(e_{i_{0}}), f(e_{j}) \right> \geq 0$$
-
+CONTRADICTION
 
 
 # Exercice 5
