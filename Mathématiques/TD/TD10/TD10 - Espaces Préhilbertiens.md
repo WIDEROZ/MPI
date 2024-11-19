@@ -148,14 +148,13 @@ Assez facile pour $u_{1} \perp u_{2}$
 Soient $i, j \in [\![1, p]\!]$ tels que : $i \neq j$ et 
 $$\left< e_{i}, e_{j} \right> < 0$$
 On pose : $n = \dim Vect(e_{1})^{\bot}$, $(u_{i})_{i = 1}^{n}$ une BON de $Vect(e_{1})^{\bot}$, 
-$$f(e_{i}) = \sum_{k = 1}^{n}\left< e_{i}, u_{k} \right>u_{k}$$
-$$\left< f(e_{i}), f(e_{j}) \right> = \sum_{k= 1}^{n} \sum_{l = 1}^{n} \left< \left< e_{i}, u_{k} \right> u_{k}, \left< e_{j}, u_{l} \right> u_{l} \right>$$
-$$= \sum_{k = 1}^{n}\sum_{l=1}^{n} \left< e_{i}, u_{k} \right> \left< e_{j}, u_{l} \right> \delta_{k, l} = \sum_{k = 1}^{n} \left< e_{i}, u_{k} \right>\left< e_{j}, u_{k} \right> $$
-car $(u_{i})_{i = 1}^{n}$ est ON
-$$\left< f(e_{i}), f(e_{j}) \right> = \left< e_{j}, f(e_{i}) \right> = \left< e_{i}, f(e_{j}) \right>$$
-$$\left< f(e_{i})+e_{i}, f(e_{j}) \right> $$
-
-
+$$\begin{cases}
+f(e_{i}) = e_{i} - \left< e_{i}, e_{1} \right> e_{1} \\
+f(e_{j}) = e_{j} - \left< e_{j}, e_{1} \right> e_{1}
+\end{cases}$$
+alors, 
+$$\left< f(e_{j}), f(e_{i}) \right> =\left< e_{i} - \left< e_{i}, e_{1} \right> e_{1} , e_{j} - \left< e_{j}, e_{1} \right> e_{1} \right>  $$
+$$= \left< e_{i}, e_{j}-\left< e_{j}, e_{1} \right> e_{1} \right>-\left<  \right>  $$
 
 
 # Exercice 5
