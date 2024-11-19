@@ -148,7 +148,7 @@ Assez facile pour $u_{1} \perp u_{2}$
 ## a.
 Soient $i, j \in [\![1, p]\!]$ tels que : $i \neq j$ et 
 $$\left< e_{i}, e_{j} \right> < 0$$
-On pose : $n = \dim Vect(e_{1})^{\bot}$, $(u_{i})_{i = 1}^{n}$ une BON de $Vect(e_{1})^{\bot}$, 
+Par projection : 
 $$\begin{cases}
 f(e_{i}) = e_{i} - \left< e_{i}, e_{1} \right> e_{1} \\
 f(e_{j}) = e_{j} - \left< e_{j}, e_{1} \right> e_{1}
@@ -160,7 +160,7 @@ $$= \left< e_{i}, e_{j} \right> - \left< e_{j}, e_{1} \right>\left< e_{i}, e_{1}
 $$= \left< e_{i}, e_{j} \right> - 2\left< e_{i}, e_{1} \right> \left< e_{j}, e_{1} \right> < 0$$
 
 ## b.
-
+Supposons qu'il en existe une $\mathcal{E}$ de cardinal sup a $n+2$, alors, la famille obtusangle de projection de $\mathcal{E}$ est de cardinal $n+1$ alors
 
 
 
