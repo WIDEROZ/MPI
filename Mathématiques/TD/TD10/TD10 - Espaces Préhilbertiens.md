@@ -164,8 +164,12 @@ Soit $p \geq n+2$,
 Supposons qu'il existe une famille : $(e_{i})_{i = 1}^{p}$ obtusangle, alors, pour $f \in \mathcal{L}(E)$ le projecteur orthogonal sur $Vect(e_{1})^{\bot}$, par la question précédente la famille : $(f(e_{i}))_{i = 2}^{p}$ est obtusangle de cardinal $p-1\geq n+1$ alors $(f(e_{i}))_{i = 2}^{p}$ est liée.
 ie il existe $(\lambda_{i})_{i = 2}^{p} \in \mathbb{R}^{p-1}$ non tous nuls tels que : 
 $$\sum_{i = 2}^{p} \lambda_{i}f(e_{i}) = 0$$
-Soit $i \in [\![2, p]\!]$, 
-$$\left<  \right> $$
+puis, 
+$$\sum_{i = 2}^{p}\lambda_{i}\left< f(e_{i}), f(e_{j}) \right> = 0$$
+donc
+$$\exists I \subset [\![2, p]\!], (\forall i \in I, \lambda_{i} \neq 0) \text{ et } \sum_{i \in I}\lambda_{i}\left< f(e_{i}),  \right> $$
+
+
 
 
 # Exercice 5
