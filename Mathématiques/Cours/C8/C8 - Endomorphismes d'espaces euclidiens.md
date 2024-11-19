@@ -155,12 +155,38 @@ Démonstration :
 Montrons que $SO(n), O(n) \underset{sg}{\subset} GL_{n}(\mathbb{R})$, 
 1.
 $SO(n), O(n) \subset GL_{n}(\mathbb{R})$ car : 
-$\forall M \in O(n), MM^{\top} = I_{n} \Rightarrow (\det M)^{2} = \det(M)\det(M^{\top}) = \det(M^{\top}M)= \det(I_{n}) = 1 =$
+$$\forall M \in O(n), MM^{\top} = I_{n} \Rightarrow (\det M)^{2} = \det(M)\det(M^{\top}) $$
+$$= \det(M^{\top}M)= \det(I_{n}) = 1 \neq 0$$
 2.
 $$I_{n}\times I_{n}^{\top} = I_{n}$$
 3.
 $$\forall A, B \in O(n), AB \in O(n)$$
 car $(AB)(AB)^{\top} = ABB^{\top}A^{\top} = I_{n}$
 4.
-$$\forall A \in O(n), A^{-1}(A^{-1})^{\top} = A^{-1}(A^{\top})^{-1} = (A^{\top}A)^{-1} = (A^{-1}A)^{\top} $$
+$$\forall A \in O(n), A^{-1}(A^{-1})^{\top} = A^{-1}(A^{\top})^{-1} = (A^{\top}A)^{-1} = (A^{-1}A)^{-1} $$
 $$= I_{n}^{\top} = I_{n}$$
+car $A^{\top} = A^{-1}$
+
+#### Exemple
+$$\forall t \in \mathbb{R} , R_{t} = \begin{pmatrix}
+\cos(t)&-\sin(t) \\
+\sin(t)&\cos(t)
+\end{pmatrix}\in SO(2)$$
+En effet : $\det(R_{t}) = 1$ puis
+$$R_{t}R_{t}^{\top} = I_{n}$$
+
+#### Propriété
+Soit $M \in \mathcal{M}_{n}(\mathbb{R})$, on a équivalence entre : 
+$$\begin{cases}
+M \in O(n) \text{ ie } MM^{\top} = I_{n} \\
+M^{\top}M = I_{n} \\
+\text{Les colonnes de }M \text{ forment une BON de }\mathcal{M}_{n, 1}(\mathbb{R}) \\
+\text{Les lignes de }M \text{ forment une BON de }\mathcal{M}_{1, n}(\mathbb{R})
+\end{cases}$$
+Démonstration : 
+$2. \Leftrightarrow 3.$ : 
+On note : $C_{1}, \dots, C_{n}$ les colonnes de $M$, alors 
+$$\forall i, j \in [\![1, n]\!], (M^{\top}M)_{i, j} = \sum_{k = 1}^{n} (M^{\top})_{i, k}(M)_{k, j} = \sum_{k = 1}^{n} (M)_{k, i}(M)_{k, j}$$
+$$= \left< C_{i}, C_{j} \right> $$
+Ainsi, 
+$$MM^{\top} = I_{n} \Leftrightarrow \forall i, j \in [\![1,n]\!], \left< C_{i}, C_{j} \right> $$
