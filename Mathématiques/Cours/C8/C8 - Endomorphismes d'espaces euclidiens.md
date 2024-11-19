@@ -149,3 +149,18 @@ $$MM^{\top} = I_{n}$$
 
 On note : $O(n) = O_{n}(\mathbb{R})$ l'ensemble de ces matrices, et $SO_{n}(\mathbb{R}) = SO(n)$ l'ensemble
 $$O(n) \cap \{ M \in \mathcal{M}_{n}(\mathbb{R}) | \det M = 1 \}$$
+$O(n)$ est appelé $n^{ieme}$ groupe orthogonal car c'est un groupe pour la loi $\times$ et $SO(n)$ $n^{ieme}$ groupe spécial orthogonal. 
+
+Démonstration : 
+Montrons que $SO(n), O(n) \underset{sg}{\subset} GL_{n}(\mathbb{R})$, 
+1.
+$SO(n), O(n) \subset GL_{n}(\mathbb{R})$ car : 
+$\forall M \in O(n), MM^{\top} = I_{n} \Rightarrow (\det M)^{2} = \det(M)\det(M^{\top}) = \det(M^{\top}M)= \det(I_{n}) = 1 =$
+2.
+$$I_{n}\times I_{n}^{\top} = I_{n}$$
+3.
+$$\forall A, B \in O(n), AB \in O(n)$$
+car $(AB)(AB)^{\top} = ABB^{\top}A^{\top} = I_{n}$
+4.
+$$\forall A \in O(n), A^{-1}(A^{-1})^{\top} = A^{-1}(A^{\top})^{-1} = (A^{\top}A)^{-1} = (A^{-1}A)^{\top} $$
+$$= I_{n}^{\top} = I_{n}$$
