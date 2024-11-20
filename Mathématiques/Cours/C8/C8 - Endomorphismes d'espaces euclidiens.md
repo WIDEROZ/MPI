@@ -204,6 +204,9 @@ $$\forall M = (m_{i, j})_{i, j} \in O(n), \begin{cases}
 \end{cases}$$
 Si $\beta$ et $\beta_{2}$ sont deux BON, $\mathcal{P}_{\beta_{1}}^{\beta_{2}}$ est une matrice orthogonale
 
+ATTENTION LA RÉCIPROQUE EST FAUSSE !!!!!!!!
+
+
 Démonstration : 
 1.
 $$\det(M)^{2} = 1$$
@@ -291,3 +294,13 @@ Ainsi, $f^{*} = f^{-1}$
 
 $5. \Rightarrow 1$ : 
 $$\left|\left| f(x) \right|\right| ^{2} = \left< x, f^{*}(f(x)) \right> = \left< x, x \right> = \left|\left| x \right|\right| ^{2}$$
+
+#### Proposition
+$\forall M \in O(n)$, l'endomorphisme canoniquement associé à $M$ est une isométrie de $(\mathcal{M}_{n, 1}(\mathbb{R}), \left< \cdot, \cdot \right>_{\mathrm{can}})$ 
+
+Soit $f \in \mathcal{L}(E)$ et $\beta$ une BON de $E$,
+$$f \in O(E)\Leftrightarrow Mat_{\beta}(f) \in O(n)$$
+
+On en déduit : 
+#### Théorème
+$$O(E) \underset{sg}{\subset}(GL(E), \circ)$$
