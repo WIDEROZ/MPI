@@ -368,3 +368,20 @@ $$S_{t}\begin{pmatrix}
 alors, comme : $2 \geq \dim E_{1}(S_{t})\geq 1$ et ne peut être égal à $2$ sans quoi on aurait : $S_{t} = I_{2}$, $\dim E_{1}(S_{t})=1$
 Comme $S_{t}$ est DZ et $Sp(S_{t})\subset \{ -1, 1 \}$, 
 $$\dim E_{-1}(S_{t}) + \dim E_{1}(S_{t}) = 2$$
+
+#### Théorème
+Soit $f \in O(E)$, 
+Si $\det f = 1$, 
+$$\exists t \in \mathbb{R}, \forall \beta \text{ BON}, Mat_{\beta}(f) = R_{t}$$
+On dit que $f$ est LA rotation d'angle orienté $t \in \mathbb{R}$.
+
+Si $\det f = -1$, 
+$f$ est une réflexion de $E$,
+$$\exists \beta \text{ BON}, Mat_{\beta}(f) = \begin{pmatrix}
+1 & 0 \\
+0 & -1
+\end{pmatrix}$$
+On dit que $f$ est LA rotation d'angle orienté $t \in \mathbb{R}$.
+
+$I_{2} = R_{0}$ et $-I_{2} = R_{\pi}$
+
