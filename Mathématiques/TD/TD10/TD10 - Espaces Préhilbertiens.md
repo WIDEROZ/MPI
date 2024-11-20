@@ -336,4 +336,9 @@ Ainsi, $h \in F$.
 $$\frac{d^{k}}{dt^{k}} (e^{ -t }t^{n}) = (-1)^{k}e^{ -t }\sum_{i = 0}^{k}\binom{k}{i} (-1)^{i} \frac{d^{i}}{dt^{i}}(t^{n})$$
 Comme : 
 $$\frac{d^{i}}{dt^{i}}(t^{n}) = \frac{n!}{(n-i)!}t^{n-i}$$
-$$P_{n, k} = \sum_{i = 0}^{k} \frac{k!}{(k-i)!i!}(-1)^{i} \frac{n!}{(n-i)!}t^{n-i}$$
+$$Q_{n} = \frac{(-1)^{k}}{n!}\sum_{i = 0}^{n} \frac{n!}{(n-i)!i!}(-1)^{i}\frac{d^{i}}{dt^{i}}(t^{n})$$
+
+$$\left< Q_{n}, P \right> = \frac{1}{n!}\int _{0}^{+ \infty} e^{ -t } P_{n, n}(t) P(t) \, dt $$
+
+On fait $k$ IPP : on dérive $e^{ -t }P(t)$ et on intègre $P_{n, n}$
+$$= []_{0}^{+ \infty} - \frac{(-1)^{k}}{n!} \int _{0}^{+ \infty} e^{ -t }P^{(k)} \, dt$$
