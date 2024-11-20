@@ -304,3 +304,56 @@ $$f \in O(E)\Leftrightarrow Mat_{\beta}(f) \in O(n)$$
 On en déduit : 
 #### Théorème
 $$O(E) \underset{sg}{\subset}(GL(E), \circ)$$
+$$Mat_{\beta} \text{ est un isomorphisme de groupe}$$
+
+# III. Géométrie vectorielle et Euclidienne
+## 1. $n = \dim E = 2$
+#### Théorème
+Soit $M \in O(2)$,
+Si $\det M = 1$, alors, 
+$$\exists t \in \mathbb{R}, M = S_{t} = \begin{pmatrix}
+\cos(t)&-\sin(t) \\
+\sin(t)&\cos(t)
+\end{pmatrix}$$
+Si $\det M = -1$, alors, 
+$$\exists t \in \mathbb{R}, M = S_{} = \begin{pmatrix}
+\cos(t)&\sin(t) \\
+\sin(t)&-\cos(t)
+\end{pmatrix}$$
+
+Alors, $M$ est la réflexion par rapport à la droite engendré par : $\begin{pmatrix}\cos\left( \frac{t}{2} \right) \\ \sin \left( \frac{t}{2} \right)\end{pmatrix}$
+
+Démonstration : 
+Comme : 
+$$M = \begin{pmatrix}
+a&b \\
+c&d
+\end{pmatrix} \in O(n)$$
+Alors : 
+$$\begin{pmatrix}
+\begin{pmatrix}
+a \\
+b
+\end{pmatrix}, \begin{pmatrix}
+c \\
+d
+\end{pmatrix}
+\end{pmatrix}$$
+est une BON de $\mathcal{M}_{2, 1}$
+On a vu que ces base étaient de deux types : 
+$$\begin{pmatrix}
+\begin{pmatrix}
+\cos(t) \\
+\sin(t)
+\end{pmatrix}, \begin{pmatrix}
+-\sin(t) \\
+\cos(t)
+\end{pmatrix}
+\end{pmatrix} \text{ ou }\begin{pmatrix}
+\cos(t) \\
+\sin(t)
+\end{pmatrix}, \begin{pmatrix}
+\sin(t) \\
+-\cos(t)
+\end{pmatrix}$$
+ie $M = R_{t}$ ou $M = S_{t}$ 
