@@ -333,7 +333,5 @@ Ainsi, $h \in F$.
 
 
 # Exercice 8
-$$\frac{d^{k}}{dt^{k}} (e^{ -t }t^{n}) = e^{ -t }\sum_{i = 0}^{k}\binom{k}{i} \frac{d^{i}}{dt^{i}}(t^{n})$$
-$$cd (P) = 1 \text{ et } P_{n, k}(0) = 0$$
-
-$$ P_{n, n}(t) = \sum_{i = 0}^{n} \frac{n!}{(n-i)!k!} (n-(i+1))!t^{n-i} $$
+$$\frac{d^{k}}{dt^{k}} (e^{ -t }t^{n}) = e^{ -t }\sum_{i = 0}^{k}\binom{k}{i} (-1)^{i} \frac{d^{k-i}}{dt^{k-i}}(t^{n})$$
+$$P_{n, k} = \sum_{i = 0}^{k} \frac{k!}{(k-i)!i!}(-1)^{i} \frac{n!}{}t^{}$$
