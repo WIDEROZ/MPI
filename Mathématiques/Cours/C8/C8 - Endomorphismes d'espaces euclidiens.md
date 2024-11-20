@@ -316,7 +316,7 @@ $$\exists t \in \mathbb{R}, M = S_{t} = \begin{pmatrix}
 \sin(t)&\cos(t)
 \end{pmatrix}$$
 Si $\det M = -1$, alors, 
-$$\exists t \in \mathbb{R}, M = S_{} = \begin{pmatrix}
+$$\exists t \in \mathbb{R}, M = S_{t} = \begin{pmatrix}
 \cos(t)&\sin(t) \\
 \sin(t)&-\cos(t)
 \end{pmatrix}$$
@@ -357,3 +357,14 @@ $$\begin{pmatrix}
 -\cos(t)
 \end{pmatrix}$$
 ie $M = R_{t}$ ou $M = S_{t}$ 
+$S_{t}^{2} = I_{2}$ donc $S_{t}$ est une symétrie
+$$S_{t}\begin{pmatrix}
+\cos\left( \frac{t}{2} \right) \\
+\sin\left( \frac{t}{2} \right)
+\end{pmatrix} = \begin{pmatrix}
+\cos\left( \frac{t}{2} \right) \\
+\sin\left( \frac{t}{2} \right)
+\end{pmatrix} = D \in E_{1}(S_{t})$$
+alors, comme : $2 \geq \dim E_{1}(S_{t})\geq 1$ et ne peut être égal à $2$ sans quoi on aurait : $S_{t} = I_{2}$, $\dim E_{1}(S_{t})=1$
+Comme $S_{t}$ est DZ et $Sp(S_{t})\subset \{ -1, 1 \}$, 
+$$\dim E_{-1}(S_{t}) + \dim E_{1}(S_{t}) = 2$$
