@@ -330,34 +330,3 @@ h(1)
 $$\det A = \frac{1}{e}-e \neq 0$$
 Donc, $h(0)=h(1)=0$
 Ainsi, $h \in F$. 
-
-
-# Exercice 8
-$$\frac{d^{k}}{dt^{k}} (e^{ -t }t^{n}) = (-1)^{k}e^{ -t }\sum_{i = 0}^{k}\binom{k}{i} (-1)^{i} \frac{d^{i}}{dt^{i}}(t^{n})$$
-Comme : 
-$$\frac{d^{i}}{dt^{i}}(t^{n}) = \frac{n!}{(n-i)!}t^{n-i}$$
-$$Q_{n} = \frac{(-1)^{k}}{n!}\sum_{i = 0}^{n} \frac{n!}{(n-i)!i!}(-1)^{i}\frac{d^{i}}{dt^{i}}(t^{n})$$
-
-
-On fait $k$ IPP : on dérive $P^{(k)}(t)$ et on intègre $e^{ -t }P_{n, n-k}(t)$ 
-Comme : 
-$$e^{ -t }P_{n, n-k}(t) = \frac{d^{n-k}}{dt^{n-k}}(e^{ -t }t^{n})$$
-On intègre l'égalité de droite et cela nous donne : 
-$$\frac{d^{n-(k+1)}}{dt^{n-(k+1)}}(e^{ -t }t^{n}) = e^{ -t }P_{n, n-(k+1)} $$
-
-Supposons que : 
-$$\left< Q_{n}, P \right> = \frac{(-1)^{k}}{n!}\int _{0}^{+ \infty} e^{ -t }P_{n, n-k}(t)P^{(k)}(t) \, dt $$
-Alors, 
-en faisant une IPP : 
-$$\left< Q_{n}, P \right> = \frac{(-1)^{k}}{n!} \left( [e^{ -t }P^{(k)}P_{n, n-(k+1)}]_{0}^{+ \infty} -\int _{0}^{+ \infty} e^{ -t }P_{n, n-(k+1)}(t)P^{(k+1)}(t) \, dx  \right) $$
-Ainsi : 
-$$\left< Q_{n}, P \right> = \frac{(-1)^{k+1}}{n!}\int _{0}^{+ \infty}e^{ -t }P^{(k+1)}(t)P_{n, n-(k+1)}(t) \, dx $$
-
-$$\left|\left| Q_{n} \right|\right|^{2} = \frac{1}{n!^{2}} \int _{0}^{+\infty} e^{ -2t }P_{n, n-k}Q_{n}^{(k)} \, dx $$
-Or, 
-$$Q_{n}^{(k)} = \frac{e^{ t }}{n!} \left( \frac{d^{n}}{dt^{n}}(e^{ -t }t^{n}) + \frac{d^{n+1}}{dt^{n+1}}(e^{ -t }t^{n}) \right)$$
-
-
-$$\frac{d^{n}}{dt^{n}} (e^{ -t }t^{n}) = (-1)^{n}e^{ -t }\sum_{i = 0}^{n}\binom{n}{i} (-1)^{i} \frac{d^{i}}{dt^{i}}(t^{n})$$
-$$\frac{d^{n+1}}{dt^{n+1}} (e^{ -t }t^{n}) = -(-1)^{n}e^{ -t }\sum_{i = 0}^{n} \frac{n+1}{n+1-i}\binom{n}{i} (-1)^{i} \frac{d^{i}}{dt^{i}}(t^{n})$$
-$$n+1$$
