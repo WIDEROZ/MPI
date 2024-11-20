@@ -331,3 +331,7 @@ $$\det A = \frac{1}{e}-e \neq 0$$
 Donc, $h(0)=h(1)=0$
 Ainsi, $h \in F$. 
 
+
+# Exercice 8
+$$\frac{d^{k}}{dt^{k}} (e^{ -t }t^{n}) = e^{ -t }\sum_{i = 0}^{k}\binom{k}{i} \frac{d^{i}}{dt^{i}}(t^{n})$$
+$$cd (P) = 1 \text{ et } P_{n, k}(0 $$
