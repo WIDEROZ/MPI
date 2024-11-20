@@ -16,4 +16,7 @@ $$\vec{B} = \frac{\mu_{0}I}{2r}\vec{e}_{\theta}$$
 
 # Exercice 4
 ## 1.
-$$\vec{e}_{z}$$
+$$\vec{B} // \vec{e}_{y}$$
+## 2.
+$$\vec{B}(M') = -\vec{B}(M)$$
+ca
