@@ -16,7 +16,10 @@ $$\vec{B} = \frac{\mu_{0}I}{2r}\vec{e}_{\theta}$$
 
 # Exercice 4
 ## 1.
+On a : $(M, \vec{e}_{x}, \vec{e}_{z})$ un plan de sym pour $\vec{j}$ donc d'antisym pour $\vec{B}$ ainsi, 
 $$\vec{B} // \vec{e}_{y}$$
 ## 2.
 $$\vec{B}(M') = -\vec{B}(M)$$
-ca
+car $Oxy$ est un plan de sym pour $\vec{j}$ donc d'antisyym pour $\vec{B}$ puis car $\vec{B} // \vec{e}_{y}$
+
+$$\int B(y)\vec{e}_{y}.d\vec{l} \, dx  = B(y)()$$
