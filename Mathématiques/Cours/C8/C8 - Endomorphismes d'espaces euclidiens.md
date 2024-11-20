@@ -386,4 +386,29 @@ On dit que $f$ est LA rotation d'angle orienté $t \in \mathbb{R}$.
 $I_{2} = R_{0}$ et $-I_{2} = R_{\pi}$
 
 
-## 2. $n = \dim E \in \mathbb{N}^{}$
+## 2. $n = \dim E \in \mathbb{N}^{*}$
+#### Lemme 1.
+Soit $f \in \mathcal{L}(E)$, et $F \underset{sev}{\subset}E$, stable par $f$ 
+Alors, $F^{\bot}$ est stable par $f^{*}$ ($f(F^{\bot}) \subset F^{\bot}$)
+
+Démonstration : 
+Soit $x \in F^{\bot}$, 
+$$\forall y \in F, \left< f^{*}(x),y \right> = \left< x, f(y) \right> = 0 $$
+Donc, $f^{*}(x) \in F^{\perp}$
+
+#### Lemme 2
+$$f \in O(E) \Rightarrow Sp(f) \subset \{ -1, 1 \}$$
+Démonstration : 
+Soit $\alpha \in Sp(f)$
+$$\exists x \in E\setminus \{ 0 \}, f(x) = \alpha x$$
+Alors,
+$$\left|\left| x \right|\right| = \left|\left| f(x)  \right|\right|  = \left| \alpha\right|\left|\left| x \right|\right|$$
+Ainsi, comme $x \neq 0$, $\alpha = \pm1$
+
+#### Lemme
+Si $f\in \mathcal{L}(E)$, il existe $F\underset{sev}{\subset} E$, stable par $f$ et de dimension $1$ ou $2$
+
+Démonstration : 
+Soit $M \in \mathcal{M}_{n}(\mathbb{R})$, 
+alors il existe au moins une valeur propre complexe $\alpha \in \mathbb{C}$, 
+Donc,
