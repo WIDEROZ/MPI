@@ -339,12 +339,16 @@ $$\frac{d^{i}}{dt^{i}}(t^{n}) = \frac{n!}{(n-i)!}t^{n-i}$$
 $$Q_{n} = \frac{(-1)^{k}}{n!}\sum_{i = 0}^{n} \frac{n!}{(n-i)!i!}(-1)^{i}\frac{d^{i}}{dt^{i}}(t^{n})$$
 
 
-$$P_{n, n} = (-1)^{n} \sum_{k = 0}^{n} \binom{n}{k}(-1)^{k} \frac{n!}{(n-k)!} t^{n-k}$$
+$$P_{n, k} = (-1)^{k} \sum_{i = 0}^{k} \binom{k}{i}(-1)^{i} \frac{k!}{(k-i)!} t^{k-i}$$
 
-On fait $k$ IPP : on dérive $e^{ -t }P(t)$ et on intègre $P_{n, n}$ 
+On fait $k$ IPP : on dérive $P^{(k)}(t)$ et on intègre $e^{ -t }P_{n, n-k}(t)$ 
+Comme : 
+$$e^{ -t }P_{n, n-k}(t) = \frac{d^{n-k}}{dt^{n-k}}(e^{ -t }t^{n})$$
+On integre les deux 
 
 Supposons que : 
 $$\left< Q_{n}, P \right> = \frac{(-1)^{k}}{n!}\int _{0}^{+ \infty} e^{ -t }P_{n, n-k}(t)P^{(k)}(t) \, dt $$
 Alors, 
 en faisant une IPP : 
-$$\left< Q_{n}, P \right> = \frac{(-1)^{k}}{n!} ([-e^{ -t }P^{(k)}]_{0}^{+ \infty}) $$
+
+$$\left< Q_{n}, P \right> = \frac{(-1)^{k}}{n!} ([e^{ -t }P^{(k)}P_{n, n-k}]_{0}^{+ \infty}) $$
