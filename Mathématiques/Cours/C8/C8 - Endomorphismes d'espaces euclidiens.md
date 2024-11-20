@@ -412,3 +412,28 @@ Démonstration :
 Soit $M \in \mathcal{M}_{n}(\mathbb{R})$, 
 alors il existe au moins une valeur propre complexe $\alpha \in \mathbb{C}$, 
 Donc,
+$$\exists z \in \mathcal{M}_{n, 1}(\mathbb{C}) \setminus \{ 0 \}, MZ = \alpha Z$$
+On note alors, 
+$$Z = X + i Y = \begin{pmatrix}
+x_{1} \\
+\vdots \\
+x_{n}
+\end{pmatrix} + i \begin{pmatrix}
+y_{1} \\
+\vdots \\
+y_{n}
+\end{pmatrix}$$
+Notons, $\alpha = a + ib$, ou $a, b \in \mathbb{R}$, 
+$$\begin{array}{rl}MZ = \alpha Z &\Leftrightarrow 
+(MX) + i(MY) = (aX-bY)+i(bX+aY) \\
+&\Leftrightarrow \begin{cases}
+MX = AX-bY \\
+MY = bX+aY
+\end{cases}
+\end{array}$$
+Donc, comme $MX, MY \in Vect(X, Y)=F$
+$$F \text{ est stable par }M$$
+et 
+$\dim F \leq 2$ car $Card(X, Y) = 2$
+$\dim F \geq 1$ car $Z \neq 0 \Rightarrow X \neq 0 \text{ ou } Y \neq 0$
+
