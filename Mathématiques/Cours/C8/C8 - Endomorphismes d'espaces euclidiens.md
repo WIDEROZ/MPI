@@ -385,3 +385,5 @@ On dit que $f$ est LA rotation d'angle orienté $t \in \mathbb{R}$.
 
 $I_{2} = R_{0}$ et $-I_{2} = R_{\pi}$
 
+
+## 2. $n = \dim E \in \mathbb{N}^{}$
