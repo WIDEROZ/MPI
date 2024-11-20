@@ -22,4 +22,7 @@ $$\vec{B} // \vec{e}_{y}$$
 $$\vec{B}(M') = -\vec{B}(M)$$
 car $Oxy$ est un plan de sym pour $\vec{j}$ donc d'antisyym pour $\vec{B}$ puis car $\vec{B} // \vec{e}_{y}$
 
-$$\int B(z)\vec{e}_{y}.d\vec{l} \, dx  = 2B(z)l = \mu_{0}\int J dS \, dx  = \mu_{0} J l z$$
+
+## 3.
+$$\oint B(z)\vec{e}_{y}.d\vec{l} = B(z)\oint_{\frac{e}{2}}^{z} dl_{y}  = B(z)l = \mu_{0}\iint J dS  = \mu_{0} J l z$$
+$$B(z) = \mu_{0}Jz$$
