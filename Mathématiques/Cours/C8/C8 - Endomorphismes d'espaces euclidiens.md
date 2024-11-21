@@ -405,7 +405,7 @@ Alors,
 $$\left|\left| x \right|\right| = \left|\left| f(x)  \right|\right|  = \left| \alpha\right|\left|\left| x \right|\right|$$
 Ainsi, comme $x \neq 0$, $\alpha = \pm1$
 
-#### Lemme
+#### Lemme 3
 Si $f\in \mathcal{L}(E)$, il existe $F\underset{sev}{\subset} E$, stable par $f$ et de dimension $1$ ou $2$
 
 Démonstration : 
@@ -437,3 +437,6 @@ et
 $\dim F \leq 2$ car $Card(X, Y) = 2$
 $\dim F \geq 1$ car $Z \neq 0 \Rightarrow X \neq 0 \text{ ou } Y \neq 0$
 
+#### Lemme 4
+Soit $f \in O(E)$,
+Il existe $r \in \mathbb{R}^{*}$ et $F_{1}, \dots, F_{r} \underset{sev}{\subset} E$, stables par $f$, tous de dimen
