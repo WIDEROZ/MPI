@@ -469,7 +469,6 @@ $$f \in \mathcal{C}^{1}(\mathbb{R}_{+})$$
 
 #### Théorème
 Soit $I$ et $J$ deux intervalles, $f : I \to J \text{ bijective}$, $x_{0} \in I,$ puis : $y_{0} = f(x_{0})$
-
 $$\begin{rcases}
 f \text{ est dérivable en }x_{0} \\
 f'(x_{0}) \neq 0
@@ -567,8 +566,6 @@ $$S_{n} \underset{n \to +\infty}{\longrightarrow}  \frac{\pi}{8}$$
 Si $f : I \to \mathbb{K}$ est continue et $\varphi : [\alpha, \beta]\to I$ est $\mathcal{C}^{1}$, 
 $$\int _{\varphi(a)}^{\varphi(b)} f(t) \,  dt = \int _{a}^{b} (f \circ \varphi)(t) \varphi'(t) \, dt $$
 
-$$\newcommand\independent{\protect\mathpalette{\protect\independenT}{\perp}}
-\def\independenT#1#2{\mathrel{\rlap{$#1#2$}\mkern2mu{#1#2}}}$$
 #### Exercice
 Soit $r \in ]0, 1[ \cup ]1, + \infty[$, 
 $$I(r) = \int _{0}^{2\pi} \ln(1-2r\cos(t)+r^{2}) \, dt $$
