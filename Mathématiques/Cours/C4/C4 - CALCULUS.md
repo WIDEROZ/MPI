@@ -414,6 +414,9 @@ $$\forall x \in I, \frac{d}{dx}(B(f_{1}(x), f_{2}(x))) = B(f_{1}'(x), f_{2}(x)) 
 Ainsi, si $\left< \cdot, \cdot \right>$ est un produit scalaire sur $G$, 
 $$\left< f_{1}, f_{2} \right>' = \left< f_{1}', f_{2} \right> + \left< f_{1}, f_{2}' \right> $$
 
+
+
+
 #### Propriété
 Soit $(e_{1}, \dots, e_{n})$ une base de $F$ et : 
 $$f : \begin{cases}
