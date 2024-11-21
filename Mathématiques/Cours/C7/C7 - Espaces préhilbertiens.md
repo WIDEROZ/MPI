@@ -513,7 +513,7 @@ E_{1}(s) = E_{-1}(s)^{\bot} \\
 \dim E_{1}(s) = \dim E-1
 \end{cases}$$
 
-# V. Orthonormalisation
+# V. Orthonormalisation de Gram-Schmidt
 Soit $\mathcal{E} = (e_{i})_{i = 1}^{n}$ une famille libre de vecteurs de $E$
 il existe $\mathcal{U} =(u_{i})_{i=1}^{n}$ une famille orthonormale de $E$ telle que : $Vect(u_{1}) = Vect(e_{1})$, $Vect(u_{1}, u_{2}) = Vect(e_{1}, e_{2})$ etc...
 Cette famille est unique si l'on impose de plus que : 
