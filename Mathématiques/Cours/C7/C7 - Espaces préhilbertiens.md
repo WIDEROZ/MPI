@@ -112,7 +112,7 @@ Démonstration : Exceptionnelle
 $$\forall (x_{i})_{i = 1}^{n} \in E^{n}, \left|\left| \sum_{k = 1}^{n} x_{i} \right|\right| ^{2} = \sum_{k = 1}^{n}\left|\left| x_{i} \right|\right| ^{2} + 2\sum_{1 \leq i < j \leq n} \left< x_{i}, x_{j} \right> $$
 
 #### Formule de polarisation
-$$\forall x, y \in E, \left< x, y \right> = \frac{1}{4}(\left|\left| x+y \right|\right| ^{2}-\left|\left| x-y \right|\right| ^{2})= \frac{1}{2}(\left|\left| x \right|\right| ^{2}+\left|\left| y \right|\right| ^{2} - \left|\left| x+y \right|\right| ^{2})$$
+$$\forall x, y \in E, \left< x, y \right> = \frac{1}{4}(\left|\left| x+y \right|\right| ^{2}-\left|\left| x-y \right|\right| ^{2})= \frac{1}{2}(\left|\left| x+y \right|\right| ^{2} - \left|\left| x \right|\right| ^{2}-\left|\left| y \right|\right| ^{2})$$
 
 #### Inégalité de Cauchy-Schwarz
 $$\forall x, y \in E, \left| \left< x, y \right>\right|\leq \left|\left| x \right|\right| \left|\left| y \right|\right|  $$

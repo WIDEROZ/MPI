@@ -24,7 +24,7 @@ Soit $x_{0} \in \mathrm{Ker}(\psi)$,
 alors, 
 $$\varphi_{x_{0}} = x \mapsto \left< x_{0}, x \right>  = 0_{E^{*}}$$
 Ainsi, $x_{0} = 0$,
-Donc; 
+Donc, 
 $$\mathrm{Ker}(\psi) = \{ 0 \}$$
 Puis, 
 $$\dim E = \dim E^{*} = \dim E$$
@@ -60,7 +60,7 @@ $$\alpha f^{*}(y_{1}) + f^{*}(y_{2})=f^{*}(\alpha y_{1}+y_{2})$$
 Soit $\beta = (e_{i})_{i = 1}^{n}$ une BON de $E$
 Soient $f, g \in \mathcal{L}(E)$
 $$\boxed{Mat_{\beta}(f^{*}) = Mat_{\beta}(f)^{\top}}$$
-$$f \in \mathcal{L}(E) \mapsto f^{*} \in \mathcal{L}(E) \in \mathcal{L}(\mathcal{L}(E))$$
+$$(f \in \mathcal{L}(E) \mapsto f^{*} \in \mathcal{L}(E)) \in \mathcal{L}(\mathcal{L}(E))$$
 $$(f^{*})^{*} = f$$
 $$(f\circ g)^{*} = g^{*} \circ f^{*}$$
 $$\mathrm{Im}(f^{*}) = \mathrm{Ker}(f)^{\bot}$$
@@ -202,7 +202,7 @@ $$\forall M = (m_{i, j})_{i, j} \in O(n), \begin{cases}
 \det M = \pm 1 \\
 \forall i, j \in [\![1,n]\!], -1 \leq m_{i, j} \leq 1
 \end{cases}$$
-Si $\beta$ et $\beta_{2}$ sont deux BON, $\mathcal{P}_{\beta_{1}}^{\beta_{2}}$ est une matrice orthogonale
+Si $\beta_{1}$ et $\beta_{2}$ sont deux BON, $\mathcal{P}_{\beta_{1}}^{\beta_{2}}$ est une matrice orthogonale
 
 ATTENTION LA RÉCIPROQUE EST FAUSSE !!!!!!!!
 
@@ -275,7 +275,7 @@ Démonstration :
 $1. \Leftrightarrow 2.$ : 
 Pour $\Leftarrow$ : poser $y = x$
 Pour $\Rightarrow$ : on utilise deux fois l'identité de polarisation : 
-$$\forall x, y \in E, 4\left< f(x), f(y) \right> = \left|\left| x-y \right|\right| ^{2} - \left|\left| x-y \right|\right| ^{2} = 4 \left< x, y \right> $$
+$$\forall x, y \in E, 4\left< f(x), f(y) \right> = \left|\left| x+y \right|\right| ^{2} - \left|\left| x-y \right|\right| ^{2} = 4 \left< x, y \right> $$
 
 $2. \Rightarrow 3.$ : 
 Soit $\beta = (e_{1}, \dots, e_{n})$, alors, 
