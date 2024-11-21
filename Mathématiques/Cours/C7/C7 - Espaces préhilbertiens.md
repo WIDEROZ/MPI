@@ -295,6 +295,7 @@ $$\forall f \in \mathcal{L}(E), Mat_{\beta}(f)=(m_{i, j})_{1 \leq i, j \leq n} \
 alors
 $$\forall i, j \in [\![1, n]\!], m_{i,j} = \left< f(e_{j}), e_{i} \right>$$
 
+
 Démonstration : 
 1.
 On note : $X = \begin{pmatrix}x_{1}\\ \vdots \\ x_{n}\end{pmatrix}$, ie 
@@ -393,7 +394,7 @@ $$(F^{\bot}+G^{\bot}) = (F^{\bot})^{\bot} \cap (G^{\bot})^{\bot} = F \cap G$$
 
 #### Propriété
 $$\forall p \in \mathcal{L}(E), p \text{ est un proj. ortho.} \Leftrightarrow \mathrm{Ker}(p) = (\mathrm{Im}(p))^{\bot}$$
-	
+
 #### CCINP 82
 Calculer : 
 $$d = Dist(\begin{pmatrix}
