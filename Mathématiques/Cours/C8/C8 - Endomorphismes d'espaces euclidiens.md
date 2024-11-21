@@ -439,7 +439,7 @@ $\dim F \geq 1$ car $Z \neq 0 \Rightarrow X \neq 0 \text{ ou } Y \neq 0$
 
 #### Lemme 4
 Soit $f \in O(E)$,
-Il existe $r \in \mathbb{R}^{*}$ et $F_{1}, \dots, F_{r} \underset{sev}{\subset} E$, stables par $f$, tous de dimension $1$ ou $2$ deux à deux orthogonaux et tels que : 
+Il existe $r \in \mathbb{N}^{*}$ et $F_{1}, \dots, F_{r} \underset{sev}{\subset} E$, stables par $f$, tous de dimension $1$ ou $2$ deux à deux orthogonaux et tels que : 
 $$E = \bigoplus_{i = 1}^{r} F_{i}$$
 
 Démonstration par récurrence double :
@@ -453,4 +453,19 @@ Soit $n \in [\![3, + \infty [\![$ tel que $P(n-1)$ et $P(n-2)$ soient vrais.
 Soit $E$ un espace euclidien de dimension $n$ et $f \in O(E)$
 
 - D'après le lemme $3$, il existe $F_{1}\underset{sev}{\subset}E$, stable par $f$, et $\dim F_{1}= 1$ ou $2$ on note $G = F_{1}^{\bot}$
-- $G$ est stable par $f$ car d'après le lemme $1$ $G$ est stable par $f^{*}$ qui est $f^{-1}$ du fait que $f \in O(E)$ ie $f^{-1}(G) \subset G$ et donc $G\subset f(G)$. Comme $f$ est un endomorphisme injectif, $\dim f(G) = \dim(G)$ et donc $f(G) = G$ 
+- $G$ est stable par $f$ car d'après le lemme $1$ $G$ est stable par $f^{*}$ qui est $f^{-1}$ du fait que $f \in O(E)$ ie $f^{-1}(G) \subset G$ et donc $G\subset f(G)$. Comme $f$ est un endomorphisme injectif, $\dim f(G) = \dim(G)$ et donc $f(G) = G$
+- L'endomorphisme $f|_{G}$ induit par $f$ sur $G$ est aussi une isométrie vectorielle de $G$ car : 
+  $$\forall x \in G, \left|\left| f|_{G}(x) \right|\right| = \left|\left| f(x) \right|\right| =\left|\left| x\right|\right| $$
+   Comme $\dim G = \dim E - \dim F = n-1$ ou $n-2$
+
+D'après l'hypothèse de récurrence, 
+Il existe $r \geq 2$ et $F_{2}, \dots, F_{r} \underset{sev}{\subset} G$, stables par $f|_{G}$, tous de dimension $1$ ou $2$ deux à deux orthogonaux et tels que : 
+$$G = \bigoplus_{i = 2}^{r} F_{i}$$
+Ainsi, 
+$$\dim E = F_{1} \oplus F_{1}^{\bot} = \bigoplus_{1 \leq i \leq n}^{\perp} F_{i}$$
+Ces $r$ sev de $E$ sont aussi 2 à 2 orthogonaux car : 
+$$\forall i \geq 2, F_{i} \subset G = F_{1}^{\bot}$$
+Ils sont aussi stables par $f$. 
+
+#### Théorème de réduction de $O(E)$
+Soit $f \in O(E)$, il existe une BON de $E$, $r, s, q \in \mathbb{N}$, et $t_{1}, \dots, t_{p} \in \mathbb{R}$ tels que 
