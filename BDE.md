@@ -14,4 +14,3 @@ auto parentale : formulation bizarre : J’autorise le BDE BERTHOLLET SCIENTIFIQ
 Article 2 : Causes de la décharge de résposabilité trop précises : remplacer par "quel que soit l'origine de la cause"
 Article 5 : ajouter les encadrants des activités
 Article 8 : Les activités sur place : vague
-article :  d'après le théorème++- de gambi : gambi est le plus beau et Ozgur le plus nul en anglais et  askip d'après Elio en anal on ne se ramandera pas comment il sait ca 

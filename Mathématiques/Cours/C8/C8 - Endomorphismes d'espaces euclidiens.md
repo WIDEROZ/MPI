@@ -508,7 +508,7 @@ $$\begin{array}{c}A = Mat_{\beta}(f) = Cours =
  \\
  \\
  \\ \\
-R_{t_{n}} \\
+R_{t_{1}} \\
 &\ddots \\
 &&R_{t_{r}}
 \end{array} 
