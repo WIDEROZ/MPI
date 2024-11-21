@@ -37,4 +37,8 @@ $$B(z) = \mu_{0}Jz$$
 # Exercice 6
 ## 1.
 $$n = \frac{dN}{dV}$$
-$$\rho = \frac{dq}{dV}$$
+$$\rho = \frac{dq}{dV} = n\frac{dq}{dN}$$
+#### Extérieur
+Alors en étudiant les symétries invariances : $\vec{E} = E(r)\vec{e}_{r}$
+En prenant comme surface de Gauss un cylindre ou la surface latéral passe par $M$ : 
+$$E(r) \pi r h = E(r)\int dS = \frac{}{\varepsilon_{0}} $$
