@@ -38,7 +38,18 @@ $$B(z) = \mu_{0}Jz$$
 ## 1.
 $$n = \frac{dN}{dV}$$
 $$\rho = \frac{dq}{dV} = n\frac{dq}{dN}$$
-#### Extérieur
+#### Extérieur / Intérieur
 Alors en étudiant les symétries invariances : $\vec{E} = E(r)\vec{e}_{r}$
 En prenant comme surface de Gauss un cylindre ou la surface latéral passe par $M$ : 
-$$E(r) \pi r h = E(r)\int dS = \frac{}{\varepsilon_{0}} $$
+$$E(r) \pi r h = E(r)\int dS = \frac{\rho \pi R^{2} h}{\varepsilon_{0}} = n \frac{\frac{dq}{dN}\pi R^{2}h}{\varepsilon_{0}}$$
+
+Ainsi, à l'extérieur le champ vaut : 
+$$\boxed{E(r) = \frac{dq}{dN}\frac{n}{\varepsilon_{0}} \frac{R^{2}}{r}}$$
+Alors qu'a l'intérieur : 
+$$\boxed{E(r) = \frac{dq}{dN}\frac{n}{\varepsilon_{0}} r}$$
+C'est bien continu / homogène etc...
+
+## 2.
+$$\vec{j} = \rho V \vec{e}_{z} = n \frac{dq}{dN}V \vec{e}_{z}$$
+
+#### Symétries
