@@ -52,7 +52,15 @@ C'est bien continu / homogène etc...
 ## 2.
 $$\vec{j} = \rho V \vec{e}_{z} = n \frac{dq}{dN}V \vec{e}_{z}$$
 
-#### Symétries
-On observe que les plans inclus dans $Oz$ sont sym pour $\vec{j}$ donc d'antisym pour $\vec{B}$ ainsi $\vec{B}(z = 0) = \overrightarrow{0}$
-$(M, \vec{e}_{r}, \vec{e}_{z})$ est un plan de sym pour $\vec{j}$ alors d'antisym pour $\vec{B}$
-puis $(M, \vec{e}_{r}, \vec{e}_{\theta})$ est un plan de 
+#### Symétries / invariances
+$(M, \vec{e}_{r}, \vec{e}_{z})$ est un plan de sym pour $\vec{j}$ alors d'antisym pour $\vec{B}$ 
+Ainsi, $\vec{B} // \vec{e}_{\theta}$
+de même invar par translation sur $\vec{e}_{z}$ et rotation par $\vec{e}_{\theta}$ de $D_{I}$
+Ainsi, 
+$$\vec{B} = B(r)\vec{e}_{\theta}$$
+
+#### Théorème d'ampère
+Choix du contour : voir TD. 
+$$B(r) \pi R = \int_{CA} \vec{B}.d\vec{l} = \mu_{0} \int \vec{j}.d\vec{S} = \mu_{0} n \frac{dq}{dN} V \pi R^{2}$$
+Ainsi, 
+$$B(r) = \mu_{0}n \frac{dq}{dN}VR$$
