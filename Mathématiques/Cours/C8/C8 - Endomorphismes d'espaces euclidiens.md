@@ -476,22 +476,62 @@ $$\forall j \in [\![1, q]\!], R_{t_{j}} = \begin{pmatrix}
 $$\begin{array}{c}A = Mat_{\beta}(f) = Cours = 
 \begin{array}{c}
 \underbrace{r}&\underbrace s&\underbrace{2q} \\
-\left( \begin{array}{c}
+ \begin{array}{c}
 1& \\
 &\ddots \\
 &&1
-\end{array} \right. & \begin{array}{c}
+\end{array} & \begin{array}{c}
+ \\
+ \\
+ \\
  \\
  \\
  \\
  \\
  \\
 -1 \\
-&\dots
-\end{array} & \left.\right)
+&\ddots \\
+&&-1
+\end{array} & \begin{array}{c}
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\
+ \\ \\
+R_{t_{n}} \\
+&\ddots \\
+&&R_{t_{r}}
+\end{array} 
 \end{array}
 \end{array}$$
 Version matricielle : 
 $$\forall M \in O(n), \exists \Omega \in O(n), A=\Omega M\Omega^{-1}$$
 On dita alors que $M$ et $A$ sont orthogonalement semblables. 
+
+
+#### Théorème $n = 3$
+Soit $E$ un espace euclidien orienté de dimension $3$ et $f \in SO(3)$ Alors, il existe une BOND $\beta$ de $E$ et $t \in \mathbb{R}$ tel que :
+$$Mat_{\beta}(f) = \begin{pmatrix}
+1&0&0 \\
+0&\cos(t)&-\sin(t) \\
+0&\sin(t)&\cos(t)
+\end{pmatrix} = U_{t} $$
+
+De même : 
+$$\forall M \in SO(3)(\mathbb{R}),$$
+$$ \exists P \in O_{3}(\mathbb{R}), t \in \mathbb{R}, M = P^{-1}\begin{pmatrix}
+1&0&0 \\
+0&\cos(t)&-\sin(t) \\
+0&\sin(t)&\cos(t)
+\end{pmatrix}P$$
 
