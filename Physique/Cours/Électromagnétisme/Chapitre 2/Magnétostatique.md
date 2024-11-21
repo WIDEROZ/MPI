@@ -69,3 +69,7 @@ $$\oint_{C_{A}} \vec{B}_{\theta}(r)\vec{e}_{\theta}  . r d\theta \vec{e}_{\theta
 $I_{enl} = +I$ 
 Alors, 
 $$\vec{B} = \frac{\mu_{0}I}{2\pi r} \vec{e}_{\theta}$$
+
+# IV. Cartes et lignes de champ de $\vec{B}$
+#### Exercice b.
+Le champ est uniforme dans les bobines en négligeant des effets de bord, analogue au solénoïde. 
