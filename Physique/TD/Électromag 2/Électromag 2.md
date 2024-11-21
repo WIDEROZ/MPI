@@ -53,3 +53,6 @@ C'est bien continu / homogène etc...
 $$\vec{j} = \rho V \vec{e}_{z} = n \frac{dq}{dN}V \vec{e}_{z}$$
 
 #### Symétries
+On observe que les plans inclus dans $Oz$ sont sym pour $\vec{j}$ donc d'antisym pour $\vec{B}$ ainsi $\vec{B}(z = 0) = \overrightarrow{0}$
+$(M, \vec{e}_{r}, \vec{e}_{z})$ est un plan de sym pour $\vec{j}$ alors d'antisym pour $\vec{B}$
+puis $(M, \vec{e}_{r}, \vec{e}_{\theta})$ est un plan de 
