@@ -18,6 +18,10 @@ $$\vec{B} = \frac{\mu_{0}I}{2r}\vec{e}_{\theta}$$
 ## 1.
 On a : $(M, \vec{e}_{x}, \vec{e}_{z})$ un plan de sym pour $\vec{j}$ donc d'antisym pour $\vec{B}$ ainsi, 
 $$\vec{B} // \vec{e}_{y}$$
+Invariance : $D_{I}$ est invariant par translation de $Ox$ et $Oy$ car On étudie un pavé infini. Ainsi, 
+$$\vec{B} = B(z) \vec{e}_{y}$$
+
+
 ## 2.
 $$\vec{B}(M') = -\vec{B}(M)$$
 car $Oxy$ est un plan de sym pour $\vec{j}$ donc d'antisyym pour $\vec{B}$ puis car $\vec{B} // \vec{e}_{y}$
@@ -25,6 +29,12 @@ car $Oxy$ est un plan de sym pour $\vec{j}$ donc d'antisyym pour $\vec{B}$ puis 
 
 ## 3.
 $$\oint B(z)\vec{e}_{y}.d\vec{l} = B(z)\oint_{\frac{e}{2}}^{z} dl_{y}  = B(z)l = \mu_{0}\iint J dS  = -\mu_{0} J l \frac{e}{2}$$
+
 $$B = \mu_{0}J\frac{e}{2}$$
 $$B(z) = \mu_{0}Jz$$
 
+
+# Exercice 6
+## 1.
+$$n = \frac{dN}{dV}$$
+$$\rho = \frac{dq}{dV}$$
