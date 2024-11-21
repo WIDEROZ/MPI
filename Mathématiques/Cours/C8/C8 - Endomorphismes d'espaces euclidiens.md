@@ -468,4 +468,13 @@ $$\forall i \geq 2, F_{i} \subset G = F_{1}^{\bot}$$
 Ils sont aussi stables par $f$. 
 
 #### Théorème de réduction de $O(E)$
-Soit $f \in O(E)$, il existe une BON de $E$, $r, s, q \in \mathbb{N}$, et $t_{1}, \dots, t_{p} \in \mathbb{R}$ tels que 
+Soit $f \in O(E)$, il existe une BON $\beta$ de $E$, $r, s, q \in \mathbb{N}$, et $t_{1}, \dots, t_{p} \in \mathbb{R}$ tels que 
+$$\forall j \in [\![1, q]\!], R_{t_{j}} = \begin{pmatrix}
+\cos(t_{j})&-\sin(t_{j}) \\
+\sin(t_{j})&\cos(t_{j})
+\end{pmatrix} \in SO(2)$$
+$$A = Mat_{\beta}(f) = Cours$$
+Version matricielle : 
+$$\forall M \in O(n), \exists \Omega \in O(n), A=\Omega M\Omega^{-1}$$
+On dita alors que $M$ et $A$ sont orthogonalement semblables. 
+
