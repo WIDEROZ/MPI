@@ -66,3 +66,8 @@ Ainsi, à l'extérieur
 $$\boxed{B(r) = \mu_{0}n \frac{dq}{dN}VR}$$
 À l'intérieur : 
 $$\boxed{B(r) = \mu_{0}n \frac{dq}{dN} V r}$$
+## 3.
+On considère que les particules chargés se déplacent a la vitesse de la lumière : $c = V$
+Alors, à l'intérieur
+$$\frac{E(r)}{B(r)} =\frac{1}{\varepsilon_{0}\mu_{0}  V} = V$$
+Ainsi, 
