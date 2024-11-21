@@ -473,7 +473,24 @@ $$\forall j \in [\![1, q]\!], R_{t_{j}} = \begin{pmatrix}
 \cos(t_{j})&-\sin(t_{j}) \\
 \sin(t_{j})&\cos(t_{j})
 \end{pmatrix} \in SO(2)$$
-$$A = Mat_{\beta}(f) = Cours$$
+$$\begin{array}{c}A = Mat_{\beta}(f) = Cours = 
+\begin{array}{c}
+\underbrace{r}&\underbrace s&\underbrace{2q} \\
+\left( \begin{array}{c}
+1& \\
+&\ddots \\
+&&1
+\end{array} \right. & \begin{array}{c}
+ \\
+ \\
+ \\
+ \\
+ \\
+-1 \\
+&\dots
+\end{array} & \left.\right)
+\end{array}
+\end{array}$$
 Version matricielle : 
 $$\forall M \in O(n), \exists \Omega \in O(n), A=\Omega M\Omega^{-1}$$
 On dita alors que $M$ et $A$ sont orthogonalement semblables. 
