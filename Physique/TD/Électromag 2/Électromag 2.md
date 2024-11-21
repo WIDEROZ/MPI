@@ -62,5 +62,7 @@ $$\vec{B} = B(r)\vec{e}_{\theta}$$
 #### Théorème d'ampère
 Choix du contour : voir TD. 
 $$B(r) \pi R = \int_{CA} \vec{B}.d\vec{l} = \mu_{0} \int \vec{j}.d\vec{S} = \mu_{0} n \frac{dq}{dN} V \pi R^{2}$$
-Ainsi, 
-$$B(r) = \mu_{0}n \frac{dq}{dN}VR$$
+Ainsi, à l'extérieur
+$$\boxed{B(r) = \mu_{0}n \frac{dq}{dN}VR}$$
+À l'intérieur : 
+$$\boxed{B(r) = \mu_{0}n \frac{dq}{dN} V r}$$
