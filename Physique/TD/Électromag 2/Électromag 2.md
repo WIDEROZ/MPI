@@ -27,3 +27,4 @@ car $Oxy$ est un plan de sym pour $\vec{j}$ donc d'antisyym pour $\vec{B}$ puis 
 $$\oint B(z)\vec{e}_{y}.d\vec{l} = B(z)\oint_{\frac{e}{2}}^{z} dl_{y}  = B(z)l = \mu_{0}\iint J dS  = -\mu_{0} J l \frac{e}{2}$$
 $$B = \mu_{0}J\frac{e}{2}$$
 $$B(z) = \mu_{0}Jz$$
+
