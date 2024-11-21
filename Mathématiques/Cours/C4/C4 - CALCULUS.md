@@ -784,7 +784,7 @@ $$= M_{n+1} \frac{(x-x_{0})^{n+1}}{(n+1)!}$$
 #### Inégalité de Taylor-Young
 Elle nous donne des infos que sur un voisinage de $x_{0}$ dont on ne sait rien. (on  la dit locale)
 Si $f$ est $\mathcal{C}^{n}$ sur $I$, 
-$$\forall x_{0} \in I, f(x) = \sum_{k = 0}^{n} f^{(k)} \frac{(x-x_{0})^{k}}{k!} + o((x-x_{0})^{n})$$
+$$\forall x_{0} \in I, f(x) = \sum_{k = 0}^{n} f^{(k)} (x)\frac{(x-x_{0})^{k}}{k!} + o((x-x_{0})^{n})$$
 
 #### Exercice
 Soit $r \in ]-1, 1[$
