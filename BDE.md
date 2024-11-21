@@ -11,3 +11,4 @@ MAIL : titre : Inscriptions -> Inscription finale week-end ski
 Article 2 : Causes de la décharge de résposabilité trop précises : remplacer par "quel que soit l'origine de la cause"
 Article 5 : ajouter les encadrants des activités
 Article 8 : Les activités sur place : vague
+w
