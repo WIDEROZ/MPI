@@ -439,4 +439,18 @@ $\dim F \geq 1$ car $Z \neq 0 \Rightarrow X \neq 0 \text{ ou } Y \neq 0$
 
 #### Lemme 4
 Soit $f \in O(E)$,
-Il existe $r \in \mathbb{R}^{*}$ et $F_{1}, \dots, F_{r} \underset{sev}{\subset} E$, stables par $f$, tous de dimen
+Il existe $r \in \mathbb{R}^{*}$ et $F_{1}, \dots, F_{r} \underset{sev}{\subset} E$, stables par $f$, tous de dimension $1$ ou $2$ deux à deux orthogonaux et tels que : 
+$$E = \bigoplus_{i = 1}^{r} F_{i}$$
+
+Démonstration par récurrence double :
+On note $\mathcal{P}(n)$ cette affirmation ou $n = \dim E \in \mathbb{N}^{*}$, 
+###### Initialisation
+$P(1)$ est vraie car en posant  $r = 1$ et $F_{1} = E$
+$P(2)$ de même
+
+###### Hérédité
+Soit $n \in [\![3, + \infty [\![$ tel que $P(n-1)$ et $P(n-2)$ soient vrais. 
+Soit $E$ un espace euclidien de dimension $n$ et $f \in O(E)$
+
+- D'après le lemme $3$, il existe $F_{1}\underset{sev}{\subset}E$, stable par $f$, et $\dim F_{1}= 1$ ou $2$ on note $G = F_{1}^{\bot}$
+- $G$ est stable par $f$ car d'après le lemme $1$ $G$ est stable par $f^{*}$ qui est $f^{-1}$ du fait que $f \in O(E)$ ie $f^{-1}(G) \subset G$ et donc $G\subset f(G)$. Comme $f$ est un endomorphisme injectif, $\dim f(G) = \dim(G)$ et donc $f(G) = G$ 
