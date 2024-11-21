@@ -70,4 +70,8 @@ $$\boxed{B(r) = \mu_{0}n \frac{dq}{dN} V r}$$
 On considère que les particules chargés se déplacent a la vitesse de la lumière : $c = V$
 Alors, à l'intérieur
 $$\frac{E(r)}{B(r)} =\frac{1}{\varepsilon_{0}\mu_{0}  V} = V$$
-Ainsi, 
+Ainsi, comme :
+$$\vec{E} = E(r) \vec{e}_{r} \text{ et }\vec{B} = B(r)\vec{e}_{\theta} \text{ et }\vec{V} = V \vec{e}_{z}$$
+Ainsi
+$$E(r) = VB(r) \Rightarrow \boxed{\vec{E} = \vec{B} \wedge \vec{V}}
+$$
