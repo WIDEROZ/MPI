@@ -75,3 +75,10 @@ $$\vec{E} = E(r) \vec{e}_{r} \text{ et }\vec{B} = B(r)\vec{e}_{\theta} \text{ et
 Ainsi
 $$E(r) = VB(r) \Rightarrow \boxed{\vec{E} = \vec{B} \wedge \vec{V}}
 $$
+
+À l'extérieur : 
+$$\frac{E(r)}{B(r)} =\frac{R}{\varepsilon_{0}\mu_{0}  Vr} = \frac{R}{r}V$$
+
+Alors,
+$$\boxed{\vec{E} = \frac{R}{r} \vec{B} \wedge \vec{V}}$$
+
