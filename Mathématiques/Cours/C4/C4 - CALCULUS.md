@@ -68,6 +68,7 @@ Avec th d'encadrement.
 
 ## 2. Limite d'une fonction
 Soient : $(E, \left|\left| \cdot \right|\right|)$, $(F, \left|\left| \cdot \right|\right|)$, 
+
 #### Définition
 Soit $a \in E$, et $V\subset F$. On dit que $V$ est un voisinage de $a$ lorsque : 
 $$\exists r > 0, B(a, r) \subset V$$
@@ -156,7 +157,7 @@ f(x) \underset{x \to a}{\longrightarrow} l \\
 
 Démonstration : 
 $\Rightarrow$ : 
-Soit $(u_{n})_{n \in \mathbb{N}} \in I^{\mathbb{N}}$ tedant vers $a$.
+Soit $(u_{n})_{n \in \mathbb{N}} \in I^{\mathbb{N}}$ tendant vers $a$.
 Soit $\varepsilon >0$, puisque ; $f(x) \underset{x \to a}{\longrightarrow}l$
 $$\exists \alpha >0, \forall x \in I, \left|\left| x-a \right|\right|\leq \alpha \Rightarrow \left|\left| f(x)-l \right|\right| \leq \varepsilon $$
 Comme $u_{n} \underset{n \to +\infty}{\longrightarrow} a$, 
