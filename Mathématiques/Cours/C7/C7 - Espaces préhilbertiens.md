@@ -464,7 +464,7 @@ alors $p \in \mathcal{L}(E)$
 $s$ est diagonalisable et :
 $$Sp(s) = \{ -1,1 \}$$
 puis, 
-$$E = E_{1}(s) \oplus E_{2}(s)$$
+$$E = E_{1}(s) \oplus E_{-1}(s)$$
 Si $\beta$ est une base de $E$ adapté à cette décomposition, 
 $$Mat_{\beta}(s)=\begin{pmatrix}
 1& \\
