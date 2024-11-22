@@ -82,3 +82,13 @@ $$\frac{E(r)}{B(r)} =\frac{R}{\varepsilon_{0}\mu_{0}  Vr} = \frac{R}{r}V$$
 Alors,
 $$\boxed{\vec{E} = \frac{R}{r} \vec{B} \wedge \vec{V}}$$
 
+## 4.
+On fait un PFD sur les particules dans le référentiel des particules : 
+$$0 = q\vec{E} + q\vec{V}\wedge \vec{B} + \vec{f}_{i, e} + \vec{f}_{i, c} $$
+Ainsi,
+$$\boxed{\vec{E} = \vec{B} \wedge \vec{V}}$$
+
+lorsque les particules sont immobiles
+
+## 5.
+$$\vec{V}(\mathcal{R}')$$
