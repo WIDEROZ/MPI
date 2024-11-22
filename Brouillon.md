@@ -23,3 +23,4 @@ $$f^{*}(x) = x$$
 $$\left< f(x)-x, f(x)-x \right> = 0$$
 
 # 13
+$$\frac{1}{p}\sum_{k =0}^{p-1} (f^{k+1}(y)-f^{k}(y))=\frac{1}{p}$$
