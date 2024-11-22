@@ -647,6 +647,7 @@ $$\begin{array}{c}
 Ainsi, 
 $$\left< x_{1}, x_{2} \right> =0 \text{ car } (\alpha_{1}-\alpha_{2})\neq 0$$ 
 #### Théorème spectral
+##### Endomorphisme
 Soit $f \in \mathcal{L}(E)$, 
 On a équivalence entre : 
 $$\begin{cases}
@@ -655,6 +656,11 @@ f^{*} = f \\
 (\text{on dit que } f \text{ se diagonalise en BON}) \\
 f \text{ est DZ et sess ssesp propres sont }2 \text{ a } 2 \text{ orthogonaux}
 \end{cases}$$
+
+##### Matriciel
+Soit $M \in S_{n}(\mathbb{R})$, il existe une matrice diagonale $D \in D_{n}(\mathbb{R})$ et une matrice orthogonale $P \in O(n)$ telles que :
+$$M = P^{-1}DP = P^{\bot}DP$$
+
 
 Démonstration : 
 1 $\Rightarrow$ 2 : par récurrence sur $n = \dim E$
@@ -672,3 +678,17 @@ Donc, $f$ induit alors un endomorphisme autoadjoint sur $h$ par hypothèse de r�
 $$\forall k \in [\![2, n+1]\!], f(e_{k}) = \alpha_{k}e_{k}$$
 Ainsi, 
 $$(e_{i})_{i = 1}^{n+1} \text{ est une BON de }E \text{ constitué de vecteurs propres}$$
+
+$2 \Rightarrow 3$ : 
+Comme il existe une base $\beta$ de $E$ constitué de vecteurs propres de $f$, $f$ est DZ et d'après le lemme 6 les ssesp propres de $f$ sont 2 à 2 orthogonaux. 
+
+$3 \Rightarrow 1$ : 
+On prend une BON de chaqun des ssesp propres. En les concaténant, comme les ssesp propres sont $\perp$, on obtiens une BON $\beta$ de vecteurs propres de $f$. Alors
+$$Mat_{\beta}(f) = \begin{pmatrix}
+\alpha_{1}&&0 \\
+&\ddots \\
+0&&\alpha_{n}
+\end{pmatrix} \in D_{n}(\mathbb{R}) \subset \mathcal{S}_{n}(\mathbb{R})$$
+ainsi, 
+$$f = f^*$$
+
