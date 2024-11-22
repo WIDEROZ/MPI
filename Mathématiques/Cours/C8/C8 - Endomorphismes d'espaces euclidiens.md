@@ -651,5 +651,24 @@ Soit $f \in \mathcal{L}(E)$,
 On a équivalence entre : 
 $$\begin{cases}
 f^{*} = f \\
-
+\text{il existe une BON de }f \text{ constitué de vecteurs propres de }f  \\
+(\text{on dit que } f \text{ se diagonalise en BON}) \\
+f \text{ est DZ et sess ssesp propres sont }2 \text{ a } 2 \text{ orthogonaux}
 \end{cases}$$
+
+Démonstration : 
+1 $\Rightarrow$ 2 : par récurrence sur $n = \dim E$
+###### Initialisation
+$n=1$ on prend $\beta = (e_{1})$ tq $\left|\left| e_{1} \right|\right| = 1$
+
+###### Hérédité
+Soit $n \in \mathbb{N}$ tq $1 \Rightarrow 2$ vrai pour $n$, 
+Soit $f \in S(E)$ ou $\dim E = n+1$, 
+d'après le lemme 5, $\exists e_{1} \in E$ unitaire et $\alpha_{1} \in \mathbb{R}$, $f(e_{1}) = \alpha_{1}e_{1}$
+alors, $Vect(e_{1})$ est un ssesp propre de $f$ et stable par $f$ alors, 
+$$H = Vect(e_{1})^{\bot} \text{ est stable par }f^{*} = f$$
+alors, $\dim H = n$, 
+Donc, $f$ induit alors un endomorphisme autoadjoint sur $h$ par hypothèse de récurrence il existe alors une BON $(e_{2}, \dots, e_{n+1})$ de $H$ et $\alpha_{2}, \dots, \alpha_{n+1} \in \mathbb{R}$ tels que 
+$$\forall k \in [\![2, n+1]\!], f(e_{k}) = \alpha_{k}e_{k}$$
+Ainsi, 
+$$(e_{i})_{i = 1}^{n+1} \text{ est une BON de }E \text{ constitué de vecteurs propres}$$
