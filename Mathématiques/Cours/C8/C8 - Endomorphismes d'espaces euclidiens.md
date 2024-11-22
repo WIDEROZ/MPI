@@ -535,3 +535,37 @@ $$ \exists P \in O_{3}(\mathbb{R}), t \in \mathbb{R}, M = P^{-1}\begin{pmatrix}
 0&\sin(t)&\cos(t)
 \end{pmatrix}P$$
 
+# IV. Endomorphismes auto-adjoints
+## 1. Le théorème spectral
+#### Définition
+Un endomorphisme $f \in \mathcal{L}(E)$ est dit auto adjoint lorsque : 
+$$f^{*} = f \Leftrightarrow \forall x, y \in E, \left< x, f(y) \right> = \left< f(x), y \right> $$
+
+On note : $S(E)$ l'ensemble de ces endomorphismes. 
+
+#### Propriété
+$$S(E) \underset{sev}{\subset} E$$
+Démonstration : 
+$$\forall f, g \in S(E), \forall \alpha \in \mathbb{R}, (\alpha f + g)^{*} = \alpha f^{*} + g^{*} = \alpha f+g$$
+
+#### Proposition
+Soit $f \in \mathcal{L}(E)$ un projecteur, 
+$$f \text{ est un projecteur orthogonal} \Leftrightarrow f = f^{*}$$
+
+Démonstration faite en TD (TD 12, exo 9 et 19)
+
+#### Remarque
+On rencontre parfois la terminologie "endomorphisme symétrique" à la place "d'endomorphisme auto-adjoint", c'est dû à la propriété suivante : 
+
+#### Propriété
+Soit $\beta$ une BON de $E$ et $f \in \mathcal{L}(E)$, alors 
+$$Mat_{\beta}(f) \in \mathcal{S}_{n}(\mathbb{R}) \Leftrightarrow f \in S(E)$$
+
+En particulier si $S \in \mathcal{S}_{n}(\mathbb{R})$, 
+$$f : \begin{cases}
+\mathcal{M}_{n, 1}(\mathbb{R}) \to \mathcal{M}_{n, 1}(\mathbb{R}) \\
+X \mapsto SX
+\end{cases} \text{ est auto-adjoint.}$$
+
+Démonstration : 
+$$Mat_{\beta}(f) = $$
