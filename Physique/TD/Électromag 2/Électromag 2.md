@@ -37,7 +37,7 @@ $$B(z) = \mu_{0}Jz$$
 # Exercice 6
 ## 1.
 $$n = \frac{dN}{dV}$$
-$$\rho = \frac{dq}{dV} = n\frac{dq}{dN}$$
+$$\rho = \frac{dq}{dV} = n\frac{dq}{dN} \left( = \frac{dN}{dV} q = n\times q\right)$$
 #### Extérieur / Intérieur
 Alors en étudiant les symétries invariances : $\vec{E} = E(r)\vec{e}_{r}$
 En prenant comme surface de Gauss un cylindre ou la surface latéral passe par $M$ : 
@@ -91,4 +91,6 @@ $$\boxed{\vec{E} = \vec{B} \wedge \vec{V}}$$
 lorsque les particules sont immobiles
 
 ## 5.
-$$\vec{V}(\mathcal{R}')$$
+$$\vec{V}(q / \mathcal{R}') = \vec{V}(q / \mathcal{R}) + \frac{d \overrightarrow{OO'}}{dt}(q / \mathcal{R})$$
+Alors, 
+$$\vec{V}(q / \mathcal{R}') = \vec{V}(q / \mathcal{R}) - \vec{V}(q / \mathcal{R}) = \overrightarrow{0} $$
