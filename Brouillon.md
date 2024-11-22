@@ -17,4 +17,9 @@ $$\leq 2\left|\left| x \right|\right| ^{2} - 2\left< x, f(x) \right> = 0$$
 ## b.
 On à déja montré $\subset$, 
 $\supset$ : 
-Soit $f^{*} \in \mathcal{L}(E)$
+Soit $x \in \mathrm{Ker}(f^{*}-Id_{E})$, 
+Alors,
+$$f^{*}(x) = x$$
+$$\left< f(x)-x, f(x)-x \right> = 0$$
+
+# 13
