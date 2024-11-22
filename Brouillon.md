@@ -24,3 +24,17 @@ $$\left< f(x)-x, f(x)-x \right> = 0$$
 
 # 13
 $$\frac{1}{p}\sum_{k =0}^{p-1} (f^{k+1}(y)-f^{k}(y))=\frac{1}{p}$$
+
+Soit $X\in F_{2}$, 
+$$Te_{1} = $$
+
+$$tT\begin{pmatrix}
+
+\end{pmatrix}$$
+
+$$Mat_{\beta}(e_{1}) = \begin{pmatrix}
+1 \\
+0 \\
+0 \\
+0
+\end{pmatrix}$$
