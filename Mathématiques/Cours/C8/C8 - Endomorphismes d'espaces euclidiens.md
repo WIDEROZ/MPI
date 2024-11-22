@@ -568,4 +568,51 @@ X \mapsto SX
 \end{cases} \text{ est auto-adjoint.}$$
 
 Démonstration : 
-$$Mat_{\beta}(f) = $$
+$$Mat_{\beta}(f) = Mat_{\beta}(f^{*})^{\bot} = Mat_{\beta}(f)^{\bot}$$
+
+#### Remarque
+Cette terminologie est malvenue car toute symétrie de $E$ n'est pas auto-adjoint
+$$S = \begin{pmatrix}
+1&1 \\
+0&-1
+\end{pmatrix} \text{ et }S^{2} = I_{2}$$
+Pourtant : 
+$$\left< 
+S\begin{pmatrix}
+1 \\
+0
+\end{pmatrix}, \begin{pmatrix}
+0 \\
+1
+\end{pmatrix}
+ \right>  = \left< \begin{pmatrix}
+1 \\
+0
+\end{pmatrix}, \begin{pmatrix}
+0 \\
+1
+\end{pmatrix} \right> = 0 \neq 1 = \left< \begin{pmatrix}
+1 \\
+0
+\end{pmatrix}, S\begin{pmatrix}
+0 \\
+1
+\end{pmatrix} \right> $$
+
+#### Propriété
+Soit $f \in \mathcal{L}(E)$, une symétrie
+$$f = f^{*} \Leftrightarrow f \text{ est une symétrie orthogonale}$$
+
+Démonstration : 
+$\Rightarrow$ : Mq $E_{1}(f) \perp E_{-1}(f)$, 
+$$\begin{array}{rl}
+\forall x \in E_{1}(f) , y \in E_{-1}(f), \left< x, y \right> & = \left< f(x), y \right>&\text{car } x \in E_{1}(f)  \\
+&=\left< x, f(y) \right>& \text{car }f=f^{*} \\
+&= \left< x, -y \right> & \text{car }y \in E_{-1}(f) \\
+&= -\left< x, y \right> 
+\end{array}$$
+Ainsi,
+$$\boxed{\left< x, y \right> =0}$$
+
+$\Leftarrow$ : 
+$$\forall x, y \in E, \exists x_{1}, y_{1} \in E_{1}(f), \exists x_{2}, y_{2} \in E_{-1}(f), x = x_{1}+x_{2} \text{ et }y = y_{1}+y_{2}$$
