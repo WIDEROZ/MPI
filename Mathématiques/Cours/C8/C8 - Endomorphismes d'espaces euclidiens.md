@@ -560,7 +560,8 @@ On rencontre parfois la terminologie "endomorphisme symétrique" à la place "d'
 #### Propriété
 Soit $\beta$ une BON de $E$ et $f \in \mathcal{L}(E)$, alors 
 $$Mat_{\beta}(f) \in \mathcal{S}_{n}(\mathbb{R}) \Leftrightarrow f \in S(E)$$
-
+alors,
+$$\dim S(E) = \frac{n(n+1)}{2}$$
 En particulier si $S \in \mathcal{S}_{n}(\mathbb{R})$, 
 $$f : \begin{cases}
 \mathcal{M}_{n, 1}(\mathbb{R}) \to \mathcal{M}_{n, 1}(\mathbb{R}) \\
@@ -615,4 +616,40 @@ Ainsi,
 $$\boxed{\left< x, y \right> =0}$$
 
 $\Leftarrow$ : 
-$$\forall x, y \in E, \exists x_{1}, y_{1} \in E_{1}(f), \exists x_{2}, y_{2} \in E_{-1}(f), x = x_{1}+x_{2} \text{ et }y = y_{1}+y_{2}$$
+$$\forall x, y \in E, \exists x_{1}, y_{1} \in E_{1}(f), \exists x_{2}, y_{2} \in E_{-1}(f), \begin{cases}
+x = x_{1}+x_{2} \\
+y=y_{1}+y_{2}
+\end{cases}$$
+de plus $E_{1}(f) \perp E_{-1}(f)$ : 
+$$\begin{array}{rl}
+\left< f(x), y \right> &= \left< x_{1}-x_{2}, y_{1}+y_{2} \right>  \\
+&= \left< x_{1}, y_{1} \right> - \left< x_{2}, y_{2} \right>  \\
+&= \left< x_{1}, y_{1}-y_{2} \right> +\left< x_{2}, y_{1}-y_{2} \right> \\
+&=\left< x, f(y) \right>    
+\end{array}$$
+
+#### Lemme 5
+Toute matrice symétrique réelle admet au moins une valeur propre réelle. 
+
+Démonstration : poly.
+
+#### Lemme 6
+Si $f \in \mathcal{S}(E)$ et si $\alpha_{1}, \alpha_{2} \in \mathbb{R}$, sont deux valeurs propres distinctes de $f$, alors
+$$E_{\alpha_{1}}(f)\perp E_{\alpha_{2}}(f)$$
+
+Démonstration : 
+$$\begin{array}{c}
+\forall x_{1} \in E_{\alpha_{1}}(f), \forall x_{2} \in E_{\alpha_{2}}(f), \alpha_{1}\left< x_{1}, x_{2} \right> &= \left< \alpha_{1}x_{1}, x_{2} \right>  \\
+&= \left< f(x_{1}), x_{2} \right>  \\
+&= \left< x_{1}, \alpha_{2}x_{2} \right>  \\
+&= \alpha_{2}\left< x_{1}, x_{2} \right> 
+\end{array}$$
+Ainsi, 
+$$\left< x_{1}, x_{2} \right> =0 \text{ car } (\alpha_{1}-\alpha_{2})\neq 0$$ 
+#### Théorème spectral
+Soit $f \in \mathcal{L}(E)$, 
+On a équivalence entre : 
+$$\begin{cases}
+f^{*} = f \\
+
+\end{cases}$$
