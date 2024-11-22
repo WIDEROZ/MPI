@@ -91,6 +91,4 @@ $$\boxed{\vec{E} = \vec{B} \wedge \vec{V}}$$
 lorsque les particules sont immobiles
 
 ## 5.
-$$\vec{V}(q / \mathcal{R}') = \vec{V}(q / \mathcal{R}) + \frac{d \overrightarrow{OO'}}{dt}(q / \mathcal{R})$$
-Alors, 
-$$\vec{V}(q / \mathcal{R}') = \vec{V}(q / \mathcal{R}) - \vec{V}(q / \mathcal{R}) = \overrightarrow{0} $$
+$$\vec{V}(q / \mathcal{R}) = \vec{V}(q / \mathcal{R}') +  \vec{V}(O' / \mathcal{R})$$
