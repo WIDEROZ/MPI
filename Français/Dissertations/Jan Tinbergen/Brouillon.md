@@ -16,5 +16,8 @@ La nature Humaine désigne ici les besoins primaires d'un Homme lorsqu'il est à
 
 L'individu est perçu par l'économiste comme toute organisation lié à un être Humain
 
-###### Analyse
-Il existe des communautés attirantes qui permettent à un individu de developer ses passions, mais alors si celles-ci entravent la prise de considération de l'intérêt d'une communauté, les développer ne seraient elles pas néfaste pour l'individu? Ainsi, toutes les communautés seraient 
+###### Présupposés / Analyse
+Il existe des communautés attirantes qui permettent à un individu de developer ses passions, mais alors si celles-ci entravent la prise de considération de l'intérêt d'une communauté, les développer ne seraient elles pas néfaste pour l'individu? Ainsi, ces communautés auraient un effet dépréciatif sur l'Homme, ce qui contredit le fait qu'elles soient bénéfiques. 
+
+#### Problématique 
+En quoi une communauté est bénéfique à un individu au point de 
