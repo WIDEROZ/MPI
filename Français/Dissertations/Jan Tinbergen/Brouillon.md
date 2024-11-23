@@ -20,6 +20,5 @@ L'individu est perçu par l'économiste comme toute organisation lié à un êtr
 Il existe des communautés attirantes qui permettent à un individu de developer ses passions, mais alors si celles-ci entravent la prise de considération de l'intérêt d'une communauté, les développer ne seraient elles pas néfaste pour l'individu? Ainsi, ces communautés auraient un effet dépréciatif sur l'Homme, ce qui contredit le fait qu'elles soient bénéfiques. 
 
 #### Problématique 
-En quoi la communauté est elle bénéfique pour l'individu qui l'a choisit. 
+Les affects des individus sont-ils préjudiciables lors du jugement des bienfaits d'une communauté? 
 
-Les affects des individus sont-ils dépréciés lors 
