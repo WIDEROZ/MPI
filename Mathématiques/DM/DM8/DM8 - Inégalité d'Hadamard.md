@@ -46,9 +46,5 @@ $$\boxed{R_{s}(x)= \sum_{k = 1}^{n} \lambda_{k} x_{k}^{2}}$$
 
 #### b.
 Soit $x \in S(0, 1)$, 
+$$\left|\left| x \right|\right|^{2} \leq 1$$
 $$R(x) = \sum_{k = 1}^{n} \lambda_{k}x_{k}^{2} \leq \sum_{k = 1}^{n} \lambda_{k}$$
-car $\forall k \in [\![1, n]\!], x_{k}^{2} \leq 1$.
-Comme $\forall k \in [\![1, n]\!], \lambda_{k}\geq 0$, 
-en particulier
-$$0 \leq R(x) \leq \lambda_{n}$$
-$$R(x) \in [\lambda_{1}, \lambda_{n}]$$
