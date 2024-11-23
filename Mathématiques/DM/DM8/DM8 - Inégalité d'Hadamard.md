@@ -48,3 +48,8 @@ $$\boxed{R_{s}(x)= \sum_{k = 1}^{n} \lambda_{k} x_{k}^{2}}$$
 Soit $x \in S(0, 1)$, 
 $$\left|\left| x \right|\right|^{2} \leq 1$$
 $$R(x) = \sum_{k = 1}^{n} \lambda_{k}x_{k}^{2} \leq \sum_{k = 1}^{n} \lambda_{k}$$
+
+### Question 3
+#### a.
+Soit $(e_{i})_{i = 1}^{n} \in E$ la base canonique de $E$, 
+$$\forall i, j \in [\![1, n]\!], s_{i, j} =  \left< \lambda_{i}\varepsilon_{i}, \varepsilon_{j} \right> $$
