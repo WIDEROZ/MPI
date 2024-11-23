@@ -37,8 +37,14 @@ Donc comme $2 \neq 1$,
 $$\boxed{S \text{ n'est pas diagonalisable}}$$
 
 ### Question 2
+#### a.
 Soit $x \in E$, 
 On pose : 
 $$\forall i \in [\![1, n]\!], x_{i} = \left< x, \varepsilon_{i} \right> \in \mathbb{R}$$
-$$R_{s}(x) = \left< s(x), x \right> = \left< \sum_{k =1}^{n} \lambda_{i}\varepsilon_{i}, \sum_{k = 1}^{n}x_{i}\varepsilon_{i} \right> $$
-$$$$
+$$R_{s}(x) = \left< s(x), x \right> = \left< \sum_{i =1}^{n} \lambda_{i}x_{i}\varepsilon_{i}, \sum_{i = 1}^{n}x_{i}\varepsilon_{i} \right>  $$
+$$=\sum_{i = 1}^{n}\sum_{k = 1}^{n}\lambda_{i}x_{i}x_{k}\left< \varepsilon_{i}, \varepsilon_{k} \right>=\sum_{i = 1}^{n}\sum_{k = 1}^{n}\lambda_{i}x_{i}x_{k} \delta_{i, k} = \sum_{k = 1}^{n} \lambda_{k}x_{k}^{2}$$
+Ainsi, 
+$$\boxed{R_{s}(x)= \sum_{k = 1}^{n} \lambda_{k} x_{k}^{2}}$$
+
+#### b.
+$$R_{s}(S(0, 1)) = R_{s}()$$
