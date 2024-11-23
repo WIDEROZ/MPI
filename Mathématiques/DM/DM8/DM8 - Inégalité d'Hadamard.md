@@ -51,5 +51,18 @@ $$R(x) = \sum_{k = 1}^{n} \lambda_{k}x_{k}^{2} \leq \sum_{k = 1}^{n} \lambda_{k}
 
 ### Question 3
 #### a.
-Soit $(e_{i})_{i = 1}^{n} \in E$ la base canonique de $E$, 
-$$\forall i, j \in [\![1, n]\!], s_{i, j} =  \left< \lambda_{i}\varepsilon_{i}, \varepsilon_{j} \right> $$
+$$\boxed{\forall i, j \in [\![1, n]\!], s_{i, j} =  \left< \lambda_{i}\varepsilon_{i}, \varepsilon_{j} \right> }$$
+
+#### b.
+$$\forall i \in [\![1, n]\!], s_{i, i} = \lambda_{i}$$
+comme $\lambda_{1} \leq \dots \leq \lambda_{n}$
+Ainsi, 
+$$\boxed{\forall i \in [\![1, n]\!], \lambda_{1} \leq s_{i, i} \leq \lambda_{n}}$$
+
+
+## Partie 2 : Inégalité d'Hadamard
+### Question 4
+$\ln$ est concave sur $I = ]0, + \infty[$, alors, 
+$$\forall x, y \in I, \forall \lambda \in [0, 1], \ln(x(1-t) + \lambda y) \geq \ln(x)(1-t) + \lambda \ln(y)$$
+Donc, 
+$$\frac{1}{n}\sum_{i = 1}^{n} \ln(a_{i}) = \ln\left( \left( \prod_{i = 1}^{n}a_{i} \right)^{1/n} \right) \geq \left(\prod_{i = 1}^{n}a_{i} \right)^{1/n}$$
