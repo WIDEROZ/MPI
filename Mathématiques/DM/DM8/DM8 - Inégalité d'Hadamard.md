@@ -16,4 +16,7 @@ $$M = P^{-1}DP = P^{\bot}DP$$
 
 #### b.
 On prend : 
-$$\chi_{S} =  $$
+$$\chi_{S} = \det(XI_{n}-S) = \left| \begin{array}{c}
+X-i&-1 \\
+-1&X+i
+\end{array}\right| = X^{2}$$
