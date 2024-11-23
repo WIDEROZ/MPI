@@ -62,7 +62,22 @@ $$\boxed{\forall i \in [\![1, n]\!], \lambda_{1} \leq s_{i, i} \leq \lambda_{n}}
 
 ## Partie 2 : Inégalité d'Hadamard
 ### Question 4
+#### a.
 $\ln$ est concave sur $I = ]0, + \infty[$, alors, 
-$$\forall x, y \in I, \forall \lambda \in [0, 1], \ln(x(1-t) + \lambda y) \geq \ln(x)(1-t) + \lambda \ln(y)$$
+$$\forall x, y \in I, \forall \lambda \in [0, 1], \ln(x(1-\lambda) + \lambda y) \geq \ln(x)(1-\lambda) + \lambda \ln(y)$$
 Donc, 
-$$\frac{1}{n}\sum_{i = 1}^{n} \ln(a_{i}) = \ln\left( \left( \prod_{i = 1}^{n}a_{i} \right)^{1/n} \right) \geq \left(\prod_{i = 1}^{n}a_{i} \right)^{1/n}$$
+$$\frac{1}{n}\sum_{i = 1}^{n} \ln(a_{i}) = \ln\left( \left( \prod_{i = 1}^{n}a_{i} \right)^{1/n} \right) \leq \ln\left( \frac{1}{n}\sum_{i = 1}^{n}a_{i} \right)$$
+Ainsi, comme $\exp$ est croissante
+$$\boxed{\left( \prod_{i = 1}^{n} a_{i} \right)^{1/n} \leq \frac{1}{n}\sum_{i = 1}^{n} a_{i}}$$
+
+#### b.
+$$\det(S) = \prod_{i = 1}^{n}s_{i, i}$$
+car $\forall i, j \in [\![1, n]\!], i \neq j \Rightarrow \left< \varepsilon_{i}, \varepsilon_{j} \right>=0$ car $(\varepsilon_{i})_{i = 1}^{n}$ est orthonormée. 
+Donc d'après la question 4.a. :
+$$\det(S)^{1/n} \leq \frac{1}{n}\sum_{i = 1}^{n}s_{i, i} 
+$$
+Ainsi, 
+$$\boxed{\det(S) \leq \left( \frac{1}{n}\mathrm{Tr}(S)\right)^{n}}$$
+
+### Question 5
+#### a.
