@@ -49,5 +49,6 @@ Soit $x \in S(0, 1)$,
 $$R(x) = \sum_{k = 1}^{n} \lambda_{k}x_{k}^{2} \leq \sum_{k = 1}^{n} \lambda_{k}$$
 car $\forall k \in [\![1, n]\!], x_{k}^{2} \leq 1$.
 Comme $\forall k \in [\![1, n]\!], \lambda_{k}\geq 0$, 
-$$\forall k \in [\![1, n]\!], 0\leq R(x) \leq \lambda_{k}$$
+en particulier
+$$0 \leq R(x) \leq \lambda_{n}$$
 $$R(x) \in [\lambda_{1}, \lambda_{n}]$$
