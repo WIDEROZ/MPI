@@ -2,23 +2,19 @@
 ### Question 1
 #### a.
 ###### Version endomorphisme
-Soit $u \in E$, 
-Comme $E$ est un espace euclidien de dimension $n $, il existe : $p, q, r \in \mathbb{N}$ tels que :
-- $p + q + 2r = n$ 
-- $\exists (\theta_{i})_{i = 1}^{r} \in ]0, 2\pi[ \setminus \{ \pi \}$
-Puis, en notant : 
-$$\forall i \in [\![1, r]\!], R_{i} = \begin{pmatrix}
-\cos(\theta_{i})&-\sin(\theta_{i}) \\
-\sin(\theta_{i})&\cos(\theta_{i})
-\end{pmatrix}$$
-$$\exists \beta \text{ une BON directe de }E, Mat_{\beta}(u) =\begin{pmatrix}
-I_{q}&0&\dots&\dots&0 \\
-\vdots&-I_{p}&&0&\vdots \\
-\vdots&&R_{1}&&\vdots \\
-\vdots&0&&\ddots&0 \\
-0&\dots&\dots&0&R_{r}
-\end{pmatrix}$$
+Soit $f \in \mathcal{S}(E)$, 
+$$\begin{cases}
+\text{il existe une BON de }f \text{ constitué de vecteurs propres de }f  \\
+(\text{on dit que } f \text{ se diagonalise en BON}) \\
+f \text{ est DZ et sess ssesp propres sont }2 \text{ a } 2 \text{ orthogonaux}
+\end{cases}$$
+
+
+
+
+
 ###### Version matricielle
-$$\forall M \in \mathcal{M}_{n}(\mathbb{R}), \exists \Omega \in GL_{n}(\mathbb{R}), \exists D \in $$
+Soit $M \in S_{n}(\mathbb{R})$, il existe une matrice diagonale $D \in D_{n}(\mathbb{R})$ et une matrice orthogonale $P \in O(n)$ telles que :
+$$M = P^{-1}DP = P^{\bot}DP$$
 
 #### b.

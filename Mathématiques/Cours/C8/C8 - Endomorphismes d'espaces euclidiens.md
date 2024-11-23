@@ -648,7 +648,7 @@ Ainsi,
 $$\left< x_{1}, x_{2} \right> =0 \text{ car } (\alpha_{1}-\alpha_{2})\neq 0$$ 
 #### Théorème spectral
 ##### Endomorphisme
-Soit $f \in \mathcal{L}(E)$, 
+Soit $f \in \mathcal{S}(E)$, 
 On a équivalence entre : 
 $$\begin{cases}
 f^{*} = f \\
