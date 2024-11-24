@@ -12,7 +12,12 @@ $$\boxed{E(r) = \frac{e}{4a^{3}\pi\varepsilon_{0}}r}$$
 
 #### c.
 $$\vec{F}_{e} = -\frac{e^{2}}{4a^{3}\pi \varepsilon_{0}}r \vec{e}_{r}$$
-
 $$-e\vec{E} = e \overrightarrow{grad}(V)$$
+$$E_{p}(r) = -\frac{e^{2}}{8a^{3}\pi \varepsilon_{0}}r^{2}$$
+En plaçant l'origine des potentiels en $0$.
 
-$$V(r) = -\frac{e}{8a^{3}\pi \varepsilon_{0}}r^{2}+$$
+Alors, $0$ est une position d'équilibre instable (en dessinant $x \mapsto - x^{2}$)
+
+## 2.
+#### a.
+$$\vec{E} = \vec{E}_{0} + \frac{e}{4a^{3}\pi \varepsilon_{0}}r \vec{e}_{r}$$
