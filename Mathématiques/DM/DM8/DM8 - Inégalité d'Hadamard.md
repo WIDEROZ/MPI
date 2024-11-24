@@ -81,3 +81,8 @@ $$\boxed{\det(S) \leq \left( \frac{1}{n}\mathrm{Tr}(S)\right)^{n}}$$
 
 ### Question 5
 #### a.
+Le déterminant est un invariant de similitude alors, 
+$$\det(S_{\alpha}) = \det(S)$$
+puis, 
+$$S_{\alpha}^{\top} = (DSD)^{\top} = DSD = S_{\alpha}$$
+car $S, D \in D_{n}(\mathbb{R})$ l'ensemble des matrices diagonales de degré $n$ 
