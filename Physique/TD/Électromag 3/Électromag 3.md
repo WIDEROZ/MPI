@@ -40,3 +40,9 @@ $\alpha = 2a^{3}\pi$
 
 # Exercice 2
 ## 1.
+$$V(r) = \frac{\mu_{1}\cos(\theta_{1})}{4\pi \varepsilon_{0}r^{2}}$$
+Ainsi, 
+$$\boxed{\vec{E_{1}} = -\frac{3\mu_{1}\cos(\theta_{1})}{4\pi \varepsilon_{0}r^{3}}\vec{e}_{r}}$$
+
+## 2.
+$$E_{p2}(r) = -\overrightarrow{\mu_{2}}.\vec{E}_{1} = $$
