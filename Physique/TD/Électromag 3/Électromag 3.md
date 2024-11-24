@@ -29,14 +29,14 @@ $$\boxed{r_{eq} = -\frac{8a^{3}\pi \varepsilon_{0}E_{0}}{e}}$$
 
 #### b.
 Car la distance entre la charge positive (en 0) et négative (en $r_{eq}$) n'est pas nulle alors, 
-$$E_{p} = \vec{p}.\vec{E}_{0}$$
+$$E_{p} = -\vec{p}.\vec{E}_{0}$$
+
+Comme $\vec{p} = -er_{eq}\vec{e}_{r}$
+Ainsi, 
+$$p = 8a^{3}\pi \varepsilon_{0}E_{0}$$
 Donc, 
-$$-er - \frac{e^{2}}{8a^{3}\pi \varepsilon_{0}E_{0}}r^{2}= \vec{p}.\vec{e}_{r}= -p$$
-
-Comme $\vec{p} = -er \vec{e}_{r}$, 
-
-
-
+$$\vec{p} = 8a^{3}\pi \varepsilon_{0}\vec{E}_{0} = \alpha \varepsilon_{0} \vec{E}_{0}$$
+$\alpha = 2a^{3}\pi$
 
 # Exercice 2
 ## 1.
