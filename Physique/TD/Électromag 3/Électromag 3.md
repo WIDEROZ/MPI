@@ -11,3 +11,8 @@ Comme : $\rho = \frac{e}{\frac{4}{3}\pi a^{3}}$
 $$\boxed{E(r) = \frac{e}{4a^{3}\pi\varepsilon_{0}}r}$$
 
 #### c.
+$$\vec{F}_{e} = -\frac{e^{2}}{4a^{3}\pi \varepsilon_{0}}r \vec{e}_{r}$$
+
+$$-e\vec{E} = e \overrightarrow{grad}(V)$$
+
+$$V(r) = -\frac{e}{8a^{3}\pi \varepsilon_{0}}r^{2}+$$
