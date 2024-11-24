@@ -20,4 +20,12 @@ Alors, $0$ est une position d'équilibre instable (en dessinant $x \mapsto - x^{
 
 ## 2.
 #### a.
-$$\vec{E} = \vec{E}_{0} + \frac{e}{4a^{3}\pi \varepsilon_{0}}r \vec{e}_{r}$$
+$$\vec{E} = \left( {E}_{0} + \frac{e}{4a^{3}\pi \varepsilon_{0}}r \right) \vec{e}_{r}$$
+$$E_{p}(r) = -eE_{0}r - \frac{e^{2}}{8a^{3}\pi \varepsilon_{0}}r^{2}$$
+
+$$E_{p}(r_{eq}) = 0 = r_{eq}\left( -eE_{0} -\frac{e^{2}}{8a^{3}\pi \varepsilon_{0}} r_{eq}\right)$$
+Ainsi, 
+$$\boxed{r_{eq} = -\frac{8a^{3}\pi \varepsilon_{0}E_{0}}{e}}$$
+
+# Exercice 2
+## 1.
