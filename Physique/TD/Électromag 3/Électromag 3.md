@@ -45,4 +45,9 @@ Ainsi,
 $$\boxed{\vec{E_{1}} = -\frac{3\mu_{1}\cos(\theta_{1})}{4\pi \varepsilon_{0}r^{3}}\vec{e}_{r}}$$
 
 ## 2.
-$$E_{p2}(r) = -\overrightarrow{\mu_{2}}.\vec{E}_{1} = $$
+$$E_{p2}(r) = -\overrightarrow{\mu_{2}}.\vec{E}_{1} = \frac{3\mu_{1}\mu_{2}\cos(\theta_{1})\cos(\theta_{2})}{4\pi \varepsilon_{0}r^{3}} $$
+
+## 3.
+Ainsi, 
+Calculer une relation entre $\theta_{1}$ et $\theta_{2}$ à $\theta_{1}$ fixé
+$$E_{p_{2}}(r_{eq}) = 0 = -\frac{3\mu_{1}\mu_{2}e^{3}}{4(256a^{6}\pi^{4} \varepsilon_{0}^{4}E^{3}_{0})}$$
