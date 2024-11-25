@@ -23,7 +23,7 @@ Il existe des communautés attirantes qui permettent à un individu de developer
 Les affects des individus sont-ils préjudiciables lors du jugement des bienfaits d'une communauté? 
 
 
-# I. L'influence des affects sur l'individu et ses conséquences sur la communauté
+# I. L'influence des affects de l'individu sur la communauté
 L'influence des affects sur l'individu comme la haine ou l'amour apporte une vision irrationnelle de la communauté.
 
 #### 1. L'amour de la communauté se retranscrit sur le comportment de chaque individu en faisant parti
@@ -32,4 +32,4 @@ Dans Le temps de l'innocence de Wharton, l'amour de la Haute société new-yorka
 #### 2. Un ressentiment envers l'organisation politique ou encore la société puis le droit de ce groupe contre ces personnes
 Dans les Suppliantes d'Eschyle, les Danaïdes rejettent les fils d'Egyptos, mais ceux-ci continuent à vouloir le mariage pour la pérennité de leur lignée, ainsi, par les instructions de Danaos les Suppliantes ont élaborées un plan pour tuer les Égyptiades qui est justifié par la mise en péril de la communauté des filles de Danaos. Alors que dans le traité théologico-politique, p.83 Spinoza à le mérite de penser que "Ce n'est pas la haine en effet qui confère la qualité d'ennemi de l'État, c'est le droit qu'a la cité contre lui, [...], elle pourra donc à bon droit, [...], le contraindre à se soumettre ou à s'allier à elle." ici, le philosophe évoque la légitimité d'agir contre ses ennemis. De la même manière,  Winsett dans le temps de l'innocence de Wharton, s’ennuie de sa vie d'intellectuel en Amérique et voudrait émigrer principalement pour cette raison, mais aussi pour éviter de se mêler avec l'inutilité de la Haute société New-Yorkaise. Il fait une métaphore de la Haute société new-yorkaise : "Vous êtes comme un portrait resté accroché au mur d'une maison abandonnée" p.138
 
-#### 3.
+#### 3. 
