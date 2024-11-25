@@ -19,7 +19,7 @@ L'individu est perçu par l'économiste comme toute organisation lié à un êtr
 ###### Présupposés / Analyse
 Il existe des communautés attirantes qui permettent à un individu de developer ses passions, mais alors si celles-ci entravent la prise de considération de l'intérêt d'une communauté, les développer ne seraient elles pas néfaste pour l'individu? Ainsi, ces communautés auraient un effet dépréciatif sur l'Homme, ce qui contredit le fait qu'elles soient bénéfiques. 
 
-#### Problématique 
+#### Problématique
 Les affects des individus sont-ils préjudiciables lors du jugement des bienfaits d'une communauté? 
 
 
@@ -27,6 +27,7 @@ Les affects des individus sont-ils préjudiciables lors du jugement des bienfait
 L'influence des affects sur l'individu comme la haine ou l'amour apporte une vision irrationnelle de la communauté.
 
 #### 1. L'amour de la communauté se retranscrit sur le comportment de chaque individu en faisant parti
-Dans Le temps de l'innocence de Wharton, l'amour de la Haute société new-yorkaise se dessine à travers les normes, comme l'évoque Archer Newland devant la comtesse Olenska qui lui a demandé de se sacrifier pour épargner à sa famille un scandale. Comme dans le traité théologico-politique de Spinoza, la passion débordante pour la religion Hébraïque, a créé une haine profonde pour les étrangers : "Rien de plus horrible pour eux que de jurer fidélité à un étranger et de lui promettre obéissance" p.127. De plus dans Eschyle, il y a une opposition entre ceux à l'intérieur et ceux à l'extérieur de la cité que l'on nomme : "Les barbares".
+Dans Le temps de l'innocence de Wharton, l'amour de la Haute société new-yorkaise se dessine à travers les normes, comme l'évoque Archer Newland devant la comtesse Olenska qui lui a demandé de se sacrifier pour épargner à sa famille un scandale. Comme dans le traité théologico-politique de Spinoza, la passion débordante pour la religion Hébraïque, a créé une haine profonde pour les étrangers : "Rien de plus horrible pour eux que de jurer fidélité à un étranger et de lui promettre obéissance" p.127. De plus dans l'œuvre Eschyle, il y a une opposition entre ceux à l'intérieur et ceux à l'extérieur de la cité que l'on nomme : "Les barbares".
 
-#### 2. 
+#### 2. Un ressentiment envers l'organisation politique ou encore la société peut mener à une incompréhension de la communauté
+Dans le traité théologico-politique de Spinoza, 
