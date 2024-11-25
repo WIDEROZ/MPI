@@ -26,4 +26,4 @@ Les affects des individus sont-ils préjudiciables lors du jugement des bienfait
 # I. L'influence des affects sur l'individu
 L'influence des affects sur l'individu comme la haine ou l'amour apporte une vision irrationnelle de la communauté.
 
-#### 1. Un sentiment fort pour 
+#### 1. Le nationalisme
