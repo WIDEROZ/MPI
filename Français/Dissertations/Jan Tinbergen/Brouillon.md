@@ -23,4 +23,7 @@ Il existe des communautés attirantes qui permettent à un individu de developer
 Les affects des individus sont-ils préjudiciables lors du jugement des bienfaits d'une communauté? 
 
 
-# I. 
+# I. L'influence des affects sur l'individu
+L'influence des affects sur l'individu comme la haine ou l'amour apporte une vision irrationnelle de la communauté.
+
+#### 1. Un sentiment fort pour 
