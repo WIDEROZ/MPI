@@ -693,4 +693,27 @@ $$Mat_{\beta}(f) = \begin{pmatrix}
 ainsi, 
 $$f = f^*$$
 
-$$\forall S \in \mathbb{S}_{n}(\mathbb{R}), \exists P \in O(n), \exists D \in D_{n}, S$$
+#### Exercice
+Réduire en BON la matrice : 
+$$S = \begin{pmatrix}
+6&-2&2 \\
+-2&5&0 \\
+2&0&7
+\end{pmatrix}\in S_{3}(\mathbb{R})$$
+
+$$\det(XI_{n}-S) = (-1)^{3}\left| \begin{array}{c}
+6-x&-2&2 \\
+-2&5-x&0 \\
+2&0&7-x
+\end{array}\right|$$
+$$= -(2\left| \begin{array}{c}
+-2&5-x \\
+2&0
+\end{array}\right|+(7-x)\left| \begin{array}{c}
+6-x&-2 \\
+-2&5-x
+\end{array}\right|)$$
+Donc, 
+$$\chi_{S} = -4x+20+(x-7)(x^{2}-11+30+28-4x)$$
+Ainsi, 
+$$\chi_{S} = -4x+20+()$$
