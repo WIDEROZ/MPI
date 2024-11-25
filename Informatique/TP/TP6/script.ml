@@ -57,3 +57,23 @@ let r0 = Etoile(
 
 lineariser r0;;
 
+
+type langage_local = {
+  p : (char*int) list;
+  d : (char*int) list;
+  f : ((char*int)*(char*int)) list;
+  cps : bool;
+}
+
+let rec union (l1: 'a list) (l2: 'a list) : 'a list = 
+  match (l1, l2) with
+  | ([], _) -> l2
+  | (_, []) -> l1
+  | (t1::s1, t2::s2) -> if t1 = t2 then  t1::(union s1 s2)
+                        else if t1 < t2 then t1::(union s1 l2)
+                        else t2::(union l1 s2)
+;;
+
+let rec produit (l1: 'a list) (l2: 'a list) : 'a list = 
+
+;;
