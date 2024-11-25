@@ -27,4 +27,4 @@ Les affects des individus sont-ils préjudiciables lors du jugement des bienfait
 L'influence des affects sur l'individu comme la haine ou l'amour apporte une vision irrationnelle de la communauté.
 
 #### 1. L'amour de la communauté se retranscrit négativement sur l'individu
-Dans Le temps de l'innocence de Wharton, l'amour de la Haute société new-yorkaise se dessine à travers les normes, comme l'évoque la contesse 
+Dans Le temps de l'innocence de Wharton, l'amour de la Haute société new-yorkaise se dessine à travers les normes, comme l'évoque Archer Newland devant la comtesse Olenska qui lui a demandé de se sacrifier pour épargner à sa famille un scandale. 
