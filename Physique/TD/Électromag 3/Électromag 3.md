@@ -8,7 +8,7 @@ Le noyau n'est pas une boule c'est une union de protons et de neutrons.
 $$\int \vec{E}.d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}} $$
 $$E(r) 4 \pi r^{2} = \frac{\rho  \frac{4}{3}\pi r^{3}}{\varepsilon_{0}} $$
 Comme : $\rho = \frac{e}{\frac{4}{3}\pi a^{3}}$
-$$\boxed{E(r) = \frac{e}{4a^{3}\pi\varepsilon_{0}}r}$$
+$$\boxed{\vec{E} = \frac{e}{4a^{3}\pi\varepsilon_{0}}re\overrightarrow{_{r}}}$$
 
 #### c.
 $$\vec{F}_{e} = -\frac{e^{2}}{4a^{3}\pi \varepsilon_{0}}r \vec{e}_{r}$$
