@@ -60,3 +60,5 @@ $$\left.\frac{\partial E_{p_{2}}}{\partial \theta_{2}}\right)_{r, \theta_{1}} = 
 Pour
 $$\left.\frac{\partial E_{p_{2}}}{\partial \theta_{2}}\right)_{r, \theta_{1}} = 0$$
 $$\tan(\theta_{1, eq}) = 2\tan(\theta_{2, eq})$$
+
+555564421779635105808972340483046487011794881104507497866200098449195251791106163     m m m m  m m m m mm m  mm  mm m  mm  mm  m m m mm m m m  m m m m m m m m 8819
