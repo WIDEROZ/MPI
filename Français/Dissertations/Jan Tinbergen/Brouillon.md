@@ -23,3 +23,4 @@ Il existe des communautés attirantes qui permettent à un individu de developer
 Les affects des individus sont-ils préjudiciables lors du jugement des bienfaits d'une communauté? 
 
 
+# I. 
