@@ -74,6 +74,14 @@ let rec union (l1: 'a list) (l2: 'a list) : 'a list =
                         else t2::(union l1 s2)
 ;;
 
-let rec produit (l1: 'a list) (l2: 'a list) : 'a list = 
-
+let rec produit (l1: 'a list) (l2: 'a list) = 
+  let rec produit_elt (c : 'a) (l: 'a list) = 
+    match l with
+    | [] -> []
+    | t::s -> (e, t)::(produit_elt e s)
+  in
+  match l1 with
+  | [] -> []
+  | t::s -> (produit_elt t l2)@(produit s l2)
 ;;
+
