@@ -1,5 +1,3 @@
-Soit $(E, \left< \cdot, \cdot \right>)$ un espace euclidien de dimension $n \in \mathbb{N}^{*}$.
-
 # I. Adjoint d'un endomorphisme
 #### Théorème de représentation (de Riesz)
 Notons, $\forall x_{0} \in E, \varphi_{x_{0}} : x \mapsto \left< x_{0}, x \right> \in E^{*}$ car le PS est bilinéaire.

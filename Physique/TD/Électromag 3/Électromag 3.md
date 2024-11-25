@@ -17,7 +17,7 @@ $$E_{p}(r) = \frac{e^{2}}{8a^{3}\pi \varepsilon_{0}}r^{2}$$
 En plaçant l'origine des potentiels en $0$.
 
 Alors, $0$ est une position d'équilibre stable (en dessinant $r \mapsto r^{2}$)
-
+	
 ## 2.
 #### a.
 $$\vec{E} = \left( {E}_{0} + \frac{e}{4a^{3}\pi \varepsilon_{0}}r \right) \vec{e}_{r}$$
@@ -36,7 +36,7 @@ Ainsi,
 $$p = 8a^{3}\pi \varepsilon_{0}E_{0}$$
 Donc, 
 $$\vec{p} = 8a^{3}\pi \varepsilon_{0}\vec{E}_{0} = \alpha \varepsilon_{0} \vec{E}_{0}$$
-$\alpha = 2a^{3}\pi$
+$\alpha = 8a^{3}\pi$
 
 # Exercice 2
 ## 1.
