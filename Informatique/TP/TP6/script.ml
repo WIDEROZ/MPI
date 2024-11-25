@@ -90,4 +90,6 @@ let rec expr_vers_langage (e:regex_lin) : langage_local =
   | Vide_lin -> (p=[];d=[];f=[];eps=false)
   | Epsilon_lin -> (p=[];d=[];f=[];eps=true)
   | Lettre_lin(a) -> (p=[a];d=[a];f=[];eps=false)
-  | Union_lin(c1, c2) -> (p = ((expr_vers_langage c1).p) @ (expr_vers_langage c2).p)
+  | Union_lin(c1, c2) -> let lr1 = expr_vers_langage c1 in
+                         let lr2 = expr_vers_langage c2 in
+                         (p = union (lr1.p) (lr2.p), d = union (lr1.d) (lr2.d), f = union (lr1.f) (lr2.f), eps = (lr1.eps) || (lr2.eps))
