@@ -773,6 +773,30 @@ $$\exists P \in O_{n}(\mathbb{R}), (\alpha_{i})_{i = 1}^{n} \in \mathbb{R}^{n}, 
 Or $x \mapsto x^{3} \in \mathbb{R}$ est bijective, donc
 $$\forall k \in [\![1, n]\!], \exists ! \lambda_{k} \in \mathbb{R}, \lambda^{3}_{k} = \alpha_{k}$$
 Alors, 
-$$R^{3} = P\overbraceP^{-1} = S$$
+$$\begin{array}{c}
+D_{0} \\
+R^{3} = P\overbrace{\begin{pmatrix}
+\lambda_{1}&&0 \\
+&\ddots \\
+0&&\lambda_{n}
+\end{pmatrix}^{3}}P^{-1} = S
+\end{array}$$
 $R$ est symétrique réelle car : 
 $$R^{\top} = (PD_{0}P^{\top})^{\top} = P D_{0} P^{-1} = R$$
+
+###### Unicité
+Notons $\mu_{1} < \mu_{2} < \dots < \mu_{k}$
+les valeurs propres 2 a 2 distinctes de $S$. 
+Soit $R \in S_{n}$ telle que $R^{3} = S$, alors $RS = RR^{3} = R^{3}R = SR$
+si bien que : 
+$$\forall j \in [\![1, k]\!], R \text{ stabilise }E_{\mu_{j}} = \mathrm{Ker}(S-\mu_{j}I_{n})$$
+Donc $R$ induit sur cet espace un endomorphisle : 
+$$r_{j} : \begin{cases}
+E_{\mu_{j}}(S) \to E_{\mu_{j}}(S) \\
+X \mapsto RX
+\end{cases}$$
+Comme $R \in S_{n}(\mathbb{R})$ $r_{j}$ est auto-adjoint
+Donc, il existe une BON de $E_{\mu_{j}}(S)$ constituée de vecteurs propres de $r_{j}$
+Or, 
+$$\forall \eta \in Sp(r_{j}), \exists x \in E_{\mu_{j}}(S), r_{j}(x) = \eta x \text{ et donc }r_{j}^{3}(x) = \eta^{3}x$$
+
