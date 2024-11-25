@@ -18,14 +18,14 @@ En plaçant l'origine des potentiels en $0$.
 
 Alors, $0$ est une position d'équilibre stable (en dessinant $r \mapsto r^{2}$)
 	
-## 2.
-#### a. FAUX car 
+## 2. TOUT FAUX
+#### a. 
 $$\vec{E} = \left( {E}_{0} + \frac{e}{4a^{3}\pi \varepsilon_{0}}r \right) \vec{e}_{r}$$
 $$E_{p}(r) = -eE_{0}r + \frac{e^{2}}{8a^{3}\pi \varepsilon_{0}}r^{2}$$
 
 $$E_{p}(r_{eq}) = 0 = r_{eq}\left( -eE_{0} +\frac{e^{2}}{8a^{3}\pi \varepsilon_{0}} r_{eq}\right)$$
 Ainsi, 
-$$\boxed{r_{eq} = \frac{8a^{3}\pi \varepsilon_{0}E_{0}}{e}}$$
+$$\boxed{r_{eq} = \frac{4a^{3}\pi \varepsilon_{0}E_{0}}{e}}$$
 
 #### b.
 Car la distance entre la charge positive (en 0) et négative (en $r_{eq}$) n'est pas nulle alors, 
@@ -36,7 +36,7 @@ Ainsi,
 $$p = 8a^{3}\pi \varepsilon_{0}E_{0}$$
 Donc, 
 $$\vec{p} = 8a^{3}\pi \varepsilon_{0}\vec{E}_{0} = \alpha \varepsilon_{0} \vec{E}_{0}$$
-$\alpha = 8a^{3}\pi$
+$\alpha = 4a^{3}\pi$
 
 # Exercice 2
 ## 1.
@@ -48,11 +48,15 @@ $$\vec{E}_{1} = \frac{\partial V_{1}}{\partial r_{1}}\vec{e}_{r_{1}} - \frac{1}{
 $$\boxed{\vec{E}_{1} = \frac{\mu_{1}}{4\pi \varepsilon_{0}r_{1}^{3}}(2\cos(\theta_{1})\vec{e}_{r_{1}}+\sin(\theta_{1})\vec{e}_{\theta_{1}})}$$
 
 ## 2.
-$$E_{p2}(r) = -\overrightarrow{\mu_{2}}.\vec{E}_{1} = -\mu_{2}E_{1}\cos(\theta_{1}+\theta_{2}) $$
+$$E_{p_{2}}(r) = -\overrightarrow{\mu_{2}}.\vec{E}_{1}$$
+$$\vec{\mu}_{2} = \mu_{2}(\cos(\theta_{2})\vec{e}_{r_{1}}+\sin(\theta_{2})\vec{e}_{\theta_{1}})$$
+Alors, 
+$$E_{p_{2}}(r) = -\frac{\mu_{1}\mu_{2}}{4\pi \varepsilon_{0}r^{3}}(2\cos(\theta_{1})\cos(\theta_{2})+\sin(\theta_{1})\sin(\theta_{2}))$$
 
 
 
 ## 3.
-Ainsi, 
-Calculer une relation entre $\theta_{1}$ et $\theta_{2}$ à $\theta_{1}$ fixé
-$$E_{p_{2}}(r_{eq}) = 0 = -\frac{3\mu_{1}\mu_{2}e^{3}\cos(\theta_{1})\cos(\theta_{2})}{1024a^{6}\pi^{4} \varepsilon_{0}^{4}E^{3}_{0}}$$
+$$\left.\frac{\partial E_{p_{2}}}{\partial \theta_{2}}\right)_{r, \theta_{1}} = -\frac{\mu_{1}\mu_{2}}{4\pi \varepsilon_{0}r^{3}}(-2\cos(\theta_{1})\sin(\theta_{2})+\sin(\theta_{1})\cos(\theta_{2}))$$
+Pour
+$$\left.\frac{\partial E_{p_{2}}}{\partial \theta_{2}}\right)_{r, \theta_{1}} = 0$$
+$$\tan(\theta_{1, eq}) = 2\tan(\theta_{2, eq})$$
