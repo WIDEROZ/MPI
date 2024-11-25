@@ -62,7 +62,7 @@ type langage_local = {
   p : (char*int) list;
   d : (char*int) list;
   f : ((char*int)*(char*int)) list;
-  cps : bool;
+  eps : bool;
 }
 
 let rec union (l1: 'a list) (l2: 'a list) : 'a list = 
@@ -85,3 +85,9 @@ let rec produit (l1: 'a list) (l2: 'a list) =
   | t::s -> (produit_elt t l2)@(produit s l2)
 ;;
 
+let rec expr_vers_langage (e:regex_lin) : langage_local =
+  match e with
+  | Vide_lin -> (p=[];d=[];f=[];eps=false)
+  | Epsilon_lin -> (p=[];d=[];f=[];eps=true)
+  | Lettre_lin(a) -> (p=[a];d=[a];f=[];eps=false)
+  | Union_lin(c1, c2) -> (p = ((expr_vers_langage c1).p) @ (expr_vers_langage c2).p)
