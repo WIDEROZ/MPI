@@ -26,4 +26,5 @@ Les affects des individus sont-ils préjudiciables lors du jugement des bienfait
 # I. L'influence des affects sur l'individu et ses conséquences sur la communauté
 L'influence des affects sur l'individu comme la haine ou l'amour apporte une vision irrationnelle de la communauté.
 
-#### 1. L'amour de la communauté se retranscrit négativement sur ses 
+#### 1. L'amour de la communauté se retranscrit négativement sur l'individu
+Dans Eschyle, Danaos 
