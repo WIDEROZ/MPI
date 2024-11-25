@@ -714,6 +714,29 @@ $$= -(2\left| \begin{array}{c}
 -2&5-x
 \end{array}\right|)$$
 Donc, 
-$$\chi_{S} = -4x+20+(x-7)(x^{2}-11+30+28-4x)$$
+$$\chi_{S} = (x-6)[(x-7)(x-5)-8] = (x-3)(x-6)(x-9)$$
 Ainsi, 
-$$\chi_{S} = -4x+20+()$$
+$$\chi_{S} = (x-3)(x-6)(x-9)$$
+
+$$E_{3}(S) = \mathrm{Ker}(S-3I_{3}) = \mathrm{Ker}\begin{pmatrix}
+3&-2&2 \\
+-2&2&0 \\
+2&0&4
+\end{pmatrix}=Vect\begin{pmatrix}
+2 \\
+2 \\
+-1
+\end{pmatrix}$$
+On prend : $u_{1} = \frac{1}{3}\begin{pmatrix}2\\2\\-1\end{pmatrix}$
+
+$$E_{6}(S) = \mathrm{Ker}(S-6I_{3}) = \mathrm{Ker}\begin{pmatrix}
+0&-2&2 \\
+-2&-1&0 \\
+2&0&1
+\end{pmatrix} = Vect\begin{pmatrix}
+-1 \\
+2 \\
+2
+\end{pmatrix}$$
+On prend : $u_{2} = \frac{1}{3}\begin{pmatrix}-1\\2\\2\end{pmatrix}$
+$$E_{9}()$$
