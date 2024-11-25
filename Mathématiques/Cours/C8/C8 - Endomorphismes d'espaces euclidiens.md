@@ -739,4 +739,40 @@ $$E_{6}(S) = \mathrm{Ker}(S-6I_{3}) = \mathrm{Ker}\begin{pmatrix}
 2
 \end{pmatrix}$$
 On prend : $u_{2} = \frac{1}{3}\begin{pmatrix}-1\\2\\2\end{pmatrix}$
-$$E_{9}()$$
+$$E_{9}(S) = \mathrm{Ker}(S-9I_{3}) = Vect\begin{pmatrix}
+2 \\
+-1 \\
+2
+\end{pmatrix}$$
+On prend : $u_{3} = \frac13 \begin{pmatrix}2\\-1\\2\end{pmatrix}$
+
+Ainsi, 
+$$S = PDP^{-1}$$
+avec : 
+$$P = \frac{1}{3}\begin{pmatrix}
+2&-1&2 \\
+2&2&-1 \\
+-1&2&2
+\end{pmatrix} \in O(3) \text{ et } D = \begin{pmatrix}
+3&0&0 \\
+0&6&0 \\
+0&0&9
+\end{pmatrix}\in D_{3}(\mathbb{R})$$
+
+#### Exercice 2
+Soit $S \in S_{n}(\mathbb{R})$, $S$ admet une unique racine cubique $R$ symétrique réelle. 
+
+###### Existence
+D'après le théorème spectral, 
+$$\exists P \in O_{n}(\mathbb{R}), (\alpha_{i})_{i = 1}^{n} \in \mathbb{R}^{n}, S = P\begin{pmatrix}
+\alpha_{1}&&&0 \\
+&\alpha_{2} \\
+&&\ddots \\
+0&&&\alpha_{n}
+\end{pmatrix}P^{-1}$$
+Or $x \mapsto x^{3} \in \mathbb{R}$ est bijective, donc
+$$\forall k \in [\![1, n]\!], \exists ! \lambda_{k} \in \mathbb{R}, \lambda^{3}_{k} = \alpha_{k}$$
+Alors, 
+$$R^{3} = P\overbraceP^{-1} = S$$
+$R$ est symétrique réelle car : 
+$$R^{\top} = (PD_{0}P^{\top})^{\top} = P D_{0} P^{-1} = R$$
