@@ -19,7 +19,7 @@ En plaçant l'origine des potentiels en $0$.
 Alors, $0$ est une position d'équilibre stable (en dessinant $r \mapsto r^{2}$)
 	
 ## 2.
-#### a.
+#### a. FAUX car 
 $$\vec{E} = \left( {E}_{0} + \frac{e}{4a^{3}\pi \varepsilon_{0}}r \right) \vec{e}_{r}$$
 $$E_{p}(r) = -eE_{0}r + \frac{e^{2}}{8a^{3}\pi \varepsilon_{0}}r^{2}$$
 
@@ -40,12 +40,17 @@ $\alpha = 8a^{3}\pi$
 
 # Exercice 2
 ## 1.
-$$V(r) = \frac{\mu_{1}\cos(\theta_{1})}{4\pi \varepsilon_{0}r^{2}}$$
+$$V_{1}(r) = \frac{\mu_{1}\cos(\theta_{1})}{4\pi \varepsilon_{0}r_{1}^{2}}$$
 Ainsi, 
-$$\boxed{\vec{E_{1}} = -\frac{3\mu_{1}\cos(\theta_{1})}{4\pi \varepsilon_{0}r^{3}}\vec{e}_{r}}$$
+
+$$\vec{E}_{1} = \frac{\partial V_{1}}{\partial r_{1}}\vec{e}_{r_{1}} - \frac{1}{r_{1}} \frac{\partial V_{1}}{\partial \theta_{1}} \vec{e}_{\theta_{1}} = \frac{\mu_{1}}{4\pi \varepsilon_{0}r_{1}^{3}}(2\cos(\theta_{1})\vec{e}_{r_{1}}+\sin(\theta_{1})\vec{e}_{\theta_{1}})$$
+
+$$\boxed{\vec{E}_{1} = \frac{\mu_{1}}{4\pi \varepsilon_{0}r_{1}^{3}}(2\cos(\theta_{1})\vec{e}_{r_{1}}+\sin(\theta_{1})\vec{e}_{\theta_{1}})}$$
 
 ## 2.
-$$E_{p2}(r) = -\overrightarrow{\mu_{2}}.\vec{E}_{1} = \frac{3\mu_{1}\mu_{2}\cos(\theta_{1})\cos(\theta_{2})}{4\pi \varepsilon_{0}r^{3}} $$
+$$E_{p2}(r) = -\overrightarrow{\mu_{2}}.\vec{E}_{1} = -\mu_{2}E_{1}\cos(\theta_{1}+\theta_{2}) $$
+
+
 
 ## 3.
 Ainsi, 
