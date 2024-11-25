@@ -790,7 +790,7 @@ les valeurs propres 2 a 2 distinctes de $S$.
 Soit $R \in S_{n}$ telle que $R^{3} = S$, alors $RS = RR^{3} = R^{3}R = SR$
 si bien que : 
 $$\forall j \in [\![1, k]\!], R \text{ stabilise }E_{\mu_{j}} = \mathrm{Ker}(S-\mu_{j}I_{n})$$
-Donc $R$ induit sur cet espace un endomorphisle : 
+Donc $R$ induit sur cet espace un endomorphisme : 
 $$r_{j} : \begin{cases}
 E_{\mu_{j}}(S) \to E_{\mu_{j}}(S) \\
 X \mapsto RX
