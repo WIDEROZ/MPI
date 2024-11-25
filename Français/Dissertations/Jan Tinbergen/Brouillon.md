@@ -26,7 +26,7 @@ Les affects des individus sont-ils préjudiciables lors du jugement des bienfait
 # I. L'influence des affects sur l'individu et ses conséquences sur la communauté
 L'influence des affects sur l'individu comme la haine ou l'amour apporte une vision irrationnelle de la communauté.
 
-#### 1. L'amour de la communauté se retranscrit sur l'individu
-Dans Le temps de l'innocence de Wharton, l'amour de la Haute société new-yorkaise se dessine à travers les normes, comme l'évoque Archer Newland devant la comtesse Olenska qui lui a demandé de se sacrifier pour épargner à sa famille un scandale. Comme dans le traité théologico-politique de Spinoza, la passion débordante pour la religion Hébraïque, a créé une haine profonde pour les étrangers. De plus dans Eschyle, il y a une opposition entre ceux à l'intérieur et ceux à l'extérieur de la cité que l'on nomme : "Les barbares".
+#### 1. L'amour de la communauté se retranscrit sur le comportment de chaque individu en faisant parti
+Dans Le temps de l'innocence de Wharton, l'amour de la Haute société new-yorkaise se dessine à travers les normes, comme l'évoque Archer Newland devant la comtesse Olenska qui lui a demandé de se sacrifier pour épargner à sa famille un scandale. Comme dans le traité théologico-politique de Spinoza, la passion débordante pour la religion Hébraïque, a créé une haine profonde pour les étrangers : "Rien de plus horrible pour eux que de jurer fidélité à un étranger et de lui promettre obéissance" p.127. De plus dans Eschyle, il y a une opposition entre ceux à l'intérieur et ceux à l'extérieur de la cité que l'on nomme : "Les barbares".
 
 #### 2. 
