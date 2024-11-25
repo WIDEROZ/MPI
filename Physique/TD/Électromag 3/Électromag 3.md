@@ -50,4 +50,5 @@ $$E_{p2}(r) = -\overrightarrow{\mu_{2}}.\vec{E}_{1} = \frac{3\mu_{1}\mu_{2}\cos(
 ## 3.
 Ainsi, 
 Calculer une relation entre $\theta_{1}$ et $\theta_{2}$ à $\theta_{1}$ fixé
-$$E_{p_{2}}(r_{eq}) = 0 = -\frac{3\mu_{1}\mu_{2}e^{3}}{4(256a^{6}\pi^{4} \varepsilon_{0}^{4}E^{3}_{0})}$$
+$$E_{p_{2}}(r_{eq}) = 0 = -\frac{3\mu_{1}\mu_{2}e^{3}\cos(\theta_{1})\cos(\theta_{2})}{1024a^{6}\pi^{4} \varepsilon_{0}^{4}E^{3}_{0}}$$
+t

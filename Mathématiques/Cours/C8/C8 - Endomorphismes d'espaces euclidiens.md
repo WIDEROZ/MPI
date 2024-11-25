@@ -693,3 +693,4 @@ $$Mat_{\beta}(f) = \begin{pmatrix}
 ainsi, 
 $$f = f^*$$
 
+$$\forall S \in \mathbb{S}_{n}(\mathbb{R}), \exists P \in O(n), \exists D \in D_{n}, S$$
