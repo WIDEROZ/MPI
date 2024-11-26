@@ -133,3 +133,7 @@ $$K^{0} = 10^{\frac{2}{0.059}(E^{0}(I_{2}(s) / I^{-})-E^{0}(H_{3}AsO_{4} / HAsO_
 
 # Exercice 6
 ## 1.
+$$Cu^{2+} + 2e \Leftrightarrow Cu$$
+$$Cu^{+} + e \Leftrightarrow Cu$$
+$$O_{2} + 4H^{+} + 4e \Leftrightarrow 2H_{2}O$$
+
