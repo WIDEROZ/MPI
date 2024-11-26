@@ -74,7 +74,7 @@ Pour $\alpha = 1$ trivial
 
 ## 3. Cas de fonctions positives
 #### Propositions
-$0 \leq f$ et $0 \leq f$, 
+$0 \leq f$ et $0 \leq g$, 
 Si : 
 $$f \leq g \text{ et }\int_{a}^{+\infty} g(t) \, dt \text{ CV}$$
 alors, 
