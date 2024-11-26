@@ -33,3 +33,10 @@ comme $B = B^{\top}$, alors il faut que ces valeurs propres soient positives le 
 Ainsi $B \in \mathcal{S}_{3}^{+}(\mathbb{R})$.
 
 ### Question 11
+$$\det(M) = \det(P^{-1}DP)=\det(D) = \prod_{i =1}^{n} d_{i, i} > 0$$
+Puis, 
+$$\mathrm{Tr}(M) = \mathrm{Tr}(P^{-1}DP) = \mathrm{Tr}(D) > 0$$
+
+## Le critère de Sylvester
+### Question 15
+$$\left( \sum_{j = 1}^{k}x_{i}m_{i, j} \right)_{i \in [\![1, k]\!]}*(x_{i})_{i \in [\![1, k]\!]} = $$
