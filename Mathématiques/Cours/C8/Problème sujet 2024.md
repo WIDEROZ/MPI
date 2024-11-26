@@ -19,7 +19,13 @@ car $x_{1} \neq 0$
 $$P'(X) = 3(X^{2} - 4X + 3)$$
 $$x_{1} = 3 \text{ et } x_{2} = 1$$
 alors, 
-D'après le TVI, il existe un $\lambda \in \mathbb{R}$ tel que : 
-$$P(X) = (X-3)(X-1)(X-\lambda) $$
-$$= X^{3} - (4+\lambda)X^{2}+(4\lambda + 3) X-3\lambda$$
-$$\lambda = -$$
+Comme $P(1) = 1$, $P(3) = -3$, le polynome s'annule 3 fois ainsi $P$ est scindé à racine simple par le TVI il existe $\lambda_{1}, \lambda_{2}, \lambda \in \mathbb{R}$ tel que $P(\lambda_{1}) = P(\lambda_{2}) = P(\lambda_{3}) = 0$
+
+$$\chi_{B} = -\det \begin{pmatrix}
+1-X&0&1 \\
+0&2-X&1 \\
+1&1&3-X
+\end{pmatrix} $$
+$$= (X-1)((2-X)(3-X)-1) + (X-2) = P(X)$$
+
+
