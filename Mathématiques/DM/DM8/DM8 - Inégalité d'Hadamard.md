@@ -102,7 +102,11 @@ $$\begin{pmatrix}
 \alpha_{n}x_{n}
 \end{pmatrix} \in \mathcal{M}_{n,1}(\mathbb{R})$$
 Ainsi, 
-$$S_{\alpha} \in \mathcal{S}_{n}^{+}(\mathbb{R})$$
+$$\boxed{S_{\alpha} \in \mathcal{S}_{n}^{+}(\mathbb{R})}$$
 
 #### b.
-$$\mathrm{Tr}(S_{\alpha}) = \mathrm{Tr}(DSD) = \mathrm{Tr}(D^{2}S) = $$
+$$\boxed{\mathrm{Tr}(S_{\alpha}) = \mathrm{Tr}(DSD) = \mathrm{Tr}(D^{2}S) = \sum_{k = 1}^{n}\alpha_{i}^{2} s_{i, i}}$$
+
+### Question 6
+$$\det(S_{\alpha}) \leq \left( \frac{1}{n} \sum_{k=1}^{n} \alpha_{i}^{2}s_{i, i} \right)^{n} = \left( \frac{1}{n}\times n \right)^{n}= 1$$
+$$\det(S) \leq \left( \frac{1}{n}\sum_{k = 1}^{n}s_{i, i} \right)^{n}$$
