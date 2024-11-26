@@ -133,13 +133,12 @@ $$K^{0} = 10^{\frac{2}{0.059}(E^{0}(I_{2}(s) / I^{-})-E^{0}(H_{3}AsO_{4} / HAsO_
 
 # Exercice 6
 ## 1.
-$$Cu^{2+} + 2e \Leftrightarrow Cu$$
-$$Cu^{+} + e \Leftrightarrow Cu$$
-$$O_{2} + 4H^{+} + 4e \Leftrightarrow 2H_{2}O$$
+Il n'existe pas de réaction spontanée (pas de $K^{0} >1$ pas de $\gamma$ direct)
 
-Donc, 
-$$2Cu^{2+} + O_{2}+4H^{+} \Leftrightarrow 2 H_{2}O + 2Cu$$
-$$K^{0} = Q = [H^{+}]^{4}[O_{2}][Cu^{2+}]^{2}$$
+## 2.
+$$O_{2} + 2Cu + 4H^{+} \Rightarrow 2Cu^{2+} + 2H_{2}O \text{ (} K_{1}^{0} \text{)}$$
+$$O_{2} + 2Cu + 4H^{+} \Rightarrow 2Cu^{2+} + 2H_{2}O \text{ (} K_{1}^{0} \text{)}$$
+
 
 
 # Exercice 7
