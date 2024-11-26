@@ -108,5 +108,15 @@ $$\boxed{S_{\alpha} \in \mathcal{S}_{n}^{+}(\mathbb{R})}$$
 $$\boxed{\mathrm{Tr}(S_{\alpha}) = \mathrm{Tr}(DSD) = \mathrm{Tr}(D^{2}S) = \sum_{k = 1}^{n}\alpha_{i}^{2} s_{i, i}}$$
 
 ### Question 6
-$$\det(S_{\alpha}) \leq \left( \frac{1}{n} \sum_{k=1}^{n} \alpha_{i}^{2}s_{i, i} \right)^{n} = \left( \frac{1}{n}\times n \right)^{n}= 1$$
-$$\det(S) \leq \left( \frac{1}{n}\sum_{k = 1}^{n}s_{i, i} \right)^{n}$$
+$$\det(D)^{2}\det(S)=\det(S_{\alpha}) \leq \left( \frac{1}{n} \sum_{k=1}^{n} \alpha_{i}^{2}s_{i, i} \right)^{n} = \left( \frac{1}{n}\times n \right)^{n}= 1$$
+car $\forall i \in [\![1, n]\!], s_{i, i} > 0$
+Donc, 
+$$\det(S) \leq \frac{1}{\prod_{k = 1}^{n}\alpha_{i}^{2}} = \prod_{k = 1}^{n} s_{i, i}$$
+Ainsi, 
+$$\boxed{\det(S) \leq \prod_{k = 1}^{n} s_{i, i}}$$
+
+### Question 7
+Par l'inégalité précédente : 
+$$\det(S_{\varepsilon})\leq \prod_{k =1}^{n}$$
+
+$$\det(S_{\varepsilon}) = \det(S+\varepsilon I_{n})\leq \left( \frac{1}{n}\sum_{k = 1}^{n}(s_{i, i}+\varepsilon) \right)^{n} = \left( \frac{1}{n}\sum_{k = 1}^{n}s_{i, i} + \varepsilon \right)^{n}$$
