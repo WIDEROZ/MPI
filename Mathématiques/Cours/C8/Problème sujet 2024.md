@@ -58,4 +58,6 @@ $$V= - M_{n-1}^{-1}U \text{ convient}$$
 ### Question 19
 $$1-2x^{2}>0 \Leftrightarrow $$
 
-### Question 20
+### Question 21
+$$2x^{2} + (x+y)^{2} + (x-z)^{2} -xz> 0$$
+$$2x\left( x-\frac{z}{2} \right)+(x-z)^{2} = 3x^{3} -3xz+z^{2}$$
