@@ -533,6 +533,7 @@ $$ \exists P \in O_{3}(\mathbb{R}), t \in \mathbb{R}, M = P^{-1}\begin{pmatrix}
 0&\sin(t)&\cos(t)
 \end{pmatrix}P$$
 
+
 # IV. Endomorphismes auto-adjoints
 ## 1. Le théorème spectral
 #### Définition
