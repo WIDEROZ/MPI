@@ -43,3 +43,12 @@ $$\left( \sum_{j = 1}^{k}x_{j}m_{j, i} \right)_{i \in [\![1, k]\!]}*(x_{i})_{i \
 $$\left( \sum_{j = 1}^{n}x_{j}m_{j, i} \right)_{i \in [\![1, n]\!]}*(x_{i})_{i \in [\![1, n]\!]} = \sum_{i = 1}^{n}\sum_{j = 1}^{n} x_{j}x_{i}m_{i, j}$$
 Ainsi, 
 $$\sum_{i = k+1}^{n}\sum_{j = k+1}^{n} x_{j}x_{i}m_{i, j} = 0$$
+
+### Question 16
+Soit $M \in \mathcal{S}_{n}^{++}$, 
+Soit $k \in [\![1, n]\!]$, $M_{k} \in \mathcal{S}_{n}^{++}$, car :
+$$\forall X_{k} \in \mathcal{M}_{k, 1}(\mathbb{R}) \setminus \{ 0 \}, \exists X \in \mathcal{M}_{n, 1}(\mathbb{R}) \setminus \{ 0 \}, X^{\top}_{k}M_{k}X_{k}=X^{\top}MX$$
+$\geq 0$ car $M \in \mathcal{S}_{n}^{++}(\mathbb{R})$, 
+Ainsi, $\det(M_{k})\geq 0$
+
+### Question 17
