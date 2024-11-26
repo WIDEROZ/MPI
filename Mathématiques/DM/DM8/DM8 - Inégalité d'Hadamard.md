@@ -116,7 +116,11 @@ Ainsi,
 $$\boxed{\det(S) \leq \prod_{k = 1}^{n} s_{i, i}}$$
 
 ### Question 7
-Par l'inégalité précédente : 
-$$\det(S_{\varepsilon})\leq \prod_{k =1}^{n}$$
 
-$$\det(S_{\varepsilon}) = \det(S+\varepsilon I_{n})\leq \left( \frac{1}{n}\sum_{k = 1}^{n}(s_{i, i}+\varepsilon) \right)^{n} = \left( \frac{1}{n}\sum_{k = 1}^{n}s_{i, i} + \varepsilon \right)^{n}$$
+$$(S+\varepsilon I_{n})^{\top} = S+\varepsilon I_{n}$$
+comme $\varepsilon>0$ et $f$
+
+Puis en faisant tendre $\varepsilon$ vers $0$, 
+$$\boxed{\det(S) \leq \prod_{k = 1}^{n} s_{i, i}}$$
+$$\det(S_{\varepsilon}) = \det(S+\varepsilon I_{n})\leq \left( \frac{1}{n}\sum_{k = 1}^{n}(s_{i, i}+\varepsilon) \right)^{n} = \left( \frac{1}{n}\mathrm{Tr}(S) + \varepsilon \right)^{n}$$
+<
