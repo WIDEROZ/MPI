@@ -17,7 +17,9 @@ car $x_{1} \neq 0$
 ## Caractérisation spectrale
 ### Question 10
 $$P'(X) = 3(X^{2} - 4X + 3)$$
-$$x_{1} = 3 \text{ et } x_{2} = 9$$
+$$x_{1} = 3 \text{ et } x_{2} = 1$$
 alors, 
-$$P(X) = (X-3)(X-9)(X-\lambda) = X^{3}-12X(X-\lambda) -\lambda X^{2}$$
-$$= X^{3} +(\lambda-12)X^{2} + 12X\lambda $$
+D'après le TVI, il existe un $\lambda \in \mathbb{R}$ tel que : 
+$$P(X) = (X-3)(X-1)(X-\lambda) $$
+$$= X^{3} - (4+\lambda)X^{2}+(4\lambda + 3) X-3\lambda$$
+$$\lambda = -$$
