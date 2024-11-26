@@ -457,6 +457,8 @@ $$\sum_{n \in \mathbb{N}}c_{n} \text{ ou }\forall n \in \mathbb{N}, c_{n} = \sum
 
 #### Théorème
 Si $\sum_{n \in \mathbb{N}} a_{n}$ et $\sum_{n \in \mathbb{N}}b_{n}$ CV, alors, 
+$$\forall n \in \mathbb{N}, \forall k \in [\![1, n]\!],  c_{n} =a_{k}b_{n-k}$$
+Donc,
 $$\begin{cases}
 \sum c_{n} \text{ CVA} \\
 \sum_{n = 0}^{+ \infty}c_{n} = \left( \sum_{n = 0}^{+\infty}a_{n} \right)\left( \sum_{n = 0}^{+\infty}b_{n} \right)
