@@ -158,3 +158,6 @@ $$U = E(Ni^{2+}/Ni) - E(Fe^{2+}/Fe) = 0.04 \text{ V}$$
 ## 3.
 Sur la feuille de TD
 
+
+# Exercice 8
+## 1.
