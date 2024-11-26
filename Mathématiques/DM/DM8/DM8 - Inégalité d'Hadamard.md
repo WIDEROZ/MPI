@@ -85,8 +85,24 @@ On a :
 $$S_{\alpha}^{\top} = (DSD)^{\top} = (SD)^{\top}D^{\top} = D^{\top}S^{\top}D^{\top} = DSD = S_{\alpha}$$
 car $S$ et $D$ sont symétriques
 puis, 
-$$\forall X \in \mathcal{M}_{n, 1}, X^{\top}DSDX = \begin{pmatrix}
-\alpha_{i}x_{i}
-\end{pmatrix}_{i \in [\![1, n]\!]}*S* \begin{pmatrix}
-\alpha_{1}x_{1}
+$$\forall X = (x_{i})_{i \in [\![1, n]\!]} \in \mathcal{M}_{n, 1}(\mathbb{R})\setminus \{ 0 \}, $$
+$$X^{\top}DSDX = \begin{pmatrix}
+\alpha_{1}x_{1}\dots \alpha_{n}x_{n}
+\end{pmatrix}S\begin{pmatrix}
+\alpha_{1}x_{1} \\
+\vdots \\
+\alpha_{n}x_{n}
 \end{pmatrix}$$
+Donc comme 
+$$\forall Y \in \mathcal{M}_{n, 1}(\mathbb{R}), X^{\top}SX \geq 0$$
+et que 
+$$\begin{pmatrix}
+\alpha_{1}x_{1} \\
+\vdots \\
+\alpha_{n}x_{n}
+\end{pmatrix} \in \mathcal{M}_{n,1}(\mathbb{R})$$
+Ainsi, 
+$$S_{\alpha} \in \mathcal{S}_{n}^{+}(\mathbb{R})$$
+
+#### b.
+$$\mathrm{Tr}(S_{\alpha}) = \mathrm{Tr}(DSD) = \mathrm{Tr}(D^{2}S) = $$
