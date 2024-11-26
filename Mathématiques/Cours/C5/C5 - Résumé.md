@@ -29,3 +29,35 @@ $$\begin{cases}
 \sum c_{n} \text{ CVA} \\
 \sum_{n = 0}^{+ \infty}c_{n} = \left( \sum_{n = 0}^{+\infty}a_{n} \right)\left( \sum_{n = 0}^{+\infty}b_{n} \right)
 \end{cases}$$
+
+#### Théorème : Cas de divergence (Sommes partielles)
+$$\forall n \in \mathbb{N}, a_{n} \geq 0 \text{ et } b_{n} \geq 0$$
+On suppose que
+$$\sum_{n \in \mathbb{N}} b_{n} \text{ DV}$$
+Si $a_{n} = O(b_{n})$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = 0}^{n}a_{n} = O\left( \sum_{k = 0}^{n} b_{k} \right) $$
+Si $a_{n} = o(b_{n})$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = 0}^{n}a_{n} = o\left( \sum_{k = 0}^{n} b_{k} \right) $$
+Si $a_{n} \sim b_{n}$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = 0}^{n}a_{n} \sim  \sum_{k = 0}^{n} b_{k} $$
+Pour toutes ces affirmations, 
+$$\sum_{n \in \mathbb{N}} a_{n} \text{ DV}$$
+
+#### Théorème : Cas de convergence (Reste)
+$$\forall n \in \mathbb{N}, a_{n} \geq 0 \text{ et } b_{n} \geq 0$$
+On suppose que
+$$\sum_{n \in \mathbb{N}} b_{n} \text{ CV}$$
+Si $a_{n} = O(b_{n})$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = n+1}^{+ \infty}a_{n} = O\left( \sum_{k = n+1}^{+\infty} b_{k} \right) $$
+Si $a_{n} = o(b_{n})$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = n+1}^{+\infty}a_{n} = o\left( \sum_{k = n+1}^{+\infty} b_{k} \right) $$
+Si $a_{n} \sim b_{n}$ quand $n\to + \infty$, 
+alors : 
+$$\sum_{k = n+1}^{+\infty}a_{n} \sim  \sum_{k = n+1}^{+\infty} b_{k} $$
+Pour toutes ces affirmations, 
+$$\sum_{n \in \mathbb{N}} a_{n} \text{ CV}$$
