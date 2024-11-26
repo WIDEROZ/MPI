@@ -813,10 +813,10 @@ Soit $f \in S(E)$, et $(\varepsilon_{1}, \dots, \varepsilon_{n})$ une BON de $E$
 $$\forall k \in [\![1, n]\!], \exists \alpha_{k} \in \mathbb{R}, f(\varepsilon_{k}) = \alpha_{k}\varepsilon_{k}$$
 $$\forall x \in E, x = \sum_{k = 1}^{n}\alpha_{k}\varepsilon_{k}, \left< f(x), x \right> = \sum_{k = 1}^{n} \alpha_{k}x_{k}^{2}$$
 
-#### Théorème
+#### Théorème 
 $$\begin{cases}
-f \in S^{+}(E) \Leftrightarrow Sp(f) \in \mathbb{R}_{+} \\
-f \in S^{++}(E) \Leftrightarrow Sp(f) \in \mathbb{R}_{+}^{*}
+f \in S^{+}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+} \\
+f \in S^{++}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+}^{*}
 \end{cases}$$
 par trivialité
 $\square$

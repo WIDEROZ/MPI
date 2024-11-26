@@ -27,5 +27,9 @@ $$\chi_{B} = -\det \begin{pmatrix}
 1&1&3-X
 \end{pmatrix} $$
 $$= (X-1)((2-X)(3-X)-1) + (X-2) = P(X)$$
+Ainsi, 
+comme $B = B^{\top}$, alors il faut que ces valeurs propres soient positives le seul problème est pour $\lambda_{1}$ mais comme $P(0) = -3$ et $P(1) = 1$, $\lambda_{1} > 0$
 
+Ainsi $B \in \mathcal{S}_{3}^{+}(\mathbb{R})$.
 
+### Question 11
