@@ -52,3 +52,10 @@ $\geq 0$ car $M \in \mathcal{S}_{n}^{++}(\mathbb{R})$,
 Ainsi, $\det(M_{k})\geq 0$
 
 ### Question 17
+Comme $M_{n-1}$ est inversible $\det(M) = \det(M_{k}) > 0$, 
+$$V= - M_{n-1}^{-1}U \text{ convient}$$
+
+### Question 19
+$$1-2x^{2}>0 \Leftrightarrow $$
+
+### Question 20
