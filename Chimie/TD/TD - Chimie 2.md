@@ -139,8 +139,11 @@ $$O_{2} + 4H^{+} + 4e \Leftrightarrow 2H_{2}O$$
 
 Donc, 
 $$2Cu^{2+} + O_{2}+4H^{+} \Leftrightarrow 2 H_{2}O + 2Cu$$
-$$K^{0} = Q = [H^{+}]^{4}[O_{2}][Cu^{2+}]$$
+$$K^{0} = Q = [H^{+}]^{4}[O_{2}][Cu^{2+}]^{2}$$
 
 
 # Exercice 7
 ## 1.
+Formule de Nernst : 
+$$E(Fe^{2+}/Fe) = E^{0} + \frac{0.059}{n}\log([Fe]^{2+}) = -0.499$$
+$$E(Ni^{2+}/Ni) = E^{0} + \frac{0.059}{n}\log([Fe]^{2+}) = -0.499$$
