@@ -161,3 +161,7 @@ Sur la feuille de TD
 
 # Exercice 8
 ## 1.
+$E(Zn^{2+}/Zn) < E(Ag^{+}/Ag)$
+
+## 3.
+$$E_{1} = E_{2} \Leftrightarrow E_{1}^{0}- E_{2}^{0} + \frac{0.059}{2}\log(K^{0}) = 0$$
