@@ -137,3 +137,10 @@ $$Cu^{2+} + 2e \Leftrightarrow Cu$$
 $$Cu^{+} + e \Leftrightarrow Cu$$
 $$O_{2} + 4H^{+} + 4e \Leftrightarrow 2H_{2}O$$
 
+Donc, 
+$$2Cu^{2+} + O_{2}+4H^{+} \Leftrightarrow 2 H_{2}O + 2Cu$$
+$$K^{0} = Q = [H^{+}]^{4}[O_{2}][Cu^{2+}]$$
+
+
+# Exercice 7
+## 1.
