@@ -38,4 +38,5 @@ Dans le temps de l'innocence de Wharton, lors de l'exclusion sociale de Ellen Ol
 # II. Seulement, certains affects sont véniels, voir même moteur pour la communauté
 En effet, si cette affirmation est vérifiée, certains affects ne sont pas nécessairement préjudiciables dans le jugement des bienfaits d'une communauté. Ils peuvent même contribuer positivement à la cohésion et à l’évolution de celle-ci.
 
-#### 1. Le fort 
+#### 1. Le fort sentiment envers la structure collective renforce les liens entre individus
+Dans les sept contre Thèbes d'Eschyle, 
