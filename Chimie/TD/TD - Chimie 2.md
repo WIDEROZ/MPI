@@ -137,7 +137,7 @@ Il n'existe pas de réaction spontanée (pas de $K^{0} >1$ pas de $\gamma$ direc
 
 ## 2.
 $$O_{2} + 2Cu + 4H^{+} \Rightarrow 2Cu^{2+} + 2H_{2}O \text{ (} K_{1}^{0} \text{)}$$
-$$O_{2} + 2Cu + 4H^{+} \Rightarrow 2Cu^{2+} + 2H_{2}O \text{ (} K_{1}^{0} \text{)}$$
+$$O_{2} + 4Cu + 4H^{+} \Rightarrow 4Cu^{+} + 2H_{2}O \text{ (} K_{2}^{0} < K^{0}_{1} \text{)}$$
 
 
 
