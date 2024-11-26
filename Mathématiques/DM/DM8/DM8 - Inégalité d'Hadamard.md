@@ -118,9 +118,10 @@ $$\boxed{\det(S) \leq \prod_{k = 1}^{n} s_{i, i}}$$
 ### Question 7
 
 $$(S+\varepsilon I_{n})^{\top} = S+\varepsilon I_{n}$$
-comme $\varepsilon>0$ et $f$
-
+comme $\varepsilon>0$ et $\forall i \in [\![1, n]\!], s_{i, i} > 0$, alors $S_{\varepsilon} \in \mathcal{S}_{n}^{+}(\mathbb{R})$
+Donc on a : 
+$$\forall i \in [\![1, n]\!], s_{i, i} > 0, s_{i, i} +\varepsilon>0$$
+Ainsi, 
+$$\boxed{\det(S_{\varepsilon}) \leq \prod_{k = i}^{n}(s_{i, i} + \varepsilon)}$$
 Puis en faisant tendre $\varepsilon$ vers $0$, 
 $$\boxed{\det(S) \leq \prod_{k = 1}^{n} s_{i, i}}$$
-$$\det(S_{\varepsilon}) = \det(S+\varepsilon I_{n})\leq \left( \frac{1}{n}\sum_{k = 1}^{n}(s_{i, i}+\varepsilon) \right)^{n} = \left( \frac{1}{n}\mathrm{Tr}(S) + \varepsilon \right)^{n}$$
-<
