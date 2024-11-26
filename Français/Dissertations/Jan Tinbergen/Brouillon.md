@@ -37,7 +37,7 @@ Dans le temps de l'innocence de Wharton, lors de l'exclusion sociale de Ellen Ol
 
 # II. Seulement, certains affects sont véniels, voir même moteur pour la communauté
 En effet, si cette affirmation est vérifiée, certains affects ne sont pas nécessairement préjudiciables dans le jugement des bienfaits d'une communauté. Ils peuvent même contribuer positivement à la cohésion et à l’évolution de celle-ci.
-# J'aime le caca
+
 #### 1. Le fort sentiment d’appartenance envers la structure collective renforce les liens entre individus
 Dans les sept contre Thèbes d'Eschyle, le chœur incite les thébains à se battre pour leur cité contre un ennemi commun : "Mes prières demandent ensemble la victoire - va, défenseur de mon foyer" p.158, cette demande a pour but de créer un sentiment national, ce qui renforce les liens des citoyens par un prise de conscience de l'utilité de cette action. Quand à l'influence des Van-der-Luyden, dans le temps de l'innocence de Wharton, elle est considérable sur le monde de la haute société New-Yorkaise comme l'exprime Ellen Olenska p. 90 : "Tout le monde parait avoir pour eux tant d'estime", cette parole illustre a quel point l'aristocratie new-yorkaise est lié par une même pensée. Enfin de même Dans le traité théologico-politique de Baruch Spinoza, il énumère plusieurs manières dont le peuple est contenu mais une idée ressort principalement p.126-127 : "On verra aisément qu'ils \[les chefs de l'état\] ont du faire naître, dans les âmes des citoyens, un amour rendant presque impossible que l'idée leur vint de trahir la patrie ou de faire déflexion", Spinoza a le mérite de penser que ce qui permet de préserver la communauté par l'union, c'est l'amour de leur nation enseigné par leur souverain. 
 
