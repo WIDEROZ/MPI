@@ -144,9 +144,18 @@ $$K^{0} = Q = [H^{+}]^{4}[O_{2}][Cu^{2+}]^{2}$$
 
 # Exercice 7
 ## 1.
-$$Fe^{2+} + 2e \Leftrightarrow Fe$$
+
 $$Ni^{2+} + 2e \Leftrightarrow Ni$$
 Formule de Nernst : 
 $$E(Fe^{2+}/Fe) = E^{0} + \frac{0.059}{2}\log([Fe]^{2+}) = -0.499 V$$
 $$E(Ni^{2+}/Ni) = E^{0} + \frac{0.059}{2}\log([Ni^{2+}]) = -0.459 V$$
+
+$$Fe^{2+} + 2e  \Leftarrow Fe$$
+$$Ni^{2+} + 2e \Rightarrow Ni$$
+
+## 2.
+$$U = E(Ni^{2+}/Ni) - E(Fe^{2+}/Fe) = 0.04 \text{ V}$$
+
+## 3.
+Sur la feuille de TD
 
