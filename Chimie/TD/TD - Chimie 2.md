@@ -131,5 +131,4 @@ Comme à l'équilibre :
 $$Q = K^{0} \text{ et } E_{1}=E_{2}$$
 $$K^{0} = 10^{\frac{2}{0.059}(E^{0}(I_{2}(s) / I^{-})-E^{0}(H_{3}AsO_{4} / HAsO_{2}))} = 4.76$$
 
-# Exercice 5
-## 1.
+# Exercice 6
