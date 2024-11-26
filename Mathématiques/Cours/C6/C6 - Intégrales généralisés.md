@@ -121,13 +121,14 @@ La réciproque est fausse
 
 #### Proposition
 Si $f \underset{+\infty}= O(g)$ et si $g$ est intégrable sur $[a, + \infty[$ alors, $f$ aussi
-Si $f \underset{+\infty}\sim O(g)$ et si $g$ est intégrable sur $[a, + \infty[$ alors, $f$ aussi
+Si $f \underset{+\infty}\sim g$ et si $g$ est intégrable sur $[a, + \infty[$ alors, $f$ aussi
 
 # II. Intégrales généralisé sur un intervalle quelconque
 Soit $a, b \in \mathbb{R}$ tels que $a<b$, 
 #### Définition
 Pour $I_{1} = [a, b[$, 
 $$\int_{I_{1}} f(t)\, dt  = \lim_{ \underset{x < b}{x \to b} } \int _{a}^{x} f(t)  \, dt $$
+
 
 Pour $I_{2} = ]a, b]$, 
 $$\int_{I_{2}} f(t)\, dt  = \lim_{ \underset{x > a}{x \to a} } \int _{x}^{b} f(t)  \, dt $$
