@@ -39,4 +39,7 @@ $$\mathrm{Tr}(M) = \mathrm{Tr}(P^{-1}DP) = \mathrm{Tr}(D) > 0$$
 
 ## Le critère de Sylvester
 ### Question 15
-$$\left( \sum_{j = 1}^{k}x_{i}m_{i, j} \right)_{i \in [\![1, k]\!]}*(x_{i})_{i \in [\![1, k]\!]} = $$
+$$\left( \sum_{j = 1}^{k}x_{j}m_{j, i} \right)_{i \in [\![1, k]\!]}*(x_{i})_{i \in [\![1, k]\!]} = \sum_{i = 1}^{k}\sum_{j = 1}^{k} x_{j}x_{i}m_{i, j}$$
+$$\left( \sum_{j = 1}^{n}x_{j}m_{j, i} \right)_{i \in [\![1, n]\!]}*(x_{i})_{i \in [\![1, n]\!]} = \sum_{i = 1}^{n}\sum_{j = 1}^{n} x_{j}x_{i}m_{i, j}$$
+Ainsi, 
+$$\sum_{i = k+1}^{n}\sum_{j = k+1}^{n} x_{j}x_{i}m_{i, j} = 0$$
