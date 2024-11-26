@@ -798,3 +798,11 @@ Donc, il existe une BON de $E_{\mu_{j}}(S)$ constituée de vecteurs propres de $
 Or, 
 $$\forall \eta \in Sp(r_{j}), \exists x \in E_{\mu_{j}}(S), r_{j}(x) = \eta x \text{ et donc }r_{j}^{3}(x) = \eta^{3}x$$
 
+## 2.Endomorphismes auto-adjoints positifs
+#### Définition
+Soit $f \in \mathcal{L}(E)$ 
+$f$ est dit positif lorsque :
+$$\forall x \in E, \left< f(x), x \right> \in \mathbb{R}_{+}$$
+il est strictement positif lorsque
+$$\forall x \in E \setminus \{ 0 \}, \left< f(x), x \right>\in \mathbb{R}_{+}^{*}$$
+On note $\mathcal{S}^{+}(E)$ (resp. $S^{++}(E)$) l'ensemble des $f \in S(E)$ positifs (resp. strictement positifs)
