@@ -39,4 +39,4 @@ Dans le temps de l'innocence de Wharton, lors de l'exclusion sociale de Ellen Ol
 En effet, si cette affirmation est vérifiée, certains affects ne sont pas nécessairement préjudiciables dans le jugement des bienfaits d'une communauté. Ils peuvent même contribuer positivement à la cohésion et à l’évolution de celle-ci.
 
 #### 1. Le fort sentiment envers la structure collective renforce les liens entre individus
-Dans les sept contre Thèbes d'Eschyle, 
+Dans les sept contre Thèbes d'Eschyle, le chœur incite les thébains à se battre pour leur cité contre un ennemi commun : "Mes prières demandent ensemble la victoire - va, défenseur de mon foyer" p.158, un sentiment national naît de cette demande ce qui renforce les liens des citoyens 
