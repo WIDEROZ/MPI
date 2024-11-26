@@ -35,5 +35,6 @@ Dans les Suppliantes d'Eschyle, les Danaïdes rejettent les fils d'Egyptos, mais
 #### 3. La haine entre les membres d'une communauté
 Dans le temps de l'innocence de Wharton, lors de l'exclusion sociale de Ellen Olenska, les rumeurs sur une liaison entre Archer Newland et Ellen Olenska ont instantanément transformé ce diner en une violente scene d'exclusion. Mais encore, dans les sept contre Thèbes de Eschyle, Polynice se fait bannir de la communauté familiale pour avoir trahi sa cité : "Feras-tu l'honneur d'une tombe à celui que ton pays abhorre?" p.175 ici Le Hérault privilégie Thèbes plutôt qu'au "genos". L'aversion de Polynice par les Cadméens est analogue à la crainte d'un souverain dans le traité théologico-politique de Spinoza : la destruction de l'état par l'intérieur. Lorsque ce même dirigeant est détesté de ses sujets, il ne peut plus gouverner en toute légitimité, ainsi il n'est plus un bienfaiteur pour son état. Alexandre énonce p.104 : "Comptez parmi les autres rois qui ont eu une fin sanglante, ceux qui ont été tués par les leurs, vous les trouverez plus nombreux que ceux qui sont morts à l'ennemi". 
 
-# II. Seulement certains affects sont véniels
+# II. Seulement, certains affects sont véniels, voir même moteur pour la communauté
+En effet, si cette affirmation est vérifiée, certains affects ne sont pas nécessairement préjudiciables dans le jugement des bienfaits d'une communauté. Ils peuvent même contribuer positivement à la cohésion et à l’évolution de celle-ci.
 #### 1. 
