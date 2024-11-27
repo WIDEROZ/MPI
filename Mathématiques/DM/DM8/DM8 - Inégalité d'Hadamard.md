@@ -125,3 +125,7 @@ Ainsi,
 $$\boxed{\det(S_{\varepsilon}) \leq \prod_{k = i}^{n}(s_{i, i} + \varepsilon)}$$
 Puis en faisant tendre $\varepsilon$ vers $0$, 
 $$\boxed{\det(S) \leq \prod_{k = 1}^{n} s_{i, i}}$$
+
+## Partie 3 : Détermination d'un minimum
+### Question 8
+$S \in \mathcal{S}^{++}_{n}(\mathcal{R})$
