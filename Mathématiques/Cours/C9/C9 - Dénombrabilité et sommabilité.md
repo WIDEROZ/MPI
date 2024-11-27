@@ -37,5 +37,22 @@ Démonstration :
 Soit 
 $$f:X \to \mathcal{P}(X)$$
 $f$ n'est pas surjective car : 
-$$A = \{ x \in X | x\in f(x) \}$$
-n'appartient pas à l'image de $f$ 
+$$A = \{ x \in X | x\notin f(x) \}$$
+n'appartient pas à l'image de $f$
+en effet si il existait $x_{0} \in X$, 
+$$f(x_{0}) = A = \{ x \in X | x \notin f(x) \}$$
+alors
+$$\begin{cases}
+x_{0} \in A \Rightarrow x_{0} \not\in f(x_{0}) = A \\
+x_{0} \not\in A \Rightarrow x_{0} \in f(x_{0}) = A
+\end{cases}$$
+C'est absurde
+
+
+#### Proposition
+Soit $X$ un ensemble
+On a équivalence entre : 
+$$\begin{cases}
+X \text{ est fini ou dénombrable} \text{ (ie au plus dénombrable)} \\
+\text{il existe une injection } i : X \to \mathbb{N} \text{ (ie )}X \text{ est équipotent }
+\end{cases}$$
