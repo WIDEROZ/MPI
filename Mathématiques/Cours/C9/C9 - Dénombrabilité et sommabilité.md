@@ -80,3 +80,15 @@ k \mapsto x_{k}
 est bijective
 
 #### Corollaire
+$\mathbb{N}, \mathbb{N}^{2}, \mathbb{N}^{k}, \mathbb{Q}$ sont dénombrables
+
+#### Propriété
+1.
+$$\forall k\in \mathbb{N}^{*}, A_{1}, \dots, A_{k} \text{ sont des parties au plus dénombrables}$$
+$$\Rightarrow A_{1} \times \dots \times A_{k} \text{ est au plus dénombrable}$$
+2.
+$$\forall k\in \mathbb{N}^{*}, A_{1}, \dots, A_{k} \text{ sont des parties au plus dénombrables}$$
+d'un ensemble $X$ alors 
+$$\bigcup_{i = 1}^{k} A_{i} \text{ est au plus dénombrable}$$
+3.
+$$(A_{n})_{n }$$
