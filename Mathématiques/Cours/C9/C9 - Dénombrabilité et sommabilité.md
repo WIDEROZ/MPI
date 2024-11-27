@@ -91,4 +91,11 @@ $$\forall k\in \mathbb{N}^{*}, A_{1}, \dots, A_{k} \text{ sont des parties au pl
 d'un ensemble $X$ alors 
 $$\bigcup_{i = 1}^{k} A_{i} \text{ est au plus dénombrable}$$
 3.
-$$(A_{n})_{n }$$
+$(A_{n})_{n \in N}$, est une suite de parties au plus dénombrables d'un ensemble $X$, 
+$$\bigcup_{n\in \mathbb{N}} A_{n} \text{ est au plus dénombrable}$$
+
+#### Propriété
+Les ensembles : 
+$$\mathcal{P}(\mathbb{N}), [0, 1], \mathbb{R}, \{ 0, 1 \}^{\mathbb{N}} \text{ ne sont pas dénombrables}$$
+
+$$\sum_{k = 0}^{+ \infty}  $$
