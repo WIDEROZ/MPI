@@ -56,4 +56,7 @@ Jan Tinbergen a le mérite d'aborder sa pensée à la manière d'un sociologue o
 La nature Humaine désigne ici les besoins primaires d'un Homme lorsqu'il est à l'état de nature. 
 L'individu est perçu par l'économiste comme toute organisation lié à un être Humain.
 Comme présupposé par l'auteur, il existe des communautés attirantes qui permettent à un individu de developer ses passions, mais alors si celles-ci entravent la prise de considération de l'intérêt d'une communauté, les développer ne seraient elles pas néfaste pour l'individu? Ainsi, ces groupes collectifs auraient un effet dépréciatif sur l'Homme, ce qui contredit le fait qu'elles soient bénéfiques. 
-Ainsi, Les affects des individus sont-ils préjudiciables lors du jugement des bienfaits d'une communauté? 
+Ainsi, les affects des individus sont-ils préjudiciables lors du jugement des bienfaits d'une communauté? 
+Certes les affects de l'individu ont de l'influence sur la communauté toutefois, certains affects sont véniels, voir même moteur pour la communauté. 
+Ce development sera appuyé par les oeuvres de Eschyle, les sept contre Thèbes (467) et les suppliantes (463) puis par la préface et du chapitre XVI à XX du traité théologico-politique de Baruch Spinoza et enfin du roman d'Edith Wharton : le temps de l'innocence (1920)
+
