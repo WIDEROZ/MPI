@@ -66,5 +66,17 @@ Ainsi $i$ est injective
 $\Leftarrow$ :
 Soit $i : X\to \mathbb{N}$ une injection
 Si $X$ est fini, $X$ est au plus dénombrable 
-Si $X$ n'est pas fini, $i(X)$ ne l'est pas non plus et est inclus dans $\mathbb{N}$. Comme toute partie non vided de $\mathbb{N}$ admet un minimum, 
+Si $X$ n'est pas fini, $i(X)$ ne l'est pas non plus et est inclus dans $\mathbb{N}$. Comme toute partie non vide de $\mathbb{N}$ admet un minimum, 
 $$\exists x_{0} \in X, i(x_{0}) = \min i(x)$$
+on construit par recurrence : 
+$$\forall k \in \mathbb{N}^{*}, i(x_{k}) = \min i(x) \setminus \{ i(x_{0}), \dots, i(x_{k-1}) \} $$
+alors, 
+$$\forall k \in \mathbb{N}^{*}, i(x_{k})> i(x_{k-1})$$
+Ainsi, 
+$$f : \begin{cases}
+\mathbb{N} \to X \\
+k \mapsto x_{k}
+\end{cases}$$
+est bijective
+
+$$\varepsilon $$
