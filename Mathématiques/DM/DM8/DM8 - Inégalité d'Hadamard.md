@@ -136,3 +136,4 @@ On pose alors :
 $$B = PTP^{\top} = (PTP^{\top})^{\top} = B^{\top}$$
 car $T \in \mathcal{S}_{n}^{++}(\mathbb{R})$
 Alors $B \in \mathcal{S}_{n}(\mathbb{R})$ puis, 
+
