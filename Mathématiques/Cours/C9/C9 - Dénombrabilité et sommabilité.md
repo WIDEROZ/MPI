@@ -98,4 +98,3 @@ $$\bigcup_{n\in \mathbb{N}} A_{n} \text{ est au plus dénombrable}$$
 Les ensembles : 
 $$\mathcal{P}(\mathbb{N}), [0, 1], \mathbb{R}, \{ 0, 1 \}^{\mathbb{N}} \text{ ne sont pas dénombrables}$$
 
-$$\sum_{k = 0}^{+ \infty}  $$
