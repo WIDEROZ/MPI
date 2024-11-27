@@ -49,14 +49,5 @@ Finalement, suivant la complexion des individus et de leur rapport à la communa
 
 
 
-# Introduction
-Dans Le Prince, Machiavel affirme que "les hommes oublient plus facilement la mort de leur père que la perte de leur patrimoine". À l'instar de Tinbergen, il semble suggérer que l'individu est trop souvent guidé par ses intérêts personnels pour pouvoir considérer le bien commun.
-"C'est accorder un trop grand crédit à la nature humaine que de laisser à l'individu le soin de prendre en considération l'intérêt de la communauté" 
-Jan Tinbergen a le mérite d'aborder sa pensée à la manière d'un sociologue ou comportementaliste, ce qui se justifie par l'époque dans laquelle il vit. En 1961 l'Allemagne construit le mur de Berlin, dans un contexte communautaire très divisé et un jugement primant sur tous les individus. 
-La nature Humaine désigne ici les besoins primaires d'un Homme lorsqu'il est à l'état de nature. 
-L'individu est perçu par l'économiste comme toute organisation lié à un être Humain.
-Comme présupposé par l'auteur, il existe des communautés attirantes qui permettent à un individu de developer ses passions, mais alors si celles-ci entravent la prise de considération de l'intérêt d'une communauté, les développer ne seraient elles pas néfaste pour l'individu? Ainsi, ces groupes collectifs auraient un effet dépréciatif sur l'Homme, ce qui contredit le fait qu'elles soient bénéfiques. 
-Ainsi, les affects des individus sont-ils préjudiciables lors du jugement des bienfaits d'une communauté? 
-Certes les affects de l'individu ont de l'influence sur la communauté toutefois, certains affects sont véniels, voir même moteur pour la communauté. 
-Ce development sera appuyé par les oeuvres de Eschyle, les sept contre Thèbes (467) et les suppliantes (463) puis par la préface et du chapitre XVI à XX du traité théologico-politique de Baruch Spinoza et enfin du roman d'Edith Wharton : le temps de l'innocence (1920)
+
 
