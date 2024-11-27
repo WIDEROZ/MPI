@@ -54,5 +54,17 @@ Soit $X$ un ensemble
 On a équivalence entre : 
 $$\begin{cases}
 X \text{ est fini ou dénombrable} \text{ (ie au plus dénombrable)} \\
-\text{il existe une injection } i : X \to \mathbb{N} \text{ (ie )}X \text{ est équipotent }
+\text{il existe une injection } i : X \to \mathbb{N}
 \end{cases}$$
+Démonstration : 
+$\Rightarrow$ :
+Si $X$ est dénombrable $i$ est bijective donc injective
+Si $X$ est fini, il existe $n \in \mathbb{N}^{*}$ tel que : 
+$f : X \to [\![1, n]\!]$ soit bijective
+Ainsi $i$ est injective
+
+$\Leftarrow$ :
+Soit $i : X\to \mathbb{N}$ une injection
+Si $X$ est fini, $X$ est au plus dénombrable 
+Si $X$ n'est pas fini, $i(X)$ ne l'est pas non plus et est inclus dans $\mathbb{N}$. Comme toute partie non vided de $\mathbb{N}$ admet un minimum, 
+$$\exists x_{0} \in X, i(x_{0}) = \min i(x)$$
