@@ -79,4 +79,4 @@ k \mapsto x_{k}
 \end{cases}$$
 est bijective
 
-$$\varepsilon $$
+#### Corollaire
