@@ -128,4 +128,11 @@ $$\boxed{\det(S) \leq \prod_{k = 1}^{n} s_{i, i}}$$
 
 ## Partie 3 : Détermination d'un minimum
 ### Question 8
-$S \in \mathcal{S}^{++}_{n}(\mathcal{R})$
+$S \in \mathcal{S}^{++}_{n}(\mathbb{R})$ alors, d'après le théorème spectral
+$$\exists P \in O_{n}(\mathbb{R}), S = P^{-1}\Delta P$$
+$P \in O_{n}(\mathbb{R})$ la base constitué de vecteurs propres de $S$. 
+$$\mathrm{Tr}(ST) = \mathrm{Tr}(P^{-1}\Delta PT) = \mathrm{Tr}(PTP^{-1}\Delta)= \mathrm{Tr}(PTP^{\top}\Delta)$$
+On pose alors : 
+$$B = (PTP^{\top})^{\top} = PTP^{\top}$$
+car $T \in \mathcal{S}_{n}^{++}(\mathbb{R})$
+Alors $B \in \mathcal{S}_{n}(R)$
