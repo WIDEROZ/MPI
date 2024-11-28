@@ -146,3 +146,24 @@ Il existe donc, $n \in \mathbb{N}$ tel que $J \subset [\![0, n]\!]$. Comme
 $$\forall n \in \mathbb{N}, r_{n} \geq 0 \text{ alors } \sum_{i \in J} r_{i}\leq \sum_{k = 0}^{n} r_{k}\leq \sum_{k = 0}^{+ \infty}r_{k}$$
 Ainsi 
 $$\left\{  \sum_{n \in A}r_{n} ; A \subset \mathbb{N} \text{ et }\left| A\right| \neq + \infty \right\} \text{ est majoré par } \sum_{k = 0}^{+ \infty} r_{k}$$
+
+$\Rightarrow$ : 
+On note 
+$$S = \sup\left\{  \sum_{n \in A}r_{n} ; A \subset \mathbb{N} \text{ et }\left| A\right| \neq + \infty \right\}$$
+Puisque : 
+$$\forall n \in \mathbb{N}, [\![0, n]\!] \text{ est une partie finie de }\mathbb{N}, \sum_{k = 0}^{n}r_{k} = \sum_{k \in [\![0, n]\!]}r_{k} \in \Omega$$
+Donc,
+$$\sum_{k = 0}^{+ \infty}r_{k}\leq \sup\Omega = S$$
+Ainsi comme la somme partielle est majoré la série converge et 
+$$\sum_{k = 0}^{+ \infty}r_{k}\leq S$$
+
+#### Définition
+On appelle partition de $I$ toute famille : 
+$$(I_{n})_{n \in \mathcal{J}} \text{ ou }J \text{ est un ensemble au plus dénombrable}$$
+$$\begin{cases}
+I = \bigcup_{n \in J}I_{n} \\
+\forall n, p \in J, n \neq p \Rightarrow I_{n} \cap I_{p} = \varnothing
+\end{cases}$$
+On le note : 
+$$\boxed{I = \bigsqcup_{n \in J}I_{n}}$$
+$$\bigsqcup_{i \in \mathbb{N}} \{  \}$$
