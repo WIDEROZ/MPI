@@ -60,3 +60,10 @@ $$\left.\frac{\partial E_{p_{2}}}{\partial \theta_{2}}\right)_{r, \theta_{1}} = 
 Pour
 $$\left.\frac{\partial E_{p_{2}}}{\partial \theta_{2}}\right)_{r, \theta_{1}} = 0$$
 $$\tan(\theta_{1, eq}) = 2\tan(\theta_{2, eq})$$
+
+# Exercice 4
+#### 1.
+$$\begin{cases}
+\vec{\Gamma} = \vec{\mu} \wedge \vec{B} \\
+\mathcal{M}(\vec{P}) = \overrightarrow{OM}\wedge -mg\vec{e}_{y} = -rmg(-\cos(\theta)\vec{e}_{z})
+\end{cases}$$
