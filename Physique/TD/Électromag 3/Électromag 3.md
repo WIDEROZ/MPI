@@ -69,4 +69,8 @@ $$\begin{cases}
 \end{cases}$$
 et
 $$\frac{dL_{Oz}}{dt}=J_{Oz}\dot{\theta}$$
-$$J_{Oz} \dot{\theta} = $$
+$$J_{Oz} \dot{\theta} = (B\vec{\mu}\wedge \vec{e}_{x} -Lmg\sin(\theta)\vec{e}_{z}).\vec{e}_{z} $$
+
+$$\vec{\mu} = \mu(\cos(\theta)\vec{e}_{x}-\sin(\theta)\vec{e}_{\theta})$$
+Ainsi, 
+$$\boxed{J_{Oz}\dot{\theta} = -(B\mu + Lmg ) \sin(\theta)}$$
