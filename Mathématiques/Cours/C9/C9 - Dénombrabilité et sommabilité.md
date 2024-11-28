@@ -98,3 +98,18 @@ $$\bigcup_{n\in \mathbb{N}} A_{n} \text{ est au plus dénombrable}$$
 Les ensembles : 
 $$\mathcal{P}(\mathbb{N}), [0, 1], \mathbb{R}, \{ 0, 1 \}^{\mathbb{N}} \text{ ne sont pas dénombrables}$$
 
+# II. Sommabilité
+## Objectif
+Donner un sens à : 
+$$\sum_{i = 0}^{+ \infty} \sum_{j = 0}^{+ \infty} a_{i, j} = S ??$$
+ou $\forall i, j \in \mathbb{N}, a_{i, j} \in \mathbb{C}$
+à t-on? 
+$$\sum_{j = 0}^{+ \infty} \sum_{i=0}^{+ \infty}a_{i, j} = S$$
+
+On pose par exemple : 
+$$\forall i, j \in \mathbb{N}, a_{i, j} = \begin{cases}
+0 \text{  si }i >j \\
+-2^{i-j} \text{ si }i < j \\
+1 \text{ si }i=j
+\end{cases}$$
+$$\forall i \in \mathbb{N}, \sum_{j = 0}^{+ \infty}a_{i, j} = \sum_{j = i+1}^{+ \infty}-2^{i-j}+1 = 1-$$
