@@ -68,9 +68,10 @@ $$\begin{cases}
 \mathcal{M}(\vec{P}) = \overrightarrow{OM}\wedge mg(\cos(\theta)\vec{e}_{r} -\sin(\theta)\vec{e}_{\theta}) = -Lmg\sin(\theta)\vec{e}_{z}
 \end{cases}$$
 et
-$$\frac{dL_{Oz}}{dt}=J_{Oz}\dot{\theta}$$
-$$J_{Oz} \dot{\theta} = (B\vec{\mu}\wedge \vec{e}_{x} -Lmg\sin(\theta)\vec{e}_{z}).\vec{e}_{z} $$
-
+$$L_{Oz}=J_{Oz}\dot{\theta}+mL^{2}\dot{\theta}$$
+$$(J_{Oz}+mL^{2}) \ddot{\theta} = (B\vec{\mu}\wedge \vec{e}_{x} -LMg\sin(\theta)\vec{e}_{z}).\vec{e}_{z} $$
+avec $M = m_{\alpha} + \frac{m_{t}}{2}$, 
 $$\vec{\mu} = \mu(\cos(\theta)\vec{e}_{x}-\sin(\theta)\vec{e}_{\theta})$$
-Ainsi, 
-$$\boxed{J_{Oz}\dot{\theta} = -(B\mu + Lmg ) \sin(\theta)}$$
+Ainsi,
+
+$$\boxed{\ddot{\theta} + \frac{ \left( m_{\alpha}+\frac{m_{t}}{2} \right)Lg + \mu B}{J_{Oz}+mL^{2}}\sin(\theta) = 0}$$
