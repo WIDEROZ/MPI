@@ -177,10 +177,17 @@ Soit $(I_{n})_{n \in J}$ une partition de $I$ et et $(r_{i})_{i \in I}$ une fami
 Alors, 
 $$\sum_{i \in I}r_{i} = \sum_{n \in J}\left( \sum_{i \in I_{n}}r_{i} \right)$$
 En particulier la famille est sommable ssi 
-$$\sum_{n \in J}\sum_{i \in I_{n}} \neq + \infty$$
+$$\sum_{n \in J}\sum_{i \in I_{n}}r_{i} \neq + \infty$$
 
 Montrons que : 
 $$\left( \frac{1}{np(n+p)} \right)_{(n, p) \in \mathbb{N}^{*2}}\text{ est sommable}$$
-$$\mathbb{N} = \bigsqcup_{d \in \mathbb{N}}\{ (i, j) \in \mathbb{N}^{2} | i+j =d \}$$
+$$\mathbb{N}^{*2} = \bigsqcup_{d \geq 2}\{ (i, j) \in \mathbb{N}^{*2} | i+j =d \} \text{ et }\{ (i, j) \in \mathbb{N}^{*2} | i+j =d \} = D_{d}$$
 Alors, 
-$$\sum_{n \in \mathbb{N}}\sum_{d \in [\![1, n]\!]} \frac{1}{d()}$$
+$$\forall d \geq 2, \sum_{(n, p) \in D_{d}} \frac{1}{np(n+p)} = \sum_{n = 1}^{d-1} \frac{1}{n(d-n)d}$$
+On fait une DES : 
+$$\frac{1}{d^{2}}\sum_{n = 1}^{d-1} \left( \frac{1}{n}+\frac{1}{d-n} \right) = \frac{2H_{d-1}}{d^{2}} \sim \frac{\ln(d)}{d^{2}} = o\left( \frac{1}{d^{1, 5}} \right)$$
+
+
+#### Théorème de Fubini positif
+Si $(r_{n, p})_{(n, p) \in\mathbb{N}^{2}}$ est une famille positive,
+$$\sum_{(n, p) \in \mathbb{N}^{2}}r_{n, p} = \sum_{n = 0}^{+ }$$
