@@ -190,4 +190,15 @@ $$\frac{1}{d^{2}}\sum_{n = 1}^{d-1} \left( \frac{1}{n}+\frac{1}{d-n} \right) = \
 
 #### Théorème de Fubini positif
 Si $(r_{n, p})_{(n, p) \in\mathbb{N}^{2}}$ est une famille positive,
-$$\sum_{(n, p) \in \mathbb{N}^{2}}r_{n, p} = \sum_{n = 0}^{+ }$$
+$$\sum_{(n, p) \in \mathbb{N}^{2}}r_{n, p} = \sum_{p = 0}^{+ \infty}\sum_{n = 0}^{+ \infty }r_{n, p} = \sum_{n = 0}^{+ \infty}\sum_{p = 0}^{+ \infty } r_{n, p}$$
+
+#### Exemple
+Calculer : 
+$$S = \sum_{n = 0}^{+ \infty}\sum_{k = n}^{+ \infty} \frac{1}{k!}$$
+On pose : 
+$$\forall(n, k) \in \mathbb{N}^{2}, r_{n, k} = \begin{cases}
+\frac{1}{k!} \text{ si }k \geq n \\
+0 \text{ sinon}
+\end{cases}$$
+Comme c'est une famille positive, 
+$$S = \sum_{k = 0}^{+ \infty}\sum_{n = 0}^{k} \frac{1}{k!} = \sum_{k =0}^{+ \infty} \frac{k+1}{k!} = \sum_{k = 0}^{+ \infty} \frac{1}{(k-1)!} + \sum_{k = 0}^{+ \infty} \frac{1}{k!} = 2e$$
