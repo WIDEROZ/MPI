@@ -1,3 +1,2 @@
-$$p_{F}(\sin ^{2}) = \left< \sin ^{2},  \right> $$
-
-$$\int _{0}^{2\pi}\cos(x)\cos(2x) \, d $$
+$$d^{2}Q = d(\sigma dS)$$
+$$dS = \pi ((r+dr)^{2}-(dr)^{2})=\pi( r^{2}+)$$
