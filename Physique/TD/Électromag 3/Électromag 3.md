@@ -65,5 +65,8 @@ $$\tan(\theta_{1, eq}) = 2\tan(\theta_{2, eq})$$
 #### 1.
 $$\begin{cases}
 \vec{\Gamma} = \vec{\mu} \wedge \vec{B} \\
-\mathcal{M}(\vec{P}) = \overrightarrow{OM}\wedge -mg\vec{e}_{y} = -rmg(-\cos(\theta)\vec{e}_{z})
+\mathcal{M}(\vec{P}) = \overrightarrow{OM}\wedge mg(\cos(\theta)\vec{e}_{r} -\sin(\theta)\vec{e}_{\theta}) = -Lmg\sin(\theta)\vec{e}_{z}
 \end{cases}$$
+et
+$$\frac{dL_{Oz}}{dt}=J_{Oz}\dot{\theta}$$
+$$J_{Oz} \dot{\theta} = $$
