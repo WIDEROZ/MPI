@@ -166,4 +166,21 @@ I = \bigcup_{n \in J}I_{n} \\
 \end{cases}$$
 On le note : 
 $$\boxed{I = \bigsqcup_{n \in J}I_{n}}$$
-$$\bigsqcup_{i \in \mathbb{N}} \{  \}$$
+
+#### Exemple IMPORTANT
+$$\mathbb{N}^{2} = \bigsqcup_{i \in \mathbb{N}} \{ (i, j) ; j \in \mathbb{N} \} = \bigsqcup_{d \in \mathbb{N}}\{ (i, j) \in \mathbb{N}^{2} | i+j =d \} $$
+de plus, 
+$$\bigsqcup_{d \in \mathbb{N}}\{ (i, d-i) ; i \in [\![0,d]\!] \}= \bigsqcup_{d \in \mathbb{N}}\{ (i, j) \in \mathbb{N}^{2} | i+j =d \}$$
+
+#### Théorème de sommation par paquets
+Soit $(I_{n})_{n \in J}$ une partition de $I$ et et $(r_{i})_{i \in I}$ une famille de réels positifs.
+Alors, 
+$$\sum_{i \in I}r_{i} = \sum_{n \in J}\left( \sum_{i \in I_{n}}r_{i} \right)$$
+En particulier la famille est sommable ssi 
+$$\sum_{n \in J}\sum_{i \in I_{n}} \neq + \infty$$
+
+Montrons que : 
+$$\left( \frac{1}{np(n+p)} \right)_{(n, p) \in \mathbb{N}^{*2}}\text{ est sommable}$$
+$$\mathbb{N} = \bigsqcup_{d \in \mathbb{N}}\{ (i, j) \in \mathbb{N}^{2} | i+j =d \}$$
+Alors, 
+$$\sum_{n \in \mathbb{N}}\sum_{d \in [\![1, n]\!]} \frac{1}{d()}$$
