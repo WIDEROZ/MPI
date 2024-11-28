@@ -112,4 +112,23 @@ $$\forall i, j \in \mathbb{N}, a_{i, j} = \begin{cases}
 -2^{i-j} \text{ si }i < j \\
 1 \text{ si }i=j
 \end{cases}$$
-$$\forall i \in \mathbb{N}, \sum_{j = 0}^{+ \infty}a_{i, j} = \sum_{j = i+1}^{+ \infty}-2^{i-j}+1 = 1-$$
+$$\forall i \in \mathbb{N}, \sum_{j = 0}^{+ \infty}a_{i, j} = \sum_{j = i+1}^{+ \infty}-2^{i-j}+1 = 0$$
+et 
+$$\forall j \in \mathbb{N}, \sum_{i = 0}^{+ \infty}a_{i, j} =2^{-j}$$
+Ainsi, 
+$$\sum_{j = 0}^{+ \infty} \sum_{i = 0}^{+ \infty} a_{i, j}= \sum_{j = 0}^{+ \infty}2^{-j} = 2 \neq  \sum_{i = 0}^{+ \infty}\sum_{j = 0}^{+ \infty}a_{i, j}$$
+
+## 1. Famille de réels positifs
+Dans ce qui suit, $I$ désignera un ensemble au plus dénombrable comme par exemple $[\![0, n]\!], \forall n \in \mathbb{N}^{*}$
+
+#### Définition
+Soit $(r_{i})_{i \in I}$ la famille de réels positifs indexées par $I$, 
+On note : 
+$$S = \sum_{i \in I}r_{i}$$
+où : 
+$$S = \sup\left\{  \sum_{j \in J} r_{j} ; J \subset I \space(J\text{ fini})\right\}\in \mathbb{R}_{+} \cup \{ + \infty \}$$
+On appelle la somme de la famille $(r_{i})_{i \in I}$ ce $S$, et la famille est dite sommable lorsque $S \neq + \infty$
+
+#### Proposition
+Si $I = \mathbb{N}$, 
+$$$$
