@@ -131,4 +131,18 @@ On appelle la somme de la famille $(r_{i})_{i \in I}$ ce $S$, et la famille est 
 
 #### Proposition
 Si $I = \mathbb{N}$, 
-$$$$
+$$(r_{i})_{i \in I} = (r_{n})_{n \in \mathbb{N}} \in \mathbb{R}_{+}^{\mathbb{N}}$$
+Ainsi, 
+$$(r_{i})_{i \in I} \text{ est sommable} \Leftrightarrow \sum_{n \in \mathbb{N}}r_{n} \text{ converge}$$
+Auquel cas : 
+$$\sup \left\{  \sum_{n \in A}r_{n} ; A \subset \mathbb{N} \text{ et }\left| A\right| \neq + \infty \right\}=\sum_{i \in \mathbb{N}}r_{i} = \sum_{n= 0}^{+ \infty}r_{n} = \lim_{ N \to +\infty } \sum_{n = 0}^{N} r_{i}$$
+
+Démonstration : 
+$\Leftarrow$ :
+Puisque : $\sum_{n \in \mathbb{N}}r_{n}$ CV et que cette série est à termes positifs, 
+$$\forall n \in \mathbb{N}, \sum_{k =0}^{n} r_{k} \leq \sum_{k =0}^{+ \infty}r_{k}$$
+Soit $J$ une partie de cardinal fini de $\mathbb{N}$.
+Il existe donc, $n \in \mathbb{N}$ tel que $J \subset [\![0, n]\!]$. Comme 
+$$\forall n \in \mathbb{N}, r_{n} \geq 0 \text{ alors } \sum_{i \in J} r_{i}\leq \sum_{k = 0}^{n} r_{k}\leq \sum_{k = 0}^{+ \infty}r_{k}$$
+Ainsi 
+$$\left\{  \sum_{n \in A}r_{n} ; A \subset \mathbb{N} \text{ et }\left| A\right| \neq + \infty \right\} \text{ est majoré par } \sum_{k = 0}^{+ \infty} r_{k}$$
