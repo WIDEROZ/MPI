@@ -63,5 +63,15 @@ Bv_{y} \\
 E-Bv_{x} \\
 0
 \end{pmatrix}$$
-$v_{z} = cte$ alors $z = 0$ 
-$$$$
+$v_{z} = 0$ alors $z = 0$ 
+$$\frac{d^{2}v_{y}}{dt^{2}} = -\frac{q}{m}B^{2}v_{y}$$
+Ainsi, 
+$$\frac{d^{2}v_{y}}{dt^{2}} + \omega_{c}^{2}v_{y} = 0$$
+Alors, 
+$$v_{y} = A\cos(\omega_{c}t) + C\sin(\omega_{c}t)$$
+$$\begin{cases}
+v_{y}(t=0) = 0 = A \\
+\frac{dv_{y}}{dt} = \frac{q}{m}E-0 \text{ car }v_{x} = 0 \text{ à }t=0
+\end{cases}$$
+Ainsi, 
+$$\boxed{v_{y}(t) = \frac{qE}{m\omega_{c}}\sin(\omega t)}$$
