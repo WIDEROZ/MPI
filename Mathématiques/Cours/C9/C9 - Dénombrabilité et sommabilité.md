@@ -277,8 +277,26 @@ De plus,
 $$\left| \sum_{k \in I}z_{k}\right| \leq \sum_{k \in I}\left| z_{k} \right|$$
 
 #### Théorème de sommation par paquets
-Soit $(I_{n})_{n \in J}$ une partition de $I$ et et $(z_{i})_{i \in I} \in \mathbb{C}^{I}$
+Soit $(I_{n})_{n \in J}$ une partition de $I$ et et $(z_{i})_{i \in I} \in \mathbb{C}^{I}$ sommable
 Alors, 
 $$\sum_{i \in I}z_{i} = \sum_{n \in J}\left( \sum_{i \in I_{n}}z_{i} \right)$$
-En particulier la famille est sommable ssi 
-$$\sum_{n \in J}\sum_{i \in I_{n}}z_{i} \neq + \infty$$
+
+#### Théorème de Fubini complexe
+Si $(z_{n, p})_{(n, p) \in\mathbb{N}^{2}}$ est une famille sommable complexe,
+$$\sum_{(n, p) \in \mathbb{N}^{2}}z_{n, p} = \sum_{p = 0}^{+ \infty}\sum_{n = 0}^{+ \infty }z_{n, p} = \sum_{n = 0}^{+ \infty}\sum_{p = 0}^{+ \infty } z_{n, p}$$
+
+#### Exercice
+Etudier 
+$$f : \begin{cases}
+\mathbb{C}\to \mathbb{C} \\
+z \mapsto \sum_{n = 1}^{+ \infty} \frac{z^{n}}{1-z^{n}}
+\end{cases}$$
+
+Soit $z \in \mathbb{C} \setminus \{ 0 \}$, 
+Si $\left| z\right|\geq 1$, 
+$$\frac{\left| z\right|^{n}}{\left| 1-z^{n}\right|} \sim 1$$
+Donc le terme général ne pas vers $0$.
+Ainsi,
+$$D_{f} \subset \bar{D}(0, 1)$$
+
+$D$
