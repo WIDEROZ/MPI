@@ -179,6 +179,7 @@ $$\sum_{i \in I}r_{i} = \sum_{n \in J}\left( \sum_{i \in I_{n}}r_{i} \right)$$
 En particulier la famille est sommable ssi 
 $$\sum_{n \in J}\sum_{i \in I_{n}}r_{i} \neq + \infty$$
 
+#### Exemple
 Montrons que : 
 $$\left( \frac{1}{np(n+p)} \right)_{(n, p) \in \mathbb{N}^{*2}}\text{ est sommable}$$
 $$\mathbb{N}^{*2} = \bigsqcup_{d \geq 2}\{ (i, j) \in \mathbb{N}^{*2} | i+j =d \} \text{ et }\{ (i, j) \in \mathbb{N}^{*2} | i+j =d \} = D_{d}$$
@@ -249,4 +250,35 @@ $$\begin{cases}
 Si $(x_{k})_{k \in I}\in \mathbb{R}^{I}$ est sommable, on appelle somme de cette famille : 
 $$\sum_{k \in I}x_{k} := \sum_{k \in I}x_{k}^{+} - \sum_{k \in I}x_{k}^{-}$$
 Dans $\mathbb{C}$ : 
-$$\sum_{k \in I}z_{k} = \left( \sum_{k \in I} z_{k}\right)$$
+$$\sum_{k \in I}z_{k} = \sum_{k \in I} \mathrm{Re}(z_{k}) + i\sum_{k \in I}\mathrm{Im}(z_{k})$$
+
+#### Proposition
+Si $(z_{n})_{n \in \mathbb{N}}\in \mathbb{C}^{\mathbb{N}}$
+la famille $(z_{n})_{n \in \mathbb{N}}$ est sommable 
+$\Leftrightarrow$ la série : $\underset{n \in \mathbb{N}}{\sum}z_{n}$ converge absolument
+
+Dans ce cas : 
+$$\sum_{n \in \mathbb{N}}z_{n} = \sum_{n = 0}^{+ \infty}z_{n}$$
+De plus
+$$\forall \sigma \in S_{n}, \sum_{n = 0}^{+ \infty}z_{\sigma(n)} = \sum_{n = 0}^{+\infty}{z_{n}}$$
+C'est la convergence commutative
+
+#### Théorème
+Notons $l^{1}(I)$ l'ensemble des familles complexes sommables $(z_{k})_{k \in I}$ 
+Alors, 
+$$\begin{cases}
+l^{1}(I) \underset{sev}{\subset} \mathcal{F}(I, \mathbb{C}) \\
+\text{L'application }\begin{cases}
+l^{1}(I) \to \mathbb{C} \\
+(z_{k})_{k \in I} \mapsto \sum_{k \in I}z_{k}
+\end{cases} \text{ est }\mathbb{C} \text{ linéaire}
+\end{cases}$$
+De plus, 
+$$\left| \sum_{k \in I}z_{k}\right| \leq \sum_{k \in I}\left| z_{k} \right|$$
+
+#### Théorème de sommation par paquets
+Soit $(I_{n})_{n \in J}$ une partition de $I$ et et $(z_{i})_{i \in I} \in \mathbb{C}^{I}$
+Alors, 
+$$\sum_{i \in I}z_{i} = \sum_{n \in J}\left( \sum_{i \in I_{n}}z_{i} \right)$$
+En particulier la famille est sommable ssi 
+$$\sum_{n \in J}\sum_{i \in I_{n}}z_{i} \neq + \infty$$
