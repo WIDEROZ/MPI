@@ -298,5 +298,19 @@ $$\frac{\left| z\right|^{n}}{\left| 1-z^{n}\right|} \sim 1$$
 Donc le terme général ne pas vers $0$.
 Ainsi,
 $$D_{f} \subset \bar{D}(0, 1)$$
+$\bar{D}$ disque fermé
 
-$D$
+Si $\left| z\right|< 1$,
+$$\frac{\left| z^{n}\right|}{\left| 1-z^{n}\right| }\sim \left| z\right|^{n}\geq 0$$
+Ainsi comme $\left| z\right|< 1$ $D(0, 1) \subset D_{f}$
+ie 
+$$D(0, 1) = D_{f}$$
+On remarque que :
+$$\forall n \in \mathbb{N}, \frac{z^{n}}{1-z^{n}} = \sum_{p = 1}^{+ \infty} (z^{n})^{p}$$
+
+Donc, 
+$$f(z) = \sum_{n =1}^{+ \infty}\sum_{p = 1}^{+ \infty}z^{np}$$
+Pour inverser les sommes, il suffit d'après le théorème de Fubini positif de montrer la sommabilité de $(z^{np})_{(n, p) \in \mathbb{N}^{*}\times \mathbb{N}}$
+Or 
+$$\sum_{n = 1}^{+ \infty}\sum_{p = 1}^{+ \infty}\left| z\right|^{np} = \sum_{n = 1}^{+ \infty} \frac{1}{1-\left| z\right|^{n}}= f(\left| z\right|) < + \infty$$
+D'après fubini positif
