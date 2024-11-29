@@ -15,3 +15,4 @@ $$v_{2} = \sqrt{\frac{2q}{m}U}$$
 avec $U' = \frac{m}{2q}v^{2}_{\max}$
 
 ## 3.
+$$\vec{v} = R\dot{\theta} \vec{e}_{} + $$
