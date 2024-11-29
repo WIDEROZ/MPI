@@ -75,3 +75,10 @@ v_{y}(t=0) = 0 = A \\
 \end{cases}$$
 Ainsi, 
 $$\boxed{v_{y}(t) = \frac{qE}{m\omega_{c}}\sin(\omega t)}$$
+$$\boxed{v_{x}(t) = \frac{E}{B}(1-\cos(\omega_{c}t))}$$
+
+$$\boxed{\vec{v}_{D} = \left< \vec{v} \right> = \left< v_{x} \right> \vec{i} + \left< v_{y} \right> \vec{j} = \frac{E}{B}}$$
+car les valeurs moyennes des fonctions sinusoidales sont nulles
+
+## 2.
+FAUT INTÉGRER
