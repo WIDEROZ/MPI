@@ -326,9 +326,11 @@ $\left| D_{k}\right|$ est le nombre de diviseurs de $k$
 On pose : 
 $$D_{k} = \{ (n, p) \in \mathbb{N}^{*2} | p+n = k \}$$
 
-$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n+p)^{\alpha}} = \sum_{k = 2}^{+ \infty} \sum_{(n, p) \in D_{k}} \frac{1}{k^{\alpha}} = \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha}} \sum_{(n, p) \in D_{k}} $$
-$$= \sum_{k = 2}^{+ \infty} \frac{k+1}{k^{\alpha}} = \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha-1}} + \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha}}$$
+$$S = \sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n+p)^{\alpha}} = \sum_{k = 2}^{+ \infty} \sum_{(n, p) \in D_{k}} \frac{1}{k^{\alpha}} = \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha}} \sum_{(n, p) \in D_{k}} $$
+$$= \sum_{k = 2}^{+ \infty} \frac{k-1}{k^{\alpha}} = \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha-1}} - \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha}}$$
+Ainsi, 
+$$S = \begin{cases}
++ \infty \text{ si }\alpha \leq 2 \\ 
+\zeta(\alpha-1) + \zeta(\alpha) -2 \neq + \infty \text{ si }\alpha > 2
+\end{cases}$$
 
-
-
-calculons 
