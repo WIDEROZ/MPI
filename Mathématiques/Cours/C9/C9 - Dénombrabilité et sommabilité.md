@@ -202,3 +202,9 @@ $$\forall(n, k) \in \mathbb{N}^{2}, r_{n, k} = \begin{cases}
 \end{cases}$$
 Comme c'est une famille positive, 
 $$S = \sum_{k = 0}^{+ \infty}\sum_{n = 0}^{k} \frac{1}{k!} = \sum_{k =0}^{+ \infty} \frac{k+1}{k!} = \sum_{k = 0}^{+ \infty} \frac{1}{(k-1)!} + \sum_{k = 0}^{+ \infty} \frac{1}{k!} = 2e$$
+
+## 2. Famille de complexes
+$I$ est un ensemble au plus dénombrable
+
+#### Définition
+Soit $(z_{i})_{i \in I}$ une famille de complexes, elle est dite sommable lorsque $(\left| z_{i}\right|)_{i \in I}$ l'est.
