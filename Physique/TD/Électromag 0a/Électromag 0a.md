@@ -15,4 +15,16 @@ $$v_{2} = \sqrt{\frac{2q}{m}U}$$
 avec $U' = \frac{m}{2q}v^{2}_{\max}$
 
 ## 3.
-$$\vec{v} = R\dot{\theta} \vec{e}_{} + $$
+$$v_{c} = R\omega_{c}$$
+Ainsi, comme $T = T_{c}$ car on néglige le temps passé 
+$$f = \frac{v_{\max}}{2\pi R_{\max}}$$
+
+## 4.
+$$\Delta E_{c, total} = N \times 2 \times qU$$
+Ainsi 
+$$N = \frac{E_{c, \max}}{2qU}$$
+
+## 5.
+$$\frac{qB}{m} = \omega_{c} = \frac{v_{\max}}{R_{\max}}$$
+Ainsi, 
+$$B = \frac{v_{\max}m}{}$$
