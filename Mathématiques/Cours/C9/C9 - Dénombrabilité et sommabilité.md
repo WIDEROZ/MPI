@@ -312,5 +312,14 @@ Donc,
 $$f(z) = \sum_{n =1}^{+ \infty}\sum_{p = 1}^{+ \infty}z^{np}$$
 Pour inverser les sommes, il suffit d'après le théorème de Fubini positif de montrer la sommabilité de $(z^{np})_{(n, p) \in \mathbb{N}^{*}\times \mathbb{N}}$
 Or 
-$$\sum_{n = 1}^{+ \infty}\sum_{p = 1}^{+ \infty}\left| z\right|^{np} = \sum_{n = 1}^{+ \infty} \frac{1}{1-\left| z\right|^{n}}= f(\left| z\right|) < + \infty$$
-D'après fubini positif
+$$\sum_{n = 1}^{+ \infty}\sum_{p = 1}^{+ \infty}\left| z\right|^{np} = \sum_{n = 1}^{+ \infty} \frac{\left| z\right|^{n}}{1-\left| z\right|^{n}}= f(\left| z\right|) < + \infty$$
+D'après Fubini positif cette famille est sommable
+Ca marche pas trop bien malheureusement. 
+
+Ainsi
+$$\mathbb{N}^{*} \times \mathbb{N}^{*} = \bigsqcup_{k \in \mathbb{N}^{*}}\{ (n, p) \in \mathbb{N}^{*} \times \mathbb{N}^{*} | np = k \}= \bigsqcup_{k \in \mathbb{N}^{*}}D_{k}$$
+Avec cette partition on obtiens : 
+$$\sum_{k = 1}^{+ \infty} \sum_{(n, p) \in D_{k}} z^{np} = \sum_{k = 1}^{+ \infty} z^{k}\left| D_{k}\right| = f(z)$$
+$\left| D_{k}\right|$ est le nombre de diviseurs de $k$
+
+$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n+p)^{\alpha}} = \sum_{n = 1}^{+ \infty} \sum_{()}$$
