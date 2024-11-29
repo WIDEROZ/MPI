@@ -208,3 +208,45 @@ $I$ est un ensemble au plus dénombrable
 
 #### Définition
 Soit $(z_{i})_{i \in I}$ une famille de complexes, elle est dite sommable lorsque $(\left| z_{i}\right|)_{i \in I}$ l'est.
+
+Pour $x \in \mathbb{R}$, on note : 
+$$x^{+} = \begin{cases}
+x \text{ si }x \geq0 \\
+0 \text{ si }x <0
+\end{cases}$$
+$$x^{-} = \begin{cases}
+0 \text{ si }x \geq0 \\
+x \text{ si }x <0
+\end{cases}$$
+Ainsi, 
+$$x = x^{+}-x^{-} \text{ et } \left| x\right| = x^{+}+x^{-}$$
+
+#### Lemme
+1.
+Si $(x_{i})_{i \in I}$ est une famille sommable de réels, elle est sommable $\Leftrightarrow$ $\begin{cases}(x_{i}^{+})_{i \in I} \text{ est sommable}\\ (x_{i}^{-})_{i \in I}\text{ est sommable}\end{cases}$
+2.
+Si $(z_{i})_{i \in I}$ est une famille sommable de complexes, elle est sommable $\Leftrightarrow$ $\begin{cases}(\mathrm{Re}(z_{i}))_{i \in I}\text{ est sommable}\\ (\mathrm{Im}(z_{i}))_{i \in I}\text{ est sommable}\end{cases}$
+
+Démonstration : 
+1.
+$\Rightarrow$ :
+$$\begin{cases}
+0 \leq x_{k}^{+} \leq \left| x_{k}\right| \\
+0 \leq x_{k}^{-} \leq \left| x_{k}\right|
+\end{cases}$$
+$\Leftarrow$ : 
+Soit $J \subset I$, si $J$ est fini : 
+$$\sum_{k \in J}\left| x_{k}\right| = \sum_{k \in J} x_{k}^{+}+x_{k}^{-} \leq \left( \sum_{k \in I}x_{k}^{+} \right) + \left( \sum_{k \in I}x^{-}_{k} \right)$$
+
+2.
+$$\begin{cases}
+\left| \mathrm{Re}(z)\right|\leq \left| z\right| \\
+\left| \mathrm{Im}(z)\right|\leq \left| z\right|
+\end{cases}$$
+
+
+#### Définition
+Si $(x_{k})_{k \in I}\in \mathbb{R}^{I}$ est sommable, on appelle somme de cette famille : 
+$$\sum_{k \in I}x_{k} := \sum_{k \in I}x_{k}^{+} - \sum_{k \in I}x_{k}^{-}$$
+Dans $\mathbb{C}$ : 
+$$\sum_{k \in I}z_{k} = \left( \sum_{k \in I} z_{k}\right)$$
