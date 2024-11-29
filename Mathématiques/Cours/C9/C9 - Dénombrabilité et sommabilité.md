@@ -326,7 +326,9 @@ $\left| D_{k}\right|$ est le nombre de diviseurs de $k$
 On pose : 
 $$D_{k} = \{ (n, p) \in \mathbb{N}^{*2} | p+n = k \}$$
 
-$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n+p)^{\alpha}} = \sum_{k = 1}^{+ \infty} \sum_{(n, p) \in D_{k}} \frac{1}{k^{\alpha}} = \sum_{k = 1}^{+ \infty} \frac{1}{k^{\alpha}} \sum_{(n, p) \in D_{k}}$$
+$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n+p)^{\alpha}} = \sum_{k = 2}^{+ \infty} \sum_{(n, p) \in D_{k}} \frac{1}{k^{\alpha}} = \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha}} \sum_{(n, p) \in D_{k}} $$
+$$= \sum_{k = 2}^{+ \infty} \frac{k+1}{k^{\alpha}} = \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha-1}} + \sum_{k = 2}^{+ \infty} \frac{1}{k^{\alpha}}$$
 
 
-$$0 \leq \frac{1}{(n+p)^{\alpha}}\leq $$
+
+calculons 
