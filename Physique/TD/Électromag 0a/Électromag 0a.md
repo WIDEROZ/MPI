@@ -27,4 +27,41 @@ $$N = \frac{E_{c, \max}}{2qU}$$
 ## 5.
 $$\frac{qB}{m} = \omega_{c} = \frac{v_{\max}}{R_{\max}}$$
 Ainsi, 
-$$B = \frac{v_{\max}m}{}$$
+$$B = \frac{mv_{\max}}{qR_{\max}} = 1.1 \text{ T}$$
+
+# Exercice 2
+## 1.
+$$m \frac{d\vec{v}}{dt} = q(\vec{E} + \vec{v}\wedge \vec{B})$$
+$$m \frac{d\vec{v}}{dt} = q \begin{pmatrix}
+0 \\
+E \\
+0
+\end{pmatrix} + q\begin{pmatrix}
+v_{x} \\
+v_{y} \\
+v_{z}
+\end{pmatrix} \wedge \begin{pmatrix}
+0 \\
+0 \\
+B
+\end{pmatrix} = q \begin{pmatrix}
+0 \\
+E \\
+0
+\end{pmatrix} + q\begin{pmatrix}
+Bv_{y} \\
+Bv_{x} \\
+0
+\end{pmatrix}$$
+Alors, 
+$$\begin{pmatrix}
+\dot{v}_{x} \\
+\dot{v}_{y} \\
+\dot{v}_{z}
+\end{pmatrix} = \frac{q}{m}\begin{pmatrix}
+Bv_{y} \\
+E-Bv_{x} \\
+0
+\end{pmatrix}$$
+$v_{z} = cte$ alors $z = 0$ 
+$$$$
