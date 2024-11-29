@@ -322,4 +322,11 @@ Avec cette partition on obtiens :
 $$\sum_{k = 1}^{+ \infty} \sum_{(n, p) \in D_{k}} z^{np} = \sum_{k = 1}^{+ \infty} z^{k}\left| D_{k}\right| = f(z)$$
 $\left| D_{k}\right|$ est le nombre de diviseurs de $k$
 
-$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n+p)^{\alpha}} = \sum_{n = 1}^{+ \infty} \sum_{()}$$
+#### Exercice
+On pose : 
+$$D_{k} = \{ (n, p) \in \mathbb{N}^{*2} | p+n = k \}$$
+
+$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n+p)^{\alpha}} = \sum_{k = 1}^{+ \infty} \sum_{(n, p) \in D_{k}} \frac{1}{k^{\alpha}} = \sum_{k = 1}^{+ \infty} \frac{1}{k^{\alpha}} \sum_{(n, p) \in D_{k}}$$
+
+
+$$0 \leq \frac{1}{(n+p)^{\alpha}}\leq $$
