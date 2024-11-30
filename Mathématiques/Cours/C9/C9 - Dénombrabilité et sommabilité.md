@@ -334,3 +334,9 @@ $$S = \begin{cases}
 \zeta(\alpha-1) + \zeta(\alpha) -2 \neq + \infty \text{ si }\alpha > 2
 \end{cases}$$
 
+#### Exercice
+Déterminer si les familles : 
+$$\left( \frac{1}{(n+p^{2})(n+p^{2}+1)} \right)_{(n, p) \in \mathbb{N}^{*2}}$$
+$$\left( \frac{1}{a^{p}+b^{n}} \right)_{(n, p)\in \mathbb{N}^{*2}}$$
+$$\left( \frac{1}{n^{\alpha p}} \right)_{(n, p)\in [\![2, + \infty [\![^{2}} $$
+$$\text{ ou }\alpha, a, b > 0$$
