@@ -82,3 +82,9 @@ car les valeurs moyennes des fonctions sinusoidales sont nulles
 
 ## 2.
 FAUT INTÉGRER
+
+
+# Exercice 3
+## 1.
+### a.
+La balance mesure l'intensité du champ $\vec{B}$ car plus il va être important plus la spire va tendre à s'envoler. 
