@@ -355,9 +355,21 @@ $$(u_{n, p})_{(n,p) \in \mathbb{N}^{*2}} \text{ est sommable}$$
 
 
 2.
-Pour $a \leq 1$ et $b \leq 1$ la famille n'est pas sommable
-$$\sum_{n= 1}^{+\infty}\sum_{p = 1}^{+ \infty} \frac{1}{a^{p}+b^{n}} \geq \sum_{n = 1}^{+ \infty}\sum_{p =1}$$
+Pour $a \leq 1$ ou $b \leq 1$ la famille n'est pas sommable
+$$\sum_{n= 1}^{+\infty}\sum_{p = 1}^{+ \infty} \frac{1}{a^{p}+b^{n}} \geq \sum_{n = 1}^{+ \infty}\sum_{p =1}^{+ \infty} \frac{1}{1+b^{n}}=+\infty$$
 
+Pour $a > 1$, 
+comme : $2xy \leq x^{2}+y^{2}$
+$$a^{p}+b^{n} \geq 2a^{p/2}b^{n/2}$$
+Donc, 
+$$\sum_{p=1}^{P} \frac{1}{a^{p}+b^{n}}\leq \frac{1}{2}\sum_{p= 1}^{P} \frac{1}{a^{p/2}b^{n/2}} = \frac{1}{2b^{n/2}} \times \frac{\frac{1}{\sqrt{a}}-\frac{1}{\sqrt{a}^{p+1}}}{1-\frac{1}{\sqrt{a}}}$$
+$$\leq \frac{1}{2(\sqrt{b})^{n}} \frac{1}{\sqrt{a}-1}$$
+Donc, 
+$$\forall n \in \mathbb{N}^{*}, \sum_{p = 1}^{+ \infty} \frac{1}{a^{p}+b^{n}} \leq K\left( \frac{1}{\sqrt{b}} \right)^{n} \text{ ou } K = \frac{1}{2(\alpha-1)}$$
+De même, 
+$$\sum_{n = 1}^{+ \infty}\sum_{p = 1}^{+ \infty} \frac{1}{a^{p}+b^{n}}\leq \frac{K}{\sqrt{b}-1}<+ \infty$$
+Ainsi par Fubini positif, 
+$$
 
 
 
