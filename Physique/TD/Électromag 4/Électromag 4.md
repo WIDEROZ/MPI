@@ -9,4 +9,19 @@ $$\overrightarrow{grad}(U) = 2x \vec{e}_{x} + 2y \vec{e}_{y} + 2z \vec{e}_{z} = 
 $$div(\vec{r}) = 3$$
 
 #### c.
-$$\overrightarrow{rot}(\vec{r}) = \vec{\nabla}\wedge \vec{r} = \left( \frac{\partial }{\partial }  \right)$$
+$$\overrightarrow{rot}(\vec{r}) = \vec{\nabla}\wedge \vec{r} = \left( \frac{\partial r_{z}}{\partial y}- \frac{\partial r_{y}}{\partial z}  \right)\vec{e}_{x} + \left( \frac{\partial r_{x}}{\partial z} -\frac{\partial r_{z}}{\partial x}  \right)\vec{e}_{y} + \left( \frac{\partial r_{y}}{\partial x} -\frac{\partial r_{x}}{\partial y}  \right)\vec{e}_{z}$$
+Ainsi, 
+$$\overrightarrow{rot}(\vec{r}) = \overrightarrow{0}$$
+
+#### d.
+$$\Delta(U) = 6$$
+
+### 2.
+#### a.
+On a :
+$$df = \overrightarrow{grad}(f).d\vec{l}$$
+or $d\vec{l} = dr \vec{e}_{r} + rd{\theta}\vec{e}_{\theta} + r\sin(\theta)\vec{e}_{\varphi}$
+alors, 
+$$\overrightarrow{grad}(f) = \frac{\partial f}{\partial r} \vec{e}_{r} + \frac{1}{r} \frac{\partial f}{\partial \theta} \vec{e}_{\theta} + \frac{1}{r\sin(\theta)} \frac{\partial f}{\partial \varphi} \vec{e}_{\varphi}$$
+
+#### b.
