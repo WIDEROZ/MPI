@@ -31,4 +31,11 @@ $$\overrightarrow{grad}(f \times g) = g\,\overrightarrow{grad}(f) + f\, \overrig
 $$\overrightarrow{grad}(r^{\alpha}) = \alpha r^{\alpha-1}  \overrightarrow{grad}(r)$$
 
 #### d.
-$$\overrightarrow{grad}(r^{\alpha}\vec{a}.\vec{r}) = (\vec{a}.\vec{r}) \overrightarrow{grad}(r^{\alpha}) + r^{\alpha} \overrightarrow{grad}(\vec{a}.\vec{r}) = (\vec{a}.\vec{r})\alpha r^{\alpha-}$$
+$$\overrightarrow{grad}(r^{\alpha}\vec{a}.\vec{r}) = (\vec{a}.\vec{r}) \overrightarrow{grad}(r^{\alpha}) + r^{\alpha} \overrightarrow{grad}(\vec{a}.\vec{r}) = (\vec{a}.\vec{r})\alpha r^{\alpha-2}\vec{r}+r^{\alpha} \overrightarrow{grad}(\vec{a}.\vec{r})$$
+or
+$$\overrightarrow{grad}(\vec{a}.\vec{r}) = \overrightarrow{grad}(a_{x}x+a_{z}z+a_{z}z) = a_{x}\vec{e}_{x}+a_{y}\vec{e}_{y}+a_{z}\vec{e}_{z} = \vec{a}$$
+
+Ainsi, 
+$$\overrightarrow{grad}(r^{\alpha}\vec{a}.\vec{r}) = (\vec{a}.\vec{r})\alpha r^{\alpha-2}\vec{r} + r^{\alpha}\vec{a}$$
+
+### 3.
