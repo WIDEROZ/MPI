@@ -368,16 +368,15 @@ Donc,
 $$\forall n \in \mathbb{N}^{*}, \sum_{p = 1}^{+ \infty} \frac{1}{a^{p}+b^{n}} \leq K\left( \frac{1}{\sqrt{b}} \right)^{n} \text{ ou } K = \frac{1}{2(\alpha-1)}$$
 De même, 
 $$\sum_{n = 1}^{+ \infty}\sum_{p = 1}^{+ \infty} \frac{1}{a^{p}+b^{n}}\leq \frac{K}{\sqrt{b}-1}<+ \infty$$
-Ainsi par Fubini positif, 
-$$
+Ainsi par Fubini positif, la famille est sommable.
 
 
 
 3.
 $$F = \sum_{(n, p) \in \mathbb{N}^{*2} \setminus \{ 1 \}} \frac{1}{n^{\alpha p}} $$
 On a : 
-$$\sum_{n \in \mathbb{N}^{*} \setminus \{ 1 \}} \sum_{p \in \mathbb{N}^{*} \setminus \{ 1 \}}\left( \frac{1}{n^{\alpha}} \right)^{p} = \sum_{n \in \mathbb{N}^{*}\setminus \{ 1 \}}2^{\alpha} \frac{ 1}{1-\frac{1}{n^{\alpha}}}$$
+$$\sum_{n \in \mathbb{N}^{*} \setminus \{ 1 \}} \sum_{p \in \mathbb{N}^{*} \setminus \{ 1 \}}\left( \frac{1}{n^{\alpha}} \right)^{p} = \sum_{n \in \mathbb{N}^{*}\setminus \{ 1 \}} \frac{1}{n^{2\alpha}} \frac{ 1}{1-\frac{1}{n^{\alpha}}} $$
 Or 
-$$\frac{2^{\alpha}}{1-\frac{1}{n^{\alpha}}}\underset{n \to +\infty}{\longrightarrow} 2^{\alpha}$$
+$$\frac{1}{n^{2\alpha}-{n^{\alpha}}} \sim \frac{1}{n^{2\alpha}}$$
 Ainsi, 
-$$F \text{ n'est pas sommable}$$
+$$F \text{ est sommable }\Leftrightarrow \alpha > \frac{1}{2}$$

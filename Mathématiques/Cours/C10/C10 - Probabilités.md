@@ -158,4 +158,3 @@ $$\leq \sum_{k =0}^{n+1}A_{k}$$
 Car $\mathbb{P} \in [0, 1]^{\Omega}$. 
 
 6.
-$$B = $$
