@@ -72,3 +72,26 @@ car $\Omega = \bar{\varnothing} \in \mathcal{A}$
 Ainsi, 
 $$\bigcap_{k \in \mathbb{N}^{*}} A_{k} \in \mathcal{A}$$
 De même pour l'union
+
+#### Formulations
+Soit $x \in \Omega$, 
+Soit $(A_{n})_{n \in \mathbb{N}}$ une famille d’événements 
+
+$$\begin{array}{|c|c|}\hline
+x \in \bigcup_{n \in \mathbb{N}} A_{n} & \exists n \in \mathbb{N}, x\in A_{n}& \begin{array}{c}
+\text{ appartient à au} \\
+\text{moins un des }A_{n}
+\end{array} \\\hline
+x \in \bigcap_{n \in \mathbb{N}}A_{n} \\\hline
+x \in \bigcup_{n \in \mathbb{N}}\bigcap_{k \geq n}A_{k} & \forall n \in \mathbb{N}, \exists k \geq n, x \in A_{k}&\begin{array}{c}
+\text{A partir d'un } \\
+\text{certain rang} \\
+x \in \text{à tous} \\
+\text{les }A_{k}
+\end{array}
+\end{array}$$
+
+## 2. Probabilités
+#### Définition
+Soit $(\Omega, \mathcal{A})$ un espace probabilisé. On appelle probabilité sur $(\Omega, \mathcal{A})$ toute foncction : 
+$$\mathcal{P}$$
