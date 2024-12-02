@@ -26,4 +26,21 @@ où : $\text{ou } \min \varnothing := + \infty$
 Rappelons que si $(A_{n})_{n \in I}$ est une famille de parties de $\Omega$, 
 $$\overline{\bigcap_{n \in I} A_{n}} = \bigcup_{n \in I}\overline{A_{n}} \text{ et } \dots$$
 car 
-$$\forall x \in \Omega, x \in \overline{\bigcap_{n \in I} A_{n}} \Leftrightarrow x \not\in {\bigcap_{n \in I} A_{n}} \Leftrightarrow \exists n \in I, x_{n} \not\in A_{n} \Leftrightarrow \exists n \in I, x_{n} \in A$$
+$$\forall x \in \Omega, x \in \overline{\bigcap_{n \in I} A_{n}} \Leftrightarrow x \not\in {\bigcap_{n \in I} A_{n}} \Leftrightarrow \exists n \in I, x_{n} \not\in A_{n} $$
+$$\Leftrightarrow \exists n \in I, x \in \bar{A_{n}} \Leftrightarrow x \in \bigcup_{n \in \mathbb{N}^{*}}\bar{A}_{n}$$
+#### Définition
+Soit $\Omega$ un ensemble, 
+On appelle <u>tribu</u> (ou $\sigma$-algèbre) tout ensemble $\mathcal{A} \subset \mathcal{P}(\Omega)$
+vérifiant : 
+$$\begin{cases}
+\varnothing \in \mathcal{A} \\
+\forall A \in \mathcal{A}, \bar{A} \in \mathcal{A}  \\
+\forall (A_{n})_{n \in \mathbb{N}} \in \mathcal{A}^{\mathbb{N}} \text{ dénombrable}, \bigcap_{n \in \mathbb{N}}A_{n}\in \mathcal{A}
+\end{cases}$$
+
+$(\Omega, \mathcal{A})$ est appelé espace probabilisable. 
+Les éléments de $\mathcal{A}$ sont appelés les événements.
+On montre qu'une intersection de tribu de $\Omega$ est une tribu si bien que l'on peut définir pour tout $\mathcal{B}\subset \mathcal{P}(\Omega)$ la tribu engendré par $\mathcal{B}$ : l'intersection de toutes les tribus de $\Omega$ contenant $\mathcal{B}$
+
+#### Exemples de tribus
+$$\mathcal{P}(\Omega)$$
