@@ -93,5 +93,22 @@ x \in \text{à tous} \\
 
 ## 2. Probabilités
 #### Définition
-Soit $(\Omega, \mathcal{A})$ un espace probabilisé. On appelle probabilité sur $(\Omega, \mathcal{A})$ toute foncction : 
-$$\mathcal{P}$$
+Soit $(\Omega, \mathcal{A})$ un espace probabilisé. On appelle probabilité sur $(\Omega, \mathcal{A})$ toute fonction : 
+$$\mathbb{P} : \mathcal{A} \to [0, 1]$$
+vérifiant : 
+$$\mathbb{P}(\Omega) = 1$$
+$$\forall (A_{n})_{n \in \mathbb{N}} \text{ suite d'événements }2 \text{ à }2 \text{ disjoints}, $$
+$$\mathbb{P}\left( \bigcup _{n \in \mathbb{N}}A_{n} \right) = \sum_{n = 0}^{+ \infty}\mathbb{P}(A_{n}) \text{ doit converger}$$
+$$(\Omega, A, \mathbb{P}) \text{ est un espace probabilisé}$$
+
+#### Propriété
+Soit $(\Omega,\mathcal{A}, \mathbb{P})$ un espace probabilisé, 
+$\mathbb{P}(\varnothing) = 0$, 
+$$\forall n \in \mathbb{N}^{*}, \forall A_{1}, \dots , A_{n} \in \mathcal{A}, \begin{cases}
+i \neq j  \\
+ A_{i} \cap A_{j} = \varnothing
+\end{cases}\Rightarrow \mathbb{P}\left( \bigcup _{k = 0}^{n}A_{k} \right) = \sum_{k = 0}^{n}\mathbb{P}(A_{k})$$
+$$\forall A \in \mathcal{A}, \mathbb{P}(\bar{A}), 1-\mathbb{P}(A)$$
+$$\forall A, B \in \mathcal{A}, \mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$$
+$$\forall (A_{n})_{n \in \mathbb{N}}, \mathbb{P}\left( \bigcup_{n \in \mathbb{N}}A_{n} \right) \leq \sum_{n = 0}^{+ \infty}\mathbb{P}(A_{n})$$
+$$\forall A, B \in \mathcal{A}, A \subset B \Rightarrow \mathbb{P}(A) \leq \mathbb{P}(B)$$
