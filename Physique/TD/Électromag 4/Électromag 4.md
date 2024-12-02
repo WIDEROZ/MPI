@@ -25,3 +25,10 @@ alors,
 $$\overrightarrow{grad}(f) = \frac{\partial f}{\partial r} \vec{e}_{r} + \frac{1}{r} \frac{\partial f}{\partial \theta} \vec{e}_{\theta} + \frac{1}{r\sin(\theta)} \frac{\partial f}{\partial \varphi} \vec{e}_{\varphi}$$
 
 #### b.
+$$\overrightarrow{grad}(f \times g) = g\,\overrightarrow{grad}(f) + f\, \overrightarrow{grad}(g)$$
+
+#### c.
+$$\overrightarrow{grad}(r^{\alpha}) = \alpha r^{\alpha-1}  \overrightarrow{grad}(r)$$
+
+#### d.
+$$\overrightarrow{grad}(r^{\alpha}\vec{a}.\vec{r}) = (\vec{a}.\vec{r}) \overrightarrow{grad}(r^{\alpha}) + r^{\alpha} \overrightarrow{grad}(\vec{a}.\vec{r}) = (\vec{a}.\vec{r})\alpha r^{\alpha-}$$
