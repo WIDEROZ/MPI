@@ -154,7 +154,11 @@ Par récurrence :
 Pour $n=0$ trivial
 Soit $n \in \mathbb{N}$ tel que $V_{n}$, 
 $$\mathbb{P}\left( \bigcup_{k = 0}^{n+1}A_{k} \right) = \mathbb{P}\left( \bigcup_{k = 0}^{n}A_{k} \right)+\mathbb{P}(A_{n+1}) - \mathbb{P}\left( \bigcup_{k = 0}^{n} A_{k} \cap A_{n+1} \right)$$
-$$\leq \sum_{k =0}^{n+1}A_{k}$$
+$$\leq \sum_{k =0}^{n+1}\mathbb{P}(A_{k})$$
 Car $\mathbb{P} \in [0, 1]^{\Omega}$. 
 
 6.
+Si $A \subset B$, 
+$$\mathbb{P}(A \cup B) = \mathbb{P}(B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$$
+
+$$A = B \setminus  $$
