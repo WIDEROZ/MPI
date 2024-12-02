@@ -158,7 +158,9 @@ $$\leq \sum_{k =0}^{n+1}\mathbb{P}(A_{k})$$
 Car $\mathbb{P} \in [0, 1]^{\Omega}$. 
 
 6.
-Si $A \subset B$, 
-$$\mathbb{P}(A \cup B) = \mathbb{P}(B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$$
-
-$$A = B \setminus  $$
+Si $A \subset B$,
+On note : 
+$$B = A \cup (B \setminus A)$$
+Alors, comme $A\cap (B\setminus A) = \varnothing$, 
+$$\mathbb{P}(B) = \mathbb{P}(A) +\mathbb{P}(B \setminus A) \geq \mathbb{P}(A)$$
+car $\mathbb{P}(B \setminus A) \geq 0$
