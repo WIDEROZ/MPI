@@ -336,48 +336,30 @@ $$S = \begin{cases}
 
 #### Exercice
 Déterminer si les familles : 
-$$\left( \frac{1}{(n^{2}+p^{2})(n^{2}+p^{2}+1)} \right)_{(n, p) \in \mathbb{N}^{*2}}$$
+$$\left( \frac{1}{(n+p^{2})(n+p^{2}+1)} \right)_{(n, p) \in \mathbb{N}^{*2}}$$
 $$\left( \frac{1}{a^{p}+b^{n}} \right)_{(n, p)\in \mathbb{N}^{*2}}$$
 $$\left( \frac{1}{n^{\alpha p}} \right)_{(n, p)\in [\![2, + \infty [\![^{2}} $$
 $$\text{ ou }\alpha, a, b > 0$$
 
 1.
-$$\forall n, p \in \mathbb{N}^{*}, \frac{1}{n+p^{2}} \geq \frac{1}{(\sqrt{n}+p)^{2}}$$
-Alors, 
-$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(+p^{2})(n+p^{2}+1)} \geq \sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(\sqrt{n}+p)^{2}((\sqrt{n}+p)^{2}+1)}$$
-Puis on pose : 
-$$D_{k} = \{ (p, q) \in \mathbb{N}^{2*} | p+q = k\} \text{ et }\left| D_{k}\right| = k-1$$
-Donc, 
-$$\sum_{k \in \mathbb{N}^{*} \setminus \{ 1 \}} \sum_{(n, p) \in D_{k}} \frac{1}{(n+p)^{2}((n+p)^{2}+1)}$$
-$$= \sum_{k \in \mathbb{N}^{*} \setminus \{ 1 \}} \frac{k-1}{k^{2}(k^{2}+1)} $$
-or, 
-$$\frac{k-1}{k^{2}(k^{2}+1)} \sim \frac{1}{k^{3}}$$
+$$\sum_{n = 1}^{N} \frac{1}{(n+p^{2})(n+p^{2}+1)}=\sum_{n = 1}^{N} \left( \frac{1}{n+p^{2}} -\frac{1}{(n+1)+p^{2}} \right)$$
+$$= \frac{1}{1+p^{2}} - \frac{1}{1+N+p^{2}} \underset{N \to +\infty}{\longrightarrow} \frac{1}{1+p^{2}}$$
+Puis, 
+$$\frac{1}{1+p^{2}} \sim \frac{1}{p^{2}} \geq 0$$
+Comme : 
+$$\sum_{p \geq 1} \frac{1}{p^{2}} \text{ CV}$$
 Ainsi, 
-$$\sum_{k \in \mathbb{N}^{*}\setminus \{ 1 \}} \frac{1}{k^{3}} \text{ CV}$$
-Donc, 
-la famille précédente est sommable.
-
+$$\sum_{p=1}^{+ \infty} \sum_{n = 1}^{+ \infty} u_{n, p} \neq+ \infty$$
+D'après le théorème de Fubini positif, 
+$$(u_{n, p})_{(n,p) \in \mathbb{N}^{*2}} \text{ est sommable}$$
 
 
 2.
-$$\sum_{(p, n) \in \mathbb{N}^{*2}} \frac{1}{a^{p}+b^{n}} = \sum_{(q, r) \in \mathbb{N}^{*2}}\sum_{(n, p) \in D_{q, r}} \frac{1}{a^{p}+b^{n}}$$
-ou 
-$$D_{q, r} = \{ (n, p)\in \mathbb{N}^{*2} | a^{p} = q \text{ et }b^{n} = r \}$$
+Pour $a \leq 1$ et $b \leq 1$ la famille n'est pas sommable
+$$\sum_{n= 1}^{+\infty}\sum_{p = 1}^{+ \infty} \frac{1}{a^{p}+b^{n}} \geq \sum_{n = 1}^{+ \infty}\sum_{p =1}$$
 
-Qui existe bien car $a$ et $b$ sont positifs
-On pose : 
-$$D_{k} = \{ (p, q) \in \mathbb{N}^{*2} | p+q = k \}$$
-$$\sum_{(q, r) \in \mathbb{N}^{*2}}\left| D_{q, r}\right| \frac{1}{q+r} \geq \sum_{(q, r) \in \mathbb{N}^{*2}} \frac{1}{q+r} = \sum_{k \in \mathbb{N}^{*} \setminus \{ 1 \}}\sum_{(q, r) \in D_{k}} \frac{1}{k} $$
-or $\left| D_{k}\right| = k-1$ Ainsi, 
-$$= \sum_{k \in \mathbb{N}^{*} \setminus \{ 1 \}} 1-\frac{1}{k} $$
-Or $1-\frac{1}{k}\sim_{k \to + \infty} 1$
-Ainsi, par le théorème de comparaison de séries positives, comme : 
-$$\sum_{k \in \mathbb{N}^{*} \setminus \{ 1 \}} \left( 1-\frac{1}{k} \right) \text{ DVG}$$
-puis, 
-$$\sum_{(p, n) \in \mathbb{N}^{*2}} \frac{1}{a^{n}+b^{n}} \geq \sum_{k \in \mathbb{N}^{*}\setminus \{ 1 \}} \left( 1-\frac{1}{k} \right)$$
-Ainsi, 
-$$\sum_{(p,n) \in\mathbb{N}^{*2}} \frac{1}{a^{n}+b^{n}} \text{ n'est pas sommable}$$
-car la sommabilité est équivalente a la convergence absolue (donc convergence pour des séries a termes positifs)
+
+
 
 3.
 $$F = \sum_{(n, p) \in \mathbb{N}^{*2} \setminus \{ 1 \}} \frac{1}{n^{\alpha p}} $$
