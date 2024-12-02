@@ -43,4 +43,32 @@ Les éléments de $\mathcal{A}$ sont appelés les événements.
 On montre qu'une intersection de tribu de $\Omega$ est une tribu si bien que l'on peut définir pour tout $\mathcal{B}\subset \mathcal{P}(\Omega)$ la tribu engendré par $\mathcal{B}$ : l'intersection de toutes les tribus de $\Omega$ contenant $\mathcal{B}$
 
 #### Exemples de tribus
-$$\mathcal{P}(\Omega)$$
+$$\begin{cases}
+\mathcal{P}(\Omega) \\
+\{ \varnothing, \Omega \} \\
+\text{Si }\Omega \text{ est de cardinal fini, on prendra sans le préciser }\mathcal{A} = \mathcal{P}(\Omega)
+\end{cases}$$
+
+#### Propriété
+Si $\mathcal{A}$ est une tribu de $\Omega$, 
+$$\forall n \in \mathbb{N}^{*}, \forall A_{1}, \dots, A_{n} \in \mathcal{A}, \bigcap_{k = 1}^{n} A_{k} \in \mathcal{A}\text{ et } \bigcup_{k = 1}^{n}A_{k} \in \mathcal{A}$$
+$$\forall (A_{k})_{k \in \mathbb{N}} \text{ une famille d'évènements}, \bigcup_{k \in \mathbb{N}}A_{k }\in \mathcal{A}$$
+Démonstration : 
+$$\forall n \in \mathbb{N}, A_{n}\in\mathcal{A}$$
+On a : 
+$$\bar{A_{n}} \in \mathcal{A}$$
+Donc
+$$\bigcap_{n \in \mathbb{N}}\bar{A}_{n} \in \mathcal{A}$$
+Ainsi, 
+$$ \overline{\bigcap_{n \in \mathbb{N}}\bar{A_{n}}} \in \mathcal{A}$$
+ie
+$$\bigcup_{n \in \mathbb{N}}{A_{n}} \in \mathcal{A}$$
+___
+En posant : 
+$$\forall k > n, A_{k} = \Omega$$
+On a : 
+$$\forall k \in \mathbb{N}^{*}, A_{k}\in \Omega$$
+car $\Omega = \bar{\varnothing} \in \mathcal{A}$
+Ainsi, 
+$$\bigcap_{k \in \mathbb{N}^{*}} A_{k} \in \mathcal{A}$$
+De même pour l'union
