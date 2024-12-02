@@ -104,7 +104,7 @@ $$(\Omega, A, \mathbb{P}) \text{ est un espace probabilisé}$$
 #### Propriété
 Soit $(\Omega,\mathcal{A}, \mathbb{P})$ un espace probabilisé, 
 $\mathbb{P}(\varnothing) = 0$, 
-$$\forall n \in \mathbb{N}^{*}, \forall A_{1}, \dots , A_{n} \in \mathcal{A}, \begin{cases}
+$$\forall n \in \mathbb{N}^{*}, \forall (A_{k})_{k = 0}^{n} \in \mathcal{A}, \begin{cases}
 i \neq j  \\
  A_{i} \cap A_{j} = \varnothing
 \end{cases}\Rightarrow \mathbb{P}\left( \bigcup _{k = 0}^{n}A_{k} \right) = \sum_{k = 0}^{n}\mathbb{P}(A_{k})$$
@@ -112,3 +112,28 @@ $$\forall A \in \mathcal{A}, \mathbb{P}(\bar{A}), 1-\mathbb{P}(A)$$
 $$\forall A, B \in \mathcal{A}, \mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$$
 $$\forall (A_{n})_{n \in \mathbb{N}}, \mathbb{P}\left( \bigcup_{n \in \mathbb{N}}A_{n} \right) \leq \sum_{n = 0}^{+ \infty}\mathbb{P}(A_{n})$$
 $$\forall A, B \in \mathcal{A}, A \subset B \Rightarrow \mathbb{P}(A) \leq \mathbb{P}(B)$$
+
+Démonstration : 
+1.
+On note : $a = \mathbb{P}(\varnothing)$ et on pose : $\forall n \in \mathbb{N}, A_{n} = \varnothing$ µ
+Alors, 
+$$\forall n \neq p, A_{n} \cap A_{p} = \varnothing, \text{ si bien que : } \mathbb{P}\left(\bigcup_{n \in \mathbb{N}}A_{n}\right) = \sum_{n = 0}^{+ \infty} a \text{ converge}$$
+Ce qui n'est possible que si $a = 0$.
+
+2.
+On pose : 
+$$\forall k \in \mathbb{N}, k \geq n+1 \Rightarrow A_{k} = \varnothing $$
+Alors , 
+$$\forall k, p \in \mathbb{N}, k \neq p \Rightarrow A_{k} \cap A_{p} = \varnothing$$
+Alors, 
+$$\mathbb{P}\left( \bigcup_{k = 0}^{n} A_{k} \right) = \sum_{k = 0}^{n}\mathbb{P}(A_{k})$$
+3.
+$$\begin{cases}
+A \cap \bar{A} = \varnothing \\
+A \cup \bar{A} = \Omega
+\end{cases}$$
+Donc, 
+$$1 = P(\Omega) = \mathbb{P}(A \cup \bar{A}) = P(A) + P(\bar{A})$$
+
+4.
+$$A \cup B = (A \setminus A \cap B) \sqcup $$
