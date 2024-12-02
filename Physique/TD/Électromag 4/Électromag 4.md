@@ -39,3 +39,18 @@ Ainsi,
 $$\overrightarrow{grad}(r^{\alpha}\vec{a}.\vec{r}) = (\vec{a}.\vec{r})\alpha r^{\alpha-2}\vec{r} + r^{\alpha}\vec{a}$$
 
 ### 3.
+$$(\vec{a}.\overrightarrow{grad})(\vec{r}) = \left( \begin{pmatrix}
+a_{x} \\
+a_{y} \\
+a_{z}
+\end{pmatrix}.\begin{pmatrix}
+\frac{\partial }{\partial x} \\
+\frac{\partial }{\partial y}  \\
+\frac{\partial }{\partial z}  
+\end{pmatrix} \right)\begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix}$$
+Ainsi, 
+$$(\vec{a}.\overrightarrow{grad})(\vec{r}) = \vec{a}$$
