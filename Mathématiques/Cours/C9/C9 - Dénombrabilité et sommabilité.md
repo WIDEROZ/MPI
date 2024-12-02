@@ -342,9 +342,9 @@ $$\left( \frac{1}{n^{\alpha p}} \right)_{(n, p)\in [\![2, + \infty [\![^{2}} $$
 $$\text{ ou }\alpha, a, b > 0$$
 
 1.
-$$\frac{1}{n^{2}+p^{2}} \geq \frac{1}{(n+p)^{2}}$$
+$$\forall n, p \in \mathbb{N}^{*}, \frac{1}{n+p^{2}} \geq \frac{1}{(\sqrt{n}+p)^{2}}$$
 Alors, 
-$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n^{2}+p^{2})(n^{2}+p^{2}+1)} \geq \sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(n+p)^{2}((n+p)^{2}+1)}$$
+$$\sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(+p^{2})(n+p^{2}+1)} \geq \sum_{(n, p) \in \mathbb{N}^{*2}} \frac{1}{(\sqrt{n}+p)^{2}((\sqrt{n}+p)^{2}+1)}$$
 Puis on pose : 
 $$D_{k} = \{ (p, q) \in \mathbb{N}^{2*} | p+q = k\} \text{ et }\left| D_{k}\right| = k-1$$
 Donc, 

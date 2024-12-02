@@ -136,4 +136,26 @@ Donc,
 $$1 = P(\Omega) = \mathbb{P}(A \cup \bar{A}) = P(A) + P(\bar{A})$$
 
 4.
-$$A \cup B = (A \setminus A \cap B) \sqcup $$
+$$A \cup B = (A \setminus A \cap B) \sqcup (A\cap B)\sqcup (B \setminus A \cap B)$$
+Donc, 
+$$\mathbb{P}(A\cup B) = \mathbb{P}(A\setminus A \cap B) + \mathbb{P}(A \cap B) + \mathbb{P}(B \setminus A \cap B)$$
+De plus, 
+$$A = (A \setminus A \cap B) \sqcup A \cap B $$
+Alors, 
+$$\mathbb{P}(A\setminus A \cap B) = \mathbb{P}(A)-\mathbb{P}(A \cap B)$$
+Ainsi,
+$$\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) -\mathbb{P}(A \cap B)$$
+
+5.
+Soit $n \in \mathbb{N}$, 
+montrer 
+$$V_{n} : \mathbb{P}\left( \bigcup_{k=0}^{n}A_{k} \right) \leq \sum_{k = 0}^{n} \mathbb{P}(A_{k})$$
+Par récurrence : 
+Pour $n=0$ trivial
+Soit $n \in \mathbb{N}$ tel que $V_{n}$, 
+$$\mathbb{P}\left( \bigcup_{k = 0}^{n+1}A_{k} \right) = \mathbb{P}\left( \bigcup_{k = 0}^{n}A_{k} \right)+\mathbb{P}(A_{n+1}) - \mathbb{P}\left( \bigcup_{k = 0}^{n} A_{k} \cap A_{n+1} \right)$$
+$$\leq \sum_{k =0}^{n+1}A_{k}$$
+Car $\mathbb{P} \in [0, 1]^{\Omega}$. 
+
+6.
+$$B = $$
