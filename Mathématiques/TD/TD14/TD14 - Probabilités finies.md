@@ -22,3 +22,17 @@ $$= \mathbb{P}(S_{1})\mathbb{P}(S_{2})\dots \mathbb{P}(S_{2k})\mathbb{P}(\bar{S}
 $$= \left( \frac{1}{6} \right)^{2k}\left( \frac{5}{6} \right)^{n-2k}$$
 Ainsi, 
 $$\mathbb{P}(A) = \sum_{k \geq 0}\binom{n}{2k}\left( \frac{1}{6} \right)^{2k} \left( \frac{5}{6} \right)^{n-2k} = \frac{1-\left( \frac{1}{2} \right)^{n}}{2}$$
+
+
+# Exercice 5
+#### a.
+$$\left| \mathcal{P}(E)\right| = 2^{n}$$
+
+
+
+
+
+# Exercice 6
+$$\mathbb{P}(A_{1} \cap A_{2} \cap A_{3}) = \mathbb{P}(A_{1})\mathbb{P}(A_{2} | A_{1}) \mathbb{P}(A_{3}| A_{1}\cap A_{2})$$
+$$\mathbb{P}(A_{1}) = \frac{1}{4}, \mathbb{P}(A_{2} | A_{1}) = \frac{3}{15}, P(A_{3} | A_{1} \cap A_{2})=\frac{7}{14}$$
+
