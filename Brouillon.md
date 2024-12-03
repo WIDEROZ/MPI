@@ -11,3 +11,15 @@ $$XI_{3}-A = \begin{pmatrix}
 \end{pmatrix}$$
 $$= (X-1)((X-1)^{2}-1)-2X $$
 $$(X-1)^{3}-3X+1 = X^{3}-3X^{2} = X^{2}(X-3)$$
+
+
+Par le théorème spectral il existe une base de vecteurs propres de $A$
+On pose : 
+$$P = \begin{pmatrix}
+1&1& \\
+-1&1& \\
+1&0&
+\end{pmatrix} $$
+
+
+$$a+b = 0$$
