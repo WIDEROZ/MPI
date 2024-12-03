@@ -168,3 +168,12 @@ $$E_{1} = E_{2} \Leftrightarrow E_{1}^{0}- E_{2}^{0} + \frac{0.059}{2}\log(K^{0}
 Ainsi, 
 $$K^{0} = 10^{\frac{2}{0.059}(E^{0}(Ag^{+}/Ag)-E^{0}(Zn^{2+}/Zn))} = 7.6 \times 10^{52} \ggg 1$$
 Ainsi, la réaction est bien totale je crois. 
+
+# Exercice 9
+## 1.
+$$Li \Leftrightarrow Li^{+} + e^{-}$$
+$\Rightarrow$ : reduction
+$\Leftarrow$ : oxydation
+$$MnO_{2} + 2H^{+} + 2e^{-} \Leftrightarrow MnO + H_{2}O$$
+$\Rightarrow$ : reduction 
+$\Leftarrow$ : oxydation
