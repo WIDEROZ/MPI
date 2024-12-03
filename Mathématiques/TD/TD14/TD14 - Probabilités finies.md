@@ -66,7 +66,7 @@ $$\mathbb{P}(A_{1}) = \frac{1}{4}, \mathbb{P}(A_{2} | A_{1}) = \frac{3}{15}, P(A
 #### a.
 $U_{i}$ : on choisit la i eme urne 
 $N$ : tirer que des boules noires dans l'urne $i$
-$$\mathbb{P}(N) = \sum_{i \in \mathbb{N}}\mathbb{P}(U_{i})\mathbb{P}(N|U_{i}) = \sum_{i =0}^{n} \frac{n-i}{n(n+1)} $$
-car : $\mathbb{P}(N | U_{i}) = \frac{\alpha}{n}\times \frac{\alpha}{n-1}\times \dots $
+$$\mathbb{P}(N) = \sum_{i \in \mathbb{N}}\mathbb{P}(U_{i})\mathbb{P}(N|U_{i}) = \sum_{i =0}^{n} \frac{(n-i)^{\alpha}}{n^{\alpha}(n+1)} $$
+car : $\mathbb{P}(N | U_{i}) = \frac{(n-i)^{\alpha}}{n^{\alpha}}$
 Donc, 
-$$\frac{n}{n+1}-\frac{1}{n(n+1)}\sum_{i =0}^{n}i = \frac{n}{n+1} - \frac{n(n+1)}{2n(n+1)}$$
+$$\mathbb{P}(N) = \sum_{i = 0}^{n}$$
