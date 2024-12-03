@@ -181,6 +181,7 @@ M^{\top}M = I_{n} \\
 \text{Les colonnes de }M \text{ forment une BON de }\mathcal{M}_{n, 1}(\mathbb{R}) \\
 \text{Les lignes de }M \text{ forment une BON de }\mathcal{M}_{1, n}(\mathbb{R})
 \end{cases}$$
+
 Démonstration : 
 $2. \Leftrightarrow 3.$ : 
 On note : $C_{1}, \dots, C_{n}$ les colonnes de $M$, alors 
@@ -514,7 +515,7 @@ R_{t_{1}} \\
 \end{array}$$
 Version matricielle : 
 $$\forall M \in O(n), \exists \Omega \in O(n), A=\Omega M\Omega^{-1}$$
-On dita alors que $M$ et $A$ sont orthogonalement semblables. 
+On dit alors que $M$ et $A$ sont orthogonalement semblables. 
 
 
 #### Théorème $n = 3$

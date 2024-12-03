@@ -1,3 +1,4 @@
+# Adjoint
 #### Définition - Propriété
 Soit $f \in \mathcal{L}(E)$, il existe un unique endomorphisme $f^{*} \in \mathcal{L}(E)$ vérifiant : 
 $$\forall x, y \in E, \left< f(x), y \right> = \left< x, f^{*}(y) \right> $$
@@ -14,3 +15,54 @@ $$\mathrm{Im}(f^{*}) = \mathrm{Ker}(f)^{\bot}$$
 $$\mathrm{Ker}(f^{*}) = \mathrm{Im}(f)^{\bot}$$
 $$\mathrm{rg}(f^{*})=\mathrm{rg}(f)$$
 $$\chi_{f^{*}} = \chi_{f}$$
+
+# Matrices orthogonales
+#### Définition
+Soit $M \in \mathcal{M}_{n}(\mathbb{R})$, 
+On dit que $M$ est une matrice orthogonale lorsque : 
+$$MM^{\top} = I_{n}$$
+
+On note : $O(n) = O_{n}(\mathbb{R})$ l'ensemble de ces matrices, et $SO_{n}(\mathbb{R}) = SO(n)$ l'ensemble
+$$O(n) \cap \{ M \in \mathcal{M}_{n}(\mathbb{R}) | \det M = 1 \}$$
+$O(n)$ est appelé $n^{ieme}$ groupe orthogonal car c'est un groupe pour la loi $\times$ et $SO(n)$ $n^{ieme}$ groupe spécial orthogonal. 
+
+#### Propriété
+Soit $M \in \mathcal{M}_{n}(\mathbb{R})$, on a équivalence entre : 
+$$\begin{cases}
+M \in O(n) \text{ ie } MM^{\top} = I_{n} \\
+M^{\top}M = I_{n} \\
+\text{Les colonnes de }M \text{ forment une BON de }\mathcal{M}_{n, 1}(\mathbb{R}) \\
+\text{Les lignes de }M \text{ forment une BON de }\mathcal{M}_{1, n}(\mathbb{R})
+\end{cases}$$
+
+# Isométries
+#### Définition
+Soit $f \in \mathcal{L}(E)$, 
+On dit que $f$ est une isométrie vectorielle (ou endomorphisme orthogonal) lorsque : 
+$$\forall x \in E, \left|\left| f(x) \right|\right| = \left|\left| x \right|\right| $$
+On note : $O(E)$ l'ensemble de ces endomorphismes. 
+
+#### Propriété
+Soit $f \in \mathcal{L}(E)$, 
+on a équivalence entre : 
+$$\begin{cases}
+f \in O(E), \text{ ie } \forall x \in E, \left|\left| f(x) \right|\right| =\left|\left| x \right|\right|  \\
+\forall x, y \in E, \left< f(x), f(y) \right> = \left< x, y \right>  \\
+\forall \beta \text{ BON de }E, f(\beta) \text{ est une BON de }E \\
+\exists \beta \text{ BON de }E \text{ telle que }f(\beta) \text{ est une BON de }E \\
+f \text{ est inversible et } f^{*} = f^{-1}
+\end{cases}$$
+
+# Théorème de réduction de $O(E)$
+Soit $f \in O(E)$, il existe une BON $\beta$ de $E$, $r, s, q \in \mathbb{N}$, et $t_{1}, \dots, t_{q} \in \mathbb{R}$ tels que 
+$$\forall j \in [\![1, q]\!], R_{t_{j}} = \begin{pmatrix}
+\cos(t_{j})&-\sin(t_{j}) \\
+\sin(t_{j})&\cos(t_{j})
+\end{pmatrix} \in SO(2)$$
+$$A = Mat_{\beta}(f) = \begin{pmatrix}
+I_{r}&&&&0 \\
+&I_{s} \\
+&&R_{t_{1}} \\
+&&&\ddots \\
+0&&&&R_{t_{q}}
+\end{pmatrix}$$
