@@ -83,4 +83,4 @@ $$\left| \Omega\right| = \binom{n}{k}$$
 
 #### b.
 $$X(\Omega) = [\![1, n-k+1]\!]$$
-d
+$$P(X \geq i) = \frac{\left| \mathcal{P}_{k}([\![i, n]\!]) \right|}{\binom{n}{k}}=\frac{\binom{n-i+1}{k}}{\binom{n}{k}}$$
