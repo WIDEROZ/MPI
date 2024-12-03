@@ -201,5 +201,26 @@ $$0 \leq \mathbb{P}\left( \bigcup_{n \in \mathbb{N}^{*}}\left( \bigcap_{k \geq n
 #### Propriété
 Soit $(A_{n})_{n \in \mathbb{N}}$ une suite d'événements
 1.
-Si 
-$$\forall n \in \mathbb{N}, $$
+$$\forall n \in \mathbb{N}, \mathbb{P}(A_{n}) = 0 \Rightarrow \mathbb{P}\left( \bigcup_{n \in \mathbb{N}}A_{n} \right) = 0$$
+2.
+$$\forall n\in \mathbb{N}, \mathbb{P}(A_{{n}})=1\Rightarrow \mathbb{P}\left( \bigcap_{n \in \mathbb{N}}A_{n} \right)=1$$
+Démonstration : 
+2.
+Appliquer 1. à $(\bar{A}_{n})_{n \in \mathbb{N}^{*}}$
+
+##### Théorème de continuité croissante probabilisé
+Soit $(A_{n})_{n \in \mathbb{N}}$ une suite d'événements, 
+1.
+$$\forall n \in\mathbb{N}, A_{n}\subset A_{n+1} \Rightarrow \mathbb{P}(A_{n}) \underset{n \to +\infty}{\longrightarrow}  \mathbb{P}\left( \bigcup_{n \in \mathbb{N}}A_{n} \right)$$
+2.
+$$\forall n \in\mathbb{N}, A_{n+1}\subset A_{n} \Rightarrow \mathbb{P}(A_{n}) \underset{n \to +\infty}{\longrightarrow}  \mathbb{P}\left( \bigcap_{n \in \mathbb{N}}A_{n} \right)$$
+3.
+$$\mathbb{P}\left(  \bigcup_{k = 0}^{n}A_{k}  \right)\underset{n \to +\infty}{\longrightarrow} \mathbb{P}\left( \bigcup_{k \in \mathbb{N}} A_{k} \right)$$
+$$\mathbb{P}\left(  \bigcap_{k = 0}^{n}A_{k}  \right)\underset{n \to +\infty}{\longrightarrow} \mathbb{P}\left( \bigcap_{k \in \mathbb{N}} A_{k} \right)$$
+
+Démonstration : 
+1.
+On note $B_{n} = A_{n+1}\setminus A_{n}$ et $B_{0} = A_{0}$
+$$A_{n+1} = A_{n} \sqcup B_{n}$$
+Ainsi, 
+$$\mathbb{P}(A_{n+1}) = \mathbb{P}(A_{n}) + \mathbb{P}(B_{n})$$
