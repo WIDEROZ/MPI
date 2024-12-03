@@ -44,7 +44,9 @@ Ainsi,
 $$\mathbb{P}(S_{n} = k) = \binom{n}{\frac{n+k}{2}}p^{\frac{n+k}{2}}q^{\frac{n-k}{2}}$$
 
 #### d.
-$$\mathbb{P}(S_{n}  = 0) = 1 \times \frac{p^{n}}{q^{n}}$$
+$$\mathbb{P}(S_{n}  = 0) = \binom{2n}{n}(pq)^{n} = \frac{(2n)!}{n!^{2}} (pq)^{n}$$
+Alors, 
+$$\sim \frac{\left( \frac{2n}{e} \right)^{2n}\sqrt{4\pi n}}{\left( \frac{n}{e} \right)^{2n}2\pi n} \frac{1}{4^{n}} = 2^{2n}$$
 
 
 
