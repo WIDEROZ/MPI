@@ -467,52 +467,19 @@ $$\forall i \geq 2, F_{i} \subset G = F_{1}^{\bot}$$
 Ils sont aussi stables par $f$. 
 
 #### Théorème de réduction de $O(E)$
-Soit $f \in O(E)$, il existe une BON $\beta$ de $E$, $r, s, q \in \mathbb{N}$, et $t_{1}, \dots, t_{p} \in \mathbb{R}$ tels que 
+Soit $f \in O(E)$, il existe une BON $\beta$ de $E$, $r, s, q \in \mathbb{N}$, et $t_{1}, \dots, t_{q} \in \mathbb{R}$ tels que 
 $$\forall j \in [\![1, q]\!], R_{t_{j}} = \begin{pmatrix}
 \cos(t_{j})&-\sin(t_{j}) \\
 \sin(t_{j})&\cos(t_{j})
 \end{pmatrix} \in SO(2)$$
-$$\begin{array}{c}A = Mat_{\beta}(f) = Cours = 
-\begin{array}{c}
-\underbrace{r}&\underbrace s&\underbrace{2q} \\
- \begin{array}{c}
-1& \\
-&\ddots \\
-&&1
-\end{array} & \begin{array}{c}
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
--1 \\
-&\ddots \\
-&&-1
-\end{array} & \begin{array}{c}
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\
- \\ \\
-R_{t_{1}} \\
-&\ddots \\
-&&R_{t_{r}}
-\end{array} 
-\end{array}
-\end{array}$$
+$$A = Mat_{\beta}(f) = \begin{pmatrix}
+I_{r}&&&&0 \\
+&I_{s} \\
+&&R_{t_{1}} \\
+&&&\ddots \\
+0&&&&R_{t_{q}}
+\end{pmatrix}$$
+
 Version matricielle : 
 $$\forall M \in O(n), \exists \Omega \in O(n), A=\Omega M\Omega^{-1}$$
 On dit alors que $M$ et $A$ sont orthogonalement semblables. 
@@ -819,7 +786,10 @@ $$\begin{cases}
 f \in S^{+}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+} \\
 f \in S^{++}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+}^{*}
 \end{cases}$$
-par trivialité
-$\square$
-
-
+Démonstration : 
+1.
+$$\left< f(x), x\right> = \sum_{k = 1}^{n} \alpha_{k} x_{k}^{2} \geq 0 \Rightarrow  $$
+ie : 
+$$\forall k \in [\![1, n]\!], \left< f(\varepsilon_{k}), \varepsilon_{k} \right> \geq 0 \Rightarrow \alpha_{k}\geq 0$$
+donc, 
+$$\forall k \in [\![1, n]\!], \left<  \right> $$

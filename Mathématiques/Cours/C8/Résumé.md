@@ -54,6 +54,7 @@ f \text{ est inversible et } f^{*} = f^{-1}
 \end{cases}$$
 
 # Théorème de réduction de $O(E)$
+#### Version endomorphisme
 Soit $f \in O(E)$, il existe une BON $\beta$ de $E$, $r, s, q \in \mathbb{N}$, et $t_{1}, \dots, t_{q} \in \mathbb{R}$ tels que 
 $$\forall j \in [\![1, q]\!], R_{t_{j}} = \begin{pmatrix}
 \cos(t_{j})&-\sin(t_{j}) \\
@@ -66,3 +67,42 @@ I_{r}&&&&0 \\
 &&&\ddots \\
 0&&&&R_{t_{q}}
 \end{pmatrix}$$
+#### Version matricielle
+$$\forall M \in O(n), \exists \Omega \in O(n), A=\Omega M\Omega^{-1}$$
+On dit alors que $M$ et $A$ sont orthogonalement semblables. 
+
+# Théorème spectral
+#### Endomorphisme
+Soit $f \in \mathcal{S}(E)$, 
+On a équivalence entre : 
+$$\begin{cases}
+f^{*} = f \\
+\text{il existe une BON de }f \text{ constitué de vecteurs propres de }f  \\
+(\text{on dit que } f \text{ se diagonalise en BON})  \\
+\text{i.e.} \forall k \in [\![1, n]\!], \exists \beta = (e_{i})_{i = 1}^{n} \in E \text{ BON}, \exists! \alpha_{k} \in Sp(f), f(e_{k}) = \alpha_{k}f(e_{k})\\
+f \text{ est DZ et sess ssesp propres sont }2 \text{ a } 2 \text{ orthogonaux}
+\end{cases}$$
+
+#### Matriciel
+Soit $M \in S_{n}(\mathbb{R})$, il existe une matrice diagonale $D \in D_{n}(\mathbb{R})$ et une matrice orthogonale $P \in O(n)$ telles que :
+$$M = P^{-1}DP = P^{\bot}DP$$
+
+# Auto-adjoint positifs
+#### Définition
+Soit $f \in \mathcal{L}(E)$ 
+$f$ est dit positif lorsque :
+$$\forall x \in E, \left< f(x), x \right> \in \mathbb{R}_{+}$$
+il est strictement positif lorsque
+$$\forall x \in E \setminus \{ 0 \}, \left< f(x), x \right>\in \mathbb{R}_{+}^{*}$$
+On note $\mathcal{S}^{+}(E)$ (resp. $S^{++}(E)$) l'ensemble des $f \in S(E)$ positifs (resp. strictement positifs)
+
+#### Lemme
+Soit $f \in S(E)$, et $(\varepsilon_{1}, \dots, \varepsilon_{n})$ une BON de $E$ de vecteurs propres de $f$. 
+$$\forall k \in [\![1, n]\!], \exists \alpha_{k} \in \mathbb{R}, f(\varepsilon_{k}) = \alpha_{k}\varepsilon_{k}$$
+$$\forall x \in E, x = \sum_{k = 1}^{n}\alpha_{k}\varepsilon_{k}, \left< f(x), x \right> = \sum_{k = 1}^{n} \alpha_{k}x_{k}^{2}$$
+
+#### Théorème 
+$$\begin{cases}
+f \in S^{+}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+} \\
+f \in S^{++}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+}^{*}
+\end{cases}$$
