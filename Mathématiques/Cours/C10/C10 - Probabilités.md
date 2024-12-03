@@ -59,7 +59,7 @@ On a :
 $$\bar{A_{n}} \in \mathcal{A}$$
 Donc
 $$\bigcap_{n \in \mathbb{N}}\bar{A}_{n} \in \mathcal{A}$$
-Ainsi, 
+Ainsi, &z
 $$ \overline{\bigcap_{n \in \mathbb{N}}\bar{A_{n}}} \in \mathcal{A}$$
 ie
 $$\bigcup_{n \in \mathbb{N}}{A_{n}} \in \mathcal{A}$$
