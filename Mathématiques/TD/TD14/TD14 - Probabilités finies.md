@@ -45,9 +45,8 @@ $$\mathbb{P}(S_{n} = k) = \binom{n}{\frac{n+k}{2}}p^{\frac{n+k}{2}}q^{\frac{n-k}
 
 #### d.
 $$\mathbb{P}(S_{n}  = 0) = \binom{2n}{n}(pq)^{n} = \frac{(2n)!}{n!^{2}} (pq)^{n}$$
-Alors, 
-$$\sim \frac{\left( \frac{2n}{e} \right)^{2n}\sqrt{4\pi n}}{\left( \frac{n}{e} \right)^{2n}2\pi n} \frac{1}{4^{n}} = 2^{2n}$$
-
+Alors, pour $p=\frac{1}{2}$
+$$\boxed{\mathbb{P}(S_{n}=0) \sim \frac{\left( \frac{2n}{e} \right)^{2n}\sqrt{4\pi n}}{\left( \frac{n}{e} \right)^{2n}2\pi n} \frac{1}{4^{n}} = \frac{1}{\sqrt{\pi n}}}$$
 
 
 # Exercice 5
@@ -62,3 +61,6 @@ $$\left| \mathcal{P}(E)\right| = 2^{n}$$
 $$\mathbb{P}(A_{1} \cap A_{2} \cap A_{3}) = \mathbb{P}(A_{1})\mathbb{P}(A_{2} | A_{1}) \mathbb{P}(A_{3}| A_{1}\cap A_{2})$$
 $$\mathbb{P}(A_{1}) = \frac{1}{4}, \mathbb{P}(A_{2} | A_{1}) = \frac{3}{15}, P(A_{3} | A_{1} \cap A_{2})=\frac{7}{14}$$
 
+
+# Exercice 12
+#### a.
