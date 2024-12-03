@@ -243,4 +243,13 @@ $$\bigcup_{n\in \mathbb{N}}A_{n} \subset \bigcup_{k \in \mathbb{N}}B_{k}$$
 2.
 Notons $\forall n \in \mathbb{N}$, $C_{n} = \bar{A}_{n}$
 Alors, 
-$$A_{n}$$
+$$A_{n}\subset A_{n+1} \Rightarrow C_{n+1} \subset C_{n}$$
+Ainsi, 
+$$\mathbb{P}(A_{n}) = 1-\mathbb{P}(C_{n}) \underset{n \to +\infty}{\longrightarrow} 1-\mathbb{P}\left( \bigcup_{n \in \mathbb{N}} C_{n} \right) = \mathbb{P}\left( \bigcap_{n \in \mathbb{N}} A_{n} \right)$$
+3.
+$$\bigcup_{k = 0}^{n}A_{k}\subset \bigcup_{k = 0}^{n-1}A_{k}$$
+D'après le 1. c'est fini
+
+#### Définition
+Une famille $(A_{i})_{i \in I}$ d'événements, ou $I$ est au plus dénombrable est appelé système quasi-complet d'événements lorsque : 
+$$\forall i \neq j \in I, \mathbb{P}(A_{i}\cap A_{j}) = 0 \text{ et }\mathbb{P}\left( \bigcup_{i \in I}A_{i} \right) = 1$$
