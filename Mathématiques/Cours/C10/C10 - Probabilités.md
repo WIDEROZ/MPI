@@ -181,4 +181,25 @@ $$\mathbb{P}(P_{1}) = p$$
 $$P(P_{1} \cap F_{3}) = pq$$
 
 #### Définition
-On dit qu'un évènement est négligeable lorsque : $\mathbb{P}(A) = 0$ et pres
+On dit qu'un événement est négligeable lorsque : $\mathbb{P}(A) = 0$ et presque sûr lorsque : $\mathbb{P}(A) = 1$
+
+#### Exemple
+L'événement on obtiens que des faces : $A$ est : 
+$$A = \bigcap_{n \in \mathbb{N}^{*}}F_{n} = \{ (0)_{n\in \mathbb{N}^{*}} \} \neq \varnothing$$
+$$\forall N \in \mathbb{N}^{*}, A \subset \bigcap_{n= 1}^{N} F_{n} \text{ donc } 0\leq \mathbb{P}(A) \leq \mathbb{P}\left( \bigcap_{n = 1}^{N}F_{n} \right)=q^{N}$$
+On passe à la limite $\mathbb{P}(A)$ est négligeable
+
+L'événement : $B$ : on obtiens un nombre fini de faces est aussi non vide car il contient une infinité de suites et négligeable. En effet : 
+$$B = \bigcup_{n \in \mathbb{N}^{*}}\bigcap_{k \geq n} P_{k}$$
+$$\forall n, N \in \mathbb{N}^{*}, \bigcap_{k \geq n}P_{k}\subset \bigcap_{k = n}^{n+N-1}P_{k}$$
+Alors,
+$$0\leq V = \mathbb{P}\left( \bigcap_{k \geq n}P_{k} \right)\leq \mathbb{P}\left( \bigcap_{k = n}^{n+N-1}P_{k} \right)=p^{N}$$
+Ainsi, on fait tendre $N$ vers $+ \infty$ : $V = 0$
+Alors, 
+$$0 \leq \mathbb{P}\left( \bigcup_{n \in \mathbb{N}^{*}}\left( \bigcap_{k \geq n}P_{k} \right) \right) \leq \sum_{n = 1}^{+ \infty}\mathbb{P}\left( \bigcap_{k \geq n} P_{k}\right) =0$$
+
+#### Propriété
+Soit $(A_{n})_{n \in \mathbb{N}}$ une suite d'événements
+1.
+Si 
+$$\forall n \in \mathbb{N}, $$
