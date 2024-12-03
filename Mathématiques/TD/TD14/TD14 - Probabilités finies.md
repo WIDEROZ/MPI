@@ -38,7 +38,14 @@ $$S_{n}(\Omega) = 2T_{n}(\Omega) - n \subset [\![-n, n]\!]$$
 $$T_{n} \sim \mathcal{B}(n, p)$$
 
 #### c.
-$$$$
+$$S_{n} = k \Rightarrow T_{n} = \frac{n+k}{2}$$
+Alors, si $n-k$ est impair, $n-k+2k=n+k$ est impair donc $\frac{n+k}{2} \not\in [\![0, n]\!]$
+Ainsi, 
+$$\mathbb{P}(S_{n} = k) = \binom{n}{\frac{n+k}{2}}p^{\frac{n+k}{2}}q^{\frac{n-k}{2}}$$
+
+#### d.
+$$\mathbb{P}(S_{n}  = 0) = 1 \times \frac{p^{n}}{q^{n}}$$
+
 
 
 # Exercice 5
