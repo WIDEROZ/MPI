@@ -809,7 +809,7 @@ $$\forall x \in E \setminus \{ 0 \}, \left< f(x), x \right>\in \mathbb{R}_{+}^{*
 On note $\mathcal{S}^{+}(E)$ (resp. $S^{++}(E)$) l'ensemble des $f \in S(E)$ positifs (resp. strictement positifs)
 
 #### Lemme
-Soit $f \in S(E)$, et $(\varepsilon_{1}, \dots, \varepsilon_{n})$ une BON de $E$ de vecteurs propres de $f$.
+Soit $f \in S(E)$, et $(\varepsilon_{1}, \dots, \varepsilon_{n})$ une BON de $E$ de vecteurs propres de $f$. 
 $$\forall k \in [\![1, n]\!], \exists \alpha_{k} \in \mathbb{R}, f(\varepsilon_{k}) = \alpha_{k}\varepsilon_{k}$$
 $$\forall x \in E, x = \sum_{k = 1}^{n}\alpha_{k}\varepsilon_{k}, \left< f(x), x \right> = \sum_{k = 1}^{n} \alpha_{k}x_{k}^{2}$$
 
