@@ -788,8 +788,8 @@ f \in S^{++}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+}^{*}
 \end{cases}$$
 Démonstration : 
 1.
-$$\left< f(x), x\right> = \sum_{k = 1}^{n} \alpha_{k} x_{k}^{2} \geq 0 \Rightarrow  $$
-ie : 
-$$\forall k \in [\![1, n]\!], \left< f(\varepsilon_{k}), \varepsilon_{k} \right> \geq 0 \Rightarrow \alpha_{k}\geq 0$$
-donc, 
-$$\forall k \in [\![1, n]\!], \left<  \right> $$
+$\Leftarrow$ : 
+$$\left< f(x), x \right> = \sum_{k = 1}^{n} \alpha_{k}x_{k}^{2} \geq 0 $$
+car $\alpha_{k}\geq 0$.
+$\Rightarrow$ : 
+$$\forall k \in [\![1, n]\!], \left< f(\varepsilon_{k}), \varepsilon_{k} \right> = \alpha_{k}\geq 0$$
