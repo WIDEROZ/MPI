@@ -75,3 +75,12 @@ $$= \frac{-1}{\alpha+1}\left[ (1-x)^{\alpha+1} \right]_{0}^{1} = \frac{1}{\alpha
 
 ___
 # Avec variables aléatoires
+### Exercice 1
+#### a.
+$$\Omega = \mathcal{P}_{k}(n) \text{ ens. des parties à }k \text{ elt. de }[\![1, n]\!]$$
+$$\mathbb{P} \sim \mathcal{U}(n)$$
+$$\left| \Omega\right| = \binom{n}{k}$$
+
+#### b.
+$$X(\Omega) = [\![1, n-k+1]\!]$$
+d
