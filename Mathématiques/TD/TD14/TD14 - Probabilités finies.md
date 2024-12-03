@@ -64,3 +64,6 @@ $$\mathbb{P}(A_{1}) = \frac{1}{4}, \mathbb{P}(A_{2} | A_{1}) = \frac{3}{15}, P(A
 
 # Exercice 12
 #### a.
+$U_{i}$ : on choisit la i eme urne 
+$N$ : tirer que des boules noires dans l'urne $i$
+$$\mathbb{P}(N) = \sum_{i \in \mathbb{N}}\mathbb{P}(U_{i})\mathbb{P}(N|U_{i}) = \sum_{i \in \mathbb{N}}$$
