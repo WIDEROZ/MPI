@@ -1,3 +1,4 @@
+# Sans variables aléatoires
 ### Exercice 1
 #### a.
 $$P+I = (a+b)^{n}$$
@@ -63,10 +64,14 @@ $$\mathbb{P}(A_{1}) = \frac{1}{4}, \mathbb{P}(A_{2} | A_{1}) = \frac{3}{15}, P(A
 
 
 # Exercice 12
-#### a.
+#### a. et b.
 $U_{i}$ : on choisit la i eme urne 
 $N$ : tirer que des boules noires dans l'urne $i$
 $$\mathbb{P}(N) = \sum_{i \in \mathbb{N}}\mathbb{P}(U_{i})\mathbb{P}(N|U_{i}) = \sum_{i =0}^{n} \frac{(n-i)^{\alpha}}{n^{\alpha}(n+1)} $$
 car : $\mathbb{P}(N | U_{i}) = \frac{(n-i)^{\alpha}}{n^{\alpha}}$
 Donc, 
-$$\mathbb{P}(N) = \sum_{i = 0}^{n}$$
+$$\mathbb{P}(N) = \frac{1}{n+1}\sum_{i = 0}^{n} \left( 1-\frac{i}{n} \right)^{\alpha}\underset{n \to +\infty}{\longrightarrow} \int _{0}^{1} (1-x)^{\alpha}  \, dx $$
+$$= \frac{-1}{\alpha+1}\left[ (1-x)^{\alpha+1} \right]_{0}^{1} = \frac{1}{\alpha+1}$$
+
+___
+# Avec variables aléatoires
