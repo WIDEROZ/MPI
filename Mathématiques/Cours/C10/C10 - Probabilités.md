@@ -164,3 +164,21 @@ $$B = A \cup (B \setminus A)$$
 Alors, comme $A\cap (B\setminus A) = \varnothing$, 
 $$\mathbb{P}(B) = \mathbb{P}(A) +\mathbb{P}(B \setminus A) \geq \mathbb{P}(A)$$
 car $\mathbb{P}(B \setminus A) \geq 0$
+
+#### Exemple
+Le pile ou face sera toujours modélisé par : 
+$$\Omega = \{ 0, 1 \}^{\mathbb{N}^{*}}$$
+$\mathcal{A}$ sera le tribu engendré par :
+$$\forall k \in \mathbb{N}^{*}, \forall n_{1}< \dots< n_{k} \in \mathbb{N}^{*}, \forall a_{1}, .., a_{k}\in \{ 0, 1 \}$$
+$$A_{n_{1}, \dots, n_{k}}^{a_{1}, \dots, a_{k}} = \{ (u_{n})\in \Omega | \forall j \in [\![1, k]\!], u_{n_{j}} = a_{j} \}$$
+et on définit : 
+$$\mathbb{P}(A^{a_{1}, \dots, a_{k}}_{n_{1}, \dots, n_{k}}) = p^{a_{1}+\dots+a_{k}}q^{k-a_{1}-\dots-a_{{k}}}$$
+ou $p \in ]0, 1[$ et $q= 1-p$
+Donc, 
+$$\forall k \in \mathbb{N}^{*}, \mathbb{P}(P_{k}) = p \text{ et }\mathbb{P}(F_{k})=q$$
+le k eme lancer tombe sur pile : $P_{k}$
+$$\mathbb{P}(P_{1}) = p$$
+$$P(P_{1} \cap F_{3}) = pq$$
+
+#### Définition
+On dit qu'un évènement est négligeable lorsque : $\mathbb{P}(A) = 0$ et pres
