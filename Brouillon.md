@@ -16,10 +16,7 @@ $$(X-1)^{3}-3X+1 = X^{3}-3X^{2} = X^{2}(X-3)$$
 Par le théorème spectral il existe une base de vecteurs propres de $A$
 On pose : 
 $$P = \begin{pmatrix}
-1&1& \\
--1&1& \\
-1&0&
+\frac{1}{\sqrt{3}}& \frac{1}{\sqrt{2}}& \frac{1}{\sqrt{6}} \\
+-\frac{1}{\sqrt{3}}& \frac{1}{\sqrt{2}}& -\frac{1}{\sqrt{6}} \\
+\frac{1}{\sqrt{3}}&0&-\frac{2}{\sqrt{6}}
 \end{pmatrix} $$
-
-
-$$a+b = 0$$
