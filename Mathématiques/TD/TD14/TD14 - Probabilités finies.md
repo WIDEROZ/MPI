@@ -23,6 +23,23 @@ $$= \left( \frac{1}{6} \right)^{2k}\left( \frac{5}{6} \right)^{n-2k}$$
 Ainsi, 
 $$\mathbb{P}(A) = \sum_{k \geq 0}\binom{n}{2k}\left( \frac{1}{6} \right)^{2k} \left( \frac{5}{6} \right)^{n-2k} = \frac{1-\left( \frac{1}{2} \right)^{n}}{2}$$
 
+# Exercice 4
+#### a.
+$$X_{n}(\Omega) = 2Y_{n}(\Omega) -1$$
+$$Y_{n} \sim \mathcal{B}(n)$$
+alors, 
+$$T_{n} \sim \mathcal{B}(n, p)$$
+Alors, 
+$$T_{n}(\Omega) = [\![0,n]\!]$$
+Donc, 
+$$S_{n}(\Omega) = 2T_{n}(\Omega) - n \subset [\![-n, n]\!]$$
+
+#### b.
+$$T_{n} \sim \mathcal{B}(n, p)$$
+
+#### c.
+$$$$
+
 
 # Exercice 5
 #### a.
