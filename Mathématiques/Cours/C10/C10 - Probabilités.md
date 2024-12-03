@@ -220,7 +220,27 @@ $$\mathbb{P}\left(  \bigcap_{k = 0}^{n}A_{k}  \right)\underset{n \to +\infty}{\l
 
 Démonstration : 
 1.
-On note $B_{n} = A_{n+1}\setminus A_{n}$ et $B_{0} = A_{0}$
-$$A_{n+1} = A_{n} \sqcup B_{n}$$
+On note $\forall n \in \mathbb{N}, B_{n+1} = A_{n+1}\setminus A_{n}$ et $B_{0} = A_{0}$
+$$\forall n \in \mathbb{N}, A_{n+1} = A_{n} \sqcup B_{n+1}$$
 Ainsi, 
-$$\mathbb{P}(A_{n+1}) = \mathbb{P}(A_{n}) + \mathbb{P}(B_{n})$$
+$$\mathbb{P}(A_{n+1}) = \mathbb{P}(A_{n}) + \mathbb{P}(B_{n+1})$$
+Alors, 
+$$\forall p \in \mathbb{N}^{*}, \forall n \in [\![0, p]\!], B_{n}\subset A_{n+1} \subset A_{p-1} \Rightarrow B_{n}\cap B_{p} = \varnothing$$
+Ainsi,
+$$\mathbb{P}\left( \bigcup_{n \in \mathbb{N}}B_{n} \right) = \sum_{k = 0}^{+ \infty} \mathbb{P}(B_{n})$$
+Alors 
+$$\lim_{ N \to \infty } \left( \sum_{n  =1}^{N}(\mathbb{P}(A_{n})-\mathbb{P}(A_{n-1}))+ \mathbb{P}(A_{0}) \right) = \lim_{ N \to \infty } \mathbb{P}(A_{N+1})$$
+
+Il reste a montrer que : 
+$$\bigcup_{n \in \mathbb{N}}B_{n} = \bigcup_{n \in \mathbb{N}}A_{n}$$
+Or $\forall k \in \mathbb{N}, B_{k} \subset A_{k+1} \subset \bigcup_{n \in \mathbb{N}}A_{n}$
+Donc, 
+$$\bigcup_{ k \in \mathbb{N}}B_{k}\subset \bigcup_{n \in \mathbb{N}} A_{n}$$
+De même, 
+$$\forall n \in \mathbb{N}^{*}, A_{n} = \bigcup_{k = 0}^{n-1}B_{k} \subset \bigcup_{k \in \mathbb{N}} B_{k}$$
+Donc, 
+$$\bigcup_{n\in \mathbb{N}}A_{n} \subset \bigcup_{k \in \mathbb{N}}B_{k}$$
+2.
+Notons $\forall n \in \mathbb{N}$, $C_{n} = \bar{A}_{n}$
+Alors, 
+$$A_{n}$$
