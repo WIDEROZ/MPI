@@ -16,3 +16,9 @@ ie
 $$A = \bigcup_{\underset{2k \leq n}{k \in \mathbb{N}}}\{ \text{On obtiens }2k \text{ "6"} \}$$
 On commence par choisir la position des $2k$ "$6$", il y en a : 
 $$\binom{n}{2k}$$
+Alors la probabilité d'obtenir $2k$ fois le "$6$" positionnés ainsi est : 
+$$\mathbb{P}(S_{1}\cap S_{2} \cap \dots \cap S_{2k} \cap \overline{S_{k+1}} \cap \dots \cap \overline{S_{n}} ) $$
+$$= \mathbb{P}(S_{1})\mathbb{P}(S_{2})\dots \mathbb{P}(S_{2k})\mathbb{P}(\bar{S}_{2k+1})\dots \mathbb{P}(\bar{S}_{n})$$
+$$= \left( \frac{1}{6} \right)^{2k}\left( \frac{5}{6} \right)^{n-2k}$$
+Ainsi, 
+$$\mathbb{P}(A) = \sum_{k \geq 0}\binom{n}{2k}\left( \frac{1}{6} \right)^{2k} \left( \frac{5}{6} \right)^{n-2k} = \frac{1-\left( \frac{1}{2} \right)^{n}}{2}$$
