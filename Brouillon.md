@@ -20,3 +20,20 @@ $$P = \begin{pmatrix}
 -\frac{1}{\sqrt{3}}& \frac{1}{\sqrt{2}}& -\frac{1}{\sqrt{6}} \\
 \frac{1}{\sqrt{3}}&0&-\frac{2}{\sqrt{6}}
 \end{pmatrix} $$
+
+
+$$MM^{\top}=PDP^{-1} \Rightarrow (MM^{\top})^{2} = I_{n}= PD^{2}P^{-1}$$
+$$D = \begin{pmatrix}
+\alpha = \pm1& \\
+&\ddots \\
+&&\alpha
+\end{pmatrix}$$
+Or, 
+$$D\in S_{n}^{+}$$
+car en posant : $M = Mat_{P}(f)$
+$P$ une base de vp de $f$, 
+$$\left< f(x), f(x) \right> = \left< x, f^{*}(f(x)) \right> = \alpha \left< x, x \right> \geq 0 $$
+ie, 
+$$\alpha \geq 0$$
+Ainsi, 
+$$D = I_{n} \text{ donc } MM^{\top} = I_{n}$$
