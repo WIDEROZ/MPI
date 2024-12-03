@@ -172,8 +172,12 @@ Ainsi, la réaction est bien totale je crois.
 # Exercice 9
 ## 1.
 $$Li \Leftrightarrow Li^{+} + e^{-}$$
-$\Rightarrow$ : reduction
-$\Leftarrow$ : oxydation
+$\Leftarrow$ : reduction
+$\Rightarrow$ : oxydation
 $$MnO_{2} + 2H^{+} + 2e^{-} \Leftrightarrow MnO + H_{2}O$$
 $\Rightarrow$ : reduction 
 $\Leftarrow$ : oxydation
+
+$$\Delta E = E_{2}^{0}-E_{1}^{0} +\log\left( \frac{[H^{+}]}{[Li^{+}]} \right)$$
+
+## 2.
