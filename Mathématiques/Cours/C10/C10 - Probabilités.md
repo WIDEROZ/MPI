@@ -317,3 +317,29 @@ $$\mathbb{P}(B) = \mathbb{P}\left( \bigcup_{n \in I} (A_{n}\cap B) \sqcup (\tild
 or : 
 $$\mathbb{P}(\tilde{A}\cap B)=0$$
 Car $\tilde{A}\cap B \subset \tilde{A}$ et $\mathbb{P}(\tilde{A})=0$
+
+#### CCINP 102
+1.
+$$a_{n+1} = \mathbb{P}(A_{n+1}) = \mathbb{P}(A_{n+1}|A_{n})\mathbb{P}(A_{n}) + \mathbb{P}(A_{n+1}| B_{n})\mathbb{P}(B_{n}) + \mathbb{P}(A_{n+1}|C_{n})\mathbb{P}(C_{n})$$
+Alors, 
+$$a_{n+1} = \frac{b_{n}+c_{n}}{2}$$
+2.
+$$\begin{cases}
+a_{n+1} = \frac{b_{n}+c_{n}}{2} \\
+b_{n+1} = \frac{a_{n}+c_{n}}{2} \\
+c_{n+1} = \frac{a_{n}+b_{n}}{2}
+\end{cases}$$
+
+3.
+On pose : 
+$$\forall n \in \mathbb{N}^{*}, X_{n} = \begin{pmatrix}
+a_{n} \\
+b_{n} \\
+c_{n}
+\end{pmatrix} \text{ et }A = \frac{1}{2}\begin{pmatrix}
+0&1&1 \\
+1&0&1 \\
+1&1&0
+\end{pmatrix}$$
+Il suffit de résoudre : 
+$$X_{n+1} = AX_{n} \Rightarrow X_{n} = A^{n}X_{0}$$
