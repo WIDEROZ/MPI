@@ -405,9 +405,9 @@ $$\mathbb{P}(T | G) = \frac{\mathbb{P}(G | T)\mathbb{P}(T)}{\mathbb{P}(G | T)\ma
 On note :
 $T$ : Le dé est truqué
 $G_{n}$ : On obtiens $n$ $6$
-$$\mathbb{P}(T | G_{n}) = \frac{\mathbb{P}(G_{n} | T)\mathbb{P}(T)}{\mathbb{P}(G_{n} | T)\mathbb{P}(T) + \mathbb{P}(G_{n} | \bar{T})\mathbb{P}(\bar{T})} = \frac{1}{1+\left( \frac{1}{3} \right)}$$
+$$\mathbb{P}(T | G_{n}) = \frac{\mathbb{P}(G_{n} | T)\mathbb{P}(T)}{\mathbb{P}(G_{n} | T)\mathbb{P}(T) + \mathbb{P}(G_{n} | \bar{T})\mathbb{P}(\bar{T})} = \frac{1}{1+\left( \frac{1}{3} \right)^{n-1}}$$
 3.
-
+$$\mathbb{P}(T|G_{n}) \underset{n \to +\infty}{\longrightarrow} 1$$
 
 
 
@@ -416,3 +416,11 @@ Soient $A_{1}, \dots, A_{n} \in \mathcal{A}$,
 $$\mathbb{P}\left( \bigcap_{i =1}^{n} A_{i} \right) = \mathbb{P}(A_{1})\mathbb{P}(A_{2}|A_{1})\mathbb{P}(A_{3}|A_{1}\cap A_{2})\dots \mathbb{P}\left( A_{n}| \bigcap_{i = 1}^{n-1}A_{i} \right)$$
 
 
+#### CCINP 108
+1.
+$$p_{1} = \mathbb{P}(B_{1}) = \mathbb{P}(U_{1})\mathbb{P}(B_{1}|U_{1}) + \mathbb{P}(U_{2})\mathbb{P}(B_{1}|U_{2})= \frac{1}{2}\left( \frac{2}{5}+\frac{4}{7} \right)$$
+Ainsi, 
+$$p_{1} = \frac{17}{35}$$
+
+2.
+$$p_{n+1} = \mathbb{P}(B_{n+1}) =\mathbb{P}(U_{1}) \mathbb{P}(B_{n+1}|U_{1}) + \mathbb{P}(U_{2}) \mathbb{P}(B_{n+1}|U_{2})$$
