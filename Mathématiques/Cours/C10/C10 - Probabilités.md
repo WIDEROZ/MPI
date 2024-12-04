@@ -423,4 +423,18 @@ Ainsi,
 $$p_{1} = \frac{17}{35}$$
 
 2.
-$$p_{n+1} = \mathbb{P}(B_{n+1}) =\mathbb{P}(U_{1}) \mathbb{P}(B_{n+1}|U_{1}) + \mathbb{P}(U_{2}) \mathbb{P}(B_{n+1}|U_{2})$$
+$$p_{n+1} = \mathbb{P}(B_{n+1}) =\mathbb{P}(B_{n}) \mathbb{P}(B_{n+1}|B_{n}) + \mathbb{P}(\bar{B_{n}}) \mathbb{P}(B_{n+1}|\bar{B_{n}})$$
+$$= p_{n} \frac{2}{5} + (1-p_{n}) \frac{4}{7}$$
+Alors, 
+$$p_{n+1} = -\frac{6}{35}p_{n} + \frac{4}{7}$$
+
+3.
+On reconnait une suite arithmético-géométrique
+on note $l$ son point fixe : 
+$$l = -\frac{6}{35}l + \frac{4}{7}$$
+$$l = \frac{20}{29}$$
+On pose : 
+$$v_{n} = u_{n}-l$$
+alors, 
+$$v_{n+1} = -\frac{6}{35}v_{n}$$
+C'est une suite géo
