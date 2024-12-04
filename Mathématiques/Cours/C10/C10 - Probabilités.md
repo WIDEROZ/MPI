@@ -364,7 +364,7 @@ $$P = \begin{pmatrix}
 0& -\frac{2}{\sqrt{6}}& \frac{1}{\sqrt{3}}
 \end{pmatrix} \in O_{3}(\mathbb{R})$$
 et vérifie : $A = PDP^{-1}$
-Donc, 
+Alors, 
 $$X_{n} = (PDP^{-1})^{n}X_{0} = PD^{n}P^{\top} \begin{pmatrix}
 1 \\
 0 \\
@@ -379,3 +379,26 @@ $$= P\begin{pmatrix}
 \left( -\frac{1}{2} \right)^{n} \frac{1}{\sqrt{6}} \\
 \frac{1}{\sqrt{3}}
 \end{pmatrix}$$
+Donc, 
+$$X_{n} = \begin{pmatrix}
+\left( -\frac{1}{2} \right)^{n}\left( \frac{1}{2}+\frac{1}{6} \right)+\frac{1}{3} \\
+\left( -\frac{1}{2} \right)^{n}\left( -\frac{1}{2}+\frac{1}{6} \right)+\frac{1}{3} \\
+\left( -\frac{1}{2} \right)^{n}\left( -\frac{2}{6} \right)+\frac{1}{3}
+\end{pmatrix}$$
+Ainsi, 
+$$\begin{cases}
+a_{n} = \frac{1}{3}+ \left( -\frac{1}{2} \right)^{n} \frac{2}{3} \\
+b_{n} = \frac{1}{3}-\left( -\frac{1}{2} \right)^{n} \frac{2}{3} \\
+c_{n} = \frac{1}{3}- \left( -\frac{1}{2} \right)^{n} \frac{1}{3}
+\end{cases}$$
+
+#### Formule de Bayes
+$$\forall A, B \in \mathcal{A}, \text{etnon negl.}, \mathbb{P}(B| A) = \frac{\mathbb{P}(A| B)\mathbb{P}(B)}{\mathbb{P}(A|B)\mathbb{P}(B) + \mathbb{P}(A| \bar{B})\mathbb{P}(\bar{B})}$$
+
+#### CCINP 106
+
+#### Formule des probabilités composés
+Soient $A_{1}, \dots, A_{n} \in \mathcal{A}$, 
+$$\mathbb{P}\left( \bigcap_{i =1}^{n} A_{i} \right) = \mathbb{P}(A_{1})\mathbb{P}(A_{2}|A_{1})\mathbb{P}(A_{3}|A_{1}\cap A_{2})\dots \mathbb{P}\left( A_{n}| \bigcap_{i = 1}^{n-1}A_{i} \right)$$
+
+#### CCINP 
