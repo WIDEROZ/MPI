@@ -272,3 +272,29 @@ $$\forall k \in \mathbb{N}^{*}, \mathbb{P}(P_{k}) = p$$
 et 
 $$\forall m \in \mathbb{N}^{*}, \forall \{ i_{1}, \dots, i_{m} \} = I\subset \mathbb{N}^{*} \text{ et deux a deux distincts} $$
 $$\mathbb{P}\left( \bigcap_{i \in I} P_{k} \right)= \prod_{i \in I}\mathbb{P}(P_{i}) = p^{m}$$
+
+#### Propriété
+$$\forall A, B \in \mathcal{A}, A \amalg B \Rightarrow A \amalg \bar{B}$$
+Démonstration :
+$$\mathbb{P}(A \cap \bar{B}) = \mathbb{P}(A \setminus (A \cap B)) = \mathbb{P}(A) - \mathbb{P}(A\cap B)$$
+$$ = \mathbb{P}(A)-\mathbb{P}(A)\mathbb{P}(B)=\mathbb{P}(A)\mathbb{P}(\bar{B})$$
+
+#### Définition
+Soient $A, B\in \mathcal{A}$, 
+$$\mathbb{P}(B)\neq 0 \Rightarrow \mathbb{P}(A | B)= \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)}$$
+#### Propriété
+Si $B \in \mathcal{A}$ et $\mathbb{P}(B)\neq 0$
+$$\mathbb{P}_{B} : \begin{cases}
+\mathcal{A} \to \mathbb{R} \\
+A \mapsto \mathbb{P}(A| B)
+\end{cases}$$
+est une probabilité sur $(\Omega, \mathcal{A})$
+
+Démonstration : 
+$$\forall A \in \mathcal{A}, A \cap B\subset B\Rightarrow 0 \leq \frac{\mathbb{P}(A\cap B)}{\mathbb{P}(B)} \leq 1$$
+de plus, $\mathbb{P}_{B}(\Omega) = \frac{\mathbb{P}(\Omega \cap B)}{\mathbb{P}(B)} = 1$
+et 
+Soit $(A_{i})_{i \in \mathbb{N}} \in \mathcal{A}$ deux a deux disjoints, 
+$$\forall n < p \in \mathbb{N}, (A_{n}\cap B)\cap(A_{p}\cap B) = \varnothing$$
+Ainsi, 
+$$\mathbb{P}_{B}\left( \bigcap_{n \in \mathbb{N}}A_{n} \right) = \mathbb{P}$$
