@@ -297,4 +297,23 @@ et
 Soit $(A_{i})_{i \in \mathbb{N}} \in \mathcal{A}$ deux a deux disjoints, 
 $$\forall n < p \in \mathbb{N}, (A_{n}\cap B)\cap(A_{p}\cap B) = \varnothing$$
 Ainsi, 
-$$\mathbb{P}_{B}\left( \bigcap_{n \in \mathbb{N}}A_{n} \right) = \mathbb{P}$$
+$$\mathbb{P}_{B}\left( \bigcup_{n \in \mathbb{N}}A_{n} \right) = \dots = \sum_{n =0}^{+ \infty} \mathbb{P}(A_{n}| B)$$
+
+## 2. Trois formules indispensables et basiques
+#### Formule des probabilités et totales
+Soit $(A_{n})_{n \in I}$ un système quasi complet d'événement. 
+$I$ est au plus dénombrable. 
+Alors, 
+$$\forall B \in \mathcal{A}, \mathbb{P}(B) = \sum_{n \in I}\mathbb{P}(B \cap A_{n}) = \sum_{n \in I} \mathbb{P}(B | A_{n})\mathbb{P}(A_{n})$$
+La dernière égalité existe ssi $\forall n \in I, A_{n}$ n'est pas négligeable.
+
+Démonstration : 
+$$\mathbb{P}\left( \bigcup_{i \in I}A_{i} \right)=1$$
+On a alors : 
+$$\Omega = \left( \bigcup_{i \in I}A_{i} \right) \sqcup \tilde{A}$$
+où $\tilde{A}$ est négligeable
+Ainsi, 
+$$\mathbb{P}(B) = \mathbb{P}\left( \bigcup_{n \in I} (A_{n}\cap B) \sqcup (\tilde{A}\cap B)\right) = \sum_{n \in I}\mathbb{P}(A_{n}\cap B) + \mathbb{P}(\tilde{A}\cap B)$$
+or : 
+$$\mathbb{P}(\tilde{A}\cap B)=0$$
+Car $\tilde{A}\cap B \subset \tilde{A}$ et $\mathbb{P}(\tilde{A})=0$
