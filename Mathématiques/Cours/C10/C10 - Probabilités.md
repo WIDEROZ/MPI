@@ -343,3 +343,39 @@ c_{n}
 \end{pmatrix}$$
 Il suffit de résoudre : 
 $$X_{n+1} = AX_{n} \Rightarrow X_{n} = A^{n}X_{0}$$
+On diagonalise $A$ : 
+$$\mathrm{rg}\left( A + \frac{I_{3}}{2} \right) = \mathrm{rg} \frac{1}{2}\begin{pmatrix}
+1&1&1 \\
+1&1&1 \\
+1&1&1
+\end{pmatrix} = 1$$
+Alors, $\dim\mathrm{Ker}\left( A+\frac{I_{3}}{2} \right)=2$ donc, $-\frac{1}{2}$ est une valeur propre double de $A$
+et comme $\mathrm{Tr}(D)=0$, la dernière valeur propre est $1$ : 
+ie :
+$$D = \begin{pmatrix}
+-\frac{1}{2}&0&0 \\
+0&-\frac{1}{2}&0 \\
+0&0&1
+\end{pmatrix}$$
+puis on pose : 
+$$P = \begin{pmatrix}
+\frac{1}{\sqrt{2}}& \frac{1}{\sqrt{6}}& \frac{1}{\sqrt{3}} \\
+-\frac{1}{\sqrt{2}}& \frac{1}{\sqrt{6}}& \frac{1}{\sqrt{3}} \\
+0& -\frac{2}{\sqrt{6}}& \frac{1}{\sqrt{3}}
+\end{pmatrix} \in O_{3}(\mathbb{R})$$
+et vérifie : $A = PDP^{-1}$
+Donc, 
+$$X_{n} = (PDP^{-1})^{n}X_{0} = PD^{n}P^{\top} \begin{pmatrix}
+1 \\
+0 \\
+0
+\end{pmatrix} = PD^{n}\begin{pmatrix}
+\frac{1}{\sqrt{2}} \\
+\frac{1}{\sqrt{6}} \\
+\frac{1}{\sqrt{3}}
+\end{pmatrix}$$ 
+$$= P\begin{pmatrix}
+\left( -\frac{1}{2} \right)^{n} \frac{1}{\sqrt{2}} \\
+\left( -\frac{1}{2} \right)^{n} \frac{1}{\sqrt{6}} \\
+\frac{1}{\sqrt{3}}
+\end{pmatrix}$$
