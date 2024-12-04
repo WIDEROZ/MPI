@@ -253,3 +253,22 @@ D'après le 1. c'est fini
 #### Définition
 Une famille $(A_{i})_{i \in I}$ d'événements, ou $I$ est au plus dénombrable est appelé système quasi-complet d'événements lorsque : 
 $$\forall i \neq j \in I, \mathbb{P}(A_{i}\cap A_{j}) = 0 \text{ et }\mathbb{P}\left( \bigcup_{i \in I}A_{i} \right) = 1$$
+# II. Indépendance et probabilités conditionnelles
+## 1. Indépendance
+Soit $(\Omega, \mathcal{A}, \mathbb{P})$ un espace probabilisé
+#### Définition
+1.
+Soient $A, B \in \mathcal{A}$, 
+$A$ et $B$ sont $\coprod$ lorsque : $\mathbb{P}(A \cap B) = \mathbb{P}(A)\mathbb{P}(B)$
+2.
+Soient $A = (A_{i})_{i \in I}\in \mathcal{A}$ au plus dénombrable, 
+$\forall i \in I, A_{i}$ sont dits mutuellement $\coprod$ lorsque pour toute partie finie $J \subset I$, 
+$$\mathbb{P}\left( \bigcap_{i \in J} A_{i} \right) = \prod_{i \in J}\mathbb{P}(A_{i})$$
+
+#### Exemple
+Pile ou face infini, 
+Avec notre modèle, $(P_{k})_{k \in \mathbb{N}^{*}}$ sont mutuellement $\coprod$, puisqu'on sait que ; 
+$$\forall k \in \mathbb{N}^{*}, \mathbb{P}(P_{k}) = p$$
+et 
+$$\forall m \in \mathbb{N}^{*}, \forall \{ i_{1}, \dots, i_{m} \} = I\subset \mathbb{N}^{*} \text{ et deux a deux distincts} $$
+$$\mathbb{P}\left( \bigcap_{i \in I} P_{k} \right)= \prod_{i \in I}\mathbb{P}(P_{i}) = p^{m}$$
