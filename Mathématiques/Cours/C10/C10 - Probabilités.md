@@ -437,4 +437,5 @@ On pose :
 $$v_{n} = u_{n}-l$$
 alors, 
 $$v_{n+1} = -\frac{6}{35}v_{n}$$
-C'est une suite géo
+C'est une suite géométrique ainsi, 
+$$u_{n} = v_{n} + l = \left( -\frac{6}{35} \right)^{n}(u_{0}-l) + l$$
