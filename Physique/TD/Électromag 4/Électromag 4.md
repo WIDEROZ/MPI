@@ -115,7 +115,10 @@ Vérification.
 $$\vec{B}= \frac{\mu_{0}I}{2\pi r}\vec{e}_{\theta}$$
 pour $r \in [R_{1}, R_{2}]$ 
 
-$$U_{m} = \int \frac{B^{2}}{2\mu_{0}} \, d\tau = \frac{\mu_{0}I^{2}}{8\pi^{2}} \iiint \frac{1}{r^{2}}  \, d\tau  = -\frac{\mu_{0}I^{2}}{8\pi^{2}r}  \int \, d\theta \int  \, dz  $$
-$$\boxed{U_{m} = -\frac{\mu_{0}I^{2}}{4\pi r}z}$$
-Alorsn 
-$$L = -\frac{\mu_{0}}{2\pi r}$$
+$$U_{m} = \int \frac{B^{2}}{2\mu_{0}} \, d\tau = \frac{\mu_{0}I^{2}}{8\pi^{2}} \iiint \frac{1}{r^{2}}  \,r dr d\theta dz  = \frac{\mu_{0}I^{2}}{4\pi} \ln\left( \frac{R_{2}}{R_{1}} \right)z  $$
+$$\boxed{U_{m} = \frac{\mu_{0}I^{2}}{4\pi}z\ln\left( \frac{R_{2}}{R_{1}} \right)}$$
+Alors, 
+$$\boxed{L = \frac{\mu_{0}}{4\pi}z\ln\left( \frac{R_{2}}{R_{1}} \right)}$$
+
+## 2.
+$$\vec{E} = -grad(V) = -\frac{dV}{dr} \vec{e}_{r}$$
