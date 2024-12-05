@@ -76,11 +76,17 @@ $$\vec{\Delta}(\vec{E}) = 0 - \overrightarrow{rot}(\vec{\nabla} \wedge \vec{E}) 
 \sin(\omega t-kz) \\
 0
 \end{pmatrix}\right)$$
-aLORS, 
-$$\vec{\Delta}(\vec{E}) = E_{0}\vec{rot}\begin{pmatrix}
--k\cos(\omega t - kz) \\
+Alors, 
+$$-\vec{\Delta}(\vec{E}) = E_{0}\vec{rot}\begin{pmatrix}
+k\cos(\omega t - kz) \\
 k\sin(\omega t-kz) \\
 0
 \end{pmatrix} = E_{0}\begin{pmatrix}
--k^{2}\sin(\omega t-kz)
-\end{pmatrix}$$
+k^{2}\cos(\omega t-kz) \\
+k^{2}\sin(\omega t - kz) \\
+0
+\end{pmatrix} = k^{2}\vec{E}$$
+puis, 
+$$\frac{1}{c^{2}}\frac{\partial^{2} \vec{E}}{\partial t^{2}} =- \frac{\omega^{2}}{c^{2}}\vec{E} =- k^{2}\vec{E}$$
+
+## 4.
