@@ -556,3 +556,8 @@ Alors, pour $n \in \mathbb{N}^{*}$,
 $$ \frac{\mathbb{P}(X > n+1)}{\mathbb{P}(X>n)} = \mathbb{P}(X > n+1| X > n) = \mathbb{P}(X > 1) = 1-p = q$$
 Ainsi, 
 $$\mathbb{P}(X > n+1) = q\mathbb{P}(X >n) = q^{n}\mathbb{P}(X > 0) = q^{n}$$
+car $X(\Omega) = \mathbb{N}^{*}\subset \mathbb{R}_{+}^{*}$ 
+Alors, 
+$$\mathbb{P}(X=n)=\mathbb{P}(X > n-1)-\mathbb{P}(X \geq n) = q^{n-1}-q^{n} = pq^{n-1}$$
+Ainsi, 
+$$X \sim \mathcal{G}(p)$$

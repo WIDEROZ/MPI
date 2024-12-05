@@ -84,3 +84,7 @@ $$\left| \Omega\right| = \binom{n}{k}$$
 #### b.
 $$X(\Omega) = [\![1, n-k+1]\!]$$
 $$P(X \geq i) = \frac{\left| \mathcal{P}_{k}([\![i, n]\!]) \right|}{\binom{n}{k}}=\frac{\binom{n-i+1}{k}}{\binom{n}{k}}$$
+
+### Exercice 2
+#### a.
+$$\binom{n}{2} = \frac{n!}{2(n-2)!} = $$
