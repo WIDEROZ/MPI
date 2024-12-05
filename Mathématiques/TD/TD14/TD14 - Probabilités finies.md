@@ -85,5 +85,7 @@ $$\left| \Omega\right| = \binom{n}{k}$$
 $$X(\Omega) = [\![1, n-k+1]\!]$$
 $$P(X \geq i) = \frac{\left| \mathcal{P}_{k}([\![i, n]\!]) \right|}{\binom{n}{k}}=\frac{\binom{n-i+1}{k}}{\binom{n}{k}}$$
 
-### Exercice 2
+### Exercice 4
 #### a.
+Soit $B_{i}$ le numéro de la $i^{eme}$ boule tirée 
+$$$$
