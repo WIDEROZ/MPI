@@ -136,6 +136,8 @@ $$V_{1}-V_{2} = K_{1}\ln\left( \frac{R_{2}}{R_{1}} \right)$$
 Ainsi, 
 $$\frac{V_{1}-V_{2}}{\ln\left( \frac{R_{2}}{R_{1}} \right)} = K_{1}$$
 Alors, 
-$$V(r) = \frac{V_{2}-V_{1}}{\ln\left( \frac{R_{2}}{R_{1}} \right)}\ln\left( \frac{r}{R_{1}} \right) + K$$
+$$V(r) = \frac{V_{2}-V_{1}}{\ln\left( \frac{R_{2}}{R_{1}} \right)}\ln\left( r \right) + K$$
 Or, 
-$$V_{1} = $$
+$$V_{1} = \frac{V_{2}-V_{1}}{\ln\left( \frac{R_{2}}{R_{1}} \right)}\ln\left( R_{1} \right) + K$$
+Ainsi, 
+$$K = \frac{V_{1} \left( 1+\ln\left( \frac{R_{2}}{R_{1}} \right) \right)-V_{2}}{\ln\left( \frac{R_{2}}{R_{1}} \right)} $$
