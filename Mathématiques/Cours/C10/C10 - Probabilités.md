@@ -520,8 +520,22 @@ $$X \sim \mathcal{B}(p)$$
 les VA de Bernoulli sont exactement des $\mathbb{1}_{A}$ ou $A \in \mathcal{A}$ ou $p = \mathbb{P}(A)$
 
 #### Rademacher
-Une variable aléatoire $Y$ est dite de Rademacher lorsque $Y(\Omega) = \{ -1, 1 \}$ ie $2Y-1$ est une VA de bernoulli
+Une variable aléatoire $Y$ est dite de Rademacher lorsque $Y(\Omega) = \{ -1, 1 \}$ ie $2Y-1$ est une VA de Bernoulli
 
 #### Binomiale
+Soit $n\in \mathbb{N}^{*}$ et $p \in [0, 1]$
 On appelle VA binomiale de paramètre $(n, p)$ toute VA entière $X$ telle que $X(\Omega) = [\![0,n]\!]$ et telle que : 
 $$\forall k \in [\![0,n]\!], \mathbb{P}(X=k) = \binom{n}{k}p^{k}(1-p)^{n-k}$$
+On note : 
+$$X \sim \mathcal{B}(n,p)$$
+#### Propriété
+Soit $X\sim \mathcal{B}(n, p)$, $X$ modélise $n$ expériences de Bernoulli identiques et indépendantes. 
+
+#### Géométrique
+Soit $p \in ]0, 1[$, $X$ est une VA géométrique de paramètre $p$ et on note : $X\sim \mathcal{G}(p)$ lorsque : 
+$$\begin{cases}
+X(\Omega) = \mathbb{N}^{*} \\
+\forall k \in \mathbb{N}^{*} , \mathbb{P}(X=k)=pq^{k-1}
+\end{cases}$$
+C'est cohérent car : 
+$$\sum_{k = 1}^{+ \infty} \mathbb{P}(X=k) = 1$$
