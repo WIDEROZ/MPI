@@ -87,4 +87,3 @@ $$P(X \geq i) = \frac{\left| \mathcal{P}_{k}([\![i, n]\!]) \right|}{\binom{n}{k}
 
 ### Exercice 2
 #### a.
-$$\binom{n}{2} = \frac{n!}{2(n-2)!} = $$
