@@ -439,3 +439,8 @@ alors,
 $$v_{n+1} = -\frac{6}{35}v_{n}$$
 C'est une suite géométrique ainsi, 
 $$u_{n} = v_{n} + l = \left( -\frac{6}{35} \right)^{n}(u_{0}-l) + l$$
+## 2. Espaces probabilisés discrets
+#### Définition
+Soit $\Omega$ un ensemble, 
+Une famille de réels positifs positifs ou nuls : $(p_{\omega})_{\omega \in \Omega}$ est une distribution de probabilité discrète lorsque : 
+$$\sum_{\omega \in \Omega} p_{\omega} = 1$$
