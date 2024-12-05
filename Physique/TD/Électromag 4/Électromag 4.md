@@ -90,3 +90,29 @@ puis,
 $$\frac{1}{c^{2}}\frac{\partial^{2} \vec{E}}{\partial t^{2}} =- \frac{\omega^{2}}{c^{2}}\vec{E} =- k^{2}\vec{E}$$
 
 ## 4.
+$$\overrightarrow{rot}(\vec{E})= E_{0}k\begin{pmatrix}
+\cos(\omega t-kz) \\
+\sin(\omega t-kz) \\
+0
+\end{pmatrix}$$
+
+$$B = \int E_{0}k \begin{pmatrix}
+\cos(\omega t-kz) \\
+\sin(\omega t-kz) \\
+0
+\end{pmatrix} \, dt = E_{0}k\begin{pmatrix}
+-\sin(\omega t-kz) \\
+\cos(\omega t-kz) \\
+0
+\end{pmatrix} $$
+
+
+## 5.
+Vérification.
+
+# Exercice 3
+## 1.
+$$\vec{B}= \frac{\mu_{0}I}{2\pi R}\vec{e}_{\theta}$$
+pour $r \in [R_{1}, R_{2}]$ 
+
+## 2.
