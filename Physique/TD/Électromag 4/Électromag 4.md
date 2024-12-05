@@ -59,4 +59,11 @@ $$(\vec{a}.\overrightarrow{grad})(\vec{r}) = \vec{a}$$
 ## 1.
 ## 2.
 $$\vec{\Delta}(\vec{E})= \overrightarrow{grad}(div(\vec{E})) - \overrightarrow{rot}(\overrightarrow{rot}(\vec{E}))$$
-puis, 
+alors, 
+$$div(\vec{E}) = \frac{\rho}{\varepsilon_{0}}$$
+alors, 
+$$\vec{\Delta} = \overrightarrow{rot}\left( \frac{\partial \vec{B}}{\partial t}  \right) = \frac{\partial }{\partial t} \overrightarrow{rot}(\vec{B}) = \mu_{0}\frac{\partial \vec{j}}{\partial t} +\mu_{0}\varepsilon_{0}\frac{\partial^{2}\vec{E}}{\partial t}$$
+alors, 
+$$\vec{\Delta}(\vec{E}) = \mu_{0}\frac{\delta \vec{j}}{\delta t} + \mu_{0}\varepsilon_{0} \frac{\partial^{2} \vec{E}}{\partial t^{2}}  = \frac{1}{c^{2}}\frac{\partial^{2}\vec{E}}{\partial t^{2}} $$
+
+## 3.
