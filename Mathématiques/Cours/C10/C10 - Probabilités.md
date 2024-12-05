@@ -539,3 +539,20 @@ X(\Omega) = \mathbb{N}^{*} \\
 \end{cases}$$
 C'est cohérent car : 
 $$\sum_{k = 1}^{+ \infty} \mathbb{P}(X=k) = 1$$
+#### Exercice
+Soit $X$ une VA à valeurs dans $\mathbb{N}^{*}$, 
+$$X \sim \mathcal{G}(p) \Leftrightarrow \forall k, n \in \mathbb{N}^{*}, \mathbb{P}(X > n+k | X > n) = \mathbb{P}(X > k)$$
+C'est une loi sans mémoire
+Démonstration : 
+$\Rightarrow$ : 
+$$\mathbb{P}(X > n+k| X > n) = \frac{\mathbb{P}(X > n+k)}{\mathbb{P}(X >n)}=\frac{\sum_{i = n+k+1}^{+ \infty}\mathbb{P}(X = i)}{\sum_{i = n+1}^{+ \infty}\mathbb{P}(X=i)} $$
+$$\sum_{i = n+1}^{+ \infty} pq^{i-1} = \frac{pq^{n+1-1}}{1-q} = q^{n}$$
+Donc, 
+$$\mathbb{P}(X>n+k| X>n) = q^{k}=\mathbb{P}(X > k)$$
+
+$\Leftarrow$ : 
+On note : $p = 1-\mathbb{P}(X>1)$, 
+Alors, pour $n \in \mathbb{N}^{*}$, 
+$$ \frac{\mathbb{P}(X > n+1)}{\mathbb{P}(X>n)} = \mathbb{P}(X > n+1| X > n) = \mathbb{P}(X > 1) = 1-p = q$$
+Ainsi, 
+$$\mathbb{P}(X > n+1) = q\mathbb{P}(X >n) = q^{n}\mathbb{P}(X > 0) = q^{n}$$
