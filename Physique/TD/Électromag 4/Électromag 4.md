@@ -118,7 +118,24 @@ pour $r \in [R_{1}, R_{2}]$
 $$U_{m} = \int \frac{B^{2}}{2\mu_{0}} \, d\tau = \frac{\mu_{0}I^{2}}{8\pi^{2}} \iiint \frac{1}{r^{2}}  \,r dr d\theta dz  = \frac{\mu_{0}I^{2}}{4\pi} \ln\left( \frac{R_{2}}{R_{1}} \right)z  $$
 $$\boxed{U_{m} = \frac{\mu_{0}I^{2}}{4\pi}z\ln\left( \frac{R_{2}}{R_{1}} \right)}$$
 Alors, 
-$$\boxed{L = \frac{\mu_{0}}{4\pi}z\ln\left( \frac{R_{2}}{R_{1}} \right)}$$
+$$\boxed{L = \frac{\mu_{0}}{2\pi}z\ln\left( \frac{R_{2}}{R_{1}} \right)}$$
 
 ## 2.
 $$\vec{E} = -grad(V) = -\frac{dV}{dr} \vec{e}_{r}$$
+$$div(\vec{E}) =0 \Rightarrow \frac{1}{r} \frac{\partial (rE)}{\partial r}=0$$
+Alors, 
+$$rE = K_{1}$$
+on intègre : 
+$$V(r) = -K_{1} \ln(r)+K_{2}$$
+Alors comme : $V(R_{1}) = V_{1}$ et $V(R_{2})= V_{2}$, 
+$$\begin{cases}
+V_{1} = -K_{1}\ln(R_{1}) + K_{2} \\
+V_{2} = -K_{1}\ln(R_{2}) + K_{2}
+\end{cases}$$
+$$V_{1}-V_{2} = K_{1}\ln\left( \frac{R_{2}}{R_{1}} \right)$$
+Ainsi, 
+$$\frac{V_{1}-V_{2}}{\ln\left( \frac{R_{2}}{R_{1}} \right)} = K_{1}$$
+Alors, 
+$$V(r) = \frac{V_{2}-V_{1}}{\ln\left( \frac{R_{2}}{R_{1}} \right)}\ln\left( \frac{r}{R_{1}} \right) + K$$
+Or, 
+$$V_{1} = $$
