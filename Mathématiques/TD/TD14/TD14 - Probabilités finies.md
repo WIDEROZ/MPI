@@ -87,5 +87,3 @@ $$P(X \geq i) = \frac{\left| \mathcal{P}_{k}([\![i, n]\!]) \right|}{\binom{n}{k}
 
 ### Exercice 4
 #### a.
-Soit $B_{i}$ le numéro de la $i^{eme}$ boule tirée 
-$$$$
