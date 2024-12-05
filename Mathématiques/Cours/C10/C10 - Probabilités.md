@@ -473,11 +473,39 @@ Si $E=\mathbb{R}^{n}$ on dit que $X$ est un vecteur aléatoire.
 #### Notation
 On note : 
 $$\forall x \in E, (X = x) = X^{-1}(\{ x \}) = \{ \omega \in \Omega | X(\omega) = x \}$$
-#### Exemples
+
+#### Exemple
 $$\forall A \in \mathcal{A}, \mathbb{1}_{A} : \begin{cases}
 \Omega \to \{ 0, 1 \}  \\
 \omega \mapsto \begin{cases}
 1 \text{ si }\omega \in A \\
-0 \text{ si }\omega \in \mathcal{A}
+0 \text{ si }\omega \not\in A
 \end{cases}
 \end{cases}$$
+$\mathbb{1}_{A}(\Omega)$ est fini
+$$\forall x \in \mathbb{R}, (X=x)= \begin{cases}
+A\text{ si }x=1 \\
+\bar{A} \text{ si }x=0 \\
+\varnothing \text{ sinon}
+\end{cases}$$
+et $A, \bar{A}, \varnothing \in \mathcal{A}$
+
+#### Exemple
+Dans notre pile ou face infini, 
+$$\Omega = \{ 0, 1 \}^{\mathbb{N}^{*}}$$
+<u>Le temps du premier "pile"</u> (ou du premier succès) est la va entière $T$ définie par : 
+$$\forall \omega \in (\omega_{n})_{n\geq 1}\in \Omega, T(\omega)=\min \{ n \in \mathbb{N}^{*}| \omega_{n} = 1 \}$$
+ou $\min \varnothing = +\infty$
+Alors, 
+$$T(\Omega) = \mathbb{N}^{*}\sqcup \{ + \infty \}$$
+qui est dénombrable. 
+De plus 
+$$\forall n \in \mathbb{N}^{*}, (T=n) = \bar{P}_{1}\cap \bar{P}_{2} \cap \dots \cap \bar{P}_{n-1} \cap P_{n}$$
+où 
+$$\forall k \in \mathbb{N}^{*}, P_{k} = \{ \omega| \omega_{k}= 1 \} \in \mathcal{A}$$
+est bien un élément de $\mathcal{A}$ 
+
+## 2. Loi d'une variable aléatoire discrète
+#### Définition - Propriété
+Soit $X : \Omega \to E$ une VA discrète, 
+On note pour tout $$
