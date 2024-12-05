@@ -112,7 +112,10 @@ Vérification.
 
 # Exercice 3
 ## 1.
-$$\vec{B}= \frac{\mu_{0}I}{2\pi R}\vec{e}_{\theta}$$
+$$\vec{B}= \frac{\mu_{0}I}{2\pi r}\vec{e}_{\theta}$$
 pour $r \in [R_{1}, R_{2}]$ 
 
-## 2.
+$$U_{m} = \int \frac{B^{2}}{2\mu_{0}} \, d\tau = \frac{\mu_{0}I^{2}}{8\pi^{2}} \iiint \frac{1}{r^{2}}  \, d\tau  = -\frac{\mu_{0}I^{2}}{8\pi^{2}r}  \int \, d\theta \int  \, dz  $$
+$$\boxed{U_{m} = -\frac{\mu_{0}I^{2}}{4\pi r}z}$$
+Alorsn 
+$$L = -\frac{\mu_{0}}{2\pi r}$$
