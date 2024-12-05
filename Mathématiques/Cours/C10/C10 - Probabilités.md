@@ -444,3 +444,23 @@ $$u_{n} = v_{n} + l = \left( -\frac{6}{35} \right)^{n}(u_{0}-l) + l$$
 Soit $\Omega$ un ensemble, 
 Une famille de réels positifs positifs ou nuls : $(p_{\omega})_{\omega \in \Omega}$ est une distribution de probabilité discrète lorsque : 
 $$\sum_{\omega \in \Omega} p_{\omega} = 1$$
+On appelle support de cette famille : 
+$$S = \{ \omega \in\Omega| p_{\omega}\neq 0 \}$$
+c'est un ensemble au plus dénombrable
+$$S = \bigcup_{n \in \mathbb{N}^{*}}\left\{  \omega \in \Omega| p_{\omega}\geq \frac{1}{n}  \right\} = \bigcup_{n \in \mathbb{N}^{*}}S_{n}$$
+alors $\left| S_{n}\right|\leq n$.
+
+#### Propriété
+Soit $(p_{\omega})_{\omega \in\Omega}$ une distribution de probabilité discrète : 
+1.
+Si on note : 
+$$\forall A \subset \Omega, \mathbb{P}(A) = \sum_{\omega \in A}p_{\omega} \text{ est une proba}$$
+$\mathbb{P}$ est une probabilité sur $(\Omega, \mathcal{P}(\Omega))$
+Cette probabilité est caractérisé par : 
+$$\forall \omega \in \Omega, \mathbb{P}(\{ \omega \}) = p_{\omega}$$
+
+# III. Variables aléatoires discrètes
+## 1. Définitions
+#### Définition
+Soit $(\Omega, \mathcal{A}, \mathbb{P})$ un espace probabilisé, 
+On appelle variable aléatoire discrète toute fonction $X : \Omega \to E$ où $$
