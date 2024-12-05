@@ -463,4 +463,21 @@ $$\forall \omega \in \Omega, \mathbb{P}(\{ \omega \}) = p_{\omega}$$
 ## 1. Définitions
 #### Définition
 Soit $(\Omega, \mathcal{A}, \mathbb{P})$ un espace probabilisé, 
-On appelle variable aléatoire discrète toute fonction $X : \Omega \to E$ où $$
+On appelle variable aléatoire discrète toute fonction $X : \Omega \to E$ où $E$ est un ensemble telle que 
+1. $X(\Omega)$ est au plus dénombrable
+2. $$\forall x \in E, \{ \omega \in \Omega | X(\omega) = x \} \in \mathcal{A}$$
+Si $E=\mathbb{R}$ on dit que $X$ est une variable aléatoire réelle. 
+Si $E=\mathbb{N}$ on dit que $X$ est une variable aléatoire entière.
+Si $E=\mathbb{R}^{n}$ on dit que $X$ est un vecteur aléatoire.
+
+#### Notation
+On note : 
+$$\forall x \in E, (X = x) = X^{-1}(\{ x \}) = \{ \omega \in \Omega | X(\omega) = x \}$$
+#### Exemples
+$$\forall A \in \mathcal{A}, \mathbb{1}_{A} : \begin{cases}
+\Omega \to \{ 0, 1 \}  \\
+\omega \mapsto \begin{cases}
+1 \text{ si }\omega \in A \\
+0 \text{ si }\omega \in \mathcal{A}
+\end{cases}
+\end{cases}$$
