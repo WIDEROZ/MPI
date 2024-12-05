@@ -508,4 +508,20 @@ est bien un élément de $\mathcal{A}$
 ## 2. Loi d'une variable aléatoire discrète
 #### Définition - Propriété
 Soit $X : \Omega \to E$ une VA discrète, 
-On note pour tout $$
+On note pour tout $B \subset E$, 
+$$\mathbb{P}_{X}(B) = \mathbb{P}(X \in B) \text{ et } (X \in B) \in \mathcal{A}$$
+$\mathbb{P}_{X}$ est alors une probabilité sur $(E, \mathcal{P}(E))$ appelé la loi de $X$
+
+## 3. Lois usuelles
+#### Bernoulli
+On appelle VA de Bernoulli toute VA $X$ telle que : $X(\Omega) = \{ 0, 1 \}$ et dans ce cas on note : $p = \mathbb{P}(X=1)$ et $q = \mathbb{P}(X = 0)$
+On note : 
+$$X \sim \mathcal{B}(p)$$
+les VA de Bernoulli sont exactement des $\mathbb{1}_{A}$ ou $A \in \mathcal{A}$ ou $p = \mathbb{P}(A)$
+
+#### Rademacher
+Une variable aléatoire $Y$ est dite de Rademacher lorsque $Y(\Omega) = \{ -1, 1 \}$ ie $2Y-1$ est une VA de bernoulli
+
+#### Binomiale
+On appelle VA binomiale de paramètre $(n, p)$ toute VA entière $X$ telle que $X(\Omega) = [\![0,n]\!]$ et telle que : 
+$$\forall k \in [\![0,n]\!], \mathbb{P}(X=k) = \binom{n}{k}p^{k}(1-p)^{n-k}$$
