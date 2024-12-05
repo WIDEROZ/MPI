@@ -54,3 +54,9 @@ z
 \end{pmatrix}$$
 Ainsi, 
 $$(\vec{a}.\overrightarrow{grad})(\vec{r}) = \vec{a}$$
+
+# Exercice 2
+## 1.
+## 2.
+$$\vec{\Delta}(\vec{E})= \overrightarrow{grad}(div(\vec{E})) - \overrightarrow{rot}(\overrightarrow{rot}(\vec{E}))$$
+puis, 
