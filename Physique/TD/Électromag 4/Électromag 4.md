@@ -67,3 +67,20 @@ alors,
 $$\vec{\Delta}(\vec{E}) = \mu_{0}\frac{\delta \vec{j}}{\delta t} + \mu_{0}\varepsilon_{0} \frac{\partial^{2} \vec{E}}{\partial t^{2}}  = \frac{1}{c^{2}}\frac{\partial^{2}\vec{E}}{\partial t^{2}} $$
 
 ## 3.
+$$\vec{\Delta}(\vec{E}) = 0 - \overrightarrow{rot}(\vec{\nabla} \wedge \vec{E}) = -\overrightarrow{rot}\left( \begin{pmatrix}
+\frac{\partial }{\partial x}  \\
+\frac{\partial }{\partial y}  \\
+\frac{\partial }{\partial z}  
+\end{pmatrix} \wedge E_{0}\begin{pmatrix}
+\cos(\omega t - kz) \\
+\sin(\omega t-kz) \\
+0
+\end{pmatrix}\right)$$
+aLORS, 
+$$\vec{\Delta}(\vec{E}) = E_{0}\vec{rot}\begin{pmatrix}
+-k\cos(\omega t - kz) \\
+k\sin(\omega t-kz) \\
+0
+\end{pmatrix} = E_{0}\begin{pmatrix}
+-k^{2}\sin(\omega t-kz)
+\end{pmatrix}$$
