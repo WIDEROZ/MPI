@@ -636,4 +636,6 @@ $$\mathbb{P}(X= n)= \mathbb{P}(X \geq n ) - \mathbb{P}(X\geq n+1)$$
 
 $$\mathrm{Cov}(X_{i}, X_{j}) = \mathbb{E}((X_{i}-\mathbb{E}(X_{i}))(X_{j}-\mathbb{E}(X_{j})))$$
 Comme ; 
-$$\forall i \in[\![1, n]\!], X_{i}-\mathbb{E}(X_{i})$$
+$$\forall i, j \in[\![1, n]\!], \mathbb{E}(X_{i}X_{j}) = \sum_{k =0}^{1}k\mathbb{P}(X_{i}X_{j}=k)$$
+$$\mathrm{Cov}(X_{i}, X_{j}) = \mathbb{E}(X_{i}X_{j})-\frac{1}{4}$$
+d
