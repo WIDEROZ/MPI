@@ -1,5 +1,15 @@
 # Formulaire
 $$n^{*} = \frac{dN}{d\tau}$$
+
+#### Opérateurs vectoriels
+On pose : 
+$$\vec{\nabla} = \begin{pmatrix}
+\frac{\partial }{\partial x}  \\
+\frac{\partial }{\partial y}  \\
+\frac{\partial }{\partial z} 
+\end{pmatrix}$$
+
+
 #### Théorème de Green-Ostrogradski
 $$\boxed{\iint_{Sf}\vec{A}. d\overrightarrow{S}_{ext} =\iiint_{V} div(\vec{A})d\tau}$$
 $\vec{A}$ un champ
