@@ -8,6 +8,17 @@ $$\vec{\nabla} = \begin{pmatrix}
 \frac{\partial }{\partial y}  \\
 \frac{\partial }{\partial z} 
 \end{pmatrix}$$
+$$\boxed{\begin{array}{c}
+\overrightarrow{grad}(f) = \overrightarrow{\nabla}f \\
+div(\vec{A}) = \overrightarrow{\nabla}.\vec{A} \\
+\overrightarrow{rot}(\vec{A}) = \overrightarrow{\nabla}\wedge \vec{A} \\
+\Delta(f) = div(\overrightarrow{grad}(f)) = \overrightarrow{\nabla}^{2}f \\
+\Delta(\vec{A}) = \begin{pmatrix}
+\Delta(A_{x}) \\
+\Delta(A_{y}) \\
+\Delta(A_{z})
+\end{pmatrix} = \overrightarrow{grad}(div(\vec{A}))-\overrightarrow{rot}(\overrightarrow{rot}(\vec{A}))
+\end{array}}$$
 
 
 #### Théorème de Green-Ostrogradski
@@ -33,3 +44,5 @@ div(\vec{E}) = \frac{\rho}{\varepsilon_{0}} \text{ : Maxwell-Gauss}  \\
 \overrightarrow{rot}(\overrightarrow{E}) = -\frac{\partial B}{\partial t} \text{ : Maxwell-Faraday}
 \end{cases}}$$
 
+#### Théorème d'Ampère généralisé
+$$\oint_{Cf} \vec{B}.d\vec{l} = \mu_{0}I_{enl} + \mu_{0}\varepsilon_{0}\frac{d}{dt} \iint_{S} \vec{E}.$$
