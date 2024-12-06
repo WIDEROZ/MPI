@@ -21,4 +21,6 @@ $$\mathrm{Tr}(PM) = \mathrm{Tr}(PD) = \sum_{k = 1}^{n} d_{i}p_{i, i} \leq \mathr
 
 Supposons que $\mathrm{Tr}(PM)\leq \mathrm{Tr}(M)$ 
 $$PM[1,2] = \sum_{k = 1}^{n} p_{1, k}m_{k, 2} = p_{1, 1}m_{1, 2} + p_{1, 2}m_{2, 2}+\sum_{k = 3}^{n}m_{k, 2}$$
-$$= $$
+$$= \cos(t)m_{1, 2} + \cos(t)m_{2, 2} + \sum_{k = 3}^{n}m_{k, 2}$$
+
+$$PM[2, 1] = \sin(t)m_{1, 1} - \sin(t)m_{2, 1} + \sum_{k = 3}^{n}m_{k, 1}$$
