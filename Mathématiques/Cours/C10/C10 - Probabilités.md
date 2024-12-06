@@ -513,16 +513,16 @@ $$\mathbb{P}_{X}(B) = \mathbb{P}(X \in B) \text{ et } (X \in B) \in \mathcal{A}$
 $\mathbb{P}_{X}$ est alors une probabilité sur $(E, \mathcal{P}(E))$ appelé la loi de $X$
 
 ## 3. Lois usuelles
-#### Bernoulli
+#### Loi de Bernoulli
 On appelle VA de Bernoulli toute VA $X$ telle que : $X(\Omega) = \{ 0, 1 \}$ et dans ce cas on note : $p = \mathbb{P}(X=1)$ et $q = \mathbb{P}(X = 0)$
 On note : 
 $$X \sim \mathcal{B}(p)$$
 les VA de Bernoulli sont exactement des $\mathbb{1}_{A}$ ou $A \in \mathcal{A}$ ou $p = \mathbb{P}(A)$
 
-#### Rademacher
+#### Loi de Rademacher
 Une variable aléatoire $Y$ est dite de Rademacher lorsque $Y(\Omega) = \{ -1, 1 \}$ ie $2Y-1$ est une VA de Bernoulli
 
-#### Binomiale
+#### Loi Binomiale
 Soit $n\in \mathbb{N}^{*}$ et $p \in [0, 1]$
 On appelle VA binomiale de paramètre $(n, p)$ toute VA entière $X$ telle que $X(\Omega) = [\![0,n]\!]$ et telle que : 
 $$\forall k \in [\![0,n]\!], \mathbb{P}(X=k) = \binom{n}{k}p^{k}(1-p)^{n-k}$$
@@ -531,7 +531,7 @@ $$X \sim \mathcal{B}(n,p)$$
 #### Propriété
 Soit $X\sim \mathcal{B}(n, p)$, $X$ modélise $n$ expériences de Bernoulli identiques et indépendantes. 
 
-#### Géométrique
+#### Loi Géométrique
 Soit $p \in ]0, 1[$, $X$ est une VA géométrique de paramètre $p$ et on note : $X\sim \mathcal{G}(p)$ lorsque : 
 $$\begin{cases}
 X(\Omega) = \mathbb{N}^{*} \\
@@ -561,3 +561,17 @@ Alors,
 $$\mathbb{P}(X=n)=\mathbb{P}(X > n-1)-\mathbb{P}(X \geq n) = q^{n-1}-q^{n} = pq^{n-1}$$
 Ainsi, 
 $$X \sim \mathcal{G}(p)$$
+
+#### Loi de poisson
+Soit $\alpha >0$, On appelle VA de Poisson de paramètre $\alpha$ toute VA : $X : \Omega \to \mathbb{N}$ telle que : 
+$$\forall n \in \mathbb{N}, \mathbb{P}(X = n) = e^{ -\alpha } \frac{\alpha^{n}}{n!}$$
+On note : 
+$$X \sim \mathcal{P}(\alpha)$$
+Les VA de poisson modélisent les événements rares. 
+
+#### Exercice
+On fixe $\alpha \in \mathbb{R}_{+}^{*}$, 
+Soient $n \in \mathbb{N}^{*}$ et $X$ une VA binomiale de paramètre : $(n,p_{n})$ où
+$$p_{n} \sim_{+\infty} \frac{\alpha}{n}$$
+Alors, 
+$$\forall k\in \mathbb{N}, \mathbb{P}(X = k) \underset{n \to +\infty}{\longrightarrow} e^{ -\alpha } \frac{\alpha^{k}}{k!}$$
