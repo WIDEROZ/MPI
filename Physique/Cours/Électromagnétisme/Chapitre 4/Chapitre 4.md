@@ -45,4 +45,23 @@ div(\vec{E}) = \frac{\rho}{\varepsilon_{0}} \text{ : Maxwell-Gauss}  \\
 \end{cases}}$$
 
 #### Théorème d'Ampère généralisé
-$$\oint_{Cf} \vec{B}.d\vec{l} = \mu_{0}I_{enl} + \mu_{0}\varepsilon_{0}\frac{d}{dt} \iint_{S} \vec{E}.$$
+$$\boxed{\oint_{Cf} \vec{B}.d\vec{l} = \mu_{0}I_{enl} + \mu_{0}\varepsilon_{0}\frac{d}{dt} \iint_{S} \vec{E}.d\vec{S}}$$
+
+$Cf$ : Contour fermé
+$S$ : Surface orienté qui s'appuie sur $Cf$ 
+$$I_{enl} = \iint_{S} \vec{j}.d\vec{S} $$
+Démonstration : Théorème de strokes appliqué à Maxwell-Ampère
+
+#### Loi de Lenz-Faraday
+$$\boxed{e = -\frac{d\phi}{dt}}$$
+avec : 
+$$e = \oint_{Cf} \vec{E}.d\vec{l} \text{ et } \phi = \iint_{S}\vec{B}.d\vec{S}$$
+$Cf$ : Contour fermé
+$S$ : Surface orienté qui s'appuie sur $Cf$ 
+
+Démonstration : Théorème de strokes appliqué à Maxwell-Faraday
+
+#### Densité volumique de force 
+$$\boxed{\frac{d\vec{F}}{d\tau} = \rho \vec{E}+ \vec{j} \wedge \vec{B}}$$
+Démonstration : Force de Lorentz
+
