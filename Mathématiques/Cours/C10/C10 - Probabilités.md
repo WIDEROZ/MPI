@@ -626,10 +626,14 @@ $$0 = \mathbb{P}(X=0, Y=0) \neq \mathbb{P}(X=0)\mathbb{P}(Y=0) = \frac{1}{4e}$$
 Soient $X_{1}, \dots, X_{n}$ des VA à valeur dans $E$, 
 Elles sont mutuellement indépendantes ssi :
 $$\forall A_{1} \dots A_{n}\subset E, \mathbb{P}\left( \bigcap_{k = 1}^{n} (X_{k} \in A_{k}) \right) =\prod_{k =1}^{n} \mathbb{P}(X_{k} \in A_{k})$$
-#### Exemple
+#### Exemple IMPORTANT
 On pose : 
 $$X = \min(X_{1}, X_{2})$$
 Avec $X_{1}\amalg X_{2}$
 $$\forall n \in \mathbb{N}^{*}, \mathbb{P}(X \geq n) = \mathbb{P}(X_{1} \geq n, X_{2}\geq n) = \mathbb{P}(X_{1}\geq n)\mathbb{P}(X_{2}\geq n)$$
 Puis on utilise : 
-$$\mathbb{P}(X= n)= \mathbb{P}(X \geq n ) - \mathbb{P}(X\geq )$$
+$$\mathbb{P}(X= n)= \mathbb{P}(X \geq n ) - \mathbb{P}(X\geq n+1)$$
+
+$$\mathrm{Cov}(X_{i}, X_{j}) = \mathbb{E}((X_{i}-\mathbb{E}(X_{i}))(X_{j}-\mathbb{E}(X_{j})))$$
+Comme ; 
+$$\forall i \in[\![1, n]\!], X_{i}-\mathbb{E}(X_{i})$$
