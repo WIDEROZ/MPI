@@ -571,7 +571,26 @@ Les VA de poisson modélisent les événements rares.
 
 #### Exercice
 On fixe $\alpha \in \mathbb{R}_{+}^{*}$, 
-Soient $n \in \mathbb{N}^{*}$ et $X$ une VA binomiale de paramètre : $(n,p_{n})$ où
+Soient $n \in \mathbb{N}^{*}$ et $X_{n}$ une VA binomiale de paramètre : $(n,p_{n})$ où
 $$p_{n} \sim_{+\infty} \frac{\alpha}{n}$$
 Alors, 
-$$\forall k\in \mathbb{N}, \mathbb{P}(X = k) \underset{n \to +\infty}{\longrightarrow} e^{ -\alpha } \frac{\alpha^{k}}{k!}$$
+$$\forall k\in \mathbb{N}, \mathbb{P}(X_{n} = k) \underset{n \to +\infty}{\longrightarrow} e^{ -\alpha } \frac{\alpha^{k}}{k!}$$
+
+Démonstration : 
+
+## 4. Couples de variable aléatoires
+#### Définition
+Soit
+$$Z=(X, Y) : \begin{cases}
+\Omega \to E\to F \\
+\omega \mapsto (X(\omega), Y(\omega))
+\end{cases}$$
+un couple de VA
+- La loi de $Z$ est appelé la loi conjointe de $X$ et $Y$
+- Celles de $X$ et $Y$ sont appelées lois marginales de $Z$
+
+#### Propriété
+Soient $(X, Y)\in E^{\Omega} \times F^{\Omega}$, 
+Deux VA discrètes
+$$\forall x \in X(\Omega), \mathbb{P}(X = x) = \sum_{y \in Y(\Omega)}\mathbb{P}(X = x, Y = y)$$
+Démons
