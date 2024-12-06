@@ -16,4 +16,9 @@ il existe $\Omega \in O(n)$ tel que :
 $$M = \Omega D\Omega^{\top}$$
 Soit $P \in O(n)$, 
 Comme la trace est un invariant de similitude : 
-$$\mathrm{Tr}(P\Omega^{\top} D\Omega) = \mathrm{Tr}(\Omega P^{\top} D \Omega) = \mathrm{Tr}(PD) = \sum_{k = 1}^{n} d_{i}p_{i, i} \leq \mathrm{Tr}(D)$$
+$$\mathrm{Tr}(PM) = \mathrm{Tr}(PD) = \sum_{k = 1}^{n} d_{i}p_{i, i} \leq \mathrm{Tr}(D)$$
+
+
+Supposons que $\mathrm{Tr}(PM)\leq \mathrm{Tr}(M)$ 
+$$PM[1,2] = \sum_{k = 1}^{n} p_{1, k}m_{k, 2} = p_{1, 1}m_{1, 2} + p_{1, 2}m_{2, 2}+\sum_{k = 3}^{n}m_{k, 2}$$
+$$= $$
