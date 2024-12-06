@@ -61,7 +61,22 @@ $S$ : Surface orienté qui s'appuie sur $Cf$
 
 Démonstration : Théorème de strokes appliqué à Maxwell-Faraday
 
-#### Densité volumique de force 
+#### Densité volumique de force subie
 $$\boxed{\frac{d\vec{F}}{d\tau} = \rho \vec{E}+ \vec{j} \wedge \vec{B}}$$
 Démonstration : Force de Lorentz
 
+#### Puissance volumique reçue par un milieu conducteur
+$$\boxed{\mathcal{P}_{vol} = \frac{d\mathcal{P}}{d\tau} = \vec{j}.\vec{E}}$$
+
+Démonstration : Définition de la puissance
+
+## Loi d'Ohm
+#### Locale
+$$\boxed{\vec{j} = \gamma \vec{E}}$$
+$\gamma>0$ : Conductivité électrique
+
+#### Intégrale
+$$\boxed{U_{AB} = R_{AB} \times i(t)}$$
+Avec : 
+$U_{AB} = V_{A}-V_{B}$
+$$\boxed{R_{AB} = \int_{A}^{B} \frac{dl}{\gamma S}  }$$
