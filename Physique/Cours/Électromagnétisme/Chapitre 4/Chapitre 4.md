@@ -2,13 +2,16 @@
 $$n^{*} = \frac{dN}{d\tau}$$
 #### Théorème de Green-Ostrogradski
 $$\boxed{\iint_{Sf}\vec{A}. d\overrightarrow{S}_{ext} =\iiint_{V} div(\vec{A})d\tau}$$
+$\vec{A}$ un champ
 $S_{f}$ : Surface fermée
 $V$ : Volume
-$\vec{A}$ un champ
 $\vec{S}_{ext}$ : orienté vers l'extérieur de la surface fermée
 
 #### Théorème de Stokes
-$$\boxed{\oint_{Cf}\vec{A}.d\vec{l}}$$
+$$\boxed{\oint_{Cf}\vec{A}.d\vec{l} = \iint_{S}\overrightarrow{rot}(\overrightarrow{A}).d\vec{S}} $$
+$\vec{A}$ un champ
+$Cf$ : contour fermé orienté fermé
+$S$ : Surface orienté qui s'appuie sur $Cf$ 
 
 #### Loi de conservation de la charge
 $$div(\vec{j}) + \frac{d\rho}{dt}  = 0$$
