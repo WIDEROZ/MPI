@@ -595,7 +595,7 @@ Deux VA discrètes
 $$\forall x \in X(\Omega), \mathbb{P}(X = x) = \sum_{y \in Y(\Omega)}\mathbb{P}(X = x, Y = y)$$
 Démonstration :
 $((Y = y))_{y \in Y(\Omega)}$ est un SCE et : 
-$$(X = x) = \bigcup_{y \in Y(\Omega)}(X = x, Y=y)$$
+$$(X = x) = \bigsqcup_{y \in Y(\Omega)}(X = x, Y=y)$$
 #### CCINP 109
 $$\mathbb{P}(X = i) =\sum_{j \in \mathbb{N}} \frac{1}{e{2}^{i+1} j!}= \frac{1}{2^{i+1}}$$
 $$\mathbb{P}(Y = j) =\sum_{i \in \mathbb{N}} \frac{1}{e{2}^{i+1} j!}= \frac{e^{ -1 }}{j!}$$
@@ -608,4 +608,15 @@ $$X+1 \sim \mathcal{G}\left( \frac{1}{2} \right)$$
 # IV. Variables aléatoires indépendantes
 #### Définition
 Soient $(X, Y) \in E^{\Omega} \times F^{\Omega}$, elles sont dites indépendantes lorsque : 
-$$\forall x \in X(\Omega), \forall y \in Y(\Omega) , \mathbb{P}(X = x, Y=)\mathbb{P}(X = x)\mathbb{P}(Y = y)$$
+$$\forall x \in X(\Omega), \forall y \in Y(\Omega) , \mathbb{P}(X = x, Y=y) = \mathbb{P}(X = x)\mathbb{P}(Y = y)$$
+
+Soit $(X_{n})_{n \in \mathbb{N}}$ une suite de VA,
+Elles sont dites mutuellement indépendantes lorsque : 
+$$\forall N \in \mathbb{N}^{*}, \forall (x_{n})_{n \in [\![1, N]\!]} \in E^{[\![1, N]\!]},$$
+$$\mathbb{P}\left( \bigcap_{k = 0}^{N} (X_{k} = x_{k}) \right) = \prod_{k = 0}^{N} \mathbb{P}(X_{k} = x_{k})$$
+#### CCINP 98
+###### 1.
+$$\mathbb{P}(X = i) = \frac{\sqrt{e}}{ei!2^{i}}\left( i+\frac{1}{2} \right)$$
+$$\mathbb{P}(Y = j) = \frac{\sqrt{e}}{ej!2^{j}}\left( j+\frac{1}{2} \right)$$
+
+###### 2.
