@@ -80,3 +80,13 @@ $$\boxed{U_{AB} = R_{AB} \times i(t)}$$
 Avec : 
 $U_{AB} = V_{A}-V_{B}$
 $$\boxed{R_{AB} = \int_{A}^{B} \frac{dl}{\gamma S}  }$$
+
+## Poynting
+#### Équation de Poynting locale
+$$\boxed{div(\vec{\Pi}) + \frac{\partial u_{em}}{\partial t}  = -\vec{j}.\vec{E}}$$
+Avec : 
+$$\boxed{\vec{\Pi} = \frac{\vec{E}\wedge \vec{B}}{\mu_{0}}} \text{ et } \boxed{u_{em} = \frac{1}{2}\varepsilon_{0} E^{2} + \frac{1}{2} \frac{B^{2}}{\mu_{0}}}$$
+$\vec{\Pi}$ le vecteur Poynting
+
+#### Équation de Poynting globale
+$$\boxed{\frac{dU_{em}}{dt} = \mathcal{P}_{\text{ray, entrant}} - \mathcal{P}_{\text{pertes Joule}}}$$
