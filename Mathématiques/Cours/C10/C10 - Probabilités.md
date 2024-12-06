@@ -593,4 +593,19 @@ un couple de VA
 Soient $(X, Y)\in E^{\Omega} \times F^{\Omega}$, 
 Deux VA discrètes
 $$\forall x \in X(\Omega), \mathbb{P}(X = x) = \sum_{y \in Y(\Omega)}\mathbb{P}(X = x, Y = y)$$
-Démons
+Démonstration :
+$((Y = y))_{y \in Y(\Omega)}$ est un SCE et : 
+$$(X = x) = \bigcup_{y \in Y(\Omega)}(X = x, Y=y)$$
+#### CCINP 109
+$$\mathbb{P}(X = i) =\sum_{j \in \mathbb{N}} \frac{1}{e{2}^{i+1} j!}= \frac{1}{2^{i+1}}$$
+$$\mathbb{P}(Y = j) =\sum_{i \in \mathbb{N}} \frac{1}{e{2}^{i+1} j!}= \frac{e^{ -1 }}{j!}$$
+$$Y \sim \mathcal{P}(1)$$
+Alors, 
+$$P(X=n-1) = \sum_{j \in \mathbb{N}} \frac{1}{e2^{i}j!} = \left( \frac{1}{2} \right)\left( 1-\frac{1}{2} \right)^{n-1}$$
+Ainsi,
+$$X+1 \sim \mathcal{G}\left( \frac{1}{2} \right)$$
+
+# IV. Variables aléatoires indépendantes
+#### Définition
+Soient $(X, Y) \in E^{\Omega} \times F^{\Omega}$, elles sont dites indépendantes lorsque : 
+$$\forall x \in X(\Omega), \forall y \in Y(\Omega) , \mathbb{P}(X = x, Y=)\mathbb{P}(X = x)\mathbb{P}(Y = y)$$
