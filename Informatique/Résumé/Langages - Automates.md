@@ -63,5 +63,9 @@ $\mathcal{A}' = (\Sigma, Q', I, F, \delta')$ est un automate complet (équivalen
 où : 
 $$\begin{array}{l}
 Q' = Q \cup \{ p \} \text{ avec }p \not\in Q \\
-\delta' = \delta \cup \{ (q, a, p) | \exists q' \in Q, ((q, a, q') \not\in \delta) \Rightarrow  \}
-\end{array}$$
+\delta' = \delta \cup \{ (q, a, p) \in Q \times \Sigma | \delta(q, a) = \varnothing \}
+\cup \{ (p, a, p) | a \in \Sigma \}\end{array}$$
+avec
+$$\forall q \in Q, \forall a \in \Sigma, \delta(q, a) = \{ q' \in Q | (q, a, q') \in \delta \}$$
+
+#### Exemple
