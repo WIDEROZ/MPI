@@ -1,3 +1,19 @@
+### Question 1
+On dit que $W$ est dense dans $E$ lorsque : 
+$$\forall x_{0} \in E,\exists (w_{n})_{n \in \mathbb{N}} \in W^{\mathbb{N}}, w_{n} \underset{n \to +\infty}{\longrightarrow} x_{0}$$
+$$\forall x_{0} \in E, \forall r > 0, \exists w \in W \cap \mathcal{B}(x_{0}, r)$$
+avec $\mathcal{B}(x_{0}, r) = \{ x  \in E | \space \left|\left| x-x_{0} \right|\right|_{2} \leq r \}$
+$$\overline{W} = E$$
+$$\forall x_{0} \in E, \forall r >0, \exists w \in W, d(w, x_{0})\leq r$$
+
+### Question 2
+
+
+
+
+
+
+
 ### Question 3
 #### a.
 $$\boxed{\begin{pmatrix}
