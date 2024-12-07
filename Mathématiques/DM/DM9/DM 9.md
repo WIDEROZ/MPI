@@ -18,9 +18,9 @@ $$\left|\left| f \right|\right| \leq \left|\left| f \right|\right| _{\infty}$$
 Soit $f \in E$, 
 Montrons que : 
 $$\forall x \in E, \forall \varepsilon \in \mathbb{R}_{+}^{*}, \exists \alpha >0,\forall y \in E,  \left|\left| x-y \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-f(y) \right|\right|  \leq \varepsilon$$
-Soient $\varepsilon >0$ et $f_{0} \in E$, 
-Supposons qu'il existe $\alpha \in \mathbb{R}_{+}^{*}$ tel que : pour tout $f \in E$, 
-$$$$
+
+
+
 
 ### Question 3
 #### a.
@@ -38,3 +38,10 @@ $$\sum_{j = 1}^{n} x_{j}f_{j} \in Vect(f_{1}, \dots, f_{n})^{\bot}\cap Vect(f_{1
 #### c.
 $$\prod_{\sigma \in S_{n}}\varepsilon(\sigma)\sum_{j =1}^{n}\left< f_{j}, f_{\sigma_{j}} \right> = 0$$
 $$\Leftrightarrow \exists \sigma \in S_{n}, \sum_{j = 1}^{n} \left< f_{j}, f_{\sigma_{j}} \right> =0 \Leftrightarrow $$
+
+### Question 4
+#### a.
+Soit $p \in \mathcal{L}(E)$ un projecteur orthogonal sur $V$
+$$d(f, V) = \min_{g \in E} \left|\left| f-g \right|\right| = \left|\left| f-p(f)\right|\right| $$
+#### b.
+Pour $n = \dim(E)$, le déterminant est 
