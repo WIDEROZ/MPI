@@ -25,7 +25,8 @@ Les automates déterministes sont des automates non déterministes ie
 
 #### Propriété
 Déterminisation d'un automate non-déterministe : 
-$\mathcal{A}' = (\Sigma, Q', I', F', \delta')$ est un automate déterministe avec : 
+$\mathcal{A}' = (\Sigma, Q', I', F', \delta')$ est un automate déterministe (équivalent à $\mathcal{A}$) 
+où : 
 $$\begin{array}{l}
 Q' = \mathcal{P}(Q) \\
 I' = \{ I \} \\
@@ -33,7 +34,7 @@ F' = \{ P \in Q' | \exists f \in F, f \in P \} \\
 \delta' = \{ (X, a, Y) ; (X, a) \in Q' \times \Sigma \text{ et } Y = \{ q' \in Q | \exists q \in X, (q, a, q') \in \delta \} \}
 \end{array}$$
 
-En gros : 
+##### En gros : 
 - $F'$ : L'ensemble des ensembles qui contiennent au moins un élément de $F$ 
 - $\delta'$ : <a href="https://www.youtube.com/watch?v=-2BJJQ_seqM&ab_channel=Infot%C3%A9o">Vidéo</a>
 
@@ -48,3 +49,19 @@ En gros :
 ![[Pasted image 20241207235753.png]]
 ![[Pasted image 20241207235759.png]]
 ![[Pasted image 20241207235809.png]]
+
+## Automates Complets
+Un automate FINI est complet si : 
+$$\begin{cases}
+\left| I\right|\geq 1 \\
+\forall q \in Q, \forall a \in \Sigma, \exists q' \in Q, (q, a, q') \in \delta
+\end{cases}$$
+
+#### Propriété
+Completion d'un automate non-déterministe : 
+$\mathcal{A}' = (\Sigma, Q', I, F, \delta')$ est un automate complet (équivalent à $\mathcal{A}$) 
+où : 
+$$\begin{array}{l}
+Q' = Q \cup \{ p \} \text{ avec }p \not\in Q \\
+\delta' = \delta \cup \{ (q, a, p) | \exists q' \in Q, ((q, a, q') \not\in \delta) \Rightarrow  \}
+\end{array}$$
