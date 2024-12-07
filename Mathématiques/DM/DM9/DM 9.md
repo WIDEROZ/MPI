@@ -9,11 +9,18 @@ $$\forall x_{0} \in E, \forall r >0, \exists w \in W, d(w, x_{0})\leq r$$
 ### Question 2
 #### a.
 On note $\forall i \in [\![1, \dim E]\!], f_{i}$ les composantes de $f$ dans une certaine base.
-$$\left|\left| f \right|\right|^{2}  = \int _{0}^{1}f^{2}(t) \, dt \leq (1-0)\left|\left| f^{2} \right|\right| _{\infty} = \max_{i \in [\![1, \dim E]\!]} f_{i} ^{2} $$
+$$\left|\left| f \right|\right|^{2}  = \int _{0}^{1}f^{2}(t) \, dt \leq (1-0)\left|\left| f^{2} \right|\right| _{\infty} = \max_{i \in [\![1, \dim E]\!]} f_{i} ^{2} = (\max_{i \in [\![1, \dim E]\!]}\left| f_{i}\right|)^{2}$$
 par l'inégalité de norme
+Ainsi, 
+$$\left|\left| f \right|\right| \leq \left|\left| f \right|\right| _{\infty}$$
 
-
-
+#### b.
+Soit $f \in E$, 
+Montrons que : 
+$$\forall x \in E, \forall \varepsilon \in \mathbb{R}_{+}^{*}, \exists \alpha >0,\forall y \in E,  \left|\left| x-y \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-f(y) \right|\right|  \leq \varepsilon$$
+Soient $\varepsilon >0$ et $f_{0} \in E$, 
+Supposons qu'il existe $\alpha \in \mathbb{R}_{+}^{*}$ tel que : pour tout $f \in E$, 
+$$$$
 
 ### Question 3
 #### a.
