@@ -11,4 +11,23 @@ On dit alors que $\underline{u \text{ est reconnu par }\mathcal{A}}$
 On note l'ensemble des mots reconnus par $\mathcal{A}$ : $\underline{\mathcal{L}(\mathcal{A})}$
 Un langage $\underline{L \text{ est reconnaissable}}$ si il existe un automate $\mathcal{A}$ tel que $\underline{L = \mathcal{L}(\mathcal{A})}$
 
+## Automates déterministes
 #### Définition
+Un automate est déterministe si : 
+$$\begin{cases}
+\left| I\right|\leq 1 \\
+\forall q \in Q, \forall a \in \Sigma, \text{il existe au plus } q' \in Q, (q, a, q') \in \delta
+\end{cases}$$
+
+#### Remarque
+Les automates déterministes sont des automates non déterministes ie
+{automates déterministes}$\subset${automates non déterministes}
+
+#### Propriété
+Déterminisation d'un automate non-déterministe : 
+$\mathcal{A}' = (\Sigma, Q', I', F', \delta')$ est un automate déterministe avec : 
+$$\begin{array}{l}
+Q' = \mathcal{P}(Q) \\
+I' = \{ I \} \\
+F' = \{ P \in \mathcal{P}(F) |  \}
+\end{array}$$
