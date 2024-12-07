@@ -29,5 +29,10 @@ $\mathcal{A}' = (\Sigma, Q', I', F', \delta')$ est un automate déterministe ave
 $$\begin{array}{l}
 Q' = \mathcal{P}(Q) \\
 I' = \{ I \} \\
-F' = \{ P \in \mathcal{P}(F) |  \}
+F' = \{ P \in Q' | \exists f \in F, f \in P \} \\
+\delta' = \{ (X, a, Y) ; (X, a) \in Q' \times \Sigma \text{ et } Y = \{ q' \in Q | \exists q \in X, (q, a, q') \in \delta \} \}
 \end{array}$$
+
+En gros : 
+- $F'$ : L'ensemble des ensembles qui contiennent au moins un élément de $F$ 
+- $\delta'$ : 
