@@ -44,4 +44,6 @@ $$\Leftrightarrow \exists \sigma \in S_{n}, \sum_{j = 1}^{n} \left< f_{j}, f_{\s
 Soit $p \in \mathcal{L}(E)$ un projecteur orthogonal sur $V$
 $$d(f, V) = \min_{g \in E} \left|\left| f-g \right|\right| = \left|\left| f-p(f)\right|\right| $$
 #### b.
-Pour $n = \dim(E)$, le déterminant est 
+Pour $n = \dim(E)$, le déterminant est une application $n$-linéaire
+
+#### c.
