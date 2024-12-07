@@ -82,4 +82,9 @@ Source : <a href="https://www.youtube.com/watch?v=QWAxNCAtuOE&ab_channel=Informa
   $$\boxed{q_{0} \in I} \text{ et } \boxed{q_{n} = q} \text{ et } \boxed{\forall i\in [\![0, n-1]\!], \exists a \in \Sigma, (q_{i}, a, q_{i+1}) \in \delta}$$
 - Un état $q \in Q$ est dit <u>co-accessible</u> si il existe $(q_{i})_{i = 0}^{n}$ tel que 
   $$\boxed{q_{0} = q} \text{ et } \boxed{q_{n} \in F} \text{ et } \boxed{\forall i\in [\![0, n-1]\!], \exists a \in \Sigma, (q_{i}, a, q_{i+1}) \in \delta}$$
-- Un état <u>utile</u> est accessible et co-accessible</u>
+- Un état <u>utile</u> est <u>accessible et co-accessible</u>
+
+#### Définition
+Un automate Émondé consiste à supprimer les état non-utiles
+
+## Suppression des $\varepsilon$-transitions
