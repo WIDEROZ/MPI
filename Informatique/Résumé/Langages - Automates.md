@@ -69,3 +69,17 @@ avec
 $$\forall q \in Q, \forall a \in \Sigma, \delta(q, a) = \{ q' \in Q | (q, a, q') \in \delta \}$$
 
 #### Exemple
+Source : <a href="https://www.youtube.com/watch?v=QWAxNCAtuOE&ab_channel=InformatiqueTh%C3%A9orique">Vidéo</a> 
+![[Pasted image 20241208002045.png]]
+![[Pasted image 20241208002059.png]]
+![[Pasted image 20241208002112.png]]
+![[Pasted image 20241208002122.png]]
+![[Pasted image 20241208002128.png]]
+
+## Automate Émondé
+#### Définition
+- Un état $q \in Q$ est dit <u>accessible</u> si il existe $(q_{i})_{i = 0}^{n}$ tel que 
+  $$\boxed{q_{0} \in I} \text{ et } \boxed{q_{n} = q} \text{ et } \boxed{\forall i\in [\![0, n-1]\!], \exists a \in \Sigma, (q_{i}, a, q_{i+1}) \in \delta}$$
+- Un état $q \in Q$ est dit <u>co-accessible</u> si il existe $(q_{i})_{i = 0}^{n}$ tel que 
+  $$\boxed{q_{0} = q} \text{ et } \boxed{q_{n} \in F} \text{ et } \boxed{\forall i\in [\![0, n-1]\!], \exists a \in \Sigma, (q_{i}, a, q_{i+1}) \in \delta}$$
+- Un état <u>utile</u> est accessible et co-accessible</u>
