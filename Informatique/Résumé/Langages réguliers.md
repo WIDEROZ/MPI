@@ -35,4 +35,16 @@ F' = \{ P \in Q' | \exists f \in F, f \in P \} \\
 
 En gros : 
 - $F'$ : L'ensemble des ensembles qui contiennent au moins un élément de $F$ 
-- $\delta'$ : 
+- $\delta'$ : <a href="https://www.youtube.com/watch?v=-2BJJQ_seqM&ab_channel=Infot%C3%A9o">Vidéo</a>
+
+#### Exemple
+![[Pasted image 20241207235617.png]]
+![[Pasted image 20241207235635.png]]
+![[Pasted image 20241207235648.png]]
+![[Pasted image 20241207235702.png]]
+![[Pasted image 20241207235713.png]]
+![[Pasted image 20241207235726.png]]
+![[Pasted image 20241207235736.png]]
+![[Pasted image 20241207235753.png]]
+![[Pasted image 20241207235759.png]]
+![[Pasted image 20241207235809.png]]
