@@ -91,3 +91,21 @@ Un automate Émondé consiste à supprimer les état non-utiles
 ![[Pasted image 20241208135827.png]]
 ![[Pasted image 20241208141351.png]]
 ![[Pasted image 20241208141915.png]]
+
+## Théorèmes centraux sur les Langages réguliers
+#### Théorème de Kleene
+On note :
+- $Reg(\Sigma)$ l’ensemble des langages réguliers sur $\Sigma$
+- $Rec(\Sigma)$ l’ensemble des langages reconnaissables sur $\Sigma$
+
+Alors, 
+$$\boxed{Reg(\Sigma) = Rec(\Sigma)}$$
+Démonstration : 
+$\subset$ : en considérant le langage dénoté par une expression régulière. 
+$\supset$ : Méthode d'élimination des états. 
+
+#### Méthode d'élimination des états
+##### But
+Construite des automates équivalents jusqu'à ce qu'on obtienne un unique état initial, un unique état final et une unique transition : 
+![[Pasted image 20241208142901.png]]
+$e$ une expression régulière
