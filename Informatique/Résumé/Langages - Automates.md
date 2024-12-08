@@ -120,3 +120,14 @@ $i$ l'unique état initial et $f$ l'unique état final (on supprime les états i
 
 ##### Élimination des états
 Pour tous $q, q_{1}, q_{2} \in Q$,
+![[Pasted image 20241208145437.png]]
+
+#### Lemme de l'étoile
+Soit $L$ un langage régulier sur $\Sigma$, 
+Il existe $N\in \mathbb{N}$ tel que pour 
+On pose $\forall N \in \mathbb{N}, L_{N} = \{ u \in L | \left| u\right|\geq N \}$, 
+$$\exists N \in \mathbb{N}, \forall u \in L_{N}, \exists x, y, z \in \Sigma^{*}, u = xyz \text{ et }\begin{cases}
+\left| y\right|> 0 \\
+\left| xy\right|\leq N \\
+\forall n \in \mathbb{N}, xy^{n}z \in L
+\end{cases}$$
