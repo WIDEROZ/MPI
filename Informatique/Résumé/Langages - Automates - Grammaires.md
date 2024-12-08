@@ -216,3 +216,4 @@ L_{1} \text{ est un langage non contextuel (ou algébrique)} \\
 \text{s'il existe }G_{1}\text{ une grammaire non-contextuelle} \\
 \text{telle que }L = \mathcal{L}(G_{1})
 \end{cases}$$
+
