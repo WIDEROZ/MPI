@@ -194,6 +194,24 @@ Supprimer les indices dans les transitions de $\mathcal{A}'$
 On obtiens alors un <u>automate de Glushkov</u> 
 
 # II. Grammaires
+Soit $G = (\Sigma, V, R, S)$ un grammaire non-contextuelle, 
 #### Définition : Dérivation immédiate
 Soit $\alpha, \beta \in (V \cup \Sigma)^{*}$, 
-On dit qu'il existe une dérivation immédiate de $\alpha$ vers $\beta$ si il existe $\alpha_{1}, \alpha_{2} \in (V \cup \Sigma)^{*}$, $X \in V$ et $\gamma \in (V\cup \Sigma)^{*}$ telq
+On dit qu'il existe une dérivation immédiate de $\alpha$ vers $\beta$ si il existe $\alpha_{1}, \alpha_{2} \in (V \cup \Sigma)^{*}$, $X \in V$ et $\gamma \in (V\cup \Sigma)^{*}$ tels que : 
+$$\begin{cases}
+\alpha = \alpha_{1}X\alpha_{2} \\
+\beta = \alpha_{1}\gamma \alpha_{2} \\
+X \to \gamma \in R
+\end{cases}$$
+On la note : $\alpha \Rightarrow \beta$
+
+#### Définition
+Soit $u \in \Sigma^{*}$, 
+$$\begin{cases}
+u \text{ est généré par }G \text{ si }S \Rightarrow^{*} u \\
+ \\
+\text{Le langage engendré par }G \text{ est : }L(G) = \{ u \in \Sigma^{*} | S \Rightarrow^{*}u \} \\
+ \\
+L_{1} \text{ est un langage non contextuel (ou algébrique)} \\
+\text{s'il existe }G_{1}\text{ non-contextuelle}
+\end{cases}$$
