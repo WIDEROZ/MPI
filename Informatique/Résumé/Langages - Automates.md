@@ -109,3 +109,8 @@ $\supset$ : Méthode d'élimination des états.
 Construite des automates équivalents jusqu'à ce qu'on obtienne un unique état initial, un unique état final et une unique transition : 
 ![[Pasted image 20241208142901.png]]
 $e$ une expression régulière
+
+##### $1^{er}$ transformation
+![[Pasted image 20241208143750.png]]
+
+##### $2^{eme}$ transformation
