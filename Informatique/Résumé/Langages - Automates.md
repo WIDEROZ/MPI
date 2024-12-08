@@ -124,10 +124,44 @@ Pour tous $q, q_{1}, q_{2} \in Q$,
 
 #### Lemme de l'étoile
 Soit $L$ un langage régulier sur $\Sigma$, 
-Il existe $N\in \mathbb{N}$ tel que pour 
-On pose $\forall N \in \mathbb{N}, L_{N} = \{ u \in L | \left| u\right|\geq N \}$, 
-$$\exists N \in \mathbb{N}, \forall u \in L_{N}, \exists x, y, z \in \Sigma^{*}, u = xyz \text{ et }\begin{cases}
+Il existe $N\in \mathbb{N}$ tel que pour tout $u \in L$ tel que $\left| u\right|\geq N$, il existe $x, y, z \in \Sigma^{*}$ tel que $u=xyz$ et 
+$$\begin{cases}
 \left| y\right|> 0 \\
 \left| xy\right|\leq N \\
 \forall n \in \mathbb{N}, xy^{n}z \in L
 \end{cases}$$
+Reformulation formelle : 
+On pose $\forall N \in \mathbb{N}, L_{N} = \{ u \in L | \left| u\right|\geq N \}$, 
+$$\boxed{\exists N \in \mathbb{N}, \forall u \in L_{N}, \exists x, y, z \in \Sigma^{*}, u = xyz \text{ et }\begin{cases}
+\left| y\right|> 0 \\
+\left| xy\right|\leq N \\
+\forall n \in \mathbb{N}, xy^{n}z \in L
+\end{cases}}$$
+## Langages Locaux
+#### Définition
+Soit $L$ un langage sur $\Sigma$, 
+On note : 
+$$\begin{cases}
+P = P(L) \subset \Sigma &\begin{array}{c}
+\text{L'ensemble des initiales}  \\
+\text{des mots non vides de }L 
+\end{array}\\ \\
+
+D = D(L) \subset \Sigma &\begin{array}{l}
+\text{L'ensemble des dernières lettres}  \\
+\text{des mots non vides de }L  
+\end{array} \\
+ \\
+F = F(L) \subset \Sigma^{2} &\begin{array}{l}
+\text{L'ensemble des facteurs de taille 2} \\
+\text{présents dans les mots non vides de }L
+\end{array} \\
+ \\
+N = N(L) \subset \Sigma^{2}\setminus F &\begin{array}{l}
+\text{L'ensemble des facteurs de taille 2} \\
+\text{absents dans les mots non vides de }L
+\end{array}
+\end{cases}$$
+Alors, 
+$L$ est un langage local si il vérifie : 
+$$L \setminus \{ \varepsilon \} = (P \Sigma^{*} \cap \Sigma^{*}D) \setminus (\Sigma^{*}N\Sigma r)$$
