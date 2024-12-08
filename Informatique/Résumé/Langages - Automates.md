@@ -111,6 +111,12 @@ Construite des automates équivalents jusqu'à ce qu'on obtienne un unique état
 $e$ une expression régulière
 
 ##### $1^{er}$ transformation
+Pour tous $q_{1}, q_{2} \in Q$, 
 ![[Pasted image 20241208143750.png]]
 
 ##### $2^{eme}$ transformation
+$i$ l'unique état initial et $f$ l'unique état final (on supprime les états initiaux et finaux de $\mathcal{A}$)
+![[Pasted image 20241208144507.png]]
+
+##### Élimination des états
+Pour tous $q, q_{1}, q_{2} \in Q$,
