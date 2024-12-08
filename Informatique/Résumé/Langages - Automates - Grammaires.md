@@ -1,3 +1,4 @@
+# I. Langages - Automates
 Soit $\mathcal{A} = (\Sigma, Q, I, F, \delta)$ un automate
 ## Executions acceptantes et Automates / Langages reconnus
 #### Définition : Executions - Reconnaissance
@@ -186,4 +187,13 @@ Soit $e$ un expression régulière dénotant le langage $L(e)$
 Linéariser $e$ en $e'$
 
 ##### Étape 2
-Construire l'automate local $\mathcal{A}' = (Q', \Sigma', q_{0}', F', \delta')$
+Construire l'automate local $\mathcal{A}' = (Q', \Sigma', \{q_{0}'\}, F', \delta')$
+
+##### Étape 3
+Supprimer les indices dans les transitions de $\mathcal{A}'$ 
+On obtiens alors un <u>automate de Glushkov</u> 
+
+# II. Grammaires
+#### Définition : Dérivation immédiate
+Soit $\alpha, \beta \in (V \cup \Sigma)^{*}$, 
+On dit qu'il existe une dérivation immédiate de $\alpha$ vers $\beta$ si il existe $\alpha_{1}, \alpha_{2} \in (V \cup \Sigma)^{*}$, $X \in V$ et $\gamma \in (V\cup \Sigma)^{*}$ telq
