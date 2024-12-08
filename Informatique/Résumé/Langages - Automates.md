@@ -177,4 +177,13 @@ L_{1} | L_{2}
 
 #### Définition : Automate local (standard)
 $\mathcal{A}$ est un automate local si : 
-$$\forall a \in \Sigma, \forall q, r \in Q, \delta(q, a) = \delta(r, a)$$
+$$\forall a \in \Sigma, \forall q, r \in Q, \exists s \in Q, \delta(q, a) = \delta(r, a) = \{ s \}$$
+il est dit standard si il n'existe pas de transitions vers $q_{0} \in I$
+
+#### Algorithme de Berry-Sethi
+Soit $e$ un expression régulière dénotant le langage $L(e)$
+##### Étape 1
+Linéariser $e$ en $e'$
+
+##### Étape 2
+Construire l'automate local $\mathcal{A}' = (Q', \Sigma', q_{0}', F', \delta')$
