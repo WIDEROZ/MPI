@@ -210,8 +210,9 @@ Soit $u \in \Sigma^{*}$,
 $$\begin{cases}
 u \text{ est généré par }G \text{ si }S \Rightarrow^{*} u \\
  \\
-\text{Le langage engendré par }G \text{ est : }L(G) = \{ u \in \Sigma^{*} | S \Rightarrow^{*}u \} \\
+\text{Le langage engendré par }G \text{ est : }\mathcal{L}(G) = \{ u \in \Sigma^{*} | S \Rightarrow^{*}u \} \\
  \\
 L_{1} \text{ est un langage non contextuel (ou algébrique)} \\
-\text{s'il existe }G_{1}\text{ non-contextuelle}
+\text{s'il existe }G_{1}\text{ une grammaire non-contextuelle} \\
+\text{telle que }L = \mathcal{L}(G_{1})
 \end{cases}$$
