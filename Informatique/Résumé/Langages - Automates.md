@@ -88,3 +88,4 @@ Source : <a href="https://www.youtube.com/watch?v=QWAxNCAtuOE&ab_channel=Informa
 Un automate Émondé consiste à supprimer les état non-utiles
 
 ## Suppression des $\varepsilon$-transitions
+![[Pasted image 20241208135827.png]]
