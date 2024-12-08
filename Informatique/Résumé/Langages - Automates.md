@@ -1,6 +1,6 @@
 Soit $\mathcal{A} = (\Sigma, Q, I, F, \delta)$ un automate
 ## Executions acceptantes et Automates / Langages reconnus
-#### Définition
+#### Définition : Executions - Reconnaissance
 Pour $I=[\![0, n]\!]$, 
 On dit que $(q_{i})_{i \in I}\in Q^{I}$ est <u>une execution d'étiquette</u> $u = u_{0}u_{1}\dots u_{n-1} \in \Sigma^{*}$ lorsque : 
 $$\boxed{q_{0} \in I} \text{ et }\boxed{\forall i \in I \setminus \{ n \}, (q_{i}, u_{i}, q_{i+1}) \in\delta} $$
@@ -12,7 +12,7 @@ On note l'ensemble des mots reconnus par $\mathcal{A}$ : $\underline{\mathcal{L}
 Un langage $\underline{L \text{ est reconnaissable}}$ si il existe un automate $\mathcal{A}$ tel que $\underline{L = \mathcal{L}(\mathcal{A})}$
 
 ## Automates déterministes
-#### Définition
+#### Définition : Automate déterministe
 Un automate est déterministe si : 
 $$\begin{cases}
 \left| I\right|\leq 1 \\
@@ -23,8 +23,7 @@ $$\begin{cases}
 Les automates déterministes sont des automates non déterministes ie
 {automates déterministes}$\subset${automates non déterministes}
 
-#### Propriété
-Déterminisation d'un automate non-déterministe : 
+#### Propriété : Déterminisation d'un automate
 $\mathcal{A}' = (\Sigma, Q', I', F', \delta')$ est un automate déterministe (équivalent à $\mathcal{A}$) 
 où : 
 $$\begin{array}{l}
@@ -57,7 +56,7 @@ $$\begin{cases}
 \forall q \in Q, \forall a \in \Sigma, \exists q' \in Q, (q, a, q') \in \delta
 \end{cases}$$
 
-#### Propriété
+#### Propriété : Completion d'un automate
 Completion d'un automate non-déterministe : 
 $\mathcal{A}' = (\Sigma, Q', I, F, \delta')$ est un automate complet (équivalent à $\mathcal{A}$) 
 où : 
@@ -77,14 +76,14 @@ Source : <a href="https://www.youtube.com/watch?v=QWAxNCAtuOE&ab_channel=Informa
 ![[Pasted image 20241208002128.png]]
 
 ## Automate Émondé
-#### Définition
+#### Définition : Accessibilité - Utilité
 - Un état $q \in Q$ est dit <u>accessible</u> si il existe $(q_{i})_{i = 0}^{n}$ tel que 
   $$\boxed{q_{0} \in I} \text{ et } \boxed{q_{n} = q} \text{ et } \boxed{\forall i\in [\![0, n-1]\!], \exists a \in \Sigma, (q_{i}, a, q_{i+1}) \in \delta}$$
 - Un état $q \in Q$ est dit <u>co-accessible</u> si il existe $(q_{i})_{i = 0}^{n}$ tel que 
   $$\boxed{q_{0} = q} \text{ et } \boxed{q_{n} \in F} \text{ et } \boxed{\forall i\in [\![0, n-1]\!], \exists a \in \Sigma, (q_{i}, a, q_{i+1}) \in \delta}$$
 - Un état <u>utile</u> est <u>accessible et co-accessible</u>
 
-#### Définition
+#### Définition : Automate Émondé
 Un automate Émondé consiste à supprimer les état non-utiles
 
 ## Suppression des $\varepsilon$-transitions
@@ -138,7 +137,7 @@ $$\boxed{\exists N \in \mathbb{N}, \forall u \in L_{N}, \exists x, y, z \in \Sig
 \forall n \in \mathbb{N}, xy^{n}z \in L
 \end{cases}}$$
 ## Langages Locaux
-#### Définition
+#### Définition : Langage local 
 Soit $L$ un langage sur $\Sigma$, 
 On note : 
 $$\begin{cases}
@@ -163,5 +162,19 @@ N = N(L) \subset \Sigma^{2}\setminus F &\begin{array}{l}
 \end{array}
 \end{cases}$$
 Alors, 
-$L$ est un langage local si il vérifie : 
-$$L \setminus \{ \varepsilon \} = (P \Sigma^{*} \cap \Sigma^{*}D) \setminus (\Sigma^{*}N\Sigma r)$$
+$L$ est un langage local si il est intégralement décrit par $P, D$ et $F$ (ou $N$) ie : 
+$$\boxed{L \setminus \{ \varepsilon \} = (P \Sigma^{*} \cap \Sigma^{*}D) \setminus (\Sigma^{*}N\Sigma^{*})}$$
+
+#### Propriété : Stabilité des langages locaux
+Soient $L_{1}, L_{2}$ deux langages locaux, 
+$$\boxed{\begin{cases}
+L = L_{1}\cap L_{2}\text{ est local} \\
+\Sigma_{1} \cap \Sigma_{2} = \varnothing \Rightarrow \begin{cases}
+L_{1}\cdot L_{2} \\
+L_{1} | L_{2}
+\end{cases} \text{ sont locaux}
+\end{cases}}$$
+
+#### Définition : Automate local (standard)
+$\mathcal{A}$ est un automate local si : 
+$$\forall a \in \Sigma, \forall q, r \in Q, \delta(q, a) = \delta(r, a)$$
