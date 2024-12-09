@@ -19,7 +19,7 @@ Il existe $n_{f} \in \mathbb{N}$ tel que :
 $\mathcal{A} = (\Sigma,Q, I, F, \delta)$
 Avec : 
 
-$Q = \mathbb{Z} \times \mathbb{Z}$
+$Q = \mathcal{P}(\mathbb{Z} \times \mathbb{Z})$
 $I = V(0)$
 $F=V(n_{f})$
 $\delta$ : Ahah c'est ça qu'il faut trouver
