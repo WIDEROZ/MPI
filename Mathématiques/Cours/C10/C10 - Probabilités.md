@@ -638,3 +638,23 @@ $$\mathrm{Cov}(X_{i}, X_{j}) = \mathbb{E}((X_{i}-\mathbb{E}(X_{i}))(X_{j}-\mathb
 Comme ; 
 $$\forall i, j \in[\![1, n]\!], \mathbb{E}(X_{i}X_{j}) = \sum_{k =0}^{1}k\mathbb{P}(X_{i}X_{j}=k)$$
 $$\mathrm{Cov}(X_{i}, X_{j}) = \mathbb{E}(X_{i}X_{j})-\frac{1}{4}$$
+
+#### Propriétés
+Soient $E, F$ des ensembles
+Soit $n \in \mathbb{N}^{*}$, $X_{1}, \dots, X_{n} \in E^{\Omega}$, des VA mutuellement $\amalg$, et $f_{1}, \dots, f_{n} \in F^{E}$ des fonctions
+Alors,  $f_{1}(X_{1}), \dots, f_{n}(X_{n})$ sont mutuellement $\amalg$
+
+Démonstration : 
+Pour $n=2$, 
+$$\forall y_{1}, y_{2} \in F, \mathbb{P}(f_{1}(X_{1}) = y_{1}, f_{n}(X_{2})=y_{2})$$
+$$= \mathbb{P}\left( \bigsqcup_{x_{1} \in f_{1}^{-1}(\{ y_{1} \})}(X_{1}=x_{1}) \cap \bigsqcup_{x_{2} \in f_{2}^{-1}(\{ y_{2} \})} (X_{2}=x_{2})\right)$$
+$$= \mathbb{P}(\bigsqcup_{(x_{1}, x_{2}) \in I_{1}\times I_{2}} (X_{1} = x_{1}, X_{2}=x_{2}))$$
+Or $I_{1} \subset X_{1}(\Omega)$ qui est au plus dénombrable, Donc $I_{1}$ l'est (same pour $I_{2}$) donc $I_{1}\times I_{2}$ l'est aussi 
+
+
+
+#### Lemme des Coalitions
+Sous les mêmes hypothèses, 
+$$\forall k \in [\![1, n-1]\!], \forall f_{1} \in F^{E^{k}}, \forall f_{2} \in F^{E^{n-k}}, f_{1}(X_{1}, \dots, X_{k})\amalg f_{2}(X_{k}, \dots, X_{n})$$
+
+
