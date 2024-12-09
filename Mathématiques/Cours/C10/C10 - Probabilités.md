@@ -768,4 +768,9 @@ $$\mathbb{E}(X) = \sum_{n = 1}^{+ \infty} \mathbb{P}(X \geq n) = \sum_{n = 1}^{+
 $$= \frac{q^{0}}{1-q} = \frac{1}{p}$$
 
 #### Loi de poisson
-Soit $\lambda $
+Soit $\lambda >0$, $X \sim \mathcal{P}(\lambda)$, 
+$$\mathbb{E}(X) = \lambda$$
+
+Démonstration : 
+$$\sum_{k = 1}^{+ \infty} k\mathbb{P}(X=k) = \sum_{k= 0}^{+ \infty}ke^{ -\lambda } \frac{\lambda^{k}}{k!} = e^{ -\lambda } \sum_{k= 1}^{+ \infty} \frac{\lambda^{k}}{(k-1)!} = e^{ -\lambda }\lambda e^{ \lambda } = \lambda$$
+
