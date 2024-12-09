@@ -649,12 +649,33 @@ Pour $n=2$,
 $$\forall y_{1}, y_{2} \in F, \mathbb{P}(f_{1}(X_{1}) = y_{1}, f_{n}(X_{2})=y_{2})$$
 $$= \mathbb{P}\left( \bigsqcup_{x_{1} \in f_{1}^{-1}(\{ y_{1} \})}(X_{1}=x_{1}) \cap \bigsqcup_{x_{2} \in f_{2}^{-1}(\{ y_{2} \})} (X_{2}=x_{2})\right)$$
 $$= \mathbb{P}(\bigsqcup_{(x_{1}, x_{2}) \in I_{1}\times I_{2}} (X_{1} = x_{1}, X_{2}=x_{2}))$$
-Or $I_{1} \subset X_{1}(\Omega)$ qui est au plus dénombrable, Donc $I_{1}$ l'est (same pour $I_{2}$) donc $I_{1}\times I_{2}$ l'est aussi 
-
-
+Or $I_{1} \subset X_{1}(\Omega)$ qui est au plus dénombrable, Donc $I_{1}$ l'est (same pour $I_{2}$) donc $I_{1}\times I_{2}$ l'est aussi ainsi, 
+$$\forall y_{1}, y_{2} \in F, \mathbb{P}(f_{1}(X_{1}) = y_{1}, f_{n}(X_{2})=y_{2})$$
+$$= \sum_{(x_{1}, x_{2}) \in I_{1} \times I_{2}} \mathbb{P}(X_{1}=x_{1}, X_{2}=x_{2}) $$
+$$= \sum_{x_{1} \in I_{1}}\sum_{x_{2}\in I_{2}} \mathbb{P}(X_{1}=X_{1})\mathbb{P}(X_{2}=x_{2})$$
+$$= \sum_{x_{1} \in f_{1}^{-1}(\{ y_{1} \})}\sum_{x_{2}\in f^{-1}_{2}(\{ y_{2} \})} \mathbb{P}(X_{1}=X_{1})\mathbb{P}(X_{2}=x_{2})$$
+$$= \mathbb{P}(f_{1}(X_{1}) = y_{1}) \mathbb{P}(f_{2}(X_{2})=y_{2})$$
 
 #### Lemme des Coalitions
 Sous les mêmes hypothèses, 
 $$\forall k \in [\![1, n-1]\!], \forall f_{1} \in F^{E^{k}}, \forall f_{2} \in F^{E^{n-k}}, f_{1}(X_{1}, \dots, X_{k})\amalg f_{2}(X_{k}, \dots, X_{n})$$
 
+#### Propriété
+Soit $X_{1}, X_{2} \in \mathbb{R}^{\Omega}$, de VA $\amalg$,
+$$\forall z \in \mathbb{R}, \mathbb{P}(X_{1}+X_{2}=z) = \sum_{x_{1} \in \Omega} \mathbb{P}(X_{1}=x_{1}) \mathbb{P}(X_{2}=z-x_{1})$$
+Démonstration : 
+$$\mathbb{P}(X_{1}+X_{2}=z) = \sum_{x_{1}\in X_{1}(\Omega)} \mathbb{P}(X_{1}+X_{2} = z, X_{1}=x_{1})$$
+$$= \sum_{x_{1} \in X_{1}(\Omega)} \mathbb{P}(X_{1}=x_{1}, X_{2}=z-x_{1})$$
+car : 
+$$\begin{cases}
+X_{1}+X_{2}=z \\
+X_{1}=x_{1}
+\end{cases} \Leftrightarrow \begin{cases}
+X_{2}=z-x_{1} \\
+X_{1}=x_{1}
+\end{cases}$$
+Ainsi, ca marche.
 
+#### Proposition
+$$\forall n \in \mathbb{N}^{*}, \forall p \in ]0, 1[, X_{1}, \dots, X_{n} \sim \mathcal{B}(p) \text{ sont des VA i.i.d}$$
+i.i.d : indépendantes indentiquements distribuées (identiquement distribués : de même lois)
