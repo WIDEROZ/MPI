@@ -22,3 +22,7 @@ Avec :
 $Q = \mathbb{Z} \times \mathbb{Z}$
 $I = V(0)$
 $F=V(n_{f})$
+$\delta$ : Ahah c'est ça qu'il faut trouver
+
+#### Propriété
+$$T \geq 2(|A| + |B|)$$

@@ -1,2 +1,3 @@
-# Modélisation de la recherche du plus court chemin dans le jeu de la vie
-D'un état initial 
+#### Grille = graphe
+Représenter la grille du jeu de la vie comme un graphe avec des règles de déplacement.
+
