@@ -1,0 +1,1 @@
+Montrer que : $ba$ n'est pas un sous mot de $L(G)$ 
