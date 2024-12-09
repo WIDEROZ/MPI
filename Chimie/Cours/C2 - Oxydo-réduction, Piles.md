@@ -9,5 +9,7 @@ Zn &+ 2MnO_{2} &+ H^{+} &\longleftrightarrow ZnO &+2MnOOH&+2H^{+} \\
 n_{Z_{i}}-\xi&n_{M_{i}}-2\xi&n_{H^{+}}-\xi&\xi&2\xi&2\xi
 \end{array}$$
 La réaction est totale :
-$$n(MnO_{2} \to MnOOH) = n(e^{-}) = 0.3 \text{ mol}$$
-$$n(Zn \to ZnO) = 2n(e^{-}) = 0.6 \text{ mol}$$
+$$\boxed{\begin{cases}
+n(MnO_{2} \to MnOOH) = n(e^{-}) = 0.3 \text{ mol} \\
+n(Zn \to ZnO) = 2n(e^{-}) = 0.6 \text{ mol}
+\end{cases}}$$
