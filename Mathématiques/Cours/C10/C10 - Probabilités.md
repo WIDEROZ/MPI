@@ -694,4 +694,19 @@ Comme $S_{n}\sim \mathcal{B}(n, p)$ par HDR : $S_{n}(\Omega) = [\![0,n]\!]$
 Puisque : $X_{n+1}(\Omega) = [\![0, 1]\!]$, $S_{n+1}(\Omega) \subset [\![0,n+1]\!]$ alors, 
 Si $k=0$, ...
 Si $k \in [\![1, n]\!]$, 
-$$\mathbb{P}(S_{n+1})$$
+$$\mathbb{P}(S_{n+1} = k) = \mathbb{P}(S_{n} +X_{n+1}=k) $$
+$$= \mathbb{P}(X=0)\mathbb{P}(S_{n} = k-0) + \mathbb{P}(X_{n+1} = 1)+\mathbb{P}(S_{n} = k-1)$$
+$$= q\binom{n}{k}p^{k}q^{n-k} + p \binom{n}{k-1} p^{k-1}q^{n-k+1}$$
+$$= \binom{n+1}{k}p^{k}q^{n+1-k}$$
+Si $k = n+1$,
+$$\mathbb{P}(S_{n+1} = n+1) = 1-\sum_{k = 0}^{n} \mathbb{P}(S_{n+1} = k) = 1- \sum_{k =0}^{n}\binom{n+1}{k}p^{k}q^{n+1-k}$$
+$$= 1-((p+q)^{n+1} - \binom{n+1}{n+1}p^{n+1}q^{n+1-(n+1)}) = \binom{n+1}{n+1}p^{n+1}q^{n+1-(n+1)}$$
+
+
+#### Exercice IMPORTANT
+Soient $\alpha, \beta \in \mathbb{R}_{+}^{*}$, soient $X \sim \mathcal{P}(\alpha)$, $Y \sim \mathcal{P}(\beta)$ et on suppose que $X \amalg Y$, Déterminer la loi de $Z = X+Y$, 
+
+Comme $X(\Omega) = \mathbb{N}$ et $Y(\Omega) = \mathbb{N}$, $Z(\Omega) \subset \mathbb{N}$, 
+Soit $n \in \mathbb{N}$, 
+$$\mathbb{P}(Z = n) = \sum_{k = 0}^{+ \infty} \mathbb{P}(X = k)\mathbb{P}(Y = n-k)$$
+$$= \sum_{k = 0}^{n}\mathbb{P}(X = k)\mathbb{P}(X=n-k)$$
