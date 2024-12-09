@@ -1,4 +1,3 @@
-# Formulaire
 $$n^{*} = \frac{dN}{d\tau}$$
 
 #### Opérateurs vectoriels

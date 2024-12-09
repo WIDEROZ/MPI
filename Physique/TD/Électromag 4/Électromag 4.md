@@ -141,3 +141,5 @@ Or,
 $$V_{1} = \frac{V_{2}-V_{1}}{\ln\left( \frac{R_{2}}{R_{1}} \right)}\ln\left( R_{1} \right) + K$$
 Ainsi, 
 $$K = \frac{V_{1} \left( 1+\ln\left( \frac{R_{2}}{R_{1}} \right) \right)-V_{2}}{\ln\left( \frac{R_{2}}{R_{1}} \right)} $$
+
+# Exercice 5
