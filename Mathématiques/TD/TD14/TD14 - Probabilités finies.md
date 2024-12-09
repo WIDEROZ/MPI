@@ -93,4 +93,15 @@ $$P(X \geq i) = \frac{\left| \mathcal{P}_{k}([\![i, n]\!]) \right|}{\binom{n}{k}
 ##### 1.
 $$(U, V)(\Omega) = \{ (n, k) \in \mathbb{N}^{2} | n \geq k \} \subset \mathbb{N}\times \mathbb{N}$$
 
-$$\forall (n, k) \in (U, V)(\Omega), \mathbb{P}(U = n, V = k) = $$
+$$\forall (n, k) \in (U, V)(\Omega), \mathbb{P}(U = n, V = k) $$
+$$= \mathbb{P}(((X, Y) = (n, k) )\cup ((X, Y) = (k, n) ))$$
+Pour $n \neq k$, 
+$$= \mathbb{P}(X=n, Y=k) + \mathbb{P}(X = k, Y = n)$$
+$$= \mathbb{P}(X=n)\mathbb{P}(Y=k) + \mathbb{P}(X=k) \mathbb{P}(Y=n)=2p^{2}q^{n+k}$$
+Si $n=k$ : 
+$$\mathbb{P}(U =n, V=n) = p^{2}q^{2n}$$
+###### 2.
+$$\forall u \in (U, V)(\Omega), P(U = u) = \sum_{k \in \mathbb{N}}\mathbb{P}(U =u, V=k) $$
+$$= 2\sum_{k =0}^{u-1}p^{2}q^{u+k} + p^{2}q^{2u}$$
+$$= 2p^{2}q^{u} \frac{1-q^{u}}{1-q} +p^{2}q^{2u}$$
+$$= p^{2}q^{2u}()$$
