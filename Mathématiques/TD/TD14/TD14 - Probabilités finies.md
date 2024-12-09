@@ -111,4 +111,13 @@ $$\mathbb{P}(W = n)= \mathbb{P}(V = n-1)=pq^{2n-2}(1+q) = p(1+q)(q^{2})^{n-1}$$
 $$= (1-q^{2})(q^{2})^{n-1}$$
 Donc $W \sim \mathcal{G}(1-q^{2})$
 
+$$\mathbb{E}(V) = \mathbb{E}(W-1) = \mathbb{E}(W) -1 = \frac{1}{1-q^{2}}-1 = \frac{1}{p(2-p)}-1$$
+
 ##### 4.
+$$0 = \mathbb{P}(U = 0, V=1) \neq \mathbb{P}(U = 0)\mathbb{P}(V = 1) \neq 0$$
+
+#### Exercice 12-10
+$X \sim \mathcal{G}(p)$ ou $p \in ]0, 1[$ 
+$$L_{1} = \text{long. de la premiere suite }$$
+Déterminer : 
+$$\mathbb{P}_{L_{1}} \text{ et } \mathbb{E}(L_{1})$$
