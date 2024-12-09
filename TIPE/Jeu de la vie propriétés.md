@@ -8,4 +8,17 @@ On écrit : $(A, B)/T$ l'ensemble des vaisseaux qui se déplacent de $A$ cases h
 #### Exemple 
 Le glider est un vaisseau de type : $(1, 1)/4$
 
-## II. Définitions de l'automate représentant le jeu de la vie
+## II. Définitions de l'automate qui représente le jeu de la vie
+#### Définition : Cellule vivante ou morte
+On note :
+- $\forall g \in \mathbb{N}, V(g) \in \mathcal{P}(\mathbb{Z})$ l'ensemble des cellules vivantes à la génération $g$
+- $\forall g \in \mathbb{N}, M(g)=\mathbb{Z} \setminus V(g)$ l'ensembles des cellules mortes à la génération $g$
+
+#### Définition / Propriété
+Il existe $n_{f} \in \mathbb{N}$ tel que : 
+$\mathcal{A} = (\Sigma,Q, I, F, \delta)$
+Avec : 
+
+$Q = \mathbb{Z} \times \mathbb{Z}$
+$I = V(0)$
+$F=V(n_{f})$
