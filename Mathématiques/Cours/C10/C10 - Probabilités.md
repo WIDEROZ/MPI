@@ -722,4 +722,31 @@ Déterminer la loi de $X$ :
 Soit $k \in \mathbb{N}$, 
 $$\mathbb{P}(X=k) = \sum_{m = 0}^{+ \infty} \mathbb{P}(X = k | Y = m) \mathbb{P}(Y=m)$$
 $$= \sum_{m=0}^{+ \infty}e^{ -\lambda } \frac{\lambda^{m}}{m!} \mathbb{P}(X = k| Y=m)$$
-$$= \sum_{m=k} ^{+ \infty} $$
+$$= \sum_{m=k} ^{+ \infty} \binom{m}{k}p^{k}q^{m-k} \frac{e^{ -\lambda }\lambda^{m}}{m!} = p^{k}e^{ -\lambda }\sum_{m = k}^{+ \infty} \frac{q^{n-k}\lambda^{m}}{k!(m-k)!}$$
+$$= \frac{p^{k}e^{ -\lambda }}{k!} \sum_{j = 0}^{+ \infty} \frac{q^{j}}{j!} \lambda^{j+k} = \frac{(p\lambda)^{k}}{k!} e^{ -\lambda } \sum_{j =0}^{+ \infty} \frac{(q\lambda)^{j}}{j!} = \frac{(p\lambda)^{k}}{k!}e^{ -\lambda }\sum_{j=0}^{+\infty} \frac{(q\lambda)^{j}}{j!}$$
+$$= \frac{(p\lambda)^{k}}{k!} e^{ -\lambda p }$$
+ie 
+$$X \sim \mathbb{P}(\lambda p)$$
+
+# VI - I. Espérance
+## 1. Définition
+#### Définition
+Soit $X\in \mathbb{C}^{\Omega}$ une VA, 
+Si $X$ est positive, on appelle espérance de $X$ la somme de la famille $(x\mathbb{P}(X = x))_{x \in X(\Omega)}$
+$$\mathbb{E}(X) = \sum_{x \in X(\Omega)} x \mathbb{P}(X = x)$$
+$X$ est dite d'espérance finie lorsque $\mathbb{E}(X) \neq + \infty$
+
+#### Définition
+Si $X(\Omega) \subset \mathbb{C}$, on dit que $X$ est d'espérance finie lorsque la famille $(x\mathbb{P}(X=x))_{x \in X(\Omega)}$ est sommable. On note encore sa somme $\mathbb{E}(X) \in \mathbb{C}$
+
+#### Notation
+On note : 
+$$\mathcal{L}^{1}(\Omega, \mathbb{C})$$
+l'ensemble de ces VA qui sont d'espérance finie
+
+#### Définition
+$$\forall X \in \mathcal{L}^{1}(\Omega, \mathbb{C}), X \text{ est centrée lorsque : }\mathbb{E}(X) = 0$$
+
+## 2. Propriétés
+#### Propriété
+$$\mathbb{E}(X) =$$
