@@ -749,4 +749,23 @@ $$\forall X \in \mathcal{L}^{1}(\Omega, \mathbb{C}), X \text{ est centrée lorsq
 
 ## 2. Propriétés
 #### Propriété
-$$\mathbb{E}(X) =$$
+Pour $X \in \mathbb{N}^{\Omega}$ une VA : 
+$$\mathbb{E}(X) = \sum_{n = 0}^{+ \infty} n\mathbb{P}(X = n) = \sum_{n = 1}^{+ \infty}\mathbb{P}(X \geq n)$$
+
+Démonstration : 
+$$\sum_{n = 1}^{+ \infty}n\mathbb{P}(X\geq n) =\sum_{n =1}^{+ \infty} \mathbb{P}\left(\bigsqcup_{k \geq n}(X=k)\right) = \sum_{n = 1}^{+ \infty}\sum_{k = n}^{+ \infty} \mathbb{P}(X=k)$$
+$$= \sum_{(n,k) \in \mathbb{N}^{*} \times \mathbb{N}}a_{k, n} \text{ ou }a_{k, n} = \begin{cases}
+\mathbb{P}(X = k) \text{ si }k \geq n \\
+0 \text{ si }k < n
+\end{cases}$$
+$$= \sum_{k =0}^{+ \infty}\sum_{n = 1}^{k} \mathbb{P}(X=k) = \sum_{k =0}^{+ \infty}k \mathbb{P}(X=k) = \mathbb{E}(X)$$
+
+#### Loi géométrique
+Soit $X \sim \mathcal{G}(p)$ ou $p \in ]0, 1[$, 
+$$\mathbb{E}(X) = \frac{1}{p}$$
+Démonstration :
+$$\mathbb{E}(X) = \sum_{n = 1}^{+ \infty} \mathbb{P}(X \geq n) = \sum_{n = 1}^{+ \infty} \sum_{k =n}^{+ \infty} pq^{k-1} = \sum_{n = 1}^{+ \infty} \frac{pq^{n-1}}{1-q} = \sum_{n = 1}^{+ \infty} q^{n-1}$$
+$$= \frac{q^{0}}{1-q} = \frac{1}{p}$$
+
+#### Loi de poisson
+Soit $\lambda $
