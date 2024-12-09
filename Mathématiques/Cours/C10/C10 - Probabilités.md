@@ -638,4 +638,3 @@ $$\mathrm{Cov}(X_{i}, X_{j}) = \mathbb{E}((X_{i}-\mathbb{E}(X_{i}))(X_{j}-\mathb
 Comme ; 
 $$\forall i, j \in[\![1, n]\!], \mathbb{E}(X_{i}X_{j}) = \sum_{k =0}^{1}k\mathbb{P}(X_{i}X_{j}=k)$$
 $$\mathrm{Cov}(X_{i}, X_{j}) = \mathbb{E}(X_{i}X_{j})-\frac{1}{4}$$
-d
