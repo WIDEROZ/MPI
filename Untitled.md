@@ -4,3 +4,5 @@ $$S \Rightarrow aSbS \Rightarrow aaSbS\Rightarrow aab$$
 
 ## 2.
 $\subset$
+## 3.
+$$S \to aS|F | \varepsilon, F \to $$
