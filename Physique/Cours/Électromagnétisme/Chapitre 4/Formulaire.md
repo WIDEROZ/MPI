@@ -92,3 +92,4 @@ $$\boxed{\frac{dU_{em}}{dt} = \mathcal{P}_{\text{ray, entrant}} - \mathcal{P}_{\
 
 #### Puissance électromagnétique rayonnée
 $$\boxed{\mathcal{P}_{ray}=\iint \vec{\Pi}.d\vec{S}}$$
+al-qaeeda futbol klab thekebib78 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<69
