@@ -8,4 +8,5 @@ $$\begin{array}{c}
 Zn &+ MnO_{2} &+ 2H^{+} &\longleftrightarrow& ZnO &+MnO&+2H^{+} \\
 n_{Z_{i}}-\xi&n_{M_{i}}-\xi&n_{H^{+}}-2\xi&&\xi&\xi&2\xi
 \end{array}$$
-Comme la réaction est totale
+La réaction est totale :
+$$$$
