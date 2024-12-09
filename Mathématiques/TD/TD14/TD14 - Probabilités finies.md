@@ -100,8 +100,15 @@ $$= \mathbb{P}(X=n, Y=k) + \mathbb{P}(X = k, Y = n)$$
 $$= \mathbb{P}(X=n)\mathbb{P}(Y=k) + \mathbb{P}(X=k) \mathbb{P}(Y=n)=2p^{2}q^{n+k}$$
 Si $n=k$ : 
 $$\mathbb{P}(U =n, V=n) = p^{2}q^{2n}$$
-###### 2.
+##### 2.
 $$\forall u \in (U, V)(\Omega), P(U = u) = \sum_{k \in \mathbb{N}}\mathbb{P}(U =u, V=k) $$
 $$= 2\sum_{k =0}^{u-1}p^{2}q^{u+k} + p^{2}q^{2u}$$
 $$= 2p^{2}q^{u} \frac{1-q^{u}}{1-q} +p^{2}q^{2u}$$
-$$= p^{2}q^{2u}()$$
+$$= pq^{u}(2(1-q^{u})+pq^{u})$$
+
+##### 3.
+$$\mathbb{P}(W = n)= \mathbb{P}(V = n-1)=pq^{2n-2}(1+q) = p(1+q)(q^{2})^{n-1}$$
+$$= (1-q^{2})(q^{2})^{n-1}$$
+Donc $W \sim \mathcal{G}(1-q^{2})$
+
+##### 4.
