@@ -247,22 +247,28 @@ $$A_{n}\subset A_{n+1} \Rightarrow C_{n+1} \subset C_{n}$$
 Ainsi, 
 $$\mathbb{P}(A_{n}) = 1-\mathbb{P}(C_{n}) \underset{n \to +\infty}{\longrightarrow} 1-\mathbb{P}\left( \bigcup_{n \in \mathbb{N}} C_{n} \right) = \mathbb{P}\left( \bigcap_{n \in \mathbb{N}} A_{n} \right)$$
 3.
-$$\bigcup_{k = 0}^{n}A_{k}\subset \bigcup_{k = 0}^{n-1}A_{k}$$
+$$\bigcup_{k = 0}^{n}A_{k}\subset \bigcup_{k = 0}^{n+1}A_{k}$$
 D'après le 1. c'est fini
+
+4.
+$$\bigcap_{k = 0}^{n+1}A_{k}\subset \bigcap_{k = 0}^{n}A_{k}$$
+D'après le 2. c'est fini
+
 
 #### Définition
 Une famille $(A_{i})_{i \in I}$ d'événements, ou $I$ est au plus dénombrable est appelé système quasi-complet d'événements lorsque : 
 $$\forall i \neq j \in I, \mathbb{P}(A_{i}\cap A_{j}) = 0 \text{ et }\mathbb{P}\left( \bigcup_{i \in I}A_{i} \right) = 1$$
+
 # II. Indépendance et probabilités conditionnelles
 ## 1. Indépendance
 Soit $(\Omega, \mathcal{A}, \mathbb{P})$ un espace probabilisé
 #### Définition
 1.
 Soient $A, B \in \mathcal{A}$, 
-$A$ et $B$ sont $\coprod$ lorsque : $\mathbb{P}(A \cap B) = \mathbb{P}(A)\mathbb{P}(B)$
+$A$ et $B$ sont $\amalg$ lorsque : $\mathbb{P}(A \cap B) = \mathbb{P}(A)\mathbb{P}(B)$
 2.
 Soient $A = (A_{i})_{i \in I}\in \mathcal{A}$ au plus dénombrable, 
-$\forall i \in I, A_{i}$ sont dits mutuellement $\coprod$ lorsque pour toute partie finie $J \subset I$, 
+$\forall i \in I, A_{i}$ sont dits mutuellement $\amalg$ lorsque pour toute partie finie $J \subset I$, 
 $$\mathbb{P}\left( \bigcap_{i \in J} A_{i} \right) = \prod_{i \in J}\mathbb{P}(A_{i})$$
 
 #### Exemple
@@ -282,6 +288,7 @@ $$ = \mathbb{P}(A)-\mathbb{P}(A)\mathbb{P}(B)=\mathbb{P}(A)\mathbb{P}(\bar{B})$$
 #### Définition
 Soient $A, B\in \mathcal{A}$, 
 $$\mathbb{P}(B)\neq 0 \Rightarrow \mathbb{P}(A | B)= \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)}$$
+
 #### Propriété
 Si $B \in \mathcal{A}$ et $\mathbb{P}(B)\neq 0$
 $$\mathbb{P}_{B} : \begin{cases}
