@@ -657,7 +657,8 @@ $$= \sum_{x_{1} \in f_{1}^{-1}(\{ y_{1} \})}\sum_{x_{2}\in f^{-1}_{2}(\{ y_{2} \
 $$= \mathbb{P}(f_{1}(X_{1}) = y_{1}) \mathbb{P}(f_{2}(X_{2})=y_{2})$$
 
 #### Lemme des Coalitions
-Sous les mêmes hypothèses, 
+Soient $E, F$ des ensembles
+Soit $n \in \mathbb{N}^{*}$, $X_{1}, \dots, X_{n} \in E^{\Omega}$, des VA mutuellement $\amalg$, et $f_{1}, \dots, f_{n} \in F^{E}$ des fonctions, 
 $$\forall k \in [\![1, n-1]\!], \forall f_{1} \in F^{E^{k}}, \forall f_{2} \in F^{E^{n-k}}, f_{1}(X_{1}, \dots, X_{k})\amalg f_{2}(X_{k}, \dots, X_{n})$$
 
 #### Propriété
@@ -678,4 +679,19 @@ Ainsi, ca marche.
 
 #### Proposition
 $$\forall n \in \mathbb{N}^{*}, \forall p \in ]0, 1[, X_{1}, \dots, X_{n} \sim \mathcal{B}(p) \text{ sont des VA i.i.d}$$
-i.i.d : indépendantes indentiquements distribuées (identiquement distribués : de même lois)
+VA i.i.d : variables aléatoires indépendantes identiquement distribuées (identiquement distribués : de même lois)
+Alors, 
+$$\sum_{k = 1}^{n} X_{k} \sim \mathcal{B}(n, p)$$
+
+Démonstration : 
+$n=1$ : RAS $\mathcal{B}(1, p) = \mathcal{B}(p)$ par HDR
+Hérédité :
+Soit $n \in \mathbb{N}^{*}$ tel que le résultat est vrai pour $n$ : 
+Soient $X_{1}, \dots, X_{n+1}$ des variables aléatoires indépendantes identiquement distribuées de la loi $\mathcal{B}(p)$ et
+$$S_{n+1} = \sum_{k = 1}^{n+1} X_{k}$$
+$S_{n+1} = S_{n} + X_{n+1}$
+Comme $S_{n}\sim \mathcal{B}(n, p)$ par HDR : $S_{n}(\Omega) = [\![0,n]\!]$
+Puisque : $X_{n+1}(\Omega) = [\![0, 1]\!]$, $S_{n+1}(\Omega) \subset [\![0,n+1]\!]$ alors, 
+Si $k=0$, ...
+Si $k \in [\![1, n]\!]$, 
+$$\mathbb{P}(S_{n+1})$$
