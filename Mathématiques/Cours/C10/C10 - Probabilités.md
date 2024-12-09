@@ -709,4 +709,17 @@ Soient $\alpha, \beta \in \mathbb{R}_{+}^{*}$, soient $X \sim \mathcal{P}(\alpha
 Comme $X(\Omega) = \mathbb{N}$ et $Y(\Omega) = \mathbb{N}$, $Z(\Omega) \subset \mathbb{N}$, 
 Soit $n \in \mathbb{N}$, 
 $$\mathbb{P}(Z = n) = \sum_{k = 0}^{+ \infty} \mathbb{P}(X = k)\mathbb{P}(Y = n-k)$$
-$$= \sum_{k = 0}^{n}\mathbb{P}(X = k)\mathbb{P}(X=n-k)$$
+$$= \sum_{k = 0}^{n}\mathbb{P}(X = k)\mathbb{P}(X=n-k)=\sum_{k = 0}^{n}e^{ -\alpha } \frac{\alpha^{k}}{k!} e^{ -\beta } \frac{\beta^{n-k}}{(n-k!)}$$
+$$= \frac{e^{ -(\alpha+\beta) }}{n!} \sum_{k = 0}^{n} \binom{n}{k} \alpha^{k}\beta^{n-k} $$
+$$= e^{ -(\alpha+\beta) } \frac{(\alpha +\beta)^{n}}{n!}$$
+Donc, $X+Y \sim \mathcal{P}(\alpha+\beta)$
+
+#### Exercice IMPORTANT
+Soient $\lambda \in \mathbb{R}_{+}^{*}$, $p \in ]0, 1[$, 
+On suppose que $X(\Omega)=\mathbb{N}$ et $Y \sim \mathcal{P}(\lambda)$, 
+$$\forall m \in \mathbb{N}, (X |(Y = m)) \sim \mathcal{B}(m, p)$$
+Déterminer la loi de $X$ : 
+Soit $k \in \mathbb{N}$, 
+$$\mathbb{P}(X=k) = \sum_{m = 0}^{+ \infty} \mathbb{P}(X = k | Y = m) \mathbb{P}(Y=m)$$
+$$= \sum_{m=0}^{+ \infty}e^{ -\lambda } \frac{\lambda^{m}}{m!} \mathbb{P}(X = k| Y=m)$$
+$$= \sum_{m=k} ^{+ \infty} $$
