@@ -91,4 +91,4 @@ $\vec{\Pi}$ le vecteur Poynting
 $$\boxed{\frac{dU_{em}}{dt} = \mathcal{P}_{\text{ray, entrant}} - \mathcal{P}_{\text{pertes Joule}}}$$
 
 #### Puissance électromagnétique rayonnée
-$$\boxed{\iint \vec{\Pi}.d\vec{S}}$$
+$$\boxed{\mathcal{P}_{ray}=\iint \vec{\Pi}.d\vec{S}}$$
