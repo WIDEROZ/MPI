@@ -621,6 +621,7 @@ Soit $(X_{n})_{n \in \mathbb{N}}$ une suite de VA,
 Elles sont dites mutuellement indépendantes lorsque : 
 $$\forall N \in \mathbb{N}^{*}, \forall (x_{n})_{n \in [\![1, N]\!]} \in E^{[\![1, N]\!]},$$
 $$\mathbb{P}\left( \bigcap_{k = 0}^{N} (X_{k} = x_{k}) \right) = \prod_{k = 0}^{N} \mathbb{P}(X_{k} = x_{k})$$
+
 #### CCINP 98
 ###### 1.
 $$\mathbb{P}(X = i) = \frac{\sqrt{e}}{ei!2^{i}}\left( i+\frac{1}{2} \right)$$
@@ -633,6 +634,7 @@ $$0 = \mathbb{P}(X=0, Y=0) \neq \mathbb{P}(X=0)\mathbb{P}(Y=0) = \frac{1}{4e}$$
 Soient $X_{1}, \dots, X_{n}$ des VA à valeur dans $E$, 
 Elles sont mutuellement indépendantes ssi :
 $$\forall A_{1} \dots A_{n}\subset E, \mathbb{P}\left( \bigcap_{k = 1}^{n} (X_{k} \in A_{k}) \right) =\prod_{k =1}^{n} \mathbb{P}(X_{k} \in A_{k})$$
+
 #### Exemple IMPORTANT
 On pose : 
 $$X = \min(X_{1}, X_{2})$$
@@ -665,7 +667,7 @@ $$= \mathbb{P}(f_{1}(X_{1}) = y_{1}) \mathbb{P}(f_{2}(X_{2})=y_{2})$$
 
 #### Lemme des Coalitions
 Soient $E, F$ des ensembles
-Soit $n \in \mathbb{N}^{*}$, $X_{1}, \dots, X_{n} \in E^{\Omega}$, des VA mutuellement $\amalg$, et $f_{1}, \dots, f_{n} \in F^{E}$ des fonctions, 
+Soit $n \in \mathbb{N}^{*}$, $X_{1}, \dots, X_{n} \in E^{\Omega}$, des VA mutuellement $\amalg$, et $f_{1}, f_{2} \in F^{E}$ des fonctions, 
 $$\forall k \in [\![1, n-1]\!], \forall f_{1} \in F^{E^{k}}, \forall f_{2} \in F^{E^{n-k}}, f_{1}(X_{1}, \dots, X_{k})\amalg f_{2}(X_{k}, \dots, X_{n})$$
 
 #### Propriété

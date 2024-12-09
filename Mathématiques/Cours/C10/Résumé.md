@@ -35,3 +35,32 @@ c'est un ensemble au plus dénombrable
 $$S = \bigcup_{n \in \mathbb{N}^{*}}\left\{  \omega \in \Omega| p_{\omega}\geq \frac{1}{n}  \right\} = \bigcup_{n \in \mathbb{N}^{*}}S_{n}$$
 alors $\left| S_{n}\right|\leq n$.
 
+#### Loi Géométrique
+Soit $p \in ]0, 1[$, $X$ est une VA géométrique de paramètre $p$ et on note : $X\sim \mathcal{G}(p)$ lorsque : 
+$$\begin{cases}
+X(\Omega) = \mathbb{N}^{*} \\
+\forall k \in \mathbb{N}^{*} , \mathbb{P}(X=k)=pq^{k-1}
+\end{cases}$$
+
+#### Loi de poisson
+Soit $\alpha >0$, On appelle VA de Poisson de paramètre $\alpha$ toute VA : $X : \Omega \to \mathbb{N}$ telle que : 
+$$\forall n \in \mathbb{N}, \mathbb{P}(X = n) = e^{ -\alpha } \frac{\alpha^{n}}{n!}$$
+On note : 
+$$X \sim \mathcal{P}(\alpha)$$
+Les VA de poisson modélisent les événements rares. 
+
+#### Définition : V.A. mutuellement indépendantes
+Soit $(X_{n})_{n \in \mathbb{N}}$ une suite de VA,
+Elles sont dites mutuellement indépendantes lorsque : 
+$$\forall N \in \mathbb{N}^{*}, \forall (x_{n})_{n \in [\![1, N]\!]} \in E^{[\![1, N]\!]},$$
+$$\mathbb{P}\left( \bigcap_{k = 0}^{N} (X_{k} = x_{k}) \right) = \prod_{k = 0}^{N} \mathbb{P}(X_{k} = x_{k})$$
+
+#### Propriété
+Soient $X_{1}, \dots, X_{n}$ des VA à valeur dans $E$, 
+Elles sont mutuellement indépendantes ssi :
+$$\forall A_{1} \dots A_{n}\subset E, \mathbb{P}\left( \bigcap_{k = 1}^{n} (X_{k} \in A_{k}) \right) =\prod_{k =1}^{n} \mathbb{P}(X_{k} \in A_{k})$$
+
+#### Lemme des Coalitions
+Soient $E, F$ des ensembles
+Soit $n \in \mathbb{N}^{*}$, $X_{1}, \dots, X_{n} \in E^{\Omega}$, des VA mutuellement $\amalg$, et $f_{1}, f_{2} \in F^{E}$ des fonctions, 
+$$\forall k \in [\![1, n-1]\!], \forall f_{1} \in F^{E^{k}}, \forall f_{2} \in F^{E^{n-k}}, f_{1}(X_{1}, \dots, X_{k})\amalg f_{2}(X_{k}, \dots, X_{n})$$
