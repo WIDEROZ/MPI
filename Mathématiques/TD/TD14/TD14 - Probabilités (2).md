@@ -17,7 +17,9 @@ $$\mathbb{P}(X_{r} = + \infty) = \mathbb{P} \overline{(X_{r} \geq r)} = 1- \math
 
 
 ##### ii.
-$$E(X_{r}) = \sum_{n = r}^{+ \infty} n\mathbb{P}(X=r) = \sum_{n =0}^{+ \infty} n\binom{n-1}{r-1} = $$
+$$E(X_{r}) = \sum_{n = r}^{+ \infty} n\mathbb{P}(X=r) = \sum_{n = r}^{+ \infty} n\binom{n-1}{r-1} p^{r}q^{n-r} $$
+$$= \left( \frac{p}{q} \right)^{r}\sum_{n = r}^{+ \infty} \frac{n!}{(n-r)!r!}r \space q^{n-r} =r \left( \frac{p}{q} \right)^{r} \sum_{n = r}^{+ \infty}\binom{n}{r}pq^{n-1} $$
+
 
 
 ### Exercice 14
