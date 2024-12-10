@@ -18,4 +18,8 @@ $$L_{1, \exp} = 2.1 \times 10^{-4} H$$
 $$L_{théo} = 2.5 \times 10^{-4} H$$
 
 #### Question 5
-$$\iint_{} \vec{B}.d\vec{S} = \phi_{1} = L_{1} i_{1} + Mi_{2}$$
+$$\left(\frac{N_{1}^{2}}{l_{1}}I_{1} +  \frac{N_{2}N_{1}}{l_{1}}I_{2} \right) \mu_{0}\pi a^{2}=\iint_{A_{1} \text{ et } A_{2}} \vec{B}.d\vec{S} = \phi_{1} = L_{1} I_{1} + MI_{2}$$
+$$\boxed{M = \frac{N_{1}N_{2}}{l_{1}}\mu_{0}\pi a^{2}}$$
+
+#### Question 6
+Loi des mailles.
