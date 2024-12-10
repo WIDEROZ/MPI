@@ -5,4 +5,6 @@ $$\mathbb{P}(L_{1} = n, L_{2} = k)= $$
 $$\left( \bigcap_{i = 1}^{n} P_{i} \cap \bigcap_{i = n+1}^{n+k}\bar{P}_{i+1} \cap P_{n+k+1} \right) \sqcup \left( \bigcap_{i = 1}^{n} \bar{P}_{i}\cap \bigcap_{i = n+1}^{n+k}{P}_{i+1} \cap \bar{P}_{n+k+1} \right) $$
 Alors,
 $$\mathbb{P}(L_{1} = n, L_{2} = k)=$$
-$$\left( \prod_{i = 1}^{n}p \prod_{i = n+1}^{n+k}q \right) \times p + \left( \prod_{i = 1}^{n}q \prod_{i = n+1}^{n+k}p \right) \times q = (p^{2}q  + pq^{2})(n+k)!$$
+$$\left( \prod_{i = 1}^{n}p \prod_{i = n+1}^{n+k}q \right) \times p + \left( \prod_{i = 1}^{n}q \prod_{i = n+1}^{n+k}p \right) \times q = p^{n+1}q^{k}  + p^{k}q^{n+1}$$
+
+$$\mathbb{P}(L_{2} = n) = \sum_{k = 1}^{+ \infty} \mathbb{P}(L_{1} = k, L_{2} = n) = q^{n-1}p + p^{n-1}q^{2}$$
