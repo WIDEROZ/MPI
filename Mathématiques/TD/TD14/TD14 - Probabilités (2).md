@@ -36,14 +36,6 @@ $$\mathbb{P}(X = 1) = 1$$
 $$\mathbb{P}\left( X = i \right) = $$
 
 
-
-
-
-
-
-
-
-
 ### Exercice 11
 $$\mathbb{P}((X=r)|(X+Y = n)) = \frac{\mathbb{P}(X=r\cap X+Y = n)}{\mathbb{P}(X+Y=n)}= \frac{\mathbb{P}(X=k)\mathbb{P}(Y = n-r)}{\sum_{k = 0}^{n} \mathbb{P}(Y = n-k)}$$
 $$\mathbb{P}(X+Y = n) = \sum_{k = 0}^{n} \mathbb{P}(X = k \cap X+Y = n) = \sum_{k = 0}^{n} \mathbb{P}(X=k)\mathbb{P}(Y = n-k)$$
