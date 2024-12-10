@@ -30,12 +30,26 @@ $$\mathbb{E}(Y_{r}) = r\left( \frac{1}{p}-1 \right)$$
 $$Var(Y_{r}) = Var(X_{r}) = \frac{rq}{p^{2}}$$
 
 
+### Exercice 2
+#### a.
+$$\mathbb{P}(X = 1) = 1$$
+$$\mathbb{P}\left( X = i \right) = \frac{1}{i}$$
+
+
+
+
+
+
+
+
+
 
 ### Exercice 11
 $$\mathbb{P}((X=r)|(X+Y = n)) = \frac{\mathbb{P}(X=r\cap X+Y = n)}{\mathbb{P}(X+Y=n)}= \frac{\mathbb{P}(X=k)\mathbb{P}(Y = n-r)}{\sum_{k = 0}^{n} \mathbb{P}(Y = n-k)}$$
 $$\mathbb{P}(X+Y = n) = \sum_{k = 0}^{n} \mathbb{P}(X = k \cap X+Y = n) = \sum_{k = 0}^{n} \mathbb{P}(X=k)\mathbb{P}(Y = n-k)$$
-$$= \sum_{k = 0}^{n} pq^{k-1}pq^{n-k-1} = \frac{p^{2}}{q^{2}} q^{n}\sum_{k = 0}^{n} \left( \frac{p}{q} \right)^{k} = \frac{p^{2}}{q^{n-2}} \frac{1-\frac{p^{n}}{q^{n}}}{}$$
-
+$$= \sum_{k = 1}^{n-1} pq^{k-1}pq^{n-k-1} = (n-1)p^{2}q^{n-2}$$
+Ainsi, 
+$$\mathbb{P}(\dots) = \frac{1}{n+1}$$
 
 
 
