@@ -92,3 +92,17 @@ On pose : $Y = f(X)$,
 $$Y \in \mathcal{L}^{1}(\Omega, \mathbb{C}), \Leftrightarrow (f(x)\mathbb{P}(X = x))_{x \in X(\Omega)} \text{ est sommable}$$
 Dans ce cas : 
 $$\mathbb{E}(f(X)) = \sum_{x \in X(\Omega)} f(x)\mathbb{P}(X=x)$$
+
+#### Propriété
+Soit $X, Y \in \mathcal{L}^{1}(\Omega, \mathbb{C})$ $\amalg$, 
+Alors, 
+$$\begin{cases}
+XY \in \mathcal{L}^{1}(\Omega, \mathbb{C}) \\
+\mathbb{E}(XY) = \mathbb{E}(X)\mathbb{E}(Y)
+\end{cases}$$
+Soient $X_{1}, \dots, X_{n} \in \mathcal{L}^{1}(\Omega, \mathbb{C})$ mutuellement $\amalg$, 
+$$\begin{cases}
+X_{1}\dots X_{n} \in \mathcal{L}^{1}(\Omega,\mathbb{C}) \\
+\mathbb{E}\left( \underset{k =1}{\overset n{\prod}} X_{k}  \right) = \underset{k=1}{\overset{n}{\prod}} \mathbb{E}(X_{k})
+\end{cases}$$
+

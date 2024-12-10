@@ -89,6 +89,7 @@ $$P(X \geq i) = \frac{\left| \mathcal{P}_{k}([\![i, n]\!]) \right|}{\binom{n}{k}
 #### a.
 
 
+
 #### CCINP 106
 ##### 1.
 $$(U, V)(\Omega) = \{ (n, k) \in \mathbb{N}^{2} | n \geq k \} \subset \mathbb{N}\times \mathbb{N}$$
