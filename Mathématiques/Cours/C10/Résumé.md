@@ -41,6 +41,7 @@ $$\begin{cases}
 X(\Omega) = \mathbb{N}^{*} \\
 \forall k \in \mathbb{N}^{*} , \mathbb{P}(X=k)=pq^{k-1}
 \end{cases}$$
+Le 
 
 #### Loi de poisson
 Soit $\alpha >0$, On appelle VA de Poisson de paramètre $\alpha$ toute VA : $X : \Omega \to \mathbb{N}$ telle que : 

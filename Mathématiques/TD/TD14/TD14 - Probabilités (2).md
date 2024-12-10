@@ -1,9 +1,21 @@
 ### Exercice 1
 #### a.
 ##### i.
-$$X_{1} \sim \mathcal{B}(p)$$
-#### ii.
-$$\forall x \in \Omega, X^{-1}_{r}(\{ x \})$$
+$$X_{1} \sim \mathcal{G}(p)$$
+##### ii.
+$$\forall x \in X(\Omega), X^{-1}_{r}(\{ x \}) = [\![r, + \infty [\![$$
+
+##### iii.
+
+
+
+
+#### b.
+##### i.
+$$\mathbb{P}(X_{r} = + \infty) = 0$$
+
+##### ii.
+$$$$
 
 
 ### Exercice 14
