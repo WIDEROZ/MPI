@@ -1,8 +1,6 @@
 #### CCINP
-ENAC (toulouse)
-Ecole de l'air et de l'espace (toulouse)
-INSA (lyon)
-N7 (toulouse)
 ENSIMAG (grenoble)
-Enseirb-Matmeca (bordeaux)
+INSA (lyon) $\sim$ N7 (toulouse)
+ENAC (toulouse)
 CY Tech (cergy / pau)
+Enseirb-Matmeca (bordeaux)
