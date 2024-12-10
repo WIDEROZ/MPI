@@ -6,16 +6,18 @@ $$X_{1} \sim \mathcal{G}(p)$$
 $$X_{r}(\Omega) = [\![r, + \infty [\![ \cup \{ + \infty \}$$
 
 ##### iii.
-$$\mathbb{P}(X_{r} = n) = $$
+$$\mathbb{P}(X_{r} = n) = \binom{n-1}{r-1} p^{r}q^{n-r}$$
 
 
 
 #### b.
 ##### i.
-$$\mathbb{P}(X_{r} = + \infty) = 0$$
+$$ \mathbb{P}(X_{r} \geq r) = \sum_{n = r}^{+ \infty} \mathbb{P}(X_{r} = n) = \frac{p^{r}}{(1-q)^{r}} = 1$$
+$$\mathbb{P}(X_{r} = + \infty) = \mathbb{P} \overline{(X_{r} \geq r)} = 1- \mathbb{P}(X_{r} \geq r)$$
+
 
 ##### ii.
-$$$$
+$$E(X_{r}) = \sum_{n = r}^{+ \infty} n\mathbb{P}(X=r) = \sum_{n =0}^{+ \infty} n\binom{n-1}{r-1} = $$
 
 
 ### Exercice 14
