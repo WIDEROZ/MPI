@@ -1,3 +1,12 @@
+### Exercice 1
+#### a.
+##### i.
+$$X_{1} \sim \mathcal{B}(p)$$
+#### ii.
+$$\forall x \in \Omega, X^{-1}_{r}(\{ x \})$$
+
+
+### Exercice 14
 $$\mathbb{E}(L_{1})= p\sum_{n = 1}^{+ \infty}\sum_{k = n}^{+ \infty}q^{k}+q\sum_{n = 1}^{+ \infty}\sum_{k = n}^{+ \infty}p^{k}=p\sum_{n = 1}^{+ \infty} \frac{q^{n}}{1-q} + \dots = \frac{q}{p}+\frac{p}{q}$$
 Ainsi ca fonctionne.
 
@@ -12,7 +21,11 @@ $$\mathbb{P}(L_{2} = n) = \sum_{k = 1}^{+ \infty} \mathbb{P}(L_{1} = k, L_{2} = 
 
 
 
-####
+#### b.
+##### iii.
+
 $$\mathbb{E}(L_{2}) = \sum_{k = 1}^{+ \infty} \sum_{i = k}^{+ \infty} (q^{i-1}p^{2}+p^{i-1}q^{2}) = \sum_{k = 1}^{+ \infty} \left( \frac{p^{2}}{q} \frac{q^{k}}{p} + \frac{q^{2}}{p} \frac{p^{k}}{q} \right)$$
 $$\mathbb{E}(L_{2} = n) = \frac{p}{q} \frac{p}{1-q} + \frac{q}{p} \frac{p}{1-p} = 2$$
+
+
 
