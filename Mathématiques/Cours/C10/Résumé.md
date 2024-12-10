@@ -64,3 +64,20 @@ $$\forall A_{1} \dots A_{n}\subset E, \mathbb{P}\left( \bigcap_{k = 1}^{n} (X_{k
 Soient $E, F$ des ensembles
 Soit $n \in \mathbb{N}^{*}$, $X_{1}, \dots, X_{n} \in E^{\Omega}$, des VA mutuellement $\amalg$, et $f_{1}, f_{2} \in F^{E}$ des fonctions, 
 $$\forall k \in [\![1, n-1]\!], \forall f_{1} \in F^{E^{k}}, \forall f_{2} \in F^{E^{n-k}}, f_{1}(X_{1}, \dots, X_{k})\amalg f_{2}(X_{k}, \dots, X_{n})$$
+
+## Espérance
+#### Notation
+On note : 
+$$\mathcal{L}^{1}(\Omega, \mathbb{C})$$
+l'ensemble de ces VA qui sont d'espérance finie
+
+#### Propriété
+Pour $X \in \mathbb{N}^{\Omega}$ une VA : 
+$$\mathbb{E}(X) = \sum_{n = 0}^{+ \infty} n\mathbb{P}(X = n) = \sum_{n = 1}^{+ \infty}\mathbb{P}(X \geq n)$$
+#### Loi géométrique
+Soit $X \sim \mathcal{G}(p)$ ou $p \in ]0, 1[$, 
+$$\mathbb{E}(X) = \frac{1}{p}$$
+
+#### Loi de poisson
+Soit $\lambda >0$, $X \sim \mathcal{P}(\lambda)$, 
+$$\mathbb{E}(X) = \lambda$$

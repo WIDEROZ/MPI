@@ -783,3 +783,7 @@ $$\mathbb{E}(X) = \lambda$$
 Démonstration : 
 $$\sum_{k = 1}^{+ \infty} k\mathbb{P}(X=k) = \sum_{k= 0}^{+ \infty}ke^{ -\lambda } \frac{\lambda^{k}}{k!} = e^{ -\lambda } \sum_{k= 1}^{+ \infty} \frac{\lambda^{k}}{(k-1)!} = e^{ -\lambda }\lambda e^{ \lambda } = \lambda$$
 
+#### Propriété
+$$\forall \mathbb{E} \in \mathcal{L}^{1}(\Omega, \mathbb{C}), \mathbb{E} \in \mathcal{L}(\Omega, \mathbb{C})$$
+$$\forall X \geq 0, \mathbb{E}(X) \geq 0 \text{ et } \mathbb{E}(X)=0 \Leftrightarrow \mathbb{P}(X=0) = 1$$
+$$$$
