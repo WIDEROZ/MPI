@@ -81,3 +81,5 @@ $$\mathbb{E}(X) = \frac{1}{p}$$
 #### Loi de poisson
 Soit $\lambda >0$, $X \sim \mathcal{P}(\lambda)$, 
 $$\mathbb{E}(X) = \lambda$$
+
+#### Propriétés
