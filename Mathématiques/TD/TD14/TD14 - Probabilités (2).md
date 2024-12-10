@@ -3,10 +3,10 @@
 ##### i.
 $$X_{1} \sim \mathcal{G}(p)$$
 ##### ii.
-$$\forall x \in X(\Omega), X^{-1}_{r}(\{ x \}) = [\![r, + \infty [\![$$
+$$X_{r}(\Omega) = [\![r, + \infty [\![ \cup \{ + \infty \}$$
 
 ##### iii.
-
+$$\mathbb{P}(X_{r} = n) = $$
 
 
 
