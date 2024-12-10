@@ -5,6 +5,8 @@ Cathode : $CoO_{2}$
 Anode : $Li$
 
 ### Question 28
-$$2Li + CoO_{2} + 4H^{+} \longleftrightarrow 2Li^{+}+Co^{2+} + 2H_{2}O$$
+$$CoO_{2} + Li \longleftrightarrow LiCoO_{2}  $$
 en charge : $\leftarrow$
 en décharge : $\to$ 
+
+### Question 29
