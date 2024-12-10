@@ -10,3 +10,8 @@ en charge : $\leftarrow$
 en décharge : $\to$ 
 
 ### Question 29
+$$n(e^{-}) = \frac{Q}{\mathcal{N}_{a}}$$
+Alors, D'après la question 27.
+$$n(e^{-}) = n(Li) = \frac{m_{Li}}{M_{Li}}$$
+Ainsi, 
+$$m_{Li} = M_{Li} \frac{Q}{\mathcal{F}} = 0.37 g$$
