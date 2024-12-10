@@ -19,4 +19,5 @@ $$m_{Li} = M_{Li} \frac{Q}{\mathcal{F}} = 0.37 g$$
 ### Question 30
 $$u_{m} = \frac{U}{m}$$
 Avec : 
-$$U = \frac{1}{2} Cu^{2}= \frac{1}{2}Q (E(Li / Li^{+}) - E(H_{2}O / H_{2})) = 7776 J$$
+$$U = \frac{1}{2} Cu^{2}= \frac{1}{2}Q (E(Li / Li^{+}) - E(H_{2}O / H_{2})) = 9655 J$$
+$$u_{m} = 26, 1 \text{ MW.kg}^{-1}$$
