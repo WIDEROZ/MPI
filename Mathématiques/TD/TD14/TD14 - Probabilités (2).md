@@ -33,7 +33,7 @@ $$Var(Y_{r}) = Var(X_{r}) = \frac{rq}{p^{2}}$$
 ### Exercice 2
 #### a.
 $$\mathbb{P}(X = 1) = 1$$
-$$\mathbb{P}\left( X = i \right) = \frac{1}{i}$$
+$$\mathbb{P}\left( X = i \right) = $$
 
 
 
