@@ -2,4 +2,7 @@ $$\mathbb{E}(L_{1})= p\sum_{n = 1}^{+ \infty}\sum_{k = n}^{+ \infty}q^{k}+q\sum_
 Ainsi ca fonctionne.
 
 $$\mathbb{P}(L_{1} = n, L_{2} = k)= $$
-$$\left( \bigcap_{i = 1}^{n} P_{i} \cap \bar{P}_{n+1}\sqcup \bigcap_{i = 1}^{n}\bar{P_{i}} \cap {P_{n+1}} \right) \cap \left(\bigcap_{i = n+1}^{n+1+k} P_{i} \cap \bar{P}_{k+1}\sqcup \bigcap_{i = 1}^{k}\bar{P_{i}} \cap {P_{k+1}} \right)$$
+$$\left( \bigcap_{i = 1}^{n} P_{i} \cap \bigcap_{i = n+1}^{n+k}\bar{P}_{i+1} \cap P_{n+k+1} \right) \sqcup \left( \bigcap_{i = 1}^{n} \bar{P}_{i}\cap \bigcap_{i = n+1}^{n+k}{P}_{i+1} \cap \bar{P}_{n+k+1} \right) $$
+Alors,
+$$\mathbb{P}(L_{1} = n, L_{2} = k)=$$
+$$\left( \prod_{i = 1}^{n}p \prod_{i = n+1}^{n+k}q \right) \times p + \left( \prod_{i = 1}^{n}q \prod_{i = n+1}^{n+k}p \right) \times q = (p^{2}q  + pq^{2})(n+k)!$$
