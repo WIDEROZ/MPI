@@ -794,3 +794,9 @@ $$\forall X \text{ une VA}, \forall Y \in \mathcal{L}^{1}(\Omega, \mathbb{C}), \
 $$X \text{ presque surement bornée } \Rightarrow X \in \mathcal{L}^{1}(\Omega, \mathbb{C})$$
 $$\forall X, Y \text{ des VA réelles}, X \leq Y \Rightarrow \mathbb{E}(X)\leq \mathbb{E}(Y)$$
 
+#### Théorème de transfert
+Soit $X: \Omega \to \mathbb{C}$ et $f : \mathbb{C} \to \mathbb{C}$, 
+On pose : $Y = f(X)$,
+$$Y \in \mathcal{L}^{1}(\Omega, \mathbb{C}), \Leftrightarrow (f(x)\mathbb{P}(X = x))_{x \in X(\Omega)} \text{ est sommable}$$
+Dans ce cas : 
+$$\mathbb{E}(f(X)) = \sum_{x \in X(\Omega)} f(x)\mathbb{P}(X=x)$$

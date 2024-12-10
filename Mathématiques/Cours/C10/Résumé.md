@@ -85,3 +85,10 @@ $$\mathbb{E}(X) = \lambda$$
 #### Propriétés
 $$\forall X \geq 0, \mathbb{E}(X) \geq 0 \text{ et } \mathbb{E}(X)=0 \Leftrightarrow \mathbb{P}(X=0) = 1$$
 $$X \text{ presque surement bornée } \Rightarrow X \in \mathcal{L}^{1}(\Omega, \mathbb{C})$$
+
+#### Théorème de transfert
+Soit $X: \Omega \to \mathbb{C}$ et $f : \mathbb{C} \to \mathbb{C}$, 
+On pose : $Y = f(X)$,
+$$Y \in \mathcal{L}^{1}(\Omega, \mathbb{C}), \Leftrightarrow (f(x)\mathbb{P}(X = x))_{x \in X(\Omega)} \text{ est sommable}$$
+Dans ce cas : 
+$$\mathbb{E}(f(X)) = \sum_{x \in X(\Omega)} f(x)\mathbb{P}(X=x)$$
