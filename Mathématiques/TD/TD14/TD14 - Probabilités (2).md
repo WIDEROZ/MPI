@@ -18,8 +18,7 @@ $$\mathbb{P}(X_{r} = + \infty) = \mathbb{P} \overline{(X_{r} \geq r)} = 1- \math
 
 ##### ii.
 $$E(X_{r}) = \sum_{n = r}^{+ \infty} n\mathbb{P}(X=r) = \sum_{n = r}^{+ \infty} n\binom{n-1}{r-1} p^{r}q^{n-r} $$
-$$= p^r \sum_{n = r}^{+ \infty} \frac{n!}{(n-r)!r!}r \space q^{n-r} =rp^{r} \left( \sum_{n = r}^{+ \infty}\binom{n}{r}q^{n-r} \right)$$
-$$=\frac{r}{p}$$
+$$= p^r \sum_{n = r}^{+ \infty} \frac{n!}{(n-r)!r!}r \space q^{n-r} =rp^{r} \left( \sum_{n = r}^{+ \infty}\binom{n}{r}q^{n-r} \right) =\frac{r}{p}$$
 
 #### c.
 ##### i.
@@ -28,12 +27,12 @@ $$X_{r} = n \Rightarrow Y_{r} = n-r$$
 ##### ii.
 $$\mathbb{P}(Y_{r} = n) = \mathbb{P}(X_{r} = n+r) = \binom{n+r-1}{r-1}p^{r}q^{n}$$
 $$\mathbb{E}(Y_{r}) = r\left( \frac{1}{p}-1 \right)$$
-$$Var(Y_{r}) = \mathbb{E}(Y_{r}^{2})-\mathbb{E}(Y_{r})^{2} = $$
+$$Var(Y_{r}) = Var(X_{r}) = \frac{rq}{p^{2}}$$
 
 
 
 ### Exercice 11
-
+$$\mathbb{P}((X=r)|(X+Y = n)) = $$
 
 
 
