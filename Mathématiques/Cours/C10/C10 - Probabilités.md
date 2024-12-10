@@ -783,6 +783,9 @@ $$\mathbb{E}(X) = \lambda$$
 Démonstration : 
 $$\sum_{k = 1}^{+ \infty} k\mathbb{P}(X=k) = \sum_{k= 0}^{+ \infty}ke^{ -\lambda } \frac{\lambda^{k}}{k!} = e^{ -\lambda } \sum_{k= 1}^{+ \infty} \frac{\lambda^{k}}{(k-1)!} = e^{ -\lambda }\lambda e^{ \lambda } = \lambda$$
 
+#### Définition :
+$$X \text{ presque surement bornée} \Leftrightarrow \exists M \in \mathbb{R}, \mathbb{P}(\left| X\right|\leq M) = 1$$
+
 #### Propriétés
 $$\forall X \in \mathcal{L}^{1}(\Omega, \mathbb{C}), \mathbb{E} \in \mathcal{L}(\mathcal{L}(\Omega, E), \mathbb{C})$$
 $$\forall X \geq 0, \mathbb{E}(X) \geq 0 \text{ et } \mathbb{E}(X)=0 \Leftrightarrow \mathbb{P}(X=0) = 1$$
@@ -790,3 +793,4 @@ $$\forall X \in \mathcal{L}^{1}(\Omega, \mathbb{C}), \left| \mathbb{E}(X)\right|
 $$\forall X \text{ une VA}, \forall Y \in \mathcal{L}^{1}(\Omega, \mathbb{C}), \left| X\right|\leq Y \Rightarrow X \in \mathcal{L}^{1}(\Omega, \mathbb{C})$$
 $$X \text{ presque surement bornée } \Rightarrow X \in \mathcal{L}^{1}(\Omega, \mathbb{C})$$
 $$\forall X, Y \text{ des VA réelles}, X \leq Y \Rightarrow \mathbb{E}(X)\leq \mathbb{E}(Y)$$
+

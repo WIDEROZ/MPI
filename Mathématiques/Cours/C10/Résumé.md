@@ -83,3 +83,5 @@ Soit $\lambda >0$, $X \sim \mathcal{P}(\lambda)$,
 $$\mathbb{E}(X) = \lambda$$
 
 #### Propriétés
+$$\forall X \geq 0, \mathbb{E}(X) \geq 0 \text{ et } \mathbb{E}(X)=0 \Leftrightarrow \mathbb{P}(X=0) = 1$$
+$$X \text{ presque surement bornée } \Rightarrow X \in \mathcal{L}^{1}(\Omega, \mathbb{C})$$
