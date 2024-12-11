@@ -26,3 +26,30 @@ mais,
 $$aa, ae, ec \in F(L), a \in P(L), c \in D(L)$$
 Mais
 $$aaaec \not\in  (P \Sigma^{*} \cup \Sigma^{*}D)  \setminus (\Sigma^{*}N\Sigma^{*})$$
+
+# Exercice 2
+## 1.
+Linéarisation : 
+$$e' = (a_{1} | b_{1}a_{2})^{*}(c_{1}(a_{3}c_{2}b_{2}|a_{4}))^{*}$$
+$$\begin{array}{|c|c|}
+\hline \text{expression}&P&D&F \\\hline
+a_{1}|b_{1}a_{2}&\{ a_{1}, b_{1} \}&\{ a_{1},a_{2} \}&\{ b_{1}a_{2}  \}\\\hline
+(a_{1}|b_{1}a_{2})^{*} &\{ a_{1}, b_{1} \}&\{ a_{1}, a_{2} \}&\{ b_{1}a_{2}, a_{1}a_{1},\\&&& a_{1}b_{1}, a_{2}a_{1}, a_{2}b_{1}\}\\\hline
+(a_{3}c_{2}b_{2}|a_{4})&\{ a_{3}, a_{4} \}&\{ b_{2}, a_{4} \}&\{ a_{3}c_{2}, c_{2}b_{2},\\&&& c_{1}a_{3}, c_{1}a_{4} \} \\ \hline
+c_{1}(a_{3}c_{2}b_{2}|a_{4})&\{ c_{1} \}&\{ b_{2}, a_{4} \}&\{ a_{3}c_{2}, c_{2}b_{2}, \\&&&c_{1}a_{3}, c_{1}a_{4} \} \\\hline
+(c_{1}(a_{3}c_{2}b_{2}|a_{4}))^{*} & \{ c_{1} \}&\{ b_{2}, a_{4} \}&\{ a_{3}c_{2}, c_{2}b_{2}, c_{1}a_{3},\\&&& c_{1}a_{4}, b_{2}c_{1}, a_{4}c_{1} \} \\
+\hline 
+e'&\{ a_{1}, b_{1}, c_{1} \}&\{ a_{1}, a_{2}, b_{2}, a_{4} \}&\{ b_{1}a_{2}, a_{1}a_{1}, a_{1}b_{1}, \\&&& a_{2}a_{1}, a_{2}b_{1}, a_{3}c_{2}, \\&&&c_{2}b_{2}, c_{1}a_{3}, c_{1}a_{4}, \\&&&b_{2}c_{1}, a_{4}c_{1}, a_{1}c_{1},\\&&& a_{2}c_{1} \} \\\hline
+\end{array}$$
+Automate local reconnaissant $L'$ : EXCAL 1
+Automate de Glushkov reconnaissant $L'$ : EXCAL 2
+
+
+## 2.
+Linéarisation : 
+$$e' = (a_{1}b_{1}|c_{1}a_{2}b_{2}|c_{2}b_{3}a_{3})^{*}$$
+
+$$\begin{array}{|c|c|}\hline
+&P&D&F \\\hline
+a_{1}b_{1}&a_{1}
+\end{array}$$
