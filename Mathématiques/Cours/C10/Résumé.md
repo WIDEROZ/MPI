@@ -112,4 +112,5 @@ X_{1}\dots X_{n} \in \mathcal{L}^{1}(\Omega,\mathbb{C}) \\
 $$\forall X, Y \in L^{2}(\Omega, \mathbb{R}), \left| \mathbb{E}(XY)\right| \leq \sqrt{\mathbb{E}(X^{2})}\sqrt{\mathbb{E}(Y^{2})}$$
 et égalité si $\exists a, b \in \mathbb{R}^{2} \setminus \{ (0, 0) \}, \mathbb{P}(aX=bY)=1$
 $$X \in L^{2} \Rightarrow X \in L^{1}$$
-$$\mathrm{Var}(X)=0 \Leftrightarrow \exists \alpha \in \mathbb{R}, \mathbb{P}(X = \alpha) = 1$$
+$$\forall X \in L^{2}\mathrm{Var}(X)=0 \Leftrightarrow \exists \alpha \in \mathbb{R}, \mathbb{P}(X = \alpha) = 1$$
+

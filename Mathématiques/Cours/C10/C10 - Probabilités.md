@@ -863,3 +863,12 @@ $$\forall a, b \in \mathbb{R}, \mathrm{Var}(aX+b) = a^{2}\mathrm{Var}(X)$$
 König-Huygens
 $$\mathrm{Var}(X) = \mathbb{E}(X^{2}) - (\mathbb{E}(X))^{2}$$
 $$\mathrm{Var}(X)=0 \Leftrightarrow \exists \alpha \in \mathbb{R}, \mathbb{P}(X = \alpha) = 1$$
+
+#### Loi de Bernoulli
+$$X \sim \mathcal{B}(p) \Rightarrow \mathrm{Var}(X) = p(1-p)$$
+
+#### Loi Binomiale
+$$\mathrm{Var}(X) = np(1-p)$$
+Démonstration : 
+$$(E(X))^{2} = (np)^{2}$$
+$$E(X^{2}) = \sum_{k = 0}^{n} k^{2}\binom{n}{k} p^{k}q^{n-k} = \sum_{}^{n}$$
