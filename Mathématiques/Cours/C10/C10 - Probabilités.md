@@ -814,3 +814,21 @@ X_{1}\dots X_{n} \in \mathcal{L}^{1}(\Omega,\mathbb{C}) \\
 \mathbb{E}\left( \underset{k =1}{\overset n{\prod}} X_{k}  \right) = \underset{k=1}{\overset{n}{\prod}} \mathbb{E}(X_{k})
 \end{cases}$$
 
+
+# V. Variance
+## 1. Espace $L^{2}$
+#### Définition
+Soit $X : \Omega \to \mathbb{C}$, une VAD. 
+On dit que $X$ admet un moment d'ordre $2$ lorsque $X^{2}$ admet une espérance. ie 
+$$\mathbb{E}(\left| x\right|^{2}) \neq + \infty$$
+On note $L^{2}$ l'ensemble de ces VA : 
+$$L^{2}(\Omega, \mathbb{C})$$
+
+#### Exemple
+Soit $\alpha >1$, et $X : \Omega \to \mathbb{N}^{*}$, telle que : 
+$$\forall n \geq 1, \mathbb{P}(X=n) = \frac{1}{\zeta(s)n^{s}}$$
+$$X \in L^{2} \Leftrightarrow \sum_{n =1}^{+ \infty} \frac{n^{2}}{\zeta(s)n^{s}} \neq + \infty \Leftrightarrow s > 3$$
+
+#### Proposition
+$$L^{2}(\Omega, \mathbb{K}) \text{ est un }\mathbb{K}\text{-ev}$$
+$$\forall X, Y \in L^{2}(\Omega, \mathbb{R}), \left| \mathbb{E}(XY)\right| \leq \sqrt{\mathbb{E}(X^{2})}\sqrt{\mathbb{E}(Y^{2})}$$
