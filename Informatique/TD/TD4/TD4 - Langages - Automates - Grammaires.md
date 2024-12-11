@@ -78,5 +78,5 @@ $$R = \{ S \to Sb | aSb | \varepsilon \}$$
 
 #### 4.
 $$V = \{ S, F \}$$
-$$R = \{ S \to \}$$
+$$R = \{ S \to A | C, A \to abA | , C \to Cbc\}$$
 $S$ l'axiome
