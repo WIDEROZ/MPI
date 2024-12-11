@@ -43,6 +43,10 @@ $$= \sum_{k = 1}^{n-1} pq^{k-1}pq^{n-k-1} = (n-1)p^{2}q^{n-2}$$
 Ainsi, 
 $$\mathbb{P}(\dots) = \frac{1}{n+1}$$
 
+### Exercice 3
+#### a.
+
+
 
 
 ### Exercice 14
@@ -65,6 +69,7 @@ $$\mathbb{P}(L_{2} = n) = \sum_{k = 1}^{+ \infty} \mathbb{P}(L_{1} = k, L_{2} = 
 
 $$\mathbb{E}(L_{2}) = \sum_{k = 1}^{+ \infty} \sum_{i = k}^{+ \infty} (q^{i-1}p^{2}+p^{i-1}q^{2}) = \sum_{k = 1}^{+ \infty} \left( \frac{p^{2}}{q} \frac{q^{k}}{p} + \frac{q^{2}}{p} \frac{p^{k}}{q} \right)$$
 $$\mathbb{E}(L_{2} = n) = \frac{p}{q} \frac{p}{1-q} + \frac{q}{p} \frac{p}{1-p} = 2$$
+
 
 
 
