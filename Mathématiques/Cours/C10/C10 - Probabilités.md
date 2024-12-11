@@ -848,10 +848,18 @@ Voir Cauchy Schwartz
 
 ## 2. Variance
 Soit $X \in L^{2}$ notons que : 
-$$(X-E(X))^{2} = X^{2} - 2 E(X)X + \mathbb{E}(X^{2})$$
+$$(X-E(X))^{2} = X^{2} - 2 E(X)X + \mathbb{E}(X)^{2}$$
 admet une espérance. 
 
 #### Définition
 Soit $X \in L^{2}(\Omega, \mathbb{R})$, 
 On appelle variance : 
-$$Var(X) = \mathbb{E}((X-\mathbb{E}(X))^{2})$$
+$$\mathrm{Var}(X) = \mathbb{E}((X-\mathbb{E}(X))^{2})$$
+Écart-Type : 
+$$\sigma(X) = \sqrt{\mathrm{Var}(X)}$$
+
+#### Propriété
+$$\forall a, b \in \mathbb{R}, \mathrm{Var}(aX+b) = a^{2}\mathrm{Var}(X)$$
+König-Huygens
+$$\mathrm{Var}(X) = \mathbb{E}(X^{2}) - (\mathbb{E}(X))^{2}$$
+$$\mathrm{Var}(X)=0 \Leftrightarrow \exists \alpha \in \mathbb{R}, \mathbb{P}(X = \alpha) = 1$$
