@@ -66,11 +66,10 @@ b_{2}c_{1}, a_{3}c_{2} \}
 \end{array}$$
 Automate local reconnaissant $L'$ : EXCAL 3
 
-### Exercice 3
-Soit $L$ un langage local, 
-On note : 
-$P', D',F'$ l'ensemble des premières lettres (resp. dernières lettres) (resp. facteur de taille 2) de $L'$ 
 
-Soit $u \in (P \Sigma^{*} \cup \Sigma^{*}D)  \setminus (\Sigma^{*}N\Sigma^{*})$, $u=u_{1}\dots u_{n}$
-comme 
-$$\forall i \in [\![1, n-1]\!], u_{i}u_{i+1} \in F'$$
+### Exercice 5
+#### 1.
+$$R = \{ S \to aSa | bSb | a | b | \varepsilon \}$$
+
+#### 2.
+$$R = \{ S \to  \}$$
