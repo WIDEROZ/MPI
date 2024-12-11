@@ -114,3 +114,11 @@ et égalité si $\exists a, b \in \mathbb{R}^{2} \setminus \{ (0, 0) \}, \mathbb
 $$X \in L^{2} \Rightarrow X \in L^{1}$$
 $$\forall X \in L^{2}\mathrm{Var}(X)=0 \Leftrightarrow \exists \alpha \in \mathbb{R}, \mathbb{P}(X = \alpha) = 1$$
 
+#### Loi Binomiale
+$$\mathrm{Var}(X) = np(1-p)$$
+
+#### Loi Géométrique
+$$X \sim \mathcal{G}(p) \Rightarrow \mathrm{Var}(X) = \frac{q}{p^{2}}$$
+
+#### Loi de Poisson
+$$X \sim \mathcal{P}(\lambda) \Rightarrow \mathrm{Var}(X) = \lambda$$
