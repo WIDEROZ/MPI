@@ -843,3 +843,15 @@ $$\forall \omega \in \Omega,| X(\omega)| \leq 1+ \left| X(\omega)\right|^{2}$$
 et si $X \in L^{2}$, $X^{2} \in L^{1}$ et $\omega \mapsto 1$ et comme $L^{1}$ est un espace vectoriel, $1 + \left| X\right|^{2} \in L^{1}$
 On en déduis de ceci que : $X \in L^{1}$
 
+2.
+Voir Cauchy Schwartz
+
+## 2. Variance
+Soit $X \in L^{2}$ notons que : 
+$$(X-E(X))^{2} = X^{2} - 2 E(X)X + \mathbb{E}(X^{2})$$
+admet une espérance. 
+
+#### Définition
+Soit $X \in L^{2}(\Omega, \mathbb{R})$, 
+On appelle variance : 
+$$Var(X) = \mathbb{E}((X-\mathbb{E}(X))^{2})$$

@@ -107,3 +107,8 @@ X_{1}\dots X_{n} \in \mathcal{L}^{1}(\Omega,\mathbb{C}) \\
 \mathbb{E}\left( \underset{k =1}{\overset n{\prod}} X_{k}  \right) = \underset{k=1}{\overset{n}{\prod}} \mathbb{E}(X_{k})
 \end{cases}$$
 
+## Variance
+#### Propositions
+$$\forall X, Y \in L^{2}(\Omega, \mathbb{R}), \left| \mathbb{E}(XY)\right| \leq \sqrt{\mathbb{E}(X^{2})}\sqrt{\mathbb{E}(Y^{2})}$$
+et égalité si $\exists a, b \in \mathbb{R}^{2} \setminus \{ (0, 0) \}, \mathbb{P}(aX=bY)=1$
+$$X \in L^{2} \Rightarrow X \in L^{1}$$
