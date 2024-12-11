@@ -72,4 +72,11 @@ Automate local reconnaissant $L'$ : EXCAL 3
 $$R = \{ S \to aSa | bSb | a | b | \varepsilon \}$$
 
 #### 2.
-$$R = \{ S \to  \}$$
+
+#### 3.
+$$R = \{ S \to Sb | aSb | \varepsilon \}$$
+
+#### 4.
+$$V = \{ S, F \}$$
+$$R = \{ S \to \}$$
+$S$ l'axiome
