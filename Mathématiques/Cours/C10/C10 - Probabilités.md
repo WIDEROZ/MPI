@@ -871,4 +871,26 @@ $$X \sim \mathcal{B}(p) \Rightarrow \mathrm{Var}(X) = p(1-p)$$
 $$\mathrm{Var}(X) = np(1-p)$$
 Démonstration : 
 $$(E(X))^{2} = (np)^{2}$$
-$$E(X^{2}) = \sum_{k = 0}^{n} k^{2}\binom{n}{k} p^{k}q^{n-k} = \sum_{}^{n}$$
+$$E(X^{2}) = \sum_{k = 0}^{n} k^{2}\binom{n}{k} p^{k}q^{n-k} $$
+$$\mathbb{E}(X(X-1))= \sum_{k = 0}^{n} k(k-1)\binom{n}{k} p^{k}q^{n-k} $$
+$$= q^{n} \left( \frac{p}{q} \right)^{2} \sum_{k = 0}^{n} \binom{n}{k}k(k-1)\left( \frac{p}{q} \right)^{k-2}$$
+On pose : 
+$$f(x) = \frac{d^{2}}{dx^{2}} \left( \sum_{k = 0}^{n} \binom{n}{k}x^{k} \right) = \frac{d^{2}}{dx^{2}} (x+1)^{n} = n(n-1)(x+1)^{n-2}$$
+Ainsi,
+$$\mathbb{E}(X(X-1)) = n(n-1)p^{2}$$
+...
+
+#### Loi Géométrique
+$$X \sim \mathcal{G}(p) \Rightarrow \mathrm{Var}(X) = \frac{q}{p^{2}}$$
+
+Démonstration : 
+$$\mathbb{E}(X) = \sum_{k = 1}^{+ \infty} kpq^{k-1} = \frac{1}{p}$$
+$$E(X(X-1)) = \sum_{k = 1}^{+ \infty} k (k-1)pq^{k-1}$$
+Les deux séries : 
+$$\sum_{k \geq 0} p^{k} \text{ et } \sum_{k \geq 0} kp^{k}$$
+CVA car ce sont des SATP convergentes
+$$\left( \sum_{n = 0}^{+ \infty}p^{n} \right)\left( \sum_{ n=0}^{+ \infty} np^{n} \right) = \sum_{n = 0}^{+ \infty} \sum_{k = 0}^{n}kp^{n-k}p^{k}$$
+
+
+
+#### Loi de Poisson
