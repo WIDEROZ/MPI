@@ -69,6 +69,14 @@ Automate local reconnaissant $L'$ : EXCAL 3
 ### Exercice 3
 Soit $L$ un langage local, 
 On note : 
+$P', D',F'$ l'ensemble des premières lettres (resp. dernières lettres) (resp. facteur de taille 2) de $L'$ 
 $$\begin{cases}
-P' = \{  \}
+P' = \{ l \in \Sigma | \forall u \in L, (l \in u \Rightarrow \forall i \in [\![1, \left| u\right|]\!],  ) \} \\
+ \\
+
 \end{cases}$$
+
+
+Soit $u \in (P \Sigma^{*} \cup \Sigma^{*}D)  \setminus (\Sigma^{*}N\Sigma^{*})$, $u=u_{1}\dots u_{n}$
+comme 
+$$\forall i \in [\![1, n-1]\!], u_{i}u_{i+1} \in F'$$
