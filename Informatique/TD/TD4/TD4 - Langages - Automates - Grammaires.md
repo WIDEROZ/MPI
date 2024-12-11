@@ -77,6 +77,6 @@ $$R = \{ S \to aSa | bSb | a | b | \varepsilon \}$$
 $$R = \{ S \to Sb | aSb | \varepsilon \}$$
 
 #### 4.
-$$V = \{ S, F \}$$
-$$R = \{ S \to A | C, A \to abA | , C \to Cbc\}$$
+$$V = \{ S, A, C, F, G \}$$
+$$R = \{ S \to A | C, A \to abA | F , C \to Cbc | G , F \to cF | \varepsilon, G \to Ga | \varepsilon\}$$
 $S$ l'axiome
