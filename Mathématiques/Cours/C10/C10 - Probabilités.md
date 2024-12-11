@@ -832,3 +832,14 @@ $$X \in L^{2} \Leftrightarrow \sum_{n =1}^{+ \infty} \frac{n^{2}}{\zeta(s)n^{s}}
 #### Proposition
 $$L^{2}(\Omega, \mathbb{K}) \text{ est un }\mathbb{K}\text{-ev}$$
 $$\forall X, Y \in L^{2}(\Omega, \mathbb{R}), \left| \mathbb{E}(XY)\right| \leq \sqrt{\mathbb{E}(X^{2})}\sqrt{\mathbb{E}(Y^{2})}$$
+et égalité si $\exists a, b \in \mathbb{R}^{2} \setminus \{ (0, 0) \}, \mathbb{P}(aX=bY)=1$
+$$X \in L^{2} \Rightarrow X \in L^{1}$$
+
+Démonstration : 
+3.
+$$\forall x \in \mathbb{R}, \left| x\right| \leq 1+x^{2}$$
+Donc, 
+$$\forall \omega \in \Omega,| X(\omega)| \leq 1+ \left| X(\omega)\right|^{2}$$
+et si $X \in L^{2}$, $X^{2} \in L^{1}$ et $\omega \mapsto 1$ et comme $L^{1}$ est un espace vectoriel, $1 + \left| X\right|^{2} \in L^{1}$
+On en déduis de ceci que : $X \in L^{1}$
+
