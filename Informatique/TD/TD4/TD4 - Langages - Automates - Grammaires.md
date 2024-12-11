@@ -27,8 +27,8 @@ $$aa, ae, ec \in F(L), a \in P(L), c \in D(L)$$
 Mais
 $$aaaec \not\in  (P \Sigma^{*} \cup \Sigma^{*}D)  \setminus (\Sigma^{*}N\Sigma^{*})$$
 
-# Exercice 2
-## 1.
+### Exercice 2
+#### 1.
 Linéarisation : 
 $$e' = (a_{1} | b_{1}a_{2})^{*}(c_{1}(a_{3}c_{2}b_{2}|a_{4}))^{*}$$
 $$\begin{array}{|c|c|}
@@ -45,7 +45,7 @@ Automate local reconnaissant $L'$ : EXCAL 1
 Automate de Glushkov reconnaissant $L'$ : EXCAL 2
 
 
-## 2.
+#### 2.
 Linéarisation : 
 $$e' = (a_{1}b_{1}|c_{1}a_{2}b_{2}|c_{2}b_{3}a_{3})^{*}$$
 
@@ -65,3 +65,10 @@ b_{2}c_{1}, a_{3}c_{2} \}
 \end{array}
 \end{array}$$
 Automate local reconnaissant $L'$ : EXCAL 3
+
+### Exercice 3
+Soit $L$ un langage local, 
+On note : 
+$$\begin{cases}
+P' = \{  \}
+\end{cases}$$
