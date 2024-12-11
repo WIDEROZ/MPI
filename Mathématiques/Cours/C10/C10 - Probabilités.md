@@ -885,12 +885,22 @@ $$X \sim \mathcal{G}(p) \Rightarrow \mathrm{Var}(X) = \frac{q}{p^{2}}$$
 
 Démonstration : 
 $$\mathbb{E}(X) = \sum_{k = 1}^{+ \infty} kpq^{k-1} = \frac{1}{p}$$
-$$E(X(X-1)) = \sum_{k = 1}^{+ \infty} k (k-1)pq^{k-1}$$
+$$E(X(X+1)) = \sum_{k = 1}^{+ \infty} k (k+1)pq^{k-1}$$
 Les deux séries : 
 $$\sum_{k \geq 0} p^{k} \text{ et } \sum_{k \geq 0} kp^{k}$$
 CVA car ce sont des SATP convergentes
-$$\left( \sum_{n = 0}^{+ \infty}p^{n} \right)\left( \sum_{ n=0}^{+ \infty} np^{n} \right) = \sum_{n = 0}^{+ \infty} \sum_{k = 0}^{n}kp^{n-k}p^{k}$$
-
+$$\frac{1}{1-p} \frac{p}{(1-p)^{2}}=\left( \sum_{n = 0}^{+ \infty}p^{n} \right)\left( \sum_{ n=0}^{+ \infty} np^{n} \right) = \sum_{n = 0}^{+ \infty} \sum_{k = 0}^{n}kp^{n-k}p^{k}$$
+$$\frac{1}{q^{3}} =\sum_{n = 0}^{+ \infty} \frac{n(n+1)}{2}p^{n}$$
+$$\sum_{n=0}^{+ \infty} n(n+1)p^{n} = \frac{2p}{(1-p)^{3}}$$
+Ainsi, 
+$$\mathbb{E}(X(X+1)) = \frac{p}{q} \sum_{n = 1}^{+ \infty} n(n+1)q^{n}=\frac{p}{q} \times \frac{2q}{(1-q)^{3}}=\frac{2}{p^{2}}$$
+Et : 
+$$\mathrm{Var}(X) = \mathbb{E}(X(X+1))- \mathbb{E}(X) - \mathbb{E}(X)^{2}= \frac{2}{p^{2}} -\frac{1}{p}-\frac{1}{p^{2}} = \frac{q}{p^{2}}$$
 
 
 #### Loi de Poisson
+$$X \sim \mathcal{P}(\lambda) \Rightarrow \mathrm{Var}(X) = \lambda$$
+
+Démonstration : 
+$$\mathbb{E}(X(X-1)) = \sum_{n = 0}^{+ \infty} n(n--1)e^{ -\lambda } \frac{\lambda^{n}}{n!} = e^{ -\lambda }\lambda^{2} \sum_{n = 2}^{+ \infty} \frac{\lambda^{n-2}}{(n-2)!} = \lambda^{2}$$
+$$\mathrm{Var}(X) = \mathbb{E}(X(X-1)) + \mathbb{E}(X) - \mathbb{E}(X)^{2} = \lambda^{2}+\lambda-\lambda^{2} = \lambda$$
