@@ -22,8 +22,7 @@ Ainsi,
 Pour tout mot de $L(G_{1})$, tout préfixe strict de ce mot admet plus de parenthèses que lui même donc, comme les mots de $L(G_{1})$ ont le même nombres de parenthèses
 
 #### 22.
-Il existe $v, w \in L(G_{1})$ tel que : $u = (vw)$
-
+Pour $u \in L(G_{1})$, 
 
 
 
@@ -35,3 +34,4 @@ Alors, on effectue la dérivation :
 $$T \Rightarrow (TT)$$
 de manière à construire $u$
 il existe alors, $v, w \in L(G_{1})$ tel que $u = (vw)$
+
