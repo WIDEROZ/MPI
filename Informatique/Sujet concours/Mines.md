@@ -9,6 +9,13 @@ Pour $w = \_$  il n'existe pas de préfixe strict
 Soit $u, v \in L(G_{1})$ tq tout préfixe strict de $u$ contienne plus de $($ que de $)$ et que le nombre de $($ est égal au nombre de $)$ pour $u, v$.
 On pose : 
 $$w = (uv)$$
-il existe $n \in \mathbb{N}$ tel que $w$ dérive de : 
+on a alors par dérivation : 
 $$T \Rightarrow (TT) \Rightarrow^{L} (uT) \Rightarrow^{R} (uv)$$
-alors $\left| (\right|_{w} = \left| )\right|_{w}$ donc pour tout préfixe strict de $w$ 
+alors $\left| (\right|_{w} = \left| )\right|_{w}$ car comme $\left| (\right|_{v} = \left| )\right|_{v}$ et $\left| (\right|_{u} = \left| )\right|_{u}$, 
+pour tout préfixe stricte $p$ de $w$ : 
+$$\left| (\right|_{p} \geq \left| )\right|_{p}$$
+On pose maintenant : 
+$$w = (u\_)$$
+on a alors par dérivation : 
+$$T \Rightarrow (TT) \Rightarrow^{L} (uT) \Rightarrow^{R} (u\_)$$
+alors, 
