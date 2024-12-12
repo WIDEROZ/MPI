@@ -22,10 +22,16 @@ Ainsi,
 Pour tout mot de $L(G_{1})$, tout préfixe strict de ce mot admet plus de parenthèses que lui même donc, comme les mots de $L(G_{1})$ ont le même nombres de parenthèses
 
 #### 22.
-Si $u =  \_$ c'est trivial
-Soit $u \in L(G_{1})$, 
-On a : $u_{1} = ($ et $u_{n} = )$, 
-On a plusieurs cas : 
-+ $T \Rightarrow (TT) \Rightarrow (\_ T) \Rightarrow (\_ \space\_)$ : ca marche
-+ $T \Rightarrow (TT)\Rightarrow (\_ T)$ 
+Il existe $v, w \in L(G_{1})$ tel que : $u = (vw)$
 
+
+
+
+Soit $u \in L(G_{1})$,
+Si $u =  \_$ c'est trivial
+Sinon,  
+On a : $u_{1} = ($ et $u_{n} = )$, 
+Alors, on effectue la dérivation : 
+$$T \Rightarrow (TT)$$
+de manière à construire $u$
+il existe alors, $v, w \in L(G_{1})$ tel que $u = (vw)$
