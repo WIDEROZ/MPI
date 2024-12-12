@@ -46,8 +46,11 @@ $$\mathbb{P}(\dots) = \frac{1}{n+1}$$
 ### Exercice 7
 #### a.
 Soit $n \in \mathbb{N}^{*}$, $k \in \mathbb{N}$, 
-$$\mathbb{P}(M_{n})$$
+$$\mathbb{P}(M_{n} \leq k) = \mathbb{P}\left( \bigcap_{k = 1}^{n} (X_{k} \leq k) \right) = \prod_{k= 1}^{n}\mathbb{P}(X_{k} \leq k)= \mathbb{P}(X_{1} \leq k)^{n}$$
 
+#### b.
+##### i.
+$$\mathbb{P}(X_{1} \leq k-1) $$
 
 
 
