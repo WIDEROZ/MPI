@@ -904,3 +904,16 @@ $$X \sim \mathcal{P}(\lambda) \Rightarrow \mathrm{Var}(X) = \lambda$$
 Démonstration : 
 $$\mathbb{E}(X(X-1)) = \sum_{n = 0}^{+ \infty} n(n--1)e^{ -\lambda } \frac{\lambda^{n}}{n!} = e^{ -\lambda }\lambda^{2} \sum_{n = 2}^{+ \infty} \frac{\lambda^{n-2}}{(n-2)!} = \lambda^{2}$$
 $$\mathrm{Var}(X) = \mathbb{E}(X(X-1)) + \mathbb{E}(X) - \mathbb{E}(X)^{2} = \lambda^{2}+\lambda-\lambda^{2} = \lambda$$
+
+### 3. Covariance
+#### Définition
+Soit $X_{1}, X_{2} \in L^{2}(\Omega, \mathbb{R})$, 
+On appelle covariance de $(X_{1}, X_{2})$ le réel : 
+$$\mathrm{Cov}(X_{1}, X_{2}) = \mathbb{E}((X_{1} - \mathbb{E}(X_{1}))(X_{2}-\mathbb{E}(X_{2}))) \in \mathbb{R}$$
+
+#### Propriété
+Soit $X, Y \in L^{2}(\Omega, \mathbb{R})$, 
+$$\mathrm{Cov}(X, Y) = \mathrm{Cov}(Y, X)$$
+$$\mathrm{Cov}(X, X) = \mathrm{Var}(X)$$
+$$\mathrm{Cov}(X, Y) = \mathbb{E}(XY) - \mathbb{E}(X)\mathbb{E}(Y)$$
+$$X_{1} \amalg X2$$
