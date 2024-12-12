@@ -22,4 +22,8 @@ Ainsi,
 Pour tout mot de $L(G_{1})$, tout préfixe strict de ce mot admet plus de parenthèses que lui même donc, comme les mots de $L(G_{1})$ ont le même nombres de parenthèses
 
 #### 22.
-Soit $u \in (N\cup \Sigma)^{*}$, tel que $n$ ait été obtenu avec $n$ dérivations uniques par la grammaire, 
+Soit $u \in (N\cup \Sigma)^{*}$,
+on prend $i_{0} \in \mathbb{N}$ la position du premier $T$, 
+On a deux cas : $u_{i_{0}-1} = ($, $u_{i_{0}-1} = \_$
+1. $u_{i_{0}-1} = ($
+
