@@ -53,10 +53,15 @@ $$\mathbb{P}(M_{n} \leq k) = \mathbb{P}\left( \bigcap_{k = 1}^{n} (X_{k} \leq k)
 $$\mathbb{P}(X_{1} \geq k) = 1-\mathbb{P}(X_{1} \leq k-1) = \mathbb{P}(X_{1}^{\alpha} \geq k^{\alpha}) \leq \frac{\mathbb{E}(X_{1}^{\alpha})}{k^{\alpha}}$$
 
 ##### ii.
-$$\mathbb{P}(M_{n} \leq k) = \mathbb{P}(X_{1} \leq k-1)^{n} \geq \left( 1- \frac{m_{\alpha}}{k^{\alpha}} \right)^{n} $$
+$$\mathbb{P}(M_{n} \leq k-1) = \mathbb{P}(X_{1} \leq k-1)^{n} \geq \left( 1- \frac{m_{\alpha}}{k^{\alpha}} \right)^{n} $$
+$$0 \leq (1-\mathbb{P}(M_{n} \leq k-1)) \leq  1- \left( 1-\frac{m_{\alpha}}{k^{\alpha}} \right)^{n}$$
+Alors, 
+$$1- \left( 1-\frac{m_{\alpha}}{k^{\alpha}} \right)^{n} \sim \frac{1}{k^{\alpha}}$$
 
-$$\sum_{k = 1}^{+ \infty}(1-\mathbb{P}(M_{n} \leq k)) \leq \sum_{k = 1}^{+ \infty}\left( 1- \left( 1-\frac{m_{\alpha}}{k^{\alpha}} \right)^{n} \right)$$
-
+#### c.
+$$\mathbb{E}(M_{n}) = \sum_{k \in \mathbb{N}^{*}} \mathbb{P}(M_{n} \geq k) = \sum_{k \in \mathbb{N}^{*}} (1-\mathbb{P}(X_{1}\leq k-1)^{n})$$
+$$= \sum_{k = 1}^{+ \infty} \left( 1-\left( \sum_{i = 1}^{k-1} \mathbb{P}(X_{1} = i-1) \right)^{n} \right)$$
+$$= \sum_{k = 1}^{+ \infty}\left( 1-\left( \sum_{i = 1}^{k-1} \frac{1}{2^{i}} \right)^{n} \right)$$
 
 
 ### Exercice 14
