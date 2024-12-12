@@ -28,3 +28,7 @@ Si $Q \gg \omega$ et $\frac{\omega}{\omega_{0}} = 1$,
 L'intensité est très grande.
 
 #### 4.
+L'antivol va créer un champ magnétique opposé au champ émetteur : 
+$$e = - \frac{d\phi}{dt}$$
+
+### Exercice 2
