@@ -50,8 +50,12 @@ $$\mathbb{P}(M_{n} \leq k) = \mathbb{P}\left( \bigcap_{k = 1}^{n} (X_{k} \leq k)
 
 #### b.
 ##### i.
-$$\mathbb{P}(X_{1} \leq k-1) $$
+$$\mathbb{P}(X_{1} \geq k) = 1-\mathbb{P}(X_{1} \leq k-1) = \mathbb{P}(X_{1}^{\alpha} \geq k^{\alpha}) \leq \frac{\mathbb{E}(X_{1}^{\alpha})}{k^{\alpha}}$$
 
+##### ii.
+$$\mathbb{P}(M_{n} \leq k) = \mathbb{P}(X_{1} \leq k-1)^{n} \geq \left( 1- \frac{m_{\alpha}}{k^{\alpha}} \right)^{n} $$
+
+$$\sum_{k = 1}^{+ \infty}(1-\mathbb{P}(M_{n} \leq k)) \leq \sum_{k = 1}^{+ \infty}\left( 1- \left( 1-\frac{m_{\alpha}}{k^{\alpha}} \right)^{n} \right)$$
 
 
 
