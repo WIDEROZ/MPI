@@ -988,7 +988,14 @@ $$S_{N} = \sum_{k = 1}^{N}X_{k}$$
 Alors, 
 $$\frac{S_{N}}{N} \text{ est la moyenne empirique des }X_{k}$$
 et 
-$$\mathbb{P}\left( \left| \frac{S_{N}}{N} - \mathbb{E}(X_{1})\right| \geq \varepsilon\right)\leq \frac{\mathrm{Var}(X_{1})}{n\varepsilon^{2}}$$
+$$\mathbb{P}\left( \left| \frac{S_{N}}{N} - \mathbb{E}(X_{1})\right| \geq \varepsilon\right)\leq \frac{\mathrm{Var}(X_{1})}{N\varepsilon^{2}}$$
 
 Démonstration : 
-$$$$
+$$\frac{S_{N}}{N} - \mathbb{E}(X_{1}) = \frac{1}{N}\sum_{k = 1}^{N}(X_{k} -\mathbb{E}(X_{k}))$$
+Alors par le Bienaymé : 
+$$\mathbb{P}\left( \left| \frac{S_{N}}{N} - \mathbb{E}(X_{k})\right|\geq \varepsilon \right)\leq \frac{\mathrm{Var}(S_{N})}{N^{2}\varepsilon^{2}}$$
+Or : 
+$$\mathrm{Var}(S_{N}) = \sum_{k =1}^{N} \mathrm{Var}(X_{k}) \leq N\mathrm{Var}(X_{1})$$
+Car $\forall k \in \mathbb{N}^{*}, X_{1} \sim X_{k}$
+Ainsi, 
+$$\mathbb{P}\left( \left| \frac{S_{N}}{N} - \mathbb{E}(X_{1})\right| \geq \varepsilon\right)\leq \frac{\mathrm{Var}(X_{1})}{N\varepsilon^{2}}$$

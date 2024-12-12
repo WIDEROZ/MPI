@@ -43,8 +43,11 @@ $$= \sum_{k = 1}^{n-1} pq^{k-1}pq^{n-k-1} = (n-1)p^{2}q^{n-2}$$
 Ainsi, 
 $$\mathbb{P}(\dots) = \frac{1}{n+1}$$
 
-### Exercice 3
+### Exercice 7
 #### a.
+Soit $n \in \mathbb{N}^{*}$, $k \in \mathbb{N}$, 
+$$\mathbb{P}(M_{n})$$
+
 
 
 
