@@ -6,6 +6,8 @@ CY Tech (cergy / pau)
 Enseirb-Matmeca (bordeaux)
 
 #### Mines-Telecom
-ENSTA (bretagne)
 Telecom Sud paris
+Telecom Saint-Etienne
+ENSTA (bretagne)
 ENSIIE (Evry)
+IMT Nord europe
