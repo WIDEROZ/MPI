@@ -4,6 +4,5 @@ $$(a|b)^{*}\#$$
 #### 19
 
 #### 21
-Soit $w, w' \in L(G_{1})$, 
-$w_{1} = ($ et $w_{n} = )$
-Soit $p'$ un préfixe, 
+On raisonne sur le nombre de dérivations : 
+Soit $w' \in L(G_{1})$ issu de $n$ dérivations, supposons qu'il n'existe pas de $w \in L(G_{1})$ tel qu'il soit un préfixe strict $w'$. 
