@@ -40,4 +40,11 @@ $$e = -\frac{d\phi}{dt}$$
 On prend un contour circulaire qui passe dans les spires : 
 par le théorème d'ampère : 
 $$\oint  B(t)dl = \mu_{0}I_{enl} $$
-$$B(r, t) = \frac{2\mu_{0}N}{3\pi a}i(t)$$
+$$B(r,z, t) = \frac{\mu_{0}}{3\pi a}(I(t) + Ni(t))$$
+pour $z$ dans le tore pour $z$ à l'ext du tore : $B(t) = \frac{\mu_{0}}{3\pi a}I(t)$
+
+Ainsi, 
+$$\boxed{B(t) = \frac{\mu_{0}}{3\pi a}I(t) + \frac{\mu_{0}N}{3\pi a}i(t)}$$
+
+#### 2.
+Pour $z\in [-a, a]$, 
