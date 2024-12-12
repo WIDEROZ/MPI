@@ -737,7 +737,7 @@ $$= \frac{(p\lambda)^{k}}{k!} e^{ -\lambda p }$$
 ie 
 $$X \sim \mathbb{P}(\lambda p)$$
 
-# VI - I. Espérance
+# VI. Espérance
 ## 1. Définition
 #### Définition
 Soit $X\in \mathbb{C}^{\Omega}$ une VA, 
@@ -815,7 +815,7 @@ X_{1}\dots X_{n} \in \mathcal{L}^{1}(\Omega,\mathbb{C}) \\
 \end{cases}$$
 
 
-# V. Variance
+# VII. Variance
 ## 1. Espace $L^{2}$
 #### Définition
 Soit $X : \Omega \to \mathbb{C}$, une VAD. 
@@ -939,3 +939,23 @@ Alors,
 $$\mathrm{Cov}(\mathbb{1}_{A}, \mathbb{1}_{B}) = \mathbb{E}(\mathbb{1}_{A}\mathbb{1}_{B})- \mathbb{E}(\mathbb{1}_{A})\mathbb{E}(\mathbb{1}_{B}) = \mathbb{E}(\mathbb{1}_{A}\mathbb{1}_{B}) - \mathbb{P}(A)\mathbb{P}(B)$$
 Et : 
 $$\mathrm{Cov}(\mathbb{1}_{A}, \mathbb{1}_{B}) = \mathbb{P}(A \cap B) - \mathbb{P}(A) \mathbb{P}(B)$$
+Comme $\mathbb{1}_{A}$ est une VA de Bernoulli : 
+$$\left| \mathbb{P}(A \cap B) - \mathbb{P}(A) \mathbb{P}(B)\right| \leq \sqrt{\sigma(\mathbb{1}_{A})\sigma(\mathbb{1}_{B})} = \sqrt{\mathbb{P}(A)\mathbb{P}(\bar{A})\mathbb{P}(B)\mathbb{P}(\bar{B})}$$
+Ainsi,
+$$\left| \mathbb{P}(A \cap B) - \mathbb{P}(A)\mathbb{P}(B)\right| \leq \frac{1}{4}$$
+
+# VIII. Dérivation
+## 1. Markov
+#### Objectif
+Estimer : 
+$$\forall x \in \mathbb{R}, X \in \mathbb{R}^{\Omega}, \mathbb{P}(X \geq x) $$
+
+### Inégalité de Markov
+$$\forall a >0, \forall X \in L^{1}(\Omega, \mathbb{R}_{+}), \mathbb{P}(X \geq a)\leq \frac{\mathbb{E}(X)}{a}$$
+
+Démonstration : 
+Soit $a >0$, $X \in L^{1}(\Omega, \mathbb{R})$, 
+Notons $Y = \mathbb{1}_{\{ X \geq a \}}$, 
+alors, 
+$$\forall \omega \in \Omega, X(\omega) \geq a\Rightarrow X(a)\geq a Y(\omega)$$
+Si $X$

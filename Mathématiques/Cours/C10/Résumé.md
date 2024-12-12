@@ -129,3 +129,5 @@ Soit $X, Y \in L^{2}(\Omega, \mathbb{R})$,
 $$\mathrm{Cov}(X, Y) = \mathbb{E}(XY) - \mathbb{E}(X)\mathbb{E}(Y)$$
 $$\left| \mathrm{Cov}(X, Y)\right| \leq \sigma(X) \sigma(Y)$$
 
+### Inégalité de Markov
+$$\forall a >0, \forall X \in L^{1}(\Omega, \mathbb{R}_{+}), \mathbb{P}(X \geq a)\leq \frac{\mathbb{E}(X)}{a}$$
