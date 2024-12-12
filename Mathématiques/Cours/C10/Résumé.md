@@ -122,3 +122,10 @@ $$X \sim \mathcal{G}(p) \Rightarrow \mathrm{Var}(X) = \frac{q}{p^{2}}$$
 
 #### Loi de Poisson
 $$X \sim \mathcal{P}(\lambda) \Rightarrow \mathrm{Var}(X) = \lambda$$
+
+## Covariance
+#### Propriétés
+Soit $X, Y \in L^{2}(\Omega, \mathbb{R})$, 
+$$\mathrm{Cov}(X, Y) = \mathbb{E}(XY) - \mathbb{E}(X)\mathbb{E}(Y)$$
+$$\left| \mathrm{Cov}(X, Y)\right| \leq \sigma(X) \sigma(Y)$$
+

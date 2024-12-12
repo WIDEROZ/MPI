@@ -916,4 +916,11 @@ Soit $X, Y \in L^{2}(\Omega, \mathbb{R})$,
 $$\mathrm{Cov}(X, Y) = \mathrm{Cov}(Y, X)$$
 $$\mathrm{Cov}(X, X) = \mathrm{Var}(X)$$
 $$\mathrm{Cov}(X, Y) = \mathbb{E}(XY) - \mathbb{E}(X)\mathbb{E}(Y)$$
-$$X_{1} \amalg X2$$
+$$X \amalg Y \space\boxed{\Rightarrow} \space \mathrm{Cov}(X, Y) = 0$$
+$$\left| \mathrm{Cov}(X, Y)\right| \leq \sigma(X) \sigma(Y)$$
+
+#### Proposition
+Soit $n \in \mathbb{N}^{*}\setminus \{ 1 \}$,
+Soit $(X_{i})_{i = 1}^{n} \in L^{2}(\Omega, \mathbb{R})$ :
+$$\mathrm{Var}\left( \sum_{k = 1}^{n} X_{k} \right) = \sum_{k = 1}^{n} \mathrm{Var}(X_{k}) + 2\sum_{1 \leq i < j \leq n} \mathrm{Cov}(X_{i}, X_{j})$$
+$$(X_{i})_{i =1}^{n} \text{ mut. }\amalg \Rightarrow \mathrm{Var}\left( \sum_{k = 1}^{n} X_{k} \right) = \sum_{k = 1}^{n} \mathrm{Var}(X_{k})$$
