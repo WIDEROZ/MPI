@@ -19,4 +19,7 @@ $$w = (u\_)$$
 on a alors par dérivation : 
 $$T \Rightarrow (TT) \Rightarrow^{L} (uT) \Rightarrow^{R} (u\_)$$
 Ainsi, 
-Pour tout mot de $L(G_{1})$, tout préfixe strict de ces mo admet plus de parenthèses 
+Pour tout mot de $L(G_{1})$, tout préfixe strict de ce mot admet plus de parenthèses que lui même donc, comme les mots de $L(G_{1})$ ont le même nombres de parenthèses
+
+#### 22.
+Soit $u \in (N\cup \Sigma)^{*}$, tel que $n$ ait été obtenu avec $n$ dérivations uniques par la grammaire, 
