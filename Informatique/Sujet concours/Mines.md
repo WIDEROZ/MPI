@@ -33,4 +33,5 @@ On a plusieurs cas :
 - Il n'existe plus de dérivation a faire, les arbres de dérivations sont alors uniques
 - Il existe alors $j_{0} \in \mathbb{N} (>i_{0})$ tel que $u_{j_{0}} = T$ alors par hypothèse $u_{j_{0}-1}=($ ou $u_{j_{0}-1} = \_$
 
-Ainsi, pour toute dérivation de $u$, il existe $k_{0} \in \mathbb{N}$ tel que 
+
+Ainsi, pour tout $u \in (N\cup \Sigma)^{*}$, tel qu'il existe alors $i_{0} \in \mathbb{N}$ la position du premier $T$, alors : $u_{i_{0}-1} = ($ ou $u_{i_{0}-1} = \_$
