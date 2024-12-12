@@ -22,16 +22,10 @@ Ainsi,
 Pour tout mot de $L(G_{1})$, tout préfixe strict de ce mot admet plus de parenthèses que lui même donc, comme les mots de $L(G_{1})$ ont le même nombres de parenthèses
 
 #### 22.
-Soit $u \in (N\cup \Sigma)^{*}$, tel qu'il existe alors $i_{0} \in \mathbb{N}$ la position du premier $T$, alors : $u_{i_{0}-1} = ($ ou $u_{i_{0}-1} = \_$
+Si $u =  \_$ c'est trivial
+Soit $u \in L(G_{1})$, 
+On a : $u_{1} = ($ et $u_{n} = )$, 
+On a plusieurs cas : 
++ $T \Rightarrow (TT) \Rightarrow (\_ T) \Rightarrow (\_ \space\_)$ : ca marche
++ $T \Rightarrow (TT)\Rightarrow (\_ T)$ 
 
-On dérive $u$ : 
-en utilisant : $(TT)$
-$u_{i_{0}} = ($ donc, $u_{i_{0}+1} = T$ C'est donc la position du premier $T$ dans le nouveau mot dérivé de $u$
-En utilisant : $\_$ 
-$u_{i_{0}} = \_$ :
-On a plusieurs cas :
-- Il n'existe plus de dérivation a faire, les arbres de dérivations sont alors uniques
-- Il existe alors $j_{0} \in \mathbb{N} (>i_{0})$ tel que $u_{j_{0}} = T$ alors par hypothèse $u_{j_{0}-1}=($ ou $u_{j_{0}-1} = \_$
-
-
-Ainsi, pour tout $u \in (N\cup \Sigma)^{*}$, tel qu'il existe alors $i_{0} \in \mathbb{N}$ la position du premier $T$, alors : $u_{i_{0}-1} = ($ ou $u_{i_{0}-1} = \_$
