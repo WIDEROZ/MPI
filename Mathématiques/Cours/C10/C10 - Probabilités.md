@@ -968,7 +968,27 @@ Soit $X \in L^{2}(\Omega, \mathbb{R})$,
 $$\mathbb{P}(\left|X-E(X) \right|\geq a) \leq \frac{\mathrm{Var}(X)}{a^{2}}$$
 
 Démonstration : 
-D'après Markov : 
+D'après Markov, 
 Comme :
-$$\mathbb{P}(\left| X-E(X)\right|\geq a) = \mathbb{P}((X-\mathbb{E}(X))\geq a^{2})$$
+$$\mathbb{P}(\left| X-\mathbb{E}(X)\right|\geq a) = \mathbb{P}((X-\mathbb{E}(X))\geq a^{2})$$
 $$\mathbb{P}(\left| X-\mathbb{E}(X)\right|\geq a) \leq \frac{\mathbb{E}((X-\mathbb{E}(X))^{2})}{a^{2}}$$
+
+## 3. Loi faible des grands nombres (LFGN)
+On a souvent besoin de ce type d'estimation lorsque $X =S_{N}$ est la somme de VA : 
+Pour une assurance privée : 
+$$\mathbb{P}(S_{N} \ggg cN)\leq ?$$
+ou
+$$S_{N} = \sum_{k = 1}^{N} X_{k}$$
+
+#### Loi faible des grands nombres
+Soit $(X_{n})_{n \in \mathbb{N}^{*}}$ une suite de variables aléatoires indépendantes identiquement distribuées telles que : 
+$$X_{1} \in L^{2}$$
+On note : 
+$$S_{N} = \sum_{k = 1}^{N}X_{k}$$
+Alors, 
+$$\frac{S_{N}}{N} \text{ est la moyenne empirique des }X_{k}$$
+et 
+$$\mathbb{P}\left( \left| \frac{S_{N}}{N} - \mathbb{E}(X_{1})\right| \geq \varepsilon\right)\leq \frac{\mathrm{Var}(X_{1})}{n\varepsilon^{2}}$$
+
+Démonstration : 
+$$$$
