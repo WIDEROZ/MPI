@@ -958,4 +958,9 @@ Soit $a >0$, $X \in L^{1}(\Omega, \mathbb{R})$,
 Notons $Y = \mathbb{1}_{\{ X \geq a \}}$, 
 alors, 
 $$\forall \omega \in \Omega, X(\omega) \geq a\Rightarrow X(a)\geq a Y(\omega)$$
-Si $X$
+Si $X(\omega)<a$, $X(a) \geq 0 = a Y(\omega)$, 
+alors, $X \geq aY$, 
+Ainsi, 
+$$\mathbb{E}(X) \geq \mathbb{E}(aY) \geq a\mathbb{E}(X \geq a)$$
+
+#### Remarque
