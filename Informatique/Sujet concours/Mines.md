@@ -6,15 +6,9 @@ $$(a|b)^{*}\#$$
 #### 21. 
 Pour $w = \_$  il n'existe pas de préfixe strict
 
-Soit $w \in L(G_{1})$, 
-on a alors : $w_{1} = ($ et $w_{n} = )$ 
-comme pour chaque dérivation : $T \to (TT)$ on ajoute une parenthèse fermante et une parenthèse ouvrante et pour chaque dérivation $T \to \_$ le nombre de parenthèses reste le même, 
-dans le mot : 
-$$\forall i \in [\![1, n-1]\!], w_{1}\dots w_{i}$$
-le nombre de parenthèses n'est pas égal
-
-Soit $u, v \in L(G_{1})$ tq tout préfixe strict de $u$ contienne plus de $($ que de $)$
+Soit $u, v \in L(G_{1})$ tq tout préfixe strict de $u$ contienne plus de $($ que de $)$ et que le nombre de $($ est égal au nombre de $)$ pour $u, v$.
 On pose : 
 $$w = (uv)$$
-
-$$T \to (T)$$
+il existe $n \in \mathbb{N}$ tel que $w$ dérive de : 
+$$T \Rightarrow (TT) \Rightarrow^{L} (uT) \Rightarrow^{R} (uv)$$
+alors $\left| (\right|_{w} = \left| )\right|_{w}$ donc pour tout préfixe strict de $w$ 
