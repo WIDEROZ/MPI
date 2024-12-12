@@ -924,3 +924,18 @@ Soit $n \in \mathbb{N}^{*}\setminus \{ 1 \}$,
 Soit $(X_{i})_{i = 1}^{n} \in L^{2}(\Omega, \mathbb{R})$ :
 $$\mathrm{Var}\left( \sum_{k = 1}^{n} X_{k} \right) = \sum_{k = 1}^{n} \mathrm{Var}(X_{k}) + 2\sum_{1 \leq i < j \leq n} \mathrm{Cov}(X_{i}, X_{j})$$
 $$(X_{i})_{i =1}^{n} \text{ mut. }\amalg \Rightarrow \mathrm{Var}\left( \sum_{k = 1}^{n} X_{k} \right) = \sum_{k = 1}^{n} \mathrm{Var}(X_{k})$$
+
+Démonstration : 
+$(X, Y) \mapsto \mathrm{Cov}(X, Y)$ est bilinéaire alors : 
+$$\mathrm{Var}\left( \sum_{k = 1}^{n} X_{k} \right) = \mathrm{Cov}\left( \sum_{k = 1}^{n} X_{k}, \sum_{i = 1}^{n} X_{i} \right)$$
+$$= \sum_{k = 1}^{n} \sum_{i = 1}^{n} \mathrm{Cov}(X_{k}, X_{i}) = \sum_{i = 1}^{n} \left( \mathrm{Var}(X_{k}) + \sum_{\underset{k \neq i}{k = 1}}^{n} \mathrm{Cov}(X_{k}, X_{i}) \right)$$
+$$=\sum_{k = 1}^{n} \mathrm{Var}(X_{k}) + 2\sum_{1 \leq i < j \leq n} \mathrm{Cov}(X_{i}, X_{j})$$
+
+#### Exercice
+Montrons que $A, B \subset\Omega$, 
+$$\left| \mathbb{P}(A \cap B) - \mathbb{P}(A)\mathbb{P}(B)\right| \leq \frac{1}{4}$$
+On note : $X = \mathbb{1}_{A}$ et $Y = \mathbb{1}_{B}$, 
+Alors, 
+$$\mathrm{Cov}(\mathbb{1}_{A}, \mathbb{1}_{B}) = \mathbb{E}(\mathbb{1}_{A}\mathbb{1}_{B})- \mathbb{E}(\mathbb{1}_{A})\mathbb{E}(\mathbb{1}_{B}) = \mathbb{E}(\mathbb{1}_{A}\mathbb{1}_{B}) - \mathbb{P}(A)\mathbb{P}(B)$$
+Et : 
+$$\mathrm{Cov}(\mathbb{1}_{A}, \mathbb{1}_{B}) = \mathbb{P}(A \cap B) - \mathbb{P}(A) \mathbb{P}(B)$$
