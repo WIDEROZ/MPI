@@ -6,7 +6,7 @@ $$(a|b)^{*}\#$$
 #### 21. 
 Pour $w = \_$  il n'existe pas de préfixe strict
 
-Soit $u, v \in L(G_{1})$ tq tout préfixe strict de $u$ contienne plus de $($ que de $)$ et que le nombre de $($ est égal au nombre de $)$ pour $u, v$.
+Soit $u, v \in L(G_{1})$ tq tout préfixe strict de $u$ et $v$ contiennent plus de $($ que de $)$ et que le nombre de $($ est égal au nombre de $)$ pour $u, v$.
 On pose : 
 $$w = (uv)$$
 on a alors par dérivation : 
@@ -18,4 +18,5 @@ On pose maintenant :
 $$w = (u\_)$$
 on a alors par dérivation : 
 $$T \Rightarrow (TT) \Rightarrow^{L} (uT) \Rightarrow^{R} (u\_)$$
-alors, 
+Ainsi, 
+Pour tout mot de $L(G_{1})$, tout préfixe strict de ces mo admet plus de parenthèses 
