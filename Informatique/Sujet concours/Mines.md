@@ -22,10 +22,6 @@ Ainsi,
 Pour tout mot de $L(G_{1})$, tout préfixe strict de ce mot admet plus de parenthèses que lui même donc, comme les mots de $L(G_{1})$ ont le même nombres de parenthèses
 
 #### 22.
-Pour $u \in L(G_{1})$, 
-
-
-
 Soit $u \in L(G_{1})$,
 Si $u =  \_$ c'est trivial
 Sinon,  
@@ -34,4 +30,5 @@ Alors, on effectue la dérivation :
 $$T \Rightarrow (TT)$$
 de manière à construire $u$
 il existe alors, $v, w \in L(G_{1})$ tel que $u = (vw)$
-
+Donc par récurrence rapide, comme $v, w \in L(G_{1})$, il existe un unique arbre de dérivation. 
+	
