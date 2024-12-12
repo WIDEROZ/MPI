@@ -16,9 +16,15 @@ $$\boxed{\frac{d^{2}i}{dt^{2}} + \frac{R}{L} \frac{di}{dt} + \frac{1}{LC} i(t)= 
 #### 3.
 On passe dans l'espace complexe : 
 $$\underline{i}(t) = Ie^{ j\omega t+\varphi }\Rightarrow i(t) = I \cos(\omega t+\varphi)$$
-$$-\omega^{2}Ie^{ j\omega t+\varphi } + \frac{R}{L}j\omega I e^{ j\omega t + \varphi }+ \frac{1}{LC}Ie^{ j\omega t+\varphi } = \frac{E_{0}\omega}{L}e^{ j\omega t }$$
-$$I\left( -\omega^{2}+\frac{j\omega R}{L} + \frac{1}{LC} \right) = \frac{E_{0}\omega}{L}e^{ -\varphi }$$
+$$-\omega^{2}Ie^{ j(\omega t+\varphi) } + \frac{R}{L}j\omega I e^{ j(\omega t + \varphi) }+ \frac{1}{LC}Ie^{ j(\omega t+\varphi) } = \frac{E_{0}\omega}{L}e^{ j\omega t }$$
+$$I\left( -\omega^{2}+\frac{j\omega R}{L} + \frac{1}{LC} \right) = \frac{E_{0}\omega}{L}e^{ -j\varphi }$$
 On pose : 
-$$\omega_{0} = \frac{1}{\sqrt{LC}} \text{ et } \frac{Q}{\sqrt{LC}} = $$
+$$\omega_{0} = \frac{1}{\sqrt{LC}} \text{ et } Q = \frac{1}{R}\sqrt{\frac{L}{C}}$$
 Ainsi, 
-$$\boxed{I = \frac{E_{0}C \omega}{1+j \omega RC-\left( \frac{\omega}{\omega_{0}} \right)^{2}}e^{ -\varphi }}$$
+$$\boxed{\underline{I} = \frac{E_{0}C \omega}{1+j \frac{\omega}{Q\omega_{0}}-\left( \frac{\omega}{\omega_{0}} \right)^{2}}e^{ -j\varphi }}$$
+
+$$\boxed{\left| \underline{I}\right| = \frac{E_{0}C\omega}{\sqrt{\left( 1-\left( \frac{\omega}{\omega_{0}} \right)^{2} \right)^{2} + \left( \frac{\omega}{Q\omega_{0}} \right)^{2}}}}$$
+Si $Q \gg \omega$ et $\frac{\omega}{\omega_{0}} = 1$, 
+L'intensité est très grande.
+
+#### 4.
