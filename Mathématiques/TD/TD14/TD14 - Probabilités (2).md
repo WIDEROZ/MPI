@@ -61,7 +61,7 @@ $$1- \left( 1-\frac{m_{\alpha}}{k^{\alpha}} \right)^{n} \sim \frac{1}{k^{\alpha}
 #### c.
 $$\mathbb{E}(M_{n}) = \sum_{k \in \mathbb{N}^{*}} \mathbb{P}(M_{n} \geq k) = \sum_{k \in \mathbb{N}^{*}} (1-\mathbb{P}(X_{1}\leq k-1)^{n})$$
 $$= \sum_{k = 1}^{+ \infty} \left( 1-\left( \sum_{i = 1}^{k-1} \mathbb{P}(X_{1} = i-1) \right)^{n} \right)$$
-$$= \sum_{k = 1}^{+ \infty}\left( 1-\left( \sum_{i = 1}^{k-1} \frac{1}{2^{i}} \right)^{n} \right)$$
+$$=1+ \sum_{k = 2}^{+ \infty}\left( 1-\left( \sum_{i = 1}^{k-1} \frac{1}{2^{i}} \right)^{n} \right) $$
 
 
 ### Exercice 14
