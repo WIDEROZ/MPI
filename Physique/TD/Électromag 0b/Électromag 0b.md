@@ -32,3 +32,12 @@ L'antivol va créer un champ magnétique opposé au champ émetteur :
 $$e = - \frac{d\phi}{dt}$$
 
 ### Exercice 2
+#### 1.
+Il faut que l'intensité dépende du temps pour créer une fem induite dans le tore et pouvoir mesurer le courant : 
+$$e = -\frac{d\phi}{dt}$$
+
+
+On prend un contour circulaire qui passe dans les spires : 
+par le théorème d'ampère : 
+$$\oint  B(t)dl = \mu_{0}I_{enl} $$
+$$B(r, t) = \frac{2\mu_{0}N}{3\pi a}i(t)$$
