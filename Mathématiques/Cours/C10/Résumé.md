@@ -131,3 +131,7 @@ $$\left| \mathrm{Cov}(X, Y)\right| \leq \sigma(X) \sigma(Y)$$
 
 ### Inégalité de Markov
 $$\forall a >0, \forall X \in L^{1}(\Omega, \mathbb{R}_{+}), \mathbb{P}(X \geq a)\leq \frac{\mathbb{E}(X)}{a}$$
+
+### Bienaymé-Tchebychev
+Soit $X \in L^{2}(\Omega, \mathbb{R})$, 
+$$\mathbb{P}(\left|X-E(X) \right|\geq a) \leq \frac{\mathrm{Var}(X)}{a^{2}}$$

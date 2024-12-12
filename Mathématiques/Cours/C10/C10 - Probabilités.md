@@ -963,4 +963,12 @@ alors, $X \geq aY$,
 Ainsi, 
 $$\mathbb{E}(X) \geq \mathbb{E}(aY) \geq a\mathbb{E}(X \geq a)$$
 
-#### Remarque
+### Bienaymé-Tchebychev
+Soit $X \in L^{2}(\Omega, \mathbb{R})$, 
+$$\mathbb{P}(\left|X-E(X) \right|\geq a) \leq \frac{\mathrm{Var}(X)}{a^{2}}$$
+
+Démonstration : 
+D'après Markov : 
+Comme :
+$$\mathbb{P}(\left| X-E(X)\right|\geq a) = \mathbb{P}((X-\mathbb{E}(X))\geq a^{2})$$
+$$\mathbb{P}(\left| X-\mathbb{E}(X)\right|\geq a) \leq \frac{\mathbb{E}((X-\mathbb{E}(X))^{2})}{a^{2}}$$
