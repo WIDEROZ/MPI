@@ -3,6 +3,8 @@ $$(a|b)^{*}\#$$
 
 #### 19
 
-#### 21
-On raisonne sur le nombre de dérivations : 
-Soit $w' \in L(G_{1})$ issu de $n$ dérivations, supposons qu'il n'existe pas de $w \in L(G_{1})$ tel qu'il soit un préfixe strict $w'$. 
+#### 21. 
+Pour $w = \_$  il n'esciste pas de prefixe strict
+
+Soit $w \in L(G_{1})$, 
+on a alors : $w_{1} = ($ et $w_{n} = )$ 
