@@ -9,15 +9,14 @@ let parseV (w : char list) : string * char list =
     match w with
     | [] -> failwith "syntax error"
     | l -> let rec isInGram v = 
-      match v with
-      | [] -> failwith "syntax error"
-      | h::q -> (if (h = '#') then (verif := inTerm q; s := q; String.make 1 h) else (if (h = 'a' || h = 'b') then ((String.make 1 h) ^ (isInGram q)) else failwith "syntax error") )
-    in 
-    if (!verif) then 
-      (isInGram l, !s)
-    else
-      failwith "sytaxe incorrecte"
-
-    ;;
+            match v with
+            | [] -> failwith "syntax error"
+            | h::q -> (if (h = '#') then (print_string "KK"; !verif -> inTerm q; s := q; String.make 1 h) else (if (h = 'a' || h = 'b') then ((String.make 1 h) ^ (isInGram q)) else failwith "syntax error") )
+          in 
+            if (true = true) then 
+              (isInGram l, !s)
+            else
+              failwith "sytaxe incorrecte"
+          ;;
 
 parseV ['a'; 'a'; 'b';'#'; 'b'; 'a'];;
