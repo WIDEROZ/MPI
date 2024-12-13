@@ -48,3 +48,8 @@ $$\boxed{B(t) = \frac{\mu_{0}}{3\pi a}I(t) + \frac{\mu_{0}N}{3\pi a}i(t)}$$
 
 #### 2.
 Pour $z\in [-a, a]$, 
+
+
+### Exercice 3
+#### 1.
+$$m\vec{a} = $$

@@ -31,4 +31,3 @@ $$T \Rightarrow (TT)$$
 de manière à construire $u$
 il existe alors, $v, w \in L(G_{1})$ tel que $u = (vw)$
 Donc par récurrence rapide, comme $v, w \in L(G_{1})$, il existe un unique arbre de dérivation. 
-	
