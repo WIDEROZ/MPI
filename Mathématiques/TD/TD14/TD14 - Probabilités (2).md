@@ -121,11 +121,16 @@ $$\mathbb{P}(X_{3} > \left| X_{1}-X_{2} \right|) = \sum_{k = 1}^{+ \infty}\mathb
 $$= \sum_{k = 1}^{ + \infty} \mathbb{P}(\Delta = k) \mathbb{P}(X_{3} > k)$$
 
 #### b.
-$$\mathbb{P}(\Delta = 0) = \mathbb{P}(X_{1} = X_{2}) = \sum_{k = 0}^{+ \infty}\mathbb{P}(X_{1} = k \cap X_{2} = X_{1}) $$
-$$= \sum_{k = 0}^{+ \infty} \mathbb{P}(X_{1} = k)\mathbb{P}(X_{2} = k) = \sum_{k = 0}^{+ \infty} p^{2}q^{2k-2} = \left( \frac{p}{q} \right)^{2}\sum_{k = 0}^{+ \infty} (q^{2})^{k}$$
+$$\mathbb{P}(\Delta = 0) = \mathbb{P}(X_{1} = X_{2}) = \sum_{k = 1}^{+ \infty}\mathbb{P}(X_{1} = k \cap X_{2} = X_{1}) $$
+$$= \sum_{k = 1}^{+ \infty} \mathbb{P}(X_{1} = k)\mathbb{P}(X_{2} = k) = \sum_{k = 1}^{+ \infty} p^{2}q^{2k-2} = \left( \frac{p}{q} \right)^{2}\sum_{k = 1}^{+ \infty} (q^{2})^{k}$$
 Ainsi, 
 $$\boxed{\mathbb{P}(\Delta = 0) = \frac{p}{(1+q)}}$$
 
 #### c.
-On prend le SSCE : $((X_{1} =n+X_{2}))$
-$$\mathbb{P}(\Delta = n) = \sum_{k = 0}^{+ \infty}\mathbb{P}(X_{1} = n+X_{2}\cap )$$
+On prend le SSCE : $((X_{1} = k))_{k \in \mathbb{N}}$
+$$\mathbb{P}(\Delta = n) = \sum_{k = 1}^{+ \infty}\mathbb{P}(\Delta = n\cap X_{1} = k) $$
+$$= \sum_{k = 1}^{+\infty} \mathbb{P}(X_{1} -X_{2} =\pm n \space | \space X_{1} = k)\mathbb{P}(X_{1} = k)$$
+$$ = \sum_{k = 1}^{+ \infty} \mathbb{P}(X_{2} = \pm n+k)\mathbb{P}(X_{1} = k)$$
+$$\sum_{k= 1}^{+ \infty} (\mathbb{P}(X_{2} = n+k)+\mathbb{P}(X_{2} = k-n))\mathbb{P}(X_{1}=k)$$
+$$= \sum_{k = 1}^{+ \infty}\mathbb{P}(X_{2} = n+k)P(X_{1}=k) + \sum_{k = 1}^{n}\mathbb{P}(X_{2} = k-n)\mathbb{P}(X_{1} = k)$$
+$$= $$
