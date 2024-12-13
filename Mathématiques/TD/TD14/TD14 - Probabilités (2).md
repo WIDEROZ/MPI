@@ -88,3 +88,4 @@ $$\mathbb{E}(L_{2} = n) = \frac{p}{q} \frac{p}{1-q} + \frac{q}{p} \frac{p}{1-p} 
 
 
 
+#### c.
