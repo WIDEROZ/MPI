@@ -78,7 +78,12 @@ $$\mathcal{P}_{mag} = \frac{d}{dt}\left( \frac{1}{2}mv^{2} - mgz \right)$$
 #### 4.
 ##### a.
 $$\frac{d^{2}i}{dt} + \frac{R}{L} \frac{di}{dt}+ \frac{(Ba)^{2}}{mL} i = \frac{Bag}{L}$$
-$$\omega_{0} = \frac{(Ba)^{2}}{mL} \text{ et } 2\lambda \omega_{0} = \frac{R}{L} \Rightarrow \lambda = \frac{Rm}{2(Ba)^{2}}$$
+$$\omega_{0}^{2} = \frac{(Ba)^{2}}{mL} \text{ et } 2\lambda \omega_{0} = \frac{R}{L} \Rightarrow \lambda = \frac{R}{2Ba}\sqrt{\frac{m}{L}}$$
 
 #### b.
-$$$$
+$$r^{2} + 2\lambda \omega_{0} r + \omega_{0}^{2} = 0 \Rightarrow \Delta = 4\lambda^{2}\omega_{0}^{2} - 4 \omega_{0}^{2} = 4\omega_{0}^{2}(\lambda^{2}-1) \geq 0$$
+$$\lambda \geq 1 \Rightarrow R \geq 2L\omega_{0}$$
+On note:  
+$$r_{1,2} = -\lambda \omega_{0} \pm 2\omega_{0} \sqrt{\lambda^{2}-1}$$
+$$i_{part} = \frac{mg}{Ba} \text{ lorsque }$$
+$$i(t) = Ae^{ r_{1}t } + Be^{ r_{2}t } + \frac{mg}{Ba} = 0$$
