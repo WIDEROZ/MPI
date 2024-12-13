@@ -105,5 +105,6 @@ $$\int_{k-1}^{k} f(t) \, dt\leq f(k) \leq \int _{k}^{k+1} f(t) \, dt $$
 Donc, 
 $$\int_{0}^{+ \infty} f(t) \, dt \leq \sum_{k = 1}^{+ \infty} (1-(1-2^{-k})^{n}) \leq \int _{1}^{+ \infty} f(t) \, dt  $$
 puis, 
-$$\int _{1}^{N}(1-(1-2^{-t})^{n}) \, dt = N-1-\int _{1}^{N} (1-2^{-t})^{n} \, dt  $$
-$$= N-1 - \left[ -\frac{2^{-t}}{(\ln(2))(n+1)}(1-e^{ -t\ln(2) }) \right]$$
+$$\int _{0}^{+ \infty}(1-(1-2^{-t})^{n}) \, dt = \int_{0}^{+ \infty} (1-x^{n})\ln(2) \, dx $$
+On pose : 
+$$x = 1-2^{-t} \text{ alors } dx = \lne^{ -t\ln(2) }$$
