@@ -117,4 +117,15 @@ $$\mathbb{P}(X_{3} > \left| X_{1}-X_{2}\right|) = 1-\sum_{k = 0}^{\left| X_{1}-X
 On prend un système quasi-complet d’événement : 
 $((\Delta = 0), (\Delta =1), \dots)$
 Alors, 
-$$\mathbb{P}(X_{3} > \left| X_{1}-X_{2} \right|) = \sum_{k = 1}^{+ \infty}\mathbb{P}(\Delta = 1) \mathbb{P}(X_{3} > \left| X_{1}-X_{2}\right| \space | )$$
+$$\mathbb{P}(X_{3} > \left| X_{1}-X_{2} \right|) = \sum_{k = 1}^{+ \infty}\mathbb{P}(\Delta = k) \mathbb{P}(X_{3} > \left| X_{1}-X_{2}\right| \space | \space \Delta =k)$$
+$$= \sum_{k = 1}^{ + \infty} \mathbb{P}(\Delta = k) \mathbb{P}(X_{3} > k)$$
+
+#### b.
+$$\mathbb{P}(\Delta = 0) = \mathbb{P}(X_{1} = X_{2}) = \sum_{k = 0}^{+ \infty}\mathbb{P}(X_{1} = k \cap X_{2} = X_{1}) $$
+$$= \sum_{k = 0}^{+ \infty} \mathbb{P}(X_{1} = k)\mathbb{P}(X_{2} = k) = \sum_{k = 0}^{+ \infty} p^{2}q^{2k-2} = \left( \frac{p}{q} \right)^{2}\sum_{k = 0}^{+ \infty} (q^{2})^{k}$$
+Ainsi, 
+$$\boxed{\mathbb{P}(\Delta = 0) = \frac{p}{(1+q)}}$$
+
+#### c.
+On prend le SSCE : $((X_{1} =n+X_{2}))$
+$$\mathbb{P}(\Delta = n) = \sum_{k = 0}^{+ \infty}\mathbb{P}(X_{1} = n+X_{2}\cap )$$
