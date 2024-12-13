@@ -55,16 +55,19 @@ Pour $z\in [-a, a]$,
 Loi des mailles : 
 $$u_{L} + u_{R} = e$$
 alors, 
-$$L \frac{di}{dt} + Ri + \frac{d\phi}{dt}=0$$
-$$\frac{di}{dt} + \frac{R}{L} i + \frac{1}{L} \frac{d}{dt} \iint \vec{B}.d\vec{S} = \frac{di}{dt} + \frac{R}{L} i + \frac{1}{L} \frac{d}{dt} ({B} az) =0 
+$$L \frac{di}{dt} + Ri +\frac{d\phi}{dt}=0$$
+$$\frac{di}{dt} + \frac{R}{L} i + \frac{1}{L} \frac{d}{dt} \iint \vec{B}.d\vec{S} = \frac{di}{dt} + \frac{R}{L} i - \frac{1}{L} \frac{d}{dt} ({B} az) =0 
 $$
 Donc, 
-$$\frac{di}{dt} + \frac{R}{L} i + \frac{Ba}{L} v_{z} =0$$
+$$\frac{di}{dt} + \frac{R}{L} i = \frac{Ba}{L} v_{z} $$
 
 
 #### 2.
 PFD a la barre : 
 $$m \frac{dv}{dt} = \int id\vec{l}\wedge \vec{B} .\vec{e}_{z} = -\int i B dx=-iB a $$
 $$\frac{dv}{dt} + \frac{Ba}{m} i =0$$
-$$i + \frac{m}{Ba}$$
+$$i + \frac{m}{Ba} \frac{dv}{dt} = 0$$
 #### 3.
+$$\frac{d }{dt}(\frac{1}{2}Li^{2}) + Ri^{2} = Bavi = \mathcal{P}_{fem} $$
+puissance magnétique et effet joule. 
+$$\frac{d}{dt}\left( \frac{1}{2}mv^{2} \right) + \frac{Ba}{m}iv = 0$$
