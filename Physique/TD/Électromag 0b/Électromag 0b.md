@@ -96,5 +96,15 @@ $$i(t) = A\cos(\omega_{0}t) + C \sin(\omega_{0}t) + i_{0}$$
 Par les conditions initiales : 
 $$\begin{cases}
 i(0^{+}) = i(0^{-}) = 0 \Rightarrow A = -i_{0} \\
-\frac{Bav(t=0)}{L} =
+0=\frac{Bav(t=0)}{L} = \frac{di}{dt} = C\omega_{0}
 \end{cases}$$
+Ainsi, 
+$$i(t) = i_{0}(1-\cos(\omega_{0}t))\geq 0$$
+$$v(t) = \frac{L}{Ba} \frac{di}{dt} = \frac{Li_{0}\omega_{0}}{Ba}\sin(\omega_{0}t)=\frac{g}{\omega_{0}}\sin(\omega_{0}t)$$
+$$z(t) = -\frac{g}{\omega_{0}^{2}}\cos(\omega_{0}t)$$
+
+Première phase : 
+$$v > 0\Rightarrow \begin{cases}
+e > 0 \\
+i \geq 0 
+\end{cases} \Rightarrow $$
