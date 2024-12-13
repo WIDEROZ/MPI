@@ -52,4 +52,9 @@ Pour $z\in [-a, a]$,
 
 ### Exercice 3
 #### 1.
-$$m\vec{a} = $$
+Loi des mailles : 
+$$u_{L} + u_{R} = e$$
+alors, 
+$$L \frac{di}{dt} + Ri + \frac{d\phi}{dt}=0$$
+$$\frac{di}{dt} + \frac{R}{L} i + \frac{1}{L} \frac{d}{dt} \iint \vec{B}.d\vec{S} = \frac{di}{dt} + \frac{R}{L} i + \frac{1}{L} \frac{d}{dt} ({B} az) =0 
+$$
