@@ -105,6 +105,16 @@ $$\int_{k-1}^{k} f(t) \, dt\leq f(k) \leq \int _{k}^{k+1} f(t) \, dt $$
 Donc, 
 $$\int_{0}^{+ \infty} f(t) \, dt \leq \sum_{k = 1}^{+ \infty} (1-(1-2^{-k})^{n}) \leq \int _{1}^{+ \infty} f(t) \, dt  $$
 puis, 
-$$\int _{0}^{+ \infty}(1-(1-2^{-t})^{n}) \, dt = \int_{0}^{+ \infty} (1-x^{n})\ln(2) \, dx $$
-On pose : 
-$$x = 1-2^{-t} \text{ alors } dx = \lne^{ -t\ln(2) }$$
+$$\int _{0}^{+ \infty}(1-(1-2^{-t})^{n}) \, dt = \int_{0}^{1} \frac{1-x^{n}}{\ln(2)(1-x)} \, dx $$
+en posant : 
+$$x = 1-2^{-t} \text{ alors } dx = \ln(2) 2^{-t} dt$$
+Et puis, 
+$$\frac{1}{\ln(2)}\int_{0}^{1} \sum_{k = 0}^{n-1} x^{k} \, dx = \frac{1}{\ln(2)}\sum_{k = 0}^{n-1} \frac{1}{k+1} = \frac{1}{\ln(2)} \sum_{k = 1}^{n} \frac{1}{k}$$
+
+### Exercice 13
+#### a.
+$$\mathbb{P}(X_{3} > \left| X_{1}-X_{2}\right|) = 1-\sum_{k = 0}^{\left| X_{1}-X_{2}\right|} \mathbb{P}(X_{3} = k)$$
+On prend un système quasi-complet d’événement : 
+$((\Delta = 0), (\Delta =1), \dots)$
+Alors, 
+$$\mathbb{P}(X_{3} > \left| X_{1}-X_{2} \right|) = \sum_{k = 1}^{+ \infty}\mathbb{P}(\Delta = 1) \mathbb{P}(X_{3} > \left| X_{1}-X_{2}\right| \space | )$$
