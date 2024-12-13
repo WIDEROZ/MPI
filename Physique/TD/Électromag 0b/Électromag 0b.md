@@ -64,10 +64,21 @@ $$\frac{di}{dt} + \frac{R}{L} i = \frac{Ba}{L} v_{z} $$
 
 #### 2.
 PFD a la barre : 
-$$m \frac{dv}{dt} = \int id\vec{l}\wedge \vec{B} .\vec{e}_{z} = -\int i B dx=-iB a $$
-$$\frac{dv}{dt} + \frac{Ba}{m} i =0$$
-$$i + \frac{m}{Ba} \frac{dv}{dt} = 0$$
+$$m \frac{dv}{dt} = mg+ \int id\vec{l}\wedge \vec{B} .\vec{e}_{z} =mg -\int i B dx=mg-iB a $$
+$$\frac{dv}{dt} + \frac{Ba}{m} i -g=0$$
+$$i + \frac{m}{Ba} \frac{dv}{dt}-\frac{mg}{Ba} = 0$$
+
 #### 3.
 $$\frac{d }{dt}(\frac{1}{2}Li^{2}) + Ri^{2} = Bavi = \mathcal{P}_{fem} $$
 puissance magnétique et effet joule. 
-$$\frac{d}{dt}\left( \frac{1}{2}mv^{2} \right) + \frac{Ba}{m}iv = 0$$
+$$\frac{d}{dt}\left( \frac{1}{2}mv^{2} \right) + Baiv- mgv = \frac{d}{dt}\left( \frac{1}{2}mv^{2} -mgz \right)=-Baiv$$
+$$= \vec{F}.\vec{v} = \mathcal{P}_{mag}$$
+$$\mathcal{P}_{mag} = \frac{d}{dt}\left( \frac{1}{2}mv^{2} - mgz \right)$$
+
+#### 4.
+##### a.
+$$\frac{d^{2}i}{dt} + \frac{R}{L} \frac{di}{dt}+ \frac{(Ba)^{2}}{mL} i = \frac{Bag}{L}$$
+$$\omega_{0} = \frac{(Ba)^{2}}{mL} \text{ et } 2\lambda \omega_{0} = \frac{R}{L} \Rightarrow \lambda = \frac{Rm}{2(Ba)^{2}}$$
+
+#### b.
+$$$$
