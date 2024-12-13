@@ -89,3 +89,7 @@ $$\mathbb{E}(L_{2} = n) = \frac{p}{q} \frac{p}{1-q} + \frac{q}{p} \frac{p}{1-p} 
 
 
 #### c.
+$$\mathbb{E}(M_{n}) = \sum_{k = 1}^{\infty} \mathbb{P}(M_{n}\geq k) =\sum_{k = 1}^{+ \infty} (1-\mathbb{P}(M_{n}\leq k-1))$$
+$$= \sum_{k = 1}^{+ \infty}\left( 1-\left( \mathbb{P}(X_{1} \leq k-1) \right)^{n} \right) =1+ \sum_{k = 2}^{+ \infty} \left( 1-\left( \sum_{i = 1}^{k-1} \mathbb{P}(X_{1} = i) \right)^{n} \right)$$
+$$= 1+\sum_{k = 2}^{+\infty} \left( 1-\left( \sum_{i = 1}^{k-1} 2^{-i} \right)^{n} \right) = \sum_{k= 1}^{+ \infty} \left( 1- \left( \frac{1}{2}\frac{1-2^{k-1}}{1-\frac{1}{2}} \right)^{n} \right)$$
+$$= 1+\sum_{k = 2}^{+ \infty} (1-(1-2^{k-1})^{n}) = 1$$
