@@ -132,5 +132,10 @@ $$\mathbb{P}(\Delta = n) = \sum_{k = 1}^{+ \infty}\mathbb{P}(\Delta = n\cap X_{1
 $$= \sum_{k = 1}^{+\infty} \mathbb{P}(X_{1} -X_{2} =\pm n \space | \space X_{1} = k)\mathbb{P}(X_{1} = k)$$
 $$ = \sum_{k = 1}^{+ \infty} \mathbb{P}(X_{2} = \pm n+k)\mathbb{P}(X_{1} = k)$$
 $$\sum_{k= 1}^{+ \infty} (\mathbb{P}(X_{2} = n+k)+\mathbb{P}(X_{2} = k-n))\mathbb{P}(X_{1}=k)$$
-$$= \sum_{k = 1}^{+ \infty}\mathbb{P}(X_{2} = n+k)P(X_{1}=k) + \sum_{k = 1}^{n}\mathbb{P}(X_{2} = k-n)\mathbb{P}(X_{1} = k)$$
-$$= $$
+$$= \sum_{k = 1}^{+ \infty}\mathbb{P}(X_{2} = n+k)P(X_{1}=k) + \sum_{k = n+1}^{+\infty}\mathbb{P}(X_{2} = k-n)\mathbb{P}(X_{1} = k)$$
+$$= \dots$$
+
+### Exercice 15
+#### a.
+Soit $t >0$, 
+$$\mathbb{P}(e^{ tS_{n} } \geq e^{ tk }) \leq \mathbb{E}(e^{ tS_{n} })e^{ -tk } = e^{ -tk }()$$
