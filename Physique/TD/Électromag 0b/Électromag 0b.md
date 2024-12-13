@@ -58,3 +58,13 @@ alors,
 $$L \frac{di}{dt} + Ri + \frac{d\phi}{dt}=0$$
 $$\frac{di}{dt} + \frac{R}{L} i + \frac{1}{L} \frac{d}{dt} \iint \vec{B}.d\vec{S} = \frac{di}{dt} + \frac{R}{L} i + \frac{1}{L} \frac{d}{dt} ({B} az) =0 
 $$
+Donc, 
+$$\frac{di}{dt} + \frac{R}{L} i + \frac{Ba}{L} v_{z} =0$$
+
+
+#### 2.
+PFD a la barre : 
+$$m \frac{dv}{dt} = \int id\vec{l}\wedge \vec{B} .\vec{e}_{z} = -\int i B dx=-iB a $$
+$$\frac{dv}{dt} + \frac{Ba}{m} i =0$$
+$$i + \frac{m}{Ba}$$
+#### 3.
