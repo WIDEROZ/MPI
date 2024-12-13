@@ -85,5 +85,16 @@ $$r^{2} + 2\lambda \omega_{0} r + \omega_{0}^{2} = 0 \Rightarrow \Delta = 4\lamb
 $$\lambda \geq 1 \Rightarrow R \geq 2L\omega_{0}$$
 On note:  
 $$r_{1,2} = -\lambda \omega_{0} \pm 2\omega_{0} \sqrt{\lambda^{2}-1}$$
-$$i_{part} = \frac{mg}{Ba} \text{ lorsque }$$
-$$i(t) = Ae^{ r_{1}t } + Be^{ r_{2}t } + \frac{mg}{Ba} = 0$$
+$$i_{0}=i_{part} = \frac{mg}{Ba} \text{ lorsque }i \text{ est stationnaire}$$
+$$i(t) = Ae^{ r_{1}t } + Ce^{ r_{2}t } + i_{0} $$
+Alors : 
+$$e = Ri_{0} = Bav_{0}= -\frac{d\phi}{dt} \Rightarrow v_{0} = \frac{Rmg}{(Ba)^{2}} = \frac{2\lambda g}{\omega_{0}} $$
+
+#### c.
+$$R \leq 2L\omega_{0}$$
+$$i(t) = A\cos(\omega_{0}t) + C \sin(\omega_{0}t) + i_{0}$$
+Par les conditions initiales : 
+$$\begin{cases}
+i(0^{+}) = i(0^{-}) = 0 \Rightarrow A = -i_{0} \\
+\frac{Bav(t=0)}{L} =
+\end{cases}$$
