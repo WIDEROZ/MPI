@@ -138,4 +138,6 @@ $$= \dots$$
 ### Exercice 15
 #### a.
 Soit $t >0$, 
-$$\mathbb{P}(e^{ tS_{n} } \geq e^{ tk }) \leq \mathbb{E}(e^{ tS_{n} })e^{ -tk } = e^{ -tk }()$$
+$$\mathbb{P}(e^{ tS_{n} } \geq e^{ tk }) \leq \mathbb{E}(e^{ tS_{n} })e^{ -tk } = e^{ -tk }\prod_{i = 1}^{n}(e^{ -t }(1-p) + e^{ t }p) $$
+$$= (e^{ -t })^{k}(e^{ -t }(1-p)+e^{ t }p)^{n}$$
+$e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{  }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e } }$
