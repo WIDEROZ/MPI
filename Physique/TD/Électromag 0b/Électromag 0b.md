@@ -107,4 +107,8 @@ Première phase :
 $$v > 0\Rightarrow \begin{cases}
 e > 0 \\
 i \geq 0 
-\end{cases} \Rightarrow $$
+\end{cases} \Rightarrow \mathcal{P}_{ind} > 0\Rightarrow \mathcal{E}_{elec} \uparrow $$
+$$\mathcal{P}_{lap} = \vec{F}_{lap} .\vec{v} < 0 \Rightarrow \mathcal{E}_{meca} \downarrow$$
+Ainsi, 
+$$\mathcal{E}_{meca} \to \mathcal{E}_{elec}$$
+l'énergie mécanique est convertie en énergie électrique
