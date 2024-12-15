@@ -157,4 +157,6 @@ $$\mathbb{E}((X-\mathbb{E}(X))^{4})=\mu_{4}(X) = \mu_{2}(X)^{2} = \mathrm{Var}(X
 
 
 $$\mathbb{E}((X-p)^{4}) = \mathbb{E}(X^{4}- 4X^{3}p + 6X^{2}p^{2} - 4 Xp^{3} + p^{4})$$
-$$= \mathbb{E}(X^{4}) - 4p \mathbb{E}(X^{3}) + 6p^{2}\mathbb{E}(X^{2}) - 3p^{4} + p^{4}$$
+$$= \mathbb{E}(X^{4}) - 4p \mathbb{E}(X^{3}) + 6p^{2}\mathbb{E}(X^{2}) - 3p^{4}$$
+$$= p - 4p^{2} + 6p^{3} - 3p^{4} $$
+$$ p^{2}(1-p)^{2} = p^{2} - 2p^{3} + p^{4}$$
