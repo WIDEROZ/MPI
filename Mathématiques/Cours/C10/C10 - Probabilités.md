@@ -803,7 +803,7 @@ $$\mathbb{E}(f(X)) = \sum_{x \in X(\Omega)} f(x)\mathbb{P}(X=x)$$
 
 #### Propriété
 Soit $X, Y \in \mathcal{L}^{1}(\Omega, \mathbb{C})$ $\amalg$, 
-Alors, 
+Alors, Œ
 $$\begin{cases}
 XY \in \mathcal{L}^{1}(\Omega, \mathbb{C}) \\
 \mathbb{E}(XY) = \mathbb{E}(X)\mathbb{E}(Y)

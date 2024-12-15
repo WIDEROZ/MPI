@@ -151,3 +151,10 @@ $$= \frac{\mu_{4}(X)}{\mu_{2}(X)^{4}} -  \frac{1}{\mu_{2}(X)^{2}} = \frac{1}{\mu
 
 Ainsi, 
 $$K(X) \geq 1$$
+
+
+$$\mathbb{E}((X-\mathbb{E}(X))^{4})=\mu_{4}(X) = \mu_{2}(X)^{2} = \mathrm{Var}(X)^{2} = \mathbb{E}((X-\mathbb{E}(X))^{2})^{2}$$
+
+
+$$\mathbb{E}((X-p)^{4}) = \mathbb{E}(X^{4}- 4X^{3}p + 6X^{2}p^{2} - 4 Xp^{3} + p^{4})$$
+$$= \mathbb{E}(X^{4}) - 4p \mathbb{E}(X^{3}) + 6p^{2}\mathbb{E}(X^{2}) - 3p^{4} + p^{4}$$
