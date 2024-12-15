@@ -147,7 +147,7 @@ $e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{
 
 $$\mathrm{Var}(Y) = \frac{1}{\mathrm{Var}(X)^{4}} \mathrm{Var}((X-\mathbb{E}(X))^{2}) $$
 $$= \frac{\mathbb{E}(((X-\mathbb{E}(X))^{2} - \mathrm{Var}(X))^{2})}{\mathrm{Var}(X)^{4}} = \frac{\mu_{4}(X) - 2 \mathrm{Var}(X)^{2} + \mathrm{Var}(X)^{2}}{\mathrm{Var}(X)^{4}}$$
-$$= \frac{\mu_{4}(X)}{\mu_{2}(X)^{4}} -  \frac{1}{\mu_{2}(X)^{2}} = \frac{1}{\mu_{2}(X)^{2}} $$
+$$= \frac{\mu_{4}(X)}{\mu_{2}(X)^{4}} -  \frac{1}{\mu_{2}(X)^{2}} = \frac{1}{\mu_{2}(X)^{2}}(K(X) -1) \geq 0 $$
 
-
-$$\mathrm{Var}(2X) = $$
+Ainsi, 
+$$K(X) \geq 1$$
