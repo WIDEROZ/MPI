@@ -135,6 +135,7 @@ $$\sum_{k= 1}^{+ \infty} (\mathbb{P}(X_{2} = n+k)+\mathbb{P}(X_{2} = k-n))\mathb
 $$= \sum_{k = 1}^{+ \infty}\mathbb{P}(X_{2} = n+k)P(X_{1}=k) + \sum_{k = n+1}^{+\infty}\mathbb{P}(X_{2} = k-n)\mathbb{P}(X_{1} = k)$$
 $$= \dots$$
 
+
 ### Exercice 15
 #### a.
 Soit $t >0$, 
@@ -142,3 +143,7 @@ $$\mathbb{P}(e^{ tS_{n} } \geq e^{ tk }) \leq \mathbb{E}(e^{ tS_{n} })e^{ -tk } 
 $$= (e^{ -t })^{k}(e^{ -t }(1-p)+e^{ t }p)^{n}$$
 $e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }ee^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }ee^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }ee^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e^{ e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e } e}e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e }e$
 
+
+
+$$\mathrm{Var}(Y) = \frac{1}{\mathrm{Var}(X)^{4}} \mathrm{Var}((X-\mathbb{E}(X))^{2}) = \frac{\mathrm{Var}(X^{2}-2\mathbb{E}(X)X)}{\mathrm{Var}(X)^{4}}$$
+$$= $$
