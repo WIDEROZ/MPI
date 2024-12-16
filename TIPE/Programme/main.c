@@ -179,7 +179,7 @@ int main(int argc, char **argv){
         
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->texture, var->camera, var->gridDestRect), "RenderCopy");
-        VERIF_SDL_COMMAND(SDL_gcc -o main main.c -l SDL2_ttf $(sdl2-config --cflags --libs) && ./mainRenderCopy(var->renderer, var->toolbar->toolbarTexture, var->toolbar->toolbarSrcRect, var->toolbar->toolbarDestRect), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->toolbar->toolbarTexture, var->toolbar->toolbarSrcRect, var->toolbar->toolbarDestRect), "RenderCopy");
         SDL_RenderPresent(var->renderer);
         
 

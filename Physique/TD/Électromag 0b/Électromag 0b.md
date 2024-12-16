@@ -142,5 +142,3 @@ $$q_{2}(t) = Q\sin\left( \frac{\omega_{0} t}{2} \frac{\sqrt{1-k}+\sqrt{1+k}}{\sq
 Faire un DL
 
 
-### Exercice 7
-
