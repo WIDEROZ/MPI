@@ -19,10 +19,6 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
     return nbre;
 }
 
-int *rechercheCellulesVivantes(Var *var){
-    
-    
-}
 
 void evolution(Var *var){
     matrix mat = *var->XY_CASE_MAT;
