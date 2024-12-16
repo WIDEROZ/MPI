@@ -143,5 +143,4 @@ Faire un DL
 
 
 ### Exercice 7
-$\int Qai \, da=\frac{Qia^{2}}{2}+C$
 
