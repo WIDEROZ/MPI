@@ -147,10 +147,7 @@ int main(int argc, char **argv){
     matrix *XY_CASE_TAB = malloc(sizeof(matrix));
     XY_CASE_TAB = &matmp;
 
-    // Création de la liste des coordonés des cellules vivantes
-    matrix clcs = CREATE_MATRIX(CASE_NUMBER_WIDTH*CASE_NUMBER_HEIGHT, 2);
-    matrix *COORD_LIVING_CELLS = malloc(sizeof(matrix));
-    COORD_LIVING_CELLS = &clcs;
+    
     
     // ---------- Var ---------- //
     Var *var = malloc(sizeof(var));
@@ -162,7 +159,6 @@ int main(int argc, char **argv){
     var->toolbar->toolbarTexture = toolbarTexture;
     var->KEY_DOWN_STATUS = KEY_DOWN_STATUS;
     var->XY_CASE_MAT = XY_CASE_TAB;
-    var->coordLivingCells = COORD_LIVING_CELLS;
     var->camera = camera;
     var->gridDestRect = gridDestRect;
     var->toolbar->toolbarSrcRect = toolbarSrcRect;
