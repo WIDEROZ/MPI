@@ -116,10 +116,18 @@ l'énergie mécanique est convertie en énergie électrique
 ### Exercice 6
 #### 1.
 $$u_{C} - u_{L} - M \frac{di_{2}}{dt} = u_{C} - L \frac{di_{1}}{dt} - M \frac{di_{2}}{dt}$$
-$$i_{1}=- C \frac{du_{1}}{dt}$$
-$$\frac{q_{1}}{C} - L \frac{d^{2}q_{1}}{dt^{2}} - M\frac{d^{2}q_{2}}{dt^{2}} = 0$$
-$$-\frac{q_{2}}{C} - L \frac{d^{2}q_{2}}{dt^{2}} - M\frac{d^{2}q_{1}}{dt^{2}} = 0$$
-
+$$\text{ or }i_{1}=- C \frac{du_{1}}{dt} \text{ et }i_{1}= -\frac{dq_{1}}{dt}$$
+Alors, 
+$$\frac{q_{1}}{C} + L \frac{d^{2}q_{1}}{dt^{2}} + M\frac{d^{2}q_{2}}{dt^{2}} = 0$$
 Ainsi, 
-$$\frac{d^{2}q_{2}}{dt^{2}} + \frac{M}{L} \frac{d^{2}q_{1}}{dt} + \omega_{0}^{2} q_{2} = 0$$
-$$\frac{d^{2}q_{1}}{dt^{2}} + \frac{M}{L} \frac{d^{2}q_{2}}{dt} + \omega_{0}^{2} q_{1} = 0$$
+$$\frac{d^{2}q_{2}}{dt^{2}} + k \frac{d^{2}q_{1}}{dt} + \omega_{0}^{2} q_{2} = 0$$
+$$\frac{d^{2}q_{1}}{dt^{2}} + k \frac{d^{2}q_{2}}{dt} + \omega_{0}^{2} q_{1} = 0$$
+$\omega_{0} = \frac{1}{\sqrt{LC}}$
+
+#### 2.
+On pose : 
+$$G(t) = q_{1}(t)+q_{2}(t) \text{ et }F(t) = q_{1}(t)-q_{2}(t)$$
+$$ \frac{d^{2}G(t)}{dt^{2}} + \frac{\omega_{0}^{2}}{1+k}G(t)=0$$
+$$\frac{d^{2}F(t)}{dt^{2}}+ \frac{\omega_{0}^{2}}{1-k}F(t)=0$$
+Alors, 
+$$$$
