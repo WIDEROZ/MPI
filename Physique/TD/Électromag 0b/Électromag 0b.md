@@ -112,3 +112,8 @@ $$\mathcal{P}_{lap} = \vec{F}_{lap} .\vec{v} < 0 \Rightarrow \mathcal{E}_{meca} 
 Ainsi, 
 $$\mathcal{E}_{meca} \to \mathcal{E}_{elec}$$
 l'énergie mécanique est convertie en énergie électrique
+
+### Exercice 6
+#### 1.
+$$u_{C} - u_{L} - M \frac{di_{2}}{dt} = u_{C} - L \frac{di_{1}}{dt} - M \frac{di_{2}}{dt}$$
+$$-\frac{q_{1}}{C} - L \frac{d^{2}q_{1}}{dt^{2}} - M\frac{d^{2}q_{2}}{dt^{2}} = 0$$
