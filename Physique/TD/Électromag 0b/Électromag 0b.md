@@ -133,5 +133,15 @@ Alors,
 $$G(t) = Q\cos\left( \frac{\omega_{0}}{\sqrt{1+k}}t \right) = q_{1}(t) + q_{2}(t)$$
 $$F(t) = Q\cos\left( \frac{\omega_{0}}{\sqrt{1-k}}t \right) = q_{1}(t) - q_{2}(t)$$
 
-$$q_{1}(t) = Q\cos\left( \frac{\omega t}{2} \frac{\sqrt{1-k}+\sqrt{1+k}}{\sqrt{1-k}} \right)\cos\left( \frac{\omega t}{2} \frac{\sqrt{1-k}-\sqrt{1+k}}{\sqrt{1-k}} \right)$$
-$$q_{2}(t) = Q\sin\left( \frac{\omega t}{2} \frac{\sqrt{1-k}+\sqrt{1+k}}{\sqrt{1-k}} \right)\sin\left( \frac{\omega t}{2} \frac{\sqrt{1-k}-\sqrt{1+k}}{\sqrt{1-k}} \right)$$
+$$q_{1}(t) = Q\cos\left( \frac{\omega_{0} t}{2} \frac{\sqrt{1-k}+\sqrt{1+k}}{\sqrt{1-k}} \right)\cos\left( \frac{\omega_{0} t}{2} \frac{\sqrt{1-k}-\sqrt{1+k}}{\sqrt{1-k}} \right)$$
+$$q_{2}(t) = Q\sin\left( \frac{\omega_{0} t}{2} \frac{\sqrt{1-k}+\sqrt{1+k}}{\sqrt{1-k}} \right)\sin\left( \frac{\omega_{0} t}{2} \frac{\sqrt{1-k}-\sqrt{1+k}}{\sqrt{1-k}} \right)$$
+
+
+
+#### 3.
+Faire un DL
+
+
+### Exercice 7
+$\int Qai \, da=\frac{Qia^{2}}{2}+C$
+
