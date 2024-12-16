@@ -130,4 +130,8 @@ $$G(t) = q_{1}(t)+q_{2}(t) \text{ et }F(t) = q_{1}(t)-q_{2}(t)$$
 $$ \frac{d^{2}G(t)}{dt^{2}} + \frac{\omega_{0}^{2}}{1+k}G(t)=0$$
 $$\frac{d^{2}F(t)}{dt^{2}}+ \frac{\omega_{0}^{2}}{1-k}F(t)=0$$
 Alors, 
-$$$$
+$$G(t) = Q\cos\left( \frac{\omega_{0}}{\sqrt{1+k}}t \right) = q_{1}(t) + q_{2}(t)$$
+$$F(t) = Q\cos\left( \frac{\omega_{0}}{\sqrt{1-k}}t \right) = q_{1}(t) - q_{2}(t)$$
+
+$$q_{1}(t) = Q\cos\left( \frac{\omega t}{2} \frac{\sqrt{1-k}+\sqrt{1+k}}{\sqrt{1-k}} \right)\cos\left( \frac{\omega t}{2} \frac{\sqrt{1-k}-\sqrt{1+k}}{\sqrt{1-k}} \right)$$
+$$q_{2}(t) = Q\sin\left( \frac{\omega t}{2} \frac{\sqrt{1-k}+\sqrt{1+k}}{\sqrt{1-k}} \right)\sin\left( \frac{\omega t}{2} \frac{\sqrt{1-k}-\sqrt{1+k}}{\sqrt{1-k}} \right)$$
