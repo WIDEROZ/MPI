@@ -19,7 +19,8 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
     return nbre;
 }
 
-int rechercheCellulesVivantes(Var *var){
+int *rechercheCellulesVivantes(Var *var){
+    
     
 }
 
