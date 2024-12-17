@@ -17,7 +17,6 @@ $$x^{-1} * g = g * x^{-1}$$
 Ainsi, $x^{-1} \in Z(G)$
 
 #### b.
-##### Analyse
-Soit $H \in Z(GL_{n}(\mathbb{R}))$, 
-Soit $M \in GL_{n}(\mathbb{R})$, 
-$$HM = MH$$
+Soit $M \in GL_{n}(\mathbb{R})$, $M$ commute avec : $\mathrm{Diag}(1, 2, \dots, n)$ 
+On pose : 
+$$\forall i, j \in [\![1, n]\!], im_{i, j} = j m_{j, i}$$
