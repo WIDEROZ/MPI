@@ -42,3 +42,11 @@ ie $i, j \in \sup(\sigma)$
 $$(i \space 1)\circ (1 \space j) \circ (i \space 1) = (i \space j)$$
 
 #### b.
+$$\forall i \in [\![2, n]\!], (1 \dots n) \circ (i-1 \space i) \circ (n \space n-1 \space \dots \space 1) = (i \space i+1)$$
+$$(1 \space 2) \circ (1 \space 2) \circ (1 \space 2) = (1 \space2)$$
+
+
+### Exercice 9
+#### a.
+Soit $x \in \mathbb{R}^{*}$, 
+$$x^{m} $$
