@@ -56,11 +56,14 @@ ainsi,
 $$\varphi(x) = \varphi(y^{m}) = \varphi(y)^{m} = 1$$
 
 #### c.
-Si $m$ est pair il existe $p \in \mathbb{N}^{*}$ tel que $m=2p+1$
+Si $m$ est impair il existe $p \in \mathbb{N}^{*}$ tel que $m=2p+1$
 $$\forall x \in \mathbb{R}^{*}, \exists y \in \mathbb{R}^{*}, y = x^{\frac{1}{2p+1}}$$
 Ainsi, 
 $$\varphi(x) = \varphi(y)^{2p+1} = \varphi(y)^{m} = 1$$
 
 #### d.
-On expose les deux morphismes : 
-$$$$
+Si $m$ est pair il existe $p \in \mathbb{N}^{*}$ tel que $m=2p$
+$$\forall x \in \mathbb{R}_{-}^{*}, \exists y \in \mathbb{R}^{*}, y^{2p} = -x\geq 0$$
+Ainsi, 
+$$\varphi(x) = -\varphi(y)^{2p}$$
+$$\text{ et }\varphi(x) = \varphi(y)^{2p} \text{ pour }x \in \mathbb{R}_{+}^{*}$$
