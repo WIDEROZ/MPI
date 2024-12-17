@@ -1,1 +1,1 @@
-The portrait was created by AI. The algorithm takes in input some paintings form the fourteenth century 
+The portrait was created by AI. The algorithm takes in input some paintings form the fourteenth century to the twenty, moreover the construction of the program has two clear sides : the first is to create images based on those works of art and the second one is to compare what the first part made, to real portraits. 
