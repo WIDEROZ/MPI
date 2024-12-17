@@ -22,7 +22,8 @@ On a alors :
 $$\forall i, j \in [\![1, n]\!], im_{i, j} = j m_{i, j}$$
 Donc $M$ est diagonale 
 
-#### c.
+### Exercice 3
+#### a.
 Soit $k \in [\![1, n]\!]$, 
 Si $\sigma^{-1}(k) = i$, 
 $$(\sigma \circ (i \space j) \circ \sigma^{-1} )(k)=\sigma(j)$$
@@ -38,4 +39,7 @@ $$(\sigma \circ \sigma^{-1})(k) = k$$
 ie $i, j \in \sup(\sigma)$
 
 
-Comme $i\neq j$, et que toute permutation est décomposable en transposition 
+$$(i \space 1)\circ (i \space j) \circ (i \space 1) = (1 \space j)$$
+
+#### b.
+$$\underset{k= 1}{\overset{\bigcirc}{}}$$
