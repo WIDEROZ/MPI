@@ -71,4 +71,19 @@ Démonstration :
 Si $f$ est injective, $\forall x \in \mathrm{Ker}(f), f(x) = e_{H} = f(e_{G})$
 Donc, $x = e_{G}$ Ainsi, $\mathrm{Ker}(f) = e_{G}$
 Si $\mathrm{Ker}(f) = \{ e_{G} \}$, 
-$$\forall x,y \in G, f(x) = f(y) \Rightarrow $$
+$$\forall x,y \in G, f(x) = f(y)$$
+$$f(x * y^{-1})=f(x) f(y)^{-1} = f(x) f(x)^{-1} = e_{H}$$
+Donc, $xy^{-1} \in \mathrm{Ker}(f)$ ie $x = y$
+
+
+#### Propriété
+Soit $f: (G, *) \to (H, \circ)$, un morphisme de groupes, 
+$$\forall G_{1} \subset G, G_{1} \underset{sg}{\subset} G\Rightarrow \begin{cases}
+f(G_{1}) \underset{sg}{\subset} (H, \circ) \\
+\mathrm{Im}(f) \underset{sg}{\subset} (H, \circ)
+\end{cases}$$
+$$\forall H_{1} \subset H, H_{1} \underset{sg}{\subset} H \Rightarrow \begin{cases}
+f^{-1}(\{ H_{1} \}) \underset{sg}{\subset} (G, *) \\
+\mathrm{Ker}(f) \underset{sg}{\subset} (G, *)
+\end{cases}$$
+$$f \text{ isomorphisme} \Rightarrow f^{-1} \text{ est un morphisme}$$
