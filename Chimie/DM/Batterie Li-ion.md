@@ -19,8 +19,9 @@ $$m_{Li} = M_{Li} \frac{Q}{\mathcal{F}} = 0.37 g$$
 ### Question 30
 $$u_{m} = \frac{U}{m}$$
 Avec : 
-$$U = iu\Delta t = Q (E(Li / Li^{+}) - E(H_{2}O / H_{2})) = 19310 J$$
-$$u_{m} = 26, 1 \text{ MW.kg}^{-1}$$
+$$U = iu\Delta t$$
+$$u_{m} = \frac{iu\Delta t}{m} = \frac{Q \times E^{0}}{m}=2.1 \times 10^{2} W.h.kg^{-1}$$
 
-$$U = iu\Delta t = Q(E(Li / Li^{+})-E(H_{2}O / H_{2}))$$
-$$U = ui \Delta t$$
+
+#### Question 31
+$$Li + H_{2}O \to Li^{+} + HO^{-} + H^{+} + e^{-}$$
