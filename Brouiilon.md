@@ -1,0 +1,1 @@
+The portrait was created by AI. The algorithm takes in input some paintings form the fourteenth century 
