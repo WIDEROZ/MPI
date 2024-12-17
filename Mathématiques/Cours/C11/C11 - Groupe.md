@@ -31,3 +31,14 @@ $$\begin{cases}
 \end{cases}$$
 Si $*$ est commutatif, $(G, *)$ est un groupe abélien / commutatif
 
+#### Définition / Propriété
+Soient $(G, *)$ et $(H, \circ)$ deux groupes. Le groupe-produit de ces deux groupe est l'ensemble : $G\times H$ muni d'une loi $\top$ définie par : 
+$$\forall (g_{1}, h_{1}), (g_{2}, h_{2}) \in G \times H, (g_{1}, h_{1}) \top (g_{2}, h_{2}) = (g_{1} * g_{2}, h_{1} \circ h_{2})$$
+
+#### Définition
+Soit $H\subset G$, avec $(G, *)$ un groupe.
+$H$ est un sous groupe lorsque, $(H, *)$ est un groupe.
+
+#### Propriété
+Soit $H$ une partie du groupe $(G, *)$. Alors
+$$H \underset{sg}{\subset} G$$
