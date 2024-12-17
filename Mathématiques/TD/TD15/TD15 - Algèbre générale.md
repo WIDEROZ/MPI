@@ -42,4 +42,4 @@ ie $i, j \in \sup(\sigma)$
 $$(i \space 1)\circ (i \space j) \circ (i \space 1) = (1 \space j)$$
 
 #### b.
-$$\underset{k= 1}{\overset{\bigcirc}{}}$$
+$$\bigcup_{k=2}^{n}\{(1 \space k)\}=S_{n}$$
