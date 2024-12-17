@@ -21,3 +21,13 @@ Soit $M \in Z(GL_{n}(\mathbb{R}))$, $M$ commute avec : $\mathrm{Diag}(1, 2, \dot
 On a alors : 
 $$\forall i, j \in [\![1, n]\!], im_{i, j} = j m_{i, j}$$
 Donc $M$ est diagonale 
+
+#### c.
+Soit $k \in [\![1, n]\!]$, 
+Si $\sigma^{-1}(k) = i$ 
+$$(\sigma \circ (i \space j) \circ \sigma^{-1} )(k)=\sigma(j)$$
+ie 
+$$\sigma \circ (i \space j) \circ \sigma^{-1} = (\sigma(i), \sigma(j))$$
+Sinon :
+$$(\sigma \circ \sigma^{-1})(k) = k$$
+or $\sigma$
