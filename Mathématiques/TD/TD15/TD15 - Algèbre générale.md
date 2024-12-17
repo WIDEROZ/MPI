@@ -39,9 +39,6 @@ $$(\sigma \circ \sigma^{-1})(k) = k$$
 ie $i, j \in \sup(\sigma)$
 
 
-$$(i \space 1)\circ (i \space j) \circ (i \space 1) = (1 \space j)$$
+$$(i \space 1)\circ (1 \space j) \circ (i \space 1) = (i \space j)$$
 
 #### b.
-$$ \underset{k= 2}{\overset {n}{\bigcirc}} (1 \space k) = (\underset{k = 1}{\overset{n}{\dots}} k)$$
-
-$$(1 \space i) = $$
