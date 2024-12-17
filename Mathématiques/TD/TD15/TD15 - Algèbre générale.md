@@ -17,6 +17,7 @@ $$x^{-1} * g = g * x^{-1}$$
 Ainsi, $x^{-1} \in Z(G)$
 
 #### b.
-Soit $M \in GL_{n}(\mathbb{R})$, $M$ commute avec : $\mathrm{Diag}(1, 2, \dots, n)$ 
-On pose : 
-$$\forall i, j \in [\![1, n]\!], im_{i, j} = j m_{j, i}$$
+Soit $M \in Z(GL_{n}(\mathbb{R}))$, $M$ commute avec : $\mathrm{Diag}(1, 2, \dots, n)$ 
+On a alors : 
+$$\forall i, j \in [\![1, n]\!], im_{i, j} = j m_{i, j}$$
+Donc $M$ est diagonale 
