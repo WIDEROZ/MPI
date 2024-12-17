@@ -1,3 +1,3 @@
 Chat GPT is becoming a reference among students, they use it to manage rapidly their homework, but can an artificial intelligence make other stuff than homeworks like art, and what impact will it have on this category? 
 
-First of all, art is defined as something witch creates emotion, and machines don't have access to this concept, this is a Human trait, even if they can copy works of art, every piece are singular and the huge amount of these melted in a single algorithm is 
+First of all, art is defined as something witch creates emotion, and machines don't have access to this concept, this is a Human trait, even if they can copy works of art, every piece is singular, moreover that huge amount melted in a single algorithm is criticise because of the inexistant logical links between works : there is the cherub novel and 
