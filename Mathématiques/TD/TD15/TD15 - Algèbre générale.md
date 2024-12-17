@@ -37,5 +37,5 @@ Sinon :
 $$(\sigma \circ \sigma^{-1})(k) = k$$
 ie $i, j \in \sup(\sigma)$
 
-Soit $\sigma \in Z(S_{n}),$ 
-$$$$
+
+Comme $i\neq j$, et que toute permutation est décomposable en transposition 
