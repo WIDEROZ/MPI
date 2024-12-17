@@ -49,4 +49,18 @@ $$(1 \space 2) \circ (1 \space 2) \circ (1 \space 2) = (1 \space2)$$
 ### Exercice 9
 #### a.
 Soit $x \in \mathbb{R}^{*}$, 
-$$x^{m} $$
+$$\varphi(x^{m}) = \varphi(x)^{m} = 1$$
+#### b.
+$$\forall x > 0, \exists y \in \mathbb{R}_{+}^{*}, y^{m} = x$$
+ainsi, 
+$$\varphi(x) = \varphi(y^{m}) = \varphi(y)^{m} = 1$$
+
+#### c.
+Si $m$ est pair il existe $p \in \mathbb{N}^{*}$ tel que $m=2p+1$
+$$\forall x \in \mathbb{R}^{*}, \exists y \in \mathbb{R}^{*}, y = x^{\frac{1}{2p+1}}$$
+Ainsi, 
+$$\varphi(x) = \varphi(y)^{2p+1} = \varphi(y)^{m} = 1$$
+
+#### d.
+On expose les deux morphismes : 
+$$$$
