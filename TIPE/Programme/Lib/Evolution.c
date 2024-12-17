@@ -1,5 +1,5 @@
 #include "Evolution.h"
-
+/*
 int nbreCellulesAutour(matrix mat, int X, int Y){
     int nbre = 0;
     for (int l = -1; l < 2; l++)
@@ -18,19 +18,18 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
 
     return nbre;
 }
-
+*/
 int **rechercheCellulesVivantes(Var *var){
     int *tab = malloc(CASE_NUMBER_WIDTH * CASE_NUMBER_HEIGHT * sizeof(int*));
 
-    for (int i = 0; i < width; i++) {
+    for (int i = 0; i < CASE_NUMBER_WIDTH; i++) {
         tab[i] = CREATE_TAB_0(2);
     }
 
     int acc = 0;
 
-
-    for (int i = 0; CASE_NUMBER_WIDTH;i++){
-        for (int j = 0; CASE_NUMBER_HEIGHT; j++){
+    for (int i = 0; i < CASE_NUMBER_WIDTH;i++){
+        for (int j = 0; j < CASE_NUMBER_HEIGHT; j++){
             if (var->XY_CASE_MAT->mat[i][j] == 1){
                 tab[acc][0] = i;
                 tab[acc][1] = j;
@@ -41,7 +40,7 @@ int **rechercheCellulesVivantes(Var *var){
 
     return tab;
 }
-
+/*
 void evolution(Var *var){
     matrix mat = *var->XY_CASE_MAT;
     int nbre;
@@ -68,4 +67,4 @@ void evolution(Var *var){
 void evolution(Var *var){
     evolutionTAB(var);
 
-}
+}*/
