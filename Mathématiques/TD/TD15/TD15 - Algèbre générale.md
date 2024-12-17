@@ -66,4 +66,4 @@ Si $m$ est pair il existe $p \in \mathbb{N}^{*}$ tel que $m=2p$
 $$\forall x \in \mathbb{R}_{-}^{*}, \exists y \in \mathbb{R}^{*}, y^{2p} = -x\geq 0$$
 Ainsi, 
 $$\varphi(x) = -\varphi(y)^{2p}$$
-$$\text{ et }\varphi(x) = \varphi(y)^{2p} \text{ pour }x \in \mathbb{R}_{+}^{*}$$
+$$\text{ et }\varphi(x) = \varphi(y)^{2p+1} \text{ pour }x \in \mathbb{R}_{+}^{*}$$
