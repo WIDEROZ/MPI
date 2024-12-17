@@ -56,3 +56,19 @@ e_{g} \in H \\
 #### Définition
 Soient $(G, *)$ et $(H, \circ)$ deux groupes. Une fonction de $f:G \to H$ est un morphisme de groupes ssi : 
 $$\forall x, y \in G, f(x * y) = f(x) \circ f(y)$$
+
+$f$ est en endomorphisme lorsque $(G, *) = (H, \circ)$
+$f$ est un isomorphisme lorsque $f$ est bijective
+$f$ est un automorphisme lorsque $f$ est un endomorphisme et un isomorphisme
+$$\mathrm{Ker}(f) = \{ x \in G | f(x) = e_{H} \} = f^{-1}(\{ e_{H} \})$$
+$$\mathrm{Im}(f) = f(G)$$
+
+#### Propriété
+$f$ est injectif $\Leftrightarrow$ $\mathrm{Ker}(f) = \{ e_{G} \}$
+$f$ est surjectif $\Leftrightarrow$ $\mathrm{Im}(f) = H$
+
+Démonstration : 
+Si $f$ est injective, $\forall x \in \mathrm{Ker}(f), f(x) = e_{H} = f(e_{G})$
+Donc, $x = e_{G}$ Ainsi, $\mathrm{Ker}(f) = e_{G}$
+Si $\mathrm{Ker}(f) = \{ e_{G} \}$, 
+$$\forall x,y \in G, f(x) = f(y) \Rightarrow $$
