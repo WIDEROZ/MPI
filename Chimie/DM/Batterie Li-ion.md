@@ -25,7 +25,8 @@ $$u_{m} = \frac{iu\Delta t}{m} = \frac{Q \times E^{0}}{m}=2.1 \times 10^{2} W.h.
 
 #### Question 31
 $$Li \to Li^{+} + e^{-}$$
-$$H_{2}O  + H^{+} + 2e^{-}\leftrightarrow H_{2} + OH^{-}$$
+$$H_{2}O  + 2e^{-}\leftrightarrow OH^{-}+ \frac{1}{2}H_{2}$$
 Donc, 
-$$2Li + H_{2}O + H^{+} \to 2Li^{+} + OH^{-} + H_{2}$$
+$$Li + H_{2}O \to Li^{+} + OH^{-} + \frac{1}{2}H_{2}$$
 Le dégagement gazeux est provoqué par $H_{2}$
+
