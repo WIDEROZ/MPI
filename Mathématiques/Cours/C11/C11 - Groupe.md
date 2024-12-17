@@ -41,4 +41,18 @@ $H$ est un sous groupe lorsque, $(H, *)$ est un groupe.
 
 #### Propriété
 Soit $H$ une partie du groupe $(G, *)$. Alors
-$$H \underset{sg}{\subset} G$$
+$$\begin{array}{l}
+&&H \underset{sg}{\subset} G \\
+&\Leftrightarrow& \begin{cases}
+e_{g} \in H \\
+\forall x, y \in H, x*y^{-1} \in H 
+\end{cases} \\
+&\Leftrightarrow&\begin{cases}
+\forall x, y \in H, x*y \in H \\
+\forall x \in H, x^{-1} \in H
+\end{cases}
+\end{array}$$
+
+#### Définition
+Soient $(G, *)$ et $(H, \circ)$ deux groupes. Une fonction de $f:G \to H$ est un morphisme de groupes ssi : 
+$$\forall x, y \in G, f(x * y) = f(x) \circ f(y)$$
