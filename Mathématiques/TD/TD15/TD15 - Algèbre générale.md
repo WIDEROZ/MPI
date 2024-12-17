@@ -24,10 +24,18 @@ Donc $M$ est diagonale
 
 #### c.
 Soit $k \in [\![1, n]\!]$, 
-Si $\sigma^{-1}(k) = i$ 
+Si $\sigma^{-1}(k) = i$, 
 $$(\sigma \circ (i \space j) \circ \sigma^{-1} )(k)=\sigma(j)$$
 ie 
-$$\sigma \circ (i \space j) \circ \sigma^{-1} = (\sigma(i), \sigma(j))$$
+$$\sigma \circ (i \space j) \circ \sigma^{-1} = (\sigma(i) \space \sigma(j))$$
+Si $\sigma^{-1}(k) = j$, 
+$$(\sigma \circ (i \space j) \circ \sigma^{-1} )(k)=\sigma(j)$$
+ie 
+$$\sigma \circ (i \space j) \circ \sigma^{-1} = (\sigma(i) \space \sigma(j))$$
+
 Sinon :
 $$(\sigma \circ \sigma^{-1})(k) = k$$
-or $\sigma$
+ie $i, j \in \sup(\sigma)$
+
+Soit $\sigma \in Z(S_{n}),$ 
+$$$$
