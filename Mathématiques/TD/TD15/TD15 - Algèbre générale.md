@@ -22,6 +22,23 @@ On a alors :
 $$\forall i, j \in [\![1, n]\!], im_{i, j} = j m_{i, j}$$
 Donc $M$ est diagonale 
 
+### Exercice 2
+#### a.
+$0+0 \times x\in \mathbb{Z} + x \mathbb{Z}$, $0 \in \mathbb{R}$, 
+Soit $n, m \in \mathbb{Z}$, et $(-n'), (-m') \in \mathbb{Z}$, 
+$$n + mx - n' - m'x = (n-n') + (m-m')x \in \mathbb{Z} + x\mathbb{Z}$$
+
+Ainsi, 
+$$(\mathbb{Z} + x \mathbb{Z}, +) \underset{sg}{\subset} (\mathbb{R}, +)$$
+
+#### b.
+Supposons que $\mathbb{Z} + x \mathbb{Z} = \left< g_{0} \right>$, il existe $m, n \in \mathbb{Z}$ tels que : 
+$$g_{0} = n + xm$$
+ie : 
+$$x = \frac{g_{0}-n}{m}$$
+
+
+
 ### Exercice 3
 #### a.
 Soit $k \in [\![1, n]\!]$, 
@@ -44,6 +61,9 @@ $$(i \space 1)\circ (1 \space j) \circ (i \space 1) = (i \space j)$$
 #### b.
 $$\forall i \in [\![2, n]\!], (1 \dots n) \circ (i-1 \space i) \circ (n \space n-1 \space \dots \space 1) = (i \space i+1)$$
 $$(1 \space 2) \circ (1 \space 2) \circ (1 \space 2) = (1 \space2)$$
+
+### Exercice 4
+
 
 
 ### Exercice 9
