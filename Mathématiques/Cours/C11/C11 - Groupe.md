@@ -227,3 +227,13 @@ $$(\mathbb{Z} / n\mathbb{Z}, +) \text{ est un groupe cyclique}$$
 Démonstration : 
 $+$ est une LCI sur $\mathbb{Z} / n\mathbb{Z}$
 $$\forall k \in [\![0, n-1]\!], \bar{k} = \bar{1} + \dots + \bar{1} = k \times \bar{1} \in \left< \bar{1} \right> $$
+Ainsi, $\mathbb{Z} / n\mathbb{Z} = \left< \bar{1} \right>$
+
+#### Théorème
+Soit $k \in \mathbb{Z}$, 
+$$\bar{k} \text{ engendre } (\mathbb{Z} / n\mathbb{Z}, +) \Leftrightarrow k \wedge n = 1$$
+
+#### Exemple
+$$\left< \bar{2} \right> = \{ \bar{0}, \bar{2}, \bar{4} \} \neq \mathbb{Z} / 6 \mathbb{Z}$$
+et $2 \wedge 6 \neq 1$
+$$\left< \bar{5} \right> = \{ \bar{0}, \bar{5}, \bar{10}, \bar{9}, \bar{8}, \bar{7} \}$$
