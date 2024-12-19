@@ -31,11 +31,6 @@ $$n + mx - n' - m'x = (n-n') + (m-m')x \in \mathbb{Z} + x\mathbb{Z}$$
 Ainsi, 
 $$(\mathbb{Z} + x \mathbb{Z}, +) \underset{sg}{\subset} (\mathbb{R}, +)$$
 
-#### b.
-Supposons qu'il existe $g_{0} \in G$ tel que $\mathbb{Z} + x \mathbb{Z} = g_{0} \mathbb{Z}$, il existe $m, n, p \in \mathbb{Z}$ tels que : 
-$$pg_{0} = n + xm$$
-ie : 
-$$x = \frac{pg_{0}-n}{m}$$
 
 
 
@@ -62,7 +57,9 @@ $$(i \space 1)\circ (1 \space j) \circ (i \space 1) = (i \space j)$$
 $$\forall i \in [\![2, n]\!], (1 \dots n) \circ (i-1 \space i) \circ (n \space n-1 \space \dots \space 1) = (i \space i+1)$$
 $$(1 \space 2) \circ (1 \space 2) \circ (1 \space 2) = (1 \space2)$$
 
-### Exercice 4
+### Exercice 5
+#### a.
+##### i.
 
 
 
