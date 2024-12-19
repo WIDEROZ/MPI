@@ -270,3 +270,18 @@ ie :
 $$G = \{ g^{k} | k \in \mathbb{Z} \} \subset \{ g^{0}, g^{1}, \dots, g^{n-1} \}$$
 Or $|G| = + \infty$ mais $|\{ g_{0}, g_{1},\dots, g^{n-1} \}| \neq + \infty$
 CONTRADICTION
+
+Cas $\left| G\right| \neq + \infty$, 
+on pose : $\varphi : n \in \mathbb{Z} \mapsto g^{n} \in G$, est toujours un morphisme
+son noyau est un sous groupe de $(\mathbb{Z}, +)$ donc 
+$$\exists n \in \mathbb{N}, \mathrm{Ker}(\varphi) = n\mathbb{Z}$$
+$n$ est d'ailleurs non nul car $\varphi$ ne peut pas être injective. 
+$$n = \min n \mathbb{Z} \cap \mathbb{N}^{*} = \min \mathrm{Ker} (\varphi ) \cap \mathbb{N}^{*} = \min \{ k \geq 1 | g^{k} = e \}$$
+$$\forall h \in G = \left< g \right> , \exists k \in \mathbb{Z}, h = g^{k}$$
+en notant $r$ et $q$ le reste et le quotient de la division euclidienne de $k$ par $n$, on a : 
+$$h = g^{k} = g^{qn+r} = (g^{n})^{q} g^{r} = g^{r} \in \{ g^{0}, g^{1}, \dots, g^{n-1} \}$$
+Donc, 
+$$G = \{ g^{0}, g^{1}, \dots, g^{n-1} \}$$
+Ainsi, $G$ est de cardinal $n$, 
+Alors, 
+$$\forall k, l \in \mathbb{Z}, k \equiv l [n] \Rightarrow \exists q \in \mathbb{Z}, k = l+qn \text{ et } g^{k} = g^{l+qn} = g^{l}$$
