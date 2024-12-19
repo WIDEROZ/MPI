@@ -285,3 +285,12 @@ $$G = \{ g^{0}, g^{1}, \dots, g^{n-1} \}$$
 Ainsi, $G$ est de cardinal $n$, 
 Alors, 
 $$\forall k, l \in \mathbb{Z}, k \equiv l [n] \Rightarrow \exists q \in \mathbb{Z}, k = l+qn \text{ et } g^{k} = g^{l+qn} = g^{l}$$
+si bien que $g^{k}$ ne dépend que de la classe de $k$ modulo $n$
+Ainsi, 
+$$\psi : \begin{cases}
+\mathbb{Z} / n\mathbb{Z} \to G \\
+\bar{k} \mapsto g^{k}
+\end{cases}$$
+est bien définie. Elle est surjective car $\left| G\right| = n$ donc bijective. 
+Finalement c'est bien un morphisme par définition de la somme de deux classes. 
+

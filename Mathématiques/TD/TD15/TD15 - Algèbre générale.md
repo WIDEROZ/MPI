@@ -32,10 +32,10 @@ Ainsi,
 $$(\mathbb{Z} + x \mathbb{Z}, +) \underset{sg}{\subset} (\mathbb{R}, +)$$
 
 #### b.
-Supposons que $\mathbb{Z} + x \mathbb{Z} = \left< g_{0} \right>$, il existe $m, n \in \mathbb{Z}$ tels que : 
-$$g_{0} = n + xm$$
+Supposons qu'il existe $g_{0} \in G$ tel que $\mathbb{Z} + x \mathbb{Z} = g_{0} \mathbb{Z}$, il existe $m, n, p \in \mathbb{Z}$ tels que : 
+$$pg_{0} = n + xm$$
 ie : 
-$$x = \frac{g_{0}-n}{m}$$
+$$x = \frac{pg_{0}-n}{m}$$
 
 
 
