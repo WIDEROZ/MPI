@@ -232,8 +232,23 @@ Ainsi, $\mathbb{Z} / n\mathbb{Z} = \left< \bar{1} \right>$
 #### Théorème
 Soit $k \in \mathbb{Z}$, 
 $$\bar{k} \text{ engendre } (\mathbb{Z} / n\mathbb{Z}, +) \Leftrightarrow k \wedge n = 1$$
+Démonstration : 
+$\Leftarrow$ : $k \wedge n=1$
+il existe $a, b \in \mathbb{Z}$, $ak + bn = 1$
+$$a \bar{k} = \overline{ak} = \overline{1-bn} = \bar{1}$$
+Ainsi, $\bar{1} \in \left< \bar{k} \right>$, 
+Or $\left< \bar{1} \right>$ est le plus petit ss-gp de $\mathbb{Z} / n \mathbb{Z}$ contenant $\bar{1}$
+Donc, 
+$$\mathbb{Z} / n \mathbb{Z} = \left< \bar{1} \right> \subset \left< \bar{k} \right> \subset \mathbb{Z} / n \mathbb{Z}$$
+ie $\bar{k}$ engendre $\mathbb{Z} / n \mathbb{Z}$
+$\Rightarrow$ : ...
 
 #### Exemple
 $$\left< \bar{2} \right> = \{ \bar{0}, \bar{2}, \bar{4} \} \neq \mathbb{Z} / 6 \mathbb{Z}$$
 et $2 \wedge 6 \neq 1$
-$$\left< \bar{5} \right> = \{ \bar{0}, \bar{5}, \bar{10}, \bar{9}, \bar{8}, \bar{7} \}$$
+$$\left< \bar{5} \right> = \{ \bar{0}, \bar{5}, \bar{10}, \bar{9}, \bar{8}, \bar{7} \} = \mathbb{Z} / 6 \mathbb{Z}$$
+et $5 \wedge 6 = 1$
+
+#### Théorème de classification des monogènes
+Soit $(G, \cdot) = \left< g \right>$ un groupe monogène 
+- $$
