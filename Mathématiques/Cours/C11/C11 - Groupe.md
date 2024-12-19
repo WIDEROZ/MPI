@@ -251,4 +251,22 @@ et $5 \wedge 6 = 1$
 
 #### Théorème de classification des monogènes
 Soit $(G, \cdot) = \left< g \right>$ un groupe monogène 
-- $$
+- $\left| G\right| = + \infty$
+  $(G, \cdot)$ est isomorphe à $(\mathbb{Z}, +)$ et $n \in \mathbb{Z}\mapsto g^{n} \in G$ est un isomorphisme
+- $\left| G\right| = n$, 
+  $(G, \cdot)$ est isomorphe à $(\mathbb{Z} / n\mathbb{Z}, +)$ et $\bar{k} \in \mathbb{Z} / n \mathbb{Z}\mapsto g^{k} \in G$ est un isomorphisme
+
+Démonstration : 
+Cas $\left| G\right| = + \infty$ : 
+Puisque $G = \left< g \right> = \{ g^{n} ; n \in \mathbb{Z} \}$
+$\varphi : n \in \mathbb{Z} \mapsto g^{n}\in G$ est surjective
+C'est bien un morphisme car : 
+$$\forall n, p \in \mathbb{Z}, \varphi(n + p) = g^{n+p} = g^{n} g^{p} = \varphi(n) \varphi(p)$$
+Maintenant : supposons par l'absurde qu'il existe $n \in \mathbb{N}^{*}, \varphi(n) = e$ ie $g^{n} = e$
+On aurait alors : 
+$$\forall k \in \mathbb{Z}, g^{k} = g^{r} $$
+ou $r$ est le reste de la division euclidienne de $k$ par $n$
+ie : 
+$$G = \{ g^{k} | k \in \mathbb{Z} \} \subset \{ g^{0}, g^{1}, \dots, g^{n-1} \}$$
+Or $|G| = + \infty$ mais $|\{ g_{0}, g_{1},\dots, g^{n-1} \}| \neq + \infty$
+CONTRADICTION
