@@ -294,4 +294,29 @@ $$\psi : \begin{cases}
 est bien définie. Elle est surjective car $\left| G\right| = n$ donc bijective. 
 Finalement c'est bien un morphisme par définition de la somme de deux classes. 
 
-## 5.
+## 5. Ordre d'un élément
+#### Définition
+Soit $(G, \cdot)$ un groupe, et $g \in G$, 
+On appelle ordre de $g$, le cardinal du sous-groupe engendré par $g$
+$$\omega(g) = \left| \left< g \right> \right| \in \mathbb{N}^{*} \sqcup \{ + \infty \}$$
+
+#### Exemple
+Dans $(\mathbb{U}_{12}, \times)$, 
+$$\omega\left( \left< e^{ \frac{2i\pi}{12} } \right> \right) = 12  \text{ et } \omega\left( \left< e^{ \frac{8i\pi}{12} } \right> \right) = \omega\left( \left< e^{ \frac{2i\pi}{3} } \right> \right) = 3$$
+Dans $(GL_{2}(\mathbb{R}), \times)$, 
+$$\omega\left(\left< \begin{pmatrix}
+1&1 \\
+0&1
+\end{pmatrix} \right>\right) = + \infty$$
+
+#### Remarque
+$$\forall g \in G, \omega(g) = 1 \Leftrightarrow g = e$$
+
+#### Propriété
+Soit $(G, \cdot)$ un groupe et $g \in G$, un élément d'ordre fini. 
+On note : $n = \omega(g)$, 
+- $n$ est le plus petit entier $k \in \mathbb{N}^{*}$, qui vérifie : $g^{k} = e$
+- $\forall k \in \mathbb{Z}, g^{k} = e \Leftrightarrow n | k$
+- $(\left< g \right>, \cdot)$ est isomorphe À $(\mathbb{Z} / n \mathbb{Z}, +)$ et $\left< g \right>=\{ e, g, \dots, g^{n-1} \}$
+
+D
