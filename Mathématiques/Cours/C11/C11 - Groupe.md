@@ -464,3 +464,31 @@ f(1_{\mathcal{A}}) = f(1_{\beta})
 \end{cases}$$
 On appelle noyau de $f$ : 
 $$\mathrm{Ker}(f) = f^{-1}(\{ 0 \})$$
+
+#### Propriété
+Les inversibles de $\mathbb{Z} / n\mathbb{Z}$ sont les : 
+$$\{ \bar{k} ; k \wedge n = 1 \}$$
+
+
+#### Proposition
+Soit $n\geq 2$, 
+$\mathbb{Z} / n\mathbb{Z}$ est un corps ssi $\mathbb{Z} / n\mathbb{Z}$ est intègre ssi $n$ est premier
+
+Démonstration : 
+(i) => (ii) : fait
+(ii) => (iii) : Par contrapostion
+Si $n$ n'est pas premier il existe $a, b \in \mathbb{N}$ tels que : 
+$n = ab$ où $2 \leq a, b \leq \frac{n}{2}$ alors,
+
+$\bar{a} \neq \bar{0}$ car $n$ ne divise pas $a$
+De même : $\bar{b} \neq \bar{0}$
+Or $\bar{a}\bar{b} = \bar{n} = 0$, donc $n$ n'est pas intègre.
+
+(iii) => (i) : 
+Si $n$ est premier, 
+$$\{ \bar{k} ; k \wedge n = 1 \}\subset \mathbb{Z} / n\mathbb{Z} \setminus \{ \bar{0} \}$$
+ie : 
+$$(\mathbb{Z} / n\mathbb{Z})^{*} = \mathbb{Z} / n \mathbb{Z} \setminus \{ \bar{0} \}$$
+ie $\mathbb{Z} / n \mathbb{Z}$ est un corps.
+
+
