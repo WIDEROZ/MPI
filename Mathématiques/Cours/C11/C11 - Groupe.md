@@ -335,10 +335,20 @@ Soit $g \in G$, un élément d'ordre $n \in \mathbb{N}^{*}$
 Soit $k \in \mathbb{N}^{*}$, 
 $$\omega(g^{k}) = \begin{cases}
 \frac{n}{k} \text{ si } k | n \\
-
+\frac{k \vee n}{k} \text{ sinon}
 \end{cases}$$
 
 Démonstration : 
 Soit $a \in \mathbb{N}^{*}$, 
 $$(g^{k})^{a} = e \Leftrightarrow n | ka$$
-Donc $ka$ 
+Donc $ka$ est un multiple commun de $a, k$ et $n$
+Donc, 
+$$k \vee n | ka \Rightarrow \left.\frac{k \vee n}{k} \right| \space  a$$
+alors, en particulier : 
+$$a = \frac{k \vee n}{k} \Rightarrow (g^{k})^{a} = g^{k \vee n} = e$$
+car $k \vee n$ est un multiple de $\omega(g) = n$
+Donc $\omega(g^{k}) | \frac{k\vee n}{k}$
+
+#### Théorème de Lagrange
+Si $(G, \cdot)$ est un groupe de cardinal fini $n \in \mathbb{N}^{*},$ 
+$$\forall g \in G, \omega(g) | n$$
