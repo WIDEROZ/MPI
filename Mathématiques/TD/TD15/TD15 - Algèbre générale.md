@@ -88,7 +88,9 @@ De plus,
 $$(ab)^{p_{1}p_{2}} = (a^{p_{1}})^{p_{2}}(b^{p_{2}})^{p_{1}} = e $$
 Donc, $\omega(ab) | p_{1}p_{2}$
 
-
+#### e.
+$$G = \mathbb{Z} / 47 \mathbb{Z} \times \mathbb{Z} / 12 \mathbb{Z} \text{ est un monogène }$$
+$$\Leftrightarrow \exists g \in G, \omega(g) = 47 \times 12 = 564$$
 
 ### Exercice 9
 #### a.
@@ -112,3 +114,9 @@ Ainsi,
 $$\varphi(x) = -\varphi(y)^{2p}$$
 $$\text{ et }\varphi(x) = \varphi(y)^{2p+1} \text{ pour }x \in \mathbb{R}_{+}^{*}$$
 
+
+### Exercice 12
+#### a.
+$$j^{2} = -1-j \in \mathbb{Z}[j]$$
+Soit $z \in \mathbb{Z}[j]$, il existe $a, b \in \mathbb{Z}$ tq $z = a+jb$, 
+$$\bar{z} = a+\bar{j}b$$
