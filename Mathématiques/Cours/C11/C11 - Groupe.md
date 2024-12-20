@@ -443,3 +443,7 @@ $\pm i, \pm 1 \in \mathbb{Z}[i]^{*}$, facile
 Ainsi, 
 $$\mathbb{Z}[i]^{*} = \mathbb{U}_{4}$$
 
+
+#### Définition
+On appelle corps tout anneau commutatif dans lequel tout élément non nul est inversible, 
+$$\mathcal{A}^{*} = \mathcal{A} \setminus \{ 0 \}$$
