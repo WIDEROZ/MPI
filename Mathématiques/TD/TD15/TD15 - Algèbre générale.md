@@ -58,8 +58,6 @@ $$\forall i \in [\![2, n]\!], (1 \dots n) \circ (i-1 \space i) \circ (n \space n
 $$(1 \space 2) \circ (1 \space 2) \circ (1 \space 2) = (1 \space2)$$
 
 ### Exercice 5
-#### a.
-##### i.
 
 
 
