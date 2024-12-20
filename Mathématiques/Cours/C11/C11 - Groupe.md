@@ -314,9 +314,31 @@ $$\forall g \in G, \omega(g) = 1 \Leftrightarrow g = e$$
 
 #### Propriété
 Soit $(G, \cdot)$ un groupe et $g \in G$, un élément d'ordre fini. 
-On note : $n = \omega(g)$, 
+On note : $n = \omega(g) \in \mathbb{N}^{*}$, 
 - $n$ est le plus petit entier $k \in \mathbb{N}^{*}$, qui vérifie : $g^{k} = e$
 - $\forall k \in \mathbb{Z}, g^{k} = e \Leftrightarrow n | k$
 - $(\left< g \right>, \cdot)$ est isomorphe À $(\mathbb{Z} / n \mathbb{Z}, +)$ et $\left< g \right>=\{ e, g, \dots, g^{n-1} \}$
 
-D
+Démonstration : 
+Tout à été fait même le $2$ car : 
+$$g^{k} = e \Leftrightarrow k \in \mathrm{Ker}\varphi \Leftrightarrow k\in n \mathbb{Z} \Leftrightarrow n |k$$
+avec :
+$$\varphi : \begin{cases}
+\mathbb{Z} \to G \\
+p \mapsto g^{p}
+\end{cases}$$
+
+#### Exemple
+Dans $(S_{n}, \circ)$, les éléments d'ordre $3$ sont ceux dont la décomposition en composé de cycles a supports disjoints ne contient que des $3$-cycles
+
+Soit $g \in G$, un élément d'ordre $n \in \mathbb{N}^{*}$
+Soit $k \in \mathbb{N}^{*}$, 
+$$\omega(g^{k}) = \begin{cases}
+\frac{n}{k} \text{ si } k | n \\
+
+\end{cases}$$
+
+Démonstration : 
+Soit $a \in \mathbb{N}^{*}$, 
+$$(g^{k})^{a} = e \Leftrightarrow n | ka$$
+Donc $ka$ 
