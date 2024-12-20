@@ -24,8 +24,4 @@ $$\vec{\nabla} = \begin{pmatrix}
 \frac{\partial }{\partial x}  \\
 \frac{\partial }{\partial y}  \\
 \frac{\partial }{\partial z} 
-\end{pmatrix}$$or : 
-$$\frac{\partial }{\partial t} = i\omega $$
-or $\omega = ck$ pour une OPPM : 
-alors, $\vec{k} = \frac{\omega}{c}\vec{u}$
-$$\vec{k} = -i\frac{\partial }{\partial t}\left( \frac{\vec{u}}{c} \right) = -i\frac{\partial }{\partial t} \left( \frac{\vec{u}}{\frac{d\vec{u}}{dt}} \right)$$
+\end{pmatrix}$$
