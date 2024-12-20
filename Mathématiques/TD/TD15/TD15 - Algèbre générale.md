@@ -84,3 +84,4 @@ $$\forall x \in \mathbb{R}_{-}^{*}, \exists y \in \mathbb{R}^{*}, y^{2p} = -x\ge
 Ainsi, 
 $$\varphi(x) = -\varphi(y)^{2p}$$
 $$\text{ et }\varphi(x) = \varphi(y)^{2p+1} \text{ pour }x \in \mathbb{R}_{+}^{*}$$
+

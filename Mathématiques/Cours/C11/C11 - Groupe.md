@@ -423,11 +423,22 @@ $$\mathcal{C}^{0}(\mathbb{R}, \mathbb{R})^{*} = \{ f \in \mathcal{C}^{0}(\mathbb
 #### Exercice 
 On note : 
 $$\mathbb{Z}[i] = \{ n + pi ; n, p \in \mathbb{Z} \} = \mathbb{Z} + i \mathbb{Z}$$
-Soit $z \in \mathbb{Z}[i]^{*}$, il exite : $z' \in \mathbb{Z}[i]^{*}$ et $n, n', p, p' \in \mathbb{Z}$ tels que: 
-$$zz' =(n + pi)(n'+p'i) = nn' - pp' + i(pn' + p'n) = 1$$
-ie $pn' + p'n =0$ et $nn' - pp' = 1$
+
+Soit $z \in \mathbb{Z}[i]^{*}$, il exite : $z' \in \mathbb{Z}[i]^{*}$ et $n, p \in \mathbb{Z}$ tels que: 
+$$zz' =1$$
+ie
 $$\left| z\right| \left| z'\right|= 1$$
 et comme $\left| z\right| \neq 0$ car $z \neq 0$, 
 $$\left| z\right| \geq 1 \text{ et } \left| z'\right| \geq 1$$
 Ainsi, 
 $$\left| z\right| = \left| z'\right| = 1$$
+ie $(p^{2}, n^{2}) = (0, 1)$ ou $(p^{2}, n^{2}) = (1, 0)$
+Alors, 
+$$\begin{cases}
+z = \pm 1 \\
+z = \pm i
+\end{cases}$$
+Réciproquement : 
+$\pm i, \pm 1 \in \mathbb{Z}[i]^{*}$, facile
+Ainsi, 
+$$\mathbb{Z}[i]^{*} = \mathbb{U}_{4}$$
