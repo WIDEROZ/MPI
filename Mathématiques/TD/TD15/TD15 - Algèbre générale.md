@@ -66,13 +66,11 @@ $$\omega(a^{-1}) = p_{1}$$
 
 
 #### b.
-$$\omega(a^{n}) = \left| \{ a^{nk} ; k \in \mathbb{Z} \}\right|$$
-comme : $\left| \{ a^{k} ; k \in \mathbb{Z} \}\right| = p_{1}$
-
-$$\omega(a^{n}) | p_{1}$$
+$a^{n} \in \left< a \right>$
+D'après la Lagrange $\omega (a^{n}) | p_{1}$
 
 ####  c.
-
+$$$$
 
 
 ### Exercice 9
