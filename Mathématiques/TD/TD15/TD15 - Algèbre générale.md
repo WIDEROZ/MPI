@@ -70,7 +70,16 @@ $a^{n} \in \left< a \right>$
 D'après la Lagrange $\omega (a^{n}) | p_{1}$
 
 ####  c.
-$$$$
+$$(ab)^{n} = a^{n}b^{n} = e \text{ car }\times \text{ est commutative}$$
+Alors, 
+$$a^{n} = (b^{n})^{-1}$$
+$\omega(a^{n}) = \omega(b_{n})$ divise $p_{1}$ et $p_{2}$ or $p_{1} \wedge p_{2} = 1$ Ainsi, 
+$$\omega(a^{n}) = 1 \text{ ie } a^{n} = b^{n} = e$$
+
+#### d.
+
+
+
 
 
 ### Exercice 9
