@@ -77,8 +77,16 @@ $\omega(a^{n}) = \omega(b_{n})$ divise $p_{1}$ et $p_{2}$ or $p_{1} \wedge p_{2}
 $$\omega(a^{n}) = 1 \text{ ie } a^{n} = b^{n} = e$$
 
 #### d.
-
-
+$$(ab)^{n} = e \Rightarrow \begin{cases}
+a^{n} = e \\
+b^{n} = e
+\end{cases} \Rightarrow \begin{cases}
+p_{1} | n \\
+p_{2} | n
+\end{cases} \Rightarrow p_{1} \vee p_{2} | n \Rightarrow p_{1}p_{2} | n$$
+De plus,
+$$(ab)^{p_{1}p_{2}} = (a^{p_{1}})^{p_{2}}(b^{p_{2}})^{p_{1}} = e $$
+Donc, $\omega(ab) | p_{1}p_{2}$
 
 
 
