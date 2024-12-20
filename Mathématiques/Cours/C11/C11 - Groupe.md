@@ -352,3 +352,27 @@ Donc $\omega(g^{k}) | \frac{k\vee n}{k}$
 #### Théorème de Lagrange
 Si $(G, \cdot)$ est un groupe de cardinal fini $n \in \mathbb{N}^{*},$ 
 $$\forall g \in G, \omega(g) | n$$
+De manière équivalente : 
+$$\forall g \in G, g^{n} = e$$
+
+Démonstration dans le cas ou $G$ commute (seule demo exigible) : 
+On note : 
+$$\varphi : \begin{cases}
+G \to G \\
+a \mapsto g \cdot a
+\end{cases}$$
+$\varphi$ est injective car : 
+$$\forall a, b \in G, \varphi(a) = \varphi(b) \Rightarrow ga = gb \Rightarrow a = g^{-1}ga = g^{-1}g b \Rightarrow a=b
+$$
+$\varphi$ est surjective car : 
+$\left| G\right|\neq + \infty$ donc il existe $a_{1}, \dots, a_{n}$ tels que $G = \{ a_{1}, \dots, a_{n} \}$
+On a aussi : 
+$$G = \{ ga_{1}, \dots, ga_{n} \}$$
+Donc, 
+$$u=\prod_{k = 1}^{n} a_{k} = \prod_{k= 1}^{n}ga_{k} = g^{n} \prod_{k = 1}^{n} a_{k}$$
+car $G$ commute
+Ainsi, 
+$$u = g^{n} u$$
+Donc
+$$g^{n} = g^{n} uu^{-1} = uu^{-1} = e$$
+
