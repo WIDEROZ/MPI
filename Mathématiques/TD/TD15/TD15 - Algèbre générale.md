@@ -57,7 +57,21 @@ $$(i \space 1)\circ (1 \space j) \circ (i \space 1) = (i \space j)$$
 $$\forall i \in [\![2, n]\!], (1 \dots n) \circ (i-1 \space i) \circ (n \space n-1 \space \dots \space 1) = (i \space i+1)$$
 $$(1 \space 2) \circ (1 \space 2) \circ (1 \space 2) = (1 \space2)$$
 
-### Exercice 5
+### Exercice 6
+#### a.
+$$\omega(a^{-1}) = \omega(a)$$
+car $\left< a^{-1}  \right> = \left< a \right>$
+Ainsi, 
+$$\omega(a^{-1}) = p_{1}$$
+
+
+#### b.
+$$\omega(a^{n}) = \left| \{ a^{nk} ; k \in \mathbb{Z} \}\right|$$
+comme : $\left| \{ a^{k} ; k \in \mathbb{Z} \}\right| = p_{1}$
+
+$$\omega(a^{n}) | p_{1}$$
+
+####  c.
 
 
 

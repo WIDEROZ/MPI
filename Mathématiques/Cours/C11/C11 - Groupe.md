@@ -469,6 +469,12 @@ $$\mathrm{Ker}(f) = f^{-1}(\{ 0 \})$$
 Les inversibles de $\mathbb{Z} / n\mathbb{Z}$ sont les : 
 $$\{ \bar{k} ; k \wedge n = 1 \}$$
 
+Démonstration : 
+Soit $\bar{k} \in \mathbb{Z} / n \mathbb{Z}$,
+$$\bar{k} \in (\mathbb{Z} / n \mathbb{Z})^{*} \Leftrightarrow \exists \bar{u} \in \mathbb{Z} / n \mathbb{Z}, \bar{u}\bar{k} = \bar{1}$$
+$$\Leftrightarrow \exists u \in \mathbb{Z} / n \mathbb{Z}, \exists v \in \mathbb{Z}, uk = 1-vm$$
+$$\Leftrightarrow k \wedge n = 1 $$
+par Bezout 
 
 #### Proposition
 Soit $n\geq 2$, 
