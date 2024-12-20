@@ -447,3 +447,20 @@ $$\mathbb{Z}[i]^{*} = \mathbb{U}_{4}$$
 #### Définition
 On appelle corps tout anneau commutatif dans lequel tout élément non nul est inversible, 
 $$\mathcal{A}^{*} = \mathcal{A} \setminus \{ 0 \}$$
+Un corp est un anneau intègre.
+
+#### Définition / Proposition
+On appelle sous-anneau de $\mathcal{A}$ toute partie de $\beta$ de $\mathcal{A}$ telle que $(\beta, +, \times)$ est un anneau, c'est équivalent à : 
+$$(\beta, +) \text{ est un sous groupe de }(\mathcal{A}, +)$$
+$$1_{\mathcal{A}} \in \beta$$
+$$\forall a, b \in \beta, ab \in \beta$$
+
+#### Définition
+Soient $\mathcal{A}$ et $\beta$ deux anneaux. On appelle morphisme d'anneaux toute $f:\mathcal{A} \to \beta$ telle que : 
+$$\forall a, b \in \mathcal{A}\begin{cases}
+f(a+b) = f(a)+f(b) \\
+f(a b) = f(a)f(b) \\
+f(1_{\mathcal{A}}) = f(1_{\beta})
+\end{cases}$$
+On appelle noyau de $f$ : 
+$$\mathrm{Ker}(f) = f^{-1}(\{ 0 \})$$
