@@ -356,6 +356,7 @@ De manière équivalente :
 $$\forall g \in G, g^{n} = e$$
 
 Démonstration dans le cas ou $G$ commute (seule demo exigible) : 
+Soit $g \in G$, 
 On note : 
 $$\varphi : \begin{cases}
 G \to G \\
@@ -364,10 +365,11 @@ a \mapsto g \cdot a
 $\varphi$ est injective car : 
 $$\forall a, b \in G, \varphi(a) = \varphi(b) \Rightarrow ga = gb \Rightarrow a = g^{-1}ga = g^{-1}g b \Rightarrow a=b
 $$
-$\varphi$ est surjective car : 
-$\left| G\right|\neq + \infty$ donc il existe $a_{1}, \dots, a_{n}$ tels que $G = \{ a_{1}, \dots, a_{n} \}$
+$\varphi$ est surjective car : $\left| G\right|\neq + \infty$
+Ainsi, il existe $a_{1}, \dots, a_{n}$ tels que $G = \{ a_{1}, \dots, a_{n} \}$
 On a aussi : 
 $$G = \{ ga_{1}, \dots, ga_{n} \}$$
+car $\varphi$ est bijective
 Donc, 
 $$u=\prod_{k = 1}^{n} a_{k} = \prod_{k= 1}^{n}ga_{k} = g^{n} \prod_{k = 1}^{n} a_{k}$$
 car $G$ commute
@@ -376,3 +378,13 @@ $$u = g^{n} u$$
 Donc
 $$g^{n} = g^{n} uu^{-1} = uu^{-1} = e$$
 
+# II. Les Anneaux
+## 1. Rappels de MP2I / MPSI
+#### Définition
+On appelle anneau tout ensemble $\mathcal{A}$ muni de deux LCI $+$ et $\times$ telles que : 
+- $(\mathcal{A},+)$ est un groupe abélien de neutre noté $0_{\mathcal{A}}$
+- $\times$ est associative et possède un neutre : $1_{\mathcal{A}} \neq 0_{\mathcal{A}}$
+- $\times$ associative : $\forall a, b, c \in \mathcal{A}, a\times(b \times c) = (a \times b ) \times c$
+- $\times$ distributive par rapport à $+$ : 
+  $\forall a, b, c \in \mathcal{A}, a\times(b+c) = a \times  b + a \times c$
+- 
