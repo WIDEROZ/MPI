@@ -406,3 +406,15 @@ On note l'ensemble des inversibles de $\mathcal{A}$ : $\mathcal{A}^{*}$
 $$(\mathcal{A}, \times) \text{ est un groupe}$$
 
 Démonstration :
+$\times$ est une LCI sur $\mathcal{A}^{*}$ 
+$$\forall a, b \in \mathcal{A}^{*}, (b^{-1}a^{-1})(ab) = 1 = abb^{-1}a^{-1}$$
+ie $(ab)^{-1} = b^{-1}a^{-1} \in \mathcal{A}^{*}$
+
+Flemme de bien rédiger c'est trivial. 
+
+#### Exercice
+$$\mathbb{Z}^{*} = \mathbb{U}_{2}$$
+HAHAHAHAHA c'est maran
+$$\mathbb{R}^{*} = \mathbb{R} \setminus \{ 0 \}$$
+$$\mathcal{M}_{n}(\mathbb{K})^{*} = GL_{n}(\mathbb{K})$$
+$$\mathbb{R}[X]^{*} = \mathbb{R}_{0}[X]$$
