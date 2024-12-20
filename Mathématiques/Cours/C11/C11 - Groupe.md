@@ -418,3 +418,16 @@ HAHAHAHAHA c'est maran
 $$\mathbb{R}^{*} = \mathbb{R} \setminus \{ 0 \}$$
 $$\mathcal{M}_{n}(\mathbb{K})^{*} = GL_{n}(\mathbb{K})$$
 $$\mathbb{R}[X]^{*} = \mathbb{R}_{0}[X]$$
+$$\mathcal{C}^{0}(\mathbb{R}, \mathbb{R})^{*} = \{ f \in \mathcal{C}^{0}(\mathbb{R}, \mathbb{R}) | \forall x \in \mathbb{R}, f(x) \neq 0 \}$$
+
+#### Exercice 
+On note : 
+$$\mathbb{Z}[i] = \{ n + pi ; n, p \in \mathbb{Z} \} = \mathbb{Z} + i \mathbb{Z}$$
+Soit $z \in \mathbb{Z}[i]^{*}$, il exite : $z' \in \mathbb{Z}[i]^{*}$ et $n, n', p, p' \in \mathbb{Z}$ tels que: 
+$$zz' =(n + pi)(n'+p'i) = nn' - pp' + i(pn' + p'n) = 1$$
+ie $pn' + p'n =0$ et $nn' - pp' = 1$
+$$\left| z\right| \left| z'\right|= 1$$
+et comme $\left| z\right| \neq 0$ car $z \neq 0$, 
+$$\left| z\right| \geq 1 \text{ et } \left| z'\right| \geq 1$$
+Ainsi, 
+$$\left| z\right| = \left| z'\right| = 1$$
