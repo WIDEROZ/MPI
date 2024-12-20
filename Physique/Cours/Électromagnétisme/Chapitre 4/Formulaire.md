@@ -39,8 +39,8 @@ $$div(\vec{j}) + \frac{d\rho}{dt}  = 0$$
 $$\boxed{\begin{cases}
 div(\vec{B}) = 0 \text{ : Maxwell-flux}\\
 div(\vec{E}) = \frac{\rho}{\varepsilon_{0}} \text{ : Maxwell-Gauss}  \\
-\overrightarrow{rot}(\overrightarrow{B}) = \mu_{0}\vec{j} + \mu_{0}\varepsilon_{0} \frac{\partial E}{\partial t} \text{ : Maxwell-Ampère} \\
-\overrightarrow{rot}(\overrightarrow{E}) = -\frac{\partial B}{\partial t} \text{ : Maxwell-Faraday}
+\overrightarrow{rot}(\overrightarrow{B}) = \mu_{0}\vec{j} + \mu_{0}\varepsilon_{0} \frac{\partial \vec{E}}{\partial t} \text{ : Maxwell-Ampère} \\
+\overrightarrow{rot}(\overrightarrow{E}) = -\frac{\partial \vec{B}}{\partial t} \text{ : Maxwell-Faraday}
 \end{cases}}$$
 
 #### Théorème d'Ampère généralisé

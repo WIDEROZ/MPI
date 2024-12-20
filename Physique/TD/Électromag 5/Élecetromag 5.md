@@ -25,3 +25,4 @@ $$\vec{\nabla} = \begin{pmatrix}
 \frac{\partial }{\partial y}  \\
 \frac{\partial }{\partial z} 
 \end{pmatrix}$$
+	

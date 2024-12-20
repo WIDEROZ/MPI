@@ -294,3 +294,4 @@ $$\psi : \begin{cases}
 est bien définie. Elle est surjective car $\left| G\right| = n$ donc bijective. 
 Finalement c'est bien un morphisme par définition de la somme de deux classes. 
 
+## 5.
