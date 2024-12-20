@@ -384,7 +384,25 @@ $$g^{n} = g^{n} uu^{-1} = uu^{-1} = e$$
 On appelle anneau tout ensemble $\mathcal{A}$ muni de deux LCI $+$ et $\times$ telles que : 
 - $(\mathcal{A},+)$ est un groupe abélien de neutre noté $0_{\mathcal{A}}$
 - $\times$ est associative et possède un neutre : $1_{\mathcal{A}} \neq 0_{\mathcal{A}}$
-- $\times$ associative : $\forall a, b, c \in \mathcal{A}, a\times(b \times c) = (a \times b ) \times c$
-- $\times$ distributive par rapport à $+$ : 
-  $\forall a, b, c \in \mathcal{A}, a\times(b+c) = a \times  b + a \times c$
-- 
+- $\times$ distributive par rapport à $+$ à gauche et à droite : 
+  $\forall a, b, c \in \mathcal{A}, a\times(b+c)  =a \times  b + a \times c$
+  $\forall a, b, c \in \mathcal{A}, (a + b) \times c = a \times c + b \times c$
+
+Si : 
+$$\forall a, b \in \mathcal{A}, ab = 0 \Rightarrow a = 0 \text{ ou }b = 0 \space \mathcal{A}\text{ est dit intègre}$$
+
+#### Théorèmes
+Soient $a, b \in \mathcal{A}$, tels que $ab = ba$, 
+##### Binôme de Newton
+##### Formule de Bernoulli
+
+
+#### Définition
+Soit $a \in\mathcal{A}$, $a$ est dit inversible si 
+$$\exists b \in \mathcal{A}, b \times a = a \times b = 1$$
+On note l'ensemble des inversibles de $\mathcal{A}$ : $\mathcal{A}^{*}$ 
+
+#### Propriété
+$$(\mathcal{A}, \times) \text{ est un groupe}$$
+
+Démonstration :
