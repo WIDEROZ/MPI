@@ -442,3 +442,4 @@ Réciproquement :
 $\pm i, \pm 1 \in \mathbb{Z}[i]^{*}$, facile
 Ainsi, 
 $$\mathbb{Z}[i]^{*} = \mathbb{U}_{4}$$
+
