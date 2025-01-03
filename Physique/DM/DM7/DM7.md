@@ -18,4 +18,6 @@ Donc,
 $$E_{1} = -\frac{n\mu_{0}b}{2} \frac{di_{1}(t)}{dt} = \frac{n\mu_{0}b\omega}{2} I_{m} \sin(\omega t)$$
 $$\boxed{E_{1} = \frac{n\mu_{0}b\omega}{2} \mathrm{I_{m}}\sin(\omega t)}$$
 
-$$\vec{j} = \gamma \vec{E} $$
+$$\vec{j}.d\vec{S} = \vec{j}.d\vec{p} = \gamma \vec{E}.d\vec{S} $$
+
+$$\vec{j} = \gamma \vec{E}_{1} = \frac{\gamma n\mu_{0}b\omega}{2}I_{m}\sin(\omega t)\vec{e}_{\theta}$$
