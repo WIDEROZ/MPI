@@ -22,9 +22,11 @@ $$\boxed{\vec{j} = \gamma \vec{E}_{1} = \frac{\gamma n\mu b\omega}{2}I_{m}\sin(\
 
 #### 3.
 $$\mathcal{P}_{vol}(t) = \frac{d\mathcal{P}_{tot}}{d\tau}(t) = \vec{j}.\vec{E}_{1} = \gamma E_{1}^{2} = \frac{(n\mu b\omega)^{2}}{4}I_{m}^{2}\sin(\omega t)^{2}$$
-$$\mathcal{P}_{tot}(t) = \iiint_{cyl} \mathcal{P}_{vol}(t) d\tau = \mathcal{P}_{vol}(t)\iiint_{cyl} d\tau = $$
+$$\mathcal{P}_{tot}(t) = \iiint_{cyl} \mathcal{P}_{vol}(t) d\tau = \mathcal{P}_{vol}(t)\iiint_{cyl} d\tau = \frac{(n\mu b \omega)^{2}}{4}SlI_{m}^{2} \sin(\omega t)^{2}$$
 
 Ainsi
-$$\boxed{\left< P_{tot} \right> = }$$
+$$\boxed{\left< P_{tot} \right> = \frac{(n\mu b\omega I_{m})^{2}}{8}Sl}$$
 
 #### 4.
+$$\mathcal{P}'_{vol}(t) = \vec{j}.\vec{E}'_{1} = \gamma E_{1}'^{2} = \frac{(n\mu b\omega)^{2}}{4}I_{m}^{2}\sin(\omega t)^{2}$$
+⁾
