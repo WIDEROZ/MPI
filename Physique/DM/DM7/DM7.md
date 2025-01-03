@@ -38,4 +38,7 @@ La puissance totale avec les tiges est égale à celle avec un unique cylindre.
 Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cylindrique : $\left< \mathcal{P}'_{tot} \right> < \left< \mathcal{P}_{tot} \right>$
 
 #### 5.
-$$e = - \frac{d\phi}{dt} \Rightarrow $$
+$$e = - \frac{d\phi}{dt} \Rightarrow E_{1}dr = - \frac{d(BdS)}{dt} = -(dBdS + )$$
+
+
+$$dS = \int_{0}^{2\pi} \int_{r}^{r+dr} r dr d\theta = \pi \left( (r+dr)^{2}-r^{2} \right) = 2\pi rdr+ (dr)^{2}$$
