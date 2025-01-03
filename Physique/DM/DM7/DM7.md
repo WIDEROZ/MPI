@@ -28,5 +28,5 @@ Ainsi
 $$\boxed{\left< P_{tot} \right> = \frac{(n\mu b\omega I_{m})^{2}}{8}Sl}$$
 
 #### 4.
-$$\mathcal{P}'_{vol}(t) = \vec{j}.\vec{E}'_{1} = \gamma E_{1}'^{2} = \frac{(n\mu b\omega)^{2}}{4}I_{m}^{2}\sin(\omega t)^{2}$$
-⁾
+$$\mathcal{P}'_{vol}(t) = \mathcal{P}_{vol}$$
+$$\mathcal{P}_{tot} = N\mathcal{P}_{N} = N \mathcal{P}_{vol}\iiint d\tau = N ls\mathcal{P}_{vol} = $$
