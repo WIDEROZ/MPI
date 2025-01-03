@@ -38,7 +38,20 @@ La puissance totale avec les tiges est égale à celle avec un unique cylindre.
 Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cylindrique : $\left< \mathcal{P}'_{tot} \right> < \left< \mathcal{P}_{tot} \right>$
 
 #### 5.
-$$e = - \frac{d\phi}{dt} \Rightarrow E_{1}dr = - \frac{d(BdS)}{dt} = -(dBdS + )$$
+$$e = - \frac{d\phi}{dt} \Rightarrow E_{1}dr = - \frac{d(BdS)}{dt} = -\frac{dBdS + Bd^{2}S}{dt}$$
 
 
 $$dS = \int_{0}^{2\pi} \int_{r}^{r+dr} r dr d\theta = \pi \left( (r+dr)^{2}-r^{2} \right) = 2\pi rdr+ (dr)^{2}$$
+
+$$E_{1}dr = -2\pi \frac{dB' rdr + B' d(rdr)}{dt} = -2\pi \frac{dB'rdr + B' (dr)^{2} + B' r d^{2}r}{dt}$$
+Alors, 
+$$E_{1}= -2\pi r \frac{dB'}{dt} $$
+Ainsi, 
+$$\boxed{dB' = -\frac{E_{1}}{2\pi r} dt}$$
+Puis, 
+$$B'=-\frac{1}{2\pi r}\int E_{1} \, dt = - \frac{n\mu b\omega^{2}}{4\pi r} {I_{m}}\cos(\omega t) = - \frac{n\mu b\omega^{2}}{4\pi r} E_{1}$$
+$$\boxed{B' = - \frac{n\mu b\omega^{2}}{4\pi r} E_{1}}$$
+
+Supposons : 
+$$B' \ll B $$
+$$n\mu  I_{m}\cos(\omega t)$$
