@@ -119,4 +119,4 @@ $$\text{ et }\varphi(x) = \varphi(y)^{2p+1} \text{ pour }x \in \mathbb{R}_{+}^{*
 #### a.
 $$j^{2} = -1-j \in \mathbb{Z}[j]$$
 Soit $z \in \mathbb{Z}[j]$, il existe $a, b \in \mathbb{Z}$ tq $z = a+jb$, 
-$$\bar{z} = a+\bar{j}b$$
+$$\bar{z} = a+\bar{j}b = a+ j^{2}b = (a-b) + (-b)j$$
