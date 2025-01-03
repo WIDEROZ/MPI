@@ -29,9 +29,12 @@ $$\boxed{\left< P_{tot} \right> = \gamma\frac{(n\mu b\omega I_{m})^{2}}{8}Sl}$$
 
 #### 4.
 $$\mathcal{P}'_{vol}(t) = \mathcal{P}_{vol}$$
-$\mathcal{P}$ la puissance dans une cylindre. 
-$$\mathcal{P}'_{tot} = N\mathcal{P} = N \mathcal{P}_{vol}\iiint d\tau = N ls\mathcal{P}_{vol} = \gamma\frac{Nls(n\mu b\omega)^{2}}{4}I^{2}_{m} \sin(\omega t)^{2}$$
+$\mathcal{P}$ la puissance dans une tige. 
+$$\mathcal{P}'_{tot} = N\mathcal{P} = N \mathcal{P}_{vol}\iiint_{tige} d\tau = N ls\mathcal{P}_{vol} = \gamma\frac{Nls(n\mu b\omega)^{2}}{4}I^{2}_{m} \sin(\omega t)^{2}$$
 
-$${\left< \mathcal{P}'_{tot} \right> = \frac{\gamma Nls(n\mu b\omega I_{m})^{2}}{8}} =  \space  \gamma  \frac{(n\mu b\omega I_{m})^{2}}{8}Sl =  \left< \mathcal{P}_{tot} \right> $$
+$${\left< \mathcal{P}'_{tot} \right> = \frac{\gamma Nls(n\mu b\omega I_{m})^{2}}{8}} \approx  \space  \gamma  \frac{(n\mu b\omega I_{m})^{2}}{8}Sl =  \left< \mathcal{P}_{tot} \right> $$
 
-La puissance totale n'est pas proportionnelle au nombre de cylindres subdivisés. ce qui est étrange
+La puissance totale avec les tiges est égale à celle avec un unique cylindre. 
+Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cylindrique : $\left< \mathcal{P}'_{tot} \right> < \left< \mathcal{P}_{tot} \right>$
+
+#### 5.
