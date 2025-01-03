@@ -11,13 +11,14 @@ On choisit $\vec{i}_{1}$ dirigé par $\vec{e}_{\theta}$ ie $\vec{E}_{1}$ dirigé
 $$\boxed{f = \frac{\omega}{2\pi}}$$
 
 #### 2.
-$$\boxed{\overrightarrow{B}_{1} (t)= n\mu_{0}i_{1}(t)\vec{e}_{z} = n\mu_{0} I_{m}\cos(\omega t)\vec{e}_{z}}$$
+$$\boxed{\overrightarrow{B}_{1} (t)= n\mu i_{1}(t)\vec{e}_{z} = n\mu  I_{m}\cos(\omega t)\vec{e}_{z}}$$
 $$\oint\vec{E}_{1}.d\vec{p} = \oint {E}_{1} dp = E_{1}  2\pi b$$
-$$\iint_{S}\vec{B}_{1}.d\vec{S} = \iint n\mu_{0}i_{1}(t)dS(\vec{e}_{\theta}.\vec{e}_{\theta}) = n\mu_{0}i_{1}(t) \pi b^{2}$$
+$$\iint_{S}\vec{B}_{1}.d\vec{S} = \iint n\mu i_{1}(t)dS(\vec{e}_{\theta}.\vec{e}_{\theta}) = n\mu i_{1}(t) \pi b^{2}$$
 Donc, 
-$$E_{1} = -\frac{n\mu_{0}b}{2} \frac{di_{1}(t)}{dt} = \frac{n\mu_{0}b\omega}{2} I_{m} \sin(\omega t)$$
-$$\boxed{E_{1} = \frac{n\mu_{0}b\omega}{2} \mathrm{I_{m}}\sin(\omega t)}$$
+$$E_{1} = -\frac{n\mu b}{2} \frac{di_{1}(t)}{dt} = \frac{n\mu b\omega}{2} I_{m} \sin(\omega t)$$
+$$\boxed{E_{1} = \frac{n\mu b\omega}{2} \mathrm{I_{m}}\sin(\omega t)}$$
 
-$$\vec{j}.d\vec{S} = \vec{j}.d\vec{p} = \gamma \vec{E}.d\vec{S} $$
-
-$$\vec{j} = \gamma \vec{E}_{1} = \frac{\gamma n\mu_{0}b\omega}{2}I_{m}\sin(\omega t)\vec{e}_{\theta}$$
+$$\boxed{\vec{j} = \gamma \vec{E}_{1} = \frac{\gamma n\mu b\omega}{2}I_{m}\sin(\omega t)\vec{e}_{\theta}}$$
+$$\mathcal{P}_{tot} = E_{1}i_{1}(t) = \frac{n\mu b \omega}{2}I^{2}_{m} \sin(\omega t)\cos(\omega t) = E_{1}i_{1}(t) = \frac{n\mu b \omega}{4}I^{2}_{m} \sin(2\omega t)$$
+Ainsi
+$$\boxed{\left< P_{tot} \right> = \frac{n\mu b\omega}{4}I_{m}^{2}}$$
