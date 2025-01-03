@@ -29,9 +29,9 @@ $$\boxed{\left< P_{tot} \right> = \gamma\frac{(n\mu b\omega I_{m})^{2}}{8}Sl}$$
 
 #### 4.
 $$\mathcal{P}'_{vol}(t) = \mathcal{P}_{vol}$$
-$\mathcal{P}$ la puissance d'un cylindre. 
+$\mathcal{P}$ la puissance dans une cylindre. 
 $$\mathcal{P}'_{tot} = N\mathcal{P} = N \mathcal{P}_{vol}\iiint d\tau = N ls\mathcal{P}_{vol} = \gamma\frac{Nls(n\mu b\omega)^{2}}{4}I^{2}_{m} \sin(\omega t)^{2}$$
-il existe $K$ une constante sans dimension telle que : $s = K \frac{S}{N}$
-$${\left< \mathcal{P}'_{tot} \right> = \frac{\gamma Nls(n\mu b\omega I_{m})^{2}}{8}} = K \space  \gamma  \frac{(n\mu b\omega I_{m})^{2}}{8}Sl = K \left< \mathcal{P}_{tot} \right> $$
+
+$${\left< \mathcal{P}'_{tot} \right> = \frac{\gamma Nls(n\mu b\omega I_{m})^{2}}{8}} =  \space  \gamma  \frac{(n\mu b\omega I_{m})^{2}}{8}Sl =  \left< \mathcal{P}_{tot} \right> $$
 
 La puissance totale n'est pas proportionnelle au nombre de cylindres subdivisés. ce qui est étrange
