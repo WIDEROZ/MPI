@@ -38,18 +38,4 @@ La puissance totale avec les tiges est égale à celle avec un unique cylindre.
 Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cylindrique : $\left< \mathcal{P}'_{tot} \right> < \left< \mathcal{P}_{tot} \right>$
 
 #### 5.
-$$e = - \frac{d\phi}{dt} \Rightarrow E_{1}dr = - \frac{d(BdS)}{dt} = -\frac{dBdS + Bd^{2}S}{dt}$$
-
-
-$$dS =  r dr d\theta $$
-Par Lenz-Faraday : 
-Au point $r$ : 
-$$E_{r} rd\theta = - \frac{d(B'dS)}{dt} = - \frac{dB'dS + B'd^{2}S}{dt} = - \frac{dB'dS}{dt} = -\frac{dB'rdrd\theta}{dt}$$
-Alors, 
-$$dB' = -\frac{E_{1}dt}{dr}$$
-Au point $r+dr = dr'$ :
-$$E_{dr'}dr'd{\theta} = -dB' \frac{dr'drd\theta}{dt}$$
-Alors,
-$$E_{dr'}(r+dr)d\theta = -dB' \frac{rdr+(dr)^{2}}{dt}d\theta = -dB' \frac{rdr}{dt} d\theta$$
-
-$$E_{dr} = E_{dr'}-E_{r} = $$
+$$B'dr = \mu_{0}dI$$
