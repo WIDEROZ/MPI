@@ -115,4 +115,12 @@ $$\boxed{\vec{\Delta}(\vec{j}) = \gamma \mu \frac{\partial \vec{j}}{\partial t} 
 #### 8.
 En projetant sur $Ox$ : 
 $$\overrightarrow{\Delta}(\vec{j}).\vec{e}_{x}= \gamma \frac{\partial \vec{j}}{\partial t}.\vec{e}_{x}  + \frac{\gamma}{\varepsilon_{0}} \frac{\partial \rho}{\partial x} $$
-$$\frac{\partial^{2}j_{x}}{\partial x^{2}} = \gamma \frac{\partial \vec{j}}{\partial t} $$
+Comme on s'est placé en coordonnés cartésiennes : 
+$$\frac{\partial^{2}j_{x}}{\partial x^{2}} + \frac{\partial^{2}j_{x}}{\partial y^{2}} + \frac{\partial^{2}j_{x}}{\partial z^{2}}  = \gamma \frac{\partial j_{x}}{\partial t} + \frac{\gamma}{\varepsilon_{0}} \frac{\partial \rho}{\partial x} $$
+Ainsi, par la question 6.c : 
+$$\frac{\partial^{2} j_{x}}{\partial z^{2}} = \gamma \frac{\partial j_{x}}{\partial t} + \frac{\gamma}{\varepsilon_{0}} \frac{\partial \rho}{\partial x} $$
+
+
+$$\vec{\Delta}(\vec{j}) = \begin{pmatrix}
+\vec{\Delta}
+\end{pmatrix}$$

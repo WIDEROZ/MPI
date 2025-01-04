@@ -11,7 +11,7 @@ $$\boxed{\begin{array}{c}
 \overrightarrow{grad}(f) = \overrightarrow{\nabla}f \\
 div(\vec{A}) = \overrightarrow{\nabla}.\vec{A} \\
 \overrightarrow{rot}(\vec{A}) = \overrightarrow{\nabla}\wedge \vec{A} \\
-\vec{\Delta}(f) = div(\overrightarrow{grad}(f)) = \overrightarrow{\nabla}^{2}f \\
+{\Delta}f = div(\overrightarrow{grad}(f)) = \overrightarrow{\nabla}^{2}f \\
 \vec{\Delta}(\vec{A}) = \begin{pmatrix}
 \Delta(A_{x}) \\
 \Delta(A_{y}) \\
