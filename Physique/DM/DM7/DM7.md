@@ -24,16 +24,12 @@ $$\boxed{\vec{j} = \gamma \vec{E}_{1} = -\frac{\gamma n\mu b\omega}{2}I_{m}\sin(
 $$\mathcal{P}_{vol}(t) = \frac{d\mathcal{P}_{tot}}{d\tau}(t) = \vec{j}.\vec{E}_{1} = \gamma E_{1}^{2} = \gamma\frac{(n\mu b\omega)^{2}}{4}I_{m}^{2}\sin(\omega t)^{2}$$
 $$\mathcal{P}_{tot}(t) = \iiint_{cyl} \mathcal{P}_{vol}(t) d\tau = \mathcal{P}_{vol}(t)\iiint_{cyl} d\tau = \gamma\frac{(n\mu b \omega)^{2}}{4}SlI_{m}^{2} \sin(\omega t)^{2}$$
 
-$$\mathcal{P}_{tot}(t) = \int \mathcal{P}_{vol}(t) \, db \iint$$
-
-
-
-Ainsi
+Ainsi, 
 $$\boxed{\left< P_{tot} \right> = \gamma\frac{(n\mu b\omega I_{m})^{2}}{8}Sl}$$
 
 #### 4.
 $$\mathcal{P}'_{vol}(t) = \mathcal{P}_{vol}$$
-$\mathcal{P}$ la puissance dans une tige. 
+Soit $\mathcal{P}$ la puissance dans une tige. 
 $$\mathcal{P}'_{tot} = N\mathcal{P} = N \mathcal{P}_{vol}\iiint_{tige} d\tau = N ls\mathcal{P}_{vol} = \gamma\frac{Nls(n\mu b\omega)^{2}}{4}I^{2}_{m} \sin(\omega t)^{2}$$
 
 $${\left< \mathcal{P}'_{tot} \right> = \frac{\gamma Nls(n\mu b\omega I_{m})^{2}}{8}} \approx  \space  \gamma  \frac{(n\mu b\omega I_{m})^{2}}{8}Sl =  \left< \mathcal{P}_{tot} \right> $$
@@ -45,8 +41,9 @@ Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cyli
 $$e = - \frac{d\phi}{dt} \Rightarrow E_{1}dr = - \frac{d(BdS)}{dt} = -\frac{dBdS + Bd^{2}S}{dt}$$
 
 
-$$dS = \int_{0}^{2\pi} \int_{r}^{r+dr} r dr d\theta = \pi \left( (r+dr)^{2}-r^{2} \right) = 2\pi rdr+ (dr)^{2}$$
-
+$$dS = \int_{0}^{2\pi} \int_{r}^{r+dr} r dr d\theta = \pi \left( (r+dr)^{2}-r^{2} \right) = 2\pi rdr$$
+en faisant un DL d'ordre 1. 
+Par Lenz-Faraday : 
 $$E_{1}dr = -2\pi \frac{dB' rdr + B' d(rdr)}{dt} = -2\pi \frac{dB'rdr + B' (dr)^{2} + B' r d^{2}r}{dt}$$
 Alors, 
 $$E_{1}= -2\pi r \frac{dB'}{dt} $$
