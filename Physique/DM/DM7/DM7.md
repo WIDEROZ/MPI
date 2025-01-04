@@ -66,7 +66,14 @@ $$\boxed{
 \overrightarrow{rot}(\vec{B}) = \mu \vec{j} + \varepsilon_{0}\mu \frac{\partial \vec{E}}{\partial t} }$$
 
 #### b.
-Montrer : 
-$$div(\vec{j}) + \frac{\partial \rho}{\partial t} = 0 $$
-
+On a : 
 $$div(\vec{E}) = \frac{\rho}{\varepsilon_{0}}$$
+$$div(\overrightarrow{rot}(\vec{B})) = \mu div(\overrightarrow{j}) + \mu \frac{\partial \rho}{\partial t} $$
+car $div$ est linéaire. 
+or : 
+$$div(\overrightarrow{rot}(\vec{B})) = \vec{\nabla} . (\vec{\nabla} \wedge B) = 0$$
+car $\nabla // \nabla$
+Ainsi, 
+$$\boxed{div(\vec{j}) + \frac{\partial \rho}{\partial t} = 0}$$
+
+#### c.
