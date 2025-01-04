@@ -41,4 +41,6 @@ Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cyli
 $$Edl = -\frac{d}{dt}(BdS) = -\frac{dSdB}{dt}$$
 $$dS = \pi (dl)^{2}$$
 
-$$dB' = -\frac{E}\pidl}dt$$
+$$B'(r+dr) = \mu_{0} I$$
+$$dB' = \mu_{0}\frac{dI(r+dr)-Idr}{r^{2}+rdr}$$
+$$B' = \int \frac{dI}{r} - \int  I \frac{dr}{} $$
