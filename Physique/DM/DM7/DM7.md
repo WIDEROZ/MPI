@@ -106,6 +106,6 @@ Ainsi, $j \gg \varepsilon_{0} \frac{\partial E}{\partial t}$
 $$\boxed{\overrightarrow{rot}(\vec{B}) = \mu \vec{j}  \text{ et } \oint \vec{B} . d\vec{l} = \mu I}$$
 
 #### e.
-$$\frac{\partial \vec{j}}{\partial t} = \overrightarrow{grad}(\vec{j})$$
-Car on est en coordonnées cartésiennes. 
-$$\vec{\Delta}(\vec{j}) = \overrightarrow{grad}(div(\vec{j}))-\overrightarrow{rot}(\overrightarrow{rot}(\vec{j})) = $$
+$$\frac{\partial \vec{j}}{\partial t} = \frac{\partial j_{x}}{\partial t} \vec{e}_{x} + \frac{\partial j_{y}}{\partial t} \vec{e}_{y} + \frac{\partial j_{z}}{\partial t} \vec{e}_{z} = \frac{\partial \rho}{\partial t}\vec{v} + \rho \vec{a}$$
+
+
