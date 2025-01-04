@@ -85,3 +85,9 @@ Ainsi, en posant $\omega = div(\vec{v})$,
 $$\rho(t) = e^{ -\omega t } + A$$
 et comme $\rho(0) = \rho_{0}$, 
 $$\boxed{\rho(t) = e^{ -\omega t }+ \rho_{0}-1}$$
+on cherche $t_{0}$ tel que : 
+$$\rho(t_{0}) < \rho_{0}$$
+Alors, 
+$$e^{ -\omega t_{0} }+\rho_{0}-1 < \rho_{0} \Rightarrow e^{ -\omega t_{0} }<1$$
+Ainsi, 
+$$-\omega t_{0} < 0$$
