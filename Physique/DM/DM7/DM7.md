@@ -100,4 +100,12 @@ $$f = \frac{\omega}{2\pi}$$
 
 $$j = \sqrt{j_{x}^{2} + j_{y}^{2} + j_{z}^{2}} = |\Omega(z)\rho(t)|\sqrt{x^{2} + y^{2}}$$
 
-$$j \sim 10^{4}e^{ 10^{4} } \text{ et } \varepsilon_{0}\frac{\partial E}{\partial t} \sim $$
+$$j \sim e^{ 10^{4} } \text{ et } \varepsilon_{0}\frac{\partial E}{\partial t} \sim 10^{-12} $$
+Ainsi, $j \gg \varepsilon_{0} \frac{\partial E}{\partial t}$
+
+$$\boxed{\overrightarrow{rot}(\vec{B}) = \mu \vec{j}  \text{ et } \oint \vec{B} . d\vec{l} = \mu I}$$
+
+#### e.
+$$\frac{\partial \vec{j}}{\partial t} = \overrightarrow{grad}(\vec{j})$$
+Car on est en coordonnées cartésiennes. 
+$$\vec{\Delta}(\vec{j}) = \overrightarrow{grad}(div(\vec{j}))-\overrightarrow{rot}(\overrightarrow{rot}(\vec{j})) = $$
