@@ -106,11 +106,13 @@ Ainsi, $j \gg \varepsilon_{0} \frac{\partial E}{\partial t}$
 $$\boxed{\overrightarrow{rot}(\vec{B}) = \mu \vec{j}  \text{ et } \oint \vec{B} . d\vec{l} = \mu I}$$
 
 #### e.
-$$\frac{\partial \vec{j}}{\partial t} = \frac{\partial j_{x}}{\partial t} \vec{e}_{x} + \frac{\partial j_{y}}{\partial t} \vec{e}_{y} + \frac{\partial j_{z}}{\partial t} \vec{e}_{z} = \frac{\partial \rho}{\partial t}\vec{v} + \rho \vec{a}$$
-
-$$\overrightarrow{rot}(\vec{E}) = -\frac{\partial \vec{B}}{\partial t} $$
-
-$$-\oint \overrightarrow{rot}(\vec{E}).d\vec{l} =\mu \frac{\partial I}{\partial t} = \mu \iint \frac{\partial \vec{j}}{\partial t} .d\vec{S}  $$
-
 $$\overrightarrow{rot}\left( \frac{\partial \vec{B}}{\partial t} \right) = -\overrightarrow{rot}(\overrightarrow{rot}(\vec{E})) = \mu \frac{\partial \vec{j}}{\partial t} $$
-$$\vec{\Delta}(\vec{E}) = \frac{1}{\gamma}\vec{\Delta}(\vec{j}) = \mu \frac{\partial \vec{j}}{\partial t} + \overrightarrow{grad}(div(\vec{E}))$$
+$$\vec{\Delta}(\vec{E}) = \frac{1}{\gamma}\vec{\Delta}(\vec{j}) = \mu \frac{\partial \vec{j}}{\partial t} + \overrightarrow{grad}(div(\vec{E})) = \mu \frac{\partial j}{\partial t} + \frac{1}{\varepsilon_{0}}\overrightarrow{grad}\left( \rho\right)$$
+
+Ainsi, 
+$$\boxed{\vec{\Delta}(\vec{j}) = \gamma \mu \frac{\partial \vec{j}}{\partial t} + \frac{\gamma}{\varepsilon_{0}} \overrightarrow{grad}(\rho)}$$
+
+#### 8.
+En projetant sur $Ox$ : 
+$$\overrightarrow{\Delta}(\vec{j}).\vec{e}_{x}= \gamma \frac{\partial \vec{j}}{\partial t}.\vec{e}_{x}  + \frac{\gamma}{\varepsilon_{0}} \frac{\partial \rho}{\partial x} $$
+$$\frac{\partial^{2}j_{x}}{\partial x^{2}} = \gamma \frac{\partial \vec{j}}{\partial t} $$
