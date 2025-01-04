@@ -77,3 +77,10 @@ Ainsi,
 $$\boxed{div(\vec{j}) + \frac{\partial \rho}{\partial t} = 0}$$
 
 #### c.
+$$div(\vec{j}) = \frac{\partial j_{x}}{\partial x} + \frac{\partial j_{y}}{\partial y} = 0 $$
+$j_{z} = 0$,
+
+Donc, 
+$$\frac{\partial \rho}{\partial t} = 0$$
+et comme $\rho(0) = \rho_{0}$, 
+$$\rho = \rho_{0}$$
