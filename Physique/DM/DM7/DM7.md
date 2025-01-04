@@ -90,4 +90,12 @@ $$\rho(t_{0}) < \rho_{0}$$
 Alors, 
 $$e^{ -\omega t_{0} }+\rho_{0}-1 < \rho_{0} \Rightarrow e^{ -\omega t_{0} }<1$$
 Ainsi, 
-$$-\omega t_{0} < 0$$
+$$-\omega t_{0} < 0 \text{ ie } t_{0} > 0$$
+il faudrait que $div(\vec{v})>0$ pour que $\rho_{0}$ disparaisse rapidement. 
+
+$$\boxed{\iint_{Sf} \vec{E}. d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}}}$$
+
+#### d.
+$$f = \frac{\omega}{2\pi}$$
+
+$$$$
