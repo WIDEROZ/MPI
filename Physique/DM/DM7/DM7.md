@@ -42,10 +42,12 @@ Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cyli
 ## II. Courants de Foucault - Effet de peau
 ### 6.
 #### a.
-$$\boxed{\vec{v} = \vec{\Omega}(z) \wedge \overrightarrow{OM}}$$
+$$\boxed{\vec{v} =  \overrightarrow{OM} \wedge \vec{\Omega}(z)}$$
+$\vec{\Omega}(z)$ suivant l'axe des $z$ positifs. 
 
 #### b.
-$$\vec{j} = \rho \vec{v} = \rho \vec{\Omega}(z) \wedge \overrightarrow{OM}$$
+$$\vec{j} = ne \vec{v} = ne \overrightarrow{OM} \wedge \vec{\Omega}({z})$$
 $$\boxed{\begin{cases}
-j_{x} = -\rho y \Omega(z)
+j_{x} = ney  \Omega(z) \\
+
 \end{cases}}$$
