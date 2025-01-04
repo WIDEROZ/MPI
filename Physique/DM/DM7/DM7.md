@@ -41,24 +41,11 @@ Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cyli
 $$e = - \frac{d\phi}{dt} \Rightarrow E_{1}dr = - \frac{d(BdS)}{dt} = -\frac{dBdS + Bd^{2}S}{dt}$$
 
 
-$$dS = \int_{0}^{2\pi} \int_{r}^{r+dr} r dr d\theta = \pi \left( (r+dr)^{2}-r^{2} \right) = 2\pi rdr$$
-en faisant un DL d'ordre 1. 
+$$dS =  r dr d\theta $$
 Par Lenz-Faraday : 
-$$E_{1}dr = -2\pi \frac{dB' rdr + B' d(rdr)}{dt} = -2\pi \frac{dB'rdr + B' (dr)^{2} + B' r d^{2}r}{dt}$$
+Au point $r$ : 
+$$E_{1} rd\theta = - \frac{d(B'dS)}{dt} = - \frac{dB'dS + B'd^{2}S}{dt} = - \frac{dB'dS}{dt} = -\frac{dB'rdrd\theta}{dt}$$
 Alors, 
-$$E_{1}= -2\pi r \frac{dB'}{dt} $$
-Ainsi, 
-$$\boxed{dB' = -\frac{E_{1}}{2\pi r} dt}$$
-Puis, 
-$$E_{1} = \frac{n\mu b\omega}{2} {I_{m}}\sin(\omega t)$$
+$$dB' = -\frac{E_{1}dt}{rdr}$$
 Donc, 
-$$B'=-\frac{1}{2\pi r}\int E_{1} \, dt =  \frac{n\mu b}{4\pi r} {I_{m}}\cos(\omega t)$$
-$$\boxed{B' = \frac{n\mu b}{4\pi r} {I_{m}}\cos(\omega t)}$$
-
-Supposons : 
-$$B' \ll B $$
-$$\frac{n\mu b}{4\pi r} {I_{m}}\cos(\omega t) \ll n\mu  I_{m}\cos(\omega t)$$
-$$\frac{b}{4\pi r}\ll 1 \Rightarrow b \ll 4\pi r$$
-Ainsi,
-$$\boxed{b \ll \sqrt{2}\times \delta \text{ avec }\delta = 2\sqrt{2}\pi r}$$
-
+$$B' = -\int_{r}^{r + dr} \frac{E_{1}}{rdr}\, dt $$
