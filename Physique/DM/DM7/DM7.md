@@ -39,4 +39,4 @@ Ce n'est pas vrai dans la vraie vie a cause de l'effet résistif de la tige cyli
 
 #### 5.
 $$Erd\theta = -\frac{d}{dt}(BdS) = -\frac{dSdB}{dt}$$
-$$dS = $$
+$$dS = \frac{dr}{2}dld\theta$$
