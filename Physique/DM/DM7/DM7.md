@@ -119,16 +119,20 @@ Comme on s'est placé en coordonnés cartésiennes :
 $$\frac{\partial^{2}j_{x}}{\partial x^{2}} + \frac{\partial^{2}j_{x}}{\partial y^{2}} + \frac{\partial^{2}j_{x}}{\partial z^{2}}  = \gamma \mu \frac{\partial j_{x}}{\partial t} $$
 Ainsi, par la question 6.c : 
 $$\frac{\partial^{2} j_{x}}{\partial z^{2}} = \gamma \mu\frac{\partial j_{x}}{\partial t}  $$
-$$e^{ i\omega t }\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \gamma \mu\frac{\partial \underline{J_{x}}e^{ i\omega t }}{\partial t}  = \gamma \mu i\omega \underline{J_{x}}e^{ i\omega t } + \gamma \mu e^{ i\omega t }\frac{\partial \underline{J_{x}}}{\partial t} = 2\gamma \mu e^{ i\omega t }\frac{\partial \underline{J_{x}}}{\partial t} $$
+$$e^{ i\omega t }\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \gamma \mu\frac{\partial \underline{J_{x}}e^{ i\omega t }}{\partial t}  = \gamma \mu i\omega \underline{J_{x}}e^{ i\omega t } = i \omega \gamma \mu e^{ i\omega t }\underline{J_{x}} $$
 Ainsi, 
 $$\boxed{\begin{cases}
-{\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = 2\gamma \mu \frac{\partial \underline{J_{x}}}{\partial t}  } \\
-{\frac{\partial^{2} \underline{J_{y}}}{\partial z^{2}} = 2\gamma \mu \frac{\partial \underline{J_{y}}}{\partial t} }
+{\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = i\omega\gamma \mu \underline{J_{x}}  } \\
+{\frac{\partial^{2} \underline{J_{y}}}{\partial z^{2}} = i\omega\gamma \mu \underline{J_{y}} }
 \end{cases}}$$
 
 ### 9.
 On pose :
-$$\delta = \frac{1}{\sqrt{2\gamma \mu \omega}}$$
+$$\delta = \frac{1}{\sqrt{\gamma \mu \omega}}$$
 Alors,
-$$\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \frac{1}{\omega\delta^{2}} \frac{\partial \underline{J_{x}}}{\partial t}$$
-
+$$\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} - \frac{i}{\delta^{2}} \underline{J_{x}}=0$$
+Ainsi,
+$$\boxed{\begin{cases}
+\underline{J_{x}}(z) = C_{+x} + C_{-x}e^{ \frac{i}{\delta}z }  \\
+\underline{J_{y}}(z) = C_{+y} + C_{-y}e^{ \frac{i}{\delta}z } 
+\end{cases}}$$
