@@ -49,5 +49,24 @@ $\vec{\Omega}(z)$ suivant l'axe des $z$ positifs.
 $$\vec{j} = ne \vec{v} = ne \overrightarrow{OM} \wedge \vec{\Omega}({z})$$
 $$\boxed{\begin{cases}
 j_{x} = ney  \Omega(z) \\
-
+j_{y} = -nex\Omega(z)
 \end{cases}}$$
+
+#### c.
+$$\boxed{\begin{cases}
+\frac{\partial^{2} j_{x}}{\partial x^{2}} = 0 \\
+\frac{\partial^{2} j_{x}}{\partial y^{2}} = 0 \\
+\frac{\partial^{2} j_{y}}{\partial x^{2}} = 0 \\
+\frac{\partial^{2} j_{y}}{\partial y^{2}} = 0
+\end{cases}}$$
+
+### 7.
+#### a.
+$$\boxed{
+\overrightarrow{rot}(\vec{B}) = \mu \vec{j} + \varepsilon_{0}\mu \frac{\partial \vec{E}}{\partial t} }$$
+
+#### b.
+Montrer : 
+$$div(\vec{j}) + \frac{\partial \rho}{\partial t} = 0 $$
+
+$$div(\vec{E}) = \frac{\rho}{\varepsilon_{0}}$$
