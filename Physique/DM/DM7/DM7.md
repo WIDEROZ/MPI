@@ -107,20 +107,21 @@ $$\boxed{\overrightarrow{rot}(\vec{B}) = \mu \vec{j}  \text{ et } \oint \vec{B} 
 
 #### e.
 $$\overrightarrow{rot}\left( \frac{\partial \vec{B}}{\partial t} \right) = -\overrightarrow{rot}(\overrightarrow{rot}(\vec{E})) = \mu \frac{\partial \vec{j}}{\partial t} $$
-$$\vec{\Delta}(\vec{E}) = \frac{1}{\gamma}\vec{\Delta}(\vec{j}) = \mu \frac{\partial \vec{j}}{\partial t} + \overrightarrow{grad}(div(\vec{E})) = \mu \frac{\partial j}{\partial t} + \frac{1}{\varepsilon_{0}}\overrightarrow{grad}\left( \rho\right)$$
-
+$$\vec{\Delta}(\vec{E}) = \frac{1}{\gamma}\vec{\Delta}(\vec{j}) = \mu \frac{\partial \vec{j}}{\partial t} + \overrightarrow{grad}(div(\vec{E})) = \mu \frac{\partial \vec{j}}{\partial t} + \frac{1}{\varepsilon_{0}}\overrightarrow{grad}\left( \rho\right)$$
+or d'après la question 7.c. $\rho$ dépend uniquement du temps donc $\overrightarrow{grad}(\rho) = \overrightarrow{0}$ 
 Ainsi, 
-$$\boxed{\vec{\Delta}(\vec{j}) = \gamma \mu \frac{\partial \vec{j}}{\partial t} + \frac{\gamma}{\varepsilon_{0}} \overrightarrow{grad}(\rho)}$$
+$$\boxed{\vec{\Delta}(\vec{j}) = \gamma \mu \frac{\partial \vec{j}}{\partial t} }$$
 
 #### 8.
 En projetant sur $Ox$ : 
-$$\overrightarrow{\Delta}(\vec{j}).\vec{e}_{x}= \gamma \frac{\partial \vec{j}}{\partial t}.\vec{e}_{x}  + \frac{\gamma}{\varepsilon_{0}} \frac{\partial \rho}{\partial x} $$
+$$\overrightarrow{\Delta}(\vec{j}).\vec{e}_{x}= \gamma \frac{\partial \vec{j}}{\partial t}.\vec{e}_{x} $$
 Comme on s'est placé en coordonnés cartésiennes : 
-$$\frac{\partial^{2}j_{x}}{\partial x^{2}} + \frac{\partial^{2}j_{x}}{\partial y^{2}} + \frac{\partial^{2}j_{x}}{\partial z^{2}}  = \gamma \frac{\partial j_{x}}{\partial t} + \frac{\gamma}{\varepsilon_{0}} \frac{\partial \rho}{\partial x} $$
+$$\frac{\partial^{2}j_{x}}{\partial x^{2}} + \frac{\partial^{2}j_{x}}{\partial y^{2}} + \frac{\partial^{2}j_{x}}{\partial z^{2}}  = \gamma \frac{\partial j_{x}}{\partial t} $$
 Ainsi, par la question 6.c : 
-$$\frac{\partial^{2} j_{x}}{\partial z^{2}} = \gamma \frac{\partial j_{x}}{\partial t} + \frac{\gamma}{\varepsilon_{0}} \frac{\partial \rho}{\partial x} $$
+$$\frac{\partial^{2} j_{x}}{\partial z^{2}} = \gamma \frac{\partial j_{x}}{\partial t}  $$
+$$e^{ i\omega t }\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \gamma \frac{\partial \underline{J_{x}}e^{ i\omega t }}{\partial t}  = \gamma i\omega \underline{J_{x}}e^{ i\omega t } + \gamma e^{ i\omega t }\frac{\partial \underline{J_{x}}}{\partial t}  $$
+Ainsi, 
+$$\begin{cases}
+{\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \gamma \left( i\omega \underline{J_{x}} + \frac{\partial \underline{J_{x}}}{\partial t}  \right)} \\
 
-
-$$\vec{\Delta}(\vec{j}) = \begin{pmatrix}
-\vec{\Delta}
-\end{pmatrix}$$
+\end{cases}$$
