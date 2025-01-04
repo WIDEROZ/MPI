@@ -77,14 +77,11 @@ Ainsi,
 $$\boxed{div(\vec{j}) + \frac{\partial \rho}{\partial t} = 0}$$
 
 #### c.
-$$div(\vec{j}) = \frac{\partial j_{x}}{\partial x} + \frac{\partial j_{y}}{\partial y} = 0 $$
-et $j_{z} = 0$,
-Donc, 
-$$\frac{\partial \rho}{\partial t} = 0$$
-et comme $\rho(0) = \rho_{0}$, 
-$$\rho = \rho_{0}$$
-
-
-
 $$\rho(t) div(\vec{v}) + \frac{\partial \rho}{\partial t} = 0$$
 Par l'équation de la conservation de la charge 
+Puis, comme $\vec{\Omega}(z)$ est uniforme, $\vec{v}$ l'est aussi et ne dépend pas du temps. Donc $div(\vec{v})$ ne dépend pas du temps
+
+Ainsi, en posant $\omega = div(\vec{v})$, 
+$$\rho(t) = e^{ -\omega t } + A$$
+et comme $\rho(0) = \rho_{0}$, 
+$$\boxed{\rho(t) = e^{ -\omega t }+ \rho_{0}-1}$$
