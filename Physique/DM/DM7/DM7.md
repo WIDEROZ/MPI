@@ -44,8 +44,12 @@ $$e = - \frac{d\phi}{dt} \Rightarrow E_{1}dr = - \frac{d(BdS)}{dt} = -\frac{dBdS
 $$dS =  r dr d\theta $$
 Par Lenz-Faraday : 
 Au point $r$ : 
-$$E_{1} rd\theta = - \frac{d(B'dS)}{dt} = - \frac{dB'dS + B'd^{2}S}{dt} = - \frac{dB'dS}{dt} = -\frac{dB'rdrd\theta}{dt}$$
+$$E_{r} rd\theta = - \frac{d(B'dS)}{dt} = - \frac{dB'dS + B'd^{2}S}{dt} = - \frac{dB'dS}{dt} = -\frac{dB'rdrd\theta}{dt}$$
 Alors, 
-$$dB' = -\frac{E_{1}dt}{rdr}$$
-Donc, 
-$$B' = -\int_{r}^{r + dr} \frac{E_{1}}{rdr}\, dt $$
+$$dB' = -\frac{E_{1}dt}{dr}$$
+Au point $r+dr = dr'$ :
+$$E_{dr'}dr'd{\theta} = -dB' \frac{dr'drd\theta}{dt}$$
+Alors,
+$$E_{dr'}(r+dr)d\theta = -dB' \frac{rdr+(dr)^{2}}{dt}d\theta = -dB' \frac{rdr}{dt} d\theta$$
+
+$$E_{dr} = E_{dr'}-E_{r} = $$
