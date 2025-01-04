@@ -49,12 +49,15 @@ $$E_{1}= -2\pi r \frac{dB'}{dt} $$
 Ainsi, 
 $$\boxed{dB' = -\frac{E_{1}}{2\pi r} dt}$$
 Puis, 
-$$B'=-\frac{1}{2\pi r}\int E_{1} \, dt =  \frac{n\mu b\omega^{2}}{4\pi r} {I_{m}}\cos(\omega t)$$
-$$\boxed{B' = \frac{n\mu b\omega^{2}}{4\pi r} {I_{m}}\cos(\omega t)}$$
+$$E_{1} = \frac{n\mu b\omega}{2} {I_{m}}\sin(\omega t)$$
+Donc, 
+$$B'=-\frac{1}{2\pi r}\int E_{1} \, dt =  \frac{n\mu b}{4\pi r} {I_{m}}\cos(\omega t)$$
+$$\boxed{B' = \frac{n\mu b}{4\pi r} {I_{m}}\cos(\omega t)}$$
 
 Supposons : 
 $$B' \ll B $$
-$$\frac{n\mu b\omega^{2}}{4\pi r} {I_{m}}\cos(\omega t) \ll n\mu  I_{m}\cos(\omega t)$$
-$$\frac{b\omega^{2}}{4\pi r}\ll 1 \Rightarrow b \ll \frac{4\pi r}{\omega^{2}}$$
+$$\frac{n\mu b}{4\pi r} {I_{m}}\cos(\omega t) \ll n\mu  I_{m}\cos(\omega t)$$
+$$\frac{b}{4\pi r}\ll 1 \Rightarrow b \ll 4\pi r$$
 Ainsi,
-$$\boxed{b \ll \sqrt{2}\times \delta \text{ avec }\delta = 2\sqrt{2}\frac{\pi r}{\omega^{2}}}$$
+$$\boxed{b \ll \sqrt{2}\times \delta \text{ avec }\delta = 2\sqrt{2}\pi r}$$
+
