@@ -114,14 +114,17 @@ $$\boxed{\vec{\Delta}(\vec{j}) = \gamma \mu \frac{\partial \vec{j}}{\partial t} 
 
 #### 8.
 En projetant sur $Ox$ : 
-$$\overrightarrow{\Delta}(\vec{j}).\vec{e}_{x}= \gamma \frac{\partial \vec{j}}{\partial t}.\vec{e}_{x} $$
+$$\overrightarrow{\Delta}(\vec{j}).\vec{e}_{x}= \gamma \mu \frac{\partial \vec{j}}{\partial t}.\vec{e}_{x} $$
 Comme on s'est placé en coordonnés cartésiennes : 
-$$\frac{\partial^{2}j_{x}}{\partial x^{2}} + \frac{\partial^{2}j_{x}}{\partial y^{2}} + \frac{\partial^{2}j_{x}}{\partial z^{2}}  = \gamma \frac{\partial j_{x}}{\partial t} $$
+$$\frac{\partial^{2}j_{x}}{\partial x^{2}} + \frac{\partial^{2}j_{x}}{\partial y^{2}} + \frac{\partial^{2}j_{x}}{\partial z^{2}}  = \gamma \mu \frac{\partial j_{x}}{\partial t} $$
 Ainsi, par la question 6.c : 
-$$\frac{\partial^{2} j_{x}}{\partial z^{2}} = \gamma \frac{\partial j_{x}}{\partial t}  $$
-$$e^{ i\omega t }\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \gamma \frac{\partial \underline{J_{x}}e^{ i\omega t }}{\partial t}  = \gamma i\omega \underline{J_{x}}e^{ i\omega t } + \gamma e^{ i\omega t }\frac{\partial \underline{J_{x}}}{\partial t}  $$
+$$\frac{\partial^{2} j_{x}}{\partial z^{2}} = \gamma \mu\frac{\partial j_{x}}{\partial t}  $$
+$$e^{ i\omega t }\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \gamma \mu\frac{\partial \underline{J_{x}}e^{ i\omega t }}{\partial t}  = \gamma \mu i\omega \underline{J_{x}}e^{ i\omega t } + \gamma \mu e^{ i\omega t }\frac{\partial \underline{J_{x}}}{\partial t} = 2\gamma \mu e^{ i\omega t }\frac{\partial \underline{J_{x}}}{\partial t} $$
 Ainsi, 
-$$\begin{cases}
-{\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \gamma \left( i\omega \underline{J_{x}} + \frac{\partial \underline{J_{x}}}{\partial t}  \right)} \\
+$$\boxed{\begin{cases}
+{\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = 2\gamma \mu \frac{\partial \underline{J_{x}}}{\partial t}  } \\
+{\frac{\partial^{2} \underline{J_{y}}}{\partial z^{2}} = 2\gamma \mu \frac{\partial \underline{J_{y}}}{\partial t} }
+\end{cases}}$$
 
-\end{cases}$$
+### 9.
+$L^{-2}\cdot T$
