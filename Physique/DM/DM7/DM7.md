@@ -136,3 +136,8 @@ $$\boxed{\begin{cases}
 \underline{J_{x}}(z) = C_{+x} + C_{-x}e^{ \frac{i}{\delta}z }  \\
 \underline{J_{y}}(z) = C_{+y} + C_{-y}e^{ \frac{i}{\delta}z } 
 \end{cases}}$$
+
+### 10.
+Avec un matériau magnétique : 
+$$\delta = \frac{1}{\sqrt{\gamma \mu \omega}} = \frac{1}{\sqrt{2\pi \gamma \mu f}} = 6.0 \times 10^{-8}m$$
+$$1.51 \times 10^{-7} m$$
