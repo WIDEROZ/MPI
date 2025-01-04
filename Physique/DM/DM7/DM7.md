@@ -109,3 +109,5 @@ $$\boxed{\overrightarrow{rot}(\vec{B}) = \mu \vec{j}  \text{ et } \oint \vec{B} 
 $$\frac{\partial \vec{j}}{\partial t} = \frac{\partial j_{x}}{\partial t} \vec{e}_{x} + \frac{\partial j_{y}}{\partial t} \vec{e}_{y} + \frac{\partial j_{z}}{\partial t} \vec{e}_{z} = \frac{\partial \rho}{\partial t}\vec{v} + \rho \vec{a}$$
 
 
+
+$$\oint \frac{\partial \vec{B}.d\vec{l}}{\partial t} =\mu \frac{\partial I}{\partial t} =  $$
