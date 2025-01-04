@@ -127,4 +127,8 @@ $$\boxed{\begin{cases}
 \end{cases}}$$
 
 ### 9.
-$L^{-2}\cdot T$
+On pose :
+$$\delta = \frac{1}{\sqrt{2\gamma \mu \omega}}$$
+Alors,
+$$\frac{\partial^{2} \underline{J_{x}}}{\partial z^{2}} = \frac{1}{\omega\delta^{2}} \frac{\partial \underline{J_{x}}}{\partial t}$$
+
