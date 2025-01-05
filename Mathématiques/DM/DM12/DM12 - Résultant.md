@@ -88,3 +88,4 @@ $$\boxed{\begin{pmatrix}
 0 \\
 -1
 \end{pmatrix}}$$
+On sait que $P \wedge Q=1$
