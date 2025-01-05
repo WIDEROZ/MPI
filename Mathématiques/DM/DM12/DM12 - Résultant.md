@@ -37,6 +37,5 @@ Donc $\mathrm{Ker}(u) = \{ 0 \}$, alors,
 
 ### Question 2
 #### a.
-$$Mat_{\beta, \beta'}(u) = \begin{pmatrix}
+$$Mat_{\beta, \beta'}(u) = M_{P, Q}$$
 
-\end{pmatrix}$$
