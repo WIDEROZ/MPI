@@ -1,9 +1,9 @@
 # I. Définition et propriétés
 ### Question 1
 #### a.
-$$\boxed{\dim E = \dim \mathbb{C}_{p-1}[X] \times \dim \mathbb{C}_{q-1}[X] = pq}$$
+$$\boxed{\dim E = \dim \mathbb{C}_{p-1}[X] + \dim \mathbb{C}_{q-1}[X] = p+q}$$
 Une base de $E$ est : 
-$$\boxed{((X^{k}, X^{i}))_{(k, i) \in [\![0, p-1]\!] \times [\![0, q-1]\!]}}$$
+$$\boxed{((0, X^{k}))_{(k, i) \in }}$$
 
 #### b.
 Soit $A=(A_{1}, A_{2}), B = (B_{1}, B_{2})\in E$ et $\lambda \in \mathbb{C}$,  
@@ -29,6 +29,8 @@ Supposons que $P\wedge Q = 1$, il existe alors par le théorème de Bézout $(A'
 Soit $(A, B) \in \mathrm{Ker}(u)$,
 $$P(A + A') + Q(B+B') = X^{0}$$
 et
-$$PA + QB = 0$$
-Si $B \neq 0$,
-$$Q = -P \frac{A}{B}$$
+$$PA' + Q(B+B') = X^{0} + QB$$
+
+
+### Question 2
+#### a.
