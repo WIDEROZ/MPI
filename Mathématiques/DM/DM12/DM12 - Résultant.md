@@ -22,13 +22,14 @@ Alors, comme $X^{0} \in F$, et que $u$ est bijective il existe un unique couple 
 ie 
 $$PA + QB=X^{0}$$
 Donc par le théorème de Bézout :
-$$\boxed{P \wedge Q = 1}$$
+$P$ et $Q$ sont premiers entre eux
 
 #### d.
 Supposons que $P\wedge Q = 1$, il existe alors par le théorème de Bézout $(A', B') \in \mathbb{C}[X]$, tels que : $PA' + QB' = X^{0}$, 
 Soit $(A, B) \in \mathrm{Ker}(u)$,
-$$PA  = -QB$$
-On a : $P \wedge Q = 1$, 
+$$PA  = Q(-B)$$
+De plus comme : $P \wedge Q = 1$, alors $A| B$ et $B | A$ par le théorème de gauss.
+Donc, dans le cas ou $\deg(A) > \deg(B)$ ou $\deg(B) > \deg(A)$
 
 
 ### Question 2
