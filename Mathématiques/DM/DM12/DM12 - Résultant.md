@@ -28,3 +28,7 @@ $$\boxed{P \wedge Q = 1}$$
 Supposons que $P\wedge Q = 1$, il existe alors par le théorème de Bézout $(A', B') \in \mathbb{C}[X]$, tels que : $PA' + QB' = X^{0}$, 
 Soit $(A, B) \in \mathrm{Ker}(u)$,
 $$P(A + A') + Q(B+B') = X^{0}$$
+et
+$$PA + QB = 0$$
+Si $B \neq 0$,
+$$Q = -P \frac{A}{B}$$
