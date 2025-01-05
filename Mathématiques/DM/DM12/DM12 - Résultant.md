@@ -45,4 +45,11 @@ $$Res(P, Q) \neq 0$$
 Car $u$ est bijective
 
 #### c.
-$$Res(P, Q) = 0 \Leftrightarrow $$
+$$\begin{array}{rl}
+Res(P, Q) = 0 &\Leftrightarrow u \not\in GL(E, F)  \\
+&\Leftrightarrow P \wedge Q \neq 1  \\
+&\Leftrightarrow \exists \lambda \in \mathbb{C}, P(\lambda) = Q(\lambda) = 0
+\end{array}$$
+
+### Question 3
+	
