@@ -66,11 +66,11 @@ $$\boxed{P \wedge Q = 1}$$
 $$\boxed{\begin{pmatrix}
 1 &0 &0 &1 &0 &0& 0 \\
 0 &1 &0 &-1& 1& 0& 0 \\
-0 0 1 0 -1 1 0 \\
-1 0 0 1 0 -1 1 \\
-1 1 0 0 1 0 -1 \\
-0 1 1 0 0 1 0 \\
-0 0 1 0 0 0 1
+0 &0 &1 &0 &-1& 1& 0 \\
+1 &0 &0 &1 &0 &-1& 1 \\
+1 &1 &0 &0& 1& 0& -1 \\
+0 &1 &1 &0 &0 &1 &0 \\
+0 &0 &1 &0 &0 &0 &1
 \end{pmatrix}\begin{pmatrix}
 1 \\
 -1 \\
@@ -80,13 +80,27 @@ $$\boxed{\begin{pmatrix}
 2 \\
 1
 \end{pmatrix} = \begin{pmatrix}
-2 \\
-2 \\
--2 \\
--2 \\
-2 \\
+1 \\
 0 \\
--1
+0 \\
+0 \\
+0 \\
+0 \\
+0
 \end{pmatrix}}$$
 On sait que $P \wedge Q=1$
-$$u()$$
+$$u(A_{0}, B_{0}) = 1$$
+Avec : 
+$$\boxed{A_{0} = -X^{2}-X+1 \text{ et } B_{0} = X^{3} + 2 X^{2} + X}$$
+D'après le produit matriciel. 
+
+#### C.
+Soit $(A, B) \in \mathbb{C}[X]^{2}$ tel que : $u(A, B) = 1$,
+Alors, 
+$$P(A-A_{0}) = Q(B_{0}-B)$$
+ie comme : 
+$$P|Q(B_{0}-B) \text{ et } P \wedge Q = 1$$
+On a : 
+$$P|(B_{0}-B)$$
+ie il existe $K \in \mathbb{C}[X]$ tel que : 
+$$KP=B_{0}-B \Rightarrow B = B_{0} - KP$$
