@@ -22,3 +22,5 @@ Soit $(A, B) \in E$,
 On pose : 
 $$C = u((A, B)) = PA + QB$$
 Alors, 
+$$\forall C \in $$
+il n'existe pas de racines complexes communes à $P$ et $Q$ 
