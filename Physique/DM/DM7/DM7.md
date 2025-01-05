@@ -138,5 +138,3 @@ $$\boxed{\begin{cases}
 \end{cases}}$$
 
 ### 11.
-$$\left|\left| \vec{j}(z, t) \right|\right| = \sqrt{\left( C_{+x} + C_{-x}e^{ \frac{i}{\delta}z } \right)^{2} + \left( C_{+y} + C_{-y}e^{ \frac{i}{\delta}z  }\right)^{2}}$$
-$$= $$
