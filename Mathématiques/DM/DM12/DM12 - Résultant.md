@@ -17,10 +17,14 @@ u(A + \lambda B) &= u((A_{1}+\lambda B_{1}, A_{2}+\lambda B_{2}))  \\
 Ainsi $u \in \mathcal{L}(E, F)$
 
 #### c.
-Supposons que $u$ est bijective, il existe alors $u^{-1} \in \mathcal{L}(F, E)$
-Soit $(A, B) \in E$, 
-On pose : 
-$$C = u((A, B)) = PA + QB$$
-Alors, 
-$$\forall C \in $$
-il n'existe pas de racines complexes communes à $P$ et $Q$ 
+Supposons que $u$ est bijective, 
+Alors, comme $X^{0} \in F$, et que $u$ est bijective il existe un unique couple $(A,B) \in E$ tel que : $u(A,B) = X^{0}$
+ie 
+$$PA + QB=X^{0}$$
+Donc par le théorème de Bézout :
+$$\boxed{P \wedge Q = 1}$$
+
+#### d.
+Supposons que $P\wedge Q = 1$, il existe alors par le théorème de Bézout $(A', B') \in \mathbb{C}[X]$, tels que : $PA' + QB' = X^{0}$, 
+Soit $(A, B) \in \mathrm{Ker}(u)$,
+$$P(A + A') + Q(B+B') = X^{0}$$
