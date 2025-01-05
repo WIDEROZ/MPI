@@ -32,7 +32,7 @@ De plus comme : $P \wedge Q = 1$,
 On a : $P | QB$ et $P\wedge Q = 1$, alors, $P | B$ or $\deg B \leq p-1$ et $\deg  P = p$
 Ainsi, 
 $$B= 0 \text{ et analoguement } A =0 $$
-
+Donc $\mathrm{Ker}(u) = \{ 0 \}$, alors, 
 
 
 ### Question 2
