@@ -52,4 +52,7 @@ Res(P, Q) = 0 &\Leftrightarrow u \not\in GL(E, F)  \\
 \end{array}$$
 
 ### Question 3
-	
+#### a.
+![[Pasted image 20250105231359.png]]
+$$P = (X+1)Q + X^{2} $$
+$$P\wedge Q = 1 \Leftrightarrow $$
