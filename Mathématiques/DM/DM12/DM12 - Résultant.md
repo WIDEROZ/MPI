@@ -37,5 +37,12 @@ Donc $\mathrm{Ker}(u) = \{ 0 \}$, alors,
 
 ### Question 2
 #### a.
-$$Mat_{\beta, \beta'}(u) = M_{P, Q}$$
+$$\boxed{Mat_{\beta, \beta'}(u) = M_{P, Q}}$$
 
+#### b.
+Si $P \wedge Q = 1$, 
+$$Res(P, Q) \neq 0$$
+Car $u$ est bijective
+
+#### c.
+$$Res(P, Q) = 0 \Leftrightarrow $$
