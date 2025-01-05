@@ -10,6 +10,15 @@ Soit $A=(A_{1}, A_{2}), B = (B_{1}, B_{2})\in E$ et $\lambda \in \mathbb{C}$,
 $$\begin{array}{rl}
 u(A + \lambda B) &= u((A_{1}+\lambda B_{1}, A_{2}+\lambda B_{2}))  \\
 &= P(A_{1}+\lambda B_{1}) + Q(A_{2}+\lambda B_{2}) \\
-&= PA_{1} + Q A_{2} + PB_{1} + Q B_{2} \\
-&= u
+&= PA_{1} + Q A_{2} + \lambda (PB_{1} + Q B_{2}) \\
+&= u(A) + \lambda u(B)
 \end{array}$$
+
+Ainsi $u \in \mathcal{L}(E, F)$
+
+#### c.
+Supposons que $u$ est bijective, il existe alors $u^{-1} \in \mathcal{L}(F, E)$
+Soit $(A, B) \in E$, 
+On pose : 
+$$C = u((A, B)) = PA + QB$$
+Alors, 
