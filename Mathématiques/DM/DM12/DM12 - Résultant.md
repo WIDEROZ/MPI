@@ -55,4 +55,11 @@ Res(P, Q) = 0 &\Leftrightarrow u \not\in GL(E, F)  \\
 #### a.
 ![[Pasted image 20250105231359.png]]
 $$P = (X+1)Q + X^{2} $$
-$$P\wedge Q = 1 \Leftrightarrow $$
+Soit $\lambda \in \mathbb{C}$ tel que : $Q(\lambda)= 0$, 
+$$P(\lambda) = \lambda^{2}$$
+Sauf que $\lambda \neq 0$ car $0$ n'est pas racine de $Q$. 
+Donc, $P$ et $Q$ n'ont aucunes racines en commun. 
+Ainsi, 
+$$\boxed{P \wedge Q = 1}$$
+
+#### b.
