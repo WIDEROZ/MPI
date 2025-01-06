@@ -145,4 +145,8 @@ $$K = \frac{V_{1} \left( 1+\ln\left( \frac{R_{2}}{R_{1}} \right) \right)-V_{2}}{
 # Exercice 4
 #### 1.
 $$\vec{j} = \gamma \vec{E}$$
-$$\vec{B} = $$
+Par le théorème d'ampère : 
+$$\oint_{Cf} \vec{B}.d\vec{l} = \mu_{0}I + \mu_{0}\varepsilon_{0}\frac{d}{dt} \iint_{S} \vec{E}.d\vec{S} = \mu_{0} I + \mu_{0} \varepsilon_{0} \frac{1}{\gamma} \frac{dI}{dt} = \mu_{0}I$$
+Alors, 
+$$\vec{B}(r) = \mu_{0} \frac{jr^{2}}{2\pi r} \vec{e}_{\theta} = \mu_{0} j $$
+$r \in ]0, a]$
