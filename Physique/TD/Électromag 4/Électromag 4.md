@@ -144,4 +144,11 @@ $$K = \frac{V_{1} \left( 1+\ln\left( \frac{R_{2}}{R_{1}} \right) \right)-V_{2}}{
 
 # Exercice 6
 #### 1.
+$I$ est stationnaire on utilise alors le théorème d'ampère simplifié. 
+A l'intérieur du premier cylindre : $\vec{B} = \overrightarrow{0}$
+Entre les deux cylindres : 
+Symétries : 
+$(\vec{e}_{r}, \vec{e})$
 
+en prenant le contour circulaire de centre $O$ et de rayon $r \in [R_{1}, R_{2}]$, 
+$$ = \oint \vec{B}.d\vec{l} = \mu_{0}I $$
