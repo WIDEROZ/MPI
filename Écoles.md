@@ -5,15 +5,13 @@ ENAC (toulouse)
 CY Tech (cergy / pau)
 Enseirb-Matmeca (bordeaux)
 
-
 #### Mines-Telecom
 Telecom Sud paris 
 ENSIIE (Evry) (Informatique)
 ENSTA (bretagne) (Je pas sais pas)
-Telecom Saint-Etienne
 
 
-IMT Nord europe
+IMT Nord europe (LOL)
 
 #### EPITA / IPSA / ESME
 IPSA (Lyon/Paris/Toulouse), (Electronique aéronautique)
