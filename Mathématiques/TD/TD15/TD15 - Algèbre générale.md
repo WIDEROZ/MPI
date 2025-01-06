@@ -110,8 +110,12 @@ Ainsi,
 $$z \in \mathbb{U}_{n}$$
 
 Supposons que $\mathbb{U}_{d} \subset \mathbb{U}_{n}$, 
-Soit $z \in \mathbb{U}_{d}$, 
-$$\exists x \in [\![0, d-1]\!], \exists y \in [\![0, n-1]\!], z = e^{ \frac{2i\pi x}{d} } = e^{ \frac{2i\pi y}{n} }$$
+$$e^{ \frac{2i\pi}{d} } \in \mathbb{U}_{n}$$
+Alors, 
+$$e^{ 2i\pi \frac{n}{d} }=1$$
+Ainsi, $\frac{n}{d} \in \mathbb{Z}$ ie $d | n$
+
+#### c.
 
 
 
