@@ -23,3 +23,6 @@ $$\boxed{v_{\varphi} = \frac{\omega}{\mathrm{Re}(k)}}$$
 $$\vec{E} = E_{0}\cos(\omega t - kz) \vec{e}_{x}$$
 $$\vec{B} = \frac{\vec{k} \wedge \vec{E}}{\omega}$$
 $$\vec{\Pi} = \frac{\vec{E} \wedge \vec{B}}{\mu_{0}} = E_{0}^{2}\cos(\omega t-kz)^{2}\frac{\vec{e}_{x} \wedge \vec{k} \wedge \vec{e}_{x}}{\omega \mu_{0}} = \frac{E_{0}^{2}\cos(\omega t - kz)^{2}}{\omega \mu_{0}}\vec{k}$$
+$$\left< \vec{\Pi} \right> = \frac{E_{0}^{2}k}{2\omega \mu_{0}}$$
+or
+$$\mathcal{P}_{moy} = \left< \Pi \right>  \times S = \frac{E_{0}^{2}}{2c\mu_{0}} = \frac{E_{0}^{2}\varepsilon_{0}c}{2} \Leftrightarrow \boxed{E_{0}= \sqrt{\frac{2\mathcal{P}_{moy}}{c\varepsilon_{0}}}}$$
