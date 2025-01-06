@@ -94,12 +94,25 @@ $$\Leftrightarrow \exists g \in G, \omega(g) = 47 \times 12 = 564$$
 
 ### Exercice 8
 #### a.
-Comme $\mathbb{Z} / n \mathbb{Z}$ est isomorphe à $\mathbb{U}_{n}$ dans $(\mathbb{C}^{*}, \times)$ c'est le seul groupe de cardinal $n$ dans $(\mathbb{C}^{*}, \times)$
-
 Soit $G$ un sous groupe de cardinal $n$ de $(\mathbb{C}^{*}, \times)$, 
-
+$$\forall z \in G, z^{n} = 1 \text{ ie } z \in \mathbb{U}_{n}$$
+Ainsi, $G \subset \mathbb{U}_{n}$ de plus, $\left| G\right| = \left| \mathbb{U}_{n}\right| = n$
+Ainsi, 
+$$G = \mathbb{U}_{n}$$
 
 #### b.
+Supposons que $d | n$, 
+Soit $z \in \mathbb{U}_{d}$, 
+$$z^{d} = 1$$
+comme $d | n$ il existe $k \in \mathbb{Z}^{*}$ tel que $kd =n$
+$$z^{dk} = 1^{k} \Rightarrow z^{n} = 1$$
+Ainsi, 
+$$z \in \mathbb{U}_{n}$$
+
+Supposons que $\mathbb{U}_{d} \subset \mathbb{U}_{n}$, 
+Soit $z \in \mathbb{U}_{d}$, 
+$$\exists x \in [\![0, d-1]\!], \exists y \in [\![0, n-1]\!], z = e^{ \frac{2i\pi x}{d} } = e^{ \frac{2i\pi y}{n} }$$
+
 
 
 
