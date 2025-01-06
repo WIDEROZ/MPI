@@ -20,3 +20,6 @@ $\vec{u}$ le vecteur unitaire de $\vec{k}$
 $$\boxed{v_{\varphi} = \frac{\omega}{\mathrm{Re}(k)}}$$
 
 #### Exercice b.
+$$\vec{E} = E_{0}\cos(\omega t - kz) \vec{e}_{x}$$
+$$\vec{B} = \frac{\vec{k} \wedge \vec{E}}{\omega}$$
+$$\vec{\Pi} = \frac{\vec{E} \wedge \vec{B}}{\mu_{0}} = E_{0}^{2}\cos(\omega t-kz)^{2}\frac{\vec{e}_{x} \wedge \vec{k} \wedge \vec{e}_{x}}{\omega \mu_{0}} = \frac{E_{0}^{2}\cos(\omega t - kz)^{2}}{\omega \mu_{0}}\vec{k}$$
