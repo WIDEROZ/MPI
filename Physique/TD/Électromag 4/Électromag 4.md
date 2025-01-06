@@ -163,3 +163,5 @@ $$U_{m } = \frac{1}{2}LI^{2} \Rightarrow L = \frac{\mu_{0}}{2\pi}l \ln\left( \fr
 
 #### 2.
 $$\overrightarrow{rot}(\vec{E}) = - \frac{\partial \vec{B}}{\partial t}$$
+$$E(r)2\pi r = \oint \vec{E}.d\vec{l} = - \frac{\partial }{\partial t} \iint \vec{B}.d\vec{S} = -\mu_{0} \left( \frac{\partial }{\partial t}  I\int r dr\right)$$
+$$\boxed{E(r) = -\frac{\mu_{0}}{4\pi}\frac{\partial I}{\partial t} r}$$
