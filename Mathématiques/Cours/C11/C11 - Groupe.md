@@ -526,4 +526,16 @@ $$\begin{array}{c}
 \forall a \in \mathcal{A}, a\mathcal{A} = \{ ab ; b \in \mathcal{A} \} \text{ est dit idéal principal de }\mathcal{A}
 \end{array}$$
 Si $\mathcal{B}$ est un anneau
-$$f : \mathcal{A} \to \mathcal{B}\text{ un morphsime d'anneau}$$
+$$f : \mathcal{A} \to \mathcal{B}\text{ un morphsime d'anneau } \mathrm{Ker}(f) \text{ est un idéal de }\mathcal{A}$$
+Si $(I_{j})_{j \in J}$ est une famille d'idéaux de $\mathcal{A}$, 
+$$\bigcap_{j \in J} I_{j} \text{ et }\sum_{j \in J} I_{j} \text{ sont des idéaux de }\mathcal{A}$$
+
+Démonstration : 
+2.
+$$\mathrm{Ker}(f) \underset{sg}{\subset}  \mathcal{A}$$
+Soit $x \in \mathrm{Ker}(f)$, $y \in \mathcal{A}$, $xy \in \mathrm{Ker}(f)$ car : 
+$$f(xy) = f(x) f(y) = 0$$
+
+3.
+$$\forall j \in J, I_{j} \underset{sg}{\subset} \mathcal{A} \Rightarrow \bigcap_{j \in J} I_{j} \underset{sg}{\subset} \mathcal{A}$$
+Soit $a \in \mathcal{A}$ et $b \in \bigcap_{j \in J} I_{j}$, 
