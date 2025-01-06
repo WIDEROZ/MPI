@@ -142,30 +142,7 @@ $$V_{1} = \frac{V_{2}-V_{1}}{\ln\left( \frac{R_{2}}{R_{1}} \right)}\ln\left( R_{
 Ainsi, 
 $$K = \frac{V_{1} \left( 1+\ln\left( \frac{R_{2}}{R_{1}} \right) \right)-V_{2}}{\ln\left( \frac{R_{2}}{R_{1}} \right)} $$
 
-# Exercice 6
+# Exercice 4
 #### 1.
-$I$ est stationnaire on utilise alors le théorème d'ampère simplifié. 
-A l'intérieur du premier cylindre : $\vec{B} = \overrightarrow{0}$
-Entre les deux cylindres : 
-Symétries : 
-$(M, \vec{e}_{r}, \vec{e}_{z})$ $\Pi$-antisymétrie pour $\vec{B}$ car de symétrie pour $D_{I}$
-$\vec{B} // \vec{e}_{\theta}$
-Invariances : 
-$e_{\theta}$ et $\vec{e}_{z}$ alors, $\vec{B} = B(r) \vec{e}_{\theta}$
-En prenant le contour circulaire de centre $O$ et de rayon $r \in [R_{1}, R_{2}]$, 
-$$B(r) 2\pi r = B(r)\oint dl  = \oint \vec{B}.d\vec{l} = \mu_{0}I $$
-Ainsi, 
-$$\boxed{B(r) = \frac{\mu I}{2\pi r}}$$
-$$U_{m} = \frac{1}{2\mu_{0}} \iiint B(r)^{2} \, d\tau  = \frac{\mu_{0}I^{2}}{8\pi^{2}}\int  \frac{1}{r^{2}}\, dz \, dr \, rd\theta  $$
-Ainsi, 
-$$U_{m} = \frac{\mu_{0}I^{2}}{4\pi}l \ln\left( \frac{R_{2}}{R_{1}} \right)$$
-$$U_{m } = \frac{1}{2}LI^{2} \Rightarrow L = \frac{\mu_{0}}{2\pi}l \ln\left( \frac{R_{2}}{R_{1}} \right)$$
-
-#### 2.
-$$\overrightarrow{rot}(\vec{E}) = - \frac{\partial \vec{B}}{\partial t}$$
-$$E(r)2\pi r = \oint \vec{E}.d\vec{l} = - \frac{\partial }{\partial t} \iint \vec{B}.d\vec{S} = -\mu_{0} \left( \frac{\partial }{\partial t}  I\int r dr\right)$$
-$$\boxed{E(r) = -\frac{\mu_{0}}{4\pi}\frac{\partial I}{\partial t} r}$$
-$$U_{em, elec} = \iiint u_{em, elec}  \, d\tau = \frac{1}{2}\varepsilon_{0} \iiint E^{2} d\tau $$
-$$= \frac{\mu_{0}\varepsilon_{0}}{8 \pi} \frac{\partial I}{\partial t}  \iiint r^{3}\, dr \, d\theta \, dz = \frac{\mu_{0}\varepsilon_{0}}{8} \frac{\partial I}{\partial t} l(R_{2}^{4} - R_{1}^{4})$$
-Ainsi, 
-$$\boxed{U_{em, elec} = \frac{\mu_{0}\varepsilon_{0}}{8} \frac{\partial I}{\partial t} l(R_{2}^{4} - R_{1}^{4})}$$
+$$\vec{j} = \gamma \vec{E}$$
+$$\vec{B} = $$
