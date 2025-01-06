@@ -156,4 +156,9 @@ En prenant le contour circulaire de centre $O$ et de rayon $r \in [R_{1}, R_{2}]
 $$B(r) 2\pi r = B(r)\oint dl  = \oint \vec{B}.d\vec{l} = \mu_{0}I $$
 Ainsi, 
 $$\boxed{B(r) = \frac{\mu I}{2\pi r}}$$
-$$U_{m} = \frac{1}{2\mu_{0}} \iiint B(r)^{2} \, d\tau  = \frac{\mu_{0}I^{2}}{8\pi^{2}}\int  \frac{1}{r^{2}}\, d\tau $$
+$$U_{m} = \frac{1}{2\mu_{0}} \iiint B(r)^{2} \, d\tau  = \frac{\mu_{0}I^{2}}{8\pi^{2}}\int  \frac{1}{r^{2}}\, dz \, dr \, rd\theta  $$
+Ainsi, 
+$$U_{m} = \frac{\mu_{0}I^{2}}{4\pi}l \ln\left( \frac{R_{2}}{R_{1}} \right)$$
+$$U_{m } = \frac{1}{2}LI^{2} \Rightarrow L = \frac{\mu_{0}}{2\pi}l \ln\left( \frac{R_{2}}{R_{1}} \right)$$
+
+#### 2.
