@@ -158,4 +158,3 @@ $$\mathcal{P}_{ray} = \iint \vec{\Pi} . d\vec{S} = -\frac{I^{2}}{\pi\gamma a^{4}
 
 #### 3.
 $$\boxed{\vec{E} = \frac{I}{\pi \gamma a^{2}} \vec{e}_{z} \text{ et } \vec{B} = \frac{\mu_{0}I}{2\pi a} \vec{e}_{\theta}}$$
-$$$$
