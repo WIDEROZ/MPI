@@ -120,6 +120,9 @@ Ainsi, $\frac{n}{d} \in \mathbb{Z}$ ie $d | n$
 
 
 
+
+
+
 ### Exercice 9
 #### a.
 Soit $x \in \mathbb{R}^{*}$, 
