@@ -80,10 +80,12 @@ $$\boxed{U_{AB} = R_{AB} \times i(t)}$$
 Avec : 
 $U_{AB} = V_{A}-V_{B}$
 $$\boxed{R_{AB} = \int_{A}^{B} \frac{dl}{\gamma S}  }$$
+Démonstration : on multiplie par $d\vec{l}$  et on intègre 
 
 ## Poynting
 #### Équation de Poynting locale
 $$\boxed{div(\vec{\Pi}) + \frac{\partial u_{em}}{\partial t}  = -\vec{j}.\vec{E}}$$
+Puissance diffusée. 
 Avec : 
 $$\boxed{\vec{\Pi} = \frac{\vec{E}\wedge \vec{B}}{\mu_{0}}} \text{ et } \boxed{u_{em} = \frac{1}{2}\varepsilon_{0} E^{2} + \frac{1}{2} \frac{B^{2}}{\mu_{0}}}$$
 $\vec{\Pi}$ le vecteur Poynting
