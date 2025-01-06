@@ -137,4 +137,3 @@ $$\boxed{\begin{cases}
 \underline{J_{y}}(z) = C_{+y} + C_{-y}e^{ \frac{i}{\delta}z } 
 \end{cases}}$$
 
-### 11.
