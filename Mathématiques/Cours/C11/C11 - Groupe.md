@@ -1,4 +1,4 @@
-# I. Les groupes
+œ# I. Les groupes
 ## 1. Révisions de MPSI / MP2I
 #### Définition
 Soit $G$ un ensemble
@@ -147,7 +147,7 @@ $$(\mathbb{Z}, +) \text{ est monogène} \text{ car } \mathbb{Z} = \left< 1 \righ
 ## 3. $(S_{n}, \circ)$
 #### Propriétés
 $$\begin{cases}
-S_{n} = n!  \\
+|S_{n}| = n!  \\
 (S_{n}, \circ) \text{ n'est fortement pas abélien}
 \end{cases}$$
 
