@@ -30,3 +30,8 @@ Soit $\sigma \in S_{n}$,
 Soit $k \in [\![1, n]\!]$, 
 L'orbite de $k$ est : 
 $$O(k) = \{ \sigma^{i}(k) ; i \in \mathbb{Z} \}$$
+
+#### Proposition
+$$\forall H \underset{sg}{\subset} (\mathbb{Z}, +), \exists n \in \mathbb{N}, H = n\mathbb{Z} = \left< n \right> $$
+ie tous les ss-groupes de $(\mathbb{Z}, +)$ sont monogènes
+

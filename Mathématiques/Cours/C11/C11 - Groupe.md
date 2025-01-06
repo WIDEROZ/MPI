@@ -517,5 +517,13 @@ Soit $\mathcal{A}$ un anneau commutatif et $I \subset \mathcal{A}$,
 On dit que $I$ est un idéal lorsque : 
 $$\begin{cases}
 I \text{ est un sous-groupe de }(\mathcal{A}, +) \\
-
+\forall a \in \mathcal{A}, \forall b \in I, ab \in I
 \end{cases}$$
+
+#### Proposition
+Soit $\mathcal{A}$ un anneau commutatif, 
+$$\begin{array}{c}
+\forall a \in \mathcal{A}, a\mathcal{A} = \{ ab ; b \in \mathcal{A} \} \text{ est dit idéal principal de }\mathcal{A}
+\end{array}$$
+Si $\mathcal{B}$ est un anneau
+$$f : \mathcal{A} \to \mathcal{B}\text{ un morphsime d'anneau}$$
