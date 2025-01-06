@@ -144,9 +144,14 @@ $$K = \frac{V_{1} \left( 1+\ln\left( \frac{R_{2}}{R_{1}} \right) \right)-V_{2}}{
 
 # Exercice 4
 #### 1.
-$$\vec{j} = \gamma \vec{E}$$
+$$\vec{j} = \gamma \vec{E} \Rightarrow \vec{E} =  \frac{I}{\pi \gamma a^{2}} \vec{e}_{z}$$
+
 Par le théorème d'ampère : 
 $$\oint_{Cf} \vec{B}.d\vec{l} = \mu_{0}I + \mu_{0}\varepsilon_{0}\frac{d}{dt} \iint_{S} \vec{E}.d\vec{S} = \mu_{0} I + \mu_{0} \varepsilon_{0} \frac{1}{\gamma} \frac{dI}{dt} = \mu_{0}I$$
 Alors, 
-$$\vec{B}(r) = \mu_{0} \frac{jr^{2}}{2\pi r} \vec{e}_{\theta} = \mu_{0} j $$
+$$\vec{B}(r) = \mu_{0} \frac{jr^{2}}{2\pi r} \vec{e}_{\theta} = \mu_{0} \frac{I}{2\pi a^{2}}r \vec{e}_{\theta}$$
 $r \in ]0, a]$
+
+#### 2.
+$$\boxed{\vec{\Pi} = -\frac{I^{2}}{2\pi^{2}\gamma a^{4}}r \vec{e}_{r}}$$
+$$\mathcal{P}_{ray} = \iint \vec{\Pi} . d\vec{S} = -\frac{I^{2}}{\pi\gamma a^{4}} \int r^{2} \, dr = -\frac{I^{2}}{3\pi \gamma a^{4}}r^{3} $$
