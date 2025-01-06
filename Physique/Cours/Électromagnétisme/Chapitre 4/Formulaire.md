@@ -33,9 +33,6 @@ $\vec{A}$ un champ
 $Cf$ : contour fermé orienté fermé
 $S$ : Surface orienté qui s'appuie sur $Cf$ 
 
-#### Loi de conservation de la charge
-$$div(\vec{j}) + \frac{d\rho}{dt}  = 0$$
-
 ## Équations de Maxwell
 $$\boxed{\begin{cases}
 div(\vec{B}) = 0 \text{ : Maxwell-flux}\\
@@ -43,6 +40,9 @@ div(\vec{E}) = \frac{\rho}{\varepsilon_{0}} \text{ : Maxwell-Gauss}  \\
 \overrightarrow{rot}(\overrightarrow{B}) = \mu_{0}\vec{j} + \mu_{0}\varepsilon_{0} \frac{\partial \vec{E}}{\partial t} \text{ : Maxwell-Ampère} \\
 \overrightarrow{rot}(\overrightarrow{E}) = -\frac{\partial \vec{B}}{\partial t} \text{ : Maxwell-Faraday}
 \end{cases}}$$
+
+#### Loi de conservation de la charge
+$$div(\vec{j}) + \frac{d\rho}{dt}  = 0$$
 
 #### Théorème d'Ampère généralisé
 $$\boxed{\oint_{Cf} \vec{B}.d\vec{l} = \mu_{0}I_{enl} + \mu_{0}\varepsilon_{0}\frac{d}{dt} \iint_{S} \vec{E}.d\vec{S}}$$
