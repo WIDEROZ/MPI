@@ -527,7 +527,7 @@ $$\begin{array}{c}
 \end{array}$$
 Si $\mathcal{B}$ est un anneau
 $$f : \mathcal{A} \to \mathcal{B}\text{ un morphsime d'anneau } \mathrm{Ker}(f) \text{ est un idéal de }\mathcal{A}$$
-Si $(I_{j})_{j \in J}$ est une famille d'idéaux de $\mathcal{A}$, 
+Si $(I_{j})_{j \in J}$ est une famille d'idéaux de $\mathcal{A}$ avec $J$ est fini
 $$\bigcap_{j \in J} I_{j} \text{ et }\sum_{j \in J} I_{j} \text{ sont des idéaux de }\mathcal{A}$$
 
 Démonstration : 
@@ -539,3 +539,6 @@ $$f(xy) = f(x) f(y) = 0$$
 3.
 $$\forall j \in J, I_{j} \underset{sg}{\subset} \mathcal{A} \Rightarrow \bigcap_{j \in J} I_{j} \underset{sg}{\subset} \mathcal{A}$$
 Soit $a \in \mathcal{A}$ et $b \in \bigcap_{j \in J} I_{j}$, 
+$$\forall j \in J, b \in I_{j} \Rightarrow ab \in I_{j} \Rightarrow ab \in \bigcap_{j \in J} I_{j}$$
+
+$$I = I_{1} + \dots + I_{n}$$
