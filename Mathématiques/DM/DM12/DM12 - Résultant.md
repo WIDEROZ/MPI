@@ -104,3 +104,16 @@ On a :
 $$P|(B_{0}-B)$$
 ie il existe $K \in \mathbb{C}[X]$ tel que : 
 $$KP=B_{0}-B \Rightarrow B = B_{0} - KP$$
+De même pour $A$ : 
+$$K'Q = A-A_{0} \Rightarrow A = A_{0} + K'Q$$
+
+Alors, 
+$$1 = PA + QB = PA_{0} + Q B_{0} + PQ K' - PQ K$$
+$$1 = 1 + PQ(K'-K)$$
+ie $K' = K = 0$
+Ainsi l'ensemble des solutions est : 
+$$\boxed{\{ (A_{0}, B_{0}) \}}$$
+
+# II. Applications
+### Question 4
+#### a.
