@@ -162,3 +162,4 @@ $$U_{m} = \frac{\mu_{0}I^{2}}{4\pi}l \ln\left( \frac{R_{2}}{R_{1}} \right)$$
 $$U_{m } = \frac{1}{2}LI^{2} \Rightarrow L = \frac{\mu_{0}}{2\pi}l \ln\left( \frac{R_{2}}{R_{1}} \right)$$
 
 #### 2.
+$$\overrightarrow{rot}(\vec{E}) = - \frac{\partial \vec{B}}{\partial t}$$
