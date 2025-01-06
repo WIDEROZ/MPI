@@ -92,6 +92,17 @@ Donc, $\omega(ab) | p_{1}p_{2}$
 $$G = \mathbb{Z} / 47 \mathbb{Z} \times \mathbb{Z} / 12 \mathbb{Z} \text{ est un monogène }$$
 $$\Leftrightarrow \exists g \in G, \omega(g) = 47 \times 12 = 564$$
 
+### Exercice 8
+#### a.
+Comme $\mathbb{Z} / n \mathbb{Z}$ est isomorphe à $\mathbb{U}_{n}$ dans $(\mathbb{C}^{*}, \times)$ c'est le seul groupe de cardinal $n$ dans $(\mathbb{C}^{*}, \times)$
+
+Soit $G$ un sous groupe de cardinal $n$ de $(\mathbb{C}^{*}, \times)$, 
+
+
+#### b.
+
+
+
 ### Exercice 9
 #### a.
 Soit $x \in \mathbb{R}^{*}$, 
