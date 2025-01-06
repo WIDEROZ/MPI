@@ -474,7 +474,7 @@ Soit $\bar{k} \in \mathbb{Z} / n \mathbb{Z}$,
 $$\bar{k} \in (\mathbb{Z} / n \mathbb{Z})^{*} \Leftrightarrow \exists \bar{u} \in \mathbb{Z} / n \mathbb{Z}, \bar{u}\bar{k} = \bar{1}$$
 $$\Leftrightarrow \exists u \in \mathbb{Z} / n \mathbb{Z}, \exists v \in \mathbb{Z}, uk = 1-vm$$
 $$\Leftrightarrow k \wedge n = 1 $$
-par Bezout 
+par Bézout 
 
 #### Proposition
 Soit $n\geq 2$, 
@@ -498,3 +498,24 @@ $$(\mathbb{Z} / n\mathbb{Z})^{*} = \mathbb{Z} / n \mathbb{Z} \setminus \{ \bar{0
 ie $\mathbb{Z} / n \mathbb{Z}$ est un corps.
 
 
+## 2. Compléments sur les anneaux
+#### Définition - Proposition
+Soient $\mathcal{A}, \mathcal{B}$ des anneaux
+Le produit cartésien $\mathcal{A} \times \mathcal{B}$ est muni de la structure d'anneau de la manière suivante : 
+$$ \begin{array}{c}\forall a_{1}, a_{2} \in \mathcal{A}, \forall b_{1}, b_{2} \in \mathcal{B},&
+(a_{1}, b_{1})+(a_{2}, b_{2}) = (a_{1}+a_{2}, b_{1}+b_{2}) \\
+&(a_{1}, b_{1})\times(a_{2}, b_{2}) = (a_{1}\times a_{2}, b_{1}\times b_{2})
+\end{array}$$
+Les neutres de $\mathcal{A} \times \mathcal{B}$ sont : 
+$$1_{\mathcal{A} \times \mathcal{B}} = (1_{\mathcal{A}}, 1_{\mathcal{B}}) \text{ pour }\times$$
+$$0_{\mathcal{A}\times \mathcal{B}}=(0_{\mathcal{A}}, 0_{\mathcal{B}}) \text{ pour }+$$
+$$\forall (a, b) \in \mathcal{A} \times \mathcal{B}, (a, b) \text{ est inversible }\Leftrightarrow a \in \mathcal{A}^{*} \text{ et }b \in \mathcal{B}^{*}$$
+Dans ce cas : $(a, b)^{-1} = (a^{-1}, b^{-1})$
+
+#### Définition
+Soit $\mathcal{A}$ un anneau commutatif et $I \subset \mathcal{A}$, 
+On dit que $I$ est un idéal lorsque : 
+$$\begin{cases}
+I \text{ est un sous-groupe de }(\mathcal{A}, +) \\
+
+\end{cases}$$
