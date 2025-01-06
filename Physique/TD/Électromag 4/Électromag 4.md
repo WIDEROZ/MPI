@@ -148,7 +148,12 @@ $I$ est stationnaire on utilise alors le théorème d'ampère simplifié.
 A l'intérieur du premier cylindre : $\vec{B} = \overrightarrow{0}$
 Entre les deux cylindres : 
 Symétries : 
-$(\vec{e}_{r}, \vec{e})$
-
-en prenant le contour circulaire de centre $O$ et de rayon $r \in [R_{1}, R_{2}]$, 
-$$ = \oint \vec{B}.d\vec{l} = \mu_{0}I $$
+$(M, \vec{e}_{r}, \vec{e}_{z})$ $\Pi$-antisymétrie pour $\vec{B}$ car de symétrie pour $D_{I}$
+$\vec{B} // \vec{e}_{\theta}$
+Invariances : 
+$e_{\theta}$ et $\vec{e}_{z}$ alors, $\vec{B} = B(r) \vec{e}_{\theta}$
+En prenant le contour circulaire de centre $O$ et de rayon $r \in [R_{1}, R_{2}]$, 
+$$B(r) 2\pi r = B(r)\oint dl  = \oint \vec{B}.d\vec{l} = \mu_{0}I $$
+Ainsi, 
+$$\boxed{B(r) = \frac{\mu I}{2\pi r}}$$
+$$U_{m} = \frac{1}{2\mu_{0}} \iiint B(r)^{2} \, d\tau  = \frac{\mu_{0}I^{2}}{8\pi^{2}}\int  \frac{1}{r^{2}}\, d\tau $$
