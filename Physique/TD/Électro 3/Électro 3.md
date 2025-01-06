@@ -14,5 +14,3 @@ $$S = A \oplus B \text{ et } C = A \cdot B $$
 #### 3.
 EXCAL 1
 
-### Exercice 2
-#### 1.
