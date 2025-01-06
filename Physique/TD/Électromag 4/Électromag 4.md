@@ -157,5 +157,5 @@ $$\boxed{\vec{\Pi} = -\frac{I^{2}}{2\pi^{2}\gamma a^{4}}r \vec{e}_{r}}$$
 $$\mathcal{P}_{ray} = \iint \vec{\Pi} . d\vec{S} = -\frac{I^{2}}{\pi\gamma a^{4}} \int r^{2} \, dr = -\frac{I^{2}}{3\pi \gamma a^{4}}r^{3} $$
 
 #### 3.
-$$\iint \vec{E}.d\vec{S} = \frac{Q_{int}}{\varepsilon_{0}} $$
-$$E(r)  = \frac{Q_{int}}{\pi a^{2}\varepsilon_{0}} = E(r) = \frac{\rho }{\pi a^{2}\varepsilon_{0}}$$
+$$\boxed{\vec{E} = \frac{I}{\pi \gamma a^{2}} \vec{e}_{z} \text{ et } \vec{B} = \frac{\mu_{0}I}{2\pi a} \vec{e}_{\theta}}$$
+$$$$
