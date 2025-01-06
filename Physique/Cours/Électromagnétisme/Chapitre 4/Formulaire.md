@@ -35,6 +35,7 @@ $S$ : Surface orienté qui s'appuie sur $Cf$
 
 #### Loi de conservation de la charge
 $$div(\vec{j}) + \frac{d\rho}{dt}  = 0$$
+
 ## Équations de Maxwell
 $$\boxed{\begin{cases}
 div(\vec{B}) = 0 \text{ : Maxwell-flux}\\
