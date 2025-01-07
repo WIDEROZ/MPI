@@ -586,6 +586,26 @@ or $\overline{4}^{2} = \overline{5}$
 Donc, 
 $$(X-\overline{2})^{2} - \overline{4}^{2} = \overline{0} \Leftrightarrow (X-\overline{2}-\overline{4})(X-\overline{2}+\overline{4})=\overline{0}$$
 Ainsi, 
-$$(X-\overline{6})(X+ \overline{2}) = \overline{0}\Leftrightarrow X-\overline{6}=$$
+$$(X-\overline{6})(X+ \overline{2}) = \overline{0}\Leftrightarrow X-\overline{6}=\overline{0} \text{ ou } X-\overline{2}=\overline{0}$$
 Ainsi comme $\mathbb{F}_{11}$ est intègre : les solutions sont : 
 $$\{ (\overline{6}, \overline{9}), (\overline{9}, \overline{6}) \}$$
+
+#### Exercice 
+Soient $m, p \in \mathbb{N} \setminus \{ 0, 1 \}$, 
+On note : 
+$$\forall k \in \mathbb{Z}, k[m] \text{ la classe de }k \text{ modulo }m$$
+$$\forall k, l \in \mathbb{Z}, k[mp]=l[mp] \Rightarrow k[m] = l[m]$$
+Ainsi, 
+$$\varphi : \begin{cases}
+\mathbb{Z} / mp \mathbb{Z} \to \mathbb{Z} / m\mathbb{Z} \times \mathbb{Z} / p \mathbb{Z} \\
+k[mp] \mapsto (k[m], k[p])
+\end{cases}$$
+est bien définie est c'est un morphisme d'anneau. 
+
+#### Théorème des restes chinois
+Soient $m, p \in \mathbb{N} \setminus \{ 0, 1 \}$, tq $m \wedge p =1$, 
+Alors, 
+$$\varphi : \begin{cases}
+\mathbb{Z} / mp \mathbb{Z} \to \mathbb{Z} / m\mathbb{Z} \times \mathbb{Z} / p \mathbb{Z} \\
+k[mp] \mapsto (k[m], k[p])
+\end{cases}$$ est un isomorphisme d'anneaux
