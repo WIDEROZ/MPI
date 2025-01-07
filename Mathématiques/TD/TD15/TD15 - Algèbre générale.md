@@ -205,3 +205,13 @@ Donc $p|F_{n} - (F_{n}-2) = 2$ ce qui est absurde car $F_{n}$ est impair.
 
 ### Exercice 25
 $$x^{3}- \overline{1} = (x^{3}-1)(x^{2}+x+\overline 1) = \overline 0$$
+Donc, $x= \overline 1$
+ou : 
+$$x^{2}+x+ \overline 1 = 0$$
+Alors, 
+$$\left( x+ \overline{10} \right)^{2}- \overline {100} + \overline 1 = \overline 0$$
+Alors, 
+$$(x - \overline{10})^{2} = \overline {99} = \overline 4 = \overline 2^{2}$$
+Comme $F_{19}$ est intègre, 
+$$(x+ \overline 8)(x + \overline {12}) = \overline 0$$
+
