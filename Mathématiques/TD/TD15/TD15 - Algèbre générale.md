@@ -162,5 +162,10 @@ $$\begin{array}{rl}
 
 $$\boxed{473 \wedge 220 = 11}$$
 
-#### b.
+$$43 (x-7) = 20(-15-y)$$
+Comme $43 \wedge 20 = 1$, 
+$$(x-7) | (15+y)$$
+il existe $k \in \mathbb{Z}$, 
+$$xk-7k = 15+y$$
+$$y = xk-(7k+15)$$
 $$$$
