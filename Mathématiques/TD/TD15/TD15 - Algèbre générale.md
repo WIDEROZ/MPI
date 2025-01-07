@@ -177,3 +177,9 @@ pour $k = 22$, les solutions sont : $y' = 2y$ et $x' = 2x$
 Si $b$ est impair, il existe $k \in \mathbb{N}$ tel que : $b = 2k+1$
 $$(2^{b})^{(2^{a})} - 2^{(2^{a})} = 2^{b-1}
 \sum_{k = 1}^{2^{a}-1} 2^{bk}2^{2^{a}-2}$$
+
+$$2^{2^{a}b} + 1 = -(2^{2^{a}}+1)\sum_{k =1}^{b-1} 2^{2^{a}k} (-1)^{k+1}$$
+Magnifique
+
+#### b.
+Si $n$ n'est pas une puissance de $2$, si on note : $a = v_{2}(n)\in \mathbb{N}$ $$\exists b \in \mathbb{N}, n = 2^{a}b $$
