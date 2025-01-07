@@ -609,3 +609,16 @@ $$\varphi : \begin{cases}
 \mathbb{Z} / mp \mathbb{Z} \to \mathbb{Z} / m\mathbb{Z} \times \mathbb{Z} / p \mathbb{Z} \\
 k[mp] \mapsto (k[m], k[p])
 \end{cases}$$ est un isomorphisme d'anneaux
+
+#### Corollaire
+Soit $n \in \mathbb{N} \setminus \{ 0, 1 \}$ dont la décomposition en produit de nombres premiers est :
+$$n = \prod_{k = 1}^{r} p_{k}^{m_{k}}$$
+Alors, 
+$$\mathbb{Z} / n\mathbb{Z} \text{ est isomorphe à } \mathbb{Z} / p_{1}^{m_{1}}\mathbb{Z} \times \dots \times \mathbb{Z} / p_{r}^{m_{r}} \mathbb{Z}$$
+et le groupe
+$$((\mathbb{Z} / n \mathbb{Z})^{*}, \times) \text{ est isomorphe à } (\mathbb{Z} / p_{1}^{m_{1}}\mathbb{Z})^{*} \times \dots \times (\mathbb{Z} / p_{r}^{m_{r}}\mathbb{Z})^{*}$$
+
+$$\forall m, p \in \mathbb{N} \setminus \{ 0, 1 \}, m \wedge p = 1\Rightarrow \forall a, b \in \mathbb{Z}, \exists! x[mp] \in \mathbb{Z} / mp\mathbb{Z}, \begin{cases}
+x[m] = a[m] \\
+x[p] = b
+\end{cases}$$
