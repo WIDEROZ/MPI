@@ -567,3 +567,13 @@ Démonstration :
 2.
 Les entiers appartenant à $\bigcap_{k = 1}^{r} (a_{k} \mathbb{Z})$ sont les multiples communs des $a_{k}$ et $m$ est le plus petit
 
+
+## 3. Arithmétique modulaire
+Si $\mathbb{Z} / n\mathbb{Z}$ est un corp on le note : $\mathbb{F}_{n} = \mathbb{Z} / n\mathbb{Z}$
+
+#### Exercice
+
+$$\begin{cases}
+a+b = \overline{4} \\
+ab = \overline{10}
+\end{cases}$$
