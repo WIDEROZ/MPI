@@ -617,8 +617,13 @@ Alors,
 $$\mathbb{Z} / n\mathbb{Z} \text{ est isomorphe à } \mathbb{Z} / p_{1}^{m_{1}}\mathbb{Z} \times \dots \times \mathbb{Z} / p_{r}^{m_{r}} \mathbb{Z}$$
 et le groupe
 $$((\mathbb{Z} / n \mathbb{Z})^{*}, \times) \text{ est isomorphe à } (\mathbb{Z} / p_{1}^{m_{1}}\mathbb{Z})^{*} \times \dots \times (\mathbb{Z} / p_{r}^{m_{r}}\mathbb{Z})^{*}$$
-
-$$\forall m, p \in \mathbb{N} \setminus \{ 0, 1 \}, m \wedge p = 1\Rightarrow \forall a, b \in \mathbb{Z}, \exists! x[mp] \in \mathbb{Z} / mp\mathbb{Z}, \begin{cases}
+Démonstration : récurer sur $r$. 
+Soient $m, p \in \mathbb{N}\setminus \{ 0, 1 \}$, tq $m \wedge p=1$, 
+$$\forall a, b \in \mathbb{Z}, \exists! x[mp] \in \mathbb{Z} / mp\mathbb{Z}, \begin{cases}
 x[m] = a[m] \\
-x[p] = b
+x[p] = b[p]
 \end{cases}$$
+Démonstration :
+Reformulation de la bijectivité de $\varphi$
+
+#### CCINP 95
