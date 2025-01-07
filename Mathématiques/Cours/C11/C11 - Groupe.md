@@ -557,4 +557,13 @@ Ainsi, $d$ est unique par l'intégrité car si $d' \in \mathcal{A}$ vérifie : $
 
 #### Proposition
 Soit $r\in \mathbb{N}$ tq $r \geq 2$, $a_{1}, \dots a_{r} \in \mathbb{Z} \setminus \{ 0 \}$
-Le P
+Le PGCD de $a_{1}, \dots, a_{r}$ est l'unique $d \in \mathbb{N}$ tel que : 
+$$\sum_{k = 1}^{r} a_{k} \mathbb{Z}= d\mathbb{Z}$$
+
+Le PPCM de $a_{1}, \dots, a_{r}$ est l'unique $m \in \mathbb{N}$ tel que : 
+$$\bigcap_{k = 1}^{r} (a_{k} \mathbb{Z})= m\mathbb{Z}$$
+
+Démonstration : 
+2.
+Les entiers appartenant à $\bigcap_{k = 1}^{r} (a_{k} \mathbb{Z})$ sont les multiples communs des $a_{k}$ et $m$ est le plus petit
+
