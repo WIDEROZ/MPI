@@ -1,4 +1,4 @@
-œ# I. Les groupes
+# I. Les groupes
 ## 1. Révisions de MPSI / MP2I
 #### Définition
 Soit $G$ un ensemble
@@ -542,3 +542,19 @@ Soit $a \in \mathcal{A}$ et $b \in \bigcap_{j \in J} I_{j}$,
 $$\forall j \in J, b \in I_{j} \Rightarrow ab \in I_{j} \Rightarrow ab \in \bigcap_{j \in J} I_{j}$$
 
 $$I = I_{1} + \dots + I_{n}$$
+
+#### Proposition
+Les idéaux de $\mathbb{Z}$ sont les $n\mathbb{Z}$
+Démonstration : 
+- $n\mathbb{Z}$ est un idéal de l'anneau commutatif : $(\mathbb{Z}, +, \times)$ 
+- Réciproquement si $I$ est un idéal de $\mathbb{Z}$ c'est un sous groupe de $(\mathbb{Z}, +)$, et on a vu qu'il existe alors $n \in \mathbb{N}, I = n\mathbb{Z}$
+
+#### Définition
+Soit $\mathcal{A}$ un anneau commutatif intègre et $a, b \in \mathcal{A}$
+On dit que $a$ divise $b$ lorsque :
+$$\exists d \in \mathcal{A}, b = ad \Leftrightarrow b\mathcal{A} \subset a\mathcal{A}$$
+Ainsi, $d$ est unique par l'intégrité car si $d' \in \mathcal{A}$ vérifie : $b = ad = ad'$ on aurait : $d-d' =0$ ie $d=d'$
+
+#### Proposition
+Soit $r\in \mathbb{N}$ tq $r \geq 2$, $a_{1}, \dots a_{r} \in \mathbb{Z} \setminus \{ 0 \}$
+Le P
