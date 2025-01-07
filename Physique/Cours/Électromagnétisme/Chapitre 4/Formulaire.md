@@ -42,7 +42,7 @@ div(\vec{E}) = \frac{\rho}{\varepsilon_{0}} \text{ : Maxwell-Gauss}  \\
 \end{cases}}$$
 
 #### Loi de conservation de la charge
-$$div(\vec{j}) + \frac{d\rho}{dt}  = 0$$
+$$\boxed{div(\vec{j}) + \frac{d\rho}{dt}  = 0}$$
 
 #### Théorème d'Ampère généralisé
 $$\boxed{\oint_{Cf} \vec{B}.d\vec{l} = \mu_{0}I_{enl} + \mu_{0}\varepsilon_{0}\frac{d}{dt} \iint_{S} \vec{E}.d\vec{S}}$$
