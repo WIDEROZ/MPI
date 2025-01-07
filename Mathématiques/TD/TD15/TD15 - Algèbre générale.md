@@ -183,3 +183,12 @@ Magnifique
 
 #### b.
 Si $n$ n'est pas une puissance de $2$, si on note : $a = v_{2}(n)\in \mathbb{N}$ $$\exists b \in \mathbb{N}\setminus \{ 1, 2 \}, n = 2^{a}b $$
+D'après le $a$ 
+$$3 \leq 2^{2^{a}}+1 \leq (2^{n})^{1/3}+1 < 2^{n+1}$$
+
+
+#### c.
+##### i.
+$$F_{n-1} = 2^{2^{n-1}}+1$$
+
+$$F_{n} -2 = 2^{2^{n}}-1 = (2^{2^{n-1}})^{2} -1 = ()$$
