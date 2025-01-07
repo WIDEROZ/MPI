@@ -163,4 +163,4 @@ $$\begin{array}{rl}
 $$\boxed{473 \wedge 220 = 11}$$
 
 #### b.
-$$\exists a, b, 473x +$$
+$$$$
