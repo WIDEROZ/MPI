@@ -1,4 +1,4 @@
-èy# Problème 1
+# Problème 1
 ## I. Modèle très simplifié
 ### 1.
 $$e = - \frac{d\phi}{dt}$$

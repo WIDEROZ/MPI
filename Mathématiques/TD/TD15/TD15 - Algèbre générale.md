@@ -151,3 +151,16 @@ $$\text{ et }\varphi(x) = \varphi(y)^{2p+1} \text{ pour }x \in \mathbb{R}_{+}^{*
 $$j^{2} = -1-j \in \mathbb{Z}[j]$$
 Soit $z \in \mathbb{Z}[j]$, il existe $a, b \in \mathbb{Z}$ tq $z = a+jb$, 
 $$\bar{z} = a+\bar{j}b = a+ j^{2}b = (a-b) + (-b)j$$
+
+### Exercice 18
+#### a.
+$$\begin{array}{rl}
+473 &= 2 \times 220 + 33 \\
+220 &=6 \times 33 + 22 \\
+33 &= 1 \times 22 + 11
+\end{array}$$
+
+$$\boxed{473 \wedge 220 = 11}$$
+
+#### b.
+$$\exists a, b, 473x +$$
