@@ -17,3 +17,4 @@ loath = répugner
 tinpot = de pacotille
 slight = affront
 shredded = bafouer
+spinal cord = moelle épinière
