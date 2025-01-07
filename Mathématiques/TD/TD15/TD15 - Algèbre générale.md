@@ -198,4 +198,10 @@ $$F_{n}-2 = F_{n-1}\dots F_{n-m}(2^{2^{m}}-1)$$Ainsi,
 $$\boxed{F_{m} | F_{n}-2}$$
 
 #### ii.
-$$F_{n} \equiv 2 [F_{m}]$$
+Supposons par l'absurde qu'il existe $p$ premier qui divise : $F_{m}$ et $F_{n}$
+$$p | F_{m}| F_{n}-2$$
+et $p| F_{n}$
+Donc $p|F_{n} - (F_{n}-2) = 2$ ce qui est absurde car $F_{n}$ est impair. 
+
+### Exercice 25
+$$x^{3}- \overline{1} = (x^{3}-1)(x^{2}+x+\overline 1) = \overline 0$$
