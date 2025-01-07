@@ -182,4 +182,4 @@ $$2^{2^{a}b} + 1 = -(2^{2^{a}}+1)\sum_{k =1}^{b-1} 2^{2^{a}k} (-1)^{k+1}$$
 Magnifique
 
 #### b.
-Si $n$ n'est pas une puissance de $2$, si on note : $a = v_{2}(n)\in \mathbb{N}$ $$\exists b \in \mathbb{N}, n = 2^{a}b $$
+Si $n$ n'est pas une puissance de $2$, si on note : $a = v_{2}(n)\in \mathbb{N}$ $$\exists b \in \mathbb{N}\setminus \{ 1, 2 \}, n = 2^{a}b $$
