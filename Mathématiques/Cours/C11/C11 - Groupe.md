@@ -627,7 +627,7 @@ Démonstration :
 Reformulation de la bijectivité de $\varphi$
 
 #### CCINP 95
-##### 2.
+##### NN2.
 Déterminer : 
 $$\begin{cases}
 x \equiv 6[17] \\
@@ -656,3 +656,11 @@ $$\begin{cases}
 Ainsi, 
 $$x_{0} = 6 \times(8\times 15) + 4 \times (-7 \times 17)$$
 vérifie le système de base. 
+...
+
+#### Définition
+$$\forall n \in \mathbb{N} \setminus \{ 0, 1 \}, \text{ on note : } \varphi(n) = \left| (\mathbb{Z} / n \mathbb{Z})^{*}\right|$$
+ie 
+$$\varphi(n) = \left| \{ k \in [\![1, n]\!] ; k \wedge n = 1 \}\right|$$
+On pose $\varphi(1) = 1$
+$$\varphi : \mathbb{N}^{*} \to \mathbb{N}^{*} \text{ est appellé l'indicatrice d'Euler}$$
