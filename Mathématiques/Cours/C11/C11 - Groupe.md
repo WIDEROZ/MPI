@@ -627,3 +627,32 @@ Démonstration :
 Reformulation de la bijectivité de $\varphi$
 
 #### CCINP 95
+##### 2.
+Déterminer : 
+$$\begin{cases}
+x \equiv 6[17] \\
+x \equiv 4 [15]
+\end{cases}$$
+Trouver : $a, b \in \mathbb{Z}$, 
+$$17a + 15b = 1$$
+On effectue l'algorithme d’Euclide :
+$$\begin{array}{c}
+17 = 1 \times 15 + 2 \\
+15 = 7 \times 2 +1
+\end{array}$$
+On remonte : 
+$$\begin{array}{rl}
+1&=15-7 \times 2 \\
+&= 15-7(17-15) \\
+&= 8 \times 15 - 7 \times 15 &  & 
+\end{array}$$
+$$\begin{cases}
+8\times 15 \equiv 1 [17 ] \\
+8 \times 15 \equiv 0 [15]
+\end{cases} \text{ et } \begin{cases}
+-7\times17 \equiv 0 [17] \\
+-7 \times 17 \equiv 1 [15]
+\end{cases}$$
+Ainsi, 
+$$x_{0} = 6 \times(8\times 15) + 4 \times (-7 \times 17)$$
+vérifie le système de base. 
