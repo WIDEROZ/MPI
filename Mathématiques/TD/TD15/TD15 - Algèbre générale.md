@@ -171,3 +171,9 @@ $$x = -20k+7$$
 
 
 pour $k = 22$, les solutions sont : $y' = 2y$ et $x' = 2x$
+
+### Exercice 19.
+#### a.
+Si $b$ est impair, il existe $k \in \mathbb{N}$ tel que : $b = 2k+1$
+$$(2^{b})^{(2^{a})} - 2^{(2^{a})} = 2^{b-1}
+\sum_{k = 1}^{2^{a}-1} 2^{bk}2^{2^{a}-1}$$
