@@ -572,8 +572,20 @@ Les entiers appartenant à $\bigcap_{k = 1}^{r} (a_{k} \mathbb{Z})$ sont les mul
 Si $\mathbb{Z} / n\mathbb{Z}$ est un corp on le note : $\mathbb{F}_{n} = \mathbb{Z} / n\mathbb{Z}$
 
 #### Exercice
-
+Déterminer : $(a, b) \in \mathbb{F}_{11}^{2}$, 
 $$\begin{cases}
 a+b = \overline{4} \\
 ab = \overline{10}
 \end{cases}$$
+On considère le polynôme : $Q(X) = (X-a)(X-b)\in \mathbb{F}_{11}[X]$
+$$Q(X) = X^{2}-(a+b)X +ab = X^{2}-\overline{4}X +\overline{10} $$
+$$= (X^{2} - \overline{4}X + \overline{4}) + \overline{6} = (X^{2}-\overline{2})^{2}+\overline{6}$$
+De plus, 
+$$Q(X) = \overline{0} \Leftrightarrow (X-\overline{2})^{2} = \bar{5}$$
+or $\overline{4}^{2} = \overline{5}$
+Donc, 
+$$(X-\overline{2})^{2} - \overline{4}^{2} = \overline{0} \Leftrightarrow (X-\overline{2}-\overline{4})(X-\overline{2}+\overline{4})=\overline{0}$$
+Ainsi, 
+$$(X-\overline{6})(X+ \overline{2}) = \overline{0}\Leftrightarrow X-\overline{6}=$$
+Ainsi comme $\mathbb{F}_{11}$ est intègre : les solutions sont : 
+$$\{ (\overline{6}, \overline{9}), (\overline{9}, \overline{6}) \}$$
