@@ -664,3 +664,10 @@ ie
 $$\varphi(n) = \left| \{ k \in [\![1, n]\!] ; k \wedge n = 1 \}\right|$$
 On pose $\varphi(1) = 1$
 $$\varphi : \mathbb{N}^{*} \to \mathbb{N}^{*} \text{ est appellé l'indicatrice d'Euler}$$
+
+#### Propriété
+$$\forall n \in \mathbb{N}^{*}, 1 \leq \varphi(n) \leq n-1$$
+$$\forall n \in \mathbb{N}^{*}, \varphi(n) = n-1 \Leftrightarrow n \in \mathcal{P}$$
+$$\forall n, p \in \mathbb{N}^{*}, n\wedge p \Rightarrow \varphi(np) = \varphi(n)\varphi(p)$$
+$$\forall \alpha \in \mathbb{N}^{*}, \forall p \in \mathcal{P}, \varphi(p^{\alpha}) = p^{\alpha}-p^{\alpha-1}$$
+$$\forall n \in \mathbb{N}^{*} \exists r \in \mathbb{N}^{*}, \exists (p_{k})_{k = 1}^{n} \in \mathcal{P}, (\alpha_{k})_{k \in \mathbb{N}^{*}}$$
