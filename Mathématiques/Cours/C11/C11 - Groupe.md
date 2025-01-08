@@ -786,4 +786,14 @@ A = P_{0}Q + R \\
 Or : 
 $$P_{0} \in I, PQ \in I$$
 $A \in I \Rightarrow R \in I$
-et comme $\forall Q \in I\setminus\ \{ 0 \},\deg P_{0} \leq \deg(Q)$
+et comme $\forall Q \in I\setminus\ \{ 0 \},\deg P_{0} \leq \deg(Q)$, $R = 0_{\mathbb{K}[X]}$ ie : 
+$$A = P_{0}Q \in P_{0}\mathbb{K}[X] $$
+Ainsi, 
+$$P_{0} \mathbb{K}[X] \supset I$$
+Enfin si $\tilde{P}_{0}$ est un polynome unitaire, $\tilde{P}_{0}\mathbb{K}[X] = I = P_{0}\mathbb{K}[X]$
+$$P_{0} \in P_{0}\mathbb{K}[X]= \tilde{P}_{0} \mathbb{K}[X] \Rightarrow \exists  Q_{1} \in \mathbb{K}[X], P_{0} = \tilde{P}_{0}Q_{1}$$
+De même, 
+$$\tilde{P}_{0} \in \tilde{P}_{0}\mathbb{K}[X] = P_{0}\mathbb{K}[X] \Rightarrow \exists Q_{2} \in \mathbb{K}[X], \tilde{P}_{0} = P_{0}Q_{2}$$
+Ainsi, 
+$$P_{0} = P_{0}Q_{2}Q_{1}\Rightarrow Q_{2}Q_{1} = 1$$
+car $\mathbb{K}[X]$ est intègre et $P_{0} \neq 0$.
