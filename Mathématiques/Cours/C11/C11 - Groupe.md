@@ -752,3 +752,15 @@ Comme $a\wedge n = 1$,
 $$\overline{a} \in (\mathbb{Z} / n \mathbb{Z})^{*}$$
 et comme $((\mathbb{Z}/n\mathbb{Z})^{*}, \times)$ est un groupe de cardinal $\varphi(n)$, d'après le théorème de Lagrange, $Ord(\overline{a}) | \varphi(n)$ ie : 
 $$\overline{a}^{\varphi(n)} = \overline{1}$$
+
+## 4. Arithmétique dans $\mathbb{K}[X]$
+$\mathbb{K} \in \{ \mathbb{R}, \mathbb{C} \}$
+
+#### Théorème
+Soit $I\setminus \{ 0_{\mathbb{K}[X]} \}$ un idéal de $\mathbb{K}[X]$, 
+Alors il existe un unique $P_{0} \in \mathbb{K}[X]$ unitaire tel que : 
+$$I = P_{0} \mathbb{K}[X] = \{ P_{0}Q ; Q \in \mathbb{K}[X] \}$$
+Démonstration : 
+Puisque : $I \neq \{ 0 \}$ et $0 \in I$, il existe $P_{1} \in I$ non nul donc, 
+$$\{ \deg Q ; Q \in I \setminus \{ 0 \} \}$$
+est une 
