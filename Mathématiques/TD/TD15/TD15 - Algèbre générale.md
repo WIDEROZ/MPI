@@ -217,6 +217,8 @@ $$(x+ \overline 8)(x + \overline {12}) = \overline 0$$
 
 ### Exercice 26
 #### a.
-$\Leftarrow$ : 
-Si il existe $\overline{a} \in \mathbb{F}_{p}$ tel que $\overline{a} \times \overline{a} = -\overline{3} = \overline{p}-\overline{3}$, 
-$$(x-)\left( x+ \frac{1-}{2} \right)$$
+On note : 
+$$p = 2a +1$$car $p \neq 2$, alors, $\overline{2}\times \overline{a+1} = \overline{2a+1} + \overline{1} = \overline{1}$
+$$\forall x \in \mathbb{F}_{p}, \begin{array}{rl}
+x^{2} + x + \overline{1} = \overline{0} &\Leftrightarrow 
+\end{array}$$
