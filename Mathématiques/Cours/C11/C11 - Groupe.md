@@ -668,7 +668,7 @@ $$\varphi : \mathbb{N}^{*} \to \mathbb{N}^{*} \text{ est appellé l'indicatrice 
 #### Propriété
 $$\forall n \in \mathbb{N}^{*}, 1 \leq \varphi(n) \leq n-1$$
 $$\forall n \in \mathbb{N}^{*}, \varphi(n) = n-1 \Leftrightarrow n \in \mathcal{P}$$
-$$\forall n, p \in \mathbb{N}^{*}, n\wedge p \Rightarrow \varphi(np) = \varphi(n)\varphi(p)$$
+$$\forall n, p \in \mathbb{N}^{*}, n\wedge p =1\Rightarrow \varphi(np) = \varphi(n)\varphi(p)$$
 $$\forall \alpha \in \mathbb{N}^{*}, \forall p \in \mathcal{P}, \varphi(p^{\alpha}) = p^{\alpha}-p^{\alpha-1}$$
 $$\begin{array}{l}
 \forall n \in \mathbb{N}^{*} \exists r \in \mathbb{N}^{*}, \exists (p_{k})_{k = 1}^{n} \in \mathcal{P}^{r}, (\alpha_{k})_{k = 1}^{n}\in (\mathbb{N}^{*})^{r}, \\
@@ -679,13 +679,31 @@ Démonstration :
 1.
 $$(\mathbb{Z} / n \mathbb{Z})^{*} \subset \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \}$$
 $$\varphi(n) \leq \left| \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \} \right| = n-1$$
-et $\overline{1} \in \mathbb{Z} / n\mathbb{Z}$ donc, $\varphi(n) \geq 1$, 
-Ainsi, comme $\left| \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \}\right| = n-1$, 
+et $\overline{1} \in \mathbb{Z} / n\mathbb{Z}$ donc, $\varphi(n) \geq 1$. 
+2.
+Comme $\left| \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \}\right| = n-1$, 
 $$\begin{array}{rl}
 \varphi(n) = 1 &\Leftrightarrow (\mathbb{Z} / n \mathbb{Z})^{*} = \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \} \\
 &\Leftrightarrow \mathbb{Z} / n \mathbb{Z} \text{ est un corp} \\
 &\Leftrightarrow n \in \mathbb{P}
 \end{array}$$
 
-2.
-D'après le théorème des restes chinois 
+3.
+D'après le théorème des restes chinois, comme $n \wedge p = 1$, $(\mathbb{Z} / n p\mathbb{Z})^{*}$ est isomorphe à : 
+$$(\mathbb{Z} / n \mathbb{Z} \times \mathbb{Z} / p \mathbb{Z})^{*} = (\mathbb{Z} / n \mathbb{Z})^{*} \times (\mathbb{Z} / p \mathbb{Z})^{*}$$
+En particulier ils sont de même cardinal : 
+$$\varphi(np) = \varphi(n) \varphi(p)$$
+
+4.
+$$\begin{array}{rl}
+\forall k \in [\![1, p^{\alpha}]\!], &\Leftrightarrow k\wedge p^{\alpha} = 1 \\
+&\Leftrightarrow k \wedge p \\
+&\Leftrightarrow p \text{ ne divise pas }k \\
+&\Leftrightarrow k \not\in \{ p, 2p, 3p, \dots, ^{\alpha} \} = \{ jp ; j \in [\![1, p^{\alpha-1}]\!] \} = E
+\end{array}$$
+Donc, 
+$$(\mathbb{Z} / p^{\alpha}\mathbb{Z})^{*} = (\mathbb{Z} / p^{\alpha}\mathbb{Z}) \setminus E$$
+Ainsi, 
+$$\varphi(p^{\alpha}) = p^{\alpha}- p^{\alpha-1}$$
+
+5.
