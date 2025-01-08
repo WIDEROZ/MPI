@@ -797,3 +797,11 @@ $$\tilde{P}_{0} \in \tilde{P}_{0}\mathbb{K}[X] = P_{0}\mathbb{K}[X] \Rightarrow 
 Ainsi, 
 $$P_{0} = P_{0}Q_{2}Q_{1}\Rightarrow Q_{2}Q_{1} = 1$$
 car $\mathbb{K}[X]$ est intègre et $P_{0} \neq 0$.
+Ainsi, $\deg(Q_{1}) + \deg(Q_{2}) = 0$, et $\deg(Q_{1}) = \deg(Q_{2}) = 0$
+et donc, 
+$$\exists \alpha \in \mathbb{K}^{*}, \begin{cases}
+Q_{1}(X) = \alpha \\
+Q_{2}(X) = \frac{1}{2}
+\end{cases}$$Enfin puisque $P_{0}$ et $\tilde{P}_{0}$ sont unitaires, $1 = Cd(P_{0}) = Cd(\tilde{P}_{0}Q_{1}) = Cd(\tilde{P}_{0}) \times Cd(\tilde{P}_{0}) \times Cd(Q_{1}) = 1 \times \alpha$
+Donc, 
+$$Q_{1}(X) = 1 \Rightarrow P_{0} = \tilde{P}_{0}$$
