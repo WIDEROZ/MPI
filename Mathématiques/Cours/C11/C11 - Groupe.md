@@ -670,4 +670,22 @@ $$\forall n \in \mathbb{N}^{*}, 1 \leq \varphi(n) \leq n-1$$
 $$\forall n \in \mathbb{N}^{*}, \varphi(n) = n-1 \Leftrightarrow n \in \mathcal{P}$$
 $$\forall n, p \in \mathbb{N}^{*}, n\wedge p \Rightarrow \varphi(np) = \varphi(n)\varphi(p)$$
 $$\forall \alpha \in \mathbb{N}^{*}, \forall p \in \mathcal{P}, \varphi(p^{\alpha}) = p^{\alpha}-p^{\alpha-1}$$
-$$\forall n \in \mathbb{N}^{*} \exists r \in \mathbb{N}^{*}, \exists (p_{k})_{k = 1}^{n} \in \mathcal{P}, (\alpha_{k})_{k \in \mathbb{N}^{*}}$$
+$$\begin{array}{l}
+\forall n \in \mathbb{N}^{*} \exists r \in \mathbb{N}^{*}, \exists (p_{k})_{k = 1}^{n} \in \mathcal{P}^{r}, (\alpha_{k})_{k = 1}^{n}\in (\mathbb{N}^{*})^{r}, \\
+n = \prod_{k = 1}^{r} p_{k}^{\alpha_{k}} \\ \Rightarrow \left( \varphi(n) = \prod_{k = 1}^{r}(p_{k}^{\alpha_{k}} - p_{k}^{\alpha_{k}-1})  \Leftrightarrow \frac{\varphi(n)}{n} = \prod_{k = 1}^{r} \left( 1-\frac{1}{p_{k}} \right)\right) 
+\end{array}$$
+
+Démonstration : 
+1.
+$$(\mathbb{Z} / n \mathbb{Z})^{*} \subset \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \}$$
+$$\varphi(n) \leq \left| \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \} \right| = n-1$$
+et $\overline{1} \in \mathbb{Z} / n\mathbb{Z}$ donc, $\varphi(n) \geq 1$, 
+Ainsi, comme $\left| \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \}\right| = n-1$, 
+$$\begin{array}{rl}
+\varphi(n) = 1 &\Leftrightarrow (\mathbb{Z} / n \mathbb{Z})^{*} = \mathbb{Z} / n \mathbb{Z} \setminus \{ \overline{0} \} \\
+&\Leftrightarrow \mathbb{Z} / n \mathbb{Z} \text{ est un corp} \\
+&\Leftrightarrow n \in \mathbb{P}
+\end{array}$$
+
+2.
+D'après le théorème des restes chinois 
