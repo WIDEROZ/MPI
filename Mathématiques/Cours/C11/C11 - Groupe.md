@@ -757,10 +757,33 @@ $$\overline{a}^{\varphi(n)} = \overline{1}$$
 $\mathbb{K} \in \{ \mathbb{R}, \mathbb{C} \}$
 
 #### Théorème
-Soit $I\setminus \{ 0_{\mathbb{K}[X]} \}$ un idéal de $\mathbb{K}[X]$, 
+Soit $I \neq \{ 0_{\mathbb{K}[X]} \}$ un idéal de $\mathbb{K}[X]$, 
 Alors il existe un unique $P_{0} \in \mathbb{K}[X]$ unitaire tel que : 
 $$I = P_{0} \mathbb{K}[X] = \{ P_{0}Q ; Q \in \mathbb{K}[X] \}$$
 Démonstration : 
 Puisque : $I \neq \{ 0 \}$ et $0 \in I$, il existe $P_{1} \in I$ non nul donc, 
 $$\{ \deg Q ; Q \in I \setminus \{ 0 \} \}$$
-est une 
+est une partie de $\mathbb{N}$ non vide. Donc elle admet un minimum, ie : 
+$$\exists P_{2} \in I \neq \{ 0 \}, \forall Q \in I \setminus \{ 0 \}, \deg P_{2} \leq \deg Q $$
+
+On note : $\lambda \in \mathbb{K}^{*}$, le coefficient dominant de $P_{2}$
+Alors, on note : 
+$$\begin{cases}
+Q(X) = \lambda^{-1} \in \mathbb{K}[X]  \\
+P_{2} \in I
+\end{cases} \Rightarrow P_{0} = QP_{2} \in I$$
+$P_{0}$ est unitaire et vérifie aussi : 
+$$\forall Q \in I \setminus\ \{ 0 \}, \deg P_{0} \leq \deg Q$$
+Comme $I$ est un idéal, 
+$$P_{0} \mathbb{K}[X] \subset I$$
+
+Réciproquement : 
+Soit $A \in I$, par le théorème de la division euclidienne il existe $Q, R\in \mathbb{K}[X]$, 
+$$\begin{cases}
+A = P_{0}Q + R \\
+\deg R < \deg P_{0}
+\end{cases}$$
+Or : 
+$$P_{0} \in I, PQ \in I$$
+$A \in I \Rightarrow R \in I$
+et comme $\forall Q \in I\setminus\ \{ 0 \},\deg P_{0} \leq \deg(Q)$
