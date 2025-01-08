@@ -215,3 +215,8 @@ $$(x - \overline{10})^{2} = \overline {99} = \overline 4 = \overline 2^{2}$$
 Comme $F_{19}$ est intègre, 
 $$(x+ \overline 8)(x + \overline {12}) = \overline 0$$
 
+### Exercice 26
+#### a.
+$\Leftarrow$ : 
+Si il existe $\overline{a} \in \mathbb{F}_{p}$ tel que $\overline{a} \times \overline{a} = -\overline{3} = \overline{p}-\overline{3}$, 
+$$(x-)\left( x+ \frac{1-}{2} \right)$$
