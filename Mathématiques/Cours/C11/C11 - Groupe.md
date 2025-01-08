@@ -742,4 +742,13 @@ $$\dots$$
 
 
 #### Petit théorème de Fermat
-$$\forall p \in \mathcal{P}, \forall a \in \mathbb{Z}, a \wedge p = 1 \Rightarrow \overline{a} ^{p-1}= \overline{1} $$
+$$\forall p \in \mathcal{P}, \forall a \in \mathbb{Z}, a \wedge p = 1 \Rightarrow \overline{a} ^{p-1}= \overline{1}  \text{ dans }\mathbb{Z} / p \mathbb{Z}$$
+
+#### Théorème d'Euler
+$$\forall n \in \mathbb{N}\setminus \{ 0, 1 \}, \forall a \in \mathbb{Z}, a\wedge n = 1 \Rightarrow \overline{a}^{\varphi(n)} = \overline{1} \text{ dans }\mathbb{Z} / n \mathbb{Z}$$
+
+Démonstration : 
+Comme $a\wedge n = 1$, 
+$$\overline{a} \in (\mathbb{Z} / n \mathbb{Z})^{*}$$
+et comme $((\mathbb{Z}/n\mathbb{Z})^{*}, \times)$ est un groupe de cardinal $\varphi(n)$, d'après le théorème de Lagrange, $Ord(\overline{a}) | \varphi(n)$ ie : 
+$$\overline{a}^{\varphi(n)} = \overline{1}$$
