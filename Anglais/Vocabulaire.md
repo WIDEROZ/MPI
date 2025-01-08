@@ -19,3 +19,6 @@ slight = affront
 shredded = bafouer
 spinal cord = moelle épinière
 stem cells = cellules souches
+supporters = partisans
+opponents = détracteurs
+joe biden = joe biden
