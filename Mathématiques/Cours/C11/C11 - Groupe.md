@@ -731,3 +731,15 @@ Soient $p \neq q \in \mathcal{P}$,
 Soient $a, b \in \mathbb{N}^{*}$ et $n = p^{a}q^{b}$
 Montrons que : 
 $$\sum_{\underset{d | n}{d \geq 1}} \varphi(d)=n$$
+On note :
+$$\mathcal{D}(n) = \left\{ p^{\alpha}q^{\beta} ; \begin{cases}
+\alpha \in [\![1, a]\!] \\
+\beta \in [\![1, b]\!]
+\end{cases} \right\}$$
+l'ensemble des diviseurs de $n$
+$$\sum_{d \in \mathcal{D}(n)} \varphi(d) = \sum_{\alpha = 0}^{a} \sum_{\beta = 0}^{b} \varphi(p^{\alpha}q^{\beta}) = \sum_{\alpha = 0}^{a} \sum_{\beta = 0}^{b} (p^{\alpha}-p^{\alpha-1})(q^{\beta}-q^{\beta-1})$$
+$$\dots$$
+
+
+#### Petit théorème de Fermat
+$$\forall p \in \mathcal{P}, \forall a \in \mathbb{Z}, a \wedge p = 1 \Rightarrow \overline{a} ^{p-1}= \overline{1} $$
