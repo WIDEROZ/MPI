@@ -18,3 +18,4 @@ tinpot = de pacotille
 slight = affront
 shredded = bafouer
 spinal cord = moelle épinière
+stem cells = cellules souches
