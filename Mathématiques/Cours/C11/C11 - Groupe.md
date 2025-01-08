@@ -707,3 +707,27 @@ Ainsi,
 $$\varphi(p^{\alpha}) = p^{\alpha}- p^{\alpha-1}$$
 
 5.
+Par récurrence sur $r \in \mathbb{N}^{*}$,
+initialisation : $r=1$ c'est le 3.
+Soit
+$$n = \prod_{k= 1}^{r+1} p_{k}^{\alpha_{k}} \text{ alors } m = \prod_{k= 1}^{r} p_{k}^{\alpha_{k}} \text{ est premier}$$
+
+avec $p^{\alpha_{r+1}}_{r+1}$ car $p_{r+1}$ est premier différent de $p_{1} \dots p_{r}$, 
+Alors, 
+$$\varphi(n) = \varphi(m) \varphi(p^{\alpha_{r+1}}_{r+1}) \text{ par le 2.}$$
+et
+$$\begin{array}{rl}
+\varphi(n) &= \varphi(m)(p_{r+1}^{\alpha_{r+1}}-p_{r+1}^{\alpha_{r+1}-1}) \\
+&= \prod_{k = 1}^{r} (p_{k}^{\alpha_{k}} - p_{k}^{\alpha_{k}-1})(p_{r+1}^{\alpha_{r+1}}-p^{\alpha_{r+1}-1}_{r+1}) \\
+&= SKIFO
+\end{array}$$
+
+
+#### Exercice
+$$\varphi(2025) = \varphi(5\times 405) = \varphi(5^{2}\times 3^{4}) = (5^{2}-5)(3^{4}-3^{3}) = 1080$$
+
+#### Exercice
+Soient $p \neq q \in \mathcal{P}$, 
+Soient $a, b \in \mathbb{N}^{*}$ et $n = p^{a}q^{b}$
+Montrons que : 
+$$\sum_{\underset{d | n}{d \geq 1}} \varphi(d)=n$$
