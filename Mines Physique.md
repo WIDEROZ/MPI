@@ -21,4 +21,8 @@ $$\overrightarrow{rot}(\vec{j} \wedge \vec{B}) = \vec{j} div(\vec{B}) - (\vec{j}
 
 $$\vec{E} = \frac{1}{\gamma}\vec{j} - \mathcal{R} \vec{j} \wedge \vec{B}$$
 
-$$dV = \int  \vec{E}.d\vec{l}$$
+$$u = \int_{Q}^{P} \vec{E}.d\vec{l} = \int_{Q}^{P} \vec{E}.\vec{e}_{x} dx+ \int_{Q}^{P} E_{y}dy = lE_{y}$$
+
+$$R = \frac{lE_{y}}{i}$$
+Soit $d\vec{S}$ orienté // à $\vec{j}$ : 
+$$$$
