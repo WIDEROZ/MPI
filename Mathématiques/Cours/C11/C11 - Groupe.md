@@ -862,3 +862,12 @@ $$\begin{cases}
 \mathcal{L}(E) \to \mathcal{M}_{n}(\mathbb{K}) \\
 f \mapsto Mat_{\beta}(f)
 \end{cases}$$
+est un isomorphisme d'algèbre. 
+
+Soit $P \in \mathbb{K}[X]$ il existe $\alpha_{1}, \dots, \alpha_{n}$ tels que ;d
+$$P = \sum_{k = 0}^{n} \alpha_{k}X^{k}$$
+$$\begin{cases}
+\mathbb{K}[X] \to \mathcal{L}(E) \\
+P \mapsto P(f) = \sum_{k = 0}^{n}\alpha_{k} f^{k}
+\end{cases}$$
+
