@@ -24,15 +24,23 @@ $$\frac{E_{1,0}}{E_{2, 0}}  \in \mathbb{R} \Rightarrow \text{ polarisation recti
 $\vec{E}_{2}, \vec{E}_{3}$ : 
 $$\frac{1}{i} = -i \Rightarrow \text{polarisation circulaire}$$
 $\vec{E}_{4}$ : 
-$$0\Rightarrow \text{ pas de polarisation}$$
+Polarisation rectiligne : 
+$$\vec{E}_{4} = -E_{0} \sin{(kx-\omega t) }\begin{pmatrix}
+0 \\
+0 \\
+1
+\end{pmatrix}$$
 
 #### 2.
 ##### a.
 Cercle trigo avec $O_{z}$ en ordonnées et $O_{y}$ en abscisses et $\alpha$ est l'angle entre $O_{y}$ et $\vec{u}$ : 
 
 #### b.
-
-
+$$\vec{E} = E_{0}\begin{pmatrix}
+0 \\
+\cos (\alpha) \\
+0
+\end{pmatrix}$$
 
 ### Exercice 4
 #### 1.
