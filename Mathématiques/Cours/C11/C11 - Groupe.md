@@ -805,3 +805,31 @@ Q_{2}(X) = \frac{1}{2}
 \end{cases}$$Enfin puisque $P_{0}$ et $\tilde{P}_{0}$ sont unitaires, $1 = Cd(P_{0}) = Cd(\tilde{P}_{0}Q_{1}) = Cd(\tilde{P}_{0}) \times Cd(\tilde{P}_{0}) \times Cd(Q_{1}) = 1 \times \alpha$
 Donc, 
 $$Q_{1}(X) = 1 \Rightarrow P_{0} = \tilde{P}_{0}$$
+
+#### Définition
+Soit $r \geq 1$ et $P_{1}, \dots, P_{r} \in \mathbb{K}[X]$ non nuls
+On appelle PGCD de $P_{1}, \dots, P_{r}$ l'unique polynôme unitaire $P \in \mathbb{K}[X]$ tel que : 
+$$P_{1}\mathbb{K}[X] + \dots + P_{r}\mathbb{K}[X] = P\mathbb{K}[X]$$
+On le note : 
+$$P = P_{1} \wedge \dots \wedge P_{r}$$
+On appelle PPCM de $P_{1}, \dots, P_{r}$ l'unique polynôme unitaire $Q \in \mathbb{K}[X]$ tel que : 
+$$P_{1}\mathbb{K}[X] \cap \dots \cap P_{r}\mathbb{K}[X] = Q\mathbb{K}[X]$$
+
+En particulier $P$ est un multiple de $P$ si : 
+$$\exists A_{1}, \dots, A_{r} \in \mathbb{K}[X], \sum_{k =1}^{r} A_{k}(X)P_{k}(X) = P(X)$$
+
+# III. Structure d'algèbre
+#### Définition
+On appelle $\mathbb{K}$-algèbre tout quadruplet : $(\mathcal{A}, +, \cdot, \times)$ tel que : 
+$$\begin{cases}
+(\mathcal{A}, +, \cdot) \text{ est un }\mathbb{K}\text{-ev} \\
+\times \text{ est une loi interne admettant un neutre }1_{\mathcal{A}} \\
+\begin{cases}
+\mathcal{A} \times \mathcal{A} \to \mathcal{A} \\
+(a, b) \mapsto a\times b
+\end{cases}\text{ est bilinéaire}
+\end{cases}$$
+Si $\times$ est associative (resp. commutative) on dit que $\mathcal{A}$ est associative (resp. commutative)
+
+#### Exemple
+$$(\mathbb{K}[X], +, \cdot, \times)\text{ est une }\mathbb{K}\text{-algèbre associative et commutative}$$
