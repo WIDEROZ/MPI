@@ -36,17 +36,13 @@ $$\vec{E}_{4} = -E_{0} \sin{(kx-\omega t) }\begin{pmatrix}
 Cercle trigo avec $O_{z}$ en ordonnées et $O_{y}$ en abscisses et $\alpha$ est l'angle entre $O_{y}$ et $\vec{u}$ : 
 
 #### b.
-$$\vec{E} = E_{0}\begin{pmatrix}
+$$\vec{E} = E_{0}\cos(kx-\omega t)\begin{pmatrix}
 0 \\
 \cos (\alpha) \\
-0
+-\sin(\alpha)
+\end{pmatrix} + E_{0}\cos(kx-\omega t)\begin{pmatrix}
+0 \\
+-\cos(\alpha)\\
+\sin(\alpha)
 \end{pmatrix}$$
 
-### Exercice 4
-#### 1.
-##### a.
-$$\vec{\nabla} = \begin{pmatrix}
-\frac{\partial }{\partial x}  \\
-\frac{\partial }{\partial y}  \\
-\frac{\partial }{\partial z} 
-\end{pmatrix}$$
