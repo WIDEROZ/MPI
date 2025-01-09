@@ -36,13 +36,25 @@ $$\vec{E}_{4} = -E_{0} \sin{(kx-\omega t) }\begin{pmatrix}
 Cercle trigo avec $O_{z}$ en ordonnées et $O_{y}$ en abscisses et $\alpha$ est l'angle entre $O_{y}$ et $\vec{u}$ : 
 
 #### b.
-$$\vec{E} = E_{0}\cos(kx-\omega t)\begin{pmatrix}
+On pose : 
+$$\vec{u} = \begin{pmatrix}
 0 \\
-\cos (\alpha) \\
--\sin(\alpha)
-\end{pmatrix} + E_{0}\cos(kx-\omega t)\begin{pmatrix}
-0 \\
--\cos(\alpha)\\
+\cos(\alpha) \\
 \sin(\alpha)
+\end{pmatrix}\text{ et } \vec{v} = \vec{e}_{x}\wedge \vec{u}$$
+$$\vec{E} = E_{0}\cos(kx-\omega t)\vec{u} = E_{0} \begin{pmatrix}
+0 \\
+\cos(kx-\omega t) \\
+0
+\end{pmatrix}$$
+Dans la base : $(\vec{e}_{x}, \vec{u}, \vec{v})$
+$$\vec{E} = \frac{1}{2}E_{0}\begin{pmatrix}
+0 \\
+\cos(k x- \omega t) \\
+-\sin(kx-\omega t)
+\end{pmatrix} + \frac{1}{2}E_{0}\begin{pmatrix}
+0 \\
+\cos(kx-\omega t) \\
+\sin(\omega t-kx)
 \end{pmatrix}$$
 
