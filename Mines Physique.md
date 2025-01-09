@@ -13,3 +13,7 @@ $$\overrightarrow{rot}(\vec{j}\wedge \vec{B}) = \frac{1}{\gamma \mathcal{R}} \ov
 
 $$div(\vec{E}) = \frac{nq}{\varepsilon_{0}} = -\mathcal{R} div(\vec{j} \wedge \vec{B})$$
 
+$$0 = div(\vec{j}) = - \frac{\partial qn}{\partial t} =- \frac{\partial \varepsilon_{0} div(\vec{E})}{\partial t} = div\left( -\varepsilon_{0}\frac{\partial E}{\partial t}  \right)$$
+
+$$qn = \text{cte}$$
+x
