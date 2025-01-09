@@ -30,3 +30,10 @@ $$f_{i} = \frac{\left| C_{i}\right|}{\left| E\right|} \in ]0, 1]$$
 L'entropie de $E$ est : 
 $$\boxed{H(E) = -\sum_{i = 1}^{n}f_{i} \log(f_{i})}$$
 
+#### Le vrai calcul
+Soient $E_{1}, \dots, E_{n}$, 
+$$p_{i} = \frac{\left| E_{i}\right|}{\left| E\right|}$$
+La proba qu'un elt choisit dans $E$ soit dans $E_{i}$
+Pour un critère $k$ divisant $E$ 
+
+La valeur du gain 
