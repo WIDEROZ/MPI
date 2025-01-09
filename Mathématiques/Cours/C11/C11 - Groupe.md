@@ -833,3 +833,7 @@ Si $\times$ est associative (resp. commutative) on dit que $\mathcal{A}$ est ass
 
 #### Exemple
 $$(\mathbb{K}[X], +, \cdot, \times)\text{ est une }\mathbb{K}\text{-algèbre associative et commutative}$$
+$$(\mathcal{M}_{n}(\mathbb{K}), +, \cdot, \times)\text{ est une }\mathbb{K}\text{-algèbre associative}$$
+Pour $E$ un espace vectoriel : 
+$$(\mathcal{L}(E), +, \cdot, \circ)\text{ est une }\mathbb{K}\text{-algèbre associative}$$
+$$(\mathcal{F}(X, \mathbb{K}), +, \cdot, \times)\text{ est une }\mathbb{K}\text{-algèbre associative}$$
