@@ -26,7 +26,7 @@ Pseudo-code :
 #### Définition
 Pour un ensemble $E$, on note $C_{1},\dots, C_{n}$ les ensembles d'éléments de classe $1, \dots, n$
 On note : 
-$$f_{i} = \frac{\left| C_{i}\right|}{\left| E\right|}$$
+$$f_{i} = \frac{\left| C_{i}\right|}{\left| E\right|} \in ]0, 1]$$
 L'entropie de $E$ est : 
 $$\boxed{H(E) = -\sum_{i = 1}^{n}f_{i} \log(f_{i})}$$
 
