@@ -22,13 +22,16 @@ $$\vec{E} = E_{0} \cos\left( \omega t - k \frac{\sqrt{2}}{2}(x+y) + \varphi \rig
 $\vec{E}_{1}$ : 
 $$\frac{E_{1,0}}{E_{2, 0}}  \in \mathbb{R} \Rightarrow \text{ polarisation rectiligne}$$
 $\vec{E}_{2}, \vec{E}_{3}$ : 
-$$\frac{1}{i} = -i \in i\mathbb{R} \Rightarrow \text{polarisation circulaire}$$
+$$\frac{1}{i} = -i \Rightarrow \text{polarisation circulaire}$$
 $\vec{E}_{4}$ : 
 $$0\Rightarrow \text{ pas de polarisation}$$
 
 #### 2.
 ##### a.
-Cercle trigo avec $O_{z}$ en ordonnées et $O_{y}$ en abscisses et $\alpha$ est l'angle entre $O$
+Cercle trigo avec $O_{z}$ en ordonnées et $O_{y}$ en abscisses et $\alpha$ est l'angle entre $O_{y}$ et $\vec{u}$ : 
+
+#### b.
+
 
 
 ### Exercice 4
