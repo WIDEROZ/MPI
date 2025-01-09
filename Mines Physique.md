@@ -6,6 +6,10 @@ $$\frac{f}{nq}\vec{j} = q\vec{E} + q\vec{v} \wedge \vec{e}_{z} = q\vec{E} + \fra
 Alors, 
 $$\frac{nq^{2}}{f}\vec{E} + \frac{q^{2}n}{fnq} \vec{j} \wedge \vec{B}-\vec{j}= \gamma \vec{E} + \mathcal{R}\gamma \vec{j} \wedge \vec{B} - \vec{j}=0$$
 
-$$\frac{\vec{j}}{\mathcal{R}} - \frac{\gamma}{\mathcal{R}} \vec{E} = \vec{j} \wedge \vec{B}$$
 
+$$\vec{E} + \mathcal{R} \vec{j} \wedge \vec{B}-\frac{1}{\gamma}\vec{j} = \overrightarrow{0}$$
+$$div(\vec{j})=0$$
+$$\overrightarrow{rot}(\vec{j}\wedge \vec{B}) = \frac{1}{\gamma \mathcal{R}} \overrightarrow{rot}(\vec{j})$$
+
+$$div(\vec{E}) = \frac{nq}{\varepsilon_{0}} = -\mathcal{R} div(\vec{j} \wedge \vec{B})$$
 
