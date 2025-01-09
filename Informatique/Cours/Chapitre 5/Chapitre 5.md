@@ -19,7 +19,7 @@ Pseudo-code :
   renvoyer un arbre à un nœud étiqueté par $c$
 - Sinon
   + Calculer le critère $k$ maximisant un gain : $G(E, k)$
-  + Calculer les ensembles $E_{0}$ et $E_{1}$ correspondant respectivement aux parties de $E$ constituées d'éléments pour lesquels $k$ est vrai respectivement faux
+  + Calculer les ensembles $E_{0}$ et $E_{1}$ correspondant respectivement aux parties de $E$ constituées d'éléments pour lesquels $k$ est faux respectivement vrai
   + 
 
 ### Calcul du gain
@@ -34,6 +34,5 @@ $$\boxed{H(E) = -\sum_{i = 1}^{n}f_{i} \log(f_{i})}$$
 Soient $E_{1}, \dots, E_{n}$, 
 $$p_{i} = \frac{\left| E_{i}\right|}{\left| E\right|}$$
 La proba qu'un elt choisit dans $E$ soit dans $E_{i}$
-Pour un critère $k$ divisant $E$ 
-
-La valeur du gain 
+Pour un critère $k$ divisant $E$ en $E_{1, k}, \dots, E_{n, k}$, la valeur du gain sera la suivante : 
+$$G(E, k) = H(E) - \sum_{i = 1}^{n} p_{i}H(E_{i, k})$$
