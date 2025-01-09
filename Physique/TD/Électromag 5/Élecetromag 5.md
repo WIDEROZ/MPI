@@ -17,6 +17,11 @@ $$\vec{k} = k\left( \cos\left( \frac{\pi}{4} \right)\vec{e}_{x} +\cos\left( \fra
 Ainsi,
 $$\vec{E} = E_{0} \cos\left( \omega t - k \frac{\sqrt{2}}{2}(x+y) + \varphi \right)\vec{e}_{y}$$
 
+### Exercice 3
+#### a.
+
+
+
 ### Exercice 4
 #### 1.
 ##### a.
@@ -25,4 +30,3 @@ $$\vec{\nabla} = \begin{pmatrix}
 \frac{\partial }{\partial y}  \\
 \frac{\partial }{\partial z} 
 \end{pmatrix}$$
-	
