@@ -15,3 +15,8 @@ $$V(M_{1})-V(M_{2}) = \frac{i}{2\pi \varepsilon \gamma }\ln\left( \frac{r_{2}r_{
 
 $$R_{//} = \frac{V(P)-V(Q)}{i} = \frac{1}{2\pi \varepsilon \gamma}\ln\left( \frac{\sqrt{2} \times l \times \sqrt{2}\times l}{l \times l} \right) = \frac{\ln(2)}{2\pi \varepsilon \gamma}$$
 
+$$\frac{d\vec{v}}{dt} +\frac{f}{m}\vec{v}=0 \Leftrightarrow \begin{pmatrix}
+a_{r}+ \\
+a_{\theta}+ \\
+0
+\end{pmatrix}$$
