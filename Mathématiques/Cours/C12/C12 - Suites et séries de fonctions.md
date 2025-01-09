@@ -85,4 +85,3 @@ En effet
 $$\forall n \geq 1, \left|\left| f_{n}-0 \right|\right| _{\infty,I} = \sup_{0 \leq t \leq \frac{\pi}{2}} \left| \sin \frac{t}{n}\right| = \sup_{0 \leq t \leq \frac{\pi}{2}} \sin \frac{t}{n} = \sin\left( \frac{\frac{\pi}{2}}{n} \right) $$
 $$\underset{n \to +\infty}{\longrightarrow} 0$$
 car sin croit sur $\left[ 0, \frac{\pi}{2} \right]$
-
