@@ -18,3 +18,7 @@ $$0 = div(\vec{j}) = - \frac{\partial qn}{\partial t} =- \frac{\partial \varepsi
 $$qn = \text{cte}$$
 
 $$\overrightarrow{rot}(\vec{j} \wedge \vec{B}) = \vec{j} div(\vec{B}) - (\vec{j} . \overrightarrow{grad}) \vec{B} - \vec{B} div(\vec{j}) + \vec{B} . \overrightarrow{grad}(\vec{j}) = 0$$
+
+$$\vec{E} = \frac{1}{\gamma}\vec{j} - \mathcal{R} \vec{j} \wedge \vec{B}$$
+
+$$dV = \int  \vec{E}.d\vec{l}$$
