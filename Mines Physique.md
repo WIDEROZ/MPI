@@ -1,28 +1,12 @@
-# I.
-## I.A
-### Question 1
-$$i = \iint  \vec{j}.d\vec{S} = 2\pi r \varepsilon  j(r)$$
+$$0= qE- fv \Rightarrow v = \frac{qE}{f}$$
 
-Ainsi,
-$$\vec{E} = \frac{i}{2\pi \varepsilon\gamma r}\vec{e}_{r}$$
+$$\vec{j} = \rho \vec{v} = \frac{\rho q}{f}\vec{E} = \gamma \vec{E}$$
+$\gamma$ le coefficient de conductivité
 
-$$\vec{E} = -\overrightarrow{grad}(V) \Leftrightarrow V(M_{2})-V(M_{1}) = - \int_{M_{1}}^{M_{2}} \vec{E}.d\vec{r} = \frac{i}{2\pi \varepsilon \gamma}\ln\left( \frac{r_{2}}{r_{1}} \right)  $$
-
-### Question 3
-$$R = \frac{U}{i} = \frac{V_{d} - V_{a}}{i} = $$
-
-$$V(M_{1})-V(M_{2}) = \frac{i}{2\pi \varepsilon \gamma }\ln\left( \frac{r_{2}r_{1}'}{r_{1}r_{2}'} \right)$$
-
-$$R_{//} = \frac{V(P)-V(Q)}{i} = \frac{1}{2\pi \varepsilon \gamma}\ln\left( \frac{\sqrt{2} \times l \times \sqrt{2}\times l}{l \times l} \right) = \frac{\ln(2)}{2\pi \varepsilon \gamma}$$
-
-$$\frac{d\vec{v}}{dt} +\frac{f}{m}\vec{v}=0 \Leftrightarrow \begin{pmatrix}
-\frac{dv_{r}}{dt}-\dot{\theta} \\
-\frac{dv_{\theta}}{dt}+\dot{\theta} \\
-0
-\end{pmatrix} = \frac{f}{m}\begin{pmatrix}
-v_{r} \\
-v_{\theta} \\
+$$f\vec{v} = q\vec{E} + B\vec{v} \wedge \vec{e}_{z} = q\vec{E} + B v\begin{pmatrix}
+\frac{v_{y}}{v} \\
+-\frac{v_{x}}{v} \\
 0
 \end{pmatrix}$$
-on intègre : 
-$$v_{r} = \frac{f}{m} \int \frac{d\overrightarrow{OM}}{dt} \, dt + \theta$$
+$v$ la norme de la vitesse. le vecteur colonne est unitaire alors, 
+$$fv = qE + Bv \Rightarrow v = \frac{f-B}{qE}$$
