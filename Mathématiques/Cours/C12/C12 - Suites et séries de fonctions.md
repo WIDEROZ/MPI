@@ -55,4 +55,17 @@ $$\left|\left| f_{n}-f \right|\right| _{\infty, I} \underset{n \to +\infty}{\lon
 ou $\left|\left| f_{n}-f \right|\right|_{\infty, I}=\sup_{x \in I}\left|\left| f_{n}(x)-f(x) \right|\right|$
 
 #### Remarque
-$$(f_{n})_{n \in \mathbb{N}} \text{ CVS sur }I \text{ vers }f \Leftrightarrow \forall t \in I, \forall \varepsilon >0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow \left|\left| f_{n}(x) \right|\right| $$
+$$\begin{array}{c}
+(f_{n})_{n \in \mathbb{N}} \text{ CVS sur }I \text{ vers }f \Leftrightarrow \\
+ \forall t \in I, \forall \varepsilon >0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow \left|\left| f_{n}(t)-f(t) \right|\right| \leq \varepsilon
+\end{array}$$
+$$\begin{array}{c}
+(f_{n})_{n \in \mathbb{N}} \text{ CVU sur }I \text{ vers }f \Leftrightarrow \\
+ \forall \varepsilon >0, \exists n_{0} \in \mathbb{N},  \forall n \in \mathbb{N}, \forall t \in I, n \geq n_{0} \Rightarrow \left|\left| f_{n}(t)-f(t) \right|\right| \leq \varepsilon
+\end{array}$$
+
+Pour montrer que $f$ ne converge pas uniformément vers la fonction nulle, il faut et il suffit de montrer qu'il existe $\varepsilon>0$ et une suite $(t_{n})_{n \in \mathbb{N}} \in I^{\mathbb{N}}$ telle que : $\forall n \in \mathbb{N},  \left|\left| f_{n}(t_{n}) \right|\right|\geq \varepsilon$ 
+
+#### Proposition
+$$f_{n}\overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f \Rightarrow f_{n}\overset{\mathrm{CVS}}{\underset{I}{\longrightarrow}} f$$
+$$CVU \Rightarrow CVS$$
