@@ -69,3 +69,17 @@ Pour montrer que $f$ ne converge pas uniformément vers la fonction nulle, il fa
 #### Proposition
 $$f_{n}\overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f \Rightarrow f_{n}\overset{\mathrm{CVS}}{\underset{I}{\longrightarrow}} f$$
 $$CVU \Rightarrow CVS$$
+
+#### Exemple
+$$\forall n \in \mathbb{N}^{*}, f_{n} : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto \sin\left( \frac{x}{n} \right)
+\end{cases}$$
+Si $(f_{n})_{n \in \mathbb{N}}$ CVU elle CVS donc sa limite serait $0$ 
+Or,
+$$\left|\left| f_{n} \right|\right|_{\infty, \mathbb{R}} \geq \left| f_{n}\left( \frac{\pi}{2}n \right)\right| = 1 $$
+Ainsi, 
+$$\left| \left|  f_{n}-0\right|\right|_{\infty, \mathbb{R}} \cancel{\underset{n \to +\infty}{\longrightarrow}} 0 $$
+ie $(f_{n})$ ne CVU pas sur $\mathbb{R}$ en revanche elle CVU sur $\left[ 0, \frac{\pi}{2} \right]$
+En effet 
+$$\forall n \geq 1, \left|\left| f_{n}-0 \right|\right| _{\infty,I} = \sup_{0 \leq t \leq \frac{\pi}{2}} \left| \sin \frac{t}{n}\right| = $$
