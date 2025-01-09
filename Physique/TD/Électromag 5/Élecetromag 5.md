@@ -61,4 +61,4 @@ $$\vec{E} = \frac{1}{2}E_{0}\begin{pmatrix}
 
 ### Exercice 5
 #### 1.
-$$\vec{p} = p_{0} \cos(\omega t) \vec{e}_{z} = d$$
+$$\vec{p} = p_{0} \cos(\omega t) \vec{e}_{z} = qd\cos(\omega t)\vec{e}_{z}$$
