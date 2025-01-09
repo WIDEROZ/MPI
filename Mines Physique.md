@@ -16,4 +16,5 @@ $$div(\vec{E}) = \frac{nq}{\varepsilon_{0}} = -\mathcal{R} div(\vec{j} \wedge \v
 $$0 = div(\vec{j}) = - \frac{\partial qn}{\partial t} =- \frac{\partial \varepsilon_{0} div(\vec{E})}{\partial t} = div\left( -\varepsilon_{0}\frac{\partial E}{\partial t}  \right)$$
 
 $$qn = \text{cte}$$
-x
+
+$$\overrightarrow{rot}(\vec{j} \wedge \vec{B}) = \vec{j} div(\vec{B}) - (\vec{j} . \overrightarrow{grad}) \vec{B} - \vec{B} div(\vec{j}) + \vec{B} . \overrightarrow{grad}(\vec{j}) = 0$$
