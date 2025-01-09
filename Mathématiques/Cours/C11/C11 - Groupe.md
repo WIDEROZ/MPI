@@ -837,3 +837,28 @@ $$(\mathcal{M}_{n}(\mathbb{K}), +, \cdot, \times)\text{ est une }\mathbb{K}\text
 Pour $E$ un espace vectoriel : 
 $$(\mathcal{L}(E), +, \cdot, \circ)\text{ est une }\mathbb{K}\text{-algèbre associative}$$
 $$(\mathcal{F}(X, \mathbb{K}), +, \cdot, \times)\text{ est une }\mathbb{K}\text{-algèbre associative}$$
+
+#### Proposition
+Soit $\beta$ une partie d'une $\mathbb{K}$-algèbre $\mathcal{A}$, Alors $\beta$ est une sous-algèbre de $\mathcal{A}$ ssi : 
+$$\begin{cases}
+\beta \underset{sev}{\subset} \mathcal{A} \\
+\forall b_{1}, b_{2} \in \beta, b_{1} \times b_{2} \in \beta \\
+{1}_{A} \in \beta
+\end{cases}$$
+
+#### Définition
+Soient $\mathcal{A}, \mathcal{B}$ deux $\mathbb{K}$-algèbre, 
+Soit $f : \mathcal{A} \to \mathcal{B}$, 
+On dit que $f$ est un morphisme d'algèbre lorsque : 
+$$\begin{cases}
+f \text{ est linéaire} \\
+\forall a_{1}, a_{2} \in \mathcal{A}, f(a_{1} \times a_{2}) = f(a_{1} )\times f(a_{2}) \\
+f(1_{\mathcal{A}}) = 1_{\mathcal{B}}
+\end{cases}$$
+
+#### Exemple
+Soit $E$ un $\mathbb{K}$-ev de dimension $n\in\mathbb{N}^{*}$, et $\beta$ une base de $E$, 
+$$\begin{cases}
+\mathcal{L}(E) \to \mathcal{M}_{n}(\mathbb{K}) \\
+f \mapsto Mat_{\beta}(f)
+\end{cases}$$
