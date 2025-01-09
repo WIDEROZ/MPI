@@ -33,3 +33,6 @@ $$\forall x \in [0, 1] , g_{n}(x) \underset{n \to +\infty}{\longrightarrow} \beg
 1 \text{ si } n = 1
 \end{cases}$$
 
+##### Proposition
+Soit $(f_{n})_{n \in \mathbb{N}}$ une suite de fonctions de $I$ dans $\mathbb{R}$ qui CVS vers $f : I \to \mathbb{R}$ 
+Si $$
