@@ -54,7 +54,11 @@ $$\vec{E} = \frac{1}{2}E_{0}\begin{pmatrix}
 -\sin(kx-\omega t)
 \end{pmatrix} + \frac{1}{2}E_{0}\begin{pmatrix}
 0 \\
-\cos(kx-\omega t) \\
-\sin(\omega t-kx)
+\cos(\omega t-kx) \\
+-\sin(\omega t-kx)
 \end{pmatrix}$$
 
+
+### Exercice 5
+#### 1.
+$$\vec{p} = p_{0} \cos(\omega t) \vec{e}_{z} = d$$
