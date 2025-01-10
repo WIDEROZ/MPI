@@ -168,9 +168,28 @@ Comme $f_{n}$ est continue en $x_{0}$,
 $$\exists \alpha, \forall x \in I, \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-f_{n}(x_{0}) \right|\right| \leq \frac{\varepsilon}{3}$$
 $$ \Rightarrow \left|\left| f(x)-f_{n}(x_{0}) \right|\right|\leq \frac{\varepsilon}{3}+\frac{2\varepsilon}{3}= \varepsilon$$
 
-#### CCINP 9
+#### CCINP 9 - Exo 2.
 $$\forall n \in \mathbb{N}, \forall x \in \mathbb{R}_{+}, f_{n}(x) = \frac{n+2}{n+1} e^{ -nx^{2} }\cos(\sqrt{n}x)$$
 
-1.
-Soit $x \in \mathbb{R}_{+}$, 
-$$\left| f()\right|$$
+##### a.
+Soit $x \in \mathbb{R}_{+}^{*}$, 
+$$\left| f(x)\right| \sim e^{ -nx^{2} } \left| \cos(\sqrt{n}x)\right|$$
+or $\cos(\sqrt{n}x)$ est bornée par $1$ et $e^{ -nx^{2} }\underset{n \to +\infty}{\longrightarrow}0$
+Donc, 
+$$f_{n}(x) \underset{n \to +\infty}{\longrightarrow} 0$$
+$$f_{n}(0) = \frac{n+2}{n+1} \underset{n \to +\infty}{\longrightarrow} 1$$
+Donc, $(f_{n})_{n \in \mathbb{N}}$ CVS sur $\mathbb{R}_{+}$ vers 
+$$f: \begin{cases}
+\mathbb{R}_{+} \to \mathbb{R} \\
+x \mapsto \begin{cases}
+1 \text{ si } x = 0 \\
+0 \text{ sinon}
+\end{cases}
+\end{cases}$$
+
+##### b.
+Non car $f$ n'est pas continue en $0$ alors que $f_{n}$ est continue en $0$.
+
+##### c.
+Si $(f_{n})_{n \in \mathbb{N}}$ CVU sa limite est la même pour la CVS, qui est $0$ car $x \in [a, + \infty[$, 
+$$\left| f_{n}(x)\right| = e^{ -nx^{2} } \frac{n+2}{n+1} \left| \cos(\sqrt{n}x)\right| \leq2e^{ -nx^{2} } \leq 2e^{ -na^{2} }$$
