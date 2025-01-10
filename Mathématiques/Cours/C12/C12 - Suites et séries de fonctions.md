@@ -104,5 +104,25 @@ $$\sim n^{\alpha-1}\left( 1-\frac{1}{n+1} \right)^{n} $$
 $$\ln\left( n^{\alpha-1}\left( 1-\frac{1}{n+1} \right)^{n} \right) = (\alpha-1)\ln(n)+ n \ln\left( 1-\frac{1}{n+1} \right)$$
 $$= (\alpha-1)\ln(n)- \frac{n}{n+1}+o(1) = (\alpha-1)\ln(n)-1 + o(1)$$
 $$\underset{n \to +\infty}{\longrightarrow} \begin{cases}
-+ \infty \text{ si alpha}
++ \infty \text{ si }\alpha >1 \\
+-1 \text{ si  } \alpha = 1 \\
+- \infty \text{ si } \alpha < 1
 \end{cases}$$
+
+Donc, 
+$$\left|\left| h_{n}-0 \right|\right|_{\infty, [0, 1]} \underset{n \to +\infty}{\longrightarrow} \begin{cases}
++ \infty \text{ si }\alpha >1 \\
+e^{ -1 } \text{ si  } \alpha = 1 \\
+0 \text{ si } \alpha < 1
+\end{cases}$$
+Ainsi, 
+$$(h_{n}) \text{ CVU sur }[0, 1] \Leftrightarrow \alpha <1$$
+
+# II. Continuité et double limite
+## 1. Continuité et bornitude
+#### Propriété
+Soit $f:I \to F$ et
+$$\forall n \in \mathbb{N}, f_{n} : I \to F, \begin{cases}
+\forall n \in \mathbb{N}, f_{n} \text{ est bornée sur }I \\
+(f_{n})_{n \in \mathbb{N}}\overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}} f
+\end{cases} \Rightarrow f \text{ est bornée sur }I$$
