@@ -95,7 +95,14 @@ x \mapsto n^{\alpha} x(1-x)^{n}
 $$\forall x \in ]0, 1], n^{\alpha}(1-x)^{n}x = h_{n}(x)  \underset{n \to +\infty}{\longrightarrow} 0$$
 d'après les croissances comparés. 
 
-$$\left|\left| h_{n}-0 \right|\right|_{\infty, [0, 1]} = \sup_{x \in [0, 1]}n^{\alpha}x(1-x)^{n} = n^{\alpha}$$
-$(1-x)^{n} -x^{2}(1-x)^{n-1}=0$
-$$x^{2}+x-1 = 0$$
-$$x_{1, 2} = \frac{-1 \pm \sqrt{1-}}{2}$$
+$$\left|\left| h_{n}-0 \right|\right|_{\infty, [0, 1]} = \sup_{x \in [0, 1]}n^{\alpha}x(1-x)^{n} = n^{\alpha}\sup_{x \in [0, 1]}x(1-x)^{n}$$
+$$\forall x \in [0, 1], h_{n}'(x) = n^{\alpha}(1-x)^{n-1}(1-(n+1)x)$$
+$$\forall x \in I, h_{n}'(x)\geq 0 \Leftrightarrow x \in \left[ 0, \frac{1}{n+1} \right]$$
+Ainsi, 
+$$\left|\left| h_{n}-0 \right|\right|_{\infty, [0, 1]} = h_{n}\left( \frac{1}{n+1} \right) = \frac{n^{\alpha}}{n+1} \left( 1-\frac{1}{n+1} \right)^{n} $$
+$$\sim n^{\alpha-1}\left( 1-\frac{1}{n+1} \right)^{n} $$
+$$\ln\left( n^{\alpha-1}\left( 1-\frac{1}{n+1} \right)^{n} \right) = (\alpha-1)\ln(n)+ n \ln\left( 1-\frac{1}{n+1} \right)$$
+$$= (\alpha-1)\ln(n)- \frac{n}{n+1}+o(1) = (\alpha-1)\ln(n)-1 + o(1)$$
+$$\underset{n \to +\infty}{\longrightarrow} \begin{cases}
++ \infty \text{ si alpha}
+\end{cases}$$
