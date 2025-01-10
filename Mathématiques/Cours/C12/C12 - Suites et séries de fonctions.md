@@ -158,6 +158,19 @@ Démonstration :
 1.
 Pour $n \in \mathbb{N}$ et $x \in I$, 
 $$\begin{array}{rl}
-\left| f(x) - f(x_{0})\right| &= \left| f(x)-f_{n}(x) + f_{n}(x) - f_{n}(x_{0}) + f_{n}(x_{0}) - f(x_{0})\right| \\
-&\leq \left| f(x)-f\right|
+\left|\left| f(x) - f(x_{0})\right| \right| &= \left| \left| f(x)-f_{n}(x) + f_{n}(x) - f_{n}(x_{0}) + f_{n}(x_{0}) - f(x_{0})\right| \right| \\
+&\leq \left| \left| f(x)-f_{n}(x)\right| \right| + \left| \left| f_{n}(x) - f_{n}(x_{0})\right| \right| + \left|\left| f_{n}(x_{0})-f(x_{0})\right| \right| \\
+& \leq \left| \left| f_{n}(x)-f_{n}(x_{0})\right| \right| + 2 \left|\left| f-f_{n} \right|\right| _{\infty, I}
 \end{array}$$
+Soit $\varepsilon >0$, il existe $n \in \mathbb{N}$ tel que : 
+$$\left|\left| f-f_{n} \right|\right|_{\infty, I} \leq \frac{\varepsilon}{3}$$
+Comme $f_{n}$ est continue en $x_{0}$, 
+$$\exists \alpha, \forall x \in I, \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-f_{n}(x_{0}) \right|\right| \leq \frac{\varepsilon}{3}$$
+$$ \Rightarrow \left|\left| f(x)-f_{n}(x_{0}) \right|\right|\leq \frac{\varepsilon}{3}+\frac{2\varepsilon}{3}= \varepsilon$$
+
+#### CCINP 9
+$$\forall n \in \mathbb{N}, \forall x \in \mathbb{R}_{+}, f_{n}(x) = \frac{n+2}{n+1} e^{ -nx^{2} }\cos(\sqrt{n}x)$$
+
+1.
+Soit $x \in \mathbb{R}_{+}$, 
+$$\left| f()\right|$$
