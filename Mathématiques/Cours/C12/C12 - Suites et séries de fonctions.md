@@ -85,3 +85,17 @@ En effet
 $$\forall n \geq 1, \left|\left| f_{n}-0 \right|\right| _{\infty,I} = \sup_{0 \leq t \leq \frac{\pi}{2}} \left| \sin \frac{t}{n}\right| = \sup_{0 \leq t \leq \frac{\pi}{2}} \sin \frac{t}{n} = \sin\left( \frac{\frac{\pi}{2}}{n} \right) $$
 $$\underset{n \to +\infty}{\longrightarrow} 0$$
 car sin croit sur $\left[ 0, \frac{\pi}{2} \right]$
+
+Soit $\alpha \in \mathbb{R}$, 
+$$\forall n \in \mathbb{N}, h_{n} : \begin{cases}
+[0, 1] \to [0, 1] \\
+x \mapsto n^{\alpha} x(1-x)^{n}
+\end{cases}$$
+
+$$\forall x \in ]0, 1], n^{\alpha}(1-x)^{n}x = h_{n}(x)  \underset{n \to +\infty}{\longrightarrow} 0$$
+d'après les croissances comparés. 
+
+$$\left|\left| h_{n}-0 \right|\right|_{\infty, [0, 1]} = \sup_{x \in [0, 1]}n^{\alpha}x(1-x)^{n} = n^{\alpha}$$
+$(1-x)^{n} -x^{2}(1-x)^{n-1}=0$
+$$x^{2}+x-1 = 0$$
+$$x_{1, 2} = \frac{-1 \pm \sqrt{1-}}{2}$$
