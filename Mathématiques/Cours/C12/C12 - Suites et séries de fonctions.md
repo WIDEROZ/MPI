@@ -126,3 +126,38 @@ $$\forall n \in \mathbb{N}, f_{n} : I \to F, \begin{cases}
 \forall n \in \mathbb{N}, f_{n} \text{ est bornée sur }I \\
 (f_{n})_{n \in \mathbb{N}}\overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}} f
 \end{cases} \Rightarrow f \text{ est bornée sur }I$$
+
+Démonstration : 
+Puisque : 
+$$\left|\left| f_{n} - f \right|\right| _{\infty, I} \underset{n \to +\infty}{\longrightarrow} 0$$
+il existe $p \in \mathbb{N}, \left|\left| f_{p}-f \right|\right|_{\infty, I} \leq 1$
+Alors, 
+$$\begin{array}{rl}
+\forall x \in I, \left|\left| f(x) \right|\right| &= \left|\left| f_{p}(x) - f(x)-f_{p}(x) \right|\right|  \\
+&\leq \left|\left| f_{p}(x) - f(x) \right|\right| + \left|\left| f_{p}(x) \right|\right|  \\
+&\leq \left|\left| f_{p}-f \right|\right|_{\infty, I} + \left|\left| f_{p} \right|\right|_{\infty, I}  \\
+&\leq 1+\left|\left| f_{p} \right|\right| _{\infty, I}
+\end{array}$$
+Cette dernière quantité est indépendante de $x$
+Ainsi, 
+$f$ est bornée sur $I$
+
+#### Théorème
+Soit $f : I \to F$ et $f_{n} : I \to F$, $n \in \mathbb{N}$, 
+Soit $x_{0} \in I$, 
+$$\begin{cases}
+\forall n \in \mathbb{N}, f_{n} \text{ est continue en } x_{0} \\
+(f_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f
+\end{cases} \Rightarrow f \text{ est continue en }x_{0}$$
+$$\begin{cases}
+\forall n \in \mathbb{N}, f_{n} \text{ est continue sur } I \\
+(f_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f
+\end{cases} \Rightarrow f \text{ est continue sur }I$$
+
+Démonstration : 
+1.
+Pour $n \in \mathbb{N}$ et $x \in I$, 
+$$\begin{array}{rl}
+\left| f(x) - f(x_{0})\right| &= \left| f(x)-f_{n}(x) + f_{n}(x) - f_{n}(x_{0}) + f_{n}(x_{0}) - f(x_{0})\right| \\
+&\leq \left| f(x)-f\right|
+\end{array}$$
