@@ -28,7 +28,12 @@ Savoir retrouver les cas suivant $\underline{k}^{2}\geq 0$ et $\underline{k}^{2}
 
 SAVOIR FAIRE LA DÉMO : Passage en complexe dans l'équation de propagation
 
-####
+#### Vitesse de phase : termes à connaitre
+Les battements : 
+- Milieu non dispersif : $v_{\varphi_{1}} = v_{\varphi_{2}} \Rightarrow$ déplacement en bloc
+- Milieu dispersif : $v_{\varphi_{1}} \neq v_{\varphi_{2}} \Rightarrow$ déformation pendant la propagation
+
 
 ## Superposition d'une infinité d'OPPM
 $$\boxed{s(x, t) = \int _{0}^{+ \infty} A(\omega) \times \cos(\omega t - k(\omega) x) \, d\omega }$$
+$A(\omega)$ est le coefficient de pondération c'est l'amplitude dans le spectre des ondes. 
