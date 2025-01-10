@@ -1,4 +1,5 @@
 #### Exercice a.
+PFD à $\vec{E}$ : 
 $$ \frac{\partial \underline{\vec{v}}}{\partial t}  = -\frac{e}{m}\underline{\vec{E}} = -\frac{e}{m}\overrightarrow{\underline{E}}_{0} e^{ i(\omega t - \vec{k}.\vec{r}) }$$
 
 Alors, la vitesse d'un électron est : 
@@ -12,4 +13,14 @@ $$\boxed{\underline{\gamma} = \frac{in_{0}e^{2}}{\omega m}}$$
 $$\boxed{\underline{\vec{j}}= \underline{\gamma} \underline{\vec{E}}}$$
 
 
-$$\left< \vec{j}.\vec{E} \right> = $$
+
+## Equation de propagation d'une onde électrique dans un plasma
+$$\boxed{\vec{\nabla}(\vec{E}) - \frac{1}{c} \frac{\partial^{2}\vec{E}}{\partial t^{2}} = \mu_{0} \frac{\partial \vec{j}}{\partial t}  }$$
+
+SAVOIR FAIRE LA DÉMO : $\vec{\nabla}(\vec{E}) = \overrightarrow{grad}(div(\vec{E}))- \overrightarrow{rot}(\overrightarrow{rot}(\vec{E}))$
+
+#### Équation de Klein-Gordon
+$$\boxed{k^{2} = \frac{\omega^{2}-\omega^{2}_{p}}{c^{2}}} \text{ où } \omega_{p} = \sqrt{\frac{n_{0}e^{2}}{m\varepsilon_{0}}}$$
+
+SAVOIR FAIRE LA DÉMO : Passage en complexe dans l'équation de propagation
+
