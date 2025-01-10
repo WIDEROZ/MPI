@@ -1,5 +1,7 @@
 #### Exercice a.
 PFD à $\vec{E}$ : 
+$$m\vec{a} = -e\vec{E} -e \vec{v} \wedge \vec{B}+\vec{F}_{inter} + \vec{P}_{elec}$$
+Or on se place dans le cas d'un plasma très dilué ie : on peut négliger les interactions entre les électrons. Donc comme : $P \ll -eE$
 $$ \frac{\partial \underline{\vec{v}}}{\partial t}  = -\frac{e}{m}\underline{\vec{E}} = -\frac{e}{m}\overrightarrow{\underline{E}}_{0} e^{ i(\omega t - \vec{k}.\vec{r}) }$$
 
 Alors, la vitesse d'un électron est : 
@@ -20,7 +22,7 @@ $$\boxed{\vec{\nabla}(\vec{E}) - \frac{1}{c} \frac{\partial^{2}\vec{E}}{\partial
 SAVOIR FAIRE LA DÉMO : $\vec{\nabla}(\vec{E}) = \overrightarrow{grad}(div(\vec{E}))- \overrightarrow{rot}(\overrightarrow{rot}(\vec{E}))$
 
 #### Équation de Klein-Gordon
-$$\boxed{k^{2} = \frac{\omega^{2}-\omega^{2}_{p}}{c^{2}}} \text{ où } \omega_{p} = \sqrt{\frac{n_{0}e^{2}}{m\varepsilon_{0}}}$$
+$$\boxed{\underline k^{2} = \frac{\omega^{2}-\omega^{2}_{p}}{c^{2}}} \text{ où } \omega_{p} = \sqrt{\frac{n_{0}e^{2}}{m\varepsilon_{0}}}$$
 
 SAVOIR FAIRE LA DÉMO : Passage en complexe dans l'équation de propagation
 
