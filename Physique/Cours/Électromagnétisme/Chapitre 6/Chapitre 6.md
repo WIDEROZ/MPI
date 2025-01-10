@@ -24,5 +24,11 @@ SAVOIR FAIRE LA DÉMO : $\vec{\nabla}(\vec{E}) = \overrightarrow{grad}(div(\vec{
 #### Équation de Klein-Gordon
 $$\boxed{\underline k^{2} = \frac{\omega^{2}-\omega^{2}_{p}}{c^{2}}} \text{ où } \omega_{p} = \sqrt{\frac{n_{0}e^{2}}{m\varepsilon_{0}}}$$
 
+Savoir retrouver les cas suivant $\underline{k}^{2}\geq 0$ et $\underline{k}^{2}\leq 0$ 
+
 SAVOIR FAIRE LA DÉMO : Passage en complexe dans l'équation de propagation
 
+####
+
+## Superposition d'une infinité d'OPPM
+$$\boxed{s(x, t) = \int _{0}^{+ \infty} A(\omega) \times \cos(\omega t - k(\omega) x) \, d\omega }$$
