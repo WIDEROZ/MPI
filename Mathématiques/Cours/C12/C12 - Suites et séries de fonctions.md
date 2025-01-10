@@ -193,3 +193,13 @@ Non car $f$ n'est pas continue en $0$ alors que $f_{n}$ est continue en $0$.
 ##### c.
 Si $(f_{n})_{n \in \mathbb{N}}$ CVU sa limite est la même pour la CVS, qui est $0$ car $x \in [a, + \infty[$, 
 $$\left| f_{n}(x)\right| = e^{ -nx^{2} } \frac{n+2}{n+1} \left| \cos(\sqrt{n}x)\right| \leq2e^{ -nx^{2} } \leq 2e^{ -na^{2} }$$
+Ainsi, 
+$$\left|\left| f_{n} \right|\right|_{\infty, [a, + \infty[} \leq 2 e^{ -na^{2} } \underset{n \to +\infty}{\longrightarrow} 0$$
+Ainsi, 
+$$f_{n} \overset{\mathrm{CVU}}{\underset{[a,+\infty[}{\longrightarrow}} (x \mapsto 0)$$
+
+##### d.
+$$\forall n \in \mathbb{N}, \left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}^{*}} \geq \left| f_{n}\left( \frac{1}{\sqrt{n}} \right)\right| = \left| e^{ -1 } \frac{n+2}{n+1} \cos(1)\right| \underset{n \to +\infty}{\longrightarrow} e^{ -1 }\cos(1) \neq 0$$
+Ainsi, 
+$$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}^{*}} \cancel{ \underset{n \to +\infty}{\longrightarrow}  }
+0$$
