@@ -16,3 +16,4 @@ $$\forall x \in ]0, 1], f_{n}'(x) = nx^{n-1} \ln(x) + x^{n-1} = x^{n-1}(\ln(x^{n
 $$f_{n}'(x) \leq 0 \Leftrightarrow x \leq e^{ -\frac{1}{n} } \text{ et } f_{n}'(x) \leq 0 \Leftrightarrow x \geq e^{ - \frac{1}{n} }$$
 Ainsi, 
 $$\sup_{x \in ]0, 1]} \left| f_{n}(x)\right| = f_{n}\left( e^{ - \frac{1}{n} } \right) = -\frac{1}{n}e^{ -1 } \underset{n \to +\infty}{\longrightarrow} 0$$
+Comme $0=0$, $f_{n} \overset{\mathrm{CVU}}{\underset{]0, 1]}{\longrightarrow}} 0$
