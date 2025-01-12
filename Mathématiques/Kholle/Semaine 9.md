@@ -55,3 +55,7 @@ $$0 \equiv 0 [p]$$
 
 ###### Hérédité
 Soit $n \in \mathbb{N}$ tel que : $n^{p} \equiv n [p]$, 
+Comme 
+$$p | \binom{p}{k}, \exists q \in \mathbb{Z}, \binom{p}{k} = pq$$
+$$(n+1)^{p} = \sum_{k = 0}^{p} \binom{p}{k}n^{k} =  \sum_{k = 1}^{p}\binom{p}{k} n^{k} + 1 = pq \sum_{k = 1}^{p} n^{k}+1 $$
+$$= \sum_{k = 0}^{p-1} \binom{p}{k}n^{k} + n^{p}\equiv \left( \sum_{k = 0}^{p-1}\binom{p}{k}n^{k} + n \right) [p]$$
