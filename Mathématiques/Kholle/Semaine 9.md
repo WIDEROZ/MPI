@@ -84,3 +84,9 @@ $$|f_{n}(x)|\leq \frac{1+ \frac{2}{n}}{1+ \frac{1}{n}} e^{ -nx^{2} }  \underset{
 
 #### b.
 Non car $f$ n'est pas continue en $0$ alors que $f_{n}$ est continue en $0$.
+
+#### c.
+Soit $a >0$, 
+$$\forall x \in \mathbb{R}, \left| f_{n}(x)-0\right| \leq \frac{n+2}{n+1} e^{ -nx^{2} } \leq \frac{n+2}{n+1} e^{ -na^{2} }$$
+$a>0$
+$$x<a$$
