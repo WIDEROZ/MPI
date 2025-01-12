@@ -70,4 +70,7 @@ car d'après la question précédente :
 $$p | n^{p} - n \Rightarrow p | n(n^{p-1}-1)$$
 puis comme : 
 $$p \wedge n = 1$$
-D'après le théorème de gauss 
+D'après le théorème de gauss : 
+$$n^{p-1} \equiv 1 [p]$$
+
+### CCINP 9
