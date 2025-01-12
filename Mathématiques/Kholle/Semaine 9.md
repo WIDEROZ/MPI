@@ -74,5 +74,13 @@ D'après le théorème de gauss :
 $$n^{p-1} \equiv 1 [p]$$
 
 ### CCINP 9
+#### 1.
 On dit que $(g_{n})$ CVU vers $g$ lorsque : 
-$$\forall \varepsilon > 0, \exists \alpha > 0, \forall x \in X, \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow $$
+$$\forall \varepsilon > 0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N}, \forall x \in X, n \geq n_{0} \Rightarrow \left|\left| g_{n}(x) - g(x) \right|\right| \leq \varepsilon $$
+
+#### 2.
+##### a.
+$$|f_{n}(x)|\leq \frac{1+ \frac{2}{n}}{1+ \frac{1}{n}} e^{ -nx^{2} }  \underset{n \to +\infty}{\longrightarrow} 0 $$
+
+#### b.
+$$\sup_{x \in \mathbb{R}} \left| f_{n}(x)\right| = \sup_{x \in \mathbb{R}^+} f_{n}(x) = $$
