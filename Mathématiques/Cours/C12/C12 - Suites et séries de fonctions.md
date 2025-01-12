@@ -199,6 +199,7 @@ Ainsi,
 $$f_{n} \overset{\mathrm{CVU}}{\underset{[a,+\infty[}{\longrightarrow}} (x \mapsto 0)$$
 
 ##### d.
+Si $f_{n}$ CVU alors $f_{n}$ CVS et sa limite serait : $f = 0$ or : 
 $$\forall n \in \mathbb{N}, \left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}^{*}} \geq \left| f_{n}\left( \frac{1}{\sqrt{n}} \right)\right| = \left| e^{ -1 } \frac{n+2}{n+1} \cos(1)\right| \underset{n \to +\infty}{\longrightarrow} e^{ -1 }\cos(1) \neq 0$$
 Ainsi, 
 $$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}^{*}} \cancel{ \underset{n \to +\infty}{\longrightarrow}  }
