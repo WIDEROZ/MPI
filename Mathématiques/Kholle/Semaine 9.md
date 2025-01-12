@@ -83,3 +83,4 @@ $$\forall \varepsilon > 0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N
 $$|f_{n}(x)|\leq \frac{1+ \frac{2}{n}}{1+ \frac{1}{n}} e^{ -nx^{2} }  \underset{n \to +\infty}{\longrightarrow} 0 $$
 
 #### b.
+Non car $f$ n'est pas continue en $0$ alors que $f_{n}$ est continue en $0$.
