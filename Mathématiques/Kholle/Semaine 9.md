@@ -58,4 +58,16 @@ Soit $n \in \mathbb{N}$ tel que : $n^{p} \equiv n [p]$,
 Comme 
 $$p | \binom{p}{k}, \exists q \in \mathbb{Z}, \binom{p}{k} = pq$$
 $$(n+1)^{p} = \sum_{k = 0}^{p} \binom{p}{k}n^{k} =  \sum_{k = 1}^{p}\binom{p}{k} n^{k} + 1 = pq \sum_{k = 1}^{p} n^{k}+1 $$
-$$= \sum_{k = 0}^{p-1} \binom{p}{k}n^{k} + n^{p}\equiv \left( \sum_{k = 0}^{p-1}\binom{p}{k}n^{k} + n \right) [p]$$
+$$= \sum_{k = 0}^{p-1} \binom{p}{k}n^{k} + n^{p}\equiv \left(1 +\sum_{k = 1}^{p-1}\binom{p}{k}n^{k} + n \right) [p] \equiv n+1 [p]$$
+D'après la question précédente
+
+#### c.
+$$p \not{|}\space \space  n \Rightarrow n^{p-1} \equiv 1 [p]$$
+Soit $n \in \mathbb{N}$ tel que : 
+$$p \not{|} \space \space n$$
+Alors, $n$ est inversible dans $\mathbb{Z} / p\mathbb{Z}$, 
+car d'après la question précédente : 
+$$p | n^{p} - n \Rightarrow p | n(n^{p-1}-1)$$
+puis comme : 
+$$p \wedge n = 1$$
+D'après le théorème de gauss 
