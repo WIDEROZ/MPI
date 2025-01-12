@@ -37,8 +37,21 @@ $$p(puu' + b uv' + a vu') + ab vv' = 1$$
 
 #### 2.
 ##### a.
+Soit $k \in [\![1, p-1]\!]$, 
 $$p | \frac{p!}{(p-k)!} \text{ car }k \in [\![1, p-1]\!]$$
 et comme : $k \in [\![1, p-1]\!]$, 
 $$\forall i \in [\![1, k]\!], p \wedge i = 1$$
 Alors, 
-$$p \wedge \prod_{i = 1}^{k} i = p \wedge i^{} = 1$$
+$$p \wedge \prod_{i = 1}^{k} i = p \wedge k! = 1$$
+d'après la question 1
+de plus, 
+$$p | \binom{p}{k} k! \text{ et } p \wedge k! = 1 $$
+D'après le théorème de gauss : 
+$$p | \binom{p}{k}$$
+
+##### b.
+###### Initialisation
+$$0 \equiv 0 [p]$$
+
+###### Hérédité
+Soit $n \in \mathbb{N}$ tel que : $n^{p} \equiv n [p]$, 
