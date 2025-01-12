@@ -83,4 +83,3 @@ $$\forall \varepsilon > 0, \exists n_{0} \in \mathbb{N}, \forall n \in \mathbb{N
 $$|f_{n}(x)|\leq \frac{1+ \frac{2}{n}}{1+ \frac{1}{n}} e^{ -nx^{2} }  \underset{n \to +\infty}{\longrightarrow} 0 $$
 
 #### b.
-$$\sup_{x \in \mathbb{R}} \left| f_{n}(x)\right| = \sup_{x \in \mathbb{R}^+} f_{n}(x) = $$
