@@ -74,3 +74,5 @@ D'après le théorème de gauss :
 $$n^{p-1} \equiv 1 [p]$$
 
 ### CCINP 9
+On dit que $(g_{n})$ CVU vers $g$ lorsque : 
+$$\forall \varepsilon > 0, \exists \alpha > 0, \forall x \in X, \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow $$
