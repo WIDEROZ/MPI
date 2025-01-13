@@ -30,6 +30,11 @@ $$f_{i} = \frac{\left| C_{i}\right|}{\left| E\right|} \in ]0, 1]$$
 L'entropie de $E$ est : 
 $$\boxed{H(E) = -\sum_{i = 1}^{n}f_{i} \log(f_{i})}$$
 
+#### Remarque
+Le désordre de la fréquence d'apparition des points dans les clusters représente une entropie élevée. 
+
+Plus on se rapproche d'une équipartition plus l'entropie est élevée. 
+
 #### Le vrai calcul
 Soient $E_{1}, \dots, E_{n}$, 
 $$p_{i} = \frac{\left| E_{i}\right|}{\left| E\right|}$$
