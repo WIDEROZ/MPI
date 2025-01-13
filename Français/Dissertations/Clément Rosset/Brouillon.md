@@ -7,7 +7,7 @@ Clément Rosset affirme que son moi c'est à dire sa composition métaphysique e
 #### Définition
 Moi : composition métaphysique, ce qui est de l'ordre des décisions, des affects, c'est ce qui singularise un individu. 
 
-l’éclosion et la survie du moi : 
+
 
 #### Contexte
 Pensée philosophique et comportementale moderne. 
