@@ -21,6 +21,20 @@ Si le moi n'est défini que par l'autre, comme il y est état du moi et de l'aut
 #### Problématique
 Les actions individuelles en société découlent-elles du regard, décisionnaire du développement personnel, que porte autrui?
 
-#### I. En effet, le jugement par un groupe affecte les choix individuels
+#### I. En effet, le jugement par un groupe affecte les choix individuels de différentes manières
+##### 1. Aspect bénéfique pour la survie de l'individu dans la communauté
+En premiers lieux, l'aspect bénéfique pour la survie de l'individu dans la communauté se dessine à travers <u>Le temps de l'innocence</u> d'Edith Wharton avec May qui s'efforce de paraître raisonnable face aux membres de la haut soc. new yorkaise
+- Les Suppliantes qui doivent supplier pour pouvoir être protégés par 
+
+
+
+##### 2. Aspect bénéfique pour la conservation de la singularité de l'individualité
+
+
+
+
+##### 3. 
+
+
 
 #### II. En revanche, cela n’empêche pas l'individu de se singulariser par lui même et de se créer sa propre identité
