@@ -1,7 +1,10 @@
 #### Question 1
 ##### Attribut $1$ : 
 Pour $H(E_{0, 1})$ : 
-$$f_{0} = \frac{\left| C_{0} \cap E_{0, 1}\right|}{\left| E\right|} = \frac{3}{12} = \frac{1}{6}$$
+$$\begin{cases}
+f_{0} = \frac{\left| C_{0} \cap E_{0, 1}\right|}{\left| E\right|} = \frac{4}{12} = \frac{1}{3} \\
+f_{1} = \frac{\left| C_{1} \cap E_{0, 1}\right|}{\left| E\right|} = \frac{2}{12} = \frac{1}{6}
+\end{cases}$$
 faire de même pour $f_{1}$ et $f_{2}$ 
 Ainsi, 
 $$H(E_{0, 1}) = 1.011$$
@@ -27,8 +30,10 @@ $$\boxed{G(E, 1) = H(E) - 1.02}$$
 $$\boxed{G(E, 2) = H(E) - 0.5}$$
 
 ##### Attribut $3$ : 
-$$\boxed{G(E, 2) = H(E) - }$$
+$$\boxed{G(E, 3) = H(E) - 1.06}$$
 
+##### Attribut $4$ :
+$$\boxed{G(E, 4) = H(E) - 0.39}$$
 
 
 Ca va être l'attribut : $4$
