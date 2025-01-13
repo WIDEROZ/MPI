@@ -1,19 +1,18 @@
+#### Ouverture
+Dans la ferme des animaux de Georges Orwell, les cochons prennent le pouvoir grâce à leur intelligence, puis les animaux s'entraident pour survivre sans les humains, en effet il existe une relation d'interdépendance entre ces animaux, cette référence illustre bien l'adage de Clément Rosset. 
+
 ### Citation :
 Il ne saurait donc être de moi que de l’autre et par l’autre, dont l’étayage assure l’éclosion et la survie du moi.
-
-#### Analyse
-Clément Rosset affirme que son moi, c'est à dire sa composition métaphysique est engendrée par l'avis d'une autre constitution, puis que celle-ci s'affirme et se développe selon une vision darwinienne. 
 
 #### Définition
 Moi : composition métaphysique, ce qui est de l'ordre des décisions, des affects, c'est ce qui singularise un individu. 
 
-#### Ouverture
-Dans la ferme des animaux de Georges Orwell, les cochons prennent le pouvoir grâce à leur intelligence, puis les animaux s'entraident pour survivre sans les humains, en effet il existe une relation d'interdépendance entre ces animaux, cette référence illustre bien l'adadge de 
-
-
-
 #### Contexte
 Pensée philosophique et comportementale moderne. 
+
+#### Analyse
+Clément Rosset affirme que son moi, c'est à dire sa composition métaphysique est engendrée par l'avis d'une autre constitution, puis que celle-ci s'affirme et se développe selon une vision darwinienne. 
+
 
 #### Paradoxe
 Si le moi n'est défini que par l'autre, comme il y est état du moi et de l'autre, cela implique qu'il existe des relations sociales, alors il existe une forme de société c'est à dire que l’épanouissement d'un individu se fait par le rapport aux autres, puis que la victoire dans la lutte de vivre est garantie de la même manière, alors est ce que l'individu peut-il être décisionnaire de son sort ou n'est-il dirigé que par les paroles dictés a son encontre?
