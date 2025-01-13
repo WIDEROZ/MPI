@@ -771,6 +771,7 @@ $$x-\frac{x^{3}}{6} \leq \sin(x) \leq x - \frac{x^{3}}{6}+\frac{x^{5}}{120}$$
 ![[Pasted image 20241002081831.png]]
 $$\sin(x) - T_{3}(x) = \int_{0}^{x} \frac{(x-t)^{3}}{6} \sin ^{(4)}(t) \, dt >0$$
 
+
 #### Inégalité de Taylor Lagrange
 Sous les mêmes hypothèses : 
 $$\left|\left| f(x)-T_{n} \right|\right| \leq M_{n+1}\frac{\left| x-x_{0}\right|^{n+1}}{(n+1)!}$$
