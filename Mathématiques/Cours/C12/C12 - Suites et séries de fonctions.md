@@ -263,4 +263,25 @@ $$\forall [a, b] \subset I, f_{n}|_{[a, b]} \text{ CVU}$$
 
 # IV. Dérivation d'une limite de fonction 
 #### Question
-La limite 
+La limite d'une suite de fonctions dérivables est-elle dérivable?
+Non même si la limite est uniforme car on a vu que : 
+$$f_{n} : x \in \mathbb{R} \mapsto \sqrt{x^{2}+\frac{1}{n}}$$
+CVU sur $\mathbb{R}$ et CVU vers : 
+$$f : x \in \mathbb{R} \mapsto \left| x\right|$$
+
+#### Théorème
+Soit $(f_{n})_{n \in \mathbb{N}}$ une suite de fonction $\mathcal{C}^{1}$ de $I$ dans $F$, 
+$$\begin{rcases}
+(f_{n})_{n \in \mathbb{N}} \text{ CVS sur }I \text{ vers } f  \\
+(f'_{n})_{n \in \mathbb{N}} \text{ CVUSTS sur }I \text{ vers } g 
+\end{rcases} \Rightarrow \begin{cases}
+f \in \mathcal{C}^{1}(I) \text{ et }f' = g \\
+(f_{n})_{n \in \mathbb{N}} \text{ CVUSTS de I vers } f
+\end{cases}$$
+
+Démonstration : 
+Soit $x_{0} \in I$, 
+$$G_{n} : x \in I \mapsto \int  _{x_{0}}^{x} f'_{n}(t)dt$$
+$$G : x \in I \mapsto \int _{x_{0}}^{x} g(t) \, dt $$
+D'après le deuxième point du théorème précédent : $(G_{n})$ CVUSTS de $I$ vers $G$ donc elle CVS sur $I$ vers $G$
+Soit $
