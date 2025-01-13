@@ -12,7 +12,19 @@ $$\underline{\gamma} = \frac{i}{\mu_{0}}\left( \frac{k^{2}}{\omega} - \frac{\ome
 
 $$\frac{d\underline {\vec{v}}}{dt} = \frac{q}{m}\underline{\vec{E}} \Leftrightarrow i \omega \vec{\underline{v}}= \frac{q}{m} \underline{\overrightarrow{E}}$$
 or $\vec{j} = -ne \vec{v}$, 
-$$i\omega$$
+$$i\omega \vec{j}= -i\omega ne \vec{v} = \frac{ne^{2}}{m} \underline{\overrightarrow{E}}$$
+Alors, 
+$$\vec{\underline{j}} = -i \frac{ne^{2}}{m\omega} \vec{\underline{E}}$$
+Ainsi, 
+$$\vec{\underline{j}} = \underline{\gamma}\vec{\underline{E}}$$
+
 
 ## 4.
-$$k^{2}$$
+$\underline\gamma = \underline\gamma$
+$$-i \frac{ne^{2}}{m\omega}=\frac{i}{\mu_{0}}\left( \frac{\underline{k}^{2}}{\omega}-\frac{\omega}{c^{2}} \right)$$
+Donc, 
+$$\underline{k}^{2} = \frac{\omega^{2}}{c^{2}}-\frac{\mu_{0}ne^{2 }c^{2}}{m c^{2}} + \frac{\omega^{2}}{c^{2}} = \frac{\omega_{p}^{2} - \omega^{2}}{c^{2}}$$
+ou $\omega_{p} = \sqrt{\frac{\mu_{0}c^{2}ne^{ 2 }}{m}}$
+
+## 5.
+$$K = $$
