@@ -22,9 +22,8 @@ Si le moi n'est défini que par l'autre, comme il y est état du moi et de l'aut
 Les actions individuelles en société découlent-elles du regard, décisionnaire du développement personnel, que porte autrui?
 
 #### I. En effet, le jugement par un groupe affecte les choix individuels de différentes manières
-##### 1. Aspect bénéfique pour la survie de l'individu dans la communauté
-En premiers lieux, l'aspect bénéfique pour la survie de l'individu dans la communauté se dessine à travers <u>Le temps de l'innocence</u> d'Edith Wharton avec May qui s'efforce de paraître raisonnable face aux membres de la haut soc. new yorkaise
-- Les Suppliantes qui doivent supplier pour pouvoir être protégés par 
+##### 1. Aspect bénéfique des regards pour la survie de l'individu dans la communauté
+En premiers lieux, l'aspect bénéfique pour la survie de l'individu dans la communauté se dessine à travers <u>Le temps de l'innocence</u> d'Edith Wharton avec May qui s'efforce de paraître raisonnable face aux membres de la haut soc. new yorkaise, comme le rituel de la messe ou elle ne peut pas se soustraire, et cette participation au rite religieux illustre bien à quel point Mrs. Welland s'intègre aux habitudes dans le  Les Suppliantes qui doivent supplier pour pouvoir être protégés par 
 
 
 
