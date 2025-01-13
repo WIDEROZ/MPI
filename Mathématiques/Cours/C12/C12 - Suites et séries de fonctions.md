@@ -309,6 +309,24 @@ On dit que la série de fonctions :
 $$\sum_{n \in \mathbb{N}}f_{n} \text{ CVS sur }I$$
 lorsque la suite des sommes partielles : $(S_{n})_{n \in \mathbb{N}}$ CVS sur $I$ ie : 
 $$\forall x \in I, \left( \sum_{k=0}^{n}f_{k}(x) \right)_{n \in \mathbb{N}} \text{ admet une limite }S(x) \in F$$
-On note evidement : 
+On note évidement : 
 $$S(x)=\sum_{k = 0}^{+ \infty} f_{k} (x) \in F$$
-On 
+On dispose pour tout $n \in \mathbb{N}$, de
+$$R_{n} : x \in I \mapsto S(x) - S_{n}(x) = \sum_{k = n+1}^{+ \infty} f_{k}(x)$$
+et $(R_{n})_{n \in \mathbb{N}}$ CVS sur $I$ vers la fonction nulle. 
+
+#### Définition-Proposition
+On dit que la série $\sum f_{n}$ CVU sur $I$ lorsque la suite $(S_{n})_{n \in \mathbb{N}}$ CVU sur $I$, c'est équivalent à : 
+$$\begin{cases}
+(S_{n}) \text{ CVS sur }I \\
+(R_{n}) \text{ CVU sur }I \text{ vers la fonction nulle}
+\end{cases}$$
+ie $\left|\left| R_{n} \right|\right|_{\infty, I}\underset{n \to +\infty}{\longrightarrow}0$
+
+#### Exemple
+La fonction zeta de Riemann : 
+$$\zeta : x  \mapsto \sum_{k = 1}^{+ \infty} \frac{1}{k^{x}}$$
+On sait que $\sum_{k \geq 1} \frac{1}{k^{x}}$ CV ssi $x>1$ 
+$$\Leftrightarrow \text{ la série de fonctions }\sum_{k \geq 1} \frac{1}{k^{x}} \text{ CVS }sur ]1, + \infty[ \text{ et diverge sur }]-\infty,1[$$
+$$\Leftrightarrow \zeta \text{ est définie sur }]1, + \infty[ $$
+$\zeta$ ne CV pas uniformément sur $I = $
