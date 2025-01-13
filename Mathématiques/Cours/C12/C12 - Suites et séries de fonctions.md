@@ -335,4 +335,13 @@ $$\geq \sum_{k = n+1}^{+ \infty} \int _{k}^{k+1} \frac{dt}{t^{x}} = \int _{n+1}^
 En revanche, $\forall a \in ]1, + \infty[$, 
 $$\sum_{k \geq 1} \frac{1}{k^{x}} \text{ CVU sur }[a, + \infty[ \text{ car }$$
 elle CVS et 
-$$\forall n \geq 1, \forall x \geq a, fo$$
+$$\begin{array}{rl} \forall n \geq 1, \forall x \geq a, \forall k \geq n, &
+0 \leq \frac{1}{k^{x}} \leq \frac{1}{k^{a}}  \\
+\Rightarrow&\sum_{k = n+1} ^{+ \infty} \frac{1}{k^{x}}\leq \sum_{k = n+1}^{+ \infty} \frac{1}{k^{a}} \\
+\Rightarrow & 0\leq R_{n}(x) \leq R_{n}(a) 
+\end{array}$$
+ie $R_{n}$ décroit
+$$\left|\left| R_{n} \right|\right|_{\infty, [a, + \infty[} = R_{n}(a)$$
+or 
+$$R_{n}(a)\underset{n \to +\infty}{\longrightarrow} 0$$
+Donc, $(R_{n})$ CVU sur $[a, + \infty[$ vers $0$
