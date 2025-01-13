@@ -237,14 +237,30 @@ Ici $E = \mathbb{R}$, et $I$ est une parie de $\mathbb{R}$. On se donne $f:I \to
 
 #### Question
 Si toutes ces limites existent a t-on : 
-$$\lim_{ n \to \infty } \int _{a}^{b} f_{n}(x) \, dx =\int _{a}^{b} \lim_{ x \to \infty } f_{n}(x) \, dx $$
+$$\lim_{ n \to \infty } \int _{a}^{b} f_{n}(x) \, dx =\int _{a}^{b} \lim_{ n \to \infty } f_{n}(x) \, dx $$
 A nouveau non si on a CVS
 
 #### Théorème
 On suppose : $\forall n \in \mathbb{N},f_{n}$ continue sur $I$, 
 Soit $[a, b]\subset I$, 
-$$\begin{rcases}
-
-\end{rcases} \Rightarrow \begin{cases}
-
+$$ ((f_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}}f) \Rightarrow \left( \lim_{ n \to \infty } \int _{a}^{b}f_{n}(x) \, dx  = \int _{a}^{b}f(x) \, dx \right)$$
+$$(f_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} f \Rightarrow (F_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} F$$
+où
+$$\begin{cases}
+F : x \in I \mapsto \int _{x_{0}}^{x} f(t) \, dt  \\
+F_{n} : x \in I \mapsto \int_{x_{0}}^{x}f_{n}(t) \, dt 
 \end{cases}$$
+
+Démonstration : 
+Soit $n \in \mathbb{N}$, 
+$f$ est bien intégrable car elle est continue car $f_{n}$ est continue et CVU
+$$\left|\left| \int _{a}^{b} f_{n}(t)\, dt  -\int _{a}^{b} f(t) \, dt \right|\right|_{\infty} \leq \int _{a}^{b}\left|\left| f_{n}(t)-f(t) \right|\right|_{\infty}  \, dt  $$
+$$\leq (b-a)\left|\left| f_{n}-f \right|\right| _{\infty}\underset{n \to +\infty}{\longrightarrow} 0$$
+
+#### Notation
+On dira que $(f_{n})_{n \in \mathbb{N}}$ CVU sur tout segment (CVUSTS) lorsque : 
+$$\forall [a, b] \subset I, f_{n}|_{[a, b]} \text{ CVU}$$
+
+# IV. Dérivation d'une limite de fonction 
+#### Question
+La limite 
