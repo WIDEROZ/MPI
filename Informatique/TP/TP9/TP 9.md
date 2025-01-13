@@ -1,4 +1,32 @@
 #### Question 1
+##### Attribut $1$ : 
+Pour $H(E_{0, 1})$ : 
+$$f_{0} = \frac{\left| C_{0} \cap E_{0, 1}\right|}{\left| E\right|} = \frac{3}{12} = \frac{1}{6}$$
+faire de même pour $f_{1}$ et $f_{2}$ 
+Ainsi, 
+$$H(E_{0, 1}) = 1.011$$
+
 Pour $H(E_{1, 1})$ : 
-$$f_{0} = \frac{\left| C_{0} \cap E_{1, 1}\right|}{\left| E\right|} = $$
+$$\begin{cases}
+f_{0} = \frac{\left| C_0 \cap E_{1, 1}\right|}{\left| E\right|} = \frac{1}{4} \\
+f_{1} = \frac{\left| C_1 \cap E_{1, 1}\right|}{\left| E\right|} = \frac{2}{4} \\
+f_{2} = \frac{\left| C_2 \cap E_{1, 1}\right|}{\left| E\right|} = \frac{1}{4}
+\end{cases}$$
+Donc, 
+$$H(E_{1, 1}) = 1.04$$
+Alors, 
+$$G(E, 1) = H(E) - \frac{3}{4} $$
+
+
+Ainsi, 
+$$\boxed{G(E, 1) = H(E) - 1.02}$$
+
+
+
+##### Attribut $2$ : 
+$$G(E, 2) = 0.5$$
+
+
+
+
 Ca va être l'attribut : $4$
