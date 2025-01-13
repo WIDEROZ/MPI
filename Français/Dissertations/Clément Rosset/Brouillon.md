@@ -17,4 +17,5 @@ Si le moi n'est défini que par l'autre, comme il y est état du moi et de l'aut
 
 
 #### Problématique
-Les actions individuelles en société découlent-elles du regard que porte autrui?
+Les actions individuelles en société découlent-elles du regard décisionnaire que porte autrui?
+
