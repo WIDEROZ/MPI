@@ -8,7 +8,7 @@ Clément Rosset affirme que son moi, c'est à dire sa composition métaphysique 
 Moi : composition métaphysique, ce qui est de l'ordre des décisions, des affects, c'est ce qui singularise un individu. 
 
 #### Ouverture
-
+Dans la ferme des animaux de Georges Orwell, les cochons prennent le pouvoir grâce à leur intelligence, puis les animaux s'entraident pour survivre sans les humains, en effet il existe une relation d'interdépendance entre ces animaux, cette référence illustre bien l'adadge de 
 
 
 
