@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 
 struct dtree{
@@ -9,6 +10,12 @@ struct dtree{
     struct dtree* vrai;
 };
 typedef struct dtree dtree;
+
+struct tableau_bool{
+    bool *tab;
+    int *dim;
+};
+typedef struct tableau_bool tableau_bool;
 
 
 dtree *init_feuille(int cls){
@@ -25,7 +32,24 @@ dtree *init_attribut(int art){
     return tree;
 }
 
-
+int classe(dtree *a, tableau_bool *t){
+    
+    for (int i = 0; i < t->dim; i++)
+    {
+        if (a->classe != -1)
+        {
+            return a -> classe;
+        }
+        tableau_bool *tab = malloc(sizeof(tableau_bool)*(t->dim)) 
+        int c1 = classe();
+        
+    }
+    
+    
+    
+    
+    return 0;
+}
 
 
 
