@@ -47,3 +47,4 @@ Plus on arrive a discriminer grâce aux critères plus le gain sera élevé.
 Plus le critère $k$ repartira les valeurs plus le gain sera bas. 
 
 (C'est une valeur d'incertitude)
+

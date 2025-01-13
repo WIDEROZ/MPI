@@ -36,3 +36,6 @@ L'attribut $4$ maximise le gain.
 
 #### Question 2
 EXCAL 1
+
+#### Question 4
+Classe 1 en regardant l'arbre
