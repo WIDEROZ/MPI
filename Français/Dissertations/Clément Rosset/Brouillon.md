@@ -23,7 +23,7 @@ Les actions individuelles en société découlent-elles du regard, décisionnair
 
 #### I. En effet, le jugement par un groupe affecte les choix individuels de différentes manières
 ##### 1. Aspect bénéfique des regards pour la survie de l'individu dans la communauté
-En premiers lieux, l'aspect bénéfique pour la survie de l'individu dans la communauté se dessine à travers <u>Le temps de l'innocence</u> d'Edith Wharton avec May qui s'efforce de paraître raisonnable face aux membres de la haut soc. new yorkaise, comme le rituel de la messe ou elle ne peut pas se soustraire, et cette participation au rite religieux illustre bien à quel point Mrs. Welland s'intègre aux habitudes dans le  Les Suppliantes qui doivent supplier pour pouvoir être protégés par 
+En premiers lieux, l'aspect bénéfique pour la survie de l'individu dans la communauté se dessine à travers <u>Le temps de l'innocence</u> d'Edith Wharton avec May qui s'efforce de paraître raisonnable face aux membres de la haut soc. new yorkaise, comme le rituel de la messe ou elle ne peut pas se soustraire, et cette participation infaillible au rite religieux lui a valu une acceptation de point Mrs. Welland s' Les Suppliantes qui doivent supplier pour pouvoir être protégés par 
 
 
 
