@@ -329,4 +329,10 @@ $$\zeta : x  \mapsto \sum_{k = 1}^{+ \infty} \frac{1}{k^{x}}$$
 On sait que $\sum_{k \geq 1} \frac{1}{k^{x}}$ CV ssi $x>1$ 
 $$\Leftrightarrow \text{ la série de fonctions }\sum_{k \geq 1} \frac{1}{k^{x}} \text{ CVS }sur ]1, + \infty[ \text{ et diverge sur }]-\infty,1[$$
 $$\Leftrightarrow \zeta \text{ est définie sur }]1, + \infty[ $$
-$\zeta$ ne CV pas uniformément sur $I = $
+$\zeta$ ne CV pas uniformément sur $I = ]1, + \infty[$ car : 
+$$\forall x \in I, \forall n\geq 1, \left|\left| R_{n} \right|\right| _{\infty, I}\geq R_{n}(x) = \sum_{k = n+1}^{+ \infty} \frac{1}{k^{x}}$$
+$$\geq \sum_{k = n+1}^{+ \infty} \int _{k}^{k+1} \frac{dt}{t^{x}} = \int _{n+1}^{+ \infty}  \frac{dt}{t^{\alpha}} = \frac{(n+1)^{1-x}}{x-1}  $$
+En revanche, $\forall a \in ]1, + \infty[$, 
+$$\sum_{k \geq 1} \frac{1}{k^{x}} \text{ CVU sur }[a, + \infty[ \text{ car }$$
+elle CVS et 
+$$\forall n \geq 1, \forall x \geq a, fo$$
