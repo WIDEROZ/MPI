@@ -206,3 +206,30 @@ $$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}^{*}} \cancel{ \unde
 0$$
 
 ## 2. Double limite
+#### Question
+Est-ce que : 
+$$\lim_{ x \to a } \lim_{ n \to \infty } f_{n}(x) = \lim_{ n \to \infty } \lim_{ x \to a } f_{n}(x)  $$
+Non si la convergence est uniquement simple.
+
+#### Exemple
+$$\forall n \in \mathbb{N}, f_{n} : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto \arctan(x-n)
+\end{cases}$$
+$$\lim_{ n \to \infty } \lim_{ x \to +\infty } f_{x}(x) = \lim_{ n \to \infty } \frac{\pi}{2} = \frac{\pi}{2}$$
+$$\lim_{ x \to +\infty } \lim_{ n \to \infty } f_{x}(x) = \lim_{ x \to +\infty }- \frac{\pi}{2} = -\frac{\pi}{2}$$
+$(f_{n})$ CVS mais ne CVU pas car $||f_{n}-f||_{\infty, \mathbb{R}} = \pi$
+
+#### Théorème de la limite double
+Soit $I \subset  E$, 
+$$f : I \to F \text{ et }\forall n \in \mathbb{N}, f_{n}:I \to F$$
+Soit $a \in E$ adhérent à $I$,
+$$\begin{rcases}
+(f_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f \\
+\forall n \in \mathbb{N}, \lim_{ x \to a } f_{n}(x) = l_{n} \in F
+\end{rcases} \Rightarrow \begin{cases}
+(l_{n})_{n \in \mathbb{N}} \in F^{\mathbb{N}} \text{ CV} \\
+\lim_{ x \to a } f(x) = \lim_{ n \to \infty } l_{n}
+\end{cases}$$
+
+#### Remarque 
