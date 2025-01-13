@@ -37,3 +37,8 @@ Les battements :
 ## Superposition d'une infinité d'OPPM
 $$\boxed{s(x, t) = \int _{0}^{+ \infty} A(\omega) \times \cos(\omega t - k(\omega) x) \, d\omega }$$
 $A(\omega)$ est le coefficient de pondération c'est l'amplitude dans le spectre des ondes. 
+
+#### Exercice b.
+Cas ou $\omega > \omega_{p}$ : $\underline k \in \mathbb{R}$ l'onde se propage 
+$$v_{\varphi} = \frac{c}{\sqrt{1-\left( \frac{\omega_{p}}{\omega} \right)^{2}}}$$
+$$v_{g}= \frac{d\omega}{dk} = \frac{}{}$$
