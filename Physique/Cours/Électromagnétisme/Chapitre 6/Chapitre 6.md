@@ -48,3 +48,10 @@ $$d(k^{2}) = 2kdk \text{ et } d(\omega^{2}) = 2 \omega d\omega$$
 Ainsi, 
 $$2kdk = \frac{2\omega d \omega}{c^{2}} \Leftrightarrow \frac{d\omega}{dk} = \frac{c^{2}}{v_{\varphi}} = c\sqrt{1-\left( \frac{\omega_{p}}{\omega} \right)^{2}}$$
 Ainsi, 
+$$\boxed{v_{g} = c \sqrt{1- \left( \frac{\omega_{p}}{\omega} \right)^{2}}}$$
+Si $\omega \to \omega_{p}$, 
+$v_{g} = 0$ onde stationnaire pas de propagation
+$v_{\varphi} \to + \infty$ : onde évanescente
+Si $\omega \to + \infty$, 
+$v_{\varphi} = v_{g} = c$ : idem que dans le vide, $\vec{E}$ varie trop vite pour que les électrons aient le temps de réagir. 
+
