@@ -23,8 +23,13 @@ $$\vec{\underline{j}} = \underline{\gamma}\vec{\underline{E}}$$
 $\underline\gamma = \underline\gamma$
 $$-i \frac{ne^{2}}{m\omega}=\frac{i}{\mu_{0}}\left( \frac{\underline{k}^{2}}{\omega}-\frac{\omega}{c^{2}} \right)$$
 Donc, 
-$$\underline{k}^{2} = \frac{\omega^{2}}{c^{2}}-\frac{\mu_{0}ne^{2 }c^{2}}{m c^{2}} + \frac{\omega^{2}}{c^{2}} = \frac{\omega_{p}^{2} - \omega^{2}}{c^{2}}$$
+$$\underline{k}^{2} = \frac{\omega^{2}}{c^{2}}-\frac{\mu_{0}ne^{2 }c^{2}}{m c^{2}} + \frac{\omega^{2}}{c^{2}} = \frac{\omega^{2} - \omega_{p}^{2}}{c^{2}}$$
 ou $\omega_{p} = \sqrt{\frac{\mu_{0}c^{2}ne^{ 2 }}{m}}$
 
 ## 5.
-$$K = $$
+$$K = \sqrt\frac{\mu_{0}ne^{ 2 }}{m}$$
+Pour $\underline k^{2}<0$ c'est impossible la vitesse de phase n'existe 
+pas : 
+Dans le cas ou $\underline{k}^{2} >0$, 
+$$v_{\varphi} = \frac{\omega}{\mathrm{Re}(\underline{k})} = \frac{\omega}{k} = \frac{1}{\sqrt{\frac{1}{c^{2}}-\left( \frac{K}{\omega} \right)^{2}}}$$
+
