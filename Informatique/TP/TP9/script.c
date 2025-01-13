@@ -40,9 +40,13 @@ int classe(dtree *a, tableau_bool *t){
         {
             return a -> classe;
         }
-        tableau_bool *tab = malloc(sizeof(tableau_bool)*(t->dim)) 
-        int c1 = classe();
         
+        if (t->tab[i] = 0){
+            a = a->faux;
+        }
+        else{
+            a = a->vrai;
+        }        
     }
     
     
