@@ -232,4 +232,19 @@ $$\begin{rcases}
 \lim_{ x \to a } f(x) = \lim_{ n \to \infty } l_{n}
 \end{cases}$$
 
-#### Remarque 
+# III. Intégration d'une limite uniforme
+Ici $E = \mathbb{R}$, et $I$ est une parie de $\mathbb{R}$. On se donne $f:I \to F$, et $\forall n \in \mathbb{N}, f_{n}:I \to F$
+
+#### Question
+Si toutes ces limites existent a t-on : 
+$$\lim_{ n \to \infty } \int _{a}^{b} f_{n}(x) \, dx =\int _{a}^{b} \lim_{ x \to \infty } f_{n}(x) \, dx $$
+A nouveau non si on a CVS
+
+#### Théorème
+On suppose : $\forall n \in \mathbb{N},f_{n}$ continue sur $I$, 
+Soit $[a, b]\subset I$, 
+$$\begin{rcases}
+
+\end{rcases} \Rightarrow \begin{cases}
+
+\end{cases}$$
