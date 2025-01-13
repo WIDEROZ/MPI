@@ -46,13 +46,8 @@ int classe(dtree *a, tableau_bool *t){
         }
         else{
             a = a->vrai;
-        }        
+        }
     }
-    
-    
-    
-    
-    return 0;
 }
 
 
