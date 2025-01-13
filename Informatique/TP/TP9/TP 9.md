@@ -15,7 +15,7 @@ f_{2} = \frac{\left| C_2 \cap E_{1, 1}\right|}{\left| E\right|} = \frac{1}{4}
 Donc, 
 $$H(E_{1, 1}) = 1.04$$
 Alors, 
-$$G(E, 1) = H(E) - \frac{3}{4} $$
+$$G(E, 1) = H(E) - \frac{3}{4} \times 1.01 - \frac{1}{4} \times 1.04$$
 
 
 Ainsi, 
@@ -24,8 +24,10 @@ $$\boxed{G(E, 1) = H(E) - 1.02}$$
 
 
 ##### Attribut $2$ : 
-$$G(E, 2) = 0.5$$
+$$\boxed{G(E, 2) = H(E) - 0.5}$$
 
+##### Attribut $3$ : 
+$$\boxed{G(E, 2) = H(E) - }$$
 
 
 
