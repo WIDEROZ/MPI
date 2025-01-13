@@ -17,5 +17,8 @@ Si le moi n'est défini que par l'autre, comme il y est état du moi et de l'aut
 
 
 #### Problématique
-Les actions individuelles en société découlent-elles du regard décisionnaire que porte autrui?
+Les actions individuelles en société découlent-elles du regard, décisionnaire du développement personnel, que porte autrui?
 
+#### I. En effet, le jugement d'un groupe affecte les choix individuels
+
+#### II. En revanche, cela n’empêche pas l'individu de se singulariser par lui même et de se créer sa propre identité
