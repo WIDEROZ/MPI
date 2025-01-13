@@ -284,4 +284,31 @@ Soit $x_{0} \in I$,
 $$G_{n} : x \in I \mapsto \int  _{x_{0}}^{x} f'_{n}(t)dt$$
 $$G : x \in I \mapsto \int _{x_{0}}^{x} g(t) \, dt $$
 D'après le deuxième point du théorème précédent : $(G_{n})$ CVUSTS de $I$ vers $G$ donc elle CVS sur $I$ vers $G$
-Soit $
+Soit $x \in I$, puisque $f_{n}$ est $\mathcal{C}^{1}$ 
+$$f_{n}(x) = f_{n}(x_{0}) + \int _{x_{0}}^{x} f'_{n}(t) \, dt $$
+et donc, en passant à la limite simple,
+$$f(x) = f(x_{0}) + \int _{x_{0}}^{x}f(t) \, dt $$
+comme $g$ est la limite uniforme sur tout segment de $I$ d'une suite de fonctions continues, elle est continue. On sait alors d'après le théorème fondamental de l'analyse que : 
+$$f : x \in I \mapsto f(x_{0}) + \int _{x_{0}}^{x} g(t) \, dt  \text{ est de classe }\mathcal{C}^{1} \text{ et que } f' = g$$
+Soit $[a, b]\subset I$, 
+On sait que : 
+$$\left|\left| G_{n}-G \right|\right| _{\infty, [a, b]} \underset{n \to +\infty}{\longrightarrow} 0$$
+Or, 
+$$\forall x \in [a,b], \left|\left| f_{n}(x)-f(x) \right|\right| \leq \left|\left| f_{n}(x_{0}) - f(x_{0}) \right|\right| + (b-a)\left|\left| G_{n} - G \right|\right|_{\infty, [a, b]} $$
+Donc, 
+$$\left|\left| f_{n}-f \right|\right| _{\infty, [a, b]}\leq \dots$$
+... : La même qu'en haut.
+et la quantité à droite de l'inégalité tend vers $0$ lorsque $n\underset{n \to +\infty}{\longrightarrow}+ \infty$ d'après nos 2 hypothèses. 
+
+# V. Les séries de fonctions
+## 1. CVS et CVU
+Soit $\forall n \in \mathbb{N}, f_{n} : I \to F$, on s'intéresse aux propriétés de : 
+$$x \in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(x) \in F$$
+
+On dit que la série de fonctions : 
+$$\sum_{n \in \mathbb{N}}f_{n} \text{ CVS sur }I$$
+lorsque la suite des sommes partielles : $(S_{n})_{n \in \mathbb{N}}$ CVS sur $I$ ie : 
+$$\forall x \in I, \left( \sum_{k=0}^{n}f_{k}(x) \right)_{n \in \mathbb{N}} \text{ admet une limite }S(x) \in F$$
+On note evidement : 
+$$S(x)=\sum_{k = 0}^{+ \infty} f_{k} (x) \in F$$
+On 
