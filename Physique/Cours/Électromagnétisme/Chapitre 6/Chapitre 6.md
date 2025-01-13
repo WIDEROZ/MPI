@@ -40,5 +40,11 @@ $A(\omega)$ est le coefficient de pondération c'est l'amplitude dans le spectre
 
 #### Exercice b.
 Cas ou $\omega > \omega_{p}$ : $\underline k \in \mathbb{R}$ l'onde se propage 
-$$v_{\varphi} = \frac{c}{\sqrt{1-\left( \frac{\omega_{p}}{\omega} \right)^{2}}}$$
-$$v_{g}= \frac{d\omega}{dk} = \frac{}{}$$
+$$\boxed{v_{\varphi} = \frac{c}{\sqrt{1-\left( \frac{\omega_{p}}{\omega} \right)^{2}}}}$$
+$$v_{g}= \frac{d\omega}{dk}$$
+On différencie : 
+$$k^{2} = \frac{\omega^{2}-\omega_{p}^{2}}{c^{2}}$$
+$$d(k^{2}) = 2kdk \text{ et } d(\omega^{2}) = 2 \omega d\omega$$
+Ainsi, 
+$$2kdk = \frac{2\omega d \omega}{c^{2}} \Leftrightarrow \frac{d\omega}{dk} = \frac{c^{2}}{v_{\varphi}} = c\sqrt{1-\left( \frac{\omega_{p}}{\omega} \right)^{2}}$$
+Ainsi, 
