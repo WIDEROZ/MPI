@@ -204,3 +204,5 @@ $$\forall n \in \mathbb{N}, \left|\left| f_{n} \right|\right| _{\infty, \mathbb{
 Ainsi, 
 $$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}^{*}} \cancel{ \underset{n \to +\infty}{\longrightarrow}  }
 0$$
+
+## 2. Double limite
