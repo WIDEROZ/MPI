@@ -44,11 +44,12 @@ A&B&E&F&G&S \\ \hline
 \end{array}$$
  $S = A \text{ NXOR }B$
 
-Maintenant on pose : 
+Maintenant on pose : $S_{2} = E \text{ NOR }S$
 $$\begin{array}{|c|c|c|c|}\hline 
-A&B&E&&&&S \\ \hline
-0&0&1&0&0&&1\\\hline
-0&1&0&1&0&&0 \\\hline
-1&0&0&0&1&&0\\\hline
-1&1&0&0&0&1 \\\hline
+A&B&E&F&G&S&S_{2} \\ \hline
+0&0&1&0&0&1&0 \\\hline
+0&1&0&1&0&0&1 \\\hline
+1&0&0&0&1&0&1 \\\hline
+1&1&0&0&0&1&0  \\\hline
 \end{array}$$
+Voir feuille.
