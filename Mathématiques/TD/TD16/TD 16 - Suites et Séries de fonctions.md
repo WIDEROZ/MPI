@@ -63,10 +63,21 @@ CVS
 $$(-1)^{n}\ln\left( 1+\frac{x^{2}}{n(1+x^{2})} \right)$$
 comme $\uparrow$ est décroissant et que $x^{2} \in \mathbb{R}_{+}$, 
 $$\forall x \in \mathbb{R}, f_{n}' (x)= \frac{\frac{2xn(1+x^{2})-x^{2}n2x}{n^{2}(1+x^{2})^{2}}}{1+ \frac{x^{2}}{n(1+x^{2})}} = \frac{2xn}{n^{2}(1+x^{2})^{2} + x^{2}}$$
-Donc, $\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}} =\ln\left( 1+ \frac{1}{n} \right)$
+Donc, $\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}} = \lim_{ x \to \infty }f_{n}(x) = \ln\left( 1+ \frac{1}{n} \right)$
 
 Ainsi, 
-$$\left| R_{n}\right| \leq $$
+$$\left| R_{n-1}\right| \leq \ln\left( 1+ \frac{x^{2}}{n(1+x^{2})} \right) \leq \left|\left| f_{n} \right|\right| _{\infty} = \ln\left( 1+\frac{1}{n} \right) \underset{n \to +\infty}{\longrightarrow} 0$$
+Ainsi, 
+le reste tend vers $0$ Donc 
+$$\sum_{n \geq 1} f_{n}(x) \text{ CVU sur }\mathbb{R}$$
 
+#### c.
+Oui
+C'est dur
 
-$$S = S_{n} + R_{n}$$
+#### d.
+Non car $\ln\left( 1+\frac{1}{n} \right)\sim \frac{1}{n}$ et $\sum \frac{1}{n}$ DV
+
+### Exercice 6
+#### a.
+$$\left|\left| e^{ 2^{-nt} }-1 \right|\right|_{\infty, \mathbb{R}_{+}^{*}} = \left|\left| (e^{2})^{-nt} -1 \right|\right| _{\infty, \mathbb{R}_{+}^{*}}  $$
