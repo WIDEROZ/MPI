@@ -80,4 +80,4 @@ Non car $\ln\left( 1+\frac{1}{n} \right)\sim \frac{1}{n}$ et $\sum \frac{1}{n}$ 
 
 ### Exercice 6
 #### a.
-$$\left|\left| e^{ 2^{-nt} }-1 \right|\right|_{\infty, \mathbb{R}_{+}^{*}} = \left|\left| (e^{2})^{-nt} -1 \right|\right| _{\infty, \mathbb{R}_{+}^{*}}  $$
+$$\left|\left| e^{ 2^{-nt} }-1 \right|\right|_{\infty, \mathbb{R}_{+}^{*}} $$
