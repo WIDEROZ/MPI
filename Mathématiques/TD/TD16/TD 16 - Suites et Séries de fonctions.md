@@ -34,4 +34,6 @@ $$\sum_{n\geq 1} \left|\left| \frac{1}{n^{2}+x^{2}} \right|\right| _{\infty,\mat
 Ainsi, La série CVN => CVU => CVS
 
 #### d.
-$$$$
+$$\left|\left| n^{\alpha}(x^{n}-x^{n+1}) \right|\right| $$
+
+$$n^{\alpha+1}(x^{n-1}-x^{n})$$
