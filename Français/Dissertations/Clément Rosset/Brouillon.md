@@ -22,8 +22,6 @@ Si le moi n'est défini que par l'autre, comme il y est état du moi et de l'aut
 Les actions individuelles en société découlent-elles du regard, décisionnaire du développement personnel, que porte autrui?
 
 
-Pour atteindre ses objectifs, dont un d'entre eux est de protéger la cité, ETEOCLE se doit d'être rude envers les femmes car elles apporteraient la panique dans la cité ce qui constitue son individualité en tant que Chef de Thèbes
-
 
 
 
@@ -43,6 +41,7 @@ Tandis que
 
 
 #### II. En revanche, cela n’empêche pas l'individu de se singulariser par lui même et de se créer sa propre identité
-##### 1. Aspect bénéfique pour la conservation de la singularité de l'individualité
+##### 1. Conservation de la singularité de l'individualité
+Pour atteindre ses objectifs, dont un d'entre eux est de protéger la cité, ETEOCLE se doit d'être rude envers les femmes car elles apporteraient la panique dans la cité ce qui constitue son individualité en tant que Chef de Thèbes
 
- 
+Contrairement au TTP DE SPINOZA, ou dans la préface p.50 il énonce que des membres d'une communauté perdent de leur singularité de penser et d'actions et sont tous soumis à un "maitre" et qu'ils n'ont donc aucun moyen pour se différencier les uns des autres. 
