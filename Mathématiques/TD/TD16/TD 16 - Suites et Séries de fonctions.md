@@ -21,4 +21,9 @@ Comme $0=0$, $f_{n} \overset{\mathrm{CVU}}{\underset{]0, 1]}{\longrightarrow}} 0
 ### Exercice 2
 #### a.
 Elle CVS bien, 
-$$\left|\left| \sum_{n = 1}^{+ \infty}(-1)^{n} \right|\right| $$
+$$ \sum_{n = 1}^{+ \infty}\left|\left| \frac{(-1)^{n}}{n+x^{2}} \right|\right|_{\infty} =\sum_{n = 1}^{+ \infty} \frac{1}{n}$$
+elle ne CVN pas
+
+$$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}} =\frac{1}{n}$$
+$$\left|\left| f_{n} \right|\right| _{\infty, [a, b]} = \frac{1}{n+a^{2}} \sim \frac{1}{n}$$
+Donc on a pas CVNSTS
