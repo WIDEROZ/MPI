@@ -39,11 +39,16 @@ $$\left|\left| n^{\alpha}(x^{n}-x^{n+1}) \right|\right| $$
 $$n^{\alpha}(nx^{n-1}-(n+1)x^{n}) \geq 0$$
 
 $$x \leq \frac{n}{n+1} $$
-8
+
 $$\left|\left| n^{\alpha}(x^{n}-x^{n+1}) \right|\right| = \frac{n^{\alpha+n}}{(n+1)^{n+1}} \sim n^{\alpha-1}$$
 quand $\alpha<0$ alors, la série CVN => CVU => CVS
 
 Pour $\alpha >0$, et $x \in ]0, 1 [$, 
 $$\sum_{n \geq 1} n^{\alpha}x^{n}$$
 on note : $y = \frac{1}{x}$, 
-$$\frac{n^{\alpha}}{y^{n}} \sim \frac{n^{\alpha}}{e^{ n }}$$
+$$\frac{n^{\alpha}}{y^{n}} = \frac{n^{\alpha}}{(e^{n})^{\ln(y)}}$$
+comme $\ln(y) > 0$, 
+$$n^{\alpha} = o((e^{ n })^{\ln(y)})$$
+
+
+### Exercice 4
