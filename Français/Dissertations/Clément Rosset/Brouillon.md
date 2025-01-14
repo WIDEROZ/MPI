@@ -44,7 +44,7 @@ Tandis que
 ##### 1. Caractères de singularité individuelle
 Dans le TDI de Wharton, Ellen Olenska 
 
-Les Suppliantes 
+Les Suppliantes Hypermestre
 
 
 ##### 2. Réussite de conservation de la singularité de l'individualité
