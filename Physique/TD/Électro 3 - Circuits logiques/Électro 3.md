@@ -53,3 +53,12 @@ A&B&E&F&G&S&S_{2} \\ \hline
 1&1&0&0&0&1&0  \\\hline
 \end{array}$$
 Voir feuille.
+
+### Exercice 5
+$$\begin{array}{|c|c|c|c|}\hline 
+S&R&Q&\bar{Q} \\ \hline
+0&0&1&0 \\\hline
+0&1&0&0 \\\hline
+1&0&0&0 \\\hline
+1&1&0&0  \\\hline
+\end{array}$$
