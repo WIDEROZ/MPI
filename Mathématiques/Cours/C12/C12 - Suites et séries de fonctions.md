@@ -345,3 +345,8 @@ $$\left|\left| R_{n} \right|\right|_{\infty, [a, + \infty[} = R_{n}(a)$$
 or 
 $$R_{n}(a)\underset{n \to +\infty}{\longrightarrow} 0$$
 Donc, $(R_{n})$ CVU sur $[a, + \infty[$ vers $0$
+
+#### Exemple
+On pose : 
+$$F: x \mapsto \sum_{n = 1}^{+ \infty} \frac{(-1)^{n}}{n^{x}}$$
+$D_{F} = \mathbb{R}_{+}^{*}$
