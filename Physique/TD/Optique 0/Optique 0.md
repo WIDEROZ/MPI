@@ -20,5 +20,8 @@ Ainsi,
 $$\Delta t' = $$
 
 
-## Exercice 2
+## Exercice 3
 ### 1.
+$$\phi \ll 40 m $$
+on peut considérer que l'on se trouve dans les conditions de gauss. 
+$$-\frac{1}{O{A}}+ \frac{1}{OA'} = \frac{1}{f'} \Rightarrow D = -\frac{d \times f'}{-d+f'} =35.03 \text{ mm}$$
