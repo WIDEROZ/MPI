@@ -27,3 +27,5 @@ elle ne CVN pas
 $$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}} =\frac{1}{n}$$
 $$\left|\left| f_{n} \right|\right| _{\infty, [a, b]} = \frac{1}{n+a^{2}} \sim \frac{1}{n}$$
 Donc on a pas CVNSTS
+Alors on a pas CVU
+
