@@ -13,5 +13,12 @@ $$\Rightarrow i_{3} = 42,6°$$
 ### 2.
 #### a.
 $\Delta t'$ correspond à l'angle le moins prononcé de ie $i_{3} = 21.3°$ 
-Alors, 
-$$\lambda =  \frac{c\Delta t'}{n_{1}} \Rightarrow \Delta t' = \frac{\lambda n_{1}}{c} $$
+Alors, $\lambda$ la longueur de trajet pour un rayon dans le coeur avant de se réfléchir
+$$N\lambda =  \frac{c\Delta t'}{n_{1}} \Rightarrow \Delta t' = \frac{N\lambda n_{1}}{c}  $$
+$\lambda = \frac{\frac{L}{N}}{\sin(i_{1, m})}$
+Ainsi, 
+$$\Delta t' = $$
+
+
+## Exercice 2
+### 1.
