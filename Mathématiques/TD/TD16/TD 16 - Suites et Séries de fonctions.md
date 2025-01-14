@@ -57,5 +57,11 @@ Ainsi,
 ### Exercice 4
 #### a.
 Leibniz
-CVU
+CVS
+
 #### b.
+$$\ln\left( 1+\frac{x^{2}}{n(1+x^{2})} \right)$$
+comme $\uparrow$ est décroissant et que $x^{2} \in \mathbb{R}_{+}$, 
+$$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}} = + \infty$$
+
+$$\frac{\frac{2xn(1+x^{2})-x^{2}n2x}{n^{2}(1+x^{})}}{1+ \frac{x^{2}}{n(1+x^{2})}} = $$
