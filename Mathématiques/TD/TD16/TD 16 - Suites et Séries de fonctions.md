@@ -50,7 +50,8 @@ $$n^{\alpha}x^{n}(1-x)=o\left( \frac{1}{n^{2}} \right)$$
 Donc la série CVS 
 
 
-$$R_{n} = \sum_{k = n+1}^{+ \infty} n^{alp}$$
+$$|R_{n}| = \sum_{k = n+1}^{+ \infty} k^{\alpha}x^{k}(1-x) > (1-x)\sum_{k = n+1}^{+ \infty} x^{k} = x^{n+1}\frac{1-x}{1-x} = x^{n+1}$$
+Ainsi, 
 
 
 ### Exercice 4
