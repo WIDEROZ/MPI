@@ -389,9 +389,26 @@ et ce majorant est independent de $x$ donc, $(R_{n})$ CVU sur $I$ vers la foncti
 
 ## Types de Convergences
 $$\begin{array}{c}
-\text{CVS sur }I &\Rightarrow& \\
- \\
-\text{CVN sur }I &\Rightarrow& \text{CVU sur }I \\
-\Downarrow &&\Downarrow\\
-\text{CVNSTS de I} & \Rightarrow & \text{CVUSTS de I}
+ &&&&\text{CVU de }(f_{n}) \text{ vers }0\text{ sur }I \\
+ & &&  & \Uparrow\\
+&&\text{CVN sur }I &\Rightarrow& \text{CVU sur }I \\
+&&\Downarrow &&\Downarrow\\
+\text{CVSA sur I}&\Leftarrow&\text{CVNSTS de I} & \Rightarrow & \text{CVUSTS de I} \\
+&&&&\Downarrow \\
+&&&&\text{CVS sur }I
 \end{array}$$
+
+## 3. Continuité et double limite
+Soient, $I \subset E$, $f_{n}:I \to F$, $n \in \mathbb{N}$
+
+#### Théorème
+$$\begin{cases}
+\forall n \in \mathbb{N}, f_{n} \text{ est continue sur } I \\
+\sum f_{n} \overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f
+\end{cases} \Rightarrow \begin{array}{l}
+S: x \in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(x) \\
+  \text{ est continue sur }I
+\end{array}$$
+
+#### Théorème
+$$S \text{ est continue sur }I \Leftrightarrow \forall [a, b]\subset I, x \in [a, b] \mapsto S(x) \text{ est continue}$$
