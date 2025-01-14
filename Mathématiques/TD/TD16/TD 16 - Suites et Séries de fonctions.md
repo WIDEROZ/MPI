@@ -20,7 +20,7 @@ Comme $0=0$, $f_{n} \overset{\mathrm{CVU}}{\underset{]0, 1]}{\longrightarrow}} 0
 
 ### Exercice 2
 #### a.
-Elle CVS bien, 
+Elle CVS bien 
 $$ \sum_{n = 1}^{+ \infty}\left|\left| \frac{(-1)^{n}}{n+x^{2}} \right|\right|_{\infty} =\sum_{n = 1}^{+ \infty} \frac{1}{n}$$
 elle ne CVN pas
 
@@ -30,4 +30,8 @@ Donc on a pas CVNSTS
 Alors on a pas CVU
 
 #### b.
-$$\sum_{n\geq 1} \left|\left| \frac{1}{n^{2}+x^{2}} \right|\right| _{\infty,\mathbb{R}} \leq \sum_{_}$$
+$$\sum_{n\geq 1} \left|\left| \frac{1}{n^{2}+x^{2}} \right|\right| _{\infty,\mathbb{R}} \leq \sum_{n \geq 1} \frac{1}{n^{2}} = \frac{\pi^{2}}{6}$$
+Ainsi, La série CVN => CVU => CVS
+
+#### d.
+$$$$
