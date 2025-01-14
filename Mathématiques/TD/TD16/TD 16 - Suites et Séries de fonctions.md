@@ -46,9 +46,15 @@ quand $\alpha<0$ alors, la série CVN => CVU => CVS
 Pour $\alpha >0$, et $x \in ]0, 1 [$, 
 $$\sum_{n \geq 1} n^{\alpha}x^{n}$$
 on note : $y = \frac{1}{x}$, 
-$$\frac{n^{\alpha}}{y^{n}} = \frac{n^{\alpha}}{(e^{n})^{\ln(y)}}$$
-comme $\ln(y) > 0$, 
-$$n^{\alpha} = o((e^{ n })^{\ln(y)})$$
+$$n^{\alpha}x^{n}(1-x)=o\left( \frac{1}{n^{2}} \right)$$
+Donc la série CVS 
+
+
+$$R_{n} = \sum_{k = n+1}^{+ \infty} n^{alp}$$
 
 
 ### Exercice 4
+#### a.
+Leibniz
+CVU
+#### b.

@@ -588,7 +588,6 @@ $$Mat_{\mathrm{can}}(u_{1}, u_{2}, u_{3}) = \begin{pmatrix}
 \end{pmatrix}$$
 est inversible: 
 
-Elio + Agathe C. = <3
 #### Propriété
 Si $f \in \mathcal{L}(E)$, et si $F \underset{sev}{\subset} E$, est stable par $f$, alors : pour toute base : $(e_{1}, \dots, e_{r})$ de $F$ complétée en une base : $\mathcal{E} = (e_{1}, \dots, e_{n})$ de $E$
 $Mat_{\mathcal{E}}(f)$ est de la forme : 
