@@ -36,4 +36,10 @@ Ainsi, La série CVN => CVU => CVS
 #### d.
 $$\left|\left| n^{\alpha}(x^{n}-x^{n+1}) \right|\right| $$
 
-$$n^{\alpha+1}(x^{n-1}-x^{n})$$
+$$n^{\alpha}(nx^{n-1}-(n+1)x^{n}) \geq 0$$
+
+$$x \leq \frac{n}{n+1} $$
+
+$$\left|\left| n^{\alpha}(x^{n}-x^{n+1}) \right|\right| = \frac{n^{\alpha+n}}{(n+1)^{n+1}} \sim n^{\alpha-1}$$
+quand $\alpha<0$ alors, la série CVN => CVU => CVS
+cas ou $\alpha $ DVG
