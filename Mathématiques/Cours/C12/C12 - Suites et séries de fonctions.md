@@ -386,3 +386,12 @@ $$\leq \sum_{k = n+1}^{n+p}\left|\left| f_{k} \right|\right|_{\infty}  \leq \sum
 On fait tendre $p$ vers $+ \infty$ et on applique la norme infinie
 $$\left|\left| R_{n} \right|\right| _{\infty} \leq \sum_{k = n+1}^{+ \infty} \left|\left| f_{k} \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
 et ce majorant est independent de $x$ donc, $(R_{n})$ CVU sur $I$ vers la fonction nulle
+
+## Types de Convergences
+$$\begin{array}{c}
+\text{CVS sur }I &\Rightarrow& \\
+ \\
+\text{CVN sur }I &\Rightarrow& \text{CVU sur }I \\
+\Downarrow &&\Downarrow\\
+\text{CVNSTS de I} & \Rightarrow & \text{CVUSTS de I}
+\end{array}$$
