@@ -37,3 +37,4 @@ Tandis que
 #### II. En revanche, cela n’empêche pas l'individu de se singulariser par lui même et de se créer sa propre identité
 ##### 1. Aspect bénéfique pour la conservation de la singularité de l'individualité
 
+ 
