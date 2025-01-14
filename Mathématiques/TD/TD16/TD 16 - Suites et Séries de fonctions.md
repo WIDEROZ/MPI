@@ -29,3 +29,5 @@ $$\left|\left| f_{n} \right|\right| _{\infty, [a, b]} = \frac{1}{n+a^{2}} \sim \
 Donc on a pas CVNSTS
 Alors on a pas CVU
 
+#### b.
+$$\sum_{n\geq 1} \left|\left| \frac{1}{n^{2}+x^{2}} \right|\right| _{\infty,\mathbb{R}} \leq \sum_{_}$$
