@@ -42,7 +42,9 @@ Tandis que
 
 #### II. En revanche, cela n’empêche pas l'individu de se singulariser par lui même et de se créer sa propre identité
 ##### 1. Caractères de singularité individuelle
-Dans le TDI de Wharton,  
+Dans le TDI de Wharton, Ellen Olenska 
+
+Les Suppliantes 
 
 
 ##### 2. Réussite de conservation de la singularité de l'individualité
