@@ -30,7 +30,7 @@ Donc on a pas CVNSTS
 Alors on a pas CVU
 
 #### b.
-$$\sum_{n\geq 1} \left|\left| \frac{1}{n^{2}+x^{2}} \right|\right| _{\infty,\mathbb{R}} \leq \sum_{n \geq 1} \frac{1}{n^{2}} = \frac{\pi^{2}}{6}$$
+$$\sum_{n\geq 1} \left|\left| x\mapsto \frac{1}{n^{2}+x^{2}} \right|\right| _{\infty,\mathbb{R}} = \sum_{n \geq 1} \frac{1}{n^{2}} = \frac{\pi^{2}}{6}$$
 Ainsi, La série CVN => CVU => CVS
 
 #### d.
@@ -39,7 +39,11 @@ $$\left|\left| n^{\alpha}(x^{n}-x^{n+1}) \right|\right| $$
 $$n^{\alpha}(nx^{n-1}-(n+1)x^{n}) \geq 0$$
 
 $$x \leq \frac{n}{n+1} $$
-
+8
 $$\left|\left| n^{\alpha}(x^{n}-x^{n+1}) \right|\right| = \frac{n^{\alpha+n}}{(n+1)^{n+1}} \sim n^{\alpha-1}$$
 quand $\alpha<0$ alors, la série CVN => CVU => CVS
-cas ou $\alpha $ DVG
+
+Pour $\alpha >0$, et $x \in ]0, 1 [$, 
+$$\sum_{n \geq 1} n^{\alpha}x^{n}$$
+on note : $y = \frac{1}{x}$, 
+$$\frac{n^{\alpha}}{y^{n}} \sim \frac{n^{\alpha}}{e^{ n }}$$
