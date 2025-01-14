@@ -401,10 +401,10 @@ $$\begin{array}{c}
 ## 3. Continuité et double limite
 Soient, $I \subset E$, $f_{n}:I \to F$, $n \in \mathbb{N}$
 
-#### Théorème
+#### Théorème de continuité
 $$\begin{cases}
 \forall n \in \mathbb{N}, f_{n} \text{ est continue sur } I \\
-\sum f_{n} \overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f
+\sum _{n \geq 0} f_{n} \overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f
 \end{cases} \Rightarrow \begin{array}{l}
 S: x \in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(x) \\
   \text{ est continue sur }I
@@ -412,3 +412,13 @@ S: x \in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(x) \\
 
 #### Théorème
 $$S \text{ est continue sur }I \Leftrightarrow \forall [a, b]\subset I, x \in [a, b] \mapsto S(x) \text{ est continue}$$
+
+#### Théorème de la double limite
+Soit $a \in E$ adhérent à $I$,
+$$\begin{rcases}
+\sum_{n \geq 0}f_{n} \overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}}f \\
+\forall n \in \mathbb{N}, \lim_{ x \to a } f_{n}(x) = l_{n} \in F
+\end{rcases} \Rightarrow \begin{cases}
+\sum_{n \geq 0} l_{n} \text{ CV} \\
+\lim_{ x \to a } \underset{n=0}{\overset{+ \infty}{\sum}}f(x) = \underset{n=0}{\overset{+ \infty}{\sum}}l_{n}
+\end{cases}$$
