@@ -17,3 +17,8 @@ $$f_{n}'(x) \leq 0 \Leftrightarrow x \leq e^{ -\frac{1}{n} } \text{ et } f_{n}'(
 Ainsi, 
 $$\sup_{x \in ]0, 1]} \left| f_{n}(x)\right| = f_{n}\left( e^{ - \frac{1}{n} } \right) = -\frac{1}{n}e^{ -1 } \underset{n \to +\infty}{\longrightarrow} 0$$
 Comme $0=0$, $f_{n} \overset{\mathrm{CVU}}{\underset{]0, 1]}{\longrightarrow}} 0$
+
+### Exercice 2
+#### a.
+Elle CVS bien, 
+$$\left|\left| \sum_{n = 1}^{+ \infty}(-1)^{n} \right|\right| $$
