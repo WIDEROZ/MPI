@@ -26,8 +26,8 @@ Les actions individuelles en société découlent-elles du regard, décisionnair
 En premiers lieux, l'aspect bénéfique pour la survie de l'individu dans la communauté se dessine à travers <u>Le temps de l'innocence</u> d'Edith Wharton avec May qui s'efforce de paraître raisonnable face aux membres de la haut soc. new yorkaise, comme le rituel de la messe ou elle ne peut pas se soustraire, et cette participation infaillible au rite religieux lui a valu une acceptation de la quitter pour un jour. De même, <u>Les Suppliantes</u> sont obligés de supplier pour pouvoir être protégés par les Argiens des fils d'Egyptos, ce rituel leur à permis d'obtenir le bon œil de Pelasgos. Alors que dans le <u>Traité théologico-politique</u> de Spinoza p.104 : "Comptez parmi les autres rois qui ont eu une fin sanglante ceux qui on été tués par les leurs, \[...\]", Si le peuple à décidé d’assassiner leur roi, c'est que celui pensa qu'il n'est pas digne de gouverner donc qu'ils ont un mauvais regard sur lui ainsi comme il n'a pas survécu, le jugement doit être ainsi bénéfique pour pour la survie d'un individu. 
 
 ##### 2. L'Effet de groupe dans la communauté
-Ce prénommé effet de groupe, c'est l'uniformisation des actions individuelles étendues à toute la communauté causé par un événement. Il est remarquable dans le <u>Traité théologico-politique</u> de Spinoza lorsqu'il explique que les hébreux se sont dévoués grâce à Moïse "d’après le conseil de Moïse, auquel avait foi le peuple entier, ils prirent la résolution de déposer leurs droits dans les mains, non pas d’un homme, mais de Dieu lui-même" 
-
+Ce prénommé effet de groupe, c'est l'uniformisation des actions individuelles étendues à toute la communauté causé par un événement. Il est remarquable dans le <u>Traité théologico-politique</u> de Spinoza lorsqu'il explique que les hébreux se sont dévoués grâce à Moïse "d’après le conseil de Moïse, auquel avait foi le peuple entier, ils prirent la résolution de déposer leurs droits dans les mains, non pas d’un homme, mais de Dieu lui-même" Chapitre XVII
+Tandis que 
 
 
 ##### 3. 
