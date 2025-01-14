@@ -350,3 +350,13 @@ Donc, $(R_{n})$ CVU sur $[a, + \infty[$ vers $0$
 On pose : 
 $$F: x \mapsto \sum_{n = 1}^{+ \infty} \frac{(-1)^{n}}{n^{x}}$$
 $D_{F} = \mathbb{R}_{+}^{*}$
+$F$ ne CVU pas sur $\mathbb{R}_{+}^{*}$ car : 
+Soit $n \in \mathbb{N}^{*}$, $f_{n}=S_{n}-S_{n-1}=R_{n-1}-R_{n}$
+Donc, 
+$$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}_{+}^{*}} = \left|\left| R_{n} - R_{n-1} \right|\right|_{\infty} \leq \left|\left| R_{n-1} \right|\right| _{\infty} + \left|\left| R_{n} \right|\right| _{\infty} $$
+Or : 
+$$\left|\left| f_{n} \right|\right| _{\infty } = \sup_{x \in \mathbb{R}_{+}^{*}} \frac{1}{n^{x}} =\lim_{ x \to 0^{+} } f_{n}(x) $$
+car $f_{n}$ décroit 
+Ainsi, $\left|\left| f_{n} \right|\right|_{\infty} = 1$
+Ainsi, d'après les deux points précédents $\sum f_{n}$ ne CVU pas, en revanche, $\forall a >0$, elle CVU sur $[a, + \infty[$, car elle CVS sur $[a, + \infty[$ 
+$$\forall n \geq 1, \forall x \in [a, + \infty[, \left| R_{n}(x)\right| \leq \frac{1}{(n+1)^{x}}$$ ca
