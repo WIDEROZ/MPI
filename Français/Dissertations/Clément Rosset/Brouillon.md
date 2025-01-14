@@ -41,12 +41,12 @@ Tandis que
 
 
 #### II. En revanche, cela n’empêche pas l'individu de se singulariser par lui même et de se créer sa propre identité
-
-#### 1. 
+##### 1. Caractères de singularité individuelle
+Dans le TDI de Wharton,  
 
 
 ##### 2. Réussite de conservation de la singularité de l'individualité
-Pour atteindre ses objectifs, dont un d'entre eux est de protéger la cité, ETEOCLE se doit d'être rude envers les femmes car elles apporteraient la panique dans la cité ce qui constitue son individualité en tant que Chef de Thèbes
+Pour protéger la cité, ETEOCLE se doit d'être rude envers les femmes car elles apporteraient la panique dans la cité ce qui constitue son individualité en tant que Chef de Thèbes. 
 
-Contrairement au TTP DE SPINOZA, ou dans la préface p.50 il énonce que des membres d'une communauté perdent de leur singularité de penser et d'actions et sont tous soumis à un "maitre" et qu'ils n'ont donc aucun moyen pour se différencier les uns des autres. 
+Dans le TTP DE SPINOZA, contrairement a l'oeuvre précédente, dans la préface p.50 il énonce que des membres d'une communauté perdent de leur singularité de penser et d'actions et sont tous soumis à un "maitre" et qu'ils n'ont donc aucun moyen pour se différencier les uns des autres. 
 
