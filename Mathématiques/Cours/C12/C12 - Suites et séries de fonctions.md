@@ -379,4 +379,10 @@ $$CVN \Rightarrow CVU$$
 Démonstration : 
 Supposons que la série $\sum f_{n}$ CVN, 
 $$\forall x \in I, \forall n \in \mathbb{N},  0\leq |f_{n}(x)| \leq \left|\left| f_{n} \right|\right|_{\infty} $$
-Donc, $\sum \left| f_{n}\right|$ 
+Donc, $\sum \left| f_{n}\right|$ CV Donc $\sum f_{n}$ CV
+Ainsi, $\sum f_{n}$ CVS sur $I$
+$$\forall x \in I, \forall n \in \mathbb{N}, \forall p \in \mathbb{N}^{*}, \left| \sum_{k = n+1}^{ n+p}f_{k}(x)\right| \leq \sum_{k = n+1}^{n+p} \left| f_{k}(x)\right| $$
+$$\leq \sum_{k = n+1}^{n+p}\left|\left| f_{k} \right|\right|_{\infty}  \leq \sum_{k  =n+1}^{+ \infty} \left|\left| f_{k} \right|\right| _{\infty}$$
+On fait tendre $p$ vers $+ \infty$ et on applique la norme infinie
+$$\left|\left| R_{n} \right|\right| _{\infty} \leq \sum_{k = n+1}^{+ \infty} \left|\left| f_{k} \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
+et ce majorant est independent de $x$ donc, $(R_{n})$ CVU sur $I$ vers la fonction nulle
