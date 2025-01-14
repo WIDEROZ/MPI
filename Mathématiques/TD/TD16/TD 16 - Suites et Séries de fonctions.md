@@ -60,8 +60,13 @@ Leibniz
 CVS
 
 #### b.
-$$\ln\left( 1+\frac{x^{2}}{n(1+x^{2})} \right)$$
+$$(-1)^{n}\ln\left( 1+\frac{x^{2}}{n(1+x^{2})} \right)$$
 comme $\uparrow$ est décroissant et que $x^{2} \in \mathbb{R}_{+}$, 
-$$\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}} = + \infty$$
+$$\forall x \in \mathbb{R}, f_{n}' (x)= \frac{\frac{2xn(1+x^{2})-x^{2}n2x}{n^{2}(1+x^{2})^{2}}}{1+ \frac{x^{2}}{n(1+x^{2})}} = \frac{2xn}{n^{2}(1+x^{2})^{2} + x^{2}}$$
+Donc, $\left|\left| f_{n} \right|\right| _{\infty, \mathbb{R}} =\ln\left( 1+ \frac{1}{n} \right)$
 
-$$\frac{\frac{2xn(1+x^{2})-x^{2}n2x}{n^{2}(1+x^{})}}{1+ \frac{x^{2}}{n(1+x^{2})}} = $$
+Ainsi, 
+$$\left| R_{n}\right| \leq $$
+
+
+$$S = S_{n} + R_{n}$$
