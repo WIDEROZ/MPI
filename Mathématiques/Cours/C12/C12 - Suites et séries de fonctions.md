@@ -358,5 +358,25 @@ Or :
 $$\left|\left| f_{n} \right|\right| _{\infty } = \sup_{x \in \mathbb{R}_{+}^{*}} \frac{1}{n^{x}} =\lim_{ x \to 0^{+} } f_{n}(x) $$
 car $f_{n}$ décroit 
 Ainsi, $\left|\left| f_{n} \right|\right|_{\infty} = 1$
-Ainsi, d'après les deux points précédents $\sum f_{n}$ ne CVU pas, en revanche, $\forall a >0$, elle CVU sur $[a, + \infty[$, car elle CVS sur $[a, + \infty[$ 
-$$\forall n \geq 1, \forall x \in [a, + \infty[, \left| R_{n}(x)\right| \leq \frac{1}{(n+1)^{x}}$$ ca
+Ainsi, d'après les deux points précédents $\sum f_{n}$ ne CVU pas.
+En revanche, $\forall a >0$, elle CVU sur $[a, + \infty[$, car elle CVS sur $[a, + \infty[$ et
+$$\forall n \geq 1, \forall x \in [a, + \infty[, \left| R_{n}(x)\right| \leq \frac{1}{(n+1)^{x}}$$ car c'est une série de Leibniz .
+Donc, 
+$$\left| R_{n}(x)\right| \leq \frac{1}{n^{x}} \leq \frac{1}{n^{a}}$$
+c'est indépendant de $x$ Donc, $\left|\left| R_{n} \right|\right|_{\infty} \leq \frac{1}{n^{a}}$ et comme : $\frac{1}{n^{a}} \underset{n \to +\infty}{\longrightarrow}0$ $R_{n}$ CVU sur $[a, + \infty[$ ie $\sum f_{n}$ CVU sur $[a, + \infty[$
+
+## 2. Convergence normale d'une série de fonctions
+#### Définition
+Soit $n \in \mathbb{N}$, $f_{n} : I \to F$ on dit que la série $\sum f_{n}$ converge normalement sur $I$ lorsque la série numérique : 
+$$\sum_{n \in \mathbb{N}} \left|\left| f_{n} \right|\right| _{\infty, I} \text{ CV}$$
+
+#### Théorème
+Si $\sum f_{n}$ CVN sur $I$
+$\sum f_{n}$ CVU sur $I$
+
+$$CVN \Rightarrow CVU$$
+
+Démonstration : 
+Supposons que la série $\sum f_{n}$ CVN, 
+$$\forall x \in I, \forall n \in \mathbb{N},  0\leq |f_{n}(x)| \leq \left|\left| f_{n} \right|\right|_{\infty} $$
+Donc, $\sum \left| f_{n}\right|$ 
