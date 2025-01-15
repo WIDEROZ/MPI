@@ -35,18 +35,32 @@ $$v_{\varphi} = \frac{\omega}{\mathrm{Re}(\underline{k})} = \frac{\omega}{k} = \
 
 # Exercice 2
 ## 1.
-$$ \underline{\overrightarrow{E}} = \underline{ E_{0}} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{x}$$
+$$\boxed{ \underline{\overrightarrow{E}} = \underline{ E_{0}} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{x}}$$
 avec $\vec{\underline{k}} = \underline{k} \vec{e}_{z}$ et $\vec{z} = z \vec{e}_{z}$
-$$\overrightarrow{rot}(\vec{B}) = \mu_{0} \vec{j} + \frac{1}{c^{2}} \frac{\partial \vec{E}}{\partial t}$$
-
-$$\vec{\Delta} (\vec{E}) = \overrightarrow{grad}\left( \frac{\rho}{\varepsilon_{0}} \right) - \overrightarrow{rot}(\overrightarrow{rot}(\vec{E})) = \frac{\partial \overrightarrow{rot}(\vec{B})}{\partial t} = \mu_{0}\frac{\partial \vec{j}}{\partial t} + \frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t} $$
-Ainsi, 
-$$\frac{\partial^{2}\vec{E}}{\partial x^{2}}  -\frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t^{2}} = \mu_{0} \frac{\partial \vec{j}}{\partial t} $$
-
-$$-ik \vec{E}=\begin{pmatrix}
+$$-ik E \vec{e}_{y}=\begin{pmatrix}
 0 \\
 \frac{\partial E}{\partial z}  \\
 0 \\
 \end{pmatrix}=\overrightarrow{rot}(\vec{E}) = -i\omega\vec{B}$$
 Ainsi, 
-$$\vec{E} = \frac{\omega}{k}$$
+$$\vec{e}_{z} \wedge \vec{E} = \frac{\omega}{k}\vec{B}$$
+Ainsi,
+$$\boxed{\vec{B} = \frac {\underline{E_{0}}}{c} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{y}}$$
+$$\vec{\Pi} = \frac{\vec{E}\wedge \vec{B}}{\mu_{0}} = c\varepsilon_{0}\underline{E_{0}}^{2} e^{ 2i(\omega t-\underline{\vec{k}}.\vec{z}) }\vec{e}_{x}$$
+Ainsi, 
+$$\boxed{\vec{\Pi} = c\varepsilon_{0}(\overrightarrow{\underline{E}})^{2} \vec{e}_{z} }$$
+
+## 2.
+### a.
+$$\left<  \right> $$
+
+
+
+
+
+
+
+
+
+$$\frac{\partial^{2}\vec{E}}{\partial x^{2}}  -\frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t^{2}} = \mu_{0} \frac{\partial \vec{j}}{\partial t} $$
+
