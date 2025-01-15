@@ -449,4 +449,11 @@ $$\int _{a}^{b} \sum_{n = 0}^{+ \infty} f_{n}(t)  \, dt= \sum_{n = 0}^{+ \infty}
 Démonstration : 
 Par hypothèse la suite de fonctions $(S_{n})_{n \in \mathbb{N}} = \left( \sum_{k = 0}^{n} f_{k} \right)_{n \in \mathbb{N}}$ CVU sur $[a, b]$, vers $S$
 $S$ est donc continue en tant que somme d'une série de fonctions continues convergeant uniformément. D'après notre théorème d'intégration de suites de fonction continues, on en déduit : 
-$$\int _{a}^{b} S(t) \, dt = \lim_{ n \to +\infty } \int _{a}^{b}S_{n}(t) \, dt = $$
+$$\int _{a}^{b} S(t) \, dt = \lim_{ n \to +\infty } \int _{a}^{b}S_{n}(t) \, dt = \lim_{ n \to +\infty } \sum_{k= 0}^{n} \int_{a}^{b} f_{n}(t) \, dt $$
+Car on a un nombre fini de termes.
+Ainsi, 
+$$\int_{a}^{b} \sum_{k = 0}^{+ \infty} f_{n}(t) \, dt = \sum_{k = 0}^{+ \infty} \int_{a}^{b} f_{n}(t) \, dt$$
+
+#### Exercice
+Montrer que 
+$$\ln(2) = \sum_{n = 1}^{+ \infty} \frac{1}{n2^{n}}$$
