@@ -64,7 +64,7 @@ $$\boxed{\left< u_{em} \right> = \frac{\varepsilon_{0}}{2} E_{0} }$$
 $$u_{ec} = \frac{1}{2}mv^{2}n =\frac{1}{2} \frac{m}{n}\left|\left| \vec{j} \right|\right|^{2} = \frac{1}{2} \frac{m}{n} \gamma^{2} E^{2}$$
 
 
-$$\frac{\partial v}{\partial t} +\frac{e}{m} E$$
+$$-en\frac{\partial v}{\partial t} = \frac{e^{2}n}{m} E $$
 
 
 
