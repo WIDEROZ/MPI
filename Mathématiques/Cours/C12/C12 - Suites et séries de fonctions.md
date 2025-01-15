@@ -488,3 +488,14 @@ $$\forall x \in I, S'(x) = g(x) = \lim_{ n \to +\infty }  \sum_{k=0}^{n} f'_{k}(
 Montrer que : 
 $$S : x \in [0, 1] \mapsto \sum_{n=1}^{+ \infty}\left( \ln \left( 1+ \frac{x}{n}  \right)-\frac{x}{n}\right)$$
 est dérivable sur $[0, 1]$ et calculer $S'(1)$
+
+#### Théorème
+Soit $I$ un intervalle de $\mathbb{R}$ et $\forall n \in \mathbb{N}$, $f_{n}: I \to F$ de classe $\mathcal{C}^{p}$
+$$\begin{cases}
+\forall i \in [\![0, p-1]\!], \sum_{n \in \mathbb{N}}f_{n}^{(i)} \text{ CVS sur }I \\
+\sum_{n \in \mathbb{N}}f_{n}^{(p)} \text{ CVU sur }I
+\end{cases} $$
+$$\Rightarrow \begin{cases}
+S : x \in I \mapsto \sum_{n = 0}^{+ \infty}f_{n}(x) \in \mathcal{C}^{p}(I) \\
+\forall i \in [\![0, p]\!],S^{(i)}(x) = \sum_{n = 0}^{+ \infty} f^{(i)}_{n}(x)
+\end{cases}$$
