@@ -63,7 +63,7 @@ $$\boxed{\left< u_{em} \right> = \frac{\varepsilon_{0}}{2} E_{0} }$$
 ### b.
 $$u_{ec} = \frac{1}{2}mv^{2}n =\frac{1}{2} \frac{m}{n}\left|\left| \vec{j} \right|\right|^{2} = \frac{1}{2} \frac{m}{n} \gamma^{2} E^{2}$$
 
-
+$$\frac{x}{2}\ln\left( \frac{x^{2}}{x^{2}+1} \right) = - \frac{x}{2}\ln\left( 1+\frac{1}{x^{2}} \right)$$
 
 
 
