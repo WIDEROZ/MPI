@@ -33,3 +33,9 @@ pas :
 Dans le cas ou $\underline{k}^{2} >0$, 
 $$v_{\varphi} = \frac{\omega}{\mathrm{Re}(\underline{k})} = \frac{\omega}{k} = \frac{1}{\sqrt{\frac{1}{c^{2}}-\left( \frac{K}{\omega} \right)^{2}}}$$
 
+# Exercice 2
+## 1.
+$$ \underline{\overrightarrow{E}} = \underline{ E_{0}} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{x}$$
+avec $\vec{\underline{k}} = \underline{k} \vec{e}_{z}$ et $\vec{z} = z \vec{e}_{z}$
+
+$$\overrightarrow{rot}(\vec{B}) = \mu_{0} \vec{j} + \frac{1}{c^{2}} \frac{\partial Rve}{\partial } $$
