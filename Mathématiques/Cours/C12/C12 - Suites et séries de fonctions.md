@@ -457,3 +457,24 @@ $$\int_{a}^{b} \sum_{k = 0}^{+ \infty} f_{n}(t) \, dt = \sum_{k = 0}^{+ \infty} 
 #### Exercice
 Montrer que 
 $$\ln(2) = \sum_{n = 1}^{+ \infty} \frac{1}{n2^{n}}$$
+___
+$$\ln(2) = \int_{0}^{1/2} \sum_{k = 0}^{+ \infty} x^{k} \, dx$$
+Comme : $\forall k \in \mathbb{N}, f_{k} : x\mapsto x^{k}$ est continue sur $\left[ 0, \frac{1}{2} \right]$, la série : $\sum_{k \in \mathbb{N}}f_{k}$ CVN sur $I$ car $\left|\left| f_{k} \right|\right|_{\infty, I} = \frac{1}{2^{k}}$ et $\sum \frac{1}{2^{k}}$ CV
+Ainsi, 
+$\sum f_{k}$ CVU sur $I$
+Ainsi ca marche bien
+
+## 5. Dérivation de limite de séries de fonctions
+#### Théorème
+Soit $I$ un intervalle de $\mathbb{R}$ et $\forall n \in \mathbb{N}$, $f_{n}: I \to F$ de classe $\mathcal{C}^{1}$ 
+$$\begin{cases}
+\sum_{n \in \mathbb{N}}f_{n} \text{ CVS sur }I \\
+\sum_{n \in \mathbb{N}}f_{n}' \text{ CVU sur }I
+\end{cases} \Rightarrow \begin{cases}
+S : x \in I \mapsto \sum_{n = 0}^{+ \infty}f_{n}(x) \in \mathcal{C}^{1}(I) \\
+S'(x) = \sum_{n = 0}^{+ \infty} f'_{n}(x)
+\end{cases}$$
+
+Démonstration : 
+Par hypothèse, 
+$$S_{n} =  \sum_{k = 0}^{n} f_{k}\overset{\mathrm{CVS}}{\underset{I}{\longrightarrow}} S \text{ et } $$
