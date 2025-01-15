@@ -62,27 +62,11 @@ $$\boxed{\left< u_{em} \right> = \frac{\varepsilon_{0}}{2} E_{0} }$$
 
 ### b.
 $$u_{ec} = \frac{1}{2}mv^{2}n =\frac{1}{2} \frac{m}{n}\left|\left| \vec{j} \right|\right|^{2} = \frac{1}{2} \frac{m}{n} \gamma^{2} E^{2}$$
-
+Alors,
 $$\left|\left| \vec{j} \right|\right| = -en\frac{\partial v}{\partial t} = \frac{e^{2}n}{m} E \Rightarrow \gamma = \frac{e^{2}n}{m}$$
 Donc, 
-$$\frac{1}{2}$$
+$$u_{ec}=\frac{1}{2}e^{2}\gamma E^{2}$$
+Ainsi, 
+$$\boxed{\left< u_{ec} \right> = \frac{1}{4}e^{2}\gamma E_{0}}$$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$$\frac{\partial^{2}\vec{E}}{\partial x^{2}}  -\frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t^{2}} = \mu_{0} \frac{\partial \vec{j}}{\partial t} $$
-
+## 3.
