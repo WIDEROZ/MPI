@@ -433,8 +433,20 @@ car $f_{n}$ est décroissante
 Donc, 
 $$\left|\left| f \right|\right| _{\infty, [a, b]} \sim \frac{1}{an^{2}} > 0$$
 et comme : 
-$$\lim_{ x \to \infty } \sum_{n = 1}^{+ \infty} \frac{x}{1+xn^{2}} = \frac{\pi^{2}}{6} \Leftrightarrow S(x) \sim \frac{\pi^{2}}{6x}$$
+$$\lim_{ x \to \infty } \sum_{n = 1}^{+ \infty} \frac{x}{n+xn^{2}} = \frac{\pi^{2}}{6} \Leftrightarrow S(x) \sim \frac{\pi^{2}}{6x}$$
 Il suffit d'appliquer le théorème de la limite double à la série de fonctions : 
 $$\sum_{n \geq 1}g_{n} \text{ en }+\infty$$
 or
-$$$$
+$$0 \leq \frac{x}{n+xn^{2}} \leq \frac{x}{xn^{2}} = \frac{1}{n^{2}}$$
+Donc, la série CVN => CVU 
+
+## 4. Intégration d'une limite uniforme
+Ici $E = \mathbb{R}$ et $I$ est un intervalle
+#### Théorème
+Soit $n \in \mathbb{N}$, $f_{n} : [a, b] \to F$ continue
+Si $\sum_{n \in \mathbb{N}} f_{n}$ CVU sur $[a, b]$ alors, 
+$$\int _{a}^{b} \sum_{n = 0}^{+ \infty} f_{n}(t)  \, dt= \sum_{n = 0}^{+ \infty} \int _{a}^{b} f_{n}(t) \, dt  $$
+Démonstration : 
+Par hypothèse la suite de fonctions $(S_{n})_{n \in \mathbb{N}} = \left( \sum_{k = 0}^{n} f_{k} \right)_{n \in \mathbb{N}}$ CVU sur $[a, b]$, vers $S$
+$S$ est donc continue en tant que somme d'une série de fonctions continues convergeant uniformément. D'après notre théorème d'intégration de suites de fonction continues, on en déduit : 
+$$\int _{a}^{b} S(t) \, dt = \lim_{ n \to +\infty } \int _{a}^{b}S_{n}(t) \, dt = $$
