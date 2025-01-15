@@ -46,7 +46,7 @@ Dans le TDI de Wharton, Ellen Olenska décide le divorce ce qui est contraire au
 
 De même dans Les Suppliantes d'Eschyle Hypermestre décide de ne pas tuer son cousin ce qui est aussi un caractère différent de sa communauté du genos. 
 
-
+w
 ##### 2. Réussite de conservation de la singularité de l'individualité
 Pour protéger la cité, ETEOCLE se doit d'être rude envers les femmes car elles apporteraient la panique dans la cité ce qui constitue son individualité en tant que Chef de Thèbes. 
 
