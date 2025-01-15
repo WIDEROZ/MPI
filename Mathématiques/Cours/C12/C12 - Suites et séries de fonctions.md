@@ -477,4 +477,14 @@ S'(x) = \sum_{n = 0}^{+ \infty} f'_{n}(x)
 
 Démonstration : 
 Par hypothèse, 
-$$S_{n} =  \sum_{k = 0}^{n} f_{k}\overset{\mathrm{CVS}}{\underset{I}{\longrightarrow}} S \text{ et } $$
+$$\begin{cases}
+S_{n} =  \sum_{k = 0}^{n} f_{k}\overset{\mathrm{CVS}}{\underset{I}{\longrightarrow}} S  \\
+ S'_{n} = \sum_{k = 0}^{n}f_{k}' \overset{\mathrm{CVU}}{\underset{I}{\longrightarrow}} g
+\end{cases}$$
+D'après le théorème de dérivation des limites de suites de suites de fonctions, $S$ est de classe $\mathcal{C}^{1}$ puis
+$$\forall x \in I, S'(x) = g(x) = \lim_{ n \to +\infty }  \sum_{k=0}^{n} f'_{k}(x)= \sum_{k = 0}^{+ \infty} f'_{k}(x) $$
+
+#### Exercice CCINP 16
+Montrer que : 
+$$S : x \in [0, 1] \mapsto \sum_{n=1}^{+ \infty}\left( \ln \left( 1+ \frac{x}{n}  \right)-\frac{x}{n}\right)$$
+est dérivable sur $[0, 1]$ et calculer $S'(1)$
