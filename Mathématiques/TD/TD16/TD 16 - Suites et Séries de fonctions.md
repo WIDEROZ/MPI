@@ -80,4 +80,6 @@ Non car $\ln\left( 1+\frac{1}{n} \right)\sim \frac{1}{n}$ et $\sum \frac{1}{n}$ 
 
 ### Exercice 6
 #### a.
-$$\left|\left| e^{ 2^{-nt} }-1 \right|\right|_{\infty, \mathbb{R}_{+}^{*}} $$
+#### b.
+Soit $t \in [a, b] \subset \mathbb{R}_{+}^{*}$,
+$$\frac{1}{2^{t}-1}=\sum_{k = 1}^{+ \infty} 2^{-nt} \leq \sum_{k = 1}^{+ \infty} (e^{})$$
