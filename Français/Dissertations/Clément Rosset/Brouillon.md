@@ -42,9 +42,9 @@ Tandis que
 
 #### II. En revanche, cela n’empêche pas l'individu de se singulariser par lui même et de se créer sa propre identité
 ##### 1. Caractères de singularité individuelle
-Dans le TDI de Wharton, Ellen Olenska décide le divorce ce qui est contraire aux règles de la société elle se singularise alors grace à cette actin
+Dans le TDI de Wharton, Ellen Olenska décide le divorce ce qui est contraire aux règles de la société elle se singularise alors grace à cette action. 
 
-Les Suppliantes Hypermestre
+De même dans Les Suppliantes d'Eschyle Hypermestre décide de ne pas tuer son cousin ce qui est aussi un caractère différent de sa communauté du genos. 
 
 
 ##### 2. Réussite de conservation de la singularité de l'individualité
@@ -52,3 +52,8 @@ Pour protéger la cité, ETEOCLE se doit d'être rude envers les femmes car elle
 
 Dans le TTP DE SPINOZA, contrairement a l'oeuvre précédente, dans la préface p.50 il énonce que des membres d'une communauté perdent de leur singularité de penser et d'actions et sont tous soumis à un "maitre" et qu'ils n'ont donc aucun moyen pour se différencier les uns des autres. 
 
+### Conclusion
+Ainsi suivant le regard que porte un autre, la limite des choix effectués à partir de ce jugement, dans le cadre de la conservation de la place d'un individu dans la société, c'est son individualité. 
+
+
+Les actions individuelles en société découlent-elles du regard, décisionnaire du développement personnel, que porte autrui?
