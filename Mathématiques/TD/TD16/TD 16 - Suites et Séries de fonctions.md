@@ -82,4 +82,11 @@ Non car $\ln\left( 1+\frac{1}{n} \right)\sim \frac{1}{n}$ et $\sum \frac{1}{n}$ 
 #### a.
 #### b.
 Soit $t \in [a, b] \subset \mathbb{R}_{+}^{*}$,
-$$\frac{1}{2^{t}-1}=\sum_{k = 1}^{+ \infty} 2^{-nt} \leq \sum_{k = 1}^{+ \infty} (e^{})$$
+$$\frac{1}{2^{t}-1}=\sum_{n = 1}^{+ \infty} 2^{-nt} \leq f(t) \leq 2\sum_{n = 1}^{+ \infty}2^{-2nt} + \sum_{n = 1}^{+ \infty}2^{-nt}$$
+$$= \frac{1}{2^{2t+1}-\frac{1}{2}}+ \frac{1}{2^{t}-1}$$
+Ainsi, 
+$$\frac{1}{2^{t}}\sim_{+ \infty} \frac{1}{2^{t}-1} \leq \sum_{n = 1}^{+ \infty}(e^{ 2^{-nt} }-1) \leq \frac{1}{2^{2t+1}-\frac{1}{2}} +\frac{1}{2^{t}-1}\sim_{+ \infty} \frac{1}{2^{t}}$$
+Ainsi, 
+$$f(t) \sim_{+ \infty} \frac{1}{2^{t}}$$
+
+### Exercice 9
