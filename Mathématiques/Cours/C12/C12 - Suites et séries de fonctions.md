@@ -422,3 +422,9 @@ $$\begin{rcases}
 \sum_{n \geq 0} l_{n} \text{ CV} \\
 \lim_{ x \to a } \underset{n=0}{\overset{+ \infty}{\sum}}f(x) = \underset{n=0}{\overset{+ \infty}{\sum}}l_{n}
 \end{cases}$$
+
+#### Exercice
+Montrer que 
+$$S : x \mapsto \sum_{n = 1}^{+ \infty} \frac{1}{n+xn^{2}}$$
+est continue et que : $S(x) \sim_{x \to + \infty} \frac{\pi^{2}}{6x}$
+S ne CVN pas
