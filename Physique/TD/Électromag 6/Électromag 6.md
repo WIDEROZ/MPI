@@ -70,3 +70,5 @@ Ainsi,
 $$\boxed{\left< u_{ec} \right> = \frac{1}{4}e^{2}\gamma E_{0}}$$
 
 ## 3.
+$$u_{e} = u_{em} + u_{ec} = E^{2}\left( \varepsilon_{0}+\frac{1}{2}e^{2}\gamma  \right) $$
+$$= E_{0}^{2}\left( \varepsilon_{0}+\frac{1}{2}e^{2}\gamma  \right)\frac{\cos(\omega t-kz)+1}{2}$$
