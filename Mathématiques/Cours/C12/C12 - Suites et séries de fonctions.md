@@ -427,4 +427,14 @@ $$\begin{rcases}
 Montrer que 
 $$S : x \mapsto \sum_{n = 1}^{+ \infty} \frac{1}{n+xn^{2}}$$
 est continue et que : $S(x) \sim_{x \to + \infty} \frac{\pi^{2}}{6x}$
-S ne CVN pas
+S ne CVN pas sur $\mathbb{R}_{+}^{*}$ mais CVNSTS car : 
+$$\forall [a, b] \subset \mathbb{R}_{+}^{*}, \forall x \in [a, b], \left|\left| f_{n} \right|\right|_{\infty, [a, b]} = \frac{1}{n+an^{2}}$$
+car $f_{n}$ est décroissante
+Donc, 
+$$\left|\left| f \right|\right| _{\infty, [a, b]} \sim \frac{1}{an^{2}} > 0$$
+et comme : 
+$$\lim_{ x \to \infty } \sum_{n = 1}^{+ \infty} \frac{x}{1+xn^{2}} = \frac{\pi^{2}}{6} \Leftrightarrow S(x) \sim \frac{\pi^{2}}{6x}$$
+Il suffit d'appliquer le théorème de la limite double à la série de fonctions : 
+$$\sum_{n \geq 1}g_{n} \text{ en }+\infty$$
+or
+$$$$
