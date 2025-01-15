@@ -72,3 +72,8 @@ $$\boxed{\left< u_{ec} \right> = \frac{1}{4}e^{2}\gamma E_{0}}$$
 ## 3.
 $$u_{e} = u_{em} + u_{ec} = E^{2}\left( \varepsilon_{0}+\frac{1}{2}e^{2}\gamma  \right) $$
 $$= E_{0}^{2}\left( \varepsilon_{0}+\frac{1}{2}e^{2}\gamma  \right)\frac{\cos(\omega t-kz)+1}{2}$$
+$v_{e}=c$
+
+$$v_{g} = \frac{d\omega}{dk} $$
+$$k^{2} = \frac{\omega^{2}-\omega^{2}_{p}}{c^{2}} \text{ avec } \omega_{p}= \sqrt{\frac{ne^{2}}{m\varepsilon_{0}}}$$
+$$2\omega d\omega = 2 \frac{k}{c^{2}} dk \Rightarrow v_{g}= \frac{k}{\omega c^{2}} $$
