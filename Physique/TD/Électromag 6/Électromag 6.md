@@ -35,8 +35,12 @@ $$v_{\varphi} = \frac{\omega}{\mathrm{Re}(\underline{k})} = \frac{\omega}{k} = \
 
 # Exercice 2
 ## 1.
-$$\boxed{ \underline{\overrightarrow{E}} = \underline{ E_{0}} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{x}}$$
+$$\boxed{ \underline{\overrightarrow{E}} = \underline{E} \vec{e}_{x} = \underline{ E_{0}} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{x}}$$
 avec $\vec{\underline{k}} = \underline{k} \vec{e}_{z}$ et $\vec{z} = z \vec{e}_{z}$
+On note : 
+$$\mathrm{Re}(\underline{E}) = E$$
+___
+Maxwell-Faraday : 
 $$-ik E \vec{e}_{y}=\begin{pmatrix}
 0 \\
 \frac{\partial E}{\partial z}  \\
@@ -48,13 +52,16 @@ Ainsi,
 $$\boxed{\vec{B} = \frac {\underline{E_{0}}}{c} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{y}}$$
 $$\vec{\Pi} = \frac{\vec{E}\wedge \vec{B}}{\mu_{0}} = c\varepsilon_{0}\underline{E_{0}}^{2} e^{ 2i(\omega t-\underline{\vec{k}}.\vec{z}) }\vec{e}_{x}$$
 Ainsi, 
-$$\boxed{\vec{\Pi} = c\varepsilon_{0}(\overrightarrow{\underline{E}})^{2} \vec{e}_{z} }$$
+$$\boxed{\vec{\Pi} = c\varepsilon_{0}E^{2} \vec{e}_{z} }$$
 
 ## 2.
 ### a.
-$$\left<  \right> $$
+$$u_{em} = \frac{1}{2}\varepsilon_{0}E^{2} + \frac{1}{2} \frac{B^{2}}{\mu_{0}} = \frac{1}{2}\varepsilon_{0}E^{2} + \frac{1}{2} \varepsilon_{0} E^{2} = \varepsilon_{0} E^{2} $$
 
+$$\boxed{\left< u_{em} \right> = \frac{\varepsilon_{0}}{2} E_{0} }$$
 
+### b.
+$$u_{ec} = \frac{1}{2}mv^{2}n =\frac{1}{2} \frac{m}{n}\left|\left| \vec{j} \right|\right|^{2} = \frac{1}{2} \frac{m}{n} \gamma^{2} E^{2}$$
 
 
 
