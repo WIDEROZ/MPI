@@ -499,3 +499,13 @@ $$\Rightarrow \begin{cases}
 S : x \in I \mapsto \sum_{n = 0}^{+ \infty}f_{n}(x) \in \mathcal{C}^{p}(I) \\
 \forall i \in [\![0, p]\!],S^{(i)}(x) = \sum_{n = 0}^{+ \infty} f^{(i)}_{n}(x)
 \end{cases}$$
+
+# Théorèmes d'interversion
+## 1. Théorèmes de convergence dominée
+#### Question
+Soit $n \in \mathbb{N}$, $f_{n} \in \mathcal{C}^{0}_{m}(I, \mathbb{K})$
+Sous quelles hypothèses à-t-on
+$$\lim_{ n \to +\infty } \int _{I} f_{n}(t) \, dt = \int _{I}\lim_{ n \to +\infty } f_{n}(t) \, dt $$
+
+#### Théorème de convergence dominée
+Soit $I$
