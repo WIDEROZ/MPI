@@ -97,3 +97,9 @@ CVS : oui
 CVN ? : 
 $$f'(x) = -2\sum_{n = 1}^{+ \infty} \frac{n^{2}x^{2}}{n^{4}x^{5} +x^{3}n^{2}} = -\frac{2}{x} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1}$$
 $$\left|-\frac{2}{x} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1} \right| \leq \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1} \leq \frac{1}{x^{2}} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}} = \frac{\pi^{2}}{6x^{2}}$$
+
+$$\int _{1}^{+\infty} \ln\left( 1+\frac{1}{t^{2}x^{2}} \right) \, dt \text{ on pose : }\begin{cases}
+t = \frac{y^{2}}{xr} \\
+dt = \frac{dy}{x}
+\end{cases} $$
+$$\frac{1}{x}\int_{x}^{+ \infty} \ln\left( 1+ \frac{1}{y^{2}} \right) \, dy =$$
