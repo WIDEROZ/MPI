@@ -34,6 +34,10 @@ Dans le cas ou $\underline{k}^{2} >0$,
 $$v_{\varphi} = \frac{\omega}{\mathrm{Re}(\underline{k})} = \frac{\omega}{k} = \frac{1}{\sqrt{\frac{1}{c^{2}}-\left( \frac{K}{\omega} \right)^{2}}}$$
 $$\boxed{v_{g}= \frac{k}{\omega}  c^{2}}$$
 
+## 6.
+$$\Delta t = \frac{L}{v_{g}} = \frac{L}{C}\left( 1+\frac{1}{2} \left( \frac{K\lambda}{2\pi} \right)^{2} \right)$$
+
+
 # Exercice 2
 ## 1.
 $$\boxed{ \underline{\overrightarrow{E}} = \underline{E} \vec{e}_{x} = \underline{ E_{0}} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{x}}$$
