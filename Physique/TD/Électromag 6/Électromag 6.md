@@ -54,16 +54,16 @@ $$-ik E \vec{e}_{y}=\begin{pmatrix}
 Ainsi, 
 $$\vec{e}_{z} \wedge \vec{E} = \frac{\omega}{k}\vec{B}$$
 Ainsi,
-$$\boxed{\vec{B} = \frac {\underline{E_{0}}}{c} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{y}}$$
-$$\vec{\Pi} = \frac{\vec{E}\wedge \vec{B}}{\mu_{0}} = c\varepsilon_{0}\underline{E_{0}}^{2} e^{ 2i(\omega t-\underline{\vec{k}}.\vec{z}) }\vec{e}_{x}$$
+$$\boxed{\vec{B} = k\frac {\underline{E_{0}}}{\omega} e^{ i(\omega t - \vec{\underline{k}}.\vec{z}) } \vec{e}_{y}}$$
+$$\vec{\Pi} = \frac{\vec{E}\wedge \vec{B}}{\mu_{0}} = \frac{\omega}{k}\varepsilon_{0}\underline{E_{0}}^{2} e^{ 2i(\omega t-\underline{\vec{k}}.\vec{z}) }\vec{e}_{x}$$
 Ainsi, 
-$$\boxed{\vec{\Pi} = c\varepsilon_{0}E^{2} \vec{e}_{z} }$$
+$$\boxed{\vec{\Pi} = \frac{\omega}{k}\varepsilon_{0}E^{2} \vec{e}_{z} }$$
 
 ## 2.
 ### a.
 $$u_{em} = \frac{1}{2}\varepsilon_{0}E^{2} + \frac{1}{2} \frac{B^{2}}{\mu_{0}} = \frac{1}{2}\varepsilon_{0}E^{2} + \frac{1}{2} \varepsilon_{0} E^{2} = \varepsilon_{0} E^{2} $$
 
-$$\boxed{\left< u_{em} \right> = \frac{\varepsilon_{0}}{2} E_{0} }$$
+$$\boxed{\left< u_{em} \right> = \frac{\varepsilon_{0}}{2} E_{0}^{2} }$$
 
 ### b.
 $$u_{ec} = \frac{1}{2}mv^{2}n =\frac{1}{2} \frac{m}{n}\left|\left| \vec{j} \right|\right|^{2} = \frac{1}{2} \frac{m}{n} \gamma^{2} E^{2}$$
@@ -72,7 +72,7 @@ $$\left|\left| \vec{j} \right|\right| = -en\frac{\partial v}{\partial t} = \frac
 Donc, 
 $$u_{ec}=\frac{1}{2}e^{2}\gamma E^{2}$$
 Ainsi, 
-$$\boxed{\left< u_{ec} \right> = \frac{1}{4}e^{2}\gamma E_{0}}$$
+$$\boxed{\left< u_{ec} \right> = \frac{1}{4}e^{2}\gamma E_{0}^{2}}$$
 
 ## 3.
 $$u_{e} = u_{em} + u_{ec} = E^{2}\left( \varepsilon_{0}+\frac{1}{2}e^{2}\gamma  \right) $$
