@@ -507,5 +507,24 @@ Soit $n \in \mathbb{N}$, $f_{n} \in \mathcal{C}^{0}_{m}(I, \mathbb{K})$
 Sous quelles hypothèses à-t-on
 $$\lim_{ n \to +\infty } \int _{I} f_{n}(t) \, dt = \int _{I}\lim_{ n \to +\infty } f_{n}(t) \, dt $$
 
-#### Théorème de convergence dominée
-Soit $I$
+#### Théorème de convergence dominée (TCVD)
+Soit $I$ un intervalle, $\forall n \in \mathbb{N}, f_{n} : I \to \mathbb{K}$ continue par morceaux (CPM)
+Si : 
+$$\begin{cases}
+(f_{n})_{n \in \mathbb{N}} \text{ CVS sur I vers }f:I \to \mathbb{K} \text{ CPM} \\
+\exists \varphi : I \to \mathbb{R} \text{ intégrable sur }I \text{ telle que } \begin{cases}
+\forall n \in \mathbb{N} \\
+\forall t \in I
+\end{cases}, \left| f_{n}(t) \right|\leq \varphi(t)
+\end{cases}$$
+Alors, 
+$$f \text{ est intégrable sur }I \text{ et } \int_{I} f_{n}(t) \, dt \underset{n \to +\infty}{\longrightarrow} \int _{I} f(t) \, dt  $$
+
+#### Exemple
+Montrer que : 
+$$\int _{0}^{\pi/2} (\cos(t))^{n} \, dt \underset{n \to +\infty}{\longrightarrow} 0 $$
+Comme 
+$$\cos(t)^{n} \underset{n \to +\infty}{\longrightarrow} \begin{cases}
+1 \text{ si }t = 0 \\
+0 \text{ sinon}
+\end{cases}$$
