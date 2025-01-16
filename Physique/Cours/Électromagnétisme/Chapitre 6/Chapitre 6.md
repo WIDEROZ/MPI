@@ -55,3 +55,4 @@ $v_{\varphi} \to + \infty$ : onde évanescente
 Si $\omega \to + \infty$, 
 $v_{\varphi} = v_{g} = c$ : idem que dans le vide, $\vec{E}$ varie trop vite pour que les électrons aient le temps de réagir. 
 
+xwww
