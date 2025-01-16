@@ -528,3 +528,9 @@ $$\cos(t)^{n} \underset{n \to +\infty}{\longrightarrow} \begin{cases}
 1 \text{ si }t = 0 \\
 0 \text{ sinon}
 \end{cases}$$
+et que : 
+$$|\cos(t)^{n}| \leq 1$$
+comme $1$ ne dépend pas de $n$, 
+On applique de TCVD
+
+#### CCINP 25
