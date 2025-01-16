@@ -533,4 +533,3 @@ $$|\cos(t)^{n}| \leq 1$$
 comme $1$ ne dépend pas de $n$, 
 On applique de TCVD
 
-#### CCINP 25
