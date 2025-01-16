@@ -32,6 +32,7 @@ Pour $\underline k^{2}<0$ c'est impossible la vitesse de phase n'existe
 pas : 
 Dans le cas ou $\underline{k}^{2} >0$, 
 $$v_{\varphi} = \frac{\omega}{\mathrm{Re}(\underline{k})} = \frac{\omega}{k} = \frac{1}{\sqrt{\frac{1}{c^{2}}-\left( \frac{K}{\omega} \right)^{2}}}$$
+$$\boxed{v_{g}= \frac{k}{\omega}  c^{2}}$$
 
 # Exercice 2
 ## 1.
