@@ -93,5 +93,7 @@ $$f(t) \sim_{+ \infty} \frac{1}{2^{t}}$$
 #### 1.
 $$\frac{1}{x^{2}n^{2}}$$
 #### 2.
-$$-2\sum_{n = 1}^{+ \infty} \frac{n^{2}x^{2}}{n^{4}x^{5} +x^{3}n^{2}} = -\frac{2}{x} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1}$$
-$$\left|-\frac{2}{x} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1} \right| \leq \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1}$$
+$$f'(x) = -2\sum_{n = 1}^{+ \infty} \frac{n^{2}x^{2}}{n^{4}x^{5} +x^{3}n^{2}} = -\frac{2}{x} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1}$$
+$$\left|-\frac{2}{x} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1} \right| \leq \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1} \leq \frac{1}{x^{2}} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}} = \frac{\pi^{2}}{6x^{2}}$$
+
+#### 3.
