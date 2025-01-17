@@ -92,5 +92,14 @@ $$\overrightarrow{rot}(\vec{B}) = \mu_{0} \vec{j}$$
 
 ## 2.
 ### a.
-$$\gamma\vec{\Delta}(\vec{E})   = \mu_{0} \frac{\partial \vec{j}}{\partial t}  $$
+$$\gamma\vec{\Delta}(\vec{E})   = \mu_{0}\gamma \frac{\partial \vec{j}}{\partial t}  $$
 ie
+$$\overrightarrow{rot}(\vec{E}) = -\frac{\partial \vec{B}}{\partial t} \Rightarrow \begin{pmatrix}
+0  \\
+0 \\
+\frac{\partial E}{\partial x} 
+\end{pmatrix} = -\frac{1}{\delta}(i+1) \begin{pmatrix}
+0 \\
+0 \\
+E
+\end{pmatrix}$$
