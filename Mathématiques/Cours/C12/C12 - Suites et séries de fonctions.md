@@ -543,9 +543,20 @@ On dispose déjà du TCVD et du TCVUSTS
 Dans la suite $I$ est un intervalle
 
 #### Théorème d'intégration terme à terme positif
-Soit $n \in \mathbb{N}$, $f_{n} : I \to \mathbb{R}_{+}$ intégrable sur $I$
+Soit $n \in \mathbb{N}$, $f_{n} : I \to \boxed{\mathbb{R}_{+}}$ intégrable sur $I$
 $$\begin{cases}
 \sum_{n \in \mathbb{N}} f_{n} \text{ CVS sur }I \\
-t \in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(t) \text{ est }\mathcal{C}_{m}^{0} \text{ sur }I 
-\end{cases}$$
-$$\Rightarrow  $$
+S:t \in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(t) \text{ est }\mathcal{C}_{m}^{0} \text{ sur }I 
+\end{cases}   $$
+$$\Rightarrow \int _{I} \sum_{n = 0}^{+ \infty} f_{n} = \sum_{n = 0}^{+ \infty} \int _{I} f_{n} \in \mathbb{R}_{+} \sqcup \{ + \infty \}$$
+en particulier
+$$S \text{ est intégrable sur } I \Leftrightarrow \sum_{n \in \mathbb{N}} \int_{I} f_{n} \text{ CV} $$
+
+#### Exercice
+Montrer que : 
+$$\int _{0}^{+ \infty} \frac{t e^{ -t }}{1-e^{ -2t }} \, dt = \sum_{n = 0}^{+ \infty} \frac{1}{(2n+1)^{2}} $$
+et calculer cette valeur
+$$\frac{1}{1-e^{ -t }} = \sum_{n = 0}^{+ \infty} e^{ -2nt }$$
+et on note : 
+$$S(t) = \sum_{{n = 1}}^{+ \infty} te^{ -2nt } = \sum_{n = 1}^{+ \infty} f_{n}(t)$$
+On a bien $f_{n}$
