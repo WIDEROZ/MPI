@@ -82,4 +82,11 @@ $$\frac{2\omega}{c^{2}} d\omega = 2 k dk \Rightarrow \boxed{v_{g}= \frac{k}{\ome
 # Exercice 3
 ## 1.
 ### a.
-$$\vec{\underline{j}} = \underline{j_{0}}(x) e^{ i(\omega t-) }\vec{e}_{y}$$
+$$\gamma div(\vec{E}) + \frac{\partial \rho}{\partial t} = \frac{\gamma \rho}{\varepsilon_{0}} + \frac{\partial \rho }{\partial t} = 0 \Rightarrow \frac{\partial \rho}{\partial t} + \frac{\gamma}{\varepsilon_{0}}\rho = 0$$
+$$\rho = A e^{ -\omega t } \text{ ou } \omega = \frac{\gamma}{\varepsilon_{0}} \gg 1\Rightarrow \rho \underset{n \to +\infty}{\longrightarrow} 0 \text{ rapidement}$$
+
+### b.
+
+
+
+$$\overrightarrow{rot}(\vec{B}) = \mu_{0} \vec{j}$$
