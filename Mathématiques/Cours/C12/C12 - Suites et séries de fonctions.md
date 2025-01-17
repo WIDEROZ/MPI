@@ -594,7 +594,7 @@ S \text{ est intégrable sur }I \\
 \end{cases}$$
 
 #### Exercice
-$$\int _{0} ^{+ \infty} \frac{\sin(t)}{e^{ nt }-1}  \, dt = \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}+1} $$
+$$\int _{0} ^{+ \infty} \frac{\sin(t)}{e^{ t }-1}  \, dt = \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}+1} $$
 On pose : 
 $$S(t) = \frac{\sin(t)}{e^{ t }-1}$$
 Soit $I = \mathbb{R}_{+}^{*}$, 
@@ -604,5 +604,8 @@ $$f_{n}(t) = \sin(t)e^{ -nt }$$
 $$\sum_{n \geq 1} f_{n} \text{ est bien CVS sur }I$$
 car $\frac{e^{ -t }\sin(t)}{1-e^{ -t }} \in \mathbb{R}$ 
 De plus : 
-$$ \left| f_{n}\right| \text{ est intégrable car : } |f_{n}(t)| \leq \frac{1}{e^{ nt }-1} \sim e^{ -t }$$
+$$ \left| f_{n}\right| \text{ est intégrable car : } |f_{n}(t)| \leq e^{ -t }$$
 et $e^{ -t }$ est intégrable sur $\mathbb{R}_{+}^{*}$,
+
+$$\int_{0}^{+ \infty} f_{n} = \sum_{k = 0}^{+ \infty} \int _{k\pi}^{(k+1)\pi} \left| \sin(t)\right|e^{ -nt } \, dt $$
+$$=\sum_{k = 0}^{+ \infty} (-1)^{k} \int _{k\pi}^{(k+1)\pi} \mathrm{Im}( e^{ (i-n)t }) \, dt = $$
