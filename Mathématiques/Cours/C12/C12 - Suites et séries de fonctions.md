@@ -533,3 +533,19 @@ $$|\cos(t)^{n}| \leq 1$$
 comme $1$ ne dépend pas de $n$, 
 On applique de TCVD
 
+## 2. Intégration termes à termes
+#### Question
+À quelles conditions peut on dire : 
+$$\int _{I} \sum_{n = 0}^{+ \infty} f_{n} = \sum_{n = 0}^{+ \infty} \int _{I} f_{n} \Leftrightarrow \int _{I} \lim_{ n \to \infty } S_{n}  =\lim_{ n \to \infty }   \int _{I} S_{n}$$
+
+On dispose déjà du TCVD et du TCVUSTS
+
+Dans la suite $I$ est un intervalle
+
+#### Théorème d'intégration terme à terme positif
+Soit $n \in \mathbb{N}$, $f_{n} : I \to \mathbb{R}_{+}$ intégrable sur $I$
+$$\begin{cases}
+\sum_{n \in \mathbb{N}} f_{n} \text{ CVS sur }I \\
+t \in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(t) \text{ est }\mathcal{C}_{m}^{0} \text{ sur }I 
+\end{cases}$$
+$$\Rightarrow  $$
