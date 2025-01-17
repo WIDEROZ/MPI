@@ -569,4 +569,21 @@ de plus, la série :
 $$\sum_{n \in \mathbb{N}} \frac{1}{(2n+1)^{2}}\text{ est une SATP CV} \text{ car } \frac{1}{(2n+1)^{2}} = O\left( \frac{1}{n^{2}} \right)$$
 
 #### Exercice
+Montrer que la série : 
+$$ \sum_{n = 1}^{+ \infty} \int _{0}^{+ \infty} \frac{dt}{(t^{3}+1)^{n}} \text{ DV}$$
+On suppose qu'elle converge, et comme : 
+$f_{n}>0$ et intégrable sur $\mathbb{R}_{+}^{*}$, (car $f_{n}(t) =_{t \to +\infty} O\left( \frac{1}{t^{3n}} \right)$ donc $O\left( \frac{1}{t^{3}} \right)$)
+$$\sum_{n \geq 1}f_{n}\text{ CVS sur }I \text{ vers } S(t) = \sum_{n = 1}^{+ \infty} \frac{1}{(t^{3}+1)^{n}} = \frac{1}{t^{3}}$$
+pour $t \in \mathbb{R}^{*}_{+}$
+Qui est bien cont sur $I$
+D'après le théorème précédent : 
+$$\sum_{n = 1}^{+ \infty} \int _{I} f_{n}(t) \, dt = \int _{0}^{+ \infty} \frac{dt}{t^{3}}  $$
+et donc $t \mapsto \frac{1}{t^{3}}$ est intégrable sur $\mathbb{R}_{+}$
+C'est absurde. 
 
+#### Théorème d'intégration terme à terme
+Soit $n \in \mathbb{N}$, $f_{n} : I \to \mathbb{C}$ intégrable sur $I$, 
+$$\begin{cases}
+ \sum_{n \geq 0} f_{n} \text{ CVS sur }I \\
+S : t\in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(t) \text{ est CPM sur }I
+\end{cases}$$
