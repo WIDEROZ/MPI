@@ -110,4 +110,12 @@ $$\left|\left| f'_{n} \right|\right|_{\infty, \mathbb{R}_{+}^{*}}= \frac{1}{n^{2
 Donc $S(x)$ CVN => CVU
 Ainsi, $S \in \mathcal{C}^{1}(\mathbb{R}_{+}^{*})$, 
 
-$$S'(x) = \sum_{n = 0}^{+ \infty} \frac{(-1)^{n+1}}{}$$
+$$S'(x) = \sum_{n = 0}^{+ \infty} \frac{(-1)^{n+1}}{(n+x)^{2}}$$
+Comme c'est une série de liebniz, $sgn(S'(x)) = sgn\left( -\frac{1}{x^{2}} \right)= -1$ ie $S$ est décroissante
+de même pour $S$ qui est alors positive. 
+
+## b.
+$$\sum_{n= 1}^{+ \infty} \frac{(-1)^{n}}{n+x} = -\sum_{n = 0}^{+ \infty} \frac{(-1)^{n}}{n+1+x} $$
+$$\left| R_{n}(x)\right| \leq \frac{1}{n+1+x}\underset{n \to +\infty}{\longrightarrow} 0 $$
+Donc 
+$$\ln(2) = \int_{0}^{1} \frac{1}{t+1} \, dt $$
