@@ -585,5 +585,24 @@ C'est absurde.
 Soit $n \in \mathbb{N}$, $f_{n} : I \to \mathbb{C}$ intégrable sur $I$, 
 $$\begin{cases}
  \sum_{n \geq 0} f_{n} \text{ CVS sur }I \\
-S : t\in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(t) \text{ est CPM sur }I
+S : t\in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(t) \text{ est CPM sur }I \\
+\sum_{n \in \mathbb{N}}\int _{I}\left| f_{n}(t) \right| \, dt \text{ CV} 
 \end{cases}$$
+$$\Rightarrow\begin{cases}
+S \text{ est intégrable sur }I \\
+\sum_{n = 0}^{+ \infty} \int _{I}f_{n} = \int _{I}\sum_{n = 0}^{+ \infty} f_{n} 
+\end{cases}$$
+
+#### Exercice
+$$\int _{0} ^{+ \infty} \frac{\sin(t)}{e^{ nt }-1}  \, dt = \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}+1} $$
+On pose : 
+$$S(t) = \frac{\sin(t)}{e^{ t }-1}$$
+Soit $I = \mathbb{R}_{+}^{*}$, 
+$$\forall t \in I, S(t) = \frac{e^{ -t }\sin(t)}{1-e^{ -t }} = \sin(t)\sum_{n = 1}^{+ \infty} e^{ -nt }$$
+On pose : 
+$$f_{n}(t) = \sin(t)e^{ -nt }$$
+$$\sum_{n \geq 1} f_{n} \text{ est bien CVS sur }I$$
+car $\frac{e^{ -t }\sin(t)}{1-e^{ -t }} \in \mathbb{R}$ 
+De plus : 
+$$ \left| f_{n}\right| \text{ est intégrable car : } |f_{n}(t)| \leq \frac{1}{e^{ nt }-1} \sim e^{ -t }$$
+et $e^{ -t }$ est intégrable sur $\mathbb{R}_{+}^{*}$,
