@@ -92,6 +92,5 @@ $$\overrightarrow{rot}(\vec{B}) = \mu_{0} \vec{j}$$
 
 ## 2.
 ### a.
-$$\vec{\Delta}(\vec{E}) - \frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t^{2}}  = \mu_{0} \frac{\partial \vec{j}}{\partial t} \Leftrightarrow \vec{\Delta}(\vec{j})- \frac{1}{c^{2}}\frac{\partial^{2}\vec{j}}{\partial t^{2}} = \frac{\mu_{0}}{\gamma} \frac{\partial \vec{j}}{\partial t}  $$
+$$\gamma\vec{\Delta}(\vec{E})   = \mu_{0} \frac{\partial \vec{j}}{\partial t}  $$
 ie
-$$\Delta j(x) = \frac{\partial^{2} j(x)}{\partial x^{2}} $$
