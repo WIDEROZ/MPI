@@ -102,3 +102,16 @@ $$\int _{1}^{+\infty} \ln\left( 1+\frac{1}{t^{2}x^{2}} \right) \, dt$$
 
 # Exercice 8
 ## a.
+CVS : 
+Critère de leibniz
+CVUSTS : 
+Soit $I = [a, b]$,
+Soit $x \in I$, 
+Soit $n \in \mathbb{N}$, 
+Montrons que le reste de $S(x)$ tend vers $0$ : 
+$$ \left|\left| \sum_{k = n+1}^{+ \infty} \frac{(-1)^{k}}{k+x} \right|\right| _{\infty, I}  \leq \frac{1}{n+1+a} \underset{n \to +\infty}{\longrightarrow} 0 $$
+car c'est une série de leIbniz
+Donc, $R_{n} \underset{n \to +\infty}{\longrightarrow}0$
+Ainsi, comme le majorant ne dépend pas de $x$ 
+$$S(x) \text{ CVUSTS}$$
+Donc $S(x) \in \mathcal{C}^{1}(I)$
