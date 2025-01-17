@@ -78,3 +78,8 @@ $v_{e}=c$
 $$v_{g} = \frac{d\omega}{dk} $$
 $$k^{2} = \frac{\omega^{2}-\omega^{2}_{p}}{c^{2}} \text{ avec } \omega_{p}= \sqrt{\frac{ne^{2}}{m\varepsilon_{0}}}$$
 $$\frac{2\omega}{c^{2}} d\omega = 2 k dk \Rightarrow \boxed{v_{g}= \frac{k}{\omega}  c^{2}}$$
+
+# Exercice 3
+## 1.
+### a.
+$$\vec{\underline{j}} = \underline{j_{0}}(x) e^{ i(\omega t-) }\vec{e}_{y}$$
