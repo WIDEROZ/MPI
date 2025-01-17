@@ -86,7 +86,12 @@ $$\gamma div(\vec{E}) + \frac{\partial \rho}{\partial t} = \frac{\gamma \rho}{\v
 $$\rho = A e^{ -\omega t } \text{ ou } \omega = \frac{\gamma}{\varepsilon_{0}} \gg 1\Rightarrow \rho \underset{n \to +\infty}{\longrightarrow} 0 \text{ rapidement}$$
 
 ### b.
-
-
-
+$$\frac{\left|\left| \varepsilon_{0} \frac{\partial \vec{E}}{\partial t} \right|\right|}{\left|\left| \gamma \vec{E} \right|\right| } =\frac{\varepsilon_{0}}{\gamma}\omega \ll 1 \Leftrightarrow 10^{-19}\omega \ll 1 \Leftrightarrow \omega \ll 10^{19}$$
+Alors 
 $$\overrightarrow{rot}(\vec{B}) = \mu_{0} \vec{j}$$
+
+## 2.
+### a.
+$$\vec{\Delta}(\vec{E}) - \frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t^{2}}  = \mu_{0} \frac{\partial \vec{j}}{\partial t} \Leftrightarrow \vec{\Delta}(\vec{j})- \frac{1}{c^{2}}\frac{\partial^{2}\vec{j}}{\partial t^{2}} = \frac{\mu_{0}}{\gamma} \frac{\partial \vec{j}}{\partial t}  $$
+ie
+$$\Delta j(x) = \frac{\partial^{2} j(x)}{\partial x^{2}} $$
