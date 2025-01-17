@@ -99,3 +99,6 @@ $$f'(x) = -2\sum_{n = 1}^{+ \infty} \frac{n^{2}x^{2}}{n^{4}x^{5} +x^{3}n^{2}} = 
 $$\left|-\frac{2}{x} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1} \right| \leq \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}x^{2}+1} \leq \frac{1}{x^{2}} \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}} = \frac{\pi^{2}}{6x^{2}}$$
 
 $$\int _{1}^{+\infty} \ln\left( 1+\frac{1}{t^{2}x^{2}} \right) \, dt$$
+
+# Exercice 8
+## a.

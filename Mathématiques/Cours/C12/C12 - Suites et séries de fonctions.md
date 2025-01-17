@@ -607,5 +607,17 @@ De plus :
 $$ \left| f_{n}\right| \text{ est intégrable car : } |f_{n}(t)| \leq e^{ -t }$$
 et $e^{ -t }$ est intégrable sur $\mathbb{R}_{+}^{*}$,
 
+Ozgu : 
 $$\int_{0}^{+ \infty} f_{n} = \sum_{k = 0}^{+ \infty} \int _{k\pi}^{(k+1)\pi} \left| \sin(t)\right|e^{ -nt } \, dt $$
-$$=\sum_{k = 0}^{+ \infty} (-1)^{k} \int _{k\pi}^{(k+1)\pi} \mathrm{Im}( e^{ (i-n)t }) \, dt = $$
+$$=\sum_{k = 0}^{+ \infty} (-1)^{k} \int _{k\pi}^{(k+1)\pi} \mathrm{Im}( e^{ (i-n)t }) \, dt  $$
+$$= \sum_{k = 0}^{+ \infty} (-1)^{k}\mathrm{Im}\left(  \frac{e^{ (i-n)(k+1)\pi }-e^{ k(i-n)\pi }}{i-n} \right) \, dt $$
+$$ = \frac{1}{n^{2}+1} \frac{e^{ n\pi }+1}{e^{ n\pi-1 }}\sim \frac{1}{n^{2}}$$
+Ou bien : 
+$\sin(t)\leq t$ et on fait une IPP
+
+Ainsi,
+$$\sum \int_{I} |f_{n}|  \text{ CV}$$
+et $S$ est intégrable sur $\mathbb{R}_{+}^{*}$ et 
+$$\int _{0}^{+ \infty} \frac{\sin (t)}{e^{ t }-1} \, dt = \sum_{n = 1} \int_{0}^{+ \infty} (\sin (t))e^{ -nt } \, dt = \sum_{n = 1}^{+ \infty} \mathrm{Im}[e^{ (i-n)t }]_{0}^{+ \infty}  $$
+$$= \sum_{n = 1}^{+ \infty}\mathrm{Im} \left( -\frac{1}{-n+i} \right) = \sum_{n = 1}^{+ \infty}\frac{1}{n^{2}+1}$$
+
