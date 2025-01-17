@@ -102,4 +102,7 @@ $$\overrightarrow{rot}(\vec{E}) = -\frac{\partial \vec{B}}{\partial t} \Rightarr
 0 \\
 0 \\
 E
-\end{pmatrix}$$
+\end{pmatrix}=-i \omega \vec{B}$$
+$$\vec{B} = \frac{1}{\delta \omega}(1-i) E \vec{e}_{z} = \frac{1}{\delta \omega}\left( 1+e^{ -i \frac{\pi}{2} } \right) E \vec{e}_{z} = $$
+$$= \frac{1}{\delta \omega \gamma} j_{0} e^{ - \frac{x}{\delta} }\left( e^{ i\left( \omega t- \frac{x}{\delta} \right) }+ e^{ i\left( \omega t - \frac{x}{\delta} -\frac{\pi}{2} \right) }\right)$$
+$$= \frac{1}{\delta \omega \gamma} j_{0} e^{ - \frac{x}{\delta} } e^{ i\left( \omega t- \frac{x}{\delta} \right) }\left( 1+e^{ -i \frac{\pi}{2} } \right) \vec{e}_{z}$$
