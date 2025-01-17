@@ -558,5 +558,15 @@ $$\int _{0}^{+ \infty} \frac{t e^{ -t }}{1-e^{ -2t }} \, dt = \sum_{n = 0}^{+ \i
 et calculer cette valeur
 $$\frac{1}{1-e^{ -t }} = \sum_{n = 0}^{+ \infty} e^{ -2nt }$$
 et on note : 
-$$S(t) = \sum_{{n = 1}}^{+ \infty} te^{ -2nt } = \sum_{n = 1}^{+ \infty} f_{n}(t)$$
-On a bien $f_{n}$
+$$S(t) = \sum_{{n = 1}}^{+ \infty} te^{ -(2n+1)t } = \sum_{n = 1}^{+ \infty} f_{n}(t)$$
+On a bien $f_{n}$ qui est positive et intégrable car : 
+$$\int _{0}^{x} t e^{ -(2n+1)t } \, dt = \left[ t \frac{e^{ -(2n+1)t }}{-(2n+1)} \right]_{0}^{x} - \int _{0}^{x} \frac{e^{ -(2n+1)t }}{-(2n+1)} \, dt$$
+$$= \frac{xe^{ -2nx }}{-(2n+1)} + \frac{1}{2n+1}\left( \frac{1-e^{ -(2n+1)x }}{2n+1} \right) \underset{x \to +\infty}{\longrightarrow}  \frac{1}{(2n+1)^{2}}$$
+D'après le théorème, 
+$$\int _{0}^{+ \infty} \frac{t e^{ -t }}{1-e^{ -2t }} \, dt = \sum_{n = 0}^{+ \infty} \frac{1}{(2n+1)^{2}} $$
+est vrai
+de plus, la série :
+$$\sum_{n \in \mathbb{N}} \frac{1}{(2n+1)^{2}}\text{ est une SATP CV} \text{ car } \frac{1}{(2n+1)^{2}} = O\left( \frac{1}{n^{2}} \right)$$
+
+#### Exercice
+
