@@ -656,9 +656,8 @@ ATTRAPPER SUR LE VECTEUR $\overrightarrow{ON}$,
 Soient $(a_{n})_{n \in \mathbb{N}}$ et $(u_{n})_{n \in \mathbb{N}}$, des suites réelles positives.
 On suppose que la série : $\sum u_{n}$ CV
 
-Si $a_{n} = O(u_{n})$, 
+Si $a_{n} = O(u_{n})$, lorsque $n\to + \infty$, 
 $$\sum_{k = n}^{+ \infty} a_{n}= O \left( \sum_{k = n}^{+ \infty} u_{k}  \right)$$
-lorsque $n\to + \infty$, 
 de même pour $o$ et $\sim$
 
 Démonstration : la même
