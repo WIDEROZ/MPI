@@ -107,25 +107,14 @@ $$\vec{B} = \frac{1}{\delta \omega}(1-i) E \vec{e}_{z} = \frac{1}{\delta \omega}
 $$= \frac{1}{\delta \omega \gamma} j_{0} e^{ - \frac{x}{\delta} }\left( e^{ i\left( \omega t- \frac{x}{\delta} \right) }+ e^{ i\left( \omega t - \frac{x}{\delta} -\frac{\pi}{2} \right) }\right)$$
 $$= \frac{1}{\delta \omega \gamma} j_{0} e^{ - \frac{x}{\delta} } e^{ i\left( \omega t- \frac{x}{\delta} \right) }\left( 1+e^{ -i \frac{\pi}{2} } \right) \vec{e}_{z}$$
 
-
-## Exercice 6
-### 1.
-On fait un TRC à la corde
-$$\mu dl \frac{\partial^{2}\vec{z}}{\partial t^{2}} = i d\vec{l} \wedge \vec{B} + \vec{T}(x + dx, t) -\vec{T}(x, t) $$
-On projette sur $\vec{e}_{x}$, on note : $\vec{e}_{l} = \frac{d\vec{l}}{dl}$ et $\vec{T}(x, t)= T(x, t)\vec{e}_{l}$,
-$$-T(x+dx, t)(\alpha(x+dx, t)) = T(x, t) \vec{e}_{l}.\vec{e}_{x} - id\vec{l}\wedge \vec{B} .\vec{e}_{x}$$
-$$= T(x, t)\vec{e}_{l}.\vec{e}_{x} - idlB\vec{e}_{l}\wedge \vec{e}_{y}.\vec{e}_{x}= T(x, t)\cos(\alpha) +i dz B \sin(\alpha) $$
-Comme sur le schema du cours
-
-$$\frac{\partial^{2}z}{\partial t^{2}} -\frac{1}{c^{2}}\frac{\partial^{2}z}{\partial x^{2}}  = \frac{I_{0}B_{0}}{\mu c^{2}} \cos(\omega t)\sin\left( \frac{\pi x}{L} \right) $$
-
-#### 2.
-$$-A(x)\omega^{2} \cos(\omega t) - \frac{1}{c^{2}} \cos(\omega t) \frac{\partial^{2}A(x)}{\partial x^{2} } = \frac{I_{0}B_{0}}{\mu c^{2}} \cos(\omega t) \sin\left( \frac{\pi x}{L} \right) $$
+# Exercice 5
+## 1.
+On calcule $\overrightarrow{\underline{B_{i}}}$ :
+Comme $\vec{E}$ est une OPPM on a : 
+$$\overrightarrow{\underline{B}} = \frac{\vec{e}_{z} \wedge \overrightarrow{\underline{E}}}{c} = -\frac{1}{c} $$
+car $k_{0} = \frac{\omega}{c}$
+$$\overrightarrow{\underline{B_{i}}} = \frac{B_{0}}{c}e^{ i(\omega t-k_{0}z) } \vec{e}_{y}$$
+On à deux cas :
+$k \in \mathbb{R}$, 
+$$k^{2} = \frac{\omega^{2}-\omega_{p}^{2}}{c^{2}} \Rightarrow k = \sqrt{\frac{\omega^{2}-\omega_{p}^{2}}{c^{2}}}$$
 Alors, 
-$$\frac{\partial^{2}A(x)}{\partial x^{2}} + c^{2}\omega^{2} A(x) = -\frac{I_{0}B_{0}}{\mu} \sin\left( \frac{\pi x}{L} \right)$$
-Homogène : 
-$$r_{0}^{2} + c^{2}\omega^{2} = 0 \Rightarrow r_{0} = \pm i c\omega$$
-alors, 
-$$A(x) =  K_{1} e^{ ic\omega x} + K_{2} e^{ -ic\omega x}$$
-
-$$$$
