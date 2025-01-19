@@ -1,1 +1,0 @@
-$$\overrightarrow{rot}(\vec{B}) = \varepsilon_{0}\mu_{0} \frac{\partial \vec{E}}{\partial t}  \Rightarrow -i\vec{k}\wedge\vec{B} = \frac{1}{c^{2}} i\omega \vec{E} \Rightarrow \vec{E} = \frac{c^{2}}{\omega} \vec{B} \wedge \vec{k}$$

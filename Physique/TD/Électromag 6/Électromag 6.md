@@ -107,3 +107,15 @@ $$\vec{B} = \frac{1}{\delta \omega}(1-i) E \vec{e}_{z} = \frac{1}{\delta \omega}
 $$= \frac{1}{\delta \omega \gamma} j_{0} e^{ - \frac{x}{\delta} }\left( e^{ i\left( \omega t- \frac{x}{\delta} \right) }+ e^{ i\left( \omega t - \frac{x}{\delta} -\frac{\pi}{2} \right) }\right)$$
 $$= \frac{1}{\delta \omega \gamma} j_{0} e^{ - \frac{x}{\delta} } e^{ i\left( \omega t- \frac{x}{\delta} \right) }\left( 1+e^{ -i \frac{\pi}{2} } \right) \vec{e}_{z}$$
 
+
+## Exercice 6
+### 1.
+On fait un TRC à la corde
+$$\mu dl \frac{\partial^{2}\vec{z}}{\partial t^{2}} = i d\vec{l} \wedge \vec{B} + \vec{T}(x + dx, t) -\vec{T}(x, t) $$
+$$\vec{T}(x + dx) = \vec{T}(x, t) - idlB_{0}\sin\left( \frac{\pi x}{L} \right)\vec{e}_{z}$$
+
+
+
+$$\mu dl \frac{\partial^{2}z}{\partial t^{2}}\vec{e}_{z}  = i dl B_{0} \sin \left( \frac{\pi x}{L} \right)\vec{e}_{z}$$
+Alors, 
+$$\boxed{\frac{\partial^{2}z}{\partial t^{2}}= \frac{I_{0} B_{0}}{\mu}\cos(\omega t)\sin\left( \frac{\pi x}{L} \right)}$$
