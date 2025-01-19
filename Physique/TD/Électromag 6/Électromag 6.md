@@ -112,10 +112,7 @@ $$= \frac{1}{\delta \omega \gamma} j_{0} e^{ - \frac{x}{\delta} } e^{ i\left( \o
 ### 1.
 On fait un TRC à la corde
 $$\mu dl \frac{\partial^{2}\vec{z}}{\partial t^{2}} = i d\vec{l} \wedge \vec{B} + \vec{T}(x + dx, t) -\vec{T}(x, t) $$
-$$\vec{T}(x + dx) = \vec{T}(x, t) - idlB_{0}\sin\left( \frac{\pi x}{L} \right)\vec{e}_{z}$$
-
-
-
-$$\mu dl \frac{\partial^{2}z}{\partial t^{2}}\vec{e}_{z}  = i dl B_{0} \sin \left( \frac{\pi x}{L} \right)\vec{e}_{z}$$
-Alors, 
-$$\boxed{\frac{\partial^{2}z}{\partial t^{2}}= \frac{I_{0} B_{0}}{\mu}\cos(\omega t)\sin\left( \frac{\pi x}{L} \right)}$$
+On projette sur $\vec{e}_{x}$, on note : $\vec{e}_{l} = \frac{d\vec{l}}{dl}$ et $\vec{T}(x, t)= T(x, t)\vec{e}_{l}$,
+$$T(x+dx, t)\vec{e}_{l}.\vec{e}_{x} = T(x, t) \vec{e}_{l}.\vec{e}_{x} - id\vec{l}\wedge \vec{B} .\vec{e}_{x}$$
+$$= T(x, t)\vec{e}_{l}.\vec{e}_{x} - idlB\vec{e}_{l}\wedge \vec{e}_{y}.\vec{e}_{x}= T(x, t)\cos(\alpha) -i dl B .\vec{e}_{x}$$
+Comme sur le schema du cours
