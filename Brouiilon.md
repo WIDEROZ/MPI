@@ -1,1 +1,1 @@
-$$\overrightarrow{PM} = \vec{r}\sin(\theta) = \vec{r}\theta = \vec{r} $$
+$$\vec{r} = \frac{z}{\cos(\theta)} \vec{e}_{r}$$
