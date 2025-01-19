@@ -63,3 +63,8 @@ $$\vec{E} = \frac{1}{2}E_{0}\begin{pmatrix}
 \end{pmatrix}$$
 
 
+
+#### Exo 2
+$$\vec{E} =E_{0}\cos\left( \omega t - kx + \frac{\pi}{3} \right)\vec{e}_{y}$$
+
+$$\cos(a+b) = \left( \cos(\omega t-kx) \frac{1}{2} - \sin(\omega t-kx) \frac{\sqrt{3}}{2} \right)\vec{e}_{y}$$
