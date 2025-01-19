@@ -122,4 +122,10 @@ $$\frac{\partial^{2}z}{\partial t^{2}} -\frac{1}{c^{2}}\frac{\partial^{2}z}{\par
 #### 2.
 $$-A(x)\omega^{2} \cos(\omega t) - \frac{1}{c^{2}} \cos(\omega t) \frac{\partial^{2}A(x)}{\partial x^{2} } = \frac{I_{0}B_{0}}{\mu c^{2}} \cos(\omega t) \sin\left( \frac{\pi x}{L} \right) $$
 Alors, 
-$$\frac{\partial^{2}A(x)}{\partial x^{2}} + c^{2}\omega^{2}$$
+$$\frac{\partial^{2}A(x)}{\partial x^{2}} + c^{2}\omega^{2} A(x) = -\frac{I_{0}B_{0}}{\mu} \sin\left( \frac{\pi x}{L} \right)$$
+Homogène : 
+$$r_{0}^{2} + c^{2}\omega^{2} = 0 \Rightarrow r_{0} = \pm i c\omega$$
+alors, 
+$$A(x) =  K_{1} e^{ ic\omega x} + K_{2} e^{ -ic\omega x}$$
+
+$$$$
