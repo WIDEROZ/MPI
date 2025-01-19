@@ -9,5 +9,5 @@ $$\vec{E} = \frac{\mu_{0}}{4\pi r}j \omega e^{ j\omega(t-r/c) } \int _{-\frac{\p
 $$= \frac{\mu_{0}}{2\pi r} j\omega e^{ j\omega(t-r/c) } \cos\left( \cos(\theta) \frac{\pi}{2} \right) \vec{e}_{\theta}$$
 
 $$\vec{\Pi} = \frac{\vec{E} \wedge \vec{B}}{\mu_{0}} = \frac{E^{2}}{\mu_{0}c} \text{ et } \left< \Pi \right> = -\frac{\omega}{4\pi r} \cos\left( \cos(\theta) \frac{\pi}{2} \right)$$
-$$gros\,zizi=bonner$$
-pas de puissance = impuissance -> poulet
+
+$$\Delta(\vec{E}) = $$
