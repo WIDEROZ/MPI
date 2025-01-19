@@ -1,0 +1,1 @@
+$$\overrightarrow{PM} = \vec{r}\sin(\theta) = \vec{r}\theta = \vec{r} $$
