@@ -111,10 +111,15 @@ $$= \frac{1}{\delta \omega \gamma} j_{0} e^{ - \frac{x}{\delta} } e^{ i\left( \o
 ## 1.
 On calcule $\overrightarrow{\underline{B_{i}}}$ :
 Comme $\vec{E}$ est une OPPM on a : 
-$$\overrightarrow{\underline{B}} = \frac{\vec{e}_{z} \wedge \overrightarrow{\underline{E}}}{c} = -\frac{1}{c} $$
+$$\overrightarrow{\underline{B_{i}}} = \frac{\vec{e}_{z} \wedge \overrightarrow{\underline{E_{i}}}}{c} $$
 car $k_{0} = \frac{\omega}{c}$
-$$\overrightarrow{\underline{B_{i}}} = \frac{B_{0}}{c}e^{ i(\omega t-k_{0}z) } \vec{e}_{y}$$
+Ainsi, 
+$$\overrightarrow{\underline{B_{i}}} = \frac{E_{0}}{c}e^{ i(\omega t-k_{0}z) } \vec{e}_{y}$$
 On à deux cas :
 $k \in \mathbb{R}$, 
-$$k^{2} = \frac{\omega^{2}-\omega_{p}^{2}}{c^{2}} \Rightarrow k = \sqrt{\frac{\omega^{2}-\omega_{p}^{2}}{c^{2}}}$$
+$$\underline{k}^{2} = \frac{\omega^{2}-\omega_{p}^{2}}{c^{2}} \Rightarrow k = \sqrt{\frac{\omega^{2}-\omega_{p}^{2}}{c^{2}}} = \sqrt{k_{0}^{2} - \frac{\omega_{p}^{2}}{c^{2}k_{0}^{2}}}$$
 Alors, 
+$$\overrightarrow{\underline{E_{r}}} = \overrightarrow{0} \text{ et } \overrightarrow{\underline{E_{t}}} = \underline{r} \times E_{0}e^{ i(\omega t-k_{0}z) } \vec{e}_{x} \text{ où }\underline{r}= $$
+$$\vec{B}_{r} = \overrightarrow{0} \text{ et } \overrightarrow{\underline{B_{t}}} = \frac{E_{0}}{c}e^{ i(\omega t-kz) } \vec{e}_{y}$$
+Si $k \in i\mathbb{R}$ : 
+$$\overrightarrow{\underline{E_{r}}} = \overrightarrow{0} \text{ et } \overrightarrow{\underline{E_{t}}} = E_{0}e^{ i(\omega t-kz) } \vec{e}_{x}$$
