@@ -121,5 +121,14 @@ $$\underline{k}^{2} = \frac{\omega^{2}-\omega_{p}^{2}}{c^{2}} \Rightarrow k = \s
 Alors, 
 $$\boxed{\overrightarrow{\underline{E_{r}}} = \overrightarrow{0} \text{ et } \overrightarrow{\underline{E_{t}}} =  E_{0}e^{ i(\omega t-kz) } \vec{e}_{y}}$$
 $$\boxed{\vec{B}_{r} = \overrightarrow{0} \text{ et } \overrightarrow{\underline{B_{t}}} =  \frac{E_{0}}{c}e^{ i(\omega t-kz) } \vec{e}_{y}}$$
-Si $k \in i\mathbb{R}$ : 
-$$\overrightarrow{\underline{E_{r}}} = \overrightarrow{0} \text{ et } \overrightarrow{\underline{E_{t}}} = E_{0}e^{ i\omega t } \vec{e}_{x} \text{ ou } \underline{t} = e^{ -ikz } \in \mathbb{R}$$
+Si $k \in i\mathbb{R}$ : C'est une onde évanescente
+On pose : 
+$$\underline{r}(z) = e^{ -ikz } \in \mathbb{R} \text{ et } \underline{t}(z) = e^{ ikz } \in \mathbb{R}$$
+$$\boxed{\overrightarrow{\underline{E_{r}}} = \underline{r} (z)\times  E_{0}e^{ i\omega t } \vec{e}_{x} \text{ et } \overrightarrow{\underline{E_{t}}} = \underline{t}(z) \times  E_{0}e^{ i\omega t } \vec{e}_{x}}$$
+$$\boxed{\overrightarrow{\underline{B_{r}}} = \underline{r} (z)\times  \frac{E_{0}}{c}e^{ i\omega t } \vec{e}_{x} \text{ et } \overrightarrow{\underline{B_{t}}} = \underline{t} (z)\times  \frac{E_{0}}{c}e^{ i\omega t } \vec{e}_{x}}$$
+
+## 2.
+Pour $k \in i\mathbb{R}$, 
+$$\vec{j}_{s} = \overrightarrow{0}$$
+$$\vec{E}_{t}(z=0) -\vec{E}_{i}(z=0) = \overrightarrow{0} \text{ et } \vec{B}_{t}(z=0) - \vec{B}_{i}(z=0) =\overrightarrow{0}$$
+$$\vec{E}_{t}(z=0) -\vec{E}_{i}(z=0) = $$
