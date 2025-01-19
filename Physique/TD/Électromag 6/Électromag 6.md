@@ -114,5 +114,12 @@ On fait un TRC à la corde
 $$\mu dl \frac{\partial^{2}\vec{z}}{\partial t^{2}} = i d\vec{l} \wedge \vec{B} + \vec{T}(x + dx, t) -\vec{T}(x, t) $$
 On projette sur $\vec{e}_{x}$, on note : $\vec{e}_{l} = \frac{d\vec{l}}{dl}$ et $\vec{T}(x, t)= T(x, t)\vec{e}_{l}$,
 $$-T(x+dx, t)(\alpha(x+dx, t)) = T(x, t) \vec{e}_{l}.\vec{e}_{x} - id\vec{l}\wedge \vec{B} .\vec{e}_{x}$$
-$$= T(x, t)\vec{e}_{l}.\vec{e}_{x} - idlB\vec{e}_{l}\wedge \vec{e}_{y}.\vec{e}_{x}= T(x, t)\cos(\alpha) +i dx B \cos(\alpha) $$
+$$= T(x, t)\vec{e}_{l}.\vec{e}_{x} - idlB\vec{e}_{l}\wedge \vec{e}_{y}.\vec{e}_{x}= T(x, t)\cos(\alpha) +i dz B \sin(\alpha) $$
 Comme sur le schema du cours
+
+$$\frac{\partial^{2}z}{\partial t^{2}} -\frac{1}{c^{2}}\frac{\partial^{2}z}{\partial x^{2}}  = \frac{I_{0}B_{0}}{\mu c^{2}} \cos(\omega t)\sin\left( \frac{\pi x}{L} \right) $$
+
+#### 2.
+$$-A(x)\omega^{2} \cos(\omega t) - \frac{1}{c^{2}} \cos(\omega t) \frac{\partial^{2}A(x)}{\partial x^{2} } = \frac{I_{0}B_{0}}{\mu c^{2}} \cos(\omega t) \sin\left( \frac{\pi x}{L} \right) $$
+Alors, 
+$$\frac{\partial^{2}A(x)}{\partial x^{2}} + c^{2}\omega^{2}$$
