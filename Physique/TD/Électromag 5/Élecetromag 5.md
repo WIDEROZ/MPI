@@ -23,6 +23,10 @@ $\vec{E}_{1}$ :
 $$\frac{E_{1,0}}{E_{2, 0}}  \in \mathbb{R} \Rightarrow \text{ polarisation rectiligne}$$
 $\vec{E}_{2}, \vec{E}_{3}$ : 
 $$\frac{1}{i} = -i \Rightarrow \text{polarisation circulaire}$$
+
+$$\vec{E}_{2} = E_{0} \cos(\omega t-kx)\vec{e}_{y} - \sin(\omega t-kx)\vec{e}_{z}$$
+
+
 $\vec{E}_{4}$ : 
 Polarisation rectiligne : 
 $$\vec{E}_{4} = -E_{0} \sin{(kx-\omega t) }\begin{pmatrix}
