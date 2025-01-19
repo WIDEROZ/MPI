@@ -6,4 +6,8 @@ $$\vec{B} = \frac{\vec{e}_{r} \wedge \vec{E}}{c} = \frac{1}{c}E \vec{e}_{z}$$
 on pose : $x = \frac{2\pi z}{\lambda}$ et $\alpha = \cos(\theta)$, 
 
 $$\vec{E} = \frac{\mu_{0}}{4\pi r}j \omega e^{ j\omega(t-r/c) } \int _{-\frac{\pi}{2}}^{\frac{\pi}{2}} \cos(x) e^{ j\alpha x } \, dx  $$
-$$= \frac{\mu_{0}}{4\pi r} j\omega e^{ j\omega(t-r/c) } \frac{2\cos\left( \cos(\alpha)\frac{ \pi}{2} \right)}{\sin(\theta)} \vec{e}_{\theta}$$
+$$= \frac{\mu_{0}}{2\pi r} j\omega e^{ j\omega(t-r/c) } \cos\left( \cos(\theta) \frac{\pi}{2} \right) \vec{e}_{\theta}$$
+
+$$\vec{\Pi} = \frac{\vec{E} \wedge \vec{B}}{\mu_{0}} = \frac{E^{2}}{\mu_{0}c} \text{ et } \left< \Pi \right> = -\frac{\omega}{4\pi r} \cos\left( \cos(\theta) \frac{\pi}{2} \right)$$
+$$gros\,zizi=bonner$$
+pas de puissance = impuissance -> poulet
