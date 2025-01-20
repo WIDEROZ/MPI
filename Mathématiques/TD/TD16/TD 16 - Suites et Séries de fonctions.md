@@ -126,3 +126,10 @@ $$\ln(2) = \int_{0}^{1} \frac{1}{t+1+x} \, dt  $$
 # Exercice 12
 #### a.
 $$\sum_{n = 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx)$$
+$$\frac{r^{n}}{n}\cos(nx) = O(r^{n})$$
+or $r \in ]-1, 1[$ ainsi, 
+$$\sum_{n \in \mathbb{N}} r^{n} \text{ CV} \Rightarrow \sum_{n = 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx)$$
+
+$F$ est bien définie. 
+Comme $\forall n \in \mathbb{N}^{*}, f_{n} : (x, r) \mapsto \frac{r^{n}}{n}\cos(nx)$ est bien continue par produit de fonctions continues, 
+$$$$
