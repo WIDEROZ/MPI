@@ -130,7 +130,7 @@ $$\text{NON OUVERT }\neq \text{ FERMÉ}$$
 #### Proposition
 Soit $\Omega \subset E$, 
 $$
-\Omega \text{ est un ouvert } \Leftrightarrow \forall (u_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}} \text{ CV}, \exists \omega \in \Omega, u_{n}\underset{n \to +\infty}{\longrightarrow} \omega
+\Omega \text{ est un fermé} \Leftrightarrow \forall (u_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}} \text{ CV}, \exists \omega \in \Omega, u_{n}\underset{n \to +\infty}{\longrightarrow} \omega
 $$
 
 Démonstration :
@@ -139,4 +139,11 @@ Supposons qu'il existe $(u_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}}$ CV v
 Alors, 
 $$\forall r > 0, \exists p \in \mathbb{N}, \left|\left| u_p  -l  \right|\right| < r$$
 Donc, $u_{p} \in B(l, r)$, et $u_{p} \not\in E\setminus \Omega$, 
-Ainsi, $\Omega$ n'est pas ouvert
+Ainsi, $E \setminus \Omega$ n'est pas ouvert
+Donc, $\Omega$ n'est pas un fermé
+
+$\Leftarrow$ : Par contraposition
+Supposons que $\Omega$ ne soit pas fermé, ie $E \setminus \Omega$ n'est pas ouvert Alors,
+$$\exists l \in E\setminus \Omega, \forall r>0, \exists u \in \Omega, \left|\left| u-l \right|\right| < r$$
+$$\forall n \in \mathbb{N}^{*}, \exists u_{n} \in \Omega, \left|\left| u_{n} - l \right|\right| < \frac{1}{n}$$
+Ainsi, la suite $(u_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}}$ CV vers $l \not\in \Omega$.
