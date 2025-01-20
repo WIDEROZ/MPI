@@ -19,26 +19,16 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
     return nbre;
 }
 
-void actualisationGrid(Var *var, matrix NEW_XY_CASE_MAT, int x, int y){
-    for (int i = 0; i < CASE_NUMBER_WIDTH; i++)
-    {
-        for (int j = 0; j < CASE_NUMBER_HEIGHT; j++)
-        {
-            if(NEW_XY_CASE_MAT.mat[i][j]){
-                CASE_CLICK_CASE(var, i, j);
-            }
-        }
-        
-    }
-}
+
 
 void evolution(Var *var){
+    printf("alter");
     matrix NEW_XY_CASE_MAT = CREATE_MATRIX(CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
     for (int i = 0; i < CASE_NUMBER_WIDTH; i++)
     {
         for (int j = 0; j < CASE_NUMBER_HEIGHT; j++)
         {   
-            printf("alter");
+            
             int nbreCellAutour = nbreCellulesAutour(*var->XY_CASE_MAT, i, j);
             int cellVal = var->XY_CASE_MAT-> mat[i][j];
             
@@ -46,6 +36,7 @@ void evolution(Var *var){
             {
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
                 printf("ype");
+
             }
             else if (nbreCellAutour = 2 && cellVal)
             {
@@ -55,9 +46,9 @@ void evolution(Var *var){
             
             
         }
-        
     }
     var->XY_CASE_MAT = &NEW_XY_CASE_MAT;
+    DESTROY_MATRIX(NEW_XY_CASE_MAT);
 
 }
 
