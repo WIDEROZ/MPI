@@ -122,4 +122,21 @@ $$E \setminus \Omega = \{ x \in E | x \not\in \Omega \} \text{ est un ouvert}$$
 #### Exemple
 Dans $(\mathbb{R}, \left| \cdot\right|)$,  pour $a < b \in \mathbb{R}$, 
 $[a, b]$ est un fermé car son complémentaire est : 
-$$$$
+$$]- \infty, a[ \cup ]b,+ \infty[ \text{ est un ouvert}$$
+
+$[0, 1[$ n'est ni ouvert ni fermé Donc 
+$$\text{NON OUVERT }\neq \text{ FERMÉ}$$
+
+#### Proposition
+Soit $\Omega \subset E$, 
+$$
+\Omega \text{ est un ouvert } \Leftrightarrow \forall (u_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}} \text{ CV}, \exists \omega \in \Omega, u_{n}\underset{n \to +\infty}{\longrightarrow} \omega
+$$
+
+Démonstration :
+$\Rightarrow$ : Par contraposée : 
+Supposons qu'il existe $(u_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}}$ CV vers $l \in E \setminus \Omega$, 
+Alors, 
+$$\forall r > 0, \exists p \in \mathbb{N}, \left|\left| u_p  -l  \right|\right| < r$$
+Donc, $u_{p} \in B(l, r)$, et $u_{p} \not\in E\setminus \Omega$, 
+Ainsi, $\Omega$ n'est pas ouvert
