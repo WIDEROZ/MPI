@@ -621,3 +621,6 @@ et $S$ est intégrable sur $\mathbb{R}_{+}^{*}$ et
 $$\int _{0}^{+ \infty} \frac{\sin (t)}{e^{ t }-1} \, dt = \sum_{n = 1} \int_{0}^{+ \infty} (\sin (t))e^{ -nt } \, dt = \sum_{n = 1}^{+ \infty} \mathrm{Im}[e^{ (i-n)t }]_{0}^{+ \infty}  $$
 $$= \sum_{n = 1}^{+ \infty}\mathrm{Im} \left( -\frac{1}{-n+i} \right) = \sum_{n = 1}^{+ \infty}\frac{1}{n^{2}+1}$$
 
+#### Exercice
+On pose : 
+$$\forall x \in \mathbb{R}_{+}^{*}, S(x) = \sum_{n=1}^{+ \infty} (-1)^{n} \frac{e^{ -nx }}{n}$$

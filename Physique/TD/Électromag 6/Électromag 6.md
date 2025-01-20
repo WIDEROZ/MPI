@@ -133,3 +133,4 @@ $$\vec{j}_{s} = \overrightarrow{0}$$
 $$\vec{E}_{t}(z=0) -(\vec{E}_{i}(z=0) + \overrightarrow{E}_{r}(z=0) )= \overrightarrow{0}$$
 $$\vec{B}_{t}(z=0) - (\vec{B}_{i}(z=0)+\overrightarrow{B_{r}}(z=0)) =\overrightarrow{0}$$
 $${E}_{t}(z=0) -({E}_{i}(z=0) + {E}_{r}(z=0)) = E_{0}e^{ i\omega t}(\underline{t}(0)-1-\underline{r}(0)) = 0$$
+	
