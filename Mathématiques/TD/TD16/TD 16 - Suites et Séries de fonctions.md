@@ -151,9 +151,13 @@ $$\left|\left| r^{n-1}\cos(nx) \right|\right| _{\infty, \mathbb{R} \times [a, b]
 qui est indépendant de $r$ et $x$ alors, comme $\left| a\right|<1$ et $\left| b\right| <1$
 On a bien : 
 $$\left|\left| r^{n-1}\cos(nx) \right|\right| _{\infty, \mathbb{R} \times [a, b]} \underset{n \to +\infty}{\longrightarrow} 0$$
-On a donc $\left( \sum_{k = 1}^{n} r^{k-1}\cos(kx) \right)_{n \in \mathbb{N}^{*}}$ qui CVNSTS et donc CVUSTS
+On a donc $g'$ qui CVNSTS et donc CVUSTS
 Ainsi, on a bien : 
 $$g(r) = \sum_{n= 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx) \in \mathcal{C}^{1}(]-1, 1[) $$
 $$g'(t) = \mathrm{Re}\left( \sum_{n = 1}^{+ \infty} r^{n-1} e^{ inx } \right) = \frac{1}{r} \mathrm{Re}\left( \sum_{n = 1}^{+ \infty} (r e^{ ix })^{n} \right)$$
 
 #### c.
+On a vu que : $g'$ CVUSTS => CVS et que : 
+$$\sum_{n = 1}^{+ \infty} \int_{0}^{r} s^{n-1}\cos(nx)  \, ds = \sum_{n = 1}^{+ \infty} \frac{1}{n} r^{n}\cos(nx) \text{ CVS}$$
+Ainsi, 
+$$\int_{0}^{r} g'(s) \, ds = F(x, r) $$
