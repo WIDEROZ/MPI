@@ -19,17 +19,26 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
     return nbre;
 }
 
-
+void test(Var *var){
+    matrix NEW_XY_CASE_MAT = CREATE_MATRIX(CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
+    printf("TEST");
+    for (int i = 0; i < CASE_NUMBER_WIDTH; i++){
+        for (int j = 0; j < CASE_NUMBER_HEIGHT; j++){   
+            
+            int nbreCellAutour = nbreCellulesAutour(*(*var).XY_CASE_MAT, i, j);
+            printf("");
+        }
+    }
+}
 
 void evolution(Var *var){
-    printf("alter");
     matrix NEW_XY_CASE_MAT = CREATE_MATRIX(CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
     for (int i = 0; i < CASE_NUMBER_WIDTH; i++)
     {
         for (int j = 0; j < CASE_NUMBER_HEIGHT; j++)
         {   
             
-            int nbreCellAutour = nbreCellulesAutour(*var->XY_CASE_MAT, i, j);
+            int nbreCellAutour = nbreCellulesAutour(*(*var).XY_CASE_MAT, i, j);
             int cellVal = var->XY_CASE_MAT-> mat[i][j];
             
             if (nbreCellAutour = 3)
