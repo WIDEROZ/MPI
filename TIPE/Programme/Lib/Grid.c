@@ -29,6 +29,9 @@ void CREATE_GRID_CASE(SDL_Renderer *renderer, const int caseX, const int caseY){
 
 }
 
+void MODIF_GRID(Var *var){
+    
+}
 
 void GRID_DISPLAY_CREATION(Var *var){
     

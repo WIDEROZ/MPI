@@ -23,9 +23,6 @@ void test(Var *var){
 
 }
 
-void actualisationGrille(matrix mat){
-    
-}
 
 void evolution(Var *var){
     matrix NEW_XY_CASE_MAT = CREATE_MATRIX(var->XY_CASE_MAT->width, var->XY_CASE_MAT->height);
