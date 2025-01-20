@@ -75,4 +75,27 @@ $$\forall x_{1}, x_{2} \in E_{1} \times E_{2}, \left|\left| (x_{1}, x_{2}) \righ
 
 Démonstration : 
 Soit $x_{0} \in E$ et $r >0$
-Soi
+Soit $x_{1} \in B(x_{0}, r)$, 
+On note : $\alpha = r - \left|\left| x_{1}-x_{0} \right|\right| >0$ 
+Alors,
+$$\begin{array}{rl}
+\forall x \in B(x_{1}, \alpha), \left|\left| x-x_{0} \right|\right|&= \left|\left| x_{0}-x_{1} + x_{1}-x_{0} \right|\right|  \\
+&\leq \left|\left| x-x_{1} \right|\right| + \left|\left| x_{1}-x_{0} \right|\right|  \\
+&\leq \alpha + \left|\left| x_{1}-x_{0} \right|\right| = r \text{ ie } x \in B(x_{0}, r)
+\end{array}$$
+Ainsi, $B(x_{1}, \alpha) \subset B(x_{0}, r)$ ainsi $B(x_{0}, r)$ est un ouvert
+___
+Soit $(x_{1}, x_{2}) \in A_{1} \times A_{2}$, 
+$$\begin{cases}
+\exists r_{1} > 0 B(x_{1}, r_{1})\subset A_{1} \\
+\exists r_{2} > 0 B(x_{2}, r_{2})\subset A_{2}
+\end{cases}$$
+en notant : $r = \min(r_{1}, r_{2}) >0$,
+$$\begin{array}{c}
+\forall (y_{1}, y_{2}) \in B((x_{1}, x_{2}), r), & \left|\left| y_{1} - x_{1} \right|\right| < r \leq r_{1} \Rightarrow y_{1} \in A_{1} \\
+&\left|\left| y_{2} - x_{2} \right|\right| < r \leq r_{2} \Rightarrow y_{2} \in A_{2}
+\end{array}$$
+Ainsi, $(y_{1}, y_{2}) \in A_{1} \times A_{2}$
+
+#### Propriété
+Si $(A_{i})_{i \in I}$ est une famille d'ouvert de $(E, \left|\left| \cdot \right|\right|)$ alors $A = $
