@@ -64,3 +64,13 @@ S&R&Q&\bar{Q} \\ \hline
 1&1&\varnothing&\varnothing  \\\hline
 \end{array}$$
 
+#### 2.
+On souhaite : 
+$$\begin{array}{|c|c|c|c|}\hline 
+S&R&Q&\bar{Q} \\ \hline
+0&0&\varnothing&\varnothing \\\hline
+0&1&1&0 \\\hline
+1&0&0&1 \\\hline
+1&1&0&0  \\\hline
+\end{array}$$
+Alors, 
