@@ -18,9 +18,9 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
 
     return nbre;
 }
-*/
+
 int **rechercheCellulesVivantes(Var *var){
-    int *tab = malloc(CASE_NUMBER_WIDTH * CASE_NUMBER_HEIGHT * sizeof(int*));
+    int **tab = malloc(CASE_NUMBER_WIDTH * CASE_NUMBER_HEIGHT * sizeof(int*));
 
     for (int i = 0; i < CASE_NUMBER_WIDTH; i++) {
         tab[i] = CREATE_TAB_0(2);
@@ -40,7 +40,7 @@ int **rechercheCellulesVivantes(Var *var){
 
     return tab;
 }
-/*
+
 void evolution(Var *var){
     matrix mat = *var->XY_CASE_MAT;
     int nbre;
