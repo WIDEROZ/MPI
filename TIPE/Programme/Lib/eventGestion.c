@@ -12,6 +12,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     
                     case SDLK_b:
                         var->KEY_DOWN_STATUS[SDLK_b] = 1;
+                        evolution(var);
                         
                         
                         continue;
