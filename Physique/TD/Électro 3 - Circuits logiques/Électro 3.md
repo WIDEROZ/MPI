@@ -73,4 +73,3 @@ S&R&Q&\bar{Q} \\ \hline
 1&0&0&1 \\\hline
 1&1&0&0  \\\hline
 \end{array}$$
-Alors, 
