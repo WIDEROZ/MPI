@@ -27,15 +27,17 @@ void test(Var *var){
             
             matrix matik = *var->XY_CASE_MAT;
             int nbre = 0;
+            
             for (int l = -1; l < 2; l++)
             {
-                if (0 <= i+l < matik.width)
+                if ((0 <= i+l) && (i+l <= matik.width))
                 {
                     for (int k = -1; k < 2; k++)
                     {
-                        if ((0 <= j+k < matik.height) && (k != 0 && l != 0))
+                        if (((0 <= j+k) && (j+k <= matik.height)) && (k != 0 && l != 0))
                         {
-                            nbre += matik.mat[i+l][j+k];
+                            //nbre += matik.mat[i+l][j+k];
+                            printf("\n test2 : %d et %d", i+l, j+k);
                         }
                     }
                 }
