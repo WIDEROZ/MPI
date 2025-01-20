@@ -25,18 +25,24 @@ void test(Var *var){
 
 void evolution(Var *var){
     matrix NEW_XY_CASE_MAT = CREATE_MATRIX(var->XY_CASE_MAT->width, var->XY_CASE_MAT->height);
-    for (int i = 0; i < CASE_NUMBER_WIDTH; i++){
-        for (int j = 0; j < CASE_NUMBER_HEIGHT; j++){   
+    for (int i = 0; i < var->XY_CASE_MAT->width; i++){
+        for (int j = 0; j < var->XY_CASE_MAT->height; j++){   
             
             int nbreCellAutour = nbreCellulesAutour(*var->XY_CASE_MAT, i, j);
             int cellVal = var->XY_CASE_MAT-> mat[i][j];
-            printf("nbre cells (%d, %d) : %d \n", i, j, nbreCellAutour);
-            if (nbreCellAutour = 3)
+            if ((i == 2) && (j==2))
             {
+                printf("nbre cells (%d, %d) : %d \n", i, j, nbreCellAutour);
+            }
+            
+            if (nbreCellAutour == 3)
+            {
+                printf("nbre cells (%d, %d) : %d \n", i, j, nbreCellAutour);
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
             }
-            else if ((nbreCellAutour = 2) && (cellVal = 1))
+            if ((nbreCellAutour == 2) && cellVal)
             {
+                printf("nbre cells (%d, %d) : %d \n", i, j, nbreCellAutour);
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
             }
             
@@ -45,7 +51,7 @@ void evolution(Var *var){
     }
     
     
-    printf("\n On a : %d \n", NEW_XY_CASE_MAT.mat[499][98]);
+    printf("\n On a : %d \n", NEW_XY_CASE_MAT.mat[2][2]);
 }
 
 
