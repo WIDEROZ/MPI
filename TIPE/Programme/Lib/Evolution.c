@@ -23,6 +23,10 @@ void test(Var *var){
 
 }
 
+void actualisationGrille(matrix mat){
+    
+}
+
 void evolution(Var *var){
     matrix NEW_XY_CASE_MAT = CREATE_MATRIX(var->XY_CASE_MAT->width, var->XY_CASE_MAT->height);
     for (int i = 0; i < var->XY_CASE_MAT->width; i++){
@@ -43,8 +47,6 @@ void evolution(Var *var){
         }
     }
     
-    
-    printf("\n On a : %d \n", NEW_XY_CASE_MAT.mat[2][2]);
 }
 
 
