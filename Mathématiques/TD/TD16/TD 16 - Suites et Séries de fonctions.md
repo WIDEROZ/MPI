@@ -125,3 +125,4 @@ $$\ln(2) = \int_{0}^{1} \frac{1}{t+1+x} \, dt  $$
 
 # Exercice 12
 #### a.
+$$\sum_{n = 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx)$$
