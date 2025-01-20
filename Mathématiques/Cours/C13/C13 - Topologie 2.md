@@ -48,4 +48,31 @@ $$f_{n}  \underset{n \to +\infty}{\longrightarrow}  f_{0}$$
 dans $(E, \left|\left| \cdot \right|\right|_{1})$
 Alors, $\forall r > 0$ on note : 
 $$\forall p \in \mathbb{N}, \frac{1}{p}<r$$
-Comme : $\left|\left| f_{p} - f_{0} \right|\right| = \frac{1}{p}$, 
+Comme : $\left|\left| f_{p} - f_{0} \right|\right| = \frac{1}{p}$, $f_{p} \in B(f_{0}, r)$
+Mais comme $f_{p} \not\in A$, $B(f_{0}, r) \not\subset A$, 
+
+#### CCINP 37
+Tout ouvert dans $(E, \left|\left| \cdot \right|\right|_{1})$ est un ouvert dans $(E, \left|\left| \cdot \right|\right|_{\infty})$
+Démonstration : 
+Soit $A$ ouvert dans $(E, \left|\left| \cdot \right|\right|_{1})$,
+Soit $f_{0} \in A$ il existe alors $r>0$ tel que : 
+$$\forall f \in E, \left|\left| f-f_{0} \right|\right|_{1} < r \Rightarrow f \in A$$
+de plus : 
+$$\forall g \in E, \left|\left| g \right|\right| _{1} = \int _{0}^{1} \left| g(t)\right| \, dt \leq \int _{0}^{1} \left|\left| g \right|\right| _{\infty} \, dt = \left|\left| g \right|\right| _{\infty}$$
+Alors, 
+$$\forall f \in E, \left|\left| f-f_{0} \right|\right| _{\infty}< r \Rightarrow \left|\left| f-f_{0} \right|\right| _{1} < r \Rightarrow f \in A$$
+ie $B_{\left|\left| \cdot \right|\right|_{\infty}}(f_{0}, r) = \{ f \in E \space\space | \space \left|\left| f-f_{0} \right|\right|< r \} \subset A$
+
+#### Proposition
+$$\forall x_{0} \in E, \forall r >0, B(x_{0}, r) \text{ est un ouvert de }E$$
+___
+Si $A_{1}$ est un ouvert de $(E_{1}, \left|\left| \cdot \right|\right|)$
+et $A_{2}$ de $(E_{2}, \left|\left| \cdot \right|\right|)$
+Alors, 
+$$A_{1} \times A_{2} \text{ est un ouvert de }E_{1} \times E_{2}$$
+muni de 
+$$\forall x_{1}, x_{2} \in E_{1} \times E_{2}, \left|\left| (x_{1}, x_{2}) \right|\right|_{\infty} = \max(\left|\left| x_{1} \right|\right| , \left|\left| x_{2} \right|\right| ) $$
+
+Démonstration : 
+Soit $x_{0} \in E$ et $r >0$
+Soi
