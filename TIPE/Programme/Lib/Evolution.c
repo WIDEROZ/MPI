@@ -25,20 +25,23 @@ void evolution(Var *var){
     {
         for (int j = 0; j < CASE_NUMBER_HEIGHT; j++)
         {
-            int nbreCellAutour = nbreCellulesAutour(var->XY_CASE_MAT, i, j);
+            int nbreCellAutour = nbreCellulesAutour(*var->XY_CASE_MAT, i, j);
+            int cellVal = var->XY_CASE_MAT[i][j];
+
             if (nbreCellAutour = 3)
             {
-                NEW_XY_CASE_MAT.mat[i][j] = 1-(var->XY_CASE_MAT[i][j]);
+                NEW_XY_CASE_MAT.mat[i][j] = 1;
             }
-            else if (condition)
+            else if (nbreCellAutour = 2 && cellVal)
             {
-                /* code */
+                NEW_XY_CASE_MAT.mat[i][j] = 1;
             }
             
             
         }
         
     }
+    var->XY_CASE_MAT = &NEW_XY_CASE_MAT;
 
 }
 
