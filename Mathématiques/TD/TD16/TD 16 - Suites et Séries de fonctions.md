@@ -132,6 +132,14 @@ $$\sum_{n \in \mathbb{N}} r^{n} \text{ CV} \Rightarrow \sum_{n = 1}^{+ \infty} \
 
 $F$ est bien définie. 
 Comme $\forall n \in \mathbb{N}^{*}, f_{n} : (x, r) \mapsto \frac{r^{n}}{n}\cos(nx)$ est bien continue par produit de fonctions continues. 
-Montrons maintenant la CVU de $\left( \sum_{k = 1}^{n} \frac{r^{k}}{k}\cos(kx) \right)_{n \in \mathbb{N}^{*}}$
-$$\sum_{k = 1}^{+ \infty} \frac{r^{k}}{k}\cos(kx) = \sum_{k = 1}^{n} \frac{r^{k}}{k} \cos(kx) + \sum_{k = n+1}^{+ \infty} \frac{r^{k}}{k} \cos(kx)$$
-$$\left| R_{n} \right| \leq \sum_{k = n+1}^{+ \infty} r^{k} = \frac{r^{n+1}}{1-r} $$
+Montrons maintenant la CVUSTS de $\left( \sum_{k = 1}^{n} \frac{r^{k}}{k}\cos(kx) \right)_{n \in \mathbb{N}^{*}}$
+Soit $x \in \mathbb{R}$ et $r \in [a, b] \subset ]-1, 1[$, 
+$$\left|\left| \frac{r^{n}}{n}\cos(nx) \right|\right| _{\infty, \mathbb{R} \times [a, b]} = \frac{1}{n} \sup_{r \in [a, b]} |r|^{n} = \frac{(\max\{ \left| a\right|, \left| b\right| \})^{n}}{n}$$
+qui est indépendant de $r$ et $x$ alors, comme $\left| a\right|<1$ et $\left| b\right| <1$
+On a bien : 
+$$\left|\left| \frac{r^{n}}{n}\cos(nx) \right|\right| _{\infty, \mathbb{R} \times [a, b]} \underset{n \to +\infty}{\longrightarrow} 0$$
+On a donc $S_{n} = \left( \sum_{k = 1}^{n} \frac{r^{k}}{k}\cos(kx) \right)_{n \in \mathbb{N}^{*}}$ qui CVNSTS et donc CVUSTS
+Ainsi, 
+$$\lim_{ n \to +\infty } S_{n} = \sum_{n= 1}^{+ \infty} \frac{r^{n}}{n} \cos(nx) \text{ est continue}$$
+#### b.
+$g(r)$ CVS et
