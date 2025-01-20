@@ -12,14 +12,8 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     
                     case SDLK_b:
                         var->KEY_DOWN_STATUS[SDLK_b] = 1;
-                        int ** v;
-                        //v = rechercheCellulesVivantes(var);
-                        for (int i = 0; i < 20; i++){
-                            printf("%d \n", v[i][0]);
-                            printf("%d \n \n", v[i][1]);
-                        }
-
-
+                        
+                        
                         continue;
 
 
