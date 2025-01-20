@@ -98,4 +98,28 @@ $$\begin{array}{c}
 Ainsi, $(y_{1}, y_{2}) \in A_{1} \times A_{2}$
 
 #### Propriété
-Si $(A_{i})_{i \in I}$ est une famille d'ouvert de $(E, \left|\left| \cdot \right|\right|)$ alors $A = $
+Si $(A_{i})_{i \in I}$ est une famille d'ouvert de $(E, \left|\left| \cdot \right|\right|)$ alors
+$$A = \bigcup_{i \in I}A_{i} \text{ est un ouvert de }E$$
+___
+Si $(A_{i})_{i \in [\![1, p]\!]}$ est une famille d'ouvert de $(E, \left|\left| \cdot \right|\right|)$ alors
+$$A = \bigcap_{i = 1}^{p}A_{i} \text{ est un ouvert de }E$$
+Démonstration : 
+Soit $x_{0}\in A$, alors il existe $i_{0} \in I$ tel que $x_{0} \in A_{i_{0}}$ comme $A_{i_{0}}$ est un ouvert, il existe $r >0$ tel que 
+$$B(x_{0}, r) \subset A_{i_{0}} \subset \bigcup_{i \in I} A_{i} = A$$
+___
+Soit $x_{0} \in A$, $\forall k \in [\![1, n]\!], x_{0} \in A_{k}$, donc il existe $r_{k} > 0$ tel que $B(x_{0}, r_{k}) \subset A_{k}$ 
+On note : $r = \min\{ r_{k} ; k \in [\![1, p]\!] \}$, 
+Alors, pour tout $x \in E$, si $x \in B(x_{0}, r)$, 
+$$\forall k \in [\![1, p]\!], \left|\left| x-x_{0} \right|\right| < r \leq r_{k} \Rightarrow x \in B(x_{0}, r_{k}) \subset A_{k}$$
+ie : 
+$$x \in \bigcap_{k = 1}^{p} A_{k} = A$$
+
+#### Définition
+Une partie $\Omega$ de $E$ est un fermé de $(E, \left|\left| \cdot \right|\right|)$ si : 
+$$E \setminus \Omega = \{ x \in E | x \not\in \Omega \} \text{ est un ouvert}$$
+
+
+#### Exemple
+Dans $(\mathbb{R}, \left| \cdot\right|)$,  pour $a < b \in \mathbb{R}$, 
+$[a, b]$ est un fermé car son complémentaire est : 
+$$$$
