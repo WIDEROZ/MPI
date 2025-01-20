@@ -21,9 +21,31 @@ Dans $E = \mathcal{C}^{0}([0, 1], \mathbb{R})$,
 on note : $A = \{ f \in E | f(0) < 1 \}$, 
 Si on muni $E$ de $\left|\left| \cdot \right|\right|_{\infty}$ alors $A$ est un ouvert
 Car : 
-Soit $f_{0} \in A$,
+Soit $f_{0} \in A$, 
 On pose : $r = 1-f_{0}$ : 
 $$\forall f \in E, \left|\left| f-f_{0} \right|\right|_{\infty} <r \Rightarrow f(0) < f_{0}(0)+r = f_{0}(0)+1-f_{0}(0) $$
 Ainsi, 
-$$\left|\left| f-f_{0} \right|\right| _{\infty} \leq 1$$
+$$f(0) \leq 1$$
 Donc, $f\in A$
+Ainsi, 
+$$B(f_{0}, r) \subset A$$
+
+#### Exercice
+Soit : 
+$$\begin{cases}
+f_{0} : x \in [0, 1] \mapsto 0 \in A \\
+\forall n \in \mathbb{N}^{*}, f_{n}: \begin{cases}
+[0, 1] \to \mathbb{R} \\
+x \mapsto e^{ -nx }
+\end{cases}
+\end{cases}$$
+Alors, 
+$$\forall n \in \mathbb{N}^{*}, f_{n} \not\in A$$
+et 
+$$\left|\left| f_{n}- f_{0} \right|\right|_{1} = \int _{0}^{1} e^{ -nx } \, dx  = \frac{1}{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+Donc, 
+$$f_{n}  \underset{n \to +\infty}{\longrightarrow}  f_{0}$$
+dans $(E, \left|\left| \cdot \right|\right|_{1})$
+Alors, $\forall r > 0$ on note : 
+$$\forall p \in \mathbb{N}, \frac{1}{p}<r$$
+Comme : $\left|\left| f_{p} - f_{0} \right|\right| = \frac{1}{p}$, 
