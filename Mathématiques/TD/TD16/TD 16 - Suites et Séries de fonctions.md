@@ -122,3 +122,6 @@ Donc le truc en haut CVU
 $$\ln(2) = \int_{0}^{1} \frac{1}{t+1+x} \, dt  $$
 
 
+
+# Exercice 12
+#### a.
