@@ -624,3 +624,7 @@ $$= \sum_{n = 1}^{+ \infty}\mathrm{Im} \left( -\frac{1}{-n+i} \right) = \sum_{n 
 #### Exercice
 On pose : 
 $$\forall x \in \mathbb{R}_{+}^{*}, S(x) = \sum_{n=1}^{+ \infty} (-1)^{n} \frac{e^{ -nx }}{n}$$
+$f_{n}(x) \underset{x \to +\infty}{\longrightarrow} 0$
+$S$ CVU sur $[1, + \infty[$ car : $S$ CVS sur $\mathbb{R}_{+}^{*}$ ET 
+$$\forall n \in \mathbb{N}^{*}, \forall x \in \mathbb{R}_{+}^{*}, \left| R_{n}(x)\right|\leq \left| f_{n+1}(x)\right| = \frac{e^{ -(n+1)x }}{n+1} \leq \frac{1}{n}$$
+Donc $\left| R_{n}(x)\right|\leq \frac{1}{n}$ qui est indépendant de $x$ 
