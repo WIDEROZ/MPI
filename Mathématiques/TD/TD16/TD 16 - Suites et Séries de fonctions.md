@@ -131,5 +131,5 @@ or $r \in ]-1, 1[$ ainsi,
 $$\sum_{n \in \mathbb{N}} r^{n} \text{ CV} \Rightarrow \sum_{n = 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx)$$
 
 $F$ est bien définie. 
-Comme $\forall n \in \mathbb{N}^{*}, f_{n} : (x, r) \mapsto \frac{r^{n}}{n}\cos(nx)$ est bien continue par produit de fonctions continues, 
-$$$$
+Comme $\forall n \in \mathbb{N}^{*}, f_{n} : (x, r) \mapsto \frac{r^{n}}{n}\cos(nx)$ est bien continue par produit de fonctions continues, et que : 
+$$\sup_{(x, r)\in \mathbb{R} \times ]-1, 1[} \left| \frac{r^{n} \cos(nx)}{n}\right| = \sup_{r \in ]-1, 1[} \left| \frac{r^{n}}{n} \right| = \frac{1}{n}(\sup_{r \in [0, 1[} r^{n})$$
