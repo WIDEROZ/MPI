@@ -25,8 +25,22 @@ void test(Var *var){
     for (int i = 0; i < CASE_NUMBER_WIDTH; i++){
         for (int j = 0; j < CASE_NUMBER_HEIGHT; j++){   
             
-            int nbreCellAutour = nbreCellulesAutour(*(*var).XY_CASE_MAT, i, j);
-            printf("");
+            matrix matik = *var->XY_CASE_MAT;
+            int nbre = 0;
+            for (int l = -1; l < 2; l++)
+            {
+                if (0 <= i+l < matik.width)
+                {
+                    for (int k = -1; k < 2; k++)
+                    {
+                        if ((0 <= j+k < matik.height) && (k != 0 && l != 0))
+                        {
+                            nbre += matik.mat[i+l][j+k];
+                        }
+                    }
+                }
+            }
+            printf("\n test2 : %d", nbre);
         }
     }
 }
