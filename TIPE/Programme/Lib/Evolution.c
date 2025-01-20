@@ -35,7 +35,7 @@ void evolution(Var *var){
             {
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
             }
-            else if (nbreCellAutour = 2 && cellVal)
+            else if ((nbreCellAutour = 2) && (cellVal = 1))
             {
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
             }
@@ -43,8 +43,9 @@ void evolution(Var *var){
             
         }
     }
-    printf("EVOL : %d \n", NEW_XY_CASE_MAT->)
-    //printf("\n On a : %d \n", var->XY_CASE_MAT->mat[5][0]);
+    
+    
+    printf("\n On a : %d \n", NEW_XY_CASE_MAT.mat[499][98]);
 }
 
 
