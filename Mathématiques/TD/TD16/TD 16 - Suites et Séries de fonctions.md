@@ -127,8 +127,10 @@ $$\ln(2) = \int_{0}^{1} \frac{1}{t+1+x} \, dt  $$
 #### a.
 $$\sum_{n = 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx)$$
 $$\frac{r^{n}}{n}\cos(nx) = O(r^{n})$$
-or $r \in ]-1, 1[$ ainsi, 
-$$\sum_{n \in \mathbb{N}} r^{n} \text{ CV} \Rightarrow \sum_{n = 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx)$$
+or $r \in ]-1, 1[$ ainsi, comme : 
+$$\sum_{n \in \mathbb{N}} r^{n} \text{ CV}$$
+On a bien : 
+$$\sum_{n = 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx) \text{ CV}$$
 
 $F$ est bien définie. 
 Comme $\forall n \in \mathbb{N}^{*}, f_{n} : (x, r) \mapsto \frac{r^{n}}{n}\cos(nx)$ est bien continue par produit de fonctions continues. 
@@ -138,8 +140,20 @@ $$\left|\left| \frac{r^{n}}{n}\cos(nx) \right|\right| _{\infty, \mathbb{R} \time
 qui est indépendant de $r$ et $x$ alors, comme $\left| a\right|<1$ et $\left| b\right| <1$
 On a bien : 
 $$\left|\left| \frac{r^{n}}{n}\cos(nx) \right|\right| _{\infty, \mathbb{R} \times [a, b]} \underset{n \to +\infty}{\longrightarrow} 0$$
-On a donc $S_{n} = \left( \sum_{k = 1}^{n} \frac{r^{k}}{k}\cos(kx) \right)_{n \in \mathbb{N}^{*}}$ qui CVNSTS et donc CVUSTS
+On a donc $(S_{n} )= \left( \sum_{k = 1}^{n} \frac{r^{k}}{k}\cos(kx) \right)_{n \in \mathbb{N}^{*}}$ qui CVNSTS et donc CVUSTS
 Ainsi, 
 $$\lim_{ n \to +\infty } S_{n} = \sum_{n= 1}^{+ \infty} \frac{r^{n}}{n} \cos(nx) \text{ est continue}$$
 #### b.
-$g(r)$ CVS et
+$\sum_{n = 1}^{+ \infty}g(r)$ CVS et 
+$$\sum_{n = 1}^{+ \infty} r^{n-1}\cos(nx)$$
+Soit $x \in \mathbb{R}$ et $r \in [a, b] \subset ]-1, 1[$, 
+$$\left|\left| r^{n-1}\cos(nx) \right|\right| _{\infty, \mathbb{R} \times [a, b]} =\sup_{r \in [a, b]} |r|^{n-1} = (\max\{ \left| a\right|, \left| b\right| \})^{n}$$
+qui est indépendant de $r$ et $x$ alors, comme $\left| a\right|<1$ et $\left| b\right| <1$
+On a bien : 
+$$\left|\left| r^{n-1}\cos(nx) \right|\right| _{\infty, \mathbb{R} \times [a, b]} \underset{n \to +\infty}{\longrightarrow} 0$$
+On a donc $\left( \sum_{k = 1}^{n} r^{k-1}\cos(kx) \right)_{n \in \mathbb{N}^{*}}$ qui CVNSTS et donc CVUSTS
+Ainsi, on a bien : 
+$$g(r) = \sum_{n= 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx) \in \mathcal{C}^{1}(]-1, 1[) $$
+$$g'(t) = \mathrm{Re}\left( \sum_{n = 1}^{+ \infty} r^{n-1} e^{ inx } \right) = \frac{1}{r} \mathrm{Re}\left( \sum_{n = 1}^{+ \infty} (r e^{ ix })^{n} \right)$$
+
+#### c.
