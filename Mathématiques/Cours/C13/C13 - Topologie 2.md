@@ -147,4 +147,13 @@ Supposons que $\Omega$ ne soit pas fermé, ie $E \setminus \Omega$ n'est pas ouv
 $$\exists l \in E\setminus \Omega, \forall r>0, \exists u \in \Omega, \left|\left| u-l \right|\right| < r$$
 $$\forall n \in \mathbb{N}^{*}, \exists u_{n} \in \Omega, \left|\left| u_{n} - l \right|\right| < \frac{1}{n}$$
 Ainsi, la suite $(u_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}}$ CV vers $l \not\in \Omega$.
-	
+
+#### Propriété
+$$\forall a \in E, \forall r >0, \bar{B}(a, r) \text{ et } S(a, r) \text{ sont des fermés de }(E, \left|\left| \cdot \right|\right| )$$
+$$\begin{cases}
+A_{1} \text{ est un fermé de }(E_{1}, \left|\left| \cdot \right|\right|  ) \\
+A_{2} \text{ est un fermé de }(E_{2}, \left|\left| \cdot \right|\right|  ) \\
+\end{cases} \Rightarrow A_{1} \times A_{2} \text{ est un fermé de }E_{1} \times E_{2}$$
+
+Démonstration : 
+Soit $(x_{n})_{n \in \mathbb{N}}$ une suite d'éléments de $\bar{B}(a, r)$ CV 
