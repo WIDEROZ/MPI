@@ -164,8 +164,8 @@ $$\begin{array}{rl}
 \end{array}$$
 Soit $\varepsilon >0$, il existe $n \in \mathbb{N}$ tel que : 
 $$\left|\left| f-f_{n} \right|\right|_{\infty, I} \leq \frac{\varepsilon}{3}$$
-Comme $f_{n}$ est continue en $x_{0}$, 
-$$\exists \alpha, \forall x \in I, \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-f_{n}(x_{0}) \right|\right| \leq \frac{\varepsilon}{3}$$
+Comme $f_{n}$ est continue en $x_{0}$, et comme il existe un $\alpha \in \mathbb{R}_{+}^{*}$ (par hypothèse de la démo de la continuité) tel que : 
+$$ \forall x \in I, \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow \left|\left| f_{n}(x)-f_{n}(x_{0}) \right|\right| \leq \frac{\varepsilon}{3}$$
 $$ \Rightarrow \left|\left| f(x)-f_{n}(x_{0}) \right|\right|\leq \frac{\varepsilon}{3}+\frac{2\varepsilon}{3}= \varepsilon$$
 
 #### CCINP 9 - Exo 2.
