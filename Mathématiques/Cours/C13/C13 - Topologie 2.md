@@ -306,4 +306,24 @@ $$\mathbb{R} \setminus \overset{\circ}{[0, 1[} = \mathbb{R} \setminus ]0, 1[ = ]
 $$A \subset B \Rightarrow \overline{A} \subset \overline{B}$$
 $$A = \overline{A} \Leftrightarrow A \text{ est un fermé}$$
 $$\overline{A} \text{ est un fermé de }E \text{ contenant }A$$
-$$\overline{A} \text{ est l'intersections des fermés contenant }A : $$
+$$\overline{A} \text{ est l'intersections des fermés contenant }A$$
+
+Démonstration : 
+$$\begin{array}{rl}
+A \subset B&\Rightarrow E \setminus B\subset E \setminus A \\
+&\Rightarrow  \overset{\circ}{E \setminus B} \subset \overset{\circ}{E \setminus A} \\
+&\Rightarrow E \setminus \overset{\circ}{B} \subset E \setminus \overset{\circ}{A} \\
+&\Rightarrow \overline{A} \subset \overline{B}
+\end{array}$$
+___
+$$\begin{array}{rl}
+A = \overline{A} &\Leftrightarrow E \setminus A = E \setminus \overline{A} = \overset{\circ}{E \setminus A} \\
+&\Leftrightarrow E \setminus A \text{ est un ouvert} \\
+&\Leftrightarrow A \text{ est fermé}
+\end{array}$$
+___
+On sait que $A \subset \overline{A}$, $\overline{A}$ est fermé car : $E \setminus \overline{A} = \overset{\circ}{E \setminus A}$ est un ouvert
+___
+$$E \setminus \overline{A} = \overset{\circ}{E \setminus A} = \bigcup_{\underset{O \subset (E \setminus A)}{O \text{ ouvert de }E}} O$$
+Donc, 
+$$\overline{A} = E \setminus \left( \bigcup_{\underset{O \subset (E \setminus A)}{O \text{ ouvert de }E}} O \right) = \bigcup_{\underset{A \subset (E \setminus O)}{(E \setminus O) \text{ fermé de }E}} (E \setminus O) = \bigcap_{\underset{A \subset F}{F \text{ fermé}}} F$$
