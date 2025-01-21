@@ -179,5 +179,24 @@ $$(l_{1}, l_{2}) \in A_{1} \times A_{2}$$
 par la caractérisation séquentielle c'est terminé.
 
 #### Propriété
-Si $(A_{i})_{i \in I}$ est une famille ded fermés de $(E, \left|\left| \cdot \right|\right|)$ alors : 
-$$\bigcap_{i \in I}A_{i}\text{ est un fermé }$$
+Si $(A_{i})_{i \in I}$ est une famille de fermés de $(E, \left|\left| \cdot \right|\right|)$ alors : 
+$$\bigcap_{i \in I}A_{i}\text{ est un fermé}$$
+___
+Si $(A_{i})_{i = 1}^{p}$ est une famille de fermés de $(E, \left|\left| \cdot \right|\right|)$ alors : 
+$$\bigcup_{i =1}^{p}A_{i}\text{ est un fermé}$$
+
+Démonstration : 
+$$E \setminus \left( \bigcap_{i \in I} A_{i} \right) = \bigcup_{i \in I}(E \setminus A_{i}) \text{ est un ouvert de }E$$
+___
+$$E \setminus \left( \bigcup_{i =1}^{p} A_{i} \right) = \bigcap_{i \in 1}^{p}(E \setminus A_{i}) \text{ est un ouvert de }E$$
+
+#### Exemple
+Toute partie de $E$ de cardinal fini ($p \in \mathbb{N}$) est fermée
+Démonstration : 
+$$P = \bigcup_{i = 1}^{p} \{ x_{i} \}$$
+Soit $a \in E$, et $A=\{ a \}$ et $(x_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}$ CV de limite $l \in E$, $(x_{n})_{n \in \mathbb{N}}$ CV vers $a$ car $\forall n \in \mathbb{N}, x_{n} = a$ 
+
+
+## 2. Intérieur et adhérence
+#### Définition
+Soit $A \subset E$, et $a \in A$
