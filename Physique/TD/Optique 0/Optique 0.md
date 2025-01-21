@@ -41,3 +41,8 @@ $OF' \neq D$
 
 
 ### Exercice 4
+
+
+$$\frac{1}{x_{2}} + \frac{1}{D-x_{2}} = \frac{1}{f'}$$
+$$\frac{1}{x_{1}} + \frac{1}{D-x_{1}} = \frac{1}{f'}$$
+$$f' = \frac{1}{\frac{1}{x_{2}}+\frac{1}{D-x_{2}}} $$
