@@ -147,6 +147,8 @@ On a donc $g'$ qui CVNSTS et donc CVUSTS
 Ainsi, on a bien : 
 $$g(r) = \sum_{n= 1}^{+ \infty} \frac{r^{n}}{n}\cos(nx) \in \mathcal{C}^{1}(]-1, 1[) $$
 $$g'(t) = \mathrm{Re}\left( \sum_{n = 1}^{+ \infty} r^{n-1} e^{ inx } \right) = \frac{1}{r} \mathrm{Re}\left( \sum_{n = 1}^{+ \infty} (r e^{ ix })^{n} \right)$$
+$$= \mathrm{Re}\left( e^{ ix } \times \frac{1}{1-re^{ ix }} \right) = \frac{\cos(x)-r}{1+r^{2}-2r\cos(x)}$$
+
 
 #### c.
 On a vu que : $g'$ CVUSTS => CVS et que : 
