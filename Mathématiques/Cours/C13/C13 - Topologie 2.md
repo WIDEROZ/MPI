@@ -218,6 +218,24 @@ n'est pas incuse dans $[a, b]$ car elle contient : $a-\frac{r}{2}$
 Donc $a\not\in \overset{\circ}{[a, b]}$
 De même pour $b$
 
+#### Exemple
+Dans $(\mathbb{R}^{2}, \left|\left| \cdot \right|\right|_{2})$, 
+$$[0,1] \times \{ 0 \} \text{ est d'intérieur vide car : }\forall x_{0} \in [0, 1]$$
+EXCAL 4
+$$B((x_{0}, 0), r) \subset (x_{0}, 0) + \frac{r}{2}(0, 1) =\left( x_{0}, \frac{r}{2} \right) \not\in [0, 1] \times \{ 0 \}$$
+
+#### Exemple
+$$\overset{\circ}{\mathbb{Q}} = \varnothing$$
+Car $\mathbb{R} \setminus \mathbb{Q}$ est dense dans $\mathbb{R}$
+
+
+#### Propriété
+$$A\subset B \Rightarrow \overset{\circ}{A} \subset \overset{\circ}{B}$$
+$$A \text{ est un ouvert }\Leftrightarrow A = \overset{\circ}{A}$$
+$$\overset{\circ}{A} \text{ est un ouvevrt de E contenu dans } A \Leftrightarrow \overset{\circ}{\overset{\circ}{A}} = \overset{\circ}{A}$$
+$$\overset{\circ}{A} \text{ est l'union de tous les ouverts inclus dans }A$$
+(ie : $\forall \Omega \text{ ouvert de }E, \Omega \subset A \Rightarrow \Omega \subset \overset{\circ}{A}$)
+
 
 #### Propriété
 Soit $A \subset E$, 
