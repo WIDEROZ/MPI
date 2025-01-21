@@ -199,4 +199,27 @@ Soit $a \in E$, et $A=\{ a \}$ et $(x_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}
 
 ## 2. Intérieur et adhérence
 #### Définition
-Soit $A \subset E$, et $a \in A$
+Soit $A \subset E$, et $a \in A$, 
+$a$ est intérieur à $A$ si
+$$\exists r > 0, B(a, r) \subset A $$
+On note $\overset{\circ}{A}$ l'ensemble des points intérieurs à $A$
+
+#### Exemple
+$$\forall a < b \in \mathbb{R}, \overset{\circ}{[a, b]} = ]a, b[$$
+Démonstration :
+En effet : on a vu que : $x_{0} \in ]a, b[$, 
+$$B(x_{0}, r)=]x_{0}-r, x_{0}+r[\subset ]a, b[$$
+ou $r = \min \{ b-x_{0}, x_{0}-a \}$
+Donc $x_{0}$ est intérieur à $[a, b]$ ie 
+$$]a, b[\subset \overset{\circ}{[a, b]}$$
+De plus, 
+$$\forall r >0, B(a, r) = ]a-r, a+r[$$
+n'est pas incuse dans $[a, b]$ car elle contient : $a-\frac{r}{2}$ 
+Donc $a\not\in \overset{\circ}{[a, b]}$
+De même pour $b$
+
+
+#### Propriété
+Soit $A \subset E$, 
+Soit $I$ adhérent à $A$, 
+$$A \setminus I = \overset{\circ}{A}$$
