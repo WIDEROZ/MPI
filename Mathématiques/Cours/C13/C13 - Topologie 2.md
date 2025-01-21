@@ -150,6 +150,7 @@ Ainsi, la suite $(u_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}}$ CV vers $l 
 
 #### Propriété
 $$\forall a \in E, \forall r >0, \bar{B}(a, r) \text{ et } S(a, r) \text{ sont des fermés de }(E, \left|\left| \cdot \right|\right| )$$
+___
 $$\begin{cases}
 A_{1} \text{ est un fermé de }(E_{1}, \left|\left| \cdot \right|\right|  ) \\
 A_{2} \text{ est un fermé de }(E_{2}, \left|\left| \cdot \right|\right|  ) \\
@@ -157,3 +158,26 @@ A_{2} \text{ est un fermé de }(E_{2}, \left|\left| \cdot \right|\right|  ) \\
 
 Démonstration : 
 Soit $(x_{n})_{n \in \mathbb{N}}$ une suite d'éléments de $\bar{B}(a, r)$ CV 
+On note : $l \in E$ sa limite
+Or, 
+$$\forall n \in \mathbb{N}, \left|\left| x_{n}-a \right|\right| \leq r$$
+comme $x \in E \mapsto x-a$ est continue et $y \in E \mapsto \left|\left| y \right|\right|$ aussi 
+Leur composé $f$ l'est, et d'après la caractérisation séquentielle de la continuité, 
+$$\lim_{ n \to +\infty } f(x_{n}) = f(\lim_{ n \to \infty } x_{n}) = f(l)$$
+ie 
+$$\left|\left| x_{n}-a \right|\right| \underset{n \to +\infty}{\longrightarrow} \left|\left| l-a \right|\right|$$
+enfin les inégalités larges qui passe à la limite : 
+$$\left|\left| l-a \right|\right| \leq r \text{ ie } l \in \bar{B}(a, r)$$
+Ainsi d'après la caractérisation séquentielle $\bar{B}(a, r)$ est un fermé. 
+___
+Soit $((x_{n}, y_{n}))_{n \in \mathbb{N}} \in (A_{1} \times A_{2})^{\mathbb{N}}$ CV, alors on note : $(l_{1}, l_{2}) \in E_{1} \times E_{2}$ sa limite donc, 
+$$\left|\left| x_{n}-l_{1} \right|\right| \leq \max\{ \left|\left| x_{n}-l_{1} \right|\right| , \left|\left| y_{n}-l_{2} \right|\right|  \}$$
+Donc, 
+$$x_{n}\underset{n \to +\infty}{\longrightarrow} l_{1}$$
+Comme $A_{1}$ est fermé, $l_{1} \in A_{1}$ de même pour $l_{2}$ ainsi, 
+$$(l_{1}, l_{2}) \in A_{1} \times A_{2}$$
+par la caractérisation séquentielle c'est terminé.
+
+#### Propriété
+Si $(A_{i})_{i \in I}$ est une famille ded fermés de $(E, \left|\left| \cdot \right|\right|)$ alors : 
+$$\bigcap_{i \in I}A_{i}\text{ est un fermé }$$
