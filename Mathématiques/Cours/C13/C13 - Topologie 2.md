@@ -263,4 +263,27 @@ Soit $x_{0} \in E$,
 On dit que $x_{0}$ est adhérent à $A$ lorsque : 
 $$\forall r >0, B(x_{0}, r) \cap A \neq \varnothing $$
 ie : 
-$$\forall r > 0 $$
+$$\forall r > 0 ,\exists a \in A, \left|\left| a-x_{0} \right|\right| < r$$
+On note $\bar{A}$ l'ensemble de ces points
+$A \subset \bar{A}$
+
+#### Proposition
+Soit $x_{0} \in E$, 
+On a équivalence entre : 
+$$\begin{cases}
+x_{0} \in \bar{A} \\
+d(x_{0}, A) = 0 \\
+\exists (a_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}, a_{n}\underset{n \to +\infty}{\longrightarrow} x_{0}
+\end{cases}$$
+
+#### Exemple
+Dans $(\mathbb{R}, \left| \cdot \right|)$ 
+$$\overline{]a, b]} = [a, b]$$
+$$\overline{\mathbb{Q}} = \overline{\mathbb{R} \setminus \mathbb{Q}} = \bar{\mathcal{R}}$$
+$$\overset{\circ}{A} \subset A \subset \bar{A}$$
+
+#### Propriété
+$$\forall A \subset E, \overset{\circ}{E \setminus A} = E \setminus \bar{A} \text{ et } \overline{E \setminus A} = E \setminus \overset{\circ}{A}$$
+
+#### Exemple
+$$R$$
