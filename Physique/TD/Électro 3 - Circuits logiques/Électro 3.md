@@ -56,13 +56,27 @@ Voir feuille.
 
 ### Exercice 5
 #### 1.
+Ce tableau sert à repérer les états stables : 
 $$\begin{array}{|c|c|c|c|}\hline 
 S&R&Q&\bar{Q} \\ \hline
-0&0&1&1 \\\hline
-0&1&1&0 \\\hline
 1&0&0&1 \\\hline
-1&1&\varnothing&\varnothing  \\\hline
+0&1&1&0 \\\hline
+1&1&0&1 \\\hline
+1&1&1&0  \\\hline
 \end{array}$$
+
+Ce tableau sert : 
+$$\begin{array}{|c|c|c|c|}\hline 
+S&R&Q_{-}&Q_{+} \\ \hline
+1&0&0&0 \\\hline
+1&0&1&0 \\\hline
+0&1&0&1 \\\hline
+0&1&1&1 \\
+1&1&  \\\hline
+\end{array}$$
+
+
+
 
 #### 2.
 On souhaite : 
