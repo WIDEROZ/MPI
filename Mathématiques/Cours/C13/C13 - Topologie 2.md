@@ -236,8 +236,31 @@ $$\overset{\circ}{A} \text{ est un ouvevrt de E contenu dans } A \Leftrightarrow
 $$\overset{\circ}{A} \text{ est l'union de tous les ouverts inclus dans }A$$
 (ie : $\forall \Omega \text{ ouvert de }E, \Omega \subset A \Rightarrow \Omega \subset \overset{\circ}{A}$)
 
+Démonstration : 
+Si $A \subset B$, 
+Soit $x_{0} \in \overset{\circ}{A}$, il existe $r>0$ tel que : 
+$$B(x_{0}, r) \subset A \text{ alors } B(x_{0}, r) \subset B \text{ ie }x_{0} \in \overset{\circ}{B}$$
+___
+Définition des ouverts
+___
+$\overset{\circ}{A} \subset A$ par définition puis, 
+Soit $x_{0} \in \overset{\circ}{A}$, $\exists r >0, B(x_{0}, r)\subset A$
+Donc, 
+$$\overset{\circ}{B(x_{0}, r)}\subset \overset{\circ}{A}$$
+Or les boules ouvertes sont des ouverts 
+D'après le $2$ $B(x_{0}, r) \subset \overset{\circ}{A}$ 
+Ainsi $\overset{\circ}{A}$ est un ouvert.
+___
+notons : $\Omega = \underset{\underset{B \subset A}{B \text{ ouvert}}}\bigcup B$, 
+D'après le $3$, 
+$\overset{\circ}{A}\subset \Omega$ 
+Soit $B$ un ouvert de $E$ includ dans $A$, 
+$$B = \overset{\circ}{B}\subset \overset{\circ}{A}$$
+Ainsi, $\Omega \subset \overset{\circ}{A}$ finalement $\overset{\circ}{A} = \Omega$
 
-#### Propriété
-Soit $A \subset E$, 
-Soit $I$ adhérent à $A$, 
-$$A \setminus I = \overset{\circ}{A}$$
+#### Définition 
+Soit $x_{0} \in E$, 
+On dit que $x_{0}$ est adhérent à $A$ lorsque : 
+$$\forall r >0, B(x_{0}, r) \cap A \neq \varnothing $$
+ie : 
+$$\forall r > 0 $$
