@@ -284,6 +284,26 @@ $$\overset{\circ}{A} \subset A \subset \bar{A}$$
 
 #### Propriété
 $$\forall A \subset E, \overset{\circ}{E \setminus A} = E \setminus \bar{A} \text{ et } \overline{E \setminus A} = E \setminus \overset{\circ}{A}$$
+Démonstration : 
+Soit $x \in E$, 
+$$\begin{array}{rl}
+x \in \overline{E \setminus A} &\Leftrightarrow \forall r > 0, \exists y \in E \setminus A, \left|\left| y-x \right|\right| < r \\
+&\Leftrightarrow \forall r >0, B(x, r) \not\subset A \\
+&\Leftrightarrow x \not\in \overset{\circ}{A} \\
+&\Leftrightarrow x \in E \setminus \overset{\circ}{A}
+\end{array}$$
+Ainsi, 
+$$\overline{E \setminus A} = E \setminus \overset{\circ}{A}$$
+Cette égalité est vraie pour $A \leftarrow E \setminus A$
+Ainsi, 
+$$E \setminus \overline{A} = \overset{\circ}{E \setminus A}$$
 
 #### Exemple
-$$R$$
+$$\overline{\mathbb{R} \setminus [0, 1[} = \overline{]- \infty, 0 [\cup [1, + \infty[} = ]- \infty, 0] \cup [1, + \infty[$$
+$$\mathbb{R} \setminus \overset{\circ}{[0, 1[} = \mathbb{R} \setminus ]0, 1[ = ]- \infty, 0] \cup [1, + \infty[$$
+
+#### Propriété
+$$A \subset B \Rightarrow \overline{A} \subset \overline{B}$$
+$$A = \overline{A} \Leftrightarrow A \text{ est un fermé}$$
+$$\overline{A} \text{ est un fermé de }E \text{ contenant }A$$
+$$\overline{A} \text{ est l'intersections des fermés contenant }A : $$
