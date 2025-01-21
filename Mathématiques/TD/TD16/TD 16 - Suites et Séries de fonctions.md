@@ -155,3 +155,7 @@ On a vu que : $g'$ CVUSTS => CVS et que :
 $$\sum_{n = 1}^{+ \infty} \int_{0}^{r} s^{n-1}\cos(nx)  \, ds = \sum_{n = 1}^{+ \infty} \frac{1}{n} r^{n}\cos(nx) \text{ CVS}$$
 Ainsi, 
 $$\int_{0}^{r} g'(s) \, ds = F(x, r) $$
+
+## Exercice 15
+#### a.
+$$$$
