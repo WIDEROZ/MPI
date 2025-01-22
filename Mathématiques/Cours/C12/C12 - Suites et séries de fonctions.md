@@ -388,6 +388,10 @@ On fait tendre $p$ vers $+ \infty$ et on applique la norme infinie
 $$\left|\left| R_{n} \right|\right| _{\infty} \leq \sum_{k = n+1}^{+ \infty} \left|\left| f_{k} \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
 et ce majorant est independent de $x$ donc, $(R_{n})$ CVU sur $I$ vers la fonction nulle
 
+$$\left| \sum_{k = n+1}^{N} f_{n}\right| \leq \sum_{k = n+1}^{N} \left| f_{n}\right| \leq \sum_{k = n+1}^{N} \left|\left| f_{n} \right|\right| _{\infty}$$
+
+
+
 ## Types de Convergences
 $$\begin{array}{c}
  &&&&\text{CVU de }(f_{n}) \text{ vers }0\text{ sur }I \\
