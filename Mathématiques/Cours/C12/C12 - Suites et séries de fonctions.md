@@ -166,7 +166,8 @@ Soit $\varepsilon >0$, il existe $n \in \mathbb{N}$ tel que :
 $$\left|\left| f-f_{n} \right|\right|_{\infty, I} \leq \frac{\varepsilon}{3}$$
 Comme $f_{n}$ est continue en $x_{0}$, et comme il existe un $\alpha \in \mathbb{R}_{+}^{*}$ (par hypothèse de la démo de la continuité) tel que : 
 $$ \forall x \in I, \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow \left|\left| f_{n}(x)-f_{n}(x_{0}) \right|\right| \leq \frac{\varepsilon}{3}$$
-$$ \Rightarrow \left|\left| f(x)-f_{n}(x_{0}) \right|\right|\leq \frac{\varepsilon}{3}+\frac{2\varepsilon}{3}= \varepsilon$$
+$$ \Rightarrow \left|\left| f(x)-f(x_{0}) \right|\right|\leq \frac{\varepsilon}{3}+\frac{2\varepsilon}{3}= \varepsilon$$
+
 
 #### CCINP 9 - Exo 2.
 $$\forall n \in \mathbb{N}, \forall x \in \mathbb{R}_{+}, f_{n}(x) = \frac{n+2}{n+1} e^{ -nx^{2} }\cos(\sqrt{n}x)$$
