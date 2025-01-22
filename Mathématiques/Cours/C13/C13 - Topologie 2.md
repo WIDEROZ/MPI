@@ -387,4 +387,30 @@ $$\{ f \in E | f >0 \} \subset \overset{\circ}{\Omega} $$
 $\subset$ : 
 Soit $f_{0} \in \overset{\circ}{\Omega}$, 
 $$\exists r > 0, B(f_{0}, r )\subset \Omega$$
-Alors
+Alors, $f_{0}-\frac{r}{2} \in \Omega$, ie
+$$f_{0} - \frac{r}{2}\geq 0 \text{ ie } f_{0} \geq \frac{r}{2}>0$$
+et donc, 
+$$\overset{\circ}{\Omega} \subset \{ f \in E | f >0 \}$$
+
+d. Montrons que dans $(E, \left|\left| \cdot \right|\right|_{1})$ $\overset{\circ}{\Omega} = \varnothing$
+Soit $f \in \Omega$, On note : $a=f(0)$,
+Soit
+$$\forall n \in \mathbb{N}, f_{n} : \begin{cases}
+[0, 1] \to \mathbb{R} \\
+x \mapsto f(x) - 2ae^{ -nx }
+\end{cases}$$
+Alors, $f_{n} \in E$ et $f_{n} \not\in \Omega$ car : 
+$$f_{n}(0) = -a <0$$ et x
+$$\left|\left| f_{n}-f \right|\right| _{1} = \int_{0}^{1} e^{ -nx } \, dx = \frac{1-e^{ -n }}{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+ie $(f_{n})_{n \in \mathbb{N}}$ CV vers $f$ pour $\left|\left| \cdot \right|\right|_{1}$ donc $f \in \overline{E \setminus \Omega}=E \setminus \overset{\circ}{\Omega}$, 
+Donc, $f \not\in \overset{\circ}{\Omega}, \forall f \in \Omega$ ie $\overset{\circ}{\Omega}=\varnothing$
+
+#### Définition
+Soit $A \subset E$, on appelle frontière de $A$ l'ensemble $Fr(A)$ des points adhérents à $A$ et non-intérieurs : 
+$$Fr(A) = \overline{A} \setminus \overset{\space \space o}{A} = \overline{A} \cap \overline{E \setminus A}$$
+
+## 3. Densité
+Soient $A \subset B$, deux parties de $(E, \left|\left| \cdot \right|\right|)$ On dit que $A$ est dense dans $B$ lorsque : 
+$$B \subset \overline{A}$$
+ie
+$$\forall b \in B, \exists (a_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}, a_{n}\underset{n \to +\infty}{\longrightarrow} b$$
