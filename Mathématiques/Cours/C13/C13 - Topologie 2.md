@@ -414,3 +414,16 @@ Soient $A \subset B$, deux parties de $(E, \left|\left| \cdot \right|\right|)$ O
 $$B \subset \overline{A}$$
 ie
 $$\forall b \in B, \exists (a_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}, a_{n}\underset{n \to +\infty}{\longrightarrow} b$$
+
+#### CCINP 35
+Si $f : B \to \mathbb{R}$ est continue sur $B$ et nulle en $A$ et que $A$ est dense dans $B$, $f$ est nulle sur $B$
+
+#### Exercice
+$GL_{n}(\mathbb{R})$ est dense dans $\mathcal{M}_{n}(\mathcal{R})$ ie $\overline{GL_{n}(\mathbb{R})} = \mathcal{M}_{n}(\mathbb{R})$
+
+Soit $B \in \mathcal{M}_{n}(\mathbb{R})$,
+On note :
+$$P : t \in \mathbb{R} \mapsto \det(tI_{n}-M) = \chi_{M}(t)$$
+On sait que $P$ est de degré $n$ donc l'ensemble de ses racines est de cardinal au plus $n$
+Ainsi, il existe $\alpha >0$ tel que : 
+$]-\alpha, \alpha[$ n'admet que $0$ comme racine de 
