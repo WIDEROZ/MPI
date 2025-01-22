@@ -327,3 +327,21 @@ ___
 $$E \setminus \overline{A} = \overset{\circ}{E \setminus A} = \bigcup_{\underset{O \subset (E \setminus A)}{O \text{ ouvert de }E}} O$$
 Donc, 
 $$\overline{A} = E \setminus \left( \bigcup_{\underset{O \subset (E \setminus A)}{O \text{ ouvert de }E}} O \right) = \bigcup_{\underset{A \subset (E \setminus O)}{(E \setminus O) \text{ fermé de }E}} (E \setminus O) = \bigcap_{\underset{A \subset F}{F \text{ fermé}}} F$$
+
+#### Exercice
+Soit $E = \mathcal{C}^{0}([0, 1], \mathbb{R})$, et $\Omega = \{ f \in E | f \geq 0 \}$, 
+
+a. Montrons que $\Omega$ est un fermé de dans $(E, \left|\left| \cdot \right|\right|_{\infty})$
+Soit $(f_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, 
+Donc, 
+$$\exists f \in E, \left|\left| f_{n}-f \right|\right| \underset{n \to +\infty}{\longrightarrow} 0$$
+Comme $(f_{n})$ CVU sur $[0, 1]$ vers $f$ elle CVS sur $[0, 1]$ vers $f$
+ie 
+$$\forall x \in [0, 1], f(x) = \lim_{ n \to +\infty } f_{n}(x) $$
+Comme : 
+$$\forall n \in \mathbb{N}, f_{n}(x) \geq 0, f(x) \geq 0$$
+aussi ie $f \in\Omega$
+
+b. Montrons que : $\Omega$ est fermé dans $(E, \left|\left| \cdot \right|\right|_{1})$
+Soit $(f_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$ CV
+$$\exists f \in E, \left|\left| f_{n}-f \right|\right|_{1} = \int _{0}^{1} \left| f_{n}(x)-f(x)\right| \, dx \underset{n \to +\infty}{\longrightarrow} + \infty $$
