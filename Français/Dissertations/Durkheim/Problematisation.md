@@ -22,3 +22,10 @@ Le crime est utile : Ton Polémique
 Durkheim analyse le crime sous l'angle de la moralité, sous l'angle du pragmatisme. 
 
 #### Problématique
+Comment une communauté pourrait-elle se nourrir du crime quand par nature ce dernier est destructeur. 
+
+##### I. Certes, si l'on accepte de démoraliser le débat comme Durkheim, on peut considérer le crime comme inévitable
+
+#### II. Toutefois, on ne peut tout de même pas nier que Durkheim fait abstraction de la nature du crime, il n'évoque pas sa violence et les perturbation qu'il occasionne
+
+#### III. 
