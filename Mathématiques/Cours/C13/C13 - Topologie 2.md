@@ -462,4 +462,16 @@ $$\left|\left| x \right|\right|  < r \Rightarrow N(x) < 1$$
 Alors, 
 $$y \in E, x: \frac{y}{\left|\left| y \right|\right| } \frac{r}{2}$$
 vérifie : $\left|\left| x \right|\right| = \frac{r}{2} <r$
-Donc, $N(x) < 1$ ie $N\left( \frac{r}{2\left|\left| y \right|\right|}y \right) <1$ ie $N(y) < $
+Donc, $N(x) < 1$ ie $N\left( \frac{r}{2\left|\left| y \right|\right|}y \right) <1$ ie $N(y) < \frac{2}{r}\left|\left| y \right|\right|$
+
+#### Définition : Ne sert à rien
+Soit $A \subset E$ avec la norme : $\left|\left| \cdot \right|\right|$
+On dit que $B$ est un ouvert relatif de $A$ lorsque 
+$$\forall b \in B, \exists r > 0, \forall x \in A, \left|\left| x-b \right|\right| < r \Rightarrow x \in B$$
+ie lorsque $B(b, r) \cap A = B$
+On dit que $B$ est un fermé relatif de $A$ lorsque $A \setminus B$ est un ouvert relatif de $A$
+
+#### Propriété
+Soient $B \subset A \subset (E, \left|\left| \cdot \right|\right|)$, 
+$B$ est un ouvert relatif de $A$ $\Leftrightarrow$ $\exists \Omega$ ouvert de $E$ tel que : $\Omega \cap A = B$
+$B$ est un fermé relatif de $A$ $\Leftrightarrow$ toute suite d'élément $(b_{n})_{n \in \mathbb{N}}$ de $B$ convergeant vers $b \in A$ vérifie $b \in B$
