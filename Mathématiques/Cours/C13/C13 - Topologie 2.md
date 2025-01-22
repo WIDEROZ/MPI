@@ -442,3 +442,24 @@ $\supset$ est évidente
 #### Théorème
 Si $\left| \cdot\right|$ et $N$ sont deux normes sur $E$ alors, 
 $$N \sim \left| \cdot\right| \Leftrightarrow \text{les ouverts de } (E, \left|\left| \cdot \right|\right| ) \text{ sont les ouverts de }(E, N)$$
+Démonstration : 
+$\Rightarrow$ : 
+Supposons que
+$$\exists a, b>0, \forall x \in E, a \left|\left| x \right|\right| \leq N(x) \leq b \left|\left| x \right|\right| $$
+Soit $\Omega \subset E$ un ouvert de $(E, \left|\left| \cdot \right|\right|)$ alors,
+$$\forall x_{0} \in \Omega, \exists r > 0, \forall x \in E, N(x-x_{0}) < ar \Rightarrow \left|\left| x-x_{0} \right|\right| < r \Rightarrow x \in \Omega$$
+Donc, 
+$$\forall x \in E, N(x-x_{0}) < ar \Rightarrow \left|\left| x-x_{0} \right|\right| < r \Rightarrow x \in \Omega$$
+Ains, 
+$$B_{N}(x_{0}, ar) \subset \Omega$$
+Donc $x_{0}$ est intérieur à $\Omega$ dans $(E, N)$
+Ainsi, $\Omega$ est ouvert dans $(E, N)$
+
+$\Leftarrow$ : $B_{N}$ est une boule ouverte de $(E, N)$ donc un ouvert de $(E, \left|\left| \cdot \right|\right|)$ ie 
+$$\exists r > 0, \forall x \in E, \left|\left| x-0 \right|\right| < r \Rightarrow x \in B_{N} (0, 1)$$
+ie 
+$$\left|\left| x \right|\right|  < r \Rightarrow N(x) < 1$$
+Alors, 
+$$y \in E, x: \frac{y}{\left|\left| y \right|\right| } \frac{r}{2}$$
+vérifie : $\left|\left| x \right|\right| = \frac{r}{2} <r$
+Donc, $N(x) < 1$ ie $N\left( \frac{r}{2\left|\left| y \right|\right|}y \right) <1$ ie $N(y) < $
