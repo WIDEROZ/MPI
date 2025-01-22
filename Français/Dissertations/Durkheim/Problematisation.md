@@ -26,6 +26,13 @@ Comment une communauté pourrait-elle se nourrir du crime quand par nature ce de
 
 ##### I. Certes, si l'on accepte de démoraliser le débat comme Durkheim, on peut considérer le crime comme inévitable
 
-#### II. Toutefois, on ne peut tout de même pas nier que Durkheim fait abstraction de la nature du crime, il n'évoque pas sa violence et les perturbation qu'il occasionne
+##### II. Toutefois, on ne peut tout de même pas nier que Durkheim fait abstraction de la nature du crime, il n'évoque pas sa violence et les perturbation qu'il occasionne
 
-#### III. 
+##### III. Par conséquent, bien qu'il puisse révéler des tensions utiles à la communauté, on a guerre intérêt à l’exacerber, il faut donc trouver l'équilibre d'un seuil de tolérance qui permette de ne pas dissoudre la communauté
+Arguments : Les seuils fixés par la communauté
+1. Spinoza : 
+   Conditions de l'unification du pacte social
+2. 
+
+
+Arguments : 
