@@ -358,4 +358,33 @@ Enfin,
 $$\left| \int _{x_{0}-\alpha}^{x_{0}+\alpha} f_{n}(x) \, dx - \int _{x_{0}-\alpha}^{x_{0}+\alpha}f(x) \, dx  \right| \leq \int_{x_{0}-\alpha}^{x_{0}+\alpha} \left| f_{n}(x) - f(x)\right| \, dx $$
 $$\leq \int_{0}^{1} \left| f_{n}(x) - f(x)\right| \, dx \text{ car } \left| f_{n}-f\right|\geq 0 $$
 $$= \left|\left| f_{n}-f \right|\right|_{1} \underset{n \to +\infty}{\longrightarrow} 0$$
-$$\int _{x_{0}-\alpha}^{x_{0}+\alpha} f_{n}(x) \, dx  \underset{n \to +\infty}{\longrightarrow} \int _{x_{0}-\alpha}^{x_{0}+\alpha} f(n)\, dx $$
+$$0\leq \int _{x_{0}-\alpha}^{x_{0}+\alpha} f_{n}(x) \, dx  \underset{n \to +\infty}{\longrightarrow} \int _{x_{0}-\alpha}^{x_{0}+\alpha} f(x)\, dx <0$$
+C'est absurde
+Ainsi, 
+$$\Omega \text{ est un fermé dans : } (E, \left|\left| \cdot \right|\right| _{1})$$
+
+c. Montrons que dans $(E, \left|\left| \cdot \right|\right|_{\infty})$ :
+$$\overset{\circ}{\Omega} = \{ f \in E | f > 0 \}$$
+$\supset$ : 
+Soit $f_{0} \in E$, $\forall x \in [0, 1]$, $f_{0}>0$
+Alors comme $f_{0}$ est continue sur un segment, 
+$$\exists x_{0} \in [0, 1], \min_{[0, 1]} f_{0} = f_{0}(x_{0})$$
+On note : $r = \frac{f_{0}(x_{0})}{2}$
+Soit $f \in E$, 
+$$\left|\left| f-f_{0} \right|\right| _{\infty}< r$$
+Alors, 
+$$\forall x \in [0, 1], \left| f(x) - f_{0}(x)\right| < r = \frac{f_{0}(x_{0})}{2}$$
+Donc, 
+$$f(x) \geq f_{0}(x) - r \geq f_{0}(x_{0}) - \frac{f_{0}(x_{0})}{2} $$
+ie 
+$$f(x) \geq \frac{f_{0}(x_{0})}{2} > 0$$
+Donc $f \in \Omega$. 
+Ainsi, 
+$$B(f_{0}, r) \subset \Omega \text{ ie } f_{0} \text{ est un point intérieur à }\Omega$$
+Ainsi, 
+$$\{ f \in E | f >0 \} \subset \overset{\circ}{\Omega} $$
+
+$\subset$ : 
+Soit $f_{0} \in \overset{\circ}{\Omega}$, 
+$$\exists r > 0, B(f_{0}, r )\subset \Omega$$
+Alors
