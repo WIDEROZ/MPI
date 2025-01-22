@@ -31,7 +31,9 @@ Comment une communauté pourrait-elle se nourrir du crime quand par nature ce de
    La demande de divorce d'Ellen révèle l'attachement de la communauté au lien, c'est perçu comme une menace par ce que le lien de conjugalité c'est l'affirmation du lien d'interdépendance des êtres.
 3. Wharton
    Le crime consolide l'esprit de communauté, on prend conscience de ce qui constitue la communauté 
-4. Spino
+4. Spinoza
+   Chapitre XX : Il affirme les vertus du débat publique et montre qu'il est important de débattre de manière raisonnable et raisonné de façon a ce que la communauté puisse se consolider. 
+   
 
 
 ##### II. Toutefois, on ne peut tout de même pas nier que Durkheim fait abstraction de la nature du crime, il n'évoque pas sa violence et les perturbation qu'il occasionne
