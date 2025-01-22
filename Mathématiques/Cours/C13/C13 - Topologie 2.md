@@ -332,7 +332,7 @@ $$\overline{A} = E \setminus \left( \bigcup_{\underset{O \subset (E \setminus A)
 Soit $E = \mathcal{C}^{0}([0, 1], \mathbb{R})$, et $\Omega = \{ f \in E | f \geq 0 \}$, 
 
 a. Montrons que $\Omega$ est un fermé de dans $(E, \left|\left| \cdot \right|\right|_{\infty})$
-Soit $(f_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, 
+Soit $(f_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}}$, 
 Donc, 
 $$\exists f \in E, \left|\left| f_{n}-f \right|\right| \underset{n \to +\infty}{\longrightarrow} 0$$
 Comme $(f_{n})$ CVU sur $[0, 1]$ vers $f$ elle CVS sur $[0, 1]$ vers $f$
@@ -343,5 +343,19 @@ $$\forall n \in \mathbb{N}, f_{n}(x) \geq 0, f(x) \geq 0$$
 aussi ie $f \in\Omega$
 
 b. Montrons que : $\Omega$ est fermé dans $(E, \left|\left| \cdot \right|\right|_{1})$
-Soit $(f_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$ CV
-$$\exists f \in E, \left|\left| f_{n}-f \right|\right|_{1} = \int _{0}^{1} \left| f_{n}(x)-f(x)\right| \, dx \underset{n \to +\infty}{\longrightarrow} + \infty $$
+Soit $(f_{n})_{n \in \mathbb{N}} \in \Omega^{\mathbb{N}}$ CV
+$$\exists f \in E, \left|\left| f_{n}-f \right|\right|_{1} = \int _{0}^{1} \left| f_{n}(x)-f(x)\right| \, dx \underset{n \to +\infty}{\longrightarrow} 0$$
+On raisonne par l'absurde : 
+Supposons que $f\not\in \Omega$, et qu'il existe $x_{0} \in [0, 1]$ tel que : $f(x_{0}) < 0$
+Par continuité de $f$ en $x_{0}$, $\exists \alpha >0$ tel que : 
+$$\forall x \in [x_{0} - \alpha , x_{0} + \alpha]$$
+$$f(x) \leq \frac{f(x_{0})}{2}$$
+Alors, 
+$$\int_{x_{0}-\alpha}^{x_{0}+\alpha} f(x)\, dx \leq \int_{x_{0}-\alpha}^{x_{0}+\alpha} \frac{f(x_{0})}{2} dx = \alpha f(x_{0})$$
+or 
+$$\forall n \in \mathbb{N} \int_{x_{0}-\alpha}^{x_{0}+\alpha} f_{n}(x) \, dx\geq 0 \text{ car }f_{n} \in \Omega $$
+Enfin, 
+$$\left| \int _{x_{0}-\alpha}^{x_{0}+\alpha} f_{n}(x) \, dx - \int _{x_{0}-\alpha}^{x_{0}+\alpha}f(x) \, dx  \right| \leq \int_{x_{0}-\alpha}^{x_{0}+\alpha} \left| f_{n}(x) - f(x)\right| \, dx $$
+$$\leq \int_{0}^{1} \left| f_{n}(x) - f(x)\right| \, dx \text{ car } \left| f_{n}-f\right|\geq 0 $$
+$$= \left|\left| f_{n}-f \right|\right|_{1} \underset{n \to +\infty}{\longrightarrow} 0$$
+$$\int _{x_{0}-\alpha}^{x_{0}+\alpha} f_{n}(x) \, dx  \underset{n \to +\infty}{\longrightarrow} \int _{x_{0}-\alpha}^{x_{0}+\alpha} f(n)\, dx $$
