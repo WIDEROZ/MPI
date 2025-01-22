@@ -25,14 +25,25 @@ Durkheim analyse le crime sous l'angle de la moralité, sous l'angle du pragmati
 Comment une communauté pourrait-elle se nourrir du crime quand par nature ce dernier est destructeur. 
 
 ##### I. Certes, si l'on accepte de démoraliser le débat comme Durkheim, on peut considérer le crime comme inévitable
+1. Eschyle
+   Il invite ses filles à la modestie, elles risquent de passer pour criminel si elle attisent le désir. (dernière fois que Danaos prend la parole, il fait une sort de testament initiatique)
+2. Wharton
+   La demande de divorce d'Ellen révèle l'attachement de la communauté au lien, c'est perçu comme une menace par ce que le lien de conjugalité c'est l'affirmation du lien d'interdépendance des êtres.
+3. Wharton
+   Le crime consolide l'esprit de communauté, on prend conscience de ce qui constitue la communauté 
+4. Spino
+
 
 ##### II. Toutefois, on ne peut tout de même pas nier que Durkheim fait abstraction de la nature du crime, il n'évoque pas sa violence et les perturbation qu'il occasionne
 
 ##### III. Par conséquent, bien qu'il puisse révéler des tensions utiles à la communauté, on a guerre intérêt à l’exacerber, il faut donc trouver l'équilibre d'un seuil de tolérance qui permette de ne pas dissoudre la communauté
-Arguments : Les seuils fixés par la communauté
+Arguments : 
 1. Spinoza : 
-   Conditions de l'unification du pacte social
-2. 
+   Fixer les conditions de l'unification du pacte social : 
+   - Éviter le plus grand mal
+   - Choisir le plus grand bien
+2. Wharton : 
+
 
 
 Arguments : 
