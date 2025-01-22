@@ -426,4 +426,19 @@ On note :
 $$P : t \in \mathbb{R} \mapsto \det(tI_{n}-M) = \chi_{M}(t)$$
 On sait que $P$ est de degré $n$ donc l'ensemble de ses racines est de cardinal au plus $n$
 Ainsi, il existe $\alpha >0$ tel que : 
-$]-\alpha, \alpha[$ n'admet que $0$ comme racine de 
+$[-\alpha, \alpha]$ n'admet que $0$ comme racine de $P$ si $B \not\in GL_{n}(\mathbb{R})$ ou aucune racine si $B \in GL_{n}(\mathbb{R})$
+$$\forall p \in \mathbb{N}^{*}, P\left( \frac{\alpha}{p} \right)\neq 0$$
+car $\frac{\alpha}{p} \in [-\alpha, \alpha]$ ie
+$$\det\left( \frac{\alpha}{p}I_{n} - B\right) \neq 0$$
+ie
+$$\forall p \geq 1, B-\frac{\alpha}{p}I_{n} := B_{p} \in GL_{n}(\mathbb{R})$$
+or : 
+$$\left|\left| B_{p} - B \right|\right| = \left|\left| -\frac{\alpha}{p} I_{n} \right|\right| = \alpha \frac{\left|\left| I_{n} \right|\right|}{p}  \underset{p \to +\infty}{\longrightarrow} 0$$
+ie $(B_{p})$ converge vers $B$
+ie $B \in \overline{GL_{n}(\mathbb{R})}$
+Ainsi, $\mathcal{M}_{n}(\mathbb{R}) = \overline{GL_{n}(\mathbb{R})}$
+$\supset$ est évidente
+
+#### Théorème
+Si $\left| \cdot\right|$ et $N$ sont deux normes sur $E$ alors, 
+$$N \sim \left| \cdot\right| \Leftrightarrow \text{les ouverts de } (E, \left|\left| \cdot \right|\right| ) \text{ sont les ouverts de }(E, N)$$
