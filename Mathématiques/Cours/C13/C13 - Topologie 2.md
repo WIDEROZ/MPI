@@ -596,3 +596,16 @@ car : $\psi(f_{n}) = f_{n}(0) = 1$
 #### Théorème
 Si $E$ est un $\mathbb{K}$-ev de dimension finie et $F$ un $\mathbb{K}$-ev normé. Alors
 $$\forall f \in \mathcal{L}(E, F), f \text{ est cotinue i.e. }\mathcal{L}_{C}(E, F) = \mathcal{L}(E, F)$$
+
+#### Définition
+Soit $f \in \mathcal{L}_{c}(E, F)$, 
+On note : 
+$$\left|\left| \left| f\right| \right|\right| = \left|\left| f \right|\right| _{op} = \sup_{x \in \overline{B}(0, 1)} \left|\left| f(x) \right|\right| $$
+
+#### Remarque
+Comme $f$ est continue, 
+$$\exists K \in \mathbb{R}_{+}^{*}, \forall x \in E, \left|\left| f(x) \right|\right| \leq K \left|\left| x \right|\right|$$
+Donc, 
+$$\{ \left|\left| f(x) \right|\right| ; x \in B(0, 1) \}$$
+est un ensemble de réels non vide et majoré par $K$ dont il admet bien une borne supérieure, ie : 
+$$\left|\left| \left| f \right| \right|\right| \in  $$
