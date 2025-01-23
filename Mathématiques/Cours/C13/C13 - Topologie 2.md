@@ -619,3 +619,12 @@ Pour $p$ un projecteur,
 $$\left|\left| \left| p\right| \right|\right| =1$$
 $$\forall x \in \overline{B}(0, 1), \left|\left| p(x) \right|\right| \leq 1$$
 et donc, $\left|\left| \left| p\right| \right|\right|\leq 1$
+De plus, si $x_{0} \in \mathrm{Im}(p)$ et $x_{0}$ est unitaire alors, $p(x_{0}) = x_{0}$ et $\left|\left| p(x_{0}) \right|\right|=1$
+et alors, 
+$$\left|\left| \left| p\right| \right|\right| \geq \left|\left| p(x_{0}) \right|\right| =1$$
+
+#### Proposition
+Si $f \in \mathcal{L}_{C}(E, F)$,
+$$\left|\left| \left| f\right| \right|\right|=\sup_{x \in \overline{B}(0, 1)}\left|\left| f(x) \right|\right| = \sup_{x \in E \setminus \{ 0 \}} \frac{\left|\left| f(x) \right|\right| }{\left|\left| x \right|\right| } $$
+Démonstration : 
+ça va tout seul
