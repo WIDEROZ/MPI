@@ -1,5 +1,5 @@
 ## Exercice 2
 #### 1.
-$$\Delta\lambda_{0} = \frac{c}{\nu_{moy}}$$
-de plus
-$$L_{c} = c \times \tau_{c} \text{ et } \tau_c \sim \frac{1}{\Delta \nu}$$
+$$\lambda = \frac{c}{\nu} \Rightarrow d\lambda = c d\left( \frac{1}{\nu} \right) = -\frac{c}{\nu^{2}} d\nu \Leftrightarrow \Delta \lambda = \frac{c}{\nu^{2}}\Delta \nu$$
+Alors, 
+$$$$
