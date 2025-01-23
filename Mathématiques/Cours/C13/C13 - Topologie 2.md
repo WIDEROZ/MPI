@@ -512,5 +512,19 @@ Soit $O$ un ouvert de $F$,
 Soit $x_{0} \in f^{-1}(O)$, 
 Comme $f(x_{0})$ appartient à l'ouvert $O$, 
 $$\exists \varepsilon >0, B(f(x_{0}), \varepsilon) \subset O$$
-Or, $f$ étant continue en $x_{0}$, $\exists \alpha > 0$ tel que :
-$$\forall x \in E,  \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-f(x_{0}) \right|\right| \leq \varepsilon$$
+Or, $f$ étant continue en $x_{0}$,
+$$\exists \alpha > 0,\forall x \in E,  \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-f(x_{0}) \right|\right| < \varepsilon$$
+ie, 
+$$x \in B(x_{0}, \alpha)\Rightarrow f(x) \in B(f(x_{0}), \varepsilon)$$
+ie
+$$B(x_{0}, \alpha)\subset f^{-1}(O)$$
+et donc $f^{-1}(O)$ est un ouvert de $E$
+$2 \Rightarrow 1$, 
+Soit $x_{0} \in E$, 
+Soit $\varepsilon>0$, 
+Puisque la boule ouverte $B(f(x_{0}), \varepsilon)$ est un ouvert de $F$, d'après la deuxième assertion $f^{-1}(B(f(x), \varepsilon))$ est un ouvert de $E$.
+Il existe alors, $\alpha >0$ tel que : 
+$$B(x_{0}, \alpha) \subset f^{-1}(B(f(x), \varepsilon))$$
+ie
+$$\forall x \in E, \left|\left| x-x_{0} \right|\right| < \alpha \Rightarrow \left|\left| f(x)-f(x_{0}) \right|\right| \leq \varepsilon$$
+$f$ est continue en $x_{0}$
