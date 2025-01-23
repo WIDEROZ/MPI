@@ -580,3 +580,19 @@ $$\psi : \begin{cases}
 \mathcal{C}^{0}([0, 1],\mathbb{R}) \to \mathbb{R} \\
 f \mapsto f(0)
 \end{cases}$$
+$\psi$ est continue car pour $\left|\left| \cdot \right|\right|_{\infty}$ elle est linéaire et : 
+$$\forall f \in E, \left| \psi(f)\right| = \left| f(0)\right|\leq \left|\left| f \right|\right| _{\infty}$$
+En revanche si on prend $\left|\left| \cdot \right|\right|_{1}$ $\psi$ n'est pas continue car en posant : 
+$$\forall x \in \mathbb{N}, f_{n} : \begin{cases}
+[0, 1] \to \mathbb{R} \\
+x \mapsto (1-x)^{n}
+\end{cases}$$
+on a : 
+$$\left|\left| f_{n} - 0 \right|\right| _{1} \underset{n \to +\infty}{\longrightarrow} 0$$
+car : $\left|\left| f_{n} \right|\right|_{{1}} = \int _{0}^{1} (1-x)^{n} \, dx= \frac{1}{n+1}$ 
+$$\psi(f_{n}) \cancel{ \underset{n \to +\infty}{\longrightarrow} } \psi(0_{E}) = 0$$
+car : $\psi(f_{n}) = f_{n}(0) = 1$
+
+#### Théorème
+Si $E$ est un $\mathbb{K}$-ev de dimension finie et $F$ un $\mathbb{K}$-ev normé. Alors
+$$\forall f \in \mathcal{L}(E, F), f \text{ est cotinue i.e. }\mathcal{L}_{C}(E, F) = \mathcal{L}(E, F)$$
