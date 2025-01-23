@@ -475,3 +475,22 @@ On dit que $B$ est un fermé relatif de $A$ lorsque $A \setminus B$ est un ouver
 Soient $B \subset A \subset (E, \left|\left| \cdot \right|\right|)$, 
 $B$ est un ouvert relatif de $A$ $\Leftrightarrow$ $\exists \Omega$ ouvert de $E$ tel que : $\Omega \cap A = B$
 $B$ est un fermé relatif de $A$ $\Leftrightarrow$ toute suite d'élément $(b_{n})_{n \in \mathbb{N}}$ de $B$ convergeant vers $b \in A$ vérifie $b \in B$
+
+# II. Continuité et topologie
+## 1. Le cas général
+L'image directe par une fonction continue d'un ouvert n'est pas toujours ouverte. Par exemple, 
+$$I = ]0, 1[ \text{ est ouvert}$$
+et 
+$$f : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto 0
+\end{cases}\text{ est continue}$$
+mais, 
+$$f(I) = \{ 0\} \text{ n'est pas ouvert}$$
+C'est cependant pour les images réciproques : 
+
+#### Théorème
+Soient $(E, \left|\left| \cdot \right|\right|)$ et $(F, \left|\left| \cdot \right|\right|)$ deux evn et $A$ une partie non vide de $E$
+Enfin, soit $f:A \to F$, 
+les assertions suivantes sont équivalentes
+$$$$
