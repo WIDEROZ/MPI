@@ -5,3 +5,4 @@ $$\boxed{k =  nk_{0} \Leftrightarrow \lambda = \frac{\lambda_{0}}{n}}$$
 
 
 #### Exercice b.
+$$\varphi_{1}(x_{f}) = \varphi(x_{i}) + 2\pi\left( \frac{x_{f}-x_{i}-e}{\lambda_{0}} + \frac{1}{\lambda }e \right) = $$
