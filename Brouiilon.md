@@ -18,3 +18,7 @@ $$2^{-20}\leq 10^{-6}$$
 $$(-1)^{n-1} \times e^{ -x\ln(n) }$$
 
 $$(-1)^{n} \frac{\ln(n)}{n^{x}}$$
+APDCR $n_{0}$ $\uparrow$ décroit donc d'après libeniz $\sum$ CV et puis, 
+$$\left|\left| \sum_{k = 1}^{n}f'_{k}-\sum_{k = n+1}^{+ \infty}f'_{k} \right|\right| _{\infty, [a, + \infty[} = \left| R_{n}\right| \leq \frac{\ln(n+1)}{(n+1)^{x}}\leq \left|\left| x\mapsto \frac{\ln(n+1)}{(n+1)^{x}} \right|\right|_{\infty, [a, + \infty[} = \frac{\ln(n+1)}{(n+1)^{a}} \underset{n \to +\infty}{\longrightarrow} 0$$
+
+$$T(x)-Z(x) = \sum_{k = 1}^{+ \infty} \frac{(-1)^{n+1}-1}{n^{k}}$$
