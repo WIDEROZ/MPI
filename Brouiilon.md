@@ -24,4 +24,6 @@ $$\left|\left| \sum_{k = 1}^{n}f'_{k}-\sum_{k = n+1}^{+ \infty}f'_{k} \right|\ri
 $$T(x)-Z(x) = \sum_{n = 1}^{+ \infty} \frac{(-1)^{n+1}-1}{n^{x}} = -2\sum_{\underset{n \text{ pairs}}{n = 1}}^{+ \infty} \frac{1}{n^{x}}= -2 \sum_{k = 1}^{+ \infty} \frac{1}{(2k)^{x}} = -2^{1-x} Z(x)$$
 $$ \sum_{\underset{n \text{ impairs}}{n = 1}}^{+ \infty} \frac{2}{n^{x}} -2Z(x) = \sum_{k = 0}^{+ \infty} \frac{2}{(2k+1)^{x}}-2$$
 
-$$T(1+h) =(1-2^{-h}) Z(1+h) = \frac{\pi^{2}}{}$$
+$$T(1+h) =(1-2^{-h}) Z(1+h) = \frac{\pi^{2}}{12}$$
+$$2^{-h} = e^{ -h \ln(2)} = 1+h\ln(2)-\frac{h^{2}}{2}\ln^{2}(2)$$
+	 
