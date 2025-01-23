@@ -20,6 +20,8 @@ Ainsi,
 $$\Delta t' = $$
 
 
+
+
 ## Exercice 3
 ### 1.
 $$\phi \ll 40 m $$
