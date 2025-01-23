@@ -493,4 +493,24 @@ C'est cependant pour les images réciproques :
 Soient $(E, \left|\left| \cdot \right|\right|)$ et $(F, \left|\left| \cdot \right|\right|)$ deux evn et $A$ une partie non vide de $E$
 Enfin, soit $f:A \to F$, 
 les assertions suivantes sont équivalentes
-$$$$
+$$\begin{cases}
+f \text{ est continue sur } A \\
+\text{Pour tout ouvert }O \text{ de }(F, \left|\left| \cdot \right|\right| ) f^{-1}(O) \text{ est un ouvert relatif de }A \\
+\text{Pour tout fermé }\Gamma \text{ de }(F, \left|\left| \cdot \right|\right| ) f^{-1}(\Gamma) \text{ est un fermé relatif de }A 
+\end{cases}$$
+Démonstration : 
+Si $O \subset F$, 
+$$f^{-1}(O) = \{ x \in A | f(x) \in O \}$$
+Dans le cas ou $A = E$, et pour un fermé classique. 
+$2\Rightarrow 3$ : 
+Soit $\Gamma$ un fermé de $(F, \left|\left| \cdot \right|\right|)$ 
+Alors, $F \setminus \Gamma$ est un ouvert et d'après la deuxième assertion, $f^{-1}(F \setminus \Gamma)$ est un ouvert de $E$. Or, $f^{-1}(F \setminus \Gamma) = E \setminus f^{-1}(\Gamma)$
+Ainsi, $f^{-1}(\Gamma)$ est un fermé. 
+$3 \Rightarrow 2$ : La même idée
+$1\Rightarrow2$ :
+Soit $O$ un ouvert de $F$, 
+Soit $x_{0} \in f^{-1}(O)$, 
+Comme $f(x_{0})$ appartient à l'ouvert $O$, 
+$$\exists \varepsilon >0, B(f(x_{0}), \varepsilon) \subset O$$
+Or, $f$ étant continue en $x_{0}$, $\exists \alpha > 0$ tel que :
+$$\forall x \in E,  \left|\left| x-x_{0} \right|\right| \leq \alpha \Rightarrow \left|\left| f(x)-f(x_{0}) \right|\right| \leq \varepsilon$$
