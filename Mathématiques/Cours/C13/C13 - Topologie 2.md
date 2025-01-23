@@ -608,4 +608,14 @@ $$\exists K \in \mathbb{R}_{+}^{*}, \forall x \in E, \left|\left| f(x) \right|\r
 Donc, 
 $$\{ \left|\left| f(x) \right|\right| ; x \in B(0, 1) \}$$
 est un ensemble de réels non vide et majoré par $K$ dont il admet bien une borne supérieure, ie : 
-$$\left|\left| \left| f \right| \right|\right| \in  $$
+$$\left|\left| \left| f \right| \right|\right| \in \mathbb{R}_{+} $$
+C'est la plus petite constante vérifiant l'inégalité au dessus
+$\left|\left| \left| f\right| \right|\right|$ dépend à la fois du choix de la norme sur $E$ et sur $F$
+
+#### Exemple
+Pour $f$ une isométrie. 
+$$\left|\left| \left| f\right| \right|\right|  = \sup_{x \in \overline{B}(0, 1)} \left|\left| x \right|\right| = \sup [0, 1] = 1$$
+Pour $p$ un projecteur, 
+$$\left|\left| \left| p\right| \right|\right| =1$$
+$$\forall x \in \overline{B}(0, 1), \left|\left| p(x) \right|\right| \leq 1$$
+et donc, $\left|\left| \left| p\right| \right|\right|\leq 1$
