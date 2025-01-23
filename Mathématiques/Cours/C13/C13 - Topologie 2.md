@@ -561,3 +561,22 @@ f \text{ est Lipschitzienne}
 On note : $\mathcal{L}_{C}(E, F)$ les application linéaires continues sur $E$
 
 Démonstration : 
+$1 \Rightarrow2$ : Bon ...
+$2 \Rightarrow 3$ : 
+On pose : $\varepsilon =1$, il existe $\alpha > 0$ tel que :
+$$\forall x \in E, \left|\left| x \right|\right| \leq \alpha \Rightarrow \left|\left| f(x) \right|\right| < \varepsilon = 1$$
+Soit $y \in E\setminus \{ 0 \}$, alors en posant : 
+$$x=\frac{\alpha}{2} \frac{y}{\left|\left| y \right|\right| } \text{ est de norme : } \frac{\alpha}{2}$$
+Donc $\left|\left| f(x) \right|\right|< 1$ ie : 
+$$\left|\left| f\left(\frac{\alpha}{2\left|\left| y \right|\right| } y\right) \right|\right| < 1\text{ i.e. } \frac{\alpha}{2\left|\left| y \right|\right| }\left|\left| f(y)  \right|\right|< 1 $$
+Ainsi, 
+$$\left|\left| f(x) \right|\right| < \frac{2}{\alpha} \left|\left| x \right|\right| $$
+$3\Rightarrow 4$ : 
+$$\forall x, y \in E, \left|\left| f(x)-f(y) \right|\right| = \left|\left| f(x-y) \right|\right| \leq K\left|\left| x-y \right|\right| $$
+$4 \Rightarrow 1$ : Su $\square$
+
+#### Exercice
+$$\psi : \begin{cases}
+\mathcal{C}^{0}([0, 1],\mathbb{R}) \to \mathbb{R} \\
+f \mapsto f(0)
+\end{cases}$$
