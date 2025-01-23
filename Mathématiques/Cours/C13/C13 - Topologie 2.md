@@ -528,3 +528,36 @@ $$B(x_{0}, \alpha) \subset f^{-1}(B(f(x), \varepsilon))$$
 ie
 $$\forall x \in E, \left|\left| x-x_{0} \right|\right| < \alpha \Rightarrow \left|\left| f(x)-f(x_{0}) \right|\right| \leq \varepsilon$$
 $f$ est continue en $x_{0}$
+
+#### Exemple
+Soit $f \in \mathcal{C}^{0}(E)$, 
+$$\{ x \in E | f(x) = 0 \} = f^{-1}(\{ 0 \}) \text{ est un fermé de }E$$
+car $\{ 0 \}$ est un fermé de $E$
+de même pour :
+$$\{ x \in E | f(x) \geq 0 \} = f^{-1}(\mathbb{R}_{+})$$
+
+#### Exemple
+$$\{ M \in \mathcal{M}_{n}(\mathbb{R}) | \det(M) = 1 \} = f^{-1}(\{ 1 \})$$
+avec : 
+$$f : M \mapsto \det(M)$$
+c'est donc un fermé car $f$ est continue
+$$GL_{n}(\mathbb{R}) = \{ M \in \mathcal{M}_{n}(\mathbb{R}) | \det M \neq 0 \} = f^{-1}(\mathbb{R}^{*})$$
+pour $f = \det$ alors $GL_{n}(\mathbb{R})$ est un ouvert dense
+$$O_{n}(E) = \{ M \in \mathcal{M}_{n}(\mathbb{R}) | MM^{\top } = I_{n} \} = f^{-1}(\{ I_{n} \})$$
+$$f : M \mapsto MM^{\top}$$
+$O_{n}$ est fermé
+
+## 2. Le cas linéaire
+#### Théorème
+Soient $E, F$ deux $\mathbb{K}-evn$ et $f \in \mathcal{L}(E, F)$, 
+On a équivalence entre : 
+$$\begin{cases}
+f \in \mathcal{C}^{0}(E) \\
+f \text{ est continue en }0_{E} \\
+\exists K > 0, \forall x \in E, \left|\left| f(x) \right|\right| \leq K \left|\left| x \right|\right|  \\
+f \text{ est Lipschitzienne}
+\end{cases}$$
+
+On note : $\mathcal{L}_{C}(E, F)$ les application linéaires continues sur $E$
+
+Démonstration : 
