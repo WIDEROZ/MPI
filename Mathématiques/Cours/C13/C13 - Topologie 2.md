@@ -669,3 +669,13 @@ On pose : $x_{0} = \frac{a}{\left|\left| a \right|\right|}$,
 $$\left| \left|\left| \varphi \right|\right| \right| \geq \left| \varphi(x_{0}) \right| = \left< a, \frac{a}{\left|\left| a \right|\right| _{2}} \right> = \frac{1}{\left|\left| a \right|\right|_{2}} \left< a, a \right> = \left|\left| a \right|\right| ^{2}$$
 Ainsi, 
 $$\left| \left|\left| \varphi \right|\right| \right| = \left|\left| a \right|\right| _{2}$$
+
+#### Définition
+Soit $n \in \mathbb{N}^{*}$, $E_{n} = \mathcal{M}_{n,1}(\mathbb{R})$
+Si on munit $E_{n}$ d'une norme $\left|\left| \cdot \right|\right|$, on définit : 
+$$\forall M \in \mathcal{M}_{n}(\mathbb{R}), \left| \left|\left| M \right|\right| \right| = \left|\left| M \right|\right| _{op} = \left| \left|\left| L_{M} \right|\right| \right|$$
+où : 
+$$L_{M} : \begin{cases}
+E_{m} \to E_{m} \\
+X \mapsto MX
+\end{cases}$$
