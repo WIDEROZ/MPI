@@ -746,4 +746,14 @@ $$\forall f \in E, \left|\left| f \right|\right| _{\infty} \leq a \left|\left| f
 
 ##### 2.
 ###### a.
-$$\left|\left| u \right|\right| _{\infty} $$
+$$\left| u(f) \right|= \left| f(0)\right| \leq \left|\left| f \right|\right| _{\infty}$$
+
+###### b.
+$$F = u^{-1}(\{ 0 \})$$
+$F$ est donc fermé
+
+##### 3.
+###### a.
+$$\int_{0}^{1} \left|f_{n} (x)-1\right| \, dx = \int_{0}^{1/n} 1-nx \, dx = \frac{1}{n}- \frac{1}{2n} = \frac{1}{2n}$$
+
+##### b.
