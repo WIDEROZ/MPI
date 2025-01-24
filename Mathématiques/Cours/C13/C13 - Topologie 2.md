@@ -757,3 +757,9 @@ $F$ est donc fermé
 $$\int_{0}^{1} \left|f_{n} (x)-1\right| \, dx = \int_{0}^{1/n} 1-nx \, dx = \frac{1}{n}- \frac{1}{2n} = \frac{1}{2n}$$
 
 ##### b.
+$$\forall n \in \mathbb{N}, f_{n} \in F \text{ et } f_n \underset{n \to +\infty}{\longrightarrow} c$$
+Alors, $c \in \overline{F}$, 
+
+$c\not\in F$ car $c(0) \neq 0$, Donc $\overline{F} \neq F$
+Donc $F$ n'est pas fermé. 
+
