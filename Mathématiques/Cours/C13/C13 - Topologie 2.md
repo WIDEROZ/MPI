@@ -734,4 +734,16 @@ $$\forall P \in\mathcal{P}, \int_{0}^{1} P(t)f(t) \, dt = 0 $$
 D'après le théorème de Weierstrass, 
 $$\exists (P_{n})_{n \in \mathbb{N}} \in \mathcal{P}^{\mathbb{N}}, \left|\left| f-P_{n} \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
 alors, 
-$$\int_{0}^{1} f(t)^{2} \, dx $$
+$$\int_{0}^{1} f(t)^{2} \, dx  = \int_{0}^{1} f(t)^{2} \, dx  - \int_{0}^{1} f(t)P_{n}(t) \, dx $$
+
+
+#### CCINP 1
+##### 1.
+$t\mapsto t^{n}$ vérifie : 
+$$\left|\left| f_{n} \right|\right|_{\infty} = 1 \text{ et } \left|\left| f_{n} \right|\right| = \frac{1}{n+1}$$
+Donc il n'existe pas $a>0$ tel que :
+$$\forall f \in E, \left|\left| f \right|\right| _{\infty} \leq a \left|\left| f \right|\right| _{1}$$
+
+##### 2.
+###### a.
+$$\left|\left| u \right|\right| _{\infty} $$
