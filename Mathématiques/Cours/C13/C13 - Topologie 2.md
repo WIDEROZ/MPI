@@ -628,3 +628,5 @@ Si $f \in \mathcal{L}_{C}(E, F)$,
 $$\left|\left| \left| f\right| \right|\right|=\sup_{x \in \overline{B}(0, 1)}\left|\left| f(x) \right|\right| = \sup_{x \in E \setminus \{ 0 \}} \frac{\left|\left| f(x) \right|\right| }{\left|\left| x \right|\right| } $$
 Démonstration : 
 ça va tout seul
+
+##### 
