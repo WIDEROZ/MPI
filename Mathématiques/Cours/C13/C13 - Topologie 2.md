@@ -679,3 +679,22 @@ $$L_{M} : \begin{cases}
 E_{m} \to E_{m} \\
 X \mapsto MX
 \end{cases}$$
+
+#### Théorème
+ 
+$$\begin{cases}
+g \mapsto \left|\left| \left| g\right| \right|\right| \text{ est une norme sur } \mathcal{L}_{C}(E, F) \\
+\forall x \in E, \forall f \in \mathcal{L}(c)(E, F), \left|\left| f(x) \right|\right| \leq \left| \left|\left| f \right|\right| \right| \left|\left| x \right|\right|  \\
+\forall f, g \in \mathcal{L}_{C}(E), \left|\left| \left| f \circ g\right| \right|\right| \leq \left|\left| \left| f\right| \right|\right| \left|\left| \left| g\right| \right|\right| 
+\end{cases}$$
+Démonstration :
+Séparation : 
+Soit $f\in \mathcal{L}_{C}(E, F)$, tel que : $\left|\left| \left| f\right| \right|\right| = 0$ 
+$$\frac{\left|\left| f(x) \right|\right|}{\left|\left| x \right|\right| } \leq \sup_{y \in E} \frac{\left|\left| f(y) \right|\right| }{\left|\left| y \right|\right| } = 0$$
+$f = 0$
+Homogénéité : 
+par homogénéité du sup
+
+Inégalité triangulaire : 
+....
+
