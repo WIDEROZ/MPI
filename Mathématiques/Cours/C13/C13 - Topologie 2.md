@@ -666,4 +666,6 @@ ___
 Soit $x \in E$ tel que : $\left|\left| x \right|\right|_{2}\leq 1$,
 $$\left| \varphi(x)\right| = \left| \left< x, a \right> \right| \leq \left|\left| x \right|\right| _{2}\left|\left| a \right|\right| _{2} \leq \left|\left| a \right|\right| _{2}$$
 On pose : $x_{0} = \frac{a}{\left|\left| a \right|\right|}$, 
-$$\int  \, dx $$
+$$\left| \left|\left| \varphi \right|\right| \right| \geq \left| \varphi(x_{0}) \right| = \left< a, \frac{a}{\left|\left| a \right|\right| _{2}} \right> = \frac{1}{\left|\left| a \right|\right|_{2}} \left< a, a \right> = \left|\left| a \right|\right| ^{2}$$
+Ainsi, 
+$$\left| \left|\left| \varphi \right|\right| \right| = \left|\left| a \right|\right| _{2}$$
