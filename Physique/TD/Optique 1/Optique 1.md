@@ -25,4 +25,4 @@ $$(SM)_{2} = (SA) + (AB) + (BC) + (CM)$$
 
 $$\delta = (SM)_{2} - (SM)_{1} = (AB) + (BC) + (CM) - (AH) - (HM)$$
 On considère la situation fictive dans laquelle la source serait en $M$ dans ce cas le th de malus-dupin serait applicable alors $H$ et $C$ sont sur la même surface d'onde donc : 
-$$\delta = (AB) + (BC) - (AH) = $$
+$$\delta = (AB) + (BC) - (AH) = 2\frac{ne}{\cos(r)} -$$
