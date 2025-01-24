@@ -643,4 +643,27 @@ Alors,
 $$\left| \varphi(x)\right| \leq \left|\left| a \right|\right| _{\infty}$$
 Donc, 
 $$\left|\left| \left| \varphi\right| \right|\right| \leq \left|\left| a \right|\right| _{\infty}$$
-Soit $i_{0} \in [\![1, n]\!]$
+Soit $i_{0} \in [\![1, n]\!]$, $\left| a_{i_{0}}\right| = \left|\left| a \right|\right|_{\infty}$ et $x_{0} =(0, \dots,0, 1,  0, \dots, 0)$
+Alors, $\left|\left| x_{0} \right|\right| _{1}=1$
+$$\left|\left| \left| \varphi\right| \right|\right| \geq \left| \varphi(x_{0})\right|= \left| a_{i_{0}}\right| = \left|\left| a \right|\right| _{\infty}$$
+ie
+$$\left|\left| \left| \varphi\right| \right|\right| = \left|\left| a \right|\right| _{\infty}$$
+___
+Soit $x \in E$, tq $\left|\left| x \right|\right|_{\infty} \leq 1$ 
+alors, 
+$$\left| \varphi(x)\right|= \left| \sum_{i = 1}^{n} a_{i}x_{i}\right| \leq \sum_{i= 1}^{n} \left| a_{i}\right|\left| x_{i}\right|\leq \left|\left| a \right|\right| _{1}$$
+puis, soit $x_{0}=  (\varepsilon_{0}, \dots, \varepsilon_{n})$ ou : 
+$$\forall k \in [\![1,n]\!], \varepsilon_{k} = \begin{cases}
+1 \text{ si }\alpha_{k} \geq 0 \\
+-1 \text{ si  }\alpha_{k} <0
+\end{cases}$$
+$$\varepsilon_{k} \alpha_{k} = \left| \alpha_{k}\right|$$
+alors, 
+$$\left| \left|\left| \varphi \right|\right| \right|\geq \left| \varphi(x_{0})\right|= \sum_{k =1}^{n}\left| a_{k}\right|$$
+Ainsi, 
+$$\left|\left| \left| \varphi\right| \right|\right| = \left|\left| a \right|\right| _{1}$$
+___
+Soit $x \in E$ tel que : $\left|\left| x \right|\right|_{2}\leq 1$,
+$$\left| \varphi(x)\right| = \left| \left< x, a \right> \right| \leq \left|\left| x \right|\right| _{2}\left|\left| a \right|\right| _{2} \leq \left|\left| a \right|\right| _{2}$$
+On pose : $x_{0} = \frac{a}{\left|\left| a \right|\right|}$, 
+$$\int  \, dx $$
