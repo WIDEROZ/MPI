@@ -629,4 +629,18 @@ $$\left|\left| \left| f\right| \right|\right|=\sup_{x \in \overline{B}(0, 1)}\le
 Démonstration : 
 ça va tout seul
 
-##### 
+#### Exercice CCINP
+Soit $E = \mathbb{R}^{n}$, $(a_{1}, \dots, a_{n}) \in E$, et : 
+$$\varphi : \begin{cases}
+E \to (\mathbb{R}, \left| \cdot\right|) \\
+x \mapsto \sum_{i =1}^{n} a_{i}x_{i} = \left< x, a \right> 
+\end{cases}$$
+Calculer : $\left|\left| \left| \varphi\right| \right|\right|$ avec $\left|\left| \cdot \right|\right|_{1}$, $\left|\left| \cdot \right|\right|_{\infty}$, $\left|\left| \cdot \right|\right|_2$  sur $\mathbb{R}^{n}$
+Soit $x \in E$ tel que $\left|\left| x \right|\right|_{1}\leq 1$
+$$\left| \varphi(x)\right|\leq \sum_{i = 1}^{n} \left| a_{i}\right| \left| x_{i}\right|\leq \sum_{i = 1}^{n}K \left| x_{i}\right| \text{ ou }\max_{1 \leq i \leq n} \left| a_{i}\right|=\left|\left| a \right|\right| _{\infty}$$
+
+Alors, 
+$$\left| \varphi(x)\right| \leq \left|\left| a \right|\right| _{\infty}$$
+Donc, 
+$$\left|\left| \left| \varphi\right| \right|\right| \leq \left|\left| a \right|\right| _{\infty}$$
+Soit $i_{0} \in [\![1, n]\!]$
