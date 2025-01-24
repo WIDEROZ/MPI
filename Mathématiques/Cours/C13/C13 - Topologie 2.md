@@ -717,9 +717,21 @@ $$\mathcal{P} \subset E \text{ l'espace des fonctions polynomiales sur }[a, b]$$
 $$\forall f \in E, \exists (P_{n})_{n \in \mathbb{N}} \in \mathcal{P}^{\mathbb{N}}, \left|\left| P_{n}-f \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
 i.e.
 $$\mathcal{P} \text{ est dense dans : } (E, \left|\left| \cdot \right|\right| _{\infty})$$
-
+i.e.
+$$\text{Dans : }(\mathcal{B}([a, b], \mathbb{R}), \left|\left| \cdot \right|\right| _{\infty}), \overline{\mathcal{P}} = E$$
 
 Démonstration : 
 Voir le DM 11
 La démonstration est hors programme
 
+#### Exercice
+Soit
+$$f \in \mathcal{C}^{0}([0, 1], \mathbb{R})=E, \forall n \in \mathbb{N}, \int_{0}^{1} f(t)t^{n} \, dt = 0$$
+Montrer que : $f=0$, 
+par linéarité il suffit de montrer que : 
+$$\forall P \in\mathcal{P}, \int_{0}^{1} P(t)f(t) \, dt = 0 $$
+
+D'après le théorème de Weierstrass, 
+$$\exists (P_{n})_{n \in \mathbb{N}} \in \mathcal{P}^{\mathbb{N}}, \left|\left| f-P_{n} \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
+alors, 
+$$\int_{0}^{1} f(t)^{2} \, dx $$
