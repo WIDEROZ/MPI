@@ -698,3 +698,28 @@ par homogénéité du sup
 Inégalité triangulaire : 
 ....
 
+___
+...
+___
+Soit $x \in E$, si $\left|\left| x \right|\right|\leq 1$, 
+$$\left|\left| (f \circ g)(x) \right|\right| \leq \left|\left| \left| f\right|\right|\right| \left|\left| g(x) \right|\right| \leq \left|\left| \left| f\right| \right|\right| \left|\left| \left| g\right| \right|\right| \left|\left| x \right|\right| \leq \left|\left| \left| f\right| \right|\right| \left|\left| \left| g\right| \right|\right|   $$
+D'après le 2.
+Ainsi, 
+$$\left|\left| \left| f \circ g \right| \right|\right| \leq \left|\left| \left| f\right| \right|\right| \left|\left| \left| g\right| \right|\right| $$
+
+# III. Théorèmes de densité dans des espaces de fonctions
+## 1. Les fonctions polynomiales
+Soit $[a, b]\subset \mathbb{R}$, $E = \mathcal{C}^{0}([a, b], \mathbb{R})$,
+On note : 
+$$\mathcal{P} \subset E \text{ l'espace des fonctions polynomiales sur }[a, b]$$
+
+#### Théorème
+$$\forall f \in E, \exists (P_{n})_{n \in \mathbb{N}} \in \mathcal{P}^{\mathbb{N}}, \left|\left| P_{n}-f \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
+i.e.
+$$\mathcal{P} \text{ est dense dans : } (E, \left|\left| \cdot \right|\right| _{\infty})$$
+
+
+Démonstration : 
+Voir le DM 11
+La démonstration est hors programme
+
