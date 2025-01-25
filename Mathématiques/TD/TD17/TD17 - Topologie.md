@@ -16,3 +16,7 @@ $$\forall n \in \mathbb{N}, f(e^{ n }) = f\left( \prod_{k = 1}^{n} e \right) = \
 Ainsi, $a = f(e)$ existe bien
 
 #### d.
+$$\forall (p, n) \in \mathbb{Z} \times \mathbb{N}^{*},f(e^{ p }) = f\left( \prod_{k = 1}^{n} e^{ p/n } \right)= \sum_{k =  1}^{n} f(e^{ p/n }) = pf(e^{ 1/n })$$
+
+#### e.
+	
