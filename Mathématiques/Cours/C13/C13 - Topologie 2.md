@@ -793,4 +793,18 @@ $$\forall k \in \mathbb{N}, f_{k} \in \overline{\mathcal{E}}, Vect(f_{k}, k \in 
 Ainsi, l'espace $\mathcal{P}$ des fonctions polynomiales est inclus dans $\overline{\mathcal{E}}$
 or :
 $$\mathcal{P} \subset \overline{\mathcal{E}} \Rightarrow \overline{\mathcal{P}} \subset \overline{\overline{\mathcal{E}}} \Rightarrow \overline{\mathcal{P}} \subset \overline{\mathcal{E}}$$
-et le théorème de weier
+et le théorème de Weierstrass nous dit que : $\overline{\mathcal{P}} = \mathcal{C}^{0}([0, 1], \mathbb{K})$ Donc, 
+$$\mathcal{C}^{0} \subset \overline{\mathcal{E}}$$
+il reste a montrer que toute fonction continue par morceaux est dans $\overline{\mathcal{E}}$.
+
+#### Application : Lemme de Riemann-Lesbesgue
+Soit $f \in \mathcal{C}_{m}^{0}([0, 2\pi], \mathbb{C})$, 
+$$s_{n}(f) = \int_{0}^{2\pi} f(t) \sin(nt) dt  \underset{n \to +\infty}{\longrightarrow} 0$$
+Cas ou $f_{0} = \mathbb{1}_{[a, b]}$ : 
+$$\left| s_{n}(f_{0})\right| = \left| \int_{a}^{b} \sin(nx)\, dx \right| = \left| \frac{\cos(na)-\cos(nb)}{2}\right| \leq \frac{2}{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+
+Cas ou $f \in \mathcal{E}$, 
+Il existe alors, $p \in \mathbb{N}^{*}$ tel que : $f_{1}, \dots, f_{p}  \in \mathcal{E}$ fonctions simples et $\alpha_{1}, \dots, \alpha_{p}$ tels que : 
+$$f = \sum_{k = 1}^{p} \alpha_{k} f_{k}$$
+Donc, 
+$$c_{n}(f) = $$
