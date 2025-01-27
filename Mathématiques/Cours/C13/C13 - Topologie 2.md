@@ -782,3 +782,15 @@ $$\forall n \in \mathbb{N}^{*}, g_{n} : [0, 1] \to \mathbb{R}$$
 où : 
 $$\forall x \in [0, 1], \exists j \in [\![0, n]\!], \frac{j}{n} \leq x < \frac{j+1}{n} \text{ alors, } g_{n}(x) = \left( \frac{j}{n} \right)^{k}$$
 puis $g_{n} \in \mathcal{E}$ et $g_{n}(x) = f_{k}\left( \frac{j}{n} \right)$
+Donc, 
+$$0 \leq f_{k}(x)-g_{n}(x) = f_{k}(x) - f_{k}\left( \frac{j}{n} \right) \leq \left( \frac{j+1}{n} \right)^{k} - \left( \frac{j}{k} \right)^{k}$$
+$$= \frac{1}{n} \sum_{i = 0}^{k-1} \left( \frac{j+1}{n} \right)^{i} \left( \frac{j}{n} \right)^{k-1-i} \leq \frac{k}{n}$$
+Alors, 
+$$\left|\left| f_{k}- g_{n} \right|\right| \leq \frac{k}{n}$$
+et donc $(f_{k})$ est limite uniforme d'une suite de fonctions de $\mathcal{E}$ ie $f_{k} \in \overline{\mathcal{E}}$
+Or $\mathcal{E} \underset{sev}{\subset} E$, alors $\overline{\mathcal{E}} \underset{sev}{\subset} E$, et comme : 
+$$\forall k \in \mathbb{N}, f_{k} \in \overline{\mathcal{E}}, Vect(f_{k}, k \in \mathbb{N}) \subset \overline{\mathcal{E}}$$
+Ainsi, l'espace $\mathcal{P}$ des fonctions polynomiales est inclus dans $\overline{\mathcal{E}}$
+or :
+$$\mathcal{P} \subset \overline{\mathcal{E}} \Rightarrow \overline{\mathcal{P}} \subset \overline{\overline{\mathcal{E}}} \Rightarrow \overline{\mathcal{P}} \subset \overline{\mathcal{E}}$$
+et le théorème de weier
