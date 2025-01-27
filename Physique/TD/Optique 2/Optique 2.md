@@ -54,13 +54,3 @@ le long de l'axe $Ox$
 
 #### b.
 On a : 
-$$S_{1}M = \begin{pmatrix}
-\rho \\
-y \\
-\left( D-\frac{a}{2} \right)
-\end{pmatrix} \text{ et }S_{2}M = \begin{pmatrix}
-\rho \\
-y \\
-\left( D+\frac{a}{2} \right)
-\end{pmatrix}$$
-$$\delta = n((S_{1}M) - (S_{1}M))$$
