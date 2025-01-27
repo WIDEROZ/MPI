@@ -43,3 +43,16 @@ $$\Omega = \begin{cases}
 #### Exemple
 $$\sum_{n \in \mathbb{N}} z^{n}$$
 $$R = 1 \text{ car : }\forall n \in \mathbb{R}_{+}, (1 r^{n})_{n \in \mathbb{N}} \text{ est borné }\Leftrightarrow r\leq 1$$
+$$\sum_{n = 0}^{N} \alpha_{n} z^{n} \text{ ie } \exists N \in \mathbb{N}, \forall n > N, \alpha_{n} = 0$$
+ici $R = + \infty$
+$$\sum_{n \in \mathbb{N}} \frac{z^{n}}{n!}$$
+$$\Omega = \mathbb{R}_{+} \text{ ie }R = +\infty$$
+$$\sum_{n \in \mathbb{N}} n! z^{n}$$
+$$\Omega = \{ 0 \} \text{ ie } R = 0$$
+#### Exercice
+Montrer que : 
+$$\begin{array}{rl}
+R &= \sup \{ r \geq 0 | (\alpha_{n}r^{n})_{n \in \mathbb{N}} \text{ est bornée } \}  \\
+&= \sup\{ r \geq 0 | \alpha_{n}r^{n} \underset{n \to +\infty}{\longrightarrow} 0 \}  \\
+&= \sup\left\{  r \geq 0 | \sum_{n \in \mathbb{N}} \alpha_{n}r^{n}\text{ converge}  \right\}
+\end{array}$$

@@ -3,6 +3,9 @@ $$GL_{3}(\mathbb{R}) \text{ n'est pas fermé car : } \forall n \in \mathbb{N}, A
 il n'est pas borné car : 
 $$\left|\left| B_{n} \right|\right| = 2^{n} \left|\left| I_{3} \right|\right| \underset{n \to +\infty}{\longrightarrow} + \infty $$
 
+## Exercice 5
+
+
 
 ## Exercice 6
 ####  a.
@@ -19,4 +22,5 @@ Ainsi, $a = f(e)$ existe bien
 $$\forall (p, n) \in \mathbb{Z} \times \mathbb{N}^{*},f(e^{ p }) = f\left( \prod_{k = 1}^{n} e^{ p/n } \right)= \sum_{k =  1}^{n} f(e^{ p/n }) = pf(e^{ 1/n })$$
 
 #### e.
-	
+
+
