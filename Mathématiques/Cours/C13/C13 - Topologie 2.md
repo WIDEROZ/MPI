@@ -826,4 +826,8 @@ ie :
 $$s_{n}(f) \underset{n \to +\infty}{\longrightarrow} 0$$
 
 
-$$\frac{\left| \sum_{k = 1}^{n} a_{k}x_{k}\right|}{\sqrt{\sum_{k = 1}^{n} x_{k}^{2}}} \leq \frac{ \sum_{k = 1}^{n}\left| a_{k}x_{k}\right|}{\sqrt{\sum_{k = 1}^{n} x_{k}^{2}}} \leq $$
+
+
+$$\forall x, y \in A, \forall t \in [0, 1], \left|\left| tx + (1-t)y \right|\right| \leq t \left|\left| x \right|\right| + (1-t) \left|\left| y \right|\right| $$
+
+$$\forall a, b \in \overline{A}, \left|\left| ta + (1-t)b \right|\right| $$
