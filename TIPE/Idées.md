@@ -1,4 +1,2 @@
-#### Grille = graphe
-Représenter la grille du jeu de la vie comme un graphe avec des règles de déplacement.
-
-#### Jeu de la vie -> Graphe
+#### Représentation d'un signal créneau
+On met des 
