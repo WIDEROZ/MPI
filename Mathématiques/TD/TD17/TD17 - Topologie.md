@@ -27,8 +27,10 @@ par le $a.$
 $$\forall r \in \mathbb{Q}, \exists p, q \in \mathbb{Z}^{*}, r = \frac{p}{q} $$
 
 #### d.
-Comme $\mathbb{Q}$ est dense dans $\mathbb{R}$, il existe : $(r_{i})_{i \in \mathbb{N}} \in \mathbb{Q}^{\mathbb{N}}$ telle qu'elle tende vers un réel
-
+Comme $\mathbb{Q}$ est dense dans $\mathbb{R}$, il existe : $(r_{i})_{i \in \mathbb{N}} \in \mathbb{Q}^{\mathbb{N}}$ telle qu'elle tende vers un réel $\alpha$
+$$f(r_{n}x)\underset{n \to +\infty}{\longrightarrow} f(rx) = rf(x)$$
+et 
+$$f(r_{n}x) = r_{n}f(x) \underset{n \to +\infty}{\longrightarrow} \alpha f(x)$$
 
 ## Exercice 6
 ####  a.
@@ -47,3 +49,11 @@ $$\forall (p, n) \in \mathbb{Z} \times \mathbb{N}^{*},f(e^{ p }) = f\left( \prod
 #### e.
 
 
+
+## Exercice 8
+### a.
+#### i.
+$$\forall A \subset \mathbb{R}, \overline{A} \setminus \overset{\space \space o}{A} = A \setminus A = \varnothing$$
+
+#### ii.
+$$\Omega$$
