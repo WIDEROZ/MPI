@@ -10,3 +10,5 @@ Et éventuellement :
 $$S = \sum_{k = 0}^{+ \infty} A(\omega) \sin(\omega_{k} t)$$
 
 
+https://conwaylife.com/wiki/Glider_duplicator
+pour boucles
