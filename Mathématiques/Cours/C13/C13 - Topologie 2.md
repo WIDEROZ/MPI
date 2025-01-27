@@ -824,3 +824,5 @@ Ainsi,
 $$\left| s_{n}(f)\right| \leq 2\varepsilon$$
 ie : 
 $$s_{n}(f) \underset{n \to +\infty}{\longrightarrow} 0$$
+
+
