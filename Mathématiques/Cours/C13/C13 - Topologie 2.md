@@ -826,11 +826,4 @@ ie :
 $$s_{n}(f) \underset{n \to +\infty}{\longrightarrow} 0$$
 
 
-
-
-$$\left|\left| \left| u\right| \right|\right| \leq 1 \text{ car } \frac{\left|\left| u(f) \right|\right|}{\left|\left| f \right|\right| }\leq 1 $$
-$$u(f_{n}) = \int_{0}^{x} ne^{ -nt } \, dt = 1-e^{ -nx }$$
-$$\left|\left| u(f_{n}) \right|\right| = \int_{0}^{1} (1-e^{ -nx }) \, dx = 1+ \frac{1}{n}\left(  e^{ -n }-1 \right) $$
-$$\left|\left| f_{n} \right|\right|_{1} = \int_{0}^{1} ne^{ -nt } \, dt = 1-e^{ -n }$$
-
-$$\frac{1+ \frac{1}{n}(e^{ -n }-1)}{1-e^{ -n }} = \frac{1}{1-e^{ -n }} - \frac{1}{n} $$
+$$\frac{\left| \sum_{k = 1}^{n} a_{k}x_{k}\right|}{\sqrt{\sum_{k = 1}^{n} x_{k}^{2}}} \leq \frac{ \sum_{k = 1}^{n}\left| a_{k}x_{k}\right|}{\sqrt{\sum_{k = 1}^{n} x_{k}^{2}}} \leq $$
