@@ -807,4 +807,17 @@ Cas ou $f \in \mathcal{E}$,
 Il existe alors, $p \in \mathbb{N}^{*}$ tel que : $f_{1}, \dots, f_{p}  \in \mathcal{E}$ fonctions simples et $\alpha_{1}, \dots, \alpha_{p}$ tels que : 
 $$f = \sum_{k = 1}^{p} \alpha_{k} f_{k}$$
 Donc, 
-$$c_{n}(f) = $$
+$$s_{n}(f) = \sum_{k = 1}^{p} \alpha_{k} s_{n}(f_{k}) \underset{n \to +\infty}{\longrightarrow} 0
+$$
+par la démonstration du cas 1
+enfin si $f$ est continue par morceaux, 
+$$\forall \varepsilon >0 , \exists \varphi \in E, \left|\left| f-\varphi \right|\right| _{\infty} \leq \frac{\varepsilon}{2\pi}$$
+$$\forall n \in \mathbb{N}^{*}, s_{n}(f) = s_{n}(f-\varphi)  + s_{n}(\varphi)$$
+Or, 
+$$\left| s_{n}(f-\varphi)\right| \leq \left| \int_{0}^{2\pi} \left| f(t)-\varphi(t)\right| \left| \sin(nt)\right| \, dt \right| \leq 2\pi \left|\left| f- \varphi \right|\right| _{\infty} \leq \varepsilon$$
+De plu, $\varphi \in \mathcal{E}$, donc on sait qu'il existe $n_{0} \in \mathbb{N}$, 
+$$\forall n \in \mathbb{N}, n \geq n_{0} \Rightarrow \left| s_{n}(\varphi)\right| \leq \varepsilon$$
+Ainsi, 
+$$\left| s_{n}(f)\right| \leq 2\varepsilon$$
+ie : 
+$$s_{n}(f) \underset{n \to +\infty}{\longrightarrow} 0$$
