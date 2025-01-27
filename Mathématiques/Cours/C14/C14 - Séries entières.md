@@ -32,3 +32,14 @@ $$\Omega = \{ z \in \mathbb{R}_{+}^{*} | (\alpha_{n}r^{n})_{n \in \mathbb{N}} \t
 #### Définition
 On appelle rayon de convergence de la série entière : $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$ : 
 $$R = \sup \Omega \in \mathbb{R}_{+} \cup + \infty$$
+
+#### Remarque
+$$\Omega = \begin{cases}
+[0, R] \\
+[0, R[ \\
+[0, + \infty[
+\end{cases}$$
+
+#### Exemple
+$$\sum_{n \in \mathbb{N}} z^{n}$$
+$$R = 1 \text{ car : }\forall n \in \mathbb{R}_{+}, (1 r^{n})_{n \in \mathbb{N}} \text{ est borné }\Leftrightarrow r\leq 1$$
