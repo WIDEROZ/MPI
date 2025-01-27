@@ -4,8 +4,13 @@ il n'est pas borné car :
 $$\left|\left| B_{n} \right|\right| = 2^{n} \left|\left| I_{3} \right|\right| \underset{n \to +\infty}{\longrightarrow} + \infty $$
 
 ## Exercice 5
-
-
+#### a.
+$$\forall x \in E, \frac{\left|\left| x \right|\right|}{2^{-n}} \leq 1 \Rightarrow \left|\left| f\left( 2^{n}x \right) \right|\right| = \left|\left| f\left( 2^{n} x \right) \right|\right|  \leq M$$
+Initialisation : Marche bien
+Hérédité : 
+Soit $n \in \mathbb{N}$ tel que : $\left|\left| f(x) \right|\right| \leq M{2}^{-n}$
+Alors, 
+$$\left|\left| f(2^{n+1}x) \right|\right| \leq M \Rightarrow \left|\left| f(2^{n}x + 2^{n} x) \right|\right| \leq \left|\left| f(2^{n}x) + f(2^{n}x) \right|\right| $$
 
 ## Exercice 6
 ####  a.
