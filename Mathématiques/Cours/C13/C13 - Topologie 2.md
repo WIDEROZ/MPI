@@ -576,6 +576,8 @@ $3\Rightarrow 4$ :
 $$\forall x, y \in E, \left|\left| f(x)-f(y) \right|\right| = \left|\left| f(x-y) \right|\right| \leq K\left|\left| x-y \right|\right| $$
 $4 \Rightarrow 1$ : Su $\square$
 
+
+
 #### Exercice
 $$\psi : \begin{cases}
 \mathcal{C}^{0}([0, 1],\mathbb{R}) \to \mathbb{R} \\
