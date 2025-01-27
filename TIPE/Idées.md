@@ -8,3 +8,4 @@ Et éventuellement :
 - Déphasage
 
 
+$$S = S_{0}\sum_{n = 1}^{+ \infty} \cos(\omega_{n}t - k_{n}x)$$
