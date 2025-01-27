@@ -10,7 +10,17 @@ Initialisation : Marche bien
 Hérédité : 
 Soit $n \in \mathbb{N}$ tel que : $\left|\left| f(x) \right|\right| \leq M{2}^{-n}$
 Alors, 
-$$\left|\left| f(2^{n+1}x) \right|\right| \leq M \Rightarrow \left|\left| f(2^{n}x + 2^{n} x) \right|\right| \leq \left|\left| f(2^{n}x) + f(2^{n}x) \right|\right| $$
+$$\left|\left| f(2^{n+1}x) \right|\right| \leq M \Rightarrow \left|\left| f(2^{n}x + 2^{n} x) \right|\right| \leq \left|\left| f(2^{n}x)  \right|\right|+ \left|\left|   f(2^{n}x) \right|\right|\leq 2^{-n}M + 2^{-n}M = 2^{-(n+1)}M $$
+Enfin ça marche bien :
+
+#### b.
+Soit $n \in \mathbb{N}$, 
+Soit $\varepsilon>0$, alors, $2^{-n} \leq \frac{\varepsilon}{M}$ 
+On pose : $\alpha = 2^{-n}$, 
+Alors, 
+$$\forall x \in E, \left|\left| x \right|\right| \leq 2^{-n} \Rightarrow \left|\left| f(x) \right|\right| \leq \varepsilon $$
+par le $a.$
+
 
 ## Exercice 6
 ####  a.
