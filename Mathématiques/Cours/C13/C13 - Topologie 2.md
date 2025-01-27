@@ -763,3 +763,22 @@ Alors, $c \in \overline{F}$,
 $c\not\in F$ car $c(0) \neq 0$, Donc $\overline{F} \neq F$
 Donc $F$ n'est pas fermé. 
 
+
+## 2. Dans $(E = \mathcal{C}_{m}^{0}([a, b]; \mathbb{K}), \left|\left| \cdot \right|\right|_{\infty})$
+#### Théorème
+$$\mathcal{E}([a, b], \mathbb{K}) \text{ est dense dans }(\mathcal{C}_{m}^{0}([a, b], \mathbb{K}), \left|\left| \cdot \right|\right| _{\infty})$$
+$\mathcal{E}([a, b], \mathbb{K})$ l'ensemble des fonctions en escalier.
+
+Démonstration : 
+Dans le cas ou $[a, b] = [0, 1]$ ,
+On note : $\mathcal{E} = \mathcal{E}([0, 1], \mathbb{K})$, 
+Soit $k \in \mathbb{N}$ et
+$$f_{k} : \begin{cases}
+[0,1] \to \mathbb{R} \\
+x \mapsto x^{k}
+\end{cases}$$
+On note : 
+$$\forall n \in \mathbb{N}^{*}, g_{n} : [0, 1] \to \mathbb{R}$$
+où : 
+$$\forall x \in [0, 1], \exists j \in [\![0, n]\!], \frac{j}{n} \leq x < \frac{j+1}{n} \text{ alors, } g_{n}(x) = \left( \frac{j}{n} \right)^{k}$$
+puis $g_{n} \in \mathcal{E}$ et $g_{n}(x) = f_{k}\left( \frac{j}{n} \right)$
