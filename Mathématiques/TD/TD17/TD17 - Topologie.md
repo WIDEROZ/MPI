@@ -14,12 +14,20 @@ $$\left|\left| f(2^{n+1}x) \right|\right| \leq M \Rightarrow \left|\left| f(2^{n
 Enfin ça marche bien :
 
 #### b.
+$f$ est continue en $0_{E}$ ssi $f$ est continue
+or $f$ est bien continue en 0
 Soit $n \in \mathbb{N}$, 
 Soit $\varepsilon>0$, alors, $2^{-n} \leq \frac{\varepsilon}{M}$ 
 On pose : $\alpha = 2^{-n}$, 
 Alors, 
 $$\forall x \in E, \left|\left| x \right|\right| \leq 2^{-n} \Rightarrow \left|\left| f(x) \right|\right| \leq \varepsilon $$
 par le $a.$
+
+#### c.
+$$\forall r \in \mathbb{Q}, \exists p, q \in \mathbb{Z}^{*}, r = \frac{p}{q} $$
+
+#### d.
+Comme $\mathbb{Q}$ est dense dans $\mathbb{R}$, il existe : $(r_{i})_{i \in \mathbb{N}} \in \mathbb{Q}^{\mathbb{N}}$ telle qu'elle tende vers un réel
 
 
 ## Exercice 6

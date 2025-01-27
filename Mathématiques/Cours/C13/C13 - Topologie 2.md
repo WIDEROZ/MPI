@@ -410,6 +410,7 @@ Soit $A \subset E$, on appelle frontière de $A$ l'ensemble $Fr(A)$ des points a
 $$Fr(A) = \overline{A} \setminus \overset{\space \space o}{A} = \overline{A} \cap \overline{E \setminus A}$$
 
 ## 3. Densité
+#### Définition
 Soient $A \subset B$, deux parties de $(E, \left|\left| \cdot \right|\right|)$ On dit que $A$ est dense dans $B$ lorsque : 
 $$B \subset \overline{A}$$
 ie
@@ -549,7 +550,7 @@ $O_{n}$ est fermé
 
 ## 2. Le cas linéaire
 #### Théorème
-Soient $E, F$ deux $\mathbb{K}-evn$ et $f \in \mathcal{L}(E, F)$, 
+Soient $E, F$ deux $\mathbb{K}$-evn et $f \in \mathcal{L}(E, F)$, 
 On a équivalence entre : 
 $$\begin{cases}
 f \in \mathcal{C}^{0}(E) \\
