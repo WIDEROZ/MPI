@@ -78,6 +78,21 @@ $$\Omega$$
 $$T :f \in E \mapsto fg \in E \text{ ou } g \in E$$
 $T$ est bien continue par produit de fonctions continues
 
-$$\left|\left| \left| T\right| \right|\right| $$
 $$\left|\left| T(f) \right|\right| _{1} = \int _{0}^{1} \left| f(t)g(t)\right|dt \leq \left|\left| g \right|\right| _{\infty} \int _{0}^{1} \left| f(t)\right| \, dt  = \left|\left| g \right|\right| _{\infty} \left|\left| f \right|\right| _{1}$$
-$$\left|\left| \left| T\right| \right|\right| = \left|\left| g \right|\right| _{\infty}$$
+$$\left|\left| \left| T\right| \right|\right| \leq \left|\left| g \right|\right| _{\infty}$$
+
+On pose : $f = x\mapsto 1$, 
+$$\left|\left| \left| T\right| \right|\right| \geq \left|\left| g \right|\right| _{\infty}$$
+$$\left|\left| \left| T \right| \right|\right| \geq \frac{\left|\left| g^{2} \right|\right|_{1} }{}$$
+
+$$f(t) = \frac{g(t)}{\left|\left| g \right|\right| _{\infty}}$$
+
+
+
+#### b.
+La dérivation est linéaire
+$$\left|\left| \left| T\right| \right|\right| $$
+
+$$P = \sum_{n = 0}^{+ \infty } a_{n} X^{n} \text{ et } P' = \sum_{n = 0}^{+ \infty }  $$
+
+$$\left|\left| P' \right|\right|_{1}$$
