@@ -71,3 +71,5 @@ $$\forall x \in E, d_{A}(x) = \inf_{a \in A}\left|\left| x-a \right|\right| = 0 
 $x \in A$ c'est terminé, 
 Si $x \not\in A$, 
 Soit $(x_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}$, tel que $x_{n} \underset{n \to +\infty}{\longrightarrow}x$
+
+$$\forall x \in E, \forall a \in $$
