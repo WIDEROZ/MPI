@@ -73,4 +73,5 @@ $$\left|\left| u(f) \right|\right| _{1} \leq K\left|\left| f \right|\right| _{1}
 
 $$\left|\left| u(f)\right|\right| _{1} = \int_{0}^{1} \left| \int_{0}^{x} \left| f(t)\right| \, dt\right|  \, dx \leq \int_{0}^{1} \left| f(t)\right| \, dt = \left|\left| f \right|\right| _{1} $$
 
-$$\left|\left| a \right|\right| $$
+$$\left|\left| u(f) \right|\right| \geq \left|\left| f \right|\right| _{1}$$
+
