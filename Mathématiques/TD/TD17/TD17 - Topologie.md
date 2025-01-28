@@ -83,7 +83,7 @@ $$\left|\left| \left| T\right| \right|\right| \leq \left|\left| g \right|\right|
 
 On pose : $f = x\mapsto 1$, 
 $$\left|\left| \left| T\right| \right|\right| \geq \left|\left| g \right|\right| _{\infty}$$
-$$\left|\left| \left| T \right| \right|\right| \geq \frac{\left|\left| g^{2} \right|\right|_{1} }{}$$
+$$\left|\left| \left| T \right| \right|\right| \geq \frac{\left|\left| g^{2} \right|\right|_{1} }{\left|\left| g \right|\right| _{\infty} \left|\left| f \right|\right| _{1}} = \frac{\left|\left| g^{2} \right|\right| _{1}}{\left|\left| g \right|\right| _{1}} =  $$
 
 $$f(t) = \frac{g(t)}{\left|\left| g \right|\right| _{\infty}}$$
 
@@ -93,6 +93,10 @@ $$f(t) = \frac{g(t)}{\left|\left| g \right|\right| _{\infty}}$$
 La dérivation est linéaire
 $$\left|\left| \left| T\right| \right|\right| $$
 
-$$P = \sum_{n = 0}^{+ \infty } a_{n} X^{n} \text{ et } P' = \sum_{n = 0}^{+ \infty }  $$
+$$P = \sum_{n = 0}^{+ \infty } a_{n} X^{n} \text{ et } P' = \sum_{n = 0}^{+ \infty } (n+1)a_{n+1}X^{n} $$
+On prend : 
+$$\forall n \in \mathbb{N}^{*}, P = X^{n} \Rightarrow P' = nX^{n-1}$$
+$$1 \leq 2 \text{ et } n \underset{n \to +\infty}{\longrightarrow} + \infty$$
+Ainsi, 
 
-$$\left|\left| P' \right|\right|_{1}$$
+#### c.
