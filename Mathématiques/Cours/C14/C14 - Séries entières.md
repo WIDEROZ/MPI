@@ -66,4 +66,18 @@ CVA sur $D(0, R)$ (le disque ouvert de convergence) et
 DVG sur $\mathbb{C}\setminus \overline{D}(0, R)$
 
 Si on note : $D\subset \mathbb{C}$ l'ensemble de définition de : 
-$$S : z \mapsto \sum_{n =0}^{+ iinf}$$
+$$S : z \mapsto \sum_{n =0}^{+ \infty} \alpha_{n}z^{ n} $$
+$$D(0, R) \subset D \subset \overline{D}(0, R)$$
+Démonstration : 
+Soit $z\in \mathbb{C}$, $\left| z\right|<R$, 
+Puisque $R = \sup \Omega$ où $\Omega = \{ r \geq 0 | (\alpha_{n}r_{n})_{n \in \mathbb{N}} \text{ est bornée} \}$
+et : $\Omega = [0, R[$ ou $\Omega = [0, R]$, 
+On sait que : $\left| z\right| \in \Omega$ alors il existe $\beta \in ]\left| z\right|, R[$, 
+D'après le lemme d'Abel, $\sum_{n \in \mathbb{N}}\alpha_{n}z^{n}$ CVA
+Si $\left| z\right|> R$, $(\alpha_{n}z^{n})_{n \in \mathbb{N}}$ n'est pas bornée (car $\left| z\right|\not\in \Omega$) et donc $\sum_{n\in \mathbb{N}} \alpha_{n}z^{n}$ DVG
+
+#### Exemple
+$$S : z \mapsto \sum_{n = 0}^{+ \infty} z^{n} \text{ ici } D=[0, 1[ $$
+$$S : z \mapsto \sum_{n = 0}^{+ \infty} \frac{z^{n}}{n^{2}} \text{ ici } D=[0, 1] $$
+car : 
+$$R > 1, e$$
