@@ -632,7 +632,6 @@ $$\left|\left| \left| f\right| \right|\right|=\sup_{x \in \overline{B}(0, 1)}\le
 Démonstration : 
 ça va tout seul
 
-$$\left|\left| x \right|\right| \leq 1$$
 
 #### Exercice CCINP
 Soit $E = \mathbb{R}^{n}$, $(a_{1}, \dots, a_{n}) \in E$, et : 
@@ -686,10 +685,9 @@ X \mapsto MX
 \end{cases}$$
 
 #### Théorème
- 
 $$\begin{cases}
 g \mapsto \left|\left| \left| g\right| \right|\right| \text{ est une norme sur } \mathcal{L}_{C}(E, F) \\
-\forall x \in E, \forall f \in \mathcal{L}(c)(E, F), \left|\left| f(x) \right|\right| \leq \left| \left|\left| f \right|\right| \right| \left|\left| x \right|\right|  \\
+\forall x \in E, \forall f \in \mathcal{L}_{c}(E, F), \left|\left| f(x) \right|\right| \leq \left| \left|\left| f \right|\right| \right| \left|\left| x \right|\right|  \\
 \forall f, g \in \mathcal{L}_{C}(E), \left|\left| \left| f \circ g\right| \right|\right| \leq \left|\left| \left| f\right| \right|\right| \left|\left| \left| g\right| \right|\right| 
 \end{cases}$$
 Démonstration :
@@ -740,6 +738,7 @@ D'après le théorème de Weierstrass,
 $$\exists (P_{n})_{n \in \mathbb{N}} \in \mathcal{P}^{\mathbb{N}}, \left|\left| f-P_{n} \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
 alors, 
 $$\int_{0}^{1} f(t)^{2} \, dx  = \int_{0}^{1} f(t)^{2} \, dx  - \int_{0}^{1} f(t)P_{n}(t) \, dx $$
+
 
 
 #### CCINP 1
