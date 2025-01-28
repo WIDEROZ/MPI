@@ -3,6 +3,10 @@ $$GL_{3}(\mathbb{R}) \text{ n'est pas fermé car : } \forall n \in \mathbb{N}, A
 il n'est pas borné car : 
 $$\left|\left| B_{n} \right|\right| = 2^{n} \left|\left| I_{3} \right|\right| \underset{n \to +\infty}{\longrightarrow} + \infty $$
 
+## Exercice 4
+#### a.
+
+
 ## Exercice 5
 #### a.
 $$\forall x \in E, \frac{\left|\left| x \right|\right|}{2^{-n}} \leq 1 \Rightarrow \left|\left| f\left( 2^{n}x \right) \right|\right| = \left|\left| f\left( 2^{n} x \right) \right|\right|  \leq M$$
