@@ -17,6 +17,7 @@ L'ens des matrices diagonalisables sont denses dans l'ens des matrices triangula
 
 
 
+
 ## Exercice 5
 #### a.
 $$\forall x \in E, \frac{\left|\left| x \right|\right|}{2^{-n}} \leq 1 \Rightarrow \left|\left| f\left( 2^{n}x \right) \right|\right| = \left|\left| f\left( 2^{n} x \right) \right|\right|  \leq M$$
