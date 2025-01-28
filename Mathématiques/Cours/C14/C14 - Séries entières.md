@@ -56,3 +56,14 @@ R &= \sup \{ r \geq 0 | (\alpha_{n}r^{n})_{n \in \mathbb{N}} \text{ est bornée 
 &= \sup\{ r \geq 0 | \alpha_{n}r^{n} \underset{n \to +\infty}{\longrightarrow} 0 \}  \\
 &= \sup\left\{  r \geq 0 | \sum_{n \in \mathbb{N}} \alpha_{n}r^{n}\text{ converge}  \right\}
 \end{array}$$
+
+#### Proposition
+Soit $R \in \mathbb{R}_{+} \cup \{ +\infty \}$, 
+Le rayon de convergence de la série entière : 
+$$\sum_{n \in \mathbb{N}} \alpha_{n} z^{n}$$
+Alors la série de fonctions
+CVA sur $D(0, R)$ (le disque ouvert de convergence) et
+DVG sur $\mathbb{C}\setminus \overline{D}(0, R)$
+
+Si on note : $D\subset \mathbb{C}$ l'ensemble de définition de : 
+$$S : z \mapsto \sum_{n =0}^{+ iinf}$$

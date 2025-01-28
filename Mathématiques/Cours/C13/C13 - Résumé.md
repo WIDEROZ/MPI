@@ -31,3 +31,7 @@ Soient $A \subset B$, deux parties de $(E, \left|\left| \cdot \right|\right|)$ O
 $$B \subset \overline{A}$$
 ie
 $$\forall b \in B, \exists (a_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}, a_{n}\underset{n \to +\infty}{\longrightarrow} b$$
+
+#### Théorème
+Si $\left| \cdot\right|$ et $N$ sont deux normes sur $E$ alors, 
+$$N \sim \left| \cdot\right| \Leftrightarrow \text{les ouverts de } (E, \left|\left| \cdot \right|\right| ) \text{ sont les ouverts de }(E, N)$$
