@@ -830,4 +830,5 @@ $$s_{n}(f) \underset{n \to +\infty}{\longrightarrow} 0$$
 
 $$\forall x, y \in A, \forall t \in [0, 1], \left|\left| tx + (1-t)y \right|\right| \leq t \left|\left| x \right|\right| + (1-t) \left|\left| y \right|\right| $$
 
-$$\forall a, b \in \overline{A}, \left|\left| ta + (1-t)b \right|\right| $$
+$$\forall a, b \in \overline{A}, \exists (a_{n})_{n \in \mathbb{N}}, (b_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}, \left|\left| ta_{n} + (1-t)b_{n} \right|\right| \leq t \left|\left| a_{n} \right|\right| + (1-t) \left|\left| b_{n} \right|\right| $$
+$$\underset{n \to +\infty}{\longrightarrow} t \left|\left| a \right|\right| + (1-t)\left|\left| b \right|\right| $$
