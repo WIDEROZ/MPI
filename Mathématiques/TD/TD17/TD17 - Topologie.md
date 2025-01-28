@@ -97,6 +97,13 @@ $$P = \sum_{n = 0}^{+ \infty } a_{n} X^{n} \text{ et } P' = \sum_{n = 0}^{+ \inf
 On prend : 
 $$\forall n \in \mathbb{N}^{*}, P = X^{n} \Rightarrow P' = nX^{n-1}$$
 $$1 \leq 2 \text{ et } n \underset{n \to +\infty}{\longrightarrow} + \infty$$
-Ainsi, 
+
 
 #### c.
+$$P = \sum_{k = 0}^{n } a_{k} X^{k} \text{ et } P' = \sum_{k = 0}^{n-1 } (k+1)a_{k+1}X^{k} $$
+$$\left|\left| P' \right|\right|_{1} = \sum_{k = 0}^{n-1}(k+1)\left| a_{k+1}\right|  \text{ et } \left|\left| P \right|\right|_{1} = \sum_{k = 0}^{n} \left| a_{k}\right|$$
+
+$$\left|\left| P' \right|\right| _{1} \leq n \sum_{k = 0}^{n} \left| a_{k}\right| = n \left|\left| P \right|\right| _{1}$$
+
+$$\forall n \in \mathbb{N}^{*}, P = X^{n} \Rightarrow P' = n X^{n-1}$$
+$$\left|\left| \left| T\right| \right|\right| \geq \left|\left| P' \right|\right|  $$
