@@ -5,6 +5,15 @@ $$\left|\left| B_{n} \right|\right| = 2^{n} \left|\left| I_{3} \right|\right| \u
 
 ## Exercice 4
 #### a.
+Soient $a, b, d \in \mathbb{K}$, 
+$$\underset{n \to +\infty}{\longrightarrow} \begin{pmatrix}
+a & b \\
+0 & d
+\end{pmatrix}$$
+
+#### b.
+$$\forall M \in \mathcal{M}_{2}(\mathbb{R}), e\xist$$
+
 
 
 ## Exercice 5
