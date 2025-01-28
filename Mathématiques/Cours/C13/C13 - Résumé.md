@@ -67,7 +67,7 @@ $$\mathcal{E}([a, b], \mathbb{K}) \text{ est dense dans }(\mathcal{C}_{m}^{0}([a
 $\mathcal{E}([a, b], \mathbb{K})$ l'ensemble des fonctions en escalier.
 
 
-$$\forall x \in E, \inf_{a \in A}\left|\left| x-a \right|\right| = 0 $$
-$$\forall a \in A, d_{A}(x) \leq \left|\left| x-a \right|\right|$$
-
-$$$$
+$$\forall x \in E, d_{A}(x) = \inf_{a \in A}\left|\left| x-a \right|\right| = 0 $$
+$x \in A$ c'est terminé, 
+Si $x \not\in A$, 
+Soit $(x_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}$, tel que $x_{n} \underset{n \to +\infty}{\longrightarrow}x$
