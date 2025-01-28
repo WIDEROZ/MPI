@@ -106,4 +106,9 @@ $$\left|\left| P' \right|\right|_{1} = \sum_{k = 0}^{n-1}(k+1)\left| a_{k+1}\rig
 $$\left|\left| P' \right|\right| _{1} \leq n \sum_{k = 0}^{n} \left| a_{k}\right| = n \left|\left| P \right|\right| _{1}$$
 
 $$\forall n \in \mathbb{N}^{*}, P = X^{n} \Rightarrow P' = n X^{n-1}$$
-$$\left|\left| \left| T\right| \right|\right| \geq \left|\left| P' \right|\right|  $$
+$$\left|\left| \left| T\right| \right|\right| \geq \frac{\left|\left| P' \right|\right|_{1}}{\left|\left| P \right|\right| _{1}} =n $$
+
+$$\left|\left| T \right|\right| \geq n$$
+
+#### d.
+$$\left|\left| T(P) \right|\right| = \sum_{k = 0}^{+ \infty}k!\times k \left| a_{k}\right| \leq \sum_{k = 0}^{+ \infty} k \left| a_{k}\right|= \left|\left| P \right|\right| _{1}$$
