@@ -142,4 +142,15 @@ Les séries entières, $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$ et $\lambda \su
 Soient $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$ de rayon $R_{\alpha}$ et $\sum_{n \in \mathbb{N}} \beta_{n}z^{n}$ de rayon $R_{\beta}$
 Alors, 
 $$\sum_{n \in \mathbb{N}} (\alpha_{n}+\beta_{n})z^{n} \text{ a un rayon de convergence } R \geq \min\{ R_{\alpha}, R_{\beta} \}$$
-$$R_{\alpha} \neq R_{\beta} \Rightarrow R = \min\{ R_{\alpha}, R_{\beta} \} $$$
+$$R_{\alpha} \neq R_{\beta} \Rightarrow R = \min\{ R_{\alpha}, R_{\beta} \} $$
+
+Démonstration : 
+Soit $0\leq r\leq \min\{ R_{\alpha}, R_{\beta} \}$, alors, 
+$$((\alpha_{n} + \beta_{n})r^{n})_{n \in \mathbb{N}} = (\alpha_{n} r^{n})_{n \in \mathbb{N}} + (\beta_{n}r^{n})_{n \in \mathbb{N}}$$
+est bornée.
+Donc, $\Omega_{\alpha, \beta} \supset [0, \min\{ R_{\alpha}, R_{\beta} \}[$ Ainsi, $R \geq \min\{ R_{\alpha}, R_{\beta} \}$
+
+Si $R_{\alpha }\leq R_{\beta}$, 
+Soit $r\in ]R_{\alpha}, R_{\beta}[$, alors, $(\alpha_{n} r^{n})_{n \in \mathbb{N}} + (\beta_{n}r^{n})_{n \in \mathbb{N}}$ n'est pas bornée en tant qu'une somme d'une suite qu'il ne l'est pas donc, 
+$$R \leq r \text{ ie } R \leq R_{\alpha} \text{ ie } R = R_{\alpha}$$
+
