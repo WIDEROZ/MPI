@@ -59,4 +59,15 @@ f \text{ est Lipschitzienne}
 On note : $\mathcal{L}_{C}(E, F)$ les application linéaires continues sur $E$
 
 
-##
+#### Théorème de Weierstrass
+$$\mathcal{P} \text{ est dense dans : } (E, \left|\left| \cdot \right|\right| _{\infty})$$
+
+#### Théorème
+$$\mathcal{E}([a, b], \mathbb{K}) \text{ est dense dans }(\mathcal{C}_{m}^{0}([a, b], \mathbb{K}), \left|\left| \cdot \right|\right| _{\infty})$$
+$\mathcal{E}([a, b], \mathbb{K})$ l'ensemble des fonctions en escalier.
+
+
+$$\forall x \in E, \inf_{a \in A}\left|\left| x-a \right|\right| = 0 $$
+$$\forall a \in A, d_{A}(x) \leq \left|\left| x-a \right|\right|$$
+
+$$$$
