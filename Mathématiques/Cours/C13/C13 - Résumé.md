@@ -66,10 +66,4 @@ $$\mathcal{P} \text{ est dense dans : } (E, \left|\left| \cdot \right|\right| _{
 $$\mathcal{E}([a, b], \mathbb{K}) \text{ est dense dans }(\mathcal{C}_{m}^{0}([a, b], \mathbb{K}), \left|\left| \cdot \right|\right| _{\infty})$$
 $\mathcal{E}([a, b], \mathbb{K})$ l'ensemble des fonctions en escalier.
 
-
-$$\forall x \in E, d_{A}(x) = \inf_{a \in A}\left|\left| x-a \right|\right| = 0 $$
-$x \in A$ c'est terminé, 
-Si $x \not\in A$, 
-Soit $(x_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}$, tel que $x_{n} \underset{n \to +\infty}{\longrightarrow}x$
-
-$$\forall x \in E, \forall a \in $$
+$$ \exists \alpha >0, \forall x \in E, \left|\left| x \right|\right| \leq \alpha \Rightarrow \left|\left| f(x) \right|\right| \leq 1$$
