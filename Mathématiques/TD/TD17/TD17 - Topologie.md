@@ -112,3 +112,4 @@ $$\left|\left| T \right|\right| \geq n$$
 
 #### d.
 $$\left|\left| T(P) \right|\right| = \sum_{k = 0}^{+ \infty}k!\times k \left| a_{k}\right| \leq \sum_{k = 0}^{+ \infty} k \left| a_{k}\right|= \left|\left| P \right|\right| _{1}$$
+
