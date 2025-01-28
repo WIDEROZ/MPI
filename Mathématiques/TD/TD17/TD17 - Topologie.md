@@ -72,3 +72,12 @@ $$\forall A \subset \mathbb{R}, \overline{A} \setminus \overset{\space \space o}
 
 #### ii.
 $$\Omega$$
+
+## Exercice 14
+#### a.
+$$T :f \in E \mapsto fg \in E \text{ ou } g \in E$$
+$T$ est bien continue par produit de fonctions continues
+
+$$\left|\left| \left| T\right| \right|\right| $$
+$$\left|\left| T(f) \right|\right| _{1} = \int _{0}^{1} \left| f(t)g(t)\right|dt \leq \left|\left| g \right|\right| _{\infty} \int _{0}^{1} \left| f(t)\right| \, dt  = \left|\left| g \right|\right| _{\infty} \left|\left| f \right|\right| _{1}$$
+$$\left|\left| \left| T\right| \right|\right| = \left|\left| g \right|\right| _{\infty}$$
