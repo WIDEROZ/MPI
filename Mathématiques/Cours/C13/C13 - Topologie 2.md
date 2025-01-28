@@ -451,7 +451,7 @@ Soit $\Omega \subset E$ un ouvert de $(E, \left|\left| \cdot \right|\right|)$ al
 $$\forall x_{0} \in \Omega, \exists r > 0, \forall x \in E, N(x-x_{0}) < ar \Rightarrow \left|\left| x-x_{0} \right|\right| < r \Rightarrow x \in \Omega$$
 Donc, 
 $$\forall x \in E, N(x-x_{0}) < ar \Rightarrow \left|\left| x-x_{0} \right|\right| < r \Rightarrow x \in \Omega$$
-Ains, 
+Ainsi, 
 $$B_{N}(x_{0}, ar) \subset \Omega$$
 Donc $x_{0}$ est intérieur à $\Omega$ dans $(E, N)$
 Ainsi, $\Omega$ est ouvert dans $(E, N)$
