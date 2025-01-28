@@ -25,3 +25,9 @@ x_{0} \in \bar{A} \\
 d(x_{0}, A) = 0 \\
 \exists (a_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}, a_{n}\underset{n \to +\infty}{\longrightarrow} x_{0}
 \end{cases}$$
+
+#### Définition
+Soient $A \subset B$, deux parties de $(E, \left|\left| \cdot \right|\right|)$ On dit que $A$ est dense dans $B$ lorsque : 
+$$B \subset \overline{A}$$
+ie
+$$\forall b \in B, \exists (a_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}, a_{n}\underset{n \to +\infty}{\longrightarrow} b$$
