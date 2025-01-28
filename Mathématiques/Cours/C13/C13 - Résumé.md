@@ -35,3 +35,25 @@ $$\forall b \in B, \exists (a_{n})_{n \in \mathbb{N}} \in A^{\mathbb{N}}, a_{n}\
 #### Théorème
 Si $\left| \cdot\right|$ et $N$ sont deux normes sur $E$ alors, 
 $$N \sim \left| \cdot\right| \Leftrightarrow \text{les ouverts de } (E, \left|\left| \cdot \right|\right| ) \text{ sont les ouverts de }(E, N)$$
+
+#### Théorème
+Soient $(E, \left|\left| \cdot \right|\right|)$ et $(F, \left|\left| \cdot \right|\right|)$ deux evn et $A$ une partie non vide de $E$
+Enfin, soit $f:A \to F$, 
+les assertions suivantes sont équivalentes
+$$\begin{cases}
+f \text{ est continue sur } A \\
+\text{Pour tout ouvert }O \text{ de }(F, \left|\left| \cdot \right|\right| ) f^{-1}(O) \text{ est un ouvert relatif de }A \\
+\text{Pour tout fermé }\Gamma \text{ de }(F, \left|\left| \cdot \right|\right| ) f^{-1}(\Gamma) \text{ est un fermé relatif de }A 
+\end{cases}$$
+
+#### Théorème
+Soient $E, F$ deux $\mathbb{K}$-evn et $f \in \mathcal{L}(E, F)$, 
+On a équivalence entre : 
+$$\begin{cases}
+f \in \mathcal{C}^{0}(E) \\
+f \text{ est continue en }0_{E} \\
+\exists K > 0, \forall x \in E, \left|\left| f(x) \right|\right| \leq K \left|\left| x \right|\right|  \\
+f \text{ est Lipschitzienne}
+\end{cases}$$
+
+On note : $\mathcal{L}_{C}(E, F)$ les application linéaires continues sur $E$

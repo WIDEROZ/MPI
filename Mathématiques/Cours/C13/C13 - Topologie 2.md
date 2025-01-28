@@ -598,7 +598,7 @@ car : $\psi(f_{n}) = f_{n}(0) = 1$
 
 #### Théorème
 Si $E$ est un $\mathbb{K}$-ev de dimension finie et $F$ un $\mathbb{K}$-ev normé. Alors
-$$\forall f \in \mathcal{L}(E, F), f \text{ est cotinue i.e. }\mathcal{L}_{C}(E, F) = \mathcal{L}(E, F)$$
+$$\forall f \in \mathcal{L}(E, F), f \text{ est continue i.e. }\mathcal{L}_{C}(E, F) = \mathcal{L}(E, F)$$
 
 #### Définition
 Soit $f \in \mathcal{L}_{c}(E, F)$, 
@@ -631,6 +631,8 @@ Si $f \in \mathcal{L}_{C}(E, F)$,
 $$\left|\left| \left| f\right| \right|\right|=\sup_{x \in \overline{B}(0, 1)}\left|\left| f(x) \right|\right| = \sup_{x \in E \setminus \{ 0 \}} \frac{\left|\left| f(x) \right|\right| }{\left|\left| x \right|\right| } $$
 Démonstration : 
 ça va tout seul
+
+$$\left|\left| x \right|\right| \leq 1$$
 
 #### Exercice CCINP
 Soit $E = \mathbb{R}^{n}$, $(a_{1}, \dots, a_{n}) \in E$, et : 
