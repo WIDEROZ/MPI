@@ -77,7 +77,28 @@ D'après le lemme d'Abel, $\sum_{n \in \mathbb{N}}\alpha_{n}z^{n}$ CVA
 Si $\left| z\right|> R$, $(\alpha_{n}z^{n})_{n \in \mathbb{N}}$ n'est pas bornée (car $\left| z\right|\not\in \Omega$) et donc $\sum_{n\in \mathbb{N}} \alpha_{n}z^{n}$ DVG
 
 #### Exemple
-$$S : z \mapsto \sum_{n = 0}^{+ \infty} z^{n} \text{ ici } D=[0, 1[ $$
-$$S : z \mapsto \sum_{n = 0}^{+ \infty} \frac{z^{n}}{n^{2}} \text{ ici } D=[0, 1] $$
+$$S : z \mapsto \sum_{n = 0}^{+ \infty} z^{n} \text{ ici } D=D(0, 1) $$
+$$S : z \mapsto \sum_{n = 1}^{+ \infty} \frac{z^{n}}{n^{2}} \text{ ici } D=\overline{D}(0, 1) $$
 car : 
-$$R > 1, e$$
+$$R > 1, \frac{z^{n}}{n^{2}} \leq z^{n} \underset{n \to +\infty}{\longrightarrow} + \infty$$
+$$S : x \mapsto \sum_{n = 1}^{+ \infty} \frac{z^{n}}{n} \text{ ici } D = [-1, 1[ $$
+
+#### Propriétés
+Soient $(\alpha_{n})_{n\in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}$ 
+
+Le rayon de convergence de $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$ est égal au rayon de convergence de $\sum_{n\in \mathbb{N}} \left| \alpha_{n}\right|z^{n}$
+
+Si $\alpha_{n} \underset{n \to + \infty}{=} O(\beta_{n})$, le rayon de convergence de $\sum_{n \in \mathbb{N}}\alpha_{n}z^{n}$ est supérieur ou égal à celui de : $\sum_{n \in \mathbb{N}} \beta_{n}z^{n}$
+
+$$\alpha_{n} \underset{n \to + \infty}{\sim} \beta_{n} \Rightarrow R_{\alpha} = R_{\beta}$$
+
+$$\forall a \in \mathbb{R}, \sum_{n \geq 1}n^{a} z^{n} \text{ à pour rayon de convergence }1$$
+
+Démonstration : 
+$$\{ r \geq 0 | (\alpha_{n}r^{n})_{n\in\mathbb{N}} \text{ est bornée} \} = \{ r \geq 0 | (\left| \alpha_{n}\right|r^{n})_{n \in \mathbb{N}} \text{ est bornée} \}$$
+
+$$\exists M > 0 , \forall n \in \mathbb{N}, \left| \frac{\alpha_{n}}{\beta_{n}}\right| \leq M$$
+alors, 
+$$\forall r \in \mathbb{R}_{+}, (\beta_{n}r^{n})_{n \in \mathbb{N}} \text{ est bornée} \Rightarrow (\alpha_{n}r^{n})_{n \in \mathbb{N}} \text{ aussi}$$
+Ainsi, 
+$$\Omega_{\beta} \subset \Omega_{\alpha} \text{ ie } R_{\beta} \leq R_{aloha} $$
