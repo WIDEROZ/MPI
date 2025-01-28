@@ -25,3 +25,8 @@ $$(n+1) x^{(n+1)^{2} - n^{2}} = (n+1) x^{2n+1} \underset{n \to +\infty}{\longrig
 0\text{ si }x \in [0, 1[ \\
 + \infty \text{ si } x \in [1, + \infty[ 
 \end{cases}$$
+
+$$2^{(2^{n})}$$
+$$a_{n} = \left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor +1$$
+$$\left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor \leq 2^{n} \frac{\ln(2)}{\ln(10)} < \left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor +1 $$
+$$$$
