@@ -12,7 +12,8 @@ a & b \\
 \end{pmatrix}$$
 
 #### b.
-$$\forall M \in \mathcal{M}_{2}(\mathbb{R}), e\xist$$
+$$\forall A \in \mathcal{M}_{2}(\mathbb{C}), \exists (A_{n})_{n \in \mathbb{N}} \in Dz(\mathbb{C}), A_{n} \underset{n \to +\infty}{\longrightarrow}  A$$
+L'ens des matrices diagonalisables sont denses dans l'ens des matrices triangulaires
 
 
 
