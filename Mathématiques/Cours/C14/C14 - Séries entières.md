@@ -87,18 +87,38 @@ $$S : x \mapsto \sum_{n = 1}^{+ \infty} \frac{z^{n}}{n} \text{ ici } D = [-1, 1[
 Soient $(\alpha_{n})_{n\in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}$ 
 
 Le rayon de convergence de $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$ est égal au rayon de convergence de $\sum_{n\in \mathbb{N}} \left| \alpha_{n}\right|z^{n}$
-
+___
 Si $\alpha_{n} \underset{n \to + \infty}{=} O(\beta_{n})$, le rayon de convergence de $\sum_{n \in \mathbb{N}}\alpha_{n}z^{n}$ est supérieur ou égal à celui de : $\sum_{n \in \mathbb{N}} \beta_{n}z^{n}$
-
+___
 $$\alpha_{n} \underset{n \to + \infty}{\sim} \beta_{n} \Rightarrow R_{\alpha} = R_{\beta}$$
-
+___
 $$\forall a \in \mathbb{R}, \sum_{n \geq 1}n^{a} z^{n} \text{ à pour rayon de convergence }1$$
-
+___
+Si $\alpha_{n}$ est bornée, $R \geq 1$
 Démonstration : 
 $$\{ r \geq 0 | (\alpha_{n}r^{n})_{n\in\mathbb{N}} \text{ est bornée} \} = \{ r \geq 0 | (\left| \alpha_{n}\right|r^{n})_{n \in \mathbb{N}} \text{ est bornée} \}$$
-
+___
 $$\exists M > 0 , \forall n \in \mathbb{N}, \left| \frac{\alpha_{n}}{\beta_{n}}\right| \leq M$$
 alors, 
 $$\forall r \in \mathbb{R}_{+}, (\beta_{n}r^{n})_{n \in \mathbb{N}} \text{ est bornée} \Rightarrow (\alpha_{n}r^{n})_{n \in \mathbb{N}} \text{ aussi}$$
 Ainsi, 
-$$\Omega_{\beta} \subset \Omega_{\alpha} \text{ ie } R_{\beta} \leq R_{aloha} $$
+$$\Omega_{\beta} \subset \Omega_{\alpha} \text{ ie } R_{\beta} \leq R_{\alpha} $$
+___
+$$\alpha_{n} \underset{n \to + \infty}{\sim} \beta_{n} \Rightarrow \begin{cases}
+\alpha_{n} = O(\beta_{n}) \\
+\beta_{n} = O(\alpha_{n})
+\end{cases} \Rightarrow \begin{cases}
+R_{\beta} \leq R_{\alpha} \\
+R_{\alpha} \leq R_{\beta}
+\end{cases} \Rightarrow R_{\alpha} = R_{\beta}$$
+___
+$$\forall r \geq 0, \forall a > 0, (n^{a}r^{n})_{n \in \mathbb{N}} \text{ est bornée} \Leftrightarrow r \in [0, 1[$$
+$$\forall r \geq 0, \forall a \leq 0, (n^{a}r^{n})_{n \in \mathbb{N}} \text{ est bornée} \Leftrightarrow r \in [0, 1]$$
+Ainsi, $R = 1$
+
+#### Exercice
+Déterminer le rayon de convergence de : 
+$$\sum_{n \in \mathbb{N}} \frac{(n!)^{2}}{(2n+1)!} z^{2n+1} $$
+On fait d'Alembert et on obtiens que : 
+$$\forall r > 0, \frac{u_{n+1}r^{2n+3}}{u_{n}r^{2n+1}} \underset{n \to +\infty}{\longrightarrow}  \frac{r^{2}}{4}$$
+Alors, pour $r<2$ ca fonctionne
