@@ -94,7 +94,8 @@ $$\alpha_{n} \underset{n \to + \infty}{\sim} \beta_{n} \Rightarrow R_{\alpha} = 
 ___
 $$\forall a \in \mathbb{R}, \sum_{n \geq 1}n^{a} z^{n} \text{ à pour rayon de convergence }1$$
 ___
-Si $\alpha_{n}$ est bornée, $R \geq 1$
+Si $\alpha_{n}$ est bornée, $R \geq 1$ car ($1 \in \Omega_{\alpha}$)
+
 Démonstration : 
 $$\{ r \geq 0 | (\alpha_{n}r^{n})_{n\in\mathbb{N}} \text{ est bornée} \} = \{ r \geq 0 | (\left| \alpha_{n}\right|r^{n})_{n \in \mathbb{N}} \text{ est bornée} \}$$
 ___
@@ -122,3 +123,23 @@ $$\sum_{n \in \mathbb{N}} \frac{(n!)^{2}}{(2n+1)!} z^{2n+1} $$
 On fait d'Alembert et on obtiens que : 
 $$\forall r > 0, \frac{u_{n+1}r^{2n+3}}{u_{n}r^{2n+1}} \underset{n \to +\infty}{\longrightarrow}  \frac{r^{2}}{4}$$
 Alors, pour $r<2$ ca fonctionne
+
+#### Exercice
+Déterminer le rayon de convergence de : 
+$$\sum_{n \in \mathbb{N}} n^{(-1)^{n}} z^{n}$$
+$$0\leq n^{(-1)^{n}}z^{n} \leq n z^{n} $$
+$$\text{ donc } (n^{(-1)^{n}}z^{n})_{n \in \mathbb{N}} \text{ est bornée et donc }[0, 1[ \subset \Omega\text{ et }R \geq 1$$
+de plus, 
+$$(n^{(-1)^{n}})_{n \in \mathbb{N}} \text{ n'est pas bornée car : } \forall n \in \mathbb{N}, u_{2n} = 2n \underset{n \to +\infty}{\longrightarrow} + \infty$$
+donc, $\Omega = [0, 1[$ et $R = 1$
+
+## 2. L'algèbre des séries entières
+#### Remarque
+$$\forall \lambda \in \mathbb{C} \setminus \{ 0 \}, \forall (\alpha_{n})_{n \in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}$$
+Les séries entières, $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$ et $\lambda \sum_{n \in \mathbb{N}}\alpha_{n}z^{n}$ ont le même rayon de convergence
+
+#### Proposition
+Soient $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$ de rayon $R_{\alpha}$ et $\sum_{n \in \mathbb{N}} \beta_{n}z^{n}$ de rayon $R_{\beta}$
+Alors, 
+$$\sum_{n \in \mathbb{N}} (\alpha_{n}+\beta_{n})z^{n} \text{ a un rayon de convergence } R \geq \min\{ R_{\alpha}, R_{\beta} \}$$
+$$R_{\alpha} \neq R_{\beta} \Rightarrow R = \min\{ R_{\alpha}, R_{\beta} \} $$$
