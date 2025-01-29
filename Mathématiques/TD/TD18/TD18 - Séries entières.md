@@ -31,9 +31,8 @@ $$a_{n} = \left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor +1$$
 $$\left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor \leq 2^{n} \frac{\ln(2)}{\ln(10)} < \left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor +1 $$
 
 
-## Exercice 2
+
+## Exercice 3
 #### a.
-$R \geq 1$
-#### b.
-$R \geq 1$
-#### c.
+$$\left| \frac{a_{n}z^{n}}{n!}\right|\leq \frac{R}{n!} $$
+et comme $R = \sup \Omega$, 
