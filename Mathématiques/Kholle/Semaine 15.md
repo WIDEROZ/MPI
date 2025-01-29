@@ -7,4 +7,12 @@ $$\not\exists a \in \mathbb{R}_{+}, \left|\left| f \right|\right|_1 \geq a\left|
 #### 2.
 ##### a.
 On a : 
-$$\left|\left| u(f) \right| = \left| f(0)\right| \leq \left|\left| f \right|\right|_{\infty} $$
+$$\left| u(f) \right| = \left| f(0)\right| \leq \left|\left| f \right|\right|_{\infty} $$
+
+##### b.
+$$y = \frac{\alpha}{\left|\left| x \right|\right| }x \Rightarrow \left|\left| f(y) \right|\right| = \frac{\alpha}{\left|\left| x \right|\right| }\left|\left| f(x) \right|\right|   \leq 1$$
+$$\left|\left| f(x) \right|\right| \leq K \left|\left| x \right|\right| $$
+On suppose : Soit $\varepsilon \in \mathbb{R}_{+}^{*}$, 
+$$\exists \alpha >0, \forall x, y \in E, \left|\left| x-y \right|\right| \leq \alpha$$
+alors, en posant : $x = z-y$
+$$\left|\left| f(x) - f(y) \right|\right| \leq K\alpha$$
