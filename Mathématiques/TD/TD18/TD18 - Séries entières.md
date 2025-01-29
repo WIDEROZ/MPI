@@ -34,5 +34,7 @@ $$\left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor \leq 2^{n} \frac{\ln(2
 
 ## Exercice 4
 $$\sum_{n= 0}^{+ \infty} \cos((n+1)\alpha)x^{n}$$
-$$\mathrm{Re}\left(e^{ i\alpha }\sum_{n = 0}^{+ \infty} e^{ i(n+1)\alpha }x^{n}\right) = \mathrm{Re}\left( \sum_{n = 0}^{+ \infty}  \right)$$
-$$$$
+$$\mathrm{Re}\left(\sum_{n = 0}^{+ \infty} e^{ i(n+1)\alpha }x^{n}\right) = \mathrm{Re}\left( e^{ i\alpha }\sum_{n = 0}^{+ \infty} (e^{ i }x)^{n} \right) = \mathrm{Re}\left( e^{ i\alpha } \frac{1}{1-e^{ i\alpha }x} \right)$$
+$$A = e^{ i\alpha } \frac{1-e^{ -i \alpha }x}{1-e^{ -i\alpha }x-e^{ i\alpha }x+x^{2}} = e^{ i\alpha } \frac{1-e^{ -i\alpha }x}{1- 2\cos(\alpha)x +x^{2}}$$
+Ainsi, 
+$$\mathrm{Re}(A) = \frac{e^{ i\alpha }- x}{1-2\cos(\alpha)x+x^{2}}= \frac{\cos(\alpha)-x}{1-2\cos(\alpha) x+x^{2}}$$
