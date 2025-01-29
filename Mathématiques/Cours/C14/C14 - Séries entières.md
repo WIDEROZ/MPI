@@ -199,5 +199,14 @@ $$\sum_{n \in \mathbb{N}} \left( \frac{r}{\alpha} \right)^{n} \text{ CV donc } \
 ##### 1.
 Son rayon de convergence est le même que : 
 $$\sum_{n \in \mathbb{N}} \frac{x^{n}}{n}$$
-Alors, 
-$$$$
+Alors, $R =1$. 
+Ainsi, 
+$$S \text{ est définie au moins sur }]-1, 1[$$
+et aucun réel $x$ ne vérifiant $\left| x\right|> 1$ 
+De plus, 
+$$\sum_{n \geq 1} \frac{(-1)^{n}}{n}(1)^{n} = \sum_{n \geq 1} \frac{(-1)^{n}}{n}$$
+est un série de Leibniz.
+
+##### 2.a.
+$$\left|\left| u_{n} \right|\right| _{\infty,D} = \sup_{x \in ]-1, 1]} \left| \frac{(-1)^{n}}{n}x^{n}\right| = \frac{1}{n} \text{ et } \sum_{n \geq 1} \frac{1}{n} \text{ diverge}$$
+
