@@ -15,4 +15,4 @@ $$\left|\left| f(x) \right|\right| \leq K \left|\left| x \right|\right| $$
 On suppose : Soit $\varepsilon \in \mathbb{R}_{+}^{*}$, 
 $$\exists \alpha >0, \forall x, y \in E, \left|\left| x-y \right|\right| \leq \alpha$$
 alors, en posant : $x = z-y$
-$$\left|\left| f(x) - f(y) \right|\right| \leq K\alpha$$
+$$0 \leq \left|\left| f(x) - f(y) \right|\right| \leq K \left|\left| x-y \right|\right| $$
