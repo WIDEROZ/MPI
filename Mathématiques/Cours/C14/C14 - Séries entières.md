@@ -235,4 +235,25 @@ Donc $S$ est continue sur $]-1, 1[$ de plus puisque qur $[0, 1]$, $S$ est aussi 
 Si le rayon de convergence $R$ de $\sum_{n \in \mathbb{N}}a_{n}x^{n}$ est non nul, : 
 $$S : x \mapsto \sum_{n = 0}^{+ \infty}a_{n} x^{n} \text{ est continue sur } D(0, R)$$
 Démonstration : 
-$$$$
+Tout : $z_{0} \in D(0, R)$ est continue dans $\overline{D}(0, r)$ si $\left| z_{0}\right|< r < R$ et la série de fonctions continues CVN sur $\overline{D}(0, r)$
+
+#### Lemme d'Abel Radial
+Soit $\sum a_{n}x^{n}$ est une SE de rayon $R \neq 0$ et : 
+$$S : x \mapsto \sum_{n = 0}^{+ \infty} a_{n}x^{n} \text{ est définie sur }]-R, R[ \text{ au moins}$$
+$$\sum_{n \in \mathbb{N}}a_{n}R^{n} \text{ CV} \Rightarrow S \in \mathcal{C}^{0}(]-R, R])$$
+
+## 2. Primitive et dérivées
+#### Définition - Propriété
+On appelle série dérivée de la SE : $\sum_{n \in \mathbb{N}}a_{n}z^{n}$ la SE : 
+$$\sum_{ n \in \mathbb{N}^{*}} n a_{n}z^{n-1}$$
+Ces deux SE ont le même rayon de convergence
+
+Démonstration : 
+Notons : 
+- $R$ le rayon de $\sum a_{n}z^{n}$
+- $R'$ de rayon de $\sum na_{n}z^{n-1}$
+
+Puisque : $1 = O(n)$ quand $n\to+\infty$ $a_{n} = O(na_{n})$ et donc $R \geq R'$
+Soit $r \in [0, R [$ et $\alpha \in ]r, R[$
+Alors, 
+$$\left| (n+1)a_{n+1} r^{n}\right| = \left| a_{n+1} \alpha^{n+1}\right| (n+1) \left( \frac{r}{\alpha} \right)^{n} \frac{1}{\alpha}$$
