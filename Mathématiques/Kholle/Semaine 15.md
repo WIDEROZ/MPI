@@ -5,3 +5,6 @@ $$\forall x \in [0, 1], f(x) =  x^{n} ; \left|\left| f \right|\right| _{1}= \fra
 du coup : 
 $$\not\exists a \in \mathbb{R}_{+}, \left|\left| f \right|\right|_1 \geq a\left|\left| f \right|\right| _{\infty}$$
 #### 2.
+##### a.
+On a : 
+$$\left|\left| u(f) \right| = \left| f(0)\right| \leq \left|\left| f \right|\right|_{\infty} $$
