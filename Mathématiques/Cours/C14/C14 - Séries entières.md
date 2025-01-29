@@ -165,4 +165,24 @@ $$\left( \sum_{n = 0}^{+ \infty} a_{n}z^{n} \right)\left( \sum_{n = 0}^{+ \infty
 Démonstration : 
 Sous ces hypothèses, les deux séries  : 
 $$\sum_{n \in \mathbb{N}}a_{n} z^{n} \text{ et } \sum_{n \in \mathbb{N}} b_{n}z^{n} \text{ CVA}$$
-D'après de 
+D'après de produit de Cauchy de séries :
+$$\sum_{n \in \mathbb{N}}\sum_{k = 0}^{+ \infty} (a_{k}b_{n-k} z^{k}z^{n-k}) \text{ CV }$$
+et : 
+$$\left( \sum_{n = 0}^{+ \infty} a_{n}z^{n} \right)\left( \sum_{n = 0}^{+ \infty}b_{n} z^{n} \right) = \sum_{n = 0}^{+ \infty} c_{n} z^{n}$$
+
+#### Application
+Montrons que : 
+$$\forall x \in ]-1, 1[, \frac{1}{(1-x)^{2}}= \sum_{n = 0}^{+ \infty} (n+1)x^{n}$$
+On prend la série ; 
+$$\sum_{n \in \mathbb{N}}x^{n}$$
+alors son produit de Cauchy est : 
+$$\left( \sum_{n = 0}^{+ \infty}x^{n} \right)\left( \sum_{n = 0}^{+ \infty}x^{n} \right) = \sum_{n = 0}^{+ \infty}\left( \sum_{k = 0}^{n} 1\times 1  \right)x^{n}$$
+ie 
+$$\forall x \in ]-1, 1[, \frac{1}{(1-x)^{2}}= \sum_{n = 0}^{+ \infty} (n+1)x^{n}$$
+
+## 4. Convergence normale
+#### Propriété
+Soit $\sum_{n \in \mathbb{N}} a_{n}x^{n}$ une SE de rayon $R\neq 0$,
+$$\forall r \in \mathbb{R}_{+}, r < R \Rightarrow \sum_{n \in \mathbb{N}} a_{n}x^{n} \text{ CVN sur }\overline{D}(0, r)$$
+
+Démonstration : 
