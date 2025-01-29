@@ -209,4 +209,30 @@ est un série de Leibniz.
 
 ##### 2.a.
 $$\left|\left| u_{n} \right|\right| _{\infty,D} = \sup_{x \in ]-1, 1]} \left| \frac{(-1)^{n}}{n}x^{n}\right| = \frac{1}{n} \text{ et } \sum_{n \geq 1} \frac{1}{n} \text{ diverge}$$
+$$\forall x \in ]-1, 1[, S(x) = -\ln(1+x)$$
+Donc, 
+$$\forall n \geq 1, S(x) - S_{n}(x) \underset{x \to 1^{+}}{\longrightarrow} + \infty$$
+Donc, $S-S_{n}$ n'est pas bornée alors, 
+$$\left|\left| S-S_{n} \right|\right| _{\infty, ]-1, 1[} = + \infty \cancel{ \underset{n \to +\infty}{\longrightarrow} } 0$$
+En revanche, la SE CVU sur $[0, 1]$ car elle CVS sur $D$ et : 
+$$\forall x \in [0, 1[, \left| R_{n}(x) \right| \leq \frac{x^{n+1}}{n+1} \leq \frac{1}{n+1} $$
+La série est de Leibniz car $x \in [0, 1]$
+Donc, 
+$$\left|\left| R_{n} \right|\right|_{\infty, [0, 1]} \leq \frac{1}{n+1} $$
+ie $(R_{n})_{n \in \mathbb{N}}$ CVU vers la fonction nulle sur $[0,1]$
 
+##### 2.b.
+$$\forall n \in \mathbb{N}, x \mapsto (-1)^{n} \frac{x^{n}}{n} \in \mathcal{C}^{0} \text{ sur }D$$
+De plus, 
+$$\forall a \in ]0, 1[, \forall x \in [-a, a], \left| f_{n}(x)\right|\leq a^{n} \text{ donc }\left|\left| f_{n} \right|\right| _{\infty, [-a, a]} \leq a^{n}$$
+et 
+$$\sum a^{n} \text{ CV}$$
+Donc $S$ est continue sur $]-1, 1[$ de plus puisque qur $[0, 1]$, $S$ est aussi continue sur $[0, 1]$. Ainsi, $S$ est continue sur $]-1, 1]$
+
+# II. Régularité  de la somme d'une SE
+## 1. Limite et continuité
+#### Proposition
+Si le rayon de convergence $R$ de $\sum_{n \in \mathbb{N}}a_{n}x^{n}$ est non nul, : 
+$$S : x \mapsto \sum_{n = 0}^{+ \infty}a_{n} x^{n} \text{ est continue sur } D(0, R)$$
+Démonstration : 
+$$$$
