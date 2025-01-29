@@ -271,10 +271,10 @@ $$R \leq R'$$
 Soit $\sum_{n \in \mathbb{N}}a_{n}x^{n}$ une série entière de rayon $R > 0$ et
 $$f : \begin{cases}
 ]-R, R[ \to \mathbb{R} \\
-x  \mapsto \sum_{n = 0}^{+ \infty} a_{n}x^{n}
+x  \mapsto \underset{n = 0}{\overset{+ \infty}{\sum}} a_{n}x^{n}
 \end{cases}$$
 Alors la primitive de $f$ sur $]-R, R[$ s'annulant en $0$ est : 
 $$F : \begin{cases}
 ]-R, R[ \to \mathbb{R} \\
-x \mapsto \sum_{n = 0}^{+ \infty} \frac{a_{n}}{n+1}x^{n+1} = \sum_{p=1}^{+ \infty} \frac{a_{p-1}}{p} x^{p}
+x \mapsto  \underset{n = 0}{\overset{+ \infty}{\sum}} \frac{a_{n}}{n+1}x^{n+1} = \underset{p = 1}{\overset{+ \infty}{\sum}} \frac{a_{p-1}}{p} x^{p}
 \end{cases} $$

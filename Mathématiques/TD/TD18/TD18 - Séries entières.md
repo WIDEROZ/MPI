@@ -29,4 +29,11 @@ $$(n+1) x^{(n+1)^{2} - n^{2}} = (n+1) x^{2n+1} \underset{n \to +\infty}{\longrig
 $$2^{(2^{n})}$$
 $$a_{n} = \left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor +1$$
 $$\left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor \leq 2^{n} \frac{\ln(2)}{\ln(10)} < \left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor +1 $$
-$$$$
+
+
+## Exercice 2
+#### a.
+$R \geq 1$
+#### b.
+$R \geq 1$
+#### c.
