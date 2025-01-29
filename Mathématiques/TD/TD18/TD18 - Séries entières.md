@@ -32,7 +32,7 @@ $$\left\lfloor 2^{n} \frac{\ln(2)}{\ln(10)} \right\rfloor \leq 2^{n} \frac{\ln(2
 
 
 
-## Exercice 3
-#### a.
-$$\left| \frac{a_{n}z^{n}}{n!}\right|\leq \frac{R}{n!} $$
-et comme $R = \sup \Omega$, 
+## Exercice 4
+$$\sum_{n= 0}^{+ \infty} \cos((n+1)\alpha)x^{n}$$
+$$\mathrm{Re}\left(e^{ i\alpha }\sum_{n = 0}^{+ \infty} e^{ i(n+1)\alpha }x^{n}\right) = \mathrm{Re}\left( \sum_{n = 0}^{+ \infty}  \right)$$
+$$$$
