@@ -186,3 +186,18 @@ Soit $\sum_{n \in \mathbb{N}} a_{n}x^{n}$ une SE de rayon $R\neq 0$,
 $$\forall r \in \mathbb{R}_{+}, r < R \Rightarrow \sum_{n \in \mathbb{N}} a_{n}x^{n} \text{ CVN sur }\overline{D}(0, r)$$
 
 Démonstration : 
+Soit $\alpha \in \mathbb{R}$, tel que $r \leq \alpha < R$ puisque $\alpha<R$ il existe $M \in \mathbb{R}_{+}^{*}$ tel que : 
+$$\forall n \in \mathbb{N}, \left| a_{n}\alpha^{n}\right| \leq M $$
+Donc, 
+$$\forall z \in \mathbb{C}, \left| z\right|\leq r \Rightarrow \left| a_{n}z^{n}\right| = \left| a_{n}\alpha^{n}\right| \left| \frac{z}{\alpha}\right|^{n} \leq M\left( \frac{r}{\alpha} \right)^{n}$$
+Ainsi, 
+$$\left|\left| f_{n} \right|\right| _{\infty, \overline{D}(0, r)}\leq M \left( \frac{r}{\alpha} \right)^{n}$$
+Et comme $0< \frac{r}{\alpha }<1$, 
+$$\sum_{n \in \mathbb{N}} \left( \frac{r}{\alpha} \right)^{n} \text{ CV donc } \sum_{n \in \mathbb{N}}\left|\left| f_{n} \right|\right| _{\infty} \text{ aussi}$$
+
+#### CCINP 18
+##### 1.
+Son rayon de convergence est le même que : 
+$$\sum_{n \in \mathbb{N}} \frac{x^{n}}{n}$$
+Alors, 
+$$$$
