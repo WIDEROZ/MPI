@@ -254,6 +254,27 @@ Notons :
 - $R'$ de rayon de $\sum na_{n}z^{n-1}$
 
 Puisque : $1 = O(n)$ quand $n\to+\infty$ $a_{n} = O(na_{n})$ et donc $R \geq R'$
-Soit $r \in [0, R [$ et $\alpha \in ]r, R[$
+Soit $r \in [0, R [$ et $\alpha \in ]r, R[$ $\boxed{(\star)}$
 Alors, 
-$$\left| (n+1)a_{n+1} r^{n}\right| = \left| a_{n+1} \alpha^{n+1}\right| (n+1) \left( \frac{r}{\alpha} \right)^{n} \frac{1}{\alpha}$$
+$$\left| (n+1)a_{n+1} r^{n}\right| = \left| a_{n+1} \alpha^{n+1}\right| (n+1) \left( \frac{r}{\alpha} \right)^{n} \frac{1}{\alpha} \leq \frac{M}{\alpha} (n+1) \left( \frac{r}{\alpha} \right)^{n}$$
+où $M \in \mathbb{R}$ vérifie : $\forall n \in \mathbb{N}, \left| a_{n}\alpha^{n}\right|\leq M$
+Dont l'existence est assuré par : $\boxed{(\star)}$
+Par corissance comparé puisque : $0 < \frac{r}{\alpha}<1$ : 
+$$\frac{M}{\alpha} (n+1) \left( \frac{r}{n} \right)^{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+Donc, 
+$$((n+1)a_{n+1}r^{n})_{n \in \mathbb{N}} \text{ est bornée car CV}$$
+ie $\forall r \in [0, R[, r \leq R'$ 
+Ainsi, 
+$$R \leq R'$$
+
+#### Théorème
+Soit $\sum_{n \in \mathbb{N}}a_{n}x^{n}$ une série entière de rayon $R > 0$ et
+$$f : \begin{cases}
+]-R, R[ \to \mathbb{R} \\
+x  \mapsto \sum_{n = 0}^{+ \infty} a_{n}x^{n}
+\end{cases}$$
+Alors la primitive de $f$ sur $]-R, R[$ s'annulant en $0$ est : 
+$$F : \begin{cases}
+]-R, R[ \to \mathbb{R} \\
+x \mapsto \sum_{n = 0}^{+ \infty} \frac{a_{n}}{n+1}x^{n+1} = \sum_{p=1}^{+ \infty} \frac{a_{p-1}}{p} x^{p}
+\end{cases} $$
