@@ -154,3 +154,15 @@ Si $R_{\alpha }\leq R_{\beta}$,
 Soit $r\in ]R_{\alpha}, R_{\beta}[$, alors, $(\alpha_{n} r^{n})_{n \in \mathbb{N}} + (\beta_{n}r^{n})_{n \in \mathbb{N}}$ n'est pas bornée en tant qu'une somme d'une suite qu'il ne l'est pas donc, 
 $$R \leq r \text{ ie } R \leq R_{\alpha} \text{ ie } R = R_{\alpha}$$
 
+#### Définition
+Soient $\sum_{n \in \mathbb{N}} a_{n}x^{n}$ et $\sum_{n \in \mathbb{N}}b_{n}x^{n}$ deux SE la SE : 
+$$\sum_{n \in \mathbb{N}} c_{n} x^{n}, \text{ où } \forall n \in \mathbb{N}, c_{n} = \sum_{k = 0}^{n} a_{k}b_{n-k}$$
+
+#### Proposition
+Si ces deux séries entières ont des rayons de convergence : $R_{a}$, resp. $R_{b}$ alors, leur produit de Cauchy a un rayon de convergence $R \geq \min\{ R_{a}, R_{b} \}$ et $\forall z \in \mathbb{C}$, $\left| z\right|<\min\{ R_{a}, R_{b} \}$
+$$\left( \sum_{n = 0}^{+ \infty} a_{n}z^{n} \right)\left( \sum_{n = 0}^{+ \infty}b_{n} z^{n} \right) = \sum_{n = 0}^{+ \infty} c_{n} z^{n}$$
+
+Démonstration : 
+Sous ces hypothèses, les deux séries  : 
+$$\sum_{n \in \mathbb{N}}a_{n} z^{n} \text{ et } \sum_{n \in \mathbb{N}} b_{n}z^{n} \text{ CVA}$$
+D'après de 
