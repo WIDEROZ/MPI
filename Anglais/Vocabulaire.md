@@ -22,3 +22,4 @@ stem cells = cellules souches
 supporters = partisans
 opponents = détracteurs
 joe biden = joe biden
+Acquaintances
