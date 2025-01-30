@@ -37,4 +37,16 @@ $$\sum_{n= 0}^{+ \infty} \cos((n+1)\alpha)x^{n}$$
 $$\mathrm{Re}\left(\sum_{n = 0}^{+ \infty} e^{ i(n+1)\alpha }x^{n}\right) = \mathrm{Re}\left( e^{ i\alpha }\sum_{n = 0}^{+ \infty} (e^{ i }x)^{n} \right) = \mathrm{Re}\left( e^{ i\alpha } \frac{1}{1-e^{ i\alpha }x} \right)$$
 $$A = e^{ i\alpha } \frac{1-e^{ -i \alpha }x}{1-e^{ -i\alpha }x-e^{ i\alpha }x+x^{2}} = e^{ i\alpha } \frac{1-e^{ -i\alpha }x}{1- 2\cos(\alpha)x +x^{2}}$$
 Ainsi, 
-$$\mathrm{Re}(A) = \frac{e^{ i\alpha }- x}{1-2\cos(\alpha)x+x^{2}}= \frac{\cos(\alpha)-x}{1-2\cos(\alpha) x+x^{2}}$$
+$$\mathrm{Re}(A) = \frac{\mathrm{Re}(e^{ i\alpha }- x)}{1-2\cos(\alpha)x+x^{2}}= \frac{\cos(\alpha)-x}{1-2\cos(\alpha) x+x^{2}}$$
+en intégrant comme : $f(0) = 0$, 
+$$f(x) = -\frac{1}{2}\ln(1-2\cos(\alpha)x+x^{2})$$
+
+## Exercice 11
+#### a.
+$$\frac{\ln(n+1)}{\ln(n)}x \underset{n \to +\infty}{\longrightarrow} x$$
+Donc $R = 1$ puis : 
+$$\sum_{n= 1}^{+ \infty}\ln(n)  \text{ DVG et } \sum_{n = 1}^{ + \infty} \ln(n)(-1)^{n} \text{ DVG}$$
+Ainsi, $\mathcal{D} = ]-1, 1[$, 
+
+#### b.
+$$\lim_{ n \to 1 } -\ln\left( 1-\frac{1}{n} \right)-\frac{1}{n} = -\lim_{ n \to 1} \frac{1}{n^{2}} = -1 $$
