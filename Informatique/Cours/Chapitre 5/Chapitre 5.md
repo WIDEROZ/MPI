@@ -50,4 +50,8 @@ Plus le critère $k$ repartira les valeurs plus le gain sera bas.
 
 
 
-$$G(E, a_{1}) = $$
+$$G(E, a_{1}) = H(E) - \sum_{i = 1}^{2} p_{i} H(E_{i, a_{1}})$$
+
+$$H(E_{1, a_{1}}) = H(E_{2, a_{1}}) = \log\left( 2\right) \text{ et } p_{1}=p_{2} = \frac{1}{2}$$
+alors, 
+$$G(E, a_{1})=0.9709 - \log(2) = 0.66987$$
