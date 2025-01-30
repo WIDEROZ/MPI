@@ -56,4 +56,10 @@ $$-\sum_{n = 2}^{+ \infty}\left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} \ri
 Donc, d'après le Lemme d'Abel radial : 
 $$f \in \mathcal{C}^{0}(]-1, 1])$$
 or : 
-$$\lim_{ x \to -1 } f(x) =-1- \lim_{ x \to -1 } \sum_{n = 2}^{+ \infty} \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} $$
+$$\lim_{ x \to -1 } f(x) =1- \lim_{ x \to -1 } \sum_{n = 2}^{+ \infty} \left( \left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n}  \right)x^{n} \right) = -1-$$
+Or $\left|\left| a_{n} \right|\right|_{\infty} = \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} = \frac{1}{n^{2}} + o\left( \frac{1}{n^{2}} \right)$ donc $\sum_{n = 2}^{+ \infty}\left|\left| a_{n} \right|\right|$ CV ainsi, $\sum a_{n}$ CVU donc, 
+$$\lim_{ x \to -1 } f(x) = 1-\sum_{n = 2}^{+ \infty} \left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} \right)(-1)^{n} \text{ CV}$$
+par Leibniz
+
+#### c.
+$$g\left( -x  \right)= x - \sum_{n = 2}^{+ \infty}\left( \left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} \right)(-1)^{n}x^{n} \right) = $$
