@@ -60,4 +60,5 @@ On a :
 #### 2.
 $$I = I_{0}\left( 1+\cos\left( \frac{2\pi}{\lambda_{0}} \delta\right) \right)$$
 
-33
+$$\delta = (S M)_{2} -(SM)_{1} = (SS_{2}) + (S_{2}M) - (SS_{1})-(S_{1}M) $$
+$$= $$
