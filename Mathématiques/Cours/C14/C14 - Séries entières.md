@@ -294,3 +294,18 @@ qui à aussi pour rayon $R$. en appliquant à $g$ le théorème précédent, on 
 Donc, $S$ est $\mathcal{C}^{1}$ sur $]-R, R [$ et la première formule est vérifiée. 
 Comme $S'$ est la somme d'une SE de même rayon, on peut par récurrence montrer que : $S \in \mathcal{C}^{k}(]-R, R[)$
 $$\forall k \in \mathbb{N}^{*}, \forall x \in ]-R, R [, S^{(k)}(x) = \sum_{n = 0}^{+  \infty} n(n-1)\dots (n-k+1) a_{n}x^{n-k}$$
+
+#### CCINP 47
+Déterminer la somme de : 
+$$\sum_{n \geq 1} \frac{3^{n} x^{2n}}{n}  \text{ et } \sum a_{n} x^{n} \text{ ou }\begin{cases}
+a_{2n} = 4^{n} \\
+a_{2n+1} = 5^{n+1}
+\end{cases}$$
+$$\frac{3^{n+1}x^{2n+2}n}{(n+1)3^{n}x^{2n}} = \frac{3x^{2}}{\left( 1+\frac{1}{n} \right)} \underset{n \to +\infty}{\longrightarrow} 3x^{2} $$
+$$\begin{cases}
+x > \frac{1}{\sqrt{3}} \text{ alors } DVG \\
+x < \frac{1}{\sqrt{3}} \text{ alors }CV
+\end{cases}$$
+Donc $R = \frac{1}{\sqrt{3}}$. 
+On note : $S$ sa somme infinie
+$$S'(x) = \sum_{n = 1}^{+\infty} 2\times 3^{n}x^{2n-1} = 6\sum_{p= 0}^{+ \infty} 3^{p}x^{2p+1} = 6x \sum_{p=0}^{+ \infty}(3x^{2})^{p}= \frac{6x}{1-3x^{2}}$$
