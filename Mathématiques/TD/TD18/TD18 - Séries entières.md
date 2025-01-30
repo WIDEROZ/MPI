@@ -62,4 +62,4 @@ $$\lim_{ x \to -1 } f(x) = 1-\sum_{n = 2}^{+ \infty} \left( \ln\left( 1-\frac{1}
 par Leibniz
 
 #### c.
-$$g\left( -x  \right)= x - \sum_{n = 2}^{+ \infty}\left( \left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} \right)(-1)^{n}x^{n} \right) = $$
+$$g\left( x  \right)= -x - \sum_{n = 2}^{+ \infty}\left( \left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} \right)x^{n} \right) $$
