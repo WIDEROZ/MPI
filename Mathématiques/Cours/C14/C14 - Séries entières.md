@@ -278,3 +278,7 @@ $$F : \begin{cases}
 ]-R, R[ \to \mathbb{R} \\
 x \mapsto  \underset{n = 0}{\overset{+ \infty}{\sum}} \frac{a_{n}}{n+1}x^{n+1} = \underset{p = 1}{\overset{+ \infty}{\sum}} \frac{a_{p-1}}{p} x^{p}
 \end{cases} $$
+
+#### Théorème
+Soit $\sum_{n \in \mathbb{N}}a_{n}x^{n}$ une SE de rayon de CV $R > 0$ et $S$ sa somme : 
+$$S : x \mapsto \sum_{n = 0}^{+ \infty} a_{n}x^{n}$$
