@@ -49,4 +49,11 @@ $$\sum_{n= 1}^{+ \infty}\ln(n)  \text{ DVG et } \sum_{n = 1}^{ + \infty} \ln(n)(
 Ainsi, $\mathcal{D} = ]-1, 1[$, 
 
 #### b.
-$$\lim_{ n \to 1 } -\ln\left( 1-\frac{1}{n} \right)-\frac{1}{n} = -\lim_{ n \to 1} \frac{1}{n^{2}} = -1 $$
+$$-\sum_{n = 2}^{+ \infty}\left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} \right)x^{n}$$
+$$\ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} = \frac{1}{n^{2}} + o\left( \frac{1}{n^{2}} \right)$$
+alors, 
+$$-\sum_{n = 2}^{+ \infty}\left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} \right) \text{ CV}$$
+Donc, d'après le Lemme d'Abel radial : 
+$$f \in \mathcal{C}^{0}(]-1, 1])$$
+or : 
+$$\lim_{ x \to -1 } f(x) =-1- \lim_{ x \to -1 } \sum_{n = 2}^{+ \infty} \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} $$
