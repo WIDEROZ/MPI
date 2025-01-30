@@ -56,5 +56,8 @@ le long de l'axe $Ox$
 On a : 
 
 
-## Exercice 2
-#### 3.
+## Exercice 3
+#### 2.
+$$I = I_{0}\left( 1+\cos\left( \frac{2\pi}{\lambda_{0}} \delta\right) \right)$$
+
+33
