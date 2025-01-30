@@ -1,4 +1,4 @@
-## 3.5) Heuristique monotone
+w## 3.5) Heuristique monotone
 #### Définition 4
 Soit $h$ une heuristique de la distance des sommets à un sommet $w$ dans le graphe $G = (V, E)$. 
 $h$ est monotone pour tout $u \in V$, on a : 

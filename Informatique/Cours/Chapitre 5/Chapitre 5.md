@@ -37,13 +37,17 @@ Plus on se rapproche d'une équipartition plus l'entropie est élevée.
 
 #### Le vrai calcul
 Soient $E_{1}, \dots, E_{n}$, 
-$$p_{i} = \frac{\left| E_{i}\right|}{\left| E\right|}$$
+$$\boxed{p_{i} = \frac{\left| E_{i}\right|}{\left| E\right|}}$$
 La proba qu'un elt choisit dans $E$ soit dans $E_{i}$
 Pour un critère $k$ divisant $E$ en $E_{1, k}, \dots, E_{n, k}$, la valeur du gain sera la suivante : 
-$$G(E, k) = H(E) - \sum_{i = 1}^{n} p_{i}H(E_{i, k})$$
+$$\boxed{G(E, k) = H(E) - \sum_{i = 1}^{n} p_{i}H(E_{i, k})}$$
 
 #### Remarque
 Plus on arrive a discriminer grâce aux critères plus le gain sera élevé. 
 Plus le critère $k$ repartira les valeurs plus le gain sera bas. 
 
 (C'est une valeur d'incertitude)
+
+
+
+$$G(E, a_{1}) = $$
