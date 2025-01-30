@@ -357,4 +357,15 @@ $$\exists (a_{n})_{n \in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}, \forall x \in 
 
 #### Propriété
 Soit $f: D(0, 1) \to \mathbb{C}$, 
-Si $f$ est DSE sur cet ensemble 
+Si $f$ est DSE sur cet ensemble alors,
+$$f \in \mathcal{C}^{\infty}(D(0, r))$$
+et : 
+$$\forall x \in D(0, r), f(x) = \sum_{n = 0}^{+ \infty} \frac{f^{(n)}(0)}{n!} x^{n}$$
+
+# CONNAÎTRE PAR CŒUR
+Soit $x \in D_{\mathbb{R}}(0, 1)$,
+$$\frac{1}{1-x} = \sum_{n = 0}^{+ \infty} x^{n}$$
+$$\frac{1}{1+x} = \sum_{n = 0}^{+ \infty}(-1)^{n}x^{n}$$
+$$\ln(1+x) = \sum_{n = 0}^{+\infty} (-1)^{n+1} \frac{x^{n}}{n}$$
+$$\arctan(x) = \sum_{n = 0}^{+ \infty} (-1)^{n} \frac{x^{2n+1}}{2n+1} $$
+$$\forall z \in \mathbb{C}, e^{ z }= \sum_{n = 1}^{+ \infty} \frac{z^{n}}{n!}$$
