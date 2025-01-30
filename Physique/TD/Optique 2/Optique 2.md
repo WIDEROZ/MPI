@@ -54,3 +54,4 @@ le long de l'axe $Ox$
 
 #### b.
 On a : 
+
