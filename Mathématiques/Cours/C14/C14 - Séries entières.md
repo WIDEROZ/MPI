@@ -311,9 +311,17 @@ On note : $S$ sa somme infinie
 $$S'(x) = \sum_{n = 1}^{+\infty} 2\times 3^{n}x^{2n-1} = 6\sum_{p= 0}^{+ \infty} 3^{p}x^{2p+1} = 6x \sum_{p=0}^{+ \infty}(3x^{2})^{p}= \frac{6x}{1-3x^{2}}$$
 Alors, 
 $$S(x) - S(0) = \int_{0}^{x} \frac{6t}{1-3t^{2}} \, dt =- \ln(1-3x^{2}) $$
-
+___
 $$\sum a_{n} x^{n} = \sum_{n \in \mathbb{N}} 4^{n}x^{2n} + \sum_{n \in \mathbb{N}} 5^{n+1} x^{2n+1} $$
 Le rayon des SE  : $\frac{1}{2}$, $\frac{1}{\sqrt{5}}$
 donc le rayon de convergence de la somme des deux SE est : $R = \min\left\{  \frac{1}{2}, \frac{1}{\sqrt{5}}  \right\} =\frac{1}{\sqrt{5}}$ car $\frac{1}{2}\neq \frac{1}{\sqrt{5}}$
 
 $$\forall x \in \left]-\frac{1}{\sqrt{5}}, \frac{1}{\sqrt{5}}\right[, S(x) = \frac{1}{1-4x^{2}}+ \frac{5x}{1-5x^{2}}$$
+
+#### Exercice
+$$\forall x \in ]-1, 1[, \sum_{n =0}^{+ \infty} n^{3}x^{n} $$
+
+$$n^{3} = (n+1)(n+2)(n+3) -6(n+1)(n+2)+ 7(n+1) -1$$
+Alors, 
+$$S(x) = \sum_{n = 0}^{+ \infty}(n+1)(n+2)(n+3)x^{n} - 6\sum_{n = 0}^{+ \infty}(n+1)(n+2)x^{n} + 7 \sum_{n = 1}^{+ \infty}(n+1)x^{n} - \sum_{n = 0}^{+ \infty}x^{n}$$
+$$= $$
