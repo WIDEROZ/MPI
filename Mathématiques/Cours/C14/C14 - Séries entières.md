@@ -282,3 +282,15 @@ x \mapsto  \underset{n = 0}{\overset{+ \infty}{\sum}} \frac{a_{n}}{n+1}x^{n+1} =
 #### Théorème
 Soit $\sum_{n \in \mathbb{N}}a_{n}x^{n}$ une SE de rayon de CV $R > 0$ et $S$ sa somme : 
 $$S : x \mapsto \sum_{n = 0}^{+ \infty} a_{n}x^{n}$$
+$S$ est $\mathcal{C}^{\infty}$ sur $]-R, R [$, et
+$$\forall x \in ]-R, R [, S'(x) = \sum_{n = 0}^{+ \infty}na_{n}x^{n-1}$$
+$$\forall k \in \mathbb{N}^{*}, \forall x \in ]-R, R [, S^{(k)}(x) = \sum_{n = 0}^{+  \infty} n(n-1)\dots (n-k+1) a_{n}x^{n-k}$$
+$$\forall x \in ]-R, R [, S(x) = \sum_{n = 0}^{+  \infty} \frac{S^{(n)}(0)}{n!} x^{n}$$
+ie : $\forall n \in \mathbb{N}, a_{n} = \frac{S^{(n)}(0)}{n!}$
+Démonstration : 
+La fonction :
+$$g : x \mapsto \sum_{n = 1}^{+ \infty} na_{n}x^{n-1} \text{ est la somme de la série dérivée de sa SE}$$
+qui à aussi pour rayon $R$. en appliquant à $g$ le théorème précédent, on en déduis que $S$ est la primitive de $g$ s'annulant en $0$ sur $]-R, R [$.
+Donc, $S$ est $\mathcal{C}^{1}$ sur $]-R, R [$ et la première formule est vérifiée. 
+Comme $S'$ est la somme d'une SE de même rayon, on peut par récurrence montrer que : $S \in \mathcal{C}^{k}(]-R, R[)$
+$$\forall k \in \mathbb{N}^{*}, \forall x \in ]-R, R [, S^{(k)}(x) = \sum_{n = 0}^{+  \infty} n(n-1)\dots (n-k+1) a_{n}x^{n-k}$$
