@@ -335,3 +335,26 @@ $$S_{1} = S_{2} \text{ au voisinage de }0 \Leftrightarrow \forall n \in \mathbb{
 Démonstration : 
 $\Leftarrow$ : Trivial
 $\Rightarrow$ : 
+...........................
+
+#### Application
+$$S(x) = \sum_{n = 0}^{+\infty} a_{n}x^{n}$$
+alors montrons que $S$ est paire <=> $\forall n \in \mathbb{N}, a_{2n+1}=0$
+Démonstration : 
+$\Leftarrow$ : 
+$$S(-x) = S(x)$$
+$\Rightarrow$ : 
+Supposons $S$ paire : 
+$$\sum_{n = 0}^{+ \infty} a_{n}x^{n} = \sum_{n = 0}^{+ \infty} (-1)^{n} a_{n}x^{n}$$
+Donc par unicité du DSE, 
+$$\forall n \in \mathbb{N}, a_{n} = (-1)^{n}a_{n}\Rightarrow a_{2n+1}=0$$
+
+## 3. Décomposition de séries entières (DSE)
+Soit $r > 0$,
+#### Définition 
+Une fonction $f$ est définie sur $D(0, r)$ est dite développable en série entière sur $D(0, r)$ lorsque : 
+$$\exists (a_{n})_{n \in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}, \forall x \in D(0, r), f(x) = \sum_{n= 0}^{+ \infty} a_{n}x^{n}$$
+
+#### Propriété
+Soit $f: D(0, 1) \to \mathbb{C}$, 
+Si $f$ est DSE sur cet ensemble 
