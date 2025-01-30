@@ -324,4 +324,14 @@ $$\forall x \in ]-1, 1[, \sum_{n =0}^{+ \infty} n^{3}x^{n} $$
 $$n^{3} = (n+1)(n+2)(n+3) -6(n+1)(n+2)+ 7(n+1) -1$$
 Alors, 
 $$S(x) = \sum_{n = 0}^{+ \infty}(n+1)(n+2)(n+3)x^{n} - 6\sum_{n = 0}^{+ \infty}(n+1)(n+2)x^{n} + 7 \sum_{n = 1}^{+ \infty}(n+1)x^{n} - \sum_{n = 0}^{+ \infty}x^{n}$$
-$$= $$
+$$= \frac{6}{(1-x)^{4}} - \frac{12}{(1-x)^{3}}+\frac{7}{(1-x)^{2}} -\frac{1}{1-x}$$
+
+#### Corollaire
+Unicité du DSE : 
+Soient $S_{1}$ et $S_{2}$ les sommes des deux SE : de termes $a_{n}$ resp. $b_{n}$, 
+$$S_{1} \text{ est nulle au voisinage de }0 \Leftrightarrow \forall n \in \mathbb{N}, a_{n} = 0$$
+$$S_{1} = S_{2} \text{ au voisinage de }0 \Leftrightarrow \forall n \in \mathbb{N}, a_{n} = b_{n}$$
+
+Démonstration : 
+$\Leftarrow$ : Trivial
+$\Rightarrow$ : 
