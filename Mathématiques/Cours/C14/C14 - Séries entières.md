@@ -309,3 +309,11 @@ x < \frac{1}{\sqrt{3}} \text{ alors }CV
 Donc $R = \frac{1}{\sqrt{3}}$. 
 On note : $S$ sa somme infinie
 $$S'(x) = \sum_{n = 1}^{+\infty} 2\times 3^{n}x^{2n-1} = 6\sum_{p= 0}^{+ \infty} 3^{p}x^{2p+1} = 6x \sum_{p=0}^{+ \infty}(3x^{2})^{p}= \frac{6x}{1-3x^{2}}$$
+Alors, 
+$$S(x) - S(0) = \int_{0}^{x} \frac{6t}{1-3t^{2}} \, dt =- \ln(1-3x^{2}) $$
+
+$$\sum a_{n} x^{n} = \sum_{n \in \mathbb{N}} 4^{n}x^{2n} + \sum_{n \in \mathbb{N}} 5^{n+1} x^{2n+1} $$
+Le rayon des SE  : $\frac{1}{2}$, $\frac{1}{\sqrt{5}}$
+donc le rayon de convergence de la somme des deux SE est : $R = \min\left\{  \frac{1}{2}, \frac{1}{\sqrt{5}}  \right\} =\frac{1}{\sqrt{5}}$ car $\frac{1}{2}\neq \frac{1}{\sqrt{5}}$
+
+$$\forall x \in \left]-\frac{1}{\sqrt{5}}, \frac{1}{\sqrt{5}}\right[, S(x) = \frac{1}{1-4x^{2}}+ \frac{5x}{1-5x^{2}}$$
