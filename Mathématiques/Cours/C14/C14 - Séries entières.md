@@ -369,4 +369,22 @@ $$\frac{1}{1+x} = \sum_{n = 0}^{+ \infty}(-1)^{n}x^{n}$$
 $$\ln(1+x) = \sum_{n = 0}^{+\infty} (-1)^{n+1} \frac{x^{n}}{n}$$
 $$\arctan(x) = \sum_{n = 0}^{+ \infty} (-1)^{n} \frac{x^{2n+1}}{2n+1} $$
 $$\forall z \in \mathbb{C}, e^{ z }= \sum_{n = 1}^{+ \infty} \frac{z^{n}}{n!}$$
-$$\forall \alpha \in \mathbb{R}, \forall n \in \mathbb{N}, \frac{\underset{k = 0}{\overset{n-1}{\prod}} (\alpha-k)}{n!} = \binom{\alpha}{n}$$
+$$\text{ On note : }\forall \alpha \in \mathbb{R}, \forall n \in \mathbb{N}, \frac{\underset{k = 0}{\overset{n-1}{\prod}} (\alpha-k)}{n!} = \binom{\alpha}{n}$$
+Donc, 
+$$\boxed{\forall x \in ]-1, 1[, (1+x)^{\alpha}= \sum_{k = 0}^{+ \infty} \binom{\alpha}{n} x^{k}}$$
+
+Démonstration : 
+Dans le cas ou $\alpha \in\mathbb{N}$ c'est trivial. 
+Soit $\alpha \in \mathbb{R} \setminus \mathbb{N}$, 
+$$\forall x \in ]0, 1[,  \left| \frac{\binom{\alpha}{n+1}x^{n+1}}{\binom{\alpha}{n} x^{n}}\right| =\frac{\left| \alpha-n\right|x}{n+1} \underset{n \to +\infty}{\longrightarrow} x < 1$$
+Donc par d'Alembert la série est de Rayon $R = 1$ puis elle converge. 
+On pose : 
+$$S : \begin{cases}
+]-1, 1 [ \to \mathbb{R} \\
+x \mapsto  \underset{n = 0}{\overset{+ \infty}{\sum}} \binom{\alpha}{n} x^{n}
+\end{cases}$$
+En tant que somme d'une SE de rayon $1$ elle est $\mathcal{C}^{1}$ et 
+$$\forall x \in ]-1, 1 [, S'(x) = \sum_{n =1}^{+ \infty} \binom{\alpha}{n} n x^{n-1} $$
+$$= \alpha \sum_{n = 1}^{+ \infty} \binom{\alpha}{n-1} x^{n-1} - \sum_{n = 1}^{+ \infty} \binom{\alpha}{n-1}()$$
+car
+$$\forall n \in \mathbb{N}^{*}, \binom{\alpha}{n}n = \frac{\underset{k = 0}{\overset{n-2}{\prod}} (\alpha-k)}{(n-1)!}(\alpha -n+1) = \binom{\alpha}{n-1}(\alpha-n+1)$$
