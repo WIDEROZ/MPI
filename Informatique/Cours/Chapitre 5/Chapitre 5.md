@@ -50,8 +50,6 @@ Plus le critère $k$ repartira les valeurs plus le gain sera bas.
 
 
 
-$$G(E, a_{1}) = H(E) - \sum_{i = 1}^{2} p_{i} H(E_{i, a_{1}})$$
-
-$$H(E_{1, a_{1}}) = H(E_{2, a_{1}}) = \log\left( 2\right) \text{ et } p_{1}=p_{2} = \frac{1}{2}$$
-alors, 
-$$G(E, a_{1})=0.9709 - \log(2) = 0.66987$$
+$$H(E_{Hot}) = -\frac{3}{5} \log\left( \frac{3}{6} \right) - \frac{2}{5}\log\left( \frac{2}{5} \right)$$
+$$H(E_{Cool}) = -\frac{1}{5} \log\left( \frac{1}{5} \right) - \frac{4}{5}\log\left( \frac{4}{5} \right)$$
+$$p_{Hot} = p_{Cool} = \frac{1}{2}$$
