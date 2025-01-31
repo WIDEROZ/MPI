@@ -48,8 +48,3 @@ Plus le critère $k$ repartira les valeurs plus le gain sera bas.
 
 (C'est une valeur d'incertitude)
 
-
-
-$$H(E_{Hot}) = -\frac{3}{5} \log\left( \frac{3}{6} \right) - \frac{2}{5}\log\left( \frac{2}{5} \right)$$
-$$H(E_{Cool}) = -\frac{1}{5} \log\left( \frac{1}{5} \right) - \frac{4}{5}\log\left( \frac{4}{5} \right)$$
-$$p_{Hot} = p_{Cool} = \frac{1}{2}$$
