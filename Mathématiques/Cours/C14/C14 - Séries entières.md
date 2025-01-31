@@ -401,4 +401,18 @@ $$x \mapsto \frac{1}{\sqrt{1+x}} = (1+x)^{-\frac{1}{2}}$$
 
 $$\forall n \in \mathbb{N}^{*}, \binom{-\frac{1}{2}}{n}= \frac{\underset{k = 0}{\overset{n-1}{\prod}} \left( -\frac{1}{2}-k \right)}{n!} = \left( -\frac{1}{2} \right)^{n} \frac{\underset{k = 0}{\overset{n-1}{\prod}} (2k+1)}{n!} $$
 Ainsi, 
-$$\forall n \in \mathbb{N}^{*}, \binom{-\frac{1}{2}}{n} = (-) $$
+$$\forall n \in \mathbb{N}, \binom{-\frac{1}{2}}{n} = (-1)^{n} \frac{(2n)!}{4^{n}(n!)^{2}} $$
+Finalement : 
+$$\forall x \in ]-1, 1[, \frac{1}{\sqrt{1+x}} = \sum_{k = 0}^{+ \infty} (-1)^{n}  \frac{(2n)!}{4^{n}(n!)^{2}} x^{n}$$
+
+## 4. Pistes et remarques pour les DSE
+Soit $f \in ]-r,r[\to \mathbb{C}$, 
+#### Question : $f$ est-elle développable en série entière? 
+Si $f$ n'est pas $\mathcal{C}^{\infty}(]-r, r[)$ NON
+Sinon : 
+Tenter Taylor-Lagrange : 
+$$\forall n \in \mathbb{N}, \left| f(x) - \sum_{k = 0}^{n} \frac{f^{(k)}(0)}{k!} x^{k} \right| \leq \left|\left| f^{(n+1)} \right|\right| _{\infty, [0, x]} \frac{\left| x\right|^{n+1}}{(n+1)!} $$
+Marche pas toujours 
+Sinon : 
+Si $f$ est une fraction rationnelle, on DES et on utilise : 
+$$\forall \lambda \in \mathbb{C}, \forall p \in \mathbb{N}^{*}, \frac{1}{(x-\lambda)^{p}} = \frac{d^{p-1}}{dx^{p-1}} \left( x \mapsto \frac{1}{x-\lambda} \right) \times \frac{(-1)^{p-1}}{p!}$$
