@@ -427,7 +427,21 @@ Donc,
 $$\forall x \in ]-1, 1[ , \arcsin(x)-\arcsin(0) = \sum_{n = 0}^{+ \infty} \frac{(2n)!}{4^{n}(n!)^{2}} \frac{x^{2n+1}}{2n+1}$$
 
 #### CCINP 24
-###### 1.
+##### 1.
 Car : 
 $$\forall r \in \mathbb{R}, \frac{r}{2n+1} \underset{n \to +\infty}{\longrightarrow} 0$$
-par d'Alembert ainsi $$
+par d'Alembert ainsi $S$ CV sur $\mathbb{R}$ ie $R = + \infty$
+
+##### 2.
+$$ch(x) = \sum_{n = 0}^{+ \infty} \frac{x^{2n}}{(2n)!}$$
+
+##### 3.
+###### a.
+$$\begin{cases}
+\forall x \in \mathbb{R}_{+}, S(x) = ch(\sqrt{x}) \\
+\forall x \in \mathbb{R}_{-}, S(x) = \cos(\sqrt{-x})
+\end{cases}$$
+
+###### b.
+$f=S$ qui est DSE ainsi
+$$f \in \mathcal{C}^{\infty}$$
