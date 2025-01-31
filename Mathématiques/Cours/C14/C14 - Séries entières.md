@@ -385,6 +385,20 @@ x \mapsto  \underset{n = 0}{\overset{+ \infty}{\sum}} \binom{\alpha}{n} x^{n}
 \end{cases}$$
 En tant que somme d'une SE de rayon $1$ elle est $\mathcal{C}^{1}$ et 
 $$\forall x \in ]-1, 1 [, S'(x) = \sum_{n =1}^{+ \infty} \binom{\alpha}{n} n x^{n-1} $$
-$$= \alpha \sum_{n = 1}^{+ \infty} \binom{\alpha}{n-1} x^{n-1} - \sum_{n = 1}^{+ \infty} \binom{\alpha}{n-1}()$$
+$$= \alpha \sum_{n = 1}^{+ \infty} \binom{\alpha}{n-1} x^{n-1} - \sum_{n = 1}^{+ \infty} \binom{\alpha}{n-1}(n-1)x^{n-1} $$
+$$= \alpha \sum_{p=0}^{+ \infty} \binom{\alpha}{p}x^{n} -x \sum_{p = 1}^{+ \infty} \binom{\alpha}{p} p x^{p-1}$$
 car
 $$\forall n \in \mathbb{N}^{*}, \binom{\alpha}{n}n = \frac{\underset{k = 0}{\overset{n-2}{\prod}} (\alpha-k)}{(n-1)!}(\alpha -n+1) = \binom{\alpha}{n-1}(\alpha-n+1)$$
+Donc, 
+$$S'(x) = \frac{\alpha}{1+x} S(x)$$
+Alors, 
+$$S(x) = A e^{ \alpha \ln(1+x) }$$
+Or $S(0) = A$ alors, $\binom{\alpha}{0} = 1$ Ainsi, 
+$$(1+x)^{\alpha} = \sum_{n = 0}^{+ \infty} \binom{ \alpha}{n}x^{n}$$
+
+#### Exemple
+$$x \mapsto \frac{1}{\sqrt{1+x}} = (1+x)^{-\frac{1}{2}}$$
+
+$$\forall n \in \mathbb{N}^{*}, \binom{-\frac{1}{2}}{n}= \frac{\underset{k = 0}{\overset{n-1}{\prod}} \left( -\frac{1}{2}-k \right)}{n!} = \left( -\frac{1}{2} \right)^{n} \frac{\underset{k = 0}{\overset{n-1}{\prod}} (2k+1)}{n!} $$
+Ainsi, 
+$$\forall n \in \mathbb{N}^{*}, \binom{-\frac{1}{2}}{n} = (-) $$
