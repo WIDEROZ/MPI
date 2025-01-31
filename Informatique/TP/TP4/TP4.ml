@@ -155,3 +155,11 @@ parcours_prof g2 5;;
 type clause = Var of int | Non of clause | Ou of clause * clause;;
 
 let c = Ou(Ou(Var(0), Var(1)), Non(Var(2)))
+
+
+let f = [|Ou(Ou(Var(0), Var(1)),Non(Var(2))); Ou(Non(Var(1)), Var(2))|];;
+
+let rec evalue_clause (c:clause) (v:(bool array)) : bool = 
+  match c with
+  | n -> v.(n)
+  | Non(c1) -> !(evalue_clause c1 v) 
