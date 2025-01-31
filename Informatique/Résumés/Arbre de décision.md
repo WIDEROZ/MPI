@@ -48,3 +48,5 @@ Plus le critère $k$ repartira les valeurs plus le gain sera bas.
 
 (C'est une valeur d'incertitude)
 
+
+https://www.doc-solus.fr/
