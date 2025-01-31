@@ -150,3 +150,8 @@ let parcours_prof g r =
 
 parcours_profondeur g2 5;;
 parcours_prof g2 5;;
+
+
+type clause = Var of int | Non of clause | Ou of clause * clause;;
+
+let c = 
