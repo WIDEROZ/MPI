@@ -412,7 +412,12 @@ Si $f$ n'est pas $\mathcal{C}^{\infty}(]-r, r[)$ NON
 Sinon : 
 Tenter Taylor-Lagrange : 
 $$\forall n \in \mathbb{N}, \left| f(x) - \sum_{k = 0}^{n} \frac{f^{(k)}(0)}{k!} x^{k} \right| \leq \left|\left| f^{(n+1)} \right|\right| _{\infty, [0, x]} \frac{\left| x\right|^{n+1}}{(n+1)!} $$
-Marche pas toujours 
 Sinon : 
 Si $f$ est une fraction rationnelle, on DES et on utilise : 
 $$\forall \lambda \in \mathbb{C}, \forall p \in \mathbb{N}^{*}, \frac{1}{(x-\lambda)^{p}} = \frac{d^{p-1}}{dx^{p-1}} \left( x \mapsto \frac{1}{x-\lambda} \right) \times \frac{(-1)^{p-1}}{p!}$$
+Sinon :
+Voir que : $f' = x\mapsto \int_{0}^{x} f$ est elle même une DSE
+
+#### Exemple
+Calculons la DSE d'$\arcsin$ : 
+$$\forall t \in ]-1, 1[, $$
