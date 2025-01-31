@@ -418,6 +418,16 @@ $$\forall \lambda \in \mathbb{C}, \forall p \in \mathbb{N}^{*}, \frac{1}{(x-\lam
 Sinon :
 Voir que : $f' = x\mapsto \int_{0}^{x} f$ est elle même une DSE
 
-#### Exemple
+#### CCINP 51
 Calculons la DSE d'$\arcsin$ : 
-$$\forall t \in ]-1, 1[, $$
+$$\forall t \in ]-1, 1[, \frac{1}{\sqrt{1+t}} = \sum_{k = 0}^{+ \infty} (-1)^{n}  \frac{(2n)!}{4^{n}(n!)^{2}} t^{n}$$
+Alors en faisant un changement de variable : 
+$$\forall x \in ]-1, 1[, \frac{1}{\sqrt{1-x^{2}}} = \sum_{k = 0}^{+ \infty}   \frac{(2n)!}{4^{n}(n!)^{2}} x^{2n}$$
+Donc, 
+$$\forall x \in ]-1, 1[ , \arcsin(x)-\arcsin(0) = \sum_{n = 0}^{+ \infty} \frac{(2n)!}{4^{n}(n!)^{2}} \frac{x^{2n+1}}{2n+1}$$
+
+#### CCINP 24
+###### 1.
+Car : 
+$$\forall r \in \mathbb{R}, \frac{r}{2n+1} \underset{n \to +\infty}{\longrightarrow} 0$$
+par d'Alembert ainsi $$
