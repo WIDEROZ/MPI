@@ -28,3 +28,12 @@ _{Ax} \\
 _{Aff} \\
 _{\wedge, é, g}
 \end{array}$$
+
+
+$$\psi' =  x_{2} \wedge \neg x_{5} \Rightarrow \varphi \wedge \psi' = x_{0} \wedge x_{1} \wedge\neg x_{2} \wedge x_{2} \wedge \neg x_{5}$$
+
+
+
+Montrer que : $\varphi \wedge \psi' \vdash \neg x_{2}$ n'est pas valide ie que : 
+$$\varphi \wedge \psi' \cancel{ \vDash } \neg x_{2}$$
+ie que les modèles de $x_{2}$ ne sont pas les modèles de $\varphi \wedge \psi'$
