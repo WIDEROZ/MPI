@@ -13,3 +13,7 @@ $$\varphi_{2}(x_{f}) = \varphi_{2}(x_{i}) + 2\pi\left( \frac{x_{f}-x_{i}-e-\Delt
 $$\varphi_{2}(x_{f}) = \varphi_{2}(x_{i}) + \frac{2\pi}{\lambda_{0}}\left( x_{f}-x_{i} + (e+\Delta e)(n-1) \right)$$
 Ainsi,
 $$\boxed{\varphi_{2}(x_{f})- \varphi_{1}(x_{f}) = \frac{2\pi}{\lambda_{0}}(n -1)\Delta e}$$
+
+
+
+$$\varphi = $$
