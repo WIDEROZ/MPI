@@ -369,3 +369,4 @@ $$\frac{1}{1+x} = \sum_{n = 0}^{+ \infty}(-1)^{n}x^{n}$$
 $$\ln(1+x) = \sum_{n = 0}^{+\infty} (-1)^{n+1} \frac{x^{n}}{n}$$
 $$\arctan(x) = \sum_{n = 0}^{+ \infty} (-1)^{n} \frac{x^{2n+1}}{2n+1} $$
 $$\forall z \in \mathbb{C}, e^{ z }= \sum_{n = 1}^{+ \infty} \frac{z^{n}}{n!}$$
+$$\forall \alpha \in \mathbb{R}, \forall n \in \mathbb{N}, \frac{\underset{k = 0}{\overset{n-1}{\prod}} (\alpha-k)}{n!} = \binom{\alpha}{n}$$
