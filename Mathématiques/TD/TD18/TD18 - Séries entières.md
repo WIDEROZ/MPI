@@ -41,6 +41,12 @@ $$\mathrm{Re}(A) = \frac{\mathrm{Re}(e^{ i\alpha }- x)}{1-2\cos(\alpha)x+x^{2}}=
 en intégrant comme : $f(0) = 0$, 
 $$f(x) = -\frac{1}{2}\ln(1-2\cos(\alpha)x+x^{2})$$
 
+## Exercice 5
+#### b.
+$$\ln()$$
+
+
+
 ## Exercice 11
 #### a.
 $$\frac{\ln(n+1)}{\ln(n)}x \underset{n \to +\infty}{\longrightarrow} x$$

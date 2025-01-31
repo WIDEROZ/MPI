@@ -154,4 +154,4 @@ parcours_prof g2 5;;
 
 type clause = Var of int | Non of clause | Ou of clause * clause;;
 
-let c = 
+let c = Ou(Ou(Var(0), Var(1)), Non(Var(2)))

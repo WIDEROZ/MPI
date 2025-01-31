@@ -445,3 +445,4 @@ $$\begin{cases}
 ###### b.
 $f=S$ qui est DSE ainsi
 $$f \in \mathcal{C}^{\infty}$$
+
