@@ -15,5 +15,3 @@ Ainsi,
 $$\boxed{\varphi_{2}(x_{f})- \varphi_{1}(x_{f}) = \frac{2\pi}{\lambda_{0}}(n -1)\Delta e}$$
 
 
-
-$$\varphi = $$
