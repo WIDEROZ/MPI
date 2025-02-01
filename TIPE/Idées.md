@@ -12,3 +12,7 @@ $$S = \sum_{k = 0}^{+ \infty} A(\omega) \sin(\omega_{k} t)$$
 
 https://conwaylife.com/wiki/Glider_duplicator
 pour boucles
+
+https://conwaylife.com/wiki/apgcode
+https://conwaylife.com/wiki/Apgsearch
+Pour enregistrer des situations initiales
