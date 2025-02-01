@@ -37,3 +37,8 @@ Mise en commun du filtre attendu et de la modélisation dans le jeu de la vie.
 
 ##### 3. Expérience
 Essai du filtre avec plusieurs signaux différents. 
+
+
+#### Bibliographie
+\[1\] : 
+\[2\] : 
