@@ -22,6 +22,8 @@ Glider
 ##### 1. Modélisation informatique
 Détermination d'un modèle cohérent dans la représentation d'un filtre et implémentation en C
 
-##### 2. Expérience
-Essai du filtre avec plusieurs signaux différents
+##### 2. Étude du filtre
+Mise en commun du filtre attendu et de la modélisation dans le jeu de la vie.
 
+##### 3. Expérience
+Essai du filtre avec plusieurs signaux différents
