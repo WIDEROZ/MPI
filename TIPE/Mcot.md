@@ -41,4 +41,4 @@ Essai du filtre avec plusieurs signaux différents.
 
 #### Bibliographie
 \[1\] : 
-\[2\] : 
+\[2\] : Étienne Ghys, Le jeu de la vie, 12 mars 2019
