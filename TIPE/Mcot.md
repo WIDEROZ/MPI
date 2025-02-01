@@ -7,7 +7,9 @@ On étudiera alors la manière de faire transiter les informations à partir de 
 #### Positionnement thématique
 - Informatique : (Informatique Pratique : Langage C), 
 - Informatique : (Représentation Binaire)
+- Mathématiques : (Convolution)
 - Physique : (Filtrage)
+
 
 #### Mots-clés
 ##### Mots-clés en Français
@@ -18,10 +20,8 @@ Glider
 
 #### Objectif du TIPE du candidat
 ##### 1. Modélisation informatique
-Détermination d'un modèle cohérent dans la représentation d'un filtre 
+Détermination d'un modèle cohérent dans la représentation d'un filtre et implémentation en C
 
 ##### 2. Expérience
 Essai du filtre avec plusieurs signaux différents
 
-##### 3.  Traitement du résultat de l'expérience
-Étude de filtre 
