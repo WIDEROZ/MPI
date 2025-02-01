@@ -1,0 +1,2 @@
+Le Jeu de la vie est d'un point de vue informatique passionnant à étudier, il est intéressant d'étudier ses propriétés et particulièrement la Turing complétude de celui-ci. C'est pourquoi je me suis demandé si la représentation d'un filtre codé en jeu de la vie serait réalisable. 
+On étudiera alors la manière de faire transiter les informations à partir de certaines structures, comment le signal sera converti grâce au filtrage et ainsi nous observerons le signal transformé. 
