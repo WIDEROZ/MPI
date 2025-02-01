@@ -5,10 +5,23 @@ On étudiera alors la manière de faire transiter les informations à partir de 
 #### Professeur encadrant du candidat :
 
 #### Positionnement thématique
-Informatique : (Langage C), Physique : (Filtrage)
+- Informatique : (Informatique Pratique : Langage C), 
+- Informatique : (Représentation Binaire)
+- Physique : (Filtrage)
 
 #### Mots-clés
 ##### Mots-clés en Français
 Jeu de la vie
 Filtrage
 Glider
+
+
+#### Objectif du TIPE du candidat
+##### 1. Modélisation informatique
+Détermination d'un modèle cohérent dans la représentation d'un filtre 
+
+##### 2. Expérience
+Essai du filtre avec plusieurs signaux différents
+
+##### 3.  Traitement du résultat de l'expérience
+Étude de filtre 
