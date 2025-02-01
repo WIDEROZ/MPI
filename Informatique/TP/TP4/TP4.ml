@@ -162,4 +162,8 @@ let f = [|Ou(Ou(Var(0), Var(1)),Non(Var(2))); Ou(Non(Var(1)), Var(2))|];;
 let rec evalue_clause (c:clause) (v:(bool array)) : bool = 
   match c with
   | n -> v.(n)
-  | Non(c1) -> !(evalue_clause c1 v) 
+  | Non(c1) -> !(evalue_clause c1 v)
+  | Ou(c1, c2) -> (evalue_clause c1 v) || (evalue_clause c2 v)
+;;
+
+
