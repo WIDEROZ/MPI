@@ -13,4 +13,4 @@ A \text{ si } t \in \left[ n, (n+1) \frac{T}{2} \right] \\
 $$\forall n \in \mathbb{N}, \int_{n}^{(n+1)T} s(t) \, dt = \frac{AT}{2}$$
 Puis, 
 $$TF(s)(x) = \int_{-\infty}^{+\infty} e^{ -2i\pi xt } \, dx $$
-$$\frac{4A}{\pi}\sum_{n = 0}^{+ \infty} \frac{\cos\left( (2n+1) \frac{2\pi}{T} t \right)}{2n+1}$$
+$$s(t) = \frac{4A}{\pi}\sum_{n = 0}^{+ \infty} \frac{\cos\left( \frac{2n\pi}{T} t \right)}{2n}$$
