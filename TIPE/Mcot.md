@@ -11,15 +11,14 @@ On étudiera alors la manière de faire transiter les informations à partir de 
 #### Mots-clés
 ##### Mots-clés en Français
 Jeu de la vie
-Filtrage
 Glider
 Signal
-
+Filtrage
 ##### Mots-clés en Anglais
 Conway's Game of life
-Filtering
 Glider
 Signal
+Filtering
 
 #### Professeur encadrant : Xavier Rolland
 
@@ -40,5 +39,5 @@ Essai du filtre avec plusieurs signaux différents.
 
 
 #### Bibliographie
-\[1\] : Nathaniel Johnston / Encyclopédie libre, , https://conwaylife.com/wiki/
+\[1\] : Nathaniel Johnston / Encyclopédie libre, Encyclopédie du jeu de la vie, https://conwaylife.com/wiki/
 \[2\] : Étienne Ghys, Le jeu de la vie, 12 mars 2019
