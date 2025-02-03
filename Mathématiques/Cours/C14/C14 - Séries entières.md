@@ -446,3 +446,7 @@ $$\begin{cases}
 $f=S$ qui est DSE ainsi
 $$f \in \mathcal{C}^{\infty}$$
 
+
+# III. Application des DSE
+Résoudre certaines EDL
+Prouver simplement qu'une fonction est $\mathcal{C}^{\infty}$
