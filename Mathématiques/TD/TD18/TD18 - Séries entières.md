@@ -47,7 +47,9 @@ $$f'(x) = \frac{1}{1-x^{2}} + \frac{x}{1+x^{2}}f(x)$$
 Ainsi, 
 $$(1-x^{2})f'(x) - xf(x) = 1$$
 #### c.
-Injecter la série entière dans l'équation différentielle
+Injecter la série entière de coef $a_{n}$ dans l'équation différentielle
+
+
 
 ## Exercice 11
 #### a.
