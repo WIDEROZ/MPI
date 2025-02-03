@@ -14,7 +14,14 @@ On fout un télescope en orbite et puis beaucoup de miroirs dans celui-ci,
 
 ## Exercice 2
 #### 1.
-$$\lambda_{0} = \frac{c}{\nu} \Rightarrow \Delta\lambda_{0} = c \space \Delta\left(  \frac{1}{\nu} \right)= c\Delta \tau_{C} \sim \frac{c}{\Delta \nu}$$
+$$\lambda_{0} = \frac{c}{\nu} \Rightarrow \Delta\lambda_{0} = c \space \Delta\left(  \frac{1}{\nu} \right)= c \frac{\Delta \nu}{\nu_{m}^{2}} \sim \frac{c}{\nu_{m}^{2}\Delta\tau_{c}}$$
+$$\Delta \lambda_{0} \sim \frac{\lambda_{m}^{2}}{c \tau_{c}} = \frac{\lambda_{m}^{2}}{L_{c}}$$
+Ainsi ça marche 
+
+#### 2.
+$$NT_{m} = \tau_{c} \Rightarrow N = \frac{\tau_{c}c}{\lambda_{m}}$$
+
+
 
 
 ## Exercice 5
