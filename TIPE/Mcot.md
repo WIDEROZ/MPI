@@ -12,11 +12,14 @@ On étudiera alors la manière de faire transiter les informations à partir de 
 ##### Mots-clés en Français
 Jeu de la vie
 Glider
+Simple DirectMedia Layer
 Signal
 Filtrage
+
 ##### Mots-clés en Anglais
 Conway's Game of life
 Glider
+Simple DirectMedia Layer
 Signal
 Filtering
 
