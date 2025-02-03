@@ -30,7 +30,7 @@ Le Jeu de la vie de John Conway est un automate cellulaire qui simule l'évoluti
 
 
 #### Problématique
-Il s'agit de concevoir un système de filtrage d'un signal donné en entrée modélisé dans le jeu de la vie, puis d'étudier 
+Il s'agit de concevoir un système de filtrage d'un signal donné en entrée modélisé dans le jeu de la vie, puis d'étudier le nombre de génération que met le jeu de la vie à filtrer le signal. 
 
 
 #### Objectif du TIPE
@@ -41,7 +41,7 @@ Détermination d'un modèle cohérent dans la représentation d'un filtre et imp
 Mise en commun du filtre attendu et de la modélisation dans le jeu de la vie.
 
 ##### 3. Expérience
-Essai du filtre avec plusieurs signaux différents. 
+Essai du filtre avec plusieurs signaux différents et calcul du nombre de générations 
 
 
 #### Bibliographie
