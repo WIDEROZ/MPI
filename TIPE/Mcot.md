@@ -26,7 +26,7 @@ Filtering
 #### Professeur encadrant : Xavier Rolland
 
 #### Bibliographie commentée
-
+Le Jeu de la vie de John Conway est un automate cellulaire qui simule l'évolution de cellules sur une grille selon des règles simples qui sont :  Une cellule naît si elle possède exactement trois voisines vivantes, elle meurt si elle a une ou plus de quatre cellules voisines vivantes, elle reste à l'état actuel si exactement deux cellules autour sont en v  \[1\]\[2\]
 
 
 
