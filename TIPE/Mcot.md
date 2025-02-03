@@ -49,3 +49,4 @@ Essai du filtre avec plusieurs signaux différents et calcul du nombre de géné
 \[2\] : Étienne Ghys, Le jeu de la vie, 12 mars 2019
 \[3\] : Encyclopédie libre, Documentation informatique, https://wiki.libsdl.org/SDL2/APIByCategory/
 \[4\] : Nathaniel Johnston and Dave Greene, Conway’s Game of Life Mathematics and Construction, DOI : 10.5281/zenodo.6097284, ISBN : 978-1-794-81696-1
+
