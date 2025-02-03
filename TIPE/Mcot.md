@@ -41,3 +41,4 @@ Essai du filtre avec plusieurs signaux différents.
 #### Bibliographie
 \[1\] : Nathaniel Johnston / Encyclopédie libre, Encyclopédie du jeu de la vie, https://conwaylife.com/wiki/
 \[2\] : Étienne Ghys, Le jeu de la vie, 12 mars 2019
+\[\]

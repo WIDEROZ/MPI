@@ -450,3 +450,4 @@ $$f \in \mathcal{C}^{\infty}$$
 # III. Application des DSE
 Résoudre certaines EDL
 Prouver simplement qu'une fonction est $\mathcal{C}^{\infty}$
+DL en 0 
