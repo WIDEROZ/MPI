@@ -12,15 +12,15 @@ On étudiera alors la manière de faire transiter les informations à partir de 
 ##### Mots-clés en Français
 Jeu de la vie
 Glider
-Simple DirectMedia Layer
 Signal
+Simple DirectMedia Layer (SDL)
 Filtrage
 
 ##### Mots-clés en Anglais
 Conway's Game of life
 Glider
-Simple DirectMedia Layer
 Signal
+Simple DirectMedia Layer (SDL)
 Filtering
 
 #### Professeur encadrant : Xavier Rolland
@@ -30,7 +30,7 @@ Le Jeu de la vie de John Conway est un automate cellulaire qui simule l'évoluti
 
 
 #### Problématique
-Il s'agit de concevoir un système de filtrage d'un signal donné en entrée modélisé dans le jeu de la vie, puis d'étudier le nombre de génération que met le jeu de la vie à filtrer le signal. 
+Il s'agit de concevoir un système de filtrage qui puisse satisfaire tout signal donné en entrée modélisé dans le jeu de la vie, puis d'étudier le nombre de génération que met le jeu de la vie à filtrer le signal. 
 
 
 #### Objectif du TIPE
@@ -41,12 +41,11 @@ Détermination d'un modèle cohérent dans la représentation d'un filtre et imp
 Mise en commun du filtre attendu et de la modélisation dans le jeu de la vie.
 
 ##### 3. Expérience
-Essai du filtre avec plusieurs signaux différents et calcul du nombre de générations 
+Essai du filtre avec plusieurs signaux différents et calcul du nombre de générations nécessaires. 
 
 
 #### Bibliographie
 \[1\] : Nathaniel Johnston / Encyclopédie libre, Encyclopédie du jeu de la vie, https://conwaylife.com/wiki/
 \[2\] : Étienne Ghys, Le jeu de la vie, 12 mars 2019
-\[3\] : Encyclopédie libre,  https://wiki.libsdl.org/SDL2/APIByCategory/
-
+\[3\] : Encyclopédie libre, Documentation informatique, https://wiki.libsdl.org/SDL2/APIByCategory/
 
