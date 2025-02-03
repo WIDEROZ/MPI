@@ -73,3 +73,18 @@ par Leibniz
 
 #### c.
 $$g\left( x  \right)= -x - \sum_{n = 2}^{+ \infty}\left( \left( \ln\left( 1-\frac{1}{n} \right)+\frac{1}{n} \right)x^{n} \right) $$
+
+
+## Exercice 9
+#### a.
+Produit de cauchy : 
+$$f(x)^{2} = \sum_{n = 0}^{+ \infty}a_{n+1}x^{n}$$
+Alors, 
+$$xf(x)^{2} = \sum_{n = 1}^{+ \infty} a_{n}x^{n}  = f(x) -1$$
+car $a_{0}=1$
+
+Ainsi, 
+$$xf(x)^{2} - f(x) +1 = 0$$
+
+#### b.
+$$2f(x) -1  = 2x^{2}f(x)^{2}-2x$$
