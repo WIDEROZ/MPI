@@ -34,5 +34,8 @@ $$\delta = (SM)_{2} - (SM)_{1} = (AB) + (BC) + (CM) - (AH) - (HM)$$
 On considère la situation fictive dans laquelle la source serait en $M$ dans ce cas le th de malus-dupin serait applicable alors $H$ et $C$ sont sur la même surface d'onde donc : 
 $$\delta = (AB) + (BC) - (AH) = 2\frac{ne}{\cos(r)} -\dots$$
 
-$$\varphi_{M_{2}} =  \varphi_{M_{1}} +k (M_{1}M_{2})$$
-$$k = $$
+$$\varphi_{M_{2}} =  \varphi_{M_{1}} +  \frac{2\pi}{\lambda_{0}}(M_{1}M_{2})$$
+$$\vec{k}_{1} = k_{1} (\sin(\theta_{1})-\cos(\theta_{1})\vec{e}_{z}) = \frac{2\pi}{\lambda_{0}}n_{1}(\sin(\theta_{1})-\cos(\theta_{1})\vec{e}_{z})$$
+$$\vec{k}_{2} = k_{2} (\sin(\theta_{2})-\cos(\theta_{2})\vec{e}_{z}) = \frac{2\pi}{\lambda_{0}}n_{2}(\sin(\theta_{2})-\cos(\theta_{2})\vec{e}_{z})$$
+
+$$\varphi_{M_{2}} = \varphi_{M_{1}} + \frac{2\pi}{\lambda_{0}}(n_{1}l_{1} + n_{2}l_{2}) = \varphi_{M_{1}} + \frac{2\pi}{\lambda_{0}}()$$
