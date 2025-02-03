@@ -87,4 +87,6 @@ Ainsi,
 $$xf(x)^{2} - f(x) +1 = 0$$
 
 #### b.
-$$2f(x) -1  = 2x^{2}f(x)^{2}-2x$$
+$$2xf(x) -1  = 2x^{2}f(x)^{2}-2x-1$$
+On reviens a la forme canonique : 
+$$= \left( f(x)- \frac{1}{2x} \right)$$
