@@ -1,9 +1,9 @@
 # Filtrage d'un signal codé en Jeu de la vie
 Le Jeu de la vie est d'un point de vue informatique passionnant à étudier, il est intéressant d'étudier ses propriétés et particulièrement la Turing complétude de celui-ci. C'est pourquoi je me suis demandé si la représentation d'un filtre codé en jeu de la vie serait réalisable. 
-On étudiera alors la manière de faire transiter les informations à partir de certaines structures, comment le signal sera converti grâce au filtrage et ainsi nous observerons le signal transformé. 
+On étudiera alors la manière de faire transiter les informations à partir de certaines structures dans le jeu de la vie, comment le signal sera converti grâce au filtrage et ainsi nous observerons le signal transformé. 
 
 #### Positionnement thématique
-- Informatique : (Informatique Pratique : Langage C), 
+- Informatique : (Informatique Pratique : Langage C)
 - Informatique : (Binaire)
 - Mathématiques : (Convolution)
 - Physique : (Filtrage)
@@ -26,8 +26,11 @@ Filtering
 #### Professeur encadrant : Xavier Rolland
 
 #### Bibliographie commentée
-Le Jeu de la vie de John Conway est un automate cellulaire qui simule l'évolution de cellules sur une grille selon des règles simples qui sont :  Une cellule naît si elle possède exactement trois voisines vivantes, elle meurt si elle a une ou plus de quatre cellules voisines vivantes, elle reste à l'état actuel si exactement deux cellules autour sont en v  \[1\]\[2\]
+Le Jeu de la vie de John Conway est un automate cellulaire qui simule l'évolution de cellules sur une grille selon des règles simples qui sont décrites par la naissance et la mort de certaines cellules : une cellule naît si elle possède exactement trois voisines vivantes, elle meurt si elle n'a aucune, une, ou plus de quatre cellules voisines vivantes, elle reste à l'état actuel si exactement deux cellules autour sont en vie \[1\]\[2\]
 
+
+#### Problématique
+Il s'agit de concevoir un système de filtrage d'un signal modélisé dans le jeu de la vie.
 
 
 #### Objectif du TIPE
