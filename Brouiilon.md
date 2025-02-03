@@ -4,6 +4,6 @@ C'est un automate cellulaire qui simule l'évolution de cellules avec deux état
 De plus, 
 
 
-Enfin, l'implémentation informatique du Jeu de la vie repose souvent sur des bibliothèques spécialisées permettant de gérer efficacement l'affichage et la mise à jour des cellules sur la grille. La bibliothèque SDL2, bien connue pour le développement d'applications graphiques, est souvent employée pour visualiser les évolutions du modèle en temps réel \[3\]. Son utilisation facilite l'expérimentation et permet d’explorer diverses variantes du modèle en modifiant dynamiquement les règles du jeu ou les conditions initiales.
+Enfin, l'implémentation informatique du Jeu de la vie repose souvent sur des bibliothèques spécialisées permettant de gérer efficacement l'affichage et la mise à jour des cellules sur la grille. La bibliothèque SDL2, bien connue pour le développement d'applications graphiques, est bien utile pour visualiser les évolutions du modèle en temps réel \[3\]. Son utilisation facilite l'expérimentation et permet d’explorer diverses variantes du modèle en suivant les règles du jeu de la vie et les conditions initiales.
 
-Ces différents éléments montrent que, bien qu’étant un modèle à la base ludique, le Jeu de la vie constitue un véritable objet d’étude en mathématiques et en informatique, avec des applications et des implications théoriques profondes.
+Ces différents éléments montrent que, bien qu’étant un modèle à la base ludique, le Jeu de la vie constitue un véritable objet d’étude en mathématiques et en informatique, même physique avec des applications.
