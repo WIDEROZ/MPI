@@ -87,6 +87,8 @@ Ainsi,
 $$xf(x)^{2} - f(x) +1 = 0$$
 
 #### b.
-$$2xf(x) -1  = 2x^{2}f(x)^{2}-2x-1$$
-On reviens a la forme canonique : 
-$$= \left( f(x)- \frac{1}{2x} \right)$$
+$$xf(x)^{2} -f(x) +1 = 0$$
+On revient à la forme canonique : pour $x \in ]-\frac{1}{4}, \frac{1}{4}[$
+$$\left( f(x)- \frac{1}{2x} \right)^{2} = -\frac{1}{x} + \frac{1}{4x^{2}} \Rightarrow \left( \frac{2xf(x)-1}{2x} \right)^{2} = \frac{1-4x}{4x^{2}}> 0$$
+
+Pas si simple que ça la suite
