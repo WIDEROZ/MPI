@@ -24,6 +24,7 @@ $$NT_{m} = \tau_{c} \Rightarrow N = \frac{\tau_{c}c}{\lambda_{m}}$$
 
 
 
+
 ## Exercice 5
 #### 1.
 $$(SM)_{1} = (SA) + (AH)+ (HM)$$
@@ -32,3 +33,6 @@ $$(SM)_{2} = (SA) + (AB) + (BC) + (CM)$$
 $$\delta = (SM)_{2} - (SM)_{1} = (AB) + (BC) + (CM) - (AH) - (HM)$$
 On considère la situation fictive dans laquelle la source serait en $M$ dans ce cas le th de malus-dupin serait applicable alors $H$ et $C$ sont sur la même surface d'onde donc : 
 $$\delta = (AB) + (BC) - (AH) = 2\frac{ne}{\cos(r)} -\dots$$
+
+$$\varphi_{M_{2}} =  \varphi_{M_{1}} +k (M_{1}M_{2})$$
+$$k = $$
