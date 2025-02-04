@@ -26,3 +26,10 @@ car $k^{2p} e^{ -k }\geq 0$
 
 ## Question 8
 $$\sum_{p \geq 0} \frac{p^{2p}e^{ -p }}{p!}x^{p}$$
+$$\frac{(p+1)^{2(p+1)}}{(p+1)p^{2p} e} x = \frac{(p+1)^{2p}(p+1)}{p^{2p}e} x = \frac{\left( 1+\frac{1}{p} \right)^{2p} (p+1)}{e}x$$
+$$\sim e(p+1)x \underset{p \to +\infty}{\longrightarrow}  + \infty$$
+Ainsi $R = 0$. 
+
+## Question 9
+$$\frac{1}{1+x^{2}} = \frac{a}{x-i} + \frac{b}{x+i}$$
+$$\frac{1}{1+x^{2}} = \frac{a}{}$$
