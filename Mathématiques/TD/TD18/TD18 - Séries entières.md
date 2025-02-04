@@ -92,4 +92,3 @@ On revient à la forme canonique : pour $x \in ]-\frac{1}{4}, \frac{1}{4}[$
 $$\left( f(x)- \frac{1}{2x} \right)^{2} = -\frac{1}{x} + \frac{1}{4x^{2}} \Rightarrow \left( \frac{2xf(x)-1}{2x} \right)^{2} = \frac{1-4x}{4x^{2}}> 0$$
 
 Pas si simple que ça la suite
-
