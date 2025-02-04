@@ -5,4 +5,8 @@ $e^{ -t }$ est intégrable sur $[0, + \infty[$, car continue sur $[0, + \infty[$
 ## Question 5
 $$f^{(p)}(x) = i^{p} \int_{0}^{+ \infty} t^{2p} e^{ -t }e^{ i t^{2}x} \, dt$$
 Alors,  
-$$f^{(p)} = i^{p} \int_{0}^{+ \infty} t^{2p} \, dx  $$
+$$f^{(p)}(0) = i^{p} \int_{0}^{+ \infty} t^{2p} e^{ -t } \, dt = i^{p} (2p)!$$
+$$\left| \frac{f^{(p+1)}(0)p!}{f^{(p)}(0)(p+1)!}x\right| = \frac{(2p+2)(2p+1)}{p+1}x \underset{p\to +\infty}{\longrightarrow} + \infty$$
+Ainsi, $\sum$ DV
+
+## Question
