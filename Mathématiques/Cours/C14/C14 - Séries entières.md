@@ -498,4 +498,18 @@ $G_{X}$ est $\mathcal{C}^{\infty}$ sur $]-R, R[$ en tant que somme d'une SE de r
 $$\left|\left| f \right|\right|_{\infty, [-1,1]} = \mathbb{P}(X = n) \text{ CV}$$
 Comme la série : d
 $$\sum_{n \in \mathbb{N}} \mathbb{P}(X = n) \text{ CV}$$
-$$\sum f_{n} \text{ CVN} \text{ sur } [-1, 1] \text{ et donc } G_{x} $$
+$$\sum f_{n} \text{ CVN} \text{ sur } [-1, 1] \text{ et donc } G_{X} \text{ est }\mathcal{C}^{0}([-1, 1]) $$
+___
+$$\forall t \in [0, R[, G'_{X}(t) = \sum_{n = 1}^{+\infty} n\mathbb{P}(X=n)t^{n-1} \geq 0$$
+$$\forall t \in [0, R[, G''_{X}(t) = \sum_{n = 2}^{+\infty} n(n-1)\mathbb{P}(X=n)t^{n-2} \geq 0$$
+$$G_{X}(1) = \sum_{n = 1}^{+\infty} \mathbb{P}(X=n) = 1$$
+
+#### Propriété
+$$\forall X, Y : \Omega \to \mathbb{N}, G_{X} = G_{Y} \Rightarrow \mathbb{P}_{X} = \mathbb{P}_{Y}$$
+
+#### Propriété
+$$X \text{ est d'espérance finie } \Leftrightarrow G'_{X} (1) = \mathbb{E}(X)$$
+$$X \text{ admet une variance} \Leftrightarrow \begin{cases}
+G''_{X} \text{ admet une dérivée seconde} \\
+G_{X}(1) = \mathbb{E}(X(X-1))
+\end{cases}$$
