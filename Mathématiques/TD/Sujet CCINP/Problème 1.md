@@ -48,6 +48,12 @@ Ainsi,
 
 ## Question 10
 Soit $n \in \mathbb{N}$ tq 
-$$\varphi^{(n)}(x) = \frac{(-1)^{p}p!}{(x-i)^{p+1}}$$
+$$\varphi^{(p)}(x) = \frac{(-1)^{p}p!}{(x-i)^{p+1}}$$
 Alors, 
-$$\varphi^{(n+1)}(x) = $$
+$$\varphi^{(p+1)}(x) =  \frac{(-1)^{p+1}(p+1)!}{(x-i)^{p+2}} $$
+
+
+## Question 11
+Par analogie, 
+$$\varphi_{2}^{(p)}(x) = \frac{(-1)^{p}p!}{(x+1)^{p+1}}$$
+$$\varphi_{1}^{(p)}(x) = -\frac{1}{2}i\varphi^{(p)}(x) + \frac{1}{2}i \varphi_{2}^{(p)}(x)$$
