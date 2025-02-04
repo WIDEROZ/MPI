@@ -518,4 +518,5 @@ G_{X}(1) = \mathbb{E}(X(X-1))
 \end{cases}$$
 
 #### Théorème
-Soit $n \in \mathbb{N}^{*}$ et $X_{1}, \dots, X_{n} \in \Omega \to \mathbb{N}$ des VA
+Soit $n \in \mathbb{N}^{*}$ et $X_{1}, \dots, X_{n} \in \Omega \to \mathbb{N}$ des VA mutuellement indépendantes
+$$\forall t \in [-1, 1], G_{X_{1} + \dots + X_{n}}(t) = \prod_{k = 1}^{n} G_{X_{k}}(t)$$
