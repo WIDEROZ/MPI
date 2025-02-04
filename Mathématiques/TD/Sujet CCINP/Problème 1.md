@@ -60,7 +60,7 @@ et comme $\frac{1}{1+x^{2}} = -\frac{1}{2}i\left( \frac{1}{x-i} - \frac{1}{x+i} 
 $$\varphi_{1}^{(p)}(x) = -\frac{1}{2}i\varphi^{(p)}(x) + \frac{1}{2}i \varphi_{2}^{(p)}(x)$$
 
 ## Question 12
-$$\left| (x+i)^{p+1}-(x-i)^{p+1} \right| \leq |x+i|^{p+1} + |x-i|^{p+1} \leq 2(x+1)^{\frac{p+1}{2}}$$
+$$\left| (x+i)^{p+1}-(x-i)^{p+1} \right| \leq |x+i|^{p+1} + |x-i|^{p+1} = 2(x^{2}+1)^{\frac{p+1}{2}}$$
 
 $$\varphi_{1}^{(p)}(x) = \frac{1}{2}i(-1)^{p}p!\left( \frac{1}{(x+i)^{p+1}}-\frac{1}{(x-i)^{p+1}} \right)$$
 
