@@ -476,7 +476,26 @@ Si $\mathbb{P}_{X} = \mathcal{B}(n, p)$ où $0 < p <1$ et $n \in \mathbb{N}$,
 $$G_{X} : t \mapsto \sum_{k = 0}^{n} \binom{n}{k} p^{k} (1-p)^{n-k}  t^{k} = ((1-p) + pt)^{n}$$
 Si $\mathbb{P}_{X} = \mathbb{U}([\![0,n]\!])$ où $n \in \mathbb{N}$, 
 $$ G_{X} : t \mapsto \sum_{k = 0}^{n} \frac{1}{n+1} t^{k} = \frac{1}{n+1} \times \frac{t^{n+1}-1}{t-1}$$
-Si $\mathbb{P}_{X} = {G}(p)$ où $n \in \mathbb{N}$, 
-$$ G_{X} : t \mapsto \sum_{k = 0}^{n} p(1-p)^{n-1} t^{n} = \frac{pt}{1-qt}$$
-Si $\mathbb{P}_{X} = \mathcal{P}([\![0,n]\!])$ où $n \in \mathbb{N}$, 
-$$ G_{X} : t \mapsto \sum_{k = 0}^{n} p(1-p)^{n-1} t^{n} = \frac{pt}{1-qt}$$
+Si $\mathbb{P}_{X} = {G}(p)$ où  $0 < p <1$, 
+$$$$
+(définie sur $]-\frac{1}{q}, \frac{1}{q}[$)
+Si $\mathbb{P}_{X} = \mathcal{P}(\lambda)$ où $n \in \mathbb{N}$, 
+$$ G_{X} : t \mapsto \sum_{k = 0}^{+\infty} e^{ -\lambda } \frac{\lambda^{n}}{n!} t^{n} = e^{ -\lambda }e^{ \lambda t }$$
+
+
+#### Propriétés
+Le rayon de convergence $R$ de 
+$$\sum_{n \in \mathbb{N}} \mathbb{P}(X = n)t^{n}$$
+est supérieur ou égal à $1$
+
+$G_{X}$ est continue sur $]-1, 1[$
+$G_{X}$ est croissante convexe sur $[0, R[$
+$$G_{X}(0) = \mathbb{P}(X = 0) \text{ et } G_{X}(1) = 1$$
+Démonstration : 
+Bornée
+___
+$G_{X}$ est $\mathcal{C}^{\infty}$ sur $]-R, R[$ en tant que somme d'une SE de rayon $R$ donc sur $]-1, 1 [$ car $R \geq 1$ , elle est continue sur $[-1, 1]$ car si on note : $f_{n} : t \mapsto \mathbb{P}(X = n)t^{n}$, $f_{n}$ est $\mathcal{C}^{0}([-1, 1])$ 
+$$\left|\left| f \right|\right|_{\infty, [-1,1]} = \mathbb{P}(X = n) \text{ CV}$$
+Comme la série : d
+$$\sum_{n \in \mathbb{N}} \mathbb{P}(X = n) \text{ CV}$$
+$$\sum f_{n} \text{ CVN} \text{ sur } [-1, 1] \text{ et donc } G_{x} $$
