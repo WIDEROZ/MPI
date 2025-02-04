@@ -508,8 +508,11 @@ $$G_{X}(1) = \sum_{n = 1}^{+\infty} \mathbb{P}(X=n) = 1$$
 $$\forall X, Y : \Omega \to \mathbb{N}, G_{X} = G_{Y} \Rightarrow \mathbb{P}_{X} = \mathbb{P}_{Y}$$
 
 #### Propriété
-$$X \text{ est d'espérance finie } \Leftrightarrow G'_{X} (1) = \mathbb{E}(X)$$
+$$X \text{ est d'espérance finie } \Leftrightarrow \begin{cases}
+G_{X} \text{ est dérivable en }1^{-} \\
+G'_{X} (1) = \mathbb{E}(X)
+\end{cases}$$
 $$X \text{ admet une variance} \Leftrightarrow \begin{cases}
-G''_{X} \text{ admet une dérivée seconde} \\
+G''_{X} \text{ admet une dérivée seconde en } 1^{-} \\
 G_{X}(1) = \mathbb{E}(X(X-1))
 \end{cases}$$
