@@ -16,6 +16,3 @@ $$\mathcal{E} = \mathcal{P} \times \Delta t = 10 \text{ M}$$
 $$T_{S} = \frac{2.9 \times 10^{-3}}{\lambda_{m}} = 5577 \text{ K}$$
 
 #### 2.
-$$\mathcal{P}_{sol, emis, \text{ a sa surface}} = 4\pi R_{S}^{2} \sigma T_{S}^{4} $$
-$$\mathcal{P}_{recu, terre} = \frac{4\pi R_{T}^{2}}{3}\sigma T_{T}^{4}$$
-$\frac{1}{3}$ viens de la portion éclairé par le soleil
