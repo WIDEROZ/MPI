@@ -452,3 +452,7 @@ Résoudre certaines EDL
 Prouver simplement qu'une fonction est $\mathcal{C}^{\infty}$
 DL en 0 
 Relation entre Équation différentielle et suite
+
+# Fonctions génératrices de variables aléatoires
+#### Définition
+Soit $X : (O$

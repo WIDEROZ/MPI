@@ -1,6 +1,6 @@
 # Filtrage d'un signal codé en Jeu de la vie
 Le Jeu de la vie est d'un point de vue informatique passionnant à étudier, il est intéressant d'étudier ses propriétés et particulièrement la Turing complétude de celui-ci. C'est pourquoi je me suis demandé si la représentation d'un filtre codé en jeu de la vie serait réalisable. 
-On étudiera alors la manière de faire transiter les informations à partir de certaines structures dans le jeu de la vie, comment le signal sera converti grâce au filtrage et ainsi nous observerons le signal transformé. 
+On étudiera alors la manière de faire transiter les informations à l'aide de différentes structures dans le jeu de la vie, comment le signal sera converti grâce au filtrage et ainsi nous observerons le signal transformé. 
 
 #### Positionnement thématique
 - Informatique : (Informatique Pratique)
@@ -46,15 +46,10 @@ Mise en commun du filtre attendu et de la modélisation dans le jeu de la vie.
 ##### 3. Expérience
 Essai du filtre avec plusieurs signaux différents et calcul du nombre de générations nécessaires. 
 
-#### Abstract
-The Turing-completeness of the Conway's game of life raises questions about how can I model a filter, 
 
 #### Bibliographie
 \[1\] : Nathaniel Johnston / Encyclopédie libre, Encyclopédie du jeu de la vie, https://conwaylife.com/wiki/
 \[2\] : Étienne Ghys, Le jeu de la vie, 12 mars 2019
 \[3\] : Encyclopédie libre, Documentation informatique, https://wiki.libsdl.org/SDL2/APIByCategory/
 \[4\] : Nathaniel Johnston and Dave Greene, Conway’s Game of Life Mathematics and Construction, DOI : 10.5281/zenodo.6097284, ISBN : 978-1-794-81696-1
-
-
-
-
+	
