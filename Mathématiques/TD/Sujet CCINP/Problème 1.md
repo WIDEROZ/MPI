@@ -19,4 +19,10 @@ et $f \in \mathcal{C}^{\infty}$
 $g \in \mathcal{C}^{\infty}$
 
 ## Question 7
-$$g^{(p)}(x) = \sum_{k = 0}^{+ \infty} (ik^{2})^{p} e^{ -k() }$$
+$$g^{(p)}(x) = \sum_{k = 0}^{+ \infty} (ik^{2})^{p} e^{ -k(1-ikx) }$$
+$$g^{(p)}(0) = \sum_{k = 0}^{+ \infty} (ik^{2})^{p} e^{ -k }$$
+$$\left| g^{(p)}(0)\right| = \left| \sum_{k = 0}^{+ \infty} k^{2p} e^{ -k }\right|  \geq p^{2p} e^{ -p }$$
+car $k^{2p} e^{ -k }\geq 0$
+
+## Question 8
+$$\sum_{p \geq 0} \frac{p^{2p}e^{ -p }}{p!}x^{p}$$
