@@ -96,4 +96,4 @@ Pas si simple que ça la suite
 
 ## Exercice 15
 #### a.
-$$\tan ^{(n+1)}(x) = (\tan ^{2})^{(n)} = \sum_{k = 1}^{n} \binom{n}{k}$$
+$$\tan ^{(n+1)}(x) = (\tan ^{2})^{(n)} = \sum_{k = 0}^{n} \binom{n}{k}\tan ^{(k)}\tan ^{(n-k)}$$
