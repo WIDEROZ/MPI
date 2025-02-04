@@ -10,7 +10,13 @@ $$\left| \frac{f^{(p+1)}(0)p!}{f^{(p)}(0)(p+1)!}x\right| = \frac{(2p+2)(2p+1)}{p
 Ainsi, $\sum$ DV donc $R = 0$
 
 ## Question 6
-$$\sup_{x \in \mathbb{R}} \left| e^{ -k(1-ikx) }\right| = e^{ -k } \underset{k \to +\infty}{\longrightarrow} 0$$
-Donc, $\sum$ CVN => CVS
 puis, 
-$$\forall x \in \mathbb{R}, $$
+$$\forall x \in \mathbb{R}, f'(x) = ik^{2}e^{ -k(1-ikx) } \Rightarrow f^{(p)}(x)=(ik^{2})^{p} e^{ -k(1-ikx) }$$
+Alors, 
+$$\sup \left| f^{(p)}\right| = (ik^{2})^{p} e^{ -k } $$
+$$\sum  f^{(p)}  \text{ CVN} \Rightarrow \text{CVU}$$
+et $f \in \mathcal{C}^{\infty}$
+$g \in \mathcal{C}^{\infty}$
+
+## Question 7
+$$g^{(p)}(x) = \sum_{k = 0}^{+ \infty} (ik^{2})^{p} e^{ -k() }$$
