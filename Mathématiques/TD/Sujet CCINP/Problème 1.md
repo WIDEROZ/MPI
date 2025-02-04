@@ -32,4 +32,22 @@ Ainsi $R = 0$.
 
 ## Question 9
 $$\frac{1}{1+x^{2}} = \frac{a}{x-i} + \frac{b}{x+i}$$
-$$\frac{1}{1+x^{2}} = \frac{a}{}$$
+$$\frac{1}{1+x^{2}} = \frac{a(x+i)+b(x-i)}{x^{2}+1}$$
+Donc , 
+$$\begin{cases}
+a+b = 0 \\
+(a-b)i = 1
+\end{cases} \Rightarrow \begin{cases}
+a+b = 0 \\
+a-b = -i
+\end{cases} \Rightarrow \begin{cases}
+a = -\frac{i}{2} \\
+b = \frac{i}{2}
+\end{cases}$$
+Ainsi, 
+
+## Question 10
+Soit $n \in \mathbb{N}$ tq 
+$$\varphi^{(n)}(x) = \frac{(-1)^{p}p!}{(x-i)^{p+1}}$$
+Alors, 
+$$\varphi^{(n+1)}(x) = $$
