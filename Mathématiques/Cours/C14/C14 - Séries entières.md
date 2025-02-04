@@ -474,3 +474,9 @@ Si $\mathbb{P}_{X} = \mathcal{B}(p)$ où $0 < p <1$,
 $$ G_{X} : t \mapsto \mathbb{P}(X = 0) + \mathbb{P}(X = 1)t = (1-p) + pt $$
 Si $\mathbb{P}_{X} = \mathcal{B}(n, p)$ où $0 < p <1$ et $n \in \mathbb{N}$, 
 $$G_{X} : t \mapsto \sum_{k = 0}^{n} \binom{n}{k} p^{k} (1-p)^{n-k}  t^{k} = ((1-p) + pt)^{n}$$
+Si $\mathbb{P}_{X} = \mathbb{U}([\![0,n]\!])$ où $n \in \mathbb{N}$, 
+$$ G_{X} : t \mapsto \sum_{k = 0}^{n} \frac{1}{n+1} t^{k} = \frac{1}{n+1} \times \frac{t^{n+1}-1}{t-1}$$
+Si $\mathbb{P}_{X} = {G}(p)$ où $n \in \mathbb{N}$, 
+$$ G_{X} : t \mapsto \sum_{k = 0}^{n} p(1-p)^{n-1} t^{n} = \frac{pt}{1-qt}$$
+Si $\mathbb{P}_{X} = \mathcal{P}([\![0,n]\!])$ où $n \in \mathbb{N}$, 
+$$ G_{X} : t \mapsto \sum_{k = 0}^{n} p(1-p)^{n-1} t^{n} = \frac{pt}{1-qt}$$
