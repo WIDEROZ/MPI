@@ -11,7 +11,7 @@ On étudiera alors la manière de faire transiter les informations à partir de 
 #### Mots-clés
 ##### Mots-clés en Français
 Jeu de la vie
-Glider
+Glisseur
 Signal
 Simple DirectMedia Layer (SDL)
 Filtrage
