@@ -455,4 +455,22 @@ Relation entre Équation différentielle et suite
 
 # Fonctions génératrices de variables aléatoires
 #### Définition
-Soit $X : (O$
+Soit $X : (\Omega, \mathcal{A}, \mathbb{P}) \to \mathbb{N}$, 
+On appelle fonction génératrice de $X$ la fonction : 
+$$G_{X} : t \mapsto \sum_{n=0}^{+ \infty} \mathbb{P}(X = n)t^{n} = \mathbb{E}(t^{X})$$
+$$\forall t \in [-1, 1], (\mathbb{P}(X=k)t^{k})_{k \in \mathbb{N}} \text{ est sommable}$$
+car : 
+$$\left| \mathbb{P}(X = n )t^{k}\right| \leq \mathbb{P}(X = k) \text{ et } \sum_{n \in \mathbb{N}} \mathbb{P}(X = n) = 1$$
+Donc,
+$$f(X) : \begin{cases}
+ \Omega \to \mathbb{R} \\
+\omega \mapsto t^{X(\omega)}
+\end{cases}$$
+est une VA admettant une espérance et : 
+$$\forall t \in [-1,1] , \mathbb{E}(f(X)) = \mathbb{E}(t^{X}) = \sum_{n = 0}^{+ \infty} \mathbb{P}(X = n)t^{n}$$
+
+#### Exemple
+Si $\mathbb{P}_{X} = \mathcal{B}(p)$ où $0 < p <1$, 
+$$ G_{X} : t \mapsto \mathbb{P}(X = 0) + \mathbb{P}(X = 1)t = (1-p) + pt $$
+Si $\mathbb{P}_{X} = \mathcal{B}(n, p)$ où $0 < p <1$ et $n \in \mathbb{N}$, 
+$$G_{X} : t \mapsto \sum_{k = 0}^{n} \binom{n}{k} p^{k} (1-p)^{n-k}  t^{k} = ((1-p) + pt)^{n}$$
