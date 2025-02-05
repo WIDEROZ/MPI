@@ -37,4 +37,7 @@ Les valeurs qu'on transmet semble traverser l'individu.
 - Archer échappe à la communauté 
 - Spinoza lui même se livre a se travaille critique de ce qu'il doit à lui même / aux autres
 
+2. La traduction identitaire du moi étant plus complexe qu'il n'y parait est une création continue qui pérenne pendant toute une vie, c'est un processus complexe
+3. Une communauté gagne a favoriser cette vigueur de l'individualité critique
+
 Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz
