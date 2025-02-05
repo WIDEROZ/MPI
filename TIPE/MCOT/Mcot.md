@@ -25,13 +25,13 @@ Filtering
 
 #### Bibliographie commentée
 Le Jeu de la vie de John Conway à été popularisé en 1970 par le magazine Scientific American \[4\]. 
-C'est un automate cellulaire qui simule l'évolution de cellules avec deux états, sur une grille en deux dimensions selon des règles simples. Il existe un bon nombre de variantes de ce modèle, suivant le nombre de dimensions de la grille de départ, ou encore suivant la description de l'évolution qui est décrite par la naissance et la mort de certaines cellules. Dans notre cas, nous allons nous appuyer sur le modèle classique : une cellule naît si elle possède exactement trois voisines vivantes, elle meurt si elle n'a aucune, une, ou plus de quatre cellules voisines vivantes, ET ENFIN elle reste dans son état actuel si exactement deux cellules autour sont en vie \[1\]\[2\]\[4\].
+C'est un automate cellulaire qui simule l'évolution de cellules avec deux états, sur une grille en deux dimensions selon des règles simples. Il existe un bon nombre de variantes de ce modèle, suivant le nombre de dimensions de la grille de départ, ou encore suivant la description de l'évolution qui est décrite par la naissance et la mort de certaines cellules. Pour le modèle classique de John Conway : une cellule naît si elle possède exactement trois voisines vivantes, elle meurt si elle n'a aucune, une, ou plus de quatre cellules voisines vivantes, et enfin elle reste dans son état actuel si exactement deux cellules autour sont en vie \[1\]\[2\]\[4\].
 
-Le Jeu de la vie de John Conway, est Turing-Complete c'est à dire que l'on peut à pat \[1\] \[2\], c'est à dire que l'on peut faire se suivre n'importe quelle suite d'instructions bien définies à partir d'une entrée pour obtenir une sortie dépendant uniquement de ces instructions et de l'entrée.
+De plus le Jeu de la vie de John Conway est Turing-Complet \[1\] \[2\]. C'est à dire on peut à partir de certaines structures essentielles, comme par exemple des glisseurs, créer une machine de Turing. Donc on arrivera à faire se suivre n'importe quelle suite d'instructions bien définies à partir d'une entrée pour obtenir une sortie dépendant uniquement de ces instructions et de l'entrée.
 
 Enfin, l'implémentation informatique du Jeu de la vie repose souvent sur des bibliothèques spécialisées permettant de gérer efficacement l'affichage et la mise à jour des cellules sur la grille. La bibliothèque SDL2, bien connue pour le développement d'applications graphiques, est bien utile pour visualiser les évolutions du modèle en temps réel \[3\]. Son utilisation facilite l'expérimentation et permet d’explorer diverses variantes du modèle en suivant les règles du jeu de la vie et les conditions initiales.
 
-Ces différents éléments montrent que, bien qu’étant un modèle à la base ludique, le Jeu de la vie constitue un véritable objet d’étude en mathématiques et en informatique, même physique avec des applications.
+Ces différents éléments montrent que, bien qu’étant un modèle à la base ludique, le Jeu de la vie constitue un véritable objet d’étude en mathématiques et en informatique, voire même physique avec des applications.
 
 
 #### Problématique
