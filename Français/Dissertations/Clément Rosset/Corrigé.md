@@ -13,8 +13,13 @@ Peut-on réellement affirmer avec CR que la "moi" ne se construit qu'au travers 
 ###### I. Certes, comme l'affirme CR, nulle personnalité n'existe si elle est fabriqué par l'autre, le moi est traversé par l'autre
 1. Autrui garantit un espace de sécurité qui préserve l'individu de la puissance de son pair
 - Spinoza : fondement de l'état.
-- Suppliantes : 
-- 
-2. 
+- Suppliantes : Elles sont apatride
+
+2. Dès lors le point de vue de Rosset s'éclaire des lois mesure où le regard d'autrui offre une place au sein de la communauté, le regard de l'autre c'est le reflet de qui je suis, et "qui je suis" est aussi une perception de l'autre
+- Wharton : Archer contemple May -> 
+- Spinoza : Les Hebreux ne cessent de comparer leur piété 
+
+
+
 
 ###### II.

@@ -1,4 +1,7 @@
-- Apatride : Les suppliantes
+- Apatride (Les suppliantes)
 - Genos
 - Polis
 - Oliganthropie
+- Navigation (Méthaphore du pilote)
+- L'orgueil
+- 
