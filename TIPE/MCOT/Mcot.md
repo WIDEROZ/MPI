@@ -1,5 +1,5 @@
 # Filtrage d'un signal codé en Jeu de la vie
-Il est intéressant d'étudier les propriétés et particulièrement la Turing complétude de celui-ci, lorsque j'ai découvert que l'on pouvait construire un ordinateur dans le jeu de la vie  pourquoi je me suis demandé si la représentation d'un filtre codé en jeu de la vie serait réalisable. 
+Il est intéressant d'étudier les propriétés du Jeu de la vie et particulièrement la Turing complétude de celui-ci. Lorsque j'ai appris que l'on pouvait construire un ordinateur dans le jeu de la vie, je me suis demandé si la représentation d'un filtre codé en jeu de la vie serait réalisable. 
 On étudiera alors la manière de faire transiter les informations à l'aide de différentes structures dans le jeu de la vie, comment le signal sera converti grâce au filtrage et ainsi nous observerons le signal transformé. 
 
 #### Positionnement thématique
@@ -35,7 +35,7 @@ Ces différents éléments montrent que, bien qu’étant un modèle à la base 
 
 
 #### Problématique
-Il s'agit de concevoir un système de filtrage qui puisse satisfaire tout signal donné en entrée par une amplitude et une fréquence modélisé dans le jeu de la vie, puis d'étudier le nombre de génération nécessaire
+Il s'agit de concevoir un système de filtrage qui puisse satisfaire tout signal donné en entrée par une amplitude et une fréquence, modélisé dans le jeu de la vie. Puis d'étudier le nombre de générations nécessaires pour convertir ce signal. 
 
 
 #### Objectifs du TIPE
