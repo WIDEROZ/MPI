@@ -24,7 +24,7 @@ F \text{ est bien définie sur }J \\
 \underset{ x \to x_{0} }{\lim} F(x) = \int _{I} g(t) \, dt  
 \end{cases}$$
 #### Remarque importante
-Dans l'hypothèse de dom
+Dans l'hypothèse de domination on peut remplacer $J$ par un segment fermé
 
 
 
