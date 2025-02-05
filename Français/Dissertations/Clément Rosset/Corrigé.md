@@ -41,3 +41,5 @@ Les valeurs qu'on transmet semble traverser l'individu.
 3. Une communauté gagne a favoriser cette vigueur de l'individualité critique
 
 Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz
+
+Comment la communauté peut elle nous traiter comme des êtres singuliers si nous même somme tous égaux. 
