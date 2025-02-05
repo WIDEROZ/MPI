@@ -23,6 +23,10 @@ $$\begin{cases}
 F \text{ est bien définie sur }J \\
 \underset{ x \to x_{0} }{\lim} F(x) = \int _{I} g(t) \, dt  
 \end{cases}$$
+#### Remarque importante
+Dans l'hypothèse de dom
+
+
 
 #### Théorème
 On pose :
@@ -40,4 +44,27 @@ $$
 F \text{ est bien définie sur }J \text{ et continue}
 $$
 
-$$\mathcal{C}^{1} \Rightarrow \mathcal{C}^{0}$$
+# II. Dérivabilité
+Soit $J, I$ deux intervalles de $\mathbb{R}$, 
+
+#### Théorème
+Soit
+$$f: \begin{cases}
+J \times I\to \mathbb{C} \\
+(x, t) \mapsto f(x, t)
+\end{cases} \text{ et } F : \begin{cases}
+J \to \mathbb{C} \\
+x \mapsto \int_{I} f(x, t) \, dt 
+\end{cases}$$
+Si : 
+$$\begin{cases}
+\forall t \in I, f(\cdot, t) \in \mathcal{C}^{1}(J, \mathbb{C}) \\
+\forall x \in J, f(x, \cdot) \in \mathcal{L}^{1}(I) \\
+\exists \varphi \in \mathcal{L}^{1}(I, \mathbb{R}), \forall (x, t) \in J \times I, \left| \frac{\partial f}{\partial x} (x, t)\right| \leq \varphi(t)
+\end{cases}$$
+Alors, 
+$$\begin{cases}
+F \in \mathcal{C}^{1}(J, \mathbb{C})  \\
+F'(x) = \int_{I} \frac{\partial f}{\partial x }(x, t)  \, dt 
+\end{cases}$$
+
