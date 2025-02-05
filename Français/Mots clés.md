@@ -8,3 +8,6 @@
 - Capane
 - Doxa (opinion commune) 
 - Kairos (ce qui convient de faire)
+- Ventriloque
+- Conscience / Lucidité
+- La complexion
