@@ -35,7 +35,7 @@ Ces différents éléments montrent que, bien qu’étant un modèle à la base 
 
 
 #### Problématique
-Il s'agit de concevoir un système de filtrage qui puisse satisfaire tout signal donné en entrée modélisé dans le jeu de la vie, puis d'étudier le nombre de génération que met le jeu de la vie à filtrer le signal. 
+Il s'agit de concevoir un système de filtrage qui puisse satisfaire tout signal donné en entrée par une amplitude et une fréquence modélisé dans le jeu de la vie, puis d'étudier le nombre de génération nécessaire
 
 
 #### Objectifs du TIPE
@@ -52,4 +52,4 @@ Essai du filtre avec plusieurs signaux différents et calcul du nombre de géné
 \[2\] : Étienne Ghys, Le jeu de la vie, 12 mars 2019
 \[3\] : Encyclopédie libre, Documentation informatique, https://wiki.libsdl.org/SDL2/APIByCategory/
 \[4\] : Nathaniel Johnston and Dave Greene, Conway’s Game of Life Mathematics and Construction, DOI : 10.5281/zenodo.6097284, ISBN : 978-1-794-81696-1
-	
+
