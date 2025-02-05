@@ -29,7 +29,12 @@ Les valeurs qu'on transmet semble traverser l'individu.
 1. La complexion propre : un élément d'auto-détermination
 2. L'individu a intérêt à devenir conscient des forces qui le traverse 
 - Archer prend conscience de l'état d'inconscient qui était le sien
+- Eteocle est lucide il reconnait l'accomplissement fatal lorsqu'il parle de sa race
+3. L'individu ne deviens Homme lorsqu'il fait ce travail de différenciation consciente
 
-
+##### III. Compte tenu des effets formulés sur le point de vue de Rosset il faut envisager la construction de l’identité comme un dialogue mutuel permanent
+1. La construction du moi est un travail d'introspection constant qui vise à s'approprier ce qu'a commis la communauté
+- Archer échappe à la communauté 
+- Spinoza lui même se livre a se travaille critique de ce qu'il doit à lui même / aux autres
 
 Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz
