@@ -17,9 +17,11 @@ Peut-on réellement affirmer avec CR que la "moi" ne se construit qu'au travers 
 
 2. Dès lors le point de vue de Rosset s'éclaire des lois mesure où le regard d'autrui offre une place au sein de la communauté, le regard de l'autre c'est le reflet de qui je suis, et "qui je suis" est aussi une perception de l'autre
 - Wharton : Archer contemple May -> 
-- Spinoza : Les Hebreux ne cessent de comparer leur piété 
+- Spinoza : Les Hébreux ne cessent de comparer leur piété pour rivaliser de fidélité à dieu
 
-
+3. Si bien que le legs de la communauté semble façonner, structurer le "moi". 
+Les valeurs qu'on transmet semble traverser l'individu.
+- Eschyle : Kairos lorsqu'il somme les femmes de se taire pour ne pas effrayer la Doxa (opinion commune)
 
 
 ###### II.

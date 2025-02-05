@@ -1,7 +1,10 @@
 - Apatride (Les suppliantes)
 - Genos
 - Polis
-- Oliganthropie
+- Oligenthropie
 - Navigation (Méthaphore du pilote)
 - L'orgueil
-- 
+- Héroïsme
+- Capane
+- Doxa (opinion commune) 
+- Kairos (ce qui convient de faire)
