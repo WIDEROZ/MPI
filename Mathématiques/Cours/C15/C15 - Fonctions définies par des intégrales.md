@@ -68,3 +68,7 @@ F \in \mathcal{C}^{1}(J, \mathbb{C})  \\
 F'(x) = \int_{I} \frac{\partial f}{\partial x }(x, t)  \, dt 
 \end{cases}$$
 
+#### Exercice
+Faire une preuve du théorème d'Alembert-Gauss par l'absurde.
+On suppose qu'il existe $P \in \mathbb{C}[X]$ tq $\deg P = d \geq 2$ qui n'admet pas de racine complexe. 
+Dans ce cas, la fonction : $f : (r, t) \in \mathbb{R}^{2} \mapsto P(eeit)$

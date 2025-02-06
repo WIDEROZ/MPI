@@ -1,4 +1,4 @@
-	# Filtrage d'un signal codé en Jeu de la vie
+# Filtrage d'un signal codé en Jeu de la vie
 Il est intéressant d'étudier les propriétés du Jeu de la vie et particulièrement la Turing complétude de celui-ci. Lorsque j'ai appris que l'on pouvait construire un ordinateur dans le jeu de la vie, je me suis demandé si la représentation d'un filtre codé en jeu de la vie serait réalisable. 
 On étudiera alors la manière de faire transiter les informations à l'aide de différentes structures dans le jeu de la vie, comment le signal sera converti grâce au filtrage et ainsi nous observerons le signal transformé. 
 
