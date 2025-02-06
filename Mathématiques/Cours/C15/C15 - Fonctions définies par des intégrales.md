@@ -70,5 +70,14 @@ F'(x) = \int_{I} \frac{\partial f}{\partial x }(x, t)  \, dt
 
 #### Exercice
 Faire une preuve du théorème d'Alembert-Gauss par l'absurde.
-On suppose qu'il existe $P \in \mathbb{C}[X]$ tq $\deg P = d \geq 2$ qui n'admet pas de racine complexe. 
-Dans ce cas, la fonction : $f : (r, t) \in \mathbb{R}^{2} \mapsto P(eeit)$
+On suppose qu'il existe $P \in \mathbb{C}[X]$ tq $\deg P = n \geq 2$ qui n'admet pas de racine complexe. 
+Dans ce cas, la fonction : $f : (r, t) \in \mathbb{R}^{2} \mapsto P(r e^{ it })$ ne s'annule pas et est continue
+Donc, 
+$$g: r \in \mathbb{R}_{+} \mapsto \int_{0}^{2\pi} \frac{dt}{P(r e^{ it })} \text{ est bien définie}$$
+$g(0) = \frac{2\pi}{P(0)} \neq 0$
+Si on note :
+$$P(X) = \alpha X^{n} + \sum_{k = 0}^{n-1} a_{k} X^{k} \text{ ou }\alpha \in \mathbb{C}^{*}$$
+On a : 
+$$\forall (r, t) \in \mathbb{R}^{2}, \left| P(r e^{ it })\right| \geq \left| \alpha\right| r^{n} - \left| \sum_{k = 0}^{n-1} a_{k} r^{k} e^{ ikt } \right| \geq \left| \alpha\right| r^{n} - \sum_{k =0}^{n-1} \left| a_{k}\right|r^{k}$$
+donc lorsque $r \to + \infty$ ce polynome aussi
+$$\forall t \in [0, 2\pi], \lim_{ r \to \infty } \frac{1}{P(r e^{ it })} = 0$$
