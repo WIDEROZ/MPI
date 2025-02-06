@@ -109,3 +109,4 @@ $$= \frac{i}{r} \int_{0}^{2\pi} \frac{\partial }{\partial t} (P(r e^{ it })) \, 
 par $\pi$ périodicité de $t \mapsto P(r e^{ it })$
 
 #### Exercice
+
