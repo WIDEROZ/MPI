@@ -96,4 +96,16 @@ $$\forall P \in \mathbb{C}[X], \frac{\partial }{\partial t} (P(r e^{ it })) = ir
 par linéarité de la dérivation
 
 Montrons que $g \in \mathcal{C}^{1}$, 
-$$\forall r \in \mathbb{R}_{+}, t \mapsto \frac{1}{P(r e^{ it })} \in \mathcal{C}^{0}$$
+$$\forall r \in \mathbb{R}_{+}, t \mapsto \frac{1}{P(r e^{ it })} \in \mathcal{C}^{0}([0, 2\pi]) \text{ et donc intégrable}$$
+$$\forall t \in [0, 2\pi], r \mapsto \frac{1}{P(r e^{ it })} \in \mathcal{C}^{1} $$
+Puis : 
+$$\frac{\partial }{\partial r} \left( \frac{1}{P(r e^{ it })} \right) = -\frac{\partial }{\partial r } (P(r e^{ it }))\times \frac{1}{P(r e^{ it })}$$
+
+On prouvera dans le dernier cours de Topo que : 
+$$\forall A > 0, \exists K \in \mathbb{R}, \forall (r, t) \in [0, 1] \times [0, 2\pi] \frac{\partial }{\partial r} \left( \frac{1}{P(r e^{ it })} \right) \leq K = \varphi(t)$$
+comme $\varphi$ est intégrable sir $[0, 2\pi]$ on a : $g \in \mathcal{C}^{1}$ et
+$$\forall r \geq 0, g'(r) = \int_{0}^{2\pi} \frac{1}{P(r e^{ it })} \, dt = - \int_{0}^{2\pi} \frac{\partial }{\partial r} (P(r e^{ it })) \, \frac{dt}{P(r e^{ it })^{2}}  $$
+$$= \frac{i}{r} \int_{0}^{2\pi} \frac{\partial }{\partial t} (P(r e^{ it })) \, \frac{dt}{P(r e^{ it })^{2}} = -\frac{i}{r} \left[ \frac{1}{P(r e^{ it })} \right]_{t = 0}^{t = 2\pi} = 0$$
+par $\pi$ périodicité de $t \mapsto P(r e^{ it })$
+
+#### Exercice
