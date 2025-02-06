@@ -79,5 +79,21 @@ Si on note :
 $$P(X) = \alpha X^{n} + \sum_{k = 0}^{n-1} a_{k} X^{k} \text{ ou }\alpha \in \mathbb{C}^{*}$$
 On a : 
 $$\forall (r, t) \in \mathbb{R}^{2}, \left| P(r e^{ it })\right| \geq \left| \alpha\right| r^{n} - \left| \sum_{k = 0}^{n-1} a_{k} r^{k} e^{ ikt } \right| \geq \left| \alpha\right| r^{n} - \sum_{k =0}^{n-1} \left| a_{k}\right|r^{k}$$
-donc lorsque $r \to + \infty$ ce polynome aussi
+donc lorsque $r \to + \infty$ ce polynôme aussi
 $$\forall t \in [0, 2\pi], \lim_{ r \to \infty } \frac{1}{P(r e^{ it })} = 0$$
+D'après la dernière inégalité, 
+$$\exists r_{0} \in \mathbb{R}_{+}^{*}, \forall r \geq r_{0},\forall t \in [0, 2\pi],  \left| P(r e^{ it })\right| \geq 1$$
+$$\left| \frac{1}{P(r e^{ it })}\right| \leq 1 = \varphi(t)$$
+$\varphi$ est intégrable sur $[0, 2\pi]$, on peut appliquer le théorème de la limite aux bornes pour établir : 
+$$\lim_{ r \to \infty } g(r) = \int _{0}^{2\pi} \lim_{ r \to \infty } \frac{1}{P(r e^{ it })} \, dt = 0 $$
+Si on prouve que $g$ est constante on aura notre contradition
+Notons déjà que : 
+$$\forall k \in \mathbb{N}, \frac{\partial }{\partial t} ((r e^{ it })^{k}) = ik r^{k} e^{ ikt }$$
+Puis, 
+$$\frac{\partial }{\partial r} ((r e^{ it })^{k}) = k r^{k-1} e^{ ikt }$$
+Donc, 
+$$\forall P \in \mathbb{C}[X], \frac{\partial }{\partial t} (P(r e^{ it })) = ir \frac{\partial }{\partial r} ((r e^{ it })^{k})$$
+par linéarité de la dérivation
+
+Montrons que $g \in \mathcal{C}^{1}$, 
+$$\forall r \in \mathbb{R}_{+}, t \mapsto \frac{1}{P(r e^{ it })} \in \mathcal{C}^{0}$$
