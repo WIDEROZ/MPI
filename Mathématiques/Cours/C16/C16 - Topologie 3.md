@@ -44,4 +44,15 @@ $$M=\left|\left| f(l) \right|\right|  \neq + \infty$$
 - Toute partie finie de $E$ est compacte
 - Si $\forall i \in [\![1, n]\!], K_{i}$ est un compact Alors, $K_{1}\times \dots \times K_{n}$ est un compact
 - Si $K$ est compact $K$ est fermé et borné
-- $$
+- Si $F$ est une partie d'une compact $K$, Alors, $F \text{ est compact}\Leftrightarrow F \text{ est fermé}$
+
+Démonstration : 
+Si $K = \{ u_{1}, \dots , u_p \}$ et si $(x_{n})_{n \in \mathbb{N}}\in \mathbb{K}^{\mathbb{N}}$ au moins un des éléments de $K$ (disons $u_{k}$) est atteint une infinité de fois, donc, 
+$$\exists \varphi : \mathbb{N} \to \mathbb{N}, \forall n \in \mathbb{N}, x_{\varphi(n)} = u_{k} \underset{n \to +\infty}{\longrightarrow} u_{k}$$
+Ainsi, $K$ est un compact
+___
+Il suffit de la faire pour $n = 2$ : 
+Soit $((x_{n}, y_{n}))_{n \in \mathbb{N}} \in (K_{1} \times K_{2})^{\mathbb{N}}$, 
+Comme $(x_{n})_{n \in \mathbb{N}} \in K_{1}^{\mathbb{N}}$, $\exists \varphi: \mathbb{N} \to \mathbb{N}$ et $x \in K_{1}$ tel que : $x_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} x$
+de même comme : 
+$(y_{\varphi(n)})_{n \in \mathbb{N}} \in K_{2}^{\mathbb{N}}$, $\exists \psi: \mathbb{N} \to \mathbb{N}$ et $y \in K_{2}$ tel que : $y_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} y$ 
