@@ -55,4 +55,23 @@ Il suffit de la faire pour $n = 2$ :
 Soit $((x_{n}, y_{n}))_{n \in \mathbb{N}} \in (K_{1} \times K_{2})^{\mathbb{N}}$, 
 Comme $(x_{n})_{n \in \mathbb{N}} \in K_{1}^{\mathbb{N}}$, $\exists \varphi: \mathbb{N} \to \mathbb{N}$ et $x \in K_{1}$ tel que : $x_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} x$
 de même comme : 
-$(y_{\varphi(n)})_{n \in \mathbb{N}} \in K_{2}^{\mathbb{N}}$, $\exists \psi: \mathbb{N} \to \mathbb{N}$ et $y \in K_{2}$ tel que : $y_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} y$ 
+$(y_{\varphi(n)})_{n \in \mathbb{N}} \in K_{2}^{\mathbb{N}}$, $\exists \psi: \mathbb{N} \to \mathbb{N}$ et $y \in K_{2}$ tel que : $y_{\varphi(\psi(n))} \underset{n \to +\infty}{\longrightarrow} y$ De plus, $x_{ \varphi \circ \psi(n)} \underset{n \to +\infty}{\longrightarrow}x$
+Ainsi, 
+$$(x_{\varphi \circ \psi(n)}, y_{\varphi \circ \psi(n)}) \underset{n \to +\infty}{\longrightarrow}  (x, y)\in K_{1} \times K_{2}$$
+et $\varphi \circ \psi$ est strictement croissante
+___
+Si $K$ n'est pas borné, 
+$$\forall n \in \mathbb{N}, \exists x_{n} \in K, \left|\left| x_{n} \right|\right|\geq n$$
+Donc, $\forall \varphi : \mathbb{N} \to \mathbb{N}$ strictement croissante : 
+$$\left|\left| x_{\varphi(n)} \right|\right|\geq  \varphi(n) \geq n$$
+ie $x_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow}+\infty$ et donc $(x_{\varphi(n)})_{n \in \mathbb{N}}$ DV
+donc, $(x_{n})_{n \in \mathbb{N}}$ n'admet aucune valeur d'adhérence et donc $K$ n'est donc pas un compact. 
+Si $K$ n'est pas fermé
+$$\exists (x_{n})_{n \in \mathbb{N}} \in K^{\mathbb{N}}, x_{n} \underset{n \to +\infty}{\longrightarrow} l \not\in K$$
+Donc, $\forall \varphi : \mathbb{N} \to \mathbb{N}$ extractrice, 
+$$x_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} l \not\in K$$
+Donc $(x_{n})_{n \in \mathbb{N}}$ n'admet aucune valeur d'adhérence et donc $K$ n'est donc pas un compact. 
+___
+Si $F$ est compact, $F$ est fermé par $3$
+Si $F$ est fermé, soit $(x_{n})_{n \in \mathbb{N}} \in F^{\mathbb{N}} \subset K^{\mathbb{N}}$, il existe une extractrice : $\varphi$ et $l \in K$ tel que : $x_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} l$. 
+Or $F$ étant fermé, il est stable par passage à la limite et donc, $l = \lim_{ n \to \infty }x_{\varphi(n)} \in F$ eie $F$ est un c
