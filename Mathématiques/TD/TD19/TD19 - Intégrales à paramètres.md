@@ -14,5 +14,3 @@ $$\frac{1}{\frac{1}{\tan(t)}+ a^{2}\tan(t)} \underset{t \to \frac{\pi}{2}}{\long
 $$F'(x) = \int_{0}^{\pi/2}\frac{\tan(t)}{1+x^{2}\tan ^{2}(t)} \, dt $$
 $$= \int_{0}^{+\infty} \frac{y}{(1+x^{2}y^{2})(1+y^{2})} dy $$
 $$= \int_{0}^{+ \infty}  \, dx $$
-
-$$\vec{\Pi} = \frac{\vec{E}\wedge \vec{B}}{\mu_{0}}$$
