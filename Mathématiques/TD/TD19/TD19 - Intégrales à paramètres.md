@@ -1,4 +1,8 @@
 ## Exercice 3
 #### a.
-en $\frac{\pi}{2}$ : 
-$$\tan(x) \underset{t \to \frac{\pi}{2}}{=} x-\frac{\pi}{2}+\frac{\pi^{3}}{24}+ o()$$
+$$\forall t \in \left[ 0, \frac{\pi}{2} \right[, x\mapsto \arctan(x(\tan(t))) \text{ est cont par composé }$$
+de même pour la variable $t$ $\forall x \in \mathbb{R}$
+$$f(t) \leq \frac{\pi}{2}$$
+qui est intégrable ainsi, $F$ est cont. 
+
+#### b.
