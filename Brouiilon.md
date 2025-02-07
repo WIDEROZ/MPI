@@ -1,2 +1,3 @@
-$$\frac{n_{1}}{n_{2}} \sin(\alpha_{lim}) > 1$$
+$$n_{i} \cos(\alpha_{i}) = n_{j} \cos(\alpha_{j})$$
+$n_{i} >  n_{j}$ , $i < j$
 $$$$
