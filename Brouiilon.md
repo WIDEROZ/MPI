@@ -10,6 +10,10 @@ Si $k >0$,
 $$\begin{cases}
 y(x) = Ae^{ -\frac{2k}{\beta}x } + Be^{ \frac{2k}{\beta}x } \\
 A+B = 0 \\
-\frac{\partial y}{\partial x}(0)  = \tan(\alpha_{0}) \Leftrightarrow \frac{B2k}{\beta} + B \frac{2k}{\beta} = \tan \alpha_{.}
+\frac{\partial y}{\partial x}(0)  = \tan(\alpha_{0}) \Leftrightarrow \frac{B2k}{\beta} + B \frac{2k}{\beta} = \tan \alpha_{0}\Leftrightarrow B = \frac{\beta \tan(\alpha_{0})}{4k}
 \end{cases}$$
 
+Ainsi, 
+$$\boxed{y(x) = \frac{\beta \tan(\alpha_{0})}{2k} sh\left( \frac{2k}{\beta}x \right)}$$
+Si $k < 0$ : 
+$$\boxed{y(x) = \frac{\beta \tan(\alpha_{0})}{2k} \sin\left( \frac{2k}{\beta}x \right)}$$
