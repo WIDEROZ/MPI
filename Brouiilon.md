@@ -17,3 +17,4 @@ Ainsi,
 $$\boxed{y(x) = \frac{\beta \tan(\alpha_{0})}{2k} sh\left( \frac{2k}{\beta}x \right)}$$
 Si $k < 0$ : 
 $$\boxed{y(x) = \frac{\beta \tan(\alpha_{0})}{2k} \sin\left( \frac{2k}{\beta}x \right)}$$
+$\beta = 2C_{0}^{2} = 2 n_{0}^{2}\cos(a_{0})^{2}$
