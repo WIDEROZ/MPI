@@ -6,3 +6,11 @@ $$f(t) \leq \frac{\pi}{2}$$
 qui est intégrable ainsi, $F$ est cont. 
 
 #### b.
+hYP.
+En $\frac{\pi}{2}$ : 
+$$\frac{1}{\frac{1}{\tan(t)}+ a^{2}\tan(t)} \underset{t \to \frac{\pi}{2}}{\longrightarrow} 0$$
+
+#### c.
+$$F'(x) = \int_{0}^{\pi/2}\frac{\tan(t)}{1+x^{2}\tan ^{2}(t)} \, dt $$
+$$= \int_{0}^{+\infty} \frac{t}{(1+x^{2}t^{2})(1+t^{2})} \, dt $$
+$$= \int_{0}^{+ \infty}  \, dt $$
