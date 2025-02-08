@@ -37,3 +37,28 @@ $$\begin{cases}
 (R_{n}) \text{ CVU sur }I \text{ vers la fonction nulle}
 \end{cases}$$
 ie $\left|\left| R_{n} \right|\right|_{\infty, I}\underset{n \to +\infty}{\longrightarrow}0$
+
+## Types de Convergences
+$$\begin{array}{c}
+ &&&&\text{CVU de }(f_{n}) \text{ vers }0\text{ sur }I \\
+ & &&  & \Uparrow\\
+&&\text{CVN sur }I &\Rightarrow& \text{CVU sur }I \\
+&&\Downarrow &&\Downarrow\\
+\text{CVSA sur I}&\Leftarrow&\text{CVNSTS de I} & \Rightarrow & \text{CVUSTS de I} \\
+\Downarrow&&&&\Downarrow \\
+&\Rightarrow&\Rightarrow&\Rightarrow&\text{CVS sur }I
+\end{array}$$
+
+#### Théorème
+$$S \text{ est continue sur }I \Leftrightarrow \forall [a, b]\subset I, x \in [a, b] \mapsto S(x) \text{ est continue}$$
+
+#### Théorème
+Soit $I$ un intervalle de $\mathbb{R}$ et $\forall n \in \mathbb{N}$, $f_{n}: I \to F$ de classe $\mathcal{C}^{p}$
+$$\begin{cases}
+\forall i \in [\![0, p-1]\!], \sum_{n \in \mathbb{N}}f_{n}^{(i)} \text{ CVS sur }I \\
+\sum_{n \in \mathbb{N}}f_{n}^{(p)} \text{ CVU sur }I
+\end{cases} $$
+$$\Rightarrow \begin{cases}
+S : x \in I \mapsto \sum_{n = 0}^{+ \infty}f_{n}(x) \in \mathcal{C}^{p}(I) \\
+\forall i \in [\![0, p]\!],S^{(i)}(x) = \sum_{n = 0}^{+ \infty} f^{(i)}_{n}(x)
+\end{cases}$$
