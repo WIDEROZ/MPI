@@ -69,6 +69,11 @@ DVG sur $\mathbb{C}\setminus \overline{D}(0, R)$
 Si on note : $D\subset \mathbb{C}$ l'ensemble de définition de : 
 $$S : z \mapsto \sum_{n =0}^{+ \infty} \alpha_{n}z^{ n} $$
 $$D(0, R) \subset D \subset \overline{D}(0, R)$$
+
+$$|\alpha_{n}r^{n} \left( \frac{z}{r} \right)^{n}| \leq \left( \frac{z}{r} \right)^{n}$$
+
+
+
 Démonstration : 
 Soit $z\in \mathbb{C}$, $\left| z\right|<R$, 
 Puisque $R = \sup \Omega$ où $\Omega = \{ r \geq 0 | (\alpha_{n}r_{n})_{n \in \mathbb{N}} \text{ est bornée} \}$
