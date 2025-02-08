@@ -1,7 +1,2 @@
-$$\forall x, y \in [a, b], \forall \varepsilon >0, \exists \alpha \in \mathbb{R}_{+}^{*}, \left| y-x\right|\leq \alpha \Rightarrow \left| f(y) - f(x)\right| \leq \varepsilon$$
-Montrons que : 
-$$\forall \varepsilon >0, \exists \delta \in \mathbb{R}_{+}^{*}, \forall x, y \in [a, b], \left| y-x\right|\leq \delta \Rightarrow \left| f(y) - f(x)\right| \leq \varepsilon$$
-Soit $\varepsilon>0$, 
-Supposons qu'il existe $\delta \in \mathbb{R}_{+}^{*}$ tel que
-pour tous $x, y \in [a, b], \left| y-x\right|\leq \delta$
-
+$$f(x) = \frac{3}{x+1} + \frac{4}{(x+1)^{2}}$$
+$$f(x) = 3 \sum_{n = 0}^{+ \infty} (-1)^{n} x^{n} + 4 \sum_{n = 0}^{+ \infty} \frac{}{n} x^{n}$$
