@@ -17,4 +17,23 @@ $$\begin{rcases}
 (l_{n})_{n \in \mathbb{N}} \in F^{\mathbb{N}} \text{ CV} \\
 \lim_{ x \to a } f(x) = \lim_{ n \to \infty } l_{n}
 \end{cases}$$
-$$$$
+ie :
+$$\lim_{ x \to a } \lim_{ n \to +\infty } f_{n}(x)  = \lim_{ n \to +\infty } \lim_{ x \to a } f_{n}(x)$$
+
+#### Théorème inversion limite intégrale
+Soit $[a, b]\subset I$, 
+$$ (f_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}}f \Rightarrow \left( \lim_{ n \to \infty } \int _{a}^{b}f_{n}(x) \, dx  = \int _{a}^{b}f(x) \, dx \right)$$
+$$(f_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} f \Rightarrow (F_{n})_{n \in \mathbb{N}} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} F$$
+où
+$$\begin{cases}
+F : x \in I \mapsto \int _{x_{0}}^{x} f(t) \, dt  \\
+F_{n} : x \in I \mapsto \int_{x_{0}}^{x}f_{n}(t) \, dt 
+\end{cases}$$
+
+#### Définition CVU série
+On dit que la série $\sum f_{n}$ CVU sur $I$ lorsque la suite $(S_{n})_{n \in \mathbb{N}}$ CVU sur $I$, c'est équivalent à : 
+$$\begin{cases}
+(S_{n}) \text{ CVS sur }I \\
+(R_{n}) \text{ CVU sur }I \text{ vers la fonction nulle}
+\end{cases}$$
+ie $\left|\left| R_{n} \right|\right|_{\infty, I}\underset{n \to +\infty}{\longrightarrow}0$
