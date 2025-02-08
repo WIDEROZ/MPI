@@ -399,8 +399,8 @@ $$\begin{array}{c}
 &&\text{CVN sur }I &\Rightarrow& \text{CVU sur }I \\
 &&\Downarrow &&\Downarrow\\
 \text{CVSA sur I}&\Leftarrow&\text{CVNSTS de I} & \Rightarrow & \text{CVUSTS de I} \\
-&&&&\Downarrow \\
-&&&&\text{CVS sur }I
+\Downarrow&&&&\Downarrow \\
+&\Rightarrow&\Rightarrow&\Rightarrow&\text{CVS sur }I
 \end{array}$$
 
 ## 3. Continuité et double limite
