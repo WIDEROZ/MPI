@@ -62,3 +62,28 @@ $$\Rightarrow \begin{cases}
 S : x \in I \mapsto \sum_{n = 0}^{+ \infty}f_{n}(x) \in \mathcal{C}^{p}(I) \\
 \forall i \in [\![0, p]\!],S^{(i)}(x) = \sum_{n = 0}^{+ \infty} f^{(i)}_{n}(x)
 \end{cases}$$
+
+#### Théorème de convergence dominée (TCVD)
+Soit $I$ un intervalle, $\forall n \in \mathbb{N}, f_{n} : I \to \mathbb{K}$ continue par morceaux (CPM)
+Si : 
+$$\begin{cases}
+(f_{n})_{n \in \mathbb{N}} \text{ CVS sur I vers }f:I \to \mathbb{K} \text{ CPM} \\
+\exists \varphi : I \to \mathbb{R} \text{ intégrable sur }I \text{ telle que } \begin{cases}
+\forall n \in \mathbb{N} \\
+\forall t \in I
+\end{cases}, \left| f_{n}(t) \right|\leq \varphi(t)
+\end{cases}$$
+Alors, 
+$$f \text{ est intégrable sur }I \text{ et } \int_{I} f_{n}(t) \, dt \underset{n \to +\infty}{\longrightarrow} \int _{I} f(t) \, dt  $$
+
+#### Théorème d'intégration terme à terme
+Soit $n \in \mathbb{N}$, $f_{n} : I \to \mathbb{C}$ intégrable sur $I$, 
+$$\begin{cases}
+ \sum_{n \geq 0} f_{n} \text{ CVS sur }I \\
+S : t\in I \mapsto \sum_{n = 0}^{+ \infty} f_{n}(t) \text{ est CPM sur }I \\
+\sum_{n \in \mathbb{N}}\int _{I}\left| f_{n}(t) \right| \, dt \text{ CV} 
+\end{cases}$$
+$$\Rightarrow\begin{cases}
+S \text{ est intégrable sur }I \\
+\sum_{n = 0}^{+ \infty} \int _{I}f_{n} = \int _{I}\sum_{n = 0}^{+ \infty} f_{n} 
+\end{cases}$$
