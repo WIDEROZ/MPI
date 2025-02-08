@@ -34,7 +34,7 @@ $$\forall x \in [0, 1] , g_{n}(x) \underset{n \to +\infty}{\longrightarrow} \beg
 1 \text{ si } n = 1
 \end{cases}$$
 
-##### Proposition
+#### Proposition
 Soit $(f_{n})_{n \in \mathbb{N}}$ une suite de fonctions de $I$ dans $\mathbb{R}$ qui CVS vers $f : I \to \mathbb{R}$ 
 Si $\forall n \in \mathbb{N}$, $f_{n} \geq 0$ alors $f \geq 0$
 Si $\forall n \in \mathbb{N}$, $f_{n} \uparrow$ alors $f \uparrow$
