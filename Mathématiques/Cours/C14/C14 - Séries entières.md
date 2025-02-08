@@ -520,7 +520,7 @@ G'_{X} (1) = \mathbb{E}(X)
 \end{cases}$$
 $$X \text{ admet une variance} \Leftrightarrow \begin{cases}
 G''_{X} \text{ admet une dérivée seconde en } 1^{-} \\
-G_{X}(1) = \mathbb{E}(X(X-1))
+G''_{X}(1) = \mathbb{E}(X(X-1))
 \end{cases}$$
 
 #### Théorème
