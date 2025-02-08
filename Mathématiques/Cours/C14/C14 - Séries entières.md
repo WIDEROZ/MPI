@@ -156,12 +156,12 @@ $$((\alpha_{n} + \beta_{n})r^{n})_{n \in \mathbb{N}} = (\alpha_{n} r^{n})_{n \in
 est bornée.
 Donc, $\Omega_{\alpha, \beta} \supset [0, \min\{ R_{\alpha}, R_{\beta} \}[$ Ainsi, $R \geq \min\{ R_{\alpha}, R_{\beta} \}$
 
-Si $R_{\alpha }\leq R_{\beta}$, 
+Si $R_{\alpha }< R_{\beta}$, 
 Soit $r\in ]R_{\alpha}, R_{\beta}[$, alors, $(\alpha_{n} r^{n})_{n \in \mathbb{N}} + (\beta_{n}r^{n})_{n \in \mathbb{N}}$ n'est pas bornée en tant qu'une somme d'une suite qu'il ne l'est pas donc, 
 $$R \leq r \text{ ie } R \leq R_{\alpha} \text{ ie } R = R_{\alpha}$$
 
 #### Définition
-Soient $\sum_{n \in \mathbb{N}} a_{n}x^{n}$ et $\sum_{n \in \mathbb{N}}b_{n}x^{n}$ deux SE la SE : 
+Soient $\sum_{n \in \mathbb{N}} a_{n}x^{n}$ et $\sum_{n \in \mathbb{N}}b_{n}x^{n}$ deux SE puis : 
 $$\sum_{n \in \mathbb{N}} c_{n} x^{n}, \text{ où } \forall n \in \mathbb{N}, c_{n} = \sum_{k = 0}^{n} a_{k}b_{n-k}$$
 
 #### Proposition
