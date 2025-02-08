@@ -266,7 +266,7 @@ $$\left| (n+1)a_{n+1} r^{n}\right| = \left| a_{n+1} \alpha^{n+1}\right| (n+1) \l
 où $M \in \mathbb{R}$ vérifie : $\forall n \in \mathbb{N}, \left| a_{n}\alpha^{n}\right|\leq M$
 Dont l'existence est assuré par : $\boxed{(\star)}$
 Par corissance comparé puisque : $0 < \frac{r}{\alpha}<1$ : 
-$$\frac{M}{\alpha} (n+1) \left( \frac{r}{n} \right)^{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+$$\frac{M}{\alpha} (n+1) \left( \frac{r}{\alpha} \right)^{n} \underset{n \to +\infty}{\longrightarrow} 0$$
 Donc, 
 $$((n+1)a_{n+1}r^{n})_{n \in \mathbb{N}} \text{ est bornée car CV}$$
 ie $\forall r \in [0, R[, r \leq R'$ 

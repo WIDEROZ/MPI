@@ -11,9 +11,11 @@ $$R_{\alpha} \neq R_{\beta} \Rightarrow R = \min\{ R_{\alpha}, R_{\beta} \} $$
 Si ces deux séries entières ont des rayons de convergence : $R_{a}$, resp. $R_{b}$ alors, leur produit de Cauchy a un rayon de convergence $R \geq \min\{ R_{a}, R_{b} \}$ et $\forall z \in \mathbb{C}$, $\left| z\right|<\min\{ R_{a}, R_{b} \}$
 $$\left( \sum_{n = 0}^{+ \infty} a_{n}z^{n} \right)\left( \sum_{n = 0}^{+ \infty}b_{n} z^{n} \right) = \sum_{n = 0}^{+ \infty} c_{n} z^{n}$$
 
-$$\forall r [0, R[, \begin{cases}
+
+$$\forall r \in [0, R[, \begin{cases}
 \text{CVN sur } \overline{D}(0, r) \\
-\text{Cont. sur } D(0, R)
+\text{Cont. sur } D(0, R) \\
+R = R' \text{ (}R' \text{ ray. de la SE dérivée)}
 \end{cases}$$
 
 
