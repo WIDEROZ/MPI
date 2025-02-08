@@ -463,7 +463,7 @@ Relation entre Équation différentielle et suite
 #### Définition
 Soit $X : (\Omega, \mathcal{A}, \mathbb{P}) \to \mathbb{N}$, 
 On appelle fonction génératrice de $X$ la fonction : 
-$$G_{X} : t \mapsto \sum_{n=0}^{+ \infty} \mathbb{P}(X = n)t^{n} = \mathbb{E}(t^{X})$$
+$$G_{X} : t \mapsto \sum_{n=0}^{+ \infty} \mathbb{P}(X = n)t^{n} =t\mapsto \mathbb{E}(t^{X})$$
 $$\forall t \in [-1, 1], (\mathbb{P}(X=k)t^{k})_{k \in \mathbb{N}} \text{ est sommable}$$
 car : 
 $$\left| \mathbb{P}(X = n )t^{k}\right| \leq \mathbb{P}(X = k) \text{ et } \sum_{n \in \mathbb{N}} \mathbb{P}(X = n) = 1$$
@@ -483,7 +483,7 @@ $$G_{X} : t \mapsto \sum_{k = 0}^{n} \binom{n}{k} p^{k} (1-p)^{n-k}  t^{k} = ((1
 Si $\mathbb{P}_{X} = \mathbb{U}([\![0,n]\!])$ où $n \in \mathbb{N}$, 
 $$ G_{X} : t \mapsto \sum_{k = 0}^{n} \frac{1}{n+1} t^{k} = \frac{1}{n+1} \times \frac{t^{n+1}-1}{t-1}$$
 Si $\mathbb{P}_{X} = {G}(p)$ où  $0 < p <1$, 
-$$$$
+$$G_{X} : t \mapsto \sum_{n = 0}^{+ \infty}q^{n-1}p t^{n}$$
 (définie sur $]-\frac{1}{q}, \frac{1}{q}[$)
 Si $\mathbb{P}_{X} = \mathcal{P}(\lambda)$ où $n \in \mathbb{N}$, 
 $$ G_{X} : t \mapsto \sum_{k = 0}^{+\infty} e^{ -\lambda } \frac{\lambda^{n}}{n!} t^{n} = e^{ -\lambda }e^{ \lambda t }$$
@@ -502,7 +502,7 @@ Bornée
 ___
 $G_{X}$ est $\mathcal{C}^{\infty}$ sur $]-R, R[$ en tant que somme d'une SE de rayon $R$ donc sur $]-1, 1 [$ car $R \geq 1$ , elle est continue sur $[-1, 1]$ car si on note : $f_{n} : t \mapsto \mathbb{P}(X = n)t^{n}$, $f_{n}$ est $\mathcal{C}^{0}([-1, 1])$ 
 $$\left|\left| f \right|\right|_{\infty, [-1,1]} = \mathbb{P}(X = n) \text{ CV}$$
-Comme la série : d
+Comme la série : 
 $$\sum_{n \in \mathbb{N}} \mathbb{P}(X = n) \text{ CV}$$
 $$\sum f_{n} \text{ CVN} \text{ sur } [-1, 1] \text{ et donc } G_{X} \text{ est }\mathcal{C}^{0}([-1, 1]) $$
 ___
