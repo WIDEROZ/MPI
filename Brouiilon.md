@@ -1,3 +1,4 @@
-$$\mathcal{L}'(tz)=\sum_{n = 0}^{+ \infty} t^{n}z^{n+1} = z \sum_{n =0 }^{+ \infty} (tz)^{n} = \frac{z}{1-tz}$$
-$$e^{ \mathcal{L}(tz) }((1-tz)\mathcal{L}'(tz)-z) = 0$$
-$$e^{ \mathcal{L}(z) } =\frac{1}{}$$
+$$\left| \mathcal{L}(z)\right| \leq \sum_{n = 1}^{+ \infty} \frac{\left| z\right|^{n}}{n} = -\sum_{n = 1}^{+ \infty}\ln(1-\left| z\right|^{n})$$
+comme $\left| z\right| \in [0, 1 [$, 
+$-\ln(1-\left| z\right|^{n}) \sim \left| z\right|^{n}> 0$ CV série géo
+
