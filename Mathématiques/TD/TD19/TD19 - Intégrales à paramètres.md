@@ -9,7 +9,8 @@ $$ f : \begin{cases}
 (b,t) \mapsto \ln\left( \frac{b-\cos(t)}{a-\cos(t)} \right)
 \end{cases}$$
 $$\frac{\partial f}{\partial b} = \frac{\frac{1}{a-\cos(t)}(a-\cos(t))}{b-\cos(t)} = \frac{1}{b-\cos(t)} $$
-$$est bien continue sur 
+$\forall b \in ]1, + \infty[, \frac{\partial f}{\partial b}(b, \cdot)$ est bien continue sur $[0, \pi]$ donc intégrable de plus, 
+$\forall t \in [0, \pi], f(\cdot, t)$ est bien continue 
 
 
 
