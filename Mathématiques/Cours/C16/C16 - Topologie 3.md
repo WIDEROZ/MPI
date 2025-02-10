@@ -150,3 +150,21 @@ Soit $\Omega \subset (E, \left|\left| \cdot \right|\right|)$ et $x_{0} \in \Omeg
 On dit que $\Omega$ est étoilé par rapport à $x_{0}$ lorsque $\forall x \in \Omega$ : 
 $$\forall t \in [0, 1], t x_{0} + (1-t)x \in \Omega \Leftrightarrow [x_{0}, x] \subset \Omega$$
 
+#### Exemple
+$\Omega$ des matrices $M \in \mathcal{M}_{n}(\mathbb{R})=E$ diagonalisables est étoilé par rapport à $0_{E}$ car : 
+$$\forall t \in [0, 1],\forall M \in \Omega, (1-t)0_{E} + tM = tM \text{ est diagonalisable}$$
+
+#### Propriété
+Soit $(E, \left|\left| \cdot \right|\right|)$ est un evn et $\Omega \subset E$ : 
+___
+Si $\Omega$ est étoilé par rapport à un de ses points il est CPA (connexe par arc)
+___
+Si $\Omega$ est convexe , $\Omega$ est CPA
+___
+Les parties CPA de $(\mathbb{R}, \left| \cdot\right|)$ sont les intervalles
+___
+Si $\Omega$ est CPA et si $f: \Omega \to F$ est continue.
+___
+Si $\Omega$ est CPA et si $f:\Omega \to F$ est continue (ou $(F, \left|\left| \cdot \right|\right|)$ est un evn alors $f(\Omega)$ est un connexe par arcs dans $F$)
+
+Démonstration : 
