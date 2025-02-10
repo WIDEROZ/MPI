@@ -1,3 +1,7 @@
+## Exercice 1
+
+
+
 ## Exercice 3
 #### a.
 $$\forall t \in \left[ 0, \frac{\pi}{2} \right[, x\mapsto \arctan(x(\tan(t))) \text{ est cont par composé }$$
