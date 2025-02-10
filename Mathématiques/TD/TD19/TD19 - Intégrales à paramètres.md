@@ -1,4 +1,15 @@
 ## Exercice 1
+#### a.
+Fonction continue sur $[0, \pi]$
+
+#### b.
+On pose : 
+$$ f : \begin{cases}
+]1, + \infty[ \times [0, \pi] \to \mathbb{R} \\
+(b,t) \mapsto \ln\left( \frac{b-\cos(t)}{a-\cos(t)} \right)
+\end{cases}$$
+$$\frac{\partial f}{\partial b} = \frac{\frac{1}{a-\cos(t)}(a-\cos(t))}{b-\cos(t)} = \frac{1}{b-\cos(t)} $$
+$$est bien continue sur 
 
 
 
