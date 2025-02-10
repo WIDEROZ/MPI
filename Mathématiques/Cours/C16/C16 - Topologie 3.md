@@ -163,9 +163,7 @@ Si $\Omega$ est convexe , $\Omega$ est CPA
 ___
 Les parties CPA de $(\mathbb{R}, \left| \cdot\right|)$ sont les intervalles
 ___
-Si $\Omega$ est CPA et si $f: \Omega \to F$ est continue.
-___
-Si $\Omega$ est CPA et si $f:\Omega \to F$ est continue (ou $(F, \left|\left| \cdot \right|\right|)$ est un evn alors $f(\Omega)$ est un connexe par arcs dans $F$)
+Si $\Omega$ est CPA et si $f:\Omega \to F$ est continue (ou $(F, \left|\left| \cdot \right|\right|)$ est un evn) alors $f(\Omega)$ est un connexe par arcs dans $F$
 
 Démonstration : 
 Si $\Omega$ est étoilé par rapport à $x_{0} \in \Omega$
@@ -178,10 +176,17 @@ ___
 Si $\Omega$ est convexe il est CPA car étoilé par rapport à chacun de ses points.
 ___
 Si $\Omega$ est un intervalle de $\mathbb{R}$, il est convexe donc CPA. Rappelons d'ailleurs qui si $\Omega \subset \mathbb{R}$, 
-$$\Omega \text{ est in intervalle }\Leftrightarrow $$
+$$\begin{array}{rl}
+&\Omega \text{ est in intervalle } \\
+&\Leftrightarrow \forall x, y \in \Omega, [x, y]\subset \Omega  \\
+&\Leftrightarrow \forall t \in [0, 1], tx + (1-t)y \in \Omega
+\end{array}$$
 ___
 Si $\Omega$ est un CPA de $(\mathbb{R}, \left| \cdot\right|)$ : 
 $$\forall x, y \in \Omega, \exists \gamma : [0, 1] \to \Omega \text{ continu tel que } \begin{cases}
 \gamma(0 )= x \\
 \gamma(1) = y
 \end{cases}$$
+Comme $\gamma$ est une fonction continue de $[0, 1]$ dans $\mathbb{R}$, 
+Comme $\Omega$ est CPA, $\exists \gamma : [0, 1] \to \Omega$ continue telle que  $\gamma(0) = a$ et $\gamma(1) = b$
+Alors, $f \circ \gamma : [0, 1] \to f(\Omega)$ est un chemin continu comme composé de fonctions continues et $f \circ \gamma (0) = x$ puis $f \circ \gamma(1) = y$
