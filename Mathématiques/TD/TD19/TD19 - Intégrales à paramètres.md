@@ -8,18 +8,15 @@ $$ f : \begin{cases}
 ]1, + \infty[ \times [0, \pi] \to \mathbb{R} \\
 (b,t) \mapsto \ln\left( \frac{b-\cos(t)}{a-\cos(t)} \right)
 \end{cases}$$
-$$\frac{\partial f}{\partial b} = \frac{\frac{1}{a-\cos(t)}(a-\cos(t))}{b-\cos(t)} = \frac{1}{b-\cos(t)} \leq \frac{1}{1-\cos(t)}$$
-Puis, 
-
-
-
-$$\left| x\right|-\left| y\right| \leq \left| x-y\right| $$
-
-
-$\forall b \in ]1, + \infty[, \frac{\partial f}{\partial b}(b, \cdot)$ est bien continue sur $[0, \pi]$ donc intégrable de plus, 
-$\forall t \in [0, \pi], f(\cdot, t)$ est bien continue 
+Soit $c \in ]1, b[$
+$$\frac{\partial f}{\partial b} = \frac{\frac{1}{a-\cos(t)}(a-\cos(t))}{b-\cos(t)} = \frac{1}{b-\cos(t)} \leq \frac{1}{c-\cos(t)}$$
+or $\frac{1}{c-\cos(t)}$ est intégrable sur $[0, \pi]$ car continue sur $[0, \pi]$
+Donc, 
+$$\frac{\partial I}{\partial b} \in \mathcal{C}^{1} \text{ et } \frac{\partial I}{\partial b}  = \int_{0}^{\pi} \frac{\partial f}{\partial b}  \, dt  = \int_{0}^{\pi} \frac{1}{b-\cos(t)}  \, dt$$
 
 #### c.
+$$\int_{0}^{+ \infty} \frac{2dt}{(1+t^{2})(b-\cos(2\arctan(t)))} $$
+$$= [\ln(b-\cos(2\arctan(t)))]_{0}^{+ \infty}$$
 
 
 
