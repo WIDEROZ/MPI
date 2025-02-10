@@ -124,4 +124,24 @@ t \mapsto \gamma(1-t)
 ___
 $\forall x, y, z \in \Omega$ si $x \mathcal{R} y$ et $y \mathcal{R}z$ il existe alors $\gamma_{1} : [0, 1 ] \to \Omega$ un chemin continu de $x$ à $y$ de même pour $\gamma_{2}$ de $y$ à $z$
 Alors : 
-$$$$
+$$\gamma : \begin{cases}
+[0, 1] \to \Omega  \\
+t \mapsto \gamma(t) = \begin{cases}
+\gamma_{1}(2t) \text{ si } 0\leq t \leq \frac{1}{2} \\
+\gamma_{2}(2t-1) \text{ si } \frac{1}{2} < t \leq 1
+\end{cases}
+\end{cases}$$
+On a bien $x \mathcal{R} z$ car : $\gamma_{1}(0) = x$ et $\gamma(1) = z$ puis : 
+$$\begin{cases}
+\forall t \in \left[ 0, \frac{1}{2} \right], \gamma(t) = \gamma_{1}(2t) \in \Omega \\
+\forall t \in \left] \frac{1}{2} 1 \right],\gamma(t) = \gamma_{1}(2t-1) \in \Omega
+\end{cases}$$
+D'après le théorème de composition des fonctions continues $\mathcal{C}^{0}$ sur $[0, 1]\setminus \left\{  \frac{1}{2}  \right\}$
+Or $\gamma_{2}$ est continue en $0^{+}$ donc $\lim_{ t \to \left( \frac{1}{2} \right)^{+} } \gamma(t)= \lim_{ t \to \left( \frac{1}{2} \right)^{-} }\gamma(t) = y$
+
+#### Exercice
+Soit $H$ un hyperplan de $\mathbb{R}^{n}$ Alors $\Omega = \mathbb{R}^{n}\setminus H$ n'est pas connexe par arcs
+
+Démonstration : 
+On pose une base : $(e_{1}, \dots, e_{n-1})$ de $H$ et on complète pour $\mathbb{R}^{n}$ : $(e_{1}, \dots, e_{n})$
+
