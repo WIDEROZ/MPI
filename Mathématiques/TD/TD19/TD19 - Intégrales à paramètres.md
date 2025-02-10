@@ -9,7 +9,11 @@ $$ f : \begin{cases}
 (b,t) \mapsto \ln\left( \frac{b-\cos(t)}{a-\cos(t)} \right)
 \end{cases}$$
 $$\frac{\partial f}{\partial b} = \frac{\frac{1}{a-\cos(t)}(a-\cos(t))}{b-\cos(t)} = \frac{1}{b-\cos(t)} \leq \frac{1}{1-\cos(t)}$$
-Comme 
+Puis, 
+
+
+
+$$\left| x\right|-\left| y\right| \leq \left| x-y\right| $$
 
 
 $\forall b \in ]1, + \infty[, \frac{\partial f}{\partial b}(b, \cdot)$ est bien continue sur $[0, \pi]$ donc intégrable de plus, 
