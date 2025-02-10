@@ -94,4 +94,17 @@ $$u_{\varphi(n)}\underset{n \to +\infty}{\longrightarrow} l \in K$$
 or $(u_{n})_{n \in \mathbb{N}}$ diverge donc le tend pas vers $l$ ie : 
 $$\exists  \varepsilon >0, \forall n_{0} \in \mathbb{N}, \exists n > n_{0}, \left|\left| u_{n}-l \right|\right| > \varepsilon$$
 ie $\{ n \in \mathbb{N} | u_{n} \not\in \overline{B}(l, \varepsilon) \}$ est infini notons cet ensemble $\{ \psi(0), \psi(1), \psi(2), \dots \}$ ou $\psi$ est une extractrice
-Comme $(u_{\varphi})$
+Comme $(u_{\varphi(n)})_{n \in \mathbb{N}}\in K^{\mathbb{N}}$ et que $K$ est compact, $\exists l_{2} \in K$ tel que : $u_{\psi \circ g(n)} \underset{n \to +\infty}{\longrightarrow}l_{2}$ et comme : 
+$$\forall n \in \mathbb{N}, \left|\left| u_{\psi \circ g(n) }-l \right|\right| > \varepsilon \text{ alors } \left|\left| l_{2}-l_{1} \right|\right|  > \varepsilon \text{ ie }l_{2} \neq l_{1} $$
+on a donc trouvé plusieurs valeurs d'adhérence de $(u_{n})_{n \in \mathbb{N}}$
+
+# II. Connexité par arcs
+#### Définition
+Soit $\Omega$ une partie d'un espace vectoriel normé : $(E, \left|\left| \cdot \right|\right|)$
+Pour tout $x, y \in \Omega$, on appelle chemin continu de $x$ à $y$ dans $\Omega$ toute fonction : $\gamma : [0, 1] \to \Omega$ telle que : $\gamma(0) = x$ et $\gamma(1) = y$
+___
+$$\forall x, t \in \Omega, x \mathcal{R} y \Leftrightarrow \text{Il existe} \text{ un chemin cont. dans }\Omega \text{ de }x \text{ à }y$$
+___
+On appelle composante connexe par arcs de $\Omega$ toute classe d'équivalence de $\mathcal{R}$
+___
+$\Omega$ est dite connexe par arc
