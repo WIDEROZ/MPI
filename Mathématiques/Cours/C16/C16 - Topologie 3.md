@@ -76,4 +76,22 @@ Si $F$ est compact, $F$ est fermé par $3$
 Si $F$ est fermé, soit $(x_{n})_{n \in \mathbb{N}} \in F^{\mathbb{N}} \subset K^{\mathbb{N}}$, il existe une extractrice : $\varphi$ et $l \in K$ tel que : $x_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} l$. 
 Or $F$ étant fermé, il est stable par passage à la limite et donc, $l = \lim_{ n \to \infty }x_{\varphi(n)} \in F$ ie $F$ est un compact
 
+#### Propriété
+Soit $(u_{n})_{n \in \mathbb{N}}$ une suite d'éléments de $K$
+Alors on a équivalence entre :
+- $(u_{n})_{n \in \mathbb{N}}$ converge
+- $(u_{n})_{n \in \mathbb{N}}$ admet exactement une valeur d'adhérence
 
+Démonstration : 
+Si $(u_{n})_{n \in \mathbb{N}}$ converge : 
+Si $u_{n} \underset{n \to +\infty}{\longrightarrow}l$ alors $\forall \varphi$ une extract. on a : $u_{\varphi(n)}\underset{n \to +\infty}{\longrightarrow} l$
+alors $l$ est une unique valeur d'adhérence
+___
+On fait par la contraposée : 
+On suppose que $(u_{n})_{n \in \mathbb{N}}$ diverge. 
+Comme $(u_{n})_{n \in \mathbb{N}} \in K^{\mathbb{N}}$ elle admet une valeur d'adhérence ie 
+$$u_{\varphi(n)}\underset{n \to +\infty}{\longrightarrow} l \in K$$
+or $(u_{n})_{n \in \mathbb{N}}$ diverge donc le tend pas vers $l$ ie : 
+$$\exists  \varepsilon >0, \forall n_{0} \in \mathbb{N}, \exists n > n_{0}, \left|\left| u_{n}-l \right|\right| > \varepsilon$$
+ie $\{ n \in \mathbb{N} | u_{n} \not\in \overline{B}(l, \varepsilon) \}$ est infini notons cet ensemble $\{ \psi(0), \psi(1), \psi(2), \dots \}$ ou $\psi$ est une extractrice
+Comme $(u_{\varphi})$
