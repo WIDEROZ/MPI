@@ -8,8 +8,9 @@ $$ f : \begin{cases}
 ]1, + \infty[ \times [0, \pi] \to \mathbb{R} \\
 (b,t) \mapsto \ln\left( \frac{b-\cos(t)}{a-\cos(t)} \right)
 \end{cases}$$
-$$\frac{\partial f}{\partial b} = \frac{\frac{1}{a-\cos(t)}(a-\cos(t))}{b-\cos(t)} = \frac{1}{b-\cos(t)} \leq \frac{1}{1-\cos(t)}$$
-qui est bien intégrable car en $0$ : $\frac{1}{1-\cos(t)} = -\frac{2}{t^{2}}$
+$$\frac{\partial f}{\partial b} = \frac{\frac{1}{a-\cos(t)}(a-\cos(t))}{b-\cos(t)} = \frac{1}{b-\cos(t)} \leq \frac{1}{1-\cos(t)} \leq \frac{1}{(1-\cos(t))^{3/2}}$$
+
+$$2^{3/2} = 2\sqrt{2} \text{ et } 4^{3/2} = \sqrt{64}$$
 
 
 $\forall b \in ]1, + \infty[, \frac{\partial f}{\partial b}(b, \cdot)$ est bien continue sur $[0, \pi]$ donc intégrable de plus, 
