@@ -107,4 +107,21 @@ $$\forall x, t \in \Omega, x \mathcal{R} y \Leftrightarrow \text{Il existe} \tex
 ___
 On appelle composante connexe par arcs de $\Omega$ toute classe d'équivalence de $\mathcal{R}$
 ___
-$\Omega$ est dite connexe par arc
+$\Omega$ est dite connexe par arc lorsqu'il  n'admet qu'une seule composante connexe par arcs ie lorsque :
+$$\forall x, y \in \Omega, x \mathcal{R} y$$
+
+Démonstration que $\mathcal{R}$ est une relation d'équivalence : 
+$$\forall x \in \Omega, x \mathcal{R} x \text{ car  : }\gamma : \begin{cases}
+[0, 1] \to \Omega \\
+t \mapsto x
+\end{cases}$$
+___
+$\forall x,y \in \Omega, x \mathcal{R} y$ il existe $\gamma : [0, 1 ] \to \Omega$ un chemin cont. tel que $\gamma(0) = x$ et $\gamma(1) = y$ alors : 
+$$\gamma : \begin{cases}
+[0, 1] \to \Omega \\
+t \mapsto \gamma(1-t)
+\end{cases}\text{ est un chemin continu}$$
+___
+$\forall x, y, z \in \Omega$ si $x \mathcal{R} y$ et $y \mathcal{R}z$ il existe alors $\gamma_{1} : [0, 1 ] \to \Omega$ un chemin continu de $x$ à $y$ de même pour $\gamma_{2}$ de $y$ à $z$
+Alors : 
+$$$$
