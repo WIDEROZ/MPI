@@ -145,3 +145,8 @@ Soit $H$ un hyperplan de $\mathbb{R}^{n}$ Alors $\Omega = \mathbb{R}^{n}\setminu
 Démonstration : 
 On pose une base : $(e_{1}, \dots, e_{n-1})$ de $H$ et on complète pour $\mathbb{R}^{n}$ : $(e_{1}, \dots, e_{n})$
 
+#### Définition
+Soit $\Omega \subset (E, \left|\left| \cdot \right|\right|)$ et $x_{0} \in \Omega$
+On dit que $\Omega$ est étoilé par rapport à $x_{0}$ lorsque $\forall x \in \Omega$ : 
+$$\forall t \in [0, 1], t x_{0} + (1-t)x \in \Omega \Leftrightarrow [x_{0}, x] \subset \Omega$$
+
