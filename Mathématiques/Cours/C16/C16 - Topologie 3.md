@@ -168,3 +168,20 @@ ___
 Si $\Omega$ est CPA et si $f:\Omega \to F$ est continue (ou $(F, \left|\left| \cdot \right|\right|)$ est un evn alors $f(\Omega)$ est un connexe par arcs dans $F$)
 
 Démonstration : 
+Si $\Omega$ est étoilé par rapport à $x_{0} \in \Omega$
+$$\forall x \in \Omega, \gamma : \begin{cases}
+[0, 1] \to \Omega \\
+t \mapsto (1-t)x + tx_{0}
+\end{cases}$$
+est un chemin continu dans $\Omega$ de $x$ à $x_{0}$, donc $x\mathcal{R}x_{0}$, et $\Omega$ n'admet qu'une composante CPA
+___
+Si $\Omega$ est convexe il est CPA car étoilé par rapport à chacun de ses points.
+___
+Si $\Omega$ est un intervalle de $\mathbb{R}$, il est convexe donc CPA. Rappelons d'ailleurs qui si $\Omega \subset \mathbb{R}$, 
+$$\Omega \text{ est in intervalle }\Leftrightarrow $$
+___
+Si $\Omega$ est un CPA de $(\mathbb{R}, \left| \cdot\right|)$ : 
+$$\forall x, y \in \Omega, \exists \gamma : [0, 1] \to \Omega \text{ continu tel que } \begin{cases}
+\gamma(0 )= x \\
+\gamma(1) = y
+\end{cases}$$
