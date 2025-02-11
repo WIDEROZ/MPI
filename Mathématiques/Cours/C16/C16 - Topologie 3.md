@@ -253,4 +253,18 @@ Et la réciproque provient du fait que le maximum de $p$ suites réelles tendant
 #### Exemple
 Soit $F\underset{sev}{\subset} E$ de dim finie
 $$\forall x \in E, d(x, F) = \inf_{f \in F} \left|\left| x-f \right|\right| $$
- 
+Alors, 
+$$\exists u \in F, d(x, F) = \left|\left| x-u \right|\right| $$
+($u$ dépend de $x$) ie $f  \in F\mapsto \left|\left| x-f \right|\right|$ admet un min
+
+Démonstration : 
+La borne inférieur d'un ensemble lui est adhérent alors : 
+$$\exists (f_{n})_{n \in \mathbb{N}} \in F^{\mathbb{N}}, \left|\left| x-f_{n} \right|\right| \underset{n \to +\infty}{\longrightarrow} d(x, f)$$
+Or $(f_{n})_{n \in \mathbb{N}}$ est bornée car : 
+$$\forall n \in \mathbb{N}, \left|\left| f_{n} \right|\right|  \leq \left|\left| x-f_{n} \right|\right| + \left|\left| x \right|\right| \underset{n \to +\infty}{\longrightarrow}  \left|\left| x \right|\right|  + d(x, F)$$
+Comme $F$ est de dimension finie et $F^{\mathbb{N}}$ admet une valeur d'adhérence $u\in F$ $f_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} u$
+Par continuité de la norme : 
+$$\left|\left| x-f_{\varphi(n)} \right|\right|  \underset{n \to +\infty}{\longrightarrow} \left|\left| x-u \right|\right| $$
+Mais : $(\left|\left| x-f_{\varphi(n)} \right|\right|)_{n \in \mathbb{N}}$ tend aussi vers $d(x, F)$
+Par exemple si $f \in \mathcal{C}^{0}([0, 1], \mathbb{R})$, et $n \in \mathbb{N}$, $f$ admet un polynôme de meilleure approximation de degré $\leq n$ $P_{0}$ ie : 
+$$\forall P \in \mathbb{R}_{n}[X], \left|\left| f-P_{0} \right|\right| \leq \left|\left| f-P \right|\right| $$
