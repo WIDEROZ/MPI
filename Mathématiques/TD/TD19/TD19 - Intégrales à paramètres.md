@@ -35,4 +35,15 @@ $$F'(x) = \int_{0}^{\pi/2}\frac{\tan(t)}{1+x^{2}\tan ^{2}(t)} \, dt $$
 $$= \int_{0}^{+\infty} \frac{y}{(1+x^{2}y^{2})(1+y^{2})} dy $$
 $$= \int_{0}^{+ \infty}  \, dx $$
 
-#### Exercice 8
+## Exercice 8
+#### a.
+$$x \mapsto e^{ -\left( t^{2}+ \frac{x^{2}}{t^{2}} \right) } \in \mathcal{C}^{0} \text{ et }t \mapsto e^{ -\left( t^{2}+ \frac{x^{2}}{t^{2}} \right) } \in \mathcal{C}^{0}$$
+et : 
+$$e^{ -\left( t^{2}+ \frac{x^{2}}{t^{2}} \right) } \leq e^{ -t^{2} }$$
+Alors $F \in \mathcal{C}^{0}$
+$e^{ -t^{2} } \in \mathcal{L}^{1}(\mathbb{R}_{+})$
+#### b.
+$$x \mapsto e^{ -\left( t^{2}+ \frac{x^{2}}{t^{2}} \right) } \in \mathcal{C}^{1}(\mathbb{R}_{+}) $$
+puis, 
+$$\frac{\partial }{\partial x} e^{ -\left( t^{2}+\frac{x^{2}}{t^{2}} \right) } = -\frac{2x}{t^{2}}e^{ -\left( t^{2}+\frac{x^{2}}{t^{2}} \right) } $$
+$$\forall c \in ]0, x[ ,\left| \frac{\partial }{\partial x} e^{ -\left( t^{2}+\frac{x^{2}}{t^{2}} \right) }\right| \leq \frac{2x}{t^{2}} e^{ -t^{2} } $$
