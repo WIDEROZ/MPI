@@ -233,4 +233,24 @@ n
 )}) \underset{n \to +\infty}{\longrightarrow} (\alpha_{1}, \dots, \alpha_{p})$$
 Alors si on note : 
 $$l = \sum_{k = 1}^{p} \alpha_{k}e_{k}$$
-$$\left|\left| u_{n}-l \right|\right|_{\infty} = \max_{1 \leq k \leq p} \left| x_{}\right| $$
+$$\left|\left| u_{n}-l \right|\right|_{\infty} = \max_{1 \leq k \leq p} \left| x_{k, \varphi(n)} - \alpha_{k}\right|  \underset{n \to +\infty}{\longrightarrow} 0$$
+Donc $(u_{n})_{n \in \mathbb{N}}$ admet une valeur d'adhérence $l$ qui appartient bien à $K$ car $K$ est fermé
+___
+Si $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$ est bornée il existe $M \in \mathbb{R}$, $\forall n \in \mathbb{N}, u_{n} \in \overline{B}(0, M)$
+Or, $\overline{B}(0, M)$ est compact car fermé et borné. Ainsi, $(u_{n})_{n \in \mathbb{N}}$ admet au moins une valeur d'adhérence
+___
+$\Rightarrow$ SU
+$\Leftarrow$ : 
+Si $(u_{n})_{n \in\mathbb{N}}$ est bornée elle est incluse dans un compact. Si elle admet exactement une valeur d'adhérence, elle est donc convergente
+____
+Il suffit de munir $E$ de la norme infinie. 
+Ainsi, si : 
+$$u_{n} \underset{n \to +\infty}{\longrightarrow} l = \sum_{k = 1}^{p} \alpha_{k} e_{k}$$
+$$\left| u_{k, n} -\alpha_{k}\right| \leq \left|\left| u_{n} - l \right|\right| _{\infty} \underset{n \to +\infty}{\longrightarrow} 0$$
+$$u_{k, n} \underset{n \to +\infty}{\longrightarrow} \alpha_{k}$$
+Et la réciproque provient du fait que le maximum de $p$ suites réelles tendant vers $0$ est une suite de limite nulle. 
+
+#### Exemple
+Soit $F\underset{sev}{\subset} E$ de dim finie
+$$\forall x \in E, d(x, F) = \inf_{f \in F} \left|\left| x-f \right|\right| $$
+ 
