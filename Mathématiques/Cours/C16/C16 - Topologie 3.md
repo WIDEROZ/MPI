@@ -268,3 +268,22 @@ $$\left|\left| x-f_{\varphi(n)} \right|\right|  \underset{n \to +\infty}{\longri
 Mais : $(\left|\left| x-f_{\varphi(n)} \right|\right|)_{n \in \mathbb{N}}$ tend aussi vers $d(x, F)$
 Par exemple si $f \in \mathcal{C}^{0}([0, 1], \mathbb{R})$, et $n \in \mathbb{N}$, $f$ admet un polynôme de meilleure approximation de degré $\leq n$ $P_{0}$ ie : 
 $$\forall P \in \mathbb{R}_{n}[X], \left|\left| f-P_{0} \right|\right| \leq \left|\left| f-P \right|\right| $$
+
+#### Corollaire
+Si $E$ est de dimension finie et $(F, \left|\left| \cdot \right|\right|)$ est un ev normé, toutes fonction $f \in \mathcal{L}(E, F)$ est continue
+___
+Si $E_{1}, \dots, E_{p}$ sont des $\mathbb{K}$-ev de dimensions finies et $f:E_{1} \times \dots E_{p} \to F$ est $p$-linéaire, alors $f$ est continue
+
+Démonstration : 
+On prend $\left|\left| \cdot \right|\right|_{\infty}$ sur $E$ : 
+$$\forall x \in E, \left|\left| f(x) \right|\right| = \left|\left| f\left( \sum_{k = 1}^{p} x_{k}e_{k} \right) \right|\right| = \left|\left| \sum_{k = 1}^{p} x_{k} f(e_{k}) \right|\right| $$ 
+$$\leq \sum_{k =1}^{p} \left| x_{k}\right| \left|\left| f(e_{k}) \right|\right|  \leq M \left|\left| x \right|\right| _{\infty} \leq \left|\left| x \right|\right| 
+_{\infty}$$
+où $M = \sum_{k = 1}^{p} \left|\left| f(e_{k}) \right|\right|<+\infty$
+On sait que cette inégalité pour une application linéaire est équivalente à sa continuité. 
+
+#### Théorème
+Soit $(R, \left|\left| \cdot \right|\right|)$ un evn
+Si $F\underset{sev}{\subset} E$ de dimension finie, $F$ est fermé dans $(E, \left|\left| \cdot \right|\right|)$
+Soit $(f_{n})_{n \in \mathbb{N}}\in F^{\mathbb{N}}$, CV convergente dans $E$ ie
+$$\exists x \in E, f_{n} \underset{n \to +\infty}{\longrightarrow} x$$
