@@ -285,5 +285,13 @@ On sait que cette inégalité pour une application linéaire est équivalente à
 #### Théorème
 Soit $(R, \left|\left| \cdot \right|\right|)$ un evn
 Si $F\underset{sev}{\subset} E$ de dimension finie, $F$ est fermé dans $(E, \left|\left| \cdot \right|\right|)$
+
+Démonstration : 
 Soit $(f_{n})_{n \in \mathbb{N}}\in F^{\mathbb{N}}$, CV convergente dans $E$ ie
 $$\exists x \in E, f_{n} \underset{n \to +\infty}{\longrightarrow} x$$
+$(f_{n})_{n \in \mathbb{N}}$ est une suite de $F$ bornée 
+Elle admet une valeur d'adhérence $u$ dans $F$ alors : 
+$$\begin{cases}
+f_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} u \\
+f_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} x
+\end{cases} \text{ donc } u = x$$
