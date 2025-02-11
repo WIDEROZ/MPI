@@ -48,4 +48,4 @@ puis,
 $$\frac{\partial }{\partial x} e^{ -\left( t^{2}+\frac{x^{2}}{t^{2}} \right) } = -\frac{2x}{t^{2}}e^{ -\left( t^{2}+\frac{x^{2}}{t^{2}} \right) } $$
 $$\forall x \in [a, b] \subset ]0, + \infty[,\left| \frac{\partial }{\partial x} e^{ -\left( t^{2}+\frac{x^{2}}{t^{2}} \right) }\right| \leq \frac{2x}{t^{2}} e^{ -t^{2}- \frac{x^{2}}{t^{2}} } \leq \frac{2b}{t^{2}} e^{ -\left( t^{2}+ \frac{a^{2}}{t^{2}} \right) }$$
 
-$$-2x\int_{0}^{+ \infty}  e^{ -\left( \frac{x}{y} \right)^{2} } e^{ -y^{2} } \, dy $$
+$$F'(x) = -2\int_{0}^{+ \infty}  e^{ -\left( \frac{x}{y} \right)^{2} } e^{ -y^{2} } \, dy $$
