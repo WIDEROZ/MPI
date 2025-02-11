@@ -211,4 +211,26 @@ $$((u_{n})_{n \in \mathbb{N}} \text{ CV} )\Leftrightarrow \left((u_{n})_{n \in \
 \end{array}\right)$$
 ___
 Si $\beta = (e_{1}, \dots, e_{p})$ est une base de $E$, $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, notons 
-$$\forall n \in \mathbb{N}, u_{n} = \sum_{k = 1}^{p} x_{k, n} e_{k}\text{ alors }(u_{n})_{n \in \mathbb{N}} \text{ CV } \Leftrightarrow $$
+$$\forall n \in \mathbb{N}, u_{n} = \sum_{k = 1}^{p} x_{k, n} e_{k}$$
+$$(u_{n})_{n \in \mathbb{N}} \text{ CV } \Leftrightarrow \forall k \in [\![1, p]\!], (x_{k, n}) \in \mathbb{K}^{\mathbb{N}} \text{ CV}$$
+dans ce cas : 
+$$u_{n} \underset{n \to +\infty}{\longrightarrow} \sum_{k = 1}^{p} (\lim_{ n \to +\infty } x_{k, n})e_{k}$$
+
+Démonstration : 
+$\Rightarrow$ : Déjà fait
+$\Leftarrow$ :  
+On prend la norme : $\left|\left| u \right|\right|_{\infty} = \max_{1 \leq k \leq p} \left| x_{k}\right|$ où 
+$$u = \sum_{k = 1}^{p} x_{k} e_{k}$$
+Soit $K$ un ensemble fermé et borné et $(u_{n})_{n \in \mathbb{N}} \in K^{\mathbb{N}}$, Notons : 
+$$\forall n \in \mathbb{N}, \forall n \in \mathbb{N}, u_{n} = \sum_{k = 1}^{p} x_{k, n} e_{k}$$
+Comme $K$ est borné, il existe $M \in \mathbb{R}$ tel que : 
+$$\forall n \in \mathbb{N}, \forall k \in [\![1, p]\!], \left| x_{k, n}\right|\leq M$$
+ie 
+$$((x_{1, n}, \dots, x_{p,n}))_{n \in \mathbb{N}} \in ([-M,M]^{p})^{\mathbb{N}}$$
+Or $[-M, M]^{p}$ est compact en tant que produit de compacts. il existe donc $\varphi$ une extractrice et $(\alpha_{1}, \dots, \alpha_{p}) \in [-M, M]^{p}$ tels que : 
+$$(x_{1, \varphi(n)}, \dots, x_{p, \varphi(
+n
+)}) \underset{n \to +\infty}{\longrightarrow} (\alpha_{1}, \dots, \alpha_{p})$$
+Alors si on note : 
+$$l = \sum_{k = 1}^{p} \alpha_{k}e_{k}$$
+$$\left|\left| u_{n}-l \right|\right|_{\infty} = \max_{1 \leq k \leq p} \left| x_{}\right| $$
