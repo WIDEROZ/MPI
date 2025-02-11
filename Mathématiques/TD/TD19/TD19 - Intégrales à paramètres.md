@@ -14,9 +14,7 @@ or $\frac{1}{c-\cos(t)}$ est intégrable sur $[0, \pi]$ car continue sur $[0, \p
 Donc, 
 $$\frac{\partial I}{\partial b} \in \mathcal{C}^{1} \text{ et } \frac{\partial I}{\partial b}  = \int_{0}^{\pi} \frac{\partial f}{\partial b}  \, dt  = \int_{0}^{\pi} \frac{1}{b-\cos(t)}  \, dt$$
 
-#### c.
-$$\int_{0}^{+ \infty} \frac{2dt}{(1+t^{2})(b-\cos(2\arctan(t)))} $$
-$$= [\ln(b-\cos(2\arctan(t)))]_{0}^{+ \infty}$$
+
 
 
 
