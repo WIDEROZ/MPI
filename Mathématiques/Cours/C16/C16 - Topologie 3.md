@@ -191,3 +191,24 @@ $$\forall x, y \in \Omega, \exists \gamma : [0, 1] \to \Omega \text{ continu tel
 Comme $\gamma$ est une fonction continue de $[0, 1]$ dans $\mathbb{R}$, 
 Comme $\Omega$ est CPA, $\exists \gamma : [0, 1] \to \Omega$ continue telle que  $\gamma(0) = a$ et $\gamma(1) = b$
 Alors, $f \circ \gamma : [0, 1] \to f(\Omega)$ est un chemin continu comme composé de fonctions continues et $f \circ \gamma (0) = x$ puis $f \circ \gamma(1) = y$
+
+# III. Le cas de la dimension finie
+#### Théorème
+Si $E$ est un $\mathbb{K}$-ev de dimension finie, toutes les normes sur $E$ sont équivalentes. 
+
+#### Théorème
+Soit $E$ un $\mathbb{K}$-ev de dimension finie 
+___
+Soit $K \subset E$, alors 
+$$K \text{ est compact}\Leftrightarrow K \text{ est fermé et borné}$$
+___
+Toute suite d'éléments de $E$ bornée admet au moins une valeur d'adhérence
+___
+Soit $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, alors, 
+$$((u_{n})_{n \in \mathbb{N}} \text{ CV} )\Leftrightarrow \left((u_{n})_{n \in \mathbb{N}} \begin{array}{l}
+&\text{est bornée et admet} \\
+&\text{au plus une val. d'ad}
+\end{array}\right)$$
+___
+Si $\beta = (e_{1}, \dots, e_{p})$ est une base de $E$, $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, notons 
+$$\forall n \in \mathbb{N}, u_{n} = \sum_{k = 1}^{p} x_{k, n} e_{k}\text{ alors }(u_{n})_{n \in \mathbb{N}} \text{ CV } \Leftrightarrow $$
