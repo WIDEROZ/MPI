@@ -332,3 +332,27 @@ Puisque $\dim \mathcal{M}_{n}(\mathbb{K}) \neq + \infty$, toutes les normes sont
 $$\forall k \in \mathbb{N}, \left|\left| \left| \frac{A^{k}}{k!}\right| \right|\right| \leq \frac{\left|\left| \left| A\right| \right|\right|^{k}}{k!} $$
 qui est le terme général de la série : 
 $$\sum_{k =0}^{+ \infty} \frac{\left|\left| \left| A\right| \right|\right| ^{k}}{k!} \text{ CV vers } e^{ \left|\left| \left| A\right| \right|\right|  }$$
+
+#### Exemple
+Soit $T$ triangulaire supérieure : 
+$$T = \begin{pmatrix}
+\alpha_{1, 1}&&&\alpha_{i, j} \\
+0&\alpha_{2, 2}& \\
+\vdots&\ddots&\ddots \\
+0&\dots&0&\alpha_{n, n}
+\end{pmatrix}$$
+$$\exp(T) = \begin{pmatrix}
+e^{ \alpha_{1, 1} }&?&?&? \\
+0&e^{ \alpha_{2, 2} }&?&? \\
+\vdots&\ddots&\ddots&? \\
+0&\dots&0&e^{ \alpha_{n, n} }
+\end{pmatrix}$$
+
+#### Propriété
+$$\forall M \in \mathcal{M}_{n}(\mathbb{K}), \forall P \in GL_{n}(\mathbb{K}),  e^{ PMP^{-1} } = P(\exp(M)){P^{-1}}$$
+$$\forall A, B \in \mathcal{M}_{n}(\mathbb{K}), AB =BA \Rightarrow e^{ A+B } = e^{ A }e^{ B }$$
+$$\forall A \in \mathcal{M}_{n}(\mathbb{K}), e^{ A } \text{ est inversible et } (e^{ A })^{-1} = e^{ -A } $$
+
+Démonstration : 
+Soient $M \in \mathcal{M}_{n}(\mathbb{K})$ et $P \in GL_{n}(A)$, 
+$$\sum_{k = 0}^{}$$
