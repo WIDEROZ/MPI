@@ -114,3 +114,5 @@ Les valeurs peuvent-elles changer? Cela ne remet-il pas en cause leur légitimit
 ##### Application dans le corpus
 Les valeurs peuvent-elles changer? Cela ne remet-il pas en cause leur légitimité? Comment faire pour savoir si elles sont bonnes ou mauvaises? 
 
+Polynice a l'aide de son bouclier s'approprie la valeur de la justice il fait graver la déesse de la justice p.163
+On admet qu'Étéocle conteste cette contribution
