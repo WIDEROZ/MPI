@@ -98,4 +98,14 @@ La norme pour les Hébreux c'est la loi TTP.
 ### II. Quels liens entre communauté et valeurs
 Les valeurs rassemble elle créé une cohésion, un sentiment d'appartenance. 
 Valeurs culturels, esthétiques, morales, religieuses. 
-p.67 "Si nous ne nous tenons pas entre nous, la société s'effondre" Personne ne viens au diner des Mingott mais tout le monde viens a celui deds van der Luyden
+p.67 "Si nous ne nous tenons pas entre nous, la société s'effondre" Personne ne viens au diner des Mingott mais tout le monde viens a celui des van der Luyden
+
+### III. Quels liens entre valeurs et individus
+Les valeurs représentent ce que l'individu considère comme important correct ou juste. C'est de l'ordre de la morale. Les valeurs influencent comment un individu se définit. Les valeurs infléchissent un comportment. 
+
+La valeur va poser un conflit personnel, si l'ind est confronté à une contradiction de valeurs. La manière dont la personne résout le problème va influer sur l'individu. 
+
+### IV. Problèmes soulevés par les valeurs
+La communauté se construit-elle par les valeurs? 
+Certaines valeurs peuvent-elles entrer en conflit les unes par rapport aux autres? 
+Les valeurs ne sont-elles pas façonnés par environnement familial, social, politique?
