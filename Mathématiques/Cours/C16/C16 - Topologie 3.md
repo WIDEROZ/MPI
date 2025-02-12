@@ -392,7 +392,9 @@ A^{2k+1} = (-t^{2})^{k}A
 Donc, 
 $$e^{ A } = \sum_{k = 0}^{+ \infty} \frac{A^{2k}}{(2k)!} + \sum_{k = 0}^{+ \infty} \frac{A^{2k+1}}{(2k+1)!}$$
 $$= \sum_{k = 0}^{+ \infty} (-1)^{k} \frac{t^{2k}}{(2k)!} I_{n}+ \sum_{k = 0}^{+ \infty} (-1)^{k} \frac{t^{2k+1}}{(2k+1)!} A = \cos(t)I_{n} + \sin(t)A$$
-$$e^{ A } = \cos(t)I_{n} + \sin(t)A = \begin{pmatrix}
+$$\boxed{e^{ A } = \cos(t)I_{n} + \sin(t)A = \begin{pmatrix}
 \cos(t)&-\sin(t) \\
 \sin(t) &\cos(t)
-\end{pmatrix}$$
+\end{pmatrix}}$$
+Vrai quelque soit la dimension même infinie
+
