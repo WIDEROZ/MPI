@@ -127,3 +127,8 @@ Il faut essayer de mettre les valeurs en accord avec la raison.
 
 ___
 Les Danaïdes menaces aux dieux de se pendre si elles ne sont pas acceptés par Argos : conflit entre les valeurs d'Égyptos (alliance) et des danaïdes (virginité)
+___
+La communauté culturelle s'unit autour d'œuvres, elle porte particulièrement attention à évaluer ces œuvres : 
+<u>Bon Goût</u> : Ouida (condition animale bien car ce n'est pas politique...), Joshua Reynolds
+<u>Mauvais Goût</u> : Dickens : Roman sur un enfant New-Yorkais qui fait les 400 coûts. 
+<u>Archer</u> : Thackeray (dénonce le snobisme dans la haute société), Merimée 
