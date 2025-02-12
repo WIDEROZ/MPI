@@ -1,4 +1,3 @@
-## Communauté, Patrie, Nation
 #### 1.
 Oikos : Ensembles des biens et des hommes rattachés à un même lieu d'habitation
 
@@ -79,3 +78,7 @@ Wharton :
 L'égalité démocratique nie les différences égalitaires. 
 Comme il Homogénéise, il nie la diversité. 
 
+## 3. Les valeurs
+Le patriotisme
+Le nationalisme
+lE 
