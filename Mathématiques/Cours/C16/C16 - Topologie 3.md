@@ -312,4 +312,16 @@ $oit
 $$S_{n} = \sum_{k = 0}^{n} u_{k} \text{ et } T_{n} = \sum_{k = 0}^{n} \left|\left| u_{k} \right|\right| $$
 Alors,
 $$\left|\left| S_{n} \right|\right| \leq T_{n} \leq T$$ Par l'inégalité triangulaire
-Soient $l,$
+Soient $S, S' \in E$ des valeurs d'adhérence de $(S_n)_{n \in \mathbb{N}}$ alors par définition :
+$$\exists \varphi, \varphi' : \mathbb{N} \to \mathbb{N}, S_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} S \text{ et } S_{\varphi'(n)} \underset{n \to +\infty}{\longrightarrow} S'$$
+Alors, si $\varphi'(n) \leq \varphi(n)$ : 
+$$\left|\left| S_{\varphi(n)}-S_{\varphi'(n)} \right|\right| = \left|\left|  \sum_{k = \varphi'(n)+1}^{\varphi(n)} u_{k} \right|\right| \leq  \sum_{k = \varphi'(n)}^{+ \infty} \left|\left| u_{k} \right|\right| $$
+Donc dans les deux cas : 
+$$\left|\left| S_{\varphi(n)} - S_{\varphi'(n)} \right|\right| \leq \sum_{k = \min\{ \varphi'(n), \varphi(n) \}}^{+ \infty} \left| \left| u_{k}\right|\right| = T - T_{\min\{ \varphi'(n), \varphi(n) \}} \underset{n \to +\infty}{\longrightarrow} 0$$
+car : 
+$$T_{n}\underset{n \to +\infty}{\longrightarrow} T$$
+Ainsi, 
+$$\left|\left| S-S' \right|\right| \leq 0  \text{ alors } S=S'$$
+Ainsi, $(S_{n})_{n \in \mathbb{N}}$ CV car elle est bornée et admet au plus une valeur d'adhérence ($\dim E \neq + \infty$)
+
+## 2. Exponentielle de matrice
