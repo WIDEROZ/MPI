@@ -114,5 +114,14 @@ Les valeurs peuvent-elles changer? Cela ne remet-il pas en cause leur légitimit
 ##### Application dans le corpus
 Les valeurs peuvent-elles changer? Cela ne remet-il pas en cause leur légitimité? Comment faire pour savoir si elles sont bonnes ou mauvaises? 
 
-Polynice a l'aide de son bouclier s'approprie la valeur de la justice il fait graver la déesse de la justice p.163
+Polynice a l'aide de son bouclier s'approprie la valeur de la justice il fait graver la déesse de la justice p.163. 
 On admet qu'Étéocle conteste cette contribution
+
+Wharton : les valeurs changent
+
+Spinoza à montré que les valeurs ont permis de canaliser 
+les affects d'une nation. 
+
+Des personnages comme Antigone, Polynice confrontent la communauté aux limites de leurs valeurs.
+Il faut essayer de mettre les valeurs en accord avec la raison. 
+
