@@ -295,3 +295,21 @@ $$\begin{cases}
 f_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} u \\
 f_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} x
 \end{cases} \text{ donc } u = x$$
+
+# IV. Séries vectorielles
+Soient $E$ un $\mathbb{K}$-ev de dim <u>FINIE</u> 
+## 1. Absolue convergence
+Soit $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, 
+On dit que la série vectorielle :
+$$\sum_{n \in \mathbb{N}} u_{n} \text{ CVA}$$
+lorsque : 
+$$\sum_{n \in \mathbb{N}} \left|\left| u_{n} \right|\right| \text{ Converge}$$
+#### Théorème
+$$\sum_{n \in\mathbb{N}} u_{n} \text{ CVA} \Rightarrow \sum_{n \in \mathbb{N}} u_{n} \text{ CV}$$
+
+Démonstration : 
+$oit
+$$S_{n} = \sum_{k = 0}^{n} u_{k} \text{ et } T_{n} = \sum_{k = 0}^{n} \left|\left| u_{k} \right|\right| $$
+Alors,
+$$\left|\left| S_{n} \right|\right| \leq T_{n} \leq T$$ Par l'inégalité triangulaire
+Soient $l,$

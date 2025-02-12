@@ -131,4 +131,4 @@ ___
 La communauté culturelle s'unit autour d'œuvres, elle porte particulièrement attention à évaluer ces œuvres : 
 <u>Bon Goût</u> : Ouida (condition animale bien car ce n'est pas politique...), Joshua Reynolds
 <u>Mauvais Goût</u> : Dickens : Roman sur un enfant New-Yorkais qui fait les 400 coûts. 
-<u>Archer</u> : Thackeray (dénonce le snobisme dans la haute société), Merimée 
+<u>Archer</u> : Thackeray (dénonce le snobisme dans la haute société), Merimée lettre à une inconnue. 
