@@ -111,7 +111,7 @@ Certaines valeurs peuvent-elles entrer en conflit les unes par rapport aux autre
 Les valeurs ne sont-elles pas façonnés par environnement familial, social, politique?
 Les valeurs peuvent-elles changer? Cela ne remet-il pas en cause leur légitimité? Comment faire pour savoir si elles sont bonnes ou mauvaises? 
 
-##### Application dans le corpus
+#### Application dans le corpus
 Les valeurs peuvent-elles changer? Cela ne remet-il pas en cause leur légitimité? Comment faire pour savoir si elles sont bonnes ou mauvaises? 
 
 Polynice a l'aide de son bouclier s'approprie la valeur de la justice il fait graver la déesse de la justice p.163. 
