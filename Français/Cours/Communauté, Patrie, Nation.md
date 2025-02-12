@@ -109,3 +109,8 @@ La valeur va poser un conflit personnel, si l'ind est confronté à une contradi
 La communauté se construit-elle par les valeurs? 
 Certaines valeurs peuvent-elles entrer en conflit les unes par rapport aux autres? 
 Les valeurs ne sont-elles pas façonnés par environnement familial, social, politique?
+Les valeurs peuvent-elles changer? Cela ne remet-il pas en cause leur légitimité? Comment faire pour savoir si elles sont bonnes ou mauvaises? 
+
+##### Application dans le corpus
+Les valeurs peuvent-elles changer? Cela ne remet-il pas en cause leur légitimité? Comment faire pour savoir si elles sont bonnes ou mauvaises? 
+
