@@ -90,5 +90,12 @@ La valeur : est affective, elle enclenche l'adhésion, ou la désapprobation si 
 p. 35 : Ellen choque Archer en critiquant la communauté d'enfant. TDI
 p.127 : "Nul opprobre"  désapprobation de la valeur de trahison TTP
 
-La Norme : est un comportment attendu par un communauté (famille, groupe plus large) qui découle de  la valeur.
+La Norme : est un comportment attendu par un communauté (famille, groupe plus large) qui découle de la valeur.
 
+La norme attendue dans TDI c'est la pureté.
+La norme pour les Hébreux c'est la loi TTP.
+
+### II. Quels liens entre communauté et valeurs
+Les valeurs rassemble elle créé une cohésion, un sentiment d'appartenance. 
+Valeurs culturels, esthétiques, morales, religieuses. 
+p.67 "Si nous ne nous tenons pas entre nous, la société s'effondre" Personne ne viens au diner des Mingott mais tout le monde viens a celui deds van der Luyden
