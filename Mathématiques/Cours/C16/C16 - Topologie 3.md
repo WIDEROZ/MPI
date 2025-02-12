@@ -381,4 +381,18 @@ $$e^{ A } \in GL_{n}(\mathbb{K}) $$
 Calculons : 
 $$\forall A \in \mathcal{A}_{2}(\mathbb{R}), e^{ A }$$
 Alors, 
-$$\exists t \in \mathbb{R}, A = \left| \right|$$
+$$\exists t \in \mathbb{R}, A = \begin{pmatrix}
+0 & -t \\
+t & 0
+\end{pmatrix}$$
+$$A^{2} = -t^{2} I_{n} \Rightarrow \forall k \in \mathbb{N}, \begin{cases}
+A^{2k} = (-t^{2})^{k}I_{2} \\
+A^{2k+1} = (-t^{2})^{k}A
+\end{cases}$$
+Donc, 
+$$e^{ A } = \sum_{k = 0}^{+ \infty} \frac{A^{2k}}{(2k)!} + \sum_{k = 0}^{+ \infty} \frac{A^{2k+1}}{(2k+1)!}$$
+$$= \sum_{k = 0}^{+ \infty} (-1)^{k} \frac{t^{2k}}{(2k)!} I_{n}+ \sum_{k = 0}^{+ \infty} (-1)^{k} \frac{t^{2k+1}}{(2k+1)!} A = \cos(t)I_{n} + \sin(t)A$$
+$$e^{ A } = \cos(t)I_{n} + \sin(t)A = \begin{pmatrix}
+\cos(t)&-\sin(t) \\
+\sin(t) &\cos(t)
+\end{pmatrix}$$
