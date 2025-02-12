@@ -79,6 +79,9 @@ L'égalité démocratique nie les différences égalitaires.
 Comme il Homogénéise, il nie la diversité. 
 
 ## 3. Les valeurs
-Le patriotisme
-Le nationalisme
-lE 
+Loyauté respect, honnêteté, humilité, justice, fidélité, liberté, égalité fraternité. 
+
+### I. Différences conceptuelles
+Valeur : Idée, principe éthique (morale), idéal qui guide les actions de l'individu ou de la communauté vue comme "individu"
+Elle représente donc ce qui est considéré comme désirable, bon important, sur le plan moral, esthétique ou social. 
+La valeur est affective, elle enclenche l'adhésion, ou la désapprobation si elle n'est pas respectée.
