@@ -325,3 +325,10 @@ $$\left|\left| S-S' \right|\right| \leq 0  \text{ alors } S=S'$$
 Ainsi, $(S_{n})_{n \in \mathbb{N}}$ CV car elle est bornée et admet au plus une valeur d'adhérence ($\dim E \neq + \infty$)
 
 ## 2. Exponentielle de matrice
+#### Définition-Propriété
+$$\forall A \in \mathcal{M}_{n}(\mathbb{K}), \sum_{k\in \mathbb{N}} \frac{A^{k}}{k!} \text{ CVA} \text{ et on note : } e^{ A } = \exp(A) = \sum_{k = 0}^{+ \infty} \frac{A^{k}}{k!}$$
+Démonstration :
+Puisque $\dim \mathcal{M}_{n}(\mathbb{K}) \neq + \infty$, toutes les normes sont équivalentes, donc on peut choisir de raisonner avec une norme subordonnée qui est sous multiplicative : 
+$$\forall k \in \mathbb{N}, \left|\left| \left| \frac{A^{k}}{k!}\right| \right|\right| \leq \frac{\left|\left| \left| A\right| \right|\right|^{k}}{k!} $$
+qui est le terme général de la série : 
+$$\sum_{k =0}^{+ \infty} \frac{\left|\left| \left| A\right| \right|\right| ^{k}}{k!} \text{ CV vers } e^{ \left|\left| \left| A\right| \right|\right|  }$$
