@@ -125,3 +125,5 @@ les affects d'une nation.
 Des personnages comme Antigone, Polynice confrontent la communauté aux limites de leurs valeurs.
 Il faut essayer de mettre les valeurs en accord avec la raison. 
 
+___
+Les Danaïdes menaces aux dieux de se pendre si elles ne sont pas acceptés par Argos : conflit entre les valeurs d'Égyptos (alliance) et des danaïdes (virginité)
