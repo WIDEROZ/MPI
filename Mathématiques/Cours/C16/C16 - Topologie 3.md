@@ -355,4 +355,30 @@ $$\forall A \in \mathcal{M}_{n}(\mathbb{K}), e^{ A } \text{ est inversible et } 
 
 Démonstration : 
 Soient $M \in \mathcal{M}_{n}(\mathbb{K})$ et $P \in GL_{n}(A)$, 
-$$\sum_{k = 0}^{}$$
+$$\forall N \in \mathbb{N}, \sum_{k = 0}^{N} \frac{(PMP^{-1})^{k}}{k!} = \sum_{k = 0}^{N} P  \frac{M^{k}}{k!} P^{-1} = PS_{n}P^{-1}$$
+or $S_{n} \underset{n \to +\infty}{\longrightarrow} e^{ M }$ 
+Et comme $f : X \in \mathcal{M}_{n}(\mathbb{K}) \mapsto PXP^{-1}$ est linéaire sur un ev de dim finie, elle est continue donc
+$$\sum_{k = 0}^{N} \frac{(PMP^{-1})^{k}}{k!} = f(S_{N}) \underset{N \to +\infty}{\longrightarrow} f(e^{ M })$$
+Alors, 
+$$e^{ PMP^{-1} } = P e^{ M }P^{-1}$$
+Or : 
+$$(M^{k})^{\top} = (M^{\top})^{k}$$
+Donc, 
+$$\left( \sum_{k = 0}^{N} \frac{M^{k}}{k!} \right)^{\top} = \sum_{k = 0}^{N} \frac{(M^{\top})^{k}}{k!}$$
+par continuité de $\cdot^{\top}$, 
+$$(e^{ M })^{\top} = e^{ M^{\top} }$$
+
+___
+Poly
+___
+Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
+$$A(-A) = (-A)A$$
+Donc, 
+$$e^{ A+ (-A) } = e^{ A } e^{  -A } = e^{ 0 } = I_{n}$$
+$$e^{ A } \in GL_{n}(\mathbb{K}) $$
+
+#### Exercice
+Calculons : 
+$$\forall A \in \mathcal{A}_{2}(\mathbb{R}), e^{ A }$$
+Alors, 
+$$\exists t \in \mathbb{R}, A = \left| \right|$$
