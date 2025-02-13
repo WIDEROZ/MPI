@@ -416,4 +416,11 @@ $$f_{k} : \begin{cases}
 \mathcal{M}_{n} \to \mathcal{M}_{n} \\
 A \mapsto \frac{A^{k}}{k!}
 \end{cases} \in \mathcal{C}^{0}$$
-Prenons une norme subordonée : $\left|\left|  \left| \cdot\right| \right|\right|$ 
+Prenons une norme subordonnée : $\left|\left|  \left| \cdot\right| \right|\right|$ et on note : $\mathcal{B}(0, R) = \{ A \in \mathcal{M}_{n} | \left|\left| \left| A\right| \right|\right| \leq R\}$
+$$\forall A \in \mathcal{B}(0, R), \left|\left| \left| f_{k}(A)\right| \right|\right| \leq \frac{\left|\left| \left| A\right| \right|\right| ^{k}}{k!} \leq \frac{R^{k}}{k!}$$
+Ainsi, 
+$$\left|\left|  f_{k} \right|\right| _{\infty, \mathcal{B}(0, R)} \leq \frac{R^{k}}{k!} $$
+Comme $\sum_{k \in \mathbb{N}} \frac{R^{k}}{k!}$ converge, il en est de même de $\sum_{k \in \mathbb{N}} \left|\left| f_{k} \right|\right|_{\infty, \mathcal{B}(0, R)}$ alors $(f_{n})_{n \in\mathbb{N}}$ CVU et comme $\forall k \in \mathbb{N}, f_{k} \in \mathcal{C}^{0}$ 
+___
+Montons que $g$ est dérivable en 0 :
+$$\forall t \in [-1, 1], \frac{g(t)-g(0)}{t-0} = \frac{g(t) -I_{n}}{t} = \sum_{k = 1}^{+ \infty} \frac{t^{k} A^{k}}{k!}$$
