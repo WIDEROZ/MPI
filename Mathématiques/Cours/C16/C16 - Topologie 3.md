@@ -423,4 +423,17 @@ $$\left|\left|  f_{k} \right|\right| _{\infty, \mathcal{B}(0, R)} \leq \frac{R^{
 Comme $\sum_{k \in \mathbb{N}} \frac{R^{k}}{k!}$ converge, il en est de même de $\sum_{k \in \mathbb{N}} \left|\left| f_{k} \right|\right|_{\infty, \mathcal{B}(0, R)}$ alors $(f_{n})_{n \in\mathbb{N}}$ CVU et comme $\forall k \in \mathbb{N}, f_{k} \in \mathcal{C}^{0}$ 
 ___
 Montons que $g$ est dérivable en 0 :
-$$\forall t \in [-1, 1], \frac{g(t)-g(0)}{t-0} = \frac{g(t) -I_{n}}{t} = \sum_{k = 1}^{+ \infty} \frac{t^{k} A^{k}}{k!}$$
+$$\forall t \in [-1, 1], \frac{g(t)-g(0)}{t-0} = \frac{g(t) -I_{n}}{t} = \frac{\sum_{k = 1}^{+ \infty} \frac{t^{k} A^{k}}{k!}}{t} $$
+$$= A + \sum_{k = 2}^{+ \infty} t^{k-1} \frac{A^{k}}{k!}$$
+$$\forall N \geq 2, \left|\left| \left| \sum_{k = 2}^{N} t^{k-1} \frac{A^{k}}{k!}\right| \right|\right| \leq \sum_{k = 2}^{N} \frac{\left| t\right|^{k-1}}{k!} \left|\left| \left| A\right| \right|\right| ^{k} \leq \left| t\right| \sum_{k = 2}^{N}  \frac{\left|\left| \left| A \right| \right|\right| ^{k}}{k!} $$
+$$\leq \left| t\right| e^{ \left|\left| \left| A\right| \right|\right|  } $$
+en faisant tendre $N$ vers $+ \infty$ :
+$$ \left|\left| \left| \frac{g(t) - g(0)}{t-0} -A\right| \right|\right| \leq \left| t\right| e^{  \left|\left| \left| A\right| \right|\right|  }$$
+Soit $t_{0} \in \mathbb{R}$, 
+$$\frac{g(t_{0}+h)-g(t_{0})}{h} = e^{ t_{0}A } \frac{e^{ hA }-I_{n}}{h} = e^{ t_{0}A } \frac{g(h) - g(0)}{h-0} \underset{h \to +\infty}{\longrightarrow} e^{ t_{0}A } g'(0) = e^{ t_{0} A}A$$
+
+Finalement c'est bon
+
+#### Exercice
+Montrer que :
+$$\forall A, B \in \mathcal{M}_{n}(\mathbb{R}), (\forall t \in \mathbb{R}, e^{ tA + tB } = e^{ tA } e^{ tB })$$ 
