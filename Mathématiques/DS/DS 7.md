@@ -14,3 +14,4 @@ $$\mathbb{E}(X) = \mathbb{E}(X+1) - 1 = \frac{1}{p}-1 = 1$$
 $$\mathrm{Var}(X+1) = \mathrm{Var}(X) = \frac{1-p}{p
 ^{2}}$$
 
+$$\mathbb{E}(Y) = $$

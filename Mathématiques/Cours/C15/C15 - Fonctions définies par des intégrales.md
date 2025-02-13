@@ -16,7 +16,7 @@ t \mapsto f(x, t) \in \mathcal{C}_{m}^{0} (I, \mathbb{C}) \\
 \forall t \in I, x \mapsto f(x, t) \text{ admet en } x_{0}\text{ une lim }g(t) \\
 g \in \mathcal{C}^{0}(I, \mathbb{C}) \\
 \exists \varphi : I \to \mathbb{R} \text{ intégrable telle que :}  \\
-\forall (x, t)\in J \times I, \left| f(x, y)\right|\leq \varphi(t)
+\forall (x, t)\in J \times I, \left| f(x, t)\right|\leq \varphi(t)
 \end{cases}$$
 Alors, 
 $$\begin{cases}

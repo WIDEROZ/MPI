@@ -24,6 +24,7 @@ R = R' \text{ (}R' \text{ ray. de la SE dérivée)} \\
 Soit $\sum a_{n}x^{n}$ est une SE de rayon $R \neq 0$ et : 
 $$S : x \mapsto \sum_{n = 0}^{+ \infty} a_{n}x^{n} \text{ est définie sur }]-R, R[ \text{ au moins}$$
 $$\sum_{n \in \mathbb{N}}a_{n}R^{n} \text{ CV} \Rightarrow S \in \mathcal{C}^{0}(]-R, R])$$
+
 # Fonctions Génératrices
 #### Définition
 Soit $X : (\Omega, \mathcal{A}, \mathbb{P}) \to \mathbb{N}$, 
