@@ -1,2 +1,5 @@
-$$\left< m-u , m-v\right> = \left|\left| m \right|\right| ^{2}  -\left< m, v \right> - \left< m, u \right> + \left< u, v \right>   $$
-$$$$
+## Exercice 1
+#### a.
+$$\forall (x_{n})_{n \in \mathbb{N}} \in K^{\mathbb{N}}, \exists \varphi: \mathbb{N} \to \mathbb{N}, f_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} l$$
+Soit $(x_{n})_{n \in \mathbb{N}} \in K^{\mathbb{N}}$, 
+$$\forall n \in \mathbb{N}, f(x_{n}) \leq f(0)$$
