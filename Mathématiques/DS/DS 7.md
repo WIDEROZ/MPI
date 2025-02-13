@@ -6,4 +6,6 @@ $$\forall n \in \mathbb{N}, P(X = n) = \frac{1}{2^{n+1}}$$
 
 ## Question 2
 #### a.
-$$\sum_{k =  0}^{+ \infty} \binom{\frac{1}{2}}{k} t^{n} = \sum_{n = 0}^{+ \infty} \prod_{k = 1}^{} \frac{1}{n!}$$
+$$\sum_{k =  0}^{+ \infty} \binom{\frac{1}{2}}{k} t^{n} = \sum_{n = 0}^{+ \infty} \prod_{k = 0}^{n-1}\left( \frac{1}{2}-k \right) \frac{1}{n!} = \sum_{n = 0}^{+ \infty} \frac{(-1)^{n+1}}{2n!} \prod_{k = 1}^{n-1}(2k-1)$$
+or : 
+$$\prod_{k = 1}^{n-1}(2k-1) = \prod_{k = 0}^{n-2}(2k+1) = \frac{\prod_{k = 0}^{n-2}k}{\prod_{k=0}^{n-1}(2k)} = \frac{(n-2)!}{2^{n} (n-1)!}$$
