@@ -10,4 +10,5 @@ $$\forall n \in \mathbb{N}, P(X = n) = \frac{1}{2^{n+1}}$$
 $$G_{Y} = 2-\sqrt{2-t} = 2-\sqrt{2} \sqrt{1-\frac{t}{2}} = 2 + \sqrt{2} \sum_{n=0}^{+ \infty} \frac{\binom{2n}{n}}{(2n+1)8^{n}}  t^{n}$$
 
 #### b
-$$\mathbb{E}(X+1) = \mathbb{E}(X) + 1 = $$
+$$\mathbb{E}(X) = \mathbb{E}(X+1) - 1 = \frac{1}{p}-1 = 1$$
+$$\mathrm{Var}(X+1) = \mathrm{Var}(X) = \frac{1-p}{p^{2}}$$
