@@ -398,3 +398,22 @@ $$\boxed{e^{ A } = \cos(t)I_{n} + \sin(t)A = \begin{pmatrix}
 \end{pmatrix}}$$
 Vrai quelque soit la dimension même infinie
 
+#### Remarque
+Si $A$ est DZ, $e^{ A }$ l'est aussi (même chose avec TZ)
+
+#### Théorème de régularité
+$$f: \begin{cases}
+\mathcal{M}_{n}(\mathbb{K})\to \mathcal{M}_{n}(\mathbb{K}) \\
+A \mapsto e^{ A }
+\end{cases} \in \mathcal{C}^{0}$$
+___
+$$\forall A \in \mathcal{M}_{n}(\mathbb{K}), g: t \in \mathbb{R} \mapsto e^{ tA }  \in \mathcal{M}_{n}(\mathbb{K}) \text{ est dérivable}$$
+$$\forall t \in \mathbb{R}, g'(t) = A e^{ tA }= e^{ tA }A $$
+
+Démonstration :
+Soit $R >0$, et
+$$f_{k} : \begin{cases}
+\mathcal{M}_{n} \to \mathcal{M}_{n} \\
+A \mapsto \frac{A^{k}}{k!}
+\end{cases} \in \mathcal{C}^{0}$$
+Prenons une norme subordonée : $\left|\left|  \left| \cdot\right| \right|\right|$ 
