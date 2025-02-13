@@ -435,5 +435,3 @@ $$\frac{g(t_{0}+h)-g(t_{0})}{h} = e^{ t_{0}A } \frac{e^{ hA }-I_{n}}{h} = e^{ t_
 Finalement c'est bon
 
 #### Exercice
-Montrer que :
-$$\forall A, B \in \mathcal{M}_{n}(\mathbb{R}), (\forall t \in \mathbb{R}, e^{ tA + tB } = e^{ tA } e^{ tB })$$ 
