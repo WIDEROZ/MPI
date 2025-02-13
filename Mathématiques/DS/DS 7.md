@@ -13,3 +13,4 @@ $$G_{Y} = 2-\sqrt{2-t} = 2-\sqrt{2} \sqrt{1-\frac{t}{2}} = 2 + \sqrt{2} \sum_{n=
 $$\mathbb{E}(X) = \mathbb{E}(X+1) - 1 = \frac{1}{p}-1 = 1$$
 $$\mathrm{Var}(X+1) = \mathrm{Var}(X) = \frac{1-p}{p
 ^{2}}$$
+
