@@ -2,5 +2,3 @@
 #### 3.
 $$d U_{B} = \delta W_{B} = C_{V_{B}} \Delta T= \frac{nR}{\gamma-1}(T_{Bf} - T_{0})$$
 ## Exercice 5
-$$\Delta S = c_{E}m_{e}\ln\left( \frac{\theta _{f}}{\theta_{0}} \right) $$
- 
