@@ -47,3 +47,19 @@ $$M = \lambda I_{n} \Leftrightarrow (X-\lambda) \text{ est anulateur de }M $$
 $$M \text{ est la matrice d'un projecteur}\Leftrightarrow X^{2}-X \text{ est anulateur de }M$$
 $$M \text{ est la matrice d'une symétrie } \Leftrightarrow X^{2}-1\text{ est anulateur de }M$$
 $$M \text{ est k-nipotente} \Leftrightarrow  X^{n} \text{ est anulateur de M}$$
+
+#### Propriétés
+$$\forall P \in \mathbb{K}[X], \forall f \in \mathcal{L}(E),$$
+$$\mathrm{Ker}(P(f)) \text{ et } \mathrm{Im}(P(f)) \text{ sont stables par }f$$
+___
+$$\forall \beta \text{ base de }E, P(Mat_{\beta}(f)) = Mat_{\beta}(P(f))$$
+___
+$$\forall M \in M_{n}(\mathbb{K}), \forall \Omega \in GL_{n}(\mathbb{K}), P(\Omega M\Omega^{-1}) = \Omega P(M) \Omega^{-1}$$
+___
+Si $M$ est DZ (resp. TZ) alors, 
+$$P(M) \text{ l'est aussi}$$
+
+Démonstration :
+On sait TOUS EVIDEMENT que : 
+$$f \circ g = g \circ f \Rightarrow \mathrm{Ker}(g) \text{ et } \mathrm{Im}(g) \text{ sint stables par }f$$
+Comme : $P(f) \circ f = $
