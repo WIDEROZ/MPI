@@ -33,4 +33,17 @@ $$\phi_{M}(1_{\mathbb{K}[X]}) = Id_{E}$$
 #### Définition
 L'image de $\phi_{M}$ est notée : 
 $$\mathbb{K}[M] = \{ P(M) ; P \in \mathbb{K}[X] \}$$
-c'est l'algèbre des pol
+c'est l'algèbre des polynômes en $M$
+$\mathbb{K}[M] \underset{sev}{\subset} \mathcal{M}_{n}(\mathbb{K})$ stable par $\times$
+$\times$ est commutative sur $\mathbb{K}[M]$
+
+___
+Le noyau de $\phi_{M}$ est : 
+$$\{ P \in \mathbb{K}[X] | P(M) = 0_{\mathcal{M}_{n}(\mathbb{K})} \}$$
+est aussi appelé l'idéal des polynômes annulateurs de $M$
+
+#### Exemple
+$$M = \lambda I_{n} \Leftrightarrow (X-\lambda) \text{ est anulateur de }M $$
+$$M \text{ est la matrice d'un projecteur}\Leftrightarrow X^{2}-X \text{ est anulateur de }M$$
+$$M \text{ est la matrice d'une symétrie } \Leftrightarrow X^{2}-1\text{ est anulateur de }M$$
+$$M \text{ est k-nipotente} \Leftrightarrow  X^{n} \text{ est anulateur de M}$$
