@@ -15,3 +15,7 @@ $$\mathrm{Var}(X+1) = \mathrm{Var}(X) = \frac{1-p}{p
 ^{2}}$$
 
 $$\mathbb{E}(Y) = $$
+
+$$L(x) = \frac{\ln(1-x)^{2}}{2}$$
+Prod de cauchy : 
+$$L(x) = \frac{1}{2} \left( \sum_{k=1}^{+ \infty} \frac{1}{k}x^{k} \right)^{2}$$
