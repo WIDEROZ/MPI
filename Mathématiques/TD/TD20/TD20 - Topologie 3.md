@@ -1,5 +1,9 @@
 ## Exercice 1
 #### a.
-$$\forall (x_{n})_{n \in \mathbb{N}} \in K^{\mathbb{N}}, \exists \varphi: \mathbb{N} \to \mathbb{N}, f_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow} l$$
-Soit $(x_{n})_{n \in \mathbb{N}} \in K^{\mathbb{N}}$, 
-$$\forall n \in \mathbb{N}, f(x_{n}) \leq f(0)$$
+On pose : 
+$$g : \begin{cases}
+ \to K \\
+f \mapsto f(0)
+\end{cases}$$
+
+$$\text{ or }g^{-1}(K) \text{ est un fermé donc }K \text{ est un fermé} $$
