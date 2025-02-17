@@ -120,3 +120,5 @@ Il suffit de montrer que $\mathrm{Ker}(\phi_{M}) \neq \{ 0_{\mathbb{K}[X]} \}$ :
 Or $\mathcal{F} = (I_{n}, M, M^{2}, \dots, M^{n^{2}})$ est une famille de $n^{2} + 1$ vecteurs de $\mathcal{M}_{n}(\mathbb{K})$ et comme $\dim \mathcal{M}_{n}(\mathbb{K})=n^{2}$ $\mathcal{F}$ est liée ie il existe $(a_{0}, \dots, a_{n^{2}}) \in \mathbb{K}^{n^{2}+1}$ non nulle telle que : 
 $$\sum_{k = 0}^{n^{2}} a_{k} M^{k}=0_{\mathcal{M}_{n}(\mathbb{K})} \text{ et } \sum_{k = 0}^{n^{2}} a_{k} X^{k} \neq 0$$
 c'est terminé
+
+#### Po
