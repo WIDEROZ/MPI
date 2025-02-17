@@ -25,6 +25,7 @@ $$\left|\left| f(x_{n})-x_{n} \right|\right| \leq k^{n} \left|\left| x_{1}-x_{0}
 Donc, 
 $$f(x_{n}) - x_{n} \underset{n \to +\infty}{\longrightarrow} 0$$
 $$\sum_{n \in \mathbb{N}} (x_{n+1}-x_{n}) = \lim_{ x \to \infty } x_{n+1} - x_{0}$$
+Alors, 
 
 
 ##### iii.
