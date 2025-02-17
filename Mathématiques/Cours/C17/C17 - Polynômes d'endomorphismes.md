@@ -163,6 +163,35 @@ Donc, $P(X) = a_{1} + a_{2}X+\dots+a_{d}X^{d-1}$ est annulateur de $M$, non nul 
 Soit $f \in \mathcal{L}(E)$, une base de $E$ et $M = Mat_{\beta}(f)$ 
 $$\begin{cases}
 \mu_{f} = \mu_{M} \text{ ie } \forall P \in \mathbb{K}[X], P(M) = 0 \Leftrightarrow P(f) = 0 \\
+ \\
 \forall A, B \in \mathcal{M}_{n}(\mathbb{K}), \text{ Si }A \text{ et } B \text{ sont semblables, }\mu_{A} = \mu_{b} \\
-\text{Si } M \text{ est DZ dans }\mathcal{M}_{n}(\mathbb{K}) \text{ on note : }\lambda_{1}, \dots, \lambda_{p} \in \mathbb{K},\text{ ses val propres distinctes alors : } \chi_{M}()
+ \\
+\text{Si } M \text{ est DZ dans }\mathcal{M}_{n}(\mathbb{K}) \text{ on note : }\lambda_{1}, \dots, \lambda_{p} \in \mathbb{K}, \\
+\text{ses val propres distinctes alors : } \mu_{M}(X) = \prod_{k = 1}^{p} (X-\lambda_{p})
 \end{cases}$$
+Démonstration : 
+Immédiat
+___
+On note : $\Omega \in GL_{n}(\mathbb{K})$, $A = \Omega B\Omega^{-1}$ alors 
+$$\forall P \in \mathbb{K}[X], P(A) = 0 \Leftrightarrow P(\Omega B\Omega^{-1}) = 0 \Leftrightarrow \Omega P(B) \Omega^{-1} = 0 $$
+$$\Leftrightarrow P(B) = \Omega^{-1} 0 \Omega = 0$$
+___
+D'après le $2$ il suffit de montrer uniquement le cas ou $M$ est diagonale : 
+$$M = \begin{pmatrix}
+\alpha_{1}&&0 \\
+&\ddots& \\
+0&&\alpha_{n}
+\end{pmatrix}$$
+Alors, $\{ \alpha_{1}, \dots, \alpha_{n} \} = \{ \lambda_{1}, \dots, \lambda_{p} \} = Sp(M)$
+Alors, 
+$$\forall P \in \mathbb{K}[X], P(M) = 0 \Leftrightarrow \begin{pmatrix}
+P(\alpha_{1})&&0 \\
+&\ddots& \\
+0&&P(\alpha_{n})
+\end{pmatrix} = 0$$
+Donc, 
+$$P(\alpha_{1}) = \dots = P(\alpha_{n}) = 0 = P(\lambda_{1}) = \dots = P(\lambda_{p})$$
+Alors, 
+$$\prod_{k = 1}^{p}(X-\lambda_{k}) \space | \space P $$
+Ainsi, $\mathrm{Ker}(\phi_{M})$ est bien l'ensemble des multiples du polynôme unitaire : 
+$$\prod_{k = 1}^{p} (X-\lambda_{k})$$
