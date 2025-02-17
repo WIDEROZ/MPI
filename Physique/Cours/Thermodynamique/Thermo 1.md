@@ -18,3 +18,5 @@ Donc,
 $$\phi = \iint_{S} \vec{j}_{Q} .d\vec{S} = \frac{\lambda(T_{A}-T_{B})}{L}\iint_{S} dS = \frac{\lambda(T_{A}-T_{B})}{L} S $$
 Ainsi, 
 $$\boxed{R_{th} = \frac{1}{\gamma} \frac{L}{S}}$$
+$$T_{1}-T_{C} = \frac{R_{1}}{R_{1}+R_{2}}(T_{2}-T_{1})\Rightarrow T_{C} = \frac{R_{1}}{R_{1}+R_{2}} T_{1}$$
+sion
