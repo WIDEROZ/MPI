@@ -158,3 +158,11 @@ $$\sum_{k = 0}^{d} a_{k}M^{k} = 0$$
 Supposons $a_{0}=0$, 
 $$\sum_{k = 1}^{d} a_{k} M^{k}=0\text{ alors } \sum_{k = 1}^{d} a_{k}M^{k-1} = 0 $$
 Donc, $P(X) = a_{1} + a_{2}X+\dots+a_{d}X^{d-1}$ est annulateur de $M$, non nul et de degré inférieur à $d = \deg \mu_{M}$ absurde. 
+
+#### Propriété
+Soit $f \in \mathcal{L}(E)$, une base de $E$ et $M = Mat_{\beta}(f)$ 
+$$\begin{cases}
+\mu_{f} = \mu_{M} \text{ ie } \forall P \in \mathbb{K}[X], P(M) = 0 \Leftrightarrow P(f) = 0 \\
+\forall A, B \in \mathcal{M}_{n}(\mathbb{K}), \text{ Si }A \text{ et } B \text{ sont semblables, }\mu_{A} = \mu_{b} \\
+\text{Si } M \text{ est DZ dans }\mathcal{M}_{n}(\mathbb{K}) \text{ on note : }\lambda_{1}, \dots, \lambda_{p} \in \mathbb{K},\text{ ses val propres distinctes alors : } \chi_{M}()
+\end{cases}$$
