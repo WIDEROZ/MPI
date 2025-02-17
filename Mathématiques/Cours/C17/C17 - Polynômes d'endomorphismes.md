@@ -1,3 +1,4 @@
+Toutes les propriétés et définition pour les matrices dans ce cours sont aussi valables pour les endomorphismes. 
 # I. Polynômes
 ## 1. Un morphisme d'Algèbre
 #### Définition
@@ -142,3 +143,18 @@ Alors,
 $$A = P(M) = R(M) = \sum_{k = 0}^{d-1} b_{k} M^{k} \in Vect(I_{n}, M, \dots, M^{d-1})$$
 Donc, $\mathbb{K}[M] \subset Vect(I_{n}, M, \dots, M^{d-1})$
 
+#### Propriété
+$$M \in GL_{n}(\mathbb{K}) \Leftrightarrow \mu_{M}(0) \neq 0\text{ et } M^{-1} \in \mathbb{K}[M]$$
+Démonstration :
+On note : 
+$$\mu_{M}(X) = \sum_{k = 0}^{d} a_{k}X^{k} \text{ où } a_{d} = 1 \text{ et } d \geq 1$$
+$\Leftarrow$ : 
+$$\sum_{k =0}^{d} a_{k} M^{k} = 0 \Rightarrow M\sum_{k = 1}^{d} \left( \frac{a_{k}}{-a_{0}} M^{k-1}\right) = I_{n}$$
+Donc, 
+$$M^{-1} = -\sum_{k = 1}^{d} \frac{a_{k}}{a_{0}} M^{k-1}$$
+$\Rightarrow$ : 
+Soit $M \in GL_{n}(\mathbb{K})$, 
+$$\sum_{k = 0}^{d} a_{k}M^{k} = 0$$
+Supposons $a_{0}=0$, 
+$$\sum_{k = 1}^{d} a_{k} M^{k}=0\text{ alors } \sum_{k = 1}^{d} a_{k}M^{k-1} = 0 $$
+Donc, $P(X) = a_{1} + a_{2}X+\dots+a_{d}X^{d-1}$ est annulateur de $M$, non nul et de degré inférieur à $d = \deg \mu_{M}$ absurde. 
