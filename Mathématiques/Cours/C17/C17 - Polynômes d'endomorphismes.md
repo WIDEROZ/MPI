@@ -99,3 +99,10 @@ P(\alpha_{1})& &? \\
 &P(\alpha_{2})& \\
 0&&P(\alpha_{n})
 \end{pmatrix} \Omega^{-1}$$
+
+## 2. Polynôme minimal
+Soit $M \in \mathcal{M}_{n}(\mathbb{K})$, 
+
+#### Définition
+Il existe une un polynôme $P \in \mathbb{K}[X]$ vérifiant :
+$$\mathrm{Ker}(\phi_{M})= \{ P \in \mathbb{K}[X] | P(M) =0 \} = \{ P_{0}Q ; Q \in \mathbb{K}[X] \} = P_{0}\mathbb{K}[X]$$
