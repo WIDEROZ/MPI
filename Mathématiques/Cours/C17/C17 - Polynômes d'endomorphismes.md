@@ -104,5 +104,19 @@ P(\alpha_{1})& &? \\
 Soit $M \in \mathcal{M}_{n}(\mathbb{K})$, 
 
 #### Définition
-Il existe une un polynôme $P \in \mathbb{K}[X]$ vérifiant :
+Il existe un unique polynôme $P_{0} \in \mathbb{K}[X]$ vérifiant :
 $$\mathrm{Ker}(\phi_{M})= \{ P \in \mathbb{K}[X] | P(M) =0 \} = \{ P_{0}Q ; Q \in \mathbb{K}[X] \} = P_{0}\mathbb{K}[X]$$
+$P_{0}$ est noté $\mu_{M}$ (parfois $T_{M}$) et appelé polynôme minimal de $M$
+
+$\mu_{M}$ est l'unique polynôme de $\mathbb{K}[X]$ vérifiant : 
+$$\begin{cases}
+Cd(\mu_{M}) = 1  \\
+\mu_{M}(M) = 0 \\
+\forall P \in \mathbb{K}[X], P(M) = 0 \Leftrightarrow \mu_{M} | P
+\end{cases}$$
+Démonstration : 
+$\mathrm{Ker}(\phi_{M})$ en tant que noyau d'un morphisme d'algèbre est un idéal de $\mathbb{K}[X]$. On a montré que les idéaux non réduits à $\{ 0_{\mathbb{K}[X]} \}$ de $\mathbb{K}[X]$ sont principaux ie l'ensemble des multiples d'un unique $P_{0} \in \mathbb{K}[X]$ unitaire.
+Il suffit de montrer que $\mathrm{Ker}(\phi_{M}) \neq \{ 0_{\mathbb{K}[X]} \}$ : 
+Or $\mathcal{F} = (I_{n}, M, M^{2}, \dots, M^{n^{2}})$ est une famille de $n^{2} + 1$
+ vecteurs de $\mathcal{M}_{n}(\mathbb{K})$ et comme $\dim \mathcal{M}_{n}(\mathbb{K})=n^{2}$ 
+ 
