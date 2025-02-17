@@ -32,4 +32,4 @@ $$  \left|\left| x_{n+p+1} - x_{n} \right|\right|= \left|\left| \sum_{k = 0}^{p}
 $$ \leq \sum_{i = 0}^{p} k^{n+i+1} \left|\left| x_{1}-x_{0} \right|\right|  \leq \dots$$
 
 ## Exercice 13
-nnn
+#### b.
