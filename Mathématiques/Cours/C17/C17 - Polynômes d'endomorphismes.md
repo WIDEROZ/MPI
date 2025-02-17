@@ -121,4 +121,24 @@ Or $\mathcal{F} = (I_{n}, M, M^{2}, \dots, M^{n^{2}})$ est une famille de $n^{2}
 $$\sum_{k = 0}^{n^{2}} a_{k} M^{k}=0_{\mathcal{M}_{n}(\mathbb{K})} \text{ et } \sum_{k = 0}^{n^{2}} a_{k} X^{k} \neq 0$$
 c'est terminé
 
-#### Po
+#### Propriété
+L'algèbre $\mathbb{K}[M]$ des polynômes en $M$ est de dimension égale au degré $d$ de $\mu_{M}$ et : 
+$$\mathbb{K}[M] = Vect(I_{n}, M, \dots, M^{d-1})$$
+Qui est une base de $\mathbb{K}[M]$
+
+Démonstration : 
+On note : 
+$$\mu_{M}(X) = \sum_{k = 0}^{d} a_{k}X^{k} \text{ où } a_{d} = 1 \text{ et } d \geq 1$$
+$$\forall k \in [\![0, d-1]\!], M^{k} = X^{k}(M)\text{ est un polynôme en }M$$
+alors $M ^{k} \in \mathbb{K}[M]$
+Comme $\mathbb{K}[M]$ est un espace vectoriel, 
+$$Vect(I_{n}, M, \dots, M^{d-1})\subset \mathbb{K}[M]$$
+Soit $A \in \mathbb{K}[M]$, 
+il existe alors, $P \in \mathbb{K}[X]$ tel que : 
+$$A = P(M)$$
+On fait alors la division euclidienne de $P$ par $\mu_{M}$ Donc il existe $Q, R\in \mathbb{K}[X]$ tels que : 
+$$P(X) = Q(X) \mu_{M}(X) + R(X)  \text{ ou }\deg R \leq d-1$$
+Alors, 
+$$A = P(M) = R(M) = \sum_{k = 0}^{d-1} b_{k} M^{k} \in Vect(I_{n}, M, \dots, M^{d-1})$$
+Donc, $\mathbb{K}[M] \subset Vect(I_{n}, M, \dots, M^{d-1})$
+
