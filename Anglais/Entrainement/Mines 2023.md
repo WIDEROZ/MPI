@@ -14,4 +14,5 @@ The vacation club which Jaques and Paulette managed it, stood on a tiny peninsul
 
 #### Text
 ##### 1.
-The Prescot's playhouse is going to bring one hundred and forty thousand tourists and five million and four hundred thousand pound, for the local population. Otherwise those cultural entertainments need money and it is an issue like finding a way to make benefits with entrance price. As well that in 2021 the government planed to raise the value of cultural events
+The Prescot's playhouse is going to bring one hundred and forty thousand tourists and five million and four hundred thousand pound, for the local population. Otherwise those cultural entertainments need higher budgets and it is an issue, like finding a way to make benefits with entrance price. As well that in 2021 the government planed to raise the value of cultural events, even if there still the same problem : the lack of money. A light of hope is blinding, due to the arrival of a new prime minister. 
+
