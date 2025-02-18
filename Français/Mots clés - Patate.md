@@ -11,4 +11,21 @@
 - Ventriloque
 - Conscience / Lucidité
 - La complexion
+- Déterminisme
+- Valeurs
+- Moira (le lot)
+- Atè (la faute)
+- Guerres médiques
+- Pharmakos (bouc emissaire)
+- Souillure
+- Hérauts / proxènes
+- Rite : Supplication
+- Mythos d'IO
+- Danaïdes : compagnie, troupe, essaim
+- Atimie (privation des droits civiques)
+- Piété
+- Passions anti-politiques
+- Gloire
+- Mépris de ses semblables
+- affects
 - 
