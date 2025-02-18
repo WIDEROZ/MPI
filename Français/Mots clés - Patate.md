@@ -27,5 +27,9 @@
 - Passions anti-politiques
 - Gloire
 - Mépris de ses semblables
-- affects
+- Affects
+- Moïse
+- Susciter la passion de la raison
+- Puritanisme
+- Théorie des climats
 - 
