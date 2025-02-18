@@ -34,5 +34,13 @@ Déterminisme $\neq$ libre arbitre (pouvoir de choisir ou de ne pas choisir un a
 ##### 3. Déterminisme fataliste
 Les événements se produisent-ils indépendamment de ce que nous voulons et y a t'il une sorte de destinée écrite. 
 
-- Eschyle : 
-- Les suppliantes : p.54 : "Volonté divine obscure",le monde humain est obscure l'Homme ne sait pas grand chose sur la volonté des dieux  
+- Eschyle : Les suppliantes : p.54 : "Volonté divine obscure",le monde humain est obscure l'Homme ne sait pas grand chose sur la volonté des dieux. 
+- Wharton : p.278 Mingott explicite qu'Archer et Ellen étaient fait pour être ensemble (l'amour fatal)
+- Spinoza : p. "Décret éternel par lequel il à tout prédéterminé" la volonté divine semble être une fatalité. 
+
+##### 4. Déterminisme psychologique
+- Les sept contre Thèbes : Dans la bouche d'Étéocle : La femme est déterminée par une nature passionnée p.148 : "aussi bien dans le malheur que dans la douce prospérité, le ciel me garde de la femme"
+- Spinoza p.45 : Il montre l'importance d'un "L'Homme est habité par la crainte, [...] il est vulnérable"
+- 
+- Spinoza (de moi) : p.77-78 : "On pense en effet que l'esclave est celui qui agit par commangement et l'Homme libre est celui qui agit"
+- 
