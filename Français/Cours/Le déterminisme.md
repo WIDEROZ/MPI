@@ -27,4 +27,12 @@ Déterminisme $\neq$ libre arbitre (pouvoir de choisir ou de ne pas choisir un a
 
 ##### 2. Déterminisme social
 - Wharton : p. 61 "Archer savait que les femmes bien élevées si lésés qu'elles feraient dans le droit ne revendiquerait pas leur liberté" Ils font preuve de coercition, c'est paradoxal et ironique car Wharton est une femme. 
-- 
+- Les suppliantes : p.84-85 Danaos par ses discours cherche à infléchir les comportement de ses filles, ne serait-il pas le conducteur d'un déterminisme éducatif / familial. il parle même de "leçon inscrite en vous par votre père". 
+- Wharton : p.22
+- Spinoza : p.131 importance de la culture de l'obeisance "discipline..."
+
+##### 3. Déterminisme fataliste
+Les événements se produisent-ils indépendamment de ce que nous voulons et y a t'il une sorte de destinée écrite. 
+
+- Eschyle : 
+- Les suppliantes : p.54 : "Volonté divine obscure",le monde humain est obscure l'Homme ne sait pas grand chose sur la volonté des dieux  
