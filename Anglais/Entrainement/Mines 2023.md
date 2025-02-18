@@ -7,4 +7,7 @@ Irina have founded a pretext to get rid of her daughter and and drown her into t
 
 It was relaxing to be treated as a spoiled child. 
 
-The vacation club which Jaques and Paulette managed it, stood on a tiny peninsula at the end of a long road. Paulette parked 
+The vacation club which Jaques and Paulette managed it, stood on a tiny peninsula at the end of a long road. Paulette parked in front of the main building. Clarisse went down of the car. It was her sixth summer here. She felt at home. Jacques ran out of his office and squeeze her against him. 
+
+"And here is the prettiest! You don't change at all!" Paulette laugh. 
+"I just tell him the contrary"

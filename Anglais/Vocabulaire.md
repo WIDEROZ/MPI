@@ -23,3 +23,4 @@ supporters = partisans
 opponents = détracteurs
 joe biden = joe biden
 Acquaintances
+squeeze : sérer
