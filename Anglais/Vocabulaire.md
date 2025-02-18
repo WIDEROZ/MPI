@@ -24,3 +24,4 @@ opponents = détracteurs
 joe biden = joe biden
 Acquaintances
 squeeze : sérer
+Curtain : rideaux
