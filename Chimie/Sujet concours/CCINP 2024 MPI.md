@@ -20,5 +20,8 @@ $$\boxed{[\gamma] = m^{-1}.s^{2}}$$
 #### Question 3
 $$R_{r}D = \Delta(\psi) \Rightarrow- R_{r}\gamma  \iint \overrightarrow{grad}(\psi).d\vec{S} = \Delta(\psi) = \int \overrightarrow{grad} (\psi).d\vec{l}   $$
 $$R_{r} = -\frac{l_{r}}{\gamma s_{r}}$$
+$$\frac{1}{R_{N}} = \frac{N}{R_{r}} \Rightarrow R_{N} = \frac{R_{r}}{N}$$
 
-#### Question 4
+#### Question 5
+$$R_{p} = R_{N} + R_{t} + R_{f}  \Rightarrow R_{a} = \dots$$
+
