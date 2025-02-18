@@ -7,4 +7,4 @@ Irina have founded a pretext to get rid of her daughter and and drown her into t
 
 It was relaxing to be treated as a spoiled child. 
 
-The vacation club
+The vacation club which Jaques and Paulette managed it, stood on a tiny peninsula at the end of a long road. Paulette parked 
