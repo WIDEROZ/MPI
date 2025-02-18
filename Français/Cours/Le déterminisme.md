@@ -23,3 +23,8 @@ Déterminisme $\neq$ libre arbitre (pouvoir de choisir ou de ne pas choisir un a
   Opposition entre les femmes et les hommes qui eux possède leur libre arbitre. 
   "C'est IO hélas, que poursuis en nous un concours divin" p.56 
 - Wharton : Mrs. Van der Luyden appariait sous un tableau p.68-69
+- Spinoza : p.102 Non la raison en effet mais les seuls affects de l'âme la gouverne
+
+##### 2. Déterminisme social
+- Wharton : p. 61 "Archer savait que les femmes bien élevées si lésés qu'elles feraient dans le droit ne revendiquerait pas leur liberté" Ils font preuve de coercition, c'est paradoxal et ironique car Wharton est une femme. 
+- 
