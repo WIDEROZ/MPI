@@ -10,4 +10,3 @@ Telecom Sud paris
 ENSIIE (Evry) (Informatique)
 ENSTA (bretagne) (Je pas sais pas)
 
-### Classement de volonté
