@@ -48,4 +48,5 @@ Les événements se produisent-ils indépendamment de ce que nous voulons et y a
 #### II. Quelles responsabilités par de la les déterminismes multiples
 - Eschyle : L'Homme est responsable de la faute qu'il porte par le genos, la souillure qu'il porte rejaillit sur l'ensemble de la communauté. 
 - Les danaïdes elles aussi veulent s'émanciper des règles de la communauté familiale, certes elles essayent de s’émanciper de leur genos, de leur souillure première, mais elles sont responsable de celle-ci.
-- Spinoza : La figure du sage 
+- Wharton : Archer apparaît comme déterminé par sa communauté sauf que l'amour est une forme d'émancipation incomplète car archer ne choisira pas Ellen. Tandis qu'il à participé à l'émancipation de Dallas
+- Spinoza : Déterminisme politique : Le modèle de gestion de l'État engendrera des tempéraments de l'individu. 
