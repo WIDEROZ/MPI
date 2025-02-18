@@ -18,4 +18,8 @@ Déterminisme $\neq$ libre arbitre (pouvoir de choisir ou de ne pas choisir un a
 #### I. Les formes du déterminisme dans les œuvres
 ##### 1. Déterminisme génétique
 - Eschyle : (malédictions des labdacides) genos
-- Spionza : 
+- Les suppliantes p.54 : la pièce débute par le chant des femmes passionnés "Vivante, je conduis mon propre deuil" (le viol d'IO semble être inscrit dans le genos des suppliantes)
+  "Les mâles libres d'hymen, libre du jougs" p.56
+  Opposition entre les femmes et les hommes qui eux possède leur libre arbitre. 
+  "C'est IO hélas, que poursuis en nous un concours divin" p.56 
+- Wharton : Mrs. Van der Luyden appariait sous un tableau p.68-69
