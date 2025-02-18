@@ -18,4 +18,7 @@ $$\boxed{[\gamma] = m^{-1}.s^{2}}$$
 
 
 #### Question 3
-$$R_{r}D = \overrightarrow{grad}(\psi) \Rightarrow- R_{r}\gamma \iint \overrightarrow{grad}(\psi).d\vec{S} $$
+$$R_{r}D = \Delta(\psi) \Rightarrow- R_{r}\gamma  \iint \overrightarrow{grad}(\psi).d\vec{S} = \Delta(\psi) = \int \overrightarrow{grad} (\psi).d\vec{l}   $$
+$$R_{r} = -\frac{l_{r}}{\gamma s_{r}}$$
+
+#### Question 4
