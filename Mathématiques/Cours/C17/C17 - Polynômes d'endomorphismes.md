@@ -369,4 +369,17 @@ Alors comme :
 $$\forall i, j \in [\![1, r]\!], i \neq j \Rightarrow \beta_{i} \neq \beta_{j} \text{ alors, } (X-\beta_{i})\wedge (X-\beta_{j})=1$$
 D'après le lemme des noyaux : 
 $$E = \mathrm{Ker}\, P(u) = \bigoplus_{i = 1}^{r} \mathrm{Ker}(u-\beta_{i}Id)$$
-C'est donc la somme des sous espaces nuls de $u$, donc 
+C'est donc la somme des sous espaces de $u$, donc $u$ est DZ. 
+
+#### Proposition
+Soit $u \in \mathcal{L}(E)$, diagonalisable et $F \underset{sev}{\subset} E$ stable par $u$. Alors l'endomorphisme : 
+$$v : \begin{cases}
+F \to F \\
+x \mapsto u(x)
+\end{cases} \text{ induit par }u \text{ sur }F \text{ est DZ}$$
+Démonstration : 
+$\mu _u$ est SRS car $u$ est DZ
+Or, tout polynôme annulateur de $u$ est annulateur de $v$.
+Ainsi $v$ est DZ car admet un polynôme $\mu_{u}$ SRS.
+
+ 
