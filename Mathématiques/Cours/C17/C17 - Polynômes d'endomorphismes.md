@@ -216,11 +216,21 @@ $$P(u)(x) = \sum_{k = 0}^{n}a_{k} u^{k}(x) = \sum_{k = 0}^{n}a_{k}\alpha^{k}x= P
 
 #### Théorème
 Soit $u \in \mathcal{L}(E)$, 
-$$\forall P \in \mathbb{K}[X], \begin{cases}
-\text{Si }P(u)=0 \\
-\text{Alors toutes les valeurs propres de }u \\
-\text{sont racines de }P
-\end{cases}$$
-$$Sp(u)\subset Rac(P)$$
+$$\forall P \in \mathbb{K}[X], P(u) = 0 \Rightarrow Sp(u)\subset Rac(P)$$
 ___
-$$$$
+$$Sp(u) = Rac(\mu_{u})$$
+
+Démonstration : 
+Soit $\alpha \in Sp(u)$, il existe $x$ tel que : $u(x)= \alpha x$
+D'après le lemme : 
+$$ P(\alpha)x=P(u)(x) = 0$$
+alors, 
+$$P(\alpha) =0$$
+___
+Supposons par l'absurde qu'il existe $\alpha \in \mathbb{K}$ tel que : $\mu_{u}(\alpha) =0$ et $\alpha \not\in Sp(u)$
+$$\exists Q \in \mathbb{K}[x], \mu_{u}(X) =(X-\alpha)Q(X)$$
+Comme de plus $\alpha$ n'est pas une valeur propre : 
+$$\mathrm{Ker}(u-\alpha Id_{E}) = \{ 0 \}$$
+Donc $u$ est bijectif car $\dim E = \dim E$
+Alors, 
+$$\mu_{u}(u) = 0 \Leftrightarrow (u-\alpha Id)\circ Q(u)=0$$
