@@ -286,3 +286,17 @@ $$X^{n} = \mu_{A}(X) Q_{n}(X) + nX + (1-n)$$
 Alors, 
 $$A^{n} = nA +(1-n)I_{3}$$
 
+# II. Polynômes annulateurs et réduction
+## 1. Lemme des noyaux
+#### Lemme 
+Soit $u \in \mathcal{L}(E)$ et $P, Q \in \mathbb{K}$ tels que $P \wedge Q = 1$, alors, 
+$$\mathrm{Ker}((PQ)(x)) = \mathrm{Ker}(P(u)) \oplus \mathrm{Ker}(Q(u))$$
+
+Démonstration :
+Par bezout il existe $A, B \in \mathbb{K}[X]$ tel que : 
+$$PA + QB = 1$$
+Donc, 
+$$A(u) \circ P(u) + B(u) \circ Q(u) = Id$$
+et 
+$$\forall x \in E, A(u) \circ P(u) (x) + B(u) \circ Q(u) (x) = x$$
+$A(u)$ et $P(u)$ commutent car $A(u), P(u) \in \mathbb{K}[u]$
