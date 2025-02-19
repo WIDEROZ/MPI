@@ -238,3 +238,5 @@ Alors,
 $$Q(u) = (u - \alpha Id)^{-1} \circ (u-\alpha Id) \circ Q(u) = (u-\alpha Id)^{-1} \circ 0 = 0$$
 Alors, $\deg(Q) < \deg(\mu_{u})$ et $Q$ annule $u$ c'est ABSURDE.
 
+#### Théorème : Cayley-Hamilton
+$$\forall u \in \mathcal{L}(E), \chi_{u}(u) = 0 \text{ ie } \mu_{u} | \chi_{u}$$
