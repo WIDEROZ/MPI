@@ -324,4 +324,23 @@ Ainsi on a montré : $=$
 $\oplus$ :
 Enfin : si $x \in \mathrm{Ker} P(u) \cap \mathrm{Ker}Q(u)$, 
 $$\forall x \in E, x+y = x$$
-Puisque $x \in \mathrm{Ker}(P(u))$, $z = 0$ 
+Puisque $x \in \mathrm{Ker}(P(u))$, $z = 0$ de même pour $y$
+Donc, 
+$$x = y+z = 0$$
+
+#### Lemme de décomposition des noyaux
+Soient $u\in \mathcal{L}(E)$, $r \in \mathbb{N}^{*}$, $P_{1}, \dots, P_{r} \in \mathbb{K}[X]$, premiers entre eux deux à deux
+$$\mathrm{Ker}(\underset{i = 1}{\overset{r}{\bigcirc}}P_{i}(u)) = \bigoplus_{i = 1}^{r} \mathrm{Ker}(P_{i}(u)) $$
+Démonstration :
+On raisonne par récurrence sur $r \in \mathbb{N}^{*}$, 
+On l'appliquera souvent dans le cas où $P_{1}\dots P_{r}$ est annulateur de $u$ alors $(P_{1}P_{2} \dots P_{r})(u) =0$
+et $\mathrm{Ker}(P_{1}P_{2} \dots P_{r}(u)) = E$
+$$E = \bigoplus_{i = 1}^{r} \mathrm{Ker} \, P_{i}(u) $$
+Dans une base adaptée a cette décomposition :
+$$\begin{pmatrix}
+\boxed{A_{1}} & 0&\dots&0 \\
+0&\boxed{A_{2}}&\ddots&\vdots \\
+\vdots &\ddots&\ddots&0 \\
+0&\dots&0&\boxed{A_{n}}
+\end{pmatrix}$$
+## 2. La dimension finie
