@@ -382,4 +382,15 @@ $\mu _u$ est SRS car $u$ est DZ
 Or, tout polynôme annulateur de $u$ est annulateur de $v$.
 Ainsi $v$ est DZ car admet un polynôme $\mu_{u}$ SRS.
 
- 
+#### Exercice
+Soit $A \in \mathcal{M}_{n}(\mathbb{R})$ et 
+$$B = \begin{pmatrix}
+A&A \\
+0&A
+\end{pmatrix} \in \mathcal{M}_{2n}(\mathbb{R})$$
+___
+Montrer que : 
+$$\forall P \in \mathbb{R}[X], P(B) = \begin{pmatrix}
+P(A) &AP'(A) \\
+0&P(A)
+\end{pmatrix}$$
