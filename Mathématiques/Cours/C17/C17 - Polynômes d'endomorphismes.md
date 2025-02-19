@@ -243,6 +243,19 @@ $$\forall u \in \mathcal{L}(E), \chi_{u}(u) = 0 \text{ ie } \mu_{u} | \chi_{u}$$
 
 #### CCINP 91
 ##### 1.
-$$\begin{pmatrix}
-
-\end{pmatrix}$$
+$$\chi_{A} = \left| \begin{array}{c}
+X&-2&1 \\
+1&X-3&1 \\
+1&-2&X
+\end{array}\right|  = \left| \begin{array}{c}
+X&-2&1 \\
+1&X-3&1 \\
+0&X-1&1-X
+\end{array}\right| = \left| \begin{array}{c}
+X&-2&1-X \\
+1&X-3&0 \\
+0&X-1&X
+\end{array}\right|$$
+$$\chi_{A} = (X-1)^{3}$$
+C'est $1$
+En 
