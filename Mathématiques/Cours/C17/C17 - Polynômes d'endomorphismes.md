@@ -276,3 +276,13 @@ X-1 \\
 car : $(A-I_{n})^{2}=0$
 
 ##### 4.
+$$X^{n} = (X-1)^{2}Q_{n}(x) + \alpha_{n}X+\beta_{n}$$
+$$1 = \alpha_{n}+\beta_{n}$$
+$$n = \alpha_{n} \Rightarrow \begin{cases}
+ \alpha_{n} = n \\
+\beta_{n} = 1-n
+\end{cases}$$
+$$X^{n} = \mu_{A}(X) Q_{n}(X) + nX + (1-n)$$
+Alors, 
+$$A^{n} = nA +(1-n)I_{3}$$
+
