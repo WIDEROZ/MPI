@@ -234,3 +234,7 @@ $$\mathrm{Ker}(u-\alpha Id_{E}) = \{ 0 \}$$
 Donc $u$ est bijectif car $\dim E = \dim E$
 Alors, 
 $$\mu_{u}(u) = 0 \Leftrightarrow (u-\alpha Id)\circ Q(u)=0$$
+Alors, 
+$$Q(u) = (u - \alpha Id)^{-1} \circ (u-\alpha Id) \circ Q(u) = (u-\alpha Id)^{-1} \circ 0 = 0$$
+Alors, $\deg(Q) < \deg(\mu_{u})$ et $Q$ annule $u$ c'est ABSURDE.
+
