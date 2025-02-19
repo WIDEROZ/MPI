@@ -201,6 +201,26 @@ $$\prod_{k = 1}^{p} (X-\lambda_{k})$$
 Soit $u \in \mathcal{L}(E)$, $x \in E$, et $\alpha \in \mathbb{K}$ tels que : $u(x) = \alpha x$,
 $$\forall P \in \mathbb{K}[X], P(u)(x) = P(\alpha)x$$
 
-Démonstration : 
+Démonstration par récurrence : 
 Pour $P(X) = X^{0}$, 
-$$P(u)(x) = Id_{E_{0}}$$
+$$P(u)(x) = Id_{E}(x) = x \text{ et } P(\alpha)x = 1 \cdot x = x$$
+Soit $k \in \mathbb{N}^{*}$, tel que $P(X) = X^{k}$, et $P(u)(x) = P(\alpha)x$ 
+alors,
+
+$$u^{k}(x) = \alpha^{k}(x) \text{ alors } u^{k+1}(x) = u(u^{k}(x)) = \alpha^{k+1}x$$
+Par récurrence c'est terminé
+Soir $P \in \mathbb{K}[X]$ tel que : 
+$$P = \sum_{k = 0}^{n} a_{k}X^{k}$$
+alors, 
+$$P(u)(x) = \sum_{k = 0}^{n}a_{k} u^{k}(x) = \sum_{k = 0}^{n}a_{k}\alpha^{k}x= P(\alpha)x$$
+
+#### Théorème
+Soit $u \in \mathcal{L}(E)$, 
+$$\forall P \in \mathbb{K}[X], \begin{cases}
+\text{Si }P(u)=0 \\
+\text{Alors toutes les valeurs propres de }u \\
+\text{sont racines de }P
+\end{cases}$$
+$$Sp(u)\subset Rac(P)$$
+___
+$$$$
