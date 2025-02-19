@@ -343,4 +343,30 @@ $$\begin{pmatrix}
 \vdots &\ddots&\ddots&0 \\
 0&\dots&0&\boxed{A_{n}}
 \end{pmatrix}$$
+#### Application CCINP 94
+
 ## 2. La dimension finie
+#### Théorème
+Soit $u \in \mathcal{L}(E)$, 
+On à équivalence entre : 
+$$\begin{cases}
+u \text{ est diagonalisable} \\
+ \\
+\mu_{u} \text{ est SRS dans } \mathbb{K} \\
+ \\
+u \text{ possède un polynôme annulateur SRS, dans ce cas : } \\
+\mu_{u}(X) = \prod_{\alpha \in Sp(u)} (X-\alpha)
+\end{cases}$$
+
+Démonstration : 
+$i \Rightarrow ii$ déja fait
+$ii \Rightarrow iii$ 
+EZ car $\mu_{u}$ est annulateur de $u$ 
+$iii \Rightarrow i$ : 
+On note : 
+$$P(X) = \prod_{i = 1}^{r} (X-\beta_{i})$$
+Alors comme : 
+$$\forall i, j \in [\![1, r]\!], i \neq j \Rightarrow \beta_{i} \neq \beta_{j} \text{ alors, } (X-\beta_{i})\wedge (X-\beta_{j})=1$$
+D'après le lemme des noyaux : 
+$$E = \mathrm{Ker}\, P(u) = \bigoplus_{i = 1}^{r} \mathrm{Ker}(u-\beta_{i}Id)$$
+C'est donc la somme des sous espaces nuls de $u$, donc 
