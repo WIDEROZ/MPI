@@ -240,3 +240,9 @@ Alors, $\deg(Q) < \deg(\mu_{u})$ et $Q$ annule $u$ c'est ABSURDE.
 
 #### Théorème : Cayley-Hamilton
 $$\forall u \in \mathcal{L}(E), \chi_{u}(u) = 0 \text{ ie } \mu_{u} | \chi_{u}$$
+
+#### CCINP 91
+##### 1.
+$$\begin{pmatrix}
+
+\end{pmatrix}$$
