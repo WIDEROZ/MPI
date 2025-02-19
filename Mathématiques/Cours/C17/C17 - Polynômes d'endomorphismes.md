@@ -300,3 +300,28 @@ $$A(u) \circ P(u) + B(u) \circ Q(u) = Id$$
 et 
 $$\forall x \in E, A(u) \circ P(u) (x) + B(u) \circ Q(u) (x) = x$$
 $A(u)$ et $P(u)$ commutent car $A(u), P(u) \in \mathbb{K}[u]$
+$\supset$ : 
+Soit $x \in \mathrm{Ker}(P(u))$, alors 
+$$PQ(u)(x) = QP(u)(x) = Q(u)(P(u)(x)) = 0$$
+Donc $x \in \mathrm{Ker}(PQ(u))$
+Ainsi, 
+$$\mathrm{Ker}(P(u)) \subset \mathrm{Ker}(PQ(u))$$
+De même : 
+$$\mathrm{Ker}(Q(u)) \subset \mathrm{Ker}(PQ(u))$$
+Comme : 
+$$\mathrm{Ker}(PQ(u)) \text{ est stable par }+$$
+$$\mathrm{Ker}(P(u)) + \mathrm{Ker}(Q(u)) \subset \mathrm{Ker}(PQ(u))$$
+$\subset$ : 
+Soit $x \in \mathrm{Ker}(PQ(u))$, 
+$$x = y+z \text{ où } \begin{cases}
+y = B(u) \circ Q(u)(x) \\
+z = A(u) \circ P(u)(x)
+\end{cases}$$
+et $y \in \mathrm{Ker}(P(u))$, 
+$$P(u)(y) = B(u) \circ P(u) \circ Q(u)(z) = B(u) (PQ(u)(x)) = 0$$
+De même on montre que : $z \in \mathrm{Ker}(Q(u))$, 
+Ainsi on a montré : $=$ 
+$\oplus$ :
+Enfin : si $x \in \mathrm{Ker} P(u) \cap \mathrm{Ker}Q(u)$, 
+$$\forall x \in E, x+y = x$$
+Puisque $x \in \mathrm{Ker}(P(u))$, $z = 0$ 
