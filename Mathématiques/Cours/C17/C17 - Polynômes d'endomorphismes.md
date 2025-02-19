@@ -195,3 +195,12 @@ Alors,
 $$\prod_{k = 1}^{p}(X-\lambda_{k}) \space | \space P $$
 Ainsi, $\mathrm{Ker}(\phi_{M})$ est bien l'ensemble des multiples du polynôme unitaire : 
 $$\prod_{k = 1}^{p} (X-\lambda_{k})$$
+
+## 2. Polynômes annulateurs et spectre
+#### Lemme
+Soit $u \in \mathcal{L}(E)$, $x \in E$, et $\alpha \in \mathbb{K}$ tels que : $u(x) = \alpha x$,
+$$\forall P \in \mathbb{K}[X], P(u)(x) = P(\alpha)x$$
+
+Démonstration : 
+Pour $P(X) = X^{0}$, 
+$$P(u)(x) = Id_{E_{0}}$$
