@@ -258,4 +258,21 @@ X&-2&1-X \\
 \end{array}\right|$$
 $$\chi_{A} = (X-1)^{3}$$
 C'est $1$
-En 
+
+##### 2.
+$$\det(A) = 1$$
+$A \in GL_{3}(\mathbb{R})$ car $0$ n'est pas vp
+Elle n'est pas diagonalisable car : il existerait 
+$$P \in GL_{3}(\mathbb{R}), A = PDP^{-1} = I_{3}$$
+car $\chi_{A} = \chi_{D} = (X-1)^{3}$ or $A \neq I_{3}$
+
+##### 3.
+On a : $\mu_{A} | \chi_{A}$ d'après cayley-verstapen : 
+$$\mu_{A} = \begin{cases}
+X-1 \\
+(X-1)^{2} \\
+(X-1)^{3}
+\end{cases} = (X-1)^{2}$$
+car : $(A-I_{n})^{2}=0$
+
+##### 4.
