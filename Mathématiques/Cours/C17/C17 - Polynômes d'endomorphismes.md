@@ -394,3 +394,8 @@ $$\forall P \in \mathbb{R}[X], P(B) = \begin{pmatrix}
 P(A) &AP'(A) \\
 0&P(A)
 \end{pmatrix}$$
+
+## 3. Polynômes annulateurs et trigonalisabilité
+Soit $E$
+#### Théorème
+Soit $u \in E$

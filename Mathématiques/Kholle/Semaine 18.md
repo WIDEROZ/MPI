@@ -32,4 +32,14 @@ $$\leq e^{ -t^{2} }t$$
 $$e^{ -t^{2} }t = O(t^{2})$$
 $$f'(x) =- \int_{0}^{+ \infty} e^{ -t^{2} }t\sin(xt)\, dt $$
 
-C'est une série géométrique 
+### CCINP 40
+#### 1.
+##### a.
+$$\left|\left|u^{2} \right|\right| \leq  \left|\left| u \right|\right| ^{2} \Rightarrow_{\mathrm{rec}} \left|\left| u^{n} \right|\right|  \leq \left|\left| u \right|\right| ^{n} $$
+
+$$\sum_{n \in \mathbb{N}} u ^{n} \text{ CVA donc CV} \text{ car }\left|\left| u \right|\right| \leq 1 \text{ et dim finie}$$
+
+##### b.
+$$(e-u)^{-1} =\sum_{n = 0}^{+ \infty} u^{n}$$
+$e$ commute avec $-u$ alors, 
+$$e - u^{n} = $$
