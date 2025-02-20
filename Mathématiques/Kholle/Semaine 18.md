@@ -43,4 +43,15 @@ $$\sum_{n \in \mathbb{N}} u ^{n} \text{ CVA donc CV} \text{ car }\left|\left| u 
 $$(e-u)^{-1} =\sum_{n = 0}^{+ \infty} u^{n}$$
 $$(e-u)\sum_{n = 0}^{N} u^{n} = -\sum_{k = 0}^{N}(u^{n+1}-u^{n}) = e-u^{N+1}$$
 or 
-$$$$
+$$\left|\left| u^{n} \right|\right| \leq \left|\left| u \right|\right| ^{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+Ainsi, 
+$$\lim_{ N \to \infty } (e-u)\sum_{n = 0}^{N}u^{n} = \lim_{ N \to \infty } (e-u^{N+1})$$
+Donc, 
+$$(e-u)\sum_{n = 0}^{+ \infty} u^{n} = e$$
+
+### 2.
+
+### CCINP 26
+#### 1.
+En $+ \infty$ :
+$$\frac{1}{(1+t^{2})^{n}} \sim_{+ \infty} \frac{1}{}$$
