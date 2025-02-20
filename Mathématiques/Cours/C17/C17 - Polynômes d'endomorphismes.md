@@ -396,6 +396,33 @@ P(A) &AP'(A) \\
 \end{pmatrix}$$
 
 ## 3. Polynômes annulateurs et trigonalisabilité
-Soit $E$
+Soit $E$ un $\mathbb{K}$-ev de dimension finie
 #### Théorème
-Soit $u \in E$
+Soit $u \in E$, 
+On a équivalence entre : 
+$$\begin{cases}
+u \text{ est TZ}  \\
+u \text{ admet un polynôme annulateur non nul scindé dans }\mathbb{K}[X] \\
+\mu_{u} \text{ est scindé dans }\mathbb{K}[X]
+\end{cases}$$
+Démonstration : idem que celle pour $\chi_{u}$ 
+
+## 4. La décomposition $d+n$
+(version faible du théorème de Dunford)
+#### Théorème
+Soit $u \in \mathcal{L}(E)$
+Supposons : $\chi_{u} \text{ scindé dans }\mathbb{K}[X]$ :
+$$\chi_{u}(X) = \prod_{k = 1}^{r} (X-\lambda_{k})^{m_{k}} \text{ ou }\forall k \in [\![1, r]\!], m_{k} \in \mathbb{N}, \lambda_{k} \in \mathbb{K} \text{ et }\lambda_{i} \neq \lambda_{j}$$
+On appelle le sous espace caractéristique associé à $\lambda_{k}$ : 
+$$\forall k \in [\![1, r]\!], F_{\lambda_{k} }(u) = \mathrm{Ker}((u-\lambda_{k}Id)^{m_{k}})$$
+Alors, 
+$$\forall k \in [\![1, r]\!],\begin{cases}
+E_{\lambda_{k}}(u) \subset F_{\lambda_{k}}(u) \\
+ \\
+\dim F_{\lambda_{k}}(u) = m_{k} \\
+ \\
+E = \underset{k = 1}{\overset{r}{\bigoplus}} F_{k} \\
+ \\
+u \text{ induit sur } F_{\lambda_{k}}(u) \text{ un endomorphisme } \\
+u_{k} = \lambda_{k}Id + n_{k} \text{ où } n_{k} \in \mathcal{L}(F) 
+\end{cases}$$
