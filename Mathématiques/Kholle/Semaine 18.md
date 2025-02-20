@@ -41,5 +41,6 @@ $$\sum_{n \in \mathbb{N}} u ^{n} \text{ CVA donc CV} \text{ car }\left|\left| u 
 
 ##### b.
 $$(e-u)^{-1} =\sum_{n = 0}^{+ \infty} u^{n}$$
-$e$ commute avec $-u$ alors, 
-$$e - u^{n} = $$
+$$(e-u)\sum_{n = 0}^{N} u^{n} = -\sum_{k = 0}^{N}(u^{n+1}-u^{n}) = e-u^{N+1}$$
+or 
+$$$$
