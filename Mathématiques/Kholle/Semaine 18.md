@@ -28,3 +28,5 @@ F \in \mathcal{C}^{1} \\
 
 
 $$\frac{\partial }{\partial x}  = -e^{ -t^{2} } t\sin(xt) $$
+$$\leq e^{ -t^{2} }t^{2}x$$
+$$e^{ -t^{2} }t^{2} = O(t^{2})$$
