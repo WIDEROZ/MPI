@@ -449,8 +449,8 @@ Or $m_{k} \geq \dim F_{k}$ car :
 $$\chi_{u_{k}} | \chi_{u} \text{ or } \chi_{u_{k}}(X) = (X-\lambda_{k})^{\dim F_{k}}$$
 Donc, 
 $$\dim F_{k} \leq m_{k}$$
-Alors, 
-$$$$
+Ainsi, 
+$$m_{k} = \dim F_{k}$$
 
 ___
 Comme 
