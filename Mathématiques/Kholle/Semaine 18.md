@@ -28,5 +28,8 @@ F \in \mathcal{C}^{1} \\
 
 
 $$\frac{\partial }{\partial x}  = -e^{ -t^{2} } t\sin(xt) $$
-$$\leq e^{ -t^{2} }t^{2}x$$
-$$e^{ -t^{2} }t^{2} = O(t^{2})$$
+$$\leq e^{ -t^{2} }t$$
+$$e^{ -t^{2} }t = O(t^{2})$$
+$$f'(x) =- \int_{0}^{+ \infty} e^{ -t^{2} }t\sin(xt)\, dt $$
+
+C'est une série géométrique 
