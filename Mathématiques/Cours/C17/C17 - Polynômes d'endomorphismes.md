@@ -441,9 +441,33 @@ Ez car :
 $$\mathrm{Ker}(f) \subset \mathrm{Ker}(f^{
 m_{k}}) \text{ (le faire pour }f = u-\lambda_k Id)$$
 ___
+$$n = \sum_{k = 1}^{r} m_{k} = \sum_{k = 1}^{r} \dim F_{k} \text{ d'après la démonstration suivante}$$
+Alors, 
+$$\sum_{k = 1}^{r} (m_{k} - \dim F_{k})= 0$$
+
+Or $m_{k} \geq \dim F_{k}$ car : 
+$$\chi_{u_{k}} | \chi_{u} \text{ or } \chi_{u_{k}}(X) = (X-\lambda_{k})^{\dim F_{k}}$$
+Donc, 
+$$\dim F_{k} \leq m_{k}$$
+Alors, 
+$$$$
 
 ___
 Comme 
 $$(X-\lambda_{1})^{m_{1}}, \dots, (X-\lambda_{r})^{m_{r}} \text{ sont premiers entre eux deux à deux }$$
 D'après le lemme de compositions des noyaux : 
-$$\bigoplus_{k = 1}^{r} F_{k} = \bigoplus_{k=1}^{r} \mathrm{Ker}((u-\lambda_{k}Id)^{m_{k}}) = \mathrm{Ker}\left( \left( \prod_{k = 1}^{}(X-\lambda_{k})^{m_{k}} \right) \right)$$
+$$\bigoplus_{k = 1}^{r} F_{k} = \bigoplus_{k=1}^{r} \mathrm{Ker}((u-\lambda_{k}Id)^{m_{k}}) = \mathrm{Ker}\left( \left( \prod_{k = 1}^{r}(X-\lambda_{k})^{m_{k}} \right) (u)\right)$$
+$$= \mathrm{Ker}\space \chi_{u}(u) = \mathrm{Ker}\, 0 = E$$
+___
+L'endomorphisme $u_{k}$ induit par $\mathrm{Ker}((u-\lambda_{k}Id)^{m_{k}})$
+vérifie : 
+$$(u_{k}-\lambda_{k}Id)^{m_{k}} = 0$$
+Ainsi, 
+$$n_{k} = u_{k} - \lambda_{k}Id \text{ vérifie : }n_{k}^{m_{k}} = 0$$
+___
+Il suffit de poser : 
+$$\begin{cases}
+d(x) = \lambda_{k} Id \text{ si }x \in F_{k} \\
+n(x) = u(x) - d(x)
+\end{cases}$$
+
