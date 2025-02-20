@@ -409,13 +409,14 @@ Démonstration : idem que celle pour $\chi_{u}$
 
 ## 4. La décomposition $d+n$
 (version faible du théorème de Dunford)
-#### Théorème
-Soit $u \in \mathcal{L}(E)$
-Supposons : $\chi_{u} \text{ scindé dans }\mathbb{K}[X]$ :
+#### Définition
+Soit $u \in \mathcal{L}(E)$, 
+Soit $\chi_{u} \text{ scindé dans }\mathbb{K}[X]$ :
 $$\chi_{u}(X) = \prod_{k = 1}^{r} (X-\lambda_{k})^{m_{k}} \text{ ou }\forall k \in [\![1, r]\!], m_{k} \in \mathbb{N}, \lambda_{k} \in \mathbb{K} \text{ et }\lambda_{i} \neq \lambda_{j}$$
 On appelle le sous espace caractéristique associé à $\lambda_{k}$ : 
 $$\forall k \in [\![1, r]\!], F_{\lambda_{k} }(u) = \mathrm{Ker}((u-\lambda_{k}Id)^{m_{k}})$$
-Alors, 
+
+#### Théorème
 $$\forall k \in [\![1, r]\!],\begin{cases}
 E_{\lambda_{k}}(u) \subset F_{\lambda_{k}}(u) \\
  \\
@@ -424,5 +425,25 @@ E_{\lambda_{k}}(u) \subset F_{\lambda_{k}}(u) \\
 E = \underset{k = 1}{\overset{r}{\bigoplus}} F_{k} \\
  \\
 u \text{ induit sur } F_{\lambda_{k}}(u) \text{ un endomorphisme } \\
-u_{k} = \lambda_{k}Id + n_{k} \text{ où } n_{k} \in \mathcal{L}(F) 
+u_{k} = \lambda_{k}Id + n_{k} \text{ où } n_{k} \in \mathcal{L}(F_{\lambda_{k}}) \text{ est nilpotent. } \\
+ \\
+\exists d, n \in \mathcal{L}(E) \text{ tels que : } \\
+\begin{cases}
+u = d+n \\
+d \circ n = n \circ d \\
+d \text{ est DZ} \\
+n \text{ est nipotent}
+\end{cases}
 \end{cases}$$
+
+Démonstration : 
+Ez car : 
+$$\mathrm{Ker}(f) \subset \mathrm{Ker}(f^{
+m_{k}}) \text{ (le faire pour }f = u-\lambda_k Id)$$
+___
+
+___
+Comme 
+$$(X-\lambda_{1})^{m_{1}}, \dots, (X-\lambda_{r})^{m_{r}} \text{ sont premiers entre eux deux à deux }$$
+D'après le lemme de compositions des noyaux : 
+$$\bigoplus_{k = 1}^{r} F_{k} = \bigoplus_{k=1}^{r} \mathrm{Ker}((u-\lambda_{k}Id)^{m_{k}}) = \mathrm{Ker}\left( \left( \prod_{k = 1}^{}(X-\lambda_{k})^{m_{k}} \right) \right)$$
