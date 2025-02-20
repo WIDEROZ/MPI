@@ -14,4 +14,4 @@ En $0$ :
 $$\left| \ln(t)\right| e^{ -t } t^{a-1}  \sim_{0} \left| \ln(t)\right| t^{a-1}$$
 $$\left| \ln(t)\right| t^{a-1} =_{t \to 0} O\left( \frac{1}{t^{1-a/2}} \right)$$
 En $+ \infty$ : 
-$$\left| \ln(t) \right| e^{ -t }t^{b-1} \sim $$
+$$\left| \ln(t) \right| e^{ -t }t^{b-1} =_{+ \infty} O\left( \frac{1}{t^{}} \right)$$
