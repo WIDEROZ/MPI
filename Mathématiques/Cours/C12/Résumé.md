@@ -64,7 +64,7 @@ S : x \in I \mapsto \sum_{n = 0}^{+ \infty}f_{n}(x) \in \mathcal{C}^{p}(I) \\
 \end{cases}$$
 
 #### Théorème de convergence dominée (TCVD)
-Soit $I$ un intervalle, $\forall n \in \mathbb{N}, f_{n} : I \to \mathbb{K}$ continue par morceaux (CPM)
+		Soit $I$ un intervalle, $\forall n \in \mathbb{N}, f_{n} : I \to \mathbb{K}$ continue par morceaux (CPM)
 Si : 
 $$\begin{cases}
 (f_{n})_{n \in \mathbb{N}} \text{ CVS sur I vers }f:I \to \mathbb{K} \text{ CPM} \\
