@@ -60,7 +60,9 @@ Si :
 $$\begin{cases}
 \forall t \in I, f(\cdot, t) \in \mathcal{C}^{1}(J, \mathbb{C}) \\
 \forall x \in J, f(x, \cdot) \in \mathcal{L}^{1}(I) \\
-\exists \varphi \in \mathcal{L}^{1}(I, \mathbb{R}), \forall (x, t) \in J \times I, \left| \frac{\partial f}{\partial x} (x, t)\right| \leq \varphi(t)
+\forall x \in J,  \frac{\partial f}{\partial x} (x, \cdot) \in \mathcal{C}^{0}_{m}(I) \\
+\exists \varphi \in \mathcal{L}^{1}(I, \mathbb{R}),
+\forall (x, t) \in J \times I, \left| \frac{\partial f}{\partial x} (x, t)\right| \leq \varphi(t)
 \end{cases}$$
 Alors, 
 $$\begin{cases}
