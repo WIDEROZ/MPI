@@ -54,4 +54,11 @@ $$(e-u)\sum_{n = 0}^{+ \infty} u^{n} = e$$
 ### CCINP 26
 #### 1.
 En $+ \infty$ :
-$$\frac{1}{(1+t^{2})^{n}} \sim_{+ \infty} \frac{1}{}$$
+$$\frac{1}{(1+t^{2})^{n}} =_{+ \infty} O\left( \frac{1}{t^{2n}} \right)$$
+
+#### 2.
+##### a.
+$$\left( \frac{1}{1+t^{2}} -1\right)\frac{1}{(1+t^{2})^{n}} \leq 0$$
+Wallah l'intégrale décroit
+
+##### b.
