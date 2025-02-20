@@ -470,4 +470,3 @@ $$\begin{cases}
 d(x) = \lambda_{k} Id \text{ si }x \in F_{k} \\
 n(x) = u(x) - d(x)
 \end{cases}$$
-:!
