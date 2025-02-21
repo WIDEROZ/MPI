@@ -13,3 +13,8 @@ Il est impossible de ne jamais arriver à un apaisement et la division en secte 
 
 Tous les messieurs de la loge se retournèrent pour écouter ce qu'allait dire Mr.Jackson, car son autorité sur le chaptire de la "famille" était aussi incontesté que celle de Lawrence Lefferts sur le chapitre du "bon ton" p.26
 
+Il est impossible de ne jamais avoir un apaisement et la division en secte est inévitable p. 149
+
+La diversité des complexions engendre parmi eux comme un concours de fictions vaines p.90
+
+Tous les messieurs de la loge se retournèrent pour écouter ce qu'allait dire Mr.Jackson, car l'autorité sur le 
