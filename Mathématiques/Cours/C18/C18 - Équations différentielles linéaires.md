@@ -132,4 +132,6 @@ y'' \\
 y^{(d-1)} \\
 -\sum_{k = 0}^{d-1} a_{k}y^{(k)}+b
 \end{pmatrix}$$
-$$\forall t_{0} \in I ,x_{0},..$$
+$$\forall t_{0} \in I , \forall x_{0},\dots, x_{d-1} \in \mathbb{K}$$
+On appelle problème de cauchy de $(\mathcal{E}_{d})$ en $(t_{0},x_{0},  \dots, x_{d-1})$ la question de l'existence et de l'unicité d'une solution $\varphi$ de $(\mathcal{E}_{d})$
+$$\forall k\in [\![0, d-1]\!], \varphi^{(k)}(t_{0}) = x_{k}$$
