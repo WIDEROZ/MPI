@@ -46,6 +46,22 @@ $$\begin{array}{rl}
 \varphi \in Sol(\mathcal{E}) &\Leftrightarrow \forall t \in I, \varphi(t) = a(t)(\varphi(t)) + b(t)  \\
 &\Leftrightarrow \forall t \in I, \begin{cases}
 \varphi'(t)(\varphi(t))  + b(t) \\
-
-\end{cases}
+\varphi_{0}'(t) = a(t)(\varphi_{0}(t)) + b(t)
+\end{cases} \\
+&\Leftrightarrow \forall t \in I, \psi'(t) - \varphi_{0}'(t) =  a(t)(\varphi(t) - \varphi_{0}(t)) \\
+&\Leftrightarrow\forall t \in I, (\varphi-\varphi_{0})'(t) = a(t)((\varphi-\varphi)(t)) \\
+&\Leftrightarrow \varphi-\varphi_{0} \in Sol(\mathcal{H})
 \end{array}$$
+
+## 3. Le problème de Cauchy
+Soit $(t_{0}, x_{0}) \in I \times E$, 
+On appelle problème de Cauchy en $(t_{0}, x_{0})$ la question de l'existence et de l'unicité d'une solution $\varphi$ de : 
+$$\begin{cases}
+x' = a(x) + b  \\
+\varphi(t_{0}) = x_{0}
+\end{cases}$$
+
+## 4. Cas d'une EDL d'ordre $d$ et scalaire
+
+
+La diversité des complexions engendre parmi eux comme  p.90
