@@ -16,3 +16,5 @@ Par le principe de joules et la définition du flux par le transfert thermique e
 
 #### c.
 $$\frac{\phi_{avec}}{\phi_{sans}} = \frac{2d}{R} = \sqrt{\frac{2\lambda}{hR}} \sim 10^{2}$$
+
+### Exercice 6
