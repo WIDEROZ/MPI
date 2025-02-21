@@ -62,6 +62,44 @@ x' = a(x) + b  \\
 \end{cases}$$
 
 ## 4. Cas d'une EDL d'ordre $d$ et scalaire
+#### Exemple
+$$\forall x \in \mathbb{R}, y''(x) + x^{2} y'(x) = e^{ x }y(x) = x-1$$
+On pose : 
+$$Y : x \in \mathbb{R} \mapsto \begin{pmatrix}
+y(x) \\
+y'(x)
+\end{pmatrix} \in \mathbb{R}^{2}$$
+Alors, 
+$$Y'(x) = \begin{pmatrix}
+y'(x) \\
+y''(x)
+\end{pmatrix} = \begin{pmatrix}
+y'(x) \\
+-e^{ x }y(x) - x^{2}y'(x) + x-1
+\end{pmatrix} $$
+$$Y'(x)= \begin{pmatrix}
+0&1 \\
+-e^{ x } &-x^{2}
+\end{pmatrix}\begin{pmatrix}
+y(x) \\
+y'(x)
+\end{pmatrix} + \begin{pmatrix}
+0 \\
+x-1
+\end{pmatrix} $$
+$$\Leftrightarrow Y'(x) = A(x)Y(x) + B(x)$$
 
+#### Définition
+On appelle EDL d'ordre $d$ toute équation du type : 
+$$y^{(d)}+a_{d-1}y^{(d-1)} + \dots + a_{1}y' + a_{0} y = b$$
+où $\forall i \in [\![0, d-1]\!], a_{i} \in \mathcal{C}^{0}(I, \mathbb{K})$ et $b \in \mathcal{C}^{0}(I, \mathbb{K})$ 
 
-La diversité des complexions engendre parmi eux comme  p.90
+On appelle solution d'une telle équation toute fonction $\varphi : I \to \mathbb{K}$ $d$ fois dérivable vérifiant : 
+$$\forall x \in I, \varphi^{(d)}(x) + \sum_{k = 0}^{d-1}a_{k}(x) \varphi^{(k)}(x) = b(x)$$
+On pose : 
+$$Y : x \in I \mapsto \begin{pmatrix}
+y(x) \\
+y'(x) \\
+\vdots \\
+y^{(d-1)}(x)
+\end{pmatrix}$$
