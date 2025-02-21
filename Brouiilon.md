@@ -26,4 +26,4 @@ Tous les messieurs de la loge se retournèrent pour écouter ce qu'allait dire M
 
 La diversité des complexions engendre parmis eux comme un concours de fictions vaines p.90
 
-Tous les messieurs de 
+Tous les messieurs de la loge 
