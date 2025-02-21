@@ -102,4 +102,34 @@ y(x) \\
 y'(x) \\
 \vdots \\
 y^{(d-1)}(x)
+\end{pmatrix} \in \mathcal{M}_{d, 1}(\mathbb{K})$$
+On voit que :
+$$y \in Sol(\mathcal{E}_{d}) \Leftrightarrow Y' = AY + B$$
+$$ B : x \in I \mapsto \begin{pmatrix}
+0 \\
+\vdots \\
+0 \\
+b(x)
+\end{pmatrix} $$
+$$A : x \in I\mapsto p\begin{pmatrix}
+0&1&0&\dots&\dots&0 \\
+\vdots& \ddots &\ddots&\ddots&&\vdots \\
+\vdots&&\ddots&\ddots&\ddots&\vdots \\
+\vdots&&&\ddots&\ddots&0 \\
+0&\dots&\dots&\dots&0&1 \\
+-a_{0}&-a_{1}&\dots&\dots&\dots&-a_{d-1}
 \end{pmatrix}$$
+car : 
+$$y \in Sol(\mathcal{E}_{d}) \Leftrightarrow Y' = \begin{pmatrix}
+y' \\
+y'' \\
+\vdots \\
+y^{(d)}
+\end{pmatrix} = \begin{pmatrix}
+y' \\
+y'' \\
+\vdots \\
+y^{(d-1)} \\
+-\sum_{k = 0}^{d-1} a_{k}y^{(k)}+b
+\end{pmatrix}$$
+$$\forall t_{0} \in I ,x_{0},..$$
