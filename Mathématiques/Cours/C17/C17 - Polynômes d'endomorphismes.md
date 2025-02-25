@@ -62,7 +62,7 @@ $$P(M) \text{ l'est aussi}$$
 
 Démonstration :
 On sait TOUS EVIDEMENT que : 
-$$f \circ g = g \circ f \Rightarrow \mathrm{Ker}(g) \text{ et } \mathrm{Im}(g) \text{ sint stables par }f$$
+$$f \circ g = g \circ f \Rightarrow \mathrm{Ker}(g) \text{ et } \mathrm{Im}(g) \text{ sont stables par }f$$
 Comme : $P(f) \circ f = f \circ P(f)$ c'est fini
 ___
 $$\text{Comme : }\begin{cases}
