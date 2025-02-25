@@ -129,8 +129,9 @@ Dans ce cas $f$ est un sep.
 $$\forall x_{0} \in E \setminus \{ 0 \}, x_{0} \text{ est un }\vec{v_{p}} \text{ de }f \Leftrightarrow Vect(x_{0}) \text{ est stable par }f$$
 
 #### Propriété
-Soit $M \in D_{n}(\mathbb{K}) \subset T_{n}(\mathbb{K})$, 
-le spectre de $M$ est l'ensemble des coefficients diagonaux, 
+Pour $\mathbb{M} \in \{ D_{n}(\mathbb{K}), T_{n}(\mathbb{K}) \}$
+Soit $M \in \mathbb{M}$, 
+le spectre de $M$ est l'ensemble des coefficients diagonaux.
 
 Démonstration : 
 Norton : 
@@ -140,7 +141,7 @@ m_{1, 1}&& \\
 \vdots&\ddots&\ddots& \\
 0&\dots&0&m_{n, n}
 \end{pmatrix}$$
-$$\forall \alpha \in \mathbb{K}, \alpha \in S_{p}(M) \Leftrightarrow \mathrm{Ker}(M - \alpha I_{n}) \neq \{ 0 \}$$
+$$\forall \alpha \in \mathbb{K}, \alpha \in Sp(M) \Leftrightarrow \mathrm{Ker}(M - \alpha I_{n}) \neq \{ 0 \}$$
 $$\Leftrightarrow (M-\alpha I_{n}) \text{ n'est pas inversible}$$
 $$\Leftrightarrow \det(M-\alpha I_{n}) = 0$$
 $$\Leftrightarrow \begin{array}{|c|}
@@ -150,6 +151,7 @@ m_{1, 1}-\alpha \\
 0&\dots&0&m_{n, n}-\alpha
 \end{array} = 0$$
 $$\Leftrightarrow \prod_{i = 1}^{n}(m_{i, i}-\alpha) = 0\Leftrightarrow m_{i, i} \in \{ \alpha_{1}, \dots \}$$
+
 
 #### Proposition
 Soient $f, g \in \mathcal{L}(E)$, et $\alpha \in \mathbb{K}$ une valeur propre de $f$, 

@@ -1,3 +1,7 @@
+#### Propriété
+Soient $f, g \in \mathcal{L}(E)$, et $\alpha \in \mathbb{K}$ une valeur propre de $f$, 
+Si $f \circ g = g \circ f$, l'image de $f$, le noyau de $f$ et $E_{\alpha}(f)$ sont stables par $g$
+
 #### Proposition
 Soit $f \in \mathcal{L}(E)$, 
 Si $\alpha_{1}, \dots, \alpha_{p} \in \mathbb{K}$ sont des valeurs propres de $f$, deux a deux distinctes, $E_{\alpha_{1}}(f), \dots, E_{\alpha_{p}}(f)$ sont en sommes directe.
