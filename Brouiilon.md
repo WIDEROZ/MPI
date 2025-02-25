@@ -1,7 +1,8 @@
-$$P(X) = X^{3}+ X^{2} + X \text{ est annulateur de }u$$
-et comme : 
-$$P(X) = X(X-j)(X-\overline{j})$$
-Comme $Sp(u) \subset Rac(P)$, $0, j, \overline{j}$ sont des probables valeurs propres de $u$
-comme $u$ n'est pas bijectif, $\det(u)=0$ ie $\chi_{u}=XQ(X)$ donc $0 \in Sp(u)$ qui est l'unique valeur propre réelle de $u$
-Pour les complexes : 
-$$\mu_{u} | \chi_{u}$$
+$$\left| z^{k}-1\right| = \sqrt{\left( \cos\left( \frac{2\pi}{n} \right)-1 \right)^{2} + \sin ^{2}\left( \frac{2\pi}{n} \right)} = 2\sin\left( \frac{2\pi}{n} \right)$$
+$$arg(z^{k}-1) = Arctan\left( \frac{\sin\left( \frac{2\pi}{n} \right)}{\cos\left( \frac{2\pi}{n} \right)-1} \right)$$
+
+$$\cos ^{2}(x) = \frac{1-\cos(2x)}{2}$$
+
+$$\cos(2x) = \cos ^{2}(x)-1+\cos ^{2}(x) = 2\cos ^{2}(x)-1$$
+
+$$Arctan\left( \frac{\sin\left( \frac{2\pi}{n} \right)}{2\left( \cos\left( \frac{\pi}{n} \right)^{2}-1 \right)} \right) = Arctan$$
