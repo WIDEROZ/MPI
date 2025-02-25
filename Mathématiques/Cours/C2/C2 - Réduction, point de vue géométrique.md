@@ -702,7 +702,7 @@ Si $\chi_{f}$ est SRS dans $\mathbb{K}[X]$ alors $f$ est DZ.
 
 Démonstration 1 :
 Notons : 
-$$g = f_{|E_{\lambda}(f)}$$
+$$g = f|_{E_{\lambda}(f)}$$
 $$g : \begin{cases}
 E_{\lambda}(f)\to E_{\lambda}(f) \\
 x \mapsto f(x) = \lambda x

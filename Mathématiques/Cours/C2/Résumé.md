@@ -12,7 +12,7 @@ $$\sum_{k = 1}^{p} \dim E_{\alpha_{k}}(f) \leq \dim E$$
 $f$ admet au plus $n$ valeurs propres deux a deux distinctes. 
 
 #### Propriété
-Soit $f \in \mathcal{L}^{\mathcal{E}}(E)$, on a : équivalence entre : 
+Soit $f \in \mathcal{L}(E)$, on a : équivalence entre : 
 $$\begin{array}{l}
 f\text{ est DZ} \\
 \text{il existe une base : }(e_{1}, \dots, e_{n}) \text{ de }E \text{ constitué de }\overrightarrow{v_{p}} \text{ de }f\\
@@ -30,7 +30,7 @@ Soit $\lambda \in Sp(f)$,
 $$1 \leq \dim E_{\lambda}(f) \leq Mult(\lambda) \leq \dim (E)$$
 
 #### Propriété
-Si $\chi_{f}$ est SRS dans $\mathbb{K}[X]$ alors $f$ est DZ.
+$$\text{SRS}\Rightarrow \text{DZ}$$
 
 #### Théorème
 Soit $f \in \mathcal{L}(E)$, on à équivalence entre : 
