@@ -11,18 +11,6 @@ Si $n = \dim E \neq + \infty$,
 $$\sum_{k = 1}^{p} \dim E_{\alpha_{k}}(f) \leq \dim E$$
 $f$ admet au plus $n$ valeurs propres deux a deux distinctes. 
 
-#### Définition
-Soit $f \in \mathcal{L}(E)$, $f$ est dite diagonalisable lorsqu'il existe une base $\beta$ de $E$ telle que $Mat_{\beta}(f)$ est diagonale
-
-Soit $M \in \mathcal{M}_{n}(\mathbb{K})$ : 
-$M$ est diagonalisable lorsque : $L_{M} \in \mathcal{L}(\mathcal{M}_{n,1}(\mathbb{K}))$ l'est.
-ie lorsque $M$ est semblable a une matrice diagonale; 
-$$\boxed{\exists P \in GL_{n}(\mathbb{K}), \exists D \in D_{n}(\mathbb{K}), M = PDP^{-1}}$$
-en effet pour $P = \mathcal{P}_{\mathrm{can}}^{\beta}$ ca marche pas mal.
-
-Ainsi, 
-$$f \text{ est DZ}\Leftrightarrow \text{toute base }\mathcal{E} \text{ de } E \text{ est DZ}$$
-
 #### Propriété
 Soit $f \in \mathcal{L}^{\mathcal{E}}(E)$, on a : équivalence entre : 
 $$\begin{array}{l}
