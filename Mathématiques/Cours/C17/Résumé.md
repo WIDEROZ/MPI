@@ -26,3 +26,22 @@ $$\begin{cases}
 
 #### Théorème : Cayley-Hamilton
 $$\forall u \in \mathcal{L}(E), \chi_{u}(u) = 0 \text{ ie } \mu_{u} | \chi_{u}$$
+
+#### Lemme de décomposition des noyaux
+Soient $u\in \mathcal{L}(E)$, $r \in \mathbb{N}^{*}$, $P_{1}, \dots, P_{r} \in \mathbb{K}[X]$, premiers entre eux deux à deux
+$$\mathrm{Ker}(\underset{i = 1}{\overset{r}{\bigcirc}}P_{i}(u)) = \bigoplus_{i = 1}^{r} \mathrm{Ker}(P_{i}(u)) $$
+
+#### Théorème
+Soit $u \in \mathcal{L}(E)$, 
+On à équivalence entre : 
+$$\begin{cases}
+u \text{ est diagonalisable} \\
+ \\
+\mu_{u} \text{ est SRS dans } \mathbb{K} \\
+ \\
+u \text{ possède un polynôme annulateur SRS, dans ce cas : } \\
+\mu_{u}(X) = \prod_{\alpha \in Sp(u)} (X-\alpha)
+\end{cases}$$
+
+
+

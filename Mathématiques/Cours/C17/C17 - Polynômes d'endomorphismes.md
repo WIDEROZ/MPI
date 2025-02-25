@@ -292,9 +292,6 @@ $$A^{n} = nA +(1-n)I_{3}$$
 Soit $u \in \mathcal{L}(E)$ et $P, Q \in \mathbb{K}$ tels que $P \wedge Q = 1$, alors, 
 $$\mathrm{Ker}((PQ)(x)) = \mathrm{Ker}(P(u)) \oplus \mathrm{Ker}(Q(u))$$
 
-Soit $x \in \mathrm{Ker}(P(u)) \cap \mathrm{Ker}(Q(u))$, 
-
-
 Démonstration :
 Par bezout il existe $A, B \in \mathbb{K}[X]$ tel que : 
 $$PA + QB = 1$$
