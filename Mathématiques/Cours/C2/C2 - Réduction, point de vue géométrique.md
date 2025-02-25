@@ -536,6 +536,8 @@ Si $f$ est l’homothétie de rapport $\alpha \in \mathbb{K}$, $f = \alpha Id_{E
 $$\chi_{f}(X) = (X-\alpha)^{n}$$
 $$\chi_{f}(X) = \det(XI_{n}-\alpha I_{n}) = (X-\alpha)^{n}\det(I_{n})$$
 
+$$\det(f) = \sum_{\sigma \in S_{n}} \sigma$$
+
 Si $f \in \mathcal{L}(E)$ est un projecteur, $\chi_{f}(X) = (X-1)^{r}X^{n-r}$ ou $r = \mathrm{rg}(f)$
 car en prenant une base de $E$ adapté à la décomposition : $E = \\mathrm{Ker}(f) \oplus \mathrm{Im}(f)$
 $$M = Mat_{\beta}(f) = \left(\begin{array}{ccc|cc}
