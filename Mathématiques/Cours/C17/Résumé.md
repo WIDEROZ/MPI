@@ -45,3 +45,22 @@ u \text{ possède un polynôme annulateur SRS, dans ce cas : } \\
 
 
 
+#### Théorème
+$$\forall k \in [\![1, r]\!],\begin{cases}
+E_{\lambda_{k}}(u) \subset F_{\lambda_{k}}(u) \\
+ \\
+\dim F_{\lambda_{k}}(u) = m_{k} \\
+ \\
+E = \underset{k = 1}{\overset{r}{\bigoplus}} F_{k} \\
+ \\
+u \text{ induit sur } F_{\lambda_{k}}(u) \text{ un endomorphisme } \\
+u_{k} = \lambda_{k}Id + n_{k} \text{ où } n_{k} \in \mathcal{L}(F_{\lambda_{k}}) \text{ est nilpotent. } \\
+ \\
+\exists d, n \in \mathcal{L}(E) \text{ tels que : } \\
+\begin{cases}
+u = d+n \\
+d \circ n = n \circ d \\
+d \text{ est DZ} \\
+n \text{ est nipotent}
+\end{cases}
+\end{cases}$$
