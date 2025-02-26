@@ -435,6 +435,11 @@ d \text{ est DZ} \\
 n \text{ est nipotent}
 \end{cases}
 \end{cases}$$
+$$n = \sum_{k = 1}^{r} d_{k} = \sum_{k = 1}^{r} m_{k}$$
+Alors, 
+$$\sum_{k = 1}^{r}(d_{k}-m_{k}) = 0$$
+Comme : $(X-\lambda_{k})^{\dim F_{k}} | \chi_{u}$, 
+
 
 Démonstration : 
 Ez car : 
