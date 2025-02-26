@@ -435,11 +435,6 @@ d \text{ est DZ} \\
 n \text{ est nipotent}
 \end{cases}
 \end{cases}$$
-$$n = \sum_{k = 1}^{r} d_{k} = \sum_{k = 1}^{r} m_{k}$$
-Alors, 
-$$\sum_{k = 1}^{r}(d_{k}-m_{k}) = 0$$
-Comme : $(X-\lambda_{k})^{\dim F_{k}} | \chi_{u}$, 
-
 
 Démonstration : 
 Ez car : 
@@ -449,6 +444,15 @@ ___
 $$n = \sum_{k = 1}^{r} m_{k} = \sum_{k = 1}^{r} \dim F_{k} \text{ d'après la démonstration suivante}$$
 Alors, 
 $$\sum_{k = 1}^{r} (m_{k} - \dim F_{k})= 0$$
+
+Or comme en posant : 
+$$u_{k} : \begin{cases}
+F_{\lambda_{k}}\to F_{\lambda_{k}} \\
+x \mapsto u(x)
+\end{cases}$$
+$$\chi_{u_{k}} | \chi_{u} \text{ alors }(X-\lambda_{k})^{\dim F_{\lambda_{k}}}P(X) | \chi_{u} = (X-\lambda_{k})^{m_{k}}Q(X)$$
+Ou $\lambda_{k}$ n'est pas racine de $P$ donc, $\dim F_{k} \leq m_{k}$
+De plus par le lemme de décomposition en noyau et comme : $E_{\lambda_{k}} \subset F_{\lambda_{k}}$, 
 
 Or $m_{k} \geq \dim F_{k}$ car : 
 $$\chi_{u_{k}} | \chi_{u} \text{ or } \chi_{u_{k}}(X) = (X-\lambda_{k})^{\dim F_{k}}$$
