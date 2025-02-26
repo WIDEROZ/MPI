@@ -451,11 +451,12 @@ F_{\lambda_{k}}\to F_{\lambda_{k}} \\
 x \mapsto u(x)
 \end{cases}$$
 $$\chi_{u_{k}} | \chi_{u} \text{ alors }(X-\lambda_{k})^{\dim F_{\lambda_{k}}}P(X) | \chi_{u} = (X-\lambda_{k})^{m_{k}}Q(X)$$
-Ou $\lambda_{k}$ n'est pas racine de $P$ Donc, $\dim F_{k} \leq m_{k}$
+Ou $\lambda_{k}$ n'est pas racine de $P$ Donc, $\dim F_{\lambda_{k}} \leq m_{k}$
 comme : $E_{\lambda_{k}} \subset F_{\lambda_{k}}$, 
+On sait que : $\mu_{u} | \chi_{u}$ or 
+Montrons que : $m_{k}\leq \dim F_{\lambda_k}$, 
+$$\dim F_{\lambda_{k}}\geq$$
 
-Montrons que : $m_{k}\leq \dim F_{k}$, 
-$$\leq \dim F_{\lambda_{k}}(u)$$
 
 Ainsi, 
 $$m_{k} = \dim F_{k}$$
