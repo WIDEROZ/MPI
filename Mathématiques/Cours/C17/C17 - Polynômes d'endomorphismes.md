@@ -455,7 +455,7 @@ Ou $\lambda_{k}$ n'est pas racine de $P$ Donc, $\dim F_{k} \leq m_{k}$
 comme : $E_{\lambda_{k}} \subset F_{\lambda_{k}}$, 
 
 Montrons que : $m_{k}\leq \dim F_{k}$, 
-
+$$\leq \dim F_{\lambda_{k}}(u)$$
 
 Ainsi, 
 $$m_{k} = \dim F_{k}$$
