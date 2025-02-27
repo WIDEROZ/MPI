@@ -217,3 +217,11 @@ L_{1} \text{ est un langage non contextuel (ou algébrique)} \\
 \text{telle que }L = \mathcal{L}(G_{1})
 \end{cases}$$
 
+
+#### Théorème
+$$\text{Tout langage régulier est algébrique}$$
+
+#### Arbre d'analyse
+- La racine est étiqueté par $S$
+- Les nœuds internes (qui ne sont pas des feuilles) sont étiquetés par des éléments de $V$
+- Si un nœud est étiqueté par $X \in V$ et à pour fils : $$
