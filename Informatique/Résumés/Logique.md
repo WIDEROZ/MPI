@@ -77,3 +77,4 @@ FV(\varphi) \text{ ensemble des variables libres de }\varphi
 \end{cases}$$
 (Bound/Free variables)
 
+
