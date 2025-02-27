@@ -58,4 +58,6 @@ $\forall s \in F \cup R$ on associe une arité
 #### Ensemble des termes
 $$\forall u \in C \cup V , u \text{ est un terme}$$
 $$\forall f \in F, \text{ d'arité }n \text{ et } \forall (t_{i})_{i = 1}^{n} \text{ des termes} f(t_{1}, \dots, t_{n}) \text{ est un terme}$$
-Si un terme ne contient pas de variables c'est un terme clors
+Si un terme ne contient pas de variables c'est un terme clos
+
+#### Formule atomique
