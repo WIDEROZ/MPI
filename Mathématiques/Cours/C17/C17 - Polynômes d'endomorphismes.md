@@ -290,7 +290,7 @@ $$A^{n} = nA +(1-n)I_{3}$$
 ## 1. Lemme des noyaux
 #### Lemme 
 Soit $u \in \mathcal{L}(E)$ et $P, Q \in \mathbb{K}$ tels que $P \wedge Q = 1$, alors, 
-$$\mathrm{Ker}((PQ)(x)) = \mathrm{Ker}(P(u)) \oplus \mathrm{Ker}(Q(u))$$
+$$\mathrm{Ker}((PQ)(u)) = \mathrm{Ker}(P(u)) \oplus \mathrm{Ker}(Q(u))$$
 
 Démonstration :
 Par bezout il existe $A, B \in \mathbb{K}[X]$ tel que : 
