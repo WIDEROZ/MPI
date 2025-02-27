@@ -62,4 +62,10 @@ Si un terme ne contient pas de variables c'est un terme clos
 
 #### Formule atomique
 Une formule atomique sur $S$ est une formule de la forme : 
-$$\forall \rho \in R, \forall (t_{i})_{i = 1}^{n} \text{ des termes}, \rho(t_{1}, \dots, t{_{n}})$$
+$$\forall \rho \in R, \forall (t_{i})_{i = 1}^{n} \text{ des termes}, \rho(t_{1}, \dots, t{_{n}}) $$
+
+#### Ensemble des formules de la logique du premier ordre (FDLLDPO)
+- Les formules atomiques sont des FDLLDPO
+- $\bot$ et $\top$ sont des FDLLDPO
+- $\forall x \in V, \forall \varphi_{1}, \varphi_{2} \in FDLLDPO,$ les formules suivantes sont des formules logiques du premier ordre : 
+  $$\varphi_{1} \wedge \varphi_{2}, \varphi_{1} \vee \varphi_{2}, \varphi_{1} \to \varphi_{2}, \neg \varphi_{1}, \exists x \varphi_{1}, \forall x \varphi_{1}$$
