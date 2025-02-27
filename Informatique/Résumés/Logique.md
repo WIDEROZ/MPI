@@ -15,6 +15,7 @@ $$\begin{array}{c}
 \end{array}& \frac{\Gamma \vdash \phi_{1} \vee \phi_{2} \space\space\space \Gamma, \phi_{1} \vdash \psi \space\space\space \Gamma, \phi_{2} \vdash \psi}{\Gamma \vdash \psi} \tiny \vee_{e} \\
 \to& \frac{\Gamma, \phi  \vdash \psi }{\Gamma \vdash \phi \to \psi} \tiny \to_{i}& \frac{\Gamma \vdash \phi \space\space\space \Gamma \vdash \phi \to \psi}{\Gamma \vdash \psi} \tiny \to_{e}
 \end{array}$$
+
 ###### Uniquement utilisable pour la déduction naturelle classique
 $$\begin{array}{c}
 \text{Affaiblissement}& \frac{\Gamma \vdash \phi}{\Gamma, \psi \vdash \phi} \tiny aff \\
@@ -40,4 +41,21 @@ Un système de preuve est correct si tout séquent prouvable dans le système es
 
 #### Définition
 Un système de preuve est complet si 
-$$\forall \Gamma,\phi, \Gamma \vDash \phi \Rightarrow \Gamma \vdash \phi \text{ est prouvable}$$
+$$\forall \Gamma,\phi, \Gamma \vdash \phi \text{ est valide} \Rightarrow \Gamma \vdash \phi \text{ est prouvable}$$
+
+#### Théorème
+La déduction naturelle classique st un système de preuve complet
+
+# III. Logique du premier ordre
+#### Signature
+C'est un triplet : $S = (C, F, R)$ avec : 
+- $C$ un ensemble de symboles constants
+- $F$ un ensemble de symboles de fonctions
+- $R$ un ensemble de symboles de relations (ou prédicat)
+
+$\forall s \in F \cup R$ on associe une arité
+
+#### Ensemble des termes
+$$\forall u \in C \cup V , u \text{ est un terme}$$
+$$\forall f \in F, \text{ d'arité }n \text{ et } \forall (t_{i})_{i = 1}^{n} \text{ des termes} f(t_{1}, \dots, t_{n}) \text{ est un terme}$$
+Si un terme ne contient pas de variables c'est un terme clors
