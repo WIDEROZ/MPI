@@ -224,4 +224,9 @@ $$\text{Tout langage régulier est algébrique}$$
 #### Arbre d'analyse
 - La racine est étiqueté par $S$
 - Les nœuds internes (qui ne sont pas des feuilles) sont étiquetés par des éléments de $V$
-- Si un nœud est étiqueté par $X \in V$ et à pour fils : $$
+- Si un nœud est étiqueté par $X \in V$ et à pour fils : $(u_{k})_{k \in [\![1, n]\!]} \in \sum \cup V \cup \{ \varepsilon \}$ alors il existe une règle de production : $X \to u_{1},\dots,u_{n}$ 
+
+#### Théorème
+Soit $\varphi$ l'application qui prend en entrée une dérivation gauche et renvoie l'arbre d'analyse associé : 
+Preuve de l : 
+Soit $A = (S, A) \in \mathrm{Im}(\varphi)$, 
