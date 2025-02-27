@@ -1,6 +1,7 @@
 
 # II. Déduction naturelle
-### Définition des règles d'inférence
+Soit $\Gamma \vdash \phi$, $\Gamma \vdash \psi$ des séquents, 
+### 1. Définition des règles d'inférence
 #### Règles d'introduction
 $$\begin{array}{c}
 &\text{Règles d'introduction}&\text{Règles d'exclusion} \\
@@ -19,5 +20,15 @@ $$\begin{array}{c}
 \text{Axiome}& \frac{}{\Gamma, \phi \vdash \phi} \tiny Ax \\
 \text{Tiers exclus}& \frac{}{\Gamma \vdash \phi \vee \neg \phi} \tiny te \\
 \text{Double négation}& \frac{\Gamma \vdash \neg \neg \phi}{\Gamma \vdash \phi} \tiny \neg\neg{e} \\
-\text{Absurde} & 
+\text{Absurde} & \frac{\Gamma, \neg \phi \vdash \bot}{\Gamma \vdash \phi} \tiny Abs
 \end{array}$$
+### 2. Lien avec la logique propositionnelle
+#### Définition
+$\Gamma \vdash \phi$ est prouvable lorsqu'il existe un arbre de preuve dont : $\Gamma \vdash \Phi$ est la racine
+
+#### Définition
+On dit que :
+$$\Gamma \vdash \phi \text{ est valide si } \Gamma \vDash \phi $$
+
+#### Définition
+Un règle de déduction est valide so l'application de cette règle par un ensemble de séquents valide donne un séquent valide. 
