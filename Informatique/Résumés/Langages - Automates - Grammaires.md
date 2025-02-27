@@ -231,4 +231,8 @@ Soit $u \in \mathcal{L}(G)$,
 Il existe une bijection entre l'ensemble des dérivations gauches de $u$ et l'ensemble des arbres d'analyses
 
 #### Définition
-On dit que $G_{1}$ et $G_{2}$ sont faiblement é
+On dit que $G_{1}$ et $G_{2}$ sont faiblement équivalentes lorsque : 
+$$\mathcal{L}(G_{1}) = \mathcal{L}(G_{2})$$
+On dit qu'elles le sont fortement lorsque : 
+Pour $u \in \mathcal{L}(G_{1}),$ les arbres syntaxiques de $u$ dans $G_{1}$ et $G_{2}$ sont identiques
+
