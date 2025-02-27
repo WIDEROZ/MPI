@@ -69,3 +69,11 @@ $$\forall \rho \in R, \forall (t_{i})_{i = 1}^{n} \text{ des termes}, \rho(t_{1}
 - $\bot$ et $\top$ sont des FDLLDPO
 - $\forall x \in V, \forall \varphi_{1}, \varphi_{2} \in FDLLDPO,$ les formules suivantes sont des formules logiques du premier ordre : 
   $$\varphi_{1} \wedge \varphi_{2}, \varphi_{1} \vee \varphi_{2}, \varphi_{1} \to \varphi_{2}, \neg \varphi_{1}, \exists x \varphi_{1}, \forall x \varphi_{1}$$
+
+#### Ensemble des variables libres / liées
+$$\forall \varphi \in FDLLPDPO, \begin{cases}
+BV(\varphi) \text{ ensemble des variables liées de }\varphi \\
+FV(\varphi) \text{ ensemble des variables libres de }\varphi
+\end{cases}$$
+(Bound/Free variables)
+
