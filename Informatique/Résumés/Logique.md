@@ -61,3 +61,5 @@ $$\forall f \in F, \text{ d'arité }n \text{ et } \forall (t_{i})_{i = 1}^{n} \t
 Si un terme ne contient pas de variables c'est un terme clos
 
 #### Formule atomique
+Une formule atomique sur $S$ est une formule de la forme : 
+$$\forall \rho \in R, \forall (t_{i})_{i = 1}^{n} \text{ des termes}, \rho(t_{1}, \dots, t{_{n}})$$
