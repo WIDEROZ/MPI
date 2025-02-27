@@ -12,5 +12,12 @@ $$\begin{array}{c}
 \vee& \begin{array}{c}
 \frac{\Gamma \vdash \phi}{\Gamma \vdash \phi \vee \psi} \tiny \wedge_{ig}&\frac{\Gamma \vdash \psi}{\Gamma \vdash \phi \vee \psi} \tiny \wedge_{id}
 \end{array}& \frac{\Gamma \vdash \phi_{1} \vee \phi_{2} \space\space\space \Gamma, \phi_{1} \vdash \psi \space\space\space \Gamma, \phi_{2} \vdash \psi}{\Gamma \vdash \psi} \tiny \vee_{e} \\
-\to& \frac{\Gamma \vdash \phi \space\space\space \Gamma \vdash }{\Gamma \vdash \phi \to \psi}
+\to& \frac{\Gamma, \phi  \vdash \psi }{\Gamma \vdash \phi \to \psi} \tiny \to_{i}& \frac{\Gamma \vdash \phi \space\space\space \Gamma \vdash \phi \to \psi}{\Gamma \vdash \psi} \tiny \to_{e}
+\end{array}$$
+$$\begin{array}{c}
+\text{Affaiblissement}& \frac{\Gamma \vdash \phi}{\Gamma, \psi \vdash \phi} \tiny aff \\
+\text{Axiome}& \frac{}{\Gamma, \phi \vdash \phi} \tiny Ax \\
+\text{Tiers exclus}& \frac{}{\Gamma \vdash \phi \vee \neg \phi} \tiny te \\
+\text{Double négation}& \frac{\Gamma \vdash \neg \neg \phi}{\Gamma \vdash \phi} \tiny \neg\neg{e} \\
+\text{Absurde} & 
 \end{array}$$
