@@ -227,14 +227,8 @@ $$\text{Tout langage régulier est algébrique}$$
 - Si un nœud est étiqueté par $X \in V$ et à pour fils : $(u_{k})_{k \in [\![1, n]\!]} \in \sum \cup V \cup \{ \varepsilon \}$ alors il existe une règle de production : $X \to u_{1},\dots,u_{n}$ 
 
 #### Théorème
-Soit $\varphi$ l'application qui prend en entrée une dérivation gauche et renvoie l'arbre d'analyse associé : 
-Preuve de l : 
-Soit $A_{1} = (S_{1}, A_{1}), A_{2} = (S_{2}, A_{2}) \in \mathrm{Im}(\varphi)$,, tel que $\varphi(X) = A_{1} \text{ et } \varphi(Y) = A_{2}$
-Alors, si on pose : 
-$$\varphi : \begin{cases}
-Dérivation \to Arbre\\
-\Rightarrow^{L} \mapsto A
-\end{cases}$$
-Soit $X \in (V \cup \sum)^{*}$, une phrase induite de dérivations gauches uniquement. 
-Soit $R(u_{1}, \dots, u_{n}) \in R$  une règle, 
-$$X \Rightarrow^{L} R(u_{1}, \dots, u_{n})$$
+Soit $u \in \mathcal{L}(G)$, 
+Il existe une bijection entre l'ensemble des dérivations gauches de $u$ et l'ensemble des arbres d'analyses
+
+#### Définition
+On dit que $G_{1}$ et $G_{2}$ sont faiblement é
