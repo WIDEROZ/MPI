@@ -2,9 +2,10 @@
 #### Base 10 -> Base 2, 8, 16
 Méthode des divisions successives
 ##### Exemple
-123-64
+123 
 ###### Base 2 : Direct 
-$$1$$
+$$123_{10} = 1101101_{10}$$
+
 ###### Base 8 : 
 ![[Pasted image 20250305170848.png]]
 Ainsi, 
