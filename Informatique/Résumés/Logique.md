@@ -4,7 +4,22 @@ On note : $\mathbb{B} = \{ 0, 1 \}$
 Soit $\mathcal{V}$ un ensemble de variables, 
 Une valuation de variables est une application de $\mathcal{V}$ vers $\mathbb{B}$
 
-#### Valeur de 
+#### Valeur de vérité
+Soit $\varphi$ une formule propositionnelle, 
+Soit $v$ une valuation, 
+Elle est définie inductivement et se note : $[\![\varphi]\!]^{v} \in \mathbb{B}$
+
+#### Modèle
+Soit $\varphi$ une formule propositionnelle, 
+Soit $v$ une valuation, 
+Si $v$ satisfait $\varphi$, on dit que $v$ est un modèle de $\varphi$ et on note : 
+$$\mathrm{Mod}(\varphi) \text{ l'ensemble des modèles de }\varphi$$
+
+#### Conséquence sémantique
+Soient $\varphi_{1}, \varphi_{2}$ deux formules propositionnelles, 
+On dit que $\varphi_{2}$ est une conséquence sémantique de $\varphi_{1}$ (noté $\varphi_{1} \vDash \varphi_{2}$)
+Si pour toute valuation $v$, $v(\varphi_{1}) = 1 \Rightarrow v(\varphi_{2}) = 1$
+
 
 
 # II. Déduction naturelle
