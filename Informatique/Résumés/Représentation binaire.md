@@ -2,9 +2,10 @@
 #### Base 10 -> Base 2, 8, 16
 Méthode des divisions successives
 ##### Exemple
-123 
-###### Base 2 : Direct 
-$$123_{10} = 1101101_{10}$$
+123
+
+###### Base 2 : Direct
+$$123_{10} = 1111011_{10}$$
 
 ###### Base 8 : 
 ![[Pasted image 20250305170848.png]]
@@ -19,6 +20,11 @@ $$123_{10} = 7B_{16}$$
 
 #### Base 8 -> Base 2
 $$01234567_{8} = 000 \space 001 \space 010 \space 011 \space 100 \space 101 \space 110 \space 111_{2}$$
+
+#### Base 16 -> Base 2
+$$0123456789ABCDEF_{16}$$
+$$=0000 \space 0001 \space 0010 \space 0011 \space 0100 \space 0101 \space 0110 \space 0111 $$
+$$1000 \space 1001 \space 1010 \space 1011 \space1100 \space 1101 \space 1110 \space 1111_{16}$$
 
 
 ## Représentation des décimaux
