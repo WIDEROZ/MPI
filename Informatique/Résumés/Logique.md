@@ -1,3 +1,12 @@
+# I. Logique propositionnelle
+On note : $\mathbb{B} = \{ 0, 1 \}$
+#### Valuation
+Soit $\mathcal{V}$ un ensemble de variables, 
+Une valuation de variables est une application de $\mathcal{V}$ vers $\mathbb{B}$
+
+#### Valeur de 
+
+
 # II. Déduction naturelle
 Soit $\Gamma \vdash \phi$, $\Gamma \vdash \psi$ des séquents, 
 ### 1. Définition des règles d'inférence
@@ -106,5 +115,3 @@ $$\begin{array}{c|c}
 
 
 
-
-$$\frac{}{\Gamma \vdash \exists x, \varphi}$$
