@@ -5,6 +5,9 @@ Méthode des divisions successives
 123 
 ###### Base 2 : Direct (enfin presque)
 ###### Base 8 : 
+![[Pasted image 20250305170848.png]]
+
+###### Base 16
 
 
 
