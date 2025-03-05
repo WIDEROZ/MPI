@@ -1,4 +1,13 @@
-#### Boutisme
+## Changement de base
+#### Base 10 -> Base 2, 8, 16
+Méthode des divisions successives
+##### Exemple
+123 
+###### Base 2 : Direct
+$$$$
+
+#### Base 8 -> Base 2
+$$01234567_{8} = 000 \space 001 \space 010 \space 011 \space 100 \space 101 \space 110 \space 111_{2}$$
 
 
 ## Représentation des décimaux
@@ -10,7 +19,6 @@ $$\begin{array}{c}
 \overbrace{\text{1 bit}}\space\space\space\space\overbrace{\text{8 bits}}\space\space\space\space\space\space\space\space\overbrace{\text{23 bits}} \space\space\space
 \end{array}$$
 
-1111011100000010
 #### Définition
 En base $2$ : 
 $$(-1)^{s} \times 2^{(n-d)} \times 1, m$$
