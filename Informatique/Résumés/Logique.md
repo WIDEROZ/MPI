@@ -1,4 +1,3 @@
-
 # II. Déduction naturelle
 Soit $\Gamma \vdash \phi$, $\Gamma \vdash \psi$ des séquents, 
 ### 1. Définition des règles d'inférence
@@ -77,4 +76,8 @@ FV(\varphi) \text{ ensemble des variables libres de }\varphi
 \end{cases}$$
 (Bound/Free variables)
 
+
+#### Formules $\alpha$-équivalentes
+Deux formules sont $\alpha$-équivalentes si elles sont syntaxiquement identiques à un renommage des occurrences liées des variables près
+La transformation d'une formule $\varphi$ en formule $\alpha$-équivalente $\psi$ est appelé $\alpha$-renommage. 
 
