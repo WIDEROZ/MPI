@@ -9,6 +9,13 @@ $e$ est un élément minimal (maximal) de $E$ si il n'existe pas de $e'\in E$ te
 #### Plus petit élément
 $e$ est un plus petit (grand) élément de $E$ si : Pour tout $e' \in E$, $e \leq e' \space(e \geq e')$
 
+#### Propriété
+Le plus petit élément est un élément minimal
+
+Démonstration : 
+Soit $e\in E$, le plus petit élément de $E$, 
+$$\exists e' \in E, e \leq e'$$
+
 #### Unicité du plus petit élément
 Si il existe le plus petit élément de $E$ est unique
 
@@ -19,7 +26,16 @@ e'_{1} < e' \\
 e''_{1} < e''
 \end{cases}$$
 C'est à dire que : 
-$$\exists e_{2}', e_{2}'' \in E, \begin{cases}
-e' \geq e_{2}' \\
-e'' \geq e_{2}''
+$$\exists e_{1}', e_{1}'' \in E, \begin{cases}
+e'_{1} \geq e' \\
+e''_{1} \geq e''
+\end{cases}$$
+
+Pour l'ordre total : 
+$$e_{1}' \geq e_{1}'' \text{ ou } e'_{1} \leq e_{1}'' \Rightarrow e_{1}' \geq e'' \text{ ou } e_{1}'' \geq e'$$
+Alors, dans les deux cas : 
+$$\begin{cases}
+e_{1}' \geq e'' \\
+e_{1}'' \geq e'' \\
+e_{1}' \geq e'
 \end{cases}$$
