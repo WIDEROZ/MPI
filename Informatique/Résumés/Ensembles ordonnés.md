@@ -56,14 +56,20 @@ C'est ainsi que $e$ est bien un élément minimal de $E$
 On dit que l'ordre $\leq$ est bien fondé (ou est un bon ordre), s'il n'existe pas de suite infinie strictement décroissante pour $\leq$
 $(E, \leq)$ est ainsi un ensemble bien ordonné. 
 
-$$\forall n \in \mathbb{N}, P_{n}(\mathbb{N})$$
-
-Si il existerai une suite strictement décroissante :
+#### Exemple
 Soit $n \in \mathbb{N}$, 
+$$\text{Montrer que }\mathcal{P}_{n}(\mathbb{N}) \text{ est bien ordonné pour}\subseteq$$
+Par l'absurde s'il existerai une suite strictement décroissante :
 $(u_{k})_{k \in \mathbb{N}} \in \mathcal{P}_{n}(\mathbb{N})^{\mathbb{N}}$
 $$\forall k \in \mathbb{N}, u_{k+1} \subsetneq u_{k}$$
 Alors, 
 $$\forall k \in \mathbb{N}, \left| u_{k+1}\right|< \left| u_{k}\right|$$
-car $\left| \cdot\right|$ est monotone, alors, comme $\left| u_{0}\right|\leq n$
+car $\left| \cdot\right| = \mathrm{Card}(\cdot)$ est monotone, alors, comme $\left| u_{0}\right|\leq n$
 $$\left| u_{n+1}\right| <0$$
 C'est absurde, le nombre d'élément dans un ensemble ne peut pas être négatif.
+
+
+#### Caractérisation des ensembles bien ordonnés
+$(E, \leq)$ est bien ordonné ssi toute partie non vide de $E$ admet un élément minimal
+
+#### Ordres lexicographiques
