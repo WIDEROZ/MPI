@@ -1,7 +1,7 @@
 # II. Déduction naturelle
 Soit $\Gamma \vdash \phi$, $\Gamma \vdash \psi$ des séquents, 
 ### 1. Définition des règles d'inférence
-#### Règles d'introduction pour la déduction naturelle intuitionniste et classique
+#### Règles pour la déduction naturelle intuitionniste et classique
 $$\begin{array}{c}
 &\text{Règles d'introduction}&\text{Règles d'exclusion} \\
 \top, \bot&\frac{}{\Gamma \vdash \phi}\tiny{\top_{i}} &\frac{\Gamma \vdash \bot}{\Gamma \vdash \phi}\tiny \bot_{e}& \\
@@ -81,3 +81,17 @@ FV(\varphi) \text{ ensemble des variables libres de }\varphi
 Deux formules sont $\alpha$-équivalentes si elles sont syntaxiquement identiques à un renommage des occurrences liées des variables près
 La transformation d'une formule $\varphi$ en formule $\alpha$-équivalente $\psi$ est appelé $\alpha$-renommage. 
 
+#### Cloture d'une formule propositionnelle
+Soit $\varphi$ une FDLLDPO,
+Soient $(x_{i})_{i = 1}^{n} \in FV(\varphi),$ 
+$$\forall x_{1}, \dots, \forall x_{n},\varphi \text{ est la cloture universelle de }\varphi$$
+
+### Règles pour la déduction naturelle de la logique du premier ordre
+$$\begin{array}{c}
+&\text{Règles d'introduction}&\text{Règles d'exclusion} \\
+\forall & 
+\forall x \in FV(\varphi) \\
+\frac{\Gamma \vdash \varphi}{\Gamma \vdash \forall x, \varphi} \tiny \forall_{i}
+ & \\
+\exists & 
+\end{array}$$
