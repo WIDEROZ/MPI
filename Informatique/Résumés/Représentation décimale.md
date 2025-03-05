@@ -1,5 +1,15 @@
 ## Représentation des réels
 #### Définition
+$$\begin{array}{c}
+\begin{array}{|c|c|}\hline
+\text{sgn}&\text{exposant}&\text{mantisse} \\ \hline 
+\end{array} \\
+\begin{array}{|c|c|}\hline
+\text{sgn}&\text{exposant}&\text{mantisse} \\ \hline 
+\end{array}
+\end{array}$$
+
+#### Définition
 En base $2$ : 
 $$(-1)^{s} \times 2^{(n-d)} \times 1, m$$
 On note : 
@@ -15,4 +25,7 @@ $$= -0,\underset{36}{\underbrace{0\dots0}}111001 _{2} = -(2^{-37}+2^{-38}+2^{-39
 $$\approx -1.29602995 \times 10^{-11}$$
 
 ##### Décimal -> Binaire
-$$5.123_{10} = \left. (5 + 0.123) \right._{10} = 0.$$
+Comme $125 = \frac{1}{8}$ en base 10,
+$$5.125_{10} = \left. (5 + 0.125) \right._{10} = 101_{2} + 0.001_{2} = 101.001_{2} $$
+$$ =\left. (1.01001 \times 2^{2 = 129-127})\right._{2} $$
+$$= \text{0 01000001 01001000000000000000000}_{2}$$
