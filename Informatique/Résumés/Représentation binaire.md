@@ -29,7 +29,7 @@ $$1000 \space 1001 \space 1010 \space 1011 \space1100 \space 1101 \space 1110 \s
 #### Base 2 -> Base 8, 10, 16 (Direct)
 $$1101 \space 1001_{2} = 011\space 011\space001_{2} = D9_{16} = 331_{8} = 217_{10}$$
 
-
+e
 ## Représentation des décimaux
 #### Représentation décimale sur 32 bits
 $$\begin{array}{c}
