@@ -72,4 +72,3 @@ C'est absurde, le nombre d'élément dans un ensemble ne peut pas être négatif
 #### Caractérisation des ensembles bien ordonnés
 $(E, \leq)$ est bien ordonné ssi toute partie non vide de $E$ admet un élément minimal
 
-#### Ordres lexicographiques
