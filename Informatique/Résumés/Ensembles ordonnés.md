@@ -1,6 +1,6 @@
+Soit $(E, \leq)$ un ensemble ordonné, 
 # I. Définitions
-## 1. Définitions importan
-Soit $E$ un ensemble ordonné, 
+## 1. Définitions importantes
 Soit $e \in E$,
 #### Vocabulaire
 Prédécesseur, Successeur (immédiat ou non)
@@ -11,7 +11,7 @@ $e$ est un élément minimal (maximal) de $E$ si il n'existe pas de $e'\in E$ te
 #### Plus petit élément
 $e$ est un plus petit (grand) élément de $E$ si : Pour tout $e' \in E$, $e \leq e' \space(e \geq e')$
 
-### Propriétés
+## 2. Propriétés
 #### Unicité du plus petit élément
 Si il existe le plus petit élément de $E$ est unique
 
@@ -52,5 +52,10 @@ $$\forall e' \in E, e' = e \text{ ou } e' \geq e \Leftrightarrow e' \geq e$$
 C'est ainsi que $e$ est bien un élément minimal de $E$
 
 ## II. Ordre bien fondé
-#### Définition
-On dit que 
+#### Bien fondé / Bien ordonné
+On dit que l'ordre $\leq$ est bien fondé (ou est un bon ordre), s'il n'existe pas de suite infinie strictement décroissante pour $\leq$
+$(E, \leq)$ est ainsi un ensemble bien ordonné. 
+
+$$\forall n \in \mathbb{N}, P_{n}(\mathbb{N})$$
+
+Si il existe 
