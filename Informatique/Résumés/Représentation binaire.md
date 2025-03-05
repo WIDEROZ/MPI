@@ -1,21 +1,23 @@
-## Représentation des réels
-#### Définition
+#### Boutisme
+
+
+## Représentation des décimaux
+#### Représentation décimale sur 32 bits
 $$\begin{array}{c}
 \begin{array}{|c|c|}\hline
 \text{sgn}&\text{exposant}&\text{mantisse} \\ \hline 
 \end{array} \\
-\begin{array}{|c|c|}\hline
-\text{sgn}&\text{exposant}&\text{mantisse} \\ \hline 
-\end{array}
+\overbrace{\text{1 bit}}\space\space\space\space\overbrace{\text{8 bits}}\space\space\space\space\space\space\space\space\overbrace{\text{23 bits}} \space\space\space
 \end{array}$$
 
+1
 #### Définition
 En base $2$ : 
 $$(-1)^{s} \times 2^{(n-d)} \times 1, m$$
 On note : 
 - $s$ le signe
-- $n$ l'exposant
-- $m$ la mantisse
+- $n$ l'exposant en base 10
+- $m$ la mantisse en base 2 en omettant les derniers $0$
 - $d$ la valeur de décalage (souvent $127$ dans nos cas)
 
 #### Exemple
