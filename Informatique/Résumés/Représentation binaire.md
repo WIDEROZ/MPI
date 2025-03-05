@@ -10,7 +10,7 @@ $$\begin{array}{c}
 \overbrace{\text{1 bit}}\space\space\space\space\overbrace{\text{8 bits}}\space\space\space\space\space\space\space\space\overbrace{\text{23 bits}} \space\space\space
 \end{array}$$
 
-1
+1111011100000010
 #### Définition
 En base $2$ : 
 $$(-1)^{s} \times 2^{(n-d)} \times 1, m$$
