@@ -87,11 +87,19 @@ Soient $(x_{i})_{i = 1}^{n} \in FV(\varphi),$
 $$\forall x_{1}, \dots, \forall x_{n},\varphi \text{ est la cloture universelle de }\varphi$$
 
 ### Règles pour la déduction naturelle de la logique du premier ordre
-$$\begin{array}{c}
-&\text{Règles d'introduction}&\text{Règles d'exclusion} \\
+$$\begin{array}{c|c}
+&\text{Règles d'introduction}&\text{Règles d'exclusion} \\ \hline
 \forall & 
-\forall x \in FV(\varphi) \\
+\begin{array}{c}
+\text{Si } x \in FV(\Gamma) \\
 \frac{\Gamma \vdash \varphi}{\Gamma \vdash \forall x, \varphi} \tiny \forall_{i}
- & \\
-\exists & 
+\end{array}
+ & \begin{array}{c}
+\text{Si t ne contient pas de var. liées } \\
+\frac{\Gamma \vdash \forall x, \varphi}{\Gamma \vdash \varphi[x \leftarrow t]} \tiny \forall_{e}
+\end{array} \\\hline
+\exists & \frac{\Gamma \vdash \varphi[x \leftarrow t]}{\Gamma \vdash \exists x, \varphi}\tiny \exists_{i}&\begin{array}{c}
+\text{Si }x \not\in FV(\Gamma) \cup FV(\psi) \\
+\frac{\Gamma \vdash \exists x, \varphi \space\space\space \Gamma, \varphi \vdash \psi}{\Gamma \vdash \psi} \tiny{\exists_{e}}
+\end{array}
 \end{array}$$
