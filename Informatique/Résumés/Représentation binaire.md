@@ -3,8 +3,10 @@
 Méthode des divisions successives
 ##### Exemple
 123 
-###### Base 2 : Direct
-$$$$
+###### Base 2 : Direct (enfin presque)
+###### Base 8 : 
+
+
 
 #### Base 8 -> Base 2
 $$01234567_{8} = 000 \space 001 \space 010 \space 011 \space 100 \space 101 \space 110 \space 111_{2}$$
