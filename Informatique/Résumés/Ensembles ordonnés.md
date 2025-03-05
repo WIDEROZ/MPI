@@ -58,4 +58,12 @@ $(E, \leq)$ est ainsi un ensemble bien ordonné.
 
 $$\forall n \in \mathbb{N}, P_{n}(\mathbb{N})$$
 
-Si il existe 
+Si il existerai une suite strictement décroissante :
+Soit $n \in \mathbb{N}$, 
+$(u_{k})_{k \in \mathbb{N}} \in \mathcal{P}_{n}(\mathbb{N})^{\mathbb{N}}$
+$$\forall k \in \mathbb{N}, u_{k+1} \subsetneq u_{k}$$
+Alors, 
+$$\forall k \in \mathbb{N}, \left| u_{k+1}\right|< \left| u_{k}\right|$$
+car $\left| \cdot\right|$ est monotone, alors, comme $\left| u_{0}\right|\leq n$
+$$\left| u_{n+1}\right| <0$$
+C'est absurde, le nombre d'élément dans un ensemble ne peut pas être négatif.
