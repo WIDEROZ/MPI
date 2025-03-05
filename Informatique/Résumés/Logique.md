@@ -20,8 +20,6 @@ Soient $\varphi_{1}, \varphi_{2}$ deux formules propositionnelles,
 On dit que $\varphi_{2}$ est une conséquence sémantique de $\varphi_{1}$ (noté $\varphi_{1} \vDash \varphi_{2}$)
 Si pour toute valuation $v$, $v(\varphi_{1}) = 1 \Rightarrow v(\varphi_{2}) = 1$
 
-
-
 # II. Déduction naturelle
 Soit $\Gamma \vdash \phi$, $\Gamma \vdash \psi$ des séquents, 
 ### 1. Définition des règles d'inférence
@@ -127,6 +125,3 @@ $$\begin{array}{c|c}
 \frac{\Gamma \vdash \exists x, \varphi \space\space\space \Gamma, \varphi \vdash \psi}{\Gamma \vdash \psi} \tiny{\exists_{e}}
 \end{array}
 \end{array}$$
-
-
-
