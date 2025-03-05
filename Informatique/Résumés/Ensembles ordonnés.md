@@ -16,26 +16,14 @@ Démonstration :
 Soit $e\in E$, le plus petit élément de $E$, 
 $$\exists e' \in E, e \leq e'$$
 
+#### Propriété
+Le plus petit élément de $E$ est un élément minimal de $E$
+Démonstration : 
+Soit $e' \in E$ un pl
+
 #### Unicité du plus petit élément
 Si il existe le plus petit élément de $E$ est unique
 
 Démonstration : 
-Soit $e'', e' \in E$ plus petits éléments, alors il n'existe pas de $e'_{1}, e''_{1} \in E$ tels que : 
-$$\begin{cases}
-e'_{1} < e' \\
-e''_{1} < e''
-\end{cases}$$
-C'est à dire que : 
-$$\exists e_{1}', e_{1}'' \in E, \begin{cases}
-e'_{1} \geq e' \\
-e''_{1} \geq e''
-\end{cases}$$
-
-Pour l'ordre total : 
-$$e_{1}' \geq e_{1}'' \text{ ou } e'_{1} \leq e_{1}'' \Rightarrow e_{1}' \geq e'' \text{ ou } e_{1}'' \geq e'$$
-Alors, dans les deux cas : 
-$$\begin{cases}
-e_{1}' \geq e'' \\
-e_{1}'' \geq e'' \\
-e_{1}' \geq e'
-\end{cases}$$
+Soit $e'', e' \in E$ plus petits éléments,
+$$e' \geq e'' \text{ et } e' \leq e'' \Rightarrow e' =e''$$
