@@ -5,6 +5,3 @@ $$H+1 \leq N \leq 2^{H+1}-1$$
 
 #### Arbre binaire complet
 Tous les niveaux sont remplis complement sauf le dernier qui est rempli à partir de la gauche. 
-
-
-$$$$
