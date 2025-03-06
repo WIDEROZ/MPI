@@ -21,6 +21,14 @@ On recherche la position de l'élément que l'on veut supprimer, on applique cet
 
 ## 2. Arbres Rouge-Noir
 #### Définition
-C'est un arbre binaire qui vérifie les propriétés suivantes : 
+C'est un arbre <u>binaire de recherche</u> qui vérifie les propriétés suivantes : 
 - Un nœud rouge n'as pas de père rouge
-- Tous les chemins de la racine 
+- Tous les chemins de la racine à un sous arbre vide ont le même nombre de nœuds <u>noirs</u>.
+
+#### Propriété
+Soit $a$ un arbre rouge noir, 
+Soit $bh(a)$ la valeur du nombre de nœuds noirs de la racine à un sous arbre vide.
+$$\begin{cases}
+h(a) \leq 2bh(a) \\
+2^{bh(a)}\leq n(a) +1
+\end{cases}$$
