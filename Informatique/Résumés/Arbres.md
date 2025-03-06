@@ -32,3 +32,8 @@ $$\begin{cases}
 h(a) \leq 2bh(a) \\
 2^{bh(a)}\leq n(a) +1
 \end{cases}$$
+
+#### Ajout d'un élément dans un arbre rouge noir
+- Racine : Noire
+- Ajout d'un nœud : Rouge
+- Si on a deux nœuds rouges faire une rotation
