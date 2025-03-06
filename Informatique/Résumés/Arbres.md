@@ -36,4 +36,11 @@ h(a) \leq 2bh(a) \\
 #### Ajout d'un élément dans un arbre rouge noir
 - Racine : Noire
 - Ajout d'un nœud : Rouge
-- Si on a deux nœuds rouges faire une rotation
+- Si on a deux nœuds rouges faire une rotation sur le nœud noir père des deux rouges.
+
+## III. Tas
+Soit $A$ un arbre binaire, 
+$A$ est un tas max (resp. min) lorsqu'il vérifie :
+- $A$ est complet
+- Propriété de Tas : Chaque sommet d'un sous arbre de $A$ est supérieur (resp. inférieur) à ses fils. 
+
