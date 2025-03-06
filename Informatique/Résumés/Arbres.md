@@ -44,3 +44,9 @@ $A$ est un tas max (resp. min) lorsqu'il vérifie :
 - $A$ est complet
 - Propriété de Tas : Chaque sommet d'un sous arbre de $A$ est supérieur (resp. inférieur) à ses fils. 
 
+#### Ajout dans un tas
+- On ajoute l'élément au dernier niveau non rempli
+- Si l'élément est plus grand que son père alors on intervertis père et fils jusqu'à ce que l'élément soit plus petit que son père. 
+
+#### Suppression dans un tas
+- On é
