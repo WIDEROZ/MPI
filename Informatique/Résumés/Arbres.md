@@ -13,3 +13,5 @@ Tous les niveaux sont remplis complement sauf le dernier qui est rempli à parti
 
 #### Exemple
 ![[Pasted image 20250306182755.png]]
+![[Pasted image 20250306183311.png]]
+

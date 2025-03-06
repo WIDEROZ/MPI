@@ -167,3 +167,8 @@ let rec evalue_clause (c:clause) (v:(bool array)) : bool =
 ;;
 
 
+
+type arbre = None | Value of int | Sg of arbre | Sd of arbre ;;
+
+let parcours_largeur (a:int list) = 
+
