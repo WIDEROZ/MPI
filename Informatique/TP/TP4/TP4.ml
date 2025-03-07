@@ -191,7 +191,21 @@ let ajout_tas (tas:int array) (v:int) =
     in aux (!index)
 ;;
 
-let t = [|-1; -1; -1; -1|];;
+let pop_max_tas (tas:int array) (v:int) = 
+  let i = ref (Array.length tas - 1) in 
+    while (!i >= 0 && tas.(!i) == -1) do i := !i - 1 done;
+    
+;;
+
+let t = [|-1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1|];;
 
 ajout_tas t 15;;
+ajout_tas t 16;;
+ajout_tas t 14;;
+ajout_tas t 12;;
+ajout_tas t 8;;
+ajout_tas t 25;;
+ajout_tas t 24;;
+ajout_tas t 100;;
 t;;
+
