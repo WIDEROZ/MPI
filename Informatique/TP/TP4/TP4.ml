@@ -198,15 +198,22 @@ let pop_max_tas (tas:int array) =
 
 
   let rec aux k = 
+    print_int k;
     if (k < (Array.length tas)) then
       if (tas.(k) != -1) then
-        if (not ((tas.(k) >= tas.(2*k+1)) && (tas.(k) >= tas.(2*k+2)))) then
-          let tmp = tas.(k) in 
-            if (tas.(2*k+1) > tas.(2*k+2)) then 
-              (tas.(k) <- tas.(2*k+1); tas.(2*k+1) <- tmp; aux (2*k+1))
-            else
-              (tas.(k) <- tas.(2*k+2); tas.(2*k+2) <- tmp; aux (2*k+2))
-    in aux 0;
+        let tmp = tas.(k) in 
+          if (2*k+2 < (Array.length tas)) then
+            (if (not ((tas.(k) >= tas.(2*k+1)) && (tas.(k) >= tas.(2*k+2)))) then
+                if (tas.(2*k+1) > tas.(2*k+2)) then 
+                  (tas.(k) <- tas.(2*k+1); tas.(2*k+1) <- tmp; aux (2*k+1))
+                else
+                  (tas.(k) <- tas.(2*k+2); tas.(2*k+2) <- tmp; aux (2*k+2)))
+          if (2*k+1 < (Array.length tas)) then
+            if ((tas.(k) >= tas.(2*k+1))) then
+            
+
+
+    in aux 0; 
   max
 ;;
 
@@ -218,6 +225,7 @@ let tri_par_tas (list:int array) =
     for k = 0 to ((Array.length list) - 2) do
       list.((Array.length list - 1) - k) <- pop_max_tas tas
     done;
+    
 ;;
 
 let t = [|-1; -1; -1; -1; -1; -1; -1; -1|];;
