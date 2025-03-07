@@ -177,7 +177,7 @@ let ajout_tas (tas:int array) (v:int) =
     if (tas.(0) == -1) then
       tas.(0) <- v
     else
-      for i = 2 to (Array.length tas) do
+      for i = 1 to (Array.length tas) do
         if ((tas.((Array.length tas)-i) != -1) && tas.((Array.length tas)-i+1) == -1) then
           (tas.((Array.length tas)-i+1) <- v; index := (Array.length tas)-i+1)
       done;
@@ -207,9 +207,10 @@ let pop_max_tas (tas:int array) =
                 if (tas.(2*k+1) > tas.(2*k+2)) then 
                   (tas.(k) <- tas.(2*k+1); tas.(2*k+1) <- tmp; aux (2*k+1))
                 else
-                  (tas.(k) <- tas.(2*k+2); tas.(2*k+2) <- tmp; aux (2*k+2)))
+                  (tas.(k) <- tas.(2*k+2); tas.(2*k+2) <- tmp; aux (2*k+2)));
           if (2*k+1 < (Array.length tas)) then
-            if ((tas.(k) >= tas.(2*k+1))) then
+            if (tas.(k) < tas.(2*k+1)) then
+              (tas.(k) <- tas.(2*k+1); tas.(2*k+1) <- tmp; aux (2*k+1))
             
 
 
@@ -222,25 +223,14 @@ let tri_par_tas (list:int array) =
     for i = 0 to ((Array.length tas) - 1) do
       ajout_tas tas (list.(i))
     done;
-    for k = 0 to ((Array.length list) - 2) do
+    for k = 0 to ((Array.length list) - 1) do
       list.((Array.length list - 1) - k) <- pop_max_tas tas
     done;
     
 ;;
 
-let t = [|-1; -1; -1; -1; -1; -1; -1; -1|];;
-
-ajout_tas t 15;;
-ajout_tas t 16;;
-ajout_tas t 14;;
-ajout_tas t 12;;
-ajout_tas t 8;;
-ajout_tas t 25;;
-ajout_tas t 24;;
-ajout_tas t 100;;
-
-t;;
-
 let list = [|12; 16; 14; 11; 8; 25; 24; 100|];;
 
 tri_par_tas list;;
+
+list;;

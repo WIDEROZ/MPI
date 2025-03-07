@@ -61,3 +61,5 @@ $A$ est un tas max (resp. min) lorsqu'il vérifie :
 - Supprimer le maximum et le placer en bout de la liste que l'on veut trier
 
 
+#### Tri par tas OCaml foireux
+![[Tri par tas.ml]]
