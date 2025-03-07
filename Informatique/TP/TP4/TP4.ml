@@ -170,6 +170,14 @@ let rec evalue_clause (c:clause) (v:(bool array)) : bool =
 
 type arbre = E | N of int * arbre * arbre;;
 
+(*parcours largeur*)
+let rec tas_to_tab (tas:arbre) = 
+  match tas with
+  |E -> []
+  |N(v, g, d) -> v::(tas_to_tab g)
+;;
 
 let ajout_tas (tas:arbre) (v:int) = 
-  
+  match tas with
+  | E -> N(v, E, E)
+  | N(e, g, d) -> 
