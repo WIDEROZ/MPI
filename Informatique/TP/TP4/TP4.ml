@@ -170,8 +170,6 @@ open Queue
 
 type arbre = E | N of int * arbre * arbre;;
 
-(*parcours largeur*)
-
 
 
 let ajout_tas (tas:int array) (v:int) = 
@@ -179,7 +177,7 @@ let ajout_tas (tas:int array) (v:int) =
     if (tas.(0) == -1) then
       tas.(0) <- v
     else
-      for i = 1 to (Array.length tas) do
+      for i = 2 to (Array.length tas) do
         if ((tas.((Array.length tas)-i) != -1) && tas.((Array.length tas)-i+1) == -1) then
           (tas.((Array.length tas)-i+1) <- v; index := (Array.length tas)-i+1)
       done;
@@ -197,16 +195,17 @@ let pop_max_tas (tas:int array) =
       while (!i >= 0 && tas.(!i) == -1) do i := !i - 1 done;
         tas.(0) <- tas.(!i);
         tas.(!i) <- -1;
-        print_int 69;
+
 
   let rec aux k = 
-    if (not ((k == -1) && k < (Array.length tas))) then
-      if (not ((tas.(k) >= tas.(2*k+1)) && (tas.(k) >= tas.(2*k+2)))) then
-        let tmp = tas.(k) in 
-          if (tas.(2*k+1) > tas.(2*k+2)) then 
-            (tas.(k) <- tas.(2*k+1); tas.(2*k+1) <- tmp; aux (2*k+1))
-          else
-            (tas.(k) <- tas.(2*k+2); tas.(2*k+2) <- tmp; aux (2*k+2))
+    if (k < (Array.length tas)) then
+      if (tas.(k) != -1) then
+        if (not ((tas.(k) >= tas.(2*k+1)) && (tas.(k) >= tas.(2*k+2)))) then
+          let tmp = tas.(k) in 
+            if (tas.(2*k+1) > tas.(2*k+2)) then 
+              (tas.(k) <- tas.(2*k+1); tas.(2*k+1) <- tmp; aux (2*k+1))
+            else
+              (tas.(k) <- tas.(2*k+2); tas.(2*k+2) <- tmp; aux (2*k+2))
     in aux 0;
   max
 ;;
@@ -217,7 +216,7 @@ let tri_par_tas (list:int array) =
       ajout_tas tas (list.(i))
     done;
     for k = 0 to ((Array.length list) - 2) do
-      print_int list.((Array.length list - 1) - k); list.((Array.length list - 1) - k) <- pop_max_tas tas
+      list.((Array.length list - 1) - k) <- pop_max_tas tas
     done;
 ;;
 
