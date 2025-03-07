@@ -176,10 +176,12 @@ type arbre = E | N of int * arbre * arbre;;
 
 
 let ajout_tas (tas:int array) (v:int) = 
-  let new_tas = Array.init (Array.length tas +1) (fun (i:int) -> if (i==Array.length tas) then v else tas.(i) ) in
-    match tas with
-    | [||] -> [|v|]
-    | _ -> for i = 0 to (Array.length tas) do
-            (
-              
-            )
+  let new_tas = Array.init (Array.length tas +1) (fun (i:int) -> if (i==Array.length tas) then v else tas.(i)) in
+    let rec aux i = 
+      match i with
+      | 0 -> new_tas
+      | _ -> if new_tas.((i-1)//2) < v then
+               
+        
+
+;;
