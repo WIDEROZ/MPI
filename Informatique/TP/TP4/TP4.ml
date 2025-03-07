@@ -196,17 +196,23 @@ let pop_max_tas (tas:int array) =
     let max = tas.(0) in
       while (!i >= 0 && tas.(!i) == -1) do i := !i - 1 done;
         tas.(0) <- tas.(!i);
-        tas.(!i) = -1;
+        tas.(!i) <- -1;
 
   let rec aux k = 
     if (not ((k == -1) && k < (Array.length tas))) then
       if (not ((tas.(k) >= tas.(2*k+1)) && (tas.(k) >= tas.(2*k+2)))) then
-        if (tas.(2*k+1) > tas.(2*k+2)) then 
-          (tas.(k) <- tas.(2*k+1) ; tas.(2*k+1) <- tas.(2*k); aux (2*k+1))
-        else
-          (tas.(k)<-tas.(2*k+2) ; tas.(2*k+2)<- tas.(2*k); aux (2*k+2))
+        let tmp = tas.(k) in 
+          if (tas.(2*k+1) > tas.(2*k+2)) then 
+            (tas.(k) <- tas.(2*k+1); tas.(2*k+1) <- tmp; aux (2*k+1))
+          else
+            (tas.(k) <- tas.(2*k+2); tas.(2*k+2) <- tmp; aux (2*k+2))
     in aux 0;
   max
+;;
+
+let tri_par_tas (tas:int array) =
+  
+
 ;;
 
 let t = [|-1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1|];;
@@ -220,4 +226,7 @@ ajout_tas t 25;;
 ajout_tas t 24;;
 ajout_tas t 100;;
 t;;
+
+pop_max_tas t;;
+t;; 
 
