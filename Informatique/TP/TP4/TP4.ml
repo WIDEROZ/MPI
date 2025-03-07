@@ -197,6 +197,7 @@ let pop_max_tas (tas:int array) =
       while (!i >= 0 && tas.(!i) == -1) do i := !i - 1 done;
         tas.(0) <- tas.(!i);
         tas.(!i) <- -1;
+        print_int 69;
 
   let rec aux k = 
     if (not ((k == -1) && k < (Array.length tas))) then
@@ -212,15 +213,15 @@ let pop_max_tas (tas:int array) =
 
 let tri_par_tas (list:int array) =
   let tas = Array.make (Array.length list) (-1) in
-    for i = 0 to (Array.length tas -1) do
+    for i = 0 to ((Array.length tas) - 1) do
       ajout_tas tas (list.(i))
     done;
-    for k = 0 to (Array.length list - 1) do
-      list.((Array.length list - 1) - k) <- pop_max_tas tas
+    for k = 0 to ((Array.length list) - 2) do
+      print_int list.((Array.length list - 1) - k); list.((Array.length list - 1) - k) <- pop_max_tas tas
     done;
 ;;
 
-let t = [|-1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1|];;
+let t = [|-1; -1; -1; -1; -1; -1; -1; -1|];;
 
 ajout_tas t 15;;
 ajout_tas t 16;;
@@ -230,8 +231,9 @@ ajout_tas t 8;;
 ajout_tas t 25;;
 ajout_tas t 24;;
 ajout_tas t 100;;
+
 t;;
 
-pop_max_tas t;;
-t;; 
+let list = [|12; 16; 14; 11; 8; 25; 24; 100|];;
 
+tri_par_tas list;;
