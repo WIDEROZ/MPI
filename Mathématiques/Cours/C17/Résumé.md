@@ -32,6 +32,7 @@ Soient $u\in \mathcal{L}(E)$, $r \in \mathbb{N}^{*}$, $P_{1}, \dots, P_{r} \in \
 $$\mathrm{Ker}(\underset{i = 1}{\overset{r}{\bigcirc}}P_{i}(u)) = \bigoplus_{i = 1}^{r} \mathrm{Ker}(P_{i}(u)) $$
 
 #### Théorème
+En dimension FINIE
 Soit $u \in \mathcal{L}(E)$, 
 On à équivalence entre : 
 $$\begin{cases}
