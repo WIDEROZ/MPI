@@ -1,3 +1,16 @@
+# Définition d'un Arbre
+C'est un ensemble d'élément muni de la relation $\mathcal{R}_{p}$ telle que : 
+$$\begin{cases}
+\exists ! r \in A, \forall n \in A, \neg(r\mathcal{R}_{p}n) \\
+\forall x \in A\setminus \{ r \}, \exists !y \in A, x \mathcal{R}_{p} y \\
+\forall x \in A, \exists n \geq 0, \exists(x_{0}, \dots, x_{n}) \in A^{n+1}, \begin{cases}
+x_{0} = x \\
+x_{n} = r \\
+x\mathcal{R}_{p} x_{1} \mathcal{R}_{p}\dots \mathcal{R}_{p} x_{n}
+\end{cases}
+\end{cases}$$
+
+
 # I. Arbres binaires
 ## 1. Généralités
 #### Propriété
