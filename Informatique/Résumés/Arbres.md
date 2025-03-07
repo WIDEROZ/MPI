@@ -39,6 +39,7 @@ h(a) \leq 2bh(a) \\
 - Si on a deux nœuds rouges faire une rotation sur le nœud noir père des deux rouges.
 
 ## III. Tas
+### 1. Opération communes
 Soit $A$ un arbre binaire, 
 $A$ est un tas max (resp. min) lorsqu'il vérifie :
 - $A$ est complet
@@ -48,5 +49,9 @@ $A$ est un tas max (resp. min) lorsqu'il vérifie :
 - On ajoute l'élément au dernier niveau non rempli
 - Si l'élément est plus grand que son père alors on intervertis père et fils jusqu'à ce que l'élément soit plus petit que son père. 
 
-#### Suppression dans un tas
-- On é
+#### Suppression du maximum dans un tas
+- On interverti la racine et la dernière feuille
+- On supprime la dernière feuille
+- On fait des séries d'interversion pour retrouver la propriété de tas
+
+#### Tri par tas
