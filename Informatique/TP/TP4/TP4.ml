@@ -175,9 +175,19 @@ type arbre = E | N of int * arbre * arbre;;
 
 
 let ajout_tas (tas:int array) (v:int) = 
+  if (tas.(0) == -1) then tas.(0) <- v
+  else
   for i = 1 to (Array.length tas) do
     if ((tas.((Array.length tas)-i) != -1) && tas.((Array.length tas)-i+1) == -1) then
-      
+      tas.((Array.length tas)-i+1) <- v
+  done;
+  let rec aux i = 
+    match i with
+    | 0 -> tas.(0) <- tas.(0)
+    | _ -> if v > tas.((i-1)/2) then 
+             (tas.(i)<- tas.((i-1)/2); tas.((i-1)/2) <- v; aux )
+
+
 ;;
 
 let t = [||];;
