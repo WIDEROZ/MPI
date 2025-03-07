@@ -173,8 +173,10 @@ type arbre = E | N of int * arbre * arbre;;
 (*parcours largeur*)
 let rec tas_to_tab (tas:arbre) = 
   match tas with
-  |E -> []
-  |N(v, g, d) -> v::(tas_to_tab g)
+  | E -> []
+  | N(v, g, d) -> match (g, d) with
+                  | (E, E) -> v
+                  | (_, E)
 ;;
 
 let ajout_tas (tas:arbre) (v:int) = 
