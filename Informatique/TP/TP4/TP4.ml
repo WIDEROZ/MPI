@@ -172,18 +172,18 @@ type arbre = E | N of int * arbre * arbre;;
 
 (*parcours largeur*)
 
-
+let f i = 
 
 
 let ajout_tas (tas:int array) (v:int) = 
-  let new_tas = Array.init (Array.length tas +1) (fun (i:int) -> if (i==Array.length tas) then v else tas.(i)) in
+  let (new_tas:int array) = Array.init (Array.length tas +1) (fun (i:int) -> if (i==Array.length tas) then v else tas.(i)) in
     let rec aux i = 
       match i with
       | 0 -> new_tas
-      | _ -> if new_tas.((i-1)//2) < v then
-               (new_tas.(i) <- new_tas.((i-1)//2);
-                new_tas.((i-1)//2) <- v;
-                aux (i-1)//2)
+      | _ -> if new_tas.((i-1)/2) < v then
+               (new_tas.(i) <- new_tas.((i-1)/2);
+                new_tas.((i-1)/2) <- v;
+                aux (i-1)/2)
              else
                new_tas
       in
@@ -192,12 +192,5 @@ let ajout_tas (tas:int array) (v:int) =
 
 let t = [||];;
 
-let new_tas1 = ajout_tas t 15;;
-let new_tas2 = ajout_tas new_tas1 12;;
-ajout_tas t 11;;
-ajout_tas t 10;;
-ajout_tas t 20;;
-ajout_tas t 25;;
-ajout_tas t 14;;
-ajout_tas t 100;;
+let new_tas = ajout_tas t 15;;
 
