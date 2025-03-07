@@ -171,17 +171,15 @@ open Queue
 type arbre = E | N of int * arbre * arbre;;
 
 (*parcours largeur*)
-let tas_to_tab (tas:arbre) = 
-  let file = Queue.create() in 
-    match tas with
-    | E -> []
-    | N(v, g, d) -> while (not Queue.is_empty file) do 
-                    (
-                      Queue.push v file
-                    )
-;;
 
-let ajout_tas (tas:arbre) (v:int) = 
-  match tas with
-  | E -> N(v, E, E)
-  | N(e, g, d) -> 
+
+
+
+let ajout_tas (tas:int array) (v:int) = 
+  let new_tas = Array.init (Array.length tas +1) (fun (i:int) -> if (i==Array.length tas) then v else tas.(i) ) in
+    match tas with
+    | [||] -> [|v|]
+    | _ -> for i = 0 to (Array.length tas) do
+            (
+              
+            )
