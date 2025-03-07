@@ -57,3 +57,7 @@ $A$ est un tas max (resp. min) lorsqu'il vérifie :
 ### 2. Tri par tas
 #### Procédure
 ![[Heap_sort_example.gif]]
+- Construire un tas à partir de la liste en ajoutant des nœuds.
+- Supprimer le maximum et le placer en bout de la liste que l'on veut trier
+
+

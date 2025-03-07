@@ -168,5 +168,8 @@ let rec evalue_clause (c:clause) (v:(bool array)) : bool =
 
 
 
+type arbre = E | N of int * arbre * arbre;;
 
 
+let ajout_tas (tas:arbre) (v:int) = 
+  
