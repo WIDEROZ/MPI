@@ -10,7 +10,6 @@ x\mathcal{R}_{p} x_{1} \mathcal{R}_{p}\dots \mathcal{R}_{p} x_{n}
 \end{cases}
 \end{cases}$$
 
-
 # I. Arbres binaires
 ## 1. Généralités
 #### Propriété
@@ -74,5 +73,5 @@ $A$ est un tas max (resp. min) lorsqu'il vérifie :
 - Supprimer le maximum et le placer en bout de la liste que l'on veut trier
 
 
-#### Tri par tas OCaml foireux
+#### Tri par tas foireux OCaml
 ![[Tri par tas.ml]]
