@@ -54,4 +54,6 @@ $A$ est un tas max (resp. min) lorsqu'il vérifie :
 - On supprime la dernière feuille
 - On fait des séries d'interversion pour retrouver la propriété de tas
 
-#### Tri par tas
+### 2. Tri par tas
+#### Procédure
+![[Heap_sort_example.gif]]
