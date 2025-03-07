@@ -172,22 +172,12 @@ type arbre = E | N of int * arbre * arbre;;
 
 (*parcours largeur*)
 
-let f i = 
 
 
 let ajout_tas (tas:int array) (v:int) = 
-  let (new_tas:int array) = Array.init (Array.length tas +1) (fun (i:int) -> if (i==Array.length tas) then v else tas.(i)) in
-    let rec aux i = 
-      match i with
-      | 0 -> new_tas
-      | _ -> if new_tas.((i-1)/2) < v then
-               (new_tas.(i) <- new_tas.((i-1)/2);
-                new_tas.((i-1)/2) <- v;
-                aux (i-1)/2)
-             else
-               new_tas
-      in
-    aux (Array.length new_tas)
+  for i = 1 to (Array.length tas) do
+    if ((tas.((Array.length tas)-i) != -1) && tas.((Array.length tas)-i+1) == -1) then
+      
 ;;
 
 let t = [||];;
