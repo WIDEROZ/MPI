@@ -210,9 +210,14 @@ let pop_max_tas (tas:int array) =
   max
 ;;
 
-let tri_par_tas (tas:int array) =
-  
-
+let tri_par_tas (list:int array) =
+  let tas = Array.make (Array.length list) (-1) in
+    for i = 0 to (Array.length tas -1) do
+      ajout_tas tas (list.(i))
+    done;
+    for k = 0 to (Array.length list - 1) do
+      list.((Array.length list - 1) - k) <- pop_max_tas tas
+    done;
 ;;
 
 let t = [|-1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1; -1|];;
