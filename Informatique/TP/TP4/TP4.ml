@@ -166,17 +166,19 @@ let rec evalue_clause (c:clause) (v:(bool array)) : bool =
   | Ou(c1, c2) -> (evalue_clause c1 v) || (evalue_clause c2 v)
 ;;
 
-
+open Queue
 
 type arbre = E | N of int * arbre * arbre;;
 
 (*parcours largeur*)
-let rec tas_to_tab (tas:arbre) = 
-  match tas with
-  | E -> []
-  | N(v, g, d) -> match (g, d) with
-                  | (E, E) -> v
-                  | (_, E)
+let tas_to_tab (tas:arbre) = 
+  let file = Queue.create() in 
+    match tas with
+    | E -> []
+    | N(v, g, d) -> while (not Queue.is_empty file) do 
+                    (
+                      Queue.push v file
+                    )
 ;;
 
 let ajout_tas (tas:arbre) (v:int) = 
