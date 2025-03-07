@@ -181,7 +181,23 @@ let ajout_tas (tas:int array) (v:int) =
       match i with
       | 0 -> new_tas
       | _ -> if new_tas.((i-1)//2) < v then
-               
-        
-
+               (new_tas.(i) <- new_tas.((i-1)//2);
+                new_tas.((i-1)//2) <- v;
+                aux (i-1)//2)
+             else
+               new_tas
+      in
+    aux (Array.length new_tas)
 ;;
+
+let t = [||];;
+
+let new_tas1 = ajout_tas t 15;;
+let new_tas2 = ajout_tas new_tas1 12;;
+ajout_tas t 11;;
+ajout_tas t 10;;
+ajout_tas t 20;;
+ajout_tas t 25;;
+ajout_tas t 14;;
+ajout_tas t 100;;
+
