@@ -117,11 +117,11 @@ par hyp
 $$\mathrm{Im}(u) = \mathrm{Ker}(u^{2}+u+Id) $$
 
 ##### 3.
-Comme dans $\mathbb{R}$, l'unique racine de $X^{3}+X^{2}+X$
 Si $X^{2}+X+Id=\mu_{u}$ alors 
 $$u^{2}+u+Id=0 \Rightarrow -u(u+Id)=Id$$
 ie $u$ est inversible CONTRADICTION
-Donc comme $u \neq 0$, $X \neq \mu_{u}$
+Donc
+Si $u=0$, $X = \mu_{u}$ et si $u \neq 0$, $X \neq \mu_{u}$ et donc : 
 $$\mu_{u} = X^{3} +X^{2}+X$$
 Ainsi, comme $\mathrm{Rac}(\mu_{u}) = Sp(u)$, 
 Dans $\mathbb{R}$ : 
