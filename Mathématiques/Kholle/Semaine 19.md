@@ -60,4 +60,18 @@ $$\chi_{A} = \left| \begin{array}{c}
 X+1&2 \\
 -1&X-2
 \end{array}\right| = X^{2} -X = X(X-1)$$
-Cayley Hamilton dit que : $ch$
+Cayley Hamilton dit que : $\chi_{A}(A) = 0$ alors,
+comme $X|R$ et $X-1|R$ car : $R(1) =0$
+puis que : $\chi_{A} | R$
+$Rac(\chi_{A}) \subset Rac(R)$ alors $\chi_{A}(A) = 0 \Rightarrow  R(A) = 0$
+
+#### CCINP 88
+##### 1.
+Supposons que $P(u)= 0$
+Soit $\lambda \in Sp(u)$, 
+Soit $x \in E\setminus \{  0\}$, 
+$$0 = P(u)(x) = \sum_{k = 0}^{n}a_{k}u^{k}(x) = \sum_{k = 0}^{n} \lambda^{k}a_{k}x= P(\lambda)x $$
+Ainsi $P(\lambda)=0$
+$Sp(u) \subset \mathrm{Rac}(P)$
+
+##### 2.a
