@@ -75,3 +75,13 @@ Ainsi $P(\lambda)=0$
 $Sp(u) \subset \mathrm{Rac}(P)$
 
 ##### 2.a
+$$u^{2}(M) = u(M) + \mathrm{Tr}(M)u(A) = M + 2\mathrm{Tr}(M)A$$
+car $\mathrm{Tr}(A) = 0$
+$$2u(M) = 2M +2\mathrm{Tr}(M)A$$
+Alors, 
+$$u^{2}(M) - 2u(M) +M = 0$$
+
+##### b.
+$$P = (X-1)^{2} = X^{2}-2X + 1$$
+Alors comme $P(u) = 0$, et que $1$ est l'unique racine, 
+$1$ est alors l'unique valeur propre de $u$
