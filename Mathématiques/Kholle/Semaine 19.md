@@ -42,8 +42,22 @@ C'est terminé.
 
 #### CCINP 65
 ##### 1.
-On pose $n = \max\{ \deg P , \deg Q \}$ et les coefs de $P$ ou $Q$ supérieurs au deg de $P$ ou $Q$ sont nuls
-$$(PQ)(u) = \left( \sum_{k = 0}^{n}p_{k}X^{k} \right)\left( \sum_{k = 0}^{n}q_{k}X^{k} \right) (u)= \sum_{k=0}^{n}\left( \sum_{i = 0}^{k} p_{i}q_{k-i} \right)u^{k} $$
-$$P(u)\circ Q(u) = \left( \sum_{k = 0}^{n} p_{k}u^{k} \right) \circ \left( \sum_{i = 0}^{n} q_{i}u^{k}\right) = \sum_{k =0}^{n}\sum_{i = 0}^{n}p_{k}q_{i}u^{k+i}$$
-On pose : $j = k-i$
-$$\sum_{k = 0}^{n}\sum_{j = 0}^{k}$$
+$$P = \sum_{k =0}^{n} p_{k} X^{k} \text{ et } Q  = \sum_{i = 0}^{m} q_{i} X^{i}$$
+Alors, 
+$$PQ= \sum_{k = 0}^{n}\sum_{i= 0}^{m} p_{k}q_{k} X^{k+i} \Rightarrow (PQ)(u) = \sum_{k = 0}^{n}\sum_{i =0}^{m}p_{k}q_{k}u^{k+i}$$
+De plus, 
+$$P(u) \circ Q(u) = \left( \sum_{k = 0}^{n} p_{k}u^{k}  \right) \circ \left( \sum_{i = 0}^{m}q_{i}u^{i} \right)$$
+$$\sum_{k= 0}^{n} p_{k} u^{k}\left( \sum_{i = 0}^m  q_{i}u^{i}\right) = \sum_{k =0}^{n}\sum_{i = 0}^{m}p_{k}q_{i} u^{k+i} $$
+
+##### 2.a
+$$PQ = QP \Rightarrow P(u) \circ Q(u) = Q(u) \circ P(u)$$
+
+##### 2.b
+$P(u) = 0$
+$$(PQ)(u) = P(u) \circ Q(u) = Q(u) \circ P(u) = Q(u) \circ0 = 0$$ 
+##### 3.
+$$\chi_{A} = \left| \begin{array}{c}
+X+1&2 \\
+-1&X-2
+\end{array}\right| = X^{2} -X = X(X-1)$$
+Cayley Hamilton dit que : $ch$
