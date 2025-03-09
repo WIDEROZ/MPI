@@ -85,3 +85,9 @@ $$u^{2}(M) - 2u(M) +M = 0$$
 $$P = (X-1)^{2} = X^{2}-2X + 1$$
 Alors comme $P(u) = 0$, et que $1$ est l'unique racine, 
 $1$ est alors l'unique valeur propre de $u$
+Par l'absurde si $u$ est diagonalisable 
+Alors $\dim E_{1}(u) = Mult_{\chi_{u}}(1) = n$ 
+C'est à dire $u= Id$
+or pour $u(E_{1,1}) \neq E_{1,1}$ ABSURDE donc $u$ n'est pas diag
+___
+Comme $u \neq Id$, $X-1$ n'est pas annulateur de $u$ donc $\mu_{u} = (X-1)^{2}$ or $\mu_{u}$ n'est pas SRS donc $u$ n'est pas 
