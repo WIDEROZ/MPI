@@ -92,9 +92,37 @@ or pour $u(E_{1,1}) \neq E_{1,1}$ ABSURDE donc $u$ n'est pas diag
 ___
 Comme $u \neq Id$, $X-1$ n'est pas annulateur de $u$ donc $\mu_{u} = (X-1)^{2}$ or $\mu_{u}$ n'est pas SRS donc $u$ n'est pas diagonalisable car on est en dim finie. 
 
-### CCINP 93
-#### 1.
+#### CCINP 93
+##### 1.
 On est en dimension finie alors d'après le th du rang : $\dim\mathrm{Ker}(u) + \mathrm{rg}(u) = \dim E$
 De plus, 
-Soit $y \in \mathrm{Ker}(u) \cap \mathrm{Im}(u)$ alors il existe $x \in E$ tel que : $u(x) = y$ de plus, $u(y) = u^{2}= 0$ alors, 
-$$$$
+Soit $y \in \mathrm{Ker}(u) \cap \mathrm{Im}(u)$ alors il existe $x \in E$ tel que : $u(x) = y$ de plus, $u(y) = u^{2}(x) = 0$ alors, 
+$$u^{3}(x) + u^{2}(x) + u(x) = 0 \Rightarrow y = 0$$
+Donc $\mathrm{Ker}(u) \cap \mathrm{Im}(u) = \{ 0 \}$
+Ainsi, 
+C'est terminé
+
+##### 2.a
+$$\forall P, Q \in \mathbb{K}[X], P \wedge Q = 1 \Rightarrow \mathrm{Ker}((PQ)(u)) = \mathrm{Ker}(P(u)) \oplus  \mathrm{Ker}(Q(u)) $$
+##### 2.b
+En posant : 
+$$P = X \text{ et } Q = X^{2}+X+1$$
+En appliquant le lemme des noyaux : 
+$$E = \mathrm{Ker}(u) + \mathrm{Ker}(u^{2}+u+Id)$$
+D'après le th du rang, $\dim\mathrm{Ker}(u^{2}+u+Id)=\dim\mathrm{Im}(u)$
+et puis, 
+Soit $y \in \mathrm{Im}(u)$, $\exists x \in E, u(x) = y$
+$$u^{2}(y) + u(y) + y = u^{3}(x) + u^{2}(x) + u(x) = 0$$
+par hyp
+$$\mathrm{Im}(u) = \mathrm{Ker}(u^{2}+u+Id) $$
+
+##### 3.
+Comme dans $\mathbb{R}$, l'unique racine de $X^{3}+X^{2}+X$
+Si $X^{2}+X+Id=\mu_{u}$ alors 
+$$u^{2}+u+Id=0 \Rightarrow -u(u+Id)=Id$$
+ie $u$ est inversible CONTRADICTION
+Donc comme $u \neq 0$, $X \neq \mu_{u}$
+$$\mu_{u} = X^{3} +X^{2}+X$$
+Ainsi, comme $\mathrm{Rac}(\mu_{u}) = Sp(u)$, 
+Dans $\mathbb{R}$ : 
+$$Sp(u) = \{ 0 \}$$
