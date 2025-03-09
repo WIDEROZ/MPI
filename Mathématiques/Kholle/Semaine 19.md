@@ -90,4 +90,11 @@ Alors $\dim E_{1}(u) = Mult_{\chi_{u}}(1) = n$
 C'est à dire $u= Id$
 or pour $u(E_{1,1}) \neq E_{1,1}$ ABSURDE donc $u$ n'est pas diag
 ___
-Comme $u \neq Id$, $X-1$ n'est pas annulateur de $u$ donc $\mu_{u} = (X-1)^{2}$ or $\mu_{u}$ n'est pas SRS donc $u$ n'est pas 
+Comme $u \neq Id$, $X-1$ n'est pas annulateur de $u$ donc $\mu_{u} = (X-1)^{2}$ or $\mu_{u}$ n'est pas SRS donc $u$ n'est pas diagonalisable car on est en dim finie. 
+
+### CCINP 93
+#### 1.
+On est en dimension finie alors d'après le th du rang : $\dim\mathrm{Ker}(u) + \mathrm{rg}(u) = \dim E$
+De plus, 
+Soit $y \in \mathrm{Ker}(u) \cap \mathrm{Im}(u)$ alors il existe $x \in E$ tel que : $u(x) = y$ de plus, $u(y) = u^{2}= 0$ alors, 
+$$$$
