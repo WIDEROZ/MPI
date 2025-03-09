@@ -44,4 +44,6 @@ C'est terminé.
 ##### 1.
 On pose $n = \max\{ \deg P , \deg Q \}$ et les coefs de $P$ ou $Q$ supérieurs au deg de $P$ ou $Q$ sont nuls
 $$(PQ)(u) = \left( \sum_{k = 0}^{n}p_{k}X^{k} \right)\left( \sum_{k = 0}^{n}q_{k}X^{k} \right) (u)= \sum_{k=0}^{n}\left( \sum_{i = 0}^{k} p_{i}q_{k-i} \right)u^{k} $$
-$$P(u) \circ Q(u) = $$
+$$P(u)\circ Q(u) = \left( \sum_{k = 0}^{n} p_{k}u^{k} \right) \circ \left( \sum_{i = 0}^{n} q_{i}u^{k}\right) = \sum_{k =0}^{n}\sum_{i = 0}^{n}p_{k}q_{i}u^{k+i}$$
+On pose : $j = k-i$
+$$\sum_{k = 0}^{n}\sum_{j = 0}^{k}$$
