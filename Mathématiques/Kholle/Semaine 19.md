@@ -13,10 +13,13 @@ Alors,
 $$f(x) = -x = 2x \Rightarrow 3x = 0 \Rightarrow x = 0$$
 De plus, 
 Soit $x \in E$, 
-Montrons que : 
-$$x = y + z \text{ avec } \begin{cases}
-y =  \\
-z = 
-\end{cases}$$
-$$f^{2}(x)-f(x)-2x = (f+Id)(f(x)-2x)$$
-Alors,
+On pose : 
+$$y = f(x) - 2x $$
+Alors, 
+$$f(y) + y = f^{2}(x) - 2f(x) +f(x)-2x = f^{2}(x) - f(x) -2x = 0$$
+On pose :
+$$z = f(x)+x$$
+$$f(z) -2z = f^{2}(x) + f(x)-2f(x)-2x=f^{2}(x)-f(x)-2x = 0$$
+
+Ainsi,
+$$x = $$
