@@ -6,4 +6,10 @@ $$\mathrm{Ker}(f^{2}-f-2Id) =\mathrm{Ker}(0) = E$$
 C'est fini
 
 ##### 2.b
-Définition de 
+Caractérisation de la somme directe :
+Soit $x \in \mathrm{Ker}(f+Id) \cap \mathrm{Ker}(f-2Id)$, 
+$$f(x)+x = f(x)-2x = 0$$
+Alors, 
+$$f(x) = -x = 2x \Rightarrow 3x = 0 \Rightarrow x = 0$$
+De plus, 
+$$$$
