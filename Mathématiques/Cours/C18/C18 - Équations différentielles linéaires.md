@@ -230,6 +230,17 @@ il faut alors la résoudre sur chaque intervalle de $I$ où $a$ ne s'annule pas 
 #### Exemple
 $$(2+x)y'(x) = -y(x) + 2 : (\mathcal{E})$$
 On note : $I_{1} = ]- \infty, -2[ \text{ et }I_{2} = ]-2, + \infty[$, 
-$$\begin{array}{rl}
-\forall x \in I_{2}, (x+2)y'(x) = -y(x)  +2&\Leftrightarrow der
-\end{array}$$
+$$\forall x \in I_{1} \cup I_{2},  (x+2)y'(x) = -y(x)  +2\Leftrightarrow \frac{\partial }{\partial x} ((x+2)y(x)) = 2$$
+$$\Leftrightarrow \exists K \in \mathbb{R}, \forall x \in I_{1}\cup I_{2}, (x+2)y(x) = 2x + K $$
+ie
+$$\forall x \in I_{1} \cup I_{2} , y(x) = \frac{2x + K}{x+2} = 2 + \frac{K-4}{x+2}$$
+En $x = -2$ il faut que $y$ soit $\mathcal{D}^{1}$ en $-2$ or : 
+$$\lim_{ x \to -2^{-} } y(x) = \lim_{ x \to -2^{-} } \left( 2+ \frac{K-4}{x+2} \right) = \begin{cases}
++ \infty \text{ si }K < 4 \\
+2 \text{ si }K = 4 \\
+- \infty \text{ si } K > 4
+\end{cases}$$
+Donc il est nécessaire que $K$ soit égal à $4$
+Ainsi la seule solution de $(\mathcal{E})$ sur $\mathbb{R}$ est : $y : x \in \mathbb{R} \mapsto2$
+Il n'y a donc pas de solution au PB de Cauchy sauf lorsque $y_{0} = 2$
+
