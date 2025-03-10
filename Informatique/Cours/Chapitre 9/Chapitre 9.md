@@ -52,9 +52,14 @@ Diagramme d'état :
 $$\begin{array}{|c|c|}\hline
 x \leftarrow 0 \\
 \begin{array}{c|c}\hline
-P & Q \\
-p_{1} : Reg P \leftarrow x& \\
-p_{2} : Reg P ++ \\
-p_{3} : x \leftarrow Reg P
-\end{array}
+P & Q \\\hline
+p_{1} : Reg P \leftarrow x& q_{1} : Reg Q \leftarrow x\\\hline
+p_{2} : Reg P ++ &q_{2} : Reg Q ++ \\\hline
+p_{3} : x \leftarrow Reg P&q_{3} : x \leftarrow Reg Q
+\end{array} \\
+\hline
 \end{array}$$
+$$x = 2 \text{ si } p_{1} \to p_{2} \to p_{3} \to q_{1} \to q_{2} \to q_{3}$$
+$$x = 1 \text{ si } p_{1} \to q_{1} \to q_{2} \to q_{3} \to p_{2} \to p_{3}$$
+
+#### Exemple
