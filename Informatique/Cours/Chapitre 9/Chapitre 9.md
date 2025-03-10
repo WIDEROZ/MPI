@@ -63,3 +63,28 @@ $$x = 2 \text{ si } p_{1} \to p_{2} \to p_{3} \to q_{1} \to q_{2} \to q_{3}$$
 $$x = 1 \text{ si } p_{1} \to q_{1} \to q_{2} \to q_{3} \to p_{2} \to p_{3}$$
 
 #### Exemple
+Maintenant : 
+$$\begin{array}{c}
+p_{1} & q_{1} \\
+p_{1} & q_{2} \\
+\vdots&\vdots \\
+p_{2997}(=p_{3})&q_{2997}(=q_{3}) \\
+p_{2998}(=p_{1})&q_{2998}(=q_{1}) \\
+p_{2999}(=p_{2})&q_{2999}(=q_{2}) \\
+p_{3000}(=p_{3})&q_{3000}(=q_{3})
+\end{array}$$
+Alors, 
+Pour avoir $x = 2000$, 
+$$p_{1} \to \dots \to p_{3000} \to q_{1} \to \dots \to q_{3000}$$
+Pour avoir $x = 2$, 
+$$p_{1} \to q_{1} \to q_{2} \to \dots \to \begin{array}{c}
+\underbrace{q_{2997}} \\
+x = 999
+\end{array} \to p_{2} \to \begin{array}{c}
+\underbrace{p_{3}} \\
+x = 1
+\end{array} \to \to p_{4} \to \dots $$
+$$\to \begin{array}{c}
+\underbrace{q_{3000}} \\
+x = 1000
+\end{array} $$
