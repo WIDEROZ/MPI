@@ -204,4 +204,13 @@ $$y' -\frac{3}{2} \frac{1}{x} y = 0$$
 $$\Leftrightarrow \exists C \in \mathbb{R}, \forall x \in \mathbb{R}_{+}^{*},y = Ce^{ \frac{3}{2}\ln(x) }=Cx^{\frac{3}{2}}$$
 ___
 Dans $\mathbb{R}_{+}^{*}$, 
-$$\exists C \in \mathcal{C}^{1}(I, \mathbb{K}), \forall x \in \mathbb{R}_{+}^{*}, y = Ce^{  }$$
+$$\exists C \in \mathcal{C}^{1}(I, \mathbb{K}), \forall x \in \mathbb{R}_{+}^{*}, y(x) = C(x)x^{\frac{3}{2}}$$
+Alors, en injectant : 
+$$C'(x) x^{\frac{3}{2}} + \frac{3}{2}C(x)\sqrt{x} -\frac{3}{2} C(x)\sqrt{x} = \frac{1}{2\sqrt{x}}$$
+Donc, 
+$$C'(x) x^{\frac{3}{2}} = \frac{1}{2\sqrt{x}} \Leftrightarrow C'(x) = \frac{1}{2x^{2}}\Rightarrow \exists K \in \mathbb{K}, C(x) =  K-\frac{1}{2x}$$
+Ainsi, 
+$$y : \begin{cases}
+\mathbb{R}_{+}^{*} \to \mathbb{K} \\
+Kx^{\frac{3}{2}} - \frac{1}{2}\sqrt{x}
+\end{cases}$$
