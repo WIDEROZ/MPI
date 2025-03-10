@@ -242,5 +242,5 @@ $$\lim_{ x \to -2^{-} } y(x) = \lim_{ x \to -2^{-} } \left( 2+ \frac{K-4}{x+2} \
 \end{cases}$$
 Donc il est nécessaire que $K$ soit égal à $4$
 Ainsi la seule solution de $(\mathcal{E})$ sur $\mathbb{R}$ est : $y : x \in \mathbb{R} \mapsto2$
-Il n'y a donc pas de solution au PB de Cauchy sauf lorsque $y_{0} = 2$
+Il n'y a donc pas de solution au PB de Cauchy en $(x_{0}, y_{0})$ sauf lorsque $y_{0} = 2$
 
