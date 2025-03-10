@@ -135,3 +135,25 @@ y^{(d-1)} \\
 $$\forall t_{0} \in I , \forall x_{0},\dots, x_{d-1} \in \mathbb{K}$$
 On appelle problème de cauchy de $(\mathcal{E}_{d})$ en $(t_{0},x_{0},  \dots, x_{d-1})$ la question de l'existence et de l'unicité d'une solution $\varphi$ de $(\mathcal{E}_{d})$
 $$\forall k\in [\![0, d-1]\!], \varphi^{(k)}(t_{0}) = x_{k}$$
+
+# II. Le théorème de Cauchy linéaire
+#### Théorème
+Soient $a \in \mathcal{C}^{0}(I, \mathcal{L}(E))$, $b \in \mathcal{C}^{0}(I, E)$, et 
+$$(\mathcal{E}) : x' = a(x) +b$$
+$\forall (t_{0}, x_{0}) \in I \times E,$ il existe une unique solution $\varphi$ de $(\mathcal{E})$ vérifiant 
+$$\varphi(t_{0})  = x_{0}$$
+
+#### Corollaire
+Sous les mêmes hypothèses, 
+$$\forall t_{0} \in I, \psi: \begin{cases}
+Sol(\mathcal{H}) \to E \\
+\varphi \mapsto \varphi(t_{0})
+\end{cases}$$
+est un isomorphisme de $\mathbb{K}$-ev
+En particulier, 
+$$\dim Sol(\mathcal{H}) = \dim E$$
+où
+$$(\mathcal{H}) : x' = a(x)$$
+
+Démonstration :
+Le théorème de cauchy linéaire nous dit que tout élément de l'ensemble d'arrivé de $\psi$ admet un unique antécédent par $\psi$ ie $\psi$ est bijective
