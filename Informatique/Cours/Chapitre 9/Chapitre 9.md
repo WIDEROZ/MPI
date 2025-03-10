@@ -31,10 +31,11 @@ Faire le même arbre pour $q_{1}$ au début
 
 #### Diagramme d'état
 C'est un graphe dont : 
-- Les sommets sont des descriptions d'états accessibles de l'ensemble des variables par un scénario de programme
-- On a $e \to e'$ s'il existe une séquence d'instructions $(I_{1}, \dots, I_{n})$ telle que $(I_{1}, \dots, I_{n-1})$ ....... de l'état de départ à $e$ et $I_{n}$ ....... de $e$ à $e'$
+- Les sommets sont des descriptions d'états accessibles de l'ensemble des variables par un scénario du programme
+- On a $e \to e'$ s'il existe une séquence d'instructions $(I_{1}, \dots, I_{n})$ telle que $(I_{1}, \dots, I_{n-1})$ amène de l'état de départ à $e$ et $I_{n}$ amène de $e$ à $e'$
 
-#### Exemple 2
+
+#### Exemple
 $$\begin{array}{|c|c|}\hline
 n \leftarrow 0 \\
 \begin{array}{c|c}\hline
@@ -45,3 +46,15 @@ p_{1} \space \space n \leftarrow 1& q_{1} \space \space k_{2} \leftarrow 2 \\
 
 \end{array}$$
 Diagramme d'état : 
+![[Pasted image 20250310172101.png]]
+
+#### Exemple
+$$\begin{array}{|c|c|}\hline
+x \leftarrow 0 \\
+\begin{array}{c|c}\hline
+P & Q \\
+p_{1} : Reg P \leftarrow x& \\
+p_{2} : Reg P ++ \\
+p_{3} : x \leftarrow Reg P
+\end{array}
+\end{array}$$
