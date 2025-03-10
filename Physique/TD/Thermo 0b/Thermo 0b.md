@@ -18,4 +18,10 @@ $$ = \frac{Q_{AB}+Q_{B{D}}+Q_{DE}+Q_{EA}}{Q_{AB}+Q_{BD}}= 1+ \frac{Q_{EA}}{Q_{AB
 #### 1.
 ##### a.
 $$y_{v}= \frac{m_{v}}{m}$$
-$$\Delta S_{AB} = \Delta S_{AO} + \Delta S_{OB}=  + \frac{m_{v} l_{vap}(T_{1})}{T_{1}}$$
+$$0 = \Delta S_{AB} = \Delta S_{AO} + \Delta S_{OB}= mc_{L}\ln\left( \frac{T_{1}}{T_{2}} \right) + \frac{m_{v, B} l_{vap}(T_{1})}{T_{1}}$$
+Rév. et adiab.
+$m_{v, B} = \dots$
+
+#### b.
+$$0 = \Delta S_{cycle} = \Delta S_{AB} + \Delta S_{BC} + \Delta S_{CD} + \Delta S_{DA} = \Delta S_{BC}+ \Delta S_{DA}$$
+$$\Delta S_{BC} = \frac{(y_{v, C}-y_{v, B})m l_{vap}(T_{1})}{T_{1}} \text{ et }\Delta S_{DA} = \frac{-ml_{vap}(T_{2})}{T_{2}}$$
