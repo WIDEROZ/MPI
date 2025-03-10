@@ -156,4 +156,30 @@ où
 $$(\mathcal{H}) : x' = a(x)$$
 
 Démonstration :
-Le théorème de cauchy linéaire nous dit que tout élément de l'ensemble d'arrivé de $\psi$ admet un unique antécédent par $\psi$ ie $\psi$ est bijective
+Le théorème de Cauchy linéaire nous dit que tout élément de l'ensemble d'arrivé de $\psi$ admet un unique antécédent par $\psi$ ie $\psi$ est bijective de plus $\psi$ est linéaire en tant qu'opérateur d'évaluation. 
+
+#### Définition
+Toute base $(\varphi_{1}, \dots, \varphi_{n})$ de $Sol(\mathcal{H})$ est appelée système fondamental de solutions de $(\mathcal{H})$
+
+# III. EDL scalaire d'ordre 1
+Soient $I$ un intervalle de $\mathbb{R}$, $a, b \in \mathcal{C}^{0}(I, \mathbb{K})$
+$$\begin{array}{l}
+(\mathcal{E}) :  \forall t \in I, x'(t) = a(t)x(t) + b(t) \\
+(\mathcal{H}) : \forall t \in I, x'(t) = a(t)x(t)
+\end{array}$$
+
+On a au moins deux méthodes de résolution
+
+#### Propriété
+$$Sol(\mathcal{H}) = Vect(\varphi_{0})$$
+où
+$$\varphi_{0} : t \in I \mapsto \exp(A(t)) \text{ où }A'=a$$
+Démonstration : 
+Soit $\varphi \in \mathcal{C}^{1}(I, \mathbb{K})$, 
+Alors,
+$$\begin{array}{rl}
+\varphi' = a \varphi&\Leftrightarrow e^{ -A } \varphi'-e^{ -A }a \varphi=0 \\
+&\Leftrightarrow \frac{\partial }{\partial t}(e^{ -A(t) } \varphi(t))=0 \\
+&\Leftrightarrow \exists C \in \mathbb{K}, \forall t \in I, e^{ -A(t) }\varphi(t) = C  \\
+&\Leftrightarrow \varphi \in Vect(\varphi_{0})
+\end{array}$$
