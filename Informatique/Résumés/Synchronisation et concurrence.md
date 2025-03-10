@@ -1,3 +1,4 @@
+## Introduction aux 
 #### Processus
 Un processus est un programme en cours d'execution auquel est attribué un numéro et un contexte contenant : 
 - La mémoire vive alloué par l'OS pour son execution
@@ -16,11 +17,5 @@ C'est une execution d'un programme concurrent, obtenu par entrelacement des prog
 #### Fils d'execution (Thread)
 Les programmes séquentiels composant un programme concurrent sont appelés fils d'execution (Thread)
 
-#### Exemple
-$$\begin{array}{|c|c|} \hline
-P & Q \\ \hline
-p_{1} & q_{1} \\\hline
-p_{2} & q_{2} \\\hline
- & q_{3} \\\hline
-\end{array}$$
-Citer l'ensemble des scénarios possibles 
+## Diagramme d'état
+#### Définition
