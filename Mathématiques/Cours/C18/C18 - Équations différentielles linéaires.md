@@ -195,13 +195,13 @@ $$\varphi' = a\varphi + b \Leftrightarrow C' = be^{ -A }$$
 
 ### CCINP 42
 Résoudre :
-$$2xy' -3y = 0 : (\mathcal{H}) \text{ sur }\mathbb{R}_{+}^{*}$$
+$$2xy'(x) -3y(x) = 0 : (\mathcal{H}) \text{ sur }\mathbb{R}_{+}^{*}$$
 Résoudre : 
-$$2xy'- 3y = \sqrt{x} : (\mathbb{E})$$
+$$2xy'(x)- 3y(x) = \sqrt{x} : (\mathbb{E})$$
 sur $\mathbb{R}_{+}^{*}$ et puis sur $\mathbb{R}_{+}$
 ___
-$$y' -\frac{3}{2} \frac{1}{x} y = 0$$
-$$\Leftrightarrow \exists C \in \mathbb{R}, \forall x \in \mathbb{R}_{+}^{*},y = Ce^{ \frac{3}{2}\ln(x) }=Cx^{\frac{3}{2}}$$
+$$y'(x) -\frac{3}{2} \frac{1}{x} y(x) = 0$$
+$$\Leftrightarrow \exists C \in \mathbb{R}, \forall x \in \mathbb{R}_{+}^{*},y(x) = Ce^{ \frac{3}{2}\ln(x) }=Cx^{\frac{3}{2}}$$
 ___
 Dans $\mathbb{R}_{+}^{*}$, 
 $$\exists C \in \mathcal{C}^{1}(I, \mathbb{K}), \forall x \in \mathbb{R}_{+}^{*}, y(x) = C(x)x^{\frac{3}{2}}$$
@@ -212,5 +212,24 @@ $$C'(x) x^{\frac{3}{2}} = \frac{1}{2\sqrt{x}} \Leftrightarrow C'(x) = \frac{1}{2
 Ainsi, 
 $$y : \begin{cases}
 \mathbb{R}_{+}^{*} \to \mathbb{K} \\
-Kx^{\frac{3}{2}} - \frac{1}{2}\sqrt{x}
+x \mapsto Kx^{\frac{3}{2}} - \frac{1}{2}\sqrt{x}
 \end{cases}$$
+Sur $\mathbb{R}_{+}$ : en $\mathbb{R}_{+}^{*}$ c'est bon
+On regarde la valeur en $0$ : 
+Or $y$ en tant que solution de $(\mathcal{E})$ sur $\mathbb{R}_{+}$, doit être dérivable en $0$ et soit vérifier :
+$$y(0) = 0 : (\mathcal{E})$$
+Alors, comme $y$ n'est pas dérivable en $0$ car $\cdot^{\frac{3}{2}}$ l'est et $\sqrt{\cdot}$ ne l'est pas il n'existe aucune solution de $(\mathcal{E})$ sur $\mathbb{R}_{+}$
+
+#### Remarque
+Lorsque $(\mathcal{E})$ se présente sous la forme : 
+$$\forall t \in I, a(t) x'(t) + b(t)x(t) = c(t)$$
+où $a$ s'annule sur $I$, 
+$$(\mathcal{E}) \text{ est dite non normalisée}$$
+il faut alors la résoudre sur chaque intervalle de $I$ où $a$ ne s'annule pas et regarder si les solutions se recollent au points d'annulation de $a$
+
+#### Exemple
+$$(2+x)y'(x) = -y(x) + 2 : (\mathcal{E})$$
+On note : $I_{1} = ]- \infty, -2[ \text{ et }I_{2} = ]-2, + \infty[$, 
+$$\begin{array}{rl}
+\forall x \in I_{2}, (x+2)y'(x) = -y(x)  +2&\Leftrightarrow der
+\end{array}$$
