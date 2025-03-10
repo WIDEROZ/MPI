@@ -17,6 +17,8 @@ C'est une execution d'un programme concurrent, obtenu par entrelacement des prog
 Les programmes séquentiels composant un programme concurrent sont appelés fils d'execution (Thread)
 
 #### Exemple
+$P, Q$ des programmes concurrents, 
+$p_{1}, p_{2}, q_{1}, q_{2}, q_{3}$ des programmes séquentiels classiques
 $$\begin{array}{|c|c|} \hline
 P & Q \\ \hline
 p_{1} & q_{1} \\\hline
@@ -26,3 +28,20 @@ p_{2} & q_{2} \\\hline
 Citer l'ensemble des scénarios possibles 
 ![[Pasted image 20250310165136.png]]
 Faire le même arbre pour $q_{1}$ au début
+
+#### Diagramme d'état
+C'est un graphe dont : 
+- Les sommets sont des descriptions d'états accessibles de l'ensemble des variables par un scénario de programme
+- On a $e \to e'$ s'il existe une séquence d'instructions $(I_{1}, \dots, I_{n})$ telle que 
+
+#### Exemple 2
+$$\begin{array}{|c|c|}\hline
+n \leftarrow 0 \\
+\begin{array}{c|c}\hline
+P & Q \\\hline
+p_{1} \space \space n \leftarrow 1& q_{1} \space \space k_{2} \leftarrow 2 \\
+ & q_{2} \space \space n \leftarrow k_{2}
+\end{array} \\\hline
+
+\end{array}$$
+Diagramme d'état : 
