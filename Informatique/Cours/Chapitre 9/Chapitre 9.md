@@ -82,9 +82,20 @@ $$p_{1} \to q_{1} \to q_{2} \to \dots \to \begin{array}{c}
 x = 999
 \end{array} \to p_{2} \to \begin{array}{c}
 \underbrace{p_{3}} \\
-x = 1
-\end{array} \to \to p_{4} \to \dots $$
-$$\to \begin{array}{c}
-\underbrace{q_{3000}} \\
-x = 1000
+x \leftarrow 1
+\end{array} \to\begin{array}{c}
+\underbrace{q_{2998}} \\
+Reg(Q) \leftarrow x
 \end{array} $$
+$$\to p_{4} \to \dots \to \begin{array}{c}
+\underbrace{p_{3000}} \\
+x = 1000
+\end{array} \to  \begin{array}{c}
+\underbrace{q_{2999}} \\
+Reg(Q) \leftarrow Reg(Q)+1
+\end{array} \to \begin{array}{c}
+\underbrace{q_{3000}} \\
+x \leftarrow 2
+\end{array} $$
+Fin.
+
