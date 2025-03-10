@@ -183,3 +183,25 @@ $$\begin{array}{rl}
 &\Leftrightarrow \exists C \in \mathbb{K}, \forall t \in I, e^{ -A(t) }\varphi(t) = C  \\
 &\Leftrightarrow \varphi \in Vect(\varphi_{0})
 \end{array}$$
+
+Pour résoudre $(\mathcal{E})$ on peut utiliser la méthode de la variation de la constante qui consiste à écrire $\varphi$ sous la forme : 
+$$\varphi : \begin{cases}
+I \to \mathbb{K} \\
+t \mapsto C(t) e^{ A(t) }
+\end{cases} \text{ où }C : I \to \mathbb{K}$$
+$C = \varphi e^{ -A } \in \mathcal{C}^{1}(I, \mathbb{K})$
+Alors, 
+$$\varphi' = a\varphi + b \Leftrightarrow C' = be^{ -A }$$
+
+### CCINP 42
+Résoudre :
+$$2xy' -3y = 0 : (\mathcal{H}) \text{ sur }\mathbb{R}_{+}^{*}$$
+Résoudre : 
+$$2xy'- 3y = \sqrt{x} : (\mathbb{E})$$
+sur $\mathbb{R}_{+}^{*}$ et puis sur $\mathbb{R}_{+}$
+___
+$$y' -\frac{3}{2} \frac{1}{x} y = 0$$
+$$\Leftrightarrow \exists C \in \mathbb{R}, \forall x \in \mathbb{R}_{+}^{*},y = Ce^{ \frac{3}{2}\ln(x) }=Cx^{\frac{3}{2}}$$
+___
+Dans $\mathbb{R}_{+}^{*}$, 
+$$\exists C \in \mathcal{C}^{1}(I, \mathbb{K}), \forall x \in \mathbb{R}_{+}^{*}, y = Ce^{  }$$
