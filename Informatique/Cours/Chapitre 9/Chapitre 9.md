@@ -32,7 +32,7 @@ Faire le même arbre pour $q_{1}$ au début
 #### Diagramme d'état
 C'est un graphe dont : 
 - Les sommets sont des descriptions d'états accessibles de l'ensemble des variables par un scénario de programme
-- On a $e \to e'$ s'il existe une séquence d'instructions $(I_{1}, \dots, I_{n})$ telle que 
+- On a $e \to e'$ s'il existe une séquence d'instructions $(I_{1}, \dots, I_{n})$ telle que $(I_{1}, \dots, I_{n-1})$ ....... de l'état de départ à $e$ et $I_{n}$ ....... de $e$ à $e'$
 
 #### Exemple 2
 $$\begin{array}{|c|c|}\hline
