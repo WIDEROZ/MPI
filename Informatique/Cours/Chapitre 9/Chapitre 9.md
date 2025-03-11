@@ -136,7 +136,6 @@ Lock(Dedans, i) :
 
 Unlock(Dedans, i) :
 	Dedans(i) <- F
-
 ```
 
 ##### Version 2 : 
@@ -153,7 +152,6 @@ Lock(Demande, i) :
 
 Unlock(Demande, i) :
 	Demande(i) <- F
-
 ```
 
 ##### Version 3 : 
@@ -164,13 +162,12 @@ Create() :
 
 Lock(Tour, i) : 
 	o <- 1-i
-	Tant que Tour = 0 Faire ()
+	Tant que Tour = o Faire ()
 
 
 Unlock(Tour, i) :
 	o <- 1-i
 	Tour <- o
-
 ```
 
 #### Version 4 : Algorithme de Peterson
@@ -187,6 +184,7 @@ Lock(Tour, Demande, i) :
 	Tant que Demande(o) & Tour = 0 Faire ()
 
 
-Unlock(Tour, i) :
+Unlock(Tour, Demande, i) :
 	Demande(i) <- F
 ```
+
