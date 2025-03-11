@@ -123,7 +123,7 @@ Join(f, 0)
 Join(f, 1)
 ```
 
-Version 1 : 
+##### Version 1 : 
 ```
 Create() :
 	Dedans <- {F, F}
@@ -139,7 +139,7 @@ Unlock(Dedans, i) :
 
 ```
 
-Version 2 : 
+##### Version 2 : 
 ```
 Create() :
 	Demande <- {F, F}
@@ -156,20 +156,37 @@ Unlock(Demande, i) :
 
 ```
 
-Version 3 : 
+##### Version 3 : 
 ```
 Create() :
 	Tour <- 0
 	Renvoyer Tour
 
-Lock(Demande, i) : 
+Lock(Tour, i) : 
 	o <- 1-i
 	Tant que Tour = 0 Faire ()
 
 
-Unlock(Demande, i) :
+Unlock(Tour, i) :
 	o <- 1-i
 	Tour <- o
 
 ```
 
+#### Version 4 : Algorithme de Peterson
+```
+Create() :
+	Tour <- 0
+	Demande <- {F, F}
+	Renvoyer {Tour, Demande}
+
+Lock(Tour, Demande, i) : 
+	o <- 1-i
+	Demande(i) <- V
+	Tour <- o
+	Tant que Demande(o) & Tour = 0 Faire ()
+
+
+Unlock(Tour, i) :
+	Demande(i) <- F
+```
