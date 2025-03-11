@@ -19,8 +19,9 @@ int main(int argc, char const *argv[])
 
     pthread_create(&t1, NULL, f, "A");
     pthread_create(&t2, NULL, f, "B");
-    pthread_join(&t1, NULL);
-    pthread_join(&t2, NULL);
+    pthread_join(t1, NULL);
+    pthread_join(t2, NULL);
+
 
     return 0;
 }
