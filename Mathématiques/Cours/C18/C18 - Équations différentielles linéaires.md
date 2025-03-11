@@ -244,3 +244,20 @@ Donc il est nécessaire que $K$ soit égal à $4$
 Ainsi la seule solution de $(\mathcal{E})$ sur $\mathbb{R}$ est : $y : x \in \mathbb{R} \mapsto2$
 Il n'y a donc pas de solution au PB de Cauchy en $(x_{0}, y_{0})$ sauf lorsque $y_{0} = 2$
 
+# IV. Équation différentielles linéaires scalaires d'ordre 2
+Soit $I$ un intervalle, 
+Soit $a, b, c \in \mathcal{C}^{0}(I, \mathbb{K})$, 
+$$(\mathcal{E}) : y'' + ay' + by =c$$
+$$(\mathcal{H}) : y'' + ay' + by = 0$$
+On transforme $(\mathcal{E})$ en EDL 1 vectorielle
+On pose : 
+$$Y : x \in I \mapsto \begin{pmatrix}
+y(x) \\
+y'(x)
+\end{pmatrix} \in \mathbb{K}^{2}$$
+Alors,
+$y$ est solution de $(\mathcal{E})$ $\Leftrightarrow$ $\begin{cases}y' = y'\\ y'' = -by - ay'+c\end{cases}$
+$$\Leftrightarrow Y' = \begin{pmatrix}
+y \\
+y''
+\end{pmatrix}$$
