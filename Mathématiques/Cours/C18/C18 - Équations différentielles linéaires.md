@@ -319,3 +319,17 @@ $$\dim Sol(\mathcal{H}) = 2 = \dim Vect(y_{1}, y_{2})$$
 car $(y_{1}, y_{2})$ est une famille libre
 Ainsi,
 $$Vect(y_{1}, y_{2}) = Sol(\mathcal{H})$$
+
+#### Définition - Propriété
+Soient $a, b \in \mathcal{C}^{1}(I, \mathbb{K})$, 
+$$(\mathcal{H}) :  y'' + ay' + by = 0$$
+Soit $(y_{1}, y_{2})$ deux solutions de $(\mathcal{H})$.
+On appelle wronskien de $(y_{1}, y_{2})$ la fonction : 
+$$w : x \in I \mapsto \det \begin{pmatrix}
+y_{1}&y_{2} \\
+y_{1}'&y_{2}'
+\end{pmatrix} = y_{1}(x)y_{2}'(x)-y_{1}'(x)y_{2}(x)$$
+On a équivalence entre : 
+$$\begin{cases}
+
+\end{cases}$$
