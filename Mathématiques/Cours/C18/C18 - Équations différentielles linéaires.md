@@ -293,3 +293,29 @@ $$\forall t_{0} \in I, \psi_{t_{0}} : \begin{cases}
 Sol(\mathcal{H}) \to \mathbb{K}^{2} \\
 y \mapsto (y(t_{0}), y'(t_{0}))
 \end{cases} \text{ est un isomorphisme}$$
+
+#### Cas ou $a, b$ sont constantes
+On prend une équation caractéristique : 
+$$r^{2} + ar + b = 0$$
+Notons $\Delta = a^{2}-4b$ 
+Si $\Delta \neq0$, l'équation caractéristique admet deux racines $r_{1} \neq r_{2} \in \mathbb{C}$ 
+On note :
+$$\begin{array}{l}
+y_{1} : x \in \mathbb{R} \mapsto e^{ r_{1}x } \\
+y_{2} : x \in \mathbb{R} \mapsto e^{ r_{2}x }
+\end{array}$$
+Alors, 
+$$(y_{1}, y_{2}) \text{ est un système fondemental de solutions de }(\mathcal{H})$$
+ie 
+$$\forall y \in \mathcal{C}^{2}(I, \mathbb{C}), y \in Sol(\mathcal{H}) \Leftrightarrow \exists (A_{1}, A_{2}) \in \mathbb{C}^{2}, \forall x \in \mathbb{R}, $$
+$$y(x) = A_{1}e^{ r_{1}x } + A_{2}e^{ r_{2}x }$$
+Démonstration : 
+$y_{1}\text{ est solution de }(\mathcal{H})$ car : 
+$$\forall x \in \mathbb{R}, y_{1}''(x) + a y_{1}'(x) + by_{1}(x) = (r_{1}^{2}+ar_{1} + b) e^{ r_{1}x } = 0$$
+De même pour $r_{2}$
+$$Vect(y_{1}, y_{2}) \subset Sol(\mathcal{H})$$
+Or 
+$$\dim Sol(\mathcal{H}) = 2 = \dim Vect(y_{1}, y_{2})$$
+car $(y_{1}, y_{2})$ est une famille libre
+Ainsi,
+$$Vect(y_{1}, y_{2}) = Sol(\mathcal{H})$$
