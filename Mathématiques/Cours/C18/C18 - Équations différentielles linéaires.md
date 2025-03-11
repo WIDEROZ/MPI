@@ -257,7 +257,39 @@ y'(x)
 \end{pmatrix} \in \mathbb{K}^{2}$$
 Alors,
 $y$ est solution de $(\mathcal{E})$ $\Leftrightarrow$ $\begin{cases}y' = y'\\ y'' = -by - ay'+c\end{cases}$
-$$\Leftrightarrow Y' = \begin{pmatrix}
-y \\
+$$\Leftrightarrow (E) : Y' = \begin{pmatrix}
+y' \\
 y''
+\end{pmatrix} = \begin{pmatrix}
+0&1 \\
+-b&-a
+\end{pmatrix}Y + \begin{pmatrix}
+0 \\
+c
+\end{pmatrix} = AY +C$$
+$$A : x \in I \mapsto \begin{pmatrix}
+0&1 \\
+-b(x)&-a(x)
+\end{pmatrix} \in\mathcal{M}_{2}(\mathbb{R})$$
+de même pour $C$ et d'après le théorème de Cauchy linéaire, 
+$$\forall Y_{0} = \begin{pmatrix}
+y_{0} \\
+v_{0}
+\end{pmatrix} \in \mathcal{M}_{2, 1}(\mathbb{K}), \forall t_{0} \in I,\exists ! Y \in Sol(E) \cap \mathcal{C}^{1}(I, \mathcal{M}_{2, 1}(\mathbb{K})), $$
+$$Y(t_{0}) = \begin{pmatrix}
+y_{0} \\
+v_{0}
 \end{pmatrix}$$
+ie
+$$\forall t_{0} \in I, \forall y_{0}, v_{0} \in \mathbb{K}, \exists ! y \in \mathcal{C}^{2}(I, \mathbb{K}), $$
+$$ y'' + ay' + by =c \text{ et }\begin{cases}
+y(t_{0}) = y_{0} \\
+y'(t_{0}) = v_{0}
+\end{cases}$$
+
+#### Corollaire
+$$Sol(\mathcal{H}) \underset{sev}{\subset} \mathcal{C}^{2}(I, \mathbb{K}) \text{ et }\dim  Sol(\mathcal{H}) = 2$$
+$$\forall t_{0} \in I, \psi_{t_{0}} : \begin{cases}
+Sol(\mathcal{H}) \to \mathbb{K}^{2} \\
+y \mapsto (y(t_{0}), y'(t_{0}))
+\end{cases} \text{ est un isomorphisme}$$
