@@ -37,3 +37,7 @@ p_{1} \space \space n \leftarrow 1& q_{1} \space \space k_{2} \leftarrow 2 \\
 Diagramme d'état : 
 ![[Pasted image 20250310172101.png]]
 
+## 3. Verrous
+#### Section critique
+Une section critique est une portion de code ne pouvant être exécutée simultanément que par un certain nombre de fils d'execution. 
+

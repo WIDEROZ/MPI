@@ -99,3 +99,13 @@ x \leftarrow 2
 \end{array} $$
 Fin.
 
+#### Définition
+Une section critique est une portion de code ne pouvant être exécutée simultanément que par un certain nombre de fils d'execution. 
+
+#### Définition
+Le type abstrait Verrou est la donnée d'un type d'élément verrou et des opérations suivantes : 
+- ```create :  () -> verrou``` qui créé un verrou
+- ```lock : verrou -> ()``` qui verrouille  un verrou
+- ```unlock : verrou -> ()``` qui déverrouille un verrou
+
+#### Ocaml
