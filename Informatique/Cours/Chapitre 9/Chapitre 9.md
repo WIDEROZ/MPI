@@ -108,4 +108,22 @@ Le type abstrait Verrou est la donnée d'un type d'élément verrou et des opér
 - ```lock : verrou -> ()``` qui verrouille  un verrou
 - ```unlock : verrou -> ()``` qui déverrouille un verrou
 
-#### Ocaml
+#### Exemple
+```
+x = 0
+m <- create()
+___________
+Fonction(i)
+	Pour k de 1 à 1000:
+		Lock(m, i)
+		x++
+		Unlock(m, i)
+___________
+Join(f, 0)
+Join(f, 1)
+```
+
+Version 1 : 
+```
+
+```
