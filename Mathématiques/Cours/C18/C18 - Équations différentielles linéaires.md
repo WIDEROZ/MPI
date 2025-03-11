@@ -349,4 +349,29 @@ Ainsi,
 $(iii) \Rightarrow (ii)$
 $(ii) \Rightarrow (iii)$ : trivial
 $(i)\Rightarrow (iii)$
-Par contraposition supposons que $w$ est nul
+Par contraposition supposons que $w$ est nulle
+Alors, 
+$$\forall x_{0} \in I, W(x_{0}) = \begin{pmatrix}
+y_{1}(x_{0}) & y_{2}(x_{0}) \\
+y_{1}'(x_{0}) & y_{2}'(x_{0})
+\end{pmatrix}\not\in GL_{2}(\mathbb{R})$$
+$$W(x_{0})\begin{pmatrix}
+a \\
+b
+\end{pmatrix} = \begin{pmatrix}
+0 \\
+0
+\end{pmatrix}$$
+$$\begin{cases}
+(ay_{1}+by_{2})(x_{0}) = 0 \\
+(ay_{1}+by_{2})'(x_{0}) = 0
+\end{cases}$$
+Or $z = ay_{1} + by_{2} \in Sol(\mathcal{H})$ et solution du même problème de Cauchy en $(x_{0}, 0, 0)$ que la fonction nulle
+D'après le théorème de Cauchy, $z=0$ ie $(y_{1}, y_{2})$ est liée
+$(iii) \Rightarrow (i)$
+Par contraposée on suppose que $(y_{1}, y_{2})$ liée.
+Si $y_{1}=0$, $w=0$
+Sinon, 
+$$\exists a \in \mathbb{K}, y_{1} = ay_{2}$$
+Alors, 
+$$w = y_{1}y_{2}' - y_{1}'y_{2}=ay_{2}y_{2}' - ay_{2}y_{2}' = 0$$
