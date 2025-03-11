@@ -331,5 +331,22 @@ y_{1}'&y_{2}'
 \end{pmatrix} = y_{1}(x)y_{2}'(x)-y_{1}'(x)y_{2}(x)$$
 On a équivalence entre : 
 $$\begin{cases}
-
+(y_{1}, y_{2}) \text{ est un SFS de }(\mathcal{H}) \\
+w \text{ ne s'annule pas} \\
+w \text{ n'est pas la fonction nulle}
 \end{cases}$$
+Démonstration : 
+$w$ est de classe $\mathcal{C}^{1}$ sur $I$ car : $y_{1}$ et $y_{2}$ sont de classe $\mathcal{C}^{2}$ et 
+$$(w|_{I})' = y_{1}'y_{2}' + y_{1} y_{2}'' - (y_{1}'' y_{2} + y_{1}'y_{2}') = y_{1}y_{2}'' - y_{1}''y_{2}$$
+Donc, 
+$$w' = -a(y_{1}y_{2}' - y_{1}'y_{2}) = -aw$$
+ie pour : $A$ une primitive de $a$
+$$\exists K \in \mathbb{K}, \forall x \in I, w(x) = K e^{ -A(x) }$$
+Comme : 
+$$\forall x \in I, e^{ -A(x) } \neq 0$$
+S'il existe $x_{0} \in I, w(x_{0}) = 0$ alors $K=0$ et donc $w$ est nulle
+Ainsi, 
+$(iii) \Rightarrow (ii)$
+$(ii) \Rightarrow (iii)$ : trivial
+$(i)\Rightarrow (iii)$
+Par contraposition supposons que $w$ est nul
