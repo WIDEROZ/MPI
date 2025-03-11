@@ -23,4 +23,9 @@ $$R_{r} = -\frac{l_{r}}{\gamma s_{r}}$$
 $$\frac{1}{R_{N}} = \frac{N}{R_{r}} \Rightarrow R_{N} = \frac{R_{r}}{N}$$
 
 #### Question 5
-$$R_{p} = R_{N} + R_{t} + R_{f} \Rightarrow R_{a} = $$
+$$R_{p} = R_{N} + R_{t} + R_{f}  = \frac{R_{r}}{N} + R_{t} + R_{f}$$
+$$R_{a} = \frac{\psi_{f}-\psi_{a}}{D} = \frac{\psi_{f}-\psi_{a}}{\psi_{s}-\psi_{f}} R_{p}$$
+
+#### Question 6
+$$\rho_{e} = \frac{m}{V}$$
+$$\vec{j}_{M} = -\frac{K}{M}$$
