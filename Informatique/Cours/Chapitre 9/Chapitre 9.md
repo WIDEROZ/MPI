@@ -189,6 +189,7 @@ Unlock(Tour, Demande, i) :
 ```
 
 ## Algorithme de la Boulangerie de Lamport
+##### Version 1
 ```
 Create(n) : 
 	Numbers <- Tableau d'int taille n init. à 0
@@ -199,9 +200,9 @@ Lock(Numbers, i) :
 	Number[i] <- m+1
 	Pour j = 0 à n-1
 		Tant que Numbers[j] != 0
-		& Numbers[j] < Numbers[i]
+		& Numbers[j] < Numbers[i] Faire ()
 		
 
 Unlock(Numbers, i) : 
-	
+	Numbers[i] <- 0
 ```
