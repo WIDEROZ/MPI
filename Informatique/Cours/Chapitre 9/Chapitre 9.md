@@ -108,7 +108,7 @@ Le type abstrait Verrou est la donnée d'un type d'élément verrou et des opér
 - ```lock : verrou -> ()``` qui verrouille  un verrou
 - ```unlock : verrou -> ()``` qui déverrouille un verrou
 
-#### Exemple
+## Algorithme de Peterson
 ```
 x = 0
 m <- create()
@@ -125,5 +125,51 @@ Join(f, 1)
 
 Version 1 : 
 ```
+Create() :
+	Dedans <- {F, F}
+	Renvoyer Dedans
+
+Lock(Dedans, i) : 
+	o <- 1-i
+	Tant que Dedans(o) Faire ()
+	Dedans(i) <- T
+
+Unlock(Dedans, i) :
+	Dedans(i) <- F
 
 ```
+
+Version 2 : 
+```
+Create() :
+	Demande <- {F, F}
+	Renvoyer Demande
+
+Lock(Demande, i) : 
+	o <- 1-i
+	Demande(i) <- T
+	Tant que Demande(o) Faire ()
+
+
+Unlock(Demande, i) :
+	Demande(i) <- F
+
+```
+
+Version 3 : 
+```
+Create() :
+	Tour <- 0
+	Renvoyer Tour
+
+Lock(Demande, i) : 
+	o <- 1-i
+	Tant que Tour = 0 Faire ()
+
+
+Unlock(Demande, i) :
+	o <- 1-i
+	Tour <- o
+
+```
+
