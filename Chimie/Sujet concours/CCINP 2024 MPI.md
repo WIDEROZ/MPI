@@ -23,5 +23,4 @@ $$R_{r} = -\frac{l_{r}}{\gamma s_{r}}$$
 $$\frac{1}{R_{N}} = \frac{N}{R_{r}} \Rightarrow R_{N} = \frac{R_{r}}{N}$$
 
 #### Question 5
-$$R_{p} = R_{N} + R_{t} + R_{f}  \Rightarrow R_{a} = \dots$$
-
+$$R_{p} = R_{N} + R_{t} + R_{f} \Rightarrow R_{a} = $$
