@@ -490,6 +490,10 @@ f'_{1}(t)
 f_{2}(t) \\
 f_{2}'(t)
 \end{pmatrix}$$
+$$= W\begin{pmatrix}
+\alpha \\
+\beta
+\end{pmatrix}$$
 ___
 $f$ est solution de $f'' + af' + bf = c$ ssi 
 $$\begin{cases}
@@ -521,4 +525,46 @@ $\alpha, \beta$ sont donc boien $\mathcal{C}^{1}$
 
 #### CCINP 31
 ##### 1.
-$$$$
+$$\cos ^{4}(x) = \frac{1}{8}\cos(4x) + \frac{1}{2}\cos(2x) + \frac{3}{8}$$
+$$\frac{\sin(4x)}{32} + \frac{\sin(2x)}{4} + \frac{3x}{8}$$
+
+##### 2.
+$$(\mathcal{H}) : y'' +y = 0$$
+$$\exists \alpha, \beta \in \mathbb{R}, y = \alpha \cos + \beta \sin$$
+ie $(\cos, \sin)$ est un SFS
+Par la var de la cte
+$$\exists \alpha, \beta \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R}),\begin{cases}
+y= \alpha \cos + \beta \sin \\
+y' = \beta \cos - \alpha \sin
+\end{cases}$$
+ici
+$$W = \begin{pmatrix}
+\cos&\sin \\
+-\sin&\cos
+\end{pmatrix}$$
+Dans ce cas on sait que :
+$$y'' + y = \cos ^{3} \Leftrightarrow W \begin{pmatrix}
+\alpha' \\
+\beta' 
+\end{pmatrix}=\begin{pmatrix}
+0 \\
+\cos ^{3}
+\end{pmatrix} \Leftrightarrow \begin{cases}
+\alpha'\cos + \beta'\sin \\
+\beta'\cos - \alpha'\sin = \cos ^{3}
+\end{cases}$$
+On inverse
+$$\begin{pmatrix}
+\alpha' \\
+\beta' 
+\end{pmatrix} = \begin{pmatrix}
+\cos &- \sin \\
+\sin &\cos
+\end{pmatrix} \begin{pmatrix}
+\alpha \\
+\beta 
+\end{pmatrix} \Leftrightarrow \begin{cases}
+\alpha' = -\sin \cos ^{3} \\
+\beta' = \cos ^{4}
+\end{cases}$$
+$$()$$
