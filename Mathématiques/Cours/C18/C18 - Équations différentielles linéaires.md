@@ -550,7 +550,7 @@ $$y'' + y = \cos ^{3} \Leftrightarrow W \begin{pmatrix}
 0 \\
 \cos ^{3}
 \end{pmatrix} \Leftrightarrow \begin{cases}
-\alpha'\cos + \beta'\sin \\
+\alpha'\cos + \beta'\sin = 0\\
 \beta'\cos - \alpha'\sin = \cos ^{3}
 \end{cases}$$
 On inverse
