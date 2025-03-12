@@ -477,4 +477,48 @@ c
 \end{pmatrix}$$
 Finalement : 
 #### Théorème (Méthode de variation des constantes)
-Soit $(f_{1}, f_{2})$ un SFS de
+Soit $(f_{1}, f_{2})$ un SFS de : 
+$$f'' + af' + bf = 0$$
+Soit $f\in \mathcal{C}^{2}(I ,\mathbb{K})$, 
+$$\exists (\alpha, \beta) \in \mathcal{C}^{1}(I, \mathbb{K})^{2}, \forall t \in I, \begin{pmatrix}
+f(t) \\
+f'(t)
+\end{pmatrix} = \alpha(t) \begin{pmatrix}
+f_{1}(t) \\
+f'_{1}(t)
+\end{pmatrix} + \beta(t) \begin{pmatrix}
+f_{2}(t) \\
+f_{2}'(t)
+\end{pmatrix}$$
+___
+$f$ est solution de $f'' + af' + bf = c$ ssi 
+$$\begin{cases}
+\alpha' f_{1} + \beta' f_{2} = 0 \\
+\alpha' f_{1}' + \beta' f_{2}' = c
+\end{cases}$$
+
+Démonstration : 
+On pose : 
+$$\begin{pmatrix}
+\alpha \\
+\beta
+\end{pmatrix} = W^{-1}\begin{pmatrix}
+f \\
+f'
+\end{pmatrix}= \frac{1}{\omega} \begin{pmatrix}
+f_{2}'&-f_{2} \\
+-f_{1}'&f_{1}
+\end{pmatrix} \begin{pmatrix}
+f \\
+f'
+\end{pmatrix}$$
+ie :
+$$\begin{cases}
+\alpha = \frac{f_{2}'f - f_{2}f'}{f_{1}f_{2}'-f_{1}'f_{2}} \\
+\beta = \frac{-f_{1}'f+f_{1}f'}{f_{1}f_{2}'-f_{1}'f_{2}}
+\end{cases}$$
+$\alpha, \beta$ sont donc boien $\mathcal{C}^{1}$
+
+#### CCINP 31
+##### 1.
+$$$$
