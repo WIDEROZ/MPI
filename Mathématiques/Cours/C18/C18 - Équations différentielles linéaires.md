@@ -375,3 +375,33 @@ Sinon,
 $$\exists a \in \mathbb{K}, y_{1} = ay_{2}$$
 Alors, 
 $$w = y_{1}y_{2}' - y_{1}'y_{2}=ay_{2}y_{2}' - ay_{2}y_{2}' = 0$$
+
+## 3. Méthode de variation des constantes
+Soit $A \in \mathcal{C}^{0}(I, \mathcal{M}_{2}(\mathbb{R}))$, $B \in \mathcal{C}^{0}(I, \mathcal{M}_{2, 1}(\mathbb{R}))$, 
+$$(\mathcal{E}) : X' = AX +B  \text{ et } (\mathcal{H}) : X' = AX$$
+$Sol(\mathcal{H})$ est un plan
+Il existe un SFS $(X_{1}, X_{2})$ de $(\mathcal{H})$
+Alors, 
+$$\forall x \in \mathcal{C}^{1}(I, \mathcal{M}_{2, 1}(\mathbb{R}))$$
+$$X \in Sol(\mathcal{H}) \Leftrightarrow \exists a, b \in \mathbb{R}, X = aX_{1} + bX_{2} = W\begin{pmatrix}
+a \\
+b 
+\end{pmatrix}$$
+où
+$$\begin{cases}
+W : x \in I \mapsto \begin{pmatrix}
+x_{1, 1}&x_{1, 2} \\
+x_{2, 1}&x_{2, 2}
+\end{pmatrix} \\
+X_{1} : x \in I \mapsto \begin{pmatrix}
+x_{1, 1} \\
+x_{2, 1}
+\end{pmatrix}
+ \\
+X_{2} : x \in I \mapsto \begin{pmatrix}
+x_{1, 2} \\
+x_{2, 2}
+\end{pmatrix} \\
+\end{cases}$$
+$$X = WK$$
+La méthode de variation 
