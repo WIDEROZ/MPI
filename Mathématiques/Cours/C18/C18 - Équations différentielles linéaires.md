@@ -377,31 +377,47 @@ Alors,
 $$w = y_{1}y_{2}' - y_{1}'y_{2}=ay_{2}y_{2}' - ay_{2}y_{2}' = 0$$
 
 ## 3. Méthode de variation des constantes
+#### Que pour des coefficients scalaires
 Soit $A \in \mathcal{C}^{0}(I, \mathcal{M}_{2}(\mathbb{R}))$, $B \in \mathcal{C}^{0}(I, \mathcal{M}_{2, 1}(\mathbb{R}))$, 
 $$(\mathcal{E}) : X' = AX +B  \text{ et } (\mathcal{H}) : X' = AX$$
 $Sol(\mathcal{H})$ est un plan
-Il existe un SFS $(X_{1}, X_{2})$ de $(\mathcal{H})$
+Supposons q'il existe un SFS $(X_{1}, X_{2})$ de $(\mathcal{H})$
 Alors, 
-$$\forall x \in \mathcal{C}^{1}(I, \mathcal{M}_{2, 1}(\mathbb{R}))$$
+$$\forall X \in \mathcal{C}^{1}(I, \mathcal{M}_{2, 1}(\mathbb{R}))$$
 $$X \in Sol(\mathcal{H}) \Leftrightarrow \exists a, b \in \mathbb{R}, X = aX_{1} + bX_{2} = W\begin{pmatrix}
 a \\
 b 
 \end{pmatrix}$$
 où
 $$\begin{cases}
-W : x \in I \mapsto \begin{pmatrix}
-x_{1, 1}&x_{1, 2} \\
-x_{2, 1}&x_{2, 2}
+W : t \in I \mapsto \begin{pmatrix}
+x_{1, 1}(t)&x_{1, 2}(t) \\
+x_{2, 1}(t)&x_{2, 2}(t)
 \end{pmatrix} \\
-X_{1} : x \in I \mapsto \begin{pmatrix}
-x_{1, 1} \\
-x_{2, 1}
+X_{1} : t \in I \mapsto \begin{pmatrix}
+x_{1, 1}(t) \\
+x_{2, 1}(t)
 \end{pmatrix}
  \\
-X_{2} : x \in I \mapsto \begin{pmatrix}
-x_{1, 2} \\
-x_{2, 2}
+X_{2} : t \in I \mapsto \begin{pmatrix}
+x_{1, 2}(t) \\
+x_{2, 2}(t)
 \end{pmatrix} \\
 \end{cases}$$
 $$X = WK$$
-La méthode de variation 
+La méthode de variation de la constante va nous permettre de résoudre $(\mathcal{E})$
+Elle consiste à chercher les solutions de $(\mathcal{E})$ sous la forme : 
+$$X : t \in I \mapsto W(t) K(t)$$
+$$K : t \in I \mapsto \begin{pmatrix}
+a(t) \\
+b(t)
+\end{pmatrix}$$
+est notre inconnue
+$$X' = AX+B \Leftrightarrow WK' + W'K = AWK + B$$
+Or 
+$$\begin{cases}
+X_{1}' = AX_{1} \\
+ X_{2}' = AX_{2}
+\end{cases} \Rightarrow W' = AW$$
+Donc, 
+$$WK' = B \Leftrightarrow K' = W^{-1}B$$
