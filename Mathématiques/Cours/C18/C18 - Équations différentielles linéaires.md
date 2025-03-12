@@ -421,3 +421,60 @@ X_{1}' = AX_{1} \\
 \end{cases} \Rightarrow W' = AW$$
 Donc, 
 $$WK' = B \Leftrightarrow K' = W^{-1}B$$
+
+On applique que aux EDL2 scal
+
+Soient $a, b, c \in \mathcal{C}^{0}(I, \mathbb{K})$,
+$$(\mathcal{E}) : x'' +ax' + bx = c$$
+$$(\mathcal{H}) : x'' + ax' + bx = 0$$
+On note : 
+$$X : t \in I\mapsto \begin{pmatrix}
+x(t) \\
+x'(t)
+\end{pmatrix} \in \mathcal{M}_{2,1}(\mathbb{K})$$
+.............
+$$A : t \in I \mapsto \begin{pmatrix}
+0&1 \\
+-b(t)&a(t)
+\end{pmatrix} \text{ et }C : t \in I \mapsto \begin{pmatrix}
+0 \\
+c(t)
+\end{pmatrix}$$
+Soit $(f_{1}, f_{2})$ un SFS de $(\mathcal{H})$ 
+On lui associe un SFS de $X' = AX$ noté $(X_{1}, X_{2})$
+$$X_{1} = \begin{pmatrix}
+f_{1} \\
+f_{1}'
+\end{pmatrix} \text{ et } X_{2} = \begin{pmatrix}
+f_{2} \\
+f_{2}'
+\end{pmatrix}$$
+On va donc chercher les solutions $x$ de $(\mathcal{E})$ sous la forme : 
+$$\forall t \in I, X(t) = \begin{pmatrix}
+x(t) \\
+x'(t)
+\end{pmatrix} = \alpha(t) X_{1} + \beta(t)X_{2}$$
+On tronque l'inconnue $x$ contre les inconnues $\alpha$ et $\beta$
+On obtiens que : 
+$$x \in Sol(\mathcal{E}) \Leftrightarrow X \in Sol(E) \Leftrightarrow X = WK \text{ vérifie } X' = AX+C $$
+ou
+$$W = \begin{pmatrix}
+f_{1}&f_{2} \\
+f_{1}'&f_{2}'
+\end{pmatrix} \text{ et } K = \begin{pmatrix}
+\alpha \\
+\beta
+\end{pmatrix}$$
+$$\Leftrightarrow WK' = C \Leftrightarrow \begin{pmatrix}
+f_{1}&f_{2} \\
+f_{1}'&f_{2}'
+\end{pmatrix} \begin{pmatrix}
+\alpha' \\
+\beta'
+\end{pmatrix} = \begin{pmatrix}
+0 \\
+c
+\end{pmatrix}$$
+Finalement : 
+#### Théorème (Méthode de variation des constantes)
+Soit $(f_{1}, f_{2})$ un SFS de
