@@ -526,7 +526,7 @@ $\alpha, \beta$ sont donc boien $\mathcal{C}^{1}$
 #### CCINP 31
 ##### 1.
 $$\cos ^{4}(x) = \frac{1}{8}\cos(4x) + \frac{1}{2}\cos(2x) + \frac{3}{8}$$
-$$\frac{\sin(4x)}{32} + \frac{\sin(2x)}{4} + \frac{3x}{8}$$
+$$F(x) = \frac{\sin(4x)}{32} + \frac{\sin(2x)}{4} + \frac{3x}{8}$$
 
 ##### 2.
 $$(\mathcal{H}) : y'' +y = 0$$
@@ -567,4 +567,10 @@ $$\begin{pmatrix}
 \alpha' = -\sin \cos ^{3} \\
 \beta' = \cos ^{4}
 \end{cases}$$
-$$()$$
+$$\left(  \frac{\cos^{4}}{4}, F \right)$$
+est une sol de ce sys 
+or 
+$$y_{p} = \cos \frac{^{4}}{4} \cos + F\sin$$
+est une sol de $y'' + y = \cos ^{3}$
+Finalement l'ensemble des solutions de $y'' + y = \cos ^{3}$ est l'ensemble des fonctions $y$ pour lesquelles 
+$$\exists a, b \in \mathbb{R}, y = y_{p} + a\cos + b \sin$$
