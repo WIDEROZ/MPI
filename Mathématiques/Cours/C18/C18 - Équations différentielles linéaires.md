@@ -664,4 +664,49 @@ $$E_{-3} = \mathrm{Ker}\begin{pmatrix}
 1 \\
 1
 \end{pmatrix}$$
-$$E_{1}(A) = \mathrm{Ker}$$
+$$E_{1}(A) = \mathrm{Ker}\begin{pmatrix}
+-4&5&-5 \\
+-4&5&-5 \\
+-4&4&-4
+\end{pmatrix} = Vect\begin{pmatrix}
+0 \\
+1 \\
+1
+\end{pmatrix}$$
+$$E_{2}(A) = Vect\begin{pmatrix}
+1 \\
+1 \\
+0
+\end{pmatrix}$$
+Donc si on note : 
+$$ Y_{1} : t \in \mathbb{R} \mapsto e^{ -3 t }\begin{pmatrix}
+1 \\
+1 \\
+1
+\end{pmatrix}$$
+$$ Y_{2} : t \in \mathbb{R} \mapsto e^{  t }\begin{pmatrix}
+0 \\
+1 \\
+1
+\end{pmatrix}$$
+$$ Y_{3} : t \in \mathbb{R} \mapsto e^{ 2 t }\begin{pmatrix}
+1 \\
+1 \\
+0
+\end{pmatrix}$$
+Donc $(Y_{1}, Y_{2}, Y_{3})$ est un SFS de $(\mathcal{H})$ ie que : $(x, y, z)$ est solution de $X$ ssi : 
+$$\exists a, b, c \in \mathbb{R}, \forall  t \in \mathbb{R}, \begin{cases}
+x(t) = a e^{ -3t } + c e^{ 2t } \\
+y(t) = ae^{ -3t } + b e^{ t } + c e^{2t } \\
+z(t) = a e^{ -3t } + b e^{ t }
+\end{cases}$$
+### Allure des courbes intégrales
+Si $X$ est solution de $(\mathcal{H})$, 
+$$\{ X(t) ; t \in \mathbb{R} \} \subset \mathbb{R}^{2} \text{ s'appelle une courbe intégrale}$$
+Le théorème de Cauchy nous dit que : 
+$\forall (a, b) \in \mathbb{R}^{2}$ il existe une courbe intégrale contenant ce point
+#### Dans le cas ou $A$ est DZ
+il existe une base : $(X_{1}, X_{2})$ de vecteurs propres de $A$ 
+$$AX_{1} = \alpha_{1} X_{1}, A X_{2} = \alpha_{2} X_2$$
+et les courbes sont les : 
+$$X : t \in \mathbb{R} \mapsto a$$
