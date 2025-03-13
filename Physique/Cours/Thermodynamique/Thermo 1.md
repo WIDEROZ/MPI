@@ -21,11 +21,4 @@ $$\boxed{R_{th} = \frac{1}{\gamma} \frac{L}{S}}$$
 $$T_{1}-T_{C} = \frac{R_{1}}{R_{1}+R_{2}}(T_{2}-T_{1})\Rightarrow T_{C} = \frac{R_{1}}{R_{1}+R_{2}} (T_{1}-T_{2}) + T_{1}$$
 $$T_{C} = \frac{\left( 2 \frac{L_{1}}{\lambda_{1}} + \frac{L_{2}}{\lambda_{2}} \right)T_{1}-\frac{L_{1}}{\lambda_{1}}T_{2}}{\frac{L_{1}}{\lambda_{1}}+\frac{L_{2}}{\lambda_{2}}}$$
 
-
-
-sion
-viège
-sierre
-martigny
-crans-montana
-saint-maurice
+$$$$
