@@ -711,3 +711,9 @@ $$AX_{1} = \alpha_{1} X_{1}, A X_{2} = \alpha_{2} X_2$$
 et les courbes sont les : 
 $$X : t \in \mathbb{R} \mapsto ae^{ \alpha_{1}t }X_{1} + b e^{ \alpha_{2}t }X_{2}$$
 Si $\alpha_{1} = \alpha_{2}>0$, 
+![[Pasted image 20250313150930.png]]
+Si $\alpha_{1} >0$ et $\alpha_{2}=0$, 
+
+
+Si $0\leq \alpha_{1}\leq \alpha_{2}$,
+![[Pasted image 20250313151429.png]]
