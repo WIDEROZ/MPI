@@ -713,7 +713,9 @@ $$X : t \in \mathbb{R} \mapsto ae^{ \alpha_{1}t }X_{1} + b e^{ \alpha_{2}t }X_{2
 Si $\alpha_{1} = \alpha_{2}>0$, 
 ![[Pasted image 20250313150930.png]]
 Si $\alpha_{1} >0$ et $\alpha_{2}=0$, 
-
+![[Pasted image 20250313151819.png]]
 
 Si $0\leq \alpha_{1}\leq \alpha_{2}$,
 ![[Pasted image 20250313151429.png]]
+Si $\alpha_{1} < 0 < \alpha_{2}$, 
+![[Pasted image 20250313152332.png]]
