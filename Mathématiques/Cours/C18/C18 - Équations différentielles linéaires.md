@@ -574,3 +574,13 @@ $$y_{p} = \cos \frac{^{4}}{4} \cos + F\sin$$
 est une sol de $y'' + y = \cos ^{3}$
 Finalement l'ensemble des solutions de $y'' + y = \cos ^{3}$ est l'ensemble des fonctions $y$ pour lesquelles 
 $$\exists a, b \in \mathbb{R}, y = y_{p} + a\cos + b \sin$$
+
+# V. Systèmes différentiels à coefficients constants
+Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
+On cherche, $X : t \in I \mapsto \begin{pmatrix}x_{1}(t)\\\vdots \\ x_{n}(t)\end{pmatrix}$
+Solutions de $X' = AX$
+Ici, $A$ est constante ie ne dépend pas de $t$
+
+#### Théorème
+Soit $t_{0} \in \mathbb{R}, X_{0} \in \mathcal{M}_{n, 1}(\mathbb{K})$,
+l'
