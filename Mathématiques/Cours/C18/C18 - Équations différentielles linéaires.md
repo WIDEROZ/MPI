@@ -709,4 +709,5 @@ $\forall (a, b) \in \mathbb{R}^{2}$ il existe une courbe intégrale contenant ce
 il existe une base : $(X_{1}, X_{2})$ de vecteurs propres de $A$ 
 $$AX_{1} = \alpha_{1} X_{1}, A X_{2} = \alpha_{2} X_2$$
 et les courbes sont les : 
-$$X : t \in \mathbb{R} \mapsto a$$
+$$X : t \in \mathbb{R} \mapsto ae^{ \alpha_{1}t }X_{1} + b e^{ \alpha_{2}t }X_{2}$$
+Si $\alpha_{1} = \alpha_{2}>0$, 
