@@ -600,3 +600,20 @@ De plus il nous dit que toute solution de $X' = AX$, étant la solution du probl
 On a : $\forall t \in \mathbb{R}, X(t) = e^{ tA }X(0)$
 Comme $X(0) \in \mathcal{M}_{n, 1}(\mathbb{K})$ c'est terminé.
 
+#### Propriété
+Si $\alpha \in Sp(A)$, $X_{0} \in \mathcal{M}_{n, 1}(\mathbb{K})$ est un VP de $\alpha$ associé à $\alpha$, alors, $X:t \in \mathbb{R} \mapsto e^{ \alpha t }X_{0}$ est une solution de $(\mathcal{H})$
+___
+Si $A$ est DZ, notons $\alpha_{1}, \dots, \alpha_{n}$ ses valeurs propres et $X_{1}, \dots, X_{n} \in \mathcal{M}_{n, 1}(\mathbb{K})$ une base de vecteurs propres, 
+$$\forall k \in [\![1, n]\!], AX_{k} = \alpha_{k}X_{k}$$
+Alors, en notant 
+$$\forall k \in [\![1, n]\!], Y_{k} : t \in \mathbb{R} \mapsto e^{ \alpha_{k}t }X_{k}$$
+$$(Y_{1}, \dots, Y_{n}) \text{ est un SFS de }X' = AX$$
+
+Démonstration : 
+$$\forall t \in \mathbb{R}, X'(t) = \alpha e^{ \alpha t }X_{0} = e^{ \alpha t }\alpha X_{0} = e^{ \alpha t }AX_{0} = AX(t)$$
+___
+D'après le premier point, 
+$$(Y_{1}, \dots, Y_{n}) \text{ est une famille de solutions de }X' = AX$$
+Or $\dim Sol(\mathcal{H}) = n = \left| (Y_{1}, \dots, Y_{n})\right|$
+Il suffit donc de prouver qu'elle est libre
+Soit $\lambda_{1}, \dots, \lambda_{n} \in \mathbb{K}$
