@@ -583,4 +583,19 @@ Ici, $A$ est constante ie ne dépend pas de $t$
 
 #### Théorème
 Soit $t_{0} \in \mathbb{R}, X_{0} \in \mathcal{M}_{n, 1}(\mathbb{K})$,
-l'
+l'unique solution de $X' = AX$ au problème de Cauchy : $X(t_{0}) = X_{0}$ est la fonction :
+$$X : t\in \mathbb{R} \mapsto e^{ (t-t_{0})A }X_{0} \in \mathcal{M}_{n, 1}(\mathbb{R})$$
+Et l'ensemble des solutions de $X'=AX$ est l'ensemble des fonctions qui s'écrivent :
+$$X : t \in \mathbb{R} \mapsto e^{ tA }K \text{ ou } K \in \mathcal{M}_{n, 1}(\mathbb{K})$$
+Démonstration :
+$$X : t\in \mathbb{R} \mapsto e^{ (t-t_{0})A }X_{0} \in \mathcal{M}_{n, 1}(\mathbb{R})$$
+Donc $X(t_{0}) = e^{ 0 }X_{0} = I_{n}X_{0} = X_{0}$
+et 
+$$\forall t \in \mathbb{R}, X'(t) = \left( \frac{\partial }{\partial t} e^{ (t-t_{0})A } \right)X_{0} = \left( \frac{\partial }{\partial t} e^{ tA }e^{ -t_{0}A } \right)X_{0} $$
+$$= Ae^{ tA }e^{ -t_{0}A }X_{0} = AX(t)$$
+___
+En posant : $t_{0}=0$, le calcul effectué nous dit que :
+$$\forall K \in \mathcal{M}_{n, 1}(\mathbb{K}), t \mapsto e^{ tA }K \in \mathcal{M}_{n, 1}(\mathbb{K}) \text{ est une solution de }X'=AX$$
+De plus il nous dit que toute solution de $X' = AX$, étant la solution du problème de Cauchy : $X(0) = X(0)$
+On a : $\forall t \in \mathbb{R}, X(t) = e^{ tA }X(0)$
+Comme $X(0) \in \mathcal{M}_{n, 1}(\mathbb{K})$ c'est terminé
