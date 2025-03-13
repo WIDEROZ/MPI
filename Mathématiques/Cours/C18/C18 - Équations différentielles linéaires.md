@@ -616,4 +616,52 @@ D'après le premier point,
 $$(Y_{1}, \dots, Y_{n}) \text{ est une famille de solutions de }X' = AX$$
 Or $\dim Sol(\mathcal{H}) = n = \left| (Y_{1}, \dots, Y_{n})\right|$
 Il suffit donc de prouver qu'elle est libre
-Soit $\lambda_{1}, \dots, \lambda_{n} \in \mathbb{K}$
+Soit $\lambda_{1}, \dots, \lambda_{n} \in \mathbb{K}$ tel que : 
+$$\sum_{k = 1}^{n} \lambda_{k} Y_{k} = 0_{\mathcal{C}^{1}(\mathbb{R}, \mathcal{M}_{n, 1}(\mathbb{K}))} $$
+Alors, en évaluant en $t=0$, 
+$$\sum_{k = 1}^{n} \lambda_{k}X_{k} = 0_{\mathcal{M}_{n, 1}(\mathbb{K})}$$
+Comme : $(X_{1}, \dots, X_{n})$ est une base de $\mathcal{M}_{n, 1}(\mathbb{K})$, 
+$$\forall k \in [\![1, n]\!], \lambda_{k} = 0$$
+
+#### Exemple
+Résoudre :
+$$X' = AX, \text{où } X = \begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix}$$
+et 
+$$A = \begin{pmatrix}
+-3&5&-5 \\
+-4&6&-5 \\
+-4&4&-3
+\end{pmatrix}$$
+Calculons : 
+
+$$\chi_{A}(\lambda) = (-1)^{3} \left| \begin{array}{c}
+-3-\lambda&5&-5 \\
+-4&6-\lambda&-5 \\
+-4&4&-3-\lambda
+\end{array}\right| $$
+$$= - \left| \begin{array}{c}
+-3-\lambda&5&-5 \\
+-3-\lambda&6-\lambda&-5 \\
+-3-\lambda&4&-3-\lambda
+\end{array}\right| = \left| \begin{array}{c}
+\lambda+3&5&-5 \\
+0&1-\lambda&0 \\
+0&-1&2-\lambda
+\end{array}\right| $$
+Ainsi, 
+$$\chi_{A} = (X-1)(X-2)(X+3)$$
+Donc, $Sp(A) = \{ 1, 2, -3 \}$
+$$E_{-3} = \mathrm{Ker}\begin{pmatrix}
+0&5&-5 \\
+-4&9&-5 \\
+-4&4&0
+\end{pmatrix} = Vect\begin{pmatrix}
+1 \\
+1 \\
+1
+\end{pmatrix}$$
+$$E_{1}(A) = \mathrm{Ker}$$
