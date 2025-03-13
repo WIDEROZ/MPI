@@ -598,4 +598,5 @@ En posant : $t_{0}=0$, le calcul effectué nous dit que :
 $$\forall K \in \mathcal{M}_{n, 1}(\mathbb{K}), t \mapsto e^{ tA }K \in \mathcal{M}_{n, 1}(\mathbb{K}) \text{ est une solution de }X'=AX$$
 De plus il nous dit que toute solution de $X' = AX$, étant la solution du problème de Cauchy : $X(0) = X(0)$
 On a : $\forall t \in \mathbb{R}, X(t) = e^{ tA }X(0)$
-Comme $X(0) \in \mathcal{M}_{n, 1}(\mathbb{K})$ c'est terminé
+Comme $X(0) \in \mathcal{M}_{n, 1}(\mathbb{K})$ c'est terminé.
+
