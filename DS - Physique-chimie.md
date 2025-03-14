@@ -91,3 +91,9 @@ Ainsi en projetant sur l'axe des $x$ :
 $${j}_{Q}(x, t) = \varphi_{S}(x, t)S = -\lambda \frac{\partial T}{\partial x}  \text{ ainsi, }\boxed{\varphi_{S}(x, t) = - \frac{\lambda}{S} \frac{\partial T}{\partial x}} $$
 
 ### A2.6
+D'après la question A2.4 et la question précédente, en injectant $\varphi_{S}$ trouvé à la question précédente dans l'équation de la question A2.4
+$$\frac{\partial T}{\partial t}  + \frac{\lambda}{S\rho c} \frac{\partial^{2} T}{\partial x^{2}} = \frac{\varphi_{V}(x, t)}{\rho c} \text{ Ainsi :  } \boxed{\frac{\partial^{2}T}{\partial x^{2}}  + \frac{S\rho c}{\lambda} \frac{\partial T}{\partial t}  = \frac{S}{\lambda}\varphi_{V}(x, t)}$$
+
+## A3 - Profil radial de la température du crayon combustible
+### A3.1
+$$$$
