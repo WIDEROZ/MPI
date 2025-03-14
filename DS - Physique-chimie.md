@@ -40,10 +40,9 @@ $$\boxed{\begin{cases}
 p_{a} = \sigma_{a}\delta = 2ne\sigma_{a} \\
 p_{b} = \sigma_{b}\delta = 2ne\sigma_{b}
 \end{cases}}$$
-alors, entre deux situations consécutives de brouillage : 
 
-#### b.
-$\lambda_{moy} = \frac{\lambda_{1} + \lambda_{2}}{2} = \frac{1}{2\sigma_{1}} + \frac{1}{2\sigma_{2}}$
-$$2\pi\cos\left( 2\frac{\delta}{\frac{1}{\sigma_{1}}+ \frac{1}{\sigma_{2}}} \right)$$
-$$= \frac{\delta \sigma_{1}\sigma_{2}}{\sigma_{1}+\sigma_{2}} = \frac{\delta p_{a}p_{b}}{2ne(p_{a}+p_{b})}$$
-$$$$
+## B. Mesure caractéristique d'une lamelle
+### 4.
+Dans le cas ou $n=1$, 
+$$\delta = 2e \sqrt{ 1-\sin ^{2}(i)} + \frac{\lambda_{0}}{2} = 2e |\cos(i)|+ \frac{\lambda_{0}}{2}$$
+Le dispositif est analogue à un Michelson en lame d'air c'est à dire que les franges seront circulaires puis que 
