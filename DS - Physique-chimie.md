@@ -52,4 +52,11 @@ De plus, $\frac{\lambda_{0}}{2}$ traduis un déphasage de $\pi$ dans le terme d'
 ## A. Étude thermique du combustible nucléaire
 ### A1 - Position du problème
 #### A1.1
-$$\overline{\varphi}_{v} = \frac{P_{th}}{V_{gaine}} = \frac{P_{th}}{\pi r_{c}^{2}h} =  \frac{P_{e}}{\eta \pi r_{c}^{2}h}$$
+$$\boxed{\overline{\varphi}_{V} = \frac{P_{th}}{NV_{combustible}} = \frac{P_{th}}{N\pi r_{c}^{2}h} =  \frac{P_{e}}{N\eta \pi r_{c}^{2}h} = 364.6 \text{ W.cm}^{-3}}$$
+#### A1.2
+Au niveau de la gaine : 
+$$\boxed{\overline{\varphi}_{S} = \frac{P_{th}}{NS_{combustible}} = \frac{P_{th}}{2N \pi r_{c}h} =  \frac{P_{e}}{2N\eta \pi r_{c}h} = 72.92 \text{ W.cm}^{-3}}$$
+
+#### A1.3
+On pose : $\Delta t = 1 \text{ an} = 365$
+$$P_{e} = \frac{E}{\Delta t}$$
