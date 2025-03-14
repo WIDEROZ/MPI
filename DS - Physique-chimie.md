@@ -30,4 +30,7 @@ $$I= I_{1} + I_{2} + \sqrt{I_{1}I_{2}}  \cos(\Delta \varphi) \text{ et } \Delta 
 La position sur l'écran est uniquement décrite par $\alpha$ donc les <u>franges sont circulaires</u>. 
 On calcule le contraste : 
 $$\boxed{\mathcal{C} = \frac{I_{\max}-I_{\min}}{I_{\max}+I_{\min}} = \frac{2\sqrt{I_{1}I_{2}}}{2(I_{1} + I_{2})} = \frac{\sqrt{I_{1}I_{2}}}{I_{1}+I_{2}}}$$
-et lorsque $I_{1} = I_{2}$ alors, $\mathcal{C} = \mathcal{C}_{\max} = \frac{1}{2}$ 
+et lorsque $I_{1} = I_{2}$ alors, $\boxed{\mathcal{C} = \mathcal{C}_{\max} = \frac{1}{2}}$ c'est le cas ou la séparatrice du Michelson divise parfaitement équitablement la lumière
+
+
+## 3.
