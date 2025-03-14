@@ -41,4 +41,7 @@ p_{a} = \sigma_{a}\delta = 2ne\sigma_{a} \\
 p_{b} = \sigma_{b}\delta = 2ne\sigma_{b}
 \end{cases}}$$
 alors, entre deux situations consécutives de brouillage : 
-$$$$
+On pose $e_{1}$ l'emplacement du miroir $1$ lorsque le signal n'est pas brouillé et $e_{2}$ lorsqu'il le devient $\Delta e = e_{2}-e_{1}$
+$$\delta = 2ne\cos(\alpha)$$
+$$2ne_{1}\sigma_{a}\cos(\alpha) = k + \frac{1}{2}$$
+$$\Delta \sigma = \frac{p_{a}}{2ne} - \frac{p_{b}}{2ne}$$
