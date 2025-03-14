@@ -22,7 +22,4 @@ $$T_{1}-T_{C} = \frac{R_{1}}{R_{1}+R_{2}}(T_{2}-T_{1})\Rightarrow T_{C} = \frac{
 $$T_{C} = \frac{\left( 2 \frac{L_{1}}{\lambda_{1}} + \frac{L_{2}}{\lambda_{2}} \right)T_{1}-\frac{L_{1}}{\lambda_{1}}T_{2}}{\frac{L_{1}}{\lambda_{1}}+\frac{L_{2}}{\lambda_{2}}}$$
 
 
-
-$$\Delta S_{A} = $$
-
-$$dU = TdS_{A} \Rightarrow \Delta S_{A}  =\frac{Q_{A}}{T_{A}} = $$
+$$\frac{Q_{A}}{T_{A}} = \frac{\Delta U}{T_{A}}= \frac{C_{A}(T_{f}-T_{1})}{T_{A}}$$
