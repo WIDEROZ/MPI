@@ -78,3 +78,14 @@ Soit $v \in \mathbb{R}^{n}$, on dit que $f$ admet en $a$ une dérivée selon $v$
 $$t \in \mathbb{R} \mapsto f(a+tv) \text{ est dérivable en }0$$
 On la note : 
 $$D_{v}f(a) = \lim_{ t \to 0 } \frac{f(a+tv) - f(a)}{t} = \frac{d}{dt}_{t=0} f(a+tv)$$
+
+#### Exercice
+Soit $f:(x, y) \in \mathbb{R}^{2} \mapsto \sqrt{x^{2}+y^{2}}$
+Soit $a = (x_{0}, y_{0})$ et $v=(v_{1}, v_{2})$
+$f$ admet elle une dérivée selon $v$?
+
+Si $a=(0,0)$, 
+$$f(a+tv) = f(tv) =\sqrt{t^{2}v_{1}^{2} + t^{2}v_{2}^{2}} = \left| t\right|\left|\left| t \right|\right|_{2} $$
+qui n'est pas dérivable en $t=0$ car $\left| t\right|$ ne l'est pas donc il n'existe pas $D_{v}(f(0,0))$
+Si $a\neq(0, 0)$, 
+$$f(a+tv) = \sqrt{(x_{0}+tv_{1})^{2} + (y_{0} + tv_{2})^{2}} = \sqrt{x_{0}^{2}+y_{0}}$$
