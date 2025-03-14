@@ -46,4 +46,10 @@ p_{b} = \sigma_{b}\delta = 2ne\sigma_{b}
 Dans le cas ou $n=1$, 
 $$\delta = 2e \sqrt{ 1-\sin ^{2}(i)} + \frac{\lambda_{0}}{2} = 2e |\cos(i)|+ \frac{\lambda_{0}}{2}$$
 Le dispositif est analogue à un Michelson en lame d'air c'est à dire que les franges seront circulaires. 
-De plus, $\frac{\lambda_{0}}{2}$ traduis un déphasage de $\pi$ dans le terme d'interférence de l'intensité donc contrairement au Michelson, les franges brillantes du michelson analogue seront inversés avec les franges brillantes du dispositif. 
+De plus, $\frac{\lambda_{0}}{2}$ traduis un déphasage de $\pi$ dans le terme d'interférence de l'intensité donc contrairement au Michelson, les franges brillantes du Michelson analogue seront inversés avec les franges brillantes du dispositif. 
+
+# Problème 2 : Centrale Nucléaire
+## A. Étude thermique du combustible nucléaire
+### A1 - Position du problème
+#### A1.1
+$$\overline{\varphi}_{v} = $$
