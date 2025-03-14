@@ -27,4 +27,7 @@ $$2\sqrt{I_{1}I_{2}}\left< s_{1}s_{2} \right>  = \sqrt{I_{1}I_{2}}\left< \cos((\
 comme $\omega_{1} + \omega_{2} \neq 0$, et comme $\omega_{1}=\omega_{2}$ car les sources sont cohérentes : 
 $$I= I_{1} + I_{2} + \sqrt{I_{1}I_{2}}  \cos(\Delta \varphi) \text{ et } \Delta \varphi =2\pi \frac{\delta}{\lambda_{0}} \text{ Ainsi } \boxed{I = I_{1} + I_{2} + \sqrt{I_{1}I_{2}}\cos\left(  2\pi\frac{2ne}{ \lambda_{0}}\cos(\alpha) \right)}$$
 
-Lorsque : $2\pi\frac{\delta}{\lambda_{0}} = 2k\pi$ avec $k \in \mathbb{N}$, alors $I = I_{\max}$ donc les franges sont brillantes pour : $\cos(\alpha) = \frac{k\lambda_{0}}{2ne}$
+La position sur l'écran est uniquement décrite par $\alpha$ donc les <u>franges sont circulaires</u>. 
+On calcule le contraste : 
+$$\boxed{\mathcal{C} = \frac{I_{\max}-I_{\min}}{I_{\max}+I_{\min}} = \frac{2\sqrt{I_{1}I_{2}}}{2(I_{1} + I_{2})} = \frac{\sqrt{I_{1}I_{2}}}{I_{1}+I_{2}}}$$
+et lorsque $I_{1} = I_{2}$ alors, $\mathcal{C} = \mathcal{C}_{\max} = \frac{1}{2}$ 
