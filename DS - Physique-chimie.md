@@ -52,4 +52,4 @@ De plus, $\frac{\lambda_{0}}{2}$ traduis un déphasage de $\pi$ dans le terme d'
 ## A. Étude thermique du combustible nucléaire
 ### A1 - Position du problème
 #### A1.1
-$$\overline{\varphi}_{v} = $$
+$$\overline{\varphi}_{v} = \frac{P_{th}}{V_{gaine}} = \frac{P_{th}}{\pi r_{c}^{2}h} =  \frac{P_{e}}{\eta \pi r_{c}^{2}h}$$
