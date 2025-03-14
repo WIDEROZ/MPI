@@ -23,4 +23,4 @@ $$T_{C} = \frac{\left( 2 \frac{L_{1}}{\lambda_{1}} + \frac{L_{2}}{\lambda_{2}} \
 
 
 $$S_e = \frac{Q_{A}}{T_{A}} = \frac{\Delta U}{T_{A}}= \frac{C_{A}(T_{f}-T_{1})}{T_{f}}$$
-$$\delta S_{ech} = \frac{\delta Q_{A}}{T_{f}} = \frac{C_{A}dT}{T_{f}}$$
+$$\delta S_{ech} = \frac{\delta Q_{A}}{T} = \frac{C_{A}dT}{T} \Rightarrow S_{ech} = C_{A}\ln\left( \frac{T_{f}}{T_{i}} \right)$$
