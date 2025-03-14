@@ -58,5 +58,9 @@ Au niveau de la gaine :
 $$\boxed{\overline{\varphi}_{S} = \frac{P_{th}}{NS_{combustible}} = \frac{P_{th}}{2N \pi r_{c}h} =  \frac{P_{e}}{2N\eta \pi r_{c}h} = 72.92 \text{ W.cm}^{-3}}$$
 
 #### A1.3
-On pose : $\Delta t = 1 \text{ an} = 365$
-$$P_{e} = \frac{E}{\Delta t}$$
+On pose : $\Delta t = 1 \text{ an} = 365\times24\times60\times60 = 31536000\text{ s}$ 
+$$P_{235} = \frac{E_{f}}{\Delta t} = \frac{200\times 1.6 \times 10^{-13}}{31536000} \text{ W} = 1.01 \times 10^{-18}\text{ W}$$
+or : 
+$$N_{f}P_{235} = P_{th}$$
+Donc, 
+$$\boxed{N_{f} = \frac{P_{th}}{P_{235}} = \frac{P_{e}}{\eta P_{235}} = \frac{1.45 \times10^{9}}{0.34 \times 1.01 \times {10}^{-18}} = 4.22 \times10^{27}}$$
