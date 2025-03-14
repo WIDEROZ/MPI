@@ -64,3 +64,14 @@ or :
 $$N_{f}P_{235} = P_{th}$$
 Donc, 
 $$\boxed{N_{f} = \frac{P_{th}}{P_{235}} = \frac{P_{e}}{\eta P_{235}} = \frac{1.45 \times10^{9}}{0.34 \times 1.01 \times {10}^{-18}} = 4.22 \times10^{27}}$$
+
+### A2 - Equation de la chaleur dans un milieu à une dimension
+### A2.1
+Système : corp solide
+Comme le système est une phase condensée : 
+$$d^{2}U = C \, dT = dm\,c \, dT = \rho dV c \,dT  \text{ comme }dU \text{ et } dT \text{ sont homogènes dans le solide : } \boxed{d^{2}U = \rho S dx c \, dT}$$
+
+### A2.2
+Par le premier principe de la thermodynamique : 
+$dU = \delta W + \delta Q$, or le système est un solide incompressible donc $\delta W = 0$ et $dU = \delta Q$
+$$\delta^{2} Q = d\phi dt = (\varphi_{E})Sdt$$
