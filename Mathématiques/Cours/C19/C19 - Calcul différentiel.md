@@ -45,6 +45,7 @@ $$= \lim_{ t \to 0 } \frac{f(a+te_{k})-f(a)}{t}$$
 C'est un rapport de polynome donc $f$ est définie en tout point de $(x, y)\in\mathbb{R}^{2}$ tel que : 
 $$x^{2}+y^{2}-xy \neq 0$$
 Or d'après $1$ : 
+Soit $(x, y)\neq (0, 0)$
 $$x^{2}+y^{2}-xy =0 \Rightarrow 0 \geq \frac{x^{2}+y^{2}}{2}\geq 0 \Rightarrow (x, y)=(0, 0)$$
 Donc, $D_{f} = \mathbb{R}^{2}$
 $$\left| f(x, y) \right| \leq \frac{2y^{2}}{x^{2}+y^{2}} \leq 2y^{2} \leq 2 \left|\left| (x, y) \right|\right| _{\infty}^{2} \underset{(x, y) \to (0, 0)}{\longrightarrow} 0$$
@@ -52,3 +53,17 @@ $$\left| f(x, y) \right| \leq \frac{2y^{2}}{x^{2}+y^{2}} \leq 2y^{2} \leq 2 \lef
 Donc, 
 $$\lim_{ (x, y) \to (0, 0) } f(x, y) = 0 $$
 Si bien qu'elle est continue en $0$ $\Leftrightarrow$ $\alpha = 0$
+###### b.
+Soit $(x, y)\neq (0, 0)$, 
+$f$ est une fraction rationnelle définie en : $(x, y)$ elle admet donc en $(x, y)$ deux dérivés partielles :
+$$\frac{\partial f}{\partial x} (x, y) = \frac{y^{4}(-2x+y)}{(x^{2}+y^{2}-xy)^{2}}$$
+$$\frac{\partial f}{\partial y} (x, y) = \frac{4y^{3}(x^{2}+y^{2}-xy) - y^{4}(2y-x)}{(x^{2}+y^{2}-xy)^{2}}$$
+###### c.
+$$\forall x \neq 0,\frac{f(x, 0)-f(0, 0)}{x} = 0$$
+donc sa limite en $0$ est nulle, ie 
+$$\frac{\partial f}{\partial x} (0, 0) =0$$
+$$\frac{f(0, y)-f(0, 0)}{y} = y \underset{y \to 0}{\longrightarrow} 0$$
+$$\frac{\partial f}{\partial y}  (0, 0) = 0$$
+###### d.
+Les fonctions rationnelles sont continues sur leur ensemble de def. donc $\frac{\partial f}{\partial x}$ et $\frac{\partial f}{\partial y}$ aussi sur $\mathbb{R}^{2}\setminus \{ (0, 0) \}$ 
+$$$$
