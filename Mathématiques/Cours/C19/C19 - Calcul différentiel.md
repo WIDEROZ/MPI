@@ -58,12 +58,23 @@ Soit $(x, y)\neq (0, 0)$,
 $f$ est une fraction rationnelle définie en : $(x, y)$ elle admet donc en $(x, y)$ deux dérivés partielles :
 $$\frac{\partial f}{\partial x} (x, y) = \frac{y^{4}(-2x+y)}{(x^{2}+y^{2}-xy)^{2}}$$
 $$\frac{\partial f}{\partial y} (x, y) = \frac{4y^{3}(x^{2}+y^{2}-xy) - y^{4}(2y-x)}{(x^{2}+y^{2}-xy)^{2}}$$
-###### c.
+##### 3.
+###### a.
 $$\forall x \neq 0,\frac{f(x, 0)-f(0, 0)}{x} = 0$$
 donc sa limite en $0$ est nulle, ie 
 $$\frac{\partial f}{\partial x} (0, 0) =0$$
 $$\frac{f(0, y)-f(0, 0)}{y} = y \underset{y \to 0}{\longrightarrow} 0$$
 $$\frac{\partial f}{\partial y}  (0, 0) = 0$$
-###### d.
+
+###### b.
 Les fonctions rationnelles sont continues sur leur ensemble de def. donc $\frac{\partial f}{\partial x}$ et $\frac{\partial f}{\partial y}$ aussi sur $\mathbb{R}^{2}\setminus \{ (0, 0) \}$ 
-$$$$
+$$\forall (x, y) \in \mathbb{R}^{2} \setminus \{ (0, 0) \}, \left| \frac{\partial f}{\partial x}(x, y) \right| \leq y^{4} \frac{2\left| x\right|+\left| y\right|}{\left( \frac{x^{2}+y^{2}}{2} \right)^{2}} $$
+$$\leq 2^{2} \frac{N^{4}(2N+N)}{(N^{2})^{2}} = 12N \text{ ou }N = \left|\left| (x, y) \right|\right| _{\infty} \leq \sqrt{x^{2}+y^{2}} $$
+$$\text{ et } 12N \underset{(x, y) \to (0, 0)}{\longrightarrow} 0$$
+
+#### Définition
+En prenant les mêmes hypothèses, 
+Soit $v \in \mathbb{R}^{n}$, on dit que $f$ admet en $a$ une dérivée selon $v$ lorsque : 
+$$t \in \mathbb{R} \mapsto f(a+tv) \text{ est dérivable en }0$$
+On la note : 
+$$D_{v}f(a) = \lim_{ t \to 0 } \frac{f(a+tv) - f(a)}{t} = \frac{d}{dt}_{t=0} f(a+tv)$$
