@@ -25,7 +25,7 @@ Or, $\left< \cos(f(t))^{2} \right> = \frac{1}{2}$ avec $f$ non constante alors,
 $$I = I_{1} + I_{2} + 2\sqrt{I_{1}I_{2}}\left< \cos(\omega_{1}t- \varphi_{1})\cos(\omega_{2}t-\varphi_{2}) \right> \text{ alors comme : }\cos\left( a+b \right)+\cos\left( a-b \right)= 2\cos\left( a \right)\cos\left( b \right) $$
 $$2\sqrt{I_{1}I_{2}}\left< s_{1}s_{2} \right>  = \sqrt{I_{1}I_{2}}\left< \cos((\omega_{1}+\omega_{2})t - (\varphi_{1} + \varphi_{2})) + \cos((\omega_{1}-\omega_{2})t -\Delta \varphi) \right> $$
 comme $\omega_{1} + \omega_{2} \neq 0$, et comme $\omega_{1}=\omega_{2}$ car les sources sont cohérentes : 
-$$I= I_{1} + I_{2} + \sqrt{I_{1}I_{2}}  \cos(\Delta \varphi) \text{ et } \Delta \varphi =2\pi \frac{\delta}{\lambda_{0}} \text{ Ainsi } \boxed{I = I_{1} + I_{2} + \sqrt{I_{1}I_{2}}\cos\left(  2\pi\frac{2ne}{ \lambda_{0}}\cos(\alpha) \right)}$$
+$$I= I_{1} + I_{2} + \sqrt{I_{1}I_{2}}  \cos(\Delta \varphi) \text{ et } \Delta \varphi =\frac{\delta}{2\pi \lambda_{0}} \text{ Ainsi } \boxed{I = I_{1} + I_{2} + \sqrt{I_{1}I_{2}}\cos\left(  \frac{ne}{\pi  \lambda_{0}}\cos(\alpha) \right)}$$
 
 La position sur l'écran est uniquement décrite par $\alpha$ donc les <u>franges sont circulaires</u>. 
 On calcule le contraste : 
@@ -33,4 +33,12 @@ $$\boxed{\mathcal{C} = \frac{I_{\max}-I_{\min}}{I_{\max}+I_{\min}} = \frac{2\sqr
 et lorsque $I_{1} = I_{2}$ alors, $\boxed{\mathcal{C} = \mathcal{C}_{\max} = \frac{1}{2}}$ c'est le cas ou la séparatrice du Michelson divise parfaitement équitablement la lumière
 
 
-## 3.
+### 3.
+#### a.
+Au centre de la figure d'interférence $\alpha = 0$ ie $\cos(\alpha) =1$
+$$\boxed{\begin{cases}
+p_{a} = \sigma_{a}\delta = 2ne\sigma_{a} \\
+p_{b} = \sigma_{b}\delta = 2ne\sigma_{b}
+\end{cases}}$$
+alors, entre deux situations consécutives de brouillage : 
+$$$$
