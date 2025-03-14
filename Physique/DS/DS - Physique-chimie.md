@@ -100,4 +100,10 @@ $$\frac{\partial T}{\partial t}  + \frac{\lambda}{\rho c} \frac{\partial^{2} T}{
 Je continue donc avec cette équation de chaleur : 
 $$\Delta(T)  + \frac{\rho c}{\lambda} \frac{\partial T}{\partial t}  = \varphi_{V}(x, t)$$
 Alors, 
-$$$$
+$$\Delta T = \frac{1}{r}\frac{\partial }{\partial r} \left( r\frac{\partial T}{\partial r}  \right) + \frac{\partial^{2}T}{\partial z^{2}} \text{ car }T \text{ ne dépent pas de }\theta $$
+Ainsi, 
+$$\boxed{\frac{1}{r} \frac{\partial }{\partial r} \left( r \frac{\partial T}{\partial r}  \right) + \frac{\partial^{2}T}{\partial z^{2}} + \frac{\rho c}{\lambda} \frac{\partial T}{\partial t} = \varphi_{V}(x, t) }$$
+
+### A3.2
+En régime permanent : 
+$$\frac{1}{r} \frac{\partial }{\partial r}\left( r \frac{\partial T}{\partial r}  \right) + \frac{\partial^{2}T}{\partial z^{2}}  = \varphi_{V}(r) $$
