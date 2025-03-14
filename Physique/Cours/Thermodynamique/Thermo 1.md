@@ -23,3 +23,6 @@ $$T_{C} = \frac{\left( 2 \frac{L_{1}}{\lambda_{1}} + \frac{L_{2}}{\lambda_{2}} \
 
 
 
+$$\Delta S_{A} = $$
+
+$$dU = TdS_{A} \Rightarrow \Delta S_{A}  =\frac{Q_{A}}{T_{A}} = $$
