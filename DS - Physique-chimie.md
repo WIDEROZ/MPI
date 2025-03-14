@@ -82,6 +82,12 @@ $$\boxed{\delta^{2}Q = d\phi dt = (\varphi_{S}(x, t)+ \varphi_{V}(x, t)dx - \var
 
 ### A2.4
 $$d^{2}U = \delta^{2}Q \text{ alors, } \rho  c \, dT dx = (\varphi_{S}(x, t)+ \varphi_{V}(x, t)dx - \varphi_{S}(x+dx, t))dt $$
-$$ \text{ Ainsi, on a : }\boxed{dT =  \frac{1}{\rho c}\frac{\partial \varphi_{S}}{\partial x} dt  +\frac{\varphi_{V}}{\rho c}dt }$$
+$$ \text{ Ainsi, on a : }\boxed{dT =  \frac{1}{\rho c}\frac{\partial \varphi_{S}}{\partial x} dt  +\frac{\varphi_{V}(x, t)}{\rho c}dt }$$
 
 ### A2.5
+Pour $j_{Q}$ une densité d'énergie et $\lambda$ le coefficient de conduction
+$$\boxed{\vec{j}_{Q} = -\lambda  \overrightarrow{grad}(T)}$$
+Ainsi en projetant sur l'axe des $x$ : 
+$${j}_{Q}(x, t) = \varphi_{S}(x, t)S = -\lambda \frac{\partial T}{\partial x}  \text{ ainsi, }\boxed{\varphi_{S}(x, t) = - \frac{\lambda}{S} \frac{\partial T}{\partial x}} $$
+
+### A2.6
