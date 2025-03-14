@@ -92,8 +92,12 @@ $${j}_{Q}(x, t) = \varphi_{S}(x, t) = -\lambda \frac{\partial T}{\partial x}  \t
 
 ### A2.6
 D'après la question A2.4 et la question précédente, en injectant $\varphi_{S}$ trouvé à la question précédente dans l'équation de la question A2.4
-$$\frac{\partial T}{\partial t}  + \frac{\lambda}{\rho c} \frac{\partial^{2} T}{\partial x^{2}} = \frac{\varphi_{V}(x, t)}{\rho c} \text{ Ainsi :  } \boxed{\frac{\partial^{2}T}{\partial x^{2}}  + \frac{\rho c}{\lambda} \frac{\partial T}{\partial t}  = \frac{\varphi_{V}(x, t)}{\lambda}}$$
+$$\frac{\partial T}{\partial t}  + \frac{\lambda}{\rho c} \frac{\partial^{2} T}{\partial x^{2}} = \frac{\varphi_{V}(x, t)}{\rho c} \text{ alors :  } \boxed{\frac{\partial^{2}T}{\partial x^{2}}  + \frac{\rho c}{\lambda} \frac{\partial T}{\partial t}  = \frac{\varphi_{V}(x, t)}{\lambda}}$$
+<u>Problème : normalement pas de </u> $\lambda$ <u>au dénominateur</u>
 
 ## A3 - Profil radial de la température du crayon combustible
 ### A3.1
+Je continue donc avec cette équation de chaleur : 
+$$\Delta(T)  + \frac{\rho c}{\lambda} \frac{\partial T}{\partial t}  = \varphi_{V}(x, t)$$
+Alors, 
 $$$$
