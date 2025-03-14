@@ -25,4 +25,4 @@ $$T_{C} = \frac{\left( 2 \frac{L_{1}}{\lambda_{1}} + \frac{L_{2}}{\lambda_{2}} \
 
 
 
-$$\frac{\partial \vec{j}_{Q}}{\partial x} = $$
+$$e = \frac{+Q_{C}}{W}$$
