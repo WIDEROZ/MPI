@@ -18,10 +18,13 @@ $$\boxed{\delta = 2ne \frac{1-\sin ^{2}(\alpha)}{\cos(\alpha)}  = 2ne \cos(\alph
 
 #### c.
 Pour deux signaux lumineux :
-$$s_{1} = \sqrt{2I_{1}}\cos(\omega_{1} t - \Delta \varphi_{1}), s_{2} = \sqrt{2I_{2}}\cos(\omega_{2} t - \Delta \varphi_{2})$$
+$$s_{1} = \sqrt{2I_{1}}\cos(\omega_{1} t - \varphi_{1}), s_{2} = \sqrt{2I_{2}}\cos(\omega_{2} t - \varphi_{2}) \text{ on pose de plus : }\Delta \varphi = \varphi_{2} - \varphi_{1}$$
 l'intensité totale $I$ vaut : 
-$$I = \left< s^{2} \right> = \left< (s_{1}+s_{2})^{2} \right> = \left< s_{1}^{2} \right> + \left< s_{2}^{2} \right>  + 2\left< s_{1}s_{2} \right>  = 2I_{1}\left< \cos(\omega_{1}t-\varphi_{1})^{2} \right> + 2I_{2}\left< \cos(\omega_{1}t - \Delta\varphi_{2})^{2} \right> + 2 \sqrt{I_{1}I_{2}}\left< s_{1}s_{2} \right>  $$
+$$I = \left< s^{2} \right> = \left< (s_{1}+s_{2})^{2} \right> = \left< s_{1}^{2} \right> + \left< s_{2}^{2} \right>  + 2\left< s_{1}s_{2} \right>  = 2I_{1}\left< \cos(\omega_{1}t-\varphi_{1})^{2} \right> + 2I_{2}\left< \cos(\omega_{1}t - \varphi_{2})^{2} \right> + 2 \sqrt{I_{1}I_{2}}\left< s_{1}s_{2} \right>  $$
 Or, $\left< \cos(f(t))^{2} \right> = \frac{1}{2}$ avec $f$ non constante alors, 
-$$I = I_{1} + I_{2} + 2\sqrt{I_{1}I_{2}}\left< \cos(\omega_{1}t-\Delta \varphi_{1})\cos(\omega_{2}t-\Delta \varphi_{2}) \right> \text{ alors comme : }\cos\left( a+b \right)+\cos\left( a-b \right)= 2\cos\left( a \right)\cos\left( b \right) $$
-$$2\sqrt{I_{1}I_{2}}\left< s_{1}s_{2} \right>  = \sqrt{I_{1}I_{2}}\left< \cos(\omega_{1}+\omega_{2}t -(\Delta\varphi_{1} + \Delta \varphi_{2})) + \cos((\omega_{1}-\omega_{2})t -(\Delta \varphi_{1}- \Delta \varphi_{2})) \right> $$
+$$I = I_{1} + I_{2} + 2\sqrt{I_{1}I_{2}}\left< \cos(\omega_{1}t- \varphi_{1})\cos(\omega_{2}t-\varphi_{2}) \right> \text{ alors comme : }\cos\left( a+b \right)+\cos\left( a-b \right)= 2\cos\left( a \right)\cos\left( b \right) $$
+$$2\sqrt{I_{1}I_{2}}\left< s_{1}s_{2} \right>  = \sqrt{I_{1}I_{2}}\left< \cos((\omega_{1}+\omega_{2})t - (\varphi_{1} + \varphi_{2})) + \cos((\omega_{1}-\omega_{2})t -\Delta \varphi) \right> $$
+comme $\omega_{1} + \omega_{2} \neq 0$, et comme $\omega_{1}=\omega_{2}$ car les sources sont cohérentes : 
+$$I= I_{1} + I_{2} + \sqrt{I_{1}I_{2}}  \cos(\Delta \varphi) \text{ et } \Delta \varphi =2\pi \frac{\delta}{\lambda_{0}} \text{ Ainsi } \boxed{I = I_{1} + I_{2} + \sqrt{I_{1}I_{2}}\cos\left(  2\pi\frac{2ne}{ \lambda_{0}}\cos(\alpha) \right)}$$
 
+Lorsque : $2\pi\frac{\delta}{\lambda_{0}} = 2k\pi$ avec $k \in \mathbb{N}$, alors $I = I_{\max}$ donc les franges sont brillantes pour : $\cos(\alpha) = \frac{k\lambda_{0}}{2ne}$
