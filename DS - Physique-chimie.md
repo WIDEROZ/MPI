@@ -73,5 +73,8 @@ $$d^{2}U = C \, dT = dm\,c \, dT = \rho dV c \,dT  \text{ comme }dU \text{ et } 
 
 ### A2.2
 Par le premier principe de la thermodynamique : 
-$dU = \delta W + \delta Q$, or le système est un solide incompressible donc $\delta W = 0$ et $dU = \delta Q$
-$$\delta^{2} Q = d\phi dt = (\varphi_{E})Sdt$$
+$dU = \delta W + \delta Q$, or le système est un solide donc $\delta W = 0$ et $dU = \delta Q$
+$$\boxed{\delta^{2} Q = d\phi dt = (\varphi_{S}(x, t) - \varphi_{S}(x + dx, t))Sdt}$$
+
+#### A2.3
+$$\delta^{2}Q = d\phi dt = (\varphi_{S}(x, t)- \varphi_{V}(x+dx, t)dx - \varphi_{S}(x+dx, t))Sdt$$
