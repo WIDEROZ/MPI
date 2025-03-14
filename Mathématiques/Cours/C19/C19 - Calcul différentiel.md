@@ -88,4 +88,11 @@ Si $a=(0,0)$,
 $$f(a+tv) = f(tv) =\sqrt{t^{2}v_{1}^{2} + t^{2}v_{2}^{2}} = \left| t\right|\left|\left| t \right|\right|_{2} $$
 qui n'est pas dérivable en $t=0$ car $\left| t\right|$ ne l'est pas donc il n'existe pas $D_{v}(f(0,0))$
 Si $a\neq(0, 0)$, 
-$$f(a+tv) = \sqrt{(x_{0}+tv_{1})^{2} + (y_{0} + tv_{2})^{2}} = \sqrt{x_{0}^{2}+y_{0}}$$
+$$f(a+tv) = \sqrt{(x_{0}+tv_{1})^{2} + (y_{0} + tv_{2})^{2}} $$
+$$= \sqrt{x_{0}^{2}+y_{0}^{2} + 2t(x_{0}v_{1}+y_{0}v_{1})  + t^{2}(v_{1}^{2}+v_{2}^{2})}$$
+qui est bien dérivable en $t=0$ 
+Alors, 
+$$f(a+tv) = \left|\left| a \right|\right| \left( 1+2t\frac{\left< a, v \right> }{\left|\left| a \right|\right| ^{2}} + t^{2} \frac{\left|\left| v \right|\right| ^{2}}{\left|\left| a \right|\right| ^{2}} \right)^{1/2} $$
+$$= \left|\left| a \right|\right| \left( 1+t\frac{\left< a, v \right> }{\left|\left| a \right|\right| ^{2}} + o(t) \right) = f(a) + \frac{t\left< a, v \right> }{\left|\left| a \right|\right| }+o(t)$$
+Ainsi, 
+$$D_{v} f(a) = \left< \frac{a}{\left|\left| a \right|\right| } , v \right> $$
