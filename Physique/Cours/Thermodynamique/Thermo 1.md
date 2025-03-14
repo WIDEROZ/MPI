@@ -24,5 +24,4 @@ $$T_{C} = \frac{\left( 2 \frac{L_{1}}{\lambda_{1}} + \frac{L_{2}}{\lambda_{2}} \
 
 
 
-
-$$e = \frac{-(Q_{C}+Q_{F})}{+Q_{C}} = - \left( 1+ \frac{Q_{F}}{Q_{C}} \right) \leq \frac{T_{F}}{T_{C}}-1  $$
+$$
