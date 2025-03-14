@@ -38,4 +38,17 @@ $$\frac{\partial f}{\partial x_{k}}(a)= \partial_{k} f(a) = g_{k}'(0) =  \frac{d
 $$= \lim_{ t \to 0 } \frac{f(a+te_{k})-f(a)}{t}$$
 
 #### CCINP 52
-$$$$
+##### 1.
+
+##### 2.
+###### a.
+C'est un rapport de polynome donc $f$ est définie en tout point de $(x, y)\in\mathbb{R}^{2}$ tel que : 
+$$x^{2}+y^{2}-xy \neq 0$$
+Or d'après $1$ : 
+$$x^{2}+y^{2}-xy =0 \Rightarrow 0 \geq \frac{x^{2}+y^{2}}{2}\geq 0 \Rightarrow (x, y)=(0, 0)$$
+Donc, $D_{f} = \mathbb{R}^{2}$
+$$\left| f(x, y) \right| \leq \frac{2y^{2}}{x^{2}+y^{2}} \leq 2y^{2} \leq 2 \left|\left| (x, y) \right|\right| _{\infty}^{2} \underset{(x, y) \to (0, 0)}{\longrightarrow} 0$$
+
+Donc, 
+$$\lim_{ (x, y) \to (0, 0) } f(x, y) = 0 $$
+Si bien qu'elle est continue en $0$ $\Leftrightarrow$ $\alpha = 0$
