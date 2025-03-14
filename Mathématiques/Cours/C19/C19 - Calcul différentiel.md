@@ -31,4 +31,11 @@ $$f: \begin{cases}
 \end{cases}$$
 Soit $a \in \Omega$ et $k \in [\![1, n]\!]$, 
 Si la fonction : 
-$$t \mapsto $$
+$$g_{k}:t \in \mathbb{R}\mapsto f(a_{1}, \dots, a_{k-1}, a_{k} + t, a_{k+1}, \dots, a_{n}) $$
+est définie et dérivable en $t=0$, 
+On dit que $f$ admet en $a$ une $k^{ieme}$ dérivée partielle que l'on note : 
+$$\frac{\partial f}{\partial x_{k}}(a)= \partial_{k} f(a) = g_{k}'(0) =  \frac{d}{dt}_{t = 0} f(a + te_{k})$$
+$$= \lim_{ t \to 0 } \frac{f(a+te_{k})-f(a)}{t}$$
+
+#### CCINP 52
+$$$$
