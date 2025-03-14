@@ -77,4 +77,11 @@ $dU = \delta W + \delta Q$, or le système est un solide donc $\delta W = 0$ et 
 $$\boxed{\delta^{2} Q = d\phi dt = (\varphi_{S}(x, t) - \varphi_{S}(x + dx, t))Sdt}$$
 
 #### A2.3
-$$\delta^{2}Q = d\phi dt = (\varphi_{S}(x, t)- \varphi_{V}(x+dx, t)dx - \varphi_{S}(x+dx, t))Sdt$$
+Comme le système reçoit de la puissance due à la fission d'atomes il reçoit de l'énergie en $x$
+$$\boxed{\delta^{2}Q = d\phi dt = (\varphi_{S}(x, t)+ \varphi_{V}(x, t)dx - \varphi_{S}(x+dx, t))Sdt}$$
+
+### A2.4
+$$d^{2}U = \delta^{2}Q \text{ alors, } \rho  c \, dT dx = (\varphi_{S}(x, t)+ \varphi_{V}(x, t)dx - \varphi_{S}(x+dx, t))dt $$
+$$ \text{ Ainsi, on a : }\boxed{dT =  \frac{1}{\rho c}\frac{\partial \varphi_{S}}{\partial x} dt  +\frac{\varphi_{V}}{\rho c}dt }$$
+
+### A2.5
