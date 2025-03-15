@@ -20,4 +20,4 @@ Entrée : $e \in E$ et $K \in \mathbb{R}_{+}^{*}$,
 Sortie : existe t'il $s \in S$ telle que $e\mathcal{R}s$ et $c(s) < K$
 
 #### Décidabilité
-Un problème de décision est 
+Soit $\mathcal{R}$ un problème de décision, il est dit décidable si c
