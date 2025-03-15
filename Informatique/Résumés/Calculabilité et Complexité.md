@@ -20,4 +20,11 @@ Entrée : $e \in E$ et $K \in \mathbb{R}_{+}^{*}$,
 Sortie : existe t'il $s \in S$ telle que $e\mathcal{R}s$ et $c(s) < K$
 
 #### Décidabilité
-Soit $\mathcal{R}$ un problème de décision, il est dit décidable si c
+.................
+
+#### Théorème
+Le problème de l’arrêt est indécidable
+
+#### Algorithme universel $\mathcal{U}$
+C'est un algorithme qui prend en entrée un algorithme $\mathcal{A}$, une entrée $e$ et simule l'execution de $\mathcal{A}$ sur $e$ : 
+- $\mathcal{U}(\mathcal{A}, e)$ ren
