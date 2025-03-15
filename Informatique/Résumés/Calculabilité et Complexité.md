@@ -31,3 +31,13 @@ C'est un algorithme qui prend en entrée un algorithme $\mathcal{A}$, une entré
 - $\mathcal{U}(\mathcal{A}, e)$ renvoie une erreur si l'execution de $\mathcal{A}$ sur $e$ renvoie une erreur. 
 - $\mathcal{U}(\mathcal{A}, e)$ ne termine pas si l'execution de $\mathcal{A}$ sur $e$ ne se termine pas
 
+#### Réduction
+Soient $f_{1}, : E_{1} \to \mathbb{B}$ et $f_{2} : E_{2}\to \mathbb{B}$, 
+On dit que $f_{1}$ se réduit à $f_{2}$ et on note : $f_{1} \leq f_{2}$
+S'il existe une fonction $g : E_{1} \to E_{2}$ telle que 
+$$\forall e \in E_{1}, f_{1}(e) = f_{2}(g(e))$$
+
+#### Théorème
+Si $f_{1}\leq f_{2}$ et $f_{1}$ est indécidable alors $f_{2}$ est indécidable
+
+Démonstration : 
