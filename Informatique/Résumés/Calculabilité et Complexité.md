@@ -41,3 +41,6 @@ $$\forall e \in E_{1}, f_{1}(e) = f_{2}(g(e))$$
 Si $f_{1}\leq f_{2}$ et $f_{1}$ est indécidable alors $f_{2}$ est indécidable
 
 Démonstration : 
+Il existe $g(e)$ calculable telle que : $f_{1}(e) = f_{2}(g(e))$,
+Comme $f_{1}$ est indécidable $f_{1}$ n'est pas calculable ie pour tout $e \in E_{1}$ il n'existe pas de $s \in \mathbb{B}$ tel que : $f_{1}(e) = s$ et comme $f_{1}(e) = f_{2}(g(e))$ et comme $g(e)$ est calculable il existe $e_{2} \in E_{2}$ tel que $g(e) = e_{2}$
+Ainsi, $f_{1}(e) = f_{2}(e_{2})$ n'est pas calculable. 
