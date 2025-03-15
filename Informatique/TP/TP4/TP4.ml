@@ -165,3 +165,6 @@ let rec evalue_clause (c:clause) (v:(bool array)) : bool =
   | Non(c1) -> !(evalue_clause c1 v)
   | Ou(c1, c2) -> (evalue_clause c1 v) || (evalue_clause c2 v)
 ;;
+
+
+let eval (a:string) (b:string) = 

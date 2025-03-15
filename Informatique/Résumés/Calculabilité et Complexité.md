@@ -27,4 +27,7 @@ Le problème de l’arrêt est indécidable
 
 #### Algorithme universel $\mathcal{U}$
 C'est un algorithme qui prend en entrée un algorithme $\mathcal{A}$, une entrée $e$ et simule l'execution de $\mathcal{A}$ sur $e$ : 
-- $\mathcal{U}(\mathcal{A}, e)$ ren
+- $\mathcal{U}(\mathcal{A}, e)$ renvoie $\mathcal{A}(e)$ si l'execution de $\mathcal{A}$ sur $e$ termine
+- $\mathcal{U}(\mathcal{A}, e)$ renvoie une erreur si l'execution de $\mathcal{A}$ sur $e$ renvoie une erreur. 
+- $\mathcal{U}(\mathcal{A}, e)$ ne termine pas si l'execution de $\mathcal{A}$ sur $e$ ne se termine pas
+
