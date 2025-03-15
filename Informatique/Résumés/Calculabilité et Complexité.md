@@ -62,4 +62,6 @@ S'il existe $f_{verif} \in P$ et $C$ qui vérifient ces conditions alors $f \in 
 #### Théorème
 $$P \subset NP$$
 
-#### 
+#### NP-Difficulté
+On dit qu'un problème quelconque $f_{1}$ est $NP$-difficile lorsque pour tout problème $f \in NP$, 
+$$f \leq_{P} f_{1} $$
