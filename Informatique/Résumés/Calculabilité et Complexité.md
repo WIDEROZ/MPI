@@ -1,3 +1,4 @@
+## I. Définition
 Soient $X, Y$ des ensembles, 
 #### Fonction mathématique
 C'est une relation $\mathcal{R} \subset X \times Y$, telle que $\mathcal{R}$ est : 
@@ -31,7 +32,11 @@ C'est un algorithme qui prend en entrée un algorithme $\mathcal{A}$, une entré
 - $\mathcal{U}(\mathcal{A}, e)$ renvoie une erreur si l'execution de $\mathcal{A}$ sur $e$ renvoie une erreur. 
 - $\mathcal{U}(\mathcal{A}, e)$ ne termine pas si l'execution de $\mathcal{A}$ sur $e$ ne se termine pas
 
-#### Réduction
+## Classe $P$
+La classe $P$ est la classe des problèmes pour lesquels il existe un algorithme en temps polynomial en la taille de l'entrée permettant de résoudre des problèmes
+
+## II. Réduction
+#### Définition
 Soient $f_{1}, : E_{1} \to \mathbb{B}$ et $f_{2} : E_{2}\to \mathbb{B}$, 
 On dit que $f_{1}$ se réduit à $f_{2}$ et on note : $f_{1} \leq f_{2}$
 S'il existe une fonction $g : E_{1} \to E_{2}$ telle que 
@@ -40,7 +45,11 @@ $$\forall e \in E_{1}, f_{1}(e) = f_{2}(g(e))$$
 #### Théorème
 Si $f_{1}\leq f_{2}$ et $f_{1}$ est indécidable alors $f_{2}$ est indécidable
 
-Démonstration : 
-Il existe $g(e)$ calculable telle que : $f_{1}(e) = f_{2}(g(e))$,
-Comme $f_{1}$ est indécidable $f_{1}$ n'est pas calculable ie pour tout $e \in E_{1}$ il n'existe pas de $s \in \mathbb{B}$ tel que : $f_{1}(e) = s$ et comme $f_{1}(e) = f_{2}(g(e))$ et comme $g(e)$ est calculable il existe $e_{2} \in E_{2}$ tel que $g(e) = e_{2}$
-Ainsi, $f_{1}(e) = f_{2}(e_{2})$ n'est pas calculable. 
+#### Réduction polynomiale
+On dit que $f_{1}$ se réduit polynomialement à $f_{2}$ et on note : $f_{1}\leq_{P}f_{2}$ s'il existe $g:E_{1} \to E_{2}$ calculable en temps polynomial telle que pour tout $e \in E_{1}$, 
+$$f_{1}(e) = f_{2}(g(e))$$
+
+#### Théorème
+Si $f_{1} \leq_{P} f_{2}$ et que $f_{2} \in P$ alors $f_{1} \in P$
+
+## Classe $NP$
