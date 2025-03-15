@@ -33,7 +33,7 @@ C'est un algorithme qui prend en entrée un algorithme $\mathcal{A}$, une entré
 - $\mathcal{U}(\mathcal{A}, e)$ ne termine pas si l'execution de $\mathcal{A}$ sur $e$ ne se termine pas
 
 ## Classe $P$
-La classe $P$ est la classe des problèmes pour lesquels il existe un algorithme en temps polynomial en la taille de l'entrée permettant de résoudre des problèmes
+La classe $P$ est la classe des problèmes pour lesquels il existe un algorithme en temps polynomial en <u>la taille de l'entrée</u> permettant de résoudre des problèmes. 
 
 ## II. Réduction
 #### Définition
@@ -62,4 +62,4 @@ S'il existe $f_{verif} \in P$ et $C$ qui vérifient ces conditions alors $f \in 
 #### Théorème
 $$P \subset NP$$
 
-
+#### 
