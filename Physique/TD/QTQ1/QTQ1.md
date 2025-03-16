@@ -25,4 +25,4 @@ On injecte :
 $$\frac{\hbar^{2}}{2m} \frac{\partial^{2}\psi}{\partial x^{2}} = -\frac{\hbar^{2}}{2m}k_{0}^{2} A e^{ i(k_{0}x-\omega_{0}t) }$$
 $$-i\hbar \frac{\partial \psi}{\partial t}  = -\hbar \omega_{0} A e^{ i(k_{0}x-\omega_{0}t) }$$
 Alors, 
-$$$$
+$$\hbar \omega_{0} = \frac{\hbar^{2}}{2m} k_{0}^{2}\Rightarrow \omega_{0} = \hbar \frac{k_{0}^{2}}{2m}$$
