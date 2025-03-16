@@ -16,3 +16,8 @@ $18$ : $n=10$ $e^{-}=8$
 $$M_{moy} = \frac{M_{_{8}^{16}O}f_{_{8}^{16}O}+M_{_{8}^{17}O}f_{_{8}^{17}O} + M_{_{8}^{18}O}f_{_{8}^{18}O}}{3}$$
 
 #### 5.
+$$|\overline{\underline{O}} = \overline{\underline{O}}|$$
+$14 e^{-}$ de valence
+Charge formelle : $14-12-\frac{2}{2}=1$
+
+#### 6.
