@@ -16,3 +16,13 @@ On pose :
 $$\underline{\delta} = \frac{1}{\underline{E}^{1/2}} \sqrt{\frac{\hbar}{2m}}$$
 Ainsi, 
 $$\boxed{\varphi(x) = A e^{ \frac{x}{\underline{\delta}} } + B e^{ - \frac{x}{\underline{\delta}} }}$$
+#### 3.
+$$E = h\nu = \hbar k=\frac{p^{2}}{2m}$$
+
+#### Exercice 2
+$$\hat{H} = \frac{\hbar^{2}}{2m} \Delta  \Rightarrow \frac{\hbar^{2}}{2m} \Delta(\psi) = -i\hbar \frac{\partial \psi}{\partial t} $$
+On injecte :
+$$\frac{\hbar^{2}}{2m} \frac{\partial^{2}\psi}{\partial x^{2}} = -\frac{\hbar^{2}}{2m}k_{0}^{2} A e^{ i(k_{0}x-\omega_{0}t) }$$
+$$-i\hbar \frac{\partial \psi}{\partial t}  = -\hbar \omega_{0} A e^{ i(k_{0}x-\omega_{0}t) }$$
+Alors, 
+$$$$
