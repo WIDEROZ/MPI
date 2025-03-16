@@ -32,3 +32,10 @@ Charge formelle : $14 - 10 - \frac{4}{2} =2$
 #### 1.
 ##### a.
 $$H -C \equiv N | $$
+
+##### b.
+$N$ est plus électronégatif que $C$ alors le moment dipolaire est orienté vers $N$ 
+
+#### 2.
+##### a.
+$$C$$
