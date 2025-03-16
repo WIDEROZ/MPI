@@ -16,8 +16,19 @@ $18$ : $n=10$ $e^{-}=8$
 $$M_{moy} = \frac{M_{_{8}^{16}O}f_{_{8}^{16}O}+M_{_{8}^{17}O}f_{_{8}^{17}O} + M_{_{8}^{18}O}f_{_{8}^{18}O}}{3}$$
 
 #### 5.
-$$|\overline{\underline{O}} = \overline{\underline{O}}|$$
-$14 e^{-}$ de valence
-Charge formelle : $14-12-\frac{2}{2}=1$
+$$_\setminus^{/} O=O ^\setminus _{/}$$
+$10 e^{-}$ de valence
+Charge formelle : $10-8-\frac{2}{2}=1$
 
 #### 6.
+$$^{/}_{\setminus} O=\overset{\cdot}{\underset{\cdot}{O}}=O^{\setminus}_{/}$$
+$14e^{-}$ de valence
+Charge formelle : $14 - 10 - \frac{4}{2} =2$
+
+#### 7.
+
+
+# Exercice 4
+#### 1.
+##### a.
+$$H -C \equiv N | $$
