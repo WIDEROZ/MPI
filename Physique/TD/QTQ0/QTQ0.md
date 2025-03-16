@@ -38,4 +38,9 @@ $N$ est plus électronégatif que $C$ alors le moment dipolaire est orienté ver
 
 #### 2.
 ##### a.
-$$C$$
+$$H -C \equiv N | $$
+$$|C = \underline N -H$$
+$$H - \underline{C}- N_{/}^{\setminus}$$
+
+Pas compris...
+
