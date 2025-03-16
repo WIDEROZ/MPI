@@ -344,7 +344,7 @@ ie pour : $A$ une primitive de $a$
 $$\exists K \in \mathbb{K}, \forall x \in I, w(x) = K e^{ -A(x) }$$
 Comme : 
 $$\forall x \in I, e^{ -A(x) } \neq 0$$
-S'il existe $x_{0} \in I, w(x_{0}) = 0$ alors $K=0$ et donc $w$ est nulle
+S'il existe $x_{0} \in I, w(x_{0}) = 0$ alors $K=0$ et donc $w$ est nulle ABSURDE
 Ainsi, 
 $(iii) \Rightarrow (ii)$
 $(ii) \Rightarrow (iii)$ : trivial
