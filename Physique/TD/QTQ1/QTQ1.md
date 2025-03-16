@@ -6,6 +6,13 @@ $$\underline{\psi}(x, t)= \underline{\varphi}(x) \times \underline\chi(t)$$
 Alors, 
 $$\frac{\hbar}{2m} \underline{\chi}(t) \Delta(\varphi)(x) = -i\underline{\varphi} (x)\frac{\partial \chi}{\partial t} $$
 Donc, 
-$$\frac{1}{\underline\chi(t)} \frac{\partial \underline\chi}{\partial t} = \underline{E} = cte \Rightarrow \frac{\partial \underline{\chi}}{\partial t}  = \underline{E} \space \underline{\chi}(t) $$
+$$-i\frac{1}{\underline\chi(t)} \frac{\partial \underline\chi}{\partial t} = \underline{E} = cte \Rightarrow \frac{\partial \underline{\chi}}{\partial t}  - i\underline{E} \space \underline{\chi}(t) = 0$$
 Donc, 
-$$\underline\chi(t) = e^{ \underline{E}t } $$
+$$\boxed{\underline\chi(t) = \underline{K} e^{ i\underline{E}t } }$$
+#### 2.
+$$\frac{\hbar}{2m} \frac{1}{\underline{\varphi}(x)} \Delta(\underline{\varphi})(x)  = \underline{E} = cte \Rightarrow \frac{\partial^{2}\underline{\varphi}}{\partial x^{2}} = \frac{2m}{\hbar} \underline{E} \underline{\varphi}(x)$$
+
+On pose : 
+$$\underline{\delta} = \frac{1}{\underline{E}^{1/2}} \sqrt{\frac{\hbar}{2m}}$$
+Ainsi, 
+$$\boxed{\varphi(x) = A e^{ \frac{x}{\underline{\delta}} } + B e^{ - \frac{x}{\underline{\delta}} }}$$
