@@ -115,14 +115,15 @@ On dit que $f$ admet en $a$ :
 Soit $A \subset \mathbb{R}^{n}$, $f:A \to \mathbb{R}$ et  $a \in A$.
 Si 
 $$\begin{cases}
-\forall k \in [\![1, n]\!], f \text{ admet une }k^{ieme} \text{ dérivée partielle } \\
+\forall k \in [\![1, n]\!], f \text{ admet une }k^{ieme} \text{ dérivée partielle en }a \\
 f \text{ admet un extremum local en }a \\
 a \in \overset{\space \space o}{A}
 \end{cases} $$
 Alors, 
 $$\forall k \in [\![1, n]\!], \partial_{k}f(a) = 0$$
 Démonstration : 
-Il existe $r>0$, tel que : $B(a, r) \subset A$ et $\forall x \in B(a, r)$ : $f(x)\geq f(a)$
+Il existe $r>0$, tel que : $B(a, r) \subset A$
+et alors $\forall x \in B(a, r), f(x)\geq f(a)$
 Soit $k \in [\![1, n]\!]$, et
 $$e_{k} = \begin{pmatrix}0 \\
 \vdots \\
