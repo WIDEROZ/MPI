@@ -26,19 +26,13 @@ $$\boxed{\varphi(x) = A e^{ i\frac{x}{\delta} } + B e^{ - i\frac{x}{\delta} }}$$
 $$E = h\nu = \hbar k=\frac{p^{2}}{2m} = \frac{\hbar^{2}k^{2}}{2m}$$
 Ainsi $\delta = \frac{1}{k}$
 
-#### Exercice 2
-$$\hat{H} = \frac{\hbar^{2}}{2m} \Delta  \Rightarrow \frac{\hbar^{2}}{2m} \Delta(\psi) = -i\hbar \frac{\partial \psi}{\partial t} $$
-On injecte :
-$$\frac{\hbar^{2}}{2m} \frac{\partial^{2}\psi}{\partial x^{2}} = -\frac{\hbar^{2}}{2m}k_{0}^{2} A e^{ i(k_{0}x-\omega_{0}t) }$$
-$$-i\hbar \frac{\partial \psi}{\partial t}  = -\hbar \omega_{0} A e^{ i(k_{0}x-\omega_{0}t) }$$
-Alors, 
-$$\hbar \omega_{0} = \frac{\hbar^{2}}{2m} k_{0}^{2}\Rightarrow \omega_{0} = \hbar \frac{k_{0}^{2}}{2m}$$
+# Exercice 2
+#### 1.
+$$\rho = \left| \psi\right|^{2} = \frac{dP}{d\tau}$$
+$$1 = \int_{-\infty}^{+ \infty} dP = \left| A\right|^{2}\int_{- \infty}^{+ \infty}  \, dx = + \infty \neq 1$$
 
-
-$$\begin{pmatrix}
-\frac{\partial^{2} f}{\partial x^{2}} &\frac{\partial^{2} f}{\partial xy} \\
- \frac{\partial^{2}f}{\partial yx}  & \frac{\partial^{2}f}{\partial y^{2}} 
-\end{pmatrix} = \begin{pmatrix}
-2+e^{ -x }&-2 \\
-
-\end{pmatrix}$$
+$$\psi  = \begin{cases}
+0 \text{ pour }x \in \mathbb{R}_{-}^{*} \cup ]l, + \infty[ \\
+Ae^{ i(k_{0}x-\omega_{0} t) } \text{ pour } x \in [0, l]
+\end{cases}$$
+$$\vec{J} = \left| \psi\right|^{2} \times \frac{\hbar \vec{k}}{m} = \frac{\hbar k_{0}}{ml} \vec{e}_{x}$$
