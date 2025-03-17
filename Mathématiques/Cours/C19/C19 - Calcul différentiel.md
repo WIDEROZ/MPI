@@ -96,3 +96,18 @@ $$f(a+tv) = \left|\left| a \right|\right| \left( 1+2t\frac{\left< a, v \right> }
 $$= \left|\left| a \right|\right| \left( 1+t\frac{\left< a, v \right> }{\left|\left| a \right|\right| ^{2}} + o(t) \right) = f(a) + \frac{t\left< a, v \right> }{\left|\left| a \right|\right| }+o(t)$$
 Ainsi, 
 $$D_{v} f(a) = \left< \frac{a}{\left|\left| a \right|\right| } , v \right> $$
+
+## 3. Optimisation à l'ordre 1
+En $\varphi$ les minimas locaux des potentiels sont les positions d'équilibre stables
+
+#### Définition
+Soit $A$ une partie de $\mathbb{R}^{n}$ et : 
+$$f : \begin{cases}
+A \to \mathbb{R} \\
+(x_{1}, \dots, x_{n}) \mapsto f(x_{1}, \dots, x_{n})
+\end{cases}$$
+Soit $a = (a_{1}, \dots, a_{n}) \in A$, 
+On dit que $f$ admet en $a$ : 
+- Un minimum global lorsque : $\forall x \in A, f(x) \geq f(a)$
+- Un minimum local lorsque : $\exists r >0, \forall x \in A, \left|\left| x-a \right|\right| \leq r \Rightarrow f(x) \geq f(a)$
+
