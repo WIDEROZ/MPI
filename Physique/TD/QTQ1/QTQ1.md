@@ -35,4 +35,8 @@ $$\psi  = \begin{cases}
 0 \text{ pour }x \in \mathbb{R}_{-}^{*} \cup ]l, + \infty[ \\
 Ae^{ i(k_{0}x-\omega_{0} t) } \text{ pour } x \in [0, l]
 \end{cases}$$
-$$\vec{J} = \left| \psi\right|^{2} \times \frac{\hbar \vec{k}}{m} = \frac{\hbar k_{0}}{ml} \vec{e}_{x}$$
+Alors, 
+$$1 = \int_{-\infty}^{+ \infty} dP = \left| A\right|^{2}\int_{0}^{l}  \, dx = \left| A\right|^{2}l \Rightarrow \left| A\right|^{2}  = \frac{1}{l}$$
+$$\forall x \in [0, l], \vec{J} = \left| \psi\right|^{2} \times \frac{\hbar \vec{k}}{m} = \frac{\hbar k_{0}}{ml} \vec{e}_{x}$$
+#### 2.
+Injection de $\omega$ dans l'équation
