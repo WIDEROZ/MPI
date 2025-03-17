@@ -22,7 +22,7 @@ or : )D
 
 #### Schema additionneur jeu de la vie
 ![[Pasted image 20250317144715.png]]
-$C$ flot continu de gliders
+$C$ : flot continu de gliders
 $R$ : retenue
 $D$ : blocage glider
 ![[Pasted image 20250317150135.png]]
