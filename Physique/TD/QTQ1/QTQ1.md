@@ -11,12 +11,17 @@ Donc,
 $$\boxed{\underline\chi(t) = \underline{K} e^{ -\frac{iE}{\hbar}t } }$$
 
 #### 2.
-$$\frac{\hbar}{2m} \frac{1}{\underline{\varphi}(x)} \Delta(\underline{\varphi})(x)  = E = cte \Rightarrow \frac{\partial^{2}\underline{\varphi}}{\partial x^{2}} = \frac{2m}{\hbar} E \underline{\varphi}(x)$$
+$$\frac{\hbar^{2}}{2m} \frac{1}{\underline{\varphi}(x)} \Delta(\underline{\varphi})(x)  = E = cte \Rightarrow \frac{\partial^{2}\underline{\varphi}}{\partial x^{2}} = \frac{2m}{\hbar^{2}} E \underline{\varphi}(x)$$
 
 On pose si $E >0$, 
-$$\delta ac{\hbar}{2mE}}$$
+$$\delta =\sqrt\frac{\hbar^{2}}{2mE}$$
 Ainsi, 
 $$\boxed{\varphi(x) = A e^{ \frac{x}{\delta} } + B e^{ - \frac{x}{\delta} }}$$
+On pose si $E <0$, 
+$$\delta = \sqrt{-\frac{\hbar^{2}}{2mE}}$$
+Ainsi, 
+$$\boxed{\varphi(x) = A e^{ i\frac{x}{\delta} } + B e^{ - i\frac{x}{\delta} }}$$
+
 #### 3.
 $$E = h\nu = \hbar k=\frac{p^{2}}{2m} = \frac{\hbar^{2}k^{2}}{2m}$$
 Ainsi $\delta = \frac{1}{k}$
@@ -28,3 +33,12 @@ $$\frac{\hbar^{2}}{2m} \frac{\partial^{2}\psi}{\partial x^{2}} = -\frac{\hbar^{2
 $$-i\hbar \frac{\partial \psi}{\partial t}  = -\hbar \omega_{0} A e^{ i(k_{0}x-\omega_{0}t) }$$
 Alors, 
 $$\hbar \omega_{0} = \frac{\hbar^{2}}{2m} k_{0}^{2}\Rightarrow \omega_{0} = \hbar \frac{k_{0}^{2}}{2m}$$
+
+
+$$\begin{pmatrix}
+\frac{\partial^{2} f}{\partial x^{2}} &\frac{\partial^{2} f}{\partial xy} \\
+ \frac{\partial^{2}f}{\partial yx}  & \frac{\partial^{2}f}{\partial y^{2}} 
+\end{pmatrix} = \begin{pmatrix}
+2+e^{ -x }&-2 \\
+
+\end{pmatrix}$$
