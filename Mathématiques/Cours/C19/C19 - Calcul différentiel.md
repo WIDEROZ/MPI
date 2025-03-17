@@ -155,3 +155,18 @@ $\varphi$ est alors unique et elle est notée : $df(a)$ est appelée différenti
 Enfin $f$ est dite différentiable sur $\Omega$ lorsque $\Omega$ est ouvert et $\forall a \in \Omega, f$ est différentiable en $a$
 Alors, on dispose de : 
 $$a \in \Omega \mapsto df(a) \in \mathcal{L}(\mathbb{R}^{n}, F) \text{ ie } df \in F(\Omega, \mathcal{L}(\mathbb{R}^{n}, F))$$
+
+Démonstration : 
+Soient $\varphi_{1}, \varphi_{2} \in \mathcal{L}(\mathbb{R}^{n}, F)$,
+$$f(a+h) = f(a) + \varphi_{1}(h) + o(h) = f(a) + \varphi_{2}(h) + o(h)$$
+Alors, 
+$$(\varphi_{1}-\varphi_{2})(h) = o(h)$$
+$$\forall t \in \mathbb{R}^{*}, \frac{o(th)}{\left|\left| th \right|\right| } \underset{t \to 0}{\longrightarrow} 0$$
+car $\left|\left| th \right|\right|\underset{t \to 0}{\longrightarrow}0$
+Donc,
+$$\frac{o(th)}{\left| t\right|\left|\left| h \right|\right| } \underset{t \to 0}{\longrightarrow} 0$$
+Mais $\varphi_{1}-\varphi_{2}$ est linéaire, 
+$$(\varphi_{2}-\varphi_{1})(h) = \frac{(\varphi_{1}-\varphi_{2})(th)}{t} = \frac{o(th)}{t} \underset{t \to 0}{\longrightarrow} 0$$
+Ainsi, 
+$$\forall h \in \mathbb{R}^{n}, (\varphi_{2}-\varphi_{1})(h) =0$$
+C'est terminé
