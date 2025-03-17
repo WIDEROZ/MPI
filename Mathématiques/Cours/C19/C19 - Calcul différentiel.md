@@ -111,3 +111,24 @@ On dit que $f$ admet en $a$ :
 - Un minimum global lorsque : $\forall x \in A, f(x) \geq f(a)$
 - Un minimum local lorsque : $\exists r >0, \forall x \in A, \left|\left| x-a \right|\right| \leq r \Rightarrow f(x) \geq f(a)$
 
+#### Propriété
+Soit $A \subset \mathbb{R}^{n}$, $f:A \to \mathbb{R}$ et  $a \in A$.
+Si 
+$$\begin{cases}
+\forall k \in [\![1, n]\!], f \text{ admet une }k^{ieme} \text{ dérivée partielle } \\
+f \text{ admet un extremum local en }a \\
+a \in \overset{\space \space o}{A}
+\end{cases} $$
+Alors, 
+$$\forall k \in [\![1, n]\!], \partial_{k}f(a) = 0$$
+Démonstration : 
+Il existe $r>0$, tel que : $B(a, r) \subset A$ et $\forall x \in B(a, r)$ : $f(x)\geq f(a)$
+Soit $k \in [\![1, n]\!]$, et
+$$e_{k} = \begin{pmatrix}0 \\
+\vdots \\
+0 \\
+1 \\
+0 \\
+\vdots \\
+0 
+\end{pmatrix} \leftarrow k^{ieme} \text{ comp}$$
