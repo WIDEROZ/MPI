@@ -40,3 +40,4 @@ $$1 = \int_{-\infty}^{+ \infty} dP = \left| A\right|^{2}\int_{0}^{l}  \, dx = \l
 $$\forall x \in [0, l], \vec{J} = \left| \psi\right|^{2} \times \frac{\hbar \vec{k}}{m} = \frac{\hbar k_{0}}{ml} \vec{e}_{x}$$
 #### 2.
 Injection de $\omega$ dans l'équation
+$$p = \hbar k = \hbar $$
