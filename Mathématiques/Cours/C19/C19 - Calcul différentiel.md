@@ -147,4 +147,11 @@ On dit que $f(h) = o(h)$ quand $h \to 0_{E}$
 $$\frac{f(h)}{\left|\left| h \right|\right| } \underset{h \to 0_{E}}{\longrightarrow} 0_{F}$$
 
 #### Définition
-Soit $\Omega \subset \mathbb{R}^{n}$, 
+Soit $\Omega \subset \mathbb{R}^{n}$, $a \in \overset{o}{\Omega}$, 
+On dit que $f$ est différentiable en $a$ lorsqu'il existe une application : $\varphi \in \mathcal{L}(\mathbb{R}^{n}, F)$ telle que : 
+$$f(a+h) = f(a) + \varphi(h) + o(h)$$
+$\varphi$ est alors unique et elle est notée : $df(a)$ est appelée différentielle de $f$ en $a$
+
+Enfin $f$ est dite différentiable sur $\Omega$ lorsque $\Omega$ est ouvert et $\forall a \in \Omega, f$ est différentiable en $a$
+Alors, on dispose de : 
+$$a \in \Omega \mapsto df(a) \in \mathcal{L}(\mathbb{R}^{n}, F) \text{ ie } df \in F(\Omega, \mathcal{L}(\mathbb{R}^{n}, F))$$
