@@ -17,12 +17,12 @@ $$M_{moy} = M_{_{8}^{16}O}f_{_{8}^{16}O}+M_{_{8}^{17}O}f_{_{8}^{17}O} + M_{_{8}^
 
 #### 5.
 $$_\setminus^{/} O=O ^\setminus _{/}$$
-$10 e^{-}$ de valence
-Charge formelle : $10-8-\frac{2}{2}=1$
+$12 e^{-}$ de valence $6$ Doublets 
+
 
 #### 6.
-$$^{/}_{\setminus} O=\overset{\cdot}{\underset{\cdot}{O}}=O^{\setminus}_{/}$$
-$14e^{-}$ de valence
+$$^{/}_{\setminus} O=\underline{O}=O^{\setminus}_{/}$$
+$18e^{-}$ de valence $9$ doublets
 Charge formelle : $14 - 10 - \frac{4}{2} =2$
 
 #### 7.
@@ -42,5 +42,5 @@ $N$ est plus électronégatif que $C$ alors le moment dipolaire est orienté ver
 $$H -C \equiv N | $$
 $$|C = \overset{\cdot}{\underset{\cdot}{N}} -H$$
 $$H - \overset{\cdot}{\underset{\cdot}{C}}- N_{/}^{\setminus}$$
-
+$$$$
 Pas compris...
