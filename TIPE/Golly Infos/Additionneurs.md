@@ -13,3 +13,9 @@ A&B&C&S&R \\ \hline
 1&1&1&1&1 \\\hline
 \end{array}$$
 ![[Additionneurs.png]]
+
+
+Xor : ))D
+AND : D
+or : )D
+
