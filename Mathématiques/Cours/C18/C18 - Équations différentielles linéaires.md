@@ -338,6 +338,10 @@ w \text{ n'est pas la fonction nulle}
 Démonstration : 
 $w$ est de classe $\mathcal{C}^{1}$ sur $I$ car : $y_{1}$ et $y_{2}$ sont de classe $\mathcal{C}^{2}$ et 
 $$(w|_{I})' = y_{1}'y_{2}' + y_{1} y_{2}'' - (y_{1}'' y_{2} + y_{1}'y_{2}') = y_{1}y_{2}'' - y_{1}''y_{2}$$
+Donc, comme : 
+$$y_{2}'' = -ay_{2}' -by_{2} \text{ et } y_{1}'' = -ay_{1}' -by_{1}$$
+Alors, 
+$$w' = -ay_{1}y_{2}' - b y_{1}y_{2}+ (y_{2}ay'_{1}+by_{1}y_{2}) = a(y_{1}'y_{2}-y_{1}y_{2}')$$
 Donc, 
 $$w' = -a(y_{1}y_{2}' - y_{1}'y_{2}) = -aw$$
 ie pour : $A$ une primitive de $a$
