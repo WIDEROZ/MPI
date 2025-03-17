@@ -164,9 +164,27 @@ $$(\varphi_{1}-\varphi_{2})(h) = o(h)$$
 $$\forall t \in \mathbb{R}^{*}, \frac{o(th)}{\left|\left| th \right|\right| } \underset{t \to 0}{\longrightarrow} 0$$
 car $\left|\left| th \right|\right|\underset{t \to 0}{\longrightarrow}0$
 Donc,
-$$\frac{o(th)}{\left| t\right|\left|\left| h \right|\right| } \underset{t \to 0}{\longrightarrow} 0$$
+$$\frac{o(th)}{\left| t\right|\left|\left| h \right|\right| } \underset{t \to 0}{\longrightarrow} 0 \Rightarrow \frac{o(th)}{\left| t\right|}\underset{t \to 0}{\longrightarrow} 0$$
 Mais $\varphi_{1}-\varphi_{2}$ est linéaire, 
 $$(\varphi_{2}-\varphi_{1})(h) = \frac{(\varphi_{1}-\varphi_{2})(th)}{t} = \frac{o(th)}{t} \underset{t \to 0}{\longrightarrow} 0$$
+et comme $(\varphi_{2}-\varphi_{1})(h)$ est indépendant de $t$
 Ainsi, 
 $$\forall h \in \mathbb{R}^{n}, (\varphi_{2}-\varphi_{1})(h) =0$$
 C'est terminé
+
+#### Exemple
+$\mathcal{M}_{n}(\mathbb{R}) = E$ 
+Soit : 
+$$f : \begin{cases}
+E \to E \\
+M \mapsto M^{2}
+\end{cases}$$
+Munissons $E$ d'une norme subordonnée.
+$$\forall A \in E,H \in E, f(A+H)  = (A+H)^{2} = A^{2} + AH + HA + H^{2}$$
+Alors, 
+$$f(A + H) = f(A) + AH + HA + o(H)$$
+car : 
+$$\frac{\left| \left|\left| H^{2} \right|\right| \right|}{\left|\left| \left| H\right| \right|\right| } \leq \left|\left| \left| H\right| \right|\right| \underset{H \to 0}{\longrightarrow} 0$$
+$$H^{2} = o(H) \Leftrightarrow \frac{H^{2}}{\left|\left| \left| H\right|\right|\right|}\underset{H \to 0}{\longrightarrow}0$$
+Ainsi $f$ est différentiable en $A$ et : 
+$$df(A) : H \in E \mapsto AH + HA \in E$$
