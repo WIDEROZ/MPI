@@ -131,4 +131,9 @@ $$e_{k} = \begin{pmatrix}0 \\
 0 \\
 \vdots \\
 0 
-\end{pmatrix} \leftarrow k^{ieme} \text{ comp}$$
+\end{pmatrix} \leftarrow k^{ieme} \text{ comp.} \text{ et } g_{k} : t \in \mathbb{R} \mapsto f(a+te_{k})$$
+Comme : $B(r, a)\subset A$, $g_{k}$ est définie sur $]-r, r[$, 
+D'après la première hypothèse : $g_{k}$ est dérivable en $t=0$ et $g_{k}'(0)=\partial_{k} f(a)$
+Enfin comme : $f(x) \geq f(a)$ $g_{k}$ admet un minimum en $0$ donc $g'_{k}(0) = 0$
+
+#### Exercice
