@@ -13,7 +13,7 @@ $17$ : $n=  9$ $e^{-} = 8$
 $18$ : $n=10$ $e^{-}=8$
 
 #### 4.
-$$M_{moy} = \frac{M_{_{8}^{16}O}f_{_{8}^{16}O}+M_{_{8}^{17}O}f_{_{8}^{17}O} + M_{_{8}^{18}O}f_{_{8}^{18}O}}{3}$$
+$$M_{moy} = \frac{M_{_{8}^{16}O}f_{_{8}^{16}O}+M_{_{8}^{17}O}f_{_{8}^{17}O} + M_{_{8}^{18}O}f_{_{8}^{18}O}}{1}$$
 
 #### 5.
 $$_\setminus^{/} O=O ^\setminus _{/}$$
@@ -39,8 +39,7 @@ $N$ est plus électronégatif que $C$ alors le moment dipolaire est orienté ver
 #### 2.
 ##### a.
 $$H -C \equiv N | $$
-$$|C = \underline N -H$$
+$$|C = \overset{\cdot}{\underset{\cdot}{N}} -H$$
 $$H - \underline{C}- N_{/}^{\setminus}$$
 
 Pas compris...
-
