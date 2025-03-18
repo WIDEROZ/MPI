@@ -18,4 +18,6 @@ let nb_var (f:fnc) =
 
 nb_var phi_0;; 
 
-let v = [false, true, false, false, true];;
+let v = [|false; true; false; false; true|];;
+
+let insat_clause (v:bool array)

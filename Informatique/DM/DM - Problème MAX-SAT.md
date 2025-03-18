@@ -85,5 +85,7 @@ let nb_var (f:fnc) =
 
 #### 8.
 ```Ocaml
-let v = [false, true, false, false, true];;
+let v = [|false; true; false; false; true|];;
 ```
+
+#### 9.
