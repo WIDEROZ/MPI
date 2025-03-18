@@ -197,7 +197,7 @@ $$\begin{cases}
 f \text{ est continue en }a \\
  \\
 \forall h \in \mathbb{R}^{n}, f \text{ admet en }a \text{ une dérivée selon le vecteur }h \\
-\text{ et } D_{h}f(a) = df(a) \cdot h \in \mathbb{R}^{p} \\
+\text{ et } D_{h}f(a) = df(a) (h) \in \mathbb{R}^{p} \\
  \\
 \forall k \in [\![1,n]\!], f \text{ admet en } a \text{ une } k^{ieme} \text{ dérivée partielle et } \\
 \partial_{k}f(a) = \frac{\partial f}{\partial x_{k}} (a) = df(a) \cdot (0, \dots, 0, 1, 0, \dots, 0) = df(a).{e}_{k}\\
@@ -222,3 +222,19 @@ $$\forall t \in \mathbb{R}^{*}, \frac{f(a+th)-f(a)}{t} = \frac{f(a) + df(a)(th) 
 $$\underset{t \to 0}{\longrightarrow} df(a)(h)$$
 Donc, $D_{h}f(a) = df(a).h$
 ___
+$$\frac{\partial f}{\partial x_{k}}(a) = \mathcal{D}_{e_{k}}f(a) $$
+___
+$$df(a)(h) = df(a)\left( \sum_{k = 1}^{n} h_{k}e_{k} \right) =  \sum_{k = 1}^{n}h_{k} df(a)(e_{k})$$
+Alors, comme : $dx_{k}(h) = h_{k}$, c'est terminé
+
+#### Exemple
+$$f: \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R}^{3} \\
+(x, y) \mapsto (xy, x^{2}e^{ y }, \sin(x+y))
+\end{cases}$$
+est dif en tout $a=(x, y) \in \mathbb{R}^{2}$, et : 
+$$\frac{\partial f}{\partial x} (x, y)=(y, 2xe^{ y }, \cos(x+y))$$
+$$\frac{\partial f}{\partial y} (x, y)=(x, x^{2}e^{ y }, \cos(x+y))$$
+Donc,
+$$\forall h \in \mathbb{R}^{2}, df(x, y)(h) = D_{h}f(x, y) = h_{1} \frac{\partial f}{\partial x} (x, y) + h_{2} \frac{\partial f}{\partial y} (x, y)$$
+$$= (h_{1}y+h_{2}x, 2h_{1}xe^{ y }+x^{2}h_{2}e^{ y }, (h_{1}+h_{2})\cos(x+y))$$
