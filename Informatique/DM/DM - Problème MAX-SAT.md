@@ -52,3 +52,23 @@ $$\exists k \in [\![1, m]\!],  \varphi = \bigwedge_{i=1}^{k} (l_{i, 1} \vee l_{i
 
 On prend 
 $$\varphi' = \bigwedge_{i = 1}^{m} $$
+___
+
+#### 4.
+![[Pasted image 20250318210748.png]]
+
+#### 5.
+Comme il suffit de minimiser le nombre de clauses de $\varphi_{0}$ d'après l'arbre, la valuation définie par : 
+$$v(x_{1}) = 1  \text{ et } v(x_{2}) = v(x_{3}) = v(x_{4}) = 0$$
+convient
+
+#### 6.
+```Ocaml
+let phi_0 = [[1, 2, 3], [1, -3, 4], [1, -4], [-1, 2, 3], [-1, -2], [-1, -3], [-2, 3], [2, -3]];;
+```
+
+#### 7.
+```Ocaml
+let nb_var (f:fnc) = 
+
+```
