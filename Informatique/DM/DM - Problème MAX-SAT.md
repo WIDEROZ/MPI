@@ -89,3 +89,14 @@ let v = [|false; true; false; false; true|];;
 ```
 
 #### 9.
+```Ocaml
+let insat_clause (v:bool array) (k:int) (phi:clause) =
+	let rec aux (f:clause) =
+		match f with
+		| [] -> false
+		| i::s -> ( if (abs(i) > k) then true
+					else if ((v.(abs(i)) && i>0) || (not v.(abs(i)) && i <0)) then true else aux s)
+	in aux phi;;
+```
+
+#### 10.
