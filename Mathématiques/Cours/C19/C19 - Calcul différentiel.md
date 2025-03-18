@@ -209,3 +209,16 @@ f \text{ est continue en }a \\
 df(a) = \sum_{k = 1}^{n} \frac{\partial f}{\partial x_{k}}(a)dx_{k}  \\
 
 \end{cases}$$
+
+Démonstration : 
+$$f(a+h) = f(a)+df(a)(h) + o(h)$$
+or, 
+$$o(h)=\left|\left| h \right|\right|  \frac{o(h)}{\left|\left| h \right|\right| } \underset{h \to 0}{\longrightarrow} 0_{\mathbb{R}^{p}}$$
+$$df(a)(h) \underset{h \to 0}{\longrightarrow} df(a)(0_{\mathbb{R}^{n}}) = 0_{\mathbb{R}^{p}}$$
+car $df(a)$ est continue en tant qu'application linéaire sur un espace vectoriel de dimension finie.
+Donc, $f(a+h) \underset{h \to 0}{\longrightarrow}f(a)$ ie $f$ est $\mathcal{C}^{0}$ en $a$
+___
+$$\forall t \in \mathbb{R}^{*}, \frac{f(a+th)-f(a)}{t} = \frac{f(a) + df(a)(th) + o(th) -f(a)}{t}$$
+$$\underset{t \to 0}{\longrightarrow} df(a)(h)$$
+Donc, $D_{h}f(a) = df(a).h$
+___
