@@ -36,4 +36,7 @@ $$\varphi = \bigwedge_{i = 1}^{m}l_{i} \text{ avec } \forall i \in [\![1, m]\!],
 en remplaçant les $l_{i, 1}, l_{i, 2}, l_{i, 3}$ par $\bot$ si $\exists j \neq k \in [\![1, 3]\!], l_{i}=\begin{cases}l_{i, k}\\ l_{i, k} \vee l_{i, j}\end{cases}$
 Supposons que $\varphi$ est salifiable ie qu'il existe une valuation $v$ telle que : $[\![\varphi]\!]^{v} = 1$
 Alors,
-$$\forall i \in [\![]\!]$$
+$$\forall i \in [\![1, m]\!], \exists k \in [\![1, 3]\!], [\![l_{i, k}]\!]^{v} = 1$$
+On pose alors, $L$ l'ensemble des littéraux qui vérifient cette proposition.
+Donc, si $\left| L\right|$ est pair on pose : $\left| L\right|=2k$ sinon $\left| L\right| = 2k+1$
+Alors,
