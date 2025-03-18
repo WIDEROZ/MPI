@@ -232,7 +232,7 @@ $$f: \begin{cases}
 \mathbb{R}^{2} \to \mathbb{R}^{3} \\
 (x, y) \mapsto (xy, x^{2}e^{ y }, \sin(x+y))
 \end{cases}$$
-est dif en tout $a=(x, y) \in \mathbb{R}^{2}$, et : 
+est dif en tout $a=(x, y) \in \mathbb{R}^{2}$, (voir en bas) et : 
 $$\frac{\partial f}{\partial x} (x, y)=(y, 2xe^{ y }, \cos(x+y))$$
 $$\frac{\partial f}{\partial y} (x, y)=(x, x^{2}e^{ y }, \cos(x+y))$$
 Donc,
@@ -261,4 +261,42 @@ $f$ est différentiable en $a$ $\Leftrightarrow$ $f(a+h) =_{h \to 0} f(a) + df(a
 Or, $df(a) \in \mathcal{L}(\mathbb{R}, \mathbb{R}^{p})$
 donc, $\exists b \in \mathbb{R}^{p}$ tel que : $df(a) : h \mapsto hb \in \mathbb{R}^{p}$, 
 $\Leftrightarrow f(a+h) = f(a) + hb \in \mathbb{R}^{p} \Leftrightarrow f \text{ est dérivable et } b=f'(a)$
+___
+$$f(a+h) = g(a+h) + b = g(a) + g(h) + b = f(a) + g(h)$$
+$$= f(a) + g(h) = f(a) + g(h) = f(a) + g(h) + (0=o(h))$$
+Ainsi, 
+$$df(a)(h) = g(h)$$
 
+## 2. Jacobienne
+Soit $\Omega$ un ouvert de $\mathbb{R}^{n}$, $f:\Omega \to \mathbb{R}^{p}$ différentiable en $a \in \Omega$, on appelle matrice jacobienne de $f$ en $a$ la matrice de $df(a) \in \mathcal{L}(\mathbb{R}^{n}, \mathbb{R}^{p})$ dans les bases canoniques, 
+$$f : \begin{cases}
+ \Omega \to \mathbb{R}^{p} \\
+(x_{1}, \dots, x_{n}) \mapsto f(x) =(f_{1}, \dots, f_{p})
+\end{cases}$$
+Alors, 
+$$Jac_{f}(a) = \begin{pmatrix}
+\frac{\partial f_{1}}{\partial x_{1}} (a)&\dots&\frac{\partial f_{1}}{\partial x_{n}}(a)  \\
+\vdots&\frac{\partial f_{i}}{\partial x_{j}}(a)&\vdots  \\\frac{\partial f_{p}}{\partial x_{1}} (a)&\dots& \frac{\partial f_{p}}{\partial x_{n}} (a) 
+\end{pmatrix} \in \mathcal{M}_{p,n}(\mathbb{R})$$
+
+#### Exemple
+$$f: \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R}^{2} \\
+(r, t) \mapsto (x, t) = (r\cos(t), r\sin(t))
+\end{cases}$$
+$f$ est diff cf plus bas et 
+$$\forall (r, t) \in \mathbb{R}^{2}, Jac_{f}(r, t) = \begin{pmatrix}
+\frac{\partial x}{\partial r} &\frac{\partial x}{\partial t}  \\
+\frac{\partial y}{\partial r} &\frac{\partial y}{\partial t} 
+\end{pmatrix} = \begin{pmatrix}
+\cos(t)&-r\sin(t) \\
+\sin(t)&r\cos(t)
+\end{pmatrix}$$
+Si : 
+$$g : \begin{cases}
+\mathbb{R}_{+}^{*} \times \mathbb{R} \to \mathbb{R}^{2} \\
+(x, y) \mapsto (r, t) = \left( \sqrt{x^{2}+y^{2}}, \arctan\left( \frac{y}{x} \right) \right)
+\end{cases}$$
+$$Jac_{g}(x, y) = \begin{pmatrix}
+\frac{\partial x}{\partial r} 
+\end{pmatrix}$$
