@@ -21,7 +21,7 @@ nb_var phi_0;;
 let v = [|false; true; false; false; true|];;
 
 let insat_clause (v:bool array) (k:int) (phi:clause) =
-  for i = 1 to (nb_var [phi]) do
-    if (i <= k) then 
-
-    done;
+  let rec aux (f:clause) = 
+    match f with
+    | [] -> false
+    | t::s -> 
