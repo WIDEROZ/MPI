@@ -26,4 +26,6 @@ $$\frac{1}{R_{N}} = \frac{N}{R_{r}} \Rightarrow R_{N} = \frac{R_{r}}{N}$$
 $$R_{p} = R_{N} + R_{t} + R_{f}  = \frac{R_{r}}{N} + R_{t} + R_{f}$$
 $$R_{a} = \frac{\psi_{f}-\psi_{a}}{D} = \frac{\psi_{f}-\psi_{a}}{\psi_{s}-\psi_{f}} R_{p}$$
 
-#### Question 6
+
+# Partie II
+#### Question 
