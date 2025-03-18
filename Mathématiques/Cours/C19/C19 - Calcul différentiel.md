@@ -188,3 +188,24 @@ $$\frac{\left| \left|\left| H^{2} \right|\right| \right|}{\left|\left| \left| H\
 $$H^{2} = o(H) \Leftrightarrow \frac{H^{2}}{\left|\left| \left| H\right|\right|\right|}\underset{H \to 0}{\longrightarrow}0$$
 Ainsi $f$ est différentiable en $A$ et : 
 $$df(A) : H \in E \mapsto AH + HA \in E$$
+#### Propriété de $df(a)$
+Soit $\Omega$ un ouvert de $\mathbb{R}^{n}$, 
+$$f : \Omega \to \mathbb{R}^{p}$$
+Soit $a \in \Omega$, 
+Supposons que $f$ est différentiable en $a$, alors
+$$\begin{cases}
+f \text{ est continue en }a \\
+ \\
+\forall h \in \mathbb{R}^{n}, f \text{ admet en }a \text{ une dérivée selon le vecteur }h \\
+\text{ et } D_{h}f(a) = df(a) \cdot h \in \mathbb{R}^{p} \\
+ \\
+\forall k \in [\![1,n]\!], f \text{ admet en } a \text{ une } k^{ieme} \text{ dérivée partielle et } \\
+\partial_{k}f(a) = \frac{\partial f}{\partial x_{k}} (a) = df(a) \cdot (0, \dots, 0, 1, 0, \dots, 0) = df(a).{e}_{k}\\
+\\
+\text{Si on note : }dx_{k} : \begin{cases}
+\mathbb{R}^{n} \to \mathbb{R} \\
+(h_{1}, \dots, h_{n}) \mapsto h_{k}
+\end{cases} \\
+df(a) = \sum_{k = 1}^{n} \frac{\partial f}{\partial x_{k}}(a)dx_{k}  \\
+
+\end{cases}$$
