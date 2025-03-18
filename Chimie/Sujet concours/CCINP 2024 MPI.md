@@ -41,9 +41,13 @@ $$367.5 °K$$
 $$p_{p}(367) = 0.15 \text{ et } p_{e}(367) = 8.5$$
 
 #### Question 13
-$$\frac{P_{e}}{P_{p}} = \frac{n_{e}}{n_{p}} = \frac{M(Pin)m_{e}}{M(H_{2}O)m_{pin}}$$
+$$\frac{P_{e}}{P_{p}} = \frac{n_{e}}{n_{p}} = \frac{M(Pin)m_{e}}{M(H_{2}O)m_{pin}}\Rightarrow m_{e} = \dots$$
+
 
 
 
 
 # Partie III.
+#### Question 14
+$$J_{F} \ddot{\theta} = \mathcal{M}_{F_{g}}(\vec{P}) + \mathcal{M}_{F_{g}}(\vec{T})$$
+$$\ddot{\theta} = \frac{m}{J_{F}}\vec{g}.\overrightarrow{OM} =-\frac{m}{J_{F}} gl_{j} \vec{e}_{z}.\vec{e}_{r} = \frac{m}{J_{F}} gl_{j}\sin(\theta) $$
