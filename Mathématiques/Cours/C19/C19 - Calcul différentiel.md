@@ -238,3 +238,27 @@ $$\frac{\partial f}{\partial y} (x, y)=(x, x^{2}e^{ y }, \cos(x+y))$$
 Donc,
 $$\forall h \in \mathbb{R}^{2}, df(x, y)(h) = D_{h}f(x, y) = h_{1} \frac{\partial f}{\partial x} (x, y) + h_{2} \frac{\partial f}{\partial y} (x, y)$$
 $$= (h_{1}y+h_{2}x, 2h_{1}xe^{ y }+x^{2}h_{2}e^{ y }, (h_{1}+h_{2})\cos(x+y))$$
+
+#### Propriété : Différentielles de fonctions
+Fonction réelle : 
+$f: I \to \mathbb{R}^{p}$ $I$ un ouvert de $\mathbb{R}$, $a \in I$, 
+$$f \text{ est différentiable en }a \Leftrightarrow f \text{ est dérivable en }a$$
+$$f'(a) = df(a)(1) \text{ et } df(a) : \begin{cases}
+\mathbb{R} \to \mathbb{R}^{p} \\
+h \mapsto f'(a)(h)
+\end{cases}$$
+___
+Fonction affine : 
+Soit $g \in \mathcal{L}(\mathbb{R}^{n}, \mathbb{R}^{p})$, et  $b \in \mathbb{R}^{p}$, 
+$$f : \begin{cases}
+\mathbb{R}^{n} \to \mathbb{R}^{p} \\
+x \mapsto g(x) + b
+\end{cases} \text{ est différentiable en tout }a \in \mathbb{R}^{n} \text{ et }df(a) = g$$
+En particulier, si $f$ est linéaire ie $b=0$ , $\forall a \in \mathbb{R}^{n}, df(a)=f$
+
+Démonstration : 
+$f$ est différentiable en $a$ $\Leftrightarrow$ $f(a+h) =_{h \to 0} f(a) + df(a)(h) + o(h)$
+Or, $df(a) \in \mathcal{L}(\mathbb{R}, \mathbb{R}^{p})$
+donc, $\exists b \in \mathbb{R}^{p}$ tel que : $df(a) : h \mapsto hb \in \mathbb{R}^{p}$, 
+$\Leftrightarrow f(a+h) = f(a) + hb \in \mathbb{R}^{p} \Leftrightarrow f \text{ est dérivable et } b=f'(a)$
+
