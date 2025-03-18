@@ -316,4 +316,28 @@ En effet :
 $$\varphi(x) = \sum_{k = 1}^{n} x_{k} \varphi(e_{k}) \text{ en posant }a_{k} = \varphi(e_{k}) \text{ les }  a_{k}\text{ existent bien}$$
 
 #### Définition
-Soit $f : \Omega \to \mathbb{R}$ ou $\Omega$ e
+Soit $f : \Omega \to \mathbb{R}$ ou $\Omega$ est un ouvert de $\mathbb{R}^{n}$,
+Soit $a \in \Omega$, 
+Si $f$ est différentiable en $a$, on appelle gradient de $f$ en $a$ l'unique vecteur $u \in \mathbb{R}^{n}$, tel que : 
+$$\forall h \in \mathbb{R}^{n}, df(a)(h) = \left< u, h \right> $$
+On le note alors : 
+$$u = \nabla f(a) = \overrightarrow{grad}(f(a))$$
+donc, 
+$$df(a)(h) = \left< \nabla f(a), h \right> $$
+et on a ainsi, 
+$$\nabla f(a) = \begin{pmatrix}
+\frac{\partial f}{\partial x_{1}}(a) \\
+\vdots \\
+\frac{df}{x_{n}}(a) 
+\end{pmatrix}$$
+
+#### Exemple
+$$V : \begin{cases}
+ \mathbb{R}^{3} \setminus \{ (0, 0, 0) \} \to \mathbb{R} \\
+(x, y, z) \mapsto \frac{1}{\sqrt{x^{2}+y^{2}+z^{2}}}
+\end{cases}$$
+admet pour gradient en $(x, y, z) \in \mathbb{R}^{3} \setminus \{ (0, 0, 0) \}$,
+$$\begin{array}{c}
+{\nabla V(x, y, z) = \left( \frac{x}{(x^{2}+y^{2}+z^{2})^{\frac{3}{2}}},\frac{y}{(x^{2}+y^{2}+z^{2})^{\frac{3}{2}}}, \frac{z}{(x^{2}+y^{2}+z^{2})^{\frac{3}{2}}}  \right)} = \frac{1}{r^{3}}(x, y, z) 
+\end{array}$$
+en posant $r = \sqrt{x^{2}+y^{2}+z^{2}}$
