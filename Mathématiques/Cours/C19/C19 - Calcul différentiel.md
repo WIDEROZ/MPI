@@ -200,7 +200,7 @@ f \text{ est continue en }a \\
 \text{ et } D_{h}f(a) = df(a) (h) \in \mathbb{R}^{p} \\
  \\
 \forall k \in [\![1,n]\!], f \text{ admet en } a \text{ une } k^{ieme} \text{ dérivée partielle et } \\
-\partial_{k}f(a) = \frac{\partial f}{\partial x_{k}} (a) = df(a) \cdot (0, \dots, 0, 1, 0, \dots, 0) = df(a).{e}_{k}\\
+\partial_{k}f(a) = \frac{\partial f}{\partial x_{k}} (a) = df(a) (0, \dots, 0, 1, 0, \dots, 0) = df(a).{e}_{k}\\
 \\
 \text{Si on note : }dx_{k} : \begin{cases}
 \mathbb{R}^{n} \to \mathbb{R} \\
@@ -209,6 +209,7 @@ f \text{ est continue en }a \\
 df(a) = \sum_{k = 1}^{n} \frac{\partial f}{\partial x_{k}}(a)dx_{k}  \\
 
 \end{cases}$$
+
 
 Démonstration : 
 $$f(a+h) = f(a)+df(a)(h) + o(h)$$
@@ -341,3 +342,4 @@ $$\begin{array}{c}
 {\nabla V(x, y, z) = \left( \frac{x}{(x^{2}+y^{2}+z^{2})^{\frac{3}{2}}},\frac{y}{(x^{2}+y^{2}+z^{2})^{\frac{3}{2}}}, \frac{z}{(x^{2}+y^{2}+z^{2})^{\frac{3}{2}}}  \right)} = \frac{1}{r^{3}}(x, y, z) 
 \end{array}$$
 en posant $r = \sqrt{x^{2}+y^{2}+z^{2}}$
+
