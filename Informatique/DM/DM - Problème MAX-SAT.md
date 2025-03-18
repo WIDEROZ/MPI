@@ -73,12 +73,12 @@ let nb_var (f:fnc) =
 	let i = ref 0 in
 		let rec aux1 phi =
 			match phi with
-			| [] -> 0
+			| [] -> 1==1
 			| t1::s1 -> let rec aux2 cl = 
 						match cl with
-						| [] -> failwith "error"
-						| t2::s2 -> if (!i < abs(t2)) then i:= abs(t2)
-						in aux t1
+						| [] -> 1==1
+						| t2::s2 -> (if (!i < abs(t2)) then i:= abs(t2) ; aux2 s2)
+						in (aux2 t1; aux1 s1)
 			in aux1 f ; !i;;
 
 ```
