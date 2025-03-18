@@ -1,5 +1,5 @@
-type litteraux = int;;
-type clause = litteraux list;;
+
+type clause = int list;;
 type fnc = clause list;;
 
 let phi_0:fnc = [[1; 2; 3]; [1; -3; 4]; [1; -4]; [-1; 2; 3]; [-1; -2]; [-1; -3]; [-2; 3]; [2; -3]];;
@@ -20,4 +20,8 @@ nb_var phi_0;;
 
 let v = [|false; true; false; false; true|];;
 
-let insat_clause (v:bool array)
+let insat_clause (v:bool array) (k:int) (phi:clause) =
+  for i = 1 to (nb_var [phi]) do
+    if (i <= k) then 
+
+    done;
