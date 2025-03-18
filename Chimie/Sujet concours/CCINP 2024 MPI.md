@@ -28,4 +28,5 @@ $$R_{a} = \frac{\psi_{f}-\psi_{a}}{D} = \frac{\psi_{f}-\psi_{a}}{\psi_{s}-\psi_{
 
 
 # Partie II
-#### Question 
+#### Question 8
+$$PV=nRT \Leftrightarrow \frac{m}{V} = \frac{PM}{RT}$$
