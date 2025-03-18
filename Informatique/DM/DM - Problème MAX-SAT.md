@@ -45,3 +45,6 @@ $$[\![\varphi]\!]^{v} = \left[\!\left[\bigwedge_{i = 1}^{2k-1}(a_{i} \vee a_{i+1
 
 
 sinon $\left| L\right| = 2k+1$
+
+
+Supposons qu'il existe $v$ telle qu'elle satisfasse au moins $k$ clauses de $\varphi$ ie $$\exists k \in , \varphi = \bigwedge_{i=1}^{k} (l_{i, 1} \vee l_{i, 2} \vee l_{i, 3}) \wedge \bigwedge_{i=k+1}^{m}() $$
