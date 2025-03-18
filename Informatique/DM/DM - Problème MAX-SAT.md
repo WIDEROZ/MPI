@@ -32,5 +32,8 @@ $$[\![(\overline{l_{1}} \vee \overline{l_{2}})]\!]^{v}=[\![(\overline{l_{1}} \ve
 Donc, au maximum on a $\boxed{6}$ clauses de satisfaites. 
 
 ### 3.
-$$\varphi = \bigwedge_{i = 1}^{m}l_{i}$$
+$$\varphi = \bigwedge_{i = 1}^{m}l_{i} \text{ avec } \forall i \in [\![1, m]\!], l_{i} = l_{i,1} \vee l_{i, 2} \vee l_{i, 3}$$
+en remplaçant les $l_{i, 1}, l_{i, 2}, l_{i, 3}$ par $\bot$ si $\exists j \neq k \in [\![1, 3]\!], l_{i}=\begin{cases}l_{i, k}\\ l_{i, k} \vee l_{i, j}\end{cases}$
 Supposons que $\varphi$ est salifiable ie qu'il existe une valuation $v$ telle que : $[\![\varphi]\!]^{v} = 1$
+Alors,
+$$\forall i \in [\![]\!]$$
