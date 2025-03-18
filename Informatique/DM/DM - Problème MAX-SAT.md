@@ -47,8 +47,8 @@ $$[\![\varphi]\!]^{v} = \left[\!\left[\bigwedge_{i = 1}^{2k-1}(a_{i} \vee a_{i+1
 sinon $\left| L\right| = 2k+1$
 
 
-Supposons qu'il existe $v$ telle qu'elle satisfasse au moins $k$ clauses de $\varphi$ alors il existe $(c_{k+1}, \dots, c_{m})$ des phrases propositionnelles et $(q, p) \in [\![1, k]\!] \times \{ 1, 2, 3 \}$ $c_{i} = l_{q, p} \vee \dots$ et $[\![l_{q, p}]\!]^{v} = 1$
+Supposons qu'il existe $v$ telle qu'elle satisfasse au moins $k$ clauses de $\varphi$ alors il existe $(c_{k+1}, \dots, c_{m})$ des phrases propositionnelles et $(q, p) \in [\![1, k]\!] \times \{ 1, 2, 3 \}$ dépendants de $i$ tels que : $c_{i} = l_{q, p} \vee \dots$ et $[\![l_{q, p}]\!]^{v} = 1$
 $$\exists k \in [\![1, m]\!],  \varphi = \bigwedge_{i=1}^{k} (l_{i, 1} \vee l_{i, 2} \vee l_{i, 3}) \wedge \bigwedge_{i=k+1}^{m} c_{i} $$
 
 On prend 
-$$\varphi' = \bigwedge_{i = 1}^{m}$$
+$$\varphi' = \bigwedge_{i = 1}^{m} $$
