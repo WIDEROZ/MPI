@@ -6,6 +6,10 @@ Alors, $v$ satisfait les clauses :
 $$\begin{cases}
 l_{2} \vee \neg x \\
 l_{3} \vee \neg x \\
-l_{1} \vee \neg x \\
-
+l_{1} \vee \neg x
 \end{cases}$$
+(si $[\![x]\!]^{v}=1$ $v$ ne satisfait qu'une clause)
+$$\begin{array}{|c|c|}\hline
+l_{1} & l_{2} & l_{3}&(\overline{l_{1}} \vee \overline{l_{2}})& \\\hline
+
+\end{array}$$
