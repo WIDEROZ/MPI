@@ -298,5 +298,22 @@ $$g : \begin{cases}
 (x, y) \mapsto (r, t) = \left( \sqrt{x^{2}+y^{2}}, \arctan\left( \frac{y}{x} \right) \right)
 \end{cases}$$
 $$Jac_{g}(x, y) = \begin{pmatrix}
-\frac{\partial x}{\partial r} 
+\frac{\partial r}{\partial x}&\frac{\partial r}{\partial y} \\
+\frac{\partial t}{\partial x} & \frac{\partial t}{\partial y}    
+\end{pmatrix} = \begin{pmatrix}
+\frac{x}{\sqrt{x^{2}+y^{2}}}& \frac{y}{\sqrt{x^{2}+ y^{2}}} \\
+-\frac{y}{x^{2}+y^{2}}& \frac{x}{x^{2} + y^{2}}
+\end{pmatrix} $$
+$$= \begin{pmatrix}
+\cos(t)&\sin(t) \\
+-\frac{\sin(t)}{r}& \frac{\cos(t)}{r}
 \end{pmatrix}$$
+
+## 3. Gradient d'une fonction numérique
+Rappelons que pour toute forme linéaire $\varphi: \mathbb{R}^{n} \to \mathbb{R}$, il existe un unique $a=(a_{1}, \dots, a_{n}) \in \mathbb{R}^{n}$ tel que : 
+$$\forall x = (x_{1}, \dots, x_{n}) \in \mathbb{R}^{n}, \varphi(x) = \left< x, a \right> \in \mathbb{R}$$
+En effet :
+$$\varphi(x) = \sum_{k = 1}^{n} x_{k} \varphi(e_{k}) \text{ en posant }a_{k} = \varphi(e_{k}) \text{ les }  a_{k}\text{ existent bien}$$
+
+#### Définition
+Soit $f : \Omega \to \mathbb{R}$ ou $\Omega$ e
