@@ -167,4 +167,22 @@ let rec evalue_clause (c:clause) (v:(bool array)) : bool =
 ;;
 
 
-let eval (a:string) (b:string) = 
+
+
+type litteraux = int;;
+type clause = litteraux list;;
+type fnc = clause list;;
+
+let (phi_0:fnc) = [[1, 2, 3], [1, -3, 4], [1, -4], [-1, 2, 3], [-1, -2], [-1, -3], [-2, 3], [2, -3]];;
+
+let nb_var (f:fnc) = 
+	let i = ref 0 in
+		let rec aux1 phi =
+			match phi with
+			| [] -> 0
+			| t1::s1 -> let rec aux2 cl = 
+						match cl with
+						| [] -> failwith "error"
+						| t2::s2 -> if (!i < abs(t2)) then i:= abs(t2) ; aux2 s2
+						in aux t1
+			in aux1 f ; !i;;
