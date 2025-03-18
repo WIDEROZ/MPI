@@ -24,4 +24,7 @@ let insat_clause (v:bool array) (k:int) (phi:clause) =
   let rec aux (f:clause) = 
     match f with
     | [] -> false
-    | t::s -> 
+    | i::s -> if (i > k) then true
+              else if ((v.(i) and i>0) or (not v.(i) and i <0)) then true
+              else aux s
+    in aux phi
