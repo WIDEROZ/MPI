@@ -39,3 +39,11 @@ $$367.5 °K$$
 
 #### Question 12
 $$p_{p}(367) = 0.15 \text{ et } p_{e}(367) = 8.5$$
+
+#### Question 13
+$$\frac{P_{e}}{P_{p}} = \frac{n_{e}}{n_{p}} = \frac{M(Pin)m_{e}}{M(H_{2}O)m_{pin}}$$
+
+
+
+
+# Partie III.
