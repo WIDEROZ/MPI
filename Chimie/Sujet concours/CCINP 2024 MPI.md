@@ -28,5 +28,14 @@ $$R_{a} = \frac{\psi_{f}-\psi_{a}}{D} = \frac{\psi_{f}-\psi_{a}}{\psi_{s}-\psi_{
 
 
 # Partie II
-#### Question 8
+#### Question 9
 $$PV=nRT \Leftrightarrow \frac{m}{V} = \frac{PM}{RT}$$
+
+#### Question 10
+$$430°K$$
+
+#### Question 11
+$$367.5 °K$$
+
+#### Question 12
+$$p_{p}(367) = 0.15 \text{ et } p_{e}(367) = 8.5$$
