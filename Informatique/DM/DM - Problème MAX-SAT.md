@@ -38,5 +38,10 @@ Supposons que $\varphi$ est salifiable ie qu'il existe une valuation $v$ telle q
 Alors,
 $$\forall i \in [\![1, m]\!], \exists k \in [\![1, 3]\!], [\![l_{i, k}]\!]^{v} = 1$$
 On pose alors, $L$ l'ensemble des littéraux qui vérifient cette proposition.
-Donc, si $\left| L\right|$ est pair on pose : $\left| L\right|=2k$ sinon $\left| L\right| = 2k+1$
-Alors,
+Alors, si $\left| L\right|$ est pair on pose : $\left| L\right|=2k$ et $L = \{ a_{1}, \dots, a_{2k} \}$
+Donc, 
+$$[\![\varphi]\!]^{v} = \left[\!\left[\bigwedge_{i = 1}^{2k-1}(a_{i} \vee a_{i+1})\right]\!\right]^{v}=1$$
+
+
+
+sinon $\left| L\right| = 2k+1$
