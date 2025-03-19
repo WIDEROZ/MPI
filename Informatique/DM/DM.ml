@@ -27,17 +27,18 @@ let insat_clause (v:bool array) (k:int) (phi:clause) =
     | i::s -> (if (abs(i) > k) then true
               else if ((v.(abs(i)) && i>0) || (not v.(abs(i)) && i <0)) then true
               else aux s)
-    in aux phi
-;;
+    in aux phi;;
+
+e
 
 let insat (v:bool array) (k:int) (f:fnc) =
-	let nbre_c = ref 0 in
+	let c = ref 0 in
 		let rec aux phi =
 			match phi with
 			| [] -> ()
-			| t::s -> if (not insat_clause t) then (nbre_c:=!nbre_c +1; aux s)
+			| t::s -> (if (not insat_clause v k 
+			t) then (c:=!c +1; aux s))
 		in aux f
-	in !nbre_c
+	in !c
 ;;
-
-let b = insat v 4 phi_0;;
+let b = (insat (v) (4) (phi_0));;

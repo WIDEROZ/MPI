@@ -110,8 +110,8 @@ let insat (v:bool array) (k:int) (f:fnc) =
 			let rec aux phi =
 				match phi with
 				| [] -> ()
-				| t::s -> if (not insat_clause t) 
-				then (c:=!c +1; aux s)
+				| t::s -> if (not insat_clause v k 
+				t) then (c:=!c +1; aux s)
 			in aux f
 		in !c;;
 ```
