@@ -412,3 +412,31 @@ Ce cas général regroupe ceux ou
 
 
 #### Différentielle d'une composée
+$$\Omega \overset{f}{\longrightarrow} \overset{\text{ouv de }\mathbb{R}^{p}}{U} \overset{g}{\longrightarrow} \mathbb{R}^{q}$$
+Soit $a \in \Omega$, $b = f(a) \in U$, 
+Si : 
+$$\begin{cases}
+f \text{ est différentiable en }a \\
+g \text{ est différentiable en }b
+\end{cases}$$
+alors, 
+$$g \circ f : \Omega \to \mathbb{R}^{q} \text{ est différentiable}$$
+$$d(g \circ f)(a) = dg(b) \circ df(a)$$
+
+#### Exemple
+Soit $f: \mathbb{R}^{n} \to \mathbb{R}$ différentiable en $a \in \mathbb{R}^{n}$ et strictement positive
+Calculer les différentielles de $a$ en $\frac{1}{f}$ et $\sqrt{f}$, 
+$$\frac{1}{f} = g\circ f \text{ ou }g : t \mapsto \frac{1}{t}$$
+$f$ est diff en $a$ et $g$ en $b = f(a)$
+car $g$ est dérivable sur $\mathbb{R}_{+}^{*}$, 
+$$\frac{1}{f} \text{ est différentiable et }$$
+$$\forall h \in \mathbb{R}^{n}, d\left( \frac{1}{f} \right)(a)(h) = (dg(b) \circ df(a))(h)$$
+On sait aussi que : 
+$$dg(b) : c\begin{cases}
+ \mathbb{R} \to \mathbb{R} \\
+t \mapsto g'(b) \times t = -\frac{1}{b^{2}} \times t
+\end{cases}$$
+donc, $d\left( \frac{1}{f} \right)(a)(h) = -\frac{1}{b^{2}}df(a)(h)$ ie :
+$$d\left( \frac{1}{f} \right)(a) = -\frac{1}{f(a)^{2}} df(a)$$
+de même 
+$$d(\sqrt{f})$$
