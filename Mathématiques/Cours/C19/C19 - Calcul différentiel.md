@@ -382,11 +382,33 @@ $$df(A)(H) = f(H) = \mathrm{Tr}(H) = \mathrm{Tr}(I_{n}^{\top}H) = \left< I_{n}, 
 
 # III. Opération algébriques
 ## 1. Combinaisons linéaire et multilinéaires
+#### Propriété
 Soient $\Omega$ un ouvert de $\mathbb{R}^{n}$ $a \in \Omega$ et $f, g : \Omega \to \mathbb{R}^{p}$
 Si $f$ et $g$ sont différentiables en $a$ alors
 $$\forall \alpha \in \mathbb{R}, \alpha f + g \text{ l'est aussi et }: d(\alpha f + g)(a) = \alpha df(a)+ dg(a)$$
 
-Démonstraiton : 
+Démonstration : 
 $$\forall h \in \mathbb{R}^{n}, (\alpha f+g)(a+h)= \alpha f(a+h)+ g(\alpha + h) $$
 $$= \alpha(f(a)+df(a)(h) + o(h)) + g(a) + dg(a)(h) + o(h) $$
 $$= \alpha(f(a) + g(a)) + \underset{\text{linéaire en h}}{\underbrace{\alpha df(a)(h) + dg(a)(h) }} + o(h)$$
+
+#### Différentielle d'un produit
+Soit $p \in \mathbb{N}^{*}$, $E_{1}, \dots,E_{p}$ des $\mathbb{R}$-ev de dimension finies, $\Omega$ un ouvert de $\mathbb{R}^{n}$, $a \in \Omega$ et $\forall k \in [\![1, p]\!]$, $f_{k} : \Omega \to E_{k}$ diff en $a$ 
+Soit $B:E_{1} \times E_{2} \times \dots E_{p} \to \mathbb{R}^{q}$, alors 
+$$\psi : \begin{cases}
+\Omega \to \mathbb{R}^{q} \\
+x \mapsto B(f_{1}(x), f_{2}(x), \dots, f_{p}(x))
+\end{cases}$$
+est différentiable en $a$ et $\forall h \in \mathbb{R}^{n}$,
+$$\begin{array}{rl}
+d\psi(a)(h) &= B(df_{1}(a)(h), f_{2}(a), \dots, f_{p}(a))  \\
+&+B(f_{1}(a), df_{2}(a)(h), \dots, f_{p}(a)) \\
+&\vdots \\
+&+ B(f_{1}(a), f_{2}(a), \dots, df_{p}(a)(h))
+\end{array}$$
+Ce cas général regroupe ceux ou 
+- $E_{1} = E_{2}$ est euclidien et $B(x, y)= \left< x, y \right>$ 
+- $E_{1} = \mathcal{M}_{n}(\mathbb{R})$ $E_{2}=\mathcal{M}_{n, 1}(\mathbb{R})$ et $B(M, X) = MX$
+
+
+#### Différentielle d'une composée

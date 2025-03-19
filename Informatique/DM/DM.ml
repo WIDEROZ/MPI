@@ -39,6 +39,6 @@ let insat (v:bool array) (k:int) (f:fnc) =
 					  else aux s
 		in (aux f; !c);;
 
-let a = [|false; false|];;
-let b = (insat a 1 phi_0);;
+let a = [|true; true; true|];;
+let b = (insat a 2 phi_0);;
 
