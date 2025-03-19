@@ -19,7 +19,7 @@ l_{1} & l_{2} & l_{3}&(\overline{l_{1}} \vee \overline{l_{2}})&(\overline{l_{1}}
 1&1&1&0&0&0  \\\hline
 \end{array}$$
 Ce tableau nous informe que $4$ clauses sont remplies au maximum.
-Ainsi, comme $4+3=7$, le nombre maximum de valuations est $\boxed{7}$.
+Ainsi, comme $4+3=7$, le nombre maximum de clauses satisfaites est $\boxed{7}$.
 
 ### 2.
 Supposons qu'il existe une valuation $v$ telle que : 
@@ -33,7 +33,12 @@ Donc, au maximum on a $\boxed{6}$ clauses de satisfaites.
 Définir une formule $\varphi'$ de MAX-2-SAT de taille polynomiale en $m$ et un seuil $k$ tels que $\varphi$ est satisfiable si et seulement s’il existe une valuation satisfaisant au moins $k$ clauses de $\varphi'$.
 
 On pose : 
-$$\varphi' = l_{1} \wedge l_{2} \wedge $$
+$$\begin{array}{rl}
+\forall i \in [\![1, m]\!],\varphi' =& l_{i, 1} \wedge l_{i, 2} \wedge l_{i,3} \wedge x \wedge (\overline{l_{i,1}} \vee \overline{l_{i,2}}) \wedge (\overline{l_{i,2}} \vee \overline{l_{i,3}}) \\
+&\wedge (\overline{l_{i,1}}
+\wedge \overline{l_{i,3}})\wedge (l_{i,1} \vee \neg x) \wedge (l_{i,2} \vee \neg x) \\
+&\wedge (l_{i,3} \vee \neg x)
+\end{array}$$
 
 Soit 
 $$\varphi = \bigwedge_{i = 1}^{m}(l_{i, 1} \vee l_{i, 2} \vee l_{i, 3})$$
