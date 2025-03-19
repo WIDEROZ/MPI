@@ -343,3 +343,7 @@ $$\begin{array}{c}
 \end{array}$$
 en posant $r = \sqrt{x^{2}+y^{2}+z^{2}}$
 
+#### Interprétation géométrique
+Soit $a \in \Omega$, ou $\nabla f(a) \neq 0_{\mathbb{R}^{n}}$, 
+$$\forall v \in \mathbb{R}^{n}, \left|\left| v \right|\right|_{2} =1$$
+$$\frac{d}{dt}_{t = 0}f(a+tv) = df(a)(v) \leq \left|\left| \nabla f(a) \right|\right| $$
