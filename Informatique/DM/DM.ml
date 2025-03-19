@@ -63,9 +63,10 @@ let maxSat (f:fnc) =
 						then (min:= in_sat_false; v_false)
 					| _ -> 
 						if in_sat_true < !min
-						then aux v_true (k+1);
-						if in_sat_false < !min
+						then aux v_true (k+1)
+						else if in_sat_false < !min
 						then aux v_false (k+1)
+						
 			end;
 		in aux v_init 1;;
 
