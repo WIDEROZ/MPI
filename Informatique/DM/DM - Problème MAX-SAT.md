@@ -11,7 +11,6 @@ l_{1} \vee \neg x
 (si $[\![x]\!]^{v}=1$ $v$ ne satisfait qu'une clause)
 $$\begin{array}{|c|c|}\hline
 l_{1} & l_{2} & l_{3}&(\overline{l_{1}} \vee \overline{l_{2}})&(\overline{l_{1}} \vee \overline{l_{3}})&(\overline{l_{2}} \vee \overline{l_{3}}) \\\hline
-0&0&0&1&1&1 \\\hline
 0&0&1&1&1&1 \\\hline
 0&1&0&1&1&1 \\\hline
 0&1&1&1&1&0 \\\hline 
