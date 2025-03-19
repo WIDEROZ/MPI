@@ -347,3 +347,25 @@ en posant $r = \sqrt{x^{2}+y^{2}+z^{2}}$
 Soit $a \in \Omega$, ou $\nabla f(a) \neq 0_{\mathbb{R}^{n}}$, 
 $$\forall v \in \mathbb{R}^{n}, \left|\left| v \right|\right|_{2} =1$$
 $$\frac{d}{dt}_{t = 0}f(a+tv) = df(a)(v) \leq \left|\left| \nabla f(a) \right|\right| $$
+De plus, on a l'équivalence : 
+$$df(a)(v) = \left|\left| \nabla f(a) \right|\right| \Leftrightarrow v \text{ est positivement colinéaire à }\nabla f(a)$$
+
+Démonstration : 
+$$\forall v \in \mathbb{R}^{n}, \left< \nabla f(a), v \right> = df(a)(v)$$
+Mais l'inégalité de Cauchy+Shwartz donne : 
+$$df(a)(v) \leq \left|\left| \nabla f(a) \right|\right| \left|\left| v \right|\right| $$
+De plus, 
+$$\left< f(a), v \right>  = \left|\left| \nabla f(a) \right|\right| \left|\left| v \right|\right|  \Leftrightarrow \exists \lambda \geq 0, \nabla f(a) = \lambda v $$
+
+#### Exemple
+Si,
+$$f: \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R} \\
+(x, y) \mapsto \sqrt{x^{2}+y^{2}} = \left|\left| (x, y) \right|\right| _{2}
+\end{cases}$$
+On a vu que $f$ était différentiable en tout $a=(x_{0}, y_{0})\neq (0, 0)$
+et que :
+$$\forall v \in \mathbb{R}^{2}, df(a)(v) = \left< v, \frac{a}{\left|\left| a \right|\right| } \right> $$
+Donc, 
+$$\nabla f(a) = \frac{a}{\left|\left| a \right|\right| } \text{ c'est bien unitaire}$$
+
