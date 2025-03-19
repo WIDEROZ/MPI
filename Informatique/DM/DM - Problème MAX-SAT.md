@@ -114,5 +114,4 @@ let insat (v:bool array) (k:int) (f:fnc) =
 		in (aux f; !c);;
 ```
 
-
 #### 11.
