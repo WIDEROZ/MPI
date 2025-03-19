@@ -35,5 +35,7 @@ let insat (v:bool array) (k:int) (f:fnc) =
 	  | t::s -> (if (not (insat_clause v k t)) then (c:=!c +1; aux s))
 		  in (aux f; !c)
 	  ;;
+
+
 let b = (insat (v) (4) (phi_0));;
 
