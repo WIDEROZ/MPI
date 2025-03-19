@@ -45,25 +45,28 @@ let b = (insat a 2 phi_0);;
 
 let maxSat (f:fnc) = 
 	let n = nb_var f in
-	let v = ref (Array.make (n+1) true) in
-	let min = ref (insat !v n f) in
+	let v_init = ref (Array.make (n+1) true) in
+	let min = ref (insat !v_init n f) in
 		let rec aux v k =
-			let v_true = !v in
-			let v_false = (!v.(k) <- false; !v) in
-			let in_sat_true = insat v_true k f in
-			let in_sat_false = insat v_false k f in
-				match k with
-				| n -> 
-				(if in_sat_true < !min 
-				then (min:= in_sat_true; v := v_true)
-				else if in_sat_false < !min 
-				then (min:= in_sat_false; v := v_false))
-				| _ -> 
-				(if in_sat_true < !min
-				then aux v_true (k+1);
-				if in_sat_false < !min
-				then aux v_false (k+1))
-		in (aux !v 1 ; !v);;
+			let v_true = Array.copy v in
+			let v_false = Array.copy v in 
+			begin
+				v_false.(k) <- false;
+				let in_sat_true = insat v_true k f in
+				let in_sat_false = insat v_false k f in
+					match k with
+					| n ->
+						if in_sat_true < !min 
+						then (min:= in_sat_true; v_init := v_true)
+						else if in_sat_false < !min 
+						then (min:= in_sat_false; v_init := v_false)
+					| _ -> 
+						if in_sat_true < !min
+						then aux v_true (k+1);
+						if in_sat_false < !min
+						then aux v_false (k+1)
+			end;
+		in (aux (Array.copy (!v_init)) 1 ; !v_init);;
 
 
 maxSat phi_0;;
