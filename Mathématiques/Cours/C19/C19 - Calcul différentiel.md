@@ -457,7 +457,10 @@ $$\gamma : t \mapsto \gamma(t) = (x(t), y(t)) \in \mathbb{R}^{2} \text{ et } f:(
 $$\frac{d}{dt} f(x(t), y(t)) = \frac{\partial f}{\partial x} (\gamma(t)) x'(t) + \frac{\partial f}{\partial y} (\gamma(t))y'(t)$$
 
 
-$$(f \circ \gamma)'(t) = df(\gamma)(t) \circ d\gamma(t)$$
+$$(f \circ \gamma)'(t) = df(\gamma(t)) \circ d\gamma(t)$$
+or
+$$d\gamma(t)(h) = \frac{\partial \gamma}{\partial t}(h)$$
+
 
 #### Dérivation en chaîne
 $$\underset{\begin{array}{rl}
