@@ -127,17 +127,21 @@ let maxSat (f:fnc) =
 		let min = ref (insat (Array.make (n+1) 
 		true) n f) in
 			let rec aux v k =
-				let in_sat_true = (v.(k) <- true; 
-				insat v k f) in
-					let in_sat_false = (v.(k) <- 
-					false; insat v k f) in
+				let v_true = v in
+				let v_false = (v.(k) <- false; v)in
+				let in_sat_true = insat v_true k f in
+				let in_sat_false = insat v_false k f) in
 					match k with
-					| n ->
+					| n -> 
 					(if in_sat_true < min 
 					then min:= in_sat_true
 					else if in_sat_false < min 
 					then min:= in_sat_false)
 					| _ -> 
-					if in_sat_true
+					(if in_sat_true < min
+					then aux v_true (k+1);
+					if in_sat_false < min
+					then aux v_false (k+1))
+					
 
 ```
