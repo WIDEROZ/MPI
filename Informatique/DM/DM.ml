@@ -42,3 +42,28 @@ let insat (v:bool array) (k:int) (f:fnc) =
 let a = [|true; true; true|];;
 let b = (insat a 2 phi_0);;
 
+
+let maxSat (f:fnc) = 
+	let n = nb_var f in
+	let v = Array.make (n+1) true in
+	let min = ref (insat v n f) in
+		let rec aux v k =
+			let v_true = v in
+			let v_false = (v.(k) <- false; v) in
+			let in_sat_true = insat v_true k f in
+			let in_sat_false = insat v_false k f in
+				match k with
+				| n -> 
+				(if in_sat_true < !min 
+				then min:= in_sat_true
+				else if in_sat_false < !min 
+				then min:= in_sat_false)
+				| _ -> 
+				(if in_sat_true < !min
+				then aux v_true (k+1);
+				if in_sat_false < !min
+				then aux v_false (k+1))
+		in (aux v 1 ; v);;
+
+
+maxSat phi_0;;
