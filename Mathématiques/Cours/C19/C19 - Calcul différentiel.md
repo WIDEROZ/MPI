@@ -467,4 +467,13 @@ $$\frac{\partial g}{\partial y_{1}} , \dots, \frac{\partial g}{\partial y_{p}} \
 On sait que $g\circ f$ admet des dérivées partielles : 
 $$\frac{\partial }{\partial x_{1}} (g \circ f), \dots, \frac{\partial }{\partial x_{n}}(g \circ f) $$
 Alors, 
-$$$$
+$$\forall k \in [\![1, n]\!], \frac{\partial }{\partial x_{k}} (g \circ f)(x) = \frac{\partial g}{\partial x_{k}}(y_{1}(x), \dots, y_{n}(x))  $$
+$$= \frac{\partial y_{1}}{\partial x_{k}}(x) \times \frac{\partial g}{\partial y_{1}} (f(x)) + \dots + \frac{\partial y_p}{\partial x_{k}}(x) \times \frac{\partial g}{\partial y_{p}} (f(x))$$
+$$= \sum_{j = 1}^{p} \frac{\partial y_{j}}{\partial x_{k}}(x) \frac{\partial g}{\partial y_{j}}(f(x)) = \sum_{j = 1}^p \partial_{k} y_{j}(x) \partial_{j} g(f(x))$$
+
+
+
+$$d\gamma(a) : \begin{cases}
+I \to \mathbb{R}^{n} \\
+h \mapsto 
+\end{cases}$$
