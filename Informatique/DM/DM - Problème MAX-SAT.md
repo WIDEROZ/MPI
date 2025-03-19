@@ -12,9 +12,7 @@ l_{1} \vee \neg x
 $$\begin{array}{|c|c|}\hline
 l_{1} & l_{2} & l_{3}&(\overline{l_{1}} \vee \overline{l_{2}})&(\overline{l_{1}} \vee \overline{l_{3}})&(\overline{l_{2}} \vee \overline{l_{3}}) \\\hline
 0&0&1&1&1&1 \\\hline
-0&1&0&1&1&1 \\\hline
 0&1&1&1&1&0 \\\hline 
-1&0&0&1&1&1 \\\hline
 1&0&1&1&0&1 \\\hline
 1&1&0&0&1&1 \\\hline
 1&1&1&0&0&0  \\\hline
@@ -31,27 +29,7 @@ $$[\![(\overline{l_{1}} \vee \overline{l_{2}})]\!]^{v}=[\![(\overline{l_{1}} \ve
 Donc, au maximum on a $\boxed{6}$ clauses de satisfaites. 
 
 ### 3.
-$$\varphi = \bigwedge_{i = 1}^{m}l_{i} \text{ avec } \forall i \in [\![1, m]\!], l_{i} = l_{i,1} \vee l_{i, 2} \vee l_{i, 3}$$
-en remplaçant les $l_{i, 1}, l_{i, 2}, l_{i, 3}$ par $\bot$ si $\exists j \neq k \in [\![1, 3]\!], l_{i}=\begin{cases}l_{i, k}\\ l_{i, k} \vee l_{i, j}\end{cases}$
-Supposons que $\varphi$ est satisfiable ie qu'il existe une valuation $v$ telle que : $[\![\varphi]\!]^{v} = 1$
-Alors,
-$$\forall i \in [\![1, m]\!], \exists k \in [\![1, 3]\!], [\![l_{i, k}]\!]^{v} = 1$$
-On pose alors, $L$ l'ensemble des littéraux qui vérifient cette proposition.
-Alors, si $\left| L\right|$ est pair on pose : $\left| L\right|=2k$ et $L = \{ a_{1}, \dots, a_{2k} \}$
-Donc, 
-$$[\![\varphi]\!]^{v} = \left[\!\left[\bigwedge_{i = 1}^{2k-1}(a_{i} \vee a_{i+1})\right]\!\right]^{v}=1$$
 
-
-
-sinon $\left| L\right| = 2k+1$
-
-
-Supposons qu'il existe $v$ telle qu'elle satisfasse au moins $k$ clauses de $\varphi$ alors il existe $(c_{k+1}, \dots, c_{m})$ des phrases propositionnelles et $(q, p) \in [\![1, k]\!] \times \{ 1, 2, 3 \}$ dépendants de $i$ tels que : $c_{i} = l_{q, p} \vee \dots$ et $[\![l_{q, p}]\!]^{v} = 1$
-$$\exists k \in [\![1, m]\!],  \varphi = \bigwedge_{i=1}^{k} (l_{i, 1} \vee l_{i, 2} \vee l_{i, 3}) \wedge \bigwedge_{i=k+1}^{m} c_{i} $$
-
-On prend 
-$$\varphi' = \bigwedge_{i = 1}^{m} $$
-___
 
 #### 4.
 ![[Pasted image 20250318210748.png]]
@@ -122,27 +100,26 @@ $2$ est la borne inférieure initiale de $\varphi_{0}$ alors,
 
 #### 12.
 ```Ocaml
-let maxSat (f:fnc) = 
+let maxSat (f:fnc) =
 	let n = nb_var f in
-	let v = Array.make (n+1) true in
-	let min = ref (insat v n f) in
+	let v_init = (Array.make (n+1) true) in
+	let v_max = ref (Array.make (n+1) true) in (*Tableau ou les valuations des littéraux vérifiant MAX-SAT seront renvoyés*)
+	let min = ref (insat v_init n f) in
 		let rec aux v k =
-			let v_true = v in
-			let v_false = (v.(k) <- false; v) in
-			let in_sat_true = insat v_true k f in
-			let in_sat_false = insat v_false k f in
-				match k with
-				| n -> 
-				(if in_sat_true < !min 
-				then min:= in_sat_true
-				else if in_sat_false < !min 
-				then min:= in_sat_false)
-				| _ -> 
-				(if in_sat_true < !min
-				then aux v_true (k+1);
-				if in_sat_false < !min
-				then aux v_false (k+1))
-		in (aux v 1 ; v);;
+			let v_true = Array.copy v in (*Tableau qui choisit la valuation true pour le litéral k*)
+			let v_false = Array.copy v in (*Même chose pour false*)
+			begin
+				v_false.(k) <- false;
+				let in_sat_true = insat v_true k f in (*borne inférieure de clauses non satisfiable pour l'évaluation du litéral k à true*)
+				let in_sat_false = insat v_false k f in (*Même chose pour false*)
+					if (k=n) then (*Condition d'arret : on atteint une feuille*)
+						(if in_sat_true < !min
+						then (min:= in_sat_true; v_max := v_true)
+						else if in_sat_false < !min then (min:= in_sat_false; v_max := v_false))
+					else (*On continue suivant la valeur de la borne inférieure et du minimum*)
+						if in_sat_true < !min then aux v_true (k+1);
+						if in_sat_false < !min then aux v_false (k+1)
+			end;
+	in (aux v_init 1; !v_max);;
 
 ```
-	

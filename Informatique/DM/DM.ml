@@ -52,21 +52,21 @@ let maxSat (f:fnc) =
 	let min = ref (insat v_init n f) in
 		let rec aux v k = 
 			let v_true = Array.copy v in (*Tableau qui choisit la valuation true pour le litéral k*)
-			let v_false = Array.copy v in (*Même pour false*)
+			let v_false = Array.copy v in (*Même chose pour false*)
 			begin
 				v_false.(k) <- false;
-				let in_sat_true = insat v_true k f in
-				let in_sat_false = insat v_false k f in
+				let in_sat_true = insat v_true k f in (*borne inférieure de clauses non satisfiable pour l'évaluation du litéral k à true*)
+				let in_sat_false = insat v_false k f in (*Même chose pour false*)
 					if (k=n) then (*Condition d'arret : on atteint une feuille*)
 						(if in_sat_true < !min 
-						then (min:= in_sat_true; v_max := (Array.copy v_true))
+						then (min:= in_sat_true; v_max := v_true)
 						else if in_sat_false < !min 
-						then (min:= in_sat_false; v_max := (Array.copy v_false)))
-					else
+						then (min:= in_sat_false; v_max := v_false))
+					else (*On continue suivant la valeur de la borne inférieure et du minimum*)
 						if in_sat_true < !min
 						then aux v_true (k+1);
 						if in_sat_false < !min
-						then aux v_false (k+1))
+						then aux v_false (k+1)
 			end;
 		in (aux v_init 1; !v_max);;
 
