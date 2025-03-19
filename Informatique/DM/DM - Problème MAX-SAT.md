@@ -104,15 +104,15 @@ let insat_clause (v:bool array) (k:int) (phi:clause) =
 #### 10.
 ```Ocaml
 let insat (v:bool array) (k:int) (f:fnc) =
-		if List.for_all (insat_clause v k) f then 0
-		else
-		let nbre_c = ref 0 in
-			let rec aux phi =
-				match phi with
-				| [] -> ()
-				| t::s -> if (not insat_clause v k 
-				t) then (c:=!c +1; aux s)
-			in aux f
-		in !c;;
+	let c = ref 0 in
+		let rec aux phi =
+			match phi with
+			| [] -> ()
+			| t::s -> if (not (insat_clause v k 
+					  t)) then (c:=!c +1; aux s)
+					  else aux s
+		in (aux f; !c);;
 ```
 
+
+#### 11.
