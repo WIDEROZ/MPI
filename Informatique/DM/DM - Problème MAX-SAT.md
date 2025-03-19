@@ -32,6 +32,13 @@ Donc, au maximum on a $\boxed{6}$ clauses de satisfaites.
 ### 3.
 Définir une formule $\varphi'$ de MAX-2-SAT de taille polynomiale en $m$ et un seuil $k$ tels que $\varphi$ est satisfiable si et seulement s’il existe une valuation satisfaisant au moins $k$ clauses de $\varphi'$.
 
+On pose : 
+$$\varphi' = l_{1} \wedge l_{2} \wedge $$
+
+Soit 
+$$\varphi = \bigwedge_{i = 1}^{m}(l_{i, 1} \vee l_{i, 2} \vee l_{i, 3})$$
+avec $l_{i, 1}, l_{i, 2}$ ou $l_{i, 3} = \bot$ si on a que deux littéraux dans une clause.
+Alors, si $l_{i, 1} \vee l_{i, 2} \vee l_{i, 3}$ est satisfiable, 
 
 
 #### 4.
