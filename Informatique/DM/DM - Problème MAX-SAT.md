@@ -117,12 +117,17 @@ let insat (v:bool array) (k:int) (f:fnc) =
 
 #### 11.
 $2$ est la borne inférieure initiale de $\varphi_{0}$ alors, 
-![[Pasted image 20250319184255.png]]
+![[Pasted image 20250319210636.png]]
+
 
 #### 12.
 ```Ocaml
 let maxSat (f:fnc) = 
-	
+	let n = nb_var f in
+		let v = Array.make (n+1) true in
+			let i = ref (insat v n f) in
+				let rec aux phi =
+					
 
 
 ```
