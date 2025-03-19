@@ -432,11 +432,26 @@ car $g$ est dérivable sur $\mathbb{R}_{+}^{*}$,
 $$\frac{1}{f} \text{ est différentiable et }$$
 $$\forall h \in \mathbb{R}^{n}, d\left( \frac{1}{f} \right)(a)(h) = (dg(b) \circ df(a))(h)$$
 On sait aussi que : 
-$$dg(b) : c\begin{cases}
+$$dg(b) : \begin{cases}
  \mathbb{R} \to \mathbb{R} \\
 t \mapsto g'(b) \times t = -\frac{1}{b^{2}} \times t
 \end{cases}$$
 donc, $d\left( \frac{1}{f} \right)(a)(h) = -\frac{1}{b^{2}}df(a)(h)$ ie :
 $$d\left( \frac{1}{f} \right)(a) = -\frac{1}{f(a)^{2}} df(a)$$
 de même 
-$$d(\sqrt{f})$$
+$$d(\sqrt{f})(a) = \frac{1}{2\sqrt{f(a)}}df(a)$$
+
+## 2. Dérivée selon un arc de $f$
+#### Définition
+On appelle arc paramétré $\mathcal{C}^{1}$ toute fonction : 
+$$\gamma : \begin{cases}
+I \to \mathbb{R}^{n} \\
+t \mapsto \gamma(t)
+\end{cases} \text{ ou } I \text{ est un intervalle de }\mathbb{R} \text{ et } \gamma \text{ est } \mathcal{C}^{1}$$
+
+Soit $\Omega$ un ouvert de $\mathbb{R}^{n}$, $f:\Omega \to \mathbb{R}^{p}$ différentiable
+Si $\gamma : I \to \Omega \subset \mathbb{R}^{n}$ est un arc paramétré $\mathcal{C}^{1}$, alors $fg : I \to \mathbb{R}$ est dérivable et 
+$$\forall t \in I, (f \circ \gamma)'(t) = df(\gamma(t))(\gamma'(t))$$
+Par exemple pour $n=2$, 
+$$\gamma : t \mapsto \gamma(t) = (x(t), y(t)) \in \mathbb{R}^{2} \text{ et } f:(x, y) \in \Omega \mapsto f(x, y)$$
+$$\frac{d}{dt} f(x(t), y(t)) = \frac{\partial f}{\partial x} (\gamma(t))$$
