@@ -31,14 +31,13 @@ let insat_clause (v:bool array) (k:int) (phi:clause) =
 ;;
 
 let insat (v:bool array) (k:int) (f:fnc) =
-	if ((List.for_all (insat_clause v k) f )then 0)
-	else
 	let nbre_c = ref 0 in
 		let rec aux phi =
 			match phi with
 			| [] -> ()
 			| t::s -> if (not insat_clause t) then (nbre_c:=!nbre_c +1; aux s)
 		in aux f
-	in !nbre_c;;
+	in !nbre_c
+;;
 
-insat v 4 phi_0;;
+let b = insat v 4 phi_0;;
