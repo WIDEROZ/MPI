@@ -118,3 +118,9 @@ let insat (v:bool array) (k:int) (f:fnc) =
 
 #### 11.
 $1$ est la borne inférieure de $\varphi_{0}$ d'après la question $4$ alors,
+![[Pasted image 20250319184255.png]]
+
+#### 1
+```Ocaml
+let maxSat (f:fnc)
+```
