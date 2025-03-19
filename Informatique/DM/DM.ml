@@ -45,11 +45,11 @@ let b = (insat a 2 phi_0);;
 
 let maxSat (f:fnc) = 
 	let n = nb_var f in
-	let v_init = ref (Array.make (n+1) true) in
-	let min = ref (insat !v_init n f) in
+	let v_init = (Array.make (n+1) true) in
+	let min = ref (insat v_init n f) in
 		let rec aux v k =
-			let v_true = Array.copy v in
-			let v_false = Array.copy v in 
+			let v_true = v in
+			let v_false = v in
 			begin
 				v_false.(k) <- false;
 				let in_sat_true = insat v_true k f in
@@ -57,18 +57,19 @@ let maxSat (f:fnc) =
 					match k with
 					| n ->
 						if in_sat_true < !min 
-						then (min:= in_sat_true;v_init := v_true)
+						then (min:= in_sat_true; v_true)
 						else if in_sat_false < !min 
-						then (min:= in_sat_false; v_init := v_false)
+						then (min:= in_sat_false; v_false)
 					| _ -> 
 						if in_sat_true < !min
 						then aux v_true (k+1);
 						if in_sat_false < !min
 						then aux v_false (k+1)
 			end;
-		in (aux !v_init 1 ; !v_init);;
+		in aux v_init 1;;
 
 
 maxSat phi_0;;
 
-let phi_1 = [[]];
+let phi_1:fnc = [[1; -2]; [1; 2]; [-3; 1]; [-2;-3]];;
+maxSat phi_1;;
