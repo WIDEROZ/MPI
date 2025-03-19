@@ -83,18 +83,17 @@ let maxSat (f:fnc) =
 				v_false.(k) <- false;
 				let in_sat_true = insat v_true k f in
 				let in_sat_false = insat v_false k f in
-					match k with
-					| n ->
-						Printf.printf "HAHAHAHHA : %d" (in_sat_true);
-						if in_sat_true < !min 
+					if k=n then
+						(if in_sat_true < !min 
 						then (min:= in_sat_true; v_max := (Array.copy v_true))
 						else if in_sat_false < !min 
-						then (min:= in_sat_false; v_max := (Array.copy v_false))
-					| _ -> 
+						then (min:= in_sat_false; v_max := (Array.copy v_false)))
+					else
+						(Printf.printf "HAHAHAHHA - true : %d ; false : %d ; k : %d ; min : %d;;;;" (in_sat_true) (in_sat_false) k !min;
 						if in_sat_true < !min
-						then aux v_true (k+1)
-						else if in_sat_false < !min
-						then aux v_false (k+1)
+						then aux v_true (k+1);
+						if in_sat_false < !min
+						then aux v_false (k+1))
 			end;
 		in (aux v_init 1; !v_max);;
 
