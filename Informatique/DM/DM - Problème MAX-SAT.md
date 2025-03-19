@@ -77,9 +77,12 @@ let nb_var (f:fnc) =
 			| t1::s1 -> let rec aux2 cl = 
 						match cl with
 						| [] -> ()
-						| t2::s2 -> (if (!i < abs(t2)) then i:= abs(t2) ; aux2 s2)
+						| t2::s2 -> (if (!i < 
+						abs(t2)) then i:= abs(t2) 
+						; aux2 s2)
 						in (aux2 t1; aux1 s1)
-			in aux1 f ; !i;;
+			in aux1 f ;
+	!i;;
 
 ```
 

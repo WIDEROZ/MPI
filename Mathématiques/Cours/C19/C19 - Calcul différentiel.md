@@ -457,11 +457,6 @@ $$\gamma : t \mapsto \gamma(t) = (x(t), y(t)) \in \mathbb{R}^{2} \text{ et } f:(
 $$\frac{d}{dt} f(x(t), y(t)) = \frac{\partial f}{\partial x} (\gamma(t)) x'(t) + \frac{\partial f}{\partial y} (\gamma(t))y'(t)$$
 
 
-$$(f \circ \gamma)'(t) = df(\gamma(t)) \circ d\gamma(t)$$
-or
-$$d\gamma(t)(h) = \frac{\partial \gamma}{\partial t}(h)$$
-
-
 #### Dérivation en chaîne
 $$\underset{\begin{array}{rl}
 (x_{1}, \dots , x_{n}) \mapsto f(x) = (y_{1}(x), \dots, y_{p}(x))=y
@@ -480,4 +475,4 @@ $$= \sum_{j = 1}^{p} \frac{\partial y_{j}}{\partial x_{k}}(x) \frac{\partial g}{
 
 
 $$(f \circ \gamma)'(t) = \gamma'(t) (f'\circ\gamma)(t)$$
-or $\gamma' = \frac{d}{dt}\gamma$ $$
+or $\gamma' = \frac{d\gamma}{dt}$

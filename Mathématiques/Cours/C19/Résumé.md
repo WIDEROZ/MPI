@@ -19,3 +19,14 @@ f \text{ est continue en }a \\
 df(a) = \sum_{k = 1}^{n} \frac{\partial f}{\partial x_{k}}(a)dx_{k}  \\
 
 \end{cases}$$
+
+#### Dérivée selon un arc de $f$
+On appelle arc paramétré $\mathcal{C}^{1}$ toute fonction : 
+$$\gamma : \begin{cases}
+I \to \mathbb{R}^{n} \\
+t \mapsto \gamma(t)
+\end{cases} \text{ ou } I \text{ est un intervalle de }\mathbb{R} \text{ et } \gamma \text{ est } \mathcal{C}^{1}$$
+
+Soit $\Omega$ un ouvert de $\mathbb{R}^{n}$, $f:\Omega \to \mathbb{R}^{p}$ différentiable
+Si $\gamma : I \to \Omega \subset \mathbb{R}^{n}$ est un arc paramétré $\mathcal{C}^{1}$, alors $fg : I \to \mathbb{R}$ est dérivable et 
+$$\forall t \in I, (f \circ \gamma)'(t) = df(\gamma(t))(\gamma'(t))$$
