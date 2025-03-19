@@ -369,3 +369,24 @@ $$\forall v \in \mathbb{R}^{2}, df(a)(v) = \left< v, \frac{a}{\left|\left| a \ri
 Donc, 
 $$\nabla f(a) = \frac{a}{\left|\left| a \right|\right| } \text{ c'est bien unitaire}$$
 
+
+#### Exercice
+$$f: \begin{cases}
+\mathcal{M}_{n}(\mathbb{R}) \to \mathbb{R} \\
+A \mapsto \mathrm{Tr}(A)
+\end{cases}$$
+$$\forall A \in \mathcal{M}_{n}(\mathbb{R}),\nabla f(A) = I_{n}$$
+Car in a vu que : $df(A) = f$ $\forall A \in \mathcal{M}_{n}(\mathbb{R})$ car $f$ est linéaire
+et donc, $\forall H \in \mathcal{M}_{n}(\mathbb{R})$
+$$df(A)(H) = f(H) = \mathrm{Tr}(H) = \mathrm{Tr}(I_{n}^{\top}H) = \left< I_{n}, H \right> $$
+
+# III. Opération algébriques
+## 1. Combinaisons linéaire et multilinéaires
+Soient $\Omega$ un ouvert de $\mathbb{R}^{n}$ $a \in \Omega$ et $f, g : \Omega \to \mathbb{R}^{p}$
+Si $f$ et $g$ sont différentiables en $a$ alors
+$$\forall \alpha \in \mathbb{R}, \alpha f + g \text{ l'est aussi et }: d(\alpha f + g)(a) = \alpha df(a)+ dg(a)$$
+
+Démonstraiton : 
+$$\forall h \in \mathbb{R}^{n}, (\alpha f+g)(a+h)= \alpha f(a+h)+ g(\alpha + h) $$
+$$= \alpha(f(a)+df(a)(h) + o(h)) + g(a) + dg(a)(h) + o(h) $$
+$$= \alpha(f(a) + g(a)) + \underset{\text{linéaire en h}}{\underbrace{\alpha df(a)(h) + dg(a)(h) }} + o(h)$$
