@@ -118,3 +118,4 @@ let insat (v:bool array) (k:int) (f:fnc) =
 ```
 
 #### 11.
+$1$ est la borne inférieure de $\varphi_{0}$ d'après la question $1$ alors, 
