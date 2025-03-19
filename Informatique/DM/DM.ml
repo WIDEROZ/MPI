@@ -57,7 +57,7 @@ let maxSat (f:fnc) =
 					match k with
 					| n ->
 						if in_sat_true < !min 
-						then (min:= in_sat_true; v_init := v_true)
+						then (min:= in_sat_true;v_init := v_true)
 						else if in_sat_false < !min 
 						then (min:= in_sat_false; v_init := v_false)
 					| _ -> 
@@ -66,7 +66,9 @@ let maxSat (f:fnc) =
 						if in_sat_false < !min
 						then aux v_false (k+1)
 			end;
-		in (aux (Array.copy (!v_init)) 1 ; !v_init);;
+		in (aux !v_init 1 ; !v_init);;
 
 
 maxSat phi_0;;
+
+let phi_1 = [[]];
