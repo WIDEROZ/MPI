@@ -454,4 +454,17 @@ Si $\gamma : I \to \Omega \subset \mathbb{R}^{n}$ est un arc paramétré $\mathc
 $$\forall t \in I, (f \circ \gamma)'(t) = df(\gamma(t))(\gamma'(t))$$
 Par exemple pour $n=2$, 
 $$\gamma : t \mapsto \gamma(t) = (x(t), y(t)) \in \mathbb{R}^{2} \text{ et } f:(x, y) \in \Omega \mapsto f(x, y)$$
-$$\frac{d}{dt} f(x(t), y(t)) = \frac{\partial f}{\partial x} (\gamma(t))$$
+$$\frac{d}{dt} f(x(t), y(t)) = \frac{\partial f}{\partial x} (\gamma(t)) x'(t) + \frac{\partial f}{\partial y} (\gamma(t))y'(t)$$
+
+#### Dérivation en chaîne
+$$\underset{\begin{array}{rl}
+(x_{1}, \dots , x_{n}) \mapsto f(x) = (y_{1}(x), \dots, y_{p}(x))=y
+\end{array}}{\overset{\text{ouvert de }\mathbb{R}^{n}}{\Omega}} \overset{f}{\longrightarrow} \overset{\text{ouvert de }\mathbb{R}^{p}}{U} \underset{y \mapsto g(y)}{\overset{g}{\longrightarrow}} \mathbb{R}^{q}$$
+On suppose $f$ différentiable sur $\Omega$ et de même pour $g$ sur $U$
+Ainsi, 
+$$\frac{\partial f}{\partial x_{1}} , \dots, \frac{\partial f}{\partial x_{n}} \text{ sont définies sur }\Omega $$
+$$\frac{\partial g}{\partial y_{1}} , \dots, \frac{\partial g}{\partial y_{p}} \text{ sont définies sur }U$$
+On sait que $g\circ f$ admet des dérivées partielles : 
+$$\frac{\partial }{\partial x_{1}} (g \circ f), \dots, \frac{\partial }{\partial x_{n}}(g \circ f) $$
+Alors, 
+$$$$
