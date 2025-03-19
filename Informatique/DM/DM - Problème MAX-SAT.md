@@ -82,7 +82,6 @@ let nb_var (f:fnc) =
 						in (aux2 t1; aux1 s1)
 			in aux1 f ;
 	!i;;
-
 ```
 
 #### 8.
@@ -120,7 +119,10 @@ let insat (v:bool array) (k:int) (f:fnc) =
 $1$ est la borne inférieure de $\varphi_{0}$ d'après la question $4$ alors,
 ![[Pasted image 20250319184255.png]]
 
-#### 1
+#### 12.
 ```Ocaml
-let maxSat (f:fnc)
+let maxSat (f:fnc) = 
+	
+
+
 ```
