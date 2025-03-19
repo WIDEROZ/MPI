@@ -13,6 +13,7 @@ $$\begin{array}{|c|c|}\hline
 l_{1} & l_{2} & l_{3}&(\overline{l_{1}} \vee \overline{l_{2}})&(\overline{l_{1}} \vee \overline{l_{3}})&(\overline{l_{2}} \vee \overline{l_{3}}) \\\hline
 0&0&1&1&1&1 \\\hline
 0&1&1&1&1&0 \\\hline 
+
 1&0&1&1&0&1 \\\hline
 1&1&0&0&1&1 \\\hline
 1&1&1&0&0&0  \\\hline
@@ -29,6 +30,8 @@ $$[\![(\overline{l_{1}} \vee \overline{l_{2}})]\!]^{v}=[\![(\overline{l_{1}} \ve
 Donc, au maximum on a $\boxed{6}$ clauses de satisfaites. 
 
 ### 3.
+Définir une formule $\varphi'$ de MAX-2-SAT de taille polynomiale en $m$ et un seuil $k$ tels que $\varphi$ est satisfiable si et seulement s’il existe une valuation satisfaisant au moins $k$ clauses de $\varphi'$.
+
 
 
 #### 4.
