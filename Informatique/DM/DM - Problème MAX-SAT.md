@@ -124,11 +124,20 @@ $2$ est la borne inférieure initiale de $\varphi_{0}$ alors,
 ```Ocaml
 let maxSat (f:fnc) = 
 	let n = nb_var f in
-		let i = ref (insat (Array.make (n+1) true) 
-		n f) in
+		let min = ref (insat (Array.make (n+1) 
+		true) n f) in
 			let rec aux v k =
-				match k with 
-				| n -> 
-
+				let in_sat_true = (v.(k) <- true; 
+				insat v k f) in
+					let in_sat_false = (v.(k) <- 
+					false; insat v k f) in
+					match k with
+					| n ->
+					(if in_sat_true < min 
+					then min:= in_sat_true
+					else if in_sat_false < min 
+					then min:= in_sat_false)
+					| _ -> 
+					if in_sat_true
 
 ```
