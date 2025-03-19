@@ -26,3 +26,4 @@ Acquaintances
 squeeze : sérer
 Curtain
 Sigh
+As the journalist says
