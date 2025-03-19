@@ -95,8 +95,20 @@ let insat_clause (v:bool array) (k:int) (phi:clause) =
 		match f with
 		| [] -> false
 		| i::s -> ( if (abs(i) > k) then true
-					else if ((v.(abs(i)) && i>0) || (not v.(abs(i)) && i <0)) then true else aux s)
+					else if ((v.(abs(i)) && i>0) 
+					|| (not v.(abs(i)) && i <0)) 
+					then true else aux s)
 	in aux phi;;
 ```
 
 #### 10.
+```Ocaml
+let insat (v:bool array) (k:int) (f:fnc) =
+		if List.for_all (insat_clause v k) f == 
+		true then true
+		else
+		let rec aux phi =
+			match phi with
+			| [] -> false
+			| t::s -> 
+```
