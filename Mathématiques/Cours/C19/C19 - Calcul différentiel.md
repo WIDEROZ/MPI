@@ -510,4 +510,23 @@ x \mapsto df(x)
 
 #### Propriété
 $f$ est de classe $\mathcal{C}^{1}$ ssi 
-$$\frac{\partial f}{\partial x_{1}} , \dots, \frac{\partial f}{\partial x_{n}} \text{ sont bien définies et con}$$
+$$\frac{\partial f}{\partial x_{1}} , \dots, \frac{\partial f}{\partial x_{n}} \text{ sont bien définies et continues sur }\Omega$$
+
+#### Exemple
+Montrer que : 
+$$f: \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R} \\
+(x,y) \mapsto \begin{cases}
+xy \frac{x^{2}-y^{2}}{x^{2}+y^{2}} \text{ si }(x, y) \neq(0, 0) \\
+0 \text{ si } (x, y)=(0, 0)
+\end{cases}
+\end{cases} \text{ est de classe }\mathcal{C}^{1}$$
+
+$f$ est de classe $\mathcal{C}^{1}$sur l'ouvert ou le dénominateur est non nul
+$\frac{\partial f}{\partial x}$ et $\frac{\partial f}{\partial y}$ sont bien définies sur $\mathbb{R}^{2}\setminus \{ (0, 0) \}$
+$$\frac{\partial f}{\partial x} (x, y) = y \frac{x^{4} + 2x^{2}y^{2}-y^{4}+2x^{2}y}{(x^{2}+y^{2})^{2}}$$
+or $f(x, y)= -f(y, x)$ alors 
+$$\frac{\partial f}{\partial y} (x, y) =-x \frac{y^{4}+2x^{2}y^{2} - x^{4}+ 2y^{2}x}{(x^{2}+y^{2})^{2}}$$
+$$\frac{f(x, 0) - f(0, 0)}{x} = 0 \underset{x \to 0}{\longrightarrow} 0$$
+Ainsi, 
+$$\frac{\partial f}{\partial x} (0, 0) = 0$$
