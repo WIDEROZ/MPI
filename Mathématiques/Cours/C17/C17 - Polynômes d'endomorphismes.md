@@ -231,7 +231,7 @@ Supposons par l'absurde qu'il existe $\alpha \in \mathbb{K}$ tel que : $\mu_{u}(
 $$\exists Q \in \mathbb{K}[x], \mu_{u}(X) =(X-\alpha)Q(X)$$
 Comme de plus $\alpha$ n'est pas une valeur propre : 
 $$\mathrm{Ker}(u-\alpha Id_{E}) = \{ 0 \}$$
-Donc $u$ est bijectif car $\dim E = \dim E$
+Donc $u-\alpha Id_{E}$ est bijectif car $\dim E = \dim E$
 Alors, 
 $$\mu_{u}(u) = 0 \Leftrightarrow (u-\alpha Id)\circ Q(u)=0$$
 Alors, 
