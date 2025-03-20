@@ -477,6 +477,7 @@ $$= \sum_{j = 1}^{p} \frac{\partial y_{j}}{\partial x_{k}}(x) \frac{\partial g}{
 $$(f \circ \gamma)'(t) = \gamma'(t) (f'\circ\gamma)(t)$$
 or $\gamma' = \frac{d\gamma}{dt}$
 
+#### Exemple
 Soit $f:\mathbb{R}^{2} \to \mathbb{R}$ différentiable, notons 
 $$g : \begin{cases}
 \mathbb{R}^{2} \to \mathbb{R} \\
@@ -484,5 +485,11 @@ $$g : \begin{cases}
 \end{cases}$$
 $$\varphi : \begin{cases}
 \mathbb{R}^{2} \to \mathbb{R} \\
-(r, \theta) \mapsto (r\cos(\theta))
+(r, \theta) \mapsto (r\cos(\theta), r\sin(\theta)) = (x(r, \theta), y(r, \theta))
 \end{cases}$$
+La formule de la dérivation en chaîne nous donne : 
+$$\forall (r, \theta) \in \mathbb{R}^{2}, \frac{\partial g}{\partial r} (r, \theta)=\frac{\partial x}{\partial r} (r, \theta) \times \frac{\partial f}{\partial x} (r\cos(\theta), r\sin(\theta))$$
+$$+ \frac{\partial y}{\partial r} (r, \theta) \times \frac{\partial f}{\partial y}(r\cos(\theta ), r \sin(\theta)) $$
+$$ = \cos(\theta) \frac{\partial f}{\partial x} (r\cos(\theta), r\sin(\theta)) + \sin(\theta) \frac{\partial f}{\partial y} (r\cos(\theta), r\sin(\theta))$$
+Ainsi, 
+$$\frac{\partial g}{\partial x} (r, \theta) = \frac{\partial r}{\partial x} \times \frac{\partial g}{\partial r}(r, \theta) + \frac{\partial \theta}{\partial x}  \times \frac{\partial g}{\partial r} (r, \theta) = \cos(\theta) $$
