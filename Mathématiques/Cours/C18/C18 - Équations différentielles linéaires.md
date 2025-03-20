@@ -544,7 +544,6 @@ $$\cos ^{4}(x) = \frac{1}{8}\cos(4x) + \frac{1}{2}\cos(2x) + \frac{3}{8}$$
 $$F(x) = \frac{\sin(4x)}{32} + \frac{\sin(2x)}{4} + \frac{3x}{8}$$
 
 
-
 ##### 2.
 $$(\mathcal{H}) : y'' +y = 0$$
 $$\exists \alpha, \beta \in \mathbb{R}, y = \alpha \cos + \beta \sin$$
@@ -591,6 +590,36 @@ $$y_{p} = \cos^{4} \frac{1}{4} \cos + F\sin$$
 est une sol de $y'' + y = \cos ^{3}$
 Finalement l'ensemble des solutions de $y'' + y = \cos ^{3}$ est l'ensemble des fonctions $y$ pour lesquelles 
 $$\exists a, b \in \mathbb{R}, y = y_{p} + a\cos + b \sin$$
+
+
+$$y''+y = \cos ^{2}$$
+$$(\cos, \sin)$$
+Par la meth de la var des const. 
+$$\begin{cases}
+y_{p} = \alpha(t)\cos(t) + \beta(t) \sin(t) \\
+y_{p}' = -\alpha(t)\sin(t)+\beta(t)\cos(t)
+\end{cases}$$
+alors, comme : 
+$$W = \begin{pmatrix}
+\cos & \sin \\
+-\sin & \cos
+\end{pmatrix}$$
+et que : 
+$$ W\begin{pmatrix}
+\alpha' \\
+\beta'
+\end{pmatrix} = \begin{pmatrix}
+0 \\
+\cos ^{2}
+\end{pmatrix}$$
+
+$$\begin{pmatrix}
+\alpha' \\
+\beta' 
+\end{pmatrix} = \begin{pmatrix}
+\cos&-\sin \\
+\sin&\cos
+\end{pmatrix}$$
 
 # V. Systèmes différentiels à coefficients constants
 Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
