@@ -9,4 +9,11 @@ Alors,
 Soit $y \in \mathrm{Im}(f)$, 
 $$\exists x \in E, f(x) = y$$
 Donc,
-$$f^{2}(x)$$
+$$0=f^{3}(x)+f(x) = f^{2}(y) + y$$
+Ainsi, 
+$$y \in \mathrm{Ker}(f^{2}+ Id)$$
+Alors, th du rang $\mathrm{Im}(f) = \mathrm{Ker}(f^{2}+Id)$
+
+$$f(f^{2}+Id)$$
+$$A^{3}+A = 0$$
+
