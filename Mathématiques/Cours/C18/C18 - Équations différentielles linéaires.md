@@ -655,6 +655,45 @@ $$A = \begin{pmatrix}
 \end{pmatrix}$$
 Calculons : 
 
+
+$$\chi_{A} = (X-1)(X-2)(X+3)$$
+Alors, $A$ est DZ donc, 
+$$E_{1}(A) = \mathrm{Ker}\begin{pmatrix}
+-4&5&-5 \\
+-4&5&-5 \\
+-4&4&-4
+\end{pmatrix}= Vect\begin{pmatrix}
+0 \\
+1 \\
+1
+\end{pmatrix}$$
+$$E_{2}(A) = \mathrm{Ker}\begin{pmatrix}
+-5&5&-5 \\
+-4&4&-5 \\
+-4&4&-5
+\end{pmatrix}= Vect\begin{pmatrix}
+1 \\
+1 \\
+0
+\end{pmatrix}$$
+$$E_{3}(A) = \mathrm{Ker}\begin{pmatrix}
+-5&5&-5 \\
+-4&4&-5 \\
+-4&4&-5
+\end{pmatrix}= Vect\begin{pmatrix}
+1 \\
+1 \\
+0
+\end{pmatrix}$$
+
+
+
+
+
+
+
+
+
 $$\chi_{A}(\lambda) = (-1)^{3} \left| \begin{array}{c}
 -3-\lambda&5&-5 \\
 -4&6-\lambda&-5 \\

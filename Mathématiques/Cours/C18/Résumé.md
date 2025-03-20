@@ -57,9 +57,8 @@ $$\begin{cases}
 \alpha' f_{1}' + \beta' f_{2}' = c
 \end{cases}$$
 
-
 #### Propriété
-Si $\alpha \in Sp(A)$, $X_{0} \in \mathcal{M}_{n, 1}(\mathbb{K})$ est un VP de $\alpha$ associé à $\alpha$, alors, $X:t \in \mathbb{R} \mapsto e^{ \alpha t }X_{0}$ est une solution de $(\mathcal{H})$
+Si $\alpha \in Sp(A)$, $X_{0} \in \mathcal{M}_{n, 1}(\mathbb{K})$ est un VP de $A$ associé à $\alpha$, alors, $X:t \in \mathbb{R} \mapsto e^{ \alpha t }X_{0}$ est une solution de $(\mathcal{H})$
 ___
 Si $A$ est DZ, notons $\alpha_{1}, \dots, \alpha_{n}$ ses valeurs propres et $X_{1}, \dots, X_{n} \in \mathcal{M}_{n, 1}(\mathbb{K})$ une base de vecteurs propres, 
 $$\forall k \in [\![1, n]\!], AX_{k} = \alpha_{k}X_{k}$$
