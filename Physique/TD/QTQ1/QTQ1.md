@@ -90,6 +90,10 @@ $$\frac{\hbar \omega}{2k_{b}}\approx 1.1 \times 10^{-8} K$$
 #### 1.
 $$-\frac{\hbar^{2}}{2m} \Delta(\varphi) + V \varphi = E\varphi$$
 Alors, 
-$$\frac{\partial^{2}\varphi}{\partial \theta^{2}} + R^{2}\frac{2mE}{\hbar^{2}} \varphi^{2} = 0$$
-
+$$\frac{\partial^{2}\varphi}{\partial \theta^{2}} + R^{2}\frac{2mE}{\hbar^{2}} \varphi = 0$$
+on pose : $n^{2} = R^{2} \frac{2mE}{\hbar^{2}}$
 #### 2.
+$$\varphi(\theta + 2\pi) = \varphi(\theta)$$
+
+#### 3.
+$$\varphi(\theta) = e^{ in\theta }$$
