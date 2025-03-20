@@ -27,5 +27,7 @@ $$a_{2k} = \frac{1}{2^{2}(k+1)(2k+1)\times k(2k-1)} a_{2(k-2)}$$
 $$a_{2k} = \frac{1}{2(k+1)(2k+1) \times 2k(2k-1) \times \dots \times 2} a_{0}$$
 Alors, 
 $$a_{2k} = \frac{1}{2^{k}} \times \frac{(2k) \times (2k-2) \times \dots \times 2}{(k+1)!(2k+1)!}a_{0}$$
-$$a_{}$$
+$$a_{2k} = \frac{1}{2(k+1)(2k+1)!}$$
+Alors, 
+$$f(x) = \sum_{k = 0}^{+ \infty} $$
 
