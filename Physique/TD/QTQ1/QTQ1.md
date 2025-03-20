@@ -65,4 +65,9 @@ car $\left< x \right>=0$ et $\left< p_{x} \right>=0$ par parité de $V$
 Ainsi, 
 $$E = \frac{1}{2m} (\Delta p_{x})^{2} + \frac{1}{2}m\omega^{2} (\Delta x)^{2} \geq \frac{1}{2m} \left( \frac{\hbar}{\Delta x} \right)^{2} + \frac{1}{2}m\omega^{2} (\Delta x)^{2}$$
 Donc,
-$$E_{0} = \frac{1}{2m} \left( \frac{\hbar}{\Delta x} \right)^{2} + \frac{1}{2}m\omega^{2} (\Delta x)^{2}$$
+$$E_{0} = \frac{1}{2m} \left( \frac{\hbar}{2\Delta x} \right)^{2} + \frac{1}{2}m\omega^{2} (\Delta x)^{2}$$
+$$\frac{dE_{0}}{d(\Delta x)} = -\frac{\hbar^{2}}{4m} \frac{1}{(\Delta x)^{3}} + m\omega^{2} \Delta x=0$$
+Pour obtenir le minimum, 
+$$(\Delta x)^{4} = \frac{\hbar^{2}}{4m^{2} \omega^{2}} \Rightarrow \Delta x_{m} = \sqrt{\frac{h}{2m\omega}}$$
+Alors, 
+$$E(\Delta x_{m}) = E_{0}(\Delta x_{m}) = \omega $$
