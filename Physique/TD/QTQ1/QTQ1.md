@@ -73,5 +73,15 @@ Alors,
 $$E(\Delta x_{m}) = E_{0}(\Delta x_{m}) = \frac{h\omega}{4} + \frac{\omega h}{4}=\frac{1}{2}h \omega $$
 
 #### 3.
-$$E_{n} = n\hbar \nu$$
-$$$$
+$$\psi(x, t) = \varphi_{0} e^{ -i\frac{E_{0}}{\hbar} t }$$
+$$\psi(x, t) = \frac{1}{\sqrt{2}}(\varphi_{0}e^{ -i\frac{E_{0}}{\hbar} t } + \varphi_{1} e^{ -i\frac{E_{1}}{\hbar} t })$$
+
+#### 4.
+##### a.
+$$\Delta x_{m} = \sqrt{\frac{h}{2m\omega}} \geq \Delta x_{T}  = \sqrt{\frac{k_{b}T}{m\omega^{2}}}$$
+Donc, 
+$$T \leq \frac{\hbar\omega}{2k_{b}} = T_{C}$$
+
+##### b.
+$$T = 2, 3 \times 10^{-2} \text{ K} \text{ alors, } $$
+$$\frac{\hbar \omega}{2k_{b}}\approx 1.1 \times 10^{-8} K$$
