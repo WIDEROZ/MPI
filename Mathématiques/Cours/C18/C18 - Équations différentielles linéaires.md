@@ -418,8 +418,18 @@ b(t)
 \end{pmatrix}$$
 est notre inconnue
 $$X' = AX+B \Leftrightarrow WK' + W'K = AWK + B$$
-Or 
-
+Or, 
+$$W' = \begin{pmatrix}
+x_{1, 1}'&x_{1, 2}' \\
+x_{2, 1}'&x_{2,2}'
+\end{pmatrix}= \begin{pmatrix}
+X_{1}' & X_{2}'
+\end{pmatrix} = \begin{pmatrix}
+AX_{1}&AX_{2}
+\end{pmatrix} = A\begin{pmatrix}
+X_{1}&X_{2}
+\end{pmatrix}$$
+Donc, 
 $$\begin{cases}
 X_{1}' = AX_{1} \\
  X_{2}' = AX_{2}
