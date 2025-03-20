@@ -592,35 +592,6 @@ Finalement l'ensemble des solutions de $y'' + y = \cos ^{3}$ est l'ensemble des 
 $$\exists a, b \in \mathbb{R}, y = y_{p} + a\cos + b \sin$$
 
 
-$$y''+y = \cos ^{2}$$
-$$(\cos, \sin)$$
-Par la meth de la var des const. 
-$$\begin{cases}
-y_{p} = \alpha(t)\cos(t) + \beta(t) \sin(t) \\
-y_{p}' = -\alpha(t)\sin(t)+\beta(t)\cos(t)
-\end{cases}$$
-alors, comme : 
-$$W = \begin{pmatrix}
-\cos & \sin \\
--\sin & \cos
-\end{pmatrix}$$
-et que : 
-$$ W\begin{pmatrix}
-\alpha' \\
-\beta'
-\end{pmatrix} = \begin{pmatrix}
-0 \\
-\cos ^{2}
-\end{pmatrix}$$
-
-$$\begin{pmatrix}
-\alpha' \\
-\beta' 
-\end{pmatrix} = \begin{pmatrix}
-\cos&-\sin \\
-\sin&\cos
-\end{pmatrix}$$
-
 # V. Systèmes différentiels à coefficients constants
 Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
 On cherche, $X : t \in I \mapsto \begin{pmatrix}x_{1}(t)\\\vdots \\ x_{n}(t)\end{pmatrix}$
