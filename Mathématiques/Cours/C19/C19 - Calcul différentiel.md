@@ -476,3 +476,13 @@ $$= \sum_{j = 1}^{p} \frac{\partial y_{j}}{\partial x_{k}}(x) \frac{\partial g}{
 
 $$(f \circ \gamma)'(t) = \gamma'(t) (f'\circ\gamma)(t)$$
 or $\gamma' = \frac{d\gamma}{dt}$
+
+Soit $f:\mathbb{R}^{2} \to \mathbb{R}$ différentiable, notons 
+$$g : \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R} \\
+(r, \theta) \mapsto f(r\cos(\theta), r\sin (\theta))
+\end{cases}$$
+$$\varphi : \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R} \\
+(r, \theta) \mapsto (r\cos(\theta))
+\end{cases}$$
