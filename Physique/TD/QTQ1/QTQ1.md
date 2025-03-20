@@ -83,5 +83,13 @@ Donc,
 $$T \leq \frac{\hbar\omega}{2k_{b}} = T_{C}$$
 
 ##### b.
-$$T = 2, 3 \times 10^{-2} \text{ K} \text{ alors, } $$
+$$T = 2, 3 \times 10^{-2} \text{ K}$$
 $$\frac{\hbar \omega}{2k_{b}}\approx 1.1 \times 10^{-8} K$$
+
+# Exercice 4
+#### 1.
+$$-\frac{\hbar^{2}}{2m} \Delta(\varphi) + V \varphi = E\varphi$$
+Alors, 
+$$\frac{\partial^{2}\varphi}{\partial \theta^{2}} + R^{2}\frac{2mE}{\hbar^{2}} \varphi^{2} = 0$$
+
+#### 2.
