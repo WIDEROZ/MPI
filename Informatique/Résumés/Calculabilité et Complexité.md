@@ -53,11 +53,10 @@ $$f_{1}(e) = f_{2}(g(e))$$
 Si $f_{1} \leq_{P} f_{2}$ et que $f_{2} \in P$ alors $f_{1} \in P$
 
 ## Classe $NP$
-Soit $f : E \to \mathbb{B}$ un problème tel qu'il existe un ensemble $C$ d'éléments appelés certificats et une fonction : 
-$$f_{verif} : E \times C \to \mathbb{B}  $$
-telle que : 
-$$\forall e \in E, f(e) = 1 \Leftrightarrow \exists c \in \mathbb{C}, f_{verif}(e, c) = 1$$
-S'il existe $f_{verif} \in P$ et $C$ qui vérifient ces conditions alors $f \in NP$
+Soit $f : E \to \mathbb{B}$ un problème, 
+S'il existe $f_{verif} \in P : E \times C \to \mathbb{B}$ et $C$ un ensemble de certificats qui vérifient : 
+$$\forall e \in E, f(e) = 1 \Leftrightarrow \exists c \in \mathcal{C}, f_{verif}(e, c) = 1$$
+ces conditions alors $f \in NP$
 
 #### Théorème
 $$P \subset NP$$
