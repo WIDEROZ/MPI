@@ -97,3 +97,6 @@ $$\varphi(\theta + 2\pi) = \varphi(\theta)$$
 
 #### 3.
 $$\varphi(\theta) = e^{ in\theta }$$
+
+
+
