@@ -419,10 +419,11 @@ b(t)
 est notre inconnue
 $$X' = AX+B \Leftrightarrow WK' + W'K = AWK + B$$
 Or 
+
 $$\begin{cases}
 X_{1}' = AX_{1} \\
  X_{2}' = AX_{2}
-\end{cases} \Rightarrow W' = AW$$
+\end{cases} \Rightarrow  W' = AW$$
 Donc, 
 $$WK' = B \Leftrightarrow K' = W^{-1}B$$
 
@@ -525,7 +526,7 @@ $$\begin{cases}
 \alpha = \frac{f_{2}'f - f_{2}f'}{f_{1}f_{2}'-f_{1}'f_{2}} \\
 \beta = \frac{-f_{1}'f+f_{1}f'}{f_{1}f_{2}'-f_{1}'f_{2}}
 \end{cases}$$
-$\alpha, \beta$ sont donc boien $\mathcal{C}^{1}$
+$\alpha, \beta$ sont donc bien $\mathcal{C}^{1}$
 
 #### CCINP 31
 ##### 1.
