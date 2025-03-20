@@ -41,3 +41,7 @@ $$\forall x \in [0, l], \vec{J} = \left| \psi\right|^{2} \times \frac{\hbar \vec
 #### 2.
 Injection de $\omega$ dans l'équation
 $$p = \hbar k = \hbar \frac{1}{\lambda} = \frac{\hbar \nu}{c}$$
+
+# Exercice 3
+#### 1.
+$$- \frac{\hbar^{2}}{m} \delta (\psi) +  V \psi = i\hbar \frac{\partial \psi}{\partial t} $$
