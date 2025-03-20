@@ -543,6 +543,20 @@ $\alpha, \beta$ sont donc bien $\mathcal{C}^{1}$
 $$\cos ^{4}(x) = \frac{1}{8}\cos(4x) + \frac{1}{2}\cos(2x) + \frac{3}{8}$$
 $$F(x) = \frac{\sin(4x)}{32} + \frac{\sin(2x)}{4} + \frac{3x}{8}$$
 
+
+
+$$$$
+
+
+
+
+
+
+
+
+
+
+
 ##### 2.
 $$(\mathcal{H}) : y'' +y = 0$$
 $$\exists \alpha, \beta \in \mathbb{R}, y = \alpha \cos + \beta \sin$$
