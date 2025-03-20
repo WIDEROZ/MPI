@@ -44,6 +44,21 @@ $$p = \hbar k = \hbar \frac{1}{\lambda} = \frac{\hbar \nu}{c}$$
 
 # Exercice 3
 #### 1.
-$$V(x) = \frac{1}{2}m \omega^{2}x^{2} \text{ et } E_{m} = E_{c} + E_{p} = \frac{1}{2}m \dot{x}^{2} + \frac{1}{2}m\omega^{2} x^{2}$$
+$$E_{p} = V(x) = \frac{1}{2}m \omega^{2}x^{2} \text{ et } E_{m} = E_{c} + E_{p} = \frac{1}{2}m \dot{x}^{2} + \frac{1}{2}m\omega^{2} x^{2}$$
 Alors on fait un théorème de la puissance cinétique : 
 $$0 = \mathcal{P}_{disipée}= \frac{dE_{m}}{dt} =\dot{x} m (\ddot{x} + \omega^{2}x) \Rightarrow \ddot{x} + \omega^{2}x = 0$$
+#### 2.
+Par le principe d'indétermination d’Heisenberg : 
+$$\Delta x \times \Delta p_{x} \geq \frac{\hbar}{2}$$
+On a :
+$$E_{c} \approx \frac{p_{x}^{2}}{2m} \text{ alors}$$
+Pour un état stationnaire : 
+$$E = \left< E \right>  = \left< E_{c} \right>  + \left< E_{p} \right> $$
+Or : 
+$$\begin{cases}
+\Delta x = \sqrt{\left< (x-\left< x \right> )^{2} \right> } = \sqrt{\left< x^{2} \right> -\left< x \right> ^{2}} \\
+\Delta p_{x} = \sqrt{\left< (p_{x}-\left< p_{x}\right> )^{2} \right> }= \sqrt{\left< p_x^{2} \right> -\left< p_x \right> ^{2}}
+\end{cases}$$
+Donc, 
+$$E = \frac{1}{2m}\left< p_{x}^{2} \right> + \left< V(x) \right> =\frac{1}{2m}\left< p_{x} ^{2}\right>  $$
+car $\left< x \right>=0$ par parité de $V$
