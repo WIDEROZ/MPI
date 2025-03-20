@@ -1,27 +1,13 @@
-$$f(x, y) = \ln(1-x^{2}-y^{2}) -2x-y$$
-$$\frac{\partial f}{\partial x} (x, y) = \frac{-2x}{1-x^{2}-y^{2}} -2 = -2\times\frac{x+1-x^{2}-y^{2}}{1-x^{2}-y^{2}}$$
-$$\frac{\partial f}{\partial y} (x, y) = \frac{-2y}{1-x^{2}-y^{2}} -1 = \frac{-2y-1+x^{2}+y^{2}}{1-x^{2}-y^{2}}$$
-$$\ln\left( 1-\left( \frac{2+2\sqrt{6}}{5} \right)^{2} - \left( \frac{1+\sqrt{6}}{5} \right)^{2} \right)$$
-$$ 1-\left( \frac{2+2\sqrt{6}}{5} \right)^{2} - \left( \frac{1+\sqrt{6}}{5} \right)^{2} = -0.798 \leq 0$$
-pas possible par ce que tu peux mettre que des truc=s positifs dans le $\ln$ 
+Soit $f\in Sol(E)$ telle que : 
+$$\forall (t_{0}, x_{0}) \in I \times E , \exists ! \varphi \in Sol(\mathcal{E}), \varphi(t_{0}) = x_{0}$$
+Alors,
+$$\forall t_{0} \in I, \begin{cases}
+Sol(\mathcal{H}) \to E \\
+\varphi \mapsto  \varphi(t_{0})
+\end{cases}$$
+est un isomorphisme car le théorème de Cauchy linéaire nous donne directement la bijectivité et c'est un op de valuation donc c'est terminé
+Ainsi $\dim E = \dim Sol(\mathcal{H}) = 2$
 
-
-$$\left| \begin{array}{c}
-1&1&a \\
-1&a&1 \\
-a&1&1
-\end{array}\right| = 1 \times \left| \begin{array}{c}
-a&1 \\
-1&1
-\end{array}\right| - 1 \times \left| \begin{array}{c}
-1&a \\
-1&1
-\end{array}\right| + a \times \left| \begin{array}{c}
-1&a \\
-a&1
-\end{array}\right|$$
-$$= (a-1)- (1-a) + a(1-a^{2}) = 2(a-1) + a(1-a^{2}) $$
-$$= 2a-2 + a-a^{3}$$
-
-lorsque $a = -2$ alors 
-$$2a-2+a-a^{3} = -4-2-2+2^{3} =-8+8=0$$
+#### Analyse
+Soit $f: I \to \mathbb{R}$ DSE, alors, 
+$$f(x) = \sum_{k = 0}^{+ \infty} a_{n} x^{n}$$
