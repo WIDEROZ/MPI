@@ -550,4 +550,27 @@ Soit $\Omega$ un ouvert <u>connexe par arc</u> de $\mathbb{R}^{n}$ et $f:\Omega 
 $$f \text{ est contante }$$
 $$\Leftrightarrow \text{sa différentiellle est nulle ie } \forall k \in [\![1, n]\!], \frac{\partial f}{\partial x_{k}} (x) = 0$$
 Démonstration : 
-Dans le cas ou $\Omega$
+Dans le cas ou $\Omega$ est étoillé par rapport à un de ses points $a$ alors $\forall b \in \Omega, [a, b] \in \Omega$, D'après le TFA : 
+$$f(b)-f(a) = \int_{0}^{1} df((1-t)a+tb)(b-a) \, dt $$
+Ainsi, si $\forall x \in \Omega, df(x) = 0$ alors, 
+$$\forall t \in [0, 1], df((1-t)a+tb)=0$$
+Ainsi, 
+$$\forall b \in \Omega, f(a) = f(b) \text{ ie }f \text{ est constante}$$
+$\Rightarrow$ : trivial
+
+## 2. $k \geq 2$
+#### Définition
+Soit $\Omega$ un ouvert de $\mathbb{R}^{n}$, 
+On définit les dérivées partielles d'ordre $k$ de :
+$$f : \begin{cases}
+\Omega \to \mathbb{R}^{p} \\
+(x_{1}, \dots, x_{n}) \mapsto f(x_{1}, \dots, x_n)
+\end{cases} \text{ par récurrence sur }k$$
+Soit $k \in [\![1, n]\!]$, si $\frac{\partial f}{\partial x_{k}}$ est définie 
+
+$$\frac{\partial^{2}f}{\partial x_{i}x_{j}} = \frac{\partial }{\partial x_{i}}\left( \frac{\partial f}{\partial x_{j}}  \right)$$
+
+#### Définition
+On dit que $f$ est de classe $\mathcal{C}^{2}$ si 
+$$\forall i, j \in [\![1, n]\!], \frac{\partial^{2}f}{\partial x_{i}x_{j}}  \text{ existe et est continue sur }\Omega$$
+De même pour $k \in \mathbb{N}^{}$
