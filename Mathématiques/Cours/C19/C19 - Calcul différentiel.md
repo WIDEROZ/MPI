@@ -568,9 +568,14 @@ $$f : \begin{cases}
 \end{cases} \text{ par récurrence sur }k$$
 Soit $k \in [\![1, n]\!]$, si $\frac{\partial f}{\partial x_{k}}$ est définie 
 
-$$\frac{\partial^{2}f}{\partial x_{i}x_{j}} = \frac{\partial }{\partial x_{i}}\left( \frac{\partial f}{\partial x_{j}}  \right)$$
+$$\frac{\partial^{2}f}{\partial x_{i}\partial x_{j}} = \frac{\partial }{\partial x_{i}}\left( \frac{\partial f}{\partial x_{j}}  \right)$$
 
 #### Définition
 On dit que $f$ est de classe $\mathcal{C}^{2}$ si 
-$$\forall i, j \in [\![1, n]\!], \frac{\partial^{2}f}{\partial x_{i}x_{j}}  \text{ existe et est continue sur }\Omega$$
-De même pour $k \in \mathbb{N}^{}$
+$$\forall i, j \in [\![1, n]\!], \frac{\partial^{2}f}{\partial x_{i}\partial x_{j}}  \text{ existe et est continue sur }\Omega$$
+De même pour $k \in \mathbb{N}^{*}, i_{1}, i_{2}, \dots, i_{k} \in [\![1, n]\!]$
+$$\frac{\partial^{k}f}{\partial x_{i_{1}} \dots \partial x_{i_{k}}} : \Omega \to \mathbb{R}^{p}$$
+
+#### Lemme de Schwarz
+Si $f$ est de classe $\mathcal{C}^{2}$, 
+$$\forall i, j \in [\![1,n]\!], \frac{\partial^{2}f}{\partial x_{i}\partial x_{j}} = \frac{\partial^{2}f}{\partial x_{j} \partial x_{i}} $$
