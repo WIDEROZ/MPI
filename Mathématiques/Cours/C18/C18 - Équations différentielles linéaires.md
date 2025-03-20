@@ -545,9 +545,28 @@ $$F(x) = \frac{\sin(4x)}{32} + \frac{\sin(2x)}{4} + \frac{3x}{8}$$
 
 
 
-$$$$
-
-
+$$y_{1}(x) = \cos(x) \text{ et } y_{2}(x) = \sin(x)$$
+Il existe alors $\alpha, \beta \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R})$ tels que : 
+$$y (x)= \alpha(x) \cos(x) + \beta(x) \sin(x)$$
+Donc, 
+$$\begin{pmatrix}
+y'(x) \\
+y''(x)
+\end{pmatrix} = \begin{pmatrix} 
+0&1 \\
+-1&0
+\end{pmatrix}\begin{pmatrix}
+y(x) \\
+y'(x)
+\end{pmatrix} + \begin{pmatrix}
+0 \\
+\cos ^{4}(x)
+\end{pmatrix}$$
+Alors, 
+$$W (x)= \begin{pmatrix}
+\cos(x) & \sin(x) \\
+-\sin(x)& \cos(x)
+\end{pmatrix} \text{ alors } $$
 
 
 
