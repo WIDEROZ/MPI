@@ -526,11 +526,22 @@ $f$ est de classe $\mathcal{C}^{1}$sur l'ouvert ou le dénominateur est non nul
 $\frac{\partial f}{\partial x}$ et $\frac{\partial f}{\partial y}$ sont bien définies sur $\mathbb{R}^{2}\setminus \{ (0, 0) \}$
 $$\frac{\partial f}{\partial x} (x, y) = y \frac{x^{4} + 4x^{2}y^{2}-y^{4}}{(x^{2}+y^{2})^{2}}$$
 or $f(x, y)= -f(y, x)$ alors 
-$$\frac{\partial f}{\partial y} (x, y) =-x \frac{y^{4}+2x^{2}y^{2} - x^{4}+ 2y^{2}x}{(x^{2}+y^{2})^{2}}$$
+$$\frac{\partial f}{\partial y} (x, y) =-x \frac{y^{4}+4x^{2}y^{2} - x^{4}}{(x^{2}+y^{2})^{2}}$$
 $$\frac{f(x, 0) - f(0, 0)}{x} = 0 \underset{x \to 0}{\longrightarrow} 0$$
 Ainsi, 
 $$\frac{\partial f}{\partial x} (0, 0) = 0 \text{ de même pour }\frac{\partial f}{\partial y} (0, 0)$$
 Donc les dérives sont bien définies
 Montrons qu'elles sont continues en $(0, 0)$ 
 On utilise : $N = \left|\left| (x, y) \right|\right|_{\infty} = \max\{ \left| x\right|, \left| y\right| \}$
-$$\left| \frac{\partial f}{\partial x} (x, y)\right| \leq N \frac{N^{4}+4N^{4} + N^{4}}{(x^{2}+y^{2})^{2}} \leq 6N$$
+$$\left| \frac{\partial f}{\partial x} (x, y)\right| \leq N \frac{N^{4}+4N^{4} + N^{4}}{(x^{2}+y^{2})^{2}} \leq 6N \underset{(x, y) \to (0, 0)}{\longrightarrow} 0$$
+ie 
+$$\frac{\partial f}{\partial x} (x, y) \underset{(x, y) \to (0, 0)}{\longrightarrow} \frac{\partial f}{\partial x} (0, 0)$$
+
+#### Théorème : TFA
+Soit $\Omega$ un ouvert de $\mathbb{R}^{n}$ $f:\Omega \to \mathbb{R}^{p}$ de classe $\mathcal{C}^{1}$ 
+Soit $\gamma : [0, 1] \to \Omega$ de classe $\mathcal{C}^{1}$ alors
+$$f(\gamma(1)) - f(\gamma(0)) = \int_{0}^{1} df(\gamma(t))(\gamma'(t)) \, dt $$
+Démonstration : 
+$g = f \circ \gamma$ est de classe $\mathcal{C}^{1}$ en tant que composée de fonctions de classe $\mathcal{C}^{1}$ et $\forall t \in [0, 1], g'(t) = df(\gamma(t))(\gamma'(t))$
+Alors,
+$$f(\gamma(1))-f(\gamma(0)) = g(1)-g(0) = \int_{0}^{1} g'(t) \, dt $$
