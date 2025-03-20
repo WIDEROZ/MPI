@@ -6,5 +6,7 @@ $$\mu_{u} = \prod_{k = 1}^{n}(X-\lambda_{k})^{m_{k}} \Rightarrow \mu_{u}(u) = \b
 
 $$E=\mathrm{Ker}(f(f^{2}+Id)) = \mathrm{Ker}(f) \oplus  \mathrm{Ker}(f^{2}+ Id)$$
 Alors, 
-$$E = \dim \mathrm{Ker}f + \mathrm{rg}(f)$$
-par le th du rang
+Soit $y \in \mathrm{Im}(f)$, 
+$$\exists x \in E, f(x) = y$$
+Donc,
+$$f^{2}(x)$$
