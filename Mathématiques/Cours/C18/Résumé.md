@@ -31,3 +31,30 @@ $$\begin{cases}
 w \text{ ne s'annule pas} \\
 w \text{ n'est pas la fonction nulle}
 \end{cases}$$
+
+#### Théorème (Méthode de variation des constantes)
+Soit $(f_{1}, f_{2})$ un SFS de : 
+$$f'' + af' + bf = 0$$
+Soit $f\in \mathcal{C}^{2}(I ,\mathbb{K})$, 
+$$\exists (\alpha, \beta) \in \mathcal{C}^{1}(I, \mathbb{K})^{2}, \forall t \in I, \begin{pmatrix}
+f(t) \\
+f'(t)
+\end{pmatrix} = \alpha(t) \begin{pmatrix}
+f_{1}(t) \\
+f'_{1}(t)
+\end{pmatrix} + \beta(t) \begin{pmatrix}
+f_{2}(t) \\
+f_{2}'(t)
+\end{pmatrix}$$
+$$= W\begin{pmatrix}
+\alpha \\
+\beta
+\end{pmatrix}$$
+___
+$f$ est solution de $f'' + af' + bf = c$ ssi 
+$$\begin{cases}
+\alpha' f_{1} + \beta' f_{2} = 0 \\
+\alpha' f_{1}' + \beta' f_{2}' = c
+\end{cases}$$
+
+

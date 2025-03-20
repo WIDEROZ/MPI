@@ -566,9 +566,11 @@ Alors,
 $$W (x)= \begin{pmatrix}
 \cos(x) & \sin(x) \\
 -\sin(x)& \cos(x)
-\end{pmatrix} \text{ alors } $$
-
-
+\end{pmatrix} \text{ alors }  $$
+Comme : 
+$$W'(x) = AW(x) = \begin{pmatrix}
+\cos(x)
+\end{pmatrix}$$
 
 
 
