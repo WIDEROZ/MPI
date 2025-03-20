@@ -60,5 +60,9 @@ $$\begin{cases}
 \Delta p_{x} = \sqrt{\left< (p_{x}-\left< p_{x}\right> )^{2} \right> }= \sqrt{\left< p_x^{2} \right> -\left< p_x \right> ^{2}}
 \end{cases}$$
 Donc, 
-$$E = \frac{1}{2m}\left< p_{x}^{2} \right> + \left< V(x) \right> =\frac{1}{2m}\left< p_{x} ^{2}\right>  $$
-car $\left< x \right>=0$ par parité de $V$
+$$E = \frac{1}{2m}\left< p_{x}^{2} \right> + \left< V(x) \right> =\frac{1}{2m}\left< p_{x} ^{2}\right> + \frac{1}{2}m\omega^{2} \left< x^{2} \right>  $$
+car $\left< x \right>=0$ et $\left< p_{x} \right>=0$ par parité de $V$
+Ainsi, 
+$$E = \frac{1}{2m} (\Delta p_{x})^{2} + \frac{1}{2}m\omega^{2} (\Delta x)^{2} \geq \frac{1}{2m} \left( \frac{\hbar}{\Delta x} \right)^{2} + \frac{1}{2}m\omega^{2} (\Delta x)^{2}$$
+Donc,
+$$E_{0} = \frac{1}{2m} \left( \frac{\hbar}{\Delta x} \right)^{2} + \frac{1}{2}m\omega^{2} (\Delta x)^{2}$$
