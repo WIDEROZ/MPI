@@ -33,20 +33,19 @@ Donc, au maximum on a $\boxed{6}$ clauses de satisfaites.
 Définir une formule $\varphi'$ de MAX-2-SAT de taille polynomiale en $m$ et un seuil $k$ tels que $\varphi$ est satisfiable si et seulement s’il existe une valuation satisfaisant au moins $k$ clauses de $\varphi'$.
 
 On pose : 
-$$\boxed{\begin{array}{rl}
-\forall i \in [\![1, m]\!],\varphi' =& l_{i, 1} \wedge l_{i, 2} \wedge l_{i,3} \wedge x \wedge (\overline{l_{i,1}} \vee \overline{l_{i,2}}) \wedge (\overline{l_{i,2}} \vee \overline{l_{i,3}}) \\
-&\wedge (\overline{l_{i,1}}
-\wedge \overline{l_{i,3}})\wedge (l_{i,1} \vee \neg x) \wedge (l_{i,2} \vee \neg x) \\
-&\wedge (l_{i,3} \vee \neg x)
-\end{array}}$$
+$$\boxed{\forall i \in [\![1, m]\!],\varphi' = l_{i, 1} \wedge l_{i, 2} \wedge l_{i,3} \wedge x \wedge (\overline{l_{i,1}} \vee \overline{l_{i,2}}) \wedge (\overline{l_{i,2}} \vee \overline{l_{i,3}}) 
+\wedge (\overline{l_{i,1}}
+\wedge \overline{l_{i,3}})\wedge (l_{i,1} \vee \neg x) \wedge (l_{i,2} \vee \neg x)
+\wedge (l_{i,3} \vee \neg x)}$$
 et $\boxed{k=7}$
 Soit 
 $$\varphi = \bigwedge_{i = 1}^{m}(l_{i, 1} \vee l_{i, 2} \vee l_{i, 3})$$
 avec $l_{i, 1}, l_{i, 2}$ ou $l_{i, 3} = \bot$ si on a que deux littéraux dans une clause.
-Alors, si $\varphi$ est satisfiable, $\forall i \in [\![1, m]\!], l_{i, 1} \vee l_{i, 2} \vee l_{i, 3}$ est satisfiable, alors il existe donc une valuation satisfaisant au moins $7$ clauses de $\varphi$ (c'est même exactement) d'après la question $1$. 
-Réciproquement, par contraposition si $\varphi$ n'est pas satisfiable, alors il existe $i \in [\![1, m]\!]$ tel que $$
-
-
+Alors, 
+$\boxed{\Rightarrow}$ : 
+Si $\varphi$ est satisfiable, $\forall i \in [\![1, m]\!], l_{i, 1} \vee l_{i, 2} \vee l_{i, 3}$ est satisfiable, alors il existe donc une valuation satisfaisant au moins $7$ clauses de $\varphi$ (c'est même exactement) d'après la question $1$. 
+$\boxed{\Leftarrow}$ : 
+Réciproquement, par contraposition si $\varphi$ n'est pas satisfiable, alors il existe $i \in [\![1, m]\!]$ tel que $l_{i, 1} \vee l_{i, 2} \vee l_{i, 2}$ n'est pas satisfiable ie d'après la question $2$ : pour toute valuation de $\varphi'$, au plus $6$ clauses sont satisfaites (ce qui est bien la négation de : il existe une valuation satisfaisant au moins $7$ clauses de $\varphi'$)
 
 
 #### 4.
@@ -91,10 +90,10 @@ let insat_clause (v:bool array) (k:int) (phi:clause) =
 	let rec aux (f:clause) =
 		match f with
 		| [] -> false
-		| i::s -> ( if (abs(i) > k) then true
-					else if ((v.(abs(i)) && i>0) 
-					|| (not v.(abs(i)) && i <0)) 
-					then true else aux s)
+		| i::s -> (if (abs(i) > k) then true
+		else if ((v.(abs(i)) && i>0) || (not v.(abs(i)) && i <0))
+		then true
+		else aux s)
 	in aux phi;;
 ```
 
@@ -105,8 +104,7 @@ let insat (v:bool array) (k:int) (f:fnc) =
 		let rec aux phi =
 			match phi with
 			| [] -> ()
-			| t::s -> if (not (insat_clause v k 
-					  t)) then (c:=!c +1; aux s)
+			| t::s -> if (not (insat_clause v k t)) then (c:=!c +1; aux s)
 					  else aux s
 		in (aux f; !c);;
 ```
