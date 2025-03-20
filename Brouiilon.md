@@ -10,4 +10,6 @@ Alors par le lemme des noyaux,
 $$\mathrm{Ker}(f) \oplus \mathrm{Ker}(Q(f)) = \mathrm{Ker}(0) = E$$
 Soit $y \in \mathrm{Im}(f)$, 
 $$\exists x \in E, f(x) = y$$
-$$Q(f)(y) = Q(f)(f(x))= f()$$
+$$Q(f)(y) = Q(f)(f(x))= (Q(f) \circ f)(x) = (f \circ Q(f))(x) = 0$$
+$y \in \mathrm{Ker}(Q(f))$ car $f$ et $Q(f)$ commutent
+Ainsi, par le th du rang comme $$
