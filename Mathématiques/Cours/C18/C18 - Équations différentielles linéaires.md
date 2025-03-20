@@ -676,19 +676,40 @@ $$E_{2}(A) = \mathrm{Ker}\begin{pmatrix}
 1 \\
 0
 \end{pmatrix}$$
-$$E_{3}(A) = \mathrm{Ker}\begin{pmatrix}
--5&5&-5 \\
--4&4&-5 \\
--4&4&-5
+$$E_{-3}(A) = \mathrm{Ker}\begin{pmatrix}
+0&5&-5 \\
+-4&9&-5 \\
+-4&4&0
 \end{pmatrix}= Vect\begin{pmatrix}
 1 \\
 1 \\
-0
+1
 \end{pmatrix}$$
+$$P = \begin{pmatrix}
+0&1&1 \\
+1&1&1 \\
+1&0&1
+\end{pmatrix} \text{ et }D= \begin{pmatrix}
+1&0&0 \\
+0&2&0 \\
+0&0&-3
+\end{pmatrix} \text{ et } P^{-1} = \begin{pmatrix}
 
-
-
-
+\end{pmatrix}$$
+$$\left( \begin{array}{ccc|ccc}
+0&1&1&1&0&0 \\
+1&1&1&0&1&0 \\
+1&0&1&0&0&1
+\end{array} \right) = \left( \begin{array}{ccc|ccc}
+1&0&0&-1&1&0 \\
+0&1&0&0&1&-1 \\
+1&0&1&0&0&1
+\end{array} \right)$$
+$$\left( \begin{array}{ccc|ccc}
+1&0&0&-1&1&0 \\
+0&1&0&0&1&-1 \\
+0&0&1&1&-1&1
+\end{array} \right)$$
 
 
 
