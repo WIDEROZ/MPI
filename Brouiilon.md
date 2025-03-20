@@ -23,5 +23,9 @@ $$\forall k \geq 2, (k(k-1) + 4k + 2)a_{k}-a_{k-2} =0 \Leftrightarrow a_{k} = \f
 Alors, $a_{2k+1}=0$
 $$\forall k \in \mathbb{N}, a_{2k}=\frac{1}{4k^{2} + 6k+2}a_{2(k-1)} = \frac{1}{2(k+1)\left( 2k+1 \right)} a_{2(k-1)}$$
 Donc, 
-$$a_{2k} = \frac{1}{2^{2}(k+1)(2k+1)\times k(2k-1)} a_{2(k-3)}$$
-$$a_{2k} = \frac{1}{2(k+1)(2k+1) \times 2k(2k-1) \times \dots \times} a_{0}$$
+$$a_{2k} = \frac{1}{2^{2}(k+1)(2k+1)\times k(2k-1)} a_{2(k-2)}$$
+$$a_{2k} = \frac{1}{2(k+1)(2k+1) \times 2k(2k-1) \times \dots \times 2} a_{0}$$
+Alors, 
+$$a_{2k} = \frac{1}{2^{k}} \times \frac{(2k) \times (2k-2) \times \dots \times 2}{(k+1)!(2k+1)!}a_{0}$$
+$$a_{}$$
+
