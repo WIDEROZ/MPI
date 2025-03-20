@@ -545,3 +545,9 @@ Démonstration :
 $g = f \circ \gamma$ est de classe $\mathcal{C}^{1}$ en tant que composée de fonctions de classe $\mathcal{C}^{1}$ et $\forall t \in [0, 1], g'(t) = df(\gamma(t))(\gamma'(t))$
 Alors,
 $$f(\gamma(1))-f(\gamma(0)) = g(1)-g(0) = \int_{0}^{1} g'(t) \, dt $$
+#### Corollaire
+Soit $\Omega$ un ouvert <u>connexe par arc</u> de $\mathbb{R}^{n}$ et $f:\Omega \to \mathbb{R}^{p}$ de classe $\mathcal{C}^{1}$ 
+$$f \text{ est contante }$$
+$$\Leftrightarrow \text{sa différentiellle est nulle ie } \forall k \in [\![1, n]\!], \frac{\partial f}{\partial x_{k}} (x) = 0$$
+Démonstration : 
+Dans le cas ou $\Omega$
