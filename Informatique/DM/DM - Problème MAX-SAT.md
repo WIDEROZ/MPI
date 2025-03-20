@@ -33,17 +33,20 @@ Donc, au maximum on a $\boxed{6}$ clauses de satisfaites.
 Définir une formule $\varphi'$ de MAX-2-SAT de taille polynomiale en $m$ et un seuil $k$ tels que $\varphi$ est satisfiable si et seulement s’il existe une valuation satisfaisant au moins $k$ clauses de $\varphi'$.
 
 On pose : 
-$$\begin{array}{rl}
+$$\boxed{\begin{array}{rl}
 \forall i \in [\![1, m]\!],\varphi' =& l_{i, 1} \wedge l_{i, 2} \wedge l_{i,3} \wedge x \wedge (\overline{l_{i,1}} \vee \overline{l_{i,2}}) \wedge (\overline{l_{i,2}} \vee \overline{l_{i,3}}) \\
 &\wedge (\overline{l_{i,1}}
 \wedge \overline{l_{i,3}})\wedge (l_{i,1} \vee \neg x) \wedge (l_{i,2} \vee \neg x) \\
 &\wedge (l_{i,3} \vee \neg x)
-\end{array}$$
-
+\end{array}}$$
+et $\boxed{k=7}$
 Soit 
 $$\varphi = \bigwedge_{i = 1}^{m}(l_{i, 1} \vee l_{i, 2} \vee l_{i, 3})$$
 avec $l_{i, 1}, l_{i, 2}$ ou $l_{i, 3} = \bot$ si on a que deux littéraux dans une clause.
-Alors, si $l_{i, 1} \vee l_{i, 2} \vee l_{i, 3}$ est satisfiable, 
+Alors, si $\varphi$ est satisfiable, $\forall i \in [\![1, m]\!], l_{i, 1} \vee l_{i, 2} \vee l_{i, 3}$ est satisfiable, alors il existe donc une valuation satisfaisant au moins $7$ clauses de $\varphi$ (c'est même exactement) d'après la question $1$. 
+Réciproquement, par contraposition si $\varphi$ n'est pas satisfiable, alors il existe $i \in [\![1, m]\!]$ tel que $$
+
+
 
 
 #### 4.
