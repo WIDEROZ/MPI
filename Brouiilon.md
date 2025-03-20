@@ -21,5 +21,7 @@ Donc $a_{0} = \frac{1}{2}$ par unicité du DSE, et $a_{1}=0$
 Alors, 
 $$\forall k \geq 2, (k(k-1) + 4k + 2)a_{k}-a_{k-2} =0 \Leftrightarrow a_{k} = \frac{1}{k^{2}+3k+2} a_{k-2}$$
 Alors, $a_{2k+1}=0$
-$$\forall k \in \mathbb{N}, a_{2k}=\frac{1}{4k^{2} + 6k+2}a_{2(k-1)}$$
-d
+$$\forall k \in \mathbb{N}, a_{2k}=\frac{1}{4k^{2} + 6k+2}a_{2(k-1)} = \frac{1}{2(k+1)\left( 2k+1 \right)} a_{2(k-1)}$$
+Donc, 
+$$a_{2k} = \frac{1}{2^{2}(k+1)(2k+1)\times k(2k-1)} a_{2(k-3)}$$
+$$a_{2k} = \frac{1}{2(k+1)(2k+1) \times 2k(2k-1) \times \dots \times} a_{0}$$
