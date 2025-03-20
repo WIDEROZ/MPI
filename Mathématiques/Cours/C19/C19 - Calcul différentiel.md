@@ -492,4 +492,22 @@ $$\forall (r, \theta) \in \mathbb{R}^{2}, \frac{\partial g}{\partial r} (r, \the
 $$+ \frac{\partial y}{\partial r} (r, \theta) \times \frac{\partial f}{\partial y}(r\cos(\theta ), r \sin(\theta)) $$
 $$ = \cos(\theta) \frac{\partial f}{\partial x} (r\cos(\theta), r\sin(\theta)) + \sin(\theta) \frac{\partial f}{\partial y} (r\cos(\theta), r\sin(\theta))$$
 Ainsi, 
-$$\frac{\partial g}{\partial x} (r, \theta) = \frac{\partial r}{\partial x} \times \frac{\partial g}{\partial r}(r, \theta) + \frac{\partial \theta}{\partial x}  \times \frac{\partial g}{\partial r} (r, \theta) = \cos(\theta) $$
+$$\frac{\partial g}{\partial x} (r, \theta) = \frac{\partial r}{\partial x} \times \frac{\partial g}{\partial r}(r, \theta) + \frac{\partial \theta}{\partial x}  \times \frac{\partial g}{\partial r} (r, \theta)  $$
+$$= \cos(\theta) \frac{dg}{dr} - \frac{\sin(\theta)}{r} \frac{\partial g}{\partial \theta} $$
+$$\frac{\partial g}{\partial y} = \sin(\theta) \frac{\partial g}{\partial r} + \frac{\cos(\theta)}{r} \frac{\partial g}{\partial \theta}  $$
+Soit $\vec{i} = (1, 0), \vec{j} = (0, 1)$, 
+$$\nabla f = \left( \frac{\partial f}{\partial x} , \frac{\partial f}{\partial y}  \right) = \frac{\partial f}{\partial x} \vec{i} + \frac{\partial f}{\partial y} \vec{j}$$
+$$=\frac{\partial g}{\partial r} (\cos(\theta) \vec{i} + \sin \theta \vec{j}) + \frac{1}{r} \frac{\partial g}{\partial \theta} (-\sin(\theta)\vec{i} + \cos(\theta) \vec{j}) $$
+
+# IV. Fonction de classe $\mathcal{C}^{k}$
+## 1. $k=1$
+#### Définition
+Soit $\Omega$ un ouvert de $\mathbb{R}^{n}$, $f:\Omega \to \mathbb{R}^{p}$ $f$ est dite de classe $\mathcal{C}^{1}$ lorsqu'elle est différentiable et que : 
+$$\begin{cases}
+\Omega \to \mathcal{L}(\mathbb{R}^{n}, \mathbb{R}^{p}) \\
+x \mapsto df(x)
+\end{cases} \text{ est continue}$$
+
+#### Propriété
+$f$ est de classe $\mathcal{C}^{1}$ ssi 
+$$\frac{\partial f}{\partial x_{1}} , \dots, \frac{\partial f}{\partial x_{n}} \text{ sont bien définies et con}$$
