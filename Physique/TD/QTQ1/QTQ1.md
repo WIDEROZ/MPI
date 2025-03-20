@@ -44,4 +44,6 @@ $$p = \hbar k = \hbar \frac{1}{\lambda} = \frac{\hbar \nu}{c}$$
 
 # Exercice 3
 #### 1.
-$$- \frac{\hbar^{2}}{m} \delta (\psi) +  V \psi = i\hbar \frac{\partial \psi}{\partial t} $$
+$$V(x) = \frac{1}{2}m \omega^{2}x^{2} \text{ et } E_{m} = E_{c} + E_{p} = \frac{1}{2}m \dot{x}^{2} + \frac{1}{2}m\omega^{2} x^{2}$$
+Alors on fait un théorème de la puissance cinétique : 
+$$0 = \mathcal{P}_{disipée}= \frac{dE_{m}}{dt} =\dot{x} m (\ddot{x} + \omega^{2}x) \Rightarrow \ddot{x} + \omega^{2}x = 0$$
