@@ -545,39 +545,6 @@ $$F(x) = \frac{\sin(4x)}{32} + \frac{\sin(2x)}{4} + \frac{3x}{8}$$
 
 
 
-$$y_{1}(x) = \cos(x) \text{ et } y_{2}(x) = \sin(x)$$
-Il existe alors $\alpha, \beta \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R})$ tels que : 
-$$y (x)= \alpha(x) \cos(x) + \beta(x) \sin(x)$$
-Donc, 
-$$\begin{pmatrix}
-y'(x) \\
-y''(x)
-\end{pmatrix} = \begin{pmatrix} 
-0&1 \\
--1&0
-\end{pmatrix}\begin{pmatrix}
-y(x) \\
-y'(x)
-\end{pmatrix} + \begin{pmatrix}
-0 \\
-\cos ^{4}(x)
-\end{pmatrix}$$
-Alors, 
-$$W (x)= \begin{pmatrix}
-\cos(x) & \sin(x) \\
--\sin(x)& \cos(x)
-\end{pmatrix} \text{ alors }  $$
-Comme : 
-$$W'(x) = AW(x) = \begin{pmatrix}
-\cos(x)
-\end{pmatrix}$$
-
-
-
-
-
-
-
 ##### 2.
 $$(\mathcal{H}) : y'' +y = 0$$
 $$\exists \alpha, \beta \in \mathbb{R}, y = \alpha \cos + \beta \sin$$
@@ -611,8 +578,8 @@ $$\begin{pmatrix}
 \cos &- \sin \\
 \sin &\cos
 \end{pmatrix} \begin{pmatrix}
-\alpha \\
-\beta 
+0 \\
+\cos ^{3} 
 \end{pmatrix} \Leftrightarrow \begin{cases}
 \alpha' = -\sin \cos ^{3} \\
 \beta' = \cos ^{4}
@@ -620,7 +587,7 @@ $$\begin{pmatrix}
 $$\left(  \frac{\cos^{4}}{4}, F \right)$$
 est une sol de ce sys 
 or 
-$$y_{p} = \cos \frac{^{4}}{4} \cos + F\sin$$
+$$y_{p} = \cos^{4} \frac{1}{4} \cos + F\sin$$
 est une sol de $y'' + y = \cos ^{3}$
 Finalement l'ensemble des solutions de $y'' + y = \cos ^{3}$ est l'ensemble des fonctions $y$ pour lesquelles 
 $$\exists a, b \in \mathbb{R}, y = y_{p} + a\cos + b \sin$$
