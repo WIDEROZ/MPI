@@ -611,3 +611,17 @@ Soit $a \in S$, l'ensemble $T_{a}S$ des vecteurs tangents à $S$ en $a$ (si $df(
 $$df(a) \in \mathcal{L}(\mathbb{R}^{n}, \mathbb{R})$$
 C'est donc un hyperplan vectoriel de $\mathbb{R}$ : 
 $$T_{a}S = \mathrm{Ker} (dV(a)) = \nabla V(a)^{\bot}$$
+
+#### Exemple
+On pose : 
+$$V : x \in \mathbb{R}^{3} \mapsto \left|\left| x \right|\right| _{2}^{2} -1 \in \mathbb{R}$$
+$$S = V^{-1}(\{ 0 \}) = \{ (x, y, z) \in \mathbb{R}^{3} | x^{2} + y^{2} + z^{2} = 1 \}$$
+On note : $N = (0, 0, 1) \in S$, 
+Notons que :
+$$T_{N}S = Vect((1, 0, 0), (0, 1, 0)) = \{ (a, b, 0) ; a, b \in \mathbb{R} \}$$
+
+Le théorème nous dit que $T_{N}S$ est le noyau de $dV(N)$ ou encore l'orthogonal de $\nabla V(N)$
+Or 
+$$\nabla V = \left( \frac{\partial V}{\partial x} , \frac{\partial V}{\partial y} , \frac{\partial V}{\partial z}  \right) = (2x, 2y, 2z)$$
+Donc, $\Delta V(0, 0, 1) = (0, 0, 2)$ et donc,
+$$\nabla V(0, 0, 1)^{\bot} = (0, 0, 1)^{\bot} = \{ (a, b, 0) ; a, b \in \mathbb{R} \}$$
