@@ -143,4 +143,14 @@ $$F''(x) + (a-k^{2}\sin(x)^{2})F(x) = \int_{-\pi}^{\pi} \left( g(t) \frac{\parti
 $$\int_{- \pi}^{\pi} g(t) \frac{\partial^{2}K}{\partial t^{2}} (x, t) \, dt  = \left[ g(t)\frac{\partial K}{\partial t}(x, t)  \right]_{-\pi }^{\pi} - \int_{-\pi}^{\pi} g'(t) \frac{\partial K}{\partial t}  \, dt = -\int_{-\pi}^{\pi} g'(t) \frac{\partial K}{\partial t}  \, dt $$
 car 
 $$\frac{\partial K}{\partial t}(x, t) = -k\sin(t)\cos(x)e^{ k\cos(x)\cos(t) } \text{ et } \sin(\pm \pi) = 0$$
-$$\int_{-\pi}^{\pi} g'(t) \frac{\partial K}{\partial t}  \, dt = [g'(t) K(x, t)]_{-\pi}^{\pi}  - \int_{-\pi}^{\pi} g''(t) K(x, t) \, dt = $$
+$$\int_{-\pi}^{\pi} g'(t) \frac{\partial K}{\partial t}  \, dt = [g'(t) K(x, t)]_{-\pi}^{\pi}  - \int_{-\pi}^{\pi} g''(t) K(x, t) \, dt = (g'(\pi)e^{ k\cos(x) } - g'(-\pi)e^{ -k\cos(x) })-\int_{-\pi}^{\pi} g'(t) K(x, t) \, dt $$
+$$= g'(\pi)(e^{ k\cos(x) }-e^{ -k\cos(x) }) - \int_{-\pi}^{\pi} g'(t) K(x, t) \, dt $$
+Car $g$ est $2\pi$-périodique donc c'est une combinaison linéaire de sinus et de cosinus et comme $g(0) = 1$ alors $g$ est colinéaire à un cosinus donc sa dérivée est un sinus et donc $g'(\pi) = 0$ 
+Donc, 
+$$\int_{-\pi}^{\pi} g(t) \frac{\partial^{2}K}{\partial t^{2}} (x, t) \, dt = \int_{-\pi}^{\pi} g(t)'' K(x, t) \, dt \text{ en injectant cette égalité dans la première ligne de la démonstration, } $$
+Comme $g$ est solution de $(\mathcal{E}_{1})$ 
+$$\boxed{F''(x) + (a+k^{2}\sin ^{2}(x))F(x) = 0}$$
+
+#### d.
+On a vu la question précédente que : 
+$$F''(x) = \int _{-\pi}^{\pi}  \, dt $$
