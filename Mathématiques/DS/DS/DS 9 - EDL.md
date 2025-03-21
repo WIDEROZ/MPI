@@ -120,4 +120,7 @@ $F$ est paire car $K$ est paire en $x$ car $\cos$ est pair.
 $F$ est $2\pi$-périodique car $K$ est $2\pi$-périodique en $x$ car $\cos$ est $2\pi$-périodique. 
 
 #### b.
-$$K \in \mathcal{C}^{1}()$$
+$$\forall t \in [-\pi, \pi], K(\cdot, t) \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R}) \text{ par composition de}\cos \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R})\text{ par}\exp \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R})$$
+De plus, $\forall x \in \mathbb{R}, gK(x, \cdot) \in \mathcal{C}^{0}([-\pi, \pi])$ par produit de fonctions continues, donc $\forall x \in \mathbb{R}, gK(x, \cdot) \in \mathcal{L}^{1}([-\pi, \pi])$
+$$\left| \frac{\partial gK}{\partial x} (x, t)\right| = \left| g'(x)K(x, t) - k\cos(t)\sin(x)g(x) K(x, t)\right| = K(x, t) \left| g'(x) - k\cos(t)\sin(x)g(x)\right|$$
+$$\leq \left| g'(x) \right| + \left| k\cos(t)g(x)\right|$$
