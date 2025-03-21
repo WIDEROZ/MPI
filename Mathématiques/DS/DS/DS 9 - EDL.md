@@ -168,6 +168,9 @@ $$\sum_{n = 2}^{+ \infty} a_{n}n(n+1)x^{n-2} = 6a_{2} + 12a_{3}x+\sum_{n = 2}^{+
 Alors, 
 $$(1-x^{2})z''(x) - x z'(x) + \omega^{2} z(x) =\sum_{n = 2}^{+\infty} (a_{n+2}(n+2)(n+3) -a_{n}(n(n+1) + \omega^{2}-n))x^{n} + (\omega^{2 } a_{1}+12a_{3})x + (\omega^{2}a_{0}-a_{1}+6a_{2}) = 0$$
 Ainsi, 
-$$\boxed{\forall n \in \mathbb{N}, a_{n+2} = \frac{n(n+1) + \omega^{2}-n}{(n+2)(n+3)} a_{n} }$$
-Donc, 
-$$$$
+$$\boxed{\forall n \in \mathbb{N}, a_{n+2} = \frac{n^{2} + \omega^{2}}{(n+2)(n+3)} a_{n} }$$
+#### b.
+$$a_{2p} = \frac{(2p-2)^{2}+ \omega^{2}}{2p(2p+1)}\times \frac{(2p-4)^{2} + \omega^{2}}{(2p-2)(2p-1)} \times \dots \times \frac{\omega^{2}}{6}a_{0}$$
+$$a_{2p} = \frac{\prod_{k = 0}^{2p-2}(k^{2}+ \omega^{2})}{(2p+1)!}a_{0}$$
+
+$$n^{2}$$
