@@ -85,4 +85,18 @@ Or les conditions initiales coincident entre $f_{0}$ et $\cos ^{2}$ ainsi, $\box
 #### b.
 $$u_{0}' = \frac{1}{\cos ^{4}} = \frac{1+\tan ^{2}}{\cos ^{2}} \text{ alors } \int_{0}^{x} u'_{0} = u_{0} \text{ comme montré dans la question }8.b $$
 Donc, 
-$$\forall x \in I, u_{0}(x) = \int_{0}^{x} \frac{1+\tan ^{2}(t)}{\cos ^{2}(t)} \, dt  = \tan(x) - \tan(0) + \int_{0}^{x} \frac{\tan ^{2}(t)}{\cos^{2}(t)} \, dt  = \tan(x) + []$$
+$$\forall x \in I, u_{0}(x) = \int_{0}^{x} \frac{1+\tan ^{2}(t)}{\cos ^{2}(t)} \, dt  = \tan(x) - \tan(0) + \int_{0}^{x} \frac{\tan ^{2}(t)}{\cos^{2}(t)} \, dt  = \tan(x) +\frac{1}{3} [\tan ^{3}(x)]_{0}^{x} = \tan(x) + \tan ^{3}(x)$$
+Ainsi, $\boxed{u_{0} = \tan + \tan ^{3}}$
+
+#### c.
+D'après les trois questions précédentes, 
+$$\boxed{f_{1} = \tan \cos ^{2} + \tan ^{3} \cos ^{2}}$$
+
+## Partie II
+### Question 10
+Soit $f \in Sol(\mathcal{E})$, alors par $2\pi$ périodicité de $\varphi$
+$$\boxed{\forall x \in I, f''(x+2\pi) + \varphi(x) f(x+2\pi) = 0}$$
+
+### Question 11
+$$\forall x \in I, f_{0}''(x+2\pi) + \varphi(x) f_{0}(x+2\pi) = f''_{0}(x) + \varphi(x)f_{0}(x) $$
+$$= f''_{1}(x) + \varphi(x) f_{1}(x) = 0$$
