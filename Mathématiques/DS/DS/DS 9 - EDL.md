@@ -114,7 +114,10 @@ f_{0}'(2\pi) = b \\
 f_{1}'(2\pi) = d
 \end{cases}}$$
 
-### Question 13
-Supposons qu'il existe une solution de $(\mathcal{E})$ $2\pi$-périodique non identiquement nulle alors $1 \in Sp(W)$ donc : 
-$$\forall F \in E_{1}(W), WF = F$$
-Donc, il existe $g \in \mathcal{C}^{}$
+### Question 14
+#### a.
+$F$ est paire car $K$ est paire en $x$ car $\cos$ est pair. 
+$F$ est $2\pi$-périodique car $K$ est $2\pi$-périodique en $x$ car $\cos$ est $2\pi$-périodique. 
+
+#### b.
+$$K \in \mathcal{C}^{1}()$$
