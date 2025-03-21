@@ -98,11 +98,33 @@ Soit $f \in Sol(\mathcal{E})$, alors par $2\pi$ périodicité de $\varphi$
 $$\boxed{\forall x \in I, f''(x+2\pi) + \varphi(x) f(x+2\pi) = 0}$$
 
 ### Question 11
-Comme $(f_{0}, f_{1})$ est un système fondamental de solution car $f_{0}$ est solution d'un problème de Cauchy différent de celui de $f_{1}$ puis car l'équation différentiel est d'ordre $2$, et comme $f_{0}(\cdot + 2\pi)$ (resp. $f_{1}(\cdot + 2\pi)$) est une solution alors,
+Comme $(f_{0}, f_{1})$ est un <u>système fondamental de solution</u> de $(\mathcal{E})$ car $f_{0}$ est solution d'un problème de Cauchy différent de celui de $f_{1}$ puis car l'équation différentiel est d'ordre $2$, et comme $f_{0}(\cdot + 2\pi)$ (resp. $f_{1}(\cdot + 2\pi)$) est une solution alors,
 $$\exists a, b, c, d \in \mathbb{R}, \forall x \in \mathbb{R},  \begin{cases}
 f_{0}(x+ 2\pi) = a f_{0}(x) + b f_{1}(x) \\
 f_{1}(x+ 2\pi) = c f_{0}(x) + d f_{1}(x)
 \end{cases} \text{ donc } f_{0}, f_{1} \in \mathcal{C}^{2}(I, \mathbb{R}) \text{ et } \begin{cases}
-f_{0}'(x+ 2\pi) = a f_{0}'(x) + b f_{1}(x) \\
-f_{1}'(x+ 2\pi) = c f_{0}(x) + d f_{1}(x)
+f_{0}'(x+ 2\pi) = a f_{0}'(x) + b f_{1}'(x) \\
+f_{1}'(x+ 2\pi) = c f_{0}'(x) + d f_{1}'(x)
 \end{cases} $$
+Alors, en appliquant les conditions initiales pour ces deux systèmes on obtient que : 
+$$\boxed{\begin{cases}
+f_{0}(2\pi) = a \\
+f_{1}(2\pi) = c \\
+f_{0}'(2\pi) = b \\
+f_{1}'(2\pi) = d
+\end{cases}}$$
+
+### Question 12
+Si on pose : 
+$$W(x) = \begin{pmatrix}
+f_{0} & f_{1} \\
+f_{0}' & f_{1}'
+\end{pmatrix} \text{ et }W(2\pi) = W \text{ la matrice de l'énocé}$$
+Alors, d'après la question précédente : Si on pose : 
+$$F(x) = \begin{pmatrix}
+f_{0}(x+2\pi) \\
+f_{1}(x+2\pi)
+\end{pmatrix} \text{ et }$$
+Si $1\in Sp(W)$, 
+$$\exists X \in E_{1}(W), WX=X$$
+Alors, 
