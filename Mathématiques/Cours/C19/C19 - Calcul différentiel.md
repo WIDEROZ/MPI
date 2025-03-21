@@ -579,3 +579,10 @@ $$\frac{\partial^{k}f}{\partial x_{i_{1}} \dots \partial x_{i_{k}}} : \Omega \to
 #### Lemme de Schwarz
 Si $f$ est de classe $\mathcal{C}^{2}$, 
 $$\forall i, j \in [\![1,n]\!], \frac{\partial^{2}f}{\partial x_{i}\partial x_{j}} = \frac{\partial^{2}f}{\partial x_{j} \partial x_{i}} $$
+
+#### Exemple
+On appelle laplacien de $f$ : 
+$$\Delta f : \begin{cases}
+\mathbb{R}^{2}\to \mathbb{R} \\
+(x, y) \mapsto \frac{\partial ^{2}f}{\partial x^{2}} (x, y) +\frac{\partial^{2}f}{\partial y^{2}} (x, y)
+\end{cases}$$
