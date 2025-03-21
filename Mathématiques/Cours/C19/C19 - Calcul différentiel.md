@@ -625,3 +625,29 @@ Or
 $$\nabla V = \left( \frac{\partial V}{\partial x} , \frac{\partial V}{\partial y} , \frac{\partial V}{\partial z}  \right) = (2x, 2y, 2z)$$
 Donc, $\Delta V(0, 0, 1) = (0, 0, 2)$ et donc,
 $$\nabla V(0, 0, 1)^{\bot} = (0, 0, 1)^{\bot} = \{ (a, b, 0) ; a, b \in \mathbb{R} \}$$
+
+#### Théorème
+Soit $\Omega$ un ouvert de $\mathbb{R}^{2}$, 
+$$f : \begin{cases}
+\Omega \to \mathbb{R} \\
+(x, y) \mapsto f(x, y)
+\end{cases}  \in \mathcal{C}^{1}(\Omega, \mathbb{R})$$
+On note : 
+$$\mathcal{N}_{f} = \{ (x, y, f(x, y)) \in \mathbb{R}^{3} | (x, y) \in \Omega \}$$
+Soit $a = (x_{0}, y_{0}) \in \Omega$, 
+L'ensemble des vecteurs tangents à $\mathcal{N}_{f}$ est l'ensemble des vecteurs du plan de $\mathbb{R}^{3}$ d'équation cartésiennes :
+$$z = \frac{\partial f}{\partial x} (x_{0}, y_{0})y + \frac{\partial f}{\partial y}(x_{0}, y_{0})x $$
+Démonstration : 
+On note : 
+$$\mathcal{N}_{f} = V^{-1}(\{ 0 \}) \text{ ou } V : \begin{cases}
+\Omega \times \mathbb{R} \to \mathbb{R} \\
+(x, y,z) \mapsto z-f(x, y)
+\end{cases}$$
+Comme $f \in \mathcal{C}^{1}(\Omega, \mathbb{R})$, 
+$V$ l'est aussi, et 
+$$\forall (x, y, z) \in \Omega \times \mathbb{R}, \nabla V(x, y, z) = \left( \frac{\partial V}{\partial x} , \frac{\partial V}{\partial y} , \frac{\partial V}{\partial z}  \right)$$
+$$ = \left( -\frac{\partial f}{\partial x} , -\frac{\partial f}{\partial y} , 1 \right)$$
+l'orthogonal de ce vecteur est bien 
+$$\forall (x, y, z) \in  \Omega \times \mathbb{R}, ().$$
+$$z = \frac{\partial f}{\partial x} (x_{0}, y_{0})y + \frac{\partial f}{\partial y}(x_{0}, y_{0})x $$
+.
