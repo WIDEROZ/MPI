@@ -44,5 +44,15 @@ $$Q(f) = P(f) \circ g - g \circ P(f) = \sum_{k= 0}^{m} a_{k}f^{k}\circ g - g \ci
 D'après la question précédente : 
 $$Q(f) = -2\sum_{k = 0}^{m}a_{k}kf^{k} \underset{\text{car }f \in \mathcal{L}(E)}{=} -2 f \circ P'(f) \text{ Ainsi, on a bien : } \boxed{P(f) \circ g - g \circ P(f) = -2f \circ P'(f)}$$
 
-#### Question 4
-$$P(f)(g(x)) - g(P(f)(x)) = $$
+# II. Titre trop long
+## Partie I
+### Question 5
+Soit $y \in Sol(\mathcal{E})$, alors $y \in \mathcal{C}^{2}(I, \mathbb{R})$, et $y'' + \varphi y = 0$, donc, $y'' = -\varphi y$ or comme $\varphi \in \mathcal{C}^{\infty}(I, \mathbb{R})$ et $y \in \mathcal{C}^{2}(I, \mathbb{R})$ $y'' \in \mathcal{C}^{2}(I, \mathbb{R})$ 
+
+Par récurrence on pose : pour $n \in \mathbb{N}^{*}\setminus \{ 1 \}$ $\mathcal{P}_{n}: \text{"}y \in \mathcal{C}^{n}(I, \mathbb{R})\text{"}$
+###### Initialisation
+Pour $n=2$, $y \in Sol(\mathcal{E})$ alors $y \in \mathcal{C}^{2}(I, \mathbb{R})$.
+
+###### Hérédité
+Soit $n \in \mathbb{N}^{*}\setminus \{ 1 \}$ tel que $\mathcal{P}_{n}$, alors, comme $y$ est solution de $\mathcal{E}$ en dérivant $\mathcal{E}$ $n-2$ fois : 
+$$y^{(n)}= -(\varphi y)^{(n-2)} \text{ or comme }\varphi \in \mathcal{C}^{\infty}(I, \mathbb{R}) \text{ et } y \in \mathcal{C}$$
