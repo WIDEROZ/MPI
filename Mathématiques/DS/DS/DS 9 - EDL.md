@@ -173,4 +173,7 @@ $$\boxed{\forall n \in \mathbb{N}, a_{n+2} = \frac{n^{2} + \omega^{2}}{(n+2)(n+3
 $$a_{2p} = \frac{(2p-2)^{2}+ \omega^{2}}{2p(2p+1)}\times \frac{(2p-4)^{2} + \omega^{2}}{(2p-2)(2p-1)} \times \dots \times \frac{\omega^{2}}{6}a_{0}$$
 $$a_{2p} = \frac{\prod_{k = 0}^{2p-2}(k^{2}+ \omega^{2})}{(2p+1)!}a_{0}$$
 
-$$n^{2}$$
+#### c.
+Par d’Alembert : 
+$$\left| \frac{a_{2p+2}}{a_{2p}}x\right| = \frac{(4p^{2}-\omega^{2})}{(2p+2)(2p+1)}\left| x\right| \sim \frac{4p^{2}}{4p^{2}} \left| x\right| \underset{p \to +\infty}{\longrightarrow} \left| x\right|$$
+Ainsi le rayon de la série entière paire est : $\boxed{1}$
