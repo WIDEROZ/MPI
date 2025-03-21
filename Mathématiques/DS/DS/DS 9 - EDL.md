@@ -72,5 +72,10 @@ $$y_{0}(-x)  + \varphi(x) y_{0}(-x) = y_{0}(x) + \varphi(x) y_{0}(x) = 0 \text{ 
 
 $$\forall x \in I , w'(x) = f_{0}'f_{1}' + f_{0}f_{1}'' - f_{0}''f_{1}-f_{0}'f_{1}' = f_{0}f_{1}''-f_{0}''f_{1} \text{ or }f_{0}, f_{1} \in Sol(\mathcal{E})\text{ alors, } -f_{0}\varphi f_{1}+\varphi f_{0}f_{1}=0$$ Donc $\omega'=0$ et en évaluant $\omega$ en $0$ on obtient que $\boxed{\forall x \in I, \omega(x)=1}$
 
-#### b.
 
+#### c.
+$\Leftarrow$ : 
+Soit $f \in Sol(\mathcal{E})$, Si $\exists \lambda \in \mathbb{R}, f = \lambda f_{0}$ alors $f$ est bien paire
+$\Rightarrow$ : 
+Par contraposition si $f$ n'est pas paire alors, 
+$$$$
