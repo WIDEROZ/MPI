@@ -589,3 +589,11 @@ ___
 $$\underset{\text{ouvert de } \mathbb{R}^{n}}{\Omega} \overset{f}{\longrightarrow} \underset{\text{ouvert de } \mathbb{R}^{p}}{U} \overset{g}{\longrightarrow} \mathbb{R}^{q}$$
 Si $f$ et $g$ sont $\mathcal{C}^{k}$, $g \circ f$ l'est
 
+# V. Espaces tangent
+#### Définition
+Soit $S$ une partie de $\mathbb{R}^{n}$ et $a \in S$, un vecteur $v \in \mathbb{R}^{n}$ est dit tangent à $S$ en $a$ lorsqu'il existe un arc paramétré $\gamma : t\in I \to \mathbb{R}^{n}$ dérivable tel que : 
+$$\begin{cases}
+\forall t \in I, \gamma(t) \in S \\
+\gamma(0) = a \\
+\gamma'(0) = v
+\end{cases}$$
