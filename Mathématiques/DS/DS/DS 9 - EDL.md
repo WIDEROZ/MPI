@@ -78,4 +78,8 @@ $\Leftarrow$ :
 Soit $f \in Sol(\mathcal{E})$, Si $\exists \lambda \in \mathbb{R}, f = \lambda f_{0}$ alors $f$ est bien paire
 $\Rightarrow$ : 
 Par contraposition si $f$ n'est pas paire alors, 
-$$$$
+- Si elle est impaire elle est colinéaire à $f_{1}$ et donc non colinéaire à $f_{0}$
+- Sinon : $f$ n'est ni paire ni impaire donc avec $f_{0} \neq 0 \neq f_{1}$ ie $f$ n'est pas colinéaire à $f_{0}$ car : 
+  $\boxed{\text{La famille }(f_{0}, f_{1}) \text{ est libre car  c'est un système fondamental de solutions}}$
+
+### Question 8
