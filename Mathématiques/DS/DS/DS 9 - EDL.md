@@ -120,6 +120,7 @@ $F$ est paire car $K$ est paire en $x$ car $\cos$ est pair.
 $F$ est $2\pi$-périodique car $K$ est $2\pi$-périodique en $x$ car $\cos$ est $2\pi$-périodique. 
 
 #### b.
+On muni $\mathcal{C}^{0}([-\pi, \pi])$ de la norme infinie noté $\left|\left| \cdot \right|\right|_{[-\pi, \pi]}$
 $$\forall t \in [-\pi, \pi], K(\cdot, t) \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R}) \text{ par composition de}\cos \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R})\text{ par}\exp \in \mathcal{C}^{1}(\mathbb{R}, \mathbb{R})$$
 De plus, $\forall x \in \mathbb{R}, gK(x, \cdot) \in \mathcal{C}^{0}([-\pi, \pi])$ par produit de fonctions continues, donc $\forall x \in \mathbb{R}, gK(x, \cdot) \in \mathcal{L}^{1}([-\pi, \pi])$
 $$\left| \frac{\partial gK}{\partial x} (x, t)\right| = \left| g'(x)K(x, t) - k\cos(t)\sin(x)g(x) K(x, t)\right| = K(x, t) \left| g'(x) - k\cos(t)\sin(x)g(x)\right|$$
@@ -129,5 +130,6 @@ $$\left|\left| g' \right|\right| _{[-\pi, \pi]} + \left| k \cos(\cdot)\right| \l
 Et :
 $$\forall x \in \mathbb{R}, F'(x) = \int_{-\pi}^{\pi} g'(t)e^{ k\cos(t)\cos(x) } - k\cos(t)\sin(x)g(t)e^{ k\cos(t)\cos(x) } \, dt = -\int_{-\pi}^{\pi} g(t)k\cos(t)\sin(x)e^{ k\cos(t)\cos(x) } \, dx  $$
 car : 
-$$\int_{-\pi}^{\pi} g'(t) e^{ k \cos(t)\cos(x) } \, dt = -[k\cos(x) \sin(t) g(t)]_{-\pi}^{\pi}+ k\cos(x)\int_{-\pi}^{\pi} \sin(t) g(t)e^{ x\cos(t)\cos(x) } \, dt$$
-or par l'inégalité de la po
+$$\int_{-\pi}^{\pi} g'(t) e^{ k \cos(t)\cos(x) } \, dt = -[k\cos(x) \sin(t) g(t)]_{-\pi}^{\pi}+ k\cos(x)\int_{-\pi}^{\pi} \sin(t) g(t)e^{ x\cos(t)\cos(x) } \, dt = k\cos(x) \int_{-\pi}^{\pi} \sin(t)g(t) e^{ x\cos(t)\cos(x) } \, dt $$
+
+$$\int_{-\pi}^{\pi} \sin(t) g(t) e^{ x\cos(t)\cos(x) } \, dt \leq \left|\left| g \right|\right| _{[-\pi, \pi]} \int_{-\pi}^{\pi} \sin(t)e^{ k\cos(t)\cos(x) } \, dt =0 \text{ car }\sin \exp(k\cos(x)\cos(\cdot)) \text{ est impaire centrée en 0}$$
