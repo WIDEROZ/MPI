@@ -115,16 +115,30 @@ f_{1}'(2\pi) = d
 \end{cases}}$$
 
 ### Question 12
-Si on pose : 
-$$W(x) = \begin{pmatrix}
+$$\text{Si on pose : } \forall x \in I, W(x) = \begin{pmatrix}
 f_{0} & f_{1} \\
 f_{0}' & f_{1}'
-\end{pmatrix} \text{ et }W(2\pi) = W \text{ la matrice de l'énocé}$$
+\end{pmatrix} \text{ alors }W(2\pi) = W \text{ la matrice de l'énoncé}$$
 Alors, d'après la question précédente : Si on pose : 
-$$F(x) = \begin{pmatrix}
-f_{0}(x+2\pi) \\
-f_{1}(x+2\pi)
-\end{pmatrix} \text{ et }$$
 Si $1\in Sp(W)$, 
 $$\exists X \in E_{1}(W), WX=X$$
 Alors, 
+
+___
+Si il existe une solution $2\pi$-périodique et non identiquement nulle alors, si on pose : 
+$$A = \begin{pmatrix} 
+0& 1\\
+-\varphi&0
+\end{pmatrix} \text{ et } \forall f \in Sol(\mathcal{E}),  Y = \begin{pmatrix}
+f \\
+f'
+\end{pmatrix} \text{ alors } Y' = AY : (\mathcal{E})$$
+$$\forall x \in I, W'(x) = \begin{pmatrix}
+f_{0}'(x) & f_{1}'(x) \\
+f_{0}''(x)&f_{1}''(x)
+\end{pmatrix} \underset{f_{0}, f_{1} \in Sol(\mathcal{E})}{=} \begin{pmatrix}
+f_{0}'(x)&f_{1}'(x) \\
+-\varphi(x)f_{0}(x) & -\varphi(x)f_{1}(x)
+\end{pmatrix} = AW(x)$$
+Alors en évaluant en $2\pi$ :
+$$W'$$
