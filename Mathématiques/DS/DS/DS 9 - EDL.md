@@ -1,21 +1,5 @@
 # I. Un peu de polynômes d'endomorphismes
 ### Question 1
-#### a.
-Analyse : 
-Si $P(X-2)=P(X)$ alors, en posant : 
-$$P(X) = X^{n} + \sum_{k = 0}^{n-1} a_{k}X^{k} \text{ alors, } P(X-2) = (X-2)^{n}+\sum_{k = 0}^{n-1}a_{k}(X-2)^{k}  \text{ donc, } $$
-$$P'(X) = \sum_{k = 1}^{n-1} a_{k}k X^{k-1} = P'(X-2) = \sum_{k = 1}^{n-1} a_{k}k(X-2)^{k-1}$$
-Donc, 
-
-#### b.
-Supposons que $P(X)| XP'(X)$ alors,
-$$P(X) = \sum_{k = 0}^{n} a_{k} X^{k}  \text{ et } XP'(X) = \sum_{k = 1}^{n} ka_{k} X^{k}$$
-$$P(X) = \prod_{k = 1}^{n} (X-\lambda_{k})$$
-$$XP'(X) = n \prod_{k = 1}^{n}(X-\lambda'_{k})$$
-donc, 
-il existe un polynome $Q$ tel que : 
-$$P(X)Q(X) = X'P(X)$$
-$$Q(X)\prod_{k = 1}^{n} (X-\lambda_{k})= \prod_{k = 1}^{n}(X-\lambda'_{k})$$
 
 ### Question 2
 Supposons que $f$ est inversible alors, 
@@ -72,6 +56,8 @@ $$y_{0}(-x)  + \varphi(x) y_{0}(-x) = y_{0}(x) + \varphi(x) y_{0}(x) = 0 \text{ 
 
 $$\forall x \in I , w'(x) = f_{0}'f_{1}' + f_{0}f_{1}'' - f_{0}''f_{1}-f_{0}'f_{1}' = f_{0}f_{1}''-f_{0}''f_{1} \text{ or }f_{0}, f_{1} \in Sol(\mathcal{E})\text{ alors, } -f_{0}\varphi f_{1}+\varphi f_{0}f_{1}=0$$ Donc $\omega'=0$ et en évaluant $\omega$ en $0$ on obtient que $\boxed{\forall x \in I, \omega(x)=1}$
 
+#### b.
+$$\boxed{\exists \alpha, \beta \in \mathbb{R}, f = \alpha f_{0} + \beta f_{1} \in Sol(\mathcal{E})}$$
 
 #### c.
 $\Leftarrow$ : 
@@ -83,3 +69,12 @@ Par contraposition si $f$ n'est pas paire alors,
   $\boxed{\text{La famille }(f_{0}, f_{1}) \text{ est libre car  c'est un système fondamental de solutions}}$
 
 ### Question 8
+#### a.
+$$\text{D'après la question 7a, }\boxed{u' = \frac{w}{f_{0}^{2}} = \frac{1}{f_{0}^{2}} }$$
+
+#### b.
+$$\forall x \in I, u_{0}(x) = \int_{0}^{x}  \, \frac{dt}{f_{0}(t)^{2}} = \int_{0}^{x} u' = \left[ \frac{f_{1}(t)}{f_{0}(t)} \right]_{0}^{x} = \frac{f_{1}(x)}{f_{0}(x)} -\frac{0}{1} \text{ Ainsi, } \boxed{f_{1} = u_{0}f_{0}}$$
+
+### Question 9
+#### a.
+$$(\cos^{2})'= -2\cos \sin \Rightarrow (\cos ^{2})'' = 2\sin ^{2} - 2 \cos ^{2} \text{ alors, comme }\cos \text{ }$$
