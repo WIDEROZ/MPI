@@ -79,8 +79,10 @@ $$\forall x \in I, u_{0}(x) = \int_{0}^{x}  \, \frac{dt}{f_{0}(t)^{2}} = \int_{0
 #### a.
 $I = \left]- \frac{\pi}{2}, \frac{\pi}{2}\right[ \text{ a la place de } \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right[$ je suppose
 $$(\cos^{2})'= -2\cos \sin \Rightarrow (\cos ^{2})'' = 2\sin ^{2} - 2 \cos ^{2} \text{ alors, comme }\cos \text{ est soution de }\mathcal{E} : $$
-$$2\sin ^{2} - 2\cos ^{2} + \varphi \cos ^{2} = 0 \Leftrightarrow \boxed{\varphi = 2- 2\tan^{2}} \text{ et comme }\cos ^{2} \text{est paire, elle est colinéaire à }f_{0} : \boxed{\exists \lambda \in \mathbb{R}, f_{0}= \lambda\cos ^{2}}$$
-
+$$2\sin ^{2} - 2\cos ^{2} + \varphi \cos ^{2} = 0 \Leftrightarrow \boxed{\varphi = 2- 2\tan^{2}} \text{ et comme }\cos ^{2} \text{est paire, elle est colinéaire à }f_{0} : \exists \lambda \in \mathbb{R}, f_{0}= \lambda\cos ^{2}$$
+Or les conditions initiales coincident entre $f_{0}$ et $\cos ^{2}$ ainsi, $\boxed{\cos ^{2} = f_{0}}$
 
 #### b.
-$$u_{0} = \frac{f_{1}}{f_{0}}= \frac{f_{1}}{\lambda\cos ^{2}} = \frac{1+\tan ^{2}}{\lambda}f_{1}$$
+$$u_{0}' = \frac{1}{\cos ^{4}} = \frac{1+\tan ^{2}}{\cos ^{2}} \text{ alors } \int_{0}^{x} u'_{0} = u_{0} \text{ comme montré dans la question }8.b $$
+Donc, 
+$$\forall x \in I, u_{0}(x) = \int_{0}^{x} \frac{1+\tan ^{2}(t)}{\cos ^{2}(t)} \, dt  = \tan(x) - \tan(0) + \int_{0}^{x} \frac{\tan ^{2}(t)}{\cos^{2}(t)} \, dt  = \tan(x) + []$$
