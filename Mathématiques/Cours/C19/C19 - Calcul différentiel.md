@@ -597,3 +597,17 @@ $$\begin{cases}
 \gamma(0) = a \\
 \gamma'(0) = v
 \end{cases}$$
+On note : $T_{a}S$ l'ensemble des vecteurs tangents à $S$ en $a$
+
+#### Définition
+Soit $V : \Omega \to \mathbb{R}$, ou $\Omega$ est un ouvert de $\mathbb{R}^{n}$.
+Pour tout $\alpha \in \mathbb{R}$, on appelle équipotentielle (associé à $\alpha$) de $V$ l'ensemble : 
+$$S = \{ x \in \Omega | V(x) = \alpha\} = V^{-1}(\{ \alpha \})$$
+
+#### Théorème
+Soit $\Omega$ un ouvert de $\mathbb{R}^{n}$, $V : \Omega \to \mathbb{R}$ de classe $\mathcal{C}^{1}$, 
+Notons : $S = V^{-1}(\{ 0 \}) \subset \Omega$
+Soit $a \in S$, l'ensemble $T_{a}S$ des vecteurs tangents à $S$ en $a$ (si $df(a)\neq 0$) est le noyau de : 
+$$df(a) \in \mathcal{L}(\mathbb{R}^{n}, \mathbb{R})$$
+C'est donc un hyperplan vectoriel de $\mathbb{R}$ : 
+$$T_{a}S = \mathrm{Ker} (dV(a)) = \nabla V(a)^{\bot}$$
