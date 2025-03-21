@@ -77,4 +77,10 @@ $$\forall x \in I, u_{0}(x) = \int_{0}^{x}  \, \frac{dt}{f_{0}(t)^{2}} = \int_{0
 
 ### Question 9
 #### a.
-$$(\cos^{2})'= -2\cos \sin \Rightarrow (\cos ^{2})'' = 2\sin ^{2} - 2 \cos ^{2} \text{ alors, comme }\cos \text{ }$$
+$I = \left]- \frac{\pi}{2}, \frac{\pi}{2}\right[ \text{ a la place de } \left[ -\frac{\pi}{2}, \frac{\pi}{2} \right[$ je suppose
+$$(\cos^{2})'= -2\cos \sin \Rightarrow (\cos ^{2})'' = 2\sin ^{2} - 2 \cos ^{2} \text{ alors, comme }\cos \text{ est soution de }\mathcal{E} : $$
+$$2\sin ^{2} - 2\cos ^{2} + \varphi \cos ^{2} = 0 \Leftrightarrow \boxed{\varphi = 2- 2\tan^{2}} \text{ et comme }\cos ^{2} \text{est paire, elle est colinéaire à }f_{0} : \boxed{\exists \lambda \in \mathbb{R}, f_{0}= \lambda\cos ^{2}}$$
+
+
+#### b.
+$$u_{0} = \frac{f_{1}}{f_{0}}= \frac{f_{1}}{\lambda\cos ^{2}} = \frac{1+\tan ^{2}}{\lambda}f_{1}$$
