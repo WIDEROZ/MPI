@@ -139,4 +139,8 @@ En multipliant l'inégalité de la question précédente et en intégrant entre 
 $$\boxed{ \forall x \in \mathbb{R}, F''(x) + (a-k^{2}\sin(x)^{2})F(x) = \int_{-\pi}^{\pi}g(t) \frac{\partial^{2}K}{\partial t^{2}}(x, t)  \, dt + \int_{-\pi}^{\pi}g(t)(a-k^{2}\sin(t))K(x, t) \, dt  }$$
 
 #### c.
-$$\int_{-\pi}^{\pi} \left( g(t) \frac{\partial^{2}K}{\partial x^{2}} - \right)  \, dt $$
+$$F''(x) + (a-k^{2}\sin(x)^{2})F(x) = \int_{-\pi}^{\pi} \left( g(t) \frac{\partial^{2}K}{\partial x^{2}}(x, t) - (a-k^{2}\sin(x)^{2})K(x, t) g(t)\right) \, dt$$
+$$\int_{- \pi}^{\pi} g(t) \frac{\partial^{2}K}{\partial t^{2}} (x, t) \, dt  = \left[ g(t)\frac{\partial K}{\partial t}(x, t)  \right]_{-\pi }^{\pi} - \int_{-\pi}^{\pi} g'(t) \frac{\partial K}{\partial t}  \, dt = -\int_{-\pi}^{\pi} g'(t) \frac{\partial K}{\partial t}  \, dt $$
+car 
+$$\frac{\partial K}{\partial t}(x, t) = -k\sin(t)\cos(x)e^{ k\cos(x)\cos(t) } \text{ et } \sin(\pm \pi) = 0$$
+$$\int_{-\pi}^{\pi} g'(t) \frac{\partial K}{\partial t}  \, dt = [g'(t) K(x, t)]_{-\pi}^{\pi}  - \int_{-\pi}^{\pi} g''(t) K(x, t) \, dt = $$
