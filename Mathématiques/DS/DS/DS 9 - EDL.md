@@ -132,4 +132,11 @@ $$\left| \int_{- \pi}^{\pi} g'(t) e^{ k\cos(t)\cos(x) } \, dt \right| \leq \left
 
 ### Question 15
 #### a.
-$$\frac{\partial^{2}K}{\partial x^{2}} (x, t) = (k^{2}\cos(t) \sin(x)^{2}+ k\cos(x)\cos(t))e^{ k\cos(t)\cos(x) }$$
+
+
+#### b.
+En multipliant l'inégalité de la question précédente et en intégrant entre $[-\pi, \pi]$ on a :
+$$\boxed{ \forall x \in \mathbb{R}, F''(x) + (a-k^{2}\sin(x)^{2})F(x) = \int_{-\pi}^{\pi}g(t) \frac{\partial^{2}K}{\partial t^{2}}(x, t)  \, dt + \int_{-\pi}^{\pi}g(t)(a-k^{2}\sin(t))K(x, t) \, dt  }$$
+
+#### c.
+$$\int_{-\pi}^{\pi} \left( g(t) \frac{\partial^{2}K}{\partial x^{2}} - \right)  \, dt $$
