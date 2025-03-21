@@ -45,3 +45,4 @@ D'après la question précédente :
 $$Q(f) = -2\sum_{k = 0}^{m}a_{k}kf^{k} \underset{\text{car }f \in \mathcal{L}(E)}{=} -2 f \circ P'(f) \text{ Ainsi, on a bien : } \boxed{P(f) \circ g - g \circ P(f) = -2f \circ P'(f)}$$
 
 #### Question 4
+$$P(f)(g(x)) - g(P(f)(x)) = $$
