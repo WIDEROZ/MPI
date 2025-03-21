@@ -153,4 +153,13 @@ $$\boxed{F''(x) + (a+k^{2}\sin ^{2}(x))F(x) = 0}$$
 
 #### d.
 On a vu la question précédente que : 
-$$F''(x) = \int _{-\pi}^{\pi}  \, dt $$
+$$F''(x) = \int _{-\pi}^{\pi} g''(t) K(x, t) \, dt \text{ et } F(x) = -\frac{F''(x)}{a-k^{2}\sin(x)^{2}}$$
+
+
+## Partie III
+### Question 16
+#### a.
+Soit $x \in ]-1, 1[$, 
+$$z'(x) = \sum_{n = 1}^{+ \infty}na_{n}x^{n-1} \text{ et } z''(t) = \sum_{n = 2}^{+ \infty} n(n+1)a_{n}x^{n-2}$$
+Alors, 
+$$(1-x^{2})z''(x) - x z'(x) + \omega^{2} z(x) =\sum_{n = 2}^{+ \infty} a_{n}(n(n+1)x^{n-2}(1-x^{2}) + (-n +\omega^{2})x^{n}) + a_{0} + a_{1}x$$
