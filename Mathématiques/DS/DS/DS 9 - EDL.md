@@ -55,4 +55,18 @@ Pour $n=2$, $y \in Sol(\mathcal{E})$ alors $y \in \mathcal{C}^{2}(I, \mathbb{R})
 
 ###### Hérédité
 Soit $n \in \mathbb{N}^{*}\setminus \{ 1 \}$ tel que $\mathcal{P}_{n}$, alors, comme $y$ est solution de $\mathcal{E}$ en dérivant $\mathcal{E}$ $n-2$ fois : 
-$$y^{(n)}= -(\varphi y)^{(n-2)} \text{ or comme }\varphi \in \mathcal{C}^{\infty}(I, \mathbb{R}) \text{ et } y \in \mathcal{C}$$
+$$y^{(n)}= -(\varphi y)^{(n-2)} \text{ or comme }\varphi \in \mathcal{C}^{\infty}(I, \mathbb{R}) \text{ et } y \in \mathcal{C}^{n} \text{ alors, } (\varphi y)^{(n-2)} \text{ est dérivable, Donc } \varphi^{(n+1)} = - (\varphi y)^{(n-1)}$$
+Ainsi, $\boxed{\mathcal{P}_{n+1}}$ ie $y$ est de classe $\mathcal{C}^{\infty}$
+
+### Question 6
+#### a.
+Par parité de $\varphi$ et comme $I = ]-a, a[$, 
+$$\boxed{\forall x \in I, y''(-x) + \varphi(x) y(-x) = 0  }$$
+
+#### b.
+Soit $x \in I$, 
+$$y_{0}(-x)  + \varphi(x) y_{0}(-x) = y_{0}(x) + \varphi(x) y_{0}(x) = 0 \text{ en évaluant en 0 cette expression comme }y_{0}(0) = 1 \boxed{y_{0}(-x) = y_{0}(x)}$$
+
+### Question 7
+#### a.
+$$\forall x \in I , w'(x) = f_{0}'f_{1} $$
