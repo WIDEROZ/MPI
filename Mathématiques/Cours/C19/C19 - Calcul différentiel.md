@@ -648,6 +648,10 @@ $V$ l'est aussi, et
 $$\forall (x, y, z) \in \Omega \times \mathbb{R}, \nabla V(x, y, z) = \left( \frac{\partial V}{\partial x} , \frac{\partial V}{\partial y} , \frac{\partial V}{\partial z}  \right)$$
 $$ = \left( -\frac{\partial f}{\partial x} , -\frac{\partial f}{\partial y} , 1 \right)$$
 l'orthogonal de ce vecteur est bien 
-$$\forall (x, y, z) \in  \Omega \times \mathbb{R}, ().$$
-$$z = \frac{\partial f}{\partial x} (x_{0}, y_{0})y + \frac{\partial f}{\partial y}(x_{0}, y_{0})x $$
-.
+$$\forall (x, y, z) \in  \Omega \times \mathbb{R}, \left( -\frac{\partial f}{\partial x} , -\frac{\partial f}{\partial y} , 1 \right).(x, y, z)=0$$
+$$z = \frac{\partial f}{\partial x} (x_{0}, y_{0})x+ \frac{\partial f}{\partial y}(x_{0}, y_{0})y $$
+
+#### Définition
+Sous ces notations on appelle plan affine en $(x_{0}, y_{0})$ à $\mathcal{N}_{f}$ le plan d'équation cartésienne z: 
+$$z-z_{0} = \frac{\partial f}{\partial x} (x_{0}, y_{0})(x-x_{0}) + \frac{\partial f}{\partial y} (x_{0}, y_{0})(y-y_{0})$$
+ou $z_{0} = f(x_{0}, y_{0})$
