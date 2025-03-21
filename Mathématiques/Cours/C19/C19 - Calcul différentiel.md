@@ -580,9 +580,12 @@ $$\frac{\partial^{k}f}{\partial x_{i_{1}} \dots \partial x_{i_{k}}} : \Omega \to
 Si $f$ est de classe $\mathcal{C}^{2}$, 
 $$\forall i, j \in [\![1,n]\!], \frac{\partial^{2}f}{\partial x_{i}\partial x_{j}} = \frac{\partial^{2}f}{\partial x_{j} \partial x_{i}} $$
 
-#### Exemple
-On appelle laplacien de $f$ : 
-$$\Delta f : \begin{cases}
-\mathbb{R}^{2}\to \mathbb{R} \\
-(x, y) \mapsto \frac{\partial ^{2}f}{\partial x^{2}} (x, y) +\frac{\partial^{2}f}{\partial y^{2}} (x, y)
-\end{cases}$$
+#### Propriété
+Soit $k \in \mathbb{N}$, $\Omega$ un ouvert de $\mathbb{R}^{n}$, 
+Si $f, g : \Omega \to \mathbb{R}^{p}$ sont $\mathcal{C}^{k}$ et $\alpha \in \mathbb{R}$, $\alpha f+g: \Omega\to \mathbb{R}^{p}$ l'est aussi
+___
+Si $B:F \times G \to H$ est bilinéaire, ou $F, G, H$ sont des $\mathbb{R}$-ev de dimension finie, et $f:\Omega \to F$, $g:\Omega \to G$ sont $\mathcal{C}^{k}$, alors $x \in \Omega \mapsto B(f, g)$ est $\mathcal{C}^{k}$
+___
+$$\underset{\text{ouvert de } \mathbb{R}^{n}}{\Omega} \overset{f}{\longrightarrow} \underset{\text{ouvert de } \mathbb{R}^{p}}{U} \overset{g}{\longrightarrow} \mathbb{R}^{q}$$
+Si $f$ et $g$ sont $\mathcal{C}^{k}$, $g \circ f$ l'est
+
