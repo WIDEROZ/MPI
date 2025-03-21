@@ -160,10 +160,14 @@ $$F''(x) = \int _{-\pi}^{\pi} g''(t) K(x, t) \, dt \text{ et } F(x) = -\frac{F''
 ### Question 16
 #### a.
 Soit $x \in ]-1, 1[$, 
-$$z'(x) = \sum_{n = 1}^{+ \infty}na_{n}x^{n-1} \text{ et } z''(t) = \sum_{n = 2}^{+ \infty} n(n+1)a_{n}x^{n-2}$$
+$$z(x) = a_{0} + a_{1}x + \sum_{n = 2}^{+ \infty} a_{n}x^{n}\text{ et }z'(x) = a_{1} +\sum_{n = 2}^{+ \infty}na_{n}x^{n-1} \text{ et } z''(t) = \sum_{n = 2}^{+ \infty} n(n+1)a_{n}x^{n-2}$$
 Alors, 
-$$(1-x^{2})z''(x) - x z'(x) + \omega^{2} z(x) =\sum_{n = 2}^{+ \infty} a_{n}(n(n+1)x^{n-2}(1-x^{2}) + (-n +\omega^{2})x^{n}) + 2a_{0} + (2a_{2}+a_{1})x=0$$
+$$(1-x^{2})z''(x) - x z'(x) + \omega^{2} z(x) =\sum_{n = 2}^{+ \infty} a_{n}(n(n+1)x^{n-2}(1-x^{2}) + (-n +\omega^{2})x^{n}) + \omega^{2}a_{1}x + (\omega^{2}a_{0}-a_{1})=0$$
 Or 
 $$\sum_{n = 2}^{+ \infty} a_{n}n(n+1)x^{n-2} = 6a_{2} + 12a_{3}x+\sum_{n = 2}^{+ \infty} a_{n+2}(n+2)(n+3)x^{n}$$
 Alors, 
-$$(1-x^{2})z''(x) - x z'(x) + \omega^{2} z(x) =\sum_{n = 2}^{+\infty} (a_{n+2}(n+2)(n+3) -a_{n}(n(n+1) + \omega^{2}-n))x^{n} + $$
+$$(1-x^{2})z''(x) - x z'(x) + \omega^{2} z(x) =\sum_{n = 2}^{+\infty} (a_{n+2}(n+2)(n+3) -a_{n}(n(n+1) + \omega^{2}-n))x^{n} + (\omega^{2 } a_{1}+12a_{3})x + (\omega^{2}a_{0}-a_{1}+6a_{2}) = 0$$
+Ainsi, 
+$$\boxed{\forall n \in \mathbb{N}, a_{n+2} = \frac{n(n+1) + \omega^{2}-n}{(n+2)(n+3)} a_{n} }$$
+Donc, 
+$$$$
