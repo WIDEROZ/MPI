@@ -655,3 +655,7 @@ $$z = \frac{\partial f}{\partial x} (x_{0}, y_{0})x+ \frac{\partial f}{\partial 
 Sous ces notations on appelle plan affine en $(x_{0}, y_{0})$ à $\mathcal{N}_{f}$ le plan d'équation cartésienne z: 
 $$z-z_{0} = \frac{\partial f}{\partial x} (x_{0}, y_{0})(x-x_{0}) + \frac{\partial f}{\partial y} (x_{0}, y_{0})(y-y_{0})$$
 ou $z_{0} = f(x_{0}, y_{0})$
+
+# VI. Optimisation
+## 1. Optimisation sous contrainte
+On cherche à déterminer les éventuels extremums locaux d'une fonction $f$ à valeurs réelles définie sur une partie $X$ de $\mathbb{R}^{n}$, par exemple si $s$ est un endomorphisme auto
