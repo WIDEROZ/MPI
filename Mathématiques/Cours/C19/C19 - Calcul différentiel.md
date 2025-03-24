@@ -682,3 +682,15 @@ $$\exists \alpha \in \mathbb{R}, \nabla f(x_{0}) = \alpha \nabla V(x_{0})$$
 
 Démonstration : 
 Soit $v \in T_{x_{0}}X$, 
+Il existe alors une courbe : $\gamma : ]-\varepsilon, \varepsilon[ \to \mathbb{R}^{n}$ de classe $\mathcal{C}^{1}$ telle que : $\forall t \in ]-\varepsilon, \varepsilon[, \gamma(t) \in X$, et $\gamma(0) = x_{0}$ et $\gamma'(0) = v$ 
+Considérons alors que $g=f \circ \gamma :  ]-\varepsilon, \varepsilon[ \to \mathbb{R}$, 
+Puisque : 
+$$\begin{cases}
+\forall x \in X, f(x)\geq f(x_{0}) \\
+\forall t \in ]-\varepsilon , \varepsilon[, g(t) = f \circ \gamma(t) \geq f(x_{0})=g(0)
+\end{cases}$$
+$g$ admet un minimum en $t=0$ or elle est dérivable donc $g'(0)=0$ ie : 
+$$df(\gamma(0))(\gamma'(0))=0 \text{ ie } df(x_{0})(v) = 0 \text{ ou encore : }\left< \nabla f(x_{0}), v \right> =0$$
+___
+Sous ces hypothèses, on a admis que $T_{x_{0}} X$ est l'hyperplan vectoriel $\nabla V(x_{0})^{\bot}=\mathrm{Ker}(dV(x_{0}))$
+Ainsi, le point 
