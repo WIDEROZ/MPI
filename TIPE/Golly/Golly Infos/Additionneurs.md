@@ -25,4 +25,3 @@ or : )D
 $C$ : flot continu de gliders
 $R$ : retenue
 $D$ : blocage glider
-![[Pasted image 20250317150135.png]]
