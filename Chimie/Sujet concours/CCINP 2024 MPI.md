@@ -68,5 +68,4 @@ $$\Leftrightarrow RC \frac{d u_{c}}{dt} + u_{c} = u_{1}-u \text{ avec } \tau = R
 #### Question 30
 ##### a.
 $u_{1} = V_{a} \Rightarrow u = 0$ alors, 
-$$\frac{du_{c}}{dt} + \frac{1}{RC} u_{c} = V_{a} \Leftrightarrow u_{c} = u_{2} = Ae^{ -t/RC }$$
-$$u_{2}(t)$$
+$$RC\frac{du_{c}}{dt} +  u_{c} = V_{a} \Leftrightarrow u_{c}(t) = u_{2}(t) = V_{a}e^{ -t/RC }$$
