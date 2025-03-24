@@ -28,6 +28,8 @@ $D$ : blocage glider
 
 #### Schema additionneur 
 ![[Pasted image 20250324170824.png]]
-$HA$ : demi-additionneur
+$HA$ : demi-additionneur (retenue a gauche sortie en bas)
 $C_{1}$ : retenue
 $S$ : Sortie 
+
+![[Pasted image 20250324171824.png]]
