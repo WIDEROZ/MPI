@@ -60,4 +60,13 @@ $$\ddot{\theta} + \frac{m}{J_{F}}gl_{j}\sin(\theta) = 0$$
 #### Question 28
 $$NAND \equiv NOT$$
 #### Question 29
-$$i_{c} +$$
+$$   Ri_{r}=Ri_{c}+ R{i_{2}} \approx Ri_{c} $$
+Alors, 
+$$RC \frac{du_{c}}{dt} = u_{r} = u_{1}-u_{2} \Leftrightarrow RC \frac{d u_{c}}{dt} = u_{1} -(u_{2}-u)-u  $$
+$$\Leftrightarrow RC \frac{d u_{c}}{dt} + u_{c} = u_{1}-u \text{ avec } \tau = RC$$
+
+#### Question 30
+##### a.
+$u_{1} = V_{a} \Rightarrow u = 0$ alors, 
+$$\frac{du_{c}}{dt} + \frac{1}{RC} u_{c} = V_{a} \Leftrightarrow u_{c} = u_{2} = Ae^{ -t/RC }$$
+$$u_{2}(t)$$
