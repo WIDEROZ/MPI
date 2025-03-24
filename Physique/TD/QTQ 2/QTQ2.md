@@ -42,8 +42,10 @@ Lorsque $E \ll V_{0}$ alors, $k_{2} \to 0$ et $R=1$
 
 # Exercice 2
 #### 1.
-$$\overrightarrow{E}_{a} = - \overrightarrow{grad}(V)$$
-Alors, Comme $E_{a}$ est uniforme : 
-$$V(x) = -E_{a}x$$
+$V_{elec} \neq V_{qtq}$
+$$\overrightarrow{E}_{a} = - \overrightarrow{grad}(V_{elec}) \Rightarrow E_{p_{elec}} = q V_{elec} \text{ (énergie)} \equiv V_{qtq}$$
+On dessine une marche de potentiel avec pour $x<0$, $E_{\max}$ ie  et $V_{0}$ pour $x>0$
 
 #### 2.
+On prend $L$ la longueur de la marche de potentiel
+$$\underline{\varphi_{1}}(x) = \underline{A_{1}} e^{ ik_{1}x } + \underline{B_{1}}e^{ -ik_{1}x } \text{ ou } k_{1} = \frac{\sqrt{2mE}}{\hbar}$$
