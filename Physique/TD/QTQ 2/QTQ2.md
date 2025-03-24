@@ -30,5 +30,11 @@ $$\begin{cases}
 \underline{\tau} k_{2} =k_{1}(1- \underline{r})
 \end{cases} \Leftrightarrow k_{2}(1+\underline{r}) = k_{1}-\underline{r}k_{1} \Leftrightarrow \underline{r} = \frac{k_{1}-k_{2}}{k_{1}+k_{2}}$$
 Ainsi, 
-$$\boxed{R = \frac{(k_{1}-k_{2})^{2}}{(k_{1}+k_{2})^{2}}} = \frac{2E+V_{0}- 2\sqrt{E(E+V_{0})}}{2E+V_{0} + 2\sqrt{E(E+V_{0})}}=1-4 \frac{\sqrt{E(E+V_{0})}}{2E+V_{0}+2\sqrt{E(E+V)}}$$
+$$\boxed{R = \frac{(k_{1}-k_{2})^{2}}{(k_{1}+k_{2})^{2}}} = \frac{2E+V_{0}- 2\sqrt{E(E+V_{0})}}{2E+V_{0} + 2\sqrt{E(E+V_{0})}}$$
 c'est la proba qu'une particule fasse demi-tour
+
+#### 4.
+Lorsque $E \gg V_{0}$ alors, $k_{1} \to k_{2}$ et $R = 0$, 
+Lorsque $E \ll V_{0}$ alors, $k_{2} \to 0$ et $R=1$
+
+#### 5.
