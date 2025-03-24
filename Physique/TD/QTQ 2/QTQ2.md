@@ -38,3 +38,12 @@ Lorsque $E \gg V_{0}$ alors, $k_{1} \to k_{2}$ et $R = 0$,
 Lorsque $E \ll V_{0}$ alors, $k_{2} \to 0$ et $R=1$
 
 #### 5.
+
+
+# Exercice 2
+#### 1.
+$$\overrightarrow{E}_{a} = - \overrightarrow{grad}(V)$$
+Alors, Comme $E_{a}$ est uniforme : 
+$$V(x) = -E_{a}x$$
+
+#### 2.
