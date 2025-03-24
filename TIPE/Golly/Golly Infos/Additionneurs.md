@@ -20,8 +20,9 @@ AND : D
 or : )D
 
 
-#### Schema additionneur jeu de la vie
+#### Schema un additionneur jeu de la vie
 ![[Pasted image 20250317144715.png]]
 $C$ : flot continu de gliders
 $R$ : retenue
 $D$ : blocage glider
+
