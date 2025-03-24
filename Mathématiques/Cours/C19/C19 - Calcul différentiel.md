@@ -801,5 +801,33 @@ Ainsi,
 $$\max_{K}f = f(1, 1) = 7$$
 
 #### CCINP 41
-##### 1.
-Sur $\mathcal{C}$, 
+##### 1. ?
+##### 2.
+###### a.
+$$V : \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R} \\
+(x, y) \mapsto x^{2} + y^{2} - 13
+\end{cases}$$
+Alors, 
+$$\forall (u, v) \in \mathcal{C}, \nabla V(u, v) = \begin{pmatrix}
+2u \\
+2v
+\end{pmatrix} \text{ et } \nabla f(u, v) = \begin{pmatrix}
+8u + 12v \\
+12u - 2v
+\end{pmatrix}$$
+Comme $\nabla V$ ne s'annule pas, si $(u, v)$ est un extremum de la restriction de $f$ à $\mathcal{C}$, d'après le théorème d’optimisation sous contrainte, 
+$$\exists \alpha \in \mathbb{R}, df(u, v) = \alpha dV(u, v)$$
+ie : 
+$$\begin{cases}
+8u + 12v = 2\alpha u \\
+12u - 2v = 2\alpha v
+\end{cases} \text{ ir }\begin{cases}
+4u + 6v = \alpha u \\
+6u - v = \alpha v
+\end{cases}$$
+
+###### b.
+$$\begin{cases}
+
+\end{cases}$$
