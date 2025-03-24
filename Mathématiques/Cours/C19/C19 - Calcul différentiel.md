@@ -710,4 +710,22 @@ $$f: \begin{cases}
 \mathbb{R}^{n} \mapsto \mathbb{R} \\
 x \mapsto \left< s(x), x \right> 
 \end{cases} \text{ sur }X = \left\{  (x_{1}, \dots, x_{n}) \in \mathbb{R}^{n} | \sum_{k = 1}^{n} x_{k}^{2}=1  \right\}$$
-ou $s$ est auto-adjoint et 
+ou $s$ est auto-adjoint et : $X = V^{-1}(\{ 0 \})$, 
+$$V : \begin{cases}
+\mathbb{R}^{n} \to \mathbb{R} \\
+x \mapsto \left( \sum_{k = 1}^{n} x^{2}_{k}\right)-1
+\end{cases}$$
+Notons que $X$ est la sphère $S(0, 1)$ de $\mathbb{R}^{n}$ pour la norme euclidienne canonique $X$ est alors compacte car $\mathbb{R}^{n}$ est de dimension finie.
+De plus, $f$ est continue car polynomiale en les coefficients de $x$ : 
+$$f(x_{1}, \dots, x_{n}) = \sum_{i = 1}^{n} \sum_{j = 1}^{n}s_{i, j} x_{i}x_{j} \text{ ou } (s_{i, j})_{(i, j) \in [\![1, n]\!]^{2}} =Mat_{\mathrm{can}}(s)$$
+Ainsi, $f$ admet des extremas globaux. 
+Soit $a = (a_{1}, \dots, a_{n})\in X$ tel que ; $\forall x \in X, f(x) \geq f(a)$
+$$\nabla V(a) = \begin{pmatrix}
+\frac{\partial V}{\partial x_{1}}(a) \\
+\vdots \\
+ \frac{\partial V}{\partial x_{n}}(a)
+\end{pmatrix} = 2a \neq 0$$
+car $\left|\left| \nabla V(a) \right|\right| = 2$
+
+D'après le théorème doptimisation sous contrainte, 
+$$\exists \alpha \in \mathbb{R}, \nabla f(a) = \alpha \nabla V(a) = 2 \alpha a$$
