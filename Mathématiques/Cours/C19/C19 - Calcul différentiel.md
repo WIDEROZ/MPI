@@ -658,4 +658,27 @@ ou $z_{0} = f(x_{0}, y_{0})$
 
 # VI. Optimisation
 ## 1. Optimisation sous contrainte
-On cherche à déterminer les éventuels extremums locaux d'une fonction $f$ à valeurs réelles définie sur une partie $X$ de $\mathbb{R}^{n}$, par exemple si $s$ est un endomorphisme auto
+On cherche à déterminer les éventuels extremums locaux d'une fonction $f$ à valeurs réelles définie sur une partie $X$ de $\mathbb{R}^{n}$.
+Par exemple si $s$ est un endomorphisme auto-adjoint sur $\mathbb{R}^{n}$, quels sont les extremums de : 
+$$f: \begin{cases}
+\mathbb{R}^{n} \mapsto \mathbb{R} \\
+x \mapsto \left< s(x), x \right> 
+\end{cases} \text{ sur }X = \left\{  (x_{1}, \dots, x_{n}) \in \mathbb{R}^{n} | \sum_{k = 1}^{n} x_{k}^{2}=1  \right\}$$
+Autre exemple : Quels sont les extremums locaux de : 
+$$f : \begin{cases}
+\mathcal{M}_{n}(\mathbb{R}) \to \mathbb{R} \\
+M \mapsto \det(M)
+\end{cases} \text{ sur } X = \{ M \in \mathcal{M}_{n}(\mathbb{R}) | \mathrm{Tr}(M^{\top}M) = 1 \}$$
+
+#### Propriété
+Si $f: X \to \mathbb{R}$ admet un extremum local en $x_{0}\in X$, alors tous les vecteurs tangents à $x$ en $x_{0}$ sont dans le noyau de $df(x_{0})$ ie
+$$T_{x_{0}}X \subset \mathrm{Ker}(df(x_{0})) = \nabla df(x_{0})^{\bot}$$
+___
+Si $X= \{ x \in \mathbb{R}^{n} | V(x) = 0 \}$ ou $V : \mathbb{R}^{n} \to \mathbb{R} \in \mathcal{C}^{1}$, 
+Si $f:X \to \mathbb{R}$ admet un extremum local en $x_{0} \in X$, 
+Si $dV(x_{0}) \neq 0$
+Alors, 
+$$\exists \alpha \in \mathbb{R}, \nabla f(x_{0}) = \alpha \nabla V(x_{0})$$
+
+Démonstration : 
+Soit $v \in T_{x_{0}}X$, 
