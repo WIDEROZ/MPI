@@ -693,4 +693,21 @@ $g$ admet un minimum en $t=0$ or elle est dérivable donc $g'(0)=0$ ie :
 $$df(\gamma(0))(\gamma'(0))=0 \text{ ie } df(x_{0})(v) = 0 \text{ ou encore : }\left< \nabla f(x_{0}), v \right> =0$$
 ___
 Sous ces hypothèses, on a admis que $T_{x_{0}} X$ est l'hyperplan vectoriel $\nabla V(x_{0})^{\bot}=\mathrm{Ker}(dV(x_{0}))$
-Ainsi, le point 
+Ainsi, le premier point nous dit que 
+$$\mathrm{Ker}(dV(x_{0})) \subset \mathrm{Ker}(df(x_{0}))$$
+Or, $dV(x_{0})$ est une forme linéaire sur $\mathbb{R}^{n}$ non nulle,
+donc $\dim \mathrm{Ker}(dV(x_{0})) = n-1$ et $\mathrm{Ker}(df(x_{0})) \subset \mathbb{R}^{n}$
+alors $\dim \mathrm{Ker}(df(x_{0}))=n\text{ ou }n-1$
+
+Si $\dim \mathrm{Ker}(df(x_{0}))=n$ 
+$$df(x_{0}) = 0 \text{ et alors } \alpha = 0 \text{ convient}$$
+
+Si $\dim \mathrm{Ker}(df(x_{0})) = n-1$ alors, $\mathrm{Ker}(dV(x_{0}))=\mathrm{Ker}(df(x_{0}))$
+Or certains savent que si deux formes linéaires : $\varphi = dV(x_{0})$ et $\varphi_{2} = df(x_{0})$ sur $\mathbb{R}^{n}$ sont non nulles ont même noyau, elles sont colinéaires ie $\exists \alpha \in \mathbb{R}, df(x_{0})=dV(x_{0})$
+
+#### Exemple
+$$f: \begin{cases}
+\mathbb{R}^{n} \mapsto \mathbb{R} \\
+x \mapsto \left< s(x), x \right> 
+\end{cases} \text{ sur }X = \left\{  (x_{1}, \dots, x_{n}) \in \mathbb{R}^{n} | \sum_{k = 1}^{n} x_{k}^{2}=1  \right\}$$
+ou $s$ est auto-adjoint et 
