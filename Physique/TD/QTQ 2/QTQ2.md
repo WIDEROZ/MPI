@@ -44,7 +44,10 @@ Lorsque $E \ll V_{0}$ alors, $k_{2} \to 0$ et $R=1$
 #### 1.
 $V_{elec} \neq V_{qtq}$
 $$\overrightarrow{E}_{a} = - \overrightarrow{grad}(V_{elec}) \Rightarrow E_{p_{elec}} = q V_{elec} \text{ (énergie)} \equiv V_{qtq}$$
-On dessine une marche de potentiel avec pour $x<0$, $E_{\max}$ ie  et $V_{0}$ pour $x>0$
+On dessine une marche de potentiel avec pour $x<0$, $V \in [0, E_{\max}]$ et $V=V_{0}$ pour $x>0$
+$$\text{(Energie potentielle de la particule) : }E_{p}(x) = -E_{a}x + \text{cte} = -E_{a}x +V_{qtq}(x)$$
+On dessine une fonction affine décroissante qui commence en $x=0$ à $V_{0}$ et $x<0$, $E_{p} \in [0, E_{\max}]$
+
 
 #### 2.
 On prend $L$ la longueur de la marche de potentiel
