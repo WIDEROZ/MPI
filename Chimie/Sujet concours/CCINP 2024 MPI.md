@@ -60,3 +60,4 @@ $$\ddot{\theta} + \frac{m}{J_{F}}gl_{j}\sin(\theta) = 0$$
 #### Question 28
 $$NAND \equiv NOT$$
 #### Question 29
+$$i_{c} +$$
