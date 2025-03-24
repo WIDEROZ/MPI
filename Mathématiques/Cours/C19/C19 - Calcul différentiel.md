@@ -747,3 +747,22 @@ h \mapsto \left< 2s(a), h \right>
 De la colinéarité entre $df(a)$ et $dV(a)$ on en déduis
 $$s(a) = \alpha a \text{ ie } a \text{ est une vecteur propre de }f$$
 On a donc montré avec des arguments de topologie et de $CD$ que tout endomorphisme autoadjoint admettant au moins une valeur propre réelle
+
+#### CCINP 56
+$$\begin{cases}
+f : \mathbb{R}^{2} \to \mathbb{R} \\
+(x, y) \mapsto 2x^{3} + 6xy - 3y^{2} +2
+\end{cases}  \space\space\space\space K = [0, 1]^{2}$$
+___
+Quels sont les extremums locaux de $f$ sur $\mathbb{R}^{2}$, 
+$f$ est $\mathcal{C}^{\infty}$ car polynomiale donc, si elle admet un extremum local en un point $(x_{0}, y_{0})$, comme $\mathbb{R}^{2}$ est un ouvert de $\mathbb{R}^{2}$ 
+$$\frac{\partial f}{\partial x} (x_{0}, y_{0}) = \frac{\partial f}{\partial y} (x_{0}, y_{0}) = 0 \Leftrightarrow \begin{cases}
+6x_{0}^{2} +6y_{0} = 0 \\
+6x_{0}-6y_{0} = 0
+\end{cases} \Leftrightarrow \begin{cases}
+x_{0}^{2}+x_{0} =0 \\
+x_{0}=y_{0}
+\end{cases}$$
+
+$(0, 0)$ n'est pas un extremum local car : 
+$$f(x, 0) - f(0, 0) $$
