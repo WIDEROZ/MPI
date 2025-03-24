@@ -781,4 +781,25 @@ $K$ est un compact en tant que produit de deux compacts.
 Comme $f$ est continue, ça roule
 Donc, 
 $$\exists (x_{0}, y_{0}) \in K, \forall (x, y) \in K, f(x, y) \leq f(x_{0}, y_{0})$$
-Si $(x_{0}, y_{0})$ est un point intérieur à $K$, ce serait un point critique de $f$, or il n'y 
+Si $(x_{0}, y_{0})$ est un point intérieur à $K$, ce serait un point critique de $f$, or il n'y en a pas dans :
+$$\overset{\circ}{K} = ]0, 1[ \times ]0, 1[$$
+Ainsi, 
+$$\begin{array}{c}
+(x_{0}, y_{0})& \in ]0, 1[ \times ]0, 1[  \\
+& \text{ou } \{ 0 \} \times ]0, 1[ \\
+&\text{ou } \{ 1 \} \times]0, 1[ \\
+&\text{ou } ]0, 1[ \times \{ 0 \} \\
+&\text{ou } ]0, 1[ \times \{ 1 \}
+\end{array}$$
+$$\begin{array}{l}
+x \in [0, 1] \mapsto f(x, 0) = 2x^{3}+2 \\
+x \in [0, 1] \mapsto f(x, 1) = 2x^{3}+6x-1 \\
+y \in [0, 1] \mapsto f(0, y) = -3y^{2} +2 \\
+y \in [0, 1] \mapsto f(1, y) = 4+6y-3y^{2}
+\end{array}$$
+Ainsi, 
+$$\max_{K}f = f(1, 1) = 7$$
+
+#### CCINP 41
+##### 1.
+Sur $\mathcal{C}$, 
