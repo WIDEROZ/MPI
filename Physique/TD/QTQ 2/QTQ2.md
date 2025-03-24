@@ -19,3 +19,16 @@ $$\underline{\varphi_{2}}(x) = \underline{B_{2}} e^{ ik_{2}x } \text{ ou } k_{2}
 car il n'existe pas de particule qui se propage en $x$ décroissant. 
 
 #### 3.
+$$\begin{cases}
+\underline{\varphi_{2}}(0)= \underline{\varphi_{1}}(0) \Leftrightarrow \underline{B_{2}} = \underline{A_{1}}+ \underline{B_{1}} \\
+\underline{\varphi_{2}}'(0)= \underline{\varphi_{1}}'(0) \Leftrightarrow \underline{B_{2}}k_{2} = k_{1}(\underline{A_{1}}-\underline{B_{1}})
+\end{cases}$$
+ie calculer $R = \left| \underline{r}\right|^{2}$ ou $\underline{r} = \frac{\underline{B_{1}}}{\underline{A_{1}}}$ et $\underline{\tau} = \frac{\underline{B_{2}}}{\underline{A_{1}}}$
+Alors, 
+$$\begin{cases}
+\underline{\tau} = 1+ \underline{r} \\
+\underline{\tau} k_{2} =k_{1}(1- \underline{r})
+\end{cases} \Leftrightarrow k_{2}(1+\underline{r}) = k_{1}-\underline{r}k_{1} \Leftrightarrow \underline{r} = \frac{k_{1}-k_{2}}{k_{1}+k_{2}}$$
+Ainsi, 
+$$\boxed{R = \frac{(k_{1}-k_{2})^{2}}{(k_{1}+k_{2})^{2}}} = \frac{2E+V_{0}- 2\sqrt{E(E+V_{0})}}{2E+V_{0} + 2\sqrt{E(E+V_{0})}}=1-4 \frac{\sqrt{E(E+V_{0})}}{2E+V_{0}+2\sqrt{E(E+V)}}$$
+c'est la proba qu'une particule fasse demi-tour
