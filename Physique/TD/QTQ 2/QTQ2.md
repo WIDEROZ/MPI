@@ -52,5 +52,5 @@ On dessine une fonction affine décroissante qui commence en $x=0$ à $V_{0}$ et
 #### 2.
 On prend $L$ la longueur de la marche de potentiel
 $$\underline{\varphi_{1}}(x) = \underline{A_{1}} e^{ ik_{1}x } + \underline{B_{1}}e^{ -ik_{1}x } \text{ ou } k_{1} = \frac{\sqrt{2mE}}{\hbar}$$
-$$\underline{\varphi_{2}}(x) = \underline{A_{2}} e^{ \frac{x}{\delta} } + \underline{B_{1}}e^{ -\frac{x}{\delta} } \approx \underline{A_{2}} e^{ \frac{x}{\delta} } \text{ ou } \delta = \frac{\hbar}{\sqrt{2m(E-V_{0})}} \text{ pour }L \geq 1.5 \delta$$
+$$\underline{\varphi_{2}}(x) = \underline{A_{2}} e^{ \frac{x}{\delta} } + \underline{B_{1}}e^{ -\frac{x}{\delta} } \approx \underline{A_{2}} e^{ \frac{x}{\delta} } \text{ ou } \delta = \frac{\hbar}{\sqrt{2m(V_{0}-E)}} \text{ pour }L \geq 1.5 \delta$$
 $$\underline{\varphi_{3}}(x) = \underline{A_{1}} e^{ ik_{1}x }  \text{ ou } k_{1} = \frac{\sqrt{2mE}}{\hbar}$$
