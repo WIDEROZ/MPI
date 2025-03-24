@@ -729,3 +729,21 @@ car $\left|\left| \nabla V(a) \right|\right| = 2$
 
 D'après le théorème doptimisation sous contrainte, 
 $$\exists \alpha \in \mathbb{R}, \nabla f(a) = \alpha \nabla V(a) = 2 \alpha a$$
+Déterminons $\nabla f(a)$, 
+$$\forall h \in \mathbb{R}^{n}, f(a+h) = \left< s(a+h), a+h \right> = \left< s(a) + s(h) , a+h \right> $$
+$$= \left< s(a), a \right>  + \left< s(a), h \right> + \left< s(h), a \right>  + \left< s(h), h \right> $$
+$$= f(a) + \left< 2s(a), h \right> + \left< s(h) , h \right> $$
+Or,
+$$\left< s(h), h \right> = o(h) \text{ quand }h \to 0$$
+car : 
+$$\left| \left< s(h), h \right> \right| \leq \left|\left| s(h) \right|\right| \left|\left| h \right|\right|  \leq \left|\left| \left| s\right| \right|\right| \left|\left| h \right|\right| ^{2} $$
+Ainsi en divisant par $h$ comme $\left|\left| \left| s\right| \right|\right|$ ne dépend pas de $h$, c'est fini.
+
+Comme $h \in \mathbb{R}^{n} \mapsto \left< 2s(a), h \right> \in \mathbb{R}$ est linéaire, 
+$$df(a) : \begin{cases}
+\mathbb{R}^{n} \to \mathbb{R} \\
+h \mapsto \left< 2s(a), h \right> 
+\end{cases} \text{ ie } \nabla f(a) = 2s(a)$$
+De la colinéarité entre $df(a)$ et $dV(a)$ on en déduis
+$$s(a) = \alpha a \text{ ie } a \text{ est une vecteur propre de }f$$
+On a donc montré avec des arguments de topologie et de $CD$ que tout endomorphisme autoadjoint admettant au moins une valeur propre réelle
