@@ -763,6 +763,22 @@ $$\frac{\partial f}{\partial x} (x_{0}, y_{0}) = \frac{\partial f}{\partial y} (
 x_{0}^{2}+x_{0} =0 \\
 x_{0}=y_{0}
 \end{cases}$$
-
+$$\Leftrightarrow (x_{0}, y_{0})= (0, 0) \text{ ou } (-1, -1)$$
 $(0, 0)$ n'est pas un extremum local car : 
-$$f(x, 0) - f(0, 0) $$
+$$f(x, 0) - f(0, 0) = 2x^{3} \begin{cases}
+<0 \text{ si }x <0 \\
+>0 \text{ si }x >0
+\end{cases}$$
+$(-1, -1)$ est un max local : matrice hessienne
+___
+$f$ admet elle des extremum globaux?
+Par de min global car pas de min local
+Pas de max global car elle n'est pas majorée : 
+$$f(x, 0) = 2x^{3} +2\underset{n \to +\infty}{\longrightarrow} + \infty$$
+___
+Mq $f$ admet un max global sur $K$ et le déterminer 
+$K$ est un compact en tant que produit de deux compacts.
+Comme $f$ est continue, ça roule
+Donc, 
+$$\exists (x_{0}, y_{0}) \in K, \forall (x, y) \in K, f(x, y) \leq f(x_{0}, y_{0})$$
+Si $(x_{0}, y_{0})$ est un point intérieur à $K$, ce serait un point critique de $f$, or il n'y 
