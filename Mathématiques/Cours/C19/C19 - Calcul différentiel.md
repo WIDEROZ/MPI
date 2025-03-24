@@ -828,6 +828,28 @@ $$\begin{cases}
 \end{cases}$$
 
 ###### b.
-$$\begin{cases}
+$$u = \frac{\lambda+1}{6}v \text{ alors } v = \frac{6}{\lambda+1} u$$
+Donc, 
+$$4 + \frac{36}{\lambda+1} = \lambda \Leftrightarrow (\lambda-4)(\lambda+1) - 36 = 0$$
+Alors, 
+$$\lambda = -5 \text{ et }8$$
+Si $\lambda = -5$, 
+$$\begin{pmatrix}
+u \\
+v 
+\end{pmatrix} \in \mathrm{Ker}\begin{pmatrix}
+\begin{pmatrix}
+4&-6 \\
+6&-1
+\end{pmatrix} + 5 I_{2}
+\end{pmatrix} = \mathrm{Ker}\begin{pmatrix}
+9&6 \\
+6&4
+\end{pmatrix} = Vect\begin{pmatrix}
+2 \\
+-3
+\end{pmatrix}$$
+Donc, $(u, v) = \begin{pmatrix}2 \\ -3\end{pmatrix} \text{ ou } \begin{pmatrix}-2 \\ 3\end{pmatrix}$
 
-\end{cases}$$
+Si $\lambda = 8$, 
+
