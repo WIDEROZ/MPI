@@ -4,4 +4,3 @@
 #### Passe_boucle :
 - 200 gen. pour sortir
 
-/usr/share/golly/Patterns/TIPE/
