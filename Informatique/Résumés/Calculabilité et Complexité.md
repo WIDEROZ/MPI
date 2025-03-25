@@ -1,18 +1,7 @@
 ## I. Définition
-Soient $X, Y$ des ensembles, 
-#### Fonction mathématique
-C'est une relation $\mathcal{R} \subset X \times Y$, telle que $\mathcal{R}$ est : 
-- Déterministe : $\forall x \in X, \exists y, y' \in Y, x \mathcal{R}y \text{ et } x \mathcal{R} y'\Rightarrow y = y'$
-- Totale à gauche : $\forall x \in X, \exists y \in Y, x \mathcal{R} y$
 
 #### Problème de recherche
 Un algorithme $A$ résout un problème de recherche $\mathcal{R} \subset E \times S$ si pour tout $e \in E$ $A$ renvoie $s \in S$ tel que $e \mathcal{R} s$ si $s$ existe
-
-#### Problème de minimisation
-Soit $\mathcal{R}$ un problème de recherche, 
-Une fonction de coût : $c: S \to \mathbb{R}_{+}^{*}$, 
-Entrée : $e \in E$
-Sortie : $s \in S$ tel que $e\mathcal{R} s$ et $c(s) = \min\{ s' | \forall s' \in S, e\mathcal{R}s' \}$
 
 #### Ratio d'approximation
 Soit $p \in [0, 1[$, $Q$ un problème de minimisation, 
@@ -21,18 +10,9 @@ $$\forall e \in E, A(e) \leq p\times \mathrm{opt}(e)$$
 
 #### Ratio d'approximation différentiel
 Soit $Q$ un problème d'optimisation, on suppose qu'il existe une pire valeur $\forall e \in E, p(e)$
-On dit qu'un algorithme $A$ admet un ration d'approximation différentiel si : 
-mdm
+On dit qu'un algorithme $A$ admet un ration d'approximation différentiel $p \in [0, 1[$ pour $Q$ lorsque : 
+$$\left| p(e) - A(e) \right| \geq p \left| p(e) - opt(e)\right| $$
 
-
-#### Problème de seuil
-Soit $\mathcal{R}$ un problème de recherche, 
-Une fonction de coût : $c: S \to \mathbb{R}_{+}^{*}$, 
-Entrée : $e \in E$ et $K \in \mathbb{R}_{+}^{*}$, 
-Sortie : existe t'il $s \in S$ telle que $e\mathcal{R}s$ et $c(s) < K$
-
-#### Décidabilité
-.................
 
 #### Théorème
 Le problème de l’arrêt est indécidable
