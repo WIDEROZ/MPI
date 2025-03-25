@@ -1,5 +1,4 @@
 ## I. Définition
-
 #### Problème de recherche
 Un algorithme $A$ résout un problème de recherche $\mathcal{R} \subset E \times S$ si pour tout $e \in E$ $A$ renvoie $s \in S$ tel que $e \mathcal{R} s$ si $s$ existe
 
