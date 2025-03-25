@@ -79,5 +79,10 @@ or $u_{c}(t_{b}) = u_{c}(t_{b})$ de la question a. par continuité de la tension
 $$Ae^{ -t_{b}/RC }-V_{b} = -V_{a}e^{ -t_{b}/RC }+V_{a}\Leftrightarrow e^{ -t_{b}/RC } = \frac{V_{a}+V_{b}}{V_{a}+A}$$
 $$\Leftrightarrow \boxed{t_{b} = -\tau\ln\left( \frac{V_{b}+V_{a}}{V_{a}+A} \right)}$$
 ___
-$u=V_{a}$, $u_{1}=0$, 
-$$V_{a}-u_{2} = R_{p}i_{r}=$$
+$u=V_{a}$, $u_{1}=V_{b}$, 
+$$u_{2}-V_{a} = u_{c}$$
+$$V_{a}-u_{2} = $$
+$$V_{b}-u_{2} = Ri = RC \frac{du_{c}}{dt} \Rightarrow RC\frac{du_{2}}{dt}+u_{2} = V_{b}$$
+$$u_{2} = Ae^{ -t/\tau }+V_{b} =$$
+
+
