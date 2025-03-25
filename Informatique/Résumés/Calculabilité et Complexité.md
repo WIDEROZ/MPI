@@ -15,6 +15,14 @@ Entrée : $e \in E$
 Sortie : $s \in S$ tel que $e\mathcal{R} s$ et $c(s) = \min\{ s' | \forall s' \in S, e\mathcal{R}s' \}$
 
 #### Ratio d'approximation
+Soit $p \in [0, 1[$, $Q$ un problème de minimisation, 
+On dit qu'un algorithme $A$ admet un ratio d'approximation $p$ pour le problème $Q$ lorsque :
+$$\forall e \in E, A(e) \leq p\times \mathrm{opt}(e)$$
+
+#### Ratio d'approximation différentiel
+Soit $Q$ un problème d'optimisation, on suppose qu'il existe une pire valeur $\forall e \in E, p(e)$
+On dit qu'un algorithme $A$ admet un ration d'approximation différentiel si : 
+mdm
 
 
 #### Problème de seuil
