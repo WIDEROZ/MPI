@@ -73,12 +73,12 @@ $$RC\frac{du_{c}}{dt} +  u_{c} = V_{a} \Leftrightarrow u_{c}(t) = u_{2}(t) = -V_
 car $u_{c}(0)=0$
 
 ##### b.
-$u=V_{a}$, $u_{1}=V_{b}$, 
-$$u_{2}-V_{a} = u_{c}$$
-$$u_{2}(t_{b}) = V_{b} \text{ car }R_{p} \text{ ne joue aucun role}$$
-$$V_{b}-u_{2} = Ri = RC \frac{du_{c}}{dt} \Rightarrow RC\frac{du_{2}}{dt}+u_{2} = V_{b}$$
-$$u_{2} = Ae^{ -t/\tau }+V_{b} ssi e^{ -t_{b}/\tau } = A$$
-$$\boxed{u_{2} = (V_{a}-V_{b})e^{ \frac{t_{b}-t}{\tau} }+V_{b}}$$
-Or, $u_{2}(t_{b}^{+}) - u = u_{c}(t_{b}^{+})= u_{c}(t_{b}^{-})$ alors par continuité de $u_{c}$ 
-$$0= -V_{a}e^{ -t_{b}/\tau } + V_{a}$$
-Alors, 
+
+
+
+___
+$$u_{c} = (V_{a}+V_{b}) e^{ - \frac{t-t_{b}}{\tau} } - V_{a}$$
+$$u_{2} = V_{a} \Rightarrow u_{c}(t'_{b}) = V_{a} - u = 0 \Rightarrow (V_{a}+V_{b})e^{ -\frac{t_{b}'-t_{b}}{\tau} } = V_{a} $$
+$$\Leftrightarrow t_{b}'-t_{b} = \tau\ln\left( 1+\frac{V_{b}}{V_{a}} \right)$$
+
+
