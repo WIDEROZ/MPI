@@ -28,8 +28,13 @@ let rec fusion l1 l2 =
 let rec tri_fusion l = 
 	match l with
 	| [] -> []
-	| t::s -> let (l1, l2) = division l in fusion (tri)
-				
-
+	| [e] -> [e]
+	| _ -> let (l1, l2) = division l in fusion (tri_fusion l1) (tri_fusion l2)
+;;
 
 ```
+
+#### Tri rapide
+![[Pasted image 20250325112059.png]]
+
+#### Tri par tas

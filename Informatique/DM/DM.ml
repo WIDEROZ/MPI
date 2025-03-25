@@ -74,3 +74,29 @@ maxSat phi_0;;
 
 let phi_1:fnc = [[1; -2]; [1; 2]; [-3; 1]; [-2;-3]];;
 maxSat phi_1;;
+
+
+
+let rec division l = 
+	match l with
+	| [] -> ([], [])
+	| [e] -> ([e], [])
+	| t1::t2::s -> let (s1, s2) = division s in (t1::s1, t2::s2)
+;;
+
+let rec fusion l1 l2 =
+	match (l1, l2) with
+	| ([],[]) -> []
+	| (_, []) -> l1
+	| ([], _) -> l2
+	| (t1::s1, t2::s2) -> if t1 < t2 then 
+	t1::fusion s1 l2 else t2::fusion l1 s2
+;;
+
+let rec tri_fusion l = 
+	match l with
+	| [] -> []
+	| [e] -> [e]
+	| _ -> let (l1, l2) = division l in fusion (tri_fusion l1) (tri_fusion l2)
+;;
+
