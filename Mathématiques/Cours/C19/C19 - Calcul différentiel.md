@@ -853,3 +853,16 @@ Donc, $(u, v) = \begin{pmatrix}2 \\ -3\end{pmatrix} \text{ ou } \begin{pmatrix}-
 
 Si $\lambda = 8$, 
 
+#### Exercice
+$E = \mathcal{M}_{n}(\mathbb{R})$, $X = \{ M \in E \space\space | \space\space\left|\left| M \right|\right|^{2} = n \}$ ou $\left|\left| M \right|\right| = \mathrm{Tr}(M^{\top}M) = \sum_{i, j = 1}^{n} m_{i, j}^{2}$
+Déterminer les extremums loc. et glob. de $\det$ sur $X$ :
+
+$X$ est bien compact et $\det$ est continue donc $\det$ admet des extremums globaux
+$$X = V^{-1}(\{ 0 \}) \text{ ou } V : \begin{cases}
+E \to \mathbb{R} \\
+M \mapsto \left|\left| M \right|\right| ^{2} - n
+\end{cases}$$
+De plus, $X$ est une équipotentielle de classe $\mathcal{C}^{1}$, et dont le gradient
+$$\nabla V(M) = 2 M \text{ ne s'annule pas sur }X$$
+D'après le théorème des extremums liés, puisque $f$ est $\mathcal{C}^{1}$, si $M_{0} \in X$ vérifie : 
+$$\forall M \in X, f(M) \leq f(M_{0}) \text{ ou } \forall M \in X, f(M) \geq f(M_{0})$$
