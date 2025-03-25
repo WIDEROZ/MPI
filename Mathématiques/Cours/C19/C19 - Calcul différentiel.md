@@ -958,3 +958,19 @@ xe^{ y-x } = -1
 xy = 1 \\
 e^{ y-x } = -\frac{1}{x}
 \end{cases}$$
+$x, y <0$
+Étudions $x \in \mathbb{R}_{-}^{*} \mapsto e^{ 1/x - x }+\frac{1}{x}$ 
+$h' : x \mapsto \left( -\frac{1}{x}-1 \right)e^{ 1/x-x }-\frac{1}{x^{2}}<0$
+alors $-1$ est solution unique
+Donc, $y = -1$, et
+$$\frac{\partial f}{\partial x} (-1, -1) = \frac{\partial f}{\partial y} (-1, -1)$$
+Donc $f$ admet un unique point critique : 
+$$H_{f}(-1, -1) = \begin{pmatrix}
+-e^{ -1 }& 2e^{ -1 } \\
+2e^{ -1 }& -e^{ -1 }
+\end{pmatrix}$$
+car : 
+$$\frac{\partial^{2}f}{\partial x \partial y} = \frac{\partial^{2}f}{\partial y \partial x} = e^{ x } + e^{ y } \text{ et } \frac{\partial^{2}f}{\partial x^{2}}  = ye^{ x } \text{ et } \frac{\partial^{2}f}{\partial x^{2}}  = xe^{ y } $$
+$H_{f}(-1, -1)$ est de trace $-2e^{ -1 }$ et $\det H_{f}(-1, -1) = e^{ -2 }(1-4)<0$
+donc $H_{f}(-1, -1)$ admet une valeur propre positive et négative donc $(-1, -1)$ n'est pas un extremum local. 
+Donc $f$ n'admet aucun extremum local ou global. 
