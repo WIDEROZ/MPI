@@ -14,6 +14,9 @@ Une fonction de coût : $c: S \to \mathbb{R}_{+}^{*}$,
 Entrée : $e \in E$
 Sortie : $s \in S$ tel que $e\mathcal{R} s$ et $c(s) = \min\{ s' | \forall s' \in S, e\mathcal{R}s' \}$
 
+#### Ratio d'approximation
+
+
 #### Problème de seuil
 Soit $\mathcal{R}$ un problème de recherche, 
 Une fonction de coût : $c: S \to \mathbb{R}_{+}^{*}$, 
