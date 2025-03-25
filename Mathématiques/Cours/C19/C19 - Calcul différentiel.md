@@ -923,7 +923,21 @@ $$\begin{array}{c}
 f(a+h) = f(a) + df(a)(h) + \frac{1}{2}h H_{f}(a)h^{\top} + o(\left|\left| h \right|\right| ^{2})
 \end{array}$$
 
+#### Remarque
+$$df(a)(h) + \frac{1}{2}h H_{f}(a)h^{\top} = \frac{1}{2} \left< (th)^{\top}, H_{f}(a)th \right> $$
+
 #### Théorème d'optimisation à l'ordre $2$
 Si $f$ admet un minimum local en $a \in \Omega$,
 alors, $df(a) = 0_{\mathcal{L}(\mathbb{R}^{n}, \mathbb{R})}$ et $H_{f}(a) \in S_{n}^{+}$
-__
+___
+Si $df(a) = 0_{\mathcal{L}(\mathbb{R}^{n}, \mathbb{R})}$ et $H_{f}(a) \in S_{n}^{++}$, 
+alors, $f$ admet un minimum local en $a$.
+
+Démonstration : 
+Soit $h \in \mathbb{R}^{n}$, et $g:t \in \mathbb{R} \mapsto f(a+th)$ d'après Taylor-Young, 
+$$f(a+h)-f(a) = \frac{1}{2}\left< (th)^{\top}, H_{f}(a) th\right> + o(\left|\left| th \right|\right| ^{2}) \geq 0$$
+On pose : $o(\left|\left| th \right|\right|^{2}) = \left|\left| th \right|\right|^{2} \times \varepsilon(\left|\left| th \right|\right|^{2})$
+Si $t$ est non nul on peut diviser par $t^{2}$, 
+$$\frac{1}{2}\left< h^{\top}, H_{f}(a) h\right> + o(\left|\left| h \right|\right| ^{2}) \varepsilon(\left| th\right|^{2}) \geq 0$$
+en faisant tendre $t$ vers $0$, 
+$$\forall h \in \mathbb{R}^{n},\left< h^{\top}, H_{f}(a)h \right>  \in \mathbb{R}_{+}$$
