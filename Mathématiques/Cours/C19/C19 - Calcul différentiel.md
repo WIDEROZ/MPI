@@ -886,3 +886,20 @@ on en tire que :
 $$M_{0}^{-1} = \frac{\mathrm{Com}(M_{0})^{\top}}{\det(M_{0})}$$
 et de :
 $$\mathrm{Com}(M_{0}) = 2\alpha M_{0}$$
+on en déduit que : 
+$$\det(M_{0})(M_{0}^{-1})^{\top} = 2\alpha M_{0}$$
+Donc en multipliant par $M_{0}^{\top}$,
+$$2\alpha M_{0}M_{0}^{\top} = \det(M_{0}) I_{n}$$
+Puis comme $\left|\left| M_{0} \right|\right|^{2} = \mathrm{Tr}(M_{0}^{\top}M_{0}) = n$, 
+$$2\alpha n = \det(M_{0})n$$
+$$M_{0}M_{0}^{\top} = I_{n} \Leftrightarrow M_{0} \in O(n) \Leftrightarrow \det(M_{0}) = \begin{cases}
+1 \\
+-1
+\end{cases}$$
+
+$$\forall M \in E, \left|\left| M \right|\right| ^{2} = n \Rightarrow -1 \leq \det M \leq 1 \text{ et } \begin{cases}
+\det(M) = 1 \Leftrightarrow M \in SO(n) \\
+\det(M) = -1 \Leftrightarrow M \in O(n)
+\end{cases}$$
+
+## 2. Optimisation à l'ordre $2$
