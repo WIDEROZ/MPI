@@ -73,16 +73,12 @@ $$RC\frac{du_{c}}{dt} +  u_{c} = V_{a} \Leftrightarrow u_{c}(t) = u_{2}(t) = -V_
 car $u_{c}(0)=0$
 
 ##### b.
-Lorsque $u(t_{b}) = V_{b}$ alors $u_{c}$ n'est plus valable alors, comme : $u_{2} = -Ri = -RC \frac{d u_{c}}{dt}$
-$$RC\frac{du_{c}}{dt} +  u_{c} = -V_{a} \Leftrightarrow u_{c_{b}}(t) = Ae^{ -(t+t_{b})/RC }-V_{b}$$
-or $u_{c}(t_{b}) = u_{c}(t_{b})$ de la question a. par continuité de la tension aux bornes d'un condensateur alors, 
-$$Ae^{ -t_{b}/RC }-V_{b} = -V_{a}e^{ -t_{b}/RC }+V_{a}\Leftrightarrow e^{ -t_{b}/RC } = \frac{V_{a}+V_{b}}{V_{a}+A}$$
-$$\Leftrightarrow \boxed{t_{b} = -\tau\ln\left( \frac{V_{b}+V_{a}}{V_{a}+A} \right)}$$
-___
 $u=V_{a}$, $u_{1}=V_{b}$, 
 $$u_{2}-V_{a} = u_{c}$$
-$$V_{a}-u_{2} = $$
+$$u_{2}(t_{b}) = V_{a} \text{ car }R_{p} \text{ ne joue aucun role}$$
 $$V_{b}-u_{2} = Ri = RC \frac{du_{c}}{dt} \Rightarrow RC\frac{du_{2}}{dt}+u_{2} = V_{b}$$
-$$u_{2} = Ae^{ -t/\tau }+V_{b} =$$
-
-
+$$u_{2} = Ae^{ -t/\tau }+V_{b} = (V_{a}-V_{b})e^{ t_{b}/\tau } = A$$
+$$\boxed{u_{2} = (V_{a}-V_{b})e^{ \frac{t_{b}-t}{\tau} }+V_{b}}$$
+Or, $u_{2}(t_{b}^{+}) - u = u_{c}(t_{b}^{+})= u_{c}(t_{b}^{-})$ alors par continuité de $u_{c}$ 
+$$0= -V_{a}e^{ -t_{b}/\tau } + V_{a}$$
+Alors, 
