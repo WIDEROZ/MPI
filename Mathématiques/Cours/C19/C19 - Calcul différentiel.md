@@ -941,3 +941,20 @@ Si $t$ est non nul on peut diviser par $t^{2}$,
 $$\frac{1}{2}\left< h^{\top}, H_{f}(a) h\right> + o(\left|\left| h \right|\right| ^{2}) \varepsilon(\left| th\right|^{2}) \geq 0$$
 en faisant tendre $t$ vers $0$, 
 $$\forall h \in \mathbb{R}^{n},\left< h^{\top}, H_{f}(a)h \right>  \in \mathbb{R}_{+}$$
+
+#### Exercice
+$$f: \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R} \\
+(x, y) \mapsto xe^{ y }+ye^{ x }
+\end{cases}$$
+Déterminer les extremums locaux et globaux
+$f \in \mathcal{C}^{2}(\mathbb{R}^{2}\to \mathbb{R})$ donc ses extremums sont des points critiques
+$$\frac{\partial f}{\partial x} (x, y) = e^{ y } + ye^{ x } \text{ et } \frac{\partial f}{\partial y} (x, y) = xe^{ y } + e^{ x }$$
+Ainsi, 
+$$df(x, y)=0 \Leftrightarrow \begin{cases}
+e^{ y-x } = -y \\
+xe^{ y-x } = -1
+\end{cases} \Rightarrow \begin{cases}
+xy = 1 \\
+e^{ y-x } = -\frac{1}{x}
+\end{cases}$$
