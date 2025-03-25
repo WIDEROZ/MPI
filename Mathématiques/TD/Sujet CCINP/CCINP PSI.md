@@ -13,12 +13,16 @@ par la relation de Chasles
 
 #### Question 23
 $$\rho_{k} = \ln(k) -  \int _{0}^{\frac{1}{2}} \ln(k+t)  \, dt  - \int_{0}^{\frac{1}{2}} \ln(k-t) \, dt $$
-$$ = \ln(k) -\left( k-\frac{1}{2} \right)\ln\left( k-\frac{1}{2} \right) - \left( k-\frac{1}{2} \right) - k\ln(k)+k$$
-$$- \left( k+\frac{1}{2} \right)\ln\left( k+\frac{1}{2} \right) - \left( k+\frac{1}{2} \right) - k\ln(k)+k $$
+$$ = \ln(k) -\left( k-\frac{1}{2} \right)\ln\left( k-\frac{1}{2} \right) + \left( k-\frac{1}{2} \right) + k\ln(k)-k$$
+$$- \left( k+\frac{1}{2} \right)\ln\left( k+\frac{1}{2} \right) + \left( k+\frac{1}{2} \right) + k\ln(k)-k $$
 $$= \ln(k) $$
-$$  -\left( \left( k-\frac{1}{2} \right)\ln\left( k-\frac{1}{2} \right) + \left( k+\frac{1}{2} \right)\ln\left( k+\frac{1}{2} \right)- 2k\ln(k) \right)$$
+$$-\left( \left( k-\frac{1}{2} \right)\ln\left( k-\frac{1}{2} \right) - \left( k+\frac{1}{2} \right)\ln\left( k+\frac{1}{2} \right)- 2k\ln(k) \right)$$
 
 Or
 $$\rho_{k} = \ln(k) -  \left( \left( k+\frac{1}{2} \right)\ln\left( k+\frac{1}{2} \right) - \left( k+\frac{1}{2} \right)\right.$$
 $$\left.-\left(\left( k-\frac{1}{2} \right)\ln\left( k-\frac{1}{2} \right) - \left( k-\frac{1}{2} \right)\right) \right)$$
 $$=  \left( k-\frac{1}{2} \right)\ln\left( k-\frac{1}{2} \right) + \left( k+\frac{1}{2} \right)\ln\left( k+\frac{1}{2} \right)- 2k\ln(k) $$
+
+
+#### Question 24
+$$-\int_{0}^{\frac{1}{2}} \ln\left( 1-\frac{t^{2}}{k^{2}} \right) \, dt =_{k \to \infty} \int_{0}^{\frac{1}{2}} \left( 1+\frac{t^{2}}{k^{2}} + o\left( \frac{1}{k^{2}} \right) \right) \, dt = \frac{1}{2} $$
