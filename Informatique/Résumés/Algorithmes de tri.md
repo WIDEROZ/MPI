@@ -38,3 +38,8 @@ let rec tri_fusion l =
 ![[Pasted image 20250325112059.png]]
 
 #### Tri par tas
+![[Heap_sort_Animation.gif]]
+- Construire un tas à partir de la liste en ajoutant des nœuds.
+- Supprimer le maximum et le placer en bout de la liste que l'on veut trier
+
+![[Tri par tas.ml]]
