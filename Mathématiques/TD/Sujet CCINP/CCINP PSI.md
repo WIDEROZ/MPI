@@ -25,4 +25,9 @@ $$=  \left( k-\frac{1}{2} \right)\ln\left( k-\frac{1}{2} \right) + \left( k+\fra
 
 
 #### Question 24
-$$-\int_{0}^{\frac{1}{2}} \ln\left( 1-\frac{t^{2}}{k^{2}} \right) \, dt =_{k \to \infty} \int_{0}^{\frac{1}{2}} \left( 1+\frac{t^{2}}{k^{2}} + o\left( \frac{1}{k^{2}} \right) \right) \, dt = \frac{1}{2} $$
+$$-\int_{0}^{\frac{1}{2}} \ln\left( 1-\frac{t^{2}}{k^{2}} \right) \, dt =_{k \to \infty} \int_{0}^{\frac{1}{2}} \left( 1+\frac{t^{2}}{k^{2}} + o\left( \frac{1}{k^{2}} \right) \right) \, dt =  \frac{1}{24} \frac{1}{k^{2}} + o\left( \frac{1}{k^{2}} \right) $$
+or : 
+$$\sum \frac{1}{k^{2}} \text{ CV car }2 > 1 \text{ par riemann donc } \sum \rho_{k} \text{ CV}$$
+
+
+#### Question 25
