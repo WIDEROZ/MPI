@@ -12,4 +12,8 @@ $$\forall n \in \mathbb{N}, \sum_{k = 1}^{n-1} \ln(k) = \ln(\Gamma(n)) = \sum_{k
 par la relation de Chasles 
 
 #### Question 23
-$$\rho_{k} = \int _{1}^{k} \frac{1}{t} \, dt $$
+$$\rho_{k} = \ln(k) -  \int _{0}^{\frac{1}{2}} \ln(k+t)  \, dt  - \int_{0}^{\frac{1}{2}} \ln(k-t) \, dt = \ln(k) - $$
+
+$$ \left( k-\frac{1}{2} \right)\ln\left( k-\frac{1}{2} \right) - \left( k-\frac{1}{2} \right) - k\ln(k)+k$$
+$$+ \left( k+\frac{1}{2} \right)\ln\left( k+\frac{1}{2} \right) - \left( k+\frac{1}{2} \right) - k\ln(k)+k $$
+$$$$
