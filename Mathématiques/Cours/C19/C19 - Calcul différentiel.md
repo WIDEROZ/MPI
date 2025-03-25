@@ -864,5 +864,25 @@ M \mapsto \left|\left| M \right|\right| ^{2} - n
 \end{cases}$$
 De plus, $X$ est une équipotentielle de classe $\mathcal{C}^{1}$, et dont le gradient
 $$\nabla V(M) = 2 M \text{ ne s'annule pas sur }X$$
+On pose : 
+$$f = \det$$
 D'après le théorème des extremums liés, puisque $f$ est $\mathcal{C}^{1}$, si $M_{0} \in X$ vérifie : 
 $$\forall M \in X, f(M) \leq f(M_{0}) \text{ ou } \forall M \in X, f(M) \geq f(M_{0})$$
+Alors, 
+$$\exists \alpha \in \mathbb{R}, \nabla f(M_{0}) = \alpha \nabla V(M_{0})$$
+Or on a vu que $\nabla f(M_{0}) = \mathrm{Com}(M_{0})$ ie $\mathrm{Com}(M_{0}) = 2\alpha M_{0}$
+Or, on se souviens que : 
+$$\mathrm{Com}(M_{0})^{\top} M_{0} = \det(M_{0})I_{n}$$
+De plus, 
+$$\det(M_{0}) = f(M_{0}) \neq 0$$
+Car si $f$ admet un maximum en $M_{0}$, 
+$$f(M_{0}) \geq f(I_{n}) = \det I_{n} = 1$$
+Donc, $\det(M_{0}) \geq 1 \Rightarrow \det(M_{0}) \neq 0$
+Et si $f$ admet un min en $M_{0}$,
+$$\det(M_{0}) \leq \det \begin{pmatrix}-1&&&0\\ &1 \\ &&\ddots \\ 0&&&1\end{pmatrix} = -1 \Rightarrow \det (M_{0}) \neq 0$$
+De 
+$$\mathrm{Com}(M_{0})^{\top} M_{0} = \det(M_{0})I_{n}$$
+on en tire que : 
+$$M_{0}^{-1} = \frac{\mathrm{Com}(M_{0})^{\top}}{\det(M_{0})}$$
+et de :
+$$\mathrm{Com}(M_{0}) = 2\alpha M_{0}$$
