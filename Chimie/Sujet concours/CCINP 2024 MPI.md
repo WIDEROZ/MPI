@@ -75,9 +75,9 @@ car $u_{c}(0)=0$
 ##### b.
 $u=V_{a}$, $u_{1}=V_{b}$, 
 $$u_{2}-V_{a} = u_{c}$$
-$$u_{2}(t_{b}) = V_{a} \text{ car }R_{p} \text{ ne joue aucun role}$$
+$$u_{2}(t_{b}) = V_{b} \text{ car }R_{p} \text{ ne joue aucun role}$$
 $$V_{b}-u_{2} = Ri = RC \frac{du_{c}}{dt} \Rightarrow RC\frac{du_{2}}{dt}+u_{2} = V_{b}$$
-$$u_{2} = Ae^{ -t/\tau }+V_{b} = (V_{a}-V_{b})e^{ t_{b}/\tau } = A$$
+$$u_{2} = Ae^{ -t/\tau }+V_{b} ssi e^{ -t_{b}/\tau } = A$$
 $$\boxed{u_{2} = (V_{a}-V_{b})e^{ \frac{t_{b}-t}{\tau} }+V_{b}}$$
 Or, $u_{2}(t_{b}^{+}) - u = u_{c}(t_{b}^{+})= u_{c}(t_{b}^{-})$ alors par continuité de $u_{c}$ 
 $$0= -V_{a}e^{ -t_{b}/\tau } + V_{a}$$
