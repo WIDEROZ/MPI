@@ -33,7 +33,7 @@ $$\sum \frac{1}{k^{2}} \text{ CV car }2 > 1 \text{ par riemann donc } \sum \rho_
 #### Question 25
 $$\ln(\Gamma) = \left( n-\frac{1}{2} \right)\ln\left( n-\frac{1}{2} \right)- \left( n-\frac{1}{2} \right) + \frac{1}{2}\ln(2) + \frac{1}{2} + \sum_{k = 1}^{n-1} \rho_{k}$$
 $$=_{+ \infty} \left( n-\frac{1}{2} \right)\left( \ln(n)+\ln\left( 1-\frac{1}{2n} \right) \right)-n + \frac{1}{2}(2+\ln(2)) + \sum_{k \in \mathbb{N}^{*}} \rho_{k} + o(1)$$
-
+car $\left( n-\frac{1}{2} \right)\ln\left( 1-\frac{1}{2n} \right) =-\frac{1}{2}+ o(1)+ \frac{1}{4n} + o\left( \frac{1}{n} \right)$ 
 $$= \left( n-\frac{1}{2} \right)\left( \ln(n) - \frac{1}{2n} + o\left( \frac{1}{n} \right) \right)-n+c + o(1)$$
 $$= \left( n-\frac{1}{2} \right)\ln(n)  -n + c + o(1)$$
 
