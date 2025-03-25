@@ -903,12 +903,27 @@ $$\forall M \in E, \left|\left| M \right|\right| ^{2} = n \Rightarrow -1 \leq \d
 \end{cases}$$
 
 ## 2. Optimisation à l'ordre $2$
-#### Définition
 Soit $f$ de classe $\mathcal{C}^{2}$, définie sur un ouvert $\Omega$ de $\mathbb{R}^{n}$ et à valeurs réelles, 
 $$f:x = (x_{1}, \dots, x_{n}) \in \Omega \mapsto f(x) \in \mathbb{R}$$
+#### Définition
 On appelle hessienne de $f$ en $a \in \Omega$ : 
 $$H_{f}(a) = \left( \frac{\partial^{2}f}{\partial x_{i}x_{j}}  \right)_{1 \leq i, j \leq n} \in \mathcal{M}_{n}(\mathbb{R})$$
+
 #### Rappel : Théorème Spectral
 $$\forall S \in S_{n}(\mathbb{R}), \exists D  \in D_{n}(\mathbb{R}), P \in O(n), S = P^{\top}DP$$
 et
-$$$$
+$$\begin{cases}
+f \in S_{n}^{+}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+} \\
+f \in S_{n}^{++}(E) \Leftrightarrow Sp(f) \subset \mathbb{R}_{+}^{*}
+\end{cases}$$
+
+#### Théorème : $DL_{2}$
+$$\begin{array}{c}
+\forall a \in \Omega, \forall h \in \mathbb{R}^{n} \equiv \mathcal{M}_{1, n}(\mathbb{R}), \\
+f(a+h) = f(a) + df(a)(h) + \frac{1}{2}h H_{f}(a)h^{\top} + o(\left|\left| h \right|\right| ^{2})
+\end{array}$$
+
+#### Théorème d'optimisation à l'ordre $2$
+Si $f$ admet un minimum local en $a \in \Omega$,
+alors, $df(a) = 0_{\mathcal{L}(\mathbb{R}^{n}, \mathbb{R})}$ et $H_{f}(a) \in S_{n}^{+}$
+__
