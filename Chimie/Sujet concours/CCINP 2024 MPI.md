@@ -74,7 +74,10 @@ car $u_{c}(0)=0$
 
 ##### b.
 Lorsque $u(t_{b}) = V_{b}$ alors $u_{c}$ n'est plus valable alors, comme : $u_{2} = -Ri = -RC \frac{d u_{c}}{dt}$
-$$RC\frac{du_{c}}{dt} +  u_{c} = -V_{b} \Leftrightarrow u_{c_{b}}(t) = Ae^{ -(t+t_{b})/RC }-V_{b}$$
+$$RC\frac{du_{c}}{dt} +  u_{c} = -V_{a} \Leftrightarrow u_{c_{b}}(t) = Ae^{ -(t+t_{b})/RC }-V_{b}$$
 or $u_{c}(t_{b}) = u_{c}(t_{b})$ de la question a. par continuité de la tension aux bornes d'un condensateur alors, 
 $$Ae^{ -t_{b}/RC }-V_{b} = -V_{a}e^{ -t_{b}/RC }+V_{a}\Leftrightarrow e^{ -t_{b}/RC } = \frac{V_{a}+V_{b}}{V_{a}+A}$$
 $$\Leftrightarrow \boxed{t_{b} = -\tau\ln\left( \frac{V_{b}+V_{a}}{V_{a}+A} \right)}$$
+___
+$u=V_{a}$, $u_{1}=0$, 
+$$V_{a}-u_{2} = R_{p}i_{r}=$$
