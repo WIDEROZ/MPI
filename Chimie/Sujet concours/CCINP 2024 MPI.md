@@ -68,7 +68,13 @@ $$\Leftrightarrow RC \frac{d u_{c}}{dt} + u_{c} = u_{1}-u \text{ avec } \tau = R
 #### Question 30
 ##### a.
 $u_{1} = V_{a} \Rightarrow u = 0$ alors, 
-$$RC\frac{du_{c}}{dt} +  u_{c} = V_{a} \Leftrightarrow u_{c}(t) = u_{2}(t) = Ae^{ -t/RC }+V_{a}$$
+$$RC\frac{du_{c}}{dt} +  u_{c} = V_{a} \Leftrightarrow u_{c}(t) = u_{2}(t) = -V_{a}e^{ -t/RC }+V_{a}$$
+car $u_{c}(0)=0$
 
 ##### b.
-$$u = V_{b} \Rightarrow u_{2} - u =  u_{c} = u_{2}-V_{b} \Rightarrow $$
+Lorsque $u(t_{b}) = V_{b}$ alors $u_{c}$ n'est plus valable alors, 
+$$RC\frac{du_{c}}{dt} +  u_{c} = -V_{b} \Leftrightarrow u_{c}(t) = e^{ -(t+t_{b})/RC }-V_{b}$$
+or $u_{c}(t_{b}) = u_{c}(t_{b})$ de la question a. par continuité de la tension aux bornes d'un condensateur alors, 
+$$Ae^{ -2t_{b}/RC }-V_{b} = Ae^{ -t_{b}/RC }+V_{a}$$
+alors, 
+$$$$
