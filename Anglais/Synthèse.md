@@ -1,0 +1,1 @@
+Mettre en italique les titre des journaux
