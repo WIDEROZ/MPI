@@ -43,7 +43,13 @@ Alors,
 C'est terminé
 
 #### Question 27
-$$\Gamma_{n}(x) = n^{x} \int_{} \, dx $$
-$$n^{x}\sum_{k = 0}^{n} (-1)^{k} \frac{n!}{k!(n-k)!}\int_{0}^{1} u^{x+k-1}\, du = n^{x} n!\sum_{k = 0}^{n} \frac{(-1)^{k}}{(n-k)!k!(x+k)} $$
+###### Initialisation
+Pour $n = 1$, 
+$$\Gamma_{1}(x) = \int_{0}^{1} u^{x-1}(1-u) \, du  = \frac{1}{x} - \frac{1}{x+1} = \frac{1}{x(x+1)} $$
 
-#### Question 28
+##### Hérédité
+Soit $x \in \mathbb{R}_{+}^{*}$, 
+Soit $n \in \mathbb{N}^{*}$ tel que $\Gamma_{n}(x) = \dots$, 
+$$\Gamma_{n+1}(x) = (n+1)^{x} \int_{0}^{1} u^{x-1}(1-u)^{n+1} \, du $$
+$$= (n+1)^{x}\frac{1}{x-1}[u^{x-1}(1-u)^{n+1}]_{0}^{1} - (n+1)\int_{0}^{1} u^{x-1}(1-u)^{n+1} \, du $$
+PAR IPP
