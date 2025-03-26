@@ -51,5 +51,7 @@ $$\Gamma_{1}(x) = \int_{0}^{1} u^{x-1}(1-u) \, du  = \frac{1}{x} - \frac{1}{x+1}
 Soit $x \in \mathbb{R}_{+}^{*}$, 
 Soit $n \in \mathbb{N}^{*}$ tel que $\Gamma_{n}(x) = \dots$, 
 $$\Gamma_{n+1}(x) = (n+1)^{x} \int_{0}^{1} u^{x-1}(1-u)^{n+1} \, du $$
-$$= (n+1)^{x}\frac{1}{x-1}[u^{x-1}(1-u)^{n+1}]_{0}^{1} - (n+1)\int_{0}^{1} u^{x-1}(1-u)^{n+1} \, du $$
+$$= (n+1)^{x}\frac{1}{x}[u^{x}(1-u)^{n+1}]_{0}^{1} + (n+1)^{x+1} \frac{1}{x}  \int_{0}^{1} u^{x}(1-u)^{n} \, du $$
 PAR IPP
+$$\Gamma_{n+1}(x) = \frac{(n+1)^{x+1}}{n^{x}} \Gamma_{n}(x)$$
+$$$$
