@@ -58,11 +58,24 @@ $$\Gamma_{n+1}(x) = \frac{(n+1)^{x+1}(n+1)!}{ x(x+1)\dots(x+n+1)}$$
 
 #### Question 28
 L'intégrale est bien définie
-elle converge bien pour $x \in \mathbb{R}_{+}^{*}$
+elle converge bien pour $x \in \mathbb{R}_{+}^{*}$ lorsque $n\to + \infty$
 
 $$\left| \mathbb{1}_{]0, n[}(t) t^{x-1}\left( 1-\frac{t}{n} \right)^{n}\right| \leq t^{x-1}\left( 1-\frac{t}{n} \right)^{n}$$
 Or,
 $$n \mapsto \left( 1-\frac{t}{n} \right)^{n} = e^{ n\ln(1-t/n) } \text{ est croissante car }   $$
 $$n \mapsto \left( \ln\left( 1-\frac{t}{n} \right)+\frac{t}{n-t} \right)\left( 1-\frac{t}{n} \right)^{n}$$
 Or, 
-$$\forall n \in \mathbb{R}, \ln\left( 1-\frac{t}{n} \right) + \frac{t}{n-t} \geq \frac{t}{n} +$$
+$$\forall n \in \mathbb{R}, \ln\left( 1-\frac{t}{n} \right) + \frac{t}{n-t} \geq \frac{t}{n} + \frac{t}{n-t}\geq 0$$
+$$\frac{n\ln\left( 1-\frac{t}{n} \right)+t\left( 1-\ln\left( 1-\frac{t}{n} \right) \right)}{n-t} \geq \frac{t\left( 1+\frac{t}{n} \right)+n\ln\left( 1-\frac{t}{n} \right)}{n-t}$$
+$$\geq \frac{t\left( 1+\frac{t}{n} \right) -t}{n-t} = \frac{t^{2}}{n^{2}-nt}\geq 0$$
+Ainsi, 
+$$n \mapsto \left( \ln\left( 1-\frac{t}{n} \right)+\frac{t}{n-t} \right)\left( 1-\frac{t}{n} \right)^{n}\geq 0$$
+Ainsi, 
+$$\left| \mathbb{1}_{]0, n[}(t) t^{x-1}\left( 1-\frac{t}{n} \right)^{n}\right| \leq t^{x-1}e^{ -t } \leftarrow \text{ intégrable sur }\mathbb{R}_{+}$$
+
+
+
+#### Question 29
+$$\frac{\Gamma(x+n)}{\Gamma(n)n^{x}} = \lim_{ n \to \infty } \frac{}{} $$
+
+$$\frac{n^{x+m}n!}{(x+m)(x+m+1)\dots(x+n)} \sim_{n \to + \infty} \frac{m^{x}n^{x}n!}{} $$
