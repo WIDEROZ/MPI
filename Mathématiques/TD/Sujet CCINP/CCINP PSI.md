@@ -53,5 +53,8 @@ Soit $n \in \mathbb{N}^{*}$ tel que $\Gamma_{n}(x) = \dots$,
 $$\Gamma_{n+1}(x) = (n+1)^{x} \int_{0}^{1} u^{x-1}(1-u)^{n+1} \, du $$
 $$= (n+1)^{x}\frac{1}{x}[u^{x}(1-u)^{n+1}]_{0}^{1} + (n+1)^{x+1} \frac{1}{x}  \int_{0}^{1} u^{x}(1-u)^{n} \, du $$
 PAR IPP
-$$\Gamma_{n+1}(x) = \frac{(n+1)^{x+1}}{n^{x}} \Gamma_{n}(x)$$
-$$$$
+$$\Gamma_{n+1}(x) = \frac{(n+1)^{x+1}}{xn^{x}} \int_{0}^{1}u^{x}(1-x)^{n} \, du =  \frac{(n+1)^{x+1}}{xn^{x+1}} \Gamma_{n}(x+1)$$
+$$\Gamma_{n+1}(x) = \frac{(n+1)^{x+1}(n+1)!}{ x(x+1)\dots(x+n+1)}$$
+
+#### Question 28
+Bien continue par morceaux su
