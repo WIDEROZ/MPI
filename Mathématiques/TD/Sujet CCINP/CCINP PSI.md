@@ -44,3 +44,6 @@ C'est terminé
 
 #### Question 27
 $$\Gamma_{n}(x) = n^{x} \int_{} \, dx $$
+$$n^{x}\sum_{k = 0}^{n} (-1)^{k} \frac{n!}{k!(n-k)!}\int_{0}^{1} u^{x+k-1}\, du = n^{x} n!\sum_{k = 0}^{n} \frac{(-1)^{k}}{(n-k)!k!(x+k)} $$
+
+#### Question 28
