@@ -76,6 +76,5 @@ $$\left| \mathbb{1}_{]0, n[}(t) t^{x-1}\left( 1-\frac{t}{n} \right)^{n}\right| \
 
 
 #### Question 29
-$$\frac{\Gamma(x+n)}{\Gamma(n)n^{x}} = \lim_{ n \to \infty } \frac{}{} $$
-
-$$\frac{n^{x+m}n!}{(x+m)(x+m+1)\dots(x+n)} \sim_{n \to + \infty} \frac{m^{x}n^{x}n!}{} $$
+Pour $x<0$,
+$$$$
