@@ -57,4 +57,12 @@ $$\Gamma_{n+1}(x) = \frac{(n+1)^{x+1}}{xn^{x}} \int_{0}^{1}u^{x}(1-x)^{n} \, du 
 $$\Gamma_{n+1}(x) = \frac{(n+1)^{x+1}(n+1)!}{ x(x+1)\dots(x+n+1)}$$
 
 #### Question 28
-Bien continue par morceaux su
+L'intégrale est bien définie
+elle converge bien pour $x \in \mathbb{R}_{+}^{*}$
+
+$$\left| \mathbb{1}_{]0, n[}(t) t^{x-1}\left( 1-\frac{t}{n} \right)^{n}\right| \leq t^{x-1}\left( 1-\frac{t}{n} \right)^{n}$$
+Or,
+$$n \mapsto \left( 1-\frac{t}{n} \right)^{n} = e^{ n\ln(1-t/n) } \text{ est croissante car }   $$
+$$n \mapsto \left( \ln\left( 1-\frac{t}{n} \right)+\frac{t}{n-t} \right)\left( 1-\frac{t}{n} \right)^{n}$$
+Or, 
+$$\forall n \in \mathbb{R}, \ln\left( 1-\frac{t}{n} \right) + \frac{t}{n-t} \geq \frac{t}{n} +$$
