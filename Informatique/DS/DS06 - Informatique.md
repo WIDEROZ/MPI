@@ -49,3 +49,5 @@ Si on prend $(u, v, 1)$ :
 ![[Pasted image 20250328141841.png]]
 
 #### c.
+![[Pasted image 20250328144725.png]]
+De même pour $f$ et $g$
