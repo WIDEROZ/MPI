@@ -10,6 +10,8 @@ fonction hamiltonienNO_verif (Graphe G, sommet s, sommet v, liste sommet_visite)
 			sommet_visite.ajouter(v)
 			bool = False
 			Pour tout voisin v2 de v : 
+				si sommet_visite == [v] alors : 
+					
 				HamiltonienNOv2 = 
 				hamiltonienNO_verif(G, s, v2, 
 				sommet_visite)
@@ -18,6 +20,20 @@ fonction hamiltonienNO_verif (Graphe G, sommet s, sommet v, liste sommet_visite)
 		sinon
 			renvoyer Faux
 ```
-Cet algorithme est bien en temps polynomial et 
+
+
+```
+Entrée : Graphe G
+Pour tout sommet s de G : 
+	Si il existe un voisin de s :
+		v = voisin(s)
+			Si hamiltonienNO_verif (G, s, v, []) 
+			alors : 
+				renvoyer Vrai
+
+renvoyer Faux
+
+```
+Cet algorithme est bien en temps polynomial. 
 
 #### Question 12.
