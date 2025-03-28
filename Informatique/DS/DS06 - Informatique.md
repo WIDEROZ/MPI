@@ -97,18 +97,26 @@ let ajouter_arete g i j =
 ### Question 27
 ```OCaml
 let liste_blanc couleurs =
-	let aux i =
+	let rec aux i =
 		if (i != 0) then
 			match couleurs.(i) with
 			| Blanc -> i::(aux (i-1))
 			| _ -> aux (i-1)
 		else
-			if couleurs.(i) == Blanc then
+			if couleurs.(0) == Blanc then
 				[0]
 			else
 				[]
-	in aux (Array.length couleurs)
+	in aux ((Array.length couleurs)-1)
 ;;
 ```
 
 ### Question 28
+```Ocaml
+let coup_possible jeu s =
+	let blanc = liste_blanc (jeu.couleurs) in
+		for i = 0 to Array.length (jeu.g) do
+			
+
+;;
+```
