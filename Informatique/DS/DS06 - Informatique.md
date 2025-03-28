@@ -49,5 +49,12 @@ Si on prend $(u, v, 1)$ :
 ![[Pasted image 20250328141841.png]]
 
 #### c.
-![[Pasted image 20250328144725.png]]
-De même pour $f$ et $g$
+Pour le sommet $e$ : 
+(les cercles en pointillés représentent le graphe dessiné ci-dessus)
+![[Pasted image 20250328145745.png]]
+De façon analogue pour $g$ et $h$. 
+
+Pour le sommet $f$ : relier les $c_{j}$ avec $(f, e, 1)$ et $(f, e, 6)$
+
+
+#### d.
