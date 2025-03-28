@@ -57,8 +57,12 @@ De façon analogue pour $g$ et $h$.
 Pour le sommet $f$ : relier les $c_{j}$ avec $(f, e, 1)$ et $(f, e, 6)$
 
 
-#### d.
-Soient $s \in S$ un sommet appartenant à la couverture de $G$, 
-Alors, si on pose : $V= \{ v_{1}, \dots, v_{k'} \}\subset S$ les voisins de $s_{1}$ appartenant à la couverture de $G$ (avec $k' \in [\![1, k]\!]$)
-Alors, 
-$$\forall j \in [\![1, k]\!], \{ c_{j}, (v_{1}) \}$$
+## 2.2. Problème du voyageur de commerce
+### Question 15
+Le PVC est un problème d'optimisation alors, 
+
+Problème : 
+Existe t'il un seuil $k \in \mathbb{N}$ tel que le coût nécessaire pour visiter toutes les villes dans un cycle en revenant au point de départ soit inférieur à $k$
+
+#### Question 16
+Il est NP complet car on peur 
