@@ -50,7 +50,7 @@ Si on prend $(u, v, 1)$ :
 
 #### c.
 Pour le sommet $e$ : 
-(les cercles en pointillés représentent le graphe dessiné ci-dessus)
+(les cercles en pointillés représentent le graphe dessiné ci-dessus sauf pour ceux reliés à $c_{j}$)
 ![[Pasted image 20250328145745.png]]
 De façon analogue pour $g$ et $h$. 
 
@@ -58,3 +58,7 @@ Pour le sommet $f$ : relier les $c_{j}$ avec $(f, e, 1)$ et $(f, e, 6)$
 
 
 #### d.
+Soient $s \in S$ un sommet appartenant à la couverture de $G$, 
+Alors, si on pose : $V= \{ v_{1}, \dots, v_{k'} \}\subset S$ les voisins de $s_{1}$ appartenant à la couverture de $G$ (avec $k' \in [\![1, k]\!]$)
+Alors, 
+$$\forall j \in [\![1, k]\!], \{ c_{j}, (v_{1}) \}$$
