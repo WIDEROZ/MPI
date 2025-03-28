@@ -86,3 +86,29 @@ Pour $5$ joué par bleu : Rouge joue $7$
 ```OCaml
 let creer_graphe n = Arary.make n (Array.make n false);;
 ```
+
+### Question 26
+```OCaml
+let ajouter_arete g i j = 
+	(g.(i).(j) <- true; g.(j).(i) <- true)
+;;
+```
+
+### Question 27
+```OCaml
+let liste_blanc couleurs =
+	let aux i =
+		if (i != 0) then
+			match couleurs.(i) with
+			| Blanc -> i::(aux (i-1))
+			| _ -> aux (i-1)
+		else
+			if couleurs.(i) == Blanc then
+				[0]
+			else
+				[]
+	in aux (Array.length couleurs)
+;;
+```
+
+### Question 28
