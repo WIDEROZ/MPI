@@ -70,10 +70,19 @@ Faux sinon.
 
 # Exercice 2
 ### Question 21
-Par récurrence sur $n$ : 
-Initial : 
-
-Hérédité : 
+La partie se termine forcément en un nombre fini de tour qui est inférieur ou égal à $\boxed{n}$ (égal dans le cas ou la partie est nulle)
 
 ### Question 22
-Oui si le dernier sommet à remplir est relié par la couleur opposé au joueur qui doit jouer. 
+Oui si le dernier sommet à remplir est relié par ses voisins et qu'ils sont de la couleur opposé au joueur qui doit jouer. 
+
+#### Question 23
+$$[4, 7, 5]$$
+
+### Question 24
+Pour $4$ ou $7$ joué par bleu : Rouge joue $5$
+Pour $5$ joué par bleu : Rouge joue $7$
+
+#### Question 25
+```OCaml
+let creer_graphe n = Arary.make n (Array.make n false);;
+```
