@@ -42,6 +42,11 @@ Cet algorithme est bien en temps polynomial car le nombre de sommet est fini.
 #### a.
 ![[Pasted image 20250328140734.png]]
 
-#### b
+#### b. 
+Si on prend $(u, v, 1)$ :
 ![[Pasted image 20250328141549.png]]
 ![[Pasted image 20250328141756.png]]
+![[Pasted image 20250328141841.png]]
+
+#### c.
+![[Pasted image 20250328142557.png]]
