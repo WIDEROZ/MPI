@@ -38,6 +38,8 @@ renvoyer Faux
 ```
 Cet algorithme est bien en temps polynomial car le nombre de sommet est fini. 
 
-
 ### Question 12.
 #### a.
+![[Pasted image 20250328140734.png]]
+
+#### b.
