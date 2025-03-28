@@ -42,4 +42,6 @@ Cet algorithme est bien en temps polynomial car le nombre de sommet est fini.
 #### a.
 ![[Pasted image 20250328140734.png]]
 
-#### b.
+#### b
+![[Pasted image 20250328141549.png]]
+![[Pasted image 20250328141756.png]]
