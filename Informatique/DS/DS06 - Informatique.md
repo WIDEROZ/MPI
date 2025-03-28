@@ -62,7 +62,18 @@ Pour le sommet $f$ : relier les $c_{j}$ avec $(f, e, 1)$ et $(f, e, 6)$
 Le PVC est un problème d'optimisation alors, 
 
 Problème : 
-Existe t'il un seuil $k \in \mathbb{N}$ tel que le coût nécessaire pour visiter toutes les villes dans un cycle en revenant au point de départ soit inférieur à $k$
+Entrée : Graphe $G$, seuil $k \in \mathbb{N}$
+Sortie : 
+Vrai si le coût nécessaire pour visiter toutes les villes dans un cycle en revenant au point de départ soit inférieur à $k$
+Faux sinon. 
 
-#### Question 16
-Il est NP complet car on peur 
+
+# Exercice 2
+### Question 21
+Par récurrence sur $n$ : 
+Initial : 
+
+Hérédité : 
+
+### Question 22
+Oui si le dernier sommet à remplir est relié par la couleur opposé au joueur qui doit jouer. 
