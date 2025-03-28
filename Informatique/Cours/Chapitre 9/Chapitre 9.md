@@ -181,7 +181,7 @@ Lock(Tour, Demande, i) :
 	o <- 1-i
 	Demande(i) <- V
 	Tour <- o
-	Tant que Demande(o) & Tour = 0 Faire ()
+	Tant que Demande(o) & Tour = o Faire ()
 
 
 Unlock(Tour, Demande, i) :
