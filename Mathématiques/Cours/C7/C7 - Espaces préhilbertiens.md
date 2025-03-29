@@ -353,7 +353,7 @@ $$\forall x \in E, \forall y \in F, \left|\left| x-y \right|\right| \geq \left|\
 Démonstration de l'inégalité : 
 $$p(x)-y \in F, x-p(x) \in F^{\top}$$
 Alors par le théorème de Pythagore : 
-$$\left|\left| x-y \right|\right| ^{2} = \left|\left| (x-p(x))+(p(x)-y) \right|\right| ^{2} = \left|\left| x-p(x) \right|\right| ^{2}+\left|\left| p(x)-y \right|\right| $$
+$$\left|\left| x-y \right|\right| ^{2} = \left|\left| (x-p(x))+(p(x)-y) \right|\right| ^{2} = \left|\left| x-p(x) \right|\right| ^{2}+\left|\left| p(x)-y \right|\right|^{2} $$
 Ainsi, 
 $$\left|\left| x-y \right|\right| ^{2} \geq \left|\left| x-p(x) \right|\right|^{2}$$
 
