@@ -114,9 +114,14 @@ let liste_blanc couleurs =
 ### Question 28
 ```Ocaml
 let coup_possible jeu s =
-	let blanc = liste_blanc (jeu.couleurs) in
-		for i = 0 to Array.length (jeu.g) do
-			
-
+	if (couleur.(s) != Blanc) then raise "Break"
+	else
+		for i = 0 to Array.length (jeu.g.(s)) do
+			if jeu.g.(s).(i) then 
+				if (jeu.couleurs.(i) ==	
+				jeu.joueur) 
+				then false
+				else true
 ;;
 ```
+
