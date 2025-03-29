@@ -301,7 +301,7 @@ Démonstration :
 On note : $X = \begin{pmatrix}x_{1}\\ \vdots \\ x_{n}\end{pmatrix}$, ie 
 $$x = \sum_{k = 1}^{n} x_{k}e_{k} $$
 alors, 
-$$\forall j \in [\![1, n]\!], \left< x, e_{j} \right> = \sum_{k = 1}^{n} x_{k}\left< e_{k},e_{j} \right> = x_{i}$$
+$$\forall j \in [\![1, n]\!], \left< x, e_{j} \right> = \sum_{k = 1}^{n} x_{k}\left< e_{k},e_{j} \right> = x_{j}$$
 
 2.
 $$\left< x, y \right> = \sum_{k = 1}^{n} \sum_{j=1}^{n} x_{i}y_{i}\left< e_{i}, e_{j} \right> $$
