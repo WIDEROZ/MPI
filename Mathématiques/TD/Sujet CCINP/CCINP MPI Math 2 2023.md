@@ -15,4 +15,17 @@ Ainsi, $\mathrm{Ker}(P(u)) \subset \mathrm{Ker}(PQ(u))$,
 Alors, 
 $$\mathrm{Ker}(P(u)) + \mathrm{Ker}(Q(u)) \subset \mathrm{Ker}(PQ(u))$$
 
-Soit $x \in \mathrm{Ker}((PQ)(u))$, alors, comme $P\wedge Q$
+Soit $x \in \mathrm{Ker}((PQ)(u))$, alors, comme $P\wedge Q=1$, par le théorème de Bézout : 
+$$\exists U, V \in \mathbb{K}[X], PU + QV = 1$$
+Alors, 
+Soit $x \in \mathrm{Ker}((PQ)(u))$, 
+On pose : 
+$$x = y + z \text{ ou } \begin{cases}
+y = (QV)(u)(x) \\
+z = (PU)(u)(x)
+\end{cases} $$
+Alors, 
+$$P(y) = 0  \text{ et } Q(z) = 0 \text{ donc } \mathrm{Ker}(P(u)) + \mathrm{Ker}(Q(u)) = \mathrm{Ker}((PQ)(u))$$
+$\oplus$ :
+Soit $x \in \mathrm{Ker}(P(u)) \cap \mathrm{Ker}(Q(u))$, 
+$$P()$$
