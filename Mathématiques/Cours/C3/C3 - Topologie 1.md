@@ -118,7 +118,7 @@ Par symétrie des roles et commutativité de $+$
 $$\left|\left| y \right|\right| - \left|\left| x \right|\right| \leq \left|\left| y+x \right|\right| = \left|\left| x + y \right|\right| $$
 Donc, 
 $$\left| \, \left|\left| x \right|\right| -\left|\left| y \right|\right|  \,\right| \leq \left|\left| x+y \right|\right| = \left|\left| y+x \right|\right| $$
-dONC, 
+Donc, 
 $$\left| \, \left|\left| x \right|\right| -\left|\left| y \right|\right|  \, \right| = \max\{ \left|\left| x \right|\right| -\left|\left| y \right|\right| , \left|\left| y \right|\right| -\left|\left| x \right|\right|  \}\leq \left|\left| x+y \right|\right| $$
 
 #### Propriété élémentaire
