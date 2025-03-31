@@ -65,6 +65,11 @@ $$\mathcal{E}_{j_{d}}(\tau_{dc}) + \mathcal{E}_{j_{t}}(\tau_{dc}) - \mathcal{E}_
 Ainsi : 
 $$\Delta \mathcal{E} = m_{b} gh + J_{O}\Omega^{2}(\tau_{bc})$$
 
+# Partie IV.
+#### Question 23
+$$K = \frac{CO_{2}(g) }{Ka_{1} \times a(HCO_{3}^{-} )} = \frac{}{Ka_{1} \times }$$
+
+
 
 # Partie V
 #### Question 28
