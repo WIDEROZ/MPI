@@ -34,7 +34,7 @@ $$(PU)(u)(x) + (QV)(u)(x) = 0 = x$$
 The end.
 
 ### Question 8
-$Q_{1} = P_{2}^{k_{2}}$ et $Q_{2} = P_{1}^{k_{1}}$ alors, en posant $R_{1} = P_{1}$ comme $P_{1}$ et $P_{2}$ sont premiers entre eux $P_{2}^{k_{2}}$ et $P_{1}^{k_{1}}$ le sont aussi et de même pour $P_{1}^{k_{1}}$ et $P_{2}^{k_{2}}$, alors d'après bezout c'est terminé
+$Q_{1} = P_{2}^{k_{2}}$ et $Q_{2} = P_{1}^{k_{1}}$ alors, en posant $R_{1} = P_{1}^{k_{1}}$ comme $P_{1}$ et $P_{2}$ sont premiers entre eux $P_{2}^{k_{2}}$ et $P_{1}^{k_{1}}$ le sont aussi et de même pour $P_{1}^{k_{1}}$ et $P_{2}^{k_{2}}$, alors d'après bezout c'est terminé
 
 ### Question 9
 $$p_{i} \circ p_{j} = R_{i}(u) \circ Q_{i}(u) \circ R_{j}(u) \circ Q_{j}(u)  $$
@@ -43,5 +43,6 @@ $$R_{i}(u) \circ Q_{i}(u) = (P_{i}^{k_{i}})(u) \circ \left( \frac{\pi_{u}}{P_{i}
 En posant : 
 $$R_{i}(u) = P_{i}^{k_{i}}(u)$$
 C'est terminé
+$$p_{i} \circ p_{i} = (R_{i}Q_{i}R_{i}Q_{i})(u) = (\pi_{u}^{2})(u)$$
 
-$$p_{i} $$
+$$$$
