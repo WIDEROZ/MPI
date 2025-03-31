@@ -379,7 +379,7 @@ est $D^{1}$ sur $\mathbb{R} \setminus \frac{1}{2}\mathbb{Z}$, et continue en tou
 EXCAL 2.
 
 #### Propriété
-Soit $F : I\to F$, elle 
+Soit $f : I\to F$, 
 $$\text{f est dérivable en }x_{0} \Leftrightarrow \exists l \in F f(x) = f(x_{0}) + (x-x_{0})l + o(x-x_{0})$$
 quand $x \to x_{0}$, 
 
@@ -451,7 +451,7 @@ Soit $f: [a, b] \to F$,
 $$\left. \begin{array}{r}
 f \in \mathcal{C}^{0}_{F}([a, b]) \\
 f \in \mathcal{C}^{1}_{F}(]a, b]) \\
-f' \text{admet une limite finie en }a
+f' \text{ admet une limite finie en }a
 \end{array}\right\} \Rightarrow f \in \mathcal{C}^{1}([a, b])$$
 
 Démonstration : CCINP n°?
