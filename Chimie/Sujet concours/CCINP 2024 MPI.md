@@ -57,6 +57,8 @@ $$\ddot{\theta} + \frac{m}{J_{F}}g\Delta\sin(\theta) = 0$$
 $$\ddot{\theta} + \omega_{oc}^{2}\theta = 0 \text{ avec } \omega_{oc} = \sqrt{\frac{m}{J_{F}}g\Delta} = \frac{1}{\tau_{oc}}$$
 
 #### Question 16
+TEM comme l'EPP ne varie pas comme l'EC : 
+$$\frac{\partial E_{m}}{\partial t} = E_{m}(h) = 0$$
 
 
 # Partie V
