@@ -58,7 +58,7 @@ $$\ddot{\theta} + \omega_{oc}^{2}\theta = 0 \text{ avec } \omega_{oc} = \sqrt{\f
 
 #### Question 16
 TEM comme l'EPP ne varie pas comme l'EC : 
-$$\frac{\partial E_{m}}{\partial t} = E_{m}(h) = 0$$
+$$0 = \Delta E_{m} = E_{m}(\tau_{dc})-E_{m}(0) = mgh + \frac{1}{2}m \left( \frac{p}{\tau_{dc}} \right)^{2}  $$
 
 
 # Partie V
