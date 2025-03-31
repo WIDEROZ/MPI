@@ -60,5 +60,12 @@ alors,
 $$p_{j}(x) = p_{j}(y_{i}) = x_{i}$$
 
 Synthèse  :
-comme : 
-$$\sum_{k = 1}^{m} p_{k}(x) = x = \sum_{k = 1}^{m} x_{k}$$
+Soit $(x_{1}, \dots, x_{n}) \in \mathrm{Im}(p_{1}) \times \dots \times \mathrm{Im}(p_{m})$ tels que : 
+$$\sum_{i = 1}^{m} x_{i} = 0$$
+Alors, comme : 
+$$\sum_{i=1}^{m} p_{i}(y_{i}) = 0 \text{ on a : } p_{j} \circ \sum_{i = 1}^{m} p_{i}(y_{i}) = p_{j}(x_{j}) = x_{j} = 0$$
+car $x_{j} \in \mathrm{Im}(p_{i})$ ainsi, $\forall j \in [\![1, m]\!], x_{j}=0$
+
+
+### Question 12
+Comme 
