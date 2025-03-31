@@ -54,11 +54,10 @@ $$\ddot{\theta} = \frac{m}{J_{F}}\vec{g}.\overrightarrow{OM} =-\frac{m}{J_{F}} g
 Ainsi,
 $$\ddot{\theta} + \frac{m}{J_{F}}g\Delta\sin(\theta) = 0$$
 #### Question 15
-$$\ddot{\theta} + \omega_{oc}^{2}\theta = 0 \text{ avec } \omega_{oc} = \sqrt{\frac{m}{J_{F}}g\Delta} = \frac{1}{\tau_{oc}}$$
+$$\ddot{\theta} + \omega_{oc}^{2}\theta = 0 \text{ avec } \omega_{oc} = \sqrt{\frac{m}{J_{F}}g\Delta} = \frac{\pi}{\tau_{oc}}$$
 
 #### Question 16
-TEM comme l'EPP ne varie pas comme l'EC : 
-$$0 = \Delta E_{m} = E_{m}(\tau_{dc})-E_{m}(0) = mgh + \frac{1}{2}m \left( \frac{p}{\tau_{dc}} \right)^{2}  $$
+$$\Delta \mathcal{E} = 0 + m_{b} gh + \frac{1}{2}J_{O}\Omega^{2}(\tau_{bc}) \times 2 + 0$$
 
 
 # Partie V
