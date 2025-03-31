@@ -67,7 +67,10 @@ $$\Delta \mathcal{E} = m_{b} gh + J_{O}\Omega^{2}(\tau_{bc})$$
 
 # Partie IV.
 #### Question 23
-$$K = \frac{CO_{2}(g) }{Ka_{1} \times a(HCO_{3}^{-} )} = \frac{}{Ka_{1} \times }$$
+$$K = \frac{a(CO_{2}(g)) }{Ka_{1} \times a(HCO_{3}^{-} )} = \frac{Ka_{3}}{Ka_{1} Ka_{S}}$$
+
+#### Question 24
+$$3$$
 
 
 
