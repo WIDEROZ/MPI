@@ -63,9 +63,6 @@ $$\exists (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \frac{\left|\left| x_{n
 $N$ et $\left|\left| \cdot \right|\right|$, sont équivalents ssi : 
 $$\forall (x_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}, \left|\left| x_{n} \right|\right| \underset{n \to +\infty}{\longrightarrow} 0\Leftrightarrow N(x_{n}) \underset{n \to +\infty}{\longrightarrow} 0$$
 
-#### Théorème
-Si $E$ est un espace vectoriel de dimension finie et $\left|\left| \cdot \right|\right|$ et $N$ sont deux normes de $E$ alors elles sont équivalentes. 
-
 #### Lemme de Cesàro
 Soit $(u_{n})_{n \in \mathbb{N}} \in \mathbb{R}^{\mathbb{N}}$, 
 Si $u_{n}\underset{n \to +\infty}{\longrightarrow} l \in \mathbb{R} \cup \{ + \infty, - \infty \}$
