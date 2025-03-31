@@ -50,3 +50,5 @@ $$(X-\lambda_{i})^{\alpha_{i}} \wedge (X-\lambda_{j})^{\alpha_{j}}=1$$
 Alors, comme $\chi_{u}(u) = 0_{E}$ d'après cayley verstapen, et d'après le théorème de décomposition des noyaux : 
 $$\mathrm{Ker}(\chi_{u}(u))= E = \bigoplus_{i=1}^{m}\mathrm{Ker}((u-\lambda_{i})^{\alpha_{i}})$$
 ### Question 11
+Analyse : 
+$$\forall x \in  E, $$
