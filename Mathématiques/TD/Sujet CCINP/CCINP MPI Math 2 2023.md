@@ -43,4 +43,5 @@ $$R_{i}(u) \circ Q_{i}(u) = (P_{i}^{k_{i}})(u) \circ \left( \frac{\pi_{u}}{P_{i}
 En posant : 
 $$R_{i}(u) = P_{i}^{k_{i}}(u)$$
 C'est terminé
-Soit 
+
+$$$$
