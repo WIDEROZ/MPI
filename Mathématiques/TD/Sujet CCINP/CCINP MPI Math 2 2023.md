@@ -50,5 +50,15 @@ $$(X-\lambda_{i})^{\alpha_{i}} \wedge (X-\lambda_{j})^{\alpha_{j}}=1$$
 Alors, comme $\chi_{u}(u) = 0_{E}$ d'après cayley verstapen, et d'après le théorème de décomposition des noyaux : 
 $$\mathrm{Ker}(\chi_{u}(u))= E = \bigoplus_{i=1}^{m}\mathrm{Ker}((u-\lambda_{i})^{\alpha_{i}})$$
 ### Question 11
+
+$$\forall x \in  E, \exists (x_{i})_{i = 1}^{m} \in \mathrm{Im}(p_{1}) \times \dots \times \mathrm{Im}(p_{m}) , x = \sum_{k = 1}^{m} x_{i}$$
 Analyse : 
-$$\forall x \in  E, $$
+Supposons $\uparrow$, 
+Comme, $x_{i} = p_{i}(y_{i})$
+$$\sum_{k = 1}^{m} p_{i}(y_{i}) = x$$
+alors, 
+$$p_{j}(x) = p_{j}(y_{i}) = x_{i}$$
+
+Synthèse  :
+comme : 
+$$\sum_{k = 1}^{m} p_{k}(x) = x = \sum_{k = 1}^{m} x_{k}$$
