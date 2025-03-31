@@ -43,6 +43,4 @@ $$R_{i}(u) \circ Q_{i}(u) = (P_{i}^{k_{i}})(u) \circ \left( \frac{\pi_{u}}{P_{i}
 En posant : 
 $$R_{i}(u) = P_{i}^{k_{i}}(u)$$
 C'est terminé
-$$p_{i} \circ p_{i} = (R_{i}Q_{i}R_{i}Q_{i})(u) = (\pi_{u}^{2})(u)$$
-
-$$$$
+Soit 
