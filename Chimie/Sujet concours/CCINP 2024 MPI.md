@@ -50,12 +50,14 @@ $$\frac{P_{e}}{P_{p}} = \frac{n_{e}}{n_{p}} = \frac{M(Pin)m_{e}}{M(H_{2}O)m_{pin
 # Partie III.
 #### Question 14
 $$J_{F} \ddot{\theta} = \mathcal{M}_{F_{g}}(\vec{P}) + \mathcal{M}_{F_{g}}(\vec{T})$$
-$$\ddot{\theta} = \frac{m}{J_{F}}\vec{g}.\overrightarrow{OM} =-\frac{m}{J_{F}} gl_{j} \vec{e}_{z}.\vec{e}_{r} = -\frac{m}{J_{F}} gl_{j}\sin(\theta) $$
+$$\ddot{\theta} = \frac{m}{J_{F}}\vec{g}.\overrightarrow{OM} =-\frac{m}{J_{F}} g\Delta \vec{e}_{z}.\vec{e}_{r} = -\frac{m}{J_{F}} g\Delta\sin(\theta) $$
 Ainsi,
-$$\ddot{\theta} + \frac{m}{J_{F}}gl_{j}\sin(\theta) = 0$$
-
-
+$$\ddot{\theta} + \frac{m}{J_{F}}g\Delta\sin(\theta) = 0$$
 #### Question 15
+$$\ddot{\theta} + \omega_{oc}^{2}\theta = 0 \text{ avec } \omega_{oc} = \sqrt{\frac{m}{J_{F}}g\Delta} = \frac{1}{\tau_{oc}}$$
+
+#### Question 16
+
 
 # Partie V
 #### Question 28
