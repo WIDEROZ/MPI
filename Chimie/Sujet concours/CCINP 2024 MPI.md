@@ -57,6 +57,11 @@ $$\ddot{\theta} + \frac{m}{J_{F}}g\Delta\sin(\theta) = 0$$
 $$\ddot{\theta} + \omega_{oc}^{2}\theta = 0 \text{ avec } \omega_{oc} = \sqrt{\frac{m}{J_{F}}g\Delta} = \frac{\pi}{\tau_{oc}}$$
 
 #### Question 16
+$$\mathcal{E}_{b} = \frac{1}{2}m_{b} V_{dc}^{2} + m_{b}gz_{G_{b}}$$
+$$\mathcal{E}_{j_{d}} = \frac{1}{2}J_{O} \Omega^{2} + m_{j} gz_{G_{jd}}$$
+$$\mathcal{E}_{j_{g}} = \frac{1}{2}J_{O} \Omega^{2} + m_{j} gz_{G_{jg}}$$
+
+
 $$\Delta \mathcal{E} = 0 + m_{b} gh + \frac{1}{2}J_{O}\Omega^{2}(\tau_{bc}) \times 2 + 0$$
 
 
