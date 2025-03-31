@@ -60,9 +60,10 @@ $$\ddot{\theta} + \omega_{oc}^{2}\theta = 0 \text{ avec } \omega_{oc} = \sqrt{\f
 $$\mathcal{E}_{b} = \frac{1}{2}m_{b} V_{dc}^{2} + m_{b}gz_{G_{b}}$$
 $$\mathcal{E}_{j_{d}} = \frac{1}{2}J_{O} \Omega^{2} + m_{j} gz_{G_{jd}}$$
 $$\mathcal{E}_{j_{g}} = \frac{1}{2}J_{O} \Omega^{2} + m_{j} gz_{G_{jg}}$$
-
-
-$$\Delta \mathcal{E} = 0 + m_{b} gh + \frac{1}{2}J_{O}\Omega^{2}(\tau_{bc}) \times 2 + 0$$
+D'après l'énoncé :
+$$\mathcal{E}_{j_{d}}(\tau_{dc}) + \mathcal{E}_{j_{t}}(\tau_{dc}) - \mathcal{E}_{j_{d}}(0) + \mathcal{E}_{j_{t}}(0) = J_{O} \Omega^{2}(\tau_{dc})$$
+Ainsi : 
+$$\Delta \mathcal{E} = m_{b} gh + J_{O}\Omega^{2}(\tau_{bc})$$
 
 
 # Partie V
