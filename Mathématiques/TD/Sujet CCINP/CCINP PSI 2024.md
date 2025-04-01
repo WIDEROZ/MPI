@@ -28,7 +28,9 @@ $$\frac{(k-1)!}{(k-n)!(n-1)!}$$
 Soit $n \in \mathbb{N}$, tel que : 
 $$z_{n+1}-z_{n} \text{ est de même signe que : }z_{2}-z_{1}$$
 Alors, 
-$$z_{n+2}-z_{n+1} = f(z_{n+1})-z_{n+1} $$
+$$z_{n+2}-z_{n+1} = f(z_{n+1})-f(z_{n}) $$
+
+### Question 8
 
 
 
