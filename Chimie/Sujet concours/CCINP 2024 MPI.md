@@ -126,6 +126,14 @@ $$\Leftrightarrow t_{b}'-t_{b} = \tau\ln\left( 1+\frac{V_{b}}{V_{a}} \right)$$
 
 ### Question 32
 #### a.
+$u_{1} = V_{a}$, $u=0$, 
+$$RC\frac{du_{c}}{dt} +  u_{c} = V_{a}$$
+Alors, 
+$$u_{c}(t) = A e^{ -\frac{t}{\tau} } + V_{a}$$
+Donc, comme $u_{c}(t'_{b}) = V_{a}$
+$$$$
+
+
 
 
 
