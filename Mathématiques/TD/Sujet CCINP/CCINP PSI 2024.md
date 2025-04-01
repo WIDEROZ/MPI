@@ -18,7 +18,11 @@ car $T_{i} \amalg T_{j}$,
 ### Question 6
 En 0 : 
 $$\left( -\frac{p}{q} \right)^{n}\left( 1- \frac{1}{1-tq} \right)^{n} = \left( -\frac{p}{q} \right)^{n}\left( -\frac{tq}{1-tq} \right)^{n} = (pt)^{n} (1-tq)^{-n}$$
-$$G_{D_{n}}(t) = \left( pt\right)^{n} \sum_{k = 1}^{+ \infty} \binom{-n}{k} (-tq)^{k} =  $$
+$$G_{D_{n}}(t) = \left( pt\right)^{n} \sum_{k = 1}^{+ \infty} \frac{\prod_{i = 0}^{k-1} (-n-i)}{k!} (-tq)^{k} =  $$
+$$= \frac{(tq)^{k}}{k!}\prod_{i =0}^{k-1}(n+i)  $$
+$$= \frac{(tq)^{k}}{k!} $$
+
+$$\frac{(k-1)!}{(k-n)!(n-1)!}$$
 
 
 
