@@ -23,4 +23,16 @@ let exp10 n =
 ```
 
 On a ainsi : 
-$$K(y_{0}) \leq 10^{5}$$
+$$K(y_{0}) \leq \sim200$$
+
+#### 3.
+la complexité exploserait, l'emplacement mémoire de la machine ne serait pas assez grand
+
+## 1.2
+#### 4.
+```Ocaml
+let phi (n:int) : string = 
+	let rec aux k = 
+		if k = 
+
+```
