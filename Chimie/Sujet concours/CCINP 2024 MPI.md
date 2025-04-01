@@ -130,8 +130,11 @@ $u_{1} = V_{a}$, $u=0$,
 $$RC\frac{du_{c}}{dt} +  u_{c} = V_{a}$$
 Alors, 
 $$u_{c}(t) = A e^{ -\frac{t}{\tau} } + V_{a}$$
-Donc, comme $u_{c}(t'_{b}) = V_{a}$
-$$$$
+Donc, comme $u_{c}(t'_{b}) = 0$ on a : 
+$$u_{c}(t) = -V_{a}e^{ \frac{t'_{b}-t}{\tau} } + V_{a}$$
+
+
+
 
 
 
