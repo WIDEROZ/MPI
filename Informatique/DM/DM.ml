@@ -100,3 +100,14 @@ let rec tri_fusion l =
 	| _ -> let (l1, l2) = division l in fusion (tri_fusion l1) (tri_fusion l2)
 ;;
 
+let exp10 n =
+	let rec aux k =
+	match k with
+		| 0 -> 1
+		| 1 -> 10
+		| _ -> let e = aux (k/2) in
+				if (k mod 2) == 0 then e*e
+				else e*e*10
+	in
+	aux n
+;;
