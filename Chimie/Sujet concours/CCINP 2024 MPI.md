@@ -71,8 +71,8 @@ $$K = \frac{a(CO_{2}(g)) }{Ka_{1} \times a(HCO_{3}^{-} )} = \frac{Ka_{3}}{Ka_{1}
 
 
 #### Question 24
-
-
+$$11 g = m_{d}+ m_{g}$$
+$$m_{d}  = $$
 
 
 # Partie V
@@ -102,5 +102,3 @@ $$\Leftrightarrow t_{b}'-t_{b} = \tau\ln\left( 1+\frac{V_{b}}{V_{a}} \right)$$
 
 
 
-
-# Partie 
