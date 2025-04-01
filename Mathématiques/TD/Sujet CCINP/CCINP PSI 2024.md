@@ -1,7 +1,16 @@
 # Partie I
-### Question 2
+### Question 3
+$$pq^{k-1}t^{k} = \frac{p}{q} (qt)^{k}$$
+d'alembert et c'est plié
 
+### Question 4
 
+$$\mathbb{E}(T_{i}) = \frac{1}{p} \text{ et } \mathrm{Var}(T_{i}) = \frac{p}{q^{2}}$$
+
+### Question 5
+$$\sum_{k = 1}^{+ \infty} \mathbb{P}(D_{n} = k) t^{k}$$
+$$\forall k \in \mathbb{N}^{*}, \mathbb{P}(D = k
+= )$$
 
 
 
