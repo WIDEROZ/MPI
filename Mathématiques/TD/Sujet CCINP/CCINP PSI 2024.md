@@ -9,8 +9,8 @@ $$\mathbb{E}(T_{i}) = \frac{1}{p} \text{ et } \mathrm{Var}(T_{i}) = \frac{p}{q^{
 
 ### Question 5
 $$\sum_{k = 1}^{+ \infty} \mathbb{P}(D_{n} = k) t^{k}$$
-$$\forall k \in \mathbb{N}^{*}, \mathbb{P}(D = k
-= )$$
+$$\forall k \in \mathbb{N}^{*}, \mathbb{P}(D_{n} = k
+) = \mathbb{P}\left( \sum_{i = 1}^{n} T_{i} = k \right) = \mathbb{P}\left(  \bigsqcup_{i = 1}^{n} \bigcap_{j = 1}^{i} (T_{i} = j)  \right)$$
 
 
 
