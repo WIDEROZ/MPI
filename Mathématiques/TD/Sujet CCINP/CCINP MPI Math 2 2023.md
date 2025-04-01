@@ -72,4 +72,7 @@ car $x_{j} \in \mathrm{Im}(p_{i})$ ainsi, $\forall j \in [\![1, m]\!], x_{j}=0$
 $$\pi_{u} = \prod_{i= 1}^{m}(X-\lambda_{i})$$
 ### Question 14
 $$\frac{1}{\pi_{u}} = \sum_{i = 1}^{m} \frac{\theta_{i}}{X-\lambda_{i}}$$
-
+$$p_{i} = R_{i}(u) \circ Q_{i}(u)$$
+or $R_{i}(u) = u-\lambda_{i}$ alors, 
+$$p_{i} = (u-\lambda_{i})\bigcirc_{\underset{i\neq j}{j = 1}}^{m}(u-\lambda_{j})$$
+$$\frac{Q_{i}(u)}{Q_{i}(\lambda_{i})} = \frac{\underset{\underset{i \neq j}{j = 1}}{\overset{m}{\bigcirc}} (u-\lambda_{j})}{}$$
