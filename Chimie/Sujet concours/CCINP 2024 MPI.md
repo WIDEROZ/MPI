@@ -89,13 +89,13 @@ $$4 = H_{3}O^{+}$$
 $$5 = OH^{-}$$
 
 ##### b.
-La concentration totale est : $C_{p} = 10^{-7}$ $mol.L^{-1}$
+La concentration totale est : $C_{p} = \frac{1}{\sqrt{10}}$ $mol.L^{-1}$
 
 ##### c.
 Lorsque'i 
 
 
-# Partie V
+# Partie V - Green de golf
 #### Question 28
 $$NAND \equiv NOT$$
 
@@ -122,3 +122,12 @@ $$\Leftrightarrow t_{b}'-t_{b} = \tau\ln\left( 1+\frac{V_{b}}{V_{a}} \right)$$
 
 
 
+# Partie V - Bronzage sur les plages ... (MP) 
+## 1.
+#### Question 32
+$$\begin{cases}
+div(\vec{B}) = 0 \\
+div(\vec{E}) = 0 \\
+\overrightarrow{rot}(\vec{E}) = - \frac{\partial B}{\partial t}  \\
+\overrightarrow{rot}(\vec{B}) = \mu_{0}\varepsilon_{0} \vec{j} + \varepsilon_{0} \frac{\partial \vec{E}}{\partial t} 
+\end{cases}$$
