@@ -82,9 +82,9 @@ $$PV = n_{0}RT \Leftrightarrow V = \frac{n_{0}RT}{P} = \frac{n_{0}RT}{P}$$
 ##### a.
 $$pH = - \log(a(H_{3}O^{+})) \text{ et } pH = pKa + \log\left( \frac{[A^{-}]}{[AH]} \right)$$
 alors,
-$$1 = H_{2}P_{2}O_{7}^{3-}$$
-$$2 = P_{2}O_{7}^{4-}$$
-$$3 = H_{2}P_{2}O_{7}^{2-}$$
+$$1 = H_{2}P_{2}O_{7}^{2-}$$
+$$2 = $$
+$$3 = P_{2}O_{7}^{4-}$$
 $$4 = H_{3}O^{+}$$
 $$5 = OH^{-}$$
 
@@ -143,4 +143,5 @@ L'onde se propage vers les $z$ positifs,
 et comme $\vec{E} // \vec{u}_{x}$ l'onde est polarisée selon $x$
 
 #### b.
-$$\overrightarrow{\nabla} \wedge \overrightarrow{\underline{E}} = $$
+$$\overrightarrow{\nabla} \wedge \overrightarrow{\underline{E}} = - \frac{\partial  \overrightarrow{\underline{B}}}{\partial t} \Leftrightarrow -i  \overrightarrow{\underline{k}}  \wedge \overrightarrow{\underline{E}} = - i\omega  \underline{\overrightarrow{B}}$$
+Ainsi,
