@@ -72,7 +72,10 @@ $$K = \frac{a(CO_{2}(g)) }{Ka_{1} \times a(HCO_{3}^{-} )} = \frac{Ka_{3}}{Ka_{1}
 
 #### Question 24
 $$11 g = m_{d}+ m_{g}$$
-$$m_{d}  = $$
+$$n_{d} + n_{b} = \frac{M_{d}}{m_{d}} + \frac{M_{b}}{m_{b}} = 1 \text{ mol}$$
+
+#### Question 25
+$$PV = nRT \Leftrightarrow V = \frac{nRT}{P} = \frac{RT}{P}$$
 
 
 # Partie V
