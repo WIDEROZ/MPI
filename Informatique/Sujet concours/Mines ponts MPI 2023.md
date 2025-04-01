@@ -12,7 +12,6 @@ let exp10 n =
 	let rec aux k =
 	match k with
 		| 0 -> 1
-		| 1 -> 10
 		| _ -> let e = aux (k/2) in
 				if (k mod 2) == 0 then e*e
 				else e*e*10
@@ -30,12 +29,5 @@ la complexité exploserait, l'emplacement mémoire de la machine ne serait pas a
 
 ## 1.2
 #### 4.
-```Ocaml
-let phi (n:int) : string = 
-	let rec aux k = 
-		if k == 0 then ''
-		else
-			(Char.chr k) ^ aux (k/256)
-	in aux n
-;;
-```
+$\varphi$ associe a son entier l'ecriture en base 256 et convertit chaque chiffre en un caractère ASCII
+PROBLÈME 
