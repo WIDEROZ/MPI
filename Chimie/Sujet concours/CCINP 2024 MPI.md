@@ -75,9 +75,15 @@ $$11 g = m_{d}+ m_{g}$$
 $$n_{d} + n_{b} = \frac{M_{d}}{m_{d}} + \frac{M_{b}}{m_{b}} = 1 \text{ mol}$$
 
 #### Question 25
-$$PV = nRT \Leftrightarrow V = \frac{nRT}{P} = \frac{RT}{P}$$
+$$PV = nRT \Leftrightarrow V = \frac{n_{0}RT}{P} = \frac{\left( \frac{M_{d}}{m_{d}} + \frac{M_{b}}{m_{b}} \right)RT}{P}$$
 
+#### Question 26
+##### a.
+$$pH = - \log(a(H_{3}O^{+}))$$
+alors,
 
+$$4 = H_{3}O^{+}$$
+$$5 = OH^{-}$$
 # Partie V
 #### Question 28
 $$NAND \equiv NOT$$
