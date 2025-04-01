@@ -79,11 +79,17 @@ $$PV = nRT \Leftrightarrow V = \frac{n_{0}RT}{P} = \frac{\left( \frac{M_{d}}{m_{
 
 #### Question 26
 ##### a.
-$$pH = - \log(a(H_{3}O^{+}))$$
+$$pH = - \log(a(H_{3}O^{+})) \text{ et } pH = pKa + \log\left( \frac{[A^{-}]}{[AH]} \right)$$
 alors,
-
+$$1 = HP_{2}O_{7}^{3-}$$
+$$2 = P_{2}O_{7}^{4-}$$
+$$3 = H_{2}P_{2}O_{7}^{2-}$$
 $$4 = H_{3}O^{+}$$
 $$5 = OH^{-}$$
+
+##### b.
+La concentration totale 
+
 # Partie V
 #### Question 28
 $$NAND \equiv NOT$$
