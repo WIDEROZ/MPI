@@ -79,10 +79,13 @@ $$\frac{Q_{i}(u)}{Q_{i}(\lambda_{i})} = \frac{\underset{\underset{i \neq j}{j = 
 
 ## Exercice 2
 #### Question 4
-Si $m=n$, alors $X=Y$ donc
-$$\mathbb{P}((Z = m) \cap (T = n))= \mathbb{P}(Z = m) = \mathbb{P}(T = n) = pq^{n}$$
+Si $m=n$, alors $X=Y=n$ donc
+$$\mathbb{P}((Z = m) \cap (T = n))= \mathbb{P}(Z = m) = \mathbb{P}(X = n) = pq^{n}$$
 Si $m<n$, 
 $$\mathbb{P}((Z=m) \cap (T = n)) = \mathbb{P}(\varnothing) = 0 \text{ car } \inf(X, Y) \leq \sup(X, Y)$$
 Si $m>n$, 
-Comme $X$ et $Y$ sont indépendantes, 
-$$$$
+$$\mathbb{P}((Z = m) \cap (T = n)) $$
+$$= \mathbb{P}((X = n) \cap (X = m)) + \mathbb{P}((X = n) \cap (Y = m))  $$
+$$ + \mathbb{P}((Y = n) \cap (X = m)) + \mathbb{P}((Y = n) \cap (Y = m))$$
+$$= \mathbb{P}((X = n) \cap (X = m)) + \mathbb{P}(X = n) \times \mathbb{P}(Y = m)  $$
+$$+= \mathbb{P}((X = n) \cap (X = m)) + \mathbb{P}((X = n) \cap (Y = m))  $$
