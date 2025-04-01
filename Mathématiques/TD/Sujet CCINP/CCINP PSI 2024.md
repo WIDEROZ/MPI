@@ -1,6 +1,7 @@
 # Partie I
-### Question 1
-$T_{1} \sim \mathcal{G}(p)$ car on répète des épreuves de Bernoulli indépendantes entre elles qui est l'écoulement du temp
+### Question 2
+
+
 
 
 
