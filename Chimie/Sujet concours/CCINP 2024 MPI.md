@@ -128,6 +128,19 @@ $$\Leftrightarrow t_{b}'-t_{b} = \tau\ln\left( 1+\frac{V_{b}}{V_{a}} \right)$$
 $$\begin{cases}
 div(\vec{B}) = 0 \\
 div(\vec{E}) = 0 \\
-\overrightarrow{rot}(\vec{E}) = - \frac{\partial B}{\partial t}  \\
-\overrightarrow{rot}(\vec{B}) = \mu_{0}\varepsilon_{0} \vec{j} + \varepsilon_{0} \frac{\partial \vec{E}}{\partial t} 
+\overrightarrow{rot}(\vec{E}) = - \frac{\partial \vec{B}}{\partial t}  \\
+\overrightarrow{rot}(\vec{B}) =  \varepsilon_{0}\mu_{0} \frac{\partial \vec{E}}{\partial t} 
 \end{cases}$$
+car $j \ll \frac{\partial E}{\partial t}$
+### Question 33
+$$\Delta(\vec{E}) =  \frac{\partial  \overrightarrow{rot}(\vec{B})}{\partial t} = \varepsilon_{0}\mu_{0} \frac{\partial^{2}\vec{E}}{\partial t^{2}}  $$
+Ainsi, 
+$$\boxed{\frac{\partial^{2} \vec{E}}{\partial x^{2}} + \frac{\partial^{2} \vec{E}}{\partial y^{2}} + \frac{\partial^{2} \vec{E}}{\partial z^{2}} = \frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t^{2}} }$$
+
+### Question 34
+#### a.
+L'onde se propage vers les $z$ positifs, 
+et comme $\vec{E} // \vec{u}_{x}$ l'onde est polarisée selon $x$
+
+#### b.
+$$\overrightarrow{\nabla} \wedge \overrightarrow{\underline{E}} = $$
