@@ -2,7 +2,7 @@
 ### Question 11.
 On décrit l’algorithme suivant en pseudo-code pour montrer que hamiltonienNO appartient à $NP$ : 
 
-L'idée est de parcourir des chemins à partir de chaque sommet du graphe pour tomber sur un cycle Hamiltonien. 
+tde chaque sommet du graphe pour tomber sur un cycle Hamiltonien. 
 ```
 fonction hamiltonienNO_verif (Graphe G, sommet s, sommet v, liste sommet_visite):
 	si v = s alors

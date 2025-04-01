@@ -101,3 +101,6 @@ $$u_{2} = V_{a} \Rightarrow u_{c}(t'_{b}) = V_{a} - u = 0 \Rightarrow (V_{a}+V_{
 $$\Leftrightarrow t_{b}'-t_{b} = \tau\ln\left( 1+\frac{V_{b}}{V_{a}} \right)$$
 
 
+
+
+# Partie 

@@ -54,3 +54,5 @@ let psi m =
 
 #### 6.
 Soit $n=\psi(m)$, 
+$$K(\varphi(\psi(m))) = K(\varphi(n)) \leq$$
+
