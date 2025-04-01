@@ -15,6 +15,13 @@ $$\mathbb{E}(D_{n}) = \sum_{i = 1}^{n} \mathbb{E}(T_{i}) = \frac{n}{p}$$
 $$\mathrm{Var}(D_{n}) = \sum_{i = 1}^{n} \mathrm{Var}(T_{i}) = \frac{np}{q^{2}}$$
 car $T_{i} \amalg T_{j}$, 
 
+### Question 6
+En 0 : 
+$$G_{D_{n}}(t) = \left( -\frac{p}{q} \right)^{n} \sum_{k = 1}^{+ \infty} \binom{n}{k}\frac{(-1)^{k}}{(1-tq)^{k}}  $$
+
+
+
+
 
 
 
