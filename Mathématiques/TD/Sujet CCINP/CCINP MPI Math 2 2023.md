@@ -91,10 +91,3 @@ $$= \mathbb{P}((X = n) \cap (X = m)) + 2\mathbb{P}(X = n) \times \mathbb{P}(Y = 
 $$ + \mathbb{P}((Y = n) \cap (Y = m))$$
 or comme $m\neq n$, 
 $$\mathbb{P}((Z = m) \cap (T = n))  = 2 p^{2}q^{m+n}$$
-
-### Question 5
-Soit $m, n, k \in \mathbb{N}$ tels que $m< n <k$, 
-On prend le SCE : $((T = m), (T = n), (T=k))$ qui en est bien un car c'est trivial.
-$$\mathbb{P}(Z=n) = \mathbb{P}((Z = n) \cap (T = n))  $$
-$$+ \mathbb{P}((Z = n) \cap (T = m)) $$
-$$ +\mathbb{P}((Z = n) \cap (T = k)) = 2p^{2}Qq$$
