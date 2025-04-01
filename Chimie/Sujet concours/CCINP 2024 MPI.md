@@ -67,29 +67,32 @@ $$\Delta \mathcal{E} = m_{b} gh + J_{O}\Omega^{2}(\tau_{bc})$$
 
 # Partie IV.
 #### Question 23
-$$K = \frac{a(CO_{2}(g)) }{Ka_{1} \times a(HCO_{3}^{-} )} = \frac{Ka_{3}}{Ka_{1} Ka_{S}}$$
+$$K = \frac{Ka_{1}}{Ka_{3}Ka_{S}}$$
+ 
 
 
 #### Question 24
 $$11 g = m_{d}+ m_{g}$$
-$$n_{d} + n_{b} = \frac{M_{d}}{m_{d}} + \frac{M_{b}}{m_{b}} = 1 \text{ mol}$$
+$$n_{0} = n_{d} = n_{b} = \frac{M_{d}}{m_{d}} = \frac{M_{b}}{m_{b}} $$
 
 #### Question 25
-$$PV = nRT \Leftrightarrow V = \frac{n_{0}RT}{P} = \frac{\left( \frac{M_{d}}{m_{d}} + \frac{M_{b}}{m_{b}} \right)RT}{P}$$
+$$PV = n_{0}RT \Leftrightarrow V = \frac{n_{0}RT}{P} = \frac{n_{0}RT}{P}$$
 
 #### Question 26
 ##### a.
 $$pH = - \log(a(H_{3}O^{+})) \text{ et } pH = pKa + \log\left( \frac{[A^{-}]}{[AH]} \right)$$
 alors,
-$$1 = HP_{2}O_{7}^{3-}$$
+$$1 = H_{2}P_{2}O_{7}^{3-}$$
 $$2 = P_{2}O_{7}^{4-}$$
 $$3 = H_{2}P_{2}O_{7}^{2-}$$
 $$4 = H_{3}O^{+}$$
 $$5 = OH^{-}$$
 
 ##### b.
-La concentration totale 
+La concentration totale est : $C_{p} = 10^{-7}$ $mol.L^{-1}$
 
+##### c.
+Lorsque'i 
 
 
 # Partie V
