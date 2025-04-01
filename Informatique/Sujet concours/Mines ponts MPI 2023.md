@@ -31,4 +31,26 @@ la complexité exploserait, l'emplacement mémoire de la machine ne serait pas a
 $\varphi$ associe a son entier l'écriture en base 256 et convertit chaque chiffre en un caractère ASCII
 PROBLÈME : cas des caractères qui sont associés à 0 en début de chaîne
 SOLUTION : Lister les chaines de caractères de taille 0 puis 1 puis 2
-Chaine de 
+
+Possibilité pour les chaines de taille :
+- $0$ : $1$
+- $1$ : $256$
+- $2$ : $256^{2}$
+
+On va partir de $0$ jusqu'a arriver à un intervalle :
+$$[256 + 256^{2} + \dots + 256^{p} +1; 256 + 256^{2} + \dots + 256^{p+1}]$$
+où notre entier en entrée lui appartient et donc créer une chaîne en conséquence
+
+#### 5.
+```Ocaml
+let psi m =
+	let n = ref 0 in
+		while kolomogoroff (phi (!n)) < m do
+			n := !n 1
+		done;
+		!n
+;;
+```
+
+#### 6.
+Soit $n=\psi(m)$, 
