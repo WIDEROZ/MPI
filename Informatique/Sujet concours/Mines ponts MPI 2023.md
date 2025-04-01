@@ -33,6 +33,11 @@ la complexité exploserait, l'emplacement mémoire de la machine ne serait pas a
 ```Ocaml
 let phi (n:int) : string = 
 	let rec aux k = 
-		if k = 
-
+		if k <= 255 then
+			Char.chr k
+		else
+			(Char.chr k) ^ aux (k/256)
+	in aux n
+;;
 ```
+
