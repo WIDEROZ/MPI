@@ -8,9 +8,13 @@ d'alembert et c'est plié
 $$\mathbb{E}(T_{i}) = \frac{1}{p} \text{ et } \mathrm{Var}(T_{i}) = \frac{p}{q^{2}}$$
 
 ### Question 5
-$$\sum_{k = 1}^{+ \infty} \mathbb{P}(D_{n} = k) t^{k}$$
-$$\forall k \in \mathbb{N}^{*}, \mathbb{P}(D_{n} = k
-) = \mathbb{P}\left( \sum_{i = 1}^{n} T_{i} = k\right) = \mathbb{P}\left(  \right)$$
+$$\forall t \in [-1, 1], G_{D_{n}}(t) = \prod_{i = 1}^{n} G_{T_{i}}(t) = \prod_{i = 1}^{n}\sum_{k = 1}^{+ \infty} \mathbb{P}(T_{i} = k)t^{k} $$
+$$=  \left( \frac{p}{q} \left(  \frac{1}{1-tq}-1  \right)\right)^{n} = \left( -\frac{p}{q} \right)^{n}\left( 1- \frac{1}{1-tq} \right)^{n}$$
+
+$$\mathbb{E}(D_{n}) = \sum_{i = 1}^{n} \mathbb{E}(T_{i}) = \frac{n}{p}$$
+$$\mathrm{Var}(D_{n}) = \sum_{i = 1}^{n} \mathrm{Var}(T_{i}) = \frac{np}{q^{2}}$$
+car $T_{i} \amalg T_{j}$, 
+
 
 
 
