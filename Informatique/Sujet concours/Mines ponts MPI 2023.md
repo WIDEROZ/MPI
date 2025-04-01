@@ -18,7 +18,6 @@ let exp10 n =
 	in
 	aux n
 ;;
-
 ```
 
 On a ainsi : 
@@ -29,5 +28,7 @@ la complexité exploserait, l'emplacement mémoire de la machine ne serait pas a
 
 ## 1.2
 #### 4.
-$\varphi$ associe a son entier l'ecriture en base 256 et convertit chaque chiffre en un caractère ASCII
-PROBLÈME 
+$\varphi$ associe a son entier l'écriture en base 256 et convertit chaque chiffre en un caractère ASCII
+PROBLÈME : cas des caractères qui sont associés à 0 en début de chaîne
+SOLUTION : Lister les chaines de caractères de taille 0 puis 1 puis 2
+Chaine de 
