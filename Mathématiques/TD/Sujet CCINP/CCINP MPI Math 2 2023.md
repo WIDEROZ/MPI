@@ -68,4 +68,3 @@ car $x_{j} \in \mathrm{Im}(p_{i})$ ainsi, $\forall j \in [\![1, m]\!], x_{j}=0$
 
 
 ### Question 12
-Comme 
