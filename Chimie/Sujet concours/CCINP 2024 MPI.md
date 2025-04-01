@@ -115,10 +115,16 @@ car $u_{c}(0)=0$
 
 
 
-___
-$$u_{c} = (V_{a}+V_{b}) e^{ - \frac{t-t_{b}}{\tau} } - V_{a}$$
+### Question 31
+#### a.
+$$RC\frac{du_{c}}{dt} +  u_{c} = -V_{a}$$
+lorsque $u_{c}(\tau_{b}) = V_{b}$
+$$u_{c} = (V_{a}+V_{b}) e^{ - \frac{t-t_{b}}{\tau} } - V_{a} \text{ et } u_{2}(t) = (V_{a}+V_{b}) e^{ - \frac{t-t_{b}}{\tau} }$$
+
 $$u_{2} = V_{a} \Rightarrow u_{c}(t'_{b}) = V_{a} - u = 0 \Rightarrow (V_{a}+V_{b})e^{ -\frac{t_{b}'-t_{b}}{\tau} } = V_{a} $$
 $$\Leftrightarrow t_{b}'-t_{b} = \tau\ln\left( 1+\frac{V_{b}}{V_{a}} \right)$$
+
+
 
 
 
