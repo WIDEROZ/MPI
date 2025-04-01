@@ -71,4 +71,5 @@ car $x_{j} \in \mathrm{Im}(p_{i})$ ainsi, $\forall j \in [\![1, m]\!], x_{j}=0$
 ### Question 13
 $$\pi_{u} = \prod_{i= 1}^{m}(X-\lambda_{i})$$
 ### Question 14
-$$\frac{1}{\pi_{u}} = \sum_{i = 1}^{m} \frac{}{X-\lambda_{i}}$$
+$$\frac{1}{\pi_{u}} = \sum_{i = 1}^{m} \frac{\theta_{i}}{X-\lambda_{i}}$$
+
