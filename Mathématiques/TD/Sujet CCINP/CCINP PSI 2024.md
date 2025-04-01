@@ -17,8 +17,8 @@ car $T_{i} \amalg T_{j}$,
 
 ### Question 6
 En 0 : 
-$$G_{D_{n}}(t) = \left( -\frac{p}{q} \right)^{n} \sum_{k = 1}^{+ \infty} \binom{n}{k}\frac{(-1)^{k}}{(1-tq)^{k}}  $$
-
+$$\left( -\frac{p}{q} \right)^{n}\left( 1- \frac{1}{1-tq} \right)^{n} = \left( -\frac{p}{q} \right)^{n}\left( -\frac{tq}{1-tq} \right)^{n} = (pt)^{n} (1-tq)^{-n}$$
+$$G_{D_{n}}(t) = \left( pt\right)^{n} \sum_{k = 1}^{+ \infty} \binom{-n}{k} (-tq)^{k} =  $$
 
 
 
