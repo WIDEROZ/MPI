@@ -150,14 +150,14 @@ $$\begin{cases}
 div(\vec{B}) = 0 \\
 div(\vec{E}) = 0 \\
 \overrightarrow{rot}(\vec{E}) = - \frac{\partial \vec{B}}{\partial t}  \\
-\overrightarrow{rot}(\vec{B}) =  \mu_{0} \vec{j} + \varepsilon_{0}\mu_{0} \frac{\partial \vec{E}}{\partial t} 
+\overrightarrow{rot}(\vec{B}) =  \mu_{0} \vec{j} 
 \end{cases}$$
-
+car $j \geq \varepsilon_{0} \frac{\partial E}{\partial t}$
 ### Question 33
-$$\Delta(\vec{E}) =  \frac{\partial  \overrightarrow{rot}(\vec{B})}{\partial t} = \mu_{0} \frac{\partial \vec{j}}{\partial t}  + \varepsilon_{0}\mu_{0} \frac{\partial^{2}\vec{E}}{\partial t^{2}} = \mu_{0}\gamma \frac{\partial \vec{E}}{\partial t}  + \frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t^{2}}  $$
+$$\Delta(\vec{E}) =  \frac{\partial  \overrightarrow{rot}(\vec{B})}{\partial t} = \mu_{0} \frac{\partial \vec{j}}{\partial t}   = \mu_{0}\gamma \frac{\partial \vec{E}}{\partial t} $$
 car $\gamma$ est uniforme
 Ainsi, 
-$$\boxed{\Delta (\vec{E})  = \mu_{0} \gamma \frac{\partial \vec{E}}{\partial t}  +  \frac{1}{c^{2}} \frac{\partial^{2}\vec{E}}{\partial t^{2}} }$$
+$$\boxed{\Delta (\vec{E})  = \mu_{0} \gamma \frac{\partial \vec{E}}{\partial t}}$$
 
 ### Question 34
 #### a.
@@ -165,8 +165,8 @@ L'onde se propage vers les $z$ positifs,
 et comme $\vec{E} // \vec{u}_{x}$ l'onde est polarisée selon $x$
 
 #### b.
-$$(-ik)^{2} \underline{\vec{E}} = \mu_{0} \gamma i\omega \underline{\overrightarrow{E}} + \frac{1}{c^{2}} (i\omega)^{2} \underline{\vec{E}}$$
+$$(-ik)^{2} \underline{\vec{E}} = \mu_{0} \gamma i\omega \underline{\overrightarrow{E}} $$
 Alors, 
-$$\underline{k}^{2} = \frac{4\pi^{2}}{\lambda^{2}} -i \frac{2\pi\mu_{0}\gamma c}{\lambda}$$
+$$\underline{k}^{2} = -i \frac{2\pi\mu_{0}\gamma c}{\lambda}= e^{ -i \frac{\pi}{2} }\frac{2\pi\mu_{0}\gamma c}{\lambda}$$
 Donc, 
-$$\underline{k} = \frac{4\pi^{2}}{\lambda^{2}}\left( 1-i\frac{\mu_{0}\gamma c \lambda}{2\pi} \right) = \frac{4\pi^{2}}{\lambda^{2}}\left( 1-e^{ i\pi/2 }\frac{\mu_{0}\gamma c \lambda}{2\pi} \right)$$
+$$\underline{k} = e^{ -i \frac{\pi}{4} } \frac{2\pi \mu_{0}\gamma c}{\lambda} =  \frac{\sqrt{2}\pi \mu_{0}\gamma c}{\lambda}(1-i)$$
