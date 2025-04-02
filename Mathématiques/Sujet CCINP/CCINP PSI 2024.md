@@ -115,3 +115,12 @@ $$\left| \mathbb{1}_{]0, n[}(t) t^{x-1}\left( 1-\frac{t}{n} \right)^{n}\right| \
 #### Question 31
 Si on développe par colonne, : 
 $$\chi_{u_{\lambda}} = (X-\lambda)^{n}$$
+Donc $Sp(u_{\lambda}) = \{ \lambda \}$
+$$E_{\lambda}(u_{\lambda}) = \mathrm{Ker}(u_{\lambda}-\lambda I_{d}) = \mathrm{Ker} J_{0} = Vect(e_{n})$$
+
+### Question 32
+Supposons que $V$ est stable par $u_{0}$ alors, 
+Soit $x \in V$, 
+$$u_{\lambda}(x) = (u_{0} + \lambda I_{d})(x) = u_{0}(x) + \lambda x \in V$$
+
+### Question 33
