@@ -61,3 +61,6 @@ Or il y a des risques :
 - Uniformise
 - Pharisaïsme (attachement ostentatoire aux dogmes)
 
+La seule organisation politique capable de donner une naissance a une communauté dans laquelle l'unité de la société ne suppose pas des sacrifices ou des concessions majeures sur notre individualité c'est la démocratie. 
+
+La semonce
