@@ -77,3 +77,6 @@ La cohésion peut être hiérarchisée par
   + Le Religieux
     - Il aurait pu être vu comme vecteur de cohésion si il suffisait d'aimer son prochain. 
     - On confonds la religion avec la superstition (la crédulité extreme)
+
+Ce qu'il faut faire naître chez l'individu c'est le désir de la raison. 
+
