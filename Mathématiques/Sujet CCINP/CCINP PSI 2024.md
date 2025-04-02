@@ -127,4 +127,4 @@ $$u_{\lambda}(x) = (u_{0} + \lambda I_{d})(x) = u_{0}(x) + \lambda x \in V$$
 Comme $v$ est l'endo induit par $u_{\lambda}$ sur $V$ alors, $\chi_{v}|\chi_{u_{\lambda}}$
 
 ### Question 36
-$$\exp(tJ_{\lambda}) = e^{ t\lambda I_{n} }e^{ tJ_{0} } = e^{ t\lambda } +  $$
+$$\exp(tJ_{\lambda}) = e^{ t\lambda I_{n} }e^{ tJ_{0} } = e^{ t\lambda } $$
