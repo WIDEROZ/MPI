@@ -63,4 +63,7 @@ Or il y a des risques :
 
 La seule organisation politique capable de donner une naissance a une communauté dans laquelle l'unité de la société ne suppose pas des sacrifices ou des concessions majeures sur notre individualité c'est la démocratie. 
 
-La semonce
+3.Ressources politiques
+- La cohésion peut être hiérarchisée par un chef : confier le soin de la cohésion à un individu en particulier.
+- L'individu qui à soin de la cohésion est le seul capable de tempérer les tempéraments des individus
+- La cohésion peut être hiérarchisée par un souverain : Chez Spinoza c'est l'émanation de la volonté de tous les individus. 
