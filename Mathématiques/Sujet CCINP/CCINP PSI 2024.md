@@ -128,3 +128,8 @@ Comme $v$ est l'endo induit par $u_{\lambda}$ sur $V$ alors, $\chi_{v}|\chi_{u_{
 
 ### Question 36
 $$\exp(tJ_{\lambda}) = e^{ t\lambda I_{n} }e^{ tJ_{0} } = e^{ t\lambda } $$
+
+
+
+### Question 41
+$$\sum_{k= 1}^{n} $$
