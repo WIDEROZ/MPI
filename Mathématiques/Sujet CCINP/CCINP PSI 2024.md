@@ -112,4 +112,4 @@ $$\left| \mathbb{1}_{]0, n[}(t) t^{x-1}\left( 1-\frac{t}{n} \right)^{n}\right| \
 
 
 
-#### Question 29
+#### Question 30
