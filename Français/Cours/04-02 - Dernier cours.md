@@ -25,4 +25,5 @@ Ne pas opposer individu et communauté.
 # II. Grandes questions
 ## 1. Questions identitaires
 - Puisqu'il fait parti d'un tout comment peut-il réaliser son potentiel, comment peut-il se singulariser. 
-- 
+  + Qualités innés, complexions propres (tempérament, talent), cette complexion est orientée par l'éducation : Mimétisme, imitation, culture, sécurité, héritage, transmission, legs. 
+  + Au rencontre d'Ellen Archer deviens conscient des valeurs de la communauté. 
