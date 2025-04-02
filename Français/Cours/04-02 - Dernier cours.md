@@ -27,3 +27,9 @@ Ne pas opposer individu et communauté.
 - Puisqu'il fait parti d'un tout comment peut-il réaliser son potentiel, comment peut-il se singulariser. 
   + Qualités innés, complexions propres (tempérament, talent), cette complexion est orientée par l'éducation : Mimétisme, imitation, culture, sécurité, héritage, transmission, legs. 
   + Au rencontre d'Ellen Archer deviens conscient des valeurs de la communauté. 
+- $$\sum$$
+- Ne faut-il pas déconstruire l'identité, n'est elle pas figée? N'as t-il pas des appartenances multiples? 
+- Plus un individu s'émancipe plus il permet à la communauté de s'émanciper
+  de même
+  moins un individu s'émancipe moins il permet à la communauté de s'émanciper
+- Le point précédent marche aussi de la communauté à l'individu
