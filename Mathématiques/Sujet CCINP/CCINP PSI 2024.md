@@ -124,3 +124,6 @@ Soit $x \in V$,
 $$u_{\lambda}(x) = (u_{0} + \lambda I_{d})(x) = u_{0}(x) + \lambda x \in V$$
 
 ### Question 33
+$$Mat_\tilde{\mathcal{B}}({u_{\lambda}}) = \begin{pmatrix}
+
+\end{pmatrix} | P   $$
