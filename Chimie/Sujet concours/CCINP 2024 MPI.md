@@ -165,4 +165,4 @@ et comme $\vec{E} // \vec{u}_{x}$ l'onde est polarisée selon $x$
 
 #### b.
 $$\overrightarrow{\nabla} \wedge \overrightarrow{\underline{E}} = - \frac{\partial  \overrightarrow{\underline{B}}}{\partial t} \Leftrightarrow -i  \overrightarrow{\underline{k}}  \wedge \overrightarrow{\underline{E}} = - i\omega  \underline{\overrightarrow{B}}$$
-Ainsi,
+Ainsi, 
