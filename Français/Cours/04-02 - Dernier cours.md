@@ -33,3 +33,15 @@ Ne pas opposer individu et communauté.
   de même
   moins un individu s'émancipe moins il permet à la communauté de s'émanciper
 - Le point précédent marche aussi de la communauté à l'individu
+
+
+# III. Questions sociales
+(Du point de vue de la communauté)
+Comment assurer la cohésion des parties de façon à composer un tout harmonieux. 
+Spinoza examine les <u>obstacles à la cohésion</u> : 
+- Les parties qui composent le tout
+- Réticence naturelle à la subordination chez l'individu
+- Quelles menaces de déliaison : passions qui font obstacle à la cohésion (ne pas mettre anti-politique)
+- <u>La croyance selon Spinoza p.43</u> 
+- Le commun serait une idée sans cesse contrarié, ce n'est pas pour cela qu'il faut renoncer à la décision de la communauté. 
+- 
