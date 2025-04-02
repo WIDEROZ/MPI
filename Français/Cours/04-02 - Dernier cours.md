@@ -73,4 +73,7 @@ La cohésion peut être hiérarchisée par
 - Spinoza étudie la communauté des hébreux comme un moment intéressant de l'histoire politique car elle a su tirer parti de l'individu : créer des affects
 - Quels attachements peuvent nourrir la cohésion? : 
   + Famille :
-    - Solidaire de la souillure de son genos. 
+    - Eteocle comme Polynice sont solidaire de la souillure de leur genos. 
+  + Le Religieux
+    - Il aurait pu être vu comme vecteur de cohésion si il suffisait d'aimer son prochain. 
+    - On confonds la religion avec la superstition (la crédulité extreme)
