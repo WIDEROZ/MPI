@@ -112,4 +112,6 @@ $$\left| \mathbb{1}_{]0, n[}(t) t^{x-1}\left( 1-\frac{t}{n} \right)^{n}\right| \
 
 
 
-#### Question 30
+#### Question 31
+Si on développe par colonne, : 
+$$\chi_{u_{\lambda}} = (X-\lambda)^{n}$$
