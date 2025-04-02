@@ -169,4 +169,4 @@ $$(-ik)^{2} \underline{\vec{E}} = \mu_{0} \gamma i\omega \underline{\overrightar
 Alors, 
 $$\underline{k}^{2} = \frac{4\pi^{2}}{\lambda^{2}} -i \frac{2\pi\mu_{0}\gamma c}{\lambda}$$
 Donc, 
-$$\underline{k} = $$
+$$\underline{k} = \frac{4\pi^{2}}{\lambda^{2}}\left( 1-i\frac{\mu_{0}\gamma c \lambda}{2\pi} \right) = \frac{4\pi^{2}}{\lambda^{2}}\left( 1-e^{ i\pi/2 }\frac{\mu_{0}\gamma c \lambda}{2\pi} \right)$$
