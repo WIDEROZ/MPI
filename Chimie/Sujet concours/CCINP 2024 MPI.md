@@ -188,6 +188,12 @@ $$C_{t} = \frac{m_{t}}{(2M_{S}+3 M_{O}) V_{t}}$$
 #### Question 40
 $$\begin{array}{c}
 C_{6}H_{8}O_{6}&\rightleftharpoons&C_{6}H_{6}O_{6} + 2H^{+} + 2e^{-} \\
-I_{2} + 2e^{-} &\rightleftharpoons& 2I^{-} \\
-&\rightleftharpoons&
+2I^{-} &\rightleftharpoons& I_{2} + 2e^{-} \\
+2S_{2}O_{3}^{2-}  &\rightleftharpoons& S_{4}O_{6}^{2-} + 2e^{-}
+\end{array}$$
+$$\begin{array}{c}
+C_{6}H_{8}O_{6} + 2I_{2} + 2S_{2}O_{3}^{2-}&\rightleftharpoons&C_{6}H_{6}O_{6} + 4I^{-} + S_{4}O_{6}^{2-} + 2H^{+}
+\end{array}$$
+$$\begin{array}{c}
+(a)&(i)&(t)
 \end{array}$$
