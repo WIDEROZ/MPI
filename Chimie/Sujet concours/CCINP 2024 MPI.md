@@ -205,6 +205,12 @@ $$I_{2} : V_{i}C_{i}-n_{a}$$
 Dosage : 
 $$\begin{array}{c}
 &2S_{2}O_{3}^{2-} &+& I_{2} &\rightleftharpoons& 2I^{-}&+& S_{4}O_{6}^{2-} \\
-n_{init}&  && \\
-n_{réac}&n_{t}-2\xi&& C_{i}V_{i} - \xi && 2\xi&& \xi
+n_{init}&  n_{t} && V_{i}C_{i}-n_{a}&& 0 && 0 \\
+n_{réac}&n_{t}-2\xi&& V_{i}C_{i}-n_{a} - \xi && 2\xi&& \xi
 \end{array}$$
+
+#### Question 41
+$$n_{t} = C_{t}V_{t} \text{ alors à l'équivalence : }  $$
+$$n_{t}-2V_{i}C_{i}-2n_{a}-\xi= n_{t}-2V_{i}C_{i}-2n_{a}-\frac{n_{t}}{2} = 0$$
+Donc, 
+$$$$
