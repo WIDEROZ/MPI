@@ -63,6 +63,11 @@ $$K(\varphi(\psi(m))) = K(\varphi(n)) \leq$$
 let count (x:string) = 
 	let table = Hashtbl.create 256 in
 		for i = 0 to (String.length x) do
-			Hashtbl.add table (int_to_ASCII ) ()
-
+			match Hashtbl.find_opt table (x.[i]) with
+			| None -> Hashtbl.add table (x.[i]) 1
+			| Some(v) -> Hashtbl.add (x.[i]) (v+1)
+		done;
+	table
+;;
 ```
+
