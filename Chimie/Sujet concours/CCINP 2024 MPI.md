@@ -211,6 +211,10 @@ n_{réac}&n_{t}-2\xi&& V_{i}C_{i}-n_{a} - \xi && 2\xi&& \xi
 
 #### Question 41
 $$n_{t} = C_{t}V_{t} \text{ alors à l'équivalence : }  $$
-$$n_{t}-2V_{i}C_{i}-2n_{a}-\xi= n_{t}-2V_{i}C_{i}-2n_{a}-\frac{n_{t}}{2} = 0$$
+$$n_{t}-2\xi = V_{i}C_{i}-n_{a} - \xi  = 0 \Leftrightarrow \frac{n_{t}}{2} = \xi = n_{t} - V_{i}C_{i}+n_{a} $$
 Donc, 
-$$$$
+$$n_{a} = C_{i}V_{i}- \frac{C_{t}V_{t}}{2}$$
+Enfin
+
+#### Question 42
+$$\frac{m_{a}}{m_{p}} = $$
