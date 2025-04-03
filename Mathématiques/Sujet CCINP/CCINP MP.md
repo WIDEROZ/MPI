@@ -35,4 +35,30 @@ Alors, comme $\mathbb{R}^{*}$ n'est pas connexe par arc, $GL_{n}(\mathbb{R})$ ne
 $\mathbb{R}^{*}$ n'est pas connexe par arcs car il n'existe pas de chemins continu de $-1$ vers $1$. 
 
 # Exercice III
-#### Question
+## Quelques exemples
+#### 1.1.
+$$A^{\top} = I_{n} = A$$
+Chockbar
+#### 1.2.
+$$A^{\top} = A \in \mathcal{S}_{n}(\mathbb{R})$$
+Chockbar
+#### 1.3.
+$$A^{\top} = A^{-1} \in O_{n}(\mathbb{R})$$
+Chockbar
+
+$$\begin{pmatrix}
+1&0&0&0 \\
+0&1&0&0 \\
+0&0&\cos(\theta)&-\sin(\theta) \\
+0&0&\sin(\theta)&\cos(\theta)
+\end{pmatrix}$$
+
+
+#### 2.1.
+Par rec : 
+Soit $n \in \mathbb{N}$ tel que : $A(\theta)^{m} = A(m\theta)$, 
+$$A(\theta)^{m+1} = A(m\theta)A(\theta) = A^{m+1}(\theta)$$
+
+#### 2.2.
+Analyse : 
+Soit $$
