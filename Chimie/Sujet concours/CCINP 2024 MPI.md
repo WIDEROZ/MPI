@@ -170,3 +170,5 @@ Alors,
 $$\underline{k}^{2} = -i \frac{2\pi\mu_{0}\gamma c}{\lambda}= e^{ -i \frac{\pi}{2} }\frac{2\pi\mu_{0}\gamma c}{\lambda}$$
 Donc, 
 $$\underline{k} = e^{ -i \frac{\pi}{4} } \frac{2\pi \mu_{0}\gamma c}{\lambda} =  \frac{\sqrt{2}\pi \mu_{0}\gamma c}{\lambda}(1-i)$$
+
+#### c.
