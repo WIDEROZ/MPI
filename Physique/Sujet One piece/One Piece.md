@@ -18,6 +18,9 @@ $(M, \vec{e}_{r}, \vec{e}_{z})$ et $(M, \vec{e}_{\theta}, \vec{e}_{z})$ sont des
 
 Invariance : 
 Par rotation autour de $\vec{e}_{z}$ : 
-$$\vec{E} = E_{r}(z) \vec{e}_{z}$$
+$$\vec{E} = E(z) \vec{e}_{z}$$
 Par le théorème de gauss : 
-$$ E_{r}(r) S = \iint_{S} \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} = \frac{\sigma_{0}}{z\varepsilon_{0}} $$
+$$ E(z) S = \iint_{S} \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} = \frac{\sigma_{0}S}{\varepsilon_{0}}  \Rightarrow E = \frac{\sigma_{0}}{\varepsilon_{0}} $$
+
+#### Question 25
+$$$$
