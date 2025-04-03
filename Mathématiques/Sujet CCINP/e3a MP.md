@@ -16,3 +16,9 @@ Ainsi,
 $$GL_{n}(\mathbb{R}) \text{ est ouvert }$$
 
 #### Question 7
+Soit $M = (m_{i, j})_{i, j \in [\![1, n]\!]}$, 
+On prend $\rho = |\max\{ m_{i, i} ; i \in [\![1, n]\!]\}|$
+
+Soit $\rho \in \min Sp(M)^{+}$, et $\rho = 1$ si il n'existe pas de vp positives, 
+Alors, 
+
