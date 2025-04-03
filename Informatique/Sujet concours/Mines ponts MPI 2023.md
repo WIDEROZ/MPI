@@ -56,3 +56,13 @@ let psi m =
 Soit $n=\psi(m)$, 
 $$K(\varphi(\psi(m))) = K(\varphi(n)) \leq$$
 
+
+
+### 12.
+```Ocaml
+let count (x:string) = 
+	let table = Hashtbl.create 256 in
+		for i = 0 to (String.length x) do
+			Hashtbl.add table (int_to_ASCII ) ()
+
+```
