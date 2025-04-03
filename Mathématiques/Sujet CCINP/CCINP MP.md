@@ -61,4 +61,18 @@ $$A(\theta)^{m+1} = A(m\theta)A(\theta) = A^{m+1}(\theta)$$
 
 #### 2.2.
 Analyse : 
-Soit $$
+Aoit $\theta$ tel que : $A(\theta)^{n} = A(\theta)$ alors,
+$$A(\theta) = A(n \theta)$$
+Alors, 
+$$\begin{pmatrix}
+0&0&0 \\
+0&\cos(n\theta) -\cos(\theta)&\sin(\theta)-\sin(n\theta) \\
+0&\sin(n\theta)-\sin(\theta)&\cos(n\theta) -\cos(\theta)
+\end{pmatrix}$$
+Alors, 
+$$\begin{cases}
+\cos(n\theta) = \cos(\theta) \\
+\sin(n\theta) = \sin(\theta)
+\end{cases}$$
+Donc, 
+$$$$
