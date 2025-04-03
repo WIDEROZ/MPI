@@ -99,3 +99,12 @@ let rec tri_fusion l =
 	| [e] -> [e]
 	| _ -> let (l1, l2) = division l in fusion (tri_fusion l1) (tri_fusion l2)
 ;;
+
+
+let inc s = s := "a" ^ (!s); !s;;
+let new_string1 = 
+	let seed1 = ref "#" in
+		fun () -> inc seed1
+;;
+
+new_string1;;
