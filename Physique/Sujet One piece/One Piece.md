@@ -38,4 +38,4 @@ div(\vec{E}) = \frac{\rho}{\varepsilon_{0}} \\
 \end{cases}$$
 
 #### Question 30
-$$=-i\vec{k} \wedge E = $$
+$$i\omega \vec{B}=i\vec{k} \wedge \vec{E} = i\omega $$
