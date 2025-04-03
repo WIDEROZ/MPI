@@ -194,13 +194,17 @@ C_{6}H_{8}O_{6}&\rightleftharpoons&C_{6}H_{6}O_{6} + 2H^{+} + 2e^{-} \\
 Avant dosage : 
 $$\begin{array}{c}
 \begin{array}{ccc}
-C_{6}H_{8}O_{6} &+& I_{2} &\rightleftharpoons&C_{6}H_{6}O_{6} &+& 2I^{-}&+& 2H^{+}
+C_{6}H_{8}O_{6} &+& I_{2} &\rightleftharpoons&C_{6}H_{6}O_{6} &+& 2I^{-}&+& 2H^{+} \\
+n_{a}-\xi&&V_{i}C_{i}-\xi && \xi &&2\xi && 2\xi 
 \end{array} \\ 
-\begin{array}{ccc}  
-n_{a}-\xi&V_{i}
-\end{array}
 \end{array}$$
+
+Comme $n_{a}-\xi = 0$ car on dose le diiode en excès, on a à l'état final de cette réaction : 
+$$I_{2} : V_{i}C_{i}-n_{a}$$
+
 Dosage : 
 $$\begin{array}{c}
-2S_{2}O_{3}^{2-} + I_{2} &\rightleftharpoons& 2I^{-}+ S_{4}O_{6}^{2-}
+&2S_{2}O_{3}^{2-} &+& I_{2} &\rightleftharpoons& 2I^{-}&+& S_{4}O_{6}^{2-} \\
+n_{init}&  && \\
+n_{réac}&n_{t}-2\xi&& C_{i}V_{i} - \xi && 2\xi&& \xi
 \end{array}$$
