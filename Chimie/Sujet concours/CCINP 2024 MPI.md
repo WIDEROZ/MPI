@@ -182,4 +182,9 @@ Il semble bien conforme car on a bien une onde incidente qui est transmise dans 
 ## 2. Partie commune MP - MPI
 #### Question 39
 $$C_{i} = \frac{m_{i}}{M_{i}V_{i}} = \frac{m_{i}}{2M_{I} V_{i}}$$
-$$C_{t} = \frac{m_{t}}{(2M_{Na}+2M_{S}+3 M_{O}) V_{t}}$$
+$$C_{t} = \frac{m_{t}}{(2M_{S}+3 M_{O}) V_{t}}$$
+
+#### Question 40
+$$\begin{array}{|c|c|c|}
+
+\end{array}$$
