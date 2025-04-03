@@ -19,6 +19,5 @@ $$GL_{n}(\mathbb{R}) \text{ est ouvert }$$
 Soit $M = (m_{i, j})_{i, j \in [\![1, n]\!]}$, 
 On prend $\rho = |\max\{ m_{i, i} ; i \in [\![1, n]\!]\}|$
 
-Soit $\rho \in \min Sp(M)^{+}$, et $\rho = 1$ si il n'existe pas de vp positives, 
+Soit $\rho \in \min \left| Sp(M)\setminus \{ 0 \} \right|$, et $\rho = 1$ si il n'existe pas de vp. 
 Alors, 
-
