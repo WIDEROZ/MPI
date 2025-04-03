@@ -172,3 +172,12 @@ Donc,
 $$\underline{k} = e^{ -i \frac{\pi}{4} } \frac{2\pi \mu_{0}\gamma c}{\lambda} =  \frac{\sqrt{2}\pi \mu_{0}\gamma c}{\lambda}(1-i)$$
 
 #### c.
+Or comme : 
+$$\underline{k} = \frac{1-i}{\delta} $$
+$$\delta = \frac{\lambda}{\sqrt{2}\pi \mu_{0}\gamma c}$$
+
+#### Question 35
+Il semble bien conforme car on a bien une onde incidente qui est transmise dans la peau jusqu’à une certaine épaisseur $\delta$. 
+
+## 2.
+#### Question 39
