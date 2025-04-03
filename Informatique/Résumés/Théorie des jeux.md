@@ -1,2 +1,2 @@
 #### Attracteurs
-Ensemble des positions gagnantes du joueur $X$
+Ensemble des stratégies gagnantes du joueur $X$
