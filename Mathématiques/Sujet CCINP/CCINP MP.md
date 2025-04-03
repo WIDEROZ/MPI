@@ -20,4 +20,11 @@ Soit $M = (m_{i, j})_{i, j \in [\![1, n]\!]}$,
 On prend $\rho = |\max\{ m_{i, i} ; i \in [\![1, n]\!]\}|$
 
 Soit $\rho \in \min \left| Sp(M)\setminus \{ 0 \} \right|$, et $\rho = 1$ si il n'existe pas de vp. 
-Alors, 
+Alors, comme $M-\lambda I_{n} \notin GL_{n}(\mathbb{R}) \Leftrightarrow \lambda \in Sp(M)$, c'est fini .
+Soit $M \in \mathcal{M}_{n}(\mathbb{R})$
+$$M_{p} = M - \frac{\rho}{p+2} I_{n}$$
+Alors $M_{p} \in GL_{n}(\mathbb{R})$, et donc $M_{p} \to M$, Donc $\overline{GL_{n}(\mathbb{R})} = \mathcal{M}_{n}(\mathbb{R})$
+
+#### Question 8
+$$\chi_{AB} = \det(XI_{n}-AB)$$
+$$\chi_{BA} = \det(XI_{n} - BA)$$
