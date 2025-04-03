@@ -182,8 +182,8 @@ Il semble bien conforme car on a bien une onde incidente qui est transmise dans 
 
 ## 2. Partie commune MP - MPI
 #### Question 39
-$$C_{i} = \frac{m_{i}}{M_{i}V_{i}} = \frac{m_{i}}{2M_{I} V_{i}}$$
-$$C_{t} = \frac{m_{t}}{(2M_{S}+3 M_{O}) V_{t}}$$
+$$C_{i} = \frac{m_{i}}{M_{i}V_{i}} = \frac{2m_{i}}{2M_{I} V_{i}}$$
+$$C_{t} = \frac{7m_{t}}{(2M_{Na} + 2M_{S}+3 M_{O}) V_{t}}$$
 
 #### Question 40
 $$\begin{array}{c}
@@ -191,9 +191,16 @@ C_{6}H_{8}O_{6}&\rightleftharpoons&C_{6}H_{6}O_{6} + 2H^{+} + 2e^{-} \\
 2I^{-} &\rightleftharpoons& I_{2} + 2e^{-} \\
 2S_{2}O_{3}^{2-}  &\rightleftharpoons& S_{4}O_{6}^{2-} + 2e^{-}
 \end{array}$$
+Avant dosage : 
 $$\begin{array}{c}
-C_{6}H_{8}O_{6} + 2I_{2} + 2S_{2}O_{3}^{2-}&\rightleftharpoons&C_{6}H_{6}O_{6} + 4I^{-} + S_{4}O_{6}^{2-} + 2H^{+}
+\begin{array}{ccc}
+C_{6}H_{8}O_{6} &+& I_{2} &\rightleftharpoons&C_{6}H_{6}O_{6} &+& 2I^{-}&+& 2H^{+}
+\end{array} \\ 
+\begin{array}{ccc}  
+n_{a}-\xi&V_{i}
+\end{array}
 \end{array}$$
+Dosage : 
 $$\begin{array}{c}
-(a)&(i)&(t)
+2S_{2}O_{3}^{2-} + I_{2} &\rightleftharpoons& 2I^{-}+ S_{4}O_{6}^{2-}
 \end{array}$$
