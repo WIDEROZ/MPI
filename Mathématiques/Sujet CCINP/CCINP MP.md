@@ -66,13 +66,15 @@ $$A(\theta) = A(n \theta)$$
 Alors, 
 $$\begin{pmatrix}
 0&0&0 \\
-0&\cos(n\theta) -\cos(\theta)&\sin(\theta)-\sin(n\theta) \\
-0&\sin(n\theta)-\sin(\theta)&\cos(n\theta) -\cos(\theta)
+0&\cos(n\theta) -\cos(\theta)&-\sin(\theta)-\sin(n\theta) \\
+0&\sin(n\theta)+\sin(\theta)&\cos(n\theta) -\cos(\theta)
 \end{pmatrix}$$
 Alors, 
 $$\begin{cases}
 \cos(n\theta) = \cos(\theta) \\
-\sin(n\theta) = \sin(\theta)
+\sin(n\theta) = -\sin(\theta)
 \end{cases}$$
 Donc, 
-$$$$
+$$n \in \pi \mathbb{N}$$
+
+
