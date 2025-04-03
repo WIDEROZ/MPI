@@ -12,5 +12,12 @@ $$e^{ -a(x-x_{0}) } = 1 \text{ ie } \boxed{x_{eq} =  x_{0}}$$
 # Partie II - Kami no Sabaki
 #### Question 24
 Soit $M$ un point entre les deux plaques du condensateur
+
 Symétrie : 
-$(M, \vec{e}_{x}, \vec{e}_{z})$ et $(M, \vec{e}_{y}, \vec{e}_{z})$ sont des plans de symétrie pour la distribution de charge donc, $\vec{E} // \vec{e}_{z}$. 
+$(M, \vec{e}_{r}, \vec{e}_{z})$ et $(M, \vec{e}_{\theta}, \vec{e}_{z})$ sont des plans de symétrie pour la distribution de charge donc, $\vec{E} // \vec{e}_{z}$. 
+
+Invariance : 
+Par rotation autour de $\vec{e}_{z}$ : 
+$$\vec{E} = E_{r}(z) \vec{e}_{z}$$
+Par le théorème de gauss : 
+$$ E_{r}(r) S = \iint_{S} \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} = \frac{\sigma_{0}}{z\varepsilon_{0}} $$
