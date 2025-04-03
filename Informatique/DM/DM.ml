@@ -107,4 +107,16 @@ let new_string1 =
 		fun () -> inc seed1
 ;;
 
-new_string1;;
+new_string1 ();;
+
+
+
+let new_string2 () =
+	let seed2 = ref "#" in inc seed2;;
+
+new_string2 ();;
+
+let seed3 = ref "#"
+let new_string3 () = inc seed3
+
+new_string3 ();;
