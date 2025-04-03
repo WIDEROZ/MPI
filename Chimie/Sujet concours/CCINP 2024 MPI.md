@@ -169,11 +169,12 @@ $$(-ik)^{2} \underline{\vec{E}} = \mu_{0} \gamma i\omega \underline{\overrightar
 Alors, 
 $$\underline{k}^{2} = -i \frac{2\pi\mu_{0}\gamma c}{\lambda}= e^{ -i \frac{\pi}{2} }\frac{2\pi\mu_{0}\gamma c}{\lambda}$$
 Donc, 
-$$\underline{k} = e^{ -i \frac{\pi}{4} } \frac{2\pi \mu_{0}\gamma c}{\lambda} =  \frac{\sqrt{2}\pi \mu_{0}\gamma c}{\lambda}(1-i)$$
+$$\underline{k} = \pm e^{ -i \frac{\pi}{4} } \frac{2\pi \mu_{0}\gamma c}{\lambda} =  \pm\frac{\sqrt{2}\pi \mu_{0}\gamma c}{\lambda}(1-i)$$
+
 
 #### c.
 Or comme : 
-$$\underline{k} = \frac{1-i}{\delta} $$
+$$\underline{k} = \pm\frac{1-i}{\delta} $$
 $$\delta = \frac{\lambda}{\sqrt{2}\pi \mu_{0}\gamma c}$$
 
 #### Question 35
@@ -185,6 +186,8 @@ $$C_{i} = \frac{m_{i}}{M_{i}V_{i}} = \frac{m_{i}}{2M_{I} V_{i}}$$
 $$C_{t} = \frac{m_{t}}{(2M_{S}+3 M_{O}) V_{t}}$$
 
 #### Question 40
-$$\begin{array}{|c|c|c|}
-
+$$\begin{array}{c}
+C_{6}H_{8}O_{6}&\rightleftharpoons&C_{6}H_{6}O_{6} + 2H^{+} + 2e^{-} \\
+I_{2} + 2e^{-} &\rightleftharpoons& 2I^{-} \\
+&\rightleftharpoons&
 \end{array}$$
