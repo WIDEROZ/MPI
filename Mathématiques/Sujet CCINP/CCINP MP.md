@@ -28,3 +28,11 @@ Alors $M_{p} \in GL_{n}(\mathbb{R})$, et donc $M_{p} \to M$, Donc $\overline{GL_
 #### Question 8
 $$\chi_{AB} = \det(XI_{n}-AB)$$
 $$\chi_{BA} = \det(XI_{n} - BA)$$
+
+#### Question 9
+$$\det(GL_{n}(\mathbb{R})) = \mathbb{R}^{*}$$
+Alors, comme $\mathbb{R}^{*}$ n'est pas connexe par arc, $GL_{n}(\mathbb{R})$ ne l'est pas. 
+$\mathbb{R}^{*}$ n'est pas connexe par arcs car il n'existe pas de chemins continu de $-1$ vers $1$. 
+
+# Exercice III
+#### Question
