@@ -90,6 +90,3 @@ $$B^{n} = A^{n^{2}+n} = AA^{n} = A^{n+1}  =B$$
 $$B^{\top} = (A^{n+1})^{\top} = (A^{\top})^{n+1} = (A^{n})^{n+1} = A^{n+1} = B $$
 
 #### 3.3.4
-$$X^{\top}BX = \begin{pmatrix}
-m_{1, 1}&m_{1, i}&\dots & m_{1, n}
-\end{pmatrix}$$
