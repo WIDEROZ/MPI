@@ -7,6 +7,18 @@ $$m\ddot{x} = \vec{F} = - \overrightarrow{grad}(V) = - \frac{\partial V}{\partia
 $$e^{ -a(x-x_{0}) } = 1 \text{ ie } \boxed{x_{eq} =  x_{0}}$$
 
 #### Question 2
+$$V(x) \approx V_{0}(-a(x-x_{0}) )^{2} =  V_{0}a^{2} (x-x_{0})^{2} = \frac{1}{2}k(x-x_{0})^{2}$$
+Alors, 
+$$\boxed{k = 2V_{0}a^{2}}$$
+
+#### Question 3
+On fait un PFD en 
+$$m\ddot{x} = -2V_{0} a^{2}(x-x_{0}) s\Leftrightarrow m  \ddot{\varepsilon}(t) + 2V_{0}a^{2}\varepsilon(t)=0$$
+Alors, 
+$$\ddot{x}+ \frac{2V_{0}a^{2}}{m}x = \frac{2V_{0}a^{2}}{m}x_{0} \Leftrightarrow \omega = \sqrt{\frac{2V_{0}a^{2}}{m}}$$
+donc, 
+$$$$
+
 
 
 # Partie II - Kami no Sabaki
