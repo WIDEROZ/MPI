@@ -100,4 +100,10 @@ Alors, $B$ admet comme valeur propre $0$ et $1$ car ses vp sont positives.
 #### 3.3.5
 Donc, $B$ est une matrice de proj. sur $E_{1}(B)$ par rapport à $E_{0}(B)$
 Soit $X_{1} \in E_{1}(B)$ et $X_{0} \in E_{0}(B)$, 
-$$\left< BX_{1}, X_{0} \right>  = X_{1}^{\top}X_{0} =  $$
+$$\left< X_{1}, X_{0} \right>  = \left< BX_{1}, X_{0} \right> = X_{1}^{\top}BX_{0} =0 $$
+car $BX_{1} = X_{1}$ et $X_{0} \in E_{0}(B)$
+
+#### 3.3.
+$$\mathrm{Ker}(A) \subset \mathrm{Ker}(A^{n+1}) = \mathrm{Ker}(B)$$
+Soit $X \in \mathrm{Ker}(B)=E_{0}(B)$, 
+$$$$
