@@ -90,9 +90,14 @@ $$B^{n} = A^{n^{2}+n} = AA^{n} = A^{n+1}  =B$$
 $$B^{\top} = (A^{n+1})^{\top} = (A^{\top})^{n+1} = (A^{n})^{n+1} = A^{n+1} = B $$
 
 #### 3.3.4
-$B$ est de type $n$, 
 $$X^{n} - X = 0 \Leftrightarrow X(X^{n-1}-1) = 0$$
 est un polynôme annulateur de $B$ car $B$ est de type $n$ et symétrique, 
-Alors comme $B\neq I_{n}$ et $B \neq 0$, $\mu_{u} \neq X^{n-1}-1$ et $\mu_{u} \neq X$ Ainsi, 
-$$\mu_{B} = X^{n}-X$$
-Alors, comme $$
+Alors comme $B\neq I_{n}$ et $B \neq 0$, $\mu_{u} \neq X^{n-1}-1$ et $\mu_{u} \neq X$ Ainsi, comme $B$ est sym réelle elle est DZ alors : 
+$$\mu_{B} = X^{n}-X = X(X^{n-1}-1) $$
+Ainsi comme $Rac({\mu_{B}}) = Sp(\mu_{B})$
+Alors, $B$ admet comme valeur propre $0$ et $1$ car ses vp sont positives. 
+
+#### 3.3.5
+Donc, $B$ est une matrice de proj. sur $E_{1}(B)$ par rapport à $E_{0}(B)$
+Soit $X_{1} \in E_{1}(B)$ et $X_{0} \in E_{0}(B)$, 
+$$\left< BX_{1}, X_{0} \right>  = X_{1}^{\top}X_{0} =  $$
