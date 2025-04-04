@@ -121,6 +121,5 @@ Soit $(e_{i})_{i = 1}^{n^{2}-1}$ une base de $H$ qui est de bonne dimension car 
 Soit $T \in \mathcal{M}_{n} \setminus H$, 
 
 #### 2.
-Matrices tq $i \neq j$, 
-$$\sum_{i = 1}^{n} \sum_{j = 1}^{n} (E_{i, j} + E_{j, i}) = \sum_{i = 1} ^{n} \sum_{j =1}^{n} E_{i , i}$$
-
+$$\mu_{u} | \chi_{u}$$
+$0$ n'est pas vp alors, 
