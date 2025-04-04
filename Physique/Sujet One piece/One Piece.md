@@ -18,11 +18,11 @@ $(M, \vec{e}_{r}, \vec{e}_{z})$ et $(M, \vec{e}_{\theta}, \vec{e}_{z})$ sont des
 
 Invariance : 
 Par translation par $\vec{e}_{x}$ et $\vec{e}_{y}$ : 
-$$\vec{E} = E(z) \vec{e}_{z}$$
-On prend comme surface de gauss un cylindre de hauteur $2z$ de section $S$. 
+$$\vec{E} = E(z, t) \vec{e}_{z}$$
+On prend comme surface de gauss un cylindre de hauteur $h$ de section $S$ . ou $z<d$ et non égal car la distribution surfacique n'est pas définie pour $\vec{E}$ sur ce point
 
 Par le théorème de gauss : 
-$$ E(z) S = \iint_{S} \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} = \frac{\sigma_{0}S}{\varepsilon_{0}}  \Rightarrow E = -\frac{\sigma_{0}}{2\varepsilon_{0}} $$
+$$ 2E(z) S =( E(z) - E(-z) )S= \iint_{S} \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} = \frac{\sigma_{0}S}{\varepsilon_{0}}  \Rightarrow E = -\frac{\sigma_{0}}{2\varepsilon_{0}} $$
 
 #### Question 25
 $$E = -\overrightarrow{grad}(U) = - \frac{\partial U}{\partial z} $$
