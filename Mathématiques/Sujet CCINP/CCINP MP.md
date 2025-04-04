@@ -90,3 +90,9 @@ $$B^{n} = A^{n^{2}+n} = AA^{n} = A^{n+1}  =B$$
 $$B^{\top} = (A^{n+1})^{\top} = (A^{\top})^{n+1} = (A^{n})^{n+1} = A^{n+1} = B $$
 
 #### 3.3.4
+$B$ est de type $n$, 
+$$X^{n} - X = 0 \Leftrightarrow X(X^{n-1}-1) = 0$$
+est un polynôme annulateur de $B$ car $B$ est de type $n$ et symétrique, 
+Alors comme $B\neq I_{n}$ et $B \neq 0$, $\mu_{u} \neq X^{n-1}-1$ et $\mu_{u} \neq X$ Ainsi, 
+$$\mu_{B} = X^{n}-X$$
+Alors, comme $$
