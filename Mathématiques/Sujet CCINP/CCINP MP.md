@@ -108,4 +108,9 @@ $$\mathrm{Ker}(A) \subset \mathrm{Ker}(A^{n+1}) = \mathrm{Ker}(B)$$
 Soit $X \in \mathrm{Ker}(B)=E_{0}(B)$, 
 $$\chi_{B} = X(X^{n-1}-1)$$
 Alors, 
-$$1\leq $$
+
+
+
+$$\left|\left| AX \right|\right|  = \left|\left| X \right|\right| $$
+$$\left|\left| AX \right|\right| =  \sqrt{\left< AX, AX \right> } = \sqrt{\left< X, X \right> } = \left|\left| X \right|\right| $$
+
