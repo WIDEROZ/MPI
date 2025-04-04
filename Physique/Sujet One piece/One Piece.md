@@ -49,6 +49,7 @@ $\vec{E}$ est invariant par rotation d'axe $Oz$ alors, $\vec{B} = B(r, z, t)\vec
 
 
 #### Question 36
-$$\Delta(U) = -\frac{\rho}{\varepsilon_{0}} =$$
+$$\Delta(U) = -\frac{\rho}{\varepsilon_{0}} =feùr$$
 Alors, 
 $$\frac{\partial^{2}(rU)}{\partial r^{2}}  = 0$$
+maâloul
