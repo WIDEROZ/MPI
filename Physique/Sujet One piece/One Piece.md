@@ -43,9 +43,10 @@ $$\boxed{u_{n}(t)  = x_{n}(t) - x_{n}(0)}$$
 On prend le référentiel non galiléen de la masse $n$ : 
 Le système ne subit rotation donc la force de Coriolis est nulle : 
 On prends l'accélération algébrique : 
-$$f_{ie} =  m_{n-1}a_{n-1}+m_{n+1}a_{n+1}$$
-
-
+$$f_{ie} =  m(a_{n-1}+a_{n+1}) = m(\ddot{x}_{n-1} + \ddot{x}_{n+1})$$
+On fais un PFD en référentiel non galiléen : 
+$$\ddot{u}_{n} + na = \ddot{x}_{n} = \ddot{x}_{n-1}+\ddot{x}_{n+1} = (n-1)a + (n+1)a  + \ddot{u}_{n-1} + \ddot{u}_{n+1}$$
+$$\ddot{u}_{n} = \ddot{u}_{n+1} + \ddot{u}_{n-1}$$
 
 
 
