@@ -42,7 +42,8 @@ $$\boxed{u_{n}(t)  = x_{n}(t) - x_{n}(0)}$$
 #### Question 6
 On prend le référentiel non galiléen de la masse $n$ : 
 Le système ne subit rotation donc la force de Coriolis est nulle : 
-$$f_{ie} =  m_{n-1}a_{n-1}-m_{n+1}a_{n+1}$$
+On prends l'accélération algébrique : 
+$$f_{ie} =  m_{n-1}a_{n-1}+m_{n+1}a_{n+1}$$
 
 
 
