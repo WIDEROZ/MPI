@@ -120,3 +120,7 @@ $$\left|\left| AX \right|\right| =  \sqrt{\left< AX, AX \right> } = \sqrt{\left<
 Soit $(e_{i})_{i = 1}^{n^{2}-1}$ une base de $H$ qui est de bonne dimension car $\dim \mathcal{E}_{n} = n^{2}$, 
 Soit $T \in \mathcal{M}_{n} \setminus H$, 
 
+#### 2.
+Matrices tq $i \neq j$, 
+$$\sum_{i = 1}^{n} \sum_{j = 1}^{n} (E_{i, j} + E_{j, i}) = \sum_{i = 1} ^{n} \sum_{j =1}^{n} E_{i , i}$$
+
