@@ -106,4 +106,6 @@ car $BX_{1} = X_{1}$ et $X_{0} \in E_{0}(B)$
 #### 3.3.
 $$\mathrm{Ker}(A) \subset \mathrm{Ker}(A^{n+1}) = \mathrm{Ker}(B)$$
 Soit $X \in \mathrm{Ker}(B)=E_{0}(B)$, 
-$$$$
+$$\chi_{B} = X(X^{n-1}-1)$$
+Alors, 
+$$1\leq $$
