@@ -34,6 +34,12 @@ $$\boxed{\varepsilon(t) = \frac{\beta}{2}(e^{ -\omega t }+e^{ \omega t })}$$
 #### Question 4
 
 
+## I.2.
+#### Question 5
+ 
+
+
+
 
 # Partie II - Kami no Sabaki
 #### Question 24
