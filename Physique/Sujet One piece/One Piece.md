@@ -46,3 +46,9 @@ Symétrie :
 Pour $(M, \vec{e}_{r}, \vec{e}_{z})$ est un plan de symétrie de $\vec{E}$ donc d'antisymétrie de $\vec{B}$ alors $\vec{B} // \vec{e}_{\theta}$
 Invariance : 
 $\vec{E}$ est invariant par rotation d'axe $Oz$ alors, $\vec{B} = B(r, z, t)\vec{e}_{\theta}$
+
+
+#### Question 36
+$$\Delta(U) = -\frac{\rho}{\varepsilon_{0}} =$$
+Alors, 
+$$\frac{\partial^{2}(rU)}{\partial r^{2}}  = 0$$
