@@ -36,7 +36,7 @@ $$\boxed{\varepsilon(t) = \frac{\beta}{2}(e^{ -\omega t }+e^{ \omega t })}$$
 
 ## I.2.
 #### Question 5
- 
+$$\boxed{x_{n}(0) = na}$$
 
 
 
