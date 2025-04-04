@@ -40,6 +40,9 @@ div(\vec{E}) = \frac{\rho}{\varepsilon_{0}} \\
 \end{cases}$$
 
 #### Question 30
-$$i\omega \vec{B}=i\vec{k} \wedge \vec{E}$$
-Alors, 
-$$\vec{B} = \frac{\vec{k} \wedge \vec{E}}{\omega} = \frac{k}{\omega} $$
+$\vec{E}$ est source de $\vec{B}$ : 
+Soit $M$ un point 
+Symétrie : 
+Pour $(M, \vec{e}_{r}, \vec{e}_{z})$ est un plan de symétrie de $\vec{E}$ donc d'antisymétrie de $\vec{B}$ alors $\vec{B} // \vec{e}_{\theta}$
+Invariance : 
+$\vec{E}$ est invariant par rotation d'axe $Oz$ alors, $\vec{B} = B(r, z, t)\vec{e}_{\theta}$
