@@ -17,8 +17,10 @@ Symétrie :
 $(M, \vec{e}_{r}, \vec{e}_{z})$ et $(M, \vec{e}_{\theta}, \vec{e}_{z})$ sont des plans de symétrie pour la distribution de charge donc, $\vec{E} // \vec{e}_{z}$. 
 
 Invariance : 
-Par rotation autour de $\vec{e}_{z}$ : 
+Par translation par $\vec{e}_{x}$ et $\vec{e}_{y}$ : 
 $$\vec{E} = E(z) \vec{e}_{z}$$
+On prend comme surface de gauss un cylindre de hauteur $2z$ de section $S$. 
+
 Par le théorème de gauss : 
 $$ E(z) S = \iint_{S} \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} = \frac{\sigma_{0}S}{\varepsilon_{0}}  \Rightarrow E = -\frac{\sigma_{0}}{2\varepsilon_{0}} $$
 
@@ -38,4 +40,6 @@ div(\vec{E}) = \frac{\rho}{\varepsilon_{0}} \\
 \end{cases}$$
 
 #### Question 30
-$$i\omega \vec{B}=i\vec{k} \wedge \vec{E} = i\omega $$
+$$i\omega \vec{B}=i\vec{k} \wedge \vec{E}$$
+Alors, 
+$$\vec{B} = \frac{\vec{k} \wedge \vec{E}}{\omega} = \frac{k}{\omega} $$
