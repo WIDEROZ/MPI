@@ -2,12 +2,12 @@
 ## I.1 - Oscillateur harmonique
 #### Question 1
 PDF à l'équilibre : 
-$$m\ddot{x} = \vec{F} = - \overrightarrow{grad}(V) = - \frac{\partial V}{\partial x}(x) = -2V_{0} a(1-e^{ -a(x-x_{0}) }) $$
+$$0 = m\ddot{x} = \vec{F} = - \overrightarrow{grad}(V) = - \frac{\partial V}{\partial x}(x) = -2V_{0} a(1-e^{ -a(x-x_{0}) }) $$
 à l'équilibre : 
 $$e^{ -a(x-x_{0}) } = 1 \text{ ie } \boxed{x_{eq} =  x_{0}}$$
 
 #### Question 2
-$$V(x) \approx V_{0}(-a(x-x_{0}) )^{2} =  V_{0}a^{2} (x-x_{0})^{2} = \frac{1}{2}k(x-x_{0})^{2}$$
+$$V(x) \approx V_{0}(-a(x-x_{0}) )^{2} =  V_{0}a^{2} (x-x_{0})^{2} = \frac{1}{2}k\varepsilon^{2}$$
 Alors, 
 $$\boxed{k = 2V_{0}a^{2}}$$
 
@@ -15,9 +15,23 @@ $$\boxed{k = 2V_{0}a^{2}}$$
 On fait un PFD en 
 $$m\ddot{x} = -2V_{0} a^{2}(x-x_{0}) s\Leftrightarrow m  \ddot{\varepsilon}(t) + 2V_{0}a^{2}\varepsilon(t)=0$$
 Alors, 
-$$\ddot{x}+ \frac{2V_{0}a^{2}}{m}x = \frac{2V_{0}a^{2}}{m}x_{0} \Leftrightarrow \omega = \sqrt{\frac{2V_{0}a^{2}}{m}}$$
+$$\ddot{\varepsilon}(t)+ \frac{2V_{0}a^{2}}{m}\varepsilon(t)= 0 \Leftrightarrow \omega_{0} = \sqrt{\frac{2V_{0}a^{2}}{m}}$$
 donc, 
-$$$$
+$$\begin{cases}
+\varepsilon(t) = Ae^{ -\omega t } + B e^{ \omega t } \\
+\varepsilon(0)= \beta \\
+\dot{\varepsilon}(0) = 0
+\end{cases} \Rightarrow \begin{cases}
+A + B = \beta \\
+B\omega - A\omega = 0 
+\end{cases} \Rightarrow \begin{cases}
+A = \frac{\beta}{2} \\
+B = \frac{\beta}{2}
+\end{cases}$$
+Ainsi, 
+$$\boxed{\varepsilon(t) = \frac{\beta}{2}(e^{ -\omega t }+e^{ \omega t })}$$
+
+#### Question 4
 
 
 
