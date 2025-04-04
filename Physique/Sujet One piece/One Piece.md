@@ -37,8 +37,10 @@ $$\boxed{\varepsilon(t) = \frac{\beta}{2}(e^{ -\omega t }+e^{ \omega t })}$$
 ## I.2.
 #### Question 5
 $$\boxed{x_{n}(0) = na}$$
+$$\boxed{u_{n}(t)  = x_{n}(t) - x_{n}(0)}$$
 
-
+#### Question 6
+On prend le référentiel non gali
 
 
 # Partie II - Kami no Sabaki
