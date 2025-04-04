@@ -114,3 +114,9 @@ Alors,
 $$\left|\left| AX \right|\right|  = \left|\left| X \right|\right| $$
 $$\left|\left| AX \right|\right| =  \sqrt{\left< AX, AX \right> } = \sqrt{\left< X, X \right> } = \left|\left| X \right|\right| $$
 
+
+
+#### 1.
+Soit $(e_{i})_{i = 1}^{n^{2}-1}$ une base de $H$ qui est de bonne dimension car $\dim \mathcal{E}_{n} = n^{2}$, 
+Soit $T \in \mathcal{M}_{n} \setminus H$, 
+
