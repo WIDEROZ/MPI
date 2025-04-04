@@ -19,14 +19,14 @@ $(M, \vec{e}_{r}, \vec{e}_{z})$ et $(M, \vec{e}_{\theta}, \vec{e}_{z})$ sont des
 Invariance : 
 Par translation par $\vec{e}_{x}$ et $\vec{e}_{y}$ : 
 $$\vec{E} = E(z, t) \vec{e}_{z}$$
-On prend comme surface de gauss un cylindre de hauteur $h$ de section $S$ . ou $z<d$ et non égal car la distribution surfacique n'est pas définie pour $\vec{E}$ sur ce point
+On prend comme surface de gauss un cylindre de hauteur $z_{h}-z_{b}$ de section $S$ , à cheval entre le haut de la plaque chargée et ou les $z$ sont différents de $d$ car la distribution surfacique n'est pas définie pour $\vec{E}$ sur ce point
 
 Par le théorème de gauss : 
-$$ 2E(z) S =( E(z) - E(-z) )S= \iint_{S} \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} = \frac{\sigma_{0}S}{\varepsilon_{0}}  \Rightarrow E = -\frac{\sigma_{0}}{2\varepsilon_{0}} $$
+$$ -E(z_{b}) S =( E(z_{h}) - E(-z_{b}) )S= \iint_{S} \vec{E}.d\vec{S} = \frac{\rho}{\varepsilon_{0}} = \frac{\sigma_{0}S}{\varepsilon_{0}}  \Rightarrow E = -\frac{\sigma_{0}}{\varepsilon_{0}} $$
 
 #### Question 25
 $$E = -\overrightarrow{grad}(U) = - \frac{\partial U}{\partial z} $$
-$$\int_{0}^{d} E.dz = U_{0}-0 \Rightarrow U_{0} = \frac{\sigma_{0}}{2\varepsilon_{0}}d$$
+$$\int_{0}^{d} E.dz = U_{0}-0 \Rightarrow U_{0} = \frac{\sigma_{0}}{\varepsilon_{0}}d$$
 
 #### Question 28
 $$E_{0} = -\frac{U_{0}}{d}$$
