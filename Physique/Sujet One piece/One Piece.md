@@ -40,7 +40,16 @@ $$\boxed{x_{n}(0) = na}$$
 $$\boxed{u_{n}(t)  = x_{n}(t) - x_{n}(0)}$$
 
 #### Question 6
-On prend le référentiel non gali
+On prend le référentiel non galiléen de la masse $n$ : 
+Le système ne subit rotation donc la force de Coriolis est nulle : 
+$$$$
+
+
+
+
+
+
+
 
 
 # Partie II - Kami no Sabaki
