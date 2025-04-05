@@ -77,10 +77,17 @@ $$\boxed{\omega^{2} = 4\omega_{0}^{2}\sin\left( \frac{qa}{2} \right)^{2} }$$
 $$v_{g} = \frac{d\omega}{dq}$$
 pente de $\omega$
 $$v_{\varphi} = \frac{\omega}{q}$$
-sinc
+
 
 #### Question 11
-Oui car $\omega$
+Oui car $\omega$ dépend de $q$ qui dépend de la longueur d'onde
+$$0 < \sin\left( \frac{qa}{2} \right) \leq 1 \Rightarrow \boxed{0 < \omega \leq 2\omega_{0}} $$
+
+#### Question 12
+$$v_{g} = a\omega_{0} \cos\left( \frac{aq}{2} \right)$$
+$$v_{\varphi} = 2\omega_{0}  \space\mathrm {sinc}\left( \frac{qa}{2} \right) $$
+
+
 
 
 
