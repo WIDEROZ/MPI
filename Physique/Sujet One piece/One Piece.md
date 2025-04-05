@@ -69,9 +69,19 @@ $$\lambda = x_{p}-x_{n} = a(p-n)$$
 #### Question 9
 $$-\omega^{2} e^{ i(\omega t-qna) } = \omega_{0}^{2}(e^{ i(\omega t-q(n-1)a) } + e^{ i(\omega t-q(n+1)a) } - 2 e^{ i(\omega t-qna) })$$
 $$-\omega^{2} = \omega_{0}^{2}(e^{ iqa } + e^{ -iqa } - 2) = \omega_{0}^{2} (2\cos(qa) - 2) = 2\omega_{0}^{2}(\cos (qa) - 1)$$
-$$- \omega^{2} = 2\omega_{0}^{2}()$$
+$$\boxed{\omega^{2} = 4\omega_{0}^{2}\sin\left( \frac{qa}{2} \right)^{2} }$$
 
-$$1-2\sin ^{2}\left( \frac{qa}{2} \right) = \cos ^{2}\left( \frac{qa}{2} \right)-\sin ^{2}\left( \frac{qa}{2} \right) = \cos(qa)$$
+
+
+#### Question 10
+$$v_{g} = \frac{d\omega}{dq}$$
+pente de $\omega$
+$$v_{\varphi} = \frac{\omega}{q}$$
+sinc
+
+#### Question 11
+Oui car $\omega$
+
 
 
 # Partie II - Kami no Sabaki
