@@ -73,6 +73,18 @@ let rec iter (f : 'a -> unit) (t : int) (u : 'a stream) : unit =
 
 #### Question 11
 ```Ocaml
-let map (f:'a ->’b) (u:'a stream) : ’b stream = 
+let rec map (f:'a ->’b) (u:'a stream):’b stream = 
+	match u with
+	| Nil -> Nil
+	| Cons(e, s) -> Cons(f e, fun () -> map f s)
+```
+
+
+#### Question 12
+```Ocaml
+let zip (w : ’a stream array) : ’a array stream = 
+	let rec 
 	
+	done;
+
 ```
