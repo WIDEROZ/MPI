@@ -41,16 +41,23 @@ $$\boxed{u_{n}(t)  = x_{n}(t) - x_{n}(0)}$$
 
 #### Question 6
 $$\begin{cases}
-f_{n-1} = -k(l-l_{0}) = -ku_{n-1} \\
-f_{n+1} = k(l-l_{0}) = ku_{n+1}
+f_{n-1} = -k(l_{g}-l_{0}) = -k(x_{n}-x_{n-1}-l_{0}) = -k(u_{n} - u_{n-1}-l_{0})\\
+f_{n+1} = k(l_{d}-l_{0}) = k(x_{n+1}-x_{n}-l_{0})=k(u_{n+1}-u_{n}-l_{0})
 \end{cases}$$
 On fais un PFD en référentiel galiléen : 
-$$m \ddot{u}_{n} = ku_{n+1} - ku_{n-1}$$
+$$m \ddot{x}_{n} = k(u_{n+1}-2u_{n} +u_{n-1})$$
 Alors, 
-$$\ddot{u}_{n} = \frac{k}{m}(u_{n+1}-u_{n-1})$$
+$$\boxed{\ddot{u}_{n} = \frac{k}{m}(u_{n+1}+u_{n-1} -2 u_{n}) \Leftrightarrow \begin{cases}
+\alpha = 2 \\
+\omega_{0} = \sqrt{\frac{k}{m}}
+\end{cases}}$$
 
+#### Question 7
+Oui, 
+$$U_{0} \equiv \text{ amplitude du ressort }$$
+$$\omega \equiv \text{ pulsation du ressort }$$
 
-
+####
 
 
 
