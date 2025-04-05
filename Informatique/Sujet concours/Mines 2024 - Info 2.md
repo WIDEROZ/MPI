@@ -83,8 +83,12 @@ let rec map (f:'a ->’b) (u:'a stream):’b stream =
 #### Question 12
 ```Ocaml
 let zip (w : ’a stream array) : ’a array stream = 
-	let rec 
-	
-	done;
+	let ref tab : ’a array  = [||] in
+		for i = 0 to (Array.length w) do
+		match w.(i) with
+		| Nil -> 
+		| Cons(e, u ()) -> 
+		
+		done;
 
 ```
