@@ -15,5 +15,15 @@ Lors de la compilation rien ne va se passer c'est lors de l'execution car à un 
 let integers : int stream = 
 	let rec aux (a : int) =
 		Cons (a, fun () -> (aux (a+1)) )
-	in aux 0;;
+	in aux 0
+```
+
+#### Question 5
+```Ocaml
+let range (a:int) (b:int) : int stream =
+	let aux (n:int) : int stream = 
+		match n with 
+		| b -> Nil
+		| _ -> Cons(n, fun () -> aux (n+1))
+	in aux a
 ```

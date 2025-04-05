@@ -119,4 +119,26 @@ new_string2 ();;
 let seed3 = ref "#"
 let new_string3 () = inc seed3
 
-new_string3 ();;
+new_string3 ()
+
+
+
+
+
+
+
+type 'a stream = Nil | Cons of 'a * (unit -> 'a stream)
+
+let rec (ones : int stream) = Cons (1, fun () -> ones)
+
+let integers : int stream = 
+	let rec aux (a : int) =
+		Cons (a, fun () -> (aux (a+1)) )
+	in aux 0
+
+let range (a:int) (b:int) : int stream =
+	let rec aux (n:int) : int stream = 
+		match n with 
+		| b -> Nil
+		| _ -> Cons(n, fun () -> aux (n+1))
+	in aux a
