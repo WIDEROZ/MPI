@@ -202,4 +202,9 @@ $$\delta^{2} Q = - \frac{\partial j}{\partial x} (x, t)\space S \space dx\space 
 or par newton : comme la glace est un solide : 
 $$dj_{Q} = -h(T(x, t)-T(x+dx, t)) = h dT$$
 ensuite : 
-$$dm \space \frac{c_{galce}}{h} \space dj_{Q} =   $$
+$$\mu S dx \space \frac{c_{galce}}{h} \space dj_{Q} = \delta^{2} Q = - \frac{\partial j}{\partial x} (x, t) S dx dt $$
+Donc, 
+$$\boxed{\frac{\mu c_{glace}}{h} \frac{\partial j_{Q}}{\partial t} + \frac{\partial j_{Q}}{\partial x} = 0}$$
+
+#### Question 53
+$$v(t) = \frac{dx}{dt} = $$
