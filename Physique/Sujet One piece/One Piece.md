@@ -194,10 +194,12 @@ $$\boxed{\eta = -m\frac{c_{eau}(T_{f}-\theta_{c})-L_{f}}{\mathcal{P}(\Delta t + 
 On applique le premier principe au bloc infinitésimal de glace : 
 $$d^{2} U = dm \space c_{glace} \space dT = \delta^{2} Q$$
 Alors, 
-$$d^{2}U = \mu S dx \space c_{glace} \space dT = \delta Q$$
+$$d^{2}U = \mu S dx \space c_{glace} \space dT = \delta^{2} Q$$
 et comme : 
-$$\delta^{2} Q = d\varphi dt = dj_{Q} S dt = (j_{Q}(x+dx, t) -j_{Q}(x, t) )Sdt  $$
+$$\delta^{2} Q = d\varphi dt = dj_{Q} S dt = (j_{Q}(x, t) - j_{Q}(x+dx, t) )Sdt  $$
 Alors, 
-$$\delta^{2} Q = \frac{\partial j}{\partial x} (x, t)\space S \space dx\space dt$$
-Donc, 
-$$$$
+$$\delta^{2} Q = - \frac{\partial j}{\partial x} (x, t)\space S \space dx\space dt$$
+or par newton : comme la glace est un solide : 
+$$dj_{Q} = -h(T(x, t)-T(x+dx, t)) = h dT$$
+ensuite : 
+$$dm \space \frac{c_{galce}}{h} \space dj_{Q} =   $$
