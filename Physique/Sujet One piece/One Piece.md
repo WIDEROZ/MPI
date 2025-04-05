@@ -191,3 +191,13 @@ $$\boxed{\eta = -m\frac{c_{eau}(T_{f}-\theta_{c})-L_{f}}{\mathcal{P}(\Delta t + 
 
 ## III.2. - Cinétique de la formation de glace
 #### Question 51
+On applique le premier principe au bloc infinitésimal de glace : 
+$$d^{2} U = dm \space c_{glace} \space dT = \delta^{2} Q$$
+Alors, 
+$$d^{2}U = \mu S dx \space c_{glace} \space dT = \delta Q$$
+et comme : 
+$$\delta^{2} Q = d\varphi dt = dj_{Q} S dt = (j_{Q}(x+dx, t) -j_{Q}(x, t) )Sdt  $$
+Alors, 
+$$\delta^{2} Q = \frac{\partial j}{\partial x} (x, t)\space S \space dx\space dt$$
+Donc, 
+$$$$
