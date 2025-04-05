@@ -21,9 +21,19 @@ let integers : int stream =
 #### Question 5
 ```Ocaml
 let range (a:int) (b:int) : int stream =
-	let aux (n:int) : int stream = 
-		match n with 
-		| b -> Nil
-		| _ -> Cons(n, fun () -> aux (n+1))
+	let rec aux (n:int) : int stream = 
+		if n = b then Nil
+		else Cons(n, fun () -> aux (n+1))
 	in aux a
 ```
+
+#### Question 6
+Si il existe une fonction qui décrit cette suite de chaîne de caractère pour chaque $n \in \mathbb{N}$ alors oui et on écrira cette fonction : ```u (n:int) : string``` Donc : 
+
+```Ocaml
+let suite (u : int -> string) : string steam =
+	let rec aux (n:int) : string steam =
+		Cons(u n, fun () -> aux (n+1))
+```
+
+#### Question 7
