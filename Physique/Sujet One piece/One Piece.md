@@ -179,4 +179,8 @@ $$Pdt = -\delta Q_{f}\left( 1-\frac{\theta_{c}}{T_{f}} \right)$$
 et comme : 
 $$-\delta Q_{f} = -\delta mL_{f}$$
 Alors, 
-$$\Delta t' = -\frac{mL_{f}}{\mathcal{P}}\left( 1-\frac{\theta_{c}}{T_{f}} \right)$$
+$$\boxed{\Delta t' = -\frac{mL_{f}}{\mathcal{P}}\left( 1-\frac{\theta_{c}}{T_{f}} \right)}$$
+
+#### Question 50
+$$\eta = \frac{Q_{f}}{W} = -\frac{Q_{f}}{Q_{c}+ Q_{f}} = \frac{1}{\frac{\theta_{c}}{T_{f}}-1} = \frac{T_{f}}{\theta_{c}-T_{f}}$$
+$$-\delta Q_{f} = mc_{eau} dT' - \delta m L_{f} = m(c_{eau})$$
