@@ -160,4 +160,8 @@ $$\boxed{\frac{\delta Q_{C}}{\theta_{c}} + \frac{\delta Q_{F}}{T'} = 0}$$
 
 #### Question 47
 De même : 
-$$0 = \delta W + \delta Q_{C} - \delta Q_{F} $$
+$$0 = \delta W + \delta Q_{C} + \delta Q_{F} = C_{v} \delta T'$$
+Et comme : 
+$$\delta W = \mathcal{P} dt$$
+Alors, 
+$$\mathcal{P} dt = - \left( \delta Q_{c} +\delta Q_{f} \right) = - (\delta Q_{c}()) $$
