@@ -60,11 +60,16 @@ $$\omega \equiv \text{ pulsation du ressort }$$
 #### Question 8
 $$\underline{u_{n}}(t) = {U_{0}} e^{ i(\omega t-qna) } = U_{0} e^{ i(\omega t - qpa) } = \underline{u_{p}}(t)$$
 Or, 
-$$e^{ i(\omega t - ka) } \text{ où } k = \frac{2\pi}{\lambda}$$
+$$e^{ i(\omega t - nka) } \text{ où } k = \frac{2\pi}{\lambda}$$
 Donc,
-$$\exists m \in \mathbb{Z}, \frac{2\pi}{\lambda} = qn $$
 Ainsi,
-$$\lambda= \frac{2\pi}{qn}$$
+$$\lambda= \frac{2\pi}{q} \text{ ie } q=k$$
+$$\lambda = x_{p}-x_{n} = a(p-n)$$
+
+#### Question 9
+$$-\omega^{2} e^{ i(\omega t-qna) } = \omega_{0}^{2}(e^{ i(\omega t-q(n-1)a) } + e^{ i(\omega t-q(n+1)a) } - 2 e^{ i(\omega t-qna) })$$
+$$-\omega^{2} = \omega_{0}^{2}(e^{ qa } + e^{ -qa } - 2) = $$
+
 
 # Partie II - Kami no Sabaki
 #### Question 24
