@@ -168,4 +168,9 @@ $$d U_{lac} = -\delta Q_{f} = mc_{eau} dT'$$
 Alors, 
 $$\mathcal{P} dt = mc_{eau}\left( 1-\frac{\theta_{c}}{T'} \right) dT'$$
 Donc, 
-$$\Delta t = \frac{mc_{eau}}{\mathcal{P}}(T_{f}-\theta_{c} - )$$
+$$\boxed{\Delta t = \frac{mc_{eau}}{\mathcal{P}}\left( T_{f}-\theta_{c} - \theta_{c} \ln\left( \frac{T_{f}}{\theta_{c}} \right) \right) }$$
+
+#### Question 48
+Appli num.
+
+#### Question 49
