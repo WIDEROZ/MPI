@@ -164,4 +164,11 @@ $$0 = \delta W + \delta Q_{C} + \delta Q_{F} = C_{v} \delta T'$$
 Et comme : 
 $$\delta W = \mathcal{P} dt$$
 Alors, 
-$$\mathcal{P} dt = - \left( \delta Q_{c} +\delta Q_{f} \right) = - (\delta Q_{c}()) $$
+$$\mathcal{P} dt = - \left( \delta Q_{c} -\delta Q_{f} \right) = - \left( \delta Q_{f}\left( \frac{\theta_{c}}{T'}-1 \right) \right)$$
+Or d'après le premier principe appliqué au lac et la loi de joules : 
+$$\delta U_{lac} = \delta Q_{f} = mc_{eau} dT'$$
+Alors, 
+$$Pdt = -\left( mc_{eau}\left( \frac{\theta_{c}}{T'}-1 \right) \right)dT'$$
+Alors en intégrant : comme $\mathcal{P} = \text{cte}$, 
+$$P\Delta t = -mc_{eau}\left( T_{f}-\theta_{c}+\theta_{c}\ln\left( \frac{T_{f}}{\theta_{c}} \right) \right)$$
+
