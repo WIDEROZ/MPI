@@ -84,11 +84,15 @@ Oui car $\omega$ dépend de $q$ qui dépend de la longueur d'onde
 $$0 < \sin\left( \frac{qa}{2} \right) \leq 1 \Rightarrow \boxed{0 < \omega \leq 2\omega_{0}} $$
 
 #### Question 12
-$$v_{g} = a\omega_{0} \cos\left( \frac{aq}{2} \right)$$
-$$v_{\varphi} = 2\omega_{0}  \space\mathrm {sinc}\left( \frac{qa}{2} \right) $$
 
+#### Question 22
+$$\omega = 2\omega_{0}\sin\left( \frac{\pi a}{\lambda}\right)$$
+Alors, 
+$$\lambda  = \frac{\pi a}{\arcsin\left( \frac{\omega}{2\omega_{0}} \right)}$$
+#### Question 23
+$$\lambda \ll a$$
 
-
+$$\frac{\partial^{2} u}{\partial t^{2}} (x, t) = \omega_{0}^{2}(u_{})$$
 
 
 # Partie II - Kami no Sabaki
