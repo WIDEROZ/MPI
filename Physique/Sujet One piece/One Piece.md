@@ -207,4 +207,4 @@ Donc,
 $$\boxed{\frac{\mu c_{glace}}{h} \frac{\partial j_{Q}}{\partial t} + \frac{\partial j_{Q}}{\partial x} = 0}$$
 
 #### Question 53
-$$v(t) = \frac{dx}{dt} = $$
+$$\frac{\mu c_{glace}}{h} v + 1 = 0 \Leftrightarrow v_{0} = \frac{h}{\mu c_{glace}}$$
