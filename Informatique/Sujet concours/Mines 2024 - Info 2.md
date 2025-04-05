@@ -47,7 +47,7 @@ let hd (u : 'a stream) : 'a =
 #### Question 8
 ```Ocaml
 let t1 (u:'a stream) :'a stream =
-	match t1 with
+	match u with
 	| Nil -> raise Failure "t1"
 	| Cons(_, t) -> t
 ```
@@ -58,6 +58,21 @@ let of_list (l: 'a list) : 'a stream =
 	let rec aux (liste : 'a list) : 'a stream = 
 	match liste with
 	| [] -> Nil
-	| t::s -> let 
+	| t::s -> Con
+	
+	s(t, fun () -> aux s)
 	in aux l
+```
+
+#### Question 10
+```Ocaml
+let rec iter (f : 'a -> unit) (t : int) (u : 'a stream) : unit = 
+	if t >= 0 then (f t ; iter f (t-1) (t1 u))
+	else ()
+```
+
+#### Question 11
+```Ocaml
+let map (f:'a ->’b) (u:'a stream) : ’b stream = 
+	
 ```
