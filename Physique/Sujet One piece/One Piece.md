@@ -92,7 +92,10 @@ $$\lambda  = \frac{\pi a}{\arcsin\left( \frac{\omega}{2\omega_{0}} \right)}$$
 #### Question 23
 $$\lambda \ll a$$
 
-$$\frac{\partial^{2} u}{\partial t^{2}} (x, t) = \omega_{0}^{2}(u_{})$$
+$$\frac{\partial^{2} u}{\partial t^{2}} (x, t) = \omega_{0}^{2}(u_{n+1}(t)+ u_{n-1}(t) - 2u_{n}(t))$$
+$$= \omega_{0}^{2}(u_{n-1}(t)-u(x, t) + u_{n+1}(t)-u(x, t))$$
+$$= \omega_{0}^{2}(u(x-dx, t) - u(x, t) + u(x+dx) -u(x, t))$$
+
 
 
 # Partie II - Kami no Sabaki
@@ -135,6 +138,10 @@ $\vec{E}$ est invariant par rotation d'axe $Oz$ alors, $\vec{B} = B(r, z, t)\vec
 
 
 #### Question 36
-$$\Delta(U) = -\frac{\rho}{\varepsilon_{0}} =feùr$$
+$$\Delta(U) = -\frac{\rho}{\varepsilon_{0}}$$
 Alors, 
 $$\frac{\partial^{2}(rU)}{\partial r^{2}}  = 0$$
+
+## II.3 - Décharge du condensateur dans un plasma
+#### Question 40
+$$\vec{j} = \gamma \vec{E} \Leftrightarrow [j] = A.m^{-1}.V^{-1}$$
