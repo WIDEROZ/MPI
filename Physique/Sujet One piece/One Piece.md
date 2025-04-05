@@ -144,4 +144,16 @@ $$\frac{\partial^{2}(rU)}{\partial r^{2}}  = 0$$
 
 ## II.3 - Décharge du condensateur dans un plasma
 #### Question 40
-$$\vec{j} = \gamma \vec{E} \Leftrightarrow [j] = A.m^{-1}.V^{-1}$$
+$$\vec{j} = \gamma \vec{E} \Leftrightarrow [j] = A.m^{-3}.V^{-1}$$
+
+#### Question 41
+$$\boxed{\vec{j} = \gamma \vec{E} = \frac{\gamma \sigma_{air}(t)}{\varepsilon_{0}} \vec{e}_{z} }$$
+#### Question 42
+D'après la loi de la conservation de la charge : 
+comme $\rho_{air} = \frac{\sigma_{air}(t)}{d}$
+on a : 
+$$div(\vec{j}) + \frac{\partial \rho}{\partial t}=0$$
+Alors, 
+$$\frac{\gamma}{\varepsilon_{0}}\frac{\partial \sigma_{air}}{\partial z}(t) + \frac{1}{d} \frac{\partial \sigma_{air}}{\partial t}  = 0$$
+Alors,
+$$\frac{d\sigma_{air}}{dt} $$
