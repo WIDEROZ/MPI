@@ -160,15 +160,12 @@ $$\boxed{\frac{\delta Q_{C}}{\theta_{c}} + \frac{\delta Q_{F}}{T'} = 0}$$
 
 #### Question 47
 De même : 
-$$0 = \delta W + \delta Q_{C} + \delta Q_{F} = C_{v} \delta T'$$
-Et comme : 
-$$\delta W = \mathcal{P} dt$$
+$$0 = \delta W + \delta Q_{C} + \delta Q_{F} \Leftrightarrow \mathcal{P} dt = -(\delta Q_{c} + \delta Q_{f}) $$
 Alors, 
-$$\mathcal{P} dt = - \left( \delta Q_{c} -\delta Q_{f} \right) = - \left( \delta Q_{f}\left( \frac{\theta_{c}}{T'}-1 \right) \right)$$
-Or d'après le premier principe appliqué au lac et la loi de joules : 
-$$\delta U_{lac} = \delta Q_{f} = mc_{eau} dT'$$
+$$\mathcal{P} dt = -\left( \delta Q_{f}\left( 1- \frac{\theta_{c}}{T'} \right) \right)$$
+On applique le premier principe au lac : 
+$$d U_{lac} = -\delta Q_{f} = mc_{eau} dT'$$
 Alors, 
-$$Pdt = -\left( mc_{eau}\left( \frac{\theta_{c}}{T'}-1 \right) \right)dT'$$
-Alors en intégrant : comme $\mathcal{P} = \text{cte}$, 
-$$P\Delta t = -mc_{eau}\left( T_{f}-\theta_{c}+\theta_{c}\ln\left( \frac{T_{f}}{\theta_{c}} \right) \right)$$
-
+$$\mathcal{P} dt = mc_{eau}\left( 1-\frac{\theta_{c}}{T'} \right) dT'$$
+Donc, 
+$$\Delta t = \frac{mc_{eau}}{\mathcal{P}}(T_{f}-\theta_{c} - )$$
