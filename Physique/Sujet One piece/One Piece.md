@@ -174,3 +174,9 @@ $$\boxed{\Delta t = \frac{mc_{eau}}{\mathcal{P}}\left( T_{f}-\theta_{c} - \theta
 Appli num.
 
 #### Question 49
+Par le premier principe appliqué à Aokiji : 
+$$Pdt = -\delta Q_{f}\left( 1-\frac{\theta_{c}}{T_{f}} \right)$$
+et comme : 
+$$-\delta Q_{f} = -\delta mL_{f}$$
+Alors, 
+$$\Delta t' = -\frac{mL_{f}}{\mathcal{P}}\left( 1-\frac{\theta_{c}}{T_{f}} \right)$$
