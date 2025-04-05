@@ -36,4 +36,28 @@ let suite (u : int -> string) : string steam =
 		Cons(u n, fun () -> aux (n+1))
 ```
 
+## 1.3
 #### Question 7
+```Ocaml
+let hd (u : 'a stream) : 'a = 
+	if u = Nil then raise Failure "hd"
+	else let Cons(first, _) = u in first
+```
+
+#### Question 8
+```Ocaml
+let t1 (u:'a stream) :'a stream =
+	match t1 with
+	| Nil -> raise Failure "t1"
+	| Cons(_, t) -> t
+```
+
+#### Question 9
+```Ocaml
+let of_list (l: 'a list) : 'a stream =
+	let rec aux (liste : 'a list) : 'a stream = 
+	match liste with
+	| [] -> Nil
+	| t::s -> let 
+	in aux l
+```
