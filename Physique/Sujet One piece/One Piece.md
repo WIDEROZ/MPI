@@ -57,10 +57,14 @@ Oui,
 $$U_{0} \equiv \text{ amplitude du ressort }$$
 $$\omega \equiv \text{ pulsation du ressort }$$
 
-####
-
-
-
+#### Question 8
+$$\underline{u_{n}}(t) = {U_{0}} e^{ i(\omega t-qna) } = U_{0} e^{ i(\omega t - qpa) } = \underline{u_{p}}(t)$$
+Or, 
+$$e^{ i(\omega t - ka) } \text{ où } k = \frac{2\pi}{\lambda}$$
+Donc,
+$$\exists m \in \mathbb{Z}, \frac{2\pi}{\lambda} = qn $$
+Ainsi,
+$$\lambda= \frac{2\pi}{qn}$$
 
 # Partie II - Kami no Sabaki
 #### Question 24
