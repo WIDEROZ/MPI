@@ -148,12 +148,7 @@ $$\vec{j} = \gamma \vec{E} \Leftrightarrow [j] = A.m^{-3}.V^{-1}$$
 
 #### Question 41
 $$\boxed{\vec{j} = \gamma \vec{E} = \frac{\gamma \sigma_{air}(t)}{\varepsilon_{0}} \vec{e}_{z} }$$
-#### Question 42
-D'après la loi de la conservation de la charge : 
-comme $\rho_{air} = \frac{\sigma_{air}(t)}{d}$
-on a : 
-$$div(\vec{j}) + \frac{\partial \rho}{\partial t}=0$$
-Alors, 
-$$\frac{\gamma}{\varepsilon_{0}}\frac{\partial \sigma_{air}}{\partial z}(t) + \frac{1}{d} \frac{\partial \sigma_{air}}{\partial t}  = 0$$
-Alors,
-$$\frac{d\sigma_{air}}{dt} $$
+
+# Partie III - Hie Hie no Mi
+## III.1 - Machine frigorifique avec une source de température variable
+#### Question 46
