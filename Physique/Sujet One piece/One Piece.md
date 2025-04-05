@@ -182,5 +182,12 @@ Alors,
 $$\boxed{\Delta t' = -\frac{mL_{f}}{\mathcal{P}}\left( 1-\frac{\theta_{c}}{T_{f}} \right)}$$
 
 #### Question 50
-$$\eta = \frac{Q_{f}}{W} = -\frac{Q_{f}}{Q_{c}+ Q_{f}} = \frac{1}{\frac{\theta_{c}}{T_{f}}-1} = \frac{T_{f}}{\theta_{c}-T_{f}}$$
-$$-\delta Q_{f} = mc_{eau} dT' - \delta m L_{f} = m(c_{eau})$$
+$$\eta = \frac{Q_{f}}{W} = \frac{Q_{f}}{\mathcal{P}(\Delta t + \Delta t')}$$
+Or lors de toute la transformation : 
+$$-\delta Q_{f} = mc_{eau} dT' - \delta m L_{f} \Leftrightarrow -Q_{f} = m(c_{eau}(T_{f}-\theta_{c}) -L_{f})$$
+Alors, 
+$$\boxed{\eta = -m\frac{c_{eau}(T_{f}-\theta_{c})-L_{f}}{\mathcal{P}(\Delta t + \Delta t')}}$$
+
+
+## III.2. - Cinétique de la formation de glace
+#### Question 51
