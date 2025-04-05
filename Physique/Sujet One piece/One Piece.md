@@ -29,7 +29,7 @@ A = \frac{\beta}{2} \\
 B = \frac{\beta}{2}
 \end{cases}$$
 Ainsi, 
-$$\boxed{\varepsilon(t) = \frac{\beta}{2}(e^{ -\omega t }+e^{ \omega t })}$$
+$$\boxed{\varepsilon(t) = \frac{\beta}{2}(e^{ -\omega t }+e^{ \omega t }) = \beta \cos(\omega t)}$$
 
 #### Question 4
 
@@ -40,13 +40,14 @@ $$\boxed{x_{n}(0) = na}$$
 $$\boxed{u_{n}(t)  = x_{n}(t) - x_{n}(0)}$$
 
 #### Question 6
-On prend le référentiel non galiléen de la masse $n$ : 
-Le système ne subit rotation donc la force de Coriolis est nulle : 
-On prends l'accélération algébrique : 
-$$f_{ie} =  m(a_{n-1}+a_{n+1}) = m(\ddot{x}_{n-1} + \ddot{x}_{n+1})$$
-On fais un PFD en référentiel non galiléen : 
-$$\ddot{u}_{n} + na = \ddot{x}_{n} = \ddot{x}_{n-1}+\ddot{x}_{n+1} = (n-1)a + (n+1)a  + \ddot{u}_{n-1} + \ddot{u}_{n+1}$$
-$$\ddot{u}_{n} = \ddot{u}_{n+1} + \ddot{u}_{n-1}$$
+$$\begin{cases}
+f_{n-1} = -k(l-l_{0}) = -ku_{n-1} \\
+f_{n+1} = k(l-l_{0}) = ku_{n+1}
+\end{cases}$$
+On fais un PFD en référentiel galiléen : 
+$$m \ddot{u}_{n} = ku_{n+1} - ku_{n-1}$$
+Alors, 
+$$\ddot{u}_{n} = \frac{k}{m}(u_{n+1}-u_{n-1})$$
 
 
 
