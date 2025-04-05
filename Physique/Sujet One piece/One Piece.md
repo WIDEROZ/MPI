@@ -152,3 +152,12 @@ $$\boxed{\vec{j} = \gamma \vec{E} = \frac{\gamma \sigma_{air}(t)}{\varepsilon_{0
 # Partie III - Hie Hie no Mi
 ## III.1 - Machine frigorifique avec une source de température variable
 #### Question 46
+On applique le second principe de la thermodynamique à un cycle de la transformation : 
+$$ 0 = \delta S = \delta S_{créé} + \delta S_{ech} = \delta S_{ech}$$
+car la transformation est réversible. 
+Alors, 
+$$\boxed{\frac{\delta Q_{C}}{\theta_{c}} + \frac{\delta Q_{F}}{T'} = 0}$$
+
+#### Question 47
+De même : 
+$$0 = \delta W + \delta Q_{C} - \delta Q_{F} $$
