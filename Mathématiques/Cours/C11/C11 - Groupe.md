@@ -239,7 +239,7 @@ $\Leftarrow$ : $k \wedge n=1$
 il existe $a, b \in \mathbb{Z}$, $ak + bn = 1$
 $$a \bar{k} = \overline{ak} = \overline{1-bn} = \bar{1}$$
 Ainsi, $\bar{1} \in \left< \bar{k} \right>$, 
-Or $\left< \bar{1} \right>$ est le plus petit ss-gp de $\mathbb{Z} / n \mathbb{Z}$ contenant $\bar{1}$
+Or $\left< \bar{1} \right>$ est le() plus petit ss-gp de $\mathbb{Z} / n \mathbb{Z}$ contenant $\bar{1}$
 Donc, 
 $$\mathbb{Z} / n \mathbb{Z} = \left< \bar{1} \right> \subset \left< \bar{k} \right> \subset \mathbb{Z} / n \mathbb{Z}$$
 ie $\bar{k}$ engendre $\mathbb{Z} / n \mathbb{Z}$
