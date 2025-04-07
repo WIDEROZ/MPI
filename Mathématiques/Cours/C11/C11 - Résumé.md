@@ -17,7 +17,6 @@ Soit $(G, \cdot)$ un groupe, et $(H_{i})_{i \in I}$ une famille de sous groupes 
 $$\bigcap_{i \in I} H_{i} \underset{sg}{\subset} G$$
 
 
-
 #### Définition
 Soit $A$ une partie d'un groupe : $(G, \cdot)$.
 On appelle sous groupe engendré par $A$ et on note :

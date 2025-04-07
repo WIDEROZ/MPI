@@ -99,8 +99,6 @@ Soient $x, y \in \bigcap_{i \in I}H_{i}$,
 Soit $i \in I$, comme $H_i \underset{sg}{\subset} G$, $xy^{-1} \in H_{i}$.
 Ainsi, $xy^{-1} \in \bigcap_{i \in I} H_{i}$
 
-#### Exemple
-
 
 
 #### Définition
