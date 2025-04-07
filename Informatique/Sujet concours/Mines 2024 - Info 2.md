@@ -79,16 +79,3 @@ let rec map (f:'a ->’b) (u:'a stream):’b stream =
 	| Cons(e, s) -> Cons(f e, fun () -> map f s)
 ```
 
-
-#### Question 12
-```Ocaml
-let zip (w : ’a stream array) : ’a array stream = 
-	let rec zip_aux (w : ’a stream array) (i:int) : ’a array stream =
-		match w.(i) with
-		| Nil -> Nil
-		| Cons(e, s ()) -> Cons(Array.init )
-		
-		
-		
-
-```
