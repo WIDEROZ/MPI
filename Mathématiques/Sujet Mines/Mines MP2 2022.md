@@ -109,8 +109,13 @@ $$e^{ M } = e^{ tA } e^{ B } (e^{ tA })^{-1} \in G$$
 
 
 #### 13.
-Soient $A, B \in \mathcal{A}_{G}$, 
-$$[A, B] = AB-BA$$
-$$\forall t \in \mathbb{R},  u(t) = e^{ tA } B e^{ -tA } \in \mathcal{A}_{G} $$
-Alors,
-$$e^{ tA } AB e^{ -tA }, e^{ tA } BA e^{ -tA } \in A_{G} $$
+
+#### 14. 
+Soit $M \in \mathcal{A}_{G}$, 
+$$\forall t \in \mathbb{R}, e^{ tM } \in G$$
+On pose : 
+$$\gamma : t \mapsto e^{ tM } \in \mathcal{C}^{1}(\mathbb{R})$$
+$$\gamma(0) = I_{n} \text{ et } \gamma'(0) = M e^{ 0M } = M $$
+
+#### 15. 
+$$$$
