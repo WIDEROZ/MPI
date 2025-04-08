@@ -37,3 +37,15 @@ $$\det(e^{ A }) = e^{ \mathrm{Tr}(A) }$$
 
 ## Partie 2
 #### 6.
+$$\left|\left| X_{k} \right|\right| \leq  \left|\left| \exp\left( \frac{A}{k} \right) \right|\right| \left|\left| \exp\left( \frac{B}{k} \right) \right|\right|  $$
+$$\forall M \in \mathcal{M}_{n}(\mathbb{K}), \left|\left| \exp(M) \right|\right|  \leq  \sum_{k = 0}^{+ \infty} \frac{\left|\left| M\right|\right|^{k}  }{k!} $$
+Donc, 
+$$\left|\left| X_{k} \right|\right| \leq \exp\left( { \frac{\left|\left| A \right|\right|}{k}  } \right) \exp \left( { \frac{\left|\left| B \right|\right| }{k} } \right) = \exp\left( \frac{\left|\left| A \right|\right| + \left|\left| B \right|\right| }{k} \right) $$
+De même avec une inégalité triangulaire en plus. 
+
+#### 7.
+$$0 \leq \left|\left| X_{k} - Y_{k} \right|\right|  \leq  \left|\left| X_{k} \right|\right|  + \left|\left| Y_{k} \right|\right| \leq 2\exp\left( \frac{\left|\left| A \right|\right| + \left|\left| B \right|\right| }{k} \right)  $$
+$$= 2\left( 1+ \frac{\left|\left| A \right|\right| +\left|\left| B \right|\right| }{k} \right)$$
+Ainsi, par définition de $O$ : 
+$$\left|\left| X_{k} - Y_{k} \right|\right| \leq 2\left( 1+ \frac{\left|\left| A \right|\right| +\left|\left| B \right|\right| }{k} \right)$$
+$$h^{2}\left|\left| X_{k} - Y_{k} \right|\right| \leq $$
