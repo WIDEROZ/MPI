@@ -28,4 +28,12 @@ $$2AB = AB+BA \Rightarrow  AB = BA$$
 $$\left|\left| e^{ A } \right|\right| = \left|\left| \sum_{k = 1}^{+ \infty} \frac{A^{k}}{k!} \right|\right| \leq \sum_{k = 1}^{+ \infty} \frac{\left|\left| A \right|\right| ^{k}}{k!} = e^{ \left|\left| A \right|\right|  }$$
 
 #### 5.
-$$\det(e^{ A }) =  $$
+On TZ $A$ dans $\mathcal{M}_{n}(\mathbb{C})$ : 
+$$A = PTP^{-1} \text{ alors : } e^{ A } = P e^{ T } P^{-1}$$
+$$\forall i \in [\![1, n]\!], e^{ T }[i, i] = \sum_{k = 0}^{+ \infty}  \frac{T^{k}[i, i]}{k!} = \sum_{k = 1}^{+ \infty} \frac{(T[i, i])^{k}}{k!}= e^{ T[i, i] } $$
+$$\det(e^{ A }) = \det(Pe^{ T }P^{-1}) = \det(e^{ T }) = \prod_{k = 1}^{n} e^{ \lambda_{k} } $$
+pour $\lambda_{i}$ les coefs diagonaux de $T$ alors, 
+$$\det(e^{ A }) = e^{ \mathrm{Tr}(A) }$$
+
+## Partie 2
+#### 6.
