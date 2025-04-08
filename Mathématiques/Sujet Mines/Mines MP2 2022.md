@@ -85,4 +85,22 @@ Alors, comme $M$ et $M^{\top}$ commutent :
 $$MM^{\top}[i, j] = \sum_{k=1}^{n} M[i, k]M^{\top}[k, j] = \sum_{k = 1}^{n} M[i, k]M[j, k] $$
 $$=\sum_{k = 1}^{n} M[j, k]M^{\top}[k, i] = MM^{\top}[j, i] = M^{\top}M[i, j]$$
 On a bien : 
-$$e^{ t(M^{\top} + M) } = I_{n} \Leftrightarrow M = -M^{\top} \text{ alors }$$
+$$e^{ t(M^{\top} + M) } = I_{n} \Leftrightarrow M = -M^{\top} \text{ Donc } \mathcal{A}_{G} \subset \mathcal{A}_{n}(\mathbb{R})$$
+
+Soit $M \in \mathcal{A}_{n}(\mathbb{R})$,  de même  :
+$$(e^{ tM })^{\top}e^{ tM } = I_{n}$$
+
+Ainsi : 
+$$\boxed{\mathcal{A}_{O_{n}(\mathbb{R})} = \mathcal{A}_{n}(\mathbb{R})}$$
+
+#### 11
+Soit $A, B \in \mathcal{A}_G$, et $\lambda \in \mathbb{R}$, 
+$$e^{ A } \in G \text{ et } e^{ \lambda B  } \in G$$
+Montrons que : $e^{ A + \lambda B } \in G$, 
+$$\forall k \in \mathbb{N}^{*}, e^{ \frac{A}{k} } \in G \text{ de même pour } e^{  \frac{\lambda B}{k} } \in G \text{ alors }\left( e^{ \frac{A}{k} }e^{ \frac{\lambda B}{k} } \right)^{k} \in G$$
+de plus comme $G$ est fermé toute suite convergente à valeur dans $G$ converge vers un élément de $G$ et ici en particulier : 
+$$\lim_{ k \to \infty } \left( e^{ \frac{A}{k} }e^{ \frac{\lambda B}{k} } \right)^{k} = e^{ A+\lambda B } \in G$$
+
+et de plus, $0 \in \mathcal{A}_{G}$ car : $e^{ 0 } = I_{n}$ et comme $G$ est un sous groupe de $GL_{n}(\mathbb{R})$, $I_{n}$
+
+#### 13
