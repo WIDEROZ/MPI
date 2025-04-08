@@ -36,7 +36,7 @@ est définie et dérivable en $t=0$,
 On dit que $f$ admet en $a$ une $k^{ieme}$ dérivée partielle que l'on note : 
 $$\frac{\partial f}{\partial x_{k}}(a)= \partial_{k} f(a) = g_{k}'(0) =  \frac{d}{dt}_{t = 0} f(a + te_{k})$$
 $$= \lim_{ t \to 0 } \frac{f(a+te_{k})-f(a)}{t}$$
-
+li
 #### CCINP 52
 ##### 1.
 
