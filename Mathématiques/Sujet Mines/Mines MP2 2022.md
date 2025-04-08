@@ -109,3 +109,8 @@ $$e^{ M } = e^{ tA } e^{ B } (e^{ tA })^{-1} \in G$$
 
 
 #### 13.
+Soient $A, B \in \mathcal{A}_{G}$, 
+$$[A, B] = AB-BA$$
+$$\forall t \in \mathbb{R},  u(t) = e^{ tA } B e^{ -tA } \in \mathcal{A}_{G} $$
+Alors,
+$$e^{ tA } AB e^{ -tA }, e^{ tA } BA e^{ -tA } \in A_{G} $$
