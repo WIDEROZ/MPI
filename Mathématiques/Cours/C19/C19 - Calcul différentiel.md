@@ -352,7 +352,7 @@ $$df(a)(v) = \left|\left| \nabla f(a) \right|\right| \Leftrightarrow v \text{ es
 
 Démonstration : 
 $$\forall v \in \mathbb{R}^{n}, \left< \nabla f(a), v \right> = df(a)(v)$$
-Mais l'inégalité de Cauchy+Shwartz donne : 
+Mais l'inégalité de Cauchy Shwartz donne : 
 $$df(a)(v) \leq \left|\left| \nabla f(a) \right|\right| \left|\left| v \right|\right| $$
 De plus, 
 $$\left< f(a), v \right>  = \left|\left| \nabla f(a) \right|\right| \left|\left| v \right|\right|  \Leftrightarrow \exists \lambda \geq 0, \nabla f(a) = \lambda v $$
