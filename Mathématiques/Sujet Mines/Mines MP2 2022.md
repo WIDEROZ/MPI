@@ -66,3 +66,8 @@ Ainsi,
 $$\lim_{ k \to \infty } \sum_{i = 0}^{k-1} (X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1})   = 0$$
 
 
+## Partie 3 : Algèbres de Lie
+#### 9.
+Soit $M \in SL_{n}(\mathbb{R})$, 
+$$\forall t \in \mathbb{R}, \det(e^{ tM }) =  e^{ t\mathrm{Tr}(M) } = 1  \text{ et } \det(M) = 1$$
+alors, $\mathrm{Tr}(M) = 0$
