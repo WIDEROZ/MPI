@@ -7,4 +7,10 @@ $$\left|\left| \left| B\right| \right|\right| = \sup_{(x, y) \in E^{2}} \left| \
 On a :
 $$\exists \alpha \in \mathbb{R}_{+},\frac{\left| B(x, y)\right|}{\left|\left| (x, y) \right|\right| } \leq \left|\left| \left| B\right| \right|\right| \leq C \left|\left| (x, y) \right|\right|$$
 Alors, 
-$$\frac{\left| B(x, y)\right|^{2}}{\left|\left| x \right|\right| no}$$
+$$ \frac{\left| B(x, y)\right|^{2}}{\left|\left| (x, y) \right|\right| ^{2}} \leq \frac{\left| B(x, y)\right|^{2}}{\left|\left| x \right|\right| \left|\left| y \right|\right| } \leq C$$
+Ainsi,. 
+$$\left| B(x, y)\right| \leq \sqrt{C \left|\left| x \right|\right| \left|\left| y \right|\right| } \leq C \left|\left| x \right|\right| \left|\left| y \right|\right| $$
+
+$$B(x, y) = \sum_{i = 1}^{n}\sum_{j = 1}^{n}x_{i}y_{j} B(e_{i}, e_{j})$$
+$$B(u_{0} + u, v_{0}+v) = B(u_{0}, v_{0}) + B(u_{0}, v) + B(u, v_{0}) + B(u, v) $$
+$$o(\left|\left|  \right|\right| )$$
