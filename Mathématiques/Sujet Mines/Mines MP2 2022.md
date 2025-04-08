@@ -15,4 +15,17 @@ Alors, car $B$ et $-B$ comuttent
 $$\sum_{k=  0}^{+ \infty} \frac{1}{k!} (B-B)^{k} = I_{n} $$
 
 #### 3
-$$(A+B)^{2}e^{ t(A+B) } = e^{ tA }$$
+$$(A+B)e^{ t(A+B) } = Ae^{ tA }e^{ tB } + e^{ tA }Be^{ tB } $$
+Alors, 
+$$(A+B)^{2} e^{ t(A+B) } = A^{2}e^{ tA }e^{ tB } + Ae^{ tA }Be^{ tB } + Ae^{ tA } Be^{ tB } + e^{ tA } B^{2}e^{ tB }$$
+$$(A+B)^{2}e^{ t(A+B) } =A^{2}e^{ tA } e^{ tB } + 2 A e^{ tA } B e^{ tB } + e^{ tA } B^{2}e^{ tB }$$
+$$= e^{ tA }(A^{2}+ 2AB + B^{2})e^{ tB } $$
+$$= (A^{2} + AB + BA + B^{2}) e^{ t(A+B) }  $$
+en évaluant en $t=0$, 
+$$2AB = AB+BA \Rightarrow  AB = BA$$
+
+#### 4.
+$$\left|\left| e^{ A } \right|\right| = \left|\left| \sum_{k = 1}^{+ \infty} \frac{A^{k}}{k!} \right|\right| \leq \sum_{k = 1}^{+ \infty} \frac{\left|\left| A \right|\right| ^{k}}{k!} = e^{ \left|\left| A \right|\right|  }$$
+
+#### 5.
+$$\det(e^{ A }) =  $$
