@@ -611,7 +611,7 @@ Soit $a \in S$, l'ensemble $T_{a}S$ des vecteurs tangents à $S$ en $a$ (si $df(
 $$df(a) \in \mathcal{L}(\mathbb{R}^{n}, \mathbb{R})$$
 C'est donc un hyperplan vectoriel de $\mathbb{R}$ : 
 $$T_{a}S = \mathrm{Ker} (dV(a)) = \nabla V(a)^{\bot}$$
-
+ 
 #### Exemple
 On pose : 
 $$V : x \in \mathbb{R}^{3} \mapsto \left|\left| x \right|\right| _{2}^{2} -1 \in \mathbb{R}$$
