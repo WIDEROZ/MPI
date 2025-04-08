@@ -13,3 +13,4 @@ n\theta \equiv 0 [2\pi]
 or comme : 
 $$e^{ \frac{2ik\pi}{n}+2i\pi } = e^{ \frac{2ik\pi}{n} }$$
 Il y a donc $n$ solution. 
+$$(z+i)^{n} = (z-i)^{n}  \Leftrightarrow \left( \frac{z+i}{z-i} \right)$$
