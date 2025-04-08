@@ -101,6 +101,11 @@ $$\forall k \in \mathbb{N}^{*}, e^{ \frac{A}{k} } \in G \text{ de même pour } e
 de plus comme $G$ est fermé toute suite convergente à valeur dans $G$ converge vers un élément de $G$ et ici en particulier : 
 $$\lim_{ k \to \infty } \left( e^{ \frac{A}{k} }e^{ \frac{\lambda B}{k} } \right)^{k} = e^{ A+\lambda B } \in G$$
 
-et de plus, $0 \in \mathcal{A}_{G}$ car : $e^{ 0 } = I_{n}$ et comme $G$ est un sous groupe de $GL_{n}(\mathbb{R})$, $I_{n}$
+et de plus, $0 \in \mathcal{A}_{G}$ car : $e^{ 0 } = I_{n} \in G$ car $G$ est un sous groupe de $GL_{n}(\mathbb{R})$ et $I_{n}$ est le neutre de $GL_{n}(\mathbb{R})$
 
-#### 13
+#### 12.
+$$M = e^{ tA } B e^{ -tA } = e^{ tA }B (e^{ tA })^{-1}$$
+$$e^{ M } = e^{ tA } e^{ B } (e^{ tA })^{-1} \in G$$
+
+
+#### 13.
