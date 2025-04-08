@@ -1,0 +1,13 @@
+#### 2.
+On a : 
+$$f_{A}'(t)=Af_{A}(t)$$
+De même : 
+$$g'(t) = (A+B)g(t) - Bg(t) = Ag(t) $$
+car $A$ et $B$ commutent avec $B$, alors $t(A+B)$ commute avec $B$
+
+de plus, $g(0) = f_{A}(0) = I_{n}$
+Ainsi, $g= f_{A}$ Donc, 
+$$e^{t(A+B) }e^{ -tB } = e^{ tA }$$
+$$e^{ t(A+B) } e^{ -tB } e^{ tB } = e^{ tA }e^{ tB }$$
+Alors, 
+$$$$
