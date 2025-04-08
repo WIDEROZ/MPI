@@ -80,4 +80,9 @@ $$\mathcal{A}_{G} = \{ M \in \mathcal{M}_{n}(\mathbb{R}) | \mathrm{Tr}(M) = 0 \}
 Soit $M \in \mathcal{A}_{G}$, 
 Soit $t \in \mathbb{R}$, 
 $$e^{ tM } \in O_{n}(\mathbb{R}) \text{ ie } (e^{ tM })^{\top}e^{ tM } = I_{n}$$
-$$(e^{ tM })^{\top} = \sum_{k = }$$
+$$(e^{ tM })^{\top} = \sum_{k = 0}^{+ \infty} \frac{(tM^{\top})^{k}}{k!} = e^{ tM^{\top} }$$
+Alors, comme $M$ et $M^{\top}$ commutent : 
+$$MM^{\top}[i, j] = \sum_{k=1}^{n} M[i, k]M^{\top}[k, j] = \sum_{k = 1}^{n} M[i, k]M[j, k] $$
+$$=\sum_{k = 1}^{n} M[j, k]M^{\top}[k, i] = MM^{\top}[j, i] = M^{\top}M[i, j]$$
+On a bien : 
+$$e^{ t(M^{\top} + M) } = I_{n} \Leftrightarrow M = -M^{\top} \text{ alors }$$
