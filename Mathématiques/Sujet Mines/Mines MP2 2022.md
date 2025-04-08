@@ -118,4 +118,7 @@ $$\gamma : t \mapsto e^{ tM } \in \mathcal{C}^{1}(\mathbb{R})$$
 $$\gamma(0) = I_{n} \text{ et } \gamma'(0) = M e^{ 0M } = M $$
 
 #### 15. 
-$$$$
+comme $\det$ est différentiable en $I_{n}$ : 
+$$\det(I_{n} + t M) = \det(I_{n}) + df(I_{n})(tM) + o(t)$$
+Alors, $t \mapsto \det(I_{n}+tM)$ est dérivable en $0$ et :
+$$\frac{d(\det (I_{n}+tM))}{dt}(0) = \lim_{ h \to 0 }  \frac{\det(I_{n}+hM) - \det(I_{n})}{h} = $$
