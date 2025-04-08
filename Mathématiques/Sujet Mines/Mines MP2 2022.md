@@ -46,4 +46,13 @@ De même avec une inégalité triangulaire en plus.
 #### 7.
 
 #### 8.
-$$\sum_{i = 0}^{k-1} X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1} = \sum_{i = 0}^{k-1} X^{i+1}_{k}Y^{k-i-1}_{k}- X^{i}_{k}Y_{k}^{k-i} = \sum_{i = 0}^{k-1} $$
+$$\sum_{i = 0}^{k-1} X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1} = \sum_{i = 0}^{k-1} X^{i+1}_{k}Y^{k-i-1}_{k}- X^{i}_{k}Y_{k}^{k-i} = X_{k}^{k}-Y_{k}^{k} $$
+Téléscope
+
+$$\lim_{ k \to \infty } X_{k}^{k} = \lim_{ k \to \infty }(Y_{k}^{k} )+ \lim_{ k \to \infty } \sum_{i = 0}^{k-1} (X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1})  $$
+Alors, comme 
+$$\lim_{ k \to \infty } Y_{k}^{k} = \exp(A+B)   \text{ car } \left|\left| Y_{k}^{k} \right|\right| = \left|\left| Y_{k} \right|\right|^{k} = \exp\left( \frac{A + B }{k} \right)^{k} = \exp(A+B) $$
+car $A+B$ commutent entre elles alors, 
+Mais encore : 
+$$\lim_{ k \to \infty } \sum_{i = 0}^{k-1} (X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1})  $$
+$$\left|\left| X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1} \right|\right| \leq \left|\left| X_{k}^{i}  \right|\right| () $$
