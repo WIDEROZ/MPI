@@ -44,6 +44,6 @@ $$\left|\left| X_{k} \right|\right| \leq \exp\left( { \frac{\left|\left| A \righ
 De même avec une inégalité triangulaire en plus. 
 
 #### 7.
-$$X_{k} - Y_{k} = \exp\left( \frac{A}{k} \right)\exp\left( \frac{B}{k} \right) - \exp\left( \frac{A+B}{k} \right) $$
 
-$$= \sum_{i= 0}^{+ \infty} $$
+#### 8.
+$$\sum_{i = 0}^{k-1} X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1} = \sum_{i = 0}^{k-1} X^{i+1}_{k}Y^{k-i-1}_{k}- X^{i}_{k}Y_{k}^{k-i} = \sum_{i = 0}^{k-1} $$
