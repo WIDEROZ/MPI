@@ -45,3 +45,22 @@ Alors,
 $$\forall k \in [\![1, n]\!], \frac{\partial }{\partial x_{k}} (g \circ f)(x) = \frac{\partial g}{\partial x_{k}}(y_{1}(x), \dots, y_{n}(x))  $$
 $$= \frac{\partial y_{1}}{\partial x_{k}}(x) \times \frac{\partial g}{\partial y_{1}} (f(x)) + \dots + \frac{\partial y_p}{\partial x_{k}}(x) \times \frac{\partial g}{\partial y_{p}} (f(x))$$
 $$= \sum_{j = 1}^{p} \frac{\partial y_{j}}{\partial x_{k}}(x) \frac{\partial g}{\partial y_{j}}(f(x)) = \sum_{j = 1}^p \partial_{k} y_{j}(x) \partial_{j} g(f(x))$$
+
+#### Propriété
+Si $f: X \to \mathbb{R}$ admet un extremum local en $x_{0}\in X$, alors tous les vecteurs tangents à $x$ en $x_{0}$ sont dans le noyau de $df(x_{0})$ ie
+$$T_{x_{0}}X \subset \mathrm{Ker}(df(x_{0})) = \nabla df(x_{0})^{\bot}$$
+___
+Si $X= \{ x \in \mathbb{R}^{n} | V(x) = 0 \}$ ou $V : \mathbb{R}^{n} \to \mathbb{R} \in \mathcal{C}^{1}$, 
+Si $f:X \to \mathbb{R}$ admet un extremum local en $x_{0} \in X$, 
+Si $dV(x_{0}) \neq 0$
+Alors, 
+$$\exists \alpha \in \mathbb{R}, \nabla f(x_{0}) = \alpha \nabla V(x_{0})$$
+
+
+
+#### Théorème d'optimisation à l'ordre $2$
+Si $f$ admet un minimum local en $a \in \Omega$,
+alors, $df(a) = 0_{\mathcal{L}(\mathbb{R}^{n}, \mathbb{R})}$ et $H_{f}(a) \in S_{n}^{+}$
+___
+Si $df(a) = 0_{\mathcal{L}(\mathbb{R}^{n}, \mathbb{R})}$ et $H_{f}(a) \in S_{n}^{++}$, 
+alors, $f$ admet un minimum local en $a$.

@@ -663,7 +663,7 @@ Par exemple si $s$ est un endomorphisme auto-adjoint sur $\mathbb{R}^{n}$, quels
 $$f: \begin{cases}
 \mathbb{R}^{n} \mapsto \mathbb{R} \\
 x \mapsto \left< s(x), x \right> 
-\end{cases} \text{ sur }X = \left\{  (x_{1}, \dots, x_{n}) \in \mathbb{R}^{n} | \sum_{k = 1}^{n} x_{k}^{2}=1  \right\}$$
+\end{cases} \text{ sur }X = \left\{  (x_{1}, \dots, x_{n}) \in \mathbb{R}^{n} \left| \sum_{k = 1}^{n} x_{k}^{2}=1  \right\}\right.$$
 Autre exemple : Quels sont les extremums locaux de : 
 $$f : \begin{cases}
 \mathcal{M}_{n}(\mathbb{R}) \to \mathbb{R} \\
@@ -905,6 +905,7 @@ $$\forall M \in E, \left|\left| M \right|\right| ^{2} = n \Rightarrow -1 \leq \d
 ## 2. Optimisation à l'ordre $2$
 Soit $f$ de classe $\mathcal{C}^{2}$, définie sur un ouvert $\Omega$ de $\mathbb{R}^{n}$ et à valeurs réelles, 
 $$f:x = (x_{1}, \dots, x_{n}) \in \Omega \mapsto f(x) \in \mathbb{R}$$
+
 #### Définition
 On appelle hessienne de $f$ en $a \in \Omega$ : 
 $$H_{f}(a) = \left( \frac{\partial^{2}f}{\partial x_{i}x_{j}}  \right)_{1 \leq i, j \leq n} \in \mathcal{M}_{n}(\mathbb{R})$$
