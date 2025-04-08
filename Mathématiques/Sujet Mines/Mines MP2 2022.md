@@ -55,4 +55,14 @@ $$\lim_{ k \to \infty } Y_{k}^{k} = \exp(A+B)   \text{ car } \left|\left| Y_{k}^
 car $A+B$ commutent entre elles alors, 
 Mais encore : 
 $$\lim_{ k \to \infty } \sum_{i = 0}^{k-1} (X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1})  $$
-$$\left|\left| X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1} \right|\right| \leq \left|\left| X_{k}^{i}  \right|\right| () $$
+$$Q = \left|\left| X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1} \right|\right| \leq \left|\left| X_{k}  \right|\right|^{i} \left|\left| X_{k} - Y_{k} \right|\right| \left|\left| Y_{k} \right|\right| ^{k-i-1} $$
+Alors, de plus d'après la question 7 et 6 : il existe $C \in \mathbb{R}_{+}$ tel que : $\left|\left| X_{k}-Y_{k} \right|\right| \leq \frac{C}{k^{2}}$
+$$Q \leq \exp\left(  \frac{\left|\left| A \right|\right| + \left|\left| B \right|\right| }{k} \right)^{i} \frac{C}{k^{2}} \exp\left(  \frac{\left|\left| A \right|\right| + \left|\left| B \right|\right| }{k} \right)^{k-i-1}$$
+Donc; 
+$$Q \leq \frac{C}{k^{2}} \exp\left(- \frac{\left|\left| A \right|\right| + \left|\left| B \right|\right| }{k}\right) \exp(\left|\left| A \right|\right| + \left|\left| B \right|\right| ) = P$$
+Donc, 
+$$\left|\left| \sum_{i = 0}^{k-1} (X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1})  \right|\right| \leq \sum_{i= 0}^{k-1} Q \leq kP \underset{k \to +\infty}{\longrightarrow} 0$$
+Ainsi, 
+$$\lim_{ k \to \infty } \sum_{i = 0}^{k-1} (X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1})   = 0$$
+
+
