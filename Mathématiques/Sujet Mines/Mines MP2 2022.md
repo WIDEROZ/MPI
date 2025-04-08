@@ -68,6 +68,16 @@ $$\lim_{ k \to \infty } \sum_{i = 0}^{k-1} (X_{k}^{i}(X_{k}-Y_{k})Y_{k}^{k-i-1})
 
 ## Partie 3 : Algèbres de Lie
 #### 9.
-Soit $M \in SL_{n}(\mathbb{R})$, 
-$$\forall t \in \mathbb{R}, \det(e^{ tM }) =  e^{ t\mathrm{Tr}(M) } = 1  \text{ et } \det(M) = 1$$
-alors, $\mathrm{Tr}(M) = 0$
+Soit $M \in \mathcal{A}_{G}$, 
+$$\forall t \in \mathbb{R}, \det(e^{ tM }) =  e^{ t\mathrm{Tr}(M) } = 1 \text{ alors }\mathrm{Tr}(M) = 0$$
+car $\mathbb{K} = \mathbb{R}$
+Soit $M \in \mathcal{M}_{n}(\mathbb{R})$ tel que $\mathrm{Tr}(M) = 0$, 
+$$\det(e^{ tM }) = e^{ t\mathrm{Tr}(M) } = 1$$
+Ainsi, 
+$$\mathcal{A}_{G} = \{ M \in \mathcal{M}_{n}(\mathbb{R}) | \mathrm{Tr}(M) = 0 \}$$
+
+#### 10.
+Soit $M \in \mathcal{A}_{G}$, 
+Soit $t \in \mathbb{R}$, 
+$$e^{ tM } \in O_{n}(\mathbb{R}) \text{ ie } (e^{ tM })^{\top}e^{ tM } = I_{n}$$
+$$(e^{ tM })^{\top} = \sum_{k = }$$
