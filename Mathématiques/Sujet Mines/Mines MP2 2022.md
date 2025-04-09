@@ -242,8 +242,25 @@ e^{ tz_{1} } &&&0  \\
 \end{pmatrix} $$
 $$\left|\left| e^{ rD } \right|\right|  \leq C_{1} \left| e^{ t\alpha+ i \beta }\right| = C_{1}e^{ t\alpha } $$
 Alors, 
-$$\boxed{\exists K \in \mathbb{R}, \left|\left| e^{ tA } \right|\right| \leq K t^{m}e^{ \alpha }}$$
+$$\boxed{\exists K \in \mathbb{R}, \left|\left| e^{ tA } \right|\right| \leq K t^{m}e^{ \alpha t }}$$
 
 #### 23
-Si $\alpha <0$, alors, $\forall \lambda \in Sp(A), \mathrm{Re}(\lambda) <0$
-$$e^{ tA }$$
+Si $\alpha <0$, alors, comme : 
+$$e^{ tA } = O(t^{m}e^{ \alpha t })$$
+$$e^{ tA } \leq K t^{m}e^{ \alpha t } $$
+Alors par les croissances comparés  : 
+$$e^{ tA } \underset{t \to +\infty}{\longrightarrow} 0$$
+
+#### 24
+On a montré que : 
+$$\alpha = \max_{\lambda \in Sp(A)} \mathrm{Re}(\lambda) < 0 \Leftrightarrow \lim_{ t \to \infty } e^{ tA } = 0 \Leftrightarrow $$
+Alors, 
+$$\lim_{ t \to \infty } e^{ tA }\neq 0 \Leftrightarrow \alpha \geq 0 $$
+On a alors que : 
+$$\forall X \in \mathcal{M}_{n, 1}(\mathbb{C}), \lim_{ n \to \infty } $$
+
+#### 25
+Lemme des noyaux
+Soit $X \in E_{s}$ alors, 
+$$P_{s}(X) = 0$$
+Alors, comme $\forall \lambda \in Sp(A|_{E_{s}}), \mathrm{Re}(\lambda) < 0$
