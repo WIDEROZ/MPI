@@ -133,6 +133,28 @@ $$A \sim \begin{pmatrix}
 
 $$T^{n} = \begin{pmatrix}
 \alpha^{n}&0&0 \\
-0&\beta^{n} & a \\
+0&\beta^{n} & n\beta^{n-1}a \\
 0 & 0 & \beta^{n}
 \end{pmatrix}$$
+$$e^{ tT } = \sum_{n = 0}^{+ \infty} \frac{T^{n}}{n!} t^{n} = \begin{pmatrix}
+e^{ \alpha t }&0&0 \\
+0&e^{ \beta t } & a t\sum_{n = 1}^{+ \infty} \frac{\beta^{n-1}}{(n-1)!}t^{n-1} \\
+0&0&e^{ \beta t }
+\end{pmatrix}$$
+$$e^{ tT } = \begin{pmatrix}
+e^{ \alpha t }&0&0 \\
+0&e^{ \beta t } & a t e^{ \beta t } \\
+0&0&e^{ \beta t }
+\end{pmatrix}$$
+Alors, 
+$$e^{ tA } = P e^{ tT } P^{-1}$$
+Donc, 
+$$\lim_{ t \to \infty } e^{ tT } =  0 \Leftrightarrow \begin{cases}
+e^{ \alpha t } \underset{t \to +\infty}{\longrightarrow} 0 \\
+e^{ \beta t } \underset{t \to +\infty}{\longrightarrow} 0 \\
+\end{cases} $$
+$$\text{ car par les croissances comparés : } te^{ \beta t }\underset{t \to +\infty}{\longrightarrow} 0$$
+$$\Leftrightarrow \begin{cases}
+\alpha <0  \\
+\beta <0
+\end{cases}$$
