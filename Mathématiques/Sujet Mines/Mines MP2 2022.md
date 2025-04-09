@@ -184,7 +184,10 @@ D_{\lambda} = \lambda I_{n} \\
 N_{\lambda} = T-\lambda I_{n} \in F_{\lambda}
 \end{cases}$$
 Alors, 
-$$A = P(D_{\lambda}+N_{\lambda})P^{-1} \text{ et }$$
-$$D_{\lambda}N_{\lambda} = N_{\lambda}D_{\lambda}$$
-car : $D_{\lambda}\sim I_{n}$
-$$N_{\lambda}^{m_{\lambda}} = (T-\lambda I_{n})^{m_{\lambda}} $$
+Si on pose : $A_{\lambda} = Mat_{\beta}(u|_{F_{\lambda}})$, alors $A_{\lambda}\in \mathcal{M}_{m_{\lambda}}(\mathbb{C})$, 
+$$A_{\lambda} = P(D_{\lambda} + N_{\lambda})P^{-1}$$
+Et comme $\mathbb{C}^{n} = \bigoplus_{\lambda \in Sp(A)}F_{\lambda}$, 
+$$A = P\left( \sum_{\lambda \in Sp(A)} (D_{\lambda} + N_{\lambda}) \right) P^{-1} = P\left( \sum_{\lambda \in Sp(A)} D_{\lambda} + \sum_{\lambda \in Sp(A)} N_{\lambda} \right)P^{-1}$$
+Alors, 
+$$D_{\lambda} \text{ est diagonale}$$
+$$D_{\lambda} $$
