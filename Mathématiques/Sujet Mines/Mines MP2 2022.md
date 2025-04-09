@@ -158,3 +158,19 @@ $$\Leftrightarrow \begin{cases}
 \alpha <0  \\
 \beta <0
 \end{cases}$$
+#### 19
+Supposons que : 
+$$e^{ tA }\underset{t \to +\infty}{\longrightarrow} 0$$
+Alors comme $A \in \mathcal{M}_{n}(\mathbb{C})$ $A$ est TZ et : 
+$$e^{ tA } = P e^{ tT } P^{-1}$$
+Donc, 
+$$e^{ tT } \underset{t \to +\infty}{\longrightarrow} 0$$
+Alors, si on prend le coefficient diagonal de $T$ : $z=\alpha + i \beta$ ou $\beta$ est le coef imaginaire associé au complexe de partie réelle $\alpha$. 
+$$e^{ tT } \underset{t \to +\infty}{\longrightarrow} 0 \Rightarrow e^{ tz } = e^{ t\alpha }e^{ i\beta } \underset{t \to +\infty}{\longrightarrow} 0 \Leftrightarrow \left| e^{ t\alpha }\right| \left| e^{ i\beta }\right| \underset{t \to +\infty}{\longrightarrow} 0 \Leftrightarrow \alpha <0$$
+
+#### 20.
+$$\chi_{A} = \prod_{\lambda \in Sp(A)}(X-\lambda)^{m_{\lambda}}$$
+Alors, comme : 
+$$\forall \lambda, \mu \in Sp(A), \lambda \neq \mu \Rightarrow (X-\lambda)^{m_{\lambda}} \wedge (X-\mu)^{m_{\mu}} = 1$$
+Par le lemme des noyaux et comme $\chi_{A}(A) = 0$ d'après Cayley Hamilton : 
+$$\mathrm{Ker}(\chi_{A}(A)) = \mathbb{C}^{n} = O$$
