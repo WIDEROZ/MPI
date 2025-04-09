@@ -263,4 +263,7 @@ $$\forall X \in \mathcal{M}_{n, 1}(\mathbb{C}), \lim_{ n \to \infty } $$
 Lemme des noyaux
 Soit $X \in E_{s}$ alors, 
 $$P_{s}(X) = 0$$
-Alors, comme $\forall \lambda \in Sp(A|_{E_{s}}), \mathrm{Re}(\lambda) < 0$
+Alors, comme $\forall \lambda \in Sp(A|_{E_{s}}), \mathrm{Re}(\lambda) < \alpha < 0$, 
+$$\lim_{ t \to \infty } e^{ tA }X  = 0$$
+d'après la question 23
+
