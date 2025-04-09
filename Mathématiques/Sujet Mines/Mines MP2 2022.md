@@ -173,19 +173,18 @@ $$\chi_{A} = \prod_{\lambda \in Sp(A)}(X-\lambda)^{m_{\lambda}}$$
 Alors, comme : 
 $$\forall \lambda, \mu \in Sp(A), \lambda \neq \mu \Rightarrow (X-\lambda)^{m_{\lambda}} \wedge (X-\mu)^{m_{\mu}} = 1$$
 Par le lemme des noyaux et comme $\chi_{A}(A) = 0$ d'après Cayley Hamilton : 
-$$\mathrm{Ker}(\chi_{A}(A)) = \mathrm{Ker}(0)= \mathbb{C}^{n} = \bigoplus_{\lambda \in Sp(A)} \mathrm{Ker} F_{\lambda}$$
+$$\mathrm{Ker}(\chi_{A}(A)) = \mathrm{Ker}(0)= \mathbb{C}^{n} = \bigoplus_{\lambda \in Sp(A)}  F_{\lambda}$$
 
 #### 21.
 Alors, pour toute matrice : $A \in \mathcal{M}_{n}(\mathbb{C})$, 
 $$\exists (P, T) \in GL_{n}(\mathbb{C}) \times T^{+}_{n}(\mathbb{C}),A = PTP^{-1} $$
 On note : 
-$$\forall \lambda \in Sp(A), 
-D_{\lambda} = \lambda I_{n} \text{ et } \begin{cases}
-D = \sum_{\lambda \in Sp(A)} D_{\lambda} \\
-N = T-\sum_{\lambda \in Sp(A)} D_{\lambda}
+$$\forall \lambda \in Sp(A), \begin{cases}
+D_{\lambda} = \lambda I_{n} \\
+N_{\lambda} = T-\lambda I_{n} \in F_{\lambda}
 \end{cases}$$
-
 Alors, 
-$$A = P(D+N)P^{-1} \text{ et }$$
-de plus, 
-$$$$
+$$A = P(D_{\lambda}+N_{\lambda})P^{-1} \text{ et }$$
+$$D_{\lambda}N_{\lambda} = N_{\lambda}D_{\lambda}$$
+car : $D_{\lambda}\sim I_{n}$
+$$N_{\lambda}^{m_{\lambda}} = (T-\lambda I_{n})^{m_{\lambda}} $$
