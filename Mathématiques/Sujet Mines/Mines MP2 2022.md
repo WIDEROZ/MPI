@@ -215,4 +215,12 @@ $A = P(D+ N) P^{-1}$
 $$DN = \begin{pmatrix}
 D_{\lambda_{1}}N_{\lambda_{1}} 
 \end{pmatrix} = ND$$
-$N_{\lambda}$ est triangulaire sup alors nilpot
+$N_{\lambda}$ est triangulaire sup alors nil
+
+#### 22.
+Pour $i=j$, $p=0$
+Pour $i\neq j$, 
+On prend les vp de $e^{ tA }$ : $\lambda_{1}, \dots, \lambda_{q}$
+$$A = PTP^{-1} \text{ alors } e^{ tA } = P e^{ tT } P^{-1}$$
+D'après la question précédente : 
+$$e^{ tA } = P e^{ t(D+N) }P^{-1} = P e^{ tD }e^{ tN } P^{-1}$$
