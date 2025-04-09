@@ -121,11 +121,11 @@ $$\gamma(0) = I_{n} \text{ et } \gamma'(0) = M e^{ 0M } = M $$
 
 #### 16.
 #### 17.
-Pour $G = SL_{n}(\mathbb{R})$, 
-$$\mathcal{A}_{G} = \{ M \in \mathcal{M}_{n}(\mathbb{R}) | \mathrm{Tr}(M) = 0 \}$$
-Alors, 
-Soit $M \in T_{I_{n}}(G)$, 
-$$\gamma(0) = I_{n} \text{ et } \gamma'(0) = M$$
-$$\det(\gamma(0)) = 1 \text{ et } (\det(\gamma))' =  \gamma'(\det'(\gamma))  $$
-Évalué en $0$ : 
-$$\det(\gamma(0))' = M $$
+#### 18
+$A$ est TZ de la forme : 
+$$A \sim \begin{pmatrix}
+\alpha & b & c \\
+0 & \beta & a \\
+0 & 0 & \beta
+\end{pmatrix}$$
+Si $b \neq 0 \neq c$, alors, 
