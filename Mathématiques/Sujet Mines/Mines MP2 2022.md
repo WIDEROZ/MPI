@@ -127,5 +127,17 @@ $$A \sim \begin{pmatrix}
 \alpha & b & c \\
 0 & \beta & a \\
 0 & 0 & \beta
+\end{pmatrix} = T$$
+$$(X-\alpha) \wedge (X-\beta) = 1$$
+et 
+$$\mathbb{C}^{3} = \mathrm{Ker}(T-\alpha I_{n}) \oplus  \mathrm{Ker}(T-\beta I_{n})$$
+donc, 
+$$\mathrm{Ker}\begin{pmatrix}
+0 &  b & c \\
+0 & \beta-\alpha & a \\
+0 & 0 & \beta-\alpha
+\end{pmatrix} \oplus  \mathrm{Ker}\begin{pmatrix}
+\alpha-\beta&b&c \\
+0&0&a \\
+0&0&0
 \end{pmatrix}$$
-Si $b \neq 0 \neq c$, alors, 
