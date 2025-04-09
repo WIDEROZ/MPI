@@ -3,3 +3,10 @@ $$aX^{2n} = aX^{n} \times aX^{n} = a^{2}X^{2n}$$
 Alors, $a=1$
 
 $$2^{n} \equiv 2^{p} [2\pi]$$
+
+
+$$\exists i \in [\![1, n]\!],X[i, 1] > 0$$
+Or comme $\forall k \in [\![1, n]\!], A[i, k] > 0$, 
+$$\forall j \in [\![1, n]\!], AX[j, 1] = \sum_{k=1}^{n} A[i, k]X[k, 1] > 0$$
+Ainsi $AX > 0$
+
