@@ -218,18 +218,32 @@ D_{\lambda_{1}}N_{\lambda_{1}}
 $N_{\lambda}$ est triangulaire sup alors nil
 
 #### 22.
-Pour $i=j$, $p=0$
-Pour $i\neq j$, 
-On prend les vp de $e^{ tA }$ : $\lambda_{1}, \dots, \lambda_{q}$
 $$A = PTP^{-1} \text{ alors } e^{ tA } = P e^{ tT } P^{-1}$$
 D'après la question précédente : 
 $$e^{ tA } = P e^{ t(D+N) }P^{-1} = P e^{ tD }e^{ tN } P^{-1}$$
 Alors, si on note : $m$ l'indice de nilpotence de $N$ : 
 Soit $t \in ]1, + \infty[$, 
-$$\left|\left| e^{ tA }  \right|\right|=\left|\left|  P e^{ tD }e^{ tN }P^{-1} \right|\right| \leq C\left|\left| e^{ tD } \right|\right|  \left|\left| e^{ tN } \right|\right| \leq C t\left|\left| \begin{pmatrix}
-
-\end{pmatrix} \right|\right|  \sum_{k = 0}^{m} \frac{t^{k}}{n!}\left|\left| N \right|\right| ^{k}$$
+$$\left|\left| e^{ tA }  \right|\right|=\left|\left|  P e^{ tD }e^{ tN }P^{-1} \right|\right| \leq C\left|\left| e^{ tD } \right|\right|  \left|\left| e^{ tN } \right|\right| \leq C \left|\left| e^{ tD } \right|\right|   \sum_{k = 0}^{m} \frac{t^{k}}{n!}\left|\left| N \right|\right| ^{k}$$
 en posant : 
 $$C =  \left|\left| P \right|\right| \left|\left| P^{-1} \right|\right| \geq \left|\left| PP^{-1} \right|\right| = \left|\left| I_{n} \right|\right| =1 $$
 Donc, 
-$$\left|\left| e^{ tA } \right|\right|  \leq C t^{m} \sum_{k = 0}^{m}\left|\left| N \right|\right| ^{k}$$
+$$\left|\left| e^{ tA } \right|\right|  \leq C t^{m} \sum_{k = 0}^{m}\left|\left| N \right|\right| ^{k}  \left|\left| e^{ tD } \right|\right| $$
+
+Si on prend la norme : 
+$$N : M = (m_{i, j})_{(i, j )\in [\![1, n]\!]^{2}}\mapsto \max_{(i, j) \in [\![1, n]\!]^{2}} \left| m_{i,j}\right|$$
+or, comme tt les normes sont équivalentes en dimension finie, il existe $C_{1} \in \mathbb{R}_{+}$ tel que : 
+$$\left|\left| e^{ tD } \right|\right| \leq C_{1} N(e^{ tD }) $$
+Alors, comme :
+$$\forall (z_{i})_{i = 1}^{n} \in \mathbb{C}^{n}, e^{ t(diag(z_{i})_{i = 1}^{n}) } = \begin{pmatrix}
+e^{ tz_{1} } &&&0  \\
+& e^{ tz_{2} } \\
+&&\ddots& \\
+0&&&e^{ tz_{n} }
+\end{pmatrix} $$
+$$\left|\left| e^{ rD } \right|\right|  \leq C_{1} \left| e^{ t\alpha+ i \beta }\right| = C_{1}e^{ t\alpha } $$
+Alors, 
+$$\boxed{\exists K \in \mathbb{R}, \left|\left| e^{ tA } \right|\right| \leq K t^{m}e^{ \alpha }}$$
+
+#### 23
+Si $\alpha <0$, alors, $\forall \lambda \in Sp(A), \mathrm{Re}(\lambda) <0$
+$$e^{ tA }$$
