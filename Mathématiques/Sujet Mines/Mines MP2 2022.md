@@ -224,3 +224,12 @@ On prend les vp de $e^{ tA }$ : $\lambda_{1}, \dots, \lambda_{q}$
 $$A = PTP^{-1} \text{ alors } e^{ tA } = P e^{ tT } P^{-1}$$
 D'après la question précédente : 
 $$e^{ tA } = P e^{ t(D+N) }P^{-1} = P e^{ tD }e^{ tN } P^{-1}$$
+Alors, si on note : $m$ l'indice de nilpotence de $N$ : 
+Soit $t \in ]1, + \infty[$, 
+$$\left|\left| e^{ tA }  \right|\right|=\left|\left|  P e^{ tD }e^{ tN }P^{-1} \right|\right| \leq C\left|\left| e^{ tD } \right|\right|  \left|\left| e^{ tN } \right|\right| \leq C t\left|\left| \begin{pmatrix}
+
+\end{pmatrix} \right|\right|  \sum_{k = 0}^{m} \frac{t^{k}}{n!}\left|\left| N \right|\right| ^{k}$$
+en posant : 
+$$C =  \left|\left| P \right|\right| \left|\left| P^{-1} \right|\right| \geq \left|\left| PP^{-1} \right|\right| = \left|\left| I_{n} \right|\right| =1 $$
+Donc, 
+$$\left|\left| e^{ tA } \right|\right|  \leq C t^{m} \sum_{k = 0}^{m}\left|\left| N \right|\right| ^{k}$$
