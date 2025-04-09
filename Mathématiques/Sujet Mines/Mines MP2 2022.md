@@ -118,12 +118,8 @@ $$\gamma : t \mapsto e^{ tM } \in \mathcal{C}^{1}(\mathbb{R})$$
 $$\gamma(0) = I_{n} \text{ et } \gamma'(0) = M e^{ 0M } = M $$
 
 #### 15. 
-comme $\det$ est différentiable en $I_{n}$ : 
-$$\det(I_{n} + t M) = \det(I_{n}) + df(I_{n})(tM) + o(t)$$
-Alors, $t \mapsto \det(I_{n}+tM)$ est dérivable en $0$ et :
-$$\frac{d(\det (I_{n}+tM))}{dt}(0) = \lim_{ h \to 0 }  \frac{\det(I_{n}+hM) - \det(I_{n})}{h}$$
-$$ = \lim_{ h \to 0 }  \frac{hdf(I_{n})(M)}{h} = df(I_{n})(M) $$
 
-
-$$\det(I_{n}+tM) =\sum_{\sigma \in S_{n}} \varepsilon(\sigma) \prod_{i = 1}^{n}(\delta_{i, \sigma(i)}+t m_{i, \sigma(i)}) $$
-Il suffit de trouver le terme de degré $1$ ()
+#### 16.
+#### 17.
+Pour $G = SL_{n}(\mathbb{R})$, 
+$$\mathcal{A}_{G}\{ M \in \mathcal{M}_{n}(\mathbb{R}) | \mathrm{Tr}(M) = 0 \}$$
