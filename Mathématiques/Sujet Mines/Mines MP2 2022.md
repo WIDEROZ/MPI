@@ -181,13 +181,38 @@ $$\exists (P, T) \in GL_{n}(\mathbb{C}) \times T^{+}_{n}(\mathbb{C}),A = PTP^{-1
 On note : 
 $$\forall \lambda \in Sp(A), \begin{cases}
 D_{\lambda} = \lambda I_{n} \\
-N_{\lambda} = T-\lambda I_{n} \in F_{\lambda}
-\end{cases}$$
+N_{\lambda} = T_{\lambda}-\lambda I_{n} \in F_{\lambda}
+\end{cases} \text{ ou } T_{\lambda} = P^{-1} A_{\lambda} P $$
 Alors, 
 Si on pose : $A_{\lambda} = Mat_{\beta}(u|_{F_{\lambda}})$, alors $A_{\lambda}\in \mathcal{M}_{m_{\lambda}}(\mathbb{C})$, 
 $$A_{\lambda} = P(D_{\lambda} + N_{\lambda})P^{-1}$$
 Et comme $\mathbb{C}^{n} = \bigoplus_{\lambda \in Sp(A)}F_{\lambda}$, 
-$$A = P\left( \sum_{\lambda \in Sp(A)} (D_{\lambda} + N_{\lambda}) \right) P^{-1} = P\left( \sum_{\lambda \in Sp(A)} D_{\lambda} + \sum_{\lambda \in Sp(A)} N_{\lambda} \right)P^{-1}$$
-Alors, 
-$$D_{\lambda} \text{ est diagonale}$$
-$$D_{\lambda} $$
+$$A = P\left( \begin{pmatrix}
+A_{\lambda}&0&\dots&0 \\
+0&\dots&\dots&0 \\
+\vdots&&&\vdots \\
+0& \dots&\dots&0
+\end{pmatrix}\left| \begin{pmatrix}
+0&0&\dots&0 \\
+0&A_{\lambda_{2}}&\dots&0 \\
+\vdots&&&\vdots \\
+0& \dots&\dots&0
+\end{pmatrix} \left| \dots \right)\right.\right.P^{-1} = P\left( \sum_{\lambda \in Sp(A)} D_{\lambda} + \sum_{\lambda \in Sp(A)} N_{\lambda} \right)P^{-1}$$
+Alors on pose : 
+$$D = \begin{pmatrix}
+D_{\lambda}&0&\dots&0 \\
+0&\dots&\dots&0 \\
+\vdots&&&\vdots \\
+0& \dots&\dots&0
+\end{pmatrix} | \begin{pmatrix}
+0&0&\dots&0 \\
+0&D_{\lambda}&\dots&0 \\
+\vdots&&&\vdots \\
+0& \dots&\dots&0
+\end{pmatrix} | \dots$$
+de même pour $N$, 
+$A = P(D+ N) P^{-1}$ 
+$$DN = \begin{pmatrix}
+D_{\lambda_{1}}N_{\lambda_{1}} 
+\end{pmatrix} = ND$$
+$N_{\lambda}$ est triangulaire sup alors nilpot
