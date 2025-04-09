@@ -21,4 +21,13 @@ w_{1} \\
 w_{n }
 \end{pmatrix}$$
 Alors, 
-$$ = WZ^{\top} = (W | Z) \leq \left|\left| W \right|\right| \left|\left| Z \right|\right|  $$
+$$\sum_{k = 1}^{n} \left| w_{k}z_{k}\right|= WZ^{\top} = (W | Z) \leq \left|\left| W \right|\right| \left|\left| Z \right|\right| = \sqrt{\sum_{k = 1}^{n} \left| w_{k}\right|^{2}  } \sqrt{\sum_{k = 1}^{n}\left| z_{k}\right|^{2}} $$
+
+
+$$\left| z +1 \right| = 1+\left| z\right|$$
+$$\sqrt{(\mathrm{Re}(z)+1)^{2}+ \mathrm{Im}(z)^{2}} = 1+\sqrt{\mathrm{Re}(z)^{2} + \mathrm{Im}(z)^{2}} $$
+$$\mathrm{Re}^{2}(z)+1+2\mathrm{Re}(z) + \mathrm{Im}^{2}(z) = 1+ 2\sqrt{\mathrm{Re}^{2}(z)+\mathrm{Im}^{2}(z)} + \mathrm{Re}^{2}(z)+\mathrm{Im}^{2}(z)$$
+$$\mathrm{Re}(z) =\sqrt{\mathrm{Re}(z)^{2} + \mathrm{Im}^{2}(z)}$$
+i.e.
+$$\mathrm{Im}(z) = 0 \text{ et } \mathrm{Re}(z)\geq 0$$
+
