@@ -5,4 +5,13 @@ $$\lambda_{1} + \lambda_{2}\cos(x) + \lambda_{3}\cos(2x) = 0$$
 Alors, 
 en évaluant en $\frac{\pi}{2}$,
 $$\lambda_{1} = \lambda_{3}$$
-en $\pi$
+en $\frac{\pi}{4}$ : 
+$$\lambda_{1} = -\lambda_{2}\frac{\sqrt{2}}{2}$$
+en $\pi$ : 
+$$2\lambda_{1} -\lambda_{2} = 0$$
+Alors, $\lambda_{1} = \lambda_{2} = \lambda_{3} = 0$
+
+#### Question 2
+##### a.
+$$\int_{0}^{\pi} \cos(nx)\cos(px) \, dx = \left[ \frac{1}{p}\sin(px)\cos(nx) \right]_{0}^{\pi} + \frac{n}{p}\int_{0}^{\pi} \sin(px)\sin(nx) \, dx   $$
+$$= \frac{n}{p} \int_{0}^{\pi}\sin(px)\sin(nx) \, dx = $$
