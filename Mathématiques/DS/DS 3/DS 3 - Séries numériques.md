@@ -40,6 +40,12 @@ $$\frac{x_{n}}{n} = \frac{n!}{n^{2}}\left( x_{1}-\sum_{k = 1}^{n-1} \frac{k^{2}}
 $$x_{n} \sim (n-1)! (x_{1}-2e)$$
 Alors, pour que $x_{n} = O(n)$ il faut que $(n-1)!(x_{1}-2e)$ converge ie $x_{1}=2e$
 
-#### d.
+##### d.
+$$\sum_{k = n}^{+ \infty} \frac{n!}{k!} = \sum_{p =0}^{+ \infty} \frac{n!}{(p+n)!} = 1+\sum_{p=1}^{+ \infty} \left( \prod_{k = 1}^{p} \frac{1}{n+k} \right) \underset{n \to +\infty}{\longrightarrow} 1$$
+Ainsi
 $$\sum_{k = n}^{+ \infty} \frac{1}{k!} \sim \frac{1}{n!}$$
-$$\sum_{k = n}^{+ \infty} \frac{n!}{k!} = \sum_{p =0}^{+ \infty} \frac{n!}{(p+n)!} = 1+\sum_{p=1}^{+ \infty} \left( \prod_{k = 1}^{p} \frac{1}{n+k} \right) \underset{n \to +\infty}{\longrightarrow} $$
+
+##### e.
+Si $x_{1} = 2e$ alors, 
+$$\frac{x_{n}}{n}=\frac{n!}{n^{3}}\left( 2e-\sum_{k= 1}^{n-1} \frac{k^{2}}{k!} \right) \sim \frac{n!}{n^{3}} \left( \sum_{k = 0}^{+ \infty} \frac{k^{2}}{k!}-\sum_{k = 1}^{n-1} \frac{k^{2}}{k!} \right)$$
+$$= \frac{n!}{n^{2}} \sum_{k = n}^{+ \infty} \frac{k^{2}}{k!} \sim \frac{n!}{n^{2}} \frac{1}{n!} = \frac{1}{n^{2}}$$
