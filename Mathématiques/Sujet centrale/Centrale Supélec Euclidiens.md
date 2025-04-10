@@ -118,9 +118,11 @@ Ainsi, c'est terminé
 $$\mathrm{Ker}(A-rI_{n})$$
 Soient $X, Y \in E_{r}(A)$ non tous deux nuls, tels que $X^{\top}Y = 0$
 Alors, 
-$$\begin{cases}
-X = \left| X\right| \text{ ou } X = - \left| X\right| \\
-Y = \left| Y\right| \text{ ou } Y = - \left| Y\right|
-\end{cases}$$
 $$AX = r X \text{ et } AY = rY$$
-$$X^{\top}AY = 0$$
+$$(AX)^{\top}Y=X^{\top}AY = 0$$
+or 
+$$XX^{\top} A YY^{\top} = (X^{\top}X)^{\top} A (Y^{\top}Y) = A = 0$$
+ABSURDE
+
+#### Question 30
+$A$ est DZ alors son poly. caractéristique est scindé et $\dim E_{r}(A) = Mult(r) =1$
