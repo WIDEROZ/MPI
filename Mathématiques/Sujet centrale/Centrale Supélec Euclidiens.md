@@ -41,4 +41,7 @@ $$\rho(A) \leq N(A)$$
 #### Question 17
 $$T = (t_{i, j})_{(i, j) \in [\![1,n]\!]}$$
 Alors, 
-$$D^{-1}_{\tau} T D_{\tau} = diag(1, \tau^{-1}, \dots, \tau^{1-n})Tdiag(1, \tau^{1}, \dots, \tau^{n-1})$$
+$$M = D^{-1}_{\tau} T D_{\tau} = \mathrm{diag}(1, \tau^{-1}, \dots, \tau^{1-n})T \mathrm{diag}(1, \tau^{1}, \dots, \tau^{n-1})$$
+Alors, 
+$$M[i, j] = \left(\sum_{q=  1}^{n}\left( \sum_{k=  1}^{n} \delta_{i, k} \tau^{k-1} t_{k, q} \right) \delta_{q,j} \tau^{q-1}  \right)$$
+$$= \sum_{q = 1}^{n}\sum_{k= 1}^{n} \delta_{i, k}\delta_{q, j} \tau^{k+q-2} t_{k, q}$$
