@@ -104,7 +104,11 @@ Supposons que :
 $$AX = rX$$
 Alors, 
 $$\left| AX\right| = \left| rX\right| = r\left| X\right|$$
-Donc, comme $A > 0$ $\left| A\right|=A$
-$$A \left| X\right| = \left| A\left| X\right|\right|$$
-$$A\left| X\right| \geq \left| AX\right| =r\left| X\right|$$
-$$A \left| X\right| $$
+$$A\left| X\right|=\left| A\right|\left| X\right| \geq \left| AX\right| =r\left| X\right|$$
+Alors, 
+$$\left| X\right|^{\top}A \left| X\right| \leq r $$
+Alors comme : $\left| X\right|\left| X\right|^{\top}= \sum_{k = 1}^{n} \left| x_{k}\right|^{2}=\sum_{k = 1}^{n} x_{k}^{2} = 1$
+Donc, 
+$$\left| X\right|\left| X\right|^{\top} = 1$$
+$$A\left| X\right| \leq r \left| X\right|$$
+Ainsi, c'est terminé
