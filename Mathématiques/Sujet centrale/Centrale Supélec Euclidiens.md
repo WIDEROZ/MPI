@@ -126,3 +126,4 @@ ABSURDE
 
 #### Question 30
 $A$ est DZ alors son poly. caractéristique est scindé et $\dim E_{r}(A) = Mult(r) =1$
+$$$$
