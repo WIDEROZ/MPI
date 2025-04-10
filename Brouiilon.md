@@ -46,4 +46,45 @@ $$L^{2} = P\begin{pmatrix}
 $$\chi_{B} = (X-1+\alpha)(X-1+\beta) -\alpha \beta $$
 $$\chi_{B}= X^{2} -(2-(\alpha+\beta))X + 1-(\alpha+\beta) $$
 $$(2-(\alpha+\beta))^{2}- 4(1-(\alpha + \beta))$$
-$$= $$
+$$= -4(\alpha+\beta) + (\alpha+\beta)^{2} + 4(\alpha+ \beta) = (\alpha+ \beta)^{2}$$
+alors, 
+$$\lambda = \frac{2-2(\alpha+\beta)}{2} = 1-(\alpha+\beta) \text{ et } \mu = 1$$
+Donc, 
+$$B \sim \begin{pmatrix}
+1&0 \\
+0&1-(\alpha+\beta)
+\end{pmatrix}$$
+
+$$E_{1} = \mathrm{Ker}\begin{pmatrix}
+-\alpha&\beta \\
+\alpha&-\beta
+\end{pmatrix} = Vect\begin{pmatrix}
+\beta \\
+\alpha
+\end{pmatrix}$$
+$$E_{1-\alpha-\beta} = \mathrm{Ker}\begin{pmatrix}
+\beta & \beta \\
+\alpha & \alpha
+\end{pmatrix} = Vect\begin{pmatrix}
+1 \\
+-1
+\end{pmatrix}$$
+Donc, Si on pose : 
+$$S = \begin{pmatrix}
+\beta&1 \\
+\alpha&-1
+\end{pmatrix} \text{ et } D = \begin{pmatrix}
+1&0 \\
+0&1-\alpha-\beta
+\end{pmatrix}$$
+c'est terminé
+Donc; 
+$$B^{k} = SD^{k}S^{-1} = S \begin{pmatrix}
+1&0 \\
+0&(1-\alpha-\beta)^{k}
+\end{pmatrix} \underset{k \to +\infty}{\longrightarrow} \begin{cases}
+S\begin{pmatrix}
+1&0 \\
+0&0
+\end{pmatrix}S^{-1} \text{ si }\alpha+ \beta < 1
+\end{cases} $$
