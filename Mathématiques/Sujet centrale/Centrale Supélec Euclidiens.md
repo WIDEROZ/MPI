@@ -87,3 +87,13 @@ $$X^{\top}AX = \mu \Leftrightarrow XX^{\top} A X= X\mu \Leftrightarrow AX = \mu 
 car $XX^{\top} = 1$
 
 #### Question 25
+D'après la question tah l'époque : 
+$$\left| X^{\top}AX\right| \leq \left| X^{\top}\right| \left| A\right| \left| X\right|  $$
+Or $A \geq 0$ alors, 
+$$\left| X^{\top}AX\right| \leq \left| X^{\top}\right| A \left| X\right| \leq  \mu $$
+même démonstration qu'a la question 23 en posant des valeurs absolues sur les $X$
+
+#### Question 26
+Comme : Pour $X$ unitaire et 
+$$\forall X \in E_{\lambda}(A), 0 \leq \left| X^{\top}AX\right| = \left| X^{\top}\lambda X\right| = \left| \lambda\right|\leq \mu$$
+Alors, on a que : $\mu \geq 0$ et comme $\rho(A) >0$ et que $$
