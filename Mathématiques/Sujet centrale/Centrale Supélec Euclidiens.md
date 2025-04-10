@@ -29,3 +29,16 @@ Soit $\lambda \in Sp(A)$,
 $$A = STS^{-1} \Leftrightarrow AS = ST$$
 Si on pose : 
 $$A = Mat_{\beta}(u) \text{ et } H=Mat_{\beta}(u|_{E_{\lambda}})$$
+
+$$AH =\lambda H $$
+Alors, 
+$$\left| \lambda\right|N(H) \leq N(A)N(H)$$
+Donc comme : 
+$$H \neq 0 \Leftrightarrow N(A) \neq H  \text{ on a : } \left| \lambda \right| \leq N(A) $$
+Ainsi : 
+$$\rho(A) \leq N(A)$$
+
+#### Question 17
+$$T = (t_{i, j})_{(i, j) \in [\![1,n]\!]}$$
+Alors, 
+$$D^{-1}_{\tau} T D_{\tau} = diag(1, \tau^{-1}, \dots, \tau^{1-n})Tdiag(1, \tau^{1}, \dots, \tau^{n-1})$$
