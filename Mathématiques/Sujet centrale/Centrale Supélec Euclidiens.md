@@ -77,4 +77,13 @@ On pose :
 $$X = \sum_{\lambda \in Sp(A)} X_{\lambda}$$
 Alors, 
 $$X^{\top}AX = \left( \sum_{\lambda \in Sp(A)}X^{\top}_{\lambda}  \right)A \left( \sum_{\lambda \in Sp(A)} X_{\lambda} \right)$$
-$$= $$
+$$= \sum_{\lambda \in Sp(A)}\sum_{\nu \in Sp(A)} \left( X_{\lambda}^{\top}AX_{\nu} \right) = \sum_{\lambda \in Sp(A)}\sum_{\nu \in Sp(A)} \left( X_{\lambda}^{\top}\nu X_{\nu} \right) $$
+$$= \sum_{\lambda \in Sp(A)} \sum_{\nu \in Sp(A)} \nu X_{\lambda}^{\top}X_{\nu} = \sum_{\nu \in Sp(A)} \nu X_{\nu}^{\top} \sum_{\lambda \in Sp(A)} X_{\lambda} \leq \mu X^{\top}X $$
+$= \mu$
+
+
+#### Question 24
+$$X^{\top}AX = \mu \Leftrightarrow XX^{\top} A X= X\mu \Leftrightarrow AX = \mu X$$
+car $XX^{\top} = 1$
+
+#### Question 25
