@@ -47,5 +47,17 @@ $$\sum_{k = n}^{+ \infty} \frac{1}{k!} \sim \frac{1}{n!}$$
 
 ##### e.
 Si $x_{1} = 2e$ alors, 
-$$\frac{x_{n}}{n}=\frac{n!}{n^{3}}\left( 2e-\sum_{k= 1}^{n-1} \frac{k^{2}}{k!} \right) \sim \frac{n!}{n^{3}} \left( \sum_{k = 0}^{+ \infty} \frac{k^{2}}{k!}-\sum_{k = 1}^{n-1} \frac{k^{2}}{k!} \right)$$
+$$\frac{x_{n}}{n}=\frac{n!}{n^{2}}\left( 2e-\sum_{k= 1}^{n-1} \frac{k^{2}}{k!} \right) \sim \frac{n!}{n^{2}} \left( \sum_{k = 0}^{+ \infty} \frac{k^{2}}{k!}-\sum_{k = 1}^{n-1} \frac{k^{2}}{k!} \right)$$
 $$= \frac{n!}{n^{2}} \sum_{k = n}^{+ \infty} \frac{k^{2}}{k!} \sim \frac{n!}{n^{2}} \frac{1}{n!} = \frac{1}{n^{2}}$$
+Alors, 
+$$\frac{x_{n}}{n} \sim \frac{1}{n^{2}} \Rightarrow nx_{n} \sim 1 \Rightarrow ???$$
+
+#### Question 3
+##### a.
+On a deux cas : 
+Si $n$ est pair : $\sin$ est négatif sur $[n\pi, (n+1)\pi]$ alors :
+$$\int_{n\pi}^{(n+1)\pi} (-\sin(x)) \, dx = -[\cos(x)]_{n\pi}^{(n+1)\pi} = 2 $$
+Si $n$ est impair : $\sin$ est positif sur $[n\pi, (n+1)\pi]$ alors :
+$$\int_{n\pi}^{(n+1)\pi} \sin(x) \, dx = [\cos(x)]_{n\pi}^{(n+1)\pi} = 2 $$
+
+##### b.
