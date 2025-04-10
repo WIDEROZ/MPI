@@ -23,13 +23,27 @@ $$A^{k} = PD^{k}P^{-1} = P \begin{pmatrix}
 \end{pmatrix}P^{-1} \Leftrightarrow A^{k} \underset{k \to +\infty}{\longrightarrow} \begin{cases}
 P\begin{pmatrix}
 0&0 \\
-0&0
+0&1
 \end{pmatrix}P^{-1}  \\
 P\begin{pmatrix}
 \underset{{ k \to \infty }}{\lim } \lambda^{k}&0 \\
 0&+ \infty
-\end{pmatrix}
+\end{pmatrix} \\
+P\begin{pmatrix}
+0&0 \\
+0&0
+\end{pmatrix}P^{-1}
 \end{cases}$$
 Si $\mu =1$ 
 Si $\mu > 1$, 
-Si $\mu <1$, 
+Si $\mu <1$
+
+$$L^{2} = P\begin{pmatrix}
+0&0 \\
+0&1
+\end{pmatrix} P^{-1} = L$$
+
+$$\chi_{B} = (X-1+\alpha)(X-1+\beta) -\alpha \beta $$
+$$\chi_{B}= X^{2} -(2-(\alpha+\beta))X + 1-(\alpha+\beta) $$
+$$(2-(\alpha+\beta))^{2}- 4(1-(\alpha + \beta))$$
+$$= $$
