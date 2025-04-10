@@ -20,3 +20,16 @@ donc par liebniz la série CV
 
 #### Question 2
 ##### a.
+$$\sum_{k = 0}^{+ \infty} \frac{k^{2}}{k!} = \sum_{k = 1}^{+ \infty} \frac{k}{(k-1)!} = \sum_{k = 0}^{+ \infty} \frac{k+1}{k!} = \sum_{k = 1}^{+ \infty} \frac{1}{(k-1)!} + \sum_{k = 0} ^{+ \infty}\frac{1}{k!} $$
+$$= \sum_{k = 0}^{+ \infty} \frac{1}{k!} + \sum_{k = 0 }^{+ \infty} \frac{1}{k!}= 2 \sum_{k=  0}^{+ \infty} \frac{1}{k!} = 2e$$
+
+#### b.
+Par récurrence :
+Initialisation : 
+$$\frac{x_{2}}{1} = \frac{x_{1}-1}{1} = x_{1}-1$$
+
+Hérédité : 
+Supposons : 
+$$\frac{x_{n+1}}{n!} = x_{1}-\sum_{k = 1}^{n} \frac{k^{2}}{k!}$$
+$$\frac{x_{n+2}}{(n+1)!} =  \frac{1}{n+1} \frac{(n+1)(x_{n+1}-n+1)}{n!}= \frac{x_{n+1}-(n+1)}{n!} $$
+$$x_{1}-\sum_{k = 1}^{n} \frac{k^{2}}{k!} - n+1$$
