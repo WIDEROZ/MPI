@@ -113,8 +113,14 @@ $$\left| X\right|\left| X\right|^{\top} = 1$$
 $$A\left| X\right| \leq r \left| X\right|$$
 Ainsi, c'est terminé
 
-#### Question 28
-On pose : 
-Soit $(X_{1}, \dots, X_{p})$ une base unitaire de $E_{\lambda}(A)$, 
-Soit $X \in E_{\lambda}(A)$, il existe $(x_{k})_{k = 1}^{p} \in \mathbb{R}$ tels que : 
-$$X = \sum_{k =1}^{p} x_{k} X_{k} $$
+#### Question 29
+
+$$\mathrm{Ker}(A-rI_{n})$$
+Soient $X, Y \in E_{r}(A)$ non tous deux nuls, tels que $X^{\top}Y = 0$
+Alors, 
+$$\begin{cases}
+X = \left| X\right| \text{ ou } X = - \left| X\right| \\
+Y = \left| Y\right| \text{ ou } Y = - \left| Y\right|
+\end{cases}$$
+$$AX = r X \text{ et } AY = rY$$
+$$X^{\top}AY = 0$$
