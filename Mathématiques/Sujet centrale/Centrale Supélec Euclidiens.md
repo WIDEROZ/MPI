@@ -126,7 +126,3 @@ ABSURDE
 
 #### Question 30
 $A$ est DZ alors son poly. caractéristique est scindé et $\dim E_{r}(A) = Mult(r) =1$
-Or si $-r$ était valeur propre on aurait : 
-$$A \left| X\right| = - r \left| X \right|$$
-et alors,
-$$E_{-r}(A) = Vect()$$
