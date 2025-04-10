@@ -68,4 +68,13 @@ $$\sum_{j = p}^{n} \left| t_{p, j}\tau^{j-p}\right| \leq t_{\max}(n-p)+\rho(T) \
 Sym réelle, orthogonaux
 
 #### Question 22
-Comme $$
+$r \geq 0$,  
+Si $r= \max_{\lambda \in Sp(A)}\left| \lambda\right|=0$ alors comme $A$ est DZ et $Sp(A) = \{ 0 \}$, $A = 0$ or $A$ est une matrice non nulle c'est ABSURDE
+
+#### Question 23
+Soit $X \in \mathcal{M}_{n, 1}(\mathbb{R}) = \bigoplus_{\lambda \in Sp(A)}E_{\lambda \in Sp(A)}$,
+On pose : 
+$$X = \sum_{\lambda \in Sp(A)} X_{\lambda}$$
+Alors, 
+$$X^{\top}AX = \left( \sum_{\lambda \in Sp(A)}X^{\top}_{\lambda}  \right)A \left( \sum_{\lambda \in Sp(A)} X_{\lambda} \right)$$
+$$= $$
