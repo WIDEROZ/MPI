@@ -55,4 +55,8 @@ $$\sum_{j = p+1}^{n} \left| t_{i, j}\tau^{j-i} \right|+ \rho(T) \leq \left|\left
 Mais encore comme : 
 $$\forall i \in [\![1,n ]\!], \sum_{j = i}^{n} \left| t_{i, j}\tau^{j-i} \right|\leq\sum_{j = i}^{n} \left| t_{i, j}\right|\delta^{j-i}  $$
 En particulier : pour $i=p$ : 
-$$\sum_{j= i}^{n} $$
+$$\sum_{j = p+1}^{n} \left| t_{p, j}\tau^{j-p} \right| + \rho(T)\leq\sum_{j = p+1}^{n} \left| t_{p, j}\right|\delta^{j-p} + \rho(T)$$
+On pose : 
+$$t_{\max} = \max_{j \in [\![p+1, n]\!] }\{ \left| t_{p, j}\right|\delta^{j-p} \}$$
+Alors, 
+$$\sum_{j = p}^{n} \left| t_{p, j}\tau^{j-p}\right| \leq t_{\max}(n-p)+\rho(T) \leq t_{\max}n + \rho(T)$$
