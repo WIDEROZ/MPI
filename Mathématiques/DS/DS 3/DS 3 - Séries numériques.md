@@ -75,3 +75,10 @@ or :
 $$\sqrt{n+1}+\sqrt{n} \sim 2\sqrt{n} \text{ car : } \frac{\sqrt{n+1}+\sqrt{n}}{2\sqrt{n}} = \frac{\sqrt{1+\frac{1}{n}}}{2} +\frac{1}{2} \underset{n \to +\infty}{\longrightarrow} 1$$
 Alors, 
 $$\sqrt{n+1}-\sqrt{n} \sim \frac{1}{2\sqrt{n}}$$
+
+##### d.
+$$\int_{\pi}^{n\pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt = \sum_{k =1}^{n-1} \int_{k\pi}^{(k+1)\pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt $$
+
+##### e.
+$$F(x) - F\left( \left\lfloor \frac{x}{\pi} \right\rfloor \pi \right) = \int_{\pi}^{x} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt - \int_{\pi}^{\left\lfloor \frac{x}{\pi} \right\rfloor \pi} \frac{\left| \sin t\right|}{\sqrt{t}}\, dt  $$
+$$= \int_{x}^{\left\lfloor \frac{x}{\pi} \right\rfloor \pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt \leq $$
