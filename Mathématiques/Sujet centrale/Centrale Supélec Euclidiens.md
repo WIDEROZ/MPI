@@ -43,5 +43,10 @@ $$T = (t_{i, j})_{(i, j) \in [\![1,n]\!]}$$
 Alors, 
 $$M = D^{-1}_{\tau} T D_{\tau} = \mathrm{diag}(1, \tau^{-1}, \dots, \tau^{1-n})T \mathrm{diag}(1, \tau^{1}, \dots, \tau^{n-1})$$
 Alors, 
-$$M[i, j] = \left(\sum_{q=  1}^{n}\left( \sum_{k=  1}^{n} \delta_{i, k} \tau^{k-1} t_{k, q} \right) \delta_{q,j} \tau^{q-1}  \right)$$
-$$= \sum_{q = 1}^{n}\sum_{k= 1}^{n} \delta_{i, k}\delta_{q, j} \tau^{k+q-2} t_{k, q}$$
+$$M[i, j] = t_{i, j} \tau^{j-i}$$
+
+#### Question 18
+$$ \sum_{j=  i}^{n} \left| t_{i, j}\tau^{j-i}\right| $$
+$$\leq  $$
+Soit $p \in [\![1, n]\!]$ tel que : $\left| t_{p, p}\right|=\rho(T)$ alors, 
+$$\sum_{j = i}^{n} \left| t_{i, j}\right| \delta^{j-i} = \sum_{\underset{j \neq p}{j = i}}^{n} \left| t_{i, j}\right|\delta^{j-i} + \rho(T) \leq \left|\left| D_{\tau}^{-1}TD_{\tau} \right|\right|_{\infty} $$
