@@ -47,6 +47,12 @@ $$M[i, j] = t_{i, j} \tau^{j-i}$$
 
 #### Question 18
 $$ \sum_{j=  i}^{n} \left| t_{i, j}\tau^{j-i}\right| $$
-$$\leq  $$
 Soit $p \in [\![1, n]\!]$ tel que : $\left| t_{p, p}\right|=\rho(T)$ alors, 
-$$\sum_{j = i}^{n} \left| t_{i, j}\right| \delta^{j-i} = \sum_{\underset{j \neq p}{j = i}}^{n} \left| t_{i, j}\right|\delta^{j-i} + \rho(T) \leq \left|\left| D_{\tau}^{-1}TD_{\tau} \right|\right|_{\infty} $$
+$$\sum_{j = p}^{n} \left| t_{p, j}\right| \delta^{j-p} = \sum_{j = p+1}^{n} \left| t_{p, j}\right|\delta^{j-p} + \rho(T) $$
+$$\leq \left|\left| D_{\tau}^{-1}TD_{\tau} \right|\right|_{\infty} = \max_{1 \leq i \leq n}\left(  \sum_{j=  i}^{n} \left| t_{i, j}\tau^{j-i}\right|  \right) $$
+Alors, 
+$$\sum_{j = p+1}^{n} \left| t_{i, j}\tau^{j-i} \right|+ \rho(T) \leq \left|\left| D^{-1}_{\tau}TD_{\tau} \right|\right| _{\infty} $$
+Mais encore comme : 
+$$\forall i \in [\![1,n ]\!], \sum_{j = i}^{n} \left| t_{i, j}\tau^{j-i} \right|\leq\sum_{j = i}^{n} \left| t_{i, j}\right|\delta^{j-i}  $$
+En particulier : pour $i=p$ : 
+$$\sum_{j= i}^{n} $$
