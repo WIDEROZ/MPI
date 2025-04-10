@@ -17,4 +17,11 @@ $$\det(XI_{n}-A)  = \chi_{A} = \chi_{SAS^{-1}} = \det(XI_{n}-SAS^{-1}) = \det(SX
 #### Question 15
 $A \in \mathcal{M}_{n}(\mathbb{C})$ alors $\chi_{A}$ est scindé (dans $\mathbb{C}$) donc $A$ est TZ
 $$A = PTP^{-1}$$
-$$\rho(A^{k}) = \rho(T^{k}) = $$
+$$\rho(A^{k}) = \rho(T^{k})$$
+Comme la diagonale de $T$ contient toutes les valeurs propres de $A$ alors, $\forall \lambda \in Sp(T), \lambda^{k} \in Sp(T^{k})$ car les coefficients diagonaux de $T^{k}$ sont les coefficients diagonaux de $T$ à la puissance $k$
+Donc,
+$$\rho(A^{k}) = \rho(T^{k}) = \rho(T)^{k} = \rho(A)^{k}$$
+Soit $\alpha \in \mathbb{C}$, 
+$$\rho(\alpha A) = \max\{ \left| \lambda\right| ; \lambda \in Sp(\alpha A) \} = \left| \alpha\right|\max\{  \left| \lambda\right| ; \lambda \in Sp(A) \} = \left| \alpha\right| \rho(A) $$
+
+#### Question 16
