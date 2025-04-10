@@ -94,4 +94,16 @@ $$F(x) \sim \frac{4}{\pi}\sqrt{x}$$
 #### Question 4
 ##### a.
 $$0\leq \frac{1}{1+x^{2}} \leq 1$$
-En intégrant on a bien
+En intégrant sur $[0, x]$ on a bien l'inégalitée voulue
+
+##### b.
+Initialisation : 
+$0 \leq u_{0} \leq u_{0} 2^{0} = u_{0}$
+Hérédité
+Supposons : 
+$$0 \leq u_{n} \leq u_{0} 2^{-n}$$
+$$u_{n+1} =  \frac{1}{2}\arctan(u_{n}) \leq \frac{1}{2}u_{n} \leq u_{0}2^{-(n+1)}$$
+#### c.
+$$\ln\left( \frac{u_{n+1}}{u_{n}} \right) = \ln\left( \frac{\arctan(u_{n})}{u_{n}} \right) $$
+$u_{n}\underset{n \to +\infty}{\longrightarrow}0$ alors 
+$$\arctan(u_{n}) = $$
