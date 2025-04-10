@@ -81,4 +81,17 @@ $$\int_{\pi}^{n\pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt = \sum_{k =1}^{n
 
 ##### e.
 $$F(x) - F\left( \left\lfloor \frac{x}{\pi} \right\rfloor \pi \right) = \int_{\pi}^{x} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt - \int_{\pi}^{\left\lfloor \frac{x}{\pi} \right\rfloor \pi} \frac{\left| \sin t\right|}{\sqrt{t}}\, dt  $$
-$$= \int_{x}^{\left\lfloor \frac{x}{\pi} \right\rfloor \pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt \leq $$
+$$= \int_{x}^{\left\lfloor \frac{x}{\pi} \right\rfloor \pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt \leq \frac{\left( \left\lfloor \frac{x}{\pi} \right\rfloor \pi - x \right)}{\sqrt{x}}  \leq \frac{\left\lfloor \frac{x}{\pi} \right\rfloor \pi}{\sqrt{x}} -\sqrt{x} \leq \frac{\pi}{\sqrt{x}} \leq \sqrt{\pi}$$
+car : 
+$$\left\lfloor \frac{x}{\pi} \right\rfloor\pi < x+\pi  \text{ et } x \geq \pi$$
+
+$$1\underset{n \to +\infty}{\longleftarrow}  \frac{F(x_{n}\pi)}{4\sqrt{n}}\sqrt{\pi} \leq \frac{F(x)\sqrt{\pi}}{4\sqrt{n}} \leq \frac{\pi + F(x_{n}\pi)\sqrt{\pi}}{4\sqrt{n}} \underset{n \to +\infty}{\longrightarrow} 1$$
+Ainsi, 
+$$F(x) \sim \frac{4}{\pi}\sqrt{x}$$
+
+
+
+#### Question 4
+##### a.
+$$0\leq \frac{1}{1+x^{2}} \leq 1$$
+En intégrant on a bien
