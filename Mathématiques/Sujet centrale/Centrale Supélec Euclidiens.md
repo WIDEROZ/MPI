@@ -25,3 +25,7 @@ Soit $\alpha \in \mathbb{C}$,
 $$\rho(\alpha A) = \max\{ \left| \lambda\right| ; \lambda \in Sp(\alpha A) \} = \left| \alpha\right|\max\{  \left| \lambda\right| ; \lambda \in Sp(A) \} = \left| \alpha\right| \rho(A) $$
 
 #### Question 16
+Soit $\lambda \in Sp(A)$, 
+$$A = STS^{-1} \Leftrightarrow AS = ST$$
+Si on pose : 
+$$A = Mat_{\beta}(u) \text{ et } H=Mat_{\beta}(u|_{E_{\lambda}})$$
