@@ -61,3 +61,17 @@ Si $n$ est impair : $\sin$ est positif sur $[n\pi, (n+1)\pi]$ alors :
 $$\int_{n\pi}^{(n+1)\pi} \sin(x) \, dx = [\cos(x)]_{n\pi}^{(n+1)\pi} = 2 $$
 
 ##### b.
+$$\forall t \in [n\pi, (n+1\pi)], \frac{\left| \sin t\right|}{\sqrt{(n+1)\pi}} \leq \frac{\left| \sin t\right|}{\sqrt{t}} \leq \frac{\left| \sin t\right|}{\sqrt{n\pi}} $$
+en intégrant entre $n\pi$ et $(n+1)\pi$ on a : 
+$$\frac{2}{\sqrt{(n+1)\pi}} \leq \int_{n\pi}^{(n+1)\pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt \leq \frac{2}{\sqrt{n\pi}} $$
+Donc, 
+$$2\underset{n \to +\infty}{\longleftarrow} \frac{2}{\sqrt{1+\frac{1}{n}}} \leq \sqrt{n\pi}\int_{n\pi}^{(n+1)\pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt \leq 2 \underset{n \to +\infty}{\longrightarrow} 2$$
+Ainsi, 
+$$\int_{n\pi}^{(n+1)\pi} \frac{\left| \sin t\right|}{\sqrt{t}} \, dt \sim \frac{1}{\sqrt{n\pi}}$$
+
+##### c.
+$$(\sqrt{n+1}-\sqrt{n})(\sqrt{n+1}+\sqrt{n}) = 1 \Leftrightarrow \sqrt{n+1}-\sqrt{n} = \frac{1}{\sqrt{n+1}+\sqrt{n}}$$
+or : 
+$$\sqrt{n+1}+\sqrt{n} \sim 2\sqrt{n} \text{ car : } \frac{\sqrt{n+1}+\sqrt{n}}{2\sqrt{n}} = \frac{\sqrt{1+\frac{1}{n}}}{2} +\frac{1}{2} \underset{n \to +\infty}{\longrightarrow} 1$$
+Alors, 
+$$\sqrt{n+1}-\sqrt{n} \sim \frac{1}{2\sqrt{n}}$$
