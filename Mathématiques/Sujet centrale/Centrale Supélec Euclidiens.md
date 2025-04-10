@@ -96,4 +96,15 @@ même démonstration qu'a la question 23 en posant des valeurs absolues sur les 
 #### Question 26
 Comme : Pour $X$ unitaire et 
 $$\forall X \in E_{\lambda}(A), 0 \leq \left| X^{\top}AX\right| = \left| X^{\top}\lambda X\right| = \left| \lambda\right|\leq \mu$$
-Alors, on a que : $\mu \geq 0$ et comme $\rho(A) >0$ et que $$
+Alors, on a : $\rho(A) \geq \mu$ et puis : $\left| \lambda \right|  \leq \mu$ donc $\rho(A) \leq \mu$
+$\rho(A) = \mu$
+
+#### Question 27
+Supposons que : 
+$$AX = rX$$
+Alors, 
+$$\left| AX\right| = \left| rX\right| = r\left| X\right|$$
+Donc, comme $A > 0$ $\left| A\right|=A$
+$$A \left| X\right| = \left| A\left| X\right|\right|$$
+$$A\left| X\right| \geq \left| AX\right| =r\left| X\right|$$
+$$A \left| X\right| $$
