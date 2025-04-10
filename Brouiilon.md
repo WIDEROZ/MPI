@@ -81,10 +81,11 @@ c'est terminé
 Donc; 
 $$B^{k} = SD^{k}S^{-1} = S \begin{pmatrix}
 1&0 \\
-0&(1-\alpha-\beta)^{k}
-\end{pmatrix} \underset{k \to +\infty}{\longrightarrow} \begin{cases}
-S\begin{pmatrix}
+0&(1-(\alpha+\beta))^{k}
+\end{pmatrix} \underset{k \to +\infty}{\longrightarrow} S\begin{pmatrix}
 1&0 \\
 0&0
-\end{pmatrix}S^{-1} \text{ si }\alpha+ \beta < 1
-\end{cases} $$
+\end{pmatrix}S^{-1} = A$$
+car $1-(\alpha+\beta) \in ]-1, 1[$
+
+#### Question 11
