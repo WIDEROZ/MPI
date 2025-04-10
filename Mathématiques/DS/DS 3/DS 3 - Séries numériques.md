@@ -42,3 +42,4 @@ Alors, pour que $x_{n} = O(n)$ il faut que $(n-1)!(x_{1}-2e)$ converge ie $x_{1}
 
 #### d.
 $$\sum_{k = n}^{+ \infty} \frac{1}{k!} \sim \frac{1}{n!}$$
+$$\sum_{k = n}^{+ \infty} \frac{n!}{k!} = \sum_{p =0}^{+ \infty} \frac{n!}{(p+n)!} = 1+\sum_{p=1}^{+ \infty} \left( \prod_{k = 1}^{p} \frac{1}{n+k} \right) \underset{n \to +\infty}{\longrightarrow} $$
