@@ -62,15 +62,10 @@ Alors,
 $$\sum_{j = p}^{n} \left| t_{p, j}\tau^{j-p}\right| \leq t_{\max}(n-p)+\rho(T) \leq t_{\max}n + \rho(T)$$
 
 
-#### Question 19
-On pose : 
-$$A = STS^{-1}$$
-Alors, 
-$$\left|\left| D^{-1}_{\tau}S^{-1}ASD_{\tau} \right|\right|  \leq \rho(A) + \varepsilon$$
-car $\rho(A) = \rho(T)$
-Donc si on pose : $N(A) = \left| \left|\left| D^{-1}_{\tau}S^{-1}ASD_{\tau} \right|\right|  \right|_{\infty}$
-on a bien que $N$ est une norme sous multiplicative car : 
-$N$ est une norme : Homogénéité-séparation-ineg triang. c'est bon.
-$N$ est ss-multiplicative : car 
-$$N(AB) =\left|\left| D^{-1}_{\tau}S^{-1}ASD_{\tau}D_{\tau}^{-1}S^{-1}BSD_{\tau} \right|\right|  _{\infty} $$
-$$\leq \left|\left| D^{-1}_{\tau}S^{-1}ASD_{\tau} \right|\right| _{\infty} \left|\left| D^{-1}_{\tau}S^{-1}BSD_{\tau} \right|\right| _{\infty} =  $$
+# IV. Théorème de Perron-Frobenius
+## Partie IV.A
+#### Question 21
+Sym réelle, orthogonaux
+
+#### Question 22
+Comme $$
