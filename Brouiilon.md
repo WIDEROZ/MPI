@@ -89,3 +89,10 @@ $$B^{k} = SD^{k}S^{-1} = S \begin{pmatrix}
 car $1-(\alpha+\beta) \in ]-1, 1[$
 
 #### Question 11
+
+
+$$\begin{pmatrix}
+ 1 \\
+1 \\
+
+\end{pmatrix}$$
