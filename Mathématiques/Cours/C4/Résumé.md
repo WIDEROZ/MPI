@@ -14,6 +14,8 @@ f \in \mathcal{C}^{0}_{\mathbb{R}}([a, b]) \\
 f \in D^{1}(]a, b[, \mathbb{R})
 \end{rcases} \Rightarrow \exists c \in ]a, b[, f'(c) = \frac{f(b)-f(a)}{b-a}}$$
 
+
+
 #### Inégalité des Accroissements finis
 $$\left.\begin{array}{r}
 f \in \mathcal{C}^{0}_{\mathbb{R}}([a, b]) \\
