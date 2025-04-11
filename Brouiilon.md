@@ -92,7 +92,15 @@ car $1-(\alpha+\beta) \in ]-1, 1[$
 
 
 $$\begin{pmatrix}
- 1 \\
-1 \\
-
+1&1&1  \\
+1&0&1 \\
+0&-1&-1
+\end{pmatrix} \begin{pmatrix}
+1&-1&-1 \\
+0&-1&-1 \\
+1&0&-1
+\end{pmatrix}$$
+$$p$$
+$$\begin{pmatrix}
+1&1&
 \end{pmatrix}$$
