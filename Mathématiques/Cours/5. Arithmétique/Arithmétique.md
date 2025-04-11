@@ -21,14 +21,6 @@ a \wedge b = 1
 \end{array} \right\} \Rightarrow a \mid c $$
 
 #### Théorème
-Soient $a, b, c \in \mathbb{Z}$ 
-$$ \left. \begin{array}{r}
-a \mid b \\
-b \mid c \\
-a \wedge b = 1
-\end{array} \right\} \Rightarrow ab \mid c $$
-
-#### Théorème
 Soient $a,b,c \in \mathbb{Z}$
 $$ \left. \begin{array}{r}
 a \wedge b \\
