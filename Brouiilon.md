@@ -100,7 +100,35 @@ $$\begin{pmatrix}
 0&-1&-1 \\
 1&0&-1
 \end{pmatrix}$$
-$$p$$
 $$\begin{pmatrix}
-1&1&
+1&0&1 \\
+-1&-1&0 \\
+-1&-1&-1
+\end{pmatrix}$$
+$$\begin{pmatrix}
+1&1&1  \\
+1&0&1 \\
+0&-1&-1
+\end{pmatrix} \sim\begin{pmatrix}
+1&0&0 \\
+0&1&0 \\
+0&0&1
+\end{pmatrix} \Leftrightarrow \begin{pmatrix}
+1&1&1 \\
+0&-1&0 \\
+0&-1&-1
+\end{pmatrix}\sim \begin{pmatrix}
+1&0&0 \\
+-1&1&0 \\
+0&0&1
+\end{pmatrix}$$
+
+$$\begin{pmatrix}
+1&1&1 \\
+0&-1&0 \\
+0&0&-1
+\end{pmatrix}\sim \begin{pmatrix}
+1&0&0 \\
+-1&1&0 \\
+
 \end{pmatrix}$$
