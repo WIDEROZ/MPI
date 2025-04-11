@@ -106,4 +106,9 @@ $$u_{n+1} =  \frac{1}{2}\arctan(u_{n}) \leq \frac{1}{2}u_{n} \leq u_{0}2^{-(n+1)
 #### c.
 $$\ln\left( \frac{u_{n+1}}{u_{n}} \right) = \ln\left( \frac{\arctan(u_{n})}{u_{n}} \right) $$
 $u_{n}\underset{n \to +\infty}{\longrightarrow}0$ alors 
-$$\arctan(u_{n}) = $$
+$$\arctan(u_{n}) = \sum_{k = 0}^{n} (-1)^{k} \frac{u_{n}^{2k+1}}{2k+1} + o(x^{2n+1})$$
+$$\arctan(u_{n}) = u_{n}- \frac{u_{n}^{3}}{3} + o(u_{n}^{3})$$
+Donc, 
+$$\ln\left( \frac{u_{n+1}}{u_{n}} \right) = \ln\left( 1-\frac{u_{n}^{2}}{3} \right) = - \frac{u_{n}^{2}}{3} + o(u_{n})$$
+Or, 
+$$1-\frac{u_{n}}{3} \geq 1-\frac{u_{0}2^{-n}}{3}$$
