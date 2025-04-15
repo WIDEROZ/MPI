@@ -50,9 +50,3 @@ Plus le critère $k$ repartira les valeurs plus le gain sera bas.
 
 https://www.doc-solus.fr/
 
-
-
-#### Exemple
-$$H(S_{\top}, a_{2}) = -\left( \frac{2}{4} \log\left( \frac{2}{4} \right) + \frac{2}{4}\log\left( \frac{2}{4} \right) \right) = \log(2) $$
-$$H(S_{\bot}, a_{2}) = -\left( \frac{1}{2} \log\left( \frac{1}{2} \right) + \frac{1}{2}\log\left( \frac{1}{2} \right) \right) = \log(2) $$
-$$H(S) - \left( \frac{4}{6}+\frac{2}{6} \right) \log (2) = 1-\log(2) <0$$
