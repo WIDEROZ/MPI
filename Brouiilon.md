@@ -1,13 +1,3 @@
-Soit $u\in (A \cup B)^{*}$, 
-Il existe $(a, b) \in A\times B$ et $n \in \mathbb{N}$, 
-$$u =(a | b)^{n}$$
-alors, 
-$$u = (a | b)(a | b) \dots (a | b) \text{ n fois }$$
-Alors,
-$$u \in (A^{*} \cdot B^{*})^{*}$$
-
-Soit $u \in (A^{*} \cdot B^{*})^{*}$, 
-Soit $(a, b) \in A \times B$ tels que : $u = (a^{m}b^{n})^{k}$ alors,
-$$u =(a^{m}b^{n})(a^{m}b^{n}) \dots (a^{m}b^{n}) \text{ k fois}$$
-$$= a^{m}b^{n} a^{m}b^{n} \dots a^{m}b^{n} \in (A \cup B)^{*}$$
-
+$$\mathcal{A} = \left(\Sigma, Q, I, F, \delta \right)$$
+On pose : $\left| Q\right|=n$ alors, 
+$$\delta' = \{ (q_{i}, q_{i+1}) \in \delta ; (q_{n-i}, q_{n-(i+1)})\in \delta ; i \in [\![1, n-1]\!] \}$$
