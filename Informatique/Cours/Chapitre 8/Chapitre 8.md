@@ -13,6 +13,8 @@ $$A = \bigcup_{n \in \mathbb{N}} A_{n}$$
 
 
 
+
+
 #### Théorème 1
 L'ensemble des attracteurs correspond à l'ensemble des parties gagnantes $i$ pour tout $s \in A$, il existe une stratégie gagnante à partir de $s$. 
 
