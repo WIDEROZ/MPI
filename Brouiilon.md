@@ -8,3 +8,4 @@ xy^{*}z \in L
 \end{cases}$$
 On pose : 
 $$u = abba $$
+$$$$
