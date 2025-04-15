@@ -10,7 +10,7 @@ A_{j+1} = A_{j} \\
 L'ensemble des attracteurs est l'ensemble : 
 $$A = \bigcup_{n \in \mathbb{N}} A_{n}$$
 
-$$A_{i+1} = A_{i} \cup \{ s \in S_{A} | \exists s' \in A_{i}, (s, s') \in A \} \cup \{ s \in S_{B} |  \}$$
+
 
 
 #### Théorème 1
@@ -48,5 +48,4 @@ g(s) = + \infty \text{ si }s \text{ est une position gagnante pour }A\\
 g(s) = + \infty \text{ si }s \text{ est une position gagnante pour }B \\
 g(s) = 0 \text{ sinon}
 \end{cases}$$
-
 
