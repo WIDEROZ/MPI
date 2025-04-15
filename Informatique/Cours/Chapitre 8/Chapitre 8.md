@@ -10,6 +10,9 @@ A_{j+1} = A_{j} \\
 L'ensemble des attracteurs est l'ensemble : 
 $$A = \bigcup_{n \in \mathbb{N}} A_{n}$$
 
+$$A_{i+1} = A_{i} \cup \{ s \in S_{A} | \exists s' \in A_{i}, (s, s') \in A \} \cup \{ s \in S_{B} |  \}$$
+
+
 #### Théorème 1
 L'ensemble des attracteurs correspond à l'ensemble des parties gagnantes $i$ pour tout $s \in A$, il existe une stratégie gagnante à partir de $s$. 
 
