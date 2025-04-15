@@ -7,4 +7,4 @@ $$\begin{cases}
 xy^{*}z \in L
 \end{cases}$$
 On pose : 
-$$u = a^{n}b^{m}$$
+$$u = abba $$
