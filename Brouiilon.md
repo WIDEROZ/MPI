@@ -1,6 +1,10 @@
-$$L_{1} \setminus L_{2}$$
-On pose : avec $\mathcal{A}_{1}$ déterministe complet qui existe bien
-$$\mathcal{L}(\mathcal{A}_{1})= L_{1}$$
+Suppose par l'absurde que le lang des palindromes $L$ est pas rationnel : 
+Alors, Soit $u \in L$ alors, il existe $N \in \mathbb{N}^{*}$ tel que $\left| u\right| \geq N$, 
+et puis $x, y, z \in \Sigma^{*}$ tels que $u = xyz$ puis, 
+$$\begin{cases}
+\left| y\right|>0 \\
+\left| xy\right| \leq N \\
+xy^{*}z \in L
+\end{cases}$$
 On pose : 
-$$\mathcal{A} = (\Sigma, Q_{1} \setminus Q_{2} ,I_{1}, F_{1} \setminus F_{2},  \delta_{1} \setminus \delta_{2})$$
-$$\overline{L_{1} \setminus L_{2}} = \overline{L_{2}} \setminus \overline{L_{1}}$$
+$$u = a^{n}b^{m}$$
