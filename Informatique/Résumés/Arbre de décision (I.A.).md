@@ -1,6 +1,6 @@
 ## Arbre de décision
 #### Principe
-On à des éléments tels qu'on connaissent leur classe et suite à des questions d'éliminations (représentés par les choix de branches sur un arbre) on obtiens une feuille. 
+On à des éléments tels qu'on connaisse leur classe et suite à des questions d'éliminations (représentés par les choix de branches sur un arbre) on obtiens une feuille. 
 
 #### Construction
 À partir d'un ensemble de donnés $E$, on construit un arbre de définition tel que : 
@@ -20,7 +20,6 @@ Pseudo-code :
 - Sinon
   + Calculer le critère $k$ maximisant un gain : $G(E, k)$
   + Calculer les ensembles $E_{0}$ et $E_{1}$ correspondant respectivement aux parties de $E$ constituées d'éléments pour lesquels $k$ est faux respectivement vrai
-  + 
 
 ### Calcul du gain
 #### Définition
