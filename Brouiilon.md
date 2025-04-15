@@ -8,3 +8,11 @@ $$x_{i+1} \mathcal{R} x_{i} \text{ et alors } v \mathcal{R}^{*} u$$
 
 
 $$u=[aba], [bab]$$
+
+$$\{ bac, abc \}$$
+$$\{ aab, aba, baa \}$$
+$$\{ abb, bab, bba \}$$
+$$\{ cab, cba \}$$
+$$\{ acb \}$$
+$$\{ bca \}$$
+$$$$
