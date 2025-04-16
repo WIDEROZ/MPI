@@ -1,10 +1,14 @@
-Suppose par l'absurde que le lang des palindromes $L$ est pas rationnel : 
-Alors, Soit $u \in L$ alors, il existe $N \in \mathbb{N}^{*}$ tel que $\left| u\right| \geq N$, 
-et puis $x, y, z \in \Sigma^{*}$ tels que $u = xyz$ puis, 
-$$\begin{cases}
-\left| y\right|>0 \\
-\left| xy\right| \leq N \\
-xy^{*}z \in L
-\end{cases}$$
 On pose : 
-$$u = abba $$
+$$u = (^{N})^{N}$$
+Il existe $N$ tel que : $\left| u\right| \geq N$, 
+On pose de plus : $u = xyz$ dont l'existence est vérifié d'après le lemme de l'étoile : 
+$$\begin{cases}
+x = (^{k} \\
+y = (^{l} \\
+z = (^{m})^{N}
+\end{cases} \text{ et } k+l \leq N \text{ et }  l \neq 0 $$
+Alors d'après le lemme de l'étoile : 
+$$(^{k+2l} )^{N} \in L$$
+C'est absurde $k+2l \neq N$
+
+$$u = a^{N}b^{N}$$
