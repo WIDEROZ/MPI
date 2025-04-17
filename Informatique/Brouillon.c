@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-    int n = 10;
-    int *tab;
-    tab = malloc(n * sizeof(int));
-    
 
+int main(){
+    
     return 0;
 }
 
+//gcc -o main Brouillon.c $(sdl2-config --cflags --libs) && ./main
