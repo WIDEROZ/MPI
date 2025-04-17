@@ -40,6 +40,16 @@ void _arr_init(int *T){
 #### 7.
 ```C
 bool _bfs_tree(void){
+	_arr_init(A);
+	A[0] = 0;
+	
+	bool sommet_visites[H.n];
+	sommet_visites[0] = true;
+	for(int i = 1; i < H.n; i++){
+		sommet_visites[i] = false;
+	}
+	while 
+	
 	
 }
 ```
