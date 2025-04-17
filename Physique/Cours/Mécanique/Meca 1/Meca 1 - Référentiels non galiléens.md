@@ -20,7 +20,7 @@ On prend $\mathcal{R}$ le ref galiléen du sol et $\mathcal{R}'$ le ref du manè
 Alors, en se plaçant en coordonnées polaires : 
 $$\begin{cases}
 \vec{f}_{i, e} = m\omega^{2} \overrightarrow{HM} \\
-\overrightarrow{f}_{i, C} = -m 2 \omega \wedge v' = \overrightarrow{0}
+\overrightarrow{f}_{i, C} = -m 2 \overrightarrow{\omega} \wedge \overrightarrow{v'} = \overrightarrow{0}
 \end{cases} $$
 car $v' = 0$ car le point ne bouge pas par rapport à $\mathcal{R}'$
 Ainsi, 
