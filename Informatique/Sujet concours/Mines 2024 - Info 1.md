@@ -43,13 +43,18 @@ bool _bfs_tree(void){
 	_arr_init(A);
 	A[0] = 0;
 	
-	bool sommet_visites[H.n];
-	sommet_visites[0] = true;
-	for(int i = 1; i < H.n; i++){
-		sommet_visites[i] = false;
+	// File d'ordre d'élément le plus prioritaire
+	int queue[H.n];
+	_arr_init(queue);
+	queue[0] = 0;
+	unsigned fin = 1;
+	while (debut != fin){
+		for(int v = 0; v < H.n: v++){
+			if (H.mu[queue[0]][v] != 0){
+				
+			}
+		}
+		
 	}
-	while 
-	
-	
 }
 ```
