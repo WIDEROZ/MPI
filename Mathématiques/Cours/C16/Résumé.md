@@ -41,8 +41,9 @@ $$\forall n \in \mathbb{N}, u_{n} = \sum_{k = 1}^{p} x_{k, n} e_{k}$$
 $$(u_{n})_{n \in \mathbb{N}} \text{ CV } \Leftrightarrow \forall k \in [\![1, p]\!], (x_{k, n}) \in \mathbb{K}^{\mathbb{N}} \text{ CV}$$
 dans ce cas : 
 $$u_{n} \underset{n \to +\infty}{\longrightarrow} \sum_{k = 1}^{p} (\lim_{ n \to +\infty } x_{k, n})e_{k}$$
+
 #### Corollaire
-Si $E$ est de dimension finie et $(F, \left|\left| \cdot \right|\right|)$ est un ev normé, toutes fonction $f \in \mathcal{L}(E, F)$ est continue
+Si $E$ est de dimension finie et $(F, \left|\left| \cdot \right|\right|)$ est un ev normé, toute fonction $f \in \mathcal{L}(E, F)$ est continue
 ___
 Si $E_{1}, \dots, E_{p}$ sont des $\mathbb{K}$-ev de dimensions finies et $f:E_{1} \times \dots E_{p} \to F$ est $p$-linéaire, alors $f$ est continue
 
