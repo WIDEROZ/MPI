@@ -23,4 +23,4 @@ Alors,
 $$u_{C} = (A+Bt)e^{ -\frac{\omega}{2Q}t } + \frac{E_{0}}{LC}$$
 $$\frac{\omega^{2}}{Q^{2}}-4\omega^{2} < 0 \Rightarrow Q > \frac{1}{2}$$
 Alors, 
-$$$$
+	$$$$
