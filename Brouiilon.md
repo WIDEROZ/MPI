@@ -1,1 +1,1 @@
-$$0 = c_{L} \int  \, dx  $$
+$$c_{L} \int_{A}^{B} \frac{dT}{T} = \alpha v_{L} \Delta P $$
