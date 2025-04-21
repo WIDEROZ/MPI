@@ -9,7 +9,7 @@ Exemple :
 
 #### 2. Il est emprisonné par par sa communauté
 - Les murs dans les sept contre thèbes
-- Spinoza : 
+- Spinoza : p.181 : "Toute chose sacré iront mal"
 
 
 ## II. Il est nécessaire à la communauté de s'appuyer sur ses pairs pour se développer
