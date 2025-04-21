@@ -7,7 +7,9 @@ Exemple :
 - Olenska qui refuse de divorcer même si elle en a le souhait car elle veut préserver la réputation de la famille Newland
 - 
 
-#### 2. Il est emprisonné par ses obligation vaines 
+#### 2. Il est emprisonné par par sa communauté
+- Les murs dans les sept contre thèbes
+- Spinoza : 
 
 
 ## II. Il est nécessaire à la communauté de s'appuyer sur ses pairs pour se développer
