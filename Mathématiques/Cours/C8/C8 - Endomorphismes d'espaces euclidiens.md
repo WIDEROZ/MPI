@@ -131,6 +131,7 @@ $$f\circ f^{*} = f^{*} \circ f \Rightarrow \begin{cases}
 \mathrm{Im}(f)= \mathrm{Im}(f^{*})
 \end{cases}$$
 
+
 Démonstration : 
 supposons que : $f\circ f^{*} = f^{*} \circ f$
 Soit $x \in E$, 

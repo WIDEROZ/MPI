@@ -67,6 +67,7 @@ I_{r}&&&&0 \\
 &&&\ddots \\
 0&&&&R_{t_{q}}
 \end{pmatrix}$$
+
 #### Version matricielle
 $$\forall M \in O(n), \exists \Omega \in O(n), A=\Omega M\Omega^{-1}$$
 On dit alors que $M$ et $A$ sont orthogonalement semblables. 
