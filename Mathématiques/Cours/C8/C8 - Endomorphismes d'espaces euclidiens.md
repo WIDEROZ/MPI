@@ -10,6 +10,9 @@ E \to E^{*} \\
 x_{0} \mapsto \varphi_{x_{0}}
 \end{cases} \text{ est bijective}$$
 
+
+
+
 Démonstration : 
 Soit $x_{0}, x_{1} \in E$, $\alpha \in \mathbb{R}$, 
 Soit $x \in E$, 
@@ -18,8 +21,7 @@ Ainsi,
 $$\psi(\alpha x_{0} + x_{1}) = \alpha \psi(x_{0}) + \psi(x_{1})$$
 
 $\psi$ est bijective : 
-Soit $x_{0} \in \mathrm{Ker}(\psi)$, 
-alors, 
+Soit $x_{0} \in \mathrm{Ker}(\psi)$, alors, 
 $$\varphi_{x_{0}} = x \mapsto \left< x_{0}, x \right>  = 0_{E^{*}}$$
 Ainsi, $x_{0} = 0$,
 Donc, 
