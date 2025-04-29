@@ -1,15 +1,2 @@
-# Problématique
-La communauté amène-t-elle à faire suffoquer l'individu en l'enfermant dans le devoir des obligations mutuelles?
-
-## I. L'individu est restreint par la communauté
-#### 1. Il est restreint par un système normatif qui le pousse à s'identifier à tous les individus du groupe qu'il compose
-Exemple : 
-- Olenska qui refuse de divorcer même si elle en a le souhait car elle veut préserver la réputation de la famille Newland
-- 
-
-#### 2. Il est emprisonné par par sa communauté
-- Les murs dans les sept contre thèbes
-- Spinoza : p.181 : "Toute chose sacré iront mal"
-
-
-## II. Il est nécessaire à la communauté de s'appuyer sur ses pairs pour se développer
+$$\exists M \in \mathbb{R}_{+}, \forall n \in \mathbb{N}, \left| \alpha_{n}\right| \leq M \left| \beta_{n}\right|$$
+Si $\sum \beta_{n}x^{n}$ CVA alors il en est de même pour $\sum \alpha_{n} x^{n}$, donc $X = \left\{  r \in \mathbb{R}_{+} | \exists M \in \mathbb{R}_{+}, \left| \alpha_{n}\right|r^{n} \leq M  \right\}$
