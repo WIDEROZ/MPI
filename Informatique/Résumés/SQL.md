@@ -22,7 +22,7 @@ ___
 Après une table un un autre JOIN
 
 ###### JOIN
-Renvoie tous les enregistrements qui demandent à être projetés si <<u>ils existent dans les deux tables</u>. 
+Renvoie tous les enregistrements qui demandent à être projetés si <u>ils existent dans les deux tables</u>. 
 ___
 Après une table un un autre JOIN
 
@@ -30,6 +30,7 @@ Après une table un un autre JOIN
 Opération ensembliste sur deux commandes SQL
 
 ###### Produit cartésien
+Pas de lien logique entre les colonnes de différentes tables. 
 ![[Pasted image 20250429143651.png]]
 
 ###### Fonctions d'agrégations
@@ -37,5 +38,12 @@ Opération ensembliste sur deux commandes SQL
 
 
 ###### HAVING
+Même fonction que WHERE
 ___
-<u>Après GROUP BY.</u>
+<u>Utilisable SEULEMENT APRÈS GROUP BY.</u>
+
+
+```SQL
+SELECT J.NomJ, COUNT(M.VainqueurID) FROM Joueur JOIN Match M ON J.JoueurID = M.VainqueurID
+JOIN TournoiID T ON 
+```
