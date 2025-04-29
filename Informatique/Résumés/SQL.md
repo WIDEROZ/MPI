@@ -43,16 +43,3 @@ ___
 <u>Utilisable SEULEMENT APRÈS GROUP BY.</u>
 
 
-```SQL
-SELECT J.NomJ, COUNT(*) AS Nbre_POSITUS
-FROM Matchs M
-JOIN Tournois T ON T.TournoiID = M.TournoiID
-JOIN Joueurs J ON
-(
-	(M.RoleJoueurA = 'Positus' AND T.JoueurAID = J.JoueurID)
-	OR
-	(M.RoleJoueurA = 'Minus' AND T.JoueurBID = J.JoueurID)
-)
-GROUP BY J.NomJ
-
-```
