@@ -16,11 +16,6 @@ Permet de définir combien de lignes ignorer ou sauter avant de commencer à ré
 ___
 Après la commande LIMIT.
 
-###### GROUP BY
-![[Pasted image 20250429143110.png]]
-___
-À la fin du champ de sélection
-
 ###### LEFT JOIN
 Renvoie tous les enregistrements qui demandent à être projetés <u>même si l'enregistrement dans la table de droite n'existe pas.</u> (La valeur retournée sera NULL dans ce cas)
 ___
@@ -31,4 +26,16 @@ Renvoie tous les enregistrements qui demandent à être projetés si <<u>ils exi
 ___
 Après une table un un autre JOIN
 
-######
+###### UNION / INTERSECT / EXCEPT
+Opération ensembliste sur deux commandes SQL
+
+###### Produit cartésien
+![[Pasted image 20250429143651.png]]
+
+###### Fonctions d'agrégations
+![[Pasted image 20250429144704.png]]
+
+
+###### HAVING
+___
+<u>Après GROUP BY.</u>
