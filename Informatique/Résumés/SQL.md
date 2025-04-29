@@ -1,7 +1,7 @@
-#### Associations
+## Associations
 Par exemple si on a les entités livres et auteurs, le livre appartient à l'auteur alors on a une association $*\to1$ livre vers auteur
 
-#### Commandes
+## Commandes
 ###### Champs Sélections - Projection
 - Selection : après le nom de table
 - Projection : après le SELECT
@@ -14,7 +14,12 @@ Après le champ de sélection.
 ###### OFFSET
 Permet de définir combien de lignes ignorer ou sauter avant de commencer à récupérer les résultats. 
 ___
-Après la
+Après la commande LIMIT.
+
+###### GROUP BY
+![[Pasted image 20250429143110.png]]
+___
+À la fin du champ de sélection
 
 ###### LEFT JOIN
 Renvoie tous les enregistrements qui demandent à être projetés <u>même si l'enregistrement dans la table de droite n'existe pas.</u> (La valeur retournée sera NULL dans ce cas)
@@ -26,3 +31,4 @@ Renvoie tous les enregistrements qui demandent à être projetés si <<u>ils exi
 ___
 Après une table un un autre JOIN
 
+######
