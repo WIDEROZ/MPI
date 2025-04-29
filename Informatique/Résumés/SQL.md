@@ -44,6 +44,7 @@ ___
 
 
 ```SQL
-SELECT J.NomJ, COUNT(M.VainqueurID) FROM Joueur JOIN Match M ON J.JoueurID = M.VainqueurID
-JOIN TournoiID T ON 
+SELECT J.NomJ, COUNT(DISTINCT M.TournoiID) AS Nbre_Tournois_Gagnes FROM Joueur JOIN Match M ON J.JoueurID = M.VainqueurID
+GROUP BY J.NomJ
+HAVING COUNT(M.TournoiID)
 ```
