@@ -27,7 +27,7 @@ $$\sum_{n \geq 0} \alpha_{n} z^{n} \text{ CVA}$$
 Soir $(\alpha_{n})_{n \in \mathbb{N}} \in \mathbb{C}^{\mathbb{N}}$, 
 On appelle intervalle d'Abel de la série entière : $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$
 L'ensemble : 
-$$\Omega = \{ z \in \mathbb{R}_{+}^{*} | (\alpha_{n}r^{n})_{n \in \mathbb{N}} \text{ est bornée} \} \supset \{ 0 \}$$
+$$\Omega = \{ r \in \mathbb{R}_{+} | (\alpha_{n}r^{n})_{n \in \mathbb{N}} \text{ est bornée} \} \supset \{ 0 \}$$
 
 #### Définition
 On appelle rayon de convergence de la série entière : $\sum_{n \in \mathbb{N}} \alpha_{n}z^{n}$ : 

@@ -27,10 +27,6 @@ $$S : x \mapsto \sum_{n = 0}^{+ \infty} a_{n}x^{n} \text{ est définie sur }]-R,
 $$\sum_{n \in \mathbb{N}}a_{n}R^{n} \text{ CV} \Rightarrow S \in \mathcal{C}^{0}(]-R, R])$$
 
 # Fonctions Génératrices
-#### Définition
-Soit $X : (\Omega, \mathcal{A}, \mathbb{P}) \to \mathbb{N}$, 
-On appelle fonction génératrice de $X$ la fonction : 
-$$G_{X} : t \mapsto \sum_{n=0}^{+ \infty} \mathbb{P}(X = n)t^{n} =t\mapsto \mathbb{E}(t^{X})$$
 #### Propriété
 $$\forall X, Y : \Omega \to \mathbb{N}, G_{X} = G_{Y} \Rightarrow \mathbb{P}_{X} = \mathbb{P}_{Y}$$
 
