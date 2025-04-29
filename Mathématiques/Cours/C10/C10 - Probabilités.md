@@ -327,7 +327,8 @@ or :
 $$\mathbb{P}(\tilde{A}\cap B)=0$$
 Car $\tilde{A}\cap B \subset \tilde{A}$ et $\mathbb{P}(\tilde{A})=0$
 
-#### CCINP 102
+
+#### CCINP 101/102
 1.
 $$a_{n+1} = \mathbb{P}(A_{n+1}) = \mathbb{P}(A_{n+1}|A_{n})\mathbb{P}(A_{n}) + \mathbb{P}(A_{n+1}| B_{n})\mathbb{P}(B_{n}) + \mathbb{P}(A_{n+1}|C_{n})\mathbb{P}(C_{n})$$
 Alors, 
