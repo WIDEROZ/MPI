@@ -209,6 +209,7 @@ Démonstration :
 2.
 Appliquer 1. à $(\bar{A}_{n})_{n \in \mathbb{N}^{*}}$
 
+
 ##### Théorème de continuité croissante probabilisé
 Soit $(A_{n})_{n \in \mathbb{N}}$ une suite d'événements, 
 1.
