@@ -75,6 +75,7 @@ l'ensemble de ces VA qui sont d'espérance finie
 #### Propriété
 Pour $X \in \mathbb{N}^{\Omega}$ une VA : 
 $$\mathbb{E}(X) = \sum_{n = 0}^{+ \infty} n\mathbb{P}(X = n) = \sum_{n = 1}^{+ \infty}\mathbb{P}(X \geq n)$$
+
 #### Loi géométrique
 Soit $X \sim \mathcal{G}(p)$ ou $p \in ]0, 1[$, 
 $$\mathbb{E}(X) = \frac{1}{p}$$
