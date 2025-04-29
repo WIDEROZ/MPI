@@ -46,5 +46,4 @@ $\varepsilon$ est le minimum.
 $$\mathbb{P}(S_{n} \geq \varepsilon) \leq e^{ \frac{nt^{2}}{2}-tn\varepsilon } \leq e^{\frac{ n\varepsilon^{2}}{2} - \varepsilon^{2}n } = e^{ -\frac{n\varepsilon^{2}}{2} }$$
 $$(\left| S_{n}\right| \geq \varepsilon) = (S_{n} \geq \varepsilon) \sqcup (S_{n} \leq \varepsilon)$$
 
-#### Question 4
-$$\frac{S_{k}(n)}{n^{k+1}} = \frac{1}{n^{k+1}}\sum_{i=1}^{n}i^{k} = \frac{1}{n^{k}} \times \frac{1}{n}\sum_{i = 1}^{n} i^{k} $$
+#### Question 5
