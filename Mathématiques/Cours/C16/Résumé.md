@@ -35,12 +35,7 @@ $$((u_{n})_{n \in \mathbb{N}} \text{ CV} )\Leftrightarrow \left((u_{n})_{n \in \
 &\text{est bornée et admet} \\
 &\text{au plus une val. d'ad}
 \end{array}\right)$$
-___
-Si $\beta = (e_{1}, \dots, e_{p})$ est une base de $E$, $(u_{n})_{n \in \mathbb{N}} \in E^{\mathbb{N}}$, notons 
-$$\forall n \in \mathbb{N}, u_{n} = \sum_{k = 1}^{p} x_{k, n} e_{k}$$
-$$(u_{n})_{n \in \mathbb{N}} \text{ CV } \Leftrightarrow \forall k \in [\![1, p]\!], (x_{k, n}) \in \mathbb{K}^{\mathbb{N}} \text{ CV}$$
-dans ce cas : 
-$$u_{n} \underset{n \to +\infty}{\longrightarrow} \sum_{k = 1}^{p} (\lim_{ n \to +\infty } x_{k, n})e_{k}$$
+
 
 #### Corollaire
 Si $E$ est de dimension finie et $(F, \left|\left| \cdot \right|\right|)$ est un ev normé, toute fonction $f \in \mathcal{L}(E, F)$ est continue
