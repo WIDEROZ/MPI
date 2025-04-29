@@ -34,8 +34,14 @@ $$ch(t) \leq e^{ t^{2}/2 }$$
 $$\mathbb{E}(e^{ tX }) \leq e^{ t^{2}/2 } $$
 
 #### Question 3
+##### a.
 $$n(t-\varepsilon)e^{ -nt+\frac{nt^{2}}{2} } = 0$$
 lorsque : 
 $$t = \varepsilon$$
 Alors, comme $f''(t) \geq 0$ car : 
-$$e^{ -nt }$$
+$$n(1+n(t-\varepsilon)^{2})e^{ -nt + \frac{nt^{2}}{2} }\geq 0$$
+$\varepsilon$ est le minimum.
+
+###### b.
+$$\mathbb{P}(S_{n} \geq \varepsilon) \leq e^{ \frac{nt^{2}}{2}-tn\varepsilon } \leq e^{\frac{ n\varepsilon^{2}}{2} - \varepsilon^{2}n } = e^{ -\frac{n\varepsilon^{2}}{2} }$$
+$$(\left| S_{n}\right| \geq \varepsilon) = (S_{n} \geq \varepsilon) \sqcup (S_{n} \leq \varepsilon)$$
