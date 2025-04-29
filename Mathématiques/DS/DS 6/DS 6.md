@@ -28,4 +28,14 @@ $$e^{ tx } \leq ch(t) + xsh(t) \Leftrightarrow \mathbb{E}(e^{ tX }) \leq \mathbb
 car : $\mathbb{E}(X) = 0$ 
 
 ##### d.
-$$\ln(ch(t)) \leq \frac{t^{2}}{2}$$
+$$\ln(ch(t)) = t-\ln(2)+\ln(1+e^{ -2t }) \leq t + \left( -t+\frac{t^{2}}{2} \right) = \frac{t^{2}}{2}$$
+##### e.
+$$ch(t) \leq e^{ t^{2}/2 }$$
+$$\mathbb{E}(e^{ tX }) \leq e^{ t^{2}/2 } $$
+
+#### Question 3
+$$n(t-\varepsilon)e^{ -nt+\frac{nt^{2}}{2} } = 0$$
+lorsque : 
+$$t = \varepsilon$$
+Alors, comme $f''(t) \geq 0$ car : 
+$$e^{ -nt }$$
