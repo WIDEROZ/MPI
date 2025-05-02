@@ -53,7 +53,16 @@ $$ \frac{1}{n} \sum_{i= 1}^{n}\left( \frac{i}{n} \right)^{k} \underset{n \to +\i
 
 #### Question 5
 $$\mathbb{E}(X_{1}) = \frac{1}{N}\sum_{k = 1}^{N} k = \frac{N+1}{2}$$
-$$\mathbb{E}(X_{1}^{2}) = \sum_{k = 1}^{N} k^{2} \mathbb{P}(X_{1} = k) $$
+$$\mathbb{E}(X_{1}^{2}) = \sum_{k = 1}^{N} k^{2} \mathbb{P}(X_{1} = k) = \frac{1}{N} \sum_{k = 1}^{N} =  \frac{n(n+1)(2n+1)}{6N} $$
 Par la fonction de transfert
 Alors, comme 
-$$\mathrm{Var}(X) = $$
+$$\mathrm{Var}(X) = \mathbb{E}((X-\mathbb{E}(X))^{2}) = \mathbb{E}(X^{2})-2\mathbb{E}(X)^{2}+\mathbb{E}(X)^{2} = \mathbb{E}(X^{2}) - \mathbb{E}(X)^{2}$$
+Ainsi, 
+$$\mathrm{Var}(X) = \frac{3N(N+1) + N(N+1)(2N+1)}{6N} = \frac{N(N+1)(N+2)}{3N} $$
+
+#### Question 6
+##### a.
+$$\mathbb{P}(U_{k} \geq i) = \left( \frac{N-i+1}{N} \right)^{k}$$
+$$\mathbb{P}(U_{k} \geq i) = 1-\sum_{p = 1}^{i-1} \mathbb{P}(U_{k}=p) = 1-\sum_{p = 1}^{i-1}  $$
+
+$$\mathbb{P}(U_{k}\geq i) = \mathbb{P}()$$
