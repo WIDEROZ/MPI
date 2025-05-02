@@ -96,4 +96,12 @@ car $X_{1} \amalg X_{2}$ de plus, pour les mêmes raisons :
 $$\mathbb{E}(X_{1}X_{2}) = \mathbb{E}(X_{1})\mathbb{E}(X_{2}) = \frac{(N+1)^{2}}{4}$$
 
 #### d.
-$$\rho_{2}(N) = \frac{\mathrm{Cov}(U_{2}, V_{2})}{\mathrm{Var}(V_{2})} =  $$
+$$\rho_{2}(N) = \frac{\mathrm{Cov}(U_{2}, V_{2})}{\mathrm{Var}(V_{2})} = \frac{(N^{2}-1)^{2}}{(N^{2}-1)(2N^{2}+1)} = \frac{N^{2}-1}{2N^{2}+1} = \frac{1-\frac{1}{N^{2}}}{2+\frac{1}{N^{2}}} \underset{N \to +\infty}{\longrightarrow} \frac{1}{2}$$
+
+#### Question 9
+##### a.
+$$\mathbb{E}(U_{k}^{2}) = \sum_{i = 1}^{N} (2i-1)\mathbb{P}(U_{k} \geq i) = \frac{1}{N^{k}} \sum_{i = 1}^{N}(2i-1)(N-(i-1))^{k}  $$
+$$= \frac{1}{N^{k}} \left( \sum_{i = 1}^{N}2i(N-(i-1))^{k} - \sum_{i = 1}^{N} (N-(i-1))^{k} \right)$$
+$$= \frac{1}{N^{k}} \left( \sum_{q = 1}^{N} 2(N+1-q)q^{k} -  \sum_{i =1}^{N} i^{k} \right) = \frac{1}{N^{k}} \left( 2N\sum_{i=  1}^{N}i^{k}- \sum_{i =1}^{N}i^{k+1} \right)$$
+Ainsi, 
+$$\mathbb{E}(U_{k}^{2}) = $$
