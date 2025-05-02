@@ -109,4 +109,6 @@ $$\mathbb{E}(U_{k}^{2}) = \frac{1}{N^{k}}(2N\mathcal{S}_{k}(N) - \mathcal{S}_{k+
 ##### b.
 $$\mathrm{Var}(U_{k}) = E(U_{k}^{2})-E(U_{k})^{2} = \frac{1}{N^{k}}(2N\mathcal{S}_{k}(N) - \mathcal{S}_{k+1}(N) -\mathcal{S}_{k}(N))$$
 $$= \frac{1}{N^{k}}((2N-1)S_{k}(N) - S_{k+1}(N))$$
-$$\frac{2}{N^{k+1}}S_{k}(N) - \frac{1}{N^{k+2}}S_{k}(N) - \frac{1}{N^{k+2}}S_{k+1}(N) \sim \frac{2}{k+1}- \frac{1}{N}\times \frac{1}{k+1} - \frac{1}{k+2} \underset{N \to +\infty}{\longrightarrow} $$
+$$\frac{2}{N^{k+1}}S_{k}(N) - \frac{1}{N^{k+2}}S_{k}(N) - \frac{1}{N^{k+2}}S_{k+1}(N) \sim \frac{2}{k+1}- \frac{1}{N}\times \frac{1}{k+1} - \frac{1}{k+2} \underset{N \to +\infty}{\longrightarrow} \frac{2}{k+1}-\frac{1}{k+2}$$
+Donc, 
+$$\frac{\mathrm{Var}(U_{k})}{N^{2}} \underset{N \to +\infty}{\longrightarrow} \frac{2(k+2)- (k+1)}{(k+1)(k+2)} = \frac{k+3}{(k+1)(k+2)}$$
