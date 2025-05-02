@@ -47,3 +47,8 @@ $$\mathbb{P}(S_{n} \geq \varepsilon) \leq e^{ \frac{nt^{2}}{2}-tn\varepsilon } \
 $$(\left| S_{n}\right| \geq \varepsilon) = (S_{n} \geq \varepsilon) \sqcup (S_{n} \leq \varepsilon)$$
 
 #### Question 5
+$$\mathbb{E}(X_{1}) = \frac{1}{N}\sum_{k = 1}^{N} k = \frac{N+1}{2}$$
+$$\mathbb{E}(X_{1}^{2}) = \sum_{k = 1}^{N} k \mathbb{P}(X_{1}^{2} = k) $$
+
+#### Question 6
+$$\frac{1}{n^{k}}$$
