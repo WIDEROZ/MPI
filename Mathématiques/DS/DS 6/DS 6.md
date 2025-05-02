@@ -91,5 +91,9 @@ $$U_{2} + V_{2} = \min(X_{1}, X_{2}) + \max(X_{1}, X_{2}) = X_{1} + X_{2} \text{
 car $+$ et $\times$ sont commutatives
 
 ##### b.
-$$\mathrm{Var}(X_{1} + X_{2}) = \mathrm{Var}(X_{1}) + \mathrm{Var}(X_{2}) =  $$
-car $X_{1} \amalg X_{2}$ 
+$$\mathrm{Var}(X_{1} + X_{2}) = \mathrm{Var}(X_{1}) + \mathrm{Var}(X_{2}) = \frac{N^{2}-1}{6} $$
+car $X_{1} \amalg X_{2}$ de plus, pour les mêmes raisons : 
+$$\mathbb{E}(X_{1}X_{2}) = \mathbb{E}(X_{1})\mathbb{E}(X_{2}) = \frac{(N+1)^{2}}{4}$$
+
+#### d.
+$$\rho_{2}(N) = \frac{\mathrm{Cov}(U_{2}, V_{2})}{\mathrm{Var}(V_{2})} =  $$
