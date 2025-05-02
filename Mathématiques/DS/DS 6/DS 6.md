@@ -80,10 +80,16 @@ Soit $k \in [\![1, N]\!]$,
 $$\mathbb{P}(Y_{i} = k) = \mathbb{P}(X_{i} = (N+1)-k) = \frac{1}{N} \text{ car } (N+1)-k \in [\![1, N]\!]$$
 
 ##### b.
-$$\mathbb{E}(V_{k}) = \sum_{i =1}^{N} \mathbb{P}(V_{k} \geq i) = N - \sum_{i = 1}^{N} \mathbb{P}(V_{k} < i) = N - \sum_{i = 1}^{N} \mathbb{P}\left( \bigcap_{q=  1}^{k} (X_{q} < i) \right)$$
 
-$$= N - \sum_{i = 1}^{N} \left(  \frac{i-1}{N} \right)^{k} = N - \frac{1}{N^{k}} \sum_{i = 0}^{N-1} i^{k}= N - \frac{1}{N^{k}}\mathcal{S}_{k}(N)+N^{k} $$
-Alors,
-$$\mathbb{E}(V_{k}) = N+N^{k} - \mathbb{E}(U_{k})$$
+$$\mathbb{E}(V_{k}) = \mathbb{E}(\max(X_{i})) = \mathbb{E}(\min((N+1)-Y_{i})) = N+1-\mathbb{E}(\max(Y_{i})) = N+1- \mathbb{E}(U_{k})$$
 
-$$\mathbb{E}(V_{k}) = \mathbb{E}()$$
+$$\mathrm{Var}(V_{k}) = \mathrm{Var}(U_{k})$$
+
+#### Question 8
+##### a.
+$$U_{2} + V_{2} = \min(X_{1}, X_{2}) + \max(X_{1}, X_{2}) = X_{1} + X_{2} \text{ et } U_{2}V_{2} = X_{1}X_{2}$$
+car $+$ et $\times$ sont commutatives
+
+##### b.
+$$\mathrm{Var}(X_{1} + X_{2}) = \mathrm{Var}(X_{1}) + \mathrm{Var}(X_{2}) =  $$
+car $X_{1} \amalg X_{2}$ 
