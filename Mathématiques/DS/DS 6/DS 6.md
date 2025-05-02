@@ -46,9 +46,14 @@ $\varepsilon$ est le minimum.
 $$\mathbb{P}(S_{n} \geq \varepsilon) \leq e^{ \frac{nt^{2}}{2}-tn\varepsilon } \leq e^{\frac{ n\varepsilon^{2}}{2} - \varepsilon^{2}n } = e^{ -\frac{n\varepsilon^{2}}{2} }$$
 $$(\left| S_{n}\right| \geq \varepsilon) = (S_{n} \geq \varepsilon) \sqcup (S_{n} \leq \varepsilon)$$
 
+#### Question 4
+$$f(x) = x^{k}$$
+$$ \frac{1}{n} \sum_{i= 1}^{n}\left( \frac{i}{n} \right)^{k} \underset{n \to +\infty}{\longrightarrow} \int_{0}^{1} x^{k} \, dx = \frac{1}{k+1}  $$
+
+
 #### Question 5
 $$\mathbb{E}(X_{1}) = \frac{1}{N}\sum_{k = 1}^{N} k = \frac{N+1}{2}$$
-$$\mathbb{E}(X_{1}^{2}) = \sum_{k = 1}^{N} k \mathbb{P}(X_{1}^{2} = k) $$
-
-#### Question 6
-$$\frac{1}{n^{k}}$$
+$$\mathbb{E}(X_{1}^{2}) = \sum_{k = 1}^{N} k^{2} \mathbb{P}(X_{1} = k) $$
+Par la fonction de transfert
+Alors, comme 
+$$\mathrm{Var}(X) = $$
