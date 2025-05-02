@@ -43,5 +43,9 @@ n_{Cit}&n_{HCO_{3}^{-}}&&0&0&\infty \\\hline
 n_{Cit} - x_{f}&n_{HCO_{3}^{-}}-x_{f}&&x_{f}&x_{f}&\infty \\ \hline
 \end{array}$$
 Car la réaction est totale
-$$n_{HCO_{3}^{-}} = \frac{m}{\mathcal{M}(HCO_{3}^{-})} = \frac{m}{1+12+16\times 3} = 4.21 \text{ mmol}$$
-$$$$
+$$n_{HCO_{3}^{-}} = \frac{m}{\mathcal{M}(HCO_{3}^{-})} = \frac{m}{1+12+16\times 3} = 4.21 \text{ mmol} $$
+$$n_{HCO_{3}^{-}}\gg n_{Cit} = 350 \times 10^{-3} \text{ mmol}$$
+Ici le réactif limitant sera : $HCit$ et alors, $x_{f} = n_{Cit}$
+Or 
+$$x_{f} = c_{CO_{2}}V_{CO_{2}} \Leftrightarrow V_{m} = \frac{V}{x_{f}} \times n^{0} \Leftrightarrow V = V_{m} \times \frac{x_{f}}{n^{0}} = 0.784 \text{ mL} $$
+de $CO_{2}$
