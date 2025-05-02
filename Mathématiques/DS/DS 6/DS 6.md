@@ -80,4 +80,10 @@ Soit $k \in [\![1, N]\!]$,
 $$\mathbb{P}(Y_{i} = k) = \mathbb{P}(X_{i} = (N+1)-k) = \frac{1}{N} \text{ car } (N+1)-k \in [\![1, N]\!]$$
 
 ##### b.
-$$\mathbb{E}(V_{k}) = \sum_{k =1}^{n}$$
+$$\mathbb{E}(V_{k}) = \sum_{i =1}^{N} \mathbb{P}(V_{k} \geq i) = N - \sum_{i = 1}^{N} \mathbb{P}(V_{k} < i) = N - \sum_{i = 1}^{N} \mathbb{P}\left( \bigcap_{q=  1}^{k} (X_{q} < i) \right)$$
+
+$$= N - \sum_{i = 1}^{N} \left(  \frac{i-1}{N} \right)^{k} = N - \frac{1}{N^{k}} \sum_{i = 0}^{N-1} i^{k}= N - \frac{1}{N^{k}}\mathcal{S}_{k}(N)+N^{k} $$
+Alors,
+$$\mathbb{E}(V_{k}) = N+N^{k} - \mathbb{E}(U_{k})$$
+
+$$\mathbb{E}(V_{k}) = \mathbb{E}()$$
