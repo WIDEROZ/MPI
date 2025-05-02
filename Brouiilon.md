@@ -27,4 +27,5 @@ $$H_{2}CO_{3} + H_{2}O \Leftrightarrow HCO_{3}^{-}+H_{3}O^{+} $$
 
 #### 2.
 $CO_{2}$
-$$HCO_{3}^{-} + HAsc + 2H_{2}O \Leftrightarrow CO_{3}^{2-} + Asc^{-} + H_{3}O^{+}$$
+$$HAsc + HCO_{3}^{-} \Leftrightarrow H_{2}O + CO_{2} + Asc^{-}$$
+$$K^{0} = \frac{P_{CO_{2}} [Asc^{-}]}{[HAsc][HCO_{3}^{-}] } = \frac{[CO_{2}]}{[H_{3}O^{+}][HCO_{3}^{-}]} 10^{-pK_{a_{1}}} = 10^{pK_{a}} $$
