@@ -48,7 +48,7 @@ $$\begin{array}{c}
 
 ### 2. Lien avec la logique propositionnelle
 #### Définition
-$\Gamma \vdash \phi$ est prouvable lorsqu'il existe un arbre de preuve dont : $\Gamma \vdash \Phi$ est la racine
+$\Gamma \vdash \phi$ est prouvable lorsqu'il existe un arbre de preuve dont : $\Gamma \vdash \phi$ est la racine
 
 #### Définition
 On dit que :
