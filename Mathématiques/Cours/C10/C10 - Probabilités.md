@@ -1002,3 +1002,6 @@ $$\mathrm{Var}(S_{N}) = \sum_{k =1}^{N} \mathrm{Var}(X_{k}) \leq N\mathrm{Var}(X
 Car $\forall k \in \mathbb{N}^{*}, X_{1} \sim X_{k}$
 Ainsi, 
 $$\mathbb{P}\left( \left| \frac{S_{N}}{N} - \mathbb{E}(X_{1})\right| \geq \varepsilon\right)\leq \frac{\mathrm{Var}(X_{1})}{N\varepsilon^{2}}$$
+
+
+$$X \sim Y \Rightarrow \mathrm{Var}(X) = \mathbb{E}(X^{2})-\mathbb{E}(X)^{2} = \mathbb{E}(Y^{2})-\mathbb{E}(Y)^{2} = \mathrm{Var}(Y) $$
