@@ -72,4 +72,12 @@ $$\mathbb{P}(U_{k} \geq i) = \prod_{q =1}^{k} \mathbb{P}(X_{q} \geq i) = \left( 
 ##### b.
 $$\mathbb{E}(U_{k}) = \frac{1}{N^{k}}\sum_{i = 1}^{N} (N-(i-1))^{k} = \frac{1}{N^{k}} \sum_{q= N}^{1}q^{k} = \frac{1}{N^{k}}\sum_{q= 1}^{N}q^{k}$$
 On pose : $q = N-(i-1)$, 
-$$\mathbb{E}{ (U_{k}) }$$
+$$\mathbb{E}{ (U_{k}) }= \frac{1}{N^{k}} \mathcal{S}_{k}(N) \sim_{N \to + \infty} \frac{N}{k+1}$$
+
+#### Question 7
+##### a.
+Soit $k \in [\![1, N]\!]$, 
+$$\mathbb{P}(Y_{i} = k) = \mathbb{P}(X_{i} = (N+1)-k) = \frac{1}{N} \text{ car } (N+1)-k \in [\![1, N]\!]$$
+
+##### b.
+$$\mathbb{E}(V_{k}) = \sum_{k =1}^{n}$$
