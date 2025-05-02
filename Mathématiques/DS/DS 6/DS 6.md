@@ -65,4 +65,9 @@ $$\mathrm{Var}(X) = \frac{3N(N+1) + N(N+1)(2N+1)}{6N} = \frac{N(N+1)(N+2)}{3N} $
 $$\mathbb{P}(U_{k} \geq i) = \left( \frac{N-i+1}{N} \right)^{k}$$
 $$\mathbb{P}(U_{k} \geq i) = 1-\sum_{p = 1}^{i-1} \mathbb{P}(U_{k}=p) = 1-\sum_{p = 1}^{i-1}  $$
 
-$$\mathbb{P}(U_{k}\geq i) = \mathbb{P}()$$
+$$(U_{k}\geq i) \Leftrightarrow (\forall q \in [\![1, k]\!], X_{q} \geq i) \Leftrightarrow \left( \bigcap_{q = 1}^{k} (X_{q} \geq i) \right)$$
+Comme les événements sont indépendants : 
+$$\mathbb{P}(U_{k} \geq i) = \prod_{q =1}^{k} \mathbb{P}(X_{q} \geq i) = \left( 1-\sum_{p = 1}^{i-1} \frac{1}{N} \right)^{k} = \left( \frac{N-i+1}{N} \right)^{k}$$
+
+##### b.
+$$\mathbb{E}(U_{k}) = \sum_{i = 1}^{N} \mathbb{P}(U_{k} \geq i) = \sum_{i = 1}^{N} \left( 1+\frac{(i-1)^{2}}{N^{2}} - 2 \frac{i-1}{N} \right) = N + \frac{1}{N^{2}}\sum_{i = 0}^{N-1} i^{2} -2  $$
