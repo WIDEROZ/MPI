@@ -37,6 +37,11 @@ $$HCit + HCO_{3}^{-} \Leftrightarrow Cit^{-} + CO_{2}+H_{2}O$$
 Alors, 
 $$\frac{[CO_{2}][Cit^{-}]}{[HCO_{3}^{-}][HCit]} = 10^{pK_{a_{2}}-pK_{a_{3}}} = 2000$$
 #### 4.
-$$\begin{array}{c|c|c}
-HCit& HCO_{3}^{-} & Cit^{-} + CO_{2} + H_{2}O
+$$\begin{array}{|c|c|c|} \hline
+HCit& HCO_{3}^{-} &\Rightarrow& Cit^{-} & CO_{2} & H_{2}O \\\hline
+n_{Cit}&n_{HCO_{3}^{-}}&&0&0&\infty \\\hline
+n_{Cit} - x_{f}&n_{HCO_{3}^{-}}-x_{f}&&x_{f}&x_{f}&\infty \\ \hline
 \end{array}$$
+Car la réaction est totale
+$$n_{HCO_{3}^{-}} = \frac{m}{\mathcal{M}(HCO_{3}^{-})} = \frac{m}{1+12+16\times 3} = 4.21 \text{ mmol}$$
+$$$$
