@@ -125,3 +125,7 @@ $$\begin{array}{c|c}
 \frac{\Gamma \vdash \exists x, \varphi \space\space\space \Gamma, \varphi \vdash \psi}{\Gamma \vdash \psi} \tiny{\exists_{e}}
 \end{array}
 \end{array}$$
+
+
+
+
