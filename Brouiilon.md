@@ -28,4 +28,15 @@ $$H_{2}CO_{3} + H_{2}O \Leftrightarrow HCO_{3}^{-}+H_{3}O^{+} $$
 #### 2.
 $CO_{2}$
 $$HAsc + HCO_{3}^{-} \Leftrightarrow H_{2}O + CO_{2} + Asc^{-}$$
-$$K^{0} = \frac{P_{CO_{2}} [Asc^{-}]}{[HAsc][HCO_{3}^{-}] } = \frac{[CO_{2}]}{[H_{3}O^{+}][HCO_{3}^{-}]} 10^{-pK_{a_{1}}} = 10^{pK_{a}} $$
+$$K^{0} = \frac{P_{CO_{2}} [Asc^{-}]}{[HAsc][HCO_{3}^{-}] } = \frac{[CO_{2}]}{[H_{3}O^{+}][HCO_{3}^{-}]} 10^{-pK_{a_{1}}} = 10^{pK_{a_{2}} -pK_{a_{1}}} $$
+$$K^{0}= 200 \gg 1$$
+Donc la réaction se fait spontanément et elle est quasi-totale
+
+#### 3.
+$$HCit + HCO_{3}^{-} \Leftrightarrow Cit^{-} + CO_{2}+H_{2}O$$
+Alors, 
+$$\frac{[CO_{2}][Cit^{-}]}{[HCO_{3}^{-}][HCit]} = 10^{pK_{a_{2}}-pK_{a_{3}}} = 2000$$
+#### 4.
+$$\begin{array}{c|c|c}
+HCit& HCO_{3}^{-} & Cit^{-} + CO_{2} + H_{2}O
+\end{array}$$
