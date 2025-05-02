@@ -104,4 +104,9 @@ $$\mathbb{E}(U_{k}^{2}) = \sum_{i = 1}^{N} (2i-1)\mathbb{P}(U_{k} \geq i) = \fra
 $$= \frac{1}{N^{k}} \left( \sum_{i = 1}^{N}2i(N-(i-1))^{k} - \sum_{i = 1}^{N} (N-(i-1))^{k} \right)$$
 $$= \frac{1}{N^{k}} \left( \sum_{q = 1}^{N} 2(N+1-q)q^{k} -  \sum_{i =1}^{N} i^{k} \right) = \frac{1}{N^{k}} \left( 2N\sum_{i=  1}^{N}i^{k}- \sum_{i =1}^{N}i^{k+1} \right)$$
 Ainsi, 
-$$\mathbb{E}(U_{k}^{2}) = $$
+$$\mathbb{E}(U_{k}^{2}) = \frac{1}{N^{k}}(2N\mathcal{S}_{k}(N) - \mathcal{S}_{k+1}(N))$$
+
+##### b.
+$$\mathrm{Var}(U_{k}) = E(U_{k}^{2})-E(U_{k})^{2} = \frac{1}{N^{k}}(2N\mathcal{S}_{k}(N) - \mathcal{S}_{k+1}(N) -\mathcal{S}_{k}(N))$$
+$$= \frac{1}{N^{k}}((2N-1)S_{k}(N) - S_{k+1}(N))$$
+$$\frac{2}{N^{k+1}}S_{k}(N) - \frac{1}{N^{k+2}}S_{k}(N) - \frac{1}{N^{k+2}}S_{k+1}(N) \sim \frac{2}{k+1}- \frac{1}{N}\times \frac{1}{k+1} - \frac{1}{k+2} \underset{N \to +\infty}{\longrightarrow} $$
