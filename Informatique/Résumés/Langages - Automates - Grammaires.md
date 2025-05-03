@@ -192,7 +192,7 @@ Construire l'automate local $\mathcal{A}' = (Q', \Sigma', \{q_{0}'\}, F', \delta
 ##### Étape 3
 Supprimer les indices dans les transitions de $\mathcal{A}'$ 
 On obtiens alors un <u>automate de Glushkov</u> 
-
+	
 # II. Grammaires
 Soit $G = (\Sigma, V, R, S)$ un grammaire non-contextuelle, 
 #### Définition : Dérivation immédiate
