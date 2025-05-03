@@ -1,1 +1,0 @@
-Dans le cas ou $\Gamma \vdash A$: 
