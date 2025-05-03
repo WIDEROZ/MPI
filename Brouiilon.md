@@ -1,2 +1,1 @@
-$$\phi \wedge \psi \vdash \psi \wedge \phi$$
-
+Dans le cas ou $\Gamma \vdash A$: 
