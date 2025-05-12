@@ -48,9 +48,6 @@ S'il existe $f_{verif} \in P : E \times C \to \mathbb{B}$ et $C$ un ensemble de 
 $$\forall e \in E, f(e) = 1 \Leftrightarrow \exists c \in \mathcal{C}, f_{verif}(e, c) = 1$$
 ces conditions alors $f \in NP$
 
-#### Théorème
-$$P \subset NP$$
-
 #### NP-Difficulté
 On dit qu'un problème quelconque $f_{1}$ est $NP$-difficile lorsque pour tout problème $f \in NP$, 
 $$f \leq_{P} f_{1} $$
