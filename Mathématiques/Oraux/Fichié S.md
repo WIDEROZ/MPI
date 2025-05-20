@@ -45,3 +45,11 @@ Ainsi, $n = 2k$ sinon $\det(g) \in \mathbb{C}$ ce qui est absurde
 Donc comme $g$ est bijectif : $2k=\dim E = \dim\mathrm{Im}(f)$ 
 
 
+$f:E\to F$
+$$g : $$
+
+
+
+#### 65
+$$\int_{0}^{+ \infty} e^{ -xt } \frac{sh(t)}{t}  \, dt$$
+$$\frac{e^{ -xt }sh(t)}{t} \sim \frac{e^{ t(1-x) }-e^{ -(x+1)t }}{2t} = \frac{1-e^{ -(x+1)t- }}{} $$
