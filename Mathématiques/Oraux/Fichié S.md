@@ -29,4 +29,9 @@ $$\frac{1}{k^{3/2} + k^{1/2}}$$
 $$f(t+1) \leq f(k) \leq f(t)$$
 $$ \int_{k-1}^{k} \frac{1}{(t+1)^{3/2}+(t+1)^{1/2}} \, dt \leq f(k) \leq \int_{k-1}^{k} \frac{1}{t^{3/2}+t^{1/2}} \, dt  $$
 $t = x-1$
-$$2 \frac{\pi}{4}-2\arctan(\sqrt{n+1}) = \int_{n+1}^{+ \infty} \frac{1}{t^{3/2} + t^{1/2}} \, dt  \leq R_{n} \leq  \int_{n}^{+ \infty} \frac{1}{t^{3/2}+t^{1/2}} \, dt  $$
+$$2 \frac{\pi}{2}-2\arctan(\sqrt{n+1}) = \int_{n+1}^{+ \infty} \frac{1}{t^{3/2} + t^{1/2}} \, dt  \leq R_{n} \leq  \int_{n}^{+ \infty} \frac{1}{t^{3/2}+t^{1/2}} \, dt = 2 \frac{\pi}{2}-2\arctan(\sqrt{n}) $$
+Ainsi, comme $\pi -2\arctan\left( \sqrt{n} \right) = 2\arctan\left( \frac{1}{\sqrt{n}} \right)$
+car : $\arctan\left( \frac{1}{x} \right) + \arctan(x) = \frac{\pi}{2}$
+
+
+####
