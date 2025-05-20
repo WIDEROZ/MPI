@@ -58,4 +58,8 @@ si $x=1$ elle DV par riemann
 si $x > 1$ par CC elle CV
 Ainsi, $F$ est définie sur $]1, + \infty[$
 $$f'(x) = -xf(x) = -e^{ -xt }sh(t)$$
-$$\left| f'(x)\right| \leq $$
+
+
+#### 78.
+$$x \leq y^{2}$$
+$\left| Z\right| \leq \left| Y\right| = Y$  $Z$ est bornée alors $Z \in \mathcal{L}^{1}(\mathbb{N})$ 
