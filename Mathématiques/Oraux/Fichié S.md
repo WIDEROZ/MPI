@@ -21,6 +21,8 @@ $$1+ (1-n)x + \frac{x^{2}}{2} = 0 \Leftrightarrow (n-1)^{2}-2 >0$$
 Alors, 
 
 #### 43.
-$$\sum_{n \in \mathbb{N}} (-1)^{n} u_{n} \text{ converge car } (u_{n}) \downarrow$$
-Or : 
-$$\frac{u_{n+1}}{u_{n}} = \frac{n}{n+1} e^{ u_{n-1}-u_{n} }$$
+##### a.
+On pose : $t = x^{2}$ qui est justifié car $a, b>0$ et $x \mapsto x^{2}$ est bijective et croissante sur $\mathbb{R}_{+}^{*}$ 
+$$\int_{\sqrt{a}}^{\sqrt{b}} \frac{dx}{x^{3}+x^{2}}= \int_{\sqrt{a}}^{\sqrt{b}} \frac{dx}{x^{2}(x+1)} = \int_{\sqrt{a}}^{\sqrt{b}} \, (1-x) \frac{dx}{x^{2}} +\int _{\sqrt{a}}^{\sqrt{b}} \, \frac{dx}{x+1}  $$
+Alors, 
+$$= -\left[ \frac{1}{x} \right]_{\sqrt{a}}^{\sqrt{b} } - [\ln(x)]_{\sqrt{a}}^{\sqrt{b}} + [\ln(x+1)]_{\sqrt{a}}^{\sqrt{b}} = -$$
