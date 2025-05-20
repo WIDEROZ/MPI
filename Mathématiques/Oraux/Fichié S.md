@@ -55,7 +55,7 @@ $$\int_{0}^{+ \infty} e^{ -xt } \frac{sh(t)}{t}  \, dt$$
 $$\frac{e^{ -xt }sh(t)}{t} \sim \frac{e^{ t(1-x) }}{2t}  $$
 Si $x<1$ l'intégrale diverge par croissance comparés
 si $x=1$ elle DV par riemann
-si $x \geq 1$ par CC elle CV
+si $x > 1$ par CC elle CV
 Ainsi, $F$ est définie sur $]1, + \infty[$
-
-$$f'(t) = -xe^{ -xt } $$
+$$f'(x) = -xf(x) = -e^{ -xt }sh(t)$$
+$$\left| f'(x)\right| \leq $$
