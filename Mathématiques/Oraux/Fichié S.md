@@ -61,5 +61,9 @@ $$f'(x) = -xf(x) = -e^{ -xt }sh(t)$$
 
 
 #### 78.
-$$x \leq y^{2}$$
-$\left| Z\right| \leq \left| Y\right| = Y$  $Z$ est bornée alors $Z \in \mathcal{L}^{1}(\mathbb{N})$ 
+##### a.
+$$\left| Z\right| \leq \left| X\right| = X \text{ car }\forall \omega \in \Omega, Y^{-1}(\omega), X^{-1}(\omega) \subset \mathbb{N}^{*}$$
+Comme $X \in \mathcal{L}^{2}(\Omega)$ et $\left| Z\right| \leq X$, $Z \in \mathcal{L}^{2}(\Omega)$
+
+##### b.
+$$\mathbb{E}(Z) = \mathbb{E}\left( \frac{X}{Y} \right) = \sum_{(x, y) \in (\mathbb{N}^{*})^{2}} \frac{x}{y}\mathbb{P}\left( Z = \frac{x}{y} \right)$$
