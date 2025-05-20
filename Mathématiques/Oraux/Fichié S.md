@@ -19,3 +19,8 @@ Alors,
 $$0 = 1+\alpha_{n}(1-n) + \frac{\alpha_{n}^{2}}{2} + o(\alpha_{n})$$
 $$1+ (1-n)x + \frac{x^{2}}{2} = 0 \Leftrightarrow (n-1)^{2}-2 >0$$
 Alors, 
+
+#### 43.
+$$\sum_{n \in \mathbb{N}} (-1)^{n} u_{n} \text{ converge car } (u_{n}) \downarrow$$
+Or : 
+$$\frac{u_{n+1}}{u_{n}} = \frac{n}{n+1} e^{ u_{n-1}-u_{n} }$$
