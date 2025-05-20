@@ -23,6 +23,8 @@ Alors,
 #### 43.
 ##### a.
 On pose : $t = x^{2}$ qui est justifié car $a, b>0$ et $x \mapsto x^{2}$ est bijective et croissante sur $\mathbb{R}_{+}^{*}$ 
-$$\int_{\sqrt{a}}^{\sqrt{b}} \frac{dx}{x^{3}+x^{2}}= \int_{\sqrt{a}}^{\sqrt{b}} \frac{dx}{x^{2}(x+1)} = \int_{\sqrt{a}}^{\sqrt{b}} \, (1-x) \frac{dx}{x^{2}} +\int _{\sqrt{a}}^{\sqrt{b}} \, \frac{dx}{x+1}  $$
-Alors, 
-$$= -\left[ \frac{1}{x} \right]_{\sqrt{a}}^{\sqrt{b} } - [\ln(x)]_{\sqrt{a}}^{\sqrt{b}} + [\ln(x+1)]_{\sqrt{a}}^{\sqrt{b}} = -$$
+
+##### b.
+$$\frac{1}{k^{3/2} + k^{1/2}}$$
+$$f(t+1) \leq f(k) \leq f(t)$$
+$$\int_{k-1}^{k} \frac{1}{(t+1)^{3/2}+(t+1)^{1/2}} \, dt \leq f(k) \leq \int_{k-1}^{k} \frac{1}{t^{3/2}+t^{1/2}} \, dt = 2 ac $$
