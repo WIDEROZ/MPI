@@ -34,4 +34,14 @@ Ainsi, comme $\pi -2\arctan\left( \sqrt{n} \right) = 2\arctan\left( \frac{1}{\sq
 car : $\arctan\left( \frac{1}{x} \right) + \arctan(x) = \frac{\pi}{2}$
 
 
-####
+#### 12
+##### a.
+$$f^{3}(y) = -f(y) = -x $$
+#### b.
+$$g(x) = y = f(z)$$
+Soit $x \in \mathrm{Ker}(g)$ alors, $y = f(z) = 0$ alors, 
+$$\det(g)^{2} = \det(-I_{n}) = (-1)^{n}$$
+Ainsi, $n = 2k$ sinon $\det(g) \in \mathbb{C}$ ce qui est absurde
+Donc comme $g$ est bijectif : $2k=\dim E = \dim\mathrm{Im}(f)$ 
+
+
