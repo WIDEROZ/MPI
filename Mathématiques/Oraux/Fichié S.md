@@ -66,4 +66,4 @@ $$\left| Z\right| \leq \left| X\right| = X \text{ car }\forall \omega \in \Omega
 Comme $X \in \mathcal{L}^{2}(\Omega)$ et $\left| Z\right| \leq X$, $Z \in \mathcal{L}^{2}(\Omega)$
 
 ##### b.
-$$\mathbb{E}(Z) = \mathbb{E}\left( \frac{X}{Y} \right) = \sum_{(x, y) \in (\mathbb{N}^{*})^{2}} \frac{x}{y}\mathbb{P}\left( Z = \frac{x}{y} \right)$$
+
