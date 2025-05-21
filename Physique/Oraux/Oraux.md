@@ -11,18 +11,9 @@ Alors, en protestant sur $\vec{e}_{z}$ :
 $$l\ddot{\theta} = -g\sin(\theta) -\frac{6\pi \eta rl}{m}\dot{\theta}$$
 Ainsi, 
 $$\boxed{\ddot{\theta} + \frac{6\pi \eta r}{m}\dot{\theta} + \frac{g}{l}\sin(\theta) = 0}$$
-$$E_{m} = \frac{1}{2}m(l\dot{\theta})^{2} + mgl\cos(\theta) $$
-$$\delta W = \vec{f}.d\vec{l} = -6\pi \eta r l \dot{\theta} dl = -6\pi \eta r l d\theta v \text{ alors } \int \delta W_{NC} = -\frac{6 \pi \eta r l^{2} \dot{\theta}}{2}   $$
-$\text{ donc d'après le TEM :}$ 
-$$\frac{1}{2}m(l\dot{\theta})^{2} - mgl\cos(\theta) + \frac{6 \pi \eta r l^{2} \dot{\theta}}{2} = 0$$
-Donc, 
-$${\dot{\theta}^{2} - 2\frac{g}{l}\cos(\theta) + \frac{6\pi \eta r}{m} \dot{\theta} = 0  }$$
-Alors, 
-$$2\ddot{\theta} \dot{\theta} +2 \frac{g}{l} \dot{\theta}\sin(\theta) + \frac{6\pi \eta r}{m} \ddot{\theta} = 0 $$
-
-
-$$\frac{d^{2}\theta}{dt^{2}} \text{ et } \frac{d\theta}{dt} \text{ alors } \frac{\frac{d^{2}\theta}{dt^{2}}}{\frac{d\theta}{dt}} = \frac{d\theta}{2tdt} = \frac{\dot{\theta}}{2t}$$
 
 #### 2.
 $$\ddot{\theta} + \frac{6\pi \eta r}{m}\dot{\theta} + \frac{g}{l}\theta = 0$$
-$$$$
+Alors, si on pose : $\omega_{0} = \sqrt{\frac{g}{l}}$
+
+
