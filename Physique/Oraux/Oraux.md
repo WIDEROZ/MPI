@@ -16,4 +16,14 @@ $$\boxed{\ddot{\theta} + \frac{6\pi \eta r}{m}\dot{\theta} + \frac{g}{l}\sin(\th
 $$\ddot{\theta} + \frac{6\pi \eta r}{m}\dot{\theta} + \frac{g}{l}\theta = 0$$
 Alors, si on pose : $\omega_{0} = \sqrt{\frac{g}{l}}$
 
+#### 3.
+$$T_{\Omega} = \frac{2\pi}{\Omega} \text{ et } T_{0} = \frac{2\pi}{\omega_{0}}$$
+Alors, 
+$$T_{\Omega} = \frac{2\pi}{\omega_{0}\sqrt{1-\frac{1}{2Q^{2}}}} = $$
 
+## Exercice 2
+Bilan des forces : 
+Force de Laplace : 
+$$F_{l} = \int i\, d\vec{l} \wedge \vec{B} =  $$
+TMC : 
+$$\frac{d\vec{L}}{dt} = J\omega = $$
