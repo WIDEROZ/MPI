@@ -2,6 +2,8 @@
 ### 1.
 Modèle
 #### 2.
+Production : Modèle, nom fabriquant
+Ordinateur : Modèle
 
 
 #### 3.
