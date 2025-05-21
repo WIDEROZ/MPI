@@ -17,14 +17,7 @@ $\text{ donc d'après le TEM :}$
 $$\frac{1}{2}m(l\dot{\theta})^{2} + \frac{1}{2}mgl\sin(\theta) + \frac{6 \pi \eta r l^{2} \dot{\theta}}{2} = 0$$
 Ainsi, 
 $$\boxed{\dot{\theta}^{2} + \frac{g}{l}\sin(\theta) + \frac{6\pi \eta r}{m} \dot{\theta} = 0  }$$
-TEC : 
-$$$$
 
 #### 2.
-
-
-
-
-
-
-$$J_{B} = ml^{2}$$
+$$\ddot{\theta} + \frac{6\pi \eta r}{m}\dot{\theta} + \frac{g}{l}\theta = 0$$
+$$$$
