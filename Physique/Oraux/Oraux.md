@@ -23,7 +23,8 @@ $$T_{\Omega} = \frac{2\pi}{\omega_{0}\sqrt{1-\frac{1}{2Q^{2}}}} = $$
 
 ## Exercice 2
 Bilan des forces : 
+On pose : $\overrightarrow{OA} = l\vec{e}_{x}$
 Force de Laplace : 
-$$F_{l} = \int i\, d\vec{l} \wedge \vec{B} =  $$
+$$F_{l} = \int i\, d\vec{l} \wedge \vec{B} = -\int \frac{E}{R} \, Bdl \vec{e}_{y} =  $$
 TMC : 
 $$\frac{d\vec{L}}{dt} = J\omega = $$
