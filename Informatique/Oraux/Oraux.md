@@ -10,14 +10,14 @@ Ordinateur : Modèle
 ##### a.
 ```SQL
 SELECT DISTINCT Modele FROM Production 
-JOIN Fabriquant ON Fabriquant.Nom = Production.Nom WHERE Fabriquant.NomPatron = 'Durand'
+JOIN Fabriquant ON Fabriquant.Nom = Production.NomFabriquant WHERE Fabriquant.NomPatron = 'Durand'
 ;
 ```
 
 ##### b.
 ```SQL
 SELECT Fabriquant.Nom, Fabriquant.Adresse FROM Fabriquant 
-JOIN Production ON Fabriquant.Nom = Production.NomFabriquant
+												JOIN Production ON Fabriquant.Nom = Production.NomFabriquant
 JOIN Portable ON Production.Modele = Portable.Modele
 WHERE Portable.Dd >= 500
 ;
@@ -25,7 +25,9 @@ WHERE Portable.Dd >= 500
 
 ##### c.
 ```SQL
-SELECT Fabriquant.Nom FROM Fabriquant
-JOIN 
+SELECT Production.NomFabriquant AS nom_F FROM Production
+INNER JOIN Imprimante ON Imprimante.Modele = Production.Modele
+WHERE COUNT()
+;
 
 ```
