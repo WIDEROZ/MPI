@@ -35,5 +35,5 @@ $$(J+\alpha)\vec{\omega} = - \frac{BEl^{2}}{2R} \vec{e}_{z}$$
 Or par convention : $\vec{\omega} = - \omega \vec{e}_{z}$ (voir schema) alors : 
 $$\boxed{\omega = \frac{BEl^{2}}{2R(J+\alpha)} }$$
 $$\overrightarrow{OA} = l\vec{e}_l \text{ alors } \vec{v} = l\omega \vec{e}_{\theta} \text{ donc } \overrightarrow{OA} = \int \vec{v} \, dt = \int \frac{BEl^{3}}{2R(J+\alpha)} \, dt  $$
-$$\overrightarrow{OA} = \frac{BEl^{3}}{R(ml^{2}+2\alpha)} \int \vec{e}_{\theta} \, dt \text{ comme : } d\vec{e}_r = d\theta \vec{e}_{\theta} \text{ alors } $$
-$$\boxed{\overrightarrow{OA} = \frac{BEl^{3}}{R(ml^{2}+2\alpha)}(t-t_{0}) \vec{e}_{l}}$$
+$$\overrightarrow{OA} = \frac{BEl^{3}}{R(ml^{2}+2\alpha)} \int \vec{e}_{\theta} \, dt \text{ or : } \int e_{\theta} \, dt = \int \frac{d\vec{e}_{l}}{dt} \times \frac{dt}{ \omega} = \frac{1}{\omega} \vec{e}_{l}    $$
+$$\boxed{\overrightarrow{OA} = \frac{BEl^{3}}{R\omega(ml^{2}+2\alpha)}\vec{e}_{l}}$$
