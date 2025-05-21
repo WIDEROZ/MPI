@@ -35,9 +35,12 @@ HAVING COUNT(Production.Modele) >= 10
 
 ##### d.
 ```SQL
-(SELECT Client.Num FROM Client
-JOIN 
+(
+SELECT Client.Num FROM Client
 )
 EXCEPT
-()
+(
+SELECT Achat.NumClient FROM Achat
+JOIN Imprimante ON Achat.Modele = Imprimante.Modele
+)
 ```
