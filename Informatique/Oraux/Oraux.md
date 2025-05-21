@@ -26,8 +26,18 @@ WHERE Portable.Dd >= 500
 ##### c.
 ```SQL
 SELECT Production.NomFabriquant AS nom_F FROM Production
-INNER JOIN Imprimante ON Imprimante.Modele = Production.Modele
-WHERE COUNT()
+JOIN Imprimante ON Imprimante.Modele = Production.Modele
+GROUP BY Production.NomFabriquant
+HAVING COUNT(Production.Modele) >= 10
 ;
 
+```
+
+##### d.
+```SQL
+(SELECT Client.Num FROM Client
+JOIN 
+)
+EXCEPT
+()
 ```
