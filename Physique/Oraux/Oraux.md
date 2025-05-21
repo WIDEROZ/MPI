@@ -24,7 +24,14 @@ $$T_{\Omega} = \frac{2\pi}{\omega_{0}\sqrt{1-\frac{1}{2Q^{2}}}} = $$
 ## Exercice 2
 Bilan des forces : 
 On pose : $\overrightarrow{OA} = l\vec{e}_{x}$
-Force de Laplace : 
-$$F_{l} = \int i\, d\vec{l} \wedge \vec{B} = -\int \frac{E}{R} \, Bdl \vec{e}_{y} =  $$
+Moment de Laplace : 
+$$\overrightarrow{\mathcal{M}}_{l} = \int i\, \overrightarrow{OM}\wedge (d\vec{l} \wedge \vec{B}) = -\int \frac{E}{R} \, B l \, \vec{e}_{x} \wedge \vec{e}_{y} \, dl= -\int \frac{E}{R} \, B l dl \,\vec{e}_{z} = - \frac{B l^{2}}{2R} \vec{e}_{z} $$
+Moment de la force de frottement fluide : 
+$$\overrightarrow{\mathcal{M}}_{F} = -\alpha \vec{\omega}$$
 TMC : 
-$$\frac{d\vec{L}}{dt} = J\omega = $$
+$$\frac{d\vec{L}}{dt} = J\vec{\omega}= -\alpha \vec{\omega} -\frac{Bl^{2}}{2R}\vec{e}_{z}$$
+Donc,  
+$$(J+\alpha)\vec{\omega} = - \frac{Bl^{2}}{2R} \vec{e}_{z}$$
+Or par convention : $\vec{\omega} = - \omega \vec{e}_{z}$ voir schema : 
+$$\boxed{\omega = \frac{Bl^{2}}{2R(J+\alpha)} }$$
+$$$$
