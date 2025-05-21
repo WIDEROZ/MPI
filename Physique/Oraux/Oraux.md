@@ -25,13 +25,15 @@ $$T_{\Omega} = \frac{2\pi}{\omega_{0}\sqrt{1-\frac{1}{2Q^{2}}}} = $$
 Bilan des forces : 
 On pose : $\overrightarrow{OA} = l\vec{e}_{x}$
 Moment de Laplace : 
-$$\overrightarrow{\mathcal{M}}_{l} = \int i\, \overrightarrow{OM}\wedge (d\vec{l} \wedge \vec{B}) = -\int \frac{E}{R} \, B l \, \vec{e}_{x} \wedge \vec{e}_{y} \, dl= -\int \frac{E}{R} \, B l dl \,\vec{e}_{z} = - \frac{B l^{2}}{2R} \vec{e}_{z} $$
+$$\overrightarrow{\mathcal{M}}_{l} = \int i\, \overrightarrow{OM}\wedge (d\vec{l} \wedge \vec{B}) = -\int \frac{E}{R} \, B l \, \vec{e}_{x} \wedge \vec{e}_{y} \, dl= -\int \frac{E}{R} \, B l dl \,\vec{e}_{z} = - \frac{BE l^{2}}{2R} \vec{e}_{z} $$
 Moment de la force de frottement fluide : 
 $$\overrightarrow{\mathcal{M}}_{F} = -\alpha \vec{\omega}$$
 TMC : 
-$$\frac{d\vec{L}}{dt} = J\vec{\omega}= -\alpha \vec{\omega} -\frac{Bl^{2}}{2R}\vec{e}_{z}$$
+$$\frac{d\vec{L}}{dt} = J\vec{\omega}= -\alpha \vec{\omega} -\frac{BEl^{2}}{2R}\vec{e}_{z}$$
 Donc,  
-$$(J+\alpha)\vec{\omega} = - \frac{Bl^{2}}{2R} \vec{e}_{z}$$
-Or par convention : $\vec{\omega} = - \omega \vec{e}_{z}$ voir schema : 
-$$\boxed{\omega = \frac{Bl^{2}}{2R(J+\alpha)} }$$
-$$$$
+$$(J+\alpha)\vec{\omega} = - \frac{BEl^{2}}{2R} \vec{e}_{z}$$
+Or par convention : $\vec{\omega} = - \omega \vec{e}_{z}$ (voir schema) alors : 
+$$\boxed{\omega = \frac{BEl^{2}}{2R(J+\alpha)} }$$
+$$\overrightarrow{OA} = l\vec{e}_l \text{ alors } \vec{v} = l\omega \vec{e}_{\theta} \text{ donc } \overrightarrow{OA} = \int \vec{v} \, dt = \int \frac{BEl^{3}}{2R(J+\alpha)} \, dt  $$
+$$\overrightarrow{OA} = \frac{BEl^{3}}{R(ml^{2}+2\alpha)} \int \vec{e}_{\theta} \, dt \text{ comme : } d\vec{e}_r = d\theta \vec{e}_{\theta} \text{ alors } $$
+$$\boxed{\overrightarrow{OA} = \frac{BEl^{3}}{R(ml^{2}+2\alpha)}(t-t_{0}) \vec{e}_{l}}$$
