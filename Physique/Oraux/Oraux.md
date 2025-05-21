@@ -37,5 +37,5 @@ $$\boxed{\omega = \frac{BEl^{2}}{2R(J+\alpha)} }$$
 $$\overrightarrow{OA} = l\vec{e}_l \text{ alors } \vec{v} = l\omega \vec{e}_{\theta} \text{ donc } \overrightarrow{OA} = \int \vec{v} \, dt = \int \frac{BEl^{3}}{2R(J+\alpha)} \, dt  $$
 $$\overrightarrow{OA} = \frac{BEl^{3}}{R(ml^{2}+2\alpha)} \int \vec{e}_{\theta} \, dt \text{ or : } \int e_{\theta} \, dt = \int \frac{d\vec{e}_{l}}{dt} \times \frac{dt}{ \omega} = \frac{1}{\omega} \vec{e}_{l}    $$
 $$\boxed{\overrightarrow{OA} = \frac{BEl^{3}}{R\omega(ml^{2}+2\alpha)}\vec{e}_{l}}$$
-$$e = e_{f \,ind} = - \frac{d\phi}{dt} = - \frac{d}{dt} \iint\vec{B}.d\vec{S} = \pi a^{2}\frac{dB}{dt}$$
-$$i = \frac{E+e}{R} $$
+$$i = \frac{E+e}{R}$$
+$$e = e$$
