@@ -142,3 +142,4 @@ $$\mathbb{P}(\left|X-E(X) \right|\geq a) \leq \frac{\mathrm{Var}(X)}{a^{2}}$$
 
 ### Loi faible des grands nombres (LFGN)
 $$\mathbb{P}\left( \left| \frac{S_{N}}{N} - \mathbb{E}(X_{1})\right| \geq \varepsilon\right)\leq \frac{\mathrm{Var}(X_{1})}{N\varepsilon^{2}}$$
+0
