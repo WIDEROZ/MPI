@@ -17,3 +17,4 @@ $$H_{f}(0, 0) = \begin{pmatrix}
 6&-6
 \end{pmatrix}$$
 $-36\leq 0$, $\det (-1, -1) \geq 0$
+
