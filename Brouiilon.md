@@ -7,4 +7,4 @@ $$\left| f(x, y) -f(0, 0)\right| = \left| f(x, y)\right| = \left| xy\right| \lef
 
 $$\lim_{ h \to 0 } \frac{f(h, 0)- f(0, 0)}{h} = 0 $$
 $$\lim_{ h \to 0 } \frac{f(0, h) - f(0, 0)}{h} = 0$$
-Ainsi, $f'$ existe sur $\mathbb{R}^{2}$ alors $f$ est différentiable en $(0, 0)$ et comme $\dim \mathbb{R}^{2} = 2$, $df(0, 0)$ est continue
+Ainsi, $f'$ existe sur $\mathbb{R}^{2}$ alors $f$ est différentiable en $(0, 0)$ et comme $\dim \mathbb{R}^{2} = 2$, $df(0, 0)$ est continue et que 
