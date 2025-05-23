@@ -1,14 +1,5 @@
-$$f(x)= \frac{1}{n+1} x^{n+1} + C$$
-$$f'(x) = \frac{1}{n+1}\times  $$
-
-$$f'(x) = \frac{1}{n+1}\times (n+1) x^{n} =  \frac{n+1}{n+1} \times x^{n} = 1 \times x^{
-n
-} $$
-
-
-
-
-#### Exercice
+## Intégration de polynômes
+#### Exercice 1
 $$\int \, dx$$
 $$\int x^{1} \, dx $$
 $$\int  x^{41} \, dx  $$
@@ -21,8 +12,8 @@ $$\int x^{2} \, dx = \frac{1}{3}x^{3} + C $$
 $$\int x^{41} \, dx = \frac{1}{42}x^{42} $$
 $$\int x^{69} \, dx = \frac{1}{70} x^{70} + C $$
 
-
-#### Exercice 2 
+## Linéarité de l'intégrale
+#### Exercice 2.0
 $$\int 6 x^{5} \, dx $$
 $$\int (-4) x^{7} \, dx $$
 $$\int (-x) \, dx $$
@@ -48,5 +39,14 @@ $$(-1)\times\left( \frac{1}{2}x^{2} + C \right) = (-1) \times \frac{1}{2} x^{2} 
 Ainsi, 
 $$\boxed{\int (-x) \, dx  =  -\frac{1}{2}x^{2} -C}$$
 
-#### Exercice 3
-$$$$
+#### Exercice 2.1
+$$\int (x^{2} + x^{3}) \, dx $$
+$$\int (2x^{4} - 3x^{2}) \, dx $$
+$$\int (-70x^{69}+x^{41}) \, dx $$
+
+
+#### Correction
+$$\int (x^{2} + x^{3}) \, dx = \int x^{2} \, dx + \int x^{3} \, dx = \frac{1}{3}x^{
+3
+}+C_{1} + \frac{1}{4}x^{4} + C_{2} $$
+$$= \frac{1}{3}x^{3}+ \frac{1}{4}x^{4} +C_{1} + C_{2} $$
