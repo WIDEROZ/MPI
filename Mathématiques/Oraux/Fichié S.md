@@ -82,7 +82,17 @@ Soit $X \in \mathrm{Ker}(M)$
 $$0 = MX = X- M^{2}X \text{ alors } M^{2}X = X = 0$$
 Ainsi $\mathrm{Ker}(M) = \{ 0 \}$ donc $\det(M) \neq 0$ car $M$ est injective donc bijective car on est en dimension finie $n=n$
 
-$$\mathrm{Tr}(M) \neq 0 \text{ car les valeurs propres sont exposés ds le poly min}$$
+
 
 #### c.
 Si $M$ n'est pas symétrique : 
+
+
+
+
+$$\sin(x) = e^{ -x }$$
+$$f(x) = e^{ -x }- \sin(x)$$
+$$2n\pi, 2n\pi + \frac{\pi}{2}$$
+
+$$e^{ -x } + \cos(x)$$
+$$e^{ -x_{n} } - \sin(x_{n}) $$
