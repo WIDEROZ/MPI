@@ -37,5 +37,11 @@ $$\vec{B} = B \vec{e}_{z}$$
 On fait un PFD : 
 $$\vec{E}_{H} = - \vec{v} \wedge \vec{B} = vB\vec{e}_{y}$$
 Alors, comme : $\vec{E}_{H} = - \overrightarrow{grad}(U_{H})$ : 
-$$\vec{U}_{H} = -\int \vec{E}_{H}.d\vec{l} = -l \vec{E}_{H} $$
-Or : $\vec{v} = \frac{\vec{j}}{\rho} = \frac I{S \rho}=\frac{I}{SQ}V=\frac{I}{SCU_{H}}V$
+$$\vec{U}_{H} = -\int \vec{E}_{H}.d\vec{y} = -l \vec{E}_{H} $$
+Or :
+$$\vec{v} = \frac{\vec{j}}{\rho} = \frac I{S \rho}=\frac{I}{Sq}V=\frac{I}{q}r$$
+Alors, 
+$$\vec{E}_{H} = \frac{IBL}{Q} \vec{e}_{y}$$
+$$\vec{U}_{H} = -\frac{lIB}{Q}r\vec{e}_{y}$$
+
+
