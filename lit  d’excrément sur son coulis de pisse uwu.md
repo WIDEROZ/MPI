@@ -1,4 +1,4 @@
-## Intégration de polynômes
+## Primitive de polynômes
 #### Exercice 1
 $$\int \, dx$$
 $$\int x^{1} \, dx $$
@@ -68,16 +68,40 @@ $$70 \times \left( \frac{1}{70}x^{70} + C \right) + \left( \frac{1}{42}x^{42} + 
 Ainsi, 
 $$\boxed{\int (-70x^{69}+x^{41}) \, dx = -x^{70} + \frac{1}{42} x^{42} - 70 C +K}$$
 ## Intégrale Exponentielle / Logarithme
+### À connaitre par cœur : 
+$$\boxed{\text{Si : } f(x) = e^{ x } \text{ alors } f'(x) = e^{ x }}$$
+$$\boxed{\text{Si : }f(x) = \ln(x) \text{ alors } f'(x) = \frac{1}{x} }$$
 $$\boxed{\int e^{ x } \, dx = e^{ x } + C}$$
+$$\boxed{\int \frac{1}{x} \, dx = \ln(\left| x\right|) + C}$$
+#### Exemple : Valeur absolue $\left| x\right|$
+$$\begin{cases}
+\left| 0\right| = 0 \\
+\left| 1\right| = 1 \\
+\left| -1\right|=1 \\
+\left| 2\right|=2 \\
+\left| -2\right|=2 \\
+\left| 615\right| = 615 \\
+\left| -615\right| = 615
+\end{cases}$$
 
-$$\boxed{\int \frac{1}{x} \, dx = \ln(\left| x\right|) + C}
-$$
+#### Exemples
 $$\int_{2}^{4} \frac{1}{x} \, dx = [\ln(\left| x\right|)]_{2}^{4} = \ln(\left| 4\right|) - \ln(\left| 2\right|) = \ln(4)-\ln(2) = \ln\left( \frac{4}{2} \right) = \ln(2) $$
 $$\int e^{ 6x } \, dx = \frac{1}{6}e^{6x} + C $$
 $$\int e^{ 45x } \, dx = \frac{1}{45}e^{ 45x }+C $$
 $$\int_{0}^{6} e^{ 2x } \, dx = \left[ \frac{1}{2}e^{ 2x } \right]_{0}^{6} = \frac{1}{2}e^{ 2 \times 6 } - \frac{1}{2}e^{ 2 \times 0 } = \frac{1}{2}e^{ 12 }-\frac{1}{2} $$
-$$$$
 
+#### Propriétés de $\ln$
 $$\ln(5)+ \ln(2) = \ln(5 \times 2) = \ln(10)$$
 $$-\ln(2) = \ln\left( \frac{1}{2} \right)$$
 $$5\ln(2) = \ln(2^{5})$$
+$$\boxed{\ln(1) = 0}$$
+
+#### Propriétés de $e$
+$$(e^{ 2 })^{3} = e^{ 2 \times 3 } = e^{ 6 } \text{ de même : } (e^{ 10 })^{5} = e^{ 10 \times 5 } = e^{ 50 }$$
+$$e^{ 2 }e^{ 3 } = e^{ 2+3 }= e^{ 5 } \text{ de même : } e^{ 5 }e^{ 10 } = e^{ 5+10 }= e^{ 15 } $$
+$$e^{ -2 } = \frac{1}{e^{ 2 }} \text{ de même } e^{ -78 } = \frac{1}{e^{ 78 }}$$
+$$\boxed{e^{ 0 } = 1} \text{ La plus importante}$$
+
+#### $e$ et $\ln$
+$$\boxed{e^{ \ln(x) } = x} \text{ et } \boxed{\ln(e^{ x }) = x} \text{ et } \boxed{\ln(e) = 1}$$
+#### Ex
