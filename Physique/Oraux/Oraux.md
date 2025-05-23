@@ -34,6 +34,7 @@ $$\frac{d\vec{L}}{dt} = J\vec{\omega}= -\alpha \vec{\omega} -\frac{BEl^{2}}{2R}\
 ## Exercice 3
 #### 1.
 $$\vec{B} = B \vec{e}_{z}$$
-On prend une surface carrée : de coté $l$ : $d\vec{S} = ldl \vec{e}_{z} +$
-Alors, 
-$$\phi = \iint \vec{B}. d\vec{S} = B \iint $$
+On fait un PFD : 
+$$\vec{E}_{H} = - \vec{v} \wedge \vec{B} = vB\vec{e}_{y}$$
+Alors, comme : 
+$$$$
