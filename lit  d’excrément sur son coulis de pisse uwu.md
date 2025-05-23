@@ -58,4 +58,15 @@ $$2 \times \int x^{4} \, dx - 3 \times \int x^{2} \, dx = 2 \times \left( \frac{
 Or : 
 $$2 \times \left( \frac{1}{5}x^{5} + C \right) - 3 \times \left( \frac{1}{3}x^{3} +K \right) = \frac{2}{5}x^{5} + 2C - x^{3} - 3K$$
 Ainsi, 
-$$\boxed{\int (x^{2}+x^{3}) \, dx }$$
+$$\boxed{\int (x^{2}+x^{3}) \, dx =  \frac{2}{5}x^{5} + 2C - x^{3} - 3K }$$
+___
+$$\int (-70x^{69}+x^{41}) \, dx = (- 70) \times \int x^{69} \, dx + \int x^{41} \, dx   $$
+Or, 
+$$(- 70) \times \int x^{69} \, dx + \int x^{41} \, dx  = -70 \times \left( \frac{1}{70}x^{70} + C \right) + \left( \frac{1}{42}x^{42} + K \right) = -x^{70} $$
+
+$$\int e^{ x } \, dx = e^{ x } + C$$
+
+$$\int \frac{1}{x} \, dx = \ln(\left| x\right|) + C =  
+$$
+$$\int_{2}^{4} \frac{1}{x} \, dx = [\ln(\left| x\right|)]_{2}^{4} = \ln(\left| \right|) $$
+
