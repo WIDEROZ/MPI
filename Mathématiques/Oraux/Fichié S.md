@@ -92,7 +92,15 @@ Si $M$ n'est pas symétrique :
 
 $$\sin(x) = e^{ -x }$$
 $$f(x) = e^{ -x }- \sin(x)$$
-$$2n\pi, 2n\pi + \frac{\pi}{2}$$
+$$e^{ -x } + \cos(x) > 0$$
+alors, $f'$ est négative donc $e^{ -x }-\sin(x)$ décroit et alors
+par le théorème des valeurs intermé
 
-$$e^{ -x } + \cos(x)$$
-$$e^{ -x_{n} } - \sin(x_{n}) $$
+
+$$|x_{n}| \leq 2n\pi + \frac{\pi}{2}$$
+
+
+
+
+
+$$e^{ -x_{n} } - \sin(x_{n}) =$$
