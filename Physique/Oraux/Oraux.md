@@ -30,3 +30,5 @@ Moment de la force de frottement fluide :
 $$\overrightarrow{\mathcal{M}}_{F} = -\alpha \vec{\omega}$$
 TMC : 
 $$\frac{d\vec{L}}{dt} = J\vec{\omega}= -\alpha \vec{\omega} -\frac{BEl^{2}}{2R}\vec{e}_{z}$$
+
+$$P = \vec{F}.\vec{v} = $$
