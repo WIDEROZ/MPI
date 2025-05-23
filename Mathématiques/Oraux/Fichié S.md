@@ -91,3 +91,4 @@ Si $M$ n'est pas symétrique :
 
 
 #### 80.
+$$8 \times k \equiv n [43]$$
