@@ -1,4 +1,4 @@
-## Primitive de polynômes
+## Primitive de la fonction puissance ($\int \frac{1}{x} \,dx$ exclus)
 #### Exercice 1.1
 $$\int \, dx$$
 $$\int x^{1} \, dx $$
@@ -15,13 +15,28 @@ $$\int x^{69} \, dx = \frac{1}{70} x^{70} + C $$
 #### Propriété de la fonction puissance
 $$x^{ 2 }x^{ 3 } = x^{ 2+3 }= x^{ 5 } \text{ de même : } x^{ 5 }x^{ 10 } = x^{ 5+10 }= x^{ 15 } $$
 $$(x^{ 2 })^{3} = x^{ 2 \times 3 } = x^{ 6 } \text{ de même : } (x^{ 10 })^{5} = x^{ 10 \times 5 } = x^{ 50 }$$
-$$x^{ -2 } = \frac{1}{x^{ 2 }} \text{ de même } x^{ -78 } = \frac{1}{x^{ 78 }}$$
-$$x^{2} = \frac{1}{x^{-2}} \text{ et } x^{78} = \frac{1}{x^{-78}}$$
+$$\boxed{x^{ -2 } = \frac{1}{x^{ 2 }} \text{ de même } x^{ -78 } = \frac{1}{x^{ 78 }}}$$
+$$x^{2} = \frac{1}{x^{-2}} \text{ de même } x^{78} = \frac{1}{x^{-78}}$$
+
+#### Fonction racine carrée
+$$\boxed{\sqrt{x} = x^{\frac{1}{2}}}$$
 
 
-#### Exercice 1.2
+#### Exercice 1.2 (IMPORTANT)
+$$\int \frac{1}{x^{2}} \, dx $$
+$$\int \frac{1}{x^{3}} \, dx $$
+$$\int \frac{1}{x^{45}} \, dx $$
+$$\int \frac{1}{x^{-3}} \, dx $$
+$$\int \sqrt{x} \, dx $$
 
+#### Correction
+Toujours se ramener à une intégrale avec le $x$ en haut de la fraction : 
 
+$$\int \frac{1}{x^{2}} \, dx = \int x^{-2} \, dx = \frac{1}{-2+1} x^{-2+1} + C = \frac{1}{-1} x^{-1}+C = - \frac{1}{x} + C$$
+Ainsi, 
+$$\boxed{\int \frac{1}{x^{2}} \, dx  = -\frac{1}{x} + C}$$
+___
+$$\int \frac{1}{x^{3}} \, dx $$
 
 #### Exercice 2.0
 $$\int 6 x^{5} \, dx $$
