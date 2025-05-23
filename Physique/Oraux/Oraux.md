@@ -31,3 +31,9 @@ $$\overrightarrow{\mathcal{M}}_{F} = -\alpha \vec{\omega}$$
 TMC : 
 $$\frac{d\vec{L}}{dt} = J\vec{\omega}= -\alpha \vec{\omega} -\frac{BEl^{2}}{2R}\vec{e}_{z}$$
 
+## Exercice 3
+#### 1.
+$$\vec{B} = B \vec{e}_{z}$$
+On prend une surface carrée : de coté $l$ : $d\vec{S} = ldl \vec{e}_{z} +$
+Alors, 
+$$\phi = \iint \vec{B}. d\vec{S} = B \iint $$
