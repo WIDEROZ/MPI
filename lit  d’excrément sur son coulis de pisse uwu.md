@@ -1,5 +1,5 @@
 ## Primitive de polynômes
-#### Exercice 1
+#### Exercice 1.1
 $$\int \, dx$$
 $$\int x^{1} \, dx $$
 $$\int  x^{41} \, dx  $$
@@ -12,7 +12,17 @@ $$\int x^{2} \, dx = \frac{1}{3}x^{3} + C $$
 $$\int x^{41} \, dx = \frac{1}{42}x^{42} $$
 $$\int x^{69} \, dx = \frac{1}{70} x^{70} + C $$
 
-## Linéarité de l'intégrale
+#### Propriété de la fonction puissance
+$$x^{ 2 }x^{ 3 } = x^{ 2+3 }= x^{ 5 } \text{ de même : } x^{ 5 }x^{ 10 } = x^{ 5+10 }= x^{ 15 } $$
+$$(x^{ 2 })^{3} = x^{ 2 \times 3 } = x^{ 6 } \text{ de même : } (x^{ 10 })^{5} = x^{ 10 \times 5 } = x^{ 50 }$$
+$$x^{ -2 } = \frac{1}{x^{ 2 }} \text{ de même } x^{ -78 } = \frac{1}{x^{ 78 }}$$
+$$x^{2} = \frac{1}{x^{-2}} \text{ et } x^{78} = \frac{1}{x^{-78}}$$
+
+
+#### Exercice 1.2
+
+
+
 #### Exercice 2.0
 $$\int 6 x^{5} \, dx $$
 $$\int (-4) x^{7} \, dx $$
@@ -84,12 +94,6 @@ $$\begin{cases}
 \left| -615\right| = 615
 \end{cases}$$
 
-#### Exemples
-$$\int_{2}^{4} \frac{1}{x} \, dx = [\ln(\left| x\right|)]_{2}^{4} = \ln(\left| 4\right|) - \ln(\left| 2\right|) = \ln(4)-\ln(2) = \ln\left( \frac{4}{2} \right) = \ln(2) $$
-$$\int e^{ 6x } \, dx = \frac{1}{6}e^{6x} + C $$
-$$\int e^{ 45x } \, dx = \frac{1}{45}e^{ 45x }+C $$
-$$\int_{0}^{6} e^{ 2x } \, dx = \left[ \frac{1}{2}e^{ 2x } \right]_{0}^{6} = \frac{1}{2}e^{ 2 \times 6 } - \frac{1}{2}e^{ 2 \times 0 } = \frac{1}{2}e^{ 12 }-\frac{1}{2} $$
-
 #### Propriétés de $\ln$
 $$\ln(5)+ \ln(2) = \ln(5 \times 2) = \ln(10)$$
 $$-\ln(2) = \ln\left( \frac{1}{2} \right)$$
@@ -104,4 +108,18 @@ $$\boxed{e^{ 0 } = 1} \text{ La plus importante}$$
 
 #### $e$ et $\ln$
 $$\boxed{e^{ \ln(x) } = x} \text{ et } \boxed{\ln(e^{ x }) = x} \text{ et } \boxed{\ln(e) = 1}$$
-#### Ex
+###### Exemples
+$$\begin{cases}
+e^{ \ln(3) } = 3 \\
+\ln(e^{ 3 }) = 3 \\
+\ln(e^{ -4 }) = -4 
+\end{cases}$$
+$$\boxed{\text{Attention !!!!! : } \ln(0), \ln(-4), \ln(-1), \ln(-\dots) \text{ n'existent pas}}$$
+(Le $\ln$ d'un chiffre négatif n'existe pas)
+
+#### Exemples
+$$\int_{2}^{4} \frac{1}{x} \, dx = [\ln(\left| x\right|)]_{2}^{4} = \ln(\left| 4\right|) - \ln(\left| 2\right|) = \ln(4)-\ln(2) = \ln\left( \frac{4}{2} \right) = \ln(2) $$
+$$\int e^{ 6x } \, dx = \frac{1}{6}e^{6x} + C $$
+$$\int e^{ 45x } \, dx = \frac{1}{45}e^{ 45x }+C $$
+$$\int_{0}^{6} e^{ 2x } \, dx = \left[ \frac{1}{2}e^{ 2x } \right]_{0}^{6} = \frac{1}{2}e^{ 2 \times 6 } - \frac{1}{2}e^{ 2 \times 0 } = \frac{1}{2}e^{ 12 }-\frac{1}{2} $$
+
