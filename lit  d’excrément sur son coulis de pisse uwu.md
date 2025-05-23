@@ -22,7 +22,7 @@ $$x^{2} = \frac{1}{x^{-2}} \text{ de même } x^{78} = \frac{1}{x^{-78}}$$
 $$\boxed{\sqrt{x} = x^{\frac{1}{2}}}$$
 
 
-#### Exercice 1.2 (IMPORTANT)
+#### Exercice 1.2 (IMPORTANT / NOUVEAUX)
 $$\int \frac{1}{x^{2}} \, dx $$
 $$\int \frac{1}{x^{3}} \, dx $$
 $$\int \frac{1}{x^{45}} \, dx $$
@@ -40,9 +40,21 @@ $$\int \frac{1}{x^{3}} \, dx = \int x^{-3} \, dx = \frac{1}{-3+1} x^{-3+1} +C = 
 Ainsi, 
 $$\boxed{\int \frac{1}{x^{3}} \, dx  = -\frac{1}{2} \times \frac{1}{x^{2}} + C}$$
 ___
-$$\int \frac{1}{x^{45}} \, dx = \int x^{-45} \, dx = \frac{1}{-45+1}x^{-45+1} + C = \frac{1}{-44} $$
-
-
+$$\int \frac{1}{x^{45}} \, dx = \int x^{-45} \, dx = \frac{1}{-45+1}x^{-45+1} + C = \frac{1}{-44} x^{-44}+C $$
+Or : 
+$$ \frac{1}{-44} x^{-44}+C = -\frac{1}{44} \times \frac{1}{x^{44}} + C$$
+Ainsi, 
+$$\boxed{\int \frac{1}{x^{45}} \, dx = -\frac{1}{44} \times \frac{1}{x^{44}} + C }$$
+___
+$$\boxed{\int \frac{1}{x^{-3}} \, dx = \int x^{3} \, dx = \frac{1}{4}x^{4} + C }$$
+____
+$$\int \sqrt{x} \, dx = \int x^{\frac{1}{2}} \, dx = \frac{1}{\frac{1}{2}+1}x^{\frac{1}{2}+1} + C $$
+Or : 
+$$1+\frac{1}{2} = \frac{2}{2}+ \frac{1}{2} = \frac{2+1}{2} = \frac{3}{2}$$
+Alors, 
+$${\int \sqrt{x} \, dx = \frac{1}{\frac{3}{2}} x^{\frac{3}{2}} + C  }$$
+Ainsi, 
+$$\boxed{\int \sqrt{x} \, dx  = \frac{2}{3} x^{\frac{3}{2}} + C}$$
 
 
 #### Exercice 2.0
@@ -144,4 +156,5 @@ $$\int_{2}^{4} \frac{1}{x} \, dx = [\ln(\left| x\right|)]_{2}^{4} = \ln(\left| 4
 $$\int e^{ 6x } \, dx = \frac{1}{6}e^{6x} + C $$
 $$\int e^{ 45x } \, dx = \frac{1}{45}e^{ 45x }+C $$
 $$\int_{0}^{6} e^{ 2x } \, dx = \left[ \frac{1}{2}e^{ 2x } \right]_{0}^{6} = \frac{1}{2}e^{ 2 \times 6 } - \frac{1}{2}e^{ 2 \times 0 } = \frac{1}{2}e^{ 12 }-\frac{1}{2} $$
+
 
