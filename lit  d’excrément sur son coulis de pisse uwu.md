@@ -46,7 +46,16 @@ $$\int (-70x^{69}+x^{41}) \, dx $$
 
 
 #### Correction
-$$\int (x^{2} + x^{3}) \, dx = \int x^{2} \, dx + \int x^{3} \, dx = \frac{1}{3}x^{
-3
-}+C_{1} + \frac{1}{4}x^{4} + C_{2} $$
-$$= \frac{1}{3}x^{3}+ \frac{1}{4}x^{4} +C_{1} + C_{2} $$
+$$\int (x^{2} + x^{3}) \, dx = \int x^{2} \, dx + \int x^{3} \, dx = \left( \frac{1}{3}x^{3}+C \right) + \left( \frac{1}{4}x^{4} + K \right) $$
+Alors, 
+$$\left( \frac{1}{3}x^{3}+C \right) + \left( \frac{1}{4}x^{4} + K \right)= \frac{1}{3}x^{3}+ \frac{1}{4}x^{4} +C + K $$
+Ainsi, 
+$$\boxed{\int (x^{2}+x^{3}) \, dx = \frac{1}{3}x^{3}+ \frac{1}{4}x^{4} +C + K }$$
+___
+$$\int (2x^{4} - 3x^{2}) \, dx  = 2 \times \int x^{4} \, dx - 3 \times \int x^{2} \, dx $$
+Or : 
+$$2 \times \int x^{4} \, dx - 3 \times \int x^{2} \, dx = 2 \times \left( \frac{1}{5}x^{5} + C \right) - 3 \times \left( \frac{1}{3}x^{3} +K \right)  $$
+Or : 
+$$2 \times \left( \frac{1}{5}x^{5} + C \right) - 3 \times \left( \frac{1}{3}x^{3} +K \right) = \frac{2}{5}x^{5} + 2C - x^{3} - 3K$$
+Ainsi, 
+$$\boxed{\int (x^{2}+x^{3}) \, dx }$$
