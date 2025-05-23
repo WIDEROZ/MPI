@@ -36,5 +36,6 @@ $$\frac{d\vec{L}}{dt} = J\vec{\omega}= -\alpha \vec{\omega} -\frac{BEl^{2}}{2R}\
 $$\vec{B} = B \vec{e}_{z}$$
 On fait un PFD : 
 $$\vec{E}_{H} = - \vec{v} \wedge \vec{B} = vB\vec{e}_{y}$$
-Alors, comme : 
-$$$$
+Alors, comme : $\vec{E}_{H} = - \overrightarrow{grad}(U_{H})$ : 
+$$\vec{U}_{H} = -\int \vec{E}_{H}.d\vec{l} = -l \vec{E}_{H} $$
+Or : $\vec{v} = \frac{\vec{j}}{\rho} = \frac I{S \rho}=\frac{I}{SQ}V=\frac{I}{SCU_{H}}V$
