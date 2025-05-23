@@ -157,9 +157,16 @@ $$\int e^{ 6x } \, dx = \frac{1}{6}e^{6x} + C $$
 $$\int e^{ 45x } \, dx = \frac{1}{45}e^{ 45x }+C $$
 $$\int_{0}^{6} e^{ 2x } \, dx = \left[ \frac{1}{2}e^{ 2x } \right]_{0}^{6} = \frac{1}{2}e^{ 2 \times 6 } - \frac{1}{2}e^{ 2 \times 0 } = \frac{1}{2}e^{ 12 }-\frac{1}{2} $$
 
-#### Exercice
-$$\int_{-16}^{16} \frac{-2}{x} \, dx = -2 \int_{-16}^{16} \frac{1}{x} \, dx = -2[\ln(\left| x\right|)]_{-16}^{16}=-2(\ln(\left| 16\right|) - \ln(\left| -16\right|))$$
+#### Exercice (NOUVEAU)
+$$\int_{-16}^{-4} \frac{-2}{x} \, dx $$
+
 #### Correction
+
+$$\int_{-16}^{-4} \frac{-2}{x} \, dx = -2 \int_{-16}^{-4} \frac{1}{x} \, dx = -2[\ln(\left| x\right|)]_{-16}^{-4}=-2(\ln(\left| -4\right|) - \ln(\left| -16\right|)) $$
+Alors comme : 
+$$-2(\ln(\left| -4\right|) - \ln(\left| -16\right|)) = -2(\ln(4)-\ln(16)) = -2\left( \ln\left( \frac{4}{16} \right) \right) = -2\ln\left( \frac{1}{4} \right)=2\ln(4)$$
+Ainsi, 
+$$\boxed{\int_{-16}^{-4} \frac{-2}{x} \, dx = 2\ln(4) }$$
 
 
 ## Intégrales (Nouveau)
@@ -181,6 +188,10 @@ Donc comme :
 $$\frac{1}{2} \times \left[ 2 \sqrt{x} \right]_{0}^{16} = \frac{1}{2}(2 \sqrt{16} - 2 \sqrt{0}) = \frac{1}{2}(2\sqrt{16}) = \sqrt{16} = 4 $$
 Ainsi, 
 $$\boxed{\int_{0}^{16} \frac{1}{2\sqrt{x}} \, dx= 4 }$$
+
+
+# OUBLI IMPORTANT (NOUVEAU) : 
+$$\boxed{\int_{0}^{1} f(x) \, dx = - \int_{1}^{0} f(x) \, dx \text{ de même : }\int_{-45}^{12} f(x) \, dx = - \int_{12}^{-45} f(x) \, dx }$$
 
 
 # Force a toi pour les equations différentielles chef
