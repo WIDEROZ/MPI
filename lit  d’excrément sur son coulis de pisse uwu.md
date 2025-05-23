@@ -30,13 +30,20 @@ $$\int \frac{1}{x^{-3}} \, dx $$
 $$\int \sqrt{x} \, dx $$
 
 #### Correction
-Toujours se ramener à une intégrale avec le $x$ en haut de la fraction : 
-
+<u>Toujours se ramener à une intégrale avec le x surtout pas en bas de la fraction :</u>
+C'est à dire passer de : $\int \frac{1}{x^{2}} \, dx$ à $\int x^{-2} \, dx$ : 
 $$\int \frac{1}{x^{2}} \, dx = \int x^{-2} \, dx = \frac{1}{-2+1} x^{-2+1} + C = \frac{1}{-1} x^{-1}+C = - \frac{1}{x} + C$$
 Ainsi, 
 $$\boxed{\int \frac{1}{x^{2}} \, dx  = -\frac{1}{x} + C}$$
 ___
-$$\int \frac{1}{x^{3}} \, dx $$
+$$\int \frac{1}{x^{3}} \, dx = \int x^{-3} \, dx = \frac{1}{-3+1} x^{-3+1} +C = \frac{1}{-2} x^{-2} + C = -\frac{1}{2}\times \frac{1}{x^{2}} + C $$
+Ainsi, 
+$$\boxed{\int \frac{1}{x^{3}} \, dx  = -\frac{1}{2} \times \frac{1}{x^{2}} + C}$$
+___
+$$\int \frac{1}{x^{45}} \, dx = \int x^{-45} \, dx = \frac{1}{-45+1}x^{-45+1} + C = \frac{1}{-44} $$
+
+
+
 
 #### Exercice 2.0
 $$\int 6 x^{5} \, dx $$
