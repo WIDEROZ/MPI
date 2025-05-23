@@ -67,11 +67,7 @@ Comme $X \in \mathcal{L}^{2}(\Omega)$ et $\left| Z\right| \leq X$, $Z \in \mathc
 
 
 ## 25.
-#### a.
-Soit $P$ un poly annul de $M$
-Soit $\lambda \in Sp(M)$, Alors, comme $\chi_{M}$ est annulateur scindé car on est dans $\mathbb{C}$ : 
-$$\mu_{M} = \prod_{\lambda \in Sp(M)} (X-\lambda)^{m_{\lambda}}$$
-Alors, comme $\mu_{M} | P$, c'est fini
+
 
 #### b.
 Si $M$ est symétrique :
@@ -86,3 +82,7 @@ Soit $X \in \mathrm{Ker}(M)$
 $$0 = MX = X- M^{2}X \text{ alors } M^{2}X = X = 0$$
 Ainsi $\mathrm{Ker}(M) = \{ 0 \}$ donc $\det(M) \neq 0$ car $M$ est injective donc bijective car on est en dimension finie $n=n$
 
+$$\mathrm{Tr}(M) \neq 0 \text{ car les valeurs propres sont exposés ds le poly min}$$
+
+#### c.
+Si $M$ n'est pas symétrique : 
