@@ -151,10 +151,26 @@ e^{ \ln(3) } = 3 \\
 $$\boxed{\text{Attention !!!!! : } \ln(0), \ln(-4), \ln(-1), \ln(-\dots) \text{ n'existent pas}}$$
 (Le $\ln$ d'un chiffre négatif n'existe pas)
 
-#### Exemples
+#### Exemples (Ceux qu'on a vu dans la voiture)
 $$\int_{2}^{4} \frac{1}{x} \, dx = [\ln(\left| x\right|)]_{2}^{4} = \ln(\left| 4\right|) - \ln(\left| 2\right|) = \ln(4)-\ln(2) = \ln\left( \frac{4}{2} \right) = \ln(2) $$
 $$\int e^{ 6x } \, dx = \frac{1}{6}e^{6x} + C $$
 $$\int e^{ 45x } \, dx = \frac{1}{45}e^{ 45x }+C $$
 $$\int_{0}^{6} e^{ 2x } \, dx = \left[ \frac{1}{2}e^{ 2x } \right]_{0}^{6} = \frac{1}{2}e^{ 2 \times 6 } - \frac{1}{2}e^{ 2 \times 0 } = \frac{1}{2}e^{ 12 }-\frac{1}{2} $$
 
 
+## Intégrales (Nouveau)
+#### Exercice
+$$\int_{0}^{16} \frac{1}{2\sqrt{x}} \, dx $$
+#### Corrigé
+Soit tu voit direct que la fonction dans l'intégrale c'est la dérivée de $\sqrt{x}$ et alors : 
+$$\int_{0}^{16} \frac{1}{2\sqrt{x}} \, dx = [\sqrt{x}]_{0}^{16} = \sqrt{16} - \sqrt{0} = 4$$
+
+Soit t'appliques la méthode que je t'ai donné : 
+$$\int_{0}^{16} \frac{1}{2\sqrt{x}} \, dx = \frac{1}{2}\int_{0}^{16} \frac{1}{\sqrt{x}} \, dx = \frac{1}{2} \int_{0}^{16} \frac{1}{x^{\frac{1}{2}}} \, dx = \frac{1}{2} \int_{0}^{16} x^{- \frac{1}{2}} \, dx   $$
+Or : 
+$$\int_{0}^{16} \frac{1}{2\sqrt{x}} \, dx = \frac{1}{2} \times \left[ \frac{1}{-\frac{1}{2}+1}x^{-\frac{1}{2}+1} \right]_{0}^{16}  $$
+Mais : $-\frac{1}{2}+1 = 1-\frac{1}{2} = \frac{2}{2}-\frac{1}{2} = \frac{2-1}{2} = \frac{1}{2}$ 
+Alors, 
+$$ \frac{1}{2} \times \left[ \frac{1}{-\frac{1}{2}+1}x^{-\frac{1}{2}+1} \right]_{0}^{16}  = \frac{1}{2} \times \left[ \frac{1}{\frac{1}{2}} x^{\frac{1}{2}} \right]_{0}^{16}= \frac{1}{2} \times \left[ 2 x^{\frac{1}{2}} \right]_{0}^{16} = $$
+Donc, 
+$$$$
