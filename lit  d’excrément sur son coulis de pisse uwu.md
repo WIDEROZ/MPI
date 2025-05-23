@@ -62,11 +62,22 @@ $$\boxed{\int (x^{2}+x^{3}) \, dx =  \frac{2}{5}x^{5} + 2C - x^{3} - 3K }$$
 ___
 $$\int (-70x^{69}+x^{41}) \, dx = (- 70) \times \int x^{69} \, dx + \int x^{41} \, dx   $$
 Or, 
-$$(- 70) \times \int x^{69} \, dx + \int x^{41} \, dx  = -70 \times \left( \frac{1}{70}x^{70} + C \right) + \left( \frac{1}{42}x^{42} + K \right) = -x^{70} $$
+$$(- 70) \times \int x^{69} \, dx + \int x^{41} \, dx  = -70 \times \left( \frac{1}{70}x^{70} + C \right) + \left( \frac{1}{42}x^{42} + K \right)$$
+et  comme on a : 
+$$70 \times \left( \frac{1}{70}x^{70} + C \right) + \left( \frac{1}{42}x^{42} + K \right)=-x^{70} + \frac{1}{42} x^{42} - 70 C +K$$
+Ainsi, 
+$$\boxed{\int (-70x^{69}+x^{41}) \, dx = -x^{70} + \frac{1}{42} x^{42} - 70 C +K}$$
+## Intégrale Exponentielle / Logarithme
+$$\boxed{\int e^{ x } \, dx = e^{ x } + C}$$
 
-$$\int e^{ x } \, dx = e^{ x } + C$$
-
-$$\int \frac{1}{x} \, dx = \ln(\left| x\right|) + C =  
+$$\boxed{\int \frac{1}{x} \, dx = \ln(\left| x\right|) + C}
 $$
-$$\int_{2}^{4} \frac{1}{x} \, dx = [\ln(\left| x\right|)]_{2}^{4} = \ln(\left| \right|) $$
+$$\int_{2}^{4} \frac{1}{x} \, dx = [\ln(\left| x\right|)]_{2}^{4} = \ln(\left| 4\right|) - \ln(\left| 2\right|) = \ln(4)-\ln(2) = \ln\left( \frac{4}{2} \right) = \ln(2) $$
+$$\int e^{ 6x } \, dx = \frac{1}{6}e^{6x} + C $$
+$$\int e^{ 45x } \, dx = \frac{1}{45}e^{ 45x }+C $$
+$$\int_{0}^{6} e^{ 2x } \, dx = \left[ \frac{1}{2}e^{ 2x } \right]_{0}^{6} = \frac{1}{2}e^{ 2 \times 6 } - \frac{1}{2}e^{ 2 \times 0 } = \frac{1}{2}e^{ 12 }-\frac{1}{2} $$
+$$$$
 
+$$\ln(5)+ \ln(2) = \ln(5 \times 2) = \ln(10)$$
+$$-\ln(2) = \ln\left( \frac{1}{2} \right)$$
+$$5\ln(2) = \ln(2^{5})$$
