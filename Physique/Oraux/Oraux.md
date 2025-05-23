@@ -44,3 +44,6 @@ Alors,
 $$\vec{E}_{H} = \frac{IB}{q}r \vec{e}_{y}$$
 $$\vec{U}_{H} = -\frac{lIB}{q}r\vec{e}_{y}$$
 
+## Exercice 4
+#### 1.
+$$int\frac{\rho}{\varepsilon_{0}}$$
