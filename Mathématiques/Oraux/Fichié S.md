@@ -70,11 +70,19 @@ Comme $X \in \mathcal{L}^{2}(\Omega)$ et $\left| Z\right| \leq X$, $Z \in \mathc
 #### a.
 Soit $P$ un poly annul de $M$
 Soit $\lambda \in Sp(M)$, Alors, comme $\chi_{M}$ est annulateur scindé car on est dans $\mathbb{C}$ : 
-$$\mu_{M} = \prod_{\lambda \in Sp(M)} (X-\lambda)$$
+$$\mu_{M} = \prod_{\lambda \in Sp(M)} (X-\lambda)^{m_{\lambda}}$$
 Alors, comme $\mu_{M} | P$, c'est fini
 
 #### b.
 Si $M$ est symétrique :
 $$M^{2}+M-I_{n} = 0$$
 Alors : 
-$$\mu_{u} = X^{2}+X-1$$
+$$X^{2}+X-1 = \left( X-\frac{-1 + \sqrt{5}}{2} \right) \left( X+\frac{1 + \sqrt{5}}{2} \right)  $$
+Alors, si $M$ est colinéaire a $I_{n}$ elle est DZ
+Sinon : 
+$$\mu_{u} = \left( X-\frac{-1 + \sqrt{5}}{2} \right) \left( X+\frac{1 + \sqrt{5}}{2} \right)$$
+Donc $\mu_{u}$ est scindé a racines simple donc $M$ est DZ
+Soit $X \in \mathrm{Ker}(M)$
+$$0 = MX = X- M^{2}X \text{ alors } M^{2}X = X = 0$$
+Ainsi $\mathrm{Ker}(M) = \{ 0 \}$ donc $\det(M) \neq 0$ car $M$ est injective donc bijective car on est en dimension finie $n=n$
+
