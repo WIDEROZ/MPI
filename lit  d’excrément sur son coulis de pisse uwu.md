@@ -24,11 +24,29 @@ $$\int x^{69} \, dx = \frac{1}{70} x^{70} + C $$
 
 #### Exercice 2 
 $$\int 6 x^{5} \, dx $$
-
 $$\int (-4) x^{7} \, dx $$
+$$\int (-x) \, dx $$
 
 #### Correction 
 $$\int 6 x^{5} \, dx = 6 \times \int x^{5} \, dx  = 6\times \left( \frac{1}{6} \times x^{6} + C \right) = 6 \times \frac{1}{6} x^{6} + 6C$$
 Alors, 
 $$6 \times \frac{1}{6} x^{6} + 6C = x^{6} + 6C$$
-Ais
+Ainsi, 
+$$\boxed{\int 6 x^{5} \, dx = x^{6} + 6C}$$
+___
+$$\int (-4) x^{7} \, dx = (-4)\times \int x^{7} \, dx  = (-4) \times \left( \frac{1}{8}x^{8} + C \right) $$
+Alors,
+$$(-4) \times \left( \frac{1}{8}x^{8} + C \right) = \frac{-4}{8} x^{8} + (-4)C = \frac{-2}{4}x^{8} -4C $$
+Donc, 
+$$\frac{-2}{4}x^{8} -4C = \frac{-1}{2}x^{8} - 4C $$
+Ainsi, 
+$$\boxed{\int (-4) x^{7} \, dx = \frac{-1}{2}x^{8} - 4C }$$
+___
+$$\int (-x) \, dx = (-1)\times \int x \, dx = (-1)\times\left( \frac{1}{2}x^{2} + C \right) $$
+Alors, 
+$$(-1)\times\left( \frac{1}{2}x^{2} + C \right) = (-1) \times \frac{1}{2} x^{2} + (-1) \times C =  -\frac{1}{2}x^{2} -C$$
+Ainsi, 
+$$\boxed{\int (-x) \, dx  =  -\frac{1}{2}x^{2} -C}$$
+
+#### Exercice 3
+$$$$
