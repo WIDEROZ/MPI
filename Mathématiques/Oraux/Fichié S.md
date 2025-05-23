@@ -66,4 +66,5 @@ $$\left| Z\right| \leq \left| X\right| = X \text{ car }\forall \omega \in \Omega
 Comme $X \in \mathcal{L}^{2}(\Omega)$ et $\left| Z\right| \leq X$, $Z \in \mathcal{L}^{2}(\Omega)$
 
 ##### b.
-
+$$\left| \sin(t) - t\right|\leq K t^{3}$$
+$$$$
