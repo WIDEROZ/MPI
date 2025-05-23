@@ -41,7 +41,9 @@ $$\vec{U}_{H} = -\int \vec{E}_{H}.d\vec{y} = -l \vec{E}_{H} $$
 Or :
 $$\vec{v} = \frac{\vec{j}}{\rho} = \frac I{S \rho}=\frac{I}{Sq}V=\frac{I}{q}r$$
 Alors, 
-$$\vec{E}_{H} = \frac{IBL}{Q} \vec{e}_{y}$$
-$$\vec{U}_{H} = -\frac{lIB}{Q}r\vec{e}_{y}$$
+$$\vec{E}_{H} = \frac{IB}{q}r \vec{e}_{y}$$
+$$\vec{U}_{H} = -\frac{lIB}{q}r\vec{e}_{y}$$
 
 
+
+$$I = \iint \vec{j}.d\vec{S}$$
