@@ -65,6 +65,16 @@ $$f'(x) = -xf(x) = -e^{ -xt }sh(t)$$
 $$\left| Z\right| \leq \left| X\right| = X \text{ car }\forall \omega \in \Omega, Y^{-1}(\omega), X^{-1}(\omega) \subset \mathbb{N}^{*}$$
 Comme $X \in \mathcal{L}^{2}(\Omega)$ et $\left| Z\right| \leq X$, $Z \in \mathcal{L}^{2}(\Omega)$
 
-##### b.
-$$\left| \sin(t) - t\right|\leq K t^{3}$$
-$$$$
+
+## 25.
+#### a.
+Soit $P$ un poly annul de $M$
+Soit $\lambda \in Sp(M)$, Alors, comme $\chi_{M}$ est annulateur scindé car on est dans $\mathbb{C}$ : 
+$$\mu_{M} = \prod_{\lambda \in Sp(M)} (X-\lambda)$$
+Alors, comme $\mu_{M} | P$, c'est fini
+
+#### b.
+Si $M$ est symétrique :
+$$M^{2}+M-I_{n} = 0$$
+Alors : 
+$$\mu_{u} = X^{2}+X-1$$
