@@ -158,7 +158,7 @@ $$\int e^{ 45x } \, dx = \frac{1}{45}e^{ 45x }+C $$
 $$\int_{0}^{6} e^{ 2x } \, dx = \left[ \frac{1}{2}e^{ 2x } \right]_{0}^{6} = \frac{1}{2}e^{ 2 \times 6 } - \frac{1}{2}e^{ 2 \times 0 } = \frac{1}{2}e^{ 12 }-\frac{1}{2} $$
 
 #### Exercice
-$$\int_{4}^{16} \frac{-2}{x} \, dx = -2 \int_{4}^{16} \frac{1}{x} \, dx = -2[]$$
+$$\int_{-16}^{16} \frac{-2}{x} \, dx = -2 \int_{-16}^{16} \frac{1}{x} \, dx = -2[\ln(\left| x\right|)]_{-16}^{16}=-2(\ln(\left| 16\right|) - \ln(\left| -16\right|))$$
 #### Correction
 
 
