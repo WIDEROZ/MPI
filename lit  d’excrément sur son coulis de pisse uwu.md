@@ -192,6 +192,6 @@ $$\boxed{\int_{0}^{16} \frac{1}{2\sqrt{x}} \, dx= 4 }$$
 
 # OUBLI IMPORTANT (NOUVEAU) : 
 $$\boxed{\int_{0}^{1} f(x) \, dx = - \int_{1}^{0} f(x) \, dx \text{ de même : }\int_{-45}^{12} f(x) \, dx = - \int_{12}^{-45} f(x) \, dx }$$
-
-
+Relation de Chasles (se dit relation de chale) : 
+$$\boxed{\int_{0}^{1} f(x) \, dx + \int_{1}^{2} f(x) \, dx = \int_{0}^{2} f(x) \, dx \text{ de même : } \int_{-45}^{12}f(x) \, dx + \int_{12}^{144} f(x) \, dx = \int_{-45}^{144}f(x) \, dx  }$$
 # Force a toi pour les equations différentielles chef
