@@ -1,8 +1,7 @@
 - $300$ gen. pour qu'un glider passe du début à la fin
 - $-1$ de délai
-Soit $n, d \in \mathbb{N}$ tels que :
-- $d$ est le nombre de générations  de décalage entre 
-$$300 + 8n \equiv d [43]$$
-$$ 7x = -275 \equiv 26 [43]$$
-$$7x \equiv 26 [43] \Leftarrow x = 16 $$
-$$300 \equiv -1 [43]$$
+Soit $d \in \mathbb{N}$ tel que :
+- $d$ est le nombre de générations  de décalage entre le faisceau de glider initial et le faisceau de glider voulu
+- on cherche si il existe $n \in \mathbb{N}$ tel que : 
+  $$8n \equiv d-1 [43] \Leftrightarrow 300 + 8n \equiv d [43]$$
+
