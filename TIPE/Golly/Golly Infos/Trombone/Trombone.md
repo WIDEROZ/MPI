@@ -5,3 +5,4 @@ Soit $d \in \mathbb{N}$ tel que :
 - on cherche si il existe $n \in \mathbb{N}$ tel que : 
   $$8n \equiv d-1 [43] \Leftrightarrow 300 + 8n \equiv d [43]$$
 
+$$8n \equiv 21 [43]$$
