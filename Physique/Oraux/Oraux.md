@@ -57,4 +57,11 @@ $$\vec{E} = E_{0} e^{ i\left( \omega t-\frac{z}{\lambda} \right) }\vec{e}_{x} \t
 $$\left< \vec{\Pi}.\overrightarrow{S} \right> = 5.0 \text{ kW} $$
 $$\vec{\Pi} = \frac{\vec{E} \wedge \vec{B}}{\mu_{0}} = \frac{E_{0}^{2}}{\mu_{0} c} \vec{e}_{z} $$
 Ainsi, 
-$$\left< \vec{\Pi}.\overrightarrow{S} \right> = 5.0 \text{ kW} = \frac{E_{0}^{2}}{m} s$$
+$$\left< \vec{\Pi}.\overrightarrow{S} \right> = 5.0 \text{ kW} = \frac{E_{0}^{2}}{\mu_{0} c} s \, kW$$
+
+#### 2.
+##### a.
+Lefferts Joules
+
+##### b.
+$$$$
