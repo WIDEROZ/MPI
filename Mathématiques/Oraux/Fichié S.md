@@ -16,10 +16,17 @@ $$\mathrm{rg}(f \circ g) = \mathrm{rg}(g \circ f) \leq \mathrm{rg}(g)$$
 $\mathrm{Ker}(g) \subset \mathrm{Ker}(f \circ g)$ alors $n-\mathrm{rg}(g) \leq n-\mathrm{rg}(f \circ g)$
 Ainsi, 
 $$\mathrm{rg}(f \circ g) \leq \mathrm{rg}(g)$$
+Supposons par l'absurde que $\mathrm{rg}(f \circ g) = \mathrm{rg}(g)$ alors,
+Soit $y \in \mathrm{Im}(g)$ alors il existe $(x, x') \in E^{2}$ tel que : 
+$$y = f(g(x)) = g(x')$$
+alors, $f(g(x)) = g(x')$ donc, $f^{k-1}(g(x')) = 0$
+$g(f^{k-1}(x))=0$
+
 
 ###### b.
-$$\mathrm{rg}\left( \prod_{i = 1}^{n} A_{i} \right) < \mathrm{rg}$$
 
+$$n\leq\mathrm{rg}\left( \prod_{i = 1}^{n} A_{i} \right) < \mathrm{rg}\left( \prod_{i = 1}^{n-1}A_{i} \right) < \dots < \mathrm{rg}(A_{1})=1$$
+Ainsi, $A_{i}= 0$ et donc leur produit est nul
 
 
 
