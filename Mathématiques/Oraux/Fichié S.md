@@ -112,3 +112,7 @@ Ainsi $\mathrm{Ker}(M) = \{ 0 \}$ donc $\det(M) \neq 0$ car $M$ est injective do
 #### c.
 Si $M$ n'est pas symétrique : 
 
+
+$$\left( \sum_{n = 0}^{+ \infty}\frac{u_{n}}{n!} x^{n}  \right)\left( \sum_{n = 0}^{+ \infty} \frac{u_{n}}{n!} x^{n} \right) = \sum_{n = 0}^{+ \infty} \sum_{k = 0}^{n} \frac{u_{n-k}u_{n}}{k!(n-k)!} x^{k+n-k} $$
+mybadinho
+$$= \sum_{n = 0}^{ + \infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} u_{n-k}u_{k}x^{n}$$
