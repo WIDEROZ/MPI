@@ -51,3 +51,9 @@ $$\iint \vec{E}.d\vec{S} = \frac{n_{e}e}{\varepsilon_{0}}$$
 
 ## Exercice 5
 #### 1.
+##### a.
+$$\vec{E} = E_{0} e^{ i(\omega t-kz) }\vec{e}_{x} \text{ et } \vec{B} = \frac{E_{0}}{c} e^{ i(\omega t - kz) }\vec{e}_{y}$$
+
+$$\left< \vec{\Pi}.\overrightarrow{V} \right> = 5.0 \text{ kW} $$
+Alors, 
+$$
