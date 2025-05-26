@@ -9,6 +9,15 @@ $X$ est nilpotent d'indice : $2n$ (ou $2n-1$) alors, $X^{2n} = 0$ et $X^{2n-1} \
 Si $n = 2p$ : $0 = X^{n}=X^{2p} = A^{p} \neq 0$ car $p<n$ absurde
 Si $n = 2p+1$ alors, 
 
+#### 13.
+###### a.
+$$\mathrm{Im}(g) \subset E$$
+$$\mathrm{rg}(f \circ g) = \mathrm{rg}(g \circ f) \leq \mathrm{rg}(g)$$
+Soit $x \in \mathrm{Ker}(g) \subset \mathrm{Ker}(f \circ g) =$
+
+
+
+
 #### 38.
 ##### a.
 $$\alpha_{n} = \frac{e^{ \alpha_{n} }}{n} \sim \frac{e^{ l }}{n} \underset{n \to +\infty}{\longrightarrow} 0$$
@@ -87,8 +96,3 @@ Ainsi $\mathrm{Ker}(M) = \{ 0 \}$ donc $\det(M) \neq 0$ car $M$ est injective do
 #### c.
 Si $M$ n'est pas symétrique : 
 
-
-
-
-#### 80.
-$$8 \times k \equiv n [43]$$
