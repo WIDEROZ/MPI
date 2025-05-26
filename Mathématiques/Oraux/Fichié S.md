@@ -13,7 +13,12 @@ Si $n = 2p+1$ alors,
 ###### a.
 $$\mathrm{Im}(g) \subset E$$
 $$\mathrm{rg}(f \circ g) = \mathrm{rg}(g \circ f) \leq \mathrm{rg}(g)$$
-Soit $x \in \mathrm{Ker}(g) \subset \mathrm{Ker}(f \circ g) =$
+$\mathrm{Ker}(g) \subset \mathrm{Ker}(f \circ g)$ alors $n-\mathrm{rg}(g) \leq n-\mathrm{rg}(f \circ g)$
+Ainsi, 
+$$\mathrm{rg}(f \circ g) \leq \mathrm{rg}(g)$$
+
+###### b.
+$$\mathrm{rg}\left( \prod_{i = 1}^{n} A_{i} \right) < \mathrm{rg}$$
 
 
 
