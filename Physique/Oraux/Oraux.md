@@ -62,11 +62,10 @@ $$\left< \vec{\Pi}.\overrightarrow{S} \right> = 5.0 \text{ kW} = \frac{E_{0}^{2}
 #### 2.
 ##### a.
 Lefferts Joules
+$W$
 
 ##### b.
 $$l_{fus} = c_{p}\Delta T$$
-$$\Delta t = 8$$
 
 
 ##### c.
-$$$$
