@@ -49,3 +49,5 @@ $$\vec{U}_{H} = -\frac{lIB}{q}r\vec{e}_{y}$$
 
 $$\iint \vec{E}.d\vec{S} = \frac{n_{e}e}{\varepsilon_{0}}$$
 
+## Exercice 5
+#### 1.
