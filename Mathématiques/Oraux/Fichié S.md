@@ -18,6 +18,20 @@ $$\det(I_{n}-N^{\top}) = \det(I_{n}- T')$$
 $$N^{\top} = (PTP^{-1})^{\top}= (P^{\top})^{-1} T^{\top} P^{\top} $$
 et alors comme $I_{n}-T$ est triangulaire : $\det(I_{n}-t) = \det(I_{n}-T^{\top})$ ainsi, $Sp(N) = Sp(N^{\top})$
 
+##### b.
+Il existe $i, j \in [\![1, n]\!]$ tels que : $u_{i} \neq 0 \neq v_{j}$
+alors, 
+$$\begin{pmatrix}
+u_{1} \\
+\vdots \\
+u_{n}
+\end{pmatrix}\begin{pmatrix}
+v_{1}&\dots&v_{n}
+\end{pmatrix} [i, j] = \sum_{k = 1}^{n} u_{i}v_{j} = n u_{i}v_{j} \neq 0$$
+
+#### d.
+
+
 
 
 #### 38.
