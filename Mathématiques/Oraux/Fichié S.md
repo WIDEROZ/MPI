@@ -26,7 +26,7 @@ $$ho \space matelot$$
 
 
 ###### b.
-$$n -1\leq\mathrm{rg}\left( \prod_{i = 1}^{n} A_{i} \right) < \mathrm{rg}\left( \prod_{i = 1}^{n-1}A_{i} \right) < \dots < \mathrm{rg}(A_{1})=0$$
+$$n-1\geq\mathrm{rg}\left( \prod_{i = 1}^{n} A_{i} \right)  > \mathrm{rg}\left( \prod_{i = 1}^{n-1}A_{i} \right) > \dots > \mathrm{rg}(A_{1})=0$$
 Ainsi, $A_{1}= 0$ et donc leur produit est nul.
 $$\det\left( \prod_{i = 1}^{n} A_{i} \right) = \prod_{i = 1}^{n} \det(A_{i}) = 0$$
 Car $\det(A_{i})^{d} = \det(A_{i}^{d}) = 0$
