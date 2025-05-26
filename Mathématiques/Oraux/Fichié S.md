@@ -9,27 +9,16 @@ $X$ est nilpotent d'indice : $2n$ (ou $2n-1$) alors, $X^{2n} = 0$ et $X^{2n-1} \
 Si $n = 2p$ : $0 = X^{n}=X^{2p} = A^{p} \neq 0$ car $p<n$ absurde
 Si $n = 2p+1$ alors, 
 
-#### 13.
-###### a.
-$$\mathrm{Im}(g) \subset E$$
-$$\mathrm{rg}(f \circ g) = \mathrm{rg}(g \circ f) \leq \mathrm{rg}(g)$$
-$\mathrm{Ker}(g) \subset \mathrm{Ker}(f \circ g)$ alors $n-\mathrm{rg}(g) \leq n-\mathrm{rg}(f \circ g)$
-Ainsi, 
-$$\mathrm{rg}(f \circ g) \leq \mathrm{rg}(g)$$
-Supposons par l'absurde que $\mathrm{rg}(f \circ g) = \mathrm{rg}(g)$ alors,
-Soit $y \in \mathrm{Im}(g)$ alors il existe $(x, x') \in E^{2}$ tel que : 
-$$y = f(g(x)) = g(x')$$
-alors, $f(g(x)) = g(x')$ donc, $f^{k-1}(g(x')) = 0$
-$g(f^{k-1}(x))=0$
-
-$$ho \space matelot$$
+#### 26.
+##### a.
+Comme $N \in \mathcal{M}_{n}(\mathbb{C})$ $N$ est TZ alors $N \sim T$
+$$\det(I_{n}-N) = \det(P(I_{n}-T)P^{-1})= \det(I_{n}-T)$$
+de même :
+$$\det(I_{n}-N^{\top}) = \det(I_{n}- T')$$
+$$N^{\top} = (PTP^{-1})^{\top}= (P^{\top})^{-1} T^{\top} P^{\top} $$
+et alors comme $I_{n}-T$ est triangulaire : $\det(I_{n}-t) = \det(I_{n}-T^{\top})$ ainsi, $Sp(N) = Sp(N^{\top})$
 
 
-###### b.
-$$n-1\geq\mathrm{rg}\left( \prod_{i = 1}^{n} A_{i} \right)  > \mathrm{rg}\left( \prod_{i = 1}^{n-1}A_{i} \right) > \dots > \mathrm{rg}(A_{1})=0$$
-Ainsi, $A_{1}= 0$ et donc leur produit est nul.
-$$\det\left( \prod_{i = 1}^{n} A_{i} \right) = \prod_{i = 1}^{n} \det(A_{i}) = 0$$
-Car $\det(A_{i})^{d} = \det(A_{i}^{d}) = 0$
 
 #### 38.
 ##### a.
