@@ -55,13 +55,18 @@ $$\iint \vec{E}.d\vec{S} = \frac{n_{e}e}{\varepsilon_{0}}$$
 $$\vec{E} = E_{0} e^{ i\left( \omega t-\frac{z}{\lambda} \right) }\vec{e}_{x} \text{ et } \vec{B} = \frac{E_{0}}{c} e^{ i(\omega t - \frac{z}{\lambda}) }\vec{e}_{y}$$
 
 $$\left< \vec{\Pi}.\overrightarrow{S} \right> = 5.0 \text{ kW} $$
-$$\vec{\Pi} = \frac{\vec{E} \wedge \vec{B}}{\mu_{0}} = \frac{E_{0}^{2}}{\mu_{0} c} \vec{e}_{z} $$
+$$\vec{\Pi} = \frac{\vec{E} \wedge \vec{B}}{\mu_{0}} $$
 Ainsi, 
-$$\left< \vec{\Pi}.\overrightarrow{S} \right> = 5.0 \text{ kW} = \frac{E_{0}^{2}}{\mu_{0} c} s$$
+$$\left< \vec{\Pi}.\overrightarrow{S} \right> = 5.0 \text{ kW} = \frac{E_{0}^{2}}{2\mu_{0} c} s$$
 
 #### 2.
 ##### a.
 Lefferts Joules
 
 ##### b.
-$$l_{fus} = c_{p}\Delta T = $$
+$$l_{fus} = c_{p}\Delta T$$
+$$\Delta t = 8$$
+
+
+##### c.
+$$$$
