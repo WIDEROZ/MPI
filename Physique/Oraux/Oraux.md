@@ -72,4 +72,5 @@ $$l_{fus} = c_{p}\Delta T$$
 
 ## Exercice 7
 On fait un pont diviseur de tension : 
-$$j\lambda \omega + R$$
+$$\frac{dZd}{j\lambda \omega dx + Rdx + Zdx} dU(x, t) = dU(x+dx, t)$$
+$$\frac{1}{dZ} = j \omega \Gamma + \frac{1}{} $$
