@@ -72,9 +72,14 @@ $$l_{fus} = c_{p}\Delta T$$
 
 ## Exercice 7
 On fait un pont diviseur de tension : 
-$$\frac{dZdx}{j\lambda \omega dx + Rdx + Zdx} dU(x, t) = dU(x+dx, t)$$
-$$\frac{1}{dZ} = j \omega \Gamma + g $$
+$$\frac{Zdx}{j\lambda \omega dx + Rdx + Zdx} dU(x, t) = dU(x+dx, t)$$
+$$\frac{1}{Z} = j \omega \Gamma + g $$
 $$\frac{1}{(j \omega \Gamma +g)(j\lambda \omega+R+1) } \times U(x, t) = U(x+dx, t)$$
 Alors, 
 $$\left( \frac{1}{(j \omega \Gamma +g)(j\lambda \omega+R+1) } -1 \right) \times U(x, t) = dU(x, t)$$
-$$= \frac{1}{-\omega^{2} \Gamma \lambda + j \omega(\Gamma (R+1) + \lambda g)}$$
+$$= \left( \frac{1}{[(R+1)g-\omega^{2} \Gamma \lambda] + j \omega(\Gamma (R+1) + \lambda g)} -1 \right)U(x, t)$$
+Alors, 
+$$\left( \frac{1}{[(R+1)g-\omega^{2} \Gamma \lambda]dx + j \omega(\Gamma (R+1) + \lambda g)dx} -\frac{1}{dx} \right) U(x, t) = \frac{dU(x, t)}{dx}$$
+
+$$U(x, t) = u_{L} + u_{R} + u_{C} = \lambda\frac{di}{dt} + Ri(x, t) + u_{C} $$
+Ou $u_{C} = $
