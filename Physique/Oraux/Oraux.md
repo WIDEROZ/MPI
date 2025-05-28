@@ -81,4 +81,3 @@ $$= \left( \frac{1}{[(R+1)g-\omega^{2} \Gamma \lambda] + j \omega(\Gamma (R+1) +
 Alors, 
 $$\left( \frac{1}{[(R+1)g-\omega^{2} \Gamma \lambda]dx + j \omega(\Gamma (R+1) + \lambda g)dx} -\frac{1}{dx} \right) U(x, t) = \frac{dU(x, t)}{dx}$$
 
-d
