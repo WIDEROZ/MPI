@@ -71,17 +71,3 @@ $$l_{fus} = c_{p}\Delta T$$
 ##### c.
 
 ## Exercice 7
-On fait un pont diviseur de tension : 
-$$\frac{Zdx}{j\lambda \omega dx + Rdx + Zdx} dU(x, t) = dU(x+dx, t)$$
-$$\frac{1}{Z} = j \omega \Gamma + g $$
-$$\frac{1}{(j \omega \Gamma +g)(j\lambda \omega+R+1) } \times U(x, t) = U(x+dx, t)$$
-Alors, 
-$$\left( \frac{1}{(j \omega \Gamma +g)(j\lambda \omega+R+1) } -1 \right) \times U(x, t) = dU(x, t)$$
-$$= \left( \frac{1}{[(R+1)g-\omega^{2} \Gamma \lambda] + j \omega(\Gamma (R+1) + \lambda g)} -1 \right)U(x, t)$$
-Alors, 
-$$\left( \frac{1}{[(R+1)g-\omega^{2} \Gamma \lambda]dx + j \omega(\Gamma (R+1) + \lambda g)dx} -\frac{1}{dx} \right) U(x, t) = \frac{dU(x, t)}{dx}$$
-
-$$U(x, t) = u_{L} + u_{R} + u_{C} = \lambda\frac{di}{dt} + Ri(x, t) +u_{C} $$
-$u_{C} = -u_{G}$ 
-$$dU(x, t) = \frac{\lambda d^{2}i}{dt} + Rdx \frac{di}{dx} + \frac{du_{c}}{dx}dx = \lambda  \frac{d^{2}i}{dt} + Rdi + \frac{1}{C}i(x, t)dt$$
-$$$$
