@@ -69,3 +69,7 @@ $$l_{fus} = c_{p}\Delta T$$
 
 
 ##### c.
+
+## Exercice 7
+On fait un pont diviseur de tension : 
+$$j\lambda \omega + R$$
