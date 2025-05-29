@@ -15,3 +15,6 @@ $$n \times m =\begin{array}{c}
  (b_{3}2^{1} + b_{4}2^{0})(b_{7}2^{1} + b_{8}2^{0}) &\text{Zéro 0}
 \end{array}$$
 
+
+
+$$$$
