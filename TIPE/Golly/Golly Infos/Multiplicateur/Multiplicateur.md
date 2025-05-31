@@ -15,6 +15,9 @@ $$n \times m =\begin{array}{c}
  (b_{3}2^{1} + b_{4}2^{0})(b_{7}2^{1} + b_{8}2^{0}) &\text{Zéro 0}
 \end{array}$$
 
-$$e = \sum_{n = 0}^{+ \infty} A_{i}\sin(nf_{0}t)$$
-$$s = \sum_{n= 0}^{+ \infty}G(A_{i})\sin(nf_{0}t)$$
-$$G(A_{i}) = i$$
+$$e = \sum_{n = 0}^{+ \infty} A_{n}\sin(nf_{0}t)$$
+$$s = \sum_{n= 0}^{+ \infty}G(A_{n})\sin(nf_{0}t)$$
+
+
+#### Passe bas : 
+$$G(A_{n}) = f_{0}e^{ \varepsilon \sqrt{n} }$$
