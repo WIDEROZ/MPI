@@ -20,4 +20,9 @@ $$s = \sum_{n= 0}^{+ \infty}G(A_{n})\sin(nf_{0}t)$$
 
 
 #### Passe bas : 
-$$G(A_{n}) = f_{0}e^{ \varepsilon \sqrt{n} }$$
+$f_{0} = 100$ $\text{Hz}$
+$$\boxed{G(A_{n}) = f_{0}e^{ -\sqrt{n+5} }}$$
+
+#### Passe haut :
+$f_{0} = 100$ $\text{Hz}$
+$$$$
