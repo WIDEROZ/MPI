@@ -25,4 +25,5 @@ $$\boxed{G(A_{n}) = f_{0}e^{ -\sqrt{n+5} }}$$
 
 #### Passe haut :
 $f_{0} = 100$ $\text{Hz}$
+$$\boxed{G(A_{n}) =  }$$
 $$$$
