@@ -92,7 +92,7 @@ $$V_{1} = Sh = 0.1 \, m^{3}$$
 Or : 
 $$P_{1}V_{1} = nRT_{1} = \frac{P_{0}V_{1}}{T_{0}}T_{1}$$
 Alors, 
-$$P_{0}S -mg -P_{1}S = 0 \Leftrightarrow P_{1} = P_{0} + \frac{mg}{S}$$
+$$P_{0}S -mg -P_{1}S = 0 \Leftrightarrow P_{1} = P_{0} + \frac{M_{0}g}{S}$$
 $$T_{1}$$
 
 #### 2.
