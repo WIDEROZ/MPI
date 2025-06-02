@@ -118,25 +118,5 @@ mybadinho
 $$= \sum_{n = 0}^{ + \infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} u_{n-k}u_{k}x^{n}$$
 
 
-#### 28.
-$$\mathrm{Ker}(R) = Vect(\begin{pmatrix}
-1 \\
-1 \\
-1
-\end{pmatrix}, \begin{pmatrix}
-1 \\
--1 \\
-1
-\end{pmatrix})$$
-$$\mathrm{Im}(R) = Vect\begin{pmatrix}
-1 \\
-0 \\
-0
-\end{pmatrix}$$
-$$R = \begin{pmatrix}
-\frac{1}{\sqrt{2}}&0&-\frac{1}{\sqrt{2}}  \\
-0&& \\
-\frac{1}{\sqrt{2}}&0& -\frac{1}{\sqrt{2}}
-\end{pmatrix}$$
-
-
+#### 46.
+$$$$
