@@ -133,7 +133,10 @@ $$\mathrm{Im}(R) = Vect\begin{pmatrix}
 0 \\
 1
 \end{pmatrix}$$
-
-$$\begin{pmatrix}
-1&1&
+$$R = \begin{pmatrix}
+\frac{1}{\sqrt{2}}&0&-\frac{1}{\sqrt{2}}  \\
+0&0&0 \\
+\frac{1}{\sqrt{2}}&0& -\frac{1}{\sqrt{2}}
 \end{pmatrix}$$
+
+
