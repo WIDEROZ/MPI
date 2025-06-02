@@ -131,11 +131,11 @@ $$\mathrm{Ker}(R) = Vect(\begin{pmatrix}
 $$\mathrm{Im}(R) = Vect\begin{pmatrix}
 1 \\
 0 \\
-1
+0
 \end{pmatrix}$$
 $$R = \begin{pmatrix}
 \frac{1}{\sqrt{2}}&0&-\frac{1}{\sqrt{2}}  \\
-0&0&0 \\
+0&& \\
 \frac{1}{\sqrt{2}}&0& -\frac{1}{\sqrt{2}}
 \end{pmatrix}$$
 
