@@ -119,4 +119,6 @@ $$= \sum_{n = 0}^{ + \infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} u_{n-k}u
 
 
 #### 46.
+Alors, 
+$$g''(x) + g(x) + \frac{1}{e^{ -x }-1} = 0 $$
 $$$$
