@@ -81,7 +81,9 @@ $$= \left( \frac{1}{[(R+1)g-\omega^{2} \Gamma \lambda] + j \omega(\Gamma (R+1) +
 Alors, 
 $$\left( \frac{1}{[(R+1)g-\omega^{2} \Gamma \lambda]dx + j \omega(\Gamma (R+1) + \lambda g)dx} -\frac{1}{dx} \right) U(x, t) = \frac{dU(x, t)}{dx}$$
 
-#### 9.
+#### Exercice 9
 $$E_{c} = \hbar \omega $$
-$$E_{c} = \hbar\frac{p}{m\lambda}$$
-$$p = mc$$
+$$p = \frac{h \times 2\pi}{\lambda} $$
+
+
+#### Exercice 10
