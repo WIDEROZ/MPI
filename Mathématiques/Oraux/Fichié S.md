@@ -118,7 +118,10 @@ mybadinho
 $$= \sum_{n = 0}^{ + \infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} u_{n-k}u_{k}x^{n}$$
 
 
-#### 46.
+#### 34.
+$$MM^{\top} = I_{n} \text{ et } M^{\top} = M $$
 Alors, 
-$$g''(x) + g(x) + \frac{1}{e^{ -x }-1} = 0 $$
-$$$$
+$$M^{2} = I_{n}$$
+Avec $Sp(M) \subset \mathbb{R}_{+}$, 
+$$(X+1)(X-1)$$
+
