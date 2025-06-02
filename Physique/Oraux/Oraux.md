@@ -112,4 +112,17 @@ Donc,
 $$\Delta U = \frac{nR}{\gamma-1} (T_{2}-T_{1})$$
 $$W = - \int P_{0} \, dV = P_{0}S(h_{1}-h_{2})$$
 Donc, 
-$$$$
+$$\begin{cases}
+\frac{nR}{\gamma-1}(T_{2}-T_{1}) = P_{0}S(h_{1}-h_{2}) \\
+P_{2}V_{2} = nRT_{2}
+\end{cases} $$
+Ainsi, 
+$$\begin{cases}
+P_{0}Sh_{2} +\frac{nR}{\gamma-1}T_{2} = \frac{nR}{\gamma-1}+P_{0}Sh_{1} \\
+h_{2} = \frac{nRT_{2}}{P_{2}S}
+\end{cases}$$
+$$\left( \frac{P_{0}}{P_{2}}nR + \frac{nR}{\gamma-1} \right)T_{2} = \frac{nR}{\gamma-1}+P_{0}Sh_{1}$$
+Donc, 
+$$\boxed{T_{2} = \frac{1+\frac{P_{0}Sh_{1}T_{1}}{P_{1}V_{1}}(\gamma-1)}{\frac{P_{0}}{P_{2}}(\gamma-1) + 1} }$$
+Ainsi : 
+$$\boxed{h_{2} = \frac{P_{1}Sh_{1}}{P_{2}S T_{1}}\frac{1+\frac{P_{0}Sh_{1}T_{1}}{P_{1}V_{1}}(\gamma-1)}{\frac{P_{0}}{P_{2}}(\gamma-1) + 1} }$$
