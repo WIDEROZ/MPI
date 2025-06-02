@@ -116,3 +116,24 @@ Si $M$ n'est pas symétrique :
 $$\left( \sum_{n = 0}^{+ \infty}\frac{u_{n}}{n!} x^{n}  \right)\left( \sum_{n = 0}^{+ \infty} \frac{u_{n}}{n!} x^{n} \right) = \sum_{n = 0}^{+ \infty} \sum_{k = 0}^{n} \frac{u_{n-k}u_{n}}{k!(n-k)!} x^{k+n-k} $$
 mybadinho
 $$= \sum_{n = 0}^{ + \infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} u_{n-k}u_{k}x^{n}$$
+
+
+#### 28.
+$$\mathrm{Ker}(R) = Vect(\begin{pmatrix}
+1 \\
+1 \\
+1
+\end{pmatrix}, \begin{pmatrix}
+1 \\
+-1 \\
+1
+\end{pmatrix})$$
+$$\mathrm{Im}(R) = Vect\begin{pmatrix}
+1 \\
+0 \\
+1
+\end{pmatrix}$$
+
+$$\begin{pmatrix}
+1&1&
+\end{pmatrix}$$
