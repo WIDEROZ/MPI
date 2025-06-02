@@ -119,9 +119,4 @@ $$= \sum_{n = 0}^{ + \infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} u_{n-k}u
 
 
 #### 34.
-$$MM^{\top} = I_{n} \text{ et } M^{\top} = M $$
-Alors, 
-$$M^{2} = I_{n}$$
-Avec $Sp(M) \subset \mathbb{R}_{+}$, 
-$$(X+1)(X-1)$$
 
