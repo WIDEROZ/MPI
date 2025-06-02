@@ -98,4 +98,18 @@ $$T_{1}$$
 ##### a.
 $$0 = P_{2}S - mg - P_{0}S$$
 Alors, 
-$$P_{2} = P_{0}S + m$$
+$$P_{2} = P_{0} + \frac{mg}{S}$$
+
+##### b.
+Entre $1$ et $2$ : 
+$$\Delta U = W + Q $$
+Alors, 
+$$-\int  P_{ext} \, dV = \Delta U  = C_{v} \Delta T $$
+$$C_{p} = \gamma C_{v}$$
+Comme : $C_{p}-C_{v} = nR$
+Alors, $C_{v} = \frac{nR}{\gamma-1}$
+Donc, 
+$$\Delta U = \frac{nR}{\gamma-1} (T_{2}-T_{1})$$
+$$W = - \int P_{0} \, dV = P_{0}S(h_{1}-h_{2})$$
+Donc, 
+$$$$
