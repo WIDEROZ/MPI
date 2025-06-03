@@ -40,6 +40,20 @@ F' = \{ P \in Q' | \exists f \in F, f \in P \} \\
 - $F'$ : L'ensemble des ensembles qui contiennent au moins un élément de $F$ 
 - $\delta'$ : <a href="https://www.youtube.com/watch?v=-2BJJQ_seqM&ab_channel=Infot%C3%A9o">Vidéo</a>
 
+Soit $u = xyz \in L$, alors, il existe $N \in \mathbb{N}$ tel que : $N \leq \left| u\right|$ et : 
+$$\begin{cases}
+xy < N \\
+y > 0 \\
+xy^{*}z \in L
+\end{cases}$$
+Donc, soit $N \in \mathbb{N}$, 
+$$u = a^{N}ba^{N+k}$$
+Donc d'après le lemme de l'étoile : 
+$$x = a^{i} \text{ et } y = a^{j} \text{ et } z = a^{l}ba^{N+k}$$
+Alors, 
+$$xy^{k+1}z = a^{i+j+l+kj}ba^{N+k} \in L$$
+Or $i+kj+l=N+kj>N+k$ ABSURDE
+
 #### Exemple
 ![[Pasted image 20241207235617.png]]
 ![[Pasted image 20241207235635.png]]
