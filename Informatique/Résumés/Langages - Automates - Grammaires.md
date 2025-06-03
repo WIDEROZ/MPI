@@ -20,6 +20,8 @@ $$\begin{cases}
 \forall q \in Q, \forall a \in \Sigma, \text{il existe au plus } q' \in Q, (q, a, q') \in \delta
 \end{cases}$$
 
+$$$$
+
 #### Remarque
 Les automates déterministes sont des automates non déterministes ie
 {automates déterministes}$\subset${automates non déterministes}
