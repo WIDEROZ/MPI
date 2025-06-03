@@ -6,4 +6,4 @@
 Soit $d \in \mathbb{N}$ tel que :
 - $d$ est le nombre de générations  de décalage entre le faisceau de glider initial et le faisceau de glider voulu
 - on cherche si il existe $n \in \mathbb{N}$ tel que : 
-  $$7+8(n-1) \equiv d [43]$$
+  $$7+8(n-1) \equiv -d [43]$$
