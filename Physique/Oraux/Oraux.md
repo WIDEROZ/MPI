@@ -130,6 +130,10 @@ $$\boxed{h_{2} = \frac{P_{1}Sh_{1}}{P_{2}S T_{1}}\frac{1+\frac{P_{0}Sh_{1}T_{1}}
  $$\Delta = \omega_{0}^{2}\left( \frac{1}{Q^{2}}-4 \right) \text{ comme : } Q = \frac{rRC}{(R+r)\sqrt{LC}} = rR$$
 Régime pseudo sinusoïdal car $\Delta <0$
 $$\Omega = \frac{\sqrt{-\Delta}}{2} = 83.79 $$
-$$i_{3}(t) = e^{ -\frac{\omega_{0}}{2Q} }(Ae^{ i\Omega t } + B e^{ -i \Omega t })$$
+$$i_{3}(t) = e^{ -\frac{\omega_{0}}{2Q}t }(Ae^{ i\Omega t } + B e^{ -i \Omega t })$$
 Alors en $0$ : 
 $$0 = A+B$$
+Et en $+ \infty$ : 
+$$i_{3}'(t) = 0$$
+Alors, 
+$$A\Omega_{1}e^{ it }=0$$
