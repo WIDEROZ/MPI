@@ -33,3 +33,13 @@ $C_{1}$ : retenue
 $S$ : Sortie 
 
 ![[Pasted image 20250324171824.png]]
+
+
+#### Espacement
+Entre les faisceaux de gliders (qui diffèrent d'un bit) :
+- $1522$ horizontal 
+- $19$ de délai
+Entre deux faisceaux de gliders (du même bit) : 
+- $40$ horizontal 
+- $0$ de délai
+
