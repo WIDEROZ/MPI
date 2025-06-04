@@ -127,4 +127,5 @@ Donc,
 $$\boxed{T_{2} = \frac{1+\frac{P_{0}Sh_{1}T_{1}}{P_{1}V_{1}}(\gamma-1)}{\frac{P_{0}}{P_{2}}(\gamma-1) + 1} }$$
 Ainsi : 
 $$\boxed{h_{2} = \frac{P_{1}Sh_{1}}{P_{2}S T_{1}}\frac{1+\frac{P_{0}Sh_{1}T_{1}}{P_{1}V_{1}}(\gamma-1)}{\frac{P_{0}}{P_{2}}(\gamma-1) + 1} }$$
- $$\frac{E}{R} = i = i_{1} + i_{2}+i_{3} = i_{1} + C \frac{dU}{dt} + i_{3}$$
+ $$\omega_{0}^{2}\left( \frac{1}{Q^{2}}-4 \right) \text{ comme : } Q = \frac{rRC}{(R+r)\sqrt{LC}}$$
+ 
