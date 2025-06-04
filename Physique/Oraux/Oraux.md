@@ -139,3 +139,4 @@ Alors,
 $$A\Omega_{1}e^{ i\Omega t }=0$$
 
 #### Exercice 12
+$$\Delta p = \delta\left( \frac{1}{\lambda_{2}}-\frac{1}{\lambda_{1}} \right)$$
