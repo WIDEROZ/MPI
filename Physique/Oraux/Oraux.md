@@ -137,3 +137,5 @@ Et en $+ \infty$ :
 $$i_{3}'(t) = 0$$
 Alors, 
 $$A\Omega_{1}e^{ i\Omega t }=0$$
+
+#### Exercice 12
