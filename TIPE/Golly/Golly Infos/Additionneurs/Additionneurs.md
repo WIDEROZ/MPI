@@ -44,7 +44,3 @@ Entre deux faisceaux de gliders (du même bit) :
 - $0$ de délai
 
 1544
-
-
-$$A = \{ M \in \mathcal{M}_{n}(\mathbb{K}) | \mu_{M} = (X-1)(X-2) \}$$
-$$M = PDP^{-1}$$
