@@ -42,5 +42,3 @@ Entre les faisceaux de gliders (qui diffèrent d'un bit) :
 Entre deux faisceaux de gliders (du même bit) : 
 - $40$ horizontal 
 - $0$ de délai
-
-1544
