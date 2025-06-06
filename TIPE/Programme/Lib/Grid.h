@@ -12,3 +12,10 @@ void CASE_CLICK_DISPLAY(Var *var , const int x, const int y);
 void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *camera, int xRel, int yRel);
 
 void CASE_CLICK_CASE(Var *var, const int CASE_X, const int CASE_Y);
+
+void DRAW_RECT_EVOLUTION(Var *var, const int CASE_X, const int CASE_Y, int STATE);
+
+void DRAW_RECT_EVOLUTION_DISPLAY(Var *var, const int CASE_X, const int CASE_Y, int STATE);
+
+void ZOOM(Var *var);
+void DEZOOM(Var *var);

@@ -9,9 +9,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
         /*on a aussi : SDL_WaitEvent(&event) mais ca bloque la fenêtre*/
         switch (event.type) // Le switch c'est comme un match en ocaml mais que pour les int
     {
-        case SDL_MOUSEWHEEL:
-            
-            continue;
+        
         case SDL_KEYDOWN :
             
             switch (event.key.keysym.sym)
@@ -147,7 +145,22 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
     
     }
         
+        switch (event.button.button) //Sert principalement pour la molette
+        {
+        case SDL_BUTTON_WHEELDOWN:
+            DEZOOM(var);
+            continue;
+
+        case SDL_BUTTON_WHEELUP:
+            ZOOM(var);
+            continue;
+
+
+        default:
+            break;
+        }
     }
+
     // Evolution continue
     if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1 && (SDL_GetTicks()- time >= velocity)){     
         evolution(var);

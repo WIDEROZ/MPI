@@ -196,3 +196,16 @@ void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *c
 
 }
 
+
+void ZOOM(Var *var){
+    SDL_Rect dstrect;
+    dstrect.x = x * 10;
+    dstrect.y = y * 10;
+    dstrect.w = width * 10;
+    dstrect.h = height * 10;
+    SDL_RenderCopy(renderer, texture, NULL, &dstrect);
+}
+
+void DEZOOM(Var *var){
+
+}
