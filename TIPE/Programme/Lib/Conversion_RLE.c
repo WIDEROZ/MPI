@@ -15,8 +15,10 @@ matrix *CONVERSION_RLE(char* file_name){
 
     while (caractere != EOS)
     {
-        
+        /* code */
     }
+    
+    
     
 
 
