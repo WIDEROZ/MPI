@@ -48,7 +48,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     case SDLK_z:
                         var->KEY_DOWN_STATUS[SDLK_LCTRL] = 1;
                         if (var->KEY_DOWN_STATUS[SDLK_LCTRL] == 1){
-                            var->XY_CASE
+                            // REMETTRE LA GRILLE AU TABLEAU ENTREGISTRÉ LORS del'activation de ENTER
                         }
                         continue;
 
@@ -86,7 +86,11 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     case SDLK_s:
                         var->KEY_DOWN_STATUS[SDLK_s] = 0;
                         continue;
-
+                    
+                    case SDLK_LCTRL:
+                        var->KEY_DOWN_STATUS[SDLK_LCTRL] = 0;
+                        continue;
+                    
                     
                     default:
                         continue;
@@ -143,7 +147,17 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
     // Évolution continue
     if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1){
         evolution(var);
-        velocity
+        bool ACTION = (event.type == SDL_MOUSEBUTTONUP)
+                    || (event.type == SDL_MOUSEBUTTONDOWN)
+                    || (event.type == SDL_MOUSEMOTION)
+                    || (event.type == SDL_KEYUP)
+                    || (event.type == SDL_KEYDOWN);
+        for(int i = 0; i < velocity; i++){
+            SDL_Delay(1);
+            if(ACTION){
+                
+            }
+        }
     }
     
     
