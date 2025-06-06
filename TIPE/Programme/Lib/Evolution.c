@@ -36,13 +36,16 @@ void evolution(Var *var){
             if (nbreCellAutour == 3)
             {
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
+                // COLORER LA CELLULE
             }
             if (nbreCellAutour == 2)
             {
                 NEW_XY_CASE_MAT.mat[i][j] = cellVal;
+                // COLORER OU NON LA CELLULE
             }
         }
     }
+    *var->XY_CASE_MAT = NEW_XY_CASE_MAT;
 }
 
 
