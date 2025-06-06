@@ -204,14 +204,13 @@ void ZOOM(Var *var){
     int height = var->camera->h;
 
     SDL_Rect *dstrect;
-    dstrect->x = x * 10;
-    dstrect->y = y * 10;
+    dstrect->x = x ;
+    dstrect->y = y ;
     dstrect->w = width * 10;
     dstrect->h = height * 10;
     
+    var->camera = dstrect;
     
-    //SDL_RenderCopy(var->renderer, var->texture, NULL, dstrect);
-    //SDL_RenderPresent(var->renderer);
 }
 
 void DEZOOM(Var *var){

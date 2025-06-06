@@ -11,7 +11,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
     {
         
         case SDL_KEYDOWN :
-            
+
             switch (event.key.keysym.sym)
             {
     
@@ -34,8 +34,9 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 continue;
 
             case SDLK_KP_PLUS:
-                if (var->KEY_DOWN_STATUS[SDLK_LCTRL] == 1)
+                if (var->KEY_DOWN_STATUS[306] == 1) // SDLK_LCTRL = 306 
                 {
+                    printf("ON EST DEDANS");
                     ZOOM(var);
                 }
                 else{
@@ -53,12 +54,12 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 continue;
 
             case SDLK_LCTRL:
-                var->KEY_DOWN_STATUS[SDLK_LCTRL] = 1;
+                var->KEY_DOWN_STATUS[306] = 1; // SDLK_LCTRL = 306 
                 continue;
 
             case SDLK_z:
-                var->KEY_DOWN_STATUS[SDLK_LCTRL] = 1;
-                if (var->KEY_DOWN_STATUS[SDLK_LCTRL] == 1){
+                var->KEY_DOWN_STATUS[306] = 1;
+                if (var->KEY_DOWN_STATUS[306] == 1){
                     // REMETTRE LA GRILLE AU TABLEAU ENTREGISTRÉ LORS del'activation de ENTER
                 }
                 continue;
@@ -99,7 +100,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 continue;
             
             case SDLK_LCTRL:
-                var->KEY_DOWN_STATUS[SDLK_LCTRL] = 0;
+                var->KEY_DOWN_STATUS[306] = 0;
                 continue;
             
             
