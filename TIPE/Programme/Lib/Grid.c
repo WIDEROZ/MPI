@@ -67,7 +67,6 @@ void DRAW_RECT_EVOLUTION(Var *var, const int CASE_X, const int CASE_Y, int STATE
         CASE_Y
         STATE : État de la cellule a la case : (CASE_X, CASE_Y) que l'on veut dessiner
     */
-    printf("LOOOOOOOOOOOOOOOOOOOOOOOOOL");
     if(STATE == 0){
         // On change la couleur du rectangle en noir
         VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(var->renderer, 0, 0, 0, SDL_ALPHA_OPAQUE), "SetRenderDrawColor"); // On peut mettre 255 a la place de SDL opaque
@@ -92,7 +91,17 @@ void DRAW_RECT_EVOLUTION(Var *var, const int CASE_X, const int CASE_Y, int STATE
 
     free(rectangle);
 
+}
+
+void DRAW_RECT_EVOLUTION_DISPLAY(Var *var, const int CASE_X, const int CASE_Y, int STATE){
+    /* Fonction spécifique à l'évolution qui affiche un rectangle dans la case*/
+    // On met en cible du dessin la texture
+    VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, var->texture), "SetRenderTarget");
     
+    DRAW_RECT_EVOLUTION(var, CASE_X, CASE_Y, STATE);
+    
+    // On remet la cible du rendu sur la fenètre en entier
+    VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, NULL), "SetRenderTarget"); 
 
 }
 

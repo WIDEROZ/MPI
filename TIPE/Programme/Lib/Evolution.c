@@ -37,7 +37,7 @@ void evolution(Var *var){
             {
                 if (cellVal != 1){
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
-                DRAW_RECT_EVOLUTION(var, i, j, 1);
+                DRAW_RECT_EVOLUTION_DISPLAY(var, i, j, 1);
                 }
             }
             else if (nbreCellAutour == 2)
@@ -45,7 +45,7 @@ void evolution(Var *var){
                 NEW_XY_CASE_MAT.mat[i][j] = cellVal;
             }
             else if (cellVal == 1){
-                DRAW_RECT_EVOLUTION(var, i, j, 0);
+                DRAW_RECT_EVOLUTION_DISPLAY(var, i, j, 0);
             }
         }
     }
