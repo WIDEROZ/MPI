@@ -35,13 +35,17 @@ void evolution(Var *var){
             int cellVal = var->XY_CASE_MAT-> mat[i][j];
             if (nbreCellAutour == 3)
             {
+                if (cellVal != 1){
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
-                // COLORER LA CELLULE
+                DRAW_RECT_EVOLUTION(var, i, j, 1);
+                }
             }
-            if (nbreCellAutour == 2)
+            else if (nbreCellAutour == 2)
             {
                 NEW_XY_CASE_MAT.mat[i][j] = cellVal;
-                // COLORER OU NON LA CELLULE
+            }
+            else if (cellVal == 1){
+                DRAW_RECT_EVOLUTION(var, i, j, 0);
             }
         }
     }
