@@ -35,8 +35,8 @@ void evolution(Var *var){
             int cellVal = var->XY_CASE_MAT-> mat[i][j];
             if (nbreCellAutour == 3)
             {
-                if (cellVal != 1){
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
+                if (cellVal != 1){
                 DRAW_RECT_EVOLUTION_DISPLAY(var, i, j, 1);
                 }
             }

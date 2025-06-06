@@ -10,11 +10,9 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     switch (event.key.keysym.sym)
                     {
                     
-                    case SDLK_b:
+                    case SDLK_SPACE:
                         var->KEY_DOWN_STATUS[SDLK_b] = 1;
                         evolution(var);
-                        
-                        
                         continue;
 
 
