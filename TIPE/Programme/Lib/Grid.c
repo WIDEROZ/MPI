@@ -202,7 +202,8 @@ void ZOOM(Var *var){
     var->camera->y += 10;
     var->camera->w -= 10;
     var->camera->h -= 10;
-
+    
+}
     
 
 void DEZOOM(Var *var){

@@ -36,7 +36,6 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
             case SDLK_KP_PLUS:
                 if (var->KEY_DOWN_STATUS[306] == 1) // SDLK_LCTRL = 306 
                 {
-                    printf("ON EST DEDANS");
                     ZOOM(var);
                 }
                 else{
