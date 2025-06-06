@@ -12,7 +12,8 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     
                     case SDLK_b:
                         var->KEY_DOWN_STATUS[SDLK_b] = 1;
-                        
+                        int NBRE = nbreCellulesAutour(*var->XY_CASE_MAT, 0, 0);
+                        printf("NOMBRE ICI : %d", NBRE);
                         evolution(var);
                         
                         
