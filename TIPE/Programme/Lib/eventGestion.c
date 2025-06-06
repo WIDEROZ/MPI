@@ -1,5 +1,6 @@
 #include "eventGestion.h"
 
+int time = 0;
 int velocity = 500;
 
 
@@ -29,12 +30,12 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 
                 continue;
 
-            case SDLK_PLUS:
-                velocity += 10;
+            case SDLK_KP_PLUS:
+                velocity -= 50;
                 continue;
             
-            case SDLK_MINUS:
-                velocity -= 10;
+            case SDLK_KP_MINUS:
+                velocity += 50;
                 continue;
 
             case SDLK_c:
@@ -137,23 +138,24 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
             break;
     }
     }
-    
     // Évolution continue
     if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1){
         evolution(var);
         bool ACTION;
-        for(int i = 0; i < velocity; i++){
+        while(time < velocity){
             SDL_Delay(1);
+            time++;
             ACTION = (event.type == SDL_MOUSEBUTTONUP)
                     || (event.type == SDL_MOUSEBUTTONDOWN)
                     || (event.type == SDL_MOUSEMOTION)
                     || (event.type == SDL_KEYUP)
                     || (event.type == SDL_KEYDOWN);
             if (ACTION){
-                
+                break;
             }
         }
     }
+ 
     
     
     return SDL_TRUE;
