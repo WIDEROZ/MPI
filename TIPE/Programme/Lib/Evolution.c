@@ -8,7 +8,7 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
         {
             for (int k = -1; k < 2; k++)
             {
-                if (((0 <= Y+k) && (Y+k < mat.height)) && (k != 0 || l != 0))
+                if (((0 <= Y+k) && (Y+k < mat.height)))
                 {
                     nbre += mat.mat[X+l][Y+k];
                 }
