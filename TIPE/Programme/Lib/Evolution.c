@@ -10,7 +10,9 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
             {
                 if (((0 <= Y+k) && (Y+k < mat.height)))
                 {
-                    nbre += mat.mat[X+l][Y+k];
+                    if(!(l == 0 && k == 0)){
+                        nbre += mat.mat[X+l][Y+k];
+                    }
                 }
             }
         }
@@ -35,15 +37,12 @@ void evolution(Var *var){
             {
                 NEW_XY_CASE_MAT.mat[i][j] = 1;
             }
-            if ((nbreCellAutour == 2) && cellVal)
+            if (nbreCellAutour == 2)
             {
-                NEW_XY_CASE_MAT.mat[i][j] = 1;
+                NEW_XY_CASE_MAT.mat[i][j] = cellVal;
             }
-            
-            
         }
     }
-    
 }
 
 
