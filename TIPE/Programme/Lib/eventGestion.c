@@ -1,5 +1,7 @@
 #include "eventGestion.h"
 
+int velocity = 500;
+
 SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MOUSE_MOVING){
     while (SDL_PollEvent(&event)){ // Elle va lire tout les évènements
         /*on a aussi : SDL_WaitEvent(&event) mais ca bloque la fenêtre*/
@@ -26,63 +28,29 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                         
                         continue;
 
-
+                    case SDLK_PLUS:
+                        velocity += 10;
+                        continue;
+                    
+                    case SDLK_MINUS:
+                        velocity -= 10;
+                        continue;
 
                     case SDLK_c:
                         var->KEY_DOWN_STATUS[SDLK_c] = 1;
                         GRID_DISPLAY_CREATION(var);
                         continue;
 
-                    // ---------- Déplacement de la caméra ----------- //
-                    case SDLK_q:
-                        var->KEY_DOWN_STATUS[SDLK_q] = 1;
-                        
-                        if(var->camera->x - 10 >= 0){
-                            var->camera->x -= 10;
-                        }
-                        else
-                        {
-                            var->camera->x = 0;
-                        }
-                        
-                        continue;
-
-                    case SDLK_d:
-                        var->KEY_DOWN_STATUS[SDLK_d] = 1;
-                        if(var->camera->x + 10 <= TEXTURE_WIDTH - RENDER_WIDTH){
-                            var->camera->x += 10;
-                        }
-                        else
-                        {
-                            var->camera->x = TEXTURE_WIDTH - RENDER_WIDTH;
-                        }
-                        
+                    case SDLK_LCTRL:
+                        var->KEY_DOWN_STATUS[SDLK_LCTRL] = 1;
                         continue;
 
                     case SDLK_z:
-                        var->KEY_DOWN_STATUS[SDLK_z] = 1; 
-                        if(var->camera->y - 10 >= 0){
-                            var->camera->y -= 10;
-                        }
-                        else{
-                            var->camera->y = 0;
+                        var->KEY_DOWN_STATUS[SDLK_LCTRL] = 1;
+                        if (var->KEY_DOWN_STATUS[SDLK_LCTRL] == 1){
+                            var->XY_CASE
                         }
                         continue;
-
-                    case SDLK_s:
-                        
-                        var->KEY_DOWN_STATUS[SDLK_s] = 1;
-                        
-                        if(var->camera->y + 10 <= TEXTURE_HEIGHT - RENDER_HEIGHT){
-                            var->camera->y += 10;
-                        }
-                        else{
-                            var->camera->y = TEXTURE_HEIGHT - RENDER_HEIGHT;
-                        }
-                        
-                        continue;
-
-                    // ------ Fin du déplacement de la caméra ----- //
 
                 
                     default:
@@ -175,6 +143,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
     // Évolution continue
     if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1){
         evolution(var);
+        velocity
     }
     
     
