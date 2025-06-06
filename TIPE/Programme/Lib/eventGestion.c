@@ -1,6 +1,6 @@
 #include "eventGestion.h"
 
-int time = 0;
+int time;
 int velocity = 500;
 
 
@@ -99,6 +99,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
             default:
                 continue;
             }
+        
 
         case SDL_MOUSEMOTION :
             //printf("Coordonée : (%d, %d) \n", event.motion.x, event.motion.y);
@@ -142,15 +143,13 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
         
     
     }
+    
+    }
     // Evolution continue
-    if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1 && (time - SDL_GetTicks() >= velocity)){     
+    if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1 && (SDL_GetTicks()- time >= velocity)){     
         evolution(var);
         time = SDL_GetTicks();
     }
-    
-    
-    }
-    
  
     
     
