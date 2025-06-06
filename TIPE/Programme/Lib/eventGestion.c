@@ -27,7 +27,9 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 else{
                     var->KEY_DOWN_STATUS[SDLK_RETURN] = 0;
                 }
-                
+                // INITIALISATION DU TIMESTAMP
+                time = SDL_GetTicks();
+
                 continue;
 
             case SDLK_KP_PLUS:
@@ -136,15 +138,17 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
 
         default:
             break;
+
+        
+    
     }
-    // Évolution continue
-    if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1){      
-        SDL_Delay(1);
-        time++;
-        if (time == velocity){
-            evolution(var);
-        }
+    // Evolution continue
+    if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1 && (time - SDL_GetTicks() >= velocity)){     
+        evolution(var);
+        time = SDL_GetTicks();
     }
+    
+    
     }
     
  
