@@ -198,10 +198,11 @@ void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *c
 
 
 void ZOOM(Var *var){
-    //var->camera->x -= 10;
-    //var->camera->y -= 10;
+    var->camera->x -= 10;
+    var->camera->y -= 10;
     var->camera->w -= 10;
     var->camera->h -= 10;
+
     //float scale = 1.5;
     //SDL_RenderSetScale(var->renderer, scale, scale);
     
