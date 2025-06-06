@@ -9,17 +9,18 @@ int main(int argc, char const *argv[])
         printf("C'est dla merde");
     }
 
-    int caractere = 0;
-
-    while (caractere != EOF)
+    char *ligne = malloc(100*sizeof(char));
+    ligne = fgets(ligne, 100, file);
+    while (ligne != NULL)
     {
-        caractere = fgetc(file);
-        printf("%c", caractere);
-        
+        if(!(ligne[0] == 'x' || ligne[0] == '#')){
+            printf("%s", ligne);
+            ligne = fgets(ligne, 100, file);
+        }
     }
     
 
-
+    free(ligne);
     fclose(file);
     return 0;
 }
