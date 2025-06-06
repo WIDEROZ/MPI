@@ -198,12 +198,20 @@ void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *c
 
 
 void ZOOM(Var *var){
+    int x = var->camera->x;
+    int y = var->camera->y;
+    int width = var->camera->w;
+    int height = var->camera->h;
+
     SDL_Rect dstrect;
     dstrect.x = x * 10;
     dstrect.y = y * 10;
     dstrect.w = width * 10;
     dstrect.h = height * 10;
-    SDL_RenderCopy(renderer, texture, NULL, &dstrect);
+    
+    
+    VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, NULL, &dstrect), "RENDER COPY ZOOM");
+
 }
 
 void DEZOOM(Var *var){
