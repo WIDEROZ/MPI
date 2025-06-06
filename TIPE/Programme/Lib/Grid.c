@@ -203,16 +203,20 @@ void ZOOM(Var *var){
     int width = var->camera->w;
     int height = var->camera->h;
 
-    SDL_Rect dstrect;
-    dstrect.x = x * 10;
-    dstrect.y = y * 10;
-    dstrect.w = width * 10;
-    dstrect.h = height * 10;
+    SDL_Rect *dstrect;
+    dstrect->x = x * 10;
+    dstrect->y = y * 10;
+    dstrect->w = width * 10;
+    dstrect->h = height * 10;
     
+    
+
+
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, var->texture), "SetRenderTarget ZOOM");
-    VERIF_SDL_COMMAND()
-    SDL_RenderPresent(var->renderer);
-    VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, NULL), "SetRenderTarget ZOOM");
+    //SDL_RenderCopy(var->renderer, var->texture, NULL, dstrect);
+    //SDL_RenderPresent(var->renderer);
+    //VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, NULL), "SetRenderTarget ZOOM");
+    free(dstrect);
 }
 
 void DEZOOM(Var *var){
