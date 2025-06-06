@@ -9,11 +9,14 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
         /*on a aussi : SDL_WaitEvent(&event) mais ca bloque la fenêtre*/
         switch (event.type) // Le switch c'est comme un match en ocaml mais que pour les int
     {
+        case SDL_MOUSEWHEEL:
+            
+            continue;
         case SDL_KEYDOWN :
             
             switch (event.key.keysym.sym)
             {
-            
+    
             case SDLK_SPACE:
                 var->KEY_DOWN_STATUS[SDLK_b] = 1;
                 evolution(var);
@@ -100,7 +103,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 continue;
             }
         
-
+        
         case SDL_MOUSEMOTION :
             //printf("Coordonée : (%d, %d) \n", event.motion.x, event.motion.y);
             //printf("Vitesse : (%d, %d) \n", event.motion.xrel, event.motion.yrel);
@@ -143,7 +146,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
         
     
     }
-    
+        
     }
     // Evolution continue
     if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1 && (SDL_GetTicks()- time >= velocity)){     
