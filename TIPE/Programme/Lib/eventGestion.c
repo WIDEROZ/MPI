@@ -34,7 +34,13 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 continue;
 
             case SDLK_KP_PLUS:
-                velocity -= 50;
+                if (var->KEY_DOWN_STATUS[SDLK_LCTRL] == 1)
+                {
+                    ZOOM(var);
+                }
+                else{
+                    velocity -= 50;
+                }
                 continue;
             
             case SDLK_KP_MINUS:
@@ -130,9 +136,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
             *MOUSE_MOVING = false;
             
             continue;
-
-
-
+        
         case SDL_QUIT :
             return SDL_FALSE;
             break;
@@ -145,20 +149,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
     
     }
         
-        switch (event.button.button) //Sert principalement pour la molette
-        {
-        case SDL_BUTTON_WHEELDOWN:
-            DEZOOM(var);
-            continue;
-
-        case SDL_BUTTON_WHEELUP:
-            ZOOM(var);
-            continue;
-
-
-        default:
-            break;
-        }
+        
     }
 
     // Evolution continue
