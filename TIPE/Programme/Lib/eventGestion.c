@@ -137,24 +137,16 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
         default:
             break;
     }
-    }
     // Évolution continue
-    if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1){
-        evolution(var);
-        bool ACTION;
-        while(time < velocity){
-            SDL_Delay(1);
-            time++;
-            ACTION = (event.type == SDL_MOUSEBUTTONUP)
-                    || (event.type == SDL_MOUSEBUTTONDOWN)
-                    || (event.type == SDL_MOUSEMOTION)
-                    || (event.type == SDL_KEYUP)
-                    || (event.type == SDL_KEYDOWN);
-            if (ACTION){
-                break;
-            }
+    if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1){      
+        SDL_Delay(1);
+        time++;
+        if (time == velocity){
+            evolution(var);
         }
     }
+    }
+    
  
     
     
