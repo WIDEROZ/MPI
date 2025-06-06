@@ -198,20 +198,12 @@ void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *c
 
 
 void ZOOM(Var *var){
-    int x = var->camera->x;
-    int y = var->camera->y;
-    int width = var->camera->w;
-    int height = var->camera->h;
+    var->camera->x += 10;
+    var->camera->y += 10;
+    var->camera->w -= 10;
+    var->camera->h -= 10;
 
-    SDL_Rect *dstrect;
-    dstrect->x = x ;
-    dstrect->y = y ;
-    dstrect->w = width * 10;
-    dstrect->h = height * 10;
     
-    var->camera = dstrect;
-    
-}
 
 void DEZOOM(Var *var){
 
