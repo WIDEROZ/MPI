@@ -21,10 +21,6 @@ int nbreCellulesAutour(matrix mat, int X, int Y){
     return nbre;
 }
 
-void test(Var *var){
-
-}
-
 
 void evolution(Var *var){
     matrix NEW_XY_CASE_MAT = CREATE_MATRIX(var->XY_CASE_MAT->width, var->XY_CASE_MAT->height);
@@ -51,6 +47,4 @@ void evolution(Var *var){
     }
     *var->XY_CASE_MAT = NEW_XY_CASE_MAT;
 }
-
-
 

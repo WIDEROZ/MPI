@@ -14,6 +14,17 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                         var->KEY_DOWN_STATUS[SDLK_b] = 1;
                         evolution(var);
                         continue;
+                    
+                    case SDLK_KP_ENTER:
+                        // Trigger
+                        if (var->KEY_DOWN_STATUS[SDLK_KP_ENTER] == 0){
+                            var->KEY_DOWN_STATUS[SDLK_KP_ENTER] = 1;
+                        }
+                        else{
+                            var->KEY_DOWN_STATUS[SDLK_KP_ENTER] = 0;
+                        }
+                        
+                        continue;
 
 
 
@@ -160,6 +171,12 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     break;
             }
     }
+    
+    // Évolution continue
+    if(var->KEY_DOWN_STATUS[SDLK_KP_ENTER] == 1){
+        evolution(var);
+    }
+    
     
     return SDL_TRUE;
 }
