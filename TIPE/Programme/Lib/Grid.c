@@ -67,7 +67,7 @@ void DRAW_RECT_EVOLUTION(Var *var, const int CASE_X, const int CASE_Y, int STATE
         CASE_Y
         STATE : État de la cellule a la case : (CASE_X, CASE_Y) que l'on veut dessiner
     */
-
+    printf("LOOOOOOOOOOOOOOOOOOOOOOOOOL");
     if(STATE == 0){
         // On change la couleur du rectangle en noir
         VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(var->renderer, 0, 0, 0, SDL_ALPHA_OPAQUE), "SetRenderDrawColor"); // On peut mettre 255 a la place de SDL opaque
@@ -92,9 +92,6 @@ void DRAW_RECT_EVOLUTION(Var *var, const int CASE_X, const int CASE_Y, int STATE
 
     free(rectangle);
 
-    else{
-        ExitWithError("Out of range of the matrix");
-    }
     
 
 }
