@@ -3,6 +3,7 @@
         "kind": "global"
     },
     "files.associations": {
-        "eventgestion.h": "c"
+        "eventgestion.h": "c",
+        "list.h": "c"
     }
 }

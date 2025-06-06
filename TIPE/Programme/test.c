@@ -1,13 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Lib/linked-list/list.h"
 
 int main(int argc, char const *argv[])
 {
-    Node *cell = malloc(sizeof(Node));
-    cell = newNode(cell);
+    FILE *file = fopen("Glider_stopper_Right.rle", "r");
+    
+    if (file == NULL){
+        printf("C'est dla merde");
+    }
+
+    int caractere = 0;
+
+    while (caractere != EOF)
+    {
+        caractere = fgetc(file);
+        printf("%c", caractere);
+        
+    }
+    
 
 
-    free(cell);
+    fclose(file);
     return 0;
 }
