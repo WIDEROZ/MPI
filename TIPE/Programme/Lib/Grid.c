@@ -210,13 +210,8 @@ void ZOOM(Var *var){
     dstrect->h = height * 10;
     
     
-
-
-    VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, var->texture), "SetRenderTarget ZOOM");
     //SDL_RenderCopy(var->renderer, var->texture, NULL, dstrect);
     //SDL_RenderPresent(var->renderer);
-    //VERIF_SDL_COMMAND(SDL_SetRenderTarget(var->renderer, NULL), "SetRenderTarget ZOOM");
-    free(dstrect);
 }
 
 void DEZOOM(Var *var){
