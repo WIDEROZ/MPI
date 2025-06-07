@@ -25,7 +25,7 @@
 
 // Longeur et hauteur de l'affichage de la grille
 #ifndef GRID_DISP_WIDTH
-#define GRID_DISP_WIDTH 1440
+#define GRID_DISP_WIDTH 1920
 #endif
 
 #ifndef GRID_DISP_HEIGHT
@@ -33,23 +33,14 @@
 #endif
 
 
-// Longeur et hauteur de la bare d'outils
-#ifndef TOOLBAR_WIDTH
-#define TOOLBAR_WIDTH (RENDER_WIDTH-GRID_DISP_WIDTH)
-#endif
-
-#ifndef TOOLBAR_HEIGHT
-#define TOOLBAR_HEIGHT RENDER_HEIGHT
-#endif
-
 // Nombre de cases en longeur de l'écran
 #ifndef CASE_NUMBER_WIDTH
-#define CASE_NUMBER_WIDTH 500
+#define CASE_NUMBER_WIDTH 2600
 #endif
 
 // Nombre de cases en heuteur de l'écran
 #ifndef CASE_NUMBER_HEIGHT
-#define CASE_NUMBER_HEIGHT 100
+#define CASE_NUMBER_HEIGHT 1500
 #endif
 
 
