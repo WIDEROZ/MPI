@@ -48,3 +48,6 @@ Entre deux faisceaux de gliders (du même bit) :
 +10
 +19 (Shift Right)
 +20 (Shift Left)
+
+198 180
+53 152
