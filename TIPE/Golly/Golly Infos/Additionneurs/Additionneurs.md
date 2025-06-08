@@ -44,4 +44,6 @@ Entre deux faisceaux de gliders (du même bit) :
 - $0$ de délai
 
 
--1
+// : +5
++10
++19 (Shift Right)
