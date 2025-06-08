@@ -47,3 +47,4 @@ Entre deux faisceaux de gliders (du même bit) :
 // : +5
 +10
 +19 (Shift Right)
++20 (Shift Left)
