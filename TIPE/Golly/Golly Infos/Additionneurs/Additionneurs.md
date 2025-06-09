@@ -2,7 +2,16 @@
 $A, B$ les bits d'entrée $C$ la retenue en entrée
 $$\begin{array}{|c|c|}
 \hline 
-A&B&C&S&R \\ \hline
+A&B&S&R \\ \hline
+0&0&0&0 \\\hline
+1&0&1&0 \\\hline
+0&1&1&0 \\\hline
+1&1&0&1 \\\hline
+\end{array}$$
+
+$$\begin{array}{|c|c|}
+\hline 
+A&B&R_{1}&S'&R' \\ \hline
 0&0&0&0&0 \\\hline
 0&0&1&1&0 \\\hline
 0&1&0&1&0 \\\hline
@@ -12,6 +21,7 @@ A&B&C&S&R \\ \hline
 1&1&0&0&1 \\\hline
 1&1&1&1&1 \\\hline
 \end{array}$$
+
 ![[Additionneurs.png]]
 
 
