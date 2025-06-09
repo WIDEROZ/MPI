@@ -77,7 +77,7 @@ void CONVERSION_RLE(Var *var, char* file_name){
             else{
                 char nombre_str[1000] = "0";
 
-                while (caractere != 'o' && caractere != 'b' && caractere != '$')
+                while (caractere != 'o' && caractere != 'b' && caractere != '$' && caractere != '\n' && caractere != '!')
                 {
                     ajouter_fin_chaine(nombre_str, caractere);
                     caractere = fgetc(file);
@@ -101,8 +101,6 @@ void CONVERSION_RLE(Var *var, char* file_name){
                             CASE_X++;
                         }
                     }
-
-                    caractere = fgetc(file);
                 
                 }
                 else if (caractere == 'b'){
@@ -114,8 +112,6 @@ void CONVERSION_RLE(Var *var, char* file_name){
                     {
                         CASE_X += nombre;
                     }
-                    
-                    caractere = fgetc(file);
                 }
                 else if (caractere == '$'){
                     CASE_X = 0;
@@ -125,9 +121,9 @@ void CONVERSION_RLE(Var *var, char* file_name){
                     else{
                         CASE_Y += nombre;
                     }
-
-                    caractere = fgetc(file);
                 }
+
+                caractere = fgetc(file);
                 
                 
                 
