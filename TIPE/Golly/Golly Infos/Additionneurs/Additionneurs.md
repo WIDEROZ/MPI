@@ -57,7 +57,7 @@ Entre deux faisceaux de gliders (du même bit) :
 $$d \equiv -1 - 8n [43] \Leftrightarrow 8n \equiv -(d+1) [43]$$
 alors on cherche $k \in \mathbb{N}$ tel que $8k \equiv 1 [43]$
 On applique l'algorithme d’Euclide étendu : 
-
+$$-1+8n = 7 + 8(n-1)$$
 
 
 $$\begin{array}{cl}
@@ -72,3 +72,5 @@ $$\begin{array}{lccc}
 1=&3 \times (43−5⋅8)&−&1⋅8&=&3⋅43&−&16⋅8
 \end{array}$$
 $$\boxed{d \equiv -16 [43] \equiv 27 [43]}$$
+
+$$n \equiv 27(d+1) [43]$$
