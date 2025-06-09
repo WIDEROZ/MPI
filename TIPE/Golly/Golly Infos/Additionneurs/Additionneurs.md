@@ -16,7 +16,7 @@ A&B&C&S&R \\ \hline
 
 $$e(t) = \sum_{n = 1}^{+ \infty}A_{n-1}\sin(2\pi nf_{0}t+\varphi_{n})$$
 $$s(t) = \sum_{n = 1}^{+ \infty} G(A_{n-1}) \sin(2\pi nf_{0}t+\varphi_{n})$$
-
+$$G(A_{n}) = \frac{A_{n}}{2}$$
 
 
 Xor : ))D
