@@ -3,20 +3,19 @@
 #include <stdbool.h>
 #include <string.h>
 #include <SDL.h>
-#include <SDL_ttf.h>
 
 /* !!! ATTENTION !!! */
 /* --- Toutes les fichiers sont dépendants --- */
 /* --- Changer l'ordre mènerait à la perte de toute logique ---*/
-#include "Lib/Error.c"
-#include "Lib/Array.c"
-#include "Lib/Matrix.c"
-#include "Lib/Var.c"
-#include "Lib/Grid.c"
-#include "Lib/Conversion_RLE.c"
-#include "Lib/Evolution.c"
-#include "Lib/Button.c"
-#include "Lib/eventGestion.c"
+#include "Lib/GlobalDef.h"
+#include "Lib/Error.h"
+#include "Lib/Array.h"
+#include "Lib/Matrix.h"
+#include "Lib/Var.h"
+#include "Lib/Grid.h"
+#include "Lib/Conversion_RLE.h"
+#include "Lib/Evolution.h"
+#include "Lib/eventGestion.h"
 
 
 
@@ -35,16 +34,10 @@ int main(int argc, char **argv){
     SDL_VERSION(&nb);
     printf("Vesrion : %d.%d.%d  \n", nb.major, nb.minor, nb.patch);
 
-    // ----- TTF ----- //
     // Initialisation
     VERIF_SDL_COMMAND(SDL_Init(SDL_INIT_VIDEO), "INIT_VIDEO"); // SDL_INIT_VIDEO | SDL_INIT_AUDIO
     
-    // Fonts
-    VERIF_SDL_COMMAND(TTF_Init(), "TTF init");
-    TTF_Font *font = TTF_OpenFont("./font/open-sans/OpenSans-Regular.ttf", 128);
-    if (font == NULL){
-        SDL_ExitWithError("Font issue");
-    }
+    
 
 
 
@@ -161,18 +154,16 @@ int main(int argc, char **argv){
 
 
 
-    // BIIIIIIIIIIIIIIIIIIIIIIIG FREE //
+    // FREE //
     DESTROY_VAR(var);
     
 
-    TTF_CloseFont(font);
-    TTF_Quit();
     SDL_Quit();
     return EXIT_SUCCESS;
 }
 
 
 
-// gcc -o main main.c $(sdl2-config --cflags --libs) && ./main
-// gcc -o main main.c -l SDL2_ttf $(sdl2-config --cflags --libs) && ./main
+// gcc -o main Lib/*.c main.c -l $(sdl2-config --cflags --libs) && ./main
+// gcc -o main Lib/*.c main.c -l SDL2_ttf $(sdl2-config --cflags --libs) && ./main
 // Les fichiers SDL sont dans : usr/include/SDL2

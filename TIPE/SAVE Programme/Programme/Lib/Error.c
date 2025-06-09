@@ -1,4 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+#include <SDL.h>
+#include "GlobalDef.h"
 #include "Error.h"
+#include "Array.h"
+#include "Matrix.h"
+#include "Var.h"
+#include "Grid.h"
+#include "Conversion_RLE.h"
+#include "Evolution.h"
+#include "eventGestion.h"
 
 void SDL_ExitWithError(const char *message){
     SDL_Log("ERREUR : %s > %s \n", message, SDL_GetError());
@@ -12,7 +25,7 @@ void ExitWithError(const char *message){
 
 
 void VERIF_SDL_COMMAND(int command, char *nameCommand){
-    if(command !=0){
+    if(command != 0){
         SDL_ExitWithError(strcat("%s failed ! \n", nameCommand));
     }
 }

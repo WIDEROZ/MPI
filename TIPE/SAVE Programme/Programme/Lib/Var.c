@@ -1,4 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+#include <SDL.h>
+#include "GlobalDef.h"
+#include "Error.h"
+#include "Array.h"
+#include "Matrix.h"
 #include "Var.h"
+#include "Grid.h"
+#include "Conversion_RLE.h"
+#include "Evolution.h"
+#include "eventGestion.h"
 
 void MALLOC_VAR(Var *var){
     var->KEY_DOWN_STATUS = malloc(sizeof(int*));

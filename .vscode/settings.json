@@ -10,6 +10,11 @@
         "string.h": "c",
         "sdl.h": "c",
         "stdlib.h": "c",
-        "globaldef.h": "c"
+        "globaldef.h": "c",
+        "evolution.h": "c",
+        "var.h": "c",
+        "matrix.h": "c",
+        "conversion_rle.h": "c",
+        "grid.h": "c"
     }
 }

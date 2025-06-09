@@ -1,4 +1,5 @@
-#include "GlobalDef.h"
+#ifndef MATRIX_H
+#define MATRIX_H
 
 typedef struct Matrix{
     int width;
@@ -10,3 +11,4 @@ matrix CREATE_MATRIX(int width, int height);
 void DESTROY_MATRIX(matrix mat);
 void DESTROY_POINTER_MATRIX(matrix * mat);
 
+#endif

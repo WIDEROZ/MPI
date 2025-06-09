@@ -1,7 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <SDL.h>
+#ifndef GLOBAL_DEF_H
+#define GLOBAL_DEF_H
 
 /* ----- Variables Globales et Définition préprocésseur ----- */
 /*  Pour que le rendu s'adapte parfaitement aux cases (qu'elles soient pas coupés)
@@ -66,3 +64,4 @@
 
 
 
+#endif

@@ -1,4 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+#include <SDL.h>
+#include "GlobalDef.h"
+#include "Error.h"
+#include "Array.h"
+#include "Matrix.h"
+#include "Var.h"
 #include "Grid.h"
+#include "Conversion_RLE.h"
+#include "Evolution.h"
+#include "eventGestion.h"
 
 
 void CREATE_GRID(SDL_Renderer *renderer, const int X, const int Y, int color[3]){
@@ -29,9 +42,6 @@ void CREATE_GRID_CASE(SDL_Renderer *renderer, const int caseX, const int caseY){
 
 }
 
-void MODIF_GRID(Var *var){
-    
-}
 
 void GRID_DISPLAY_CREATION(Var *var){
     
@@ -208,22 +218,5 @@ void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *c
         camera -> x = x;
         camera -> y = y;
     }
-
-}
-
-
-void ZOOM(Var *var){
-    //var->camera->x += 10;
-    //var->camera->y += 10;
-    var->camera->w -= 10;
-    var->camera->h -= 10;
-
-    //float scale = 1.5;
-    //SDL_RenderSetScale(var->renderer, scale, scale);
-    
-}
-    
-
-void DEZOOM(Var *var){
 
 }

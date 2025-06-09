@@ -1,3 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
+#include <SDL.h>
+#include "GlobalDef.h"
+#include "Error.h"
+#include "Array.h"
+#include "Matrix.h"
+#include "Var.h"
+#include "Grid.h"
+#include "Conversion_RLE.h"
+#include "Evolution.h"
 #include "eventGestion.h"
 
 int time;
@@ -34,14 +47,11 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 continue;
 
             case SDLK_KP_PLUS:
-                if (var->KEY_DOWN_STATUS[306] == 1) // SDLK_LCTRL = 306 
-                {
-                    ZOOM(var);
-                }
-                else{
+                if(velocity >= 50){
                     velocity -= 50;
                 }
                 continue;
+
             
             case SDLK_KP_MINUS:
                 velocity += 50;
@@ -63,7 +73,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
             case SDLK_z:
                 var->KEY_DOWN_STATUS[306] = 1;
                 if (var->KEY_DOWN_STATUS[306] == 1){
-                    // REMETTRE LA GRILLE AU TABLEAU ENTREGISTRÉ LORS del'activation de ENTER
+                    // REMETTRE LA GRILLE AU TABLEAU ENTREGISTRÉ LORS de l'activation de ENTER
                 }
                 continue;
 
@@ -126,8 +136,8 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
 
         case SDL_MOUSEBUTTONDOWN :
             *isMouseButtonPressed = true;
-            printf("x : %d, y : %d \n", event.motion.x, event.motion.y);
-            printf("Case x : %d, Case y : %d \n", GET_CASE_FROM_COORD_X(event.motion.x), GET_CASE_FROM_COORD_Y(event.motion.y));
+            //printf("x : %d, y : %d \n", event.motion.x, event.motion.y);
+            //printf("Case x : %d, Case y : %d \n", GET_CASE_FROM_COORD_X(event.motion.x), GET_CASE_FROM_COORD_Y(event.motion.y));
 
             continue;
 

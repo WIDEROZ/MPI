@@ -1,3 +1,6 @@
+#ifndef VAR_H
+#define VAR_H
+
 // ---------- Structure des variables importantes ---------- //
     /*  Liste :
 
@@ -31,3 +34,5 @@ typedef struct var{
 void MALLOC_VAR(Var *var);
 
 void DESTROY_VAR(Var *var);
+
+#endif
