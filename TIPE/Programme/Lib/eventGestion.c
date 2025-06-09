@@ -63,7 +63,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                 continue;
             
             case SDLK_o:
-                CONVERSION_RLE(var, "RLE_FILES/Faisceau_de_glider.rle");
+                CONVERSION_RLE(var, "RLE_FILES/main.rle");
                 continue;
 
             case SDLK_LCTRL:

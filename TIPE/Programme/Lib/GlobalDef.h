@@ -9,11 +9,11 @@
 
 // Longeur et hauteur du rendu
 #ifndef RENDER_WIDTH
-#define RENDER_WIDTH 1850
+#define RENDER_WIDTH 3775
 #endif
 
 #ifndef RENDER_HEIGHT
-#define RENDER_HEIGHT 1200
+#define RENDER_HEIGHT 1180
 #endif
 
 // Nombre de pixels de large pour une case
@@ -23,7 +23,7 @@
 
 // Longeur et hauteur de l'affichage de la grille
 #ifndef GRID_DISP_WIDTH
-#define GRID_DISP_WIDTH 1920
+#define GRID_DISP_WIDTH RENDER_WIDTH
 #endif
 
 #ifndef GRID_DISP_HEIGHT
