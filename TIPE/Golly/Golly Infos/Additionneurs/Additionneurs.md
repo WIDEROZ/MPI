@@ -14,16 +14,18 @@ A&B&C&S&R \\ \hline
 \end{array}$$
 ![[Additionneurs.png]]
 
-$$e(t) = \sum_{n = 1}^{+ \infty}A_{n-1}\sin(2\pi nf_{0}t+\varphi_{n})$$
-$$s(t) = \sum_{n = 1}^{+ \infty} G(A_{n-1}) \sin(2\pi nf_{0}t+\varphi_{n})$$
-$$G(A_{n}) = \frac{A_{n}}{2}$$
-
 
 Xor : ))D
 AND : D
 or : )D
 
-
+$$G(A_{n}) = \frac{A_{n}}{2^{f(n)}}$$
+$$\begin{cases}
+\text{Filtre passe bas : }f(n) = n \\
+\text{Filtre passe haut : }f(n) = -n \\
+\text{Filtre passe bande : } f(n) =  \\
+\text{Filtre coupe bande : } f(n) =
+\end{cases}$$
 #### Schema un demi-additionneur jeu de la vie
 ![[Pasted image 20250317144715.png]]
 $C$ : flot continu de gliders
