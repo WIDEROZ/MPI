@@ -19,13 +19,8 @@ Xor : ))D
 AND : D
 or : )D
 
-$$G(A_{n}) = \frac{A_{n}}{2^{f(n)}}$$
-$$\begin{cases}
-\text{Filtre passe bas : }f(n) = n \\
-\text{Filtre passe haut : }f(n) = -n \\
-\text{Filtre passe bande : } f(n) =  \\
-\text{Filtre coupe bande : } f(n) =
-\end{cases}$$
+$$G(A_{n}) = \frac{A_{n}}{2^{n}}$$
+$$\text{Filtre passe bas : }f(n) = n $$
 #### Schema un demi-additionneur jeu de la vie
 ![[Pasted image 20250317144715.png]]
 $C$ : flot continu de gliders
