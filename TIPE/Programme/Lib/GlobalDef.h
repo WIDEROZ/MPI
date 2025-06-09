@@ -38,7 +38,7 @@
 
 // Nombre de cases en heuteur de l'écran
 #ifndef CASE_NUMBER_HEIGHT
-#define CASE_NUMBER_HEIGHT 300
+#define CASE_NUMBER_HEIGHT 1638
 #endif
 
 
