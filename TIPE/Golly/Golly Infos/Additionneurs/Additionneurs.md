@@ -53,3 +53,6 @@ Entre deux faisceaux de gliders (du même bit) :
 
 198 114
 53 152
+
+
+Soit $d \in \mathbb{Z} / 43 \mathbb{Z}$, le nombre de générations modulo $43$ qui qui sépare le faisceau entrant de période $43$ du faisceau sortant
