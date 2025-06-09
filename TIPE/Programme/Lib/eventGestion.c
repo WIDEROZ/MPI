@@ -166,8 +166,8 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
         
     }
 
-    // Evolution continue
-    if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1 && (SDL_GetTicks()- time >= velocity)){     
+    /* Evolution continue */
+    if(var->KEY_DOWN_STATUS[SDLK_RETURN] == 1 && (SDL_GetTicks()- time > velocity)){     
         evolution(var);
         time = SDL_GetTicks();
     }
