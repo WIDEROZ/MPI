@@ -63,8 +63,8 @@ void CONVERSION_RLE(Var *var, char* file_name){
         char caractere;
         char ligne[255];
         int nombre;
-        int CASE_X = 0;
-        int CASE_Y = 0;
+        int CASE_X = 10;
+        int CASE_Y = 10;
         caractere = fgetc(file);
         
 
@@ -114,7 +114,7 @@ void CONVERSION_RLE(Var *var, char* file_name){
                     }
                 }
                 else if (caractere == '$'){
-                    CASE_X = 0;
+                    CASE_X = 10;
                     if(nombre == 0){
                         CASE_Y++;
                     }
