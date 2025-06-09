@@ -18,7 +18,7 @@
 
 // Nombre de pixels de large pour une case
 #ifndef SQUARE_WIDTH
-#define SQUARE_WIDTH 20
+#define SQUARE_WIDTH 10
 #endif
 
 // Longeur et hauteur de l'affichage de la grille
@@ -33,12 +33,12 @@
 
 // Nombre de cases en longeur de l'écran
 #ifndef CASE_NUMBER_WIDTH
-#define CASE_NUMBER_WIDTH 260
+#define CASE_NUMBER_WIDTH 1638
 #endif
 
 // Nombre de cases en heuteur de l'écran
 #ifndef CASE_NUMBER_HEIGHT
-#define CASE_NUMBER_HEIGHT 150
+#define CASE_NUMBER_HEIGHT 300
 #endif
 
 
