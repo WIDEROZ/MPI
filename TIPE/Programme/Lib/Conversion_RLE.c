@@ -83,7 +83,7 @@ void CONVERSION_RLE(Var *var, char* file_name){
                     caractere = fgetc(file);
                 }
                 
-
+                
                 
                 nombre = string_to_int(nombre_str);
 
