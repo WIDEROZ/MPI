@@ -64,3 +64,5 @@ $$\begin{array}{lccc}
 $$\boxed{d \equiv -16 [43] \equiv 27 [43]}$$
 
 $$n \equiv 27(d+1) [43]$$
+
+$A, B$ les bits 
