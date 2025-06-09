@@ -44,16 +44,6 @@ Entre deux faisceaux de gliders (du même bit) :
 - $40$ horizontal 
 - $0$ de délai
 
-
-// : +5
-+10
-+19 (Shift Right)
-+20 (Shift Left)
-
-
-198 114
-53 152
-
 $$d \equiv -1 - 8n [43] \Leftrightarrow 8n \equiv -(d+1) [43]$$
 alors on cherche $k \in \mathbb{N}$ tel que $8k \equiv 1 [43]$
 On applique l'algorithme d’Euclide étendu : 
