@@ -83,7 +83,7 @@ void CONVERSION_RLE(Var *var, char* file_name){
                     caractere = fgetc(file);
                 }
                 
-                
+
                 
                 nombre = string_to_int(nombre_str);
 
@@ -103,6 +103,7 @@ void CONVERSION_RLE(Var *var, char* file_name){
                     }
 
                     caractere = fgetc(file);
+                
                 }
                 else if (caractere == 'b'){
                     if (nombre == 0)
@@ -118,14 +119,16 @@ void CONVERSION_RLE(Var *var, char* file_name){
                 }
                 else if (caractere == '$'){
                     CASE_X = 0;
-                    CASE_Y++;
+                    if(nombre == 0){
+                        CASE_Y++;
+                    }
+                    else{
+                        CASE_Y += nombre;
+                    }
 
                     caractere = fgetc(file);
                 }
-                else
-                {
-                    ExitWithError("IMPOSSIBLE : Le fichier RLE ne peut pas avoir un nombre avec un \'!\' à la suite");
-                }
+                
                 
                 
             
