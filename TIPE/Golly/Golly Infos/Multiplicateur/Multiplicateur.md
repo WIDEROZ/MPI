@@ -5,8 +5,8 @@ Entre les faisceaux de gliders :
 
 $$\frac{\begin{array}{c}
 &AB \\
-\times &BC
+\times &CD
 \end{array}}{\begin{array}{c}
-&E \\
-+&
+&GH  \\
++&EF0
 \end{array}}$$
