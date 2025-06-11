@@ -19,7 +19,6 @@ void MALLOC_VAR(Var *var){
     var->coordLivingCells = malloc(sizeof(matrix));
     var->camera = malloc(sizeof(SDL_Rect));
     var->gridDestRect = malloc(sizeof(SDL_Rect));
-    
 }
 
 void DESTROY_VAR(Var *var){
@@ -33,3 +32,4 @@ void DESTROY_VAR(Var *var){
     free(var->gridDestRect);
 
 }
+

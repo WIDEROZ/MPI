@@ -29,3 +29,4 @@ int GET_CASE_FROM_COORD_X(int x);
 int GET_CASE_FROM_COORD_Y(int y);
 
 #endif
+

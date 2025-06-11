@@ -13,8 +13,6 @@
 
         camera
         gridDestRect
-        toolbarSrcRect
-        toolbarDestRect
     */
 typedef struct var{
     SDL_Window *window;
@@ -36,3 +34,4 @@ void MALLOC_VAR(Var *var);
 void DESTROY_VAR(Var *var);
 
 #endif
+

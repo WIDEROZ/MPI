@@ -41,7 +41,6 @@
 #define CASE_NUMBER_HEIGHT 1638
 #endif
 
-
 // Longeur et hauteur de la texture
 #ifndef TEXTURE_WIDTH
 #define TEXTURE_WIDTH (CASE_NUMBER_WIDTH*SQUARE_WIDTH)
@@ -51,7 +50,6 @@
 #define TEXTURE_HEIGHT (CASE_NUMBER_HEIGHT*SQUARE_WIDTH)
 #endif
 
-
 // Variables générales de la texture
 #ifndef PIXEL_FORMAT
 #define PIXEL_FORMAT SDL_PIXELFORMAT_RGBA32
@@ -60,8 +58,5 @@
 #ifndef TEXTURE_ACCESS
 #define TEXTURE_ACCESS SDL_TEXTUREACCESS_TARGET
 #endif
-
-
-
 
 #endif

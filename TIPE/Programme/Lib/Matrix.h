@@ -12,3 +12,4 @@ void DESTROY_MATRIX(matrix mat);
 void DESTROY_POINTER_MATRIX(matrix * mat);
 
 #endif
+

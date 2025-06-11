@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "conversion_rle.h": "c",
+        "string.h": "c",
+        "sdl.h": "c",
+        "globaldef.h": "c",
+        "error.h": "c"
     }
 }

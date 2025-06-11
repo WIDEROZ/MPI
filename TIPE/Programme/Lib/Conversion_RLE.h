@@ -7,3 +7,4 @@ void AJOUTER_CELLULE(Var *var, int CASE_X, int CASE_Y);
 void CONVERSION_RLE(Var *var, char* file_name);
 
 #endif
+
