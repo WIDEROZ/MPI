@@ -148,4 +148,3 @@ Alors,
 $$\frac{2e}{\cos(\theta)}\left( \sin(\theta)^{2}-1\right) = 2e\cos(\theta) $$
 CERCLE
 
-$$$$
