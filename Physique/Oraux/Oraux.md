@@ -143,9 +143,3 @@ $$\Delta p = \delta\left( \frac{1}{\lambda_{2}}-\frac{1}{\lambda_{1}} \right)$$
 
 #### Exercice 32
 $$I = 2I_{0}\left( 1+ \cos\left( \frac{2\pi}{\lambda_{0}}\delta \right) \right)$$
-M1 11
-P 11
-M2 11
-F 9
-I 12
-A 4
