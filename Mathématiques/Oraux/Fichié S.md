@@ -120,3 +120,8 @@ $$= \sum_{n = 0}^{ + \infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} u_{n-k}u
 
 #### 34.
 
+## II. Analyse
+### 6.
+#### a.
+$$\zeta(\alpha)^{2} = \left( \sum_{n = 1}^{+ \infty} \frac{1}{n^{\alpha}}  \right)^{2} = \sum_{n = 1}^{+ \infty} \sum_{k = 1}^{n} \frac{1}{k^{\alpha}(n-k)^{\alpha}} $$
+$$\sum_{n=1}^{+ \infty} \frac{d(n)}{n} $$
