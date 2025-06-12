@@ -136,8 +136,10 @@ $\varphi$ : nombre des entiers plus petits et premiers avec $n$
 $$\left( \sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\alpha}} \right)\left( \sum_{n \in \mathbb{N}^{*}} \frac{\varphi(n)}{n^{\alpha}} \right) = \sum_{(n, p) \in \mathbb{N}^{*}} \frac{\varphi(p)}{(np)^{\alpha}} = \sum_{k \in \mathbb{N}^{*}} \sum_{(n, p) \in \mathcal{P}_{k}} \frac{\varphi\left( n \right)}{k^{\alpha}} $$
 $$ = \sum_{k \in \mathbb{N}^{*}} \frac{1}{k^{\alpha}} \sum_{(n, p) \in \mathcal{P}_{k}} \varphi(n) = \sum_{k \in \mathbb{N}^{*}} \frac{1}{k^{\alpha-1}} $$
 $$m = p^{k} $$
-$$$$
 
 
 
 $$\bigsqcup_{k \in \mathbb{N}^{*}}\{ (n, p) \in (\mathbb{N}^{*})^{2} | np = k \}$$
+$$\int_{0}^{2\pi} \left( \sum_{n = 0}^{+ \infty} a_{n}r^{n} e^{ int } \right)\left( \sum_{n = 0}^{+ \infty} \overline{a_{n}} r^{n} e^{ -int } \right) \, dt = \int_{0}^{2\pi} \sum_{n =0}^{+ \infty}\sum_{k = 0}^{n}a_{k} \overline{a_{n-k}} e^{ 2i(k-n)t } r^{n} \, dt $$
+
+
