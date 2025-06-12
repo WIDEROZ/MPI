@@ -142,3 +142,5 @@ $$m = p^{k} $$
 $$\bigsqcup_{k \in \mathbb{N}^{*}}\{ (n, p) \in (\mathbb{N}^{*})^{2} | np = k \}$$
 $$\int_{0}^{2\pi} \left( \sum_{n = 0}^{+ \infty} a_{n}r^{n} e^{ int } \right)\left( \sum_{n = 0}^{+ \infty} \overline{a_{n}} r^{n} e^{ -int } \right) \, dt = \int_{0}^{2\pi} \sum_{n =0}^{+ \infty}\sum_{k = 0}^{n}a_{k} \overline{a_{n-k}} e^{ 2i(k-n)t } r^{n} \, dt $$
 
+$$$$
+$$\sum_{n = 0}^{+ \infty} \left| a_{n}\right|^{2} e^{ 2nt }$$
