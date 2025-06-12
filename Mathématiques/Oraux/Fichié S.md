@@ -129,4 +129,9 @@ $$\bigsqcup \{ (n, p) | np=k \} = \bigsqcup \mathcal{P}_{k}$$
 
 $$\sum_{k \in \mathbb{N}^{*}}\sum_{d \in P_{k}} \frac{1}{k^{\alpha}} = \sum_{k \in \mathbb{N}^{*}} \frac{d(k)}{k^{\alpha}} $$
 
+$$\frac{1}{(np)^{\alpha}}$$
+
 #### b.
+$\varphi$ : nombre des entiers plus petits et premiers avec $n$
+$$\left( \sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\alpha}} \right)\left( \sum_{n \in \mathbb{N}^{*}} \frac{\varphi(n)}{n^{\alpha}} \right) = \sum_{(n, p) \in \mathbb{N}^{*}} \frac{\varphi(p)}{(np)^{\alpha}} =  $$
+$$\bigsqcup_{k \in \mathbb{N}^{*}}\{ (n, p) \in (\mathbb{N}^{*})^{2} |  \}$$
