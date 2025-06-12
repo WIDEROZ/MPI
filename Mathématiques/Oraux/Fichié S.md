@@ -135,6 +135,8 @@ $$\frac{1}{(np)^{\alpha}}$$
 $\varphi$ : nombre des entiers plus petits et premiers avec $n$
 $$\left( \sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\alpha}} \right)\left( \sum_{n \in \mathbb{N}^{*}} \frac{\varphi(n)}{n^{\alpha}} \right) = \sum_{(n, p) \in \mathbb{N}^{*}} \frac{\varphi(p)}{(np)^{\alpha}} = \sum_{k \in \mathbb{N}^{*}} \sum_{(n, p) \in \mathcal{P}_{k}} \frac{\varphi\left( n \right)}{k^{\alpha}} $$
 $$ = \sum_{k \in \mathbb{N}^{*}} \frac{1}{k^{\alpha}} \sum_{(n, p) \in \mathcal{P}_{k}} \varphi(n) = \sum_{k \in \mathbb{N}^{*}} \frac{1}{k^{\alpha-1}} $$
+$$m = p^{k} $$
+$$$$
 
 
 
