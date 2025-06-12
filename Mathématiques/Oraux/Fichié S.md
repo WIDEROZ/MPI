@@ -145,5 +145,3 @@ $$\int_{0}^{2\pi} \left( \sum_{n = 0}^{+ \infty} a_{n}r^{n} e^{ int } \right)\le
 
 $$\sum_{n = 0}^{+ \infty} \left| a_{n}\right|^{2} e^{ 2nt }$$
 
-$$\exists !r \in N, \delta(r) = \varnothing$$
-$$\forall $$
