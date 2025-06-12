@@ -123,5 +123,10 @@ $$= \sum_{n = 0}^{ + \infty} \frac{1}{n!} \sum_{k = 0}^{n} \binom{n}{k} u_{n-k}u
 ## II. Analyse
 ### 6.
 #### a.
-$$\zeta(\alpha)^{2} = \left( \sum_{n = 1}^{+ \infty} \frac{1}{n^{\alpha}}  \right)^{2} = \sum_{n = 1}^{+ \infty} \sum_{k = 1}^{n} \frac{1}{k^{\alpha}(n-k)^{\alpha}} $$
-$$\sum_{n=1}^{+ \infty} \frac{d(n)}{n} $$
+$$\zeta(\alpha)^{2} = \left( \sum_{n = 1}^{+ \infty} \frac{1}{n^{\alpha}}  \right)^{2} = \sum_{n = 1}^{+ \infty} \sum_{k = 1}^{n-1} \frac{1}{k^{\alpha}(n-k)^{\alpha}} = \sum_{n = 1}^{+ \infty} \sum_{k= 1}^{n-1} \left( \frac{1}{k(n-k)} \right)^{\alpha} $$
+$$= \sum_{(n, p) \in (\mathbb{N}^{*})^{2}} \frac{1}{(np)^{\alpha}} = \sum_{(n, p) \in (\mathbb{N}^{*})^{2}} $$
+$$\bigsqcup \{ (n, p) | np=k \} = \bigsqcup \mathcal{P}_{k}$$
+
+$$\sum_{k \in \mathbb{N}^{*}}\sum_{d \in P_{k}} \frac{1}{k^{\alpha}} = \sum_{k \in \mathbb{N}^{*}} \frac{d(k)}{k^{\alpha}} $$
+
+#### b.
