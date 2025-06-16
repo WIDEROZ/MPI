@@ -172,6 +172,8 @@ Ainsi,
 ### Exo 21
 #### 1.
 $$d\vec{S} = rdr d\theta \vec{e}_{z}$$
-$$I = \iint \vec{j}.d\vec{S}= \iint \frac{j_{0}}{a} r^{2} \, drd\theta = 2\pi  \frac{j_{0}}{a} \int r^{2} \, dr = \frac{2}{3} \frac{j_{0}}{a} R^{3} \pi $$
+$$I = \iint \vec{j}.d\vec{S}= \iint \frac{j_{0}}{a} r^{2} \, drd\theta = 2\pi  \frac{j_{0}}{a} \int r^{2} \, dr = \frac{2}{3} j_{0} a^{2} \pi $$
 
 #### 2.
+$$\vec{j}_{Q} = - \kappa  \overrightarrow{grad}(T) = - \kappa \frac{\partial T}{\partial t}  \vec{e}_{r} $$
+$$\phi = \iint \vec{j}_{Q} . d\vec{S}$$
