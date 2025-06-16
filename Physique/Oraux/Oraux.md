@@ -167,4 +167,3 @@ $$\omega t + \varphi_{1} = \omega(t+\Delta t) + \varphi_{2}$$
 $$\varphi_{1} = \omega \Delta t + \varphi_{2}$$
 $$\varphi_{1} - \varphi_{2} = \omega \Delta t = \omega \frac{\delta}{c} = 2\pi\frac{c}{\lambda} \times \frac{\delta}{c} = \frac{2\pi}{\lambda} \delta $$
 Ainsi, 
-$$$$
