@@ -159,3 +159,6 @@ $$-\frac{u_{0}}{n} = u_{n}$$
 $$\left| \frac{a_{n+1}}{a_{n}(n+1)} t\right| \underset{n \to +\infty}{\longrightarrow} l t$$
 Si $\frac{a_{n+1}}{a_{n}(n+1)} \underset{n \to +\infty}{\longrightarrow} l <1$,
 alors $a_{n+1} = O(a_{n}(n+1))$, 
+$$(f'(t) - f(t) )e^{ -t } = (g'(t)-f'(t)-g(t) + f(t))e^{ -t }$$
+$$f'(t) = 0$$
+$$\frac{S_{n-1}}{n!}t^{n}$$
