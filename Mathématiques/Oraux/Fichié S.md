@@ -153,4 +153,5 @@ $$(\alpha-1)u_{0} = 0$$
 Si $\alpha = 1$, 
 
 
-Supposons que 
+$$-\frac{u_{0}}{n} = u_{n}$$
+$$$$
