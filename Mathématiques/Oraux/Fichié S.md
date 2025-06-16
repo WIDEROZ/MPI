@@ -154,4 +154,7 @@ Si $\alpha = 1$,
 
 
 $$-\frac{u_{0}}{n} = u_{n}$$
-$$$$
+### 61
+#### a.
+$$\left| \frac{a_{n+1}}{a_{n}(n+1)} t\right| \underset{n \to +\infty}{\longrightarrow} l $$
+Si $\frac{a_{n+1}}{a_{n}(n+1)}t$
