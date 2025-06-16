@@ -150,6 +150,10 @@ CERCLE
 
 ### Exo
 $$\delta = ne\sqrt{3}$$
+$$\delta = \frac{2ne}{\cos\left( \arcsin\left( \frac{1}{2n} \right) \right)} - e\tan\left( \arctan\left( \frac{1}{2n} \right) \right)$$
+
+
+
 $$s_{1} = S_{1} \cos(\omega_{1} t + \pi) \text{ et } s_{2} = S_{2}\cos(\omega_{2} t + \pi)$$
 Alors, 
 $$I(M) = \left< (s_{1} + s_{2})^{2} \right> =\left< s_{1}^{2} \right> + \left< s_{2}^{2} \right> + 2 \left< s_{1}s_{2} \right>  $$
@@ -158,4 +162,6 @@ $$\frac{S_{1}^{2}}{2} + \frac{S_{2}^{2}}{2} + 2S_{1}S_{2} \left< \cos(\omega t +
 $$= I_{0} + 2I_{0} \left< \cos(\omega t + \varphi_{1} + \pi)\cos(\omega t+ \varphi_{2} + \pi) \right> = I_{0} + I_{0}\cos(\varphi_{1}-\varphi_{2}) = I_{0}\left( 1+\cos\left( \frac{2\pi}{\lambda_{0}} \delta \right) \right) $$
 $$\omega t + \varphi_{1} = \omega(t+\Delta t) + \varphi_{2}$$
 $$\varphi_{1} = \omega \Delta t + \varphi_{2}$$
-$$\varphi_{1} - \varphi_{2} = \omega \Delta t = \omega \frac{\delta}{c} = $$
+$$\varphi_{1} - \varphi_{2} = \omega \Delta t = \omega \frac{\delta}{c} = 2\pi\frac{c}{\lambda} \times \frac{\delta}{c} = \frac{2\pi}{\lambda} \delta $$
+Ainsi, 
+$$$$
