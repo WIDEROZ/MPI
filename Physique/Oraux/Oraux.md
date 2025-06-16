@@ -148,3 +148,8 @@ Alors,
 $$\frac{2e}{\cos(\theta)}\left( \sin(\theta)^{2}-1\right) = 2e\cos(\theta) $$
 CERCLE
 
+### Exo
+$$\delta = e\sqrt{3}$$
+$$s_{1} = S_{1} \cos(\omega_{1} t + \pi) \text{ et } s_{2} = S_{2}\cos(\omega_{2} t + \pi)$$
+Alors, 
+$$I(M) = \left< (s_{1} + s_{2})^{2} \right> = $$
