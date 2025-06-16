@@ -152,6 +152,9 @@ CERCLE
 $$\delta = ne\sqrt{3}$$
 $$\delta = \frac{2ne}{\cos\left( \arcsin\left( \frac{1}{2n} \right) \right)} - e\tan\left( \arctan\left( \frac{1}{2n} \right) \right)$$
 
+$$\frac{2\pi}{\lambda_{2}} \delta = \frac{\pi}{2}\Leftrightarrow \frac{\lambda_{2}}{4} = \delta  $$
+Alors, 
+$$e = \frac{\lambda_{2}}{\frac{8n}{\cos\left( \arcsin\left( \frac{1}{2n} \right) \right) }-4\tan\left( \arctan\left( \frac{1}{2n} \right) \right)}$$
 
 
 $$s_{1} = S_{1} \cos(\omega_{1} t + \pi) \text{ et } s_{2} = S_{2}\cos(\omega_{2} t + \pi)$$
