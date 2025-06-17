@@ -177,3 +177,8 @@ $$I = \iint \vec{j}.d\vec{S}= \iint \frac{j_{0}}{a} r^{2} \, drd\theta = 2\pi  \
 #### 2.
 $$\vec{j}_{Q} = - \kappa  \overrightarrow{grad}(T) = - \kappa \frac{\partial T}{\partial t}  \vec{e}_{r} $$
 $$\phi = \iint \vec{j}_{Q} . d\vec{S}$$
+$$\frac{d\phi}{dt} = \delta Q$$
+
+$$C(T(r, t+dt) - T(r, t)) = \frac{d\phi}{dt} + \delta W = \frac{\partial }{\partial t} \left( 2\pi \int \kappa r \frac{\partial T}{\partial t}  \, dr  \right) + \delta W $$
+$$C(T(r, t + dt) - T(r, t))=2\pi \kappa \int r \frac{\partial^{2}T}{\partial t^{2}}  \, dr + \delta W $$
+$$\delta W = \vec{F}.d\vec{r}$$
