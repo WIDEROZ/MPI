@@ -162,3 +162,13 @@ alors $a_{n+1} = O(a_{n}(n+1))$,
 $$(f'(t) - f(t) )e^{ -t } = (g'(t)-f'(t)-g(t) + f(t))e^{ -t }$$
 $$f'(t) = 0$$
 $$\frac{S_{n-1}}{n!}t^{n}$$
+
+
+#### Exercice
+$$PAP^{-1} = D_{A} \text{ et } PBP^{-1} = D_{B}$$
+
+$$AB = P^{-1}D_{A}P P^{-1}D_{B}P = P^{-1}D_{A}D_{B}P = P^{-1}D_B P P^{-1} D_{A} P = BA$$
+
+$$\forall P \in GL_{n}(\mathbb{R}), M_{A} \text{ et } M_{B}\text{ ne sont pas diagonales}$$
+
+$$\forall x \in E_{\alpha}(f), f(g(x)) = g(f(x)) = g(\alpha x) = \alpha g(x)$$
