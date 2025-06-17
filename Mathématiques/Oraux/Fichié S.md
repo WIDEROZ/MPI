@@ -172,3 +172,4 @@ $$AB = P^{-1}D_{A}P P^{-1}D_{B}P = P^{-1}D_{A}D_{B}P = P^{-1}D_B P P^{-1} D_{A} 
 $$\forall P \in GL_{n}(\mathbb{R}), M_{A} \text{ et } M_{B}\text{ ne sont pas diagonales}$$
 
 $$\forall x \in E_{\alpha}(f), f(g(x)) = g(f(x)) = g(\alpha x) = \alpha g(x)$$
+$g(x) \in E_{\alpha}(f)$
