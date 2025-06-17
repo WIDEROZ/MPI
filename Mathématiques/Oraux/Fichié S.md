@@ -173,3 +173,12 @@ $$\forall P \in GL_{n}(\mathbb{R}), M_{A} \text{ et } M_{B}\text{ ne sont pas di
 
 $$\forall x \in E_{\alpha}(f), f(g(x)) = g(f(x)) = g(\alpha x) = \alpha g(x)$$
 $g(x) \in E_{\alpha}(f)$
+
+
+
+
+$$\begin{cases}
+AB = BA \\
+\text{Trigonalisables}
+\end{cases} \Rightarrow \exists P \in GL_{n}(\mathbb{R}), PAP^{-1} \text{ et } PBP^{-1} \text{ soient tri}$$
+Supposons que $AB = BA \in \mathcal{M}_{n+1}(\mathbb{R})$ $A, B$ soient trigonalisables, 
