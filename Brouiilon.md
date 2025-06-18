@@ -1,7 +1,7 @@
-$$u_{n} = \prod_{k=1}^{n} \left( 1+ \frac{(-1)^{k-1}}{\sqrt{k}} \right)$$
-$$\ln(u_{n}) = \sum_{k = 1}^{n} \ln\left( 1+\frac{(-1)^{k-1}}{\sqrt{k}} \right)= \sum_{k =1}^{n} \left( \frac{(-1)^{k-1}}{\sqrt{k}} +o\left( \frac{1}{\sqrt{k}} \right) \right) $$
-$$\lim_{ n \to \infty } \ln(u_{n}) = l \in \mathbb{R} $$
-Car : 
-$$\sum_{k \in \mathbb{N}^{*}}\frac{(-1)^{k-1}}{\sqrt{k}} \text{ CV}$$
-Alors, 
-$$\lim_{ n \to \infty } u_{n} $$
+$$u_{n} = \frac{(-1)^{n}}{\sqrt{n^{2\alpha}+(-1)^{n}}}$$
+$\alpha >0$ : 
+$$\frac{u_{n+1}}{u_{n}} = - \sqrt{\frac{n^{2\alpha}+(-1)^{n}}{(n+1)^{2\alpha}-(-1)^{n}}}$$
+
+$\alpha = 0$ pas défini
+$\alpha <0$ pas défini
+
