@@ -14,9 +14,29 @@
 - Supprimer le maximum et le placer en bout de la liste que l'on veut trier
 
 # Algorithmique des automates
+#### Algorithme de Berry-Sethi
+Soit $e$ un expression régulière dénotant le langage $L(e)$
+##### Étape 1
+Linéariser $e$ en $e'$
+
+##### Étape 2
+Construire l'automate local $\mathcal{A}' = (Q', \Sigma', \{q_{0}'\}, F', \delta')$
+
+##### Étape 3
+Supprimer les indices dans les transitions de $\mathcal{A}'$ 
+On obtiens alors un <u>automate de Glushkov</u> 
 
 
 # Algorithmique des Graphes
+
+
+
+# Algorithme ID3
+
+
+
+
+
 
 
 # Algorithmique des textes
