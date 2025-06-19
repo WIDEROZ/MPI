@@ -32,6 +32,7 @@ On obtiens alors un <u>automate de Glushkov</u>
 
 
 # Algorithme ID3
+#### Exemple
 
 
 
