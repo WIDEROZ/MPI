@@ -33,4 +33,6 @@ $C = C$, $A = A$, $G = G$, $G = G$, $A = A$ et $T = T$ c'est terminé
 
 
 ## Rabin-Karp
-$$$$
+Soit $m$ le motif de longueur $n$ que l'on recherche dans la chaîne $c$ de longueur $C$
+- On parcours le texte pour $i$ de l'indice $0$ à $C-n+1$ non-compris
+  + Si $hash(c[i:]) = hash(m)$ alors, c'est 
