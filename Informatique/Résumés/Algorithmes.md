@@ -4,7 +4,14 @@
 
 ## Boyer-Moore
 Soit $m$ le motif de longueur $n$ que l'on recherche dans la chaîne $c$.
-- On se place à l'indice $n-1$ de $c$ et on regarde la correspchaque 
+- On se place à l'indice $n-1$ de $c$
+- On regarde la correspondance entre le caractère dans $c$ d'indice $i$ et celui du motif : 
+  + Si le caractère correspond a celui du motif à la bonne position alors on continue
+  + Si le caractère $x \in m$, on décale $i$ : $i \leftarrow i + n-1-j$ avec $j$ l'indice du dernier $x$ dans $m$
+  + Si le caractère $x \not\in m$, on décale $i$ : $i \leftarrow i +n$
+  + Sinon si on ne peut pas le faire on décale $i$ : $i++$. 
+
+$$CCC\mathbb{C}$$
 
 
 #### Exemples
@@ -26,3 +33,6 @@ $$TA[GTAGGA]CTGTACTAGGAC$$
 $A \neq C$ mais $A \in m$, 
 $$TAG[TAGGAC]TGTACTAGGAC$$
 $C = C$, $A = A$, $G = G$, $G = G$, $A = A$ et $T = T$ c'est terminé
+
+
+## Rabin-Karp
