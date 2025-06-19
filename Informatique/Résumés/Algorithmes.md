@@ -11,9 +11,6 @@ Soit $m$ le motif de longueur $n$ que l'on recherche dans la chaîne $c$.
   + Si le caractère $x \not\in m$, on décale $i$ : $i \leftarrow i +n$
   + Sinon si on ne peut pas le faire on décale $i$ : $i++$. 
 
-$$CCC\mathbb{C}$$
-
-
 #### Exemples
 $$m = cad$$
 $$abracadabra$$
@@ -36,3 +33,4 @@ $C = C$, $A = A$, $G = G$, $G = G$, $A = A$ et $T = T$ c'est terminé
 
 
 ## Rabin-Karp
+$$$$
