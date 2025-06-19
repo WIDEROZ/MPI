@@ -8,6 +8,10 @@
 - Ajout d'un nœud : Rouge
 - Si on a deux nœuds rouges faire une rotation sur le nœud noir père des deux rouges.
 
+#### Tri par tas
+![[Heap_sort_Animation.gif]]
+- Construire un tas à partir de la liste en ajoutant des nœuds.
+- Supprimer le maximum et le placer en bout de la liste que l'on veut trier
 
 # Algorithmique des automates
 
