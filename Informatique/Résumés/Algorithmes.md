@@ -1,6 +1,15 @@
+# Algorithmique des arbres
 ## Transformation d'un arbre quelconque en arbre binaire
 - Racine inchangé
 - Pour tout nœud ayant un frère droit, son premier frère droit deviens son fils droit. 
+
+
+
+# Algorithmique des automates
+
+
+# Algorithmique des Graphes
+
 
 # Algorithmique des textes
 ## Boyer-Moore
@@ -44,4 +53,5 @@ Voir https://fr.wikipedia.org/wiki/Codage_de_Huffman
 ## Lempel–Ziv–Welch
 Voir le dossier : [[Ressources/Algo Lempel-Ziv-Welch/Exemple algo.pdf]]
 
-# Automates
+
+# FIN
