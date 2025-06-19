@@ -2,6 +2,7 @@
 - Racine inchangé
 - Pour tout nœud ayant un frère droit, son premier frère droit deviens son fils droit. 
 
+# Algorithmique des textes
 ## Boyer-Moore
 Soit $m$ le motif de longueur $n$ que l'on recherche dans la chaîne $c$.
 - On se place à l'indice $n-1$ de $c$
@@ -35,4 +36,6 @@ $C = C$, $A = A$, $G = G$, $G = G$, $A = A$ et $T = T$ c'est terminé
 ## Rabin-Karp
 Soit $m$ le motif de longueur $n$ que l'on recherche dans la chaîne $c$ de longueur $C$
 - On parcours le texte pour $i$ de l'indice $0$ à $C-n+1$ non-compris
-  + Si $hash(c[i:]) = hash(m)$ alors, c'est 
+  + Si $hash(c[i:i+n]) = hash(m)$ alors, le motif apparaît à l'indice $i$.
+
+## Huffman
