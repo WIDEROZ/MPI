@@ -167,6 +167,11 @@ Alors,
 $L$ est un langage local si il est intégralement décrit par $P, D$ et $F$ (ou $N$) ie : 
 $$\boxed{L \setminus \{ \varepsilon \} = (P \Sigma^{*} \cap \Sigma^{*}D) \setminus (\Sigma^{*}N\Sigma^{*})}$$
 
+
+
+$$L \setminus \{ \varepsilon \} = \left( P\Sigma^{*} \right) D $$
+
+
 #### Propriété : Stabilité des langages locaux
 Soient $L_{1}, L_{2}$ deux langages locaux, 
 $$\boxed{\begin{cases}
