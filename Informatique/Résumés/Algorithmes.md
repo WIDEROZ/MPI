@@ -42,3 +42,6 @@ Soit $m$ le motif de longueur $n$ que l'on recherche dans la chaîne $c$ de long
 Voir https://fr.wikipedia.org/wiki/Codage_de_Huffman
 
 ## Lempel–Ziv–Welch
+Voir le dossier : [[Ressources/Algo Lempel-Ziv-Welch/Exemple algo.pdf]]
+
+# Automates

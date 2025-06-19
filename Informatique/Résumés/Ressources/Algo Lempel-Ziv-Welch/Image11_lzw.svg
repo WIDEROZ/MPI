@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!--image1 77 -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="800px"
+   height="600px"
+   viewBox="0 0 800 600">
+
+  <!-- Common object defs begin -->
+  <defs>
+
+    <!-- The example bit string -->
+    <text id="bitstring" stroke="black"
+	  style="font-size:20px;font-family:Courier;"> 
+      <!-- Keep Courier font family since it has constant letter spacing, and FF does not implement letter spacing. -->
+      texte à compresser : a b a b c b a b a b a a a a a a a 
+       <!--<tspan  stroke="black" style="font-size:15px;font-family:courier;">
+      2 1 0 2 1 2 0 2 1 0 2 1 2 0 0
+        </tspan>-->
+
+    </text>    
+
+    <!-- Arrow heads (used below) -->
+    <marker id="arrowhead_right" markerWidth="10" markerHeight="10" orient="auto" refX="1" refY="2.5">
+      <polygon points="0,0 5,2 0,5"/>
+    </marker>
+    <marker id="arrowhead_left" markerWidth="10" markerHeight="10" orient="auto" refX="1" refY="2.5">
+      <polygon points="0,0 2,5 5,0"/>
+    </marker>
+
+    <!-- Arrows -->
+    <path id="arrow_up_right_1bit"   d="m 10,-25 q 15,-25 25,0" fill="none" stroke-width="2px" marker-end="url(#arrowhead_right)"/>
+    <path id="arrow_up_left_1bit"    d="m 15,-25 q 15,-25 25,0" fill="none" stroke-width="2px" marker-start="url(#arrowhead_left)"/>
+    <path id="arrow_down_right_1bit" d="m 5,5 q 15,25 36,5" fill="none" stroke-width="2px" marker-end="url(#arrowhead_right)"/>
+    <path id="arrow_down_left_1bit"  d="m 5,5 q 15,25 36,5" fill="none" stroke-width="2px" marker-start="url(#arrowhead_left)"/>
+
+    <path id="arrow_up_right_2bit"   d="m 15,-25 q 15,-25 50,0" fill="none" stroke-width="2px" marker-end="url(#arrowhead_right)"/>
+    <path id="arrow_up_left_2bit"    d="m 15,-25 q 15,-25 50,0" fill="none" stroke-width="2px" marker-start="url(#arrowhead_left)"/>
+    <path id="arrow_down_right_2bit" d="m 9,5 q 15,25 50,5" fill="none" stroke-width="2px" marker-end="url(#arrowhead_right)"/>
+    <path id="arrow_down_left_2bit"  d="m 9,5 q 15,25 50,5" fill="none" stroke-width="2px" marker-start="url(#arrowhead_left)"/>
+    <!--saut de 3bits -->
+    <path id="arrow_up_right_3bit"   d="m 10,-25 q 25,-35 90,0" fill="none" stroke-width="2px" marker-end="url(#arrowhead_right)"/>
+    <path id="arrow_down_right_3bit"   d="m 10,10 q 25,35 90,0" fill="none" stroke-width="2px" marker-end="url(#arrowhead_right)"/>
+    <!-- flèche pour le pointeur -->
+     <path id="arrow_pointeur"   d="m 5,-45 v 0,20" fill="none" stroke-width="2px" marker-end="url(#arrowhead_right)"/>
+    <!-- Vertical red bar -->
+    <path id="vertbar" d="m 0,-25 v 0,30" fill="none" stroke-width="3px"/>
+   <!--rectangle 1bit -->
+    <path id="rect1" d="m 0,-20 v 0,25 h -25,0 v 0,-25 h 25,0" fill="none" stroke-width="3px"/>
+   <!--rectangle 5bit -->
+    <path id="rect5" d="m 0,-25 v 0,35 h -150,0 v 0,-35 h 150,0" fill="none" stroke-width="3px"/>
+    <!--fenetre 9 -->
+    <path id="fenetre" d="m 0,10 v 0,10 h 205,0 v 0,-10" fill="none" stroke-width="3px"/>
+    <!--buffer -->
+    <path id="cadre_dico" d="m 0,-10 v 0,-15 h 610,0 v 0,25 h -610,0  v 0,-10" fill="none" stroke-width="3px"/>
+    <!--reste de la séquence -->
+    <path id="reste" d="m 0,10 v 0,15 h 270,0 v 0,-15" fill="none" stroke-width="3px"/>
+    <!--barre verticale -->
+    <path id="b_verticale" d="m 0,-25 v 0,25" fill="none" stroke-width="3px"/>
+    <path id="b1_horizontale" d="m 0,-5 h 0,20" fill="none" stroke-width="3px"/>
+	<path id="b2_horizontale" d="m 0,-5 h 0,40" fill="none" stroke-width="3px"/>
+	<path id="b3_horizontale" d="m 0,-5 h 0,60" fill="none" stroke-width="3px"/>
+	<path id="b4_horizontale" d="m 0,-5 h 0,80" fill="none" stroke-width="3px"/>
+  </defs>
+
+ <!-- SVG animation begins -->
+  <g id="main">
+
+      <!-- Draw the example bit string, no animation -->
+     <use x = "20" y = "150" xlink:href = "#bitstring"/>
+    <!-- <use x = "20" y = "150" stroke ="green" xlink:href = "#fenetre"/>
+     <use x = "230" y = "150" stroke ="blue" xlink:href = "#fenetre"/>
+     <use x = "20" y = "150" stroke ="red" xlink:href = "#buffer"/>
+     <use x = "445" y = "150" stroke ="black" xlink:href = "#reste"/> -->
+      <use x = "100" y = "310" stroke ="black" xlink:href = "#cadre_dico"/>
+	<use x = "150" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "200" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "250" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "300" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "350" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "400" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "450" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "500" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "560" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "600" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "650" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<use x = "710" y = "310" stroke ="black" xlink:href = "#b_verticale"/>
+	<!-- barres horizontaux -->
+	<use x = "650" y = "140" stroke ="green" xlink:href = "#b1_horizontale"/>
+	<!--<use x = "585" y = "160" stroke ="blue" xlink:href = "#b4_horizontale"/>-->
+	<!--resultat -->
+	<text x = "20" y = "200" stroke="black" style="font-size:20px;font-family:courier;">
+	resultat
+	<tspan x="270" y="200" stroke="black" style="font-size:20px;font-family:courier;">
+	0_1_3___2_4___7_____0_9___10____0
+	</tspan>
+	<!-- dictionnaire -->
+     <text x = "20" y = "300" stroke="black" style="font-size:12px;font-family:Sans-serif;">
+	dictionnaire
+      </text>
+	
+      </text>
+	<text x = "110" y = "300" stroke="black" style="font-size:20px;font-family:Courier;">
+	a
+	<tspan x="110" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          0
+        </tspan>
+      </text>
+	<text x = "160" y = "300" stroke="black" style="font-size:20px;font-family:Courier;">
+	b
+	<tspan x="160" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          1
+        </tspan>
+      </text>
+	<text x = "210" y = "300" stroke="black" style="font-size:20px;font-family:Courier;">
+	c
+	<tspan x="210" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          2
+        </tspan>
+      </text>
+	<text x="260" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          ab
+	<tspan x="260" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          3
+        </tspan>
+        </text>
+	<text x="310" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          ba
+	<tspan x="310" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          4
+        </tspan>
+        </text>
+	<text x="360" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          abc
+	<tspan x="360" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          5
+        </tspan>
+        </text>
+	<text x="410" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          cb
+	<tspan x="410" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          6
+        </tspan>
+	</text>
+	<text x="460" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          bab
+	<tspan x="460" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          7
+        </tspan>
+        </text>
+	<text x="510" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          baba
+	<tspan x="510" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          8
+        </tspan>
+        </text>
+	<text x="560" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          aa
+	<tspan x="560" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          9
+        </tspan>
+        </text>
+	<text x="610" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          aaa
+	<tspan x="610" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          10
+        </tspan>
+        </text>
+	<text x="660" y="300" stroke="blue" style="font-size:20px;font-family:courier;">
+          aaaa
+	<tspan x="660" y="325" stroke="black" style="font-size:15px;font-family:courier;">
+          11
+        </tspan>
+        </text>
+
+
+	<!--<text x = "360" y = "300" stroke="black" style="font-size:20px;font-family:Courier;">
+	. . .
+      </text>-->
+	<!--legende -->
+	<rect x="100" y="370" width="5" height="5" fill="blue" stroke="blue" />
+	<rect x="100" y="400" width="5" height="5" fill="green" stroke="green" />
+	<text x="120" y="375" stroke ="black" style="font-size:12px;font-family:sans-serif;">
+	Mots ajoutés au dictionnaire
+	</text>
+	<text x="120" y="405" stroke ="black" style="font-size:12px;font-family:sans-serif;">
+	Prefixes des  mots ajoutés au dictionnaire(le mot sans son dernier caractère )
+	</text>
+      <!-- <text x = "230" y = "200" stroke ="blue" style="font-size:12px;font-family:Sans-serif;">
+	Les Ls (= 9) premiers caractères de S
+      </text>
+      <text x = "170" y = "115" stroke = "red" style="font-size:12px;font-family:Sans-serif;">
+        Buffer de taille n=18
+      </text>
+      <text x = "500" y = "200" style="font-size:12px;font-family:Sans-serif;">
+	le reste de la séquence S
+      </text>-->
+  </g>
+</svg>
