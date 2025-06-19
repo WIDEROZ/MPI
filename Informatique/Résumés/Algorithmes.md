@@ -39,3 +39,6 @@ Soit $m$ le motif de longueur $n$ que l'on recherche dans la chaîne $c$ de long
   + Si $hash(c[i:i+n]) = hash(m)$ alors, le motif apparaît à l'indice $i$.
 
 ## Huffman
+Voir https://fr.wikipedia.org/wiki/Codage_de_Huffman
+
+## Lempel–Ziv–Welch
