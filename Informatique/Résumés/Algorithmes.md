@@ -3,6 +3,10 @@
 - Racine inchangé
 - Pour tout nœud ayant un frère droit, son premier frère droit deviens son fils droit. 
 
+## Ajout d'un élément dans un arbre rouge noir
+- Racine : Noire
+- Ajout d'un nœud : Rouge
+- Si on a deux nœuds rouges faire une rotation sur le nœud noir père des deux rouges.
 
 
 # Algorithmique des automates
