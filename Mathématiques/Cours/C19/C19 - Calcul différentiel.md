@@ -945,36 +945,6 @@ en faisant tendre $t$ vers $0$,
 $$\forall h \in \mathbb{R}^{n},\left< h^{\top}, H_{f}(a)h \right>  \in \mathbb{R}_{+}$$
 
 
-
-$$\begin{cases}
-\frac{\partial  f}{\partial x} (x, y)= e^{ y } + ye^{ x } \\
-\frac{\partial f}{\partial y} (x,y) = xe^{ y } + e^{ x }
-\end{cases} = 0 \Leftrightarrow \begin{cases}
-e^{ x } = -\frac{1}{y}e^{ y } \\
-e^{ y } = -\frac{1}{x}e^{ x }
-\end{cases}$$
-$x, y <0$
-Alors, 
-$$\begin{cases}
-x = -\ln\left( -y \right) + y \\
-e^{ y } = \frac{ e^{ y }}{y^{2} - y\ln(-y) }
-\end{cases}$$
-$$y^{2}-y\ln(-y)-1 = 0$$
-
-$$e^{ y-x }$$
-
-
-
-Alors, 
-$$H_{f} = \begin{pmatrix}
-ye^{ x } & e^{ y } + e^{ x } \\
-e^{ y } + e^{ x }& xe^{ y }
-\end{pmatrix}$$
-
-
-
-
-
 #### Exercice
 $$f: \begin{cases}
 \mathbb{R}^{2} \to \mathbb{R} \\
@@ -992,7 +962,7 @@ xy = 1 \\
 e^{ y-x } = -\frac{1}{x}
 \end{cases}$$
 $x, y <0$
-Étudions $x \in \mathbb{R}_{-}^{*} \mapsto e^{ 1/x - x }+\frac{1}{x}$ 
+Étudions $x \in \mathbb{R}_{-}^{*} \mapsto e^{  \frac{1}{x} - x }+\frac{1}{x}$
 $h' : x \mapsto \left( -\frac{1}{x}-1 \right)e^{ 1/x-x }-\frac{1}{x^{2}}<0$
 alors $-1$ est solution unique
 Donc, $y = -1$, et
