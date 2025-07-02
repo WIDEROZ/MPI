@@ -12,7 +12,7 @@ On à des éléments tels qu'on connaisse leur classe et suite à des questions 
 ### Algorithme ID3
 Entrée : $E = \{ (x_{i}, y_{i}) ; i \in \mathbb{N} \}$,
 $\forall i \in \mathbb{N}, y_{i}$ est la classe a laquelle appartient $x_{i}$
-Sortie : 
+Sortie : Un arbre binaire avec une feuille qui nous dit si les attributs que l'on a choisi fait que l'on appartient à la classe
 
 Pseudo-code : 
 - Si tous les éléments de $E$ sont de même classe $c$ alors
@@ -28,6 +28,9 @@ On note :
 $$f_{i} = \frac{\left| C_{i}\right|}{\left| E\right|} \in ]0, 1]$$
 L'entropie de $E$ est : 
 $$\boxed{H(E) = -\sum_{i = 1}^{n}f_{i} \log(f_{i})}$$
+
+$$$$
+
 
 #### Remarque
 Le désordre de la fréquence d'apparition des points dans les clusters représente une entropie élevée. 
