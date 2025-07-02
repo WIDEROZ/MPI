@@ -9,7 +9,7 @@ On à des éléments tels qu'on connaisse leur classe et suite à des questions 
 - Pour un nœud donné correspondant à un ensemble $A$, les fils correspondent à une partition de $A$
 - Les feuilles correspondent à une partie dont les éléments ont tous la même classe
 
-## Algorithme ID3
+### Algorithme ID3
 Entrée : $E = \{ (x_{i}, y_{i}) ; i \in \mathbb{N} \}$,
 $\forall i \in \mathbb{N}, y_{i}$ est la classe a laquelle appartient $x_{i}$
 Sortie : 
@@ -49,4 +49,5 @@ Plus le critère $k$ repartira les valeurs plus le gain sera bas.
 
 
 https://www.doc-solus.fr/
+
 
