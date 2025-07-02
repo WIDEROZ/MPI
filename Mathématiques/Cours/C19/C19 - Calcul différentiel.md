@@ -924,6 +924,7 @@ $$\begin{array}{c}
 f(a+h) = f(a) + df(a)(h) + \frac{1}{2}h H_{f}(a)h^{\top} + o(\left|\left| h \right|\right| ^{2})
 \end{array}$$
 
+
 #### Remarque
 $$df(a)(h) + \frac{1}{2}h H_{f}(a)h^{\top} = \frac{1}{2} \left< (th)^{\top}, H_{f}(a)th \right> $$
 
@@ -942,6 +943,37 @@ Si $t$ est non nul on peut diviser par $t^{2}$,
 $$\frac{1}{2}\left< h^{\top}, H_{f}(a) h\right> + o(\left|\left| h \right|\right| ^{2}) \varepsilon(\left| th\right|^{2}) \geq 0$$
 en faisant tendre $t$ vers $0$, 
 $$\forall h \in \mathbb{R}^{n},\left< h^{\top}, H_{f}(a)h \right>  \in \mathbb{R}_{+}$$
+
+
+
+$$\begin{cases}
+\frac{\partial  f}{\partial x} (x, y)= e^{ y } + ye^{ x } \\
+\frac{\partial f}{\partial y} (x,y) = xe^{ y } + e^{ x }
+\end{cases} = 0 \Leftrightarrow \begin{cases}
+e^{ x } = -\frac{1}{y}e^{ y } \\
+e^{ y } = -\frac{1}{x}e^{ x }
+\end{cases}$$
+$x, y <0$
+Alors, 
+$$\begin{cases}
+x = -\ln\left( -y \right) + y \\
+e^{ y } = \frac{ e^{ y }}{y^{2} - y\ln(-y) }
+\end{cases}$$
+$$y^{2}-y\ln(-y)-1 = 0$$
+
+$$e^{ y-x }$$
+
+
+
+Alors, 
+$$H_{f} = \begin{pmatrix}
+ye^{ x } & e^{ y } + e^{ x } \\
+e^{ y } + e^{ x }& xe^{ y }
+\end{pmatrix}$$
+
+
+
+
 
 #### Exercice
 $$f: \begin{cases}
