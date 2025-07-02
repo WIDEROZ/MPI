@@ -1,0 +1,1 @@
+$$\forall x, y \in \mathcal{D}_{f}, \forall \varepsilon >0, \exists \alpha >0, \left|\left| y-x \right|\right|_{2} \leq \alpha \Rightarrow \left|\left| f(y)-f(x) \right|\right| \leq \varepsilon $$
