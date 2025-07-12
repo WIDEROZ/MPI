@@ -1,12 +1,20 @@
 #### CCINP
-ENSIMAG (grenoble) 
-INSA (lyon) $\sim$ N7 (toulouse)
 Phelma
-CY Tech (cergy / pau)
-Enseirb-Matmeca (bordeaux)
+INSA (lyon) $\sim$ N7 (toulouse)
+
 
 #### Mines-Telecom
-Telecom Sud paris 
+Telecom Sud paris
 ENSIIE (Evry) (Informatique)
-ENSTA (bretagne) (Je pas sais pas)
+ENSTA (bretagne)
+Mines Saint-Étienne ISMIN
 
+#### Total
+Telecom Sud paris
+ENSIIE
+ENSTA bretagne
+Mines saint-etienne ISMIN (Gardane)
+Phelma
+INSA
+N7
+Enac
